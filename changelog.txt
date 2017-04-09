@@ -115,3 +115,8 @@ Updated squadcontrol from 0.2.1 to 0.3.2. (empires\sourcemod\plugins\squadcontro
 Added advertisements for new plugins. (empires\addons\sourcemod\configs\advertisements)
 Added Force to Website. (empires\addons\sourcemod\configs\adminmenu_custom.txt)
 Updated NoCommExtendVote from 0.6.1 to 0.7. (empires\addons\sourcemod\plugins\NoCommExtendVote.smx) //Option to enable and disable alltalk when both teams have a commander.
+
+09/04/2017
+Added mapexclude. (empires\cfg\maps\mapname.cfg)
+Commented out mapexclude. (empires\cfg\addons\umc-xxx.cfg)
+Added !commandlist. (empires\addons\sourcemod\config\webshortcuts.txt)

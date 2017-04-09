@@ -80,7 +80,7 @@
 	
 	"12"
 	{
-		"chat"	"To list squadpoints available for each squad type !squadpoints."
+		"chat"	"To list each squad's members and points type !squadinfo."
 	}
 	
 	"13"
@@ -130,7 +130,12 @@
 	
 	"22"
 	{
-		"chat"	"Admins: if you see a newbie doing bad force him to type !rtfm. Go in !admin menu, Force to Website, Force Player to Website, select his name, Empires Quick-Start Guide"
+		"chat"	"Admins: if you see a newbie doing bad force him to type !rtfm. Go in !admin menu, Force to Website, Force Player to Website, select his name, Empires Quick-Start Guide."
 		"flags"	""
+	}
+	
+	"23"
+	{
+		"chat"	"Type !commander <be|nf> to see who was in the Command Vehicle last."
 	}
 }

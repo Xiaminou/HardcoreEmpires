@@ -48,3 +48,27 @@ currentmap - Displays the currentmap.
 Nominate - Nominate a map.
 rtv - RockTheVote triggers a vote to change the map if 55% of the players enter rtv.
 !revote - Re-opens the vote menu if you've already voted or closed it.
+!google - Opens Google's website in Steam's Browser.
+!steam - Opens Steam in Steam's Browser.
+!sourcemod - Opens Sourcemod in Steam's Browser.
+!empires - Opens Empires  in Steam's Browser.
+!league - Opens Empires League 2017  in Steam's Browser.
+!wiki - Opens Empires' Wiki in Steam's Browser.
+!rtfm - Opens Empires' Quick-Start Guide in Steam's Browser.
+!mapinfo - Opens The Spreadsheet I use for my server's maps in Steam's Browser.
+!commandlist - Opens the list of available commands in Steam's Browser.
+!squadinfo - Lists members and points for each squad.
+!sl - Vote for a new squadleader, 3 votes required.
+; - Open teamchat and type ; before your message to talk to your squad only.
+!bindsquadvoice - Binds a key to use for Squad Voice (same as voice but only for your squad)
+!commander <be|nf> - Shows the last person to have been in the Command Vehicle. If you're in a team you can't see the opposite side's commander, spectators can see both.
+
+
+Commander Commands:
+
+!assign <player> <squad> - As a commander you can assign any player on your team to any squad (example: assign mikleo b).
+
+
+Spectator Commands:
+
+!channel <squad> - As a spectator you can join a "channel" if you want to have private voice chats.
