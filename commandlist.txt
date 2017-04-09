@@ -1,0 +1,50 @@
+for basic sourcemod commands see: https://wiki.alliedmods.net/Admin_commands_(sourcemod)
+
+Extra Targetting options:
+
+@spec - All players who have joined the spectator team.
+@unassigned - Players who have not joined any team (may include connecting players).
+@notonteams - All the above.
+
+Admin Commands:
+
+!alltalk <1|0> - Turns alltalk on or off.
+!votetime <number> - Sets the commander vote time to <number>, accounts for time already spent. The number on the screen will be what you set it to.
+!pausevote - Pauses the commander vote.
+!resumevote - Pauses the commmander vote.
+!votetimex <number> - Sets the commander vote time to <number>, it does not add time, it sets it.
+!waittime <number> - Sets the wait time for infantry maps, similar to commander vote time.
+!timelimit <number> - Sets the timelimit for infantry maps.
+!spec <1|0> - Enables or disables spectator.
+!goto <player> - Teleports yourself to <player>.
+!bring <player> - Brings <player> to where you're looking at.
+!teamswitch <player> - Teamswitch <player>.
+!teamswitch_death <player> - Teamswitch <player> on death.
+!teamswitch_spec <player> - Switch <player> to spectator.
+!umc_mapvote - Starts a map vote. Use this to test to see if your votes are the way you want them. Requires the umc-votecommand.smx module to be active.
+!umc_reload_mapcycles - Reloads all UMC-Mapcycles.
+!umc_randcycle_picknextmapnow - Sets a random next map. Requires the umc-randomcycle.smx module to be active.
+!setnextmap - Sets the nextmap, disabling the end of map vote. Replicated from original mapchooser.
+!map - changes the map instantly.
+!instantbuild <1|0> - Activate the debug command for instant build.
+!debugvehicles <1|0> - Activate the debug command to build vehicles anywhere.
+!refinerymultiplier <number> - Multiplies the amount of resources you get from refineries.
+!researchmultiplier <number> - Divides the amount of time taken by research.
+!vehiclelimit <number> - Maximum amount of vehicles a team can build.
+!buildinglimit <number> - Maximum amount of buildings a team can build.
+!turretlimit <number> - Maximum amount of turrets a team can build.
+!walllimit <number> - Maximum amount of walls a team can build.
+
+
+Player Commands:
+
+!us - Attempts to unstuck the player.
+!unstuck - Attempts to unstuck the player.
+!recwalls - Recycle all engineer placed walls for the person who entered it.
+!fixsound - Restarts sound (snd_restart).
+!kill - Commit Suicide.
+nextmap - Displays the nextmap
+currentmap - Displays the currentmap.
+Nominate - Nominate a map.
+rtv - RockTheVote triggers a vote to change the map if 55% of the players enter rtv.
+!revote - Re-opens the vote menu if you've already voted or closed it.

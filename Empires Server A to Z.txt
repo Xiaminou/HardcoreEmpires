@@ -1,0 +1,75 @@
+How to create an Empires Server on Windows from A to Z.
+
+Downloading the Empires Server Files and running it for the first time:
+	1. Download and install SteamCMD: https://developer.valvesoftware.com/wiki/SteamCMD
+		1.1. Create a folder for SteamCMD
+		1.2. Download SteamCMD for Windows (https://steamcdn-a.akamaihd.net/client/installer/steamcmd.zip)
+		1.3. Extract the contents of the zip to the folder
+		1.4. Run steamcmd.exe
+	2. Right click on the folder in which steamcmd.exe has been installed.
+	3. Click "open command invite here"
+	4. Enter: "steamcmd.exe +login anonymous +app_update 460040 validate +quit" (without the quotes)
+		4.1. For the beta Enter: "steamcmd.exe +login anonymous +app_update 460040 -beta beta validate +quit"
+	5. Navigate to (steamcmd.exe's directory)\steamapps\common\Empires Dedicated Server
+	6. Create Start Empires Dedicated Server.bat
+	7. Right-click on it click modify or edit with notepad++ (recommended) 
+	8. Enter: "srcds.exe -game "empires" -console -toconsole -secure +map emp_district402 +maxplayers 64 -nobreakpad" (without the quotes)
+		8.1 for a more advanced script look here:
+	9. If your server does not appear in the list make sure to open port 27015. If it still doesn't appear try to route ports above 27015 until it shows.
+
+(Optional) Setting up fast download:
+	1. Create a folder for your fastdl
+	2. Download and install XAMPP: https://www.apachefriends.org/index.html
+		2.1 You will need apache and MySQL
+	3. Open XAMPP
+	4. Configure XAMPP: click config (the one with a wrench top right)
+		4.1. (optional but recommended) set your editor to notepad++
+		4.2. Set Apache and MySQL to autostart
+	5. Configure Apache:
+		5.1. Under Apache click config
+		5.2. Select Apache (httpd.conf)
+		5.3. search for DocumentRoot
+		5.4. Modify the path with the path to the folder your created for fastdl (for example: C:\Program Files (x86)\Steam\steamcmd\steamapps\common\Empires Dedicated Server\fastdl)
+	6. Don't forget to route the ports required by Apache and MySQL (80, 443 and 3306).
+	7. Create an empires folder in your fastdl directory
+	8. Enter localhost in your web browser, you should see an empires folder.
+	9. Navigate to your Empires Dedicated Server directory and go in cfg\server.cfg\server
+	10. Under sv_downloadurl enter "http://yourIP/empires/" (with quotes)
+	11. Copy your map, materials, models, particles, resource, scripts, shaders and sound folder to your fastdl\empires\ directory (not really necessary but better safe than sorry).
+	12. (optional but recommended)Download and install Bzip2 for Windows: http://gnuwin32.sourceforge.net/packages/bzip2.htm
+		12.1. Create bz2.bat in your fastdl folder
+		12.2. Enter: forfiles /s /C "cmd /c C:\GnuWin32\bin\bzip2.exe @file. replace C:\ with your path to your bzip2.exe.
+		12.3. Run bz2.bat, it will compress everything in your fastdl folder to individual .bz2 files.
+	
+(Optional) Setting up sourcemod:
+	0. Shortcut: Mr. X.'s server config: https://drive.google.com/open?id=0BxQWn9jKBIAJR214ek5FQ2xRbm8
+		0.1. Extract the archive in your Empires Dedicated Server\empires\ directory.
+		0.2. This will erase anything you've configured in the previous stage (For example: the fastdl URL).
+	1. Download and install Metamod: http://www.sourcemm.net/downloads/mmsource-1.10.6-windows.zip
+		1.1. Extract the archive in your Empires Dedicated Server\empires\ directory.
+		1.2. (optional) to make sure it's installed correctly start your server and type meta list in the console.
+	2. Download and install Sourcemod: http://www.sourcemod.net/downloads.php
+		1.1. Extract the archive in your Empires Dedicated Server\empires\ directory.
+		1.2. (optional) to make sure it's installed correctly start your server and type meta list in the console.
+	3. (optional but highly recommended) Fixing sourcemod's offsets.
+		3.1. Download (or copy): https://www.delftelectronics.nl/game.empires.txt.
+		3.2. Navigate to Empires Dedicated Server\empires\addons\sourcemod\gamedata\sdktools.games.
+		3.3. Replace game.empires.txt with the one you downloaded.
+	4. (optional but highly recommended) Fixing sourcemod's vote percentage results.
+		3.1. Navigate to Empires Dedicated Server\empires\addons\sourcemod\translations
+		3.2. Open basevotes.phrases.txt (and ultimate-mapchooser.phrases.txt if you have UMC3)
+		3.3. search for "%%" and replace it with "percent" (without the quotes)
+	5. (optional) Install more plugins: https://wiki.empiresmod.com/Sourcemod_Plugins and http://www.sourcemod.net/plugins.php
+		5.1. to install more sourcemod plugins either extract the archive in your Empires Dedicated Server\empires directory.
+		5.2. If you download an .smx file put it in Empires Dedicated Server\empires\addons\sourcemod\plugins
+		5.3. to compile .sp files put them in Empires Dedicated Server\empires\addons\sourcemod\scripts and run compile.exe
+		
+(optional) Adding Custom Maps:
+	1. Custom Empires maps can be found in various places around the forums or at:
+		1.1. http://packages.empiresmod.com/vpk/
+			1.1.1. To Extract a vpk navigate to your Empires Dedicated Server\bin\ and drag the .vpk file you downloaded on vpk.exe. It will create a folder containing all the files in the same directory as the .vpk file.
+		1.2. https://www.dropbox.com/s/5u4vw7awlnhhnfo/Empires2013-MapPack.7z?dl=0
+			1.2.1. Download and extract the archive to your Empires Dedicated Server\empires\ directory.
+	2. If you are using fastdl you also need to add all the files for each map to your fastdl\empires\ directory.
+	3. When adding Empires Custom Maps make sure they have a .res file. It will tell the server what the clients need to download.
+		3.1. If the Custom Map doesn't have a .res file clients who download the map will have no minimap and will be unable to spawn.

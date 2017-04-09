@@ -1,0 +1,299 @@
+"Phrases"
+{
+	"AdminManager"
+	{
+		"en"			"Admin Manager"
+		"ru"			"Управление Админами"
+	}
+	"GroupManager"
+	{
+		"en"			"Group Manager"
+		"ru"			"Управление Группами"
+	}
+	"NoPlayers"
+	{
+		"en"			"No players available on the server"
+		"ru"			"На сервере нет доступных игроков"
+	}
+	"NoAdmins"
+	{
+		"en"			"No admins found in the admins.cfg file"
+		"ru"			"Не обнаружено ниодного админа в файле admins.cfg"
+	}
+	"NoGroups"
+	{
+		"en"			"No groups found in the admin_groups.cfg file"
+		"ru"			"Не обнаружено ниодной группы в файле admin_groups.cfg"
+	}
+	"SelectPlayer"
+	{
+		"en"			"Select a Player"
+		"ru"			"Выберите Игрока"
+	}
+	"SelectAdmin"
+	{
+		"en"			"Select the Admin"
+		"ru"			"Выберите Админа"
+	}
+	"SelectType"
+	{
+		"en"			"Select Auth Type"
+		"ru"			"Выберите Тип Авторизации"
+	}
+	"SelectGroup"
+	{
+		"en"			"Select Group"
+		"ru"			"Выберите Группу"
+	}
+	"Fail"
+	{
+		"en"			"Failed to do this, possible the admin has been deleted"
+		"ru"			"Ошибка операции, возможно админ был удалён"
+	}
+	"Done"
+	{
+		"en"			"Done"
+		"ru"			"Готово"
+	}
+	"Canceled"
+	{
+		"en"			"The operation is canceled"
+		"ru"			"Операция отменена"
+	}
+	"SetPassword"
+	{
+		"en"			"The password has been set successfuly"
+		"ru"			"Пароль успешно установлен"
+	}
+	"SetIdent"
+	{
+		"en"			"The identity has been set successfuly"
+		"ru"			"Идентификатор успешно установлен"
+	}
+	"SetGroup"
+	{
+		"en"			"The group has been set successfuly"
+		"ru"			"Группа установлена успешно"
+	}
+	"SetAuth"
+	{
+		"en"			"The authentication has been set successfuly"
+		"ru"			"Аутентефикатор успешно установлен"
+	}
+	"SetImmunity"
+	{
+		"en"			"The immunity has been set successfuly"
+		"ru"			"Иммунитет успешно установлен"
+	}
+	"SetFlags"
+	{
+		"en"			"The flags has been set successfuly"
+		"ru"			"Флаги успешно установлены"
+	}
+	"RemoveGroup"
+	{
+		"en"			"Remove Group"
+		"ru"			"Удалить Группу"
+	}
+	"GroupRemoved"
+	{
+		"en"			"The group has been removed"
+		"ru"			"Группа была удалена"
+	}
+	"RemoveAdmin"
+	{
+		"en"			"Remove Admin"
+		"ru"			"Удаление Админа"
+	}
+	"AdminRemoved"
+	{
+		"en"			"The admin has been removed"
+		"ru"			"Админ был удалён"
+	}
+	"AddAdmin"
+	{
+		"en"			"Add an Admin"
+		"ru"			"Добавить Админа"
+	}
+	"EditAdmin"
+	{
+		"en"			"Admin Editor"
+		"ru"			"Редактор Админа"
+	}
+	"SameAuth"
+	{
+		"en"			"The Admin has the same Authentication"
+		"ru"			"У Админа уже установлен такой Аутентефикатор"
+	}
+	"Auth"
+	{
+		"en"			"Authentication"
+		"ru"			"Аутентефикатор"
+	}
+	"ChangeAuth"
+	{
+		"en"			"Change Authentication"
+		"ru"			"Изменить Аутентефикатор"
+	}
+	"AddAuth"
+	{
+		"en"			"Add Authentication"
+		"ru"			"Добавить Аутентефикатор"
+	}
+	"Ident"
+	{
+		"en"			"Identity"
+		"ru"			"Идентификатор"
+	}
+	"InvalidIdent"
+	{
+		"#format"		"{1:s}"
+		"en"			"Invalid {1} identity"
+		"ru"			"Неверный {1} идентификатор"
+	}
+	"ChangeIdent"
+	{
+		"en"			"Change Identity"
+		"ru"			"Изменить Идентификатор"
+	}
+	"AddIdent"
+	{
+		"en"			"Add Identity"
+		"ru"			"Добавить Идентификатор"
+	}
+	"Password"
+	{
+		"en"			"Password"
+		"ru"			"Пароль"
+	}
+	"ChangePassword"
+	{
+		"en"			"Change Password"
+		"ru"			"Изменить Пароль"
+	}
+	"RemovePassword"
+	{
+		"en"			"Remove Password"
+		"ru"			"Удалить Пароль"
+	}
+	"PasswordRemoved"
+	{
+		"en"			"Password removed"
+		"ru"			"Пароль удален"
+	}
+	"AddPassword"
+	{
+		"en"			"Add Password"
+		"ru"			"Добавить Пароль"
+	}
+	"Group"
+	{
+		"en"			"Group"
+		"ru"			"Группа"
+	}
+	"AddGroup"
+	{
+		"en"			"Add a Group"
+		"ru"			"Добавить Группу"
+	}
+	"EditGroup"
+	{
+		"en"			"Edit The Group"
+		"ru"			"Редактировать Группу"
+	}
+	"GroupAdded"
+	{
+		"en"			"The group has been added"
+		"ru"			"Группа была добавлена"
+	}
+	"ChangeAdminGroup"
+	{
+		"en"			"Change The Group"
+		"ru"			"Поменять Группу"
+	}
+	"AddToGroup"
+	{
+		"en"			"Add to Group"
+		"ru"			"Добавить в Группу"
+	}
+	"RemoveAdminFromGroup"
+	{
+		"en"			"Remove From the Group"
+		"ru"			"Удалить из Группы"
+	}
+	"AdminRemovedFromGroup"
+	{
+		"en"			"The admin has been removed from the group"
+		"ru"			"Админ удалён из группы"
+	}
+	"Flags"
+	{
+		"en"			"Flags"
+		"ru"			"Флаги"
+	}
+	"EditFlags"
+	{
+		"en"			"Edit Flags"
+		"ru"			"Редактировать Флаги"
+	}
+	"AddFlags"
+	{
+		"en"			"Add Flags"
+		"ru"			"Добавить Флаги"
+	}
+	"Immunity"
+	{
+		"en"			"Immunity"
+		"ru"			"Иммунитет"
+	}
+	"ImmunityRemoved"
+	{
+		"en"			"Immunity has been removed as it was set to 0"
+		"ru"			"Иммунитет был удален, так как был установлен на 0"
+	}
+	"EditImmunity"
+	{
+		"en"			"Edit Immunity"
+		"ru"			"Редактировать Иммунитет"
+	}
+	"AddImmunity"
+	{
+		"en"			"Add Immunity"
+		"ru"			"Добавить Иммунитет"
+	}
+	"ByName"
+	{
+		"en"			"Name"
+		"ru"			"Имя"
+	}
+	"BySteamID"
+	{
+		"en"			"SteamID"
+		"ru"			"SteamID"
+	}
+	"ByIP"
+	{
+		"en"			"IP"
+		"ru"			"IP"
+	}
+	"IdentMethod"
+	{
+		"en"			"Select Method"
+		"ru"			"Выберите Метод"
+	}
+	"SelectFromPlayer"
+	{
+		"en"			"Select From Player"
+		"ru"			"Выбрать Игрока"
+	}
+	"SetManualy"
+	{
+		"en"			"Set Manualy"
+		"ru"			"Вписать Вручную"
+	}
+	"TypeValue"
+	{
+		"en"			"Type the value in the chat right now or type \"cancel\" to cancel the operation!"
+		"ru"			"Впишите значение в чате прямо сейчас или наберите \"cancel\", чтобы отменить операцию!"
+	}
+}

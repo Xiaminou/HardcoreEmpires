@@ -1,0 +1,616 @@
+// Custom admin menu commands.
+// For more information:
+//
+// http://wiki.alliedmods.net/Custom_Admin_Menu_%28SourceMod%29
+//
+// Note: This file must be in Valve KeyValues format (no multiline comments)
+//
+
+"Commands"
+{
+	"Transfer Commands"
+	{
+		"Transfer Group to Server" //Requires Client Exec: https://forums.alliedmods.net/showthread.php?t=58982
+		{
+			"cmd"			"sm_cexec #1 #2"
+			"admin"			"sm_kick"
+			"execute"		"server"
+			
+			"1"
+			{
+				"type" 		"list"
+				"title"		"Group"
+				"1"			"#all"
+				"1."		"Everyone"
+			}
+			"2"
+			{
+				"type" 		"list"
+				"title"		"Server"
+				"1"			"connect 192.99.0.76:27016"
+				"1."		"Wired's Memehouse"
+				"2"			"connect 178.32.178.141:27017"
+				"2."		"FLGaming"
+				"3"			"connect 149.56.107.210:27015"
+				"3."		"Empires Strikes Back"
+				"4"			"connect 70.49.137.236:27016"
+				"4."		"Lazylizard's Server"
+				"5"			"connect 213.245.206.161:27015"
+				"5."		"Mr. X.'s Teamplay Academy"
+				"6"			"connect 136.32.67.229:27015"
+				"6."		"Jekotian"
+			}
+		}	
+		"Transfer Player to Server" //Requires Client Exec: https://forums.alliedmods.net/showthread.php?t=58982
+		{
+			"cmd"			"sm_cexec #1 #2"
+			"admin"			"sm_kick"
+			"execute"		"server"
+			
+			"1"
+			{
+				"type" 		"player"
+				"method"	"name"
+				"title"		"Players"
+			}
+			"2"
+			{
+				"type" 		"list"
+				"title"		"Server"
+				"1"			"connect 192.99.0.76:27016"
+				"1."		"Wired's Memehouse"
+				"2"			"connect 178.32.178.141:27017"
+				"2."		"FLGaming"
+				"3"			"connect 149.56.107.210:27015"
+				"3."		"Empires Strikes Back"
+				"4"			"connect 70.49.137.236:27016"
+				"4."		"Lazylizard's Server"
+				"5"			"connect 213.245.206.161:27015"
+				"5."		"Mr. X.'s Teamplay Academy"
+				"6"			"connect 136.32.67.229:27015"
+				"6."		"Jekotian"
+			}
+		}
+	}
+	"Force to Team"
+	{
+		"Force Group to Team"  //Requires Client Exec: https://forums.alliedmods.net/showthread.php?t=58982
+		{
+			"cmd"			"sm_cexec #1 #2"
+			"admin"			"sm_kick"
+			"execute"		"server"
+			
+			"1"
+			{
+				"type" 		"list"
+				"title"		"Group"
+				"1"			"#all"
+				"1."		"Everyone"
+ 
+			}
+			"2"
+			{
+				"type" 		"list"
+				"title"		"Team"
+				"1"			"jointeam 2"
+				"1."		"Northern Faction"
+				"2"			"jointeam 3"
+				"2."		"Brenodi Empire"
+				"3"			"jointeam 1"
+				"3."		"Spectator"
+				"4"			"jointeam 4"
+				"4."		"Auto-assign"
+			}
+		}
+		"Force Player to Team"  //Requires Client Exec: https://forums.alliedmods.net/showthread.php?t=58982
+		{
+			"cmd"			"sm_cexec #1 #2"
+			"admin"			"sm_kick"
+			"execute"		"server"
+			
+			"1"
+			{
+				"type" 		"player"
+				"method"	"name"
+				"title"		"Players"
+			}
+			"2"
+			{
+				"type" 		"list"
+				"title"		"Team"
+				"1"			"jointeam 2"
+				"1."		"Northern Faction"
+				"2"			"jointeam 3"
+				"2."		"Brenodi Empire"
+				"3"			"jointeam 1"
+				"3."		"Spectator"
+				"4"			"jointeam 4"
+				"4."		"Auto-assign"
+			}
+ 
+		}
+	}
+	"Server Variable Commands"
+	{
+		"Commander Vote Time"
+		{
+			"cmd"			"emp_sv_vote_commander_time #1"
+			"admin"			"sm_cvar"
+			"execute"		"server"
+			
+			"1"
+			{
+				"type"		"list"
+				"title"		"Time (seconds)"
+				"1"			"60"
+				"2"			"120"
+				"3"			"180"
+				"4"			"240"
+				"5"			"300"
+				"6"			"360"
+				"7"			"420"
+				"8"			"480"
+				"9"			"540"
+			}
+		}
+		"Infantry Wait Time"
+		{
+			"cmd"			"emp_sv_wait_phase_time #1"
+			"admin"			"sm_cvar"
+			"execute"		"server"
+			
+			"1"
+			{
+				"type"		"list"
+				"title"		"Time (seconds)"
+				"1"			"30"
+				"2"			"60"
+				"3"			"90"
+				"4"			"120"
+				"5"			"150"
+				"6"			"180"
+				"7"			"210"
+				"8"			"240"
+				"9"			"270"
+			}
+		}
+		"Alltalk"
+		{
+			"cmd"			"sv_alltalk #1"
+			"admin"			"sm_cvar"
+			"execute"		"server"
+			
+			"1"
+			{
+				"type"		"onoff"
+				"title"		"On/Off"
+			}
+		}
+		"Allow Spectators"
+		{
+			"cmd"			"emp_allowspectators #1"
+			"admin"			"sm_cvar"
+			"execute"		"server"
+			
+			"1"
+			{
+				"type"		"onoff"
+				"title"		"On/Off"
+			}
+		}
+		"Infantry Maps Time Limit"
+		{
+			"cmd"			"mp_timelimit #1"
+			"admin"			"sm_cvar"
+			"execute"		"server"
+			
+			"1"
+			{
+				"type"		"list"
+				"title"		"Time (minutes)"
+				"1"			"5"
+				"2"			"10"
+				"3"			"15"
+				"4"			"20"
+				"5"			"25"
+				"6"			"30"
+				"7"			"35"
+				"8"			"40"
+				"9"			"45"
+			}
+		}
+		"Refinery Multiplier"
+		{
+			"cmd"			"emp_sv_refinery_multiplier #1"
+			"admin"			"sm_cvar"
+			"execute"		"server"
+			
+			"1"
+			{
+				"type"		"list"
+				"title"		"Multiplier"
+				"1"			"0.5"
+				"1."		"0.5"
+				"2"			"1"
+				"3"			"2"
+				"4"			"3"
+				"5"			"4"
+				"6"			"5"
+				"7"			"10"
+				"8"			"20"
+				"9"			"30"
+			}
+		}
+		"Research Multiplier"
+		{
+			"cmd"			"emp_sv_research_multiplier #1"
+			"admin"			"sm_cvar"
+			"execute"		"server"
+			
+			"1"
+			{
+				"type"		"list"
+				"title"		"Multiplier"
+				"1"			"1"
+				"2"			"2"
+				"3"			"3"
+				"4"			"4"
+				"5"			"5"
+				"6"			"10"
+				"7"			"20"
+				"8"			"30"
+				"9"			"40"
+			}
+		}
+		"Max Buildings (default: 48)"
+		{
+			"cmd"			"emp_sv_max_buildings #1"
+			"admin"			"sm_cvar"
+			"execute"		"server"
+			
+			"1"
+			{
+				"type"		"list"
+				"title"		"Multiplier"
+				"1"			"32"
+				"2"			"48"
+				"3"			"64"
+				"4"			"80"
+				"5"			"96"
+				"6"			"112"
+				"7"			"128"
+				"8"			"144"
+				"9"			"160"
+			}
+		}
+		"Max Turrets (default: 32)"
+		{
+			"cmd"			"emp_sv_max_turrets #1"
+			"admin"			"sm_cvar"
+			"execute"		"server"
+			
+			"1"
+			{
+				"type"		"list"
+				"title"		"Multiplier"
+				"1"			"16"
+				"2"			"32"
+				"3"			"48"
+				"4"			"64"
+				"5"			"80"
+				"6"			"96"
+				"7"			"112"
+				"8"			"128"
+				"9"			"144"
+			}
+		}
+		"Max Walls (default: 64)"
+		{
+			"cmd"			"emp_sv_max_walls #1"
+			"admin"			"sm_cvar"
+			"execute"		"server"
+			
+			"1"
+			{
+				"type"		"list"
+				"title"		"Multiplier"
+				"1"			"32"
+				"2"			"48"
+				"3"			"64"
+				"4"			"80"
+				"5"			"96"
+				"6"			"112"
+				"7"			"128"
+				"8"			"144"
+				"9"			"160"
+			}
+		}
+		"Max Vehicles (default: 16)"
+		{
+			"cmd"			"emp_sv_max_vehicles #1"
+			"admin"			"sm_cvar"
+			"execute"		"server"
+			
+			"1"
+			{
+				"type"		"list"
+				"title"		"Multiplier"
+				"1"			"8"
+				"2"			"10"
+				"3"			"12"
+				"4"			"14"
+				"5"			"16"
+				"6"			"20"
+				"7"			"24"
+				"8"			"28"
+				"9"			"32"
+			}
+		}
+	}
+	"Empires Server Commands"
+	{
+		"Give Resources to Team"
+		{
+			"cmd"			"emp_give_resources #1 #2"
+			"admin"			"sm_cvar"
+			"execute"		"server"
+			
+			"1"
+			{
+				"type"		"list"
+				"title"		"Team"
+				"1"			"NF"
+				"1."		"Northern Faction"
+				"2"			"BE"
+				"2."		"Brenodi Empire"
+			}
+			
+			"2"
+			{
+				"type"		"list"
+				"title"		"Resources"
+				"1"			"100"
+				"2"			"200"
+				"3"			"300"
+				"4"			"400"
+				"5"			"500"
+				"6"			"600"
+				"7"			"700"
+				"8"			"800"
+				"9"			"900"
+				"10"		"1000"
+				"11"		"2000"
+				"12"		"3000"
+				"13"		"4000"
+				"14"		"5000"
+				"15"		"10000"
+			}
+		}
+		"Research Item"
+		{
+			"cmd"			"emp_sv_research_item #1"
+			"admin"			"sm_cvar"
+			"execute"		"server"
+			
+			"1"
+			{
+				"type"		"list"
+				"title"		"Item to Research"
+				"1"			"Physics"
+				"2"			"Chemistry"
+				"3"			"Mechanical Engineering"
+				"4"			"Electrical Engineering"
+				"5"			"Biology"
+				"6"			"Superheated Material Physics"
+				"7"			"Plasma Cannon Projectile"
+				"8"			"Plasma-Resistant Shell Coating"
+				"9"			"Dedicated Plasma Cannon"
+				"10"		"Plasma Bullet Projectile"
+				"11"		"Projectile Physics"
+				"12"		"Extended Range Cannon"
+				"13"		"Aerodynamic Shells"
+				"14"		"Heavy-Duty Ranged Cannon"
+				"15"		"Heavy Caliber Machine Gun"
+				"16"		"Nuclear Fission"
+				"17"		"Fission Reactor"
+				"18"		"HIT Warhead"
+				"19"		"Deflective Armor"
+				"20"		"Improved Flagration Compounds"
+				"21"		"Explosive Tipped Bullets"
+				"22"		"Improved Detonation Compounds"
+				"23"		"High Explosive Grenades"
+				"24"		"High Explosive Shells"
+				"25"		"Thermobaric Shells"
+				"26"		"Thermobaric Cannon"
+				"27"		"Improved Warhead Compounds"
+				"28"		"Upgraded Missile Warhead"
+				"29"		"Expanded Missile Launcher"
+				"30"		"Heavy-duty Missile Warhead"
+				"31"		"Improved Heat Transfer Fluids"
+				"32"		"Advanced Coolant Engine"
+				"33"		"Absorbant Armor"
+				"34"		"Upgraded Chassis"
+				"35"		"Medium Tank Chassis"
+				"36"		"Artillery Tank Chassis"
+				"37"		"Enhanced Grenadier Missiles"
+				"38"		"Advanced Chassis"
+				"39"		"APCR Grenadier Missiles"
+				"40"		"Heavy Tank Chassis"
+				"41"		"Advanced Machining"
+				"42"		"Composite Armor"
+				"43"		"Gas Turbine Engine"
+				"44"		"Electrical Engineering"
+				"45"		"Advanced Magnet Research"
+				"46"		"Experimental Railgun"
+				"47"		"Mobile Industrial Electromagnets"
+				"48"		"Overcharged Railgun"
+				"49"		"3 Phase Electric Motor"
+				"50"		"Capacitive Armor"
+				"51"		"Reactive Armor"
+				"52"		"Tracking Systems"
+				"53"		"Homing Missiles"
+				"54"		"Enhanced Homing AI"
+				"55"		"Upgraded Homing Missiles"
+				"56"		"Guided Missiles"
+				"57"		"Guiding Signal Boosters"
+				"58"		"TOW Guided Missiles"
+				"59"		"Upgraded Turrets Lvl 2"
+				"60"		"Upgraded Turrets Lvl 3"
+				"61"		"Regenerative Armor"
+				"62"		"Bio Diesel Engine"
+				"63"		"Biological Weaponry"
+				"64"		"Biological Warhead"
+				"65"		"Incubator Missiles"
+				"66"		"Virulent Warhead"
+				"67"		"Biological Projectile"
+				"68"		"Biological Cannon"
+				"69"		"Incubator Tanks"
+				"70"		"Virulent Shells"
+				
+			}
+		}
+		"Unresearch Item"
+		{
+			"cmd"			"emp_sv_unresearch_item #1"
+			"admin"			"sm_cvar"
+			"execute"		"server"
+			
+			"1"
+			{
+				"type"		"list"
+				"title"		"Item to Research"
+				"1"			"Physics"
+				"2"			"Chemistry"
+				"3"			"Mechanical Engineering"
+				"4"			"Electrical Engineering"
+				"5"			"Biology"
+				"6"			"Superheated Material Physics"
+				"7"			"Plasma Cannon Projectile"
+				"8"			"Plasma-Resistant Shell Coating"
+				"9"			"Dedicated Plasma Cannon"
+				"10"		"Plasma Bullet Projectile"
+				"11"		"Projectile Physics"
+				"12"		"Extended Range Cannon"
+				"13"		"Aerodynamic Shells"
+				"14"		"Heavy-Duty Ranged Cannon"
+				"15"		"Heavy Caliber Machine Gun"
+				"16"		"Nuclear Fission"
+				"17"		"Fission Reactor"
+				"18"		"HIT Warhead"
+				"19"		"Deflective Armor"
+				"20"		"Improved Flagration Compounds"
+				"21"		"Explosive Tipped Bullets"
+				"22"		"Improved Detonation Compounds"
+				"23"		"High Explosive Grenades"
+				"24"		"High Explosive Shells"
+				"25"		"Thermobaric Shells"
+				"26"		"Thermobaric Cannon"
+				"27"		"Improved Warhead Compounds"
+				"28"		"Upgraded Missile Warhead"
+				"29"		"Expanded Missile Launcher"
+				"30"		"Heavy-duty Missile Warhead"
+				"31"		"Improved Heat Transfer Fluids"
+				"32"		"Advanced Coolant Engine"
+				"33"		"Absorbant Armor"
+				"34"		"Upgraded Chassis"
+				"35"		"Medium Tank Chassis"
+				"36"		"Artillery Tank Chassis"
+				"37"		"Enhanced Grenadier Missiles"
+				"38"		"Advanced Chassis"
+				"39"		"APCR Grenadier Missiles"
+				"40"		"Heavy Tank Chassis"
+				"41"		"Advanced Machining"
+				"42"		"Composite Armor"
+				"43"		"Gas Turbine Engine"
+				"44"		"Electrical Engineering"
+				"45"		"Advanced Magnet Research"
+				"46"		"Experimental Railgun"
+				"47"		"Mobile Industrial Electromagnets"
+				"48"		"Overcharged Railgun"
+				"49"		"3 Phase Electric Motor"
+				"50"		"Capacitive Armor"
+				"51"		"Reactive Armor"
+				"52"		"Tracking Systems"
+				"53"		"Homing Missiles"
+				"54"		"Enhanced Homing AI"
+				"55"		"Upgraded Homing Missiles"
+				"56"		"Guided Missiles"
+				"57"		"Guiding Signal Boosters"
+				"58"		"TOW Guided Missiles"
+				"59"		"Upgraded Turrets Lvl 2"
+				"60"		"Upgraded Turrets Lvl 3"
+				"61"		"Regenerative Armor"
+				"62"		"Bio Diesel Engine"
+				"63"		"Biological Weaponry"
+				"64"		"Biological Warhead"
+				"65"		"Incubator Missiles"
+				"66"		"Virulent Warhead"
+				"67"		"Biological Projectile"
+				"68"		"Biological Cannon"
+				"69"		"Incubator Tanks"
+				"70"		"Virulent Shells"
+				
+			}
+		}
+	}
+	"Force to Website"
+	{
+		"Force Group to Website"  //Requires Client Exec: https://forums.alliedmods.net/showthread.php?t=58982
+		{
+			"cmd"			"sm_cexec #1 #2"
+			"admin"			"sm_kick"
+			"execute"		"server"
+			
+			"1"
+			{
+				"type" 		"list"
+				"title"		"Group"
+				"1"			"#all"
+				"1."		"Everyone"
+			}
+			"2"
+			{
+				"type" 		"list"
+				"title"		"Team"
+				"1"			"say !empires"
+				"1."		"Empires Forums"
+				"2"			"say !league"
+				"2."		"Empires League 2017"
+				"3"			"say !wiki"
+				"3."		"Empires Wiki"
+				"4"			"say !rtfm"
+				"4."		"Empires Quick-Start Guide"
+				"5"			"say !mapinfo"
+				"5."		"Maps Spreadsheet"
+			}
+		}
+		"Force Player to Website"  //Requires Client Exec: https://forums.alliedmods.net/showthread.php?t=58982
+		{
+			"cmd"			"sm_cexec #1 #2"
+			"admin"			"sm_kick"
+			"execute"		"server"
+			
+			"1"
+			{
+				"type" 		"player"
+				"method"	"name"
+				"title"		"Players"
+			}
+			"2"
+			{
+				"type" 		"list"
+				"title"		"Team"
+				"1"			"say !empires"
+				"1."		"Empires Forums"
+				"2"			"say !league"
+				"2."		"Empires League 2017"
+				"3"			"say !wiki"
+				"3."		"Empires Wiki"
+				"4"			"say !rtfm"
+				"4."		"Empires Quick-Start Guide"
+				"5"			"say !mapinfo"
+				"5."		"Maps Spreadsheet"
+			}
+		}
+	}
+}
