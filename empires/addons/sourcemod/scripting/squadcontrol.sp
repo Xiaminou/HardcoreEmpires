@@ -17,11 +17,22 @@ public Plugin myinfo =
 
 new String:squadnames[][] = {"No Squad","Alpha","Bravo","Charlie","Delta","Echo","Foxtrot","Golf","Hotel","India","Juliet","Kilo","Lima","Mike","November","Oscar","Papa","Quebec","Romeo","Sierra","Tango","Uniform","Victor","Whiskey","X-Ray","Yankee","Zulu"};
 int playerVotes[MAXPLAYERS+1] = {0, ...};
-bool squadVoice[MAXPLAYERS+1] = {false,...};
+int commVotes[MAXPLAYERS+1] = {0, ...};
 int commChatTime[MAXPLAYERS+1] = {0, ...};
 int lastCommVoiceTime[MAXPLAYERS+1] = {0, ...};
-bool commVoice[MAXPLAYERS+1] = {false, ...};
+// bit flags
+int playerFlags [MAXPLAYERS+1] = {0, ...};
 int comms[4];
+bool gameStarted = false;
+
+
+#define FLAG_SQUAD_VOICE		(1<<0)
+#define FLAG_COMM_VOICE		(1<<1)
+
+
+#define HINT_SQUAD_CHAT			(1<<10)
+#define HINT_SQUAD_VOICE		(1<<11)
+#define HINT_COMM_CHAT		(1<<12)
 
 public void OnPluginStart()
 {
@@ -29,6 +40,7 @@ public void OnPluginStart()
 	LoadTranslations("common.phrases");
 	RegConsoleCmd("sm_squadinfo", Command_Info);
 	RegConsoleCmd("sm_sl", Command_SL_Vote);
+	RegConsoleCmd("sm_rsl", Command_Request_SL);
 	RegConsoleCmd("say_squad", Command_Say_Squad);
 	RegConsoleCmd("say_comm", Command_Say_Comm);
 	RegConsoleCmd("say_comm_private", Command_Say_Comm_Private);
@@ -42,29 +54,61 @@ public void OnPluginStart()
 	RegConsoleCmd("+voicerecord_comm", Command_Comm_Voice_Start);
 	RegConsoleCmd("-voicerecord_comm", Command_Comm_Voice_End);
 	RegConsoleCmd("voice_squad_only", Comand_Squad_Voice);
+	AddCommandListener(Command_Invite_Player, "emp_squad_invite");
+	AddCommandListener(Command_Opt_Out, "emp_commander_vote_drop_out");
+	AddCommandListener(Command_Comm_Vote, "emp_commander_vote");
 	AddCommandListener(Command_Say_Team, "say_team");
 	AddCommandListener(Command_Squad_Join, "emp_squad_join");
 	HookEvent("player_team", Event_PlayerTeam, EventHookMode_Post);
 	HookEvent("vehicle_enter", Event_VehicleEnter, EventHookMode_Post);
-
+	HookEvent("commander_elected_player", Event_Elected_Player, EventHookMode_Pre);
 }
 
 public OnConfigsExecuted()
 {
 	
 }
+public OnClientConnected(int client)
+{
+	// reset all player flags
+	playerFlags[client] = 0;
+}
+public OnClientDisconnect(int client)
+{
+	if(IsClientInGame(client))
+	{
+		int team = GetClientTeam(client);
+		if(comms[team] == client)
+		{
+			comms[team] = 0;
+			if(!gameStarted)
+			{
+				RefreshVotes(team);
+			}
+		}
+	}
+	
+	// reset all player flags
+	playerFlags[client] = 0;
+}
 
 public Action  Command_Bind_Squad_Voice(int client,int args)
 {
+	if(client == 0)
+		client = 1;
 	new String:arg[129];
 	GetCmdArg(1, arg, sizeof(arg));
 	ClientCommand(client,"bind \"%s\" \"+voicerecord_squad\"",arg,arg);
+	return Plugin_Handled;
 }
 public Action  Command_Bind_Comm_Voice(int client,int args)
 {
+	if(client == 0)
+		client = 1;
 	new String:arg[129];
 	GetCmdArg(1, arg, sizeof(arg));
 	ClientCommand(client,"bind \"%s\" \"+voicerecord_comm\"",arg,arg);
+	return Plugin_Handled;
 }
 public Action Command_Squad_Voice_Start(int client,int args)
 {
@@ -94,10 +138,12 @@ public Action Comand_Squad_Voice(int client,int args)
 	int team = GetClientTeam(client);
 	int squad = GetEntProp(client, Prop_Send, "m_iSquad");
 	
+	//playerFlags[client] |= HINT_SQUAD_VOICE;
+	
 	if(StrEqual("1", arg, false))
 	{
 		ClientCommand(client,"+voicerecord");
-		squadVoice[client] = true;
+		playerFlags[client] |= FLAG_SQUAD_VOICE;
 		for(new i=1; i< MaxClients; i++)
 		{ 
 			if(IsClientInGame(i) )
@@ -105,6 +151,13 @@ public Action Comand_Squad_Voice(int client,int args)
 				if(GetClientTeam(i) == team && GetEntProp(i, Prop_Send, "m_iSquad") == squad)
 				{
 					EmitSoundToClient(i, "squadcontrol/squadvoice_start.wav");
+					if(!(playerFlags[i] & HINT_SQUAD_VOICE))
+					{
+						new String:clientName[128];
+						GetClientName(client,clientName,sizeof(clientName));
+						PrintToChat(i,"%s is using squad voice, use !bindsquadvoice [key] to reply",clientName);
+						playerFlags[i] |= HINT_SQUAD_VOICE;
+					}
 				}
 				else
 				{
@@ -119,7 +172,7 @@ public Action Comand_Squad_Voice(int client,int args)
 	else
 	{
 		ClientCommand(client,"-voicerecord");
-		squadVoice[client] = false;
+		playerFlags[client] &= ~FLAG_SQUAD_VOICE;
 		for(new i=1; i< MaxClients; i++)
 		{ 
 			if(IsClientInGame(i))
@@ -166,17 +219,17 @@ void SetCommVoice(int client,bool enabled)
 	if(enabled)
 	{
 		ClientCommand(client,"+voicerecord");
-		commVoice[client] = true;
+		playerFlags[client] |= FLAG_COMM_VOICE;
 		for(new i=1; i< MaxClients; i++)
 		{ 
 			if(IsClientInGame(i) )
 			{
-				if(GetClientTeam(i) == team && (comms[team] == i || commVoice[i] ||  thetime - lastCommVoiceTime[i] < 30))
+				if(GetClientTeam(i) == team && (comms[team] == i || playerFlags[client] & FLAG_COMM_VOICE ||  thetime - lastCommVoiceTime[i] < 30))
 				{
 					EmitSoundToClient(i, "squadcontrol/commvoice_start.wav");
 					
 					// start listening to players who already began speaking
-					if(commVoice[i])
+					if(playerFlags[client] & FLAG_COMM_VOICE)
 					{
 						SetListenOverride(client,i,Listen_Default);
 					}
@@ -194,7 +247,7 @@ void SetCommVoice(int client,bool enabled)
 	}
 	else
 	{
-		commVoice[client] = false;
+		playerFlags[client] &= ~FLAG_COMM_VOICE;
 		lastCommVoiceTime[client] = thetime;
 		ClientCommand(client,"-voicerecord");
 		for(new i=1; i< MaxClients; i++)
@@ -232,7 +285,7 @@ void SquadChange(int client)
 	// if we have left a squad block the players speaking in that squad
 	for(new i=1; i< MaxClients; i++)
 	{ 
-		if(IsClientInGame(i) && GetClientTeam(i) == team && squadVoice[i])
+		if(IsClientInGame(i) && GetClientTeam(i) == team && playerFlags[i] & FLAG_SQUAD_VOICE) 
 		{
 			if(GetEntProp(i, Prop_Send, "m_iSquad") == squad)
 			{
@@ -252,6 +305,17 @@ public Action Event_PlayerTeam(Event event, const char[] name, bool dontBroadcas
 	int client = GetClientOfUserId(GetEventInt(event, "userid"));
 	playerVotes[client] = 0;
 	SquadChange(client);
+	
+	//int team = GetEventInt(event, "team");
+	int oldTeam = GetEventInt(event, "oldteam");
+	if(comms[oldTeam] == client)
+	{
+		if(!gameStarted)
+		{
+			RefreshVotes(oldTeam);
+		}
+		comms[oldTeam] = 0;
+	}
 	return Plugin_Continue;
 }
 public Action Event_VehicleEnter(Event event, const char[] name, bool dontBroadcast)
@@ -304,6 +368,11 @@ public Action Command_Say_Comm(int client,int args)
 	GetClientName(client,clientName,sizeof(clientName));
 	
 	
+	// for testing comment this out
+	playerFlags[client] |= HINT_COMM_CHAT;
+	
+	
+	
 	
 	if(isComm)
 	{
@@ -313,26 +382,41 @@ public Action Command_Say_Comm(int client,int args)
 		{
 			if(IsClientInGame(i) && GetClientTeam(i) == team)
 			{
+				if(!(playerFlags[i] & HINT_COMM_CHAT))
+				{
+					PrintToChat(i,"%s is using comm chat, put a '.' before your message to type a message that will play an alert sound to your comm.",clientName);
+					playerFlags[i] |= HINT_SQUAD_CHAT;
+				}
+			
 				PrintToChat(i,message);
 				EmitSoundToClient(client,"squadcontrol/commchat_alert.wav");
+				
+				
 			}
 		}
 	}
 	else
 	{
+	
+		int comm = comms[team];
+		if(comm == 0 || !IsClientInGame(comm))
+		{
+			PrintToChat(client,"There is no commander");
+			return Plugin_Handled;
+		}
 		new String:commMessage[256]; 
 		
-		Format(message, sizeof(message), "\x03(To Comm) s: %s",clientName,input); 
+		Format(message, sizeof(message), "\x03(To Comm) %s: %s",clientName,input); 
 		Format(commMessage, sizeof(commMessage), "\x04(To Comm) \x01%s: %s",clientName,input); 
 		
-		int comm = comms[team];
+		
 		
 		for(new i=1; i< MaxClients; i++)
 		{
 			if(IsClientInGame(i) && GetClientTeam(i) == team)
 			{
 				// to everyone not comm and initiator
-				if(i != client && comms[team] != i) 
+				if( comms[team] != i) 
 				{
 					// the less important message. // need team color here
 					new Handle:hBf;
@@ -348,20 +432,10 @@ public Action Command_Say_Comm(int client,int args)
 				}
 			}
 		}
-		if(comm == 0 || !IsClientInGame(comm))
-		{
-			PrintToChat(client,"There is no commander");
-		}
-		else
-		{
-			
-			PrintToChat(client,commMessage);
-			PrintToChat(comm,commMessage);
-			EmitSoundToClient(client,"squadcontrol/commchat_alert.wav");
-			EmitSoundToClient(comm,"squadcontrol/commchat_alert.wav");
-		}
-		
-		
+		PrintToChat(client,commMessage);
+		PrintToChat(comm,commMessage);
+		EmitSoundToClient(client,"squadcontrol/commchat_alert.wav");
+		EmitSoundToClient(comm,"squadcontrol/commchat_alert.wav");
 	}
 	return Plugin_Handled;
 }
@@ -452,12 +526,19 @@ public Action Command_Say_Squad(int client,int args)
 	
 	GetClientName(client,clientName,sizeof(clientName));
 	Format(message, sizeof(message), "\x04(%s) \x01%s: %s",squadnames[squad],clientName,input); 
-
+	
+	// for testing comment this out
+	playerFlags[client] |= HINT_SQUAD_CHAT;
 	
 	for(new i=1; i< MaxClients; i++)
 	{
 		if(IsClientInGame(i) && GetClientTeam(i) == team && GetEntProp(i, Prop_Send, "m_iSquad") == squad)
 		{
+			if(!(playerFlags[i] & HINT_SQUAD_CHAT))
+			{
+				PrintToChat(i,"%s is using squad chat, put a ';' before your message in team chat to reply.",clientName);
+				playerFlags[i] |= HINT_SQUAD_CHAT;
+			}
 			PrintToChat(i,message);
 			EmitSoundToClient(i,"squadcontrol/squadchat_alert.wav");
 		}
@@ -524,7 +605,8 @@ public Action Command_Info(int client, int args)
 		client = 1;
 	int currentTeam = GetClientTeam(client);
 	int points[26];
-	new String:message[128] = "";
+	// need high limit, it prints out a lot of information.
+	new String:message[512] = "";
 	ArrayList players[26];
 	int resourceEntity = GetPlayerResourceEntity();
 	for (new i = 1; i <= MaxClients; i++)
@@ -725,12 +807,19 @@ public Action Command_SL_Vote(int client, int args)
 	
 	return Plugin_Handled;
 }
+public Action Command_Request_SL(int client, int args)
+{
+	int squad = GetEntProp(client, Prop_Send, "m_iSquad");
+	FakeClientCommand(client,"say_comm_private \"Requesting lead of %s squad commander!\"",squadnames[squad]); 
+	return Plugin_Handled;
+}
+
 public Action Command_Assign_Squad(int client, int args)
 {
 	if(client == 0)
 		client = 1;
 	int clientTeam = GetClientTeam(client);
-	if(comms[clientTeam] == client)
+	if(comms[clientTeam] != client)
 	{
 		ReplyToCommand(client, "You must be the commander to assign squads");
 		return Plugin_Handled;
@@ -791,22 +880,27 @@ public Action Command_Assign_Squad(int client, int args)
 	
 	int squad = getSquad(arg2);
 	
-	if(getNumberInSquad(GetClientTeam(client),squad) == 5)
-	{
-		ReplyToCommand(client, "The squad is full");
-		return Plugin_Handled;
-	}
+	AssignSquad(client,target,squad);
 	
-	FakeClientCommand(target,"emp_squad_join %d",squad); 
-	
-	char originName[256];
-	char targetName[256];
-	GetClientName(client, originName, sizeof(originName));
-	GetClientName(target, targetName, sizeof(targetName));
-	PrintToChat(client,"Assigned %s to %s squad",targetName,squadnames[squad]);
-	PrintToChat(target,"%s assigned you to %s squad",originName,squadnames[squad]);
 	return Plugin_Handled;
 }
+void AssignSquad(int origin,int target, int squad)
+{
+	if(getNumberInSquad(GetClientTeam(origin),squad) == 5)
+	{
+		PrintToChat(origin, "The squad is full");
+		return;
+	}
+	FakeClientCommand(target,"emp_squad_join %d",squad); 
+	char originName[256];
+	char targetName[256];
+	GetClientName(origin, originName, sizeof(originName));
+	GetClientName(target, targetName, sizeof(targetName));
+	PrintToChat(origin,"Assigned %s to %s squad",targetName,squadnames[squad]);
+	PrintToChat(target,"%s assigned you to %s squad",originName,squadnames[squad]);
+	
+}
+
 public Action Command_Change_Channel(int client, int args)
 {
 	if(!IsClientInGame(client))
@@ -874,6 +968,8 @@ vote( int client,int squad,int target)
 	char targetName[256];
 	GetClientName(client, originName, sizeof(originName));
 	GetClientName(target, targetName, sizeof(targetName));
+	
+	
 	for (new i = 1; i <= MaxClients; i++)
 	{
 		if(IsClientInGame(i) &&  GetClientTeam(i) == team && GetEntProp(i, Prop_Send, "m_iSquad")== squad)
@@ -895,12 +991,12 @@ vote( int client,int squad,int target)
 	}
 	else
 	{
-		Format(message, sizeof(message), "%s voted for %s to become squad leader, %d more votes are needed",originName,targetName, 3 - votes);
+		Format(message, sizeof(message), "%s voted for %s to become squad leader (%d/3). Use /sl [player] to vote.",originName,targetName, votes);
 	}
 	
 	for (new i = 0; i < squadPlayers.Length; i++)
 	{
-		PrintToChat(squadPlayers.Get(i),message);
+			PrintToChat(squadPlayers.Get(i),message);
 	}
 	delete squadPlayers;
 }
@@ -934,7 +1030,22 @@ changeSquadLeader(int team, int squad,int target)
 	
 	FakeClientCommand(leader,"emp_make_lead %d",target); 
 }
-
+public Action Command_Invite_Player(client, const String:command[], args)
+{
+	int team = GetClientTeam(client);
+	char arg[65];
+	GetCmdArg(1, arg, sizeof(arg));
+	int player = StringToInt(arg);
+	int squad = GetEntProp(client, Prop_Send, "m_iSquad");
+	// if they are not in the squad assign them, when you are comm 
+	if(IsClientInGame(player) && GetClientTeam(player) == team && GetEntProp(client, Prop_Send, "m_bCommander") == 1 && squad != GetEntProp(player, Prop_Send, "m_iSquad"))
+	{
+		AssignSquad(client,player,squad);
+		return Plugin_Handled;
+	}
+	return Plugin_Continue;
+	
+}
 
 
 public OnMapStart()
@@ -954,6 +1065,97 @@ public OnMapStart()
 	for (int i=1; i<=MaxClients; i++)
 	{
 		playerVotes[i] = 0;
+		// reset appropriate flags
+		playerFlags[i] &= ~(FLAG_SQUAD_VOICE | FLAG_COMM_VOICE);
+	}
+	comms[2] = 0;
+	comms[3] = 0;
+	gameStarted = false;
+}
+public Action  Command_Comm_Vote(client, const String:command[], args)
+{
+	int team = GetClientTeam(client);
+	char arg[65];
+	GetCmdArg(1, arg, sizeof(arg));
+	int player = StringToInt(arg);
+	
+	int resourceEntity = GetPlayerResourceEntity();
+	if(GetEntProp(resourceEntity, Prop_Send, "m_bWantsCommand",4,player))
+	{
+		commVotes[client] = player;
+		RefreshVotes(team);
+	}
+	
+}
+
+public Action Command_Opt_Out(client, const String:command[], args)
+{
+	for (int i=1; i<=MaxClients; i++)
+	{
+		if(commVotes[i] == client)
+		{
+			commVotes[i] = 0;
+		}
+	}
+	RefreshVotes(GetClientTeam(client));
+}
+
+ 
+void RefreshVotes(int team)
+{
+	int votes[MAXPLAYERS+1] = {0,...}; // votes for each player
+	// add all the comm votes up.
+	for (int i=1; i<=MaxClients; i++)
+	{
+		if(IsClientInGame(i) && GetClientTeam(i) == team && commVotes[i] != 0)
+		{
+			votes[commVotes[i]]++;
+		}
+	}
+	int mostVotesClient;
+	int mostVotes = 0;
+	for (int i=1; i<=MaxClients; i++)
+	{
+		if(votes[i] >mostVotes)
+		{
+			mostVotes = votes[i];
+			mostVotesClient = i;
+		}
+		// lets test if first player index gets commander
+	}
+	if( mostVotesClient != comms[team])
+	{
+		if(comms[team] != 0)
+		{
+			SetEntProp(comms[team], Prop_Send, "m_bCommander",false);
+		}
+		if(mostVotesClient != 0)
+		{
+			SetEntProp(mostVotesClient, Prop_Send, "m_bCommander",true);
+		}
+		comms[team] = mostVotesClient;
+		
 	}
 }
+
+
+public Event_Elected_Player(Handle:event, const char[] name, bool dontBroadcast)
+{	
+	// remove commander status for now
+	for(int i = 2;i<4;i++)
+	{
+		if(comms[i] != 0)
+		{
+			if(IsClientInGame(comms[i]))
+			{
+				SetEntProp(comms[i], Prop_Send, "m_bCommander",false);
+			}
+			comms[i] = 0;
+		}
+	}
+	gameStarted = true;
+	
+}
+
+
 

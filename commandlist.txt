@@ -59,9 +59,14 @@ rtv - RockTheVote triggers a vote to change the map if 55% of the players enter 
 !commandlist - Opens the list of available commands in Steam's Browser.
 !squadinfo - Lists members and points for each squad.
 !sl - Vote for a new squadleader, 3 votes required.
-; - Open teamchat and type ; before your message to talk to your squad only.
+; - Open teamchat and type ";" (semicolon) before your message to talk to your squad only.
+, - Open teamchat and type "," (comma) before your message to communicate with your commander privately.
+. - Open teamchat and type "." (dot) before your message to communicate with your commander publicly.
 !bindsquadvoice - Binds a key to use for Squad Voice (same as voice but only for your squad)
+!bindcommvoice - Binds a key to use for Commander Voice, only your commander will hear you.
 !commander <be|nf> - Shows the last person to have been in the Command Vehicle. If you're in a team you can't see the opposite side's commander, spectators can see both.
+!LeagueNF - Join NF for Empires League 2017
+!LeagueBE - Join BE for Empires League 2017
 
 
 Commander Commands:

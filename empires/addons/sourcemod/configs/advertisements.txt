@@ -90,7 +90,7 @@
 	
 	"14"
 	{
-		"chat"	"To communicate with your squad only open teamchat and type ; followed by your message."
+		"chat"	"To communicate with your squad only open teamchat and type ";" (semicolon) followed by your message."
 	}
 	
 	"15"
@@ -143,4 +143,25 @@
 	{
 		"chat"	"To see the (almost) full list of commands available type !commandlist."
 	}
+	
+	"25"
+	{
+		"chat"	"Type !LeagueNF or !LeagueBE to join a team for the Empires League 2017."
+	}
+	
+	"26"
+	{
+		"chat"	"To communicate with your Commander privately open teamchat and type "," (comma) followed by your message."
+	}
+	
+	"27"
+	{
+		"chat"	"To communicate with your Commander publicly open teamchat and type "." (dot) followed by your message."
+	}
+	
+	"28"
+	{
+		"chat"	"To use Commander Voice chat type !bindcommvoice <key>, then press that key like normal voice chat, only your Commander will hear you."
+	}
+	
 }
