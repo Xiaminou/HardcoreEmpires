@@ -1,0 +1,165 @@
+///////////////////////////////////////////////////////////////////////////////
+////////////////////////////////Updated ReadMe////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////
+//This plugin executes configs when there are either a certain amount of clients 
+//on, a certain event occurs, a certain round starts or when there are a certain 
+//amount of minutes left on the map. You can use this to disable alltalk above 
+//x clients, or to change the map when the timelimit hits, etc. The configs of 
+//course go into the cfg folder and the console variables are as follows:
+//
+//sm_executeconfigs_enabled (0/1, def 1)
+//Enable/disable executing configs. The plugin will keep counting the rounds and 
+//timeleft when it's disabled, but it will only actually execute the configs when 
+//it's enabled.
+//
+//sm_executeconfigs_include_bots (0/1, def. 1)
+//Enable/disable including bots when counting number of clients. This will allow 
+//you to disable counting fake clients as normal clients.
+//
+//sm_executeconfigs_include_spec (0/1, def. 1)
+//Enable/disable including spectators when counting number of clients. This will 
+//allow you to disable counting spectators as normal clients.
+//ADDED: Now also dont count unassigned.
+//
+//sm_executeconfigs_reload
+//Server command to reload the configs from executeconfigs.txt.
+//
+//Added commands:
+//
+//sm_executeconfigs_file (def. "executeconfigs.txt")
+//File to read the executeconfigs from.
+//
+//sm_executeconfigs_most_recent_only (0/1, def. 0)
+//Enable/disable avoiding of execution previously scheduled configs if the new 
+//schedule of the same type (client, map, ...) config appears.
+//
+//sm_executeconfigs_sched_min_time (def. 0.5)
+//The minimal time in seconds between schedules - depends on the longest time 
+//needed to execute CFG file. If next CFG execution comes sooner than current CFG 
+//is executed it will be skipped. 0.5 seconds is suitable for most cases.
+//
+//To customize which configs get executed, put the attached executeconfigs.txt 
+//in the configs folder. It contains some examples of which I'll explain one here:
+//
+//Example:
+//
+//"Configs"
+//{
+//   "*"
+//   {
+//       "clients:0"    "10:emptyserver.cfg"
+//   }
+//}
+//
+//This means that for all maps, when there are 0 clients on, emptyserver.cfg will 
+//get executed after 10 seconds. The delay is for when someone joins within those 10
+//seconds, it will look for a config for when there is 1 client on, and if found it 
+//will execute that line. If it wasn't found it will continue to execute 
+//emptyserver.cfg, so if you're changing the map in emptyserver.cfg, make sure it 
+//will stop doing that by creating an empty config for clients:1.
+//
+//Added empires events (1.2.4)
+//switching_to_new_map = Event_GameStart
+//commander_elected_player = Event_RoundStart //not the best way, but no other round 
+//start event seems to exist
+//
+//
+//
+//
+//"Configs"
+//{
+//	"*"
+//	{
+//		"clients:1"		"10:number1.cfg"
+//		"clients:3"		"5:number2.cfg"
+//		"event:player_spawn"	"0:number3.cfg"
+//		"clients:8"			"5:number4.cfg"
+//		"timeleft:0"	"1:timelimit.cfg"
+//	}
+//	"ctf"
+//	{
+//		"event:ctf_flag_captured"	"2:flag_captured.cfg"
+//		"round:2"			"5:secondround.cfg"
+//	}
+//	"cp_dustbowl"
+//	{
+//		"timeleft:15"	"0:switchteams.cfg"
+//	}
+//}
+
+"Configs"
+{
+	"*"
+	{
+	"clients:1"			"0:playercount/1.cfg"
+	"clients:2"			"0:playercount/2.cfg"
+	"clients:3"			"0:playercount/3.cfg"
+	"clients:4"			"0:playercount/4.cfg"
+	"clients:5"			"0:playercount/5.cfg"
+	"clients:6"			"0:playercount/6.cfg"
+	"clients:7"			"0:playercount/7.cfg"
+	"clients:8"			"0:playercount/8.cfg"
+	"clients:9"			"0:playercount/9.cfg"
+	"clients:10"		"0:playercount/10.cfg"
+	"clients:11"		"0:playercount/11.cfg"
+	"clients:12"		"0:playercount/12.cfg"
+	"clients:13"		"0:playercount/13.cfg"
+	"clients:14"		"0:playercount/14.cfg"
+	"clients:15"		"0:playercount/15.cfg"
+	"clients:16"		"0:playercount/16.cfg"
+	"clients:17"		"0:playercount/17.cfg"
+	"clients:18"		"0:playercount/18.cfg"
+	"clients:19"		"0:playercount/19.cfg"
+	"clients:20"		"0:playercount/20.cfg"
+	"clients:21"		"0:playercount/21.cfg"
+	"clients:22"		"0:playercount/22.cfg"
+	"clients:23"		"0:playercount/23.cfg"
+	"clients:24"		"0:playercount/24.cfg"
+	"clients:25"		"0:playercount/25.cfg"
+	"clients:26"		"0:playercount/26.cfg"
+	"clients:27"		"0:playercount/27.cfg"
+	"clients:28"		"0:playercount/28.cfg"
+	"clients:29"		"0:playercount/29.cfg"
+	"clients:30"		"0:playercount/30.cfg"
+	"clients:31"		"0:playercount/31.cfg"
+	"clients:32"		"0:playercount/32.cfg"
+	"clients:33"		"0:playercount/33.cfg"
+	"clients:34"		"0:playercount/34.cfg"
+	"clients:35"		"0:playercount/35.cfg"
+	"clients:36"		"0:playercount/36.cfg"
+	"clients:37"		"0:playercount/37.cfg"
+	"clients:38"		"0:playercount/38.cfg"
+	"clients:39"		"0:playercount/39.cfg"
+	"clients:40"		"0:playercount/40.cfg"
+	"clients:41"		"0:playercount/41.cfg"
+	"clients:42"		"0:playercount/42.cfg"
+	"clients:43"		"0:playercount/43.cfg"
+	"clients:44"		"0:playercount/44.cfg"
+	"clients:45"		"0:playercount/45.cfg"
+	"clients:46"		"0:playercount/46.cfg"
+	"clients:47"		"0:playercount/47.cfg"
+	"clients:48"		"0:playercount/48.cfg"
+	"clients:49"		"0:playercount/49.cfg"
+	"clients:50"		"0:playercount/50.cfg"
+	"clients:51"		"0:playercount/51.cfg"
+	"clients:52"		"0:playercount/52.cfg"
+	"clients:53"		"0:playercount/53.cfg"
+	"clients:54"		"0:playercount/54.cfg"
+	"clients:55"		"0:playercount/55.cfg"
+	"clients:56"		"0:playercount/56.cfg"
+	"clients:57"		"0:playercount/57.cfg"
+	"clients:58"		"0:playercount/58.cfg"
+	"clients:59"		"0:playercount/59.cfg"
+	"clients:60"		"0:playercount/60.cfg"
+	"clients:61"		"0:playercount/61.cfg"
+	"clients:62"		"0:playercount/62.cfg"
+	"clients:63"		"0:playercount/63.cfg"
+	"clients:64"		"0:playercount/64.cfg"
+	}
+}
+
+
+
+
+
+

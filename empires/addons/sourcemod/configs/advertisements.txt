@@ -20,7 +20,7 @@
 
 	"1"
 	{
-		"chat"	"{default}If you are stuck type {engine 8}!us {default}or {engine 8}!unstuck."
+		"chat"	"If you are stuck type !us or !unstuck."
 	}
 	
 	"2"
@@ -90,7 +90,7 @@
 	
 	"14"
 	{
-		"chat"	"To communicate with your squad only open teamchat and type ";" (semicolon) followed by your message."
+		"chat"	"To communicate with your squad only open teamchat and type ; (semicolon) followed by your message."
 	}
 	
 	"15"
@@ -151,12 +151,12 @@
 	
 	"26"
 	{
-		"chat"	"To communicate with your Commander privately open teamchat and type "," (comma) followed by your message."
+		"chat"	"To communicate with your Commander privately open teamchat and type , (comma) followed by your message."
 	}
 	
 	"27"
 	{
-		"chat"	"To communicate with your Commander publicly open teamchat and type "." (dot) followed by your message."
+		"chat"	"To communicate with your Commander publicly open teamchat and type . (dot) followed by your message."
 	}
 	
 	"28"
@@ -164,12 +164,12 @@
 		"chat"	"To use Commander Voice chat type !bindcommvoice <key>, then press that key like normal voice chat, only your Commander will hear you."
 	}
 	
-	"28"
+	"29"
 	{
 		"chat"	"Is there something wrong with the server? Something you do not like? Type !feedback and open an issue, your voice will be heard."
 	}
 	
-	"29"
+	"30"
 	{
 		"chat"	"To get notified of server events join our steam group by typing !steamgroup."
 	}

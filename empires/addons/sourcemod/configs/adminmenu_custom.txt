@@ -13,7 +13,7 @@
 		"Transfer Group to Server" //Requires Client Exec: https://forums.alliedmods.net/showthread.php?t=58982
 		{
 			"cmd"			"sm_cexec #1 #2"
-			"admin"			"sm_kick"
+			"admin"			"sm_rcon"
 			"execute"		"server"
 			
 			"1"
@@ -44,7 +44,7 @@
 		"Transfer Player to Server" //Requires Client Exec: https://forums.alliedmods.net/showthread.php?t=58982
 		{
 			"cmd"			"sm_cexec #1 #2"
-			"admin"			"sm_kick"
+			"admin"			"sm_rcon"
 			"execute"		"server"
 			
 			"1"
@@ -77,7 +77,7 @@
 		"Force Group to Team"  //Requires Client Exec: https://forums.alliedmods.net/showthread.php?t=58982
 		{
 			"cmd"			"sm_cexec #1 #2"
-			"admin"			"sm_kick"
+			"admin"			"sm_rcon"
 			"execute"		"server"
 			
 			"1"
@@ -105,7 +105,7 @@
 		"Force Player to Team"  //Requires Client Exec: https://forums.alliedmods.net/showthread.php?t=58982
 		{
 			"cmd"			"sm_cexec #1 #2"
-			"admin"			"sm_kick"
+			"admin"			"sm_rcon"
 			"execute"		"server"
 			
 			"1"
@@ -558,7 +558,7 @@
 		"Force Group to Website"  //Requires Client Exec: https://forums.alliedmods.net/showthread.php?t=58982
 		{
 			"cmd"			"sm_cexec #1 #2"
-			"admin"			"sm_kick"
+			"admin"			"sm_rcon"
 			"execute"		"server"
 			
 			"1"
@@ -591,7 +591,7 @@
 		"Force Player to Website"  //Requires Client Exec: https://forums.alliedmods.net/showthread.php?t=58982
 		{
 			"cmd"			"sm_cexec #1 #2"
-			"admin"			"sm_kick"
+			"admin"			"sm_rcon"
 			"execute"		"server"
 			
 			"1"
