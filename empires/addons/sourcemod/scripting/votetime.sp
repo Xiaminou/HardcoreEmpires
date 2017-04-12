@@ -100,7 +100,7 @@ public Action Command_Pause(int client, int args)
 		decl String:nick[64];
 		if(GetClientName(client, nick, sizeof(nick))) 
 		{
-			PrintToChatAll("[VT]: %s paused the comm vote. %s " , nick,pauseNotifyMessage); 
+			PrintToChatAll("\x04[VT]\x0766ffff %s \x01paused the Commander Vote. %s " , nick,pauseNotifyMessage); 
 		}
 	}	
 	return Plugin_Handled;
@@ -113,7 +113,7 @@ public Action Command_Resume(int client, int args)
 		decl String:nick[64];
 		if(GetClientName(client, nick, sizeof(nick))) 
 		{
-			PrintToChatAll("[VT]: %s resumed the comm vote.", nick); 
+			PrintToChatAll("\x04[VT]\x0766ffff %s \x01resumed the Commander Vote.", nick); 
 		}
 	}
 	return Plugin_Handled;
@@ -136,7 +136,7 @@ public Action Timer_NotifyPaused(Handle timer)
 		notifyMessage = pauseNotifyMessage;
 	}
 	
-	PrintToChatAll("[VT]: The Commander Vote Timer is paused. %s", notifyMessage);
+	PrintToChatAll("\x04[VT]\x01 The Commander Vote Timer is paused. %s", notifyMessage);
 }
 
 public Action Command_VoteTime(int client, int args)
@@ -145,7 +145,7 @@ public Action Command_VoteTime(int client, int args)
 	
 	if(voteEnded)
 	{
-		PrintToChat(client, "[VT]: The vote has already ended");
+		PrintToChat(client, "The Commander Vote has already ended");
 		return Plugin_Handled;
 	}
 	
@@ -216,7 +216,7 @@ public Event_CommVoteTime(Handle:event, const char[] name, bool dontBroadcast)
 
 SetVoteTime(int voteTime)
 {
-	PrintToChatAll("[VT]: Commander Vote Time set to %d seconds.",voteTime);
+	PrintToChatAll("\x04[VT]\x01 Commander Vote Time set to %d seconds.",voteTime);
 	if(voteStartTime != 0)
 	{
 		voteTime += GetExpiredTime();
