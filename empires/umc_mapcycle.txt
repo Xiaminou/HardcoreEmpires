@@ -260,7 +260,7 @@
 			"max_players"	"52"
 		}
 		
-		"emp_frozensummit_b2_2013"
+		"emp_frozensummit_b2_2013_fix"
 		{
 			"min_players"	"32"
 			"max_players"	"52"
@@ -374,11 +374,11 @@
 			"max_players"	"52"
 		}
 		
-		"emp_streetsoffire"
-		{
-			"min_players"	"14"
-			"max_players"	"32"
-		}
+//		"emp_streetsoffire_old"
+//		{
+//			"min_players"	"14"
+//			"max_players"	"32"
+//		}
 		
 		"emp_cyclopean"
 		{

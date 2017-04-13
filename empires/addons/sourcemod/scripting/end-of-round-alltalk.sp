@@ -69,7 +69,7 @@ public AlltalkChanged (Handle:convar, const String:oldValue[], const String:newV
   new bool:announce = GetConVarBool(cvar_announce);
   if (StringToInt(newValue)) {
     if (announce) {
-      PrintToChatAll("Alltalk is now on.");
+      PrintToChatAll("\x04Alltalk\x01 is now \x07008000on\x01.");
     }
     if (alltalk_being_changed_by_us) {
       alltalk_being_changed_by_us = false;
@@ -80,7 +80,7 @@ public AlltalkChanged (Handle:convar, const String:oldValue[], const String:newV
   }
   else {
     if (announce) {
-      PrintToChatAll("Alltalk is now off.");
+      PrintToChatAll("\x04Alltalk\x01 is now \x07ff0000off\x01.");
     }
   }
 }

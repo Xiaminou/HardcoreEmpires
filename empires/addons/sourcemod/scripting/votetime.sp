@@ -100,7 +100,7 @@ public Action Command_Pause(int client, int args)
 		decl String:nick[64];
 		if(GetClientName(client, nick, sizeof(nick))) 
 		{
-			PrintToChatAll("\x04[VT]\x0766ffff %s \x01paused the Commander Vote. %s " , nick,pauseNotifyMessage); 
+			PrintToChatAll("\x04[VT] \x073399ff%s\x01 \x01paused the Commander Vote. %s " , nick,pauseNotifyMessage); 
 		}
 	}	
 	return Plugin_Handled;
@@ -113,7 +113,7 @@ public Action Command_Resume(int client, int args)
 		decl String:nick[64];
 		if(GetClientName(client, nick, sizeof(nick))) 
 		{
-			PrintToChatAll("\x04[VT]\x0766ffff %s \x01resumed the Commander Vote.", nick); 
+			PrintToChatAll("\x04[VT] \x073399ff%s\x01 \x01resumed the Commander Vote.", nick); 
 		}
 	}
 	return Plugin_Handled;
@@ -216,7 +216,7 @@ public Event_CommVoteTime(Handle:event, const char[] name, bool dontBroadcast)
 
 SetVoteTime(int voteTime)
 {
-	PrintToChatAll("\x04[VT]\x01 Commander Vote Time set to %d seconds.",voteTime);
+	PrintToChatAll("\x04[VT]\x01 Commander Vote Time set to \x073399ff%d\x01 seconds.",voteTime);
 	if(voteStartTime != 0)
 	{
 		voteTime += GetExpiredTime();
