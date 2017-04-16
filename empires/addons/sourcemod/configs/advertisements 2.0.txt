@@ -1,0 +1,182 @@
+// Advertisements 2.0
+// by Tsunami
+//
+// Types
+// -----
+// center: Center message
+// chat: Chat message
+// hint: Hint message
+// menu: Menu message
+// top: Top message
+//
+// Flags (optional)
+// -----
+// Accepts flags of admins that will not see the advertisement.
+// When omitted everyone will see the advertisement.
+// When left empty only admins will see the advertisement.
+
+"Advertisements"
+{
+
+	"1"
+	{
+		"chat"	"If you are stuck type !us or !unstuck."
+	}
+	
+	"2"
+	{
+		"chat"	"To recycle your walls type !recwalls."
+	}
+	
+	"3"
+	{
+		"chat"	"If your sound is bugged type !fixsound."
+	}
+	
+	"4"
+	{
+		"chat"	"If your commander tells you to killspawn press delete or type !kill."
+	}
+	
+	"5"
+	{
+		"chat"	"Admins: To change the commander vote time use !votetime <time>."
+		"flags" ""
+	}
+	
+	"6"
+	{
+		"chat"	"Admins: To turn alltalk on or off use !alltalk <1|0>."
+		"flags" ""
+	}
+	
+	"7"
+	{
+		"chat"	"Admins: To enable or disable spectators use !spec <1|0>."
+		"flags" ""
+	}
+	
+	"8"
+	{
+		"chat"	"If you don't want engineers to revive you type !forcekill."
+	}
+	
+	"9"
+	{
+		"chat"	"Admins: To pause the commander vote use !pausevote."
+		"flags" ""
+	}
+	
+	"10"
+	{
+		"chat"	"Admins: To resume the commander vote use !resumevote."
+		"flags" ""
+	}
+	
+	"11"
+	{
+		"chat"	"Commanders: To assign someone to a squad type !assign <player> <squad>."
+	}
+	
+	"12"
+	{
+		"chat"	"To list each squad's members and points type !squadinfo."
+	}
+	
+	"13"
+	{
+		"chat"	"To vote for a new squadleader type !sl <player> (requires 3 votes)."
+	}
+	
+	"14"
+	{
+		"chat"	"To communicate with your squad only open teamchat and type ; (semicolon) followed by your message."
+	}
+	
+	"15"
+	{
+		"chat"	"Spectators: To join a channel type !channel and a letter."
+	}
+	
+	"16"
+	{
+		"chat"	"To use squad voice chat type !bindsquadvoice <key>, then press that key like normal voice chat, only your squad will hear you."
+	}
+	
+	"17"
+	{
+		"chat"	"If you want to check out Empires Forums type !empires and click on forums."
+	}
+	
+	"18"
+	{
+		"chat"	"To participate in the Empires League 2017 type !league and follow the instructions in the thread."
+	}
+	
+	"19"
+	{
+		"chat"	"To consult the Empires wiki type !wiki."
+	}
+	
+	"20"
+	{
+		"chat"	"If you're new type !rtfm and read the Quick-Start Guide."
+	}
+	
+	"21"
+	{
+		"chat"	"If you want more informations on the mapcycle and maps in general type !mapinfo."
+	}
+	
+	"22"
+	{
+		"chat"	"Admins: if you see a newbie doing bad force him to type !rtfm. Go in !admin menu, Force to Website, Force Player to Website, select his name, Empires Quick-Start Guide."
+		"flags"	""
+	}
+	
+	"23"
+	{
+		"chat"	"Type !commander <be|nf> to see who was in the Command Vehicle last."
+	}
+	
+	"24"
+	{
+		"chat"	"To see the (almost) full list of commands available type !commandlist."
+	}
+	
+	"25"
+	{
+		"chat"	"Type !LeagueNF or !LeagueBE to join a team for the Empires League 2017."
+	}
+	
+	"26"
+	{
+		"chat"	"To communicate with your Commander privately open teamchat and type , (comma) followed by your message."
+	}
+	
+	"27"
+	{
+		"chat"	"To communicate with your Commander publicly open teamchat and type . (dot) followed by your message."
+	}
+	
+	"28"
+	{
+		"chat"	"To use Commander Voice chat type !bindcommvoice <key>, then press that key like normal voice chat, only your Commander will hear you."
+	}
+	
+	"29"
+	{
+		"chat"	"Is there something wrong with the server? Something you do not like? Type !feedback and open an issue, your voice will be heard."
+	}
+	
+	"30"
+	{
+		"chat"	"To get notified of server events join our steam group by typing !steamgroup."
+	}
+	
+	"31"
+	{
+		"chat"	"To obtain more informations about a map type !<mapname> for example: !emp_isle."
+	}
+	
+}

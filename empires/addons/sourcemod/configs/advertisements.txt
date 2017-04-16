@@ -1,13 +1,18 @@
-// Advertisements 2.0
+// Advertisements 0.5
 // by Tsunami
-//
+// 
 // Types
 // -----
-// center: Center message
-// chat: Chat message
-// hint: Hint message
-// menu: Menu message
-// top: Top message
+// C: Center message
+// H: Hint message
+// M: Menu message
+// S: Say message
+//    - Colors:  {DEFAULT}, {TEAM}, {GREEN}, {LIGHTGREEN}
+//    - Example: {GREEN}Current {LIGHTGREEN}Map: {DEFAULT}{CURRENTMAP}
+// T: Top message
+//    - Colors:  {WHITE},  {RED},  {GREEN}, {BLUE}, {YELLOW}, {PURPLE}, {CYAN},
+//               {ORANGE}, {PINK}, {OLIVE}, {LIME}, {VIOLET}, {LIGHTBLUE}
+//    - Example: {ORANGE} www.domain.com
 //
 // Flags (optional)
 // -----
@@ -17,166 +22,208 @@
 
 "Advertisements"
 {
-
-	"1"
+		"1"
 	{
-		"chat"	"If you are stuck type !us or !unstuck."
+		"type"	"S"
+		"text"	"{GREEN}[ADV]{DEFAULT} If you are stuck type {GREEN}!us{DEFAULT} or {GREEN}!unstuck{DEFAULT}."
 	}
 	
 	"2"
 	{
-		"chat"	"To recycle your walls type !recwalls."
+		"type"	"S"
+		"text"	"{GREEN}[ADV]{DEFAULT} To recycle your walls type {GREEN}!recwalls{DEFAULT}."
 	}
 	
 	"3"
 	{
-		"chat"	"If your sound is bugged type !fixsound."
+		"type"	"S"
+		"text"	"{GREEN}[ADV]{DEFAULT} If your sound is bugged type {GREEN}!fixsound{DEFAULT}."
 	}
 	
 	"4"
 	{
-		"chat"	"If your commander tells you to killspawn press delete or type !kill."
+		"type"	"S"
+		"text"	"{GREEN}[ADV]{DEFAULT} If your commander tells you to killspawn press delete or type {GREEN}!kill{DEFAULT}."
 	}
 	
 	"5"
 	{
-		"chat"	"Admins: To change the commander vote time use !votetime <time>."
+		"type"	"S"
+		"text"	"{GREEN}[ADV]{DEFAULT} Admins: To change the commander vote time use {GREEN}!votetime <time>{DEFAULT}."
 		"flags" ""
 	}
 	
 	"6"
 	{
-		"chat"	"Admins: To turn alltalk on or off use !alltalk <1|0>."
+		"type"	"S"
+		"text"	"{GREEN}[ADV]{DEFAULT} Admins: To turn alltalk on or off use {GREEN}!alltalk <1|0>{DEFAULT}."
 		"flags" ""
 	}
 	
 	"7"
 	{
-		"chat"	"Admins: To enable or disable spectators use !spec <1|0>."
+		"type"	"S"
+		"text"	"{GREEN}[ADV]{DEFAULT} Admins: To enable or disable spectators use {GREEN}!spec <1|0>{DEFAULT}."
 		"flags" ""
 	}
 	
 	"8"
 	{
-		"chat"	"If you don't want engineers to revive you type !forcekill."
+		"type"	"S"
+		"text"	"{GREEN}[ADV]{DEFAULT} If you don't want engineers to revive you type {GREEN}!forcekill{DEFAULT}."
 	}
 	
 	"9"
 	{
-		"chat"	"Admins: To pause the commander vote use !pausevote."
+		"type"	"S"
+		"text"	"{GREEN}[ADV]{DEFAULT} Admins: To pause the commander vote use {GREEN}!pausevote{DEFAULT}."
 		"flags" ""
 	}
 	
 	"10"
 	{
-		"chat"	"Admins: To resume the commander vote use !resumevote."
+		"type"	"S"
+		"text"	"{GREEN}[ADV]{DEFAULT} Admins: To resume the commander vote use {GREEN}!resumevote{DEFAULT}."
 		"flags" ""
 	}
 	
 	"11"
 	{
-		"chat"	"Commanders: To assign someone to a squad type !assign <player> <squad>."
+		"type"	"S"
+		"text"	"{GREEN}[ADV]{DEFAULT} Commanders: To assign someone to a squad type {GREEN}!assign <player> <squad>{DEFAULT}."
 	}
 	
 	"12"
 	{
-		"chat"	"To list each squad's members and points type !squadinfo."
+		"type"	"S"
+		"text"	"{GREEN}[ADV]{DEFAULT} To list each squad's members and points type {GREEN}!squadinfo{DEFAULT}."
 	}
 	
 	"13"
 	{
-		"chat"	"To vote for a new squadleader type !sl <player> (requires 3 votes)."
+		"type"	"S"
+		"text"	"{GREEN}[ADV]{DEFAULT} To vote for a new squadleader type {GREEN}!sl <player>{DEFAULT} (requires 3 votes)."
 	}
 	
 	"14"
 	{
-		"chat"	"To communicate with your squad only open teamchat and type ; (semicolon) followed by your message."
+		"type"	"S"
+		"text"	"{GREEN}[ADV]{DEFAULT} To communicate with your squad only {GREEN}open teamchat{DEFAULT} and type {GREEN};{DEFAULT} (semicolon) followed by your message."
 	}
 	
 	"15"
 	{
-		"chat"	"Spectators: To join a channel type !channel and a letter."
+		"type"	"S"
+		"text"	"{GREEN}[ADV]{DEFAULT} Spectators: To join a channel type {GREEN}!channel{DEFAULT} and a letter."
 	}
 	
 	"16"
 	{
-		"chat"	"To use squad voice chat type !bindsquadvoice <key>, then press that key like normal voice chat, only your squad will hear you."
+		"type"	"S"
+		"text"	"{GREEN}[ADV]{DEFAULT} To use squad voice chat type {GREEN}!bindsquadvoice <key>{DEFAULT}, then press that key like normal voice chat, only your squad will hear you."
 	}
 	
 	"17"
 	{
-		"chat"	"If you want to check out Empires Forums type !empires and click on forums."
+		"type"	"S"
+		"text"	"{GREEN}[ADV]{DEFAULT} If you want to check out Empires Forums type {GREEN}!empires{DEFAULT} and click on forums."
 	}
 	
 	"18"
 	{
-		"chat"	"To participate in the Empires League 2017 type !league and follow the instructions in the thread."
+		"type"	"S"
+		"text"	"{GREEN}[ADV]{DEFAULT} To participate in the Empires League 2017 type {GREEN}!league{DEFAULT} and follow the instructions in the thread."
 	}
 	
 	"19"
 	{
-		"chat"	"To consult the Empires wiki type !wiki."
+		"type"	"S"
+		"text"	"{GREEN}[ADV]{DEFAULT} To consult the Empires wiki type {GREEN}!wiki{DEFAULT}."
 	}
 	
 	"20"
 	{
-		"chat"	"If you're new type !rtfm and read the Quick-Start Guide."
+		"type"	"S"
+		"text"	"{GREEN}[ADV]{DEFAULT} If you're new type {GREEN}!rtfm{DEFAULT} and read the Quick-Start Guide."
 	}
 	
 	"21"
 	{
-		"chat"	"If you want more informations on the mapcycle and maps in general type !mapinfo."
+		"type"	"S"
+		"text"	"{GREEN}[ADV]{DEFAULT} If you want more informations on the mapcycle and maps in general type {GREEN}!mapinfo{DEFAULT}."
 	}
 	
 	"22"
 	{
-		"chat"	"Admins: if you see a newbie doing bad force him to type !rtfm. Go in !admin menu, Force to Website, Force Player to Website, select his name, Empires Quick-Start Guide."
+		"type"	"S"
+		"text"	"{GREEN}[ADV]{DEFAULT} Admins: if you see a newbie doing bad force him to type !rtfm. Go in !admin menu, Force to Website, Force Player to Website, select his name, Empires Quick-Start Guide."
 		"flags"	""
 	}
 	
 	"23"
 	{
-		"chat"	"Type !commander <be|nf> to see who was in the Command Vehicle last."
+		"type"	"S"
+		"text"	"{GREEN}[ADV]{DEFAULT} Type {GREEN}!commander <be|nf>{DEFAULT} to see who was in the Command Vehicle last."
 	}
 	
 	"24"
 	{
-		"chat"	"To see the (almost) full list of commands available type !commandlist."
+		"type"	"S"
+		"text"	"{GREEN}[ADV]{DEFAULT} To see the (almost) full list of commands available type {GREEN}!commandlist{DEFAULT}."
 	}
 	
 	"25"
 	{
-		"chat"	"Type !LeagueNF or !LeagueBE to join a team for the Empires League 2017."
+		"type"	"S"
+		"text"	"{GREEN}[ADV]{DEFAULT} Type {GREEN}!LeagueNF{DEFAULT} or {GREEN}!LeagueBE{DEFAULT} to join a team for the Empires League 2017."
 	}
 	
 	"26"
 	{
-		"chat"	"To communicate with your Commander privately open teamchat and type , (comma) followed by your message."
+		"type"	"S"
+		"text"	"{GREEN}[ADV]{DEFAULT} To communicate with your Commander privately {GREEN}open teamchat{DEFAULT} and type {GREEN},{DEFAULT} (comma) followed by your message."
 	}
 	
 	"27"
 	{
-		"chat"	"To communicate with your Commander publicly open teamchat and type . (dot) followed by your message."
+		"type"	"S"
+		"text"	"{GREEN}[ADV]{DEFAULT} To communicate with your Commander publicly {GREEN}open teamchat{DEFAULT} and type {GREEN}.{DEFAULT} (dot) followed by your message."
 	}
 	
 	"28"
 	{
-		"chat"	"To use Commander Voice chat type !bindcommvoice <key>, then press that key like normal voice chat, only your Commander will hear you."
+		"type"	"S"
+		"text"	"{GREEN}[ADV]{DEFAULT} To use Commander Voice chat type {GREEN}!bindcommvoice <key>{DEFAULT}, then press that key like normal voice chat, only your Commander will hear you."
 	}
 	
 	"29"
 	{
-		"chat"	"Is there something wrong with the server? Something you do not like? Type !feedback and open an issue, your voice will be heard."
+		"type"	"S"
+		"text"	"{GREEN}[ADV]{DEFAULT} Is there something wrong with the server? Something you do not like? Type {GREEN}!feedback{DEFAULT} and open an issue, your voice will be heard."
 	}
 	
 	"30"
 	{
-		"chat"	"To get notified of server events join our steam group by typing !steamgroup."
+		"type"	"S"
+		"text"	"{GREEN}[ADV]{DEFAULT} To get notified of server events join our steam group by typing {GREEN}!steamgroup{DEFAULT}."
 	}
 	
 	"31"
 	{
-		"chat"	"To obtain more informations about a map type !<mapname> for example: !emp_isle."
+		"type"	"S"
+		"text"	"{GREEN}[ADV]{DEFAULT} To obtain more informations about a map type {GREEN}!<mapname>{DEFAULT} for example: {GREEN}!emp_isle{DEFAULT}."
+	}
+	
+	"32"
+	{
+		"type"	"S"
+		"text"	"{GREEN}[ADV]{DEFAULT} Commanders: type {GREEN}!commanderpoll{DEFAULT} to fill a form about your Commanding Skills."
+	}
+	
+	"32"
+	{
+		"type"	"S"
+		"text"	"{GREEN}[ADV]{DEFAULT} If you don't know who to vote for type {GREEN}!commanders{DEFAULT} to view a list of known commanders and their ratings."
 	}
 	
 }

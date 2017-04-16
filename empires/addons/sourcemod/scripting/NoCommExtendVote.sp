@@ -361,13 +361,13 @@ public Action LockSpecMP(Handle timer)
 public Action Command_NCEnable(int client, int args)
 {
 	NCEnableDisable = 1;
-	PrintToChat(client, "\x04[NCEV] \x01Extending enabled.");
+	PrintToChat(client, "\x04[NCEV] \x01Extending \x07008000enabled\x01.");
 }
 
 public Action Command_NCDisable(int client, int args)
 {
 	NCEnableDisable = 0;
-	PrintToChat(client, "\x04[NCEV] \x01Extending disabled.");
+	PrintToChat(client, "\x04[NCEV] \x01Extending \x07ff0000disabled\x01.");
 }
 
 public Action LockSpecTm(Handle timer)
@@ -420,13 +420,13 @@ public Action InfoMsg(Handle timer)
 		{
 			if (commsready == 1 && plugindone != 1 && announcedone1 == 0)
 			{
-				PrintToChatAll("\x04[NCEV] \x07782876BOTH\x01 teams have a commander candidate.");
+				PrintToChatAll("\x04[NCEV] \x07B23B7FBOTH\x01 teams have a commander candidate.");
 				announcedone1 = 1;
 			}
 			if (minplayersnr == 1 && plugindone != 1 && announcedone2 == 0)
 			{
-				//PrintToChatAll("\x04[NCEV] \x01Not enough players - plugin disabled");
-				PrintToServer("\x04[NCEV] \x01Not enough players - plugin disabled");
+				//PrintToChatAll("\x04[NCEV] \x01Not enough players - plugin \x07ff0000disabled\x01");
+				PrintToServer("\x04[NCEV] \x01Not enough players - plugin \x07ff0000disabled\x01");
 				announcedone2 = 1;
 			}
 			if (commsready == 0)
@@ -453,20 +453,20 @@ public Action InfoMsg(Handle timer)
 					}
 					if (be1vote == 0 && nf1vote == 0)
 					{
-						PrintToChatAll("\x04[NCEV] \x07782876BOTH\x01 teams have no commander candidate with votes.");
+						PrintToChatAll("\x04[NCEV] \x07B23B7FBOTH\x01 teams have no commander candidate with votes.");
 					}
 				}
 			}
 		}
 		if (cexist == 0 && plugindone != 1)
 		{
-			//PrintToChatAll("\x04[NCEV] \x01Infantry map - plugin disabled");
-			PrintToServer("\x04[NCEV] \x01Infantry map - plugin disabled");
+			//PrintToChatAll("\x04[NCEV] \x01Infantry map - \x07ff0000disabled\x01");
+			PrintToServer("\x04[NCEV] \x01Infantry map - \x07ff0000disabled\x01");
 			plugindone = 1;
 			if (InfoMessage != INVALID_HANDLE && plugindone == 1)
 			{
 				KillTimer(InfoMessage);
-				PrintToServer("\x04[NCEV] \x01InfoMessage disabled. End of vote.");
+				PrintToServer("\x04[NCEV] \x01InfoMessage \x07ff0000disabled\x01. End of vote.");
 				InfoMessage = INVALID_HANDLE;
 			}
 		}
@@ -504,13 +504,13 @@ public Event_CommVote(Handle:event, const char[] name, bool dontBroadcast)
 	}
 	if (nf1vote == 1 && be1vote == 1 && announcedone10 == 0)
 	{
-		PrintToChatAll("\x04[NCEV] \x07782876BOTH\x01 teams now have a commander candidate with votes.");
+		PrintToChatAll("\x04[NCEV] \x07B23B7FBOTH\x01 teams now have a commander candidate with votes.");
 		announcedone10 = 1;
 		//Alltalk management
 		if (ncalltalkm == 1 && ncalltalkdone == 0)
 		{
 			nc_alltalke.IntValue = 0;
-			PrintToChatAll("\x04[NCEV] \x01Alltalk turned off.");
+			PrintToChatAll("\x04[NCEV] \x01Alltalk turned \x07ff0000off\x01.");
 			ncalltalkdone = 1;
 		}
 	}
@@ -572,7 +572,7 @@ public Event_CommVoteTime(Handle:event, const char[] name, bool dontBroadcast)
 		if (ncalltalkm == 1 && ncalltalkdone == 0)
 		{
 			nc_alltalke.IntValue = 0;
-			PrintToChatAll("\x04[NCEV] \x01Alltalk turned off.");
+			PrintToChatAll("\x04[NCEV] \x01Alltalk turned \x07ff0000off\x01.");
 			ncalltalkdone = 1;
 		}
 	}
@@ -587,11 +587,11 @@ public Event_CommVoteTime(Handle:event, const char[] name, bool dontBroadcast)
 			nclockspectimeint = nc_lockspectime.IntValue;
 			if (nclockspechide == 0)
 			{
-				PrintToChatAll("\x04[NCEV] \x01Spectators will be unlocked in %d seconds.", nclockspectimeint);
+				PrintToChatAll("\x04[NCEV] \x01Spectators will be unlocked in \x073399ff%d\x01 seconds.", nclockspectimeint);
 			}
 			if (nclockspechide == 1)
 			{
-				PrintToServer("\x04[NCEV] \x01Spectators will be unlocked in %d seconds.", nclockspectimeint);
+				PrintToServer("\x04[NCEV] \x01Spectators will be unlocked in \x073399ff%d\x01 seconds.", nclockspectimeint);
 			}
 		}
 		//Clear timer
@@ -615,14 +615,14 @@ public Event_CommVoteTime(Handle:event, const char[] name, bool dontBroadcast)
 				{
 					if (announcedone5 == 0)
 					{
-						PrintToChatAll("\x04[NCEV] \x01Extending disabled, \x04[VT] \x01PauseVote - used.");
+						PrintToChatAll("\x04[NCEV] \x01Extending \x07ff0000disabled\x01, \x04[VT] \x01PauseVote - used.");
 						announcedone5 = 1;
 					}
 				}
 			}
 			if (NCEnableDisable == 0 && announcedone14 == 0)
 			{
-				PrintToChatAll("\x04[NCEV] \x01Admin disabled extending of the commander vote.");
+				PrintToChatAll("\x04[NCEV] \x01Admin \x07ff0000disabled\x01 extending of the commander vote.");
 				announcedone14 = 1;
 			}
 			if (nf1vote == 1 && be1vote == 1)
@@ -631,7 +631,7 @@ public Event_CommVoteTime(Handle:event, const char[] name, bool dontBroadcast)
 			}
 			if (commsready == 1 && announcedone13 == 0 && nchowmanytimescr == 0 && NCEnableDisable == 1 && vtpausedused != 1)
 				{
-					PrintToChatAll("\x04[NCEV] \x01Commanders ready in \x07782876BOTH\x01 teams, not extending time.");
+					PrintToChatAll("\x04[NCEV] \x01Commanders ready in \x07B23B7FBOTH\x01 teams, \x07ff0000not\x01 extending time.");
 					announcedone13 = 1;
 				}
 			if (commsready != 1)
@@ -640,7 +640,7 @@ public Event_CommVoteTime(Handle:event, const char[] name, bool dontBroadcast)
 				nchowmanytimes = nc_howmanytimes.IntValue;
 				if (nchowmanytimescr == 1 && announcedone3 == 0)
 				{
-					PrintToChatAll("\x04[NCEV] \x01Maximum amount of extends reached, not extending.");
+					PrintToChatAll("\x04[NCEV] \x01Maximum amount of extends reached, \x07ff0000not\x01 extending.");
 					announcedone3 = 1;
 				}
 				if (nchowmanytimesc <= nchowmanytimes && nchowmanytimese == 1 && nchowmanytimescr == 0 && NCEnableDisable == 1 && vtpausedused != 1)
@@ -650,15 +650,15 @@ public Event_CommVoteTime(Handle:event, const char[] name, bool dontBroadcast)
 					nc_setvotetime.IntValue = origvotetime + addvotetime;
 					if (nf1vote == 1 && be1vote == 0)
 					{
-						PrintToChatAll("\x04[NCEV] \x01Commander not ready in \x078457DFBrenodi Empire\x01, extending time.");
+						PrintToChatAll("\x04[NCEV] \x01Commander \x07ff0000not\x01 ready in \x078457DFBrenodi Empire\x01, extending time.");
 					}
 					if (nf1vote == 0 && be1vote == 1)
 					{
-						PrintToChatAll("\x04[NCEV] \x01Commander not ready in \x07DF1F1FNorthern Faction\x01, extending time.");
+						PrintToChatAll("\x04[NCEV] \x01Commander \x07ff0000not\x01 ready in \x07DF1F1FNorthern Faction\x01, extending time.");
 					}
 					if (nf1vote == 0 && be1vote == 0)
 					{
-						PrintToChatAll("\x04[NCEV] \x01Commanders not ready in \x07782876BOTH\x01 teams, extending time.");
+						PrintToChatAll("\x04[NCEV] \x01Commanders \x07ff0000not\x01 ready in \x07B23B7FBOTH\x01 teams, extending time.");
 					}
 					nchowmanytimesc++;
 					if (nchowmanytimesc >= nchowmanytimes && nchowmanytimese == 1)
@@ -673,15 +673,15 @@ public Event_CommVoteTime(Handle:event, const char[] name, bool dontBroadcast)
 					nc_setvotetime.IntValue = origvotetime + addvotetime;
 					if (nf1vote == 1 && be1vote == 0)
 					{
-						PrintToChatAll("\x04[NCEV] \x01Commander not ready in \x078457DFBrenodi Empire\x01, extending time.");
+						PrintToChatAll("\x04[NCEV] \x01Commander \x07ff0000not\x01 ready in \x078457DFBrenodi Empire\x01, extending time.");
 					}
 					if (nf1vote == 0 && be1vote == 1)
 					{
-						PrintToChatAll("\x04[NCEV] \x01Commander not ready in Northern Faction\x01, extending time.");
+						PrintToChatAll("\x04[NCEV] \x01Commander \x07ff0000not\x01 ready in \x07DF1F1Northern Faction\x01, extending time.");
 					}
 					if (nf1vote == 0 && be1vote == 0)
 					{
-						PrintToChatAll("\x04[NCEV] \x01Commanders not ready in \x07782876BOTH\x01 teams, extending time.");
+						PrintToChatAll("\x04[NCEV] \x01Commanders \x07ff0000not\x01 ready in \x07B23B7FBOTH\x01 teams, extending time.");
 					}
 					nchowmanytimesc++;
 				}
@@ -707,7 +707,7 @@ public Event_ElectedPlayer(Handle:event, const char[] name, bool dontBroadcast)
 	}
 	if (nccommcheckmpnr == 1)
 	{
-		PrintToServer("\x04[NCEV] \x01Not checking for commmanders, not enough players.");
+		PrintToServer("\x04[NCEV] \x07ff0000Not\x01 checking for commmanders, \x07ff0000not\x01 enough players.");
 	}
 	int enf = GetEventInt(event, "elected_nf_comm_id");
 	int ebe = GetEventInt(event, "elected_be_comm_id");
@@ -731,14 +731,14 @@ public Event_ElectedPlayer(Handle:event, const char[] name, bool dontBroadcast)
 	}
 	if (ebe == -1)
 	{
-		//PrintToChatAll("\x04[NCEV] \x078457DFBrenodi Empire\x01 started with no commander");
-		PrintToServer("\x04[NCEV] \x078457DFBrenodi Empire\x01 started with no commander");
+		//PrintToChatAll("\x04[NCEV] \x078457DFBrenodi Empire\x01 started with \x07ff0000no\x01 commander");
+		PrintToServer("\x04[NCEV] \x078457DFBrenodi Empire\x01 started with \x07ff0000no\x01 commander");
 		plugindone = 1;
 	}
 	if (InfoMessage != INVALID_HANDLE && plugindone == 1)
 	{
 		KillTimer(InfoMessage);
-		PrintToServer("\x04[NCEV] \x01InfoMessage disabled. End of vote.");
+		PrintToServer("\x04[NCEV] \x01InfoMessage \x07ff0000disabled\x01. End of vote.");
 		InfoMessage = INVALID_HANDLE;
 	}
 	if (plugindone == 1 && nccommcheck == 1 && nccommcheckmpnr == 0)
@@ -800,11 +800,11 @@ public Event_VehicleEnter(Handle:event, const char[] name, bool dontBroadcast)
 				{
 					if (nccommchecktimeron == 1)
 					{
-						PrintToChatAll("\x04[NCEV] \x07782876BOTH\x01 teams now have a commander inside the command vehicle.");
+						PrintToChatAll("\x04[NCEV] \x07B23B7FBOTH\x01 teams now have a commander inside the command vehicle.");
 					}
 					if (nccommchecktimeron == 0)
 					{
-						//PrintToChatAll("\x04[NCEV] \x07782876BOTH\x01 teams now have a commander inside the command vehicle.");
+						//PrintToChatAll("\x04[NCEV] \x07B23B7FBOTH\x01 teams now have a commander inside the command vehicle.");
 					}
 					
 					//Clear timer
@@ -849,15 +849,15 @@ public Action CommChkPre(Handle timer)
 			nccommchecktimeint = nc_commchecktime.IntValue;
 			if (nccommcheckxbe == 1 && nccommcheckxnf == 0)
 			{
-				PrintToChatAll("\x04[NCEV] \x01Someone must enter the command vehicle in \x07DF1F1FNorthern Faction\x01, or skipping map in %d seconds.", nccommchecktimeint);
+				PrintToChatAll("\x04[NCEV] \x01Someone must enter the command vehicle in \x07DF1F1FNorthern Faction\x01, or skipping map in \x073399ff%d\x01 seconds.", nccommchecktimeint);
 			}
 			if (nccommcheckxnf == 1 && nccommcheckxbe == 0)
 			{
-				PrintToChatAll("\x04[NCEV] \x01Someone must enter the command vehicle in \x078457DFBrenodi Empire\x01, or skipping map in %d seconds.", nccommchecktimeint);
+				PrintToChatAll("\x04[NCEV] \x01Someone must enter the command vehicle in \x078457DFBrenodi Empire\x01, or skipping map in \x073399ff%d\x01 seconds.", nccommchecktimeint);
 			}
 			if (nccommcheckxnf == 0 && nccommcheckxbe == 0)
 			{
-				PrintToChatAll("\x04[NCEV] \x01Someone must enter the command vehicle in \x07782876BOTH\x01 teams, or skipping map in %d seconds.", nccommchecktimeint);
+				PrintToChatAll("\x04[NCEV] \x01Someone must enter the command vehicle in \x07B23B7FBOTH\x01 teams, or skipping map in \x073399ff%d\x01 seconds.", nccommchecktimeint);
 			}
 			
 			//Clear timer
@@ -899,7 +899,7 @@ public Action CommChkPre(Handle timer)
 		}
 		if (bothcommsdone == 1 && nccommcheckxready == 1 && announcedone4 == 0)
 		{
-			PrintToChatAll("\x04[NCEV] \x07782876BOTH\x01 teams have a commander inside the command vehicle.");
+			PrintToChatAll("\x04[NCEV] \x07B23B7FBOTH\x01 teams have a commander inside the command vehicle.");
 			announcedone4 = 1;
 			//Clear timer
 			if (CommCheckPre != INVALID_HANDLE)
@@ -919,7 +919,7 @@ public Action CommChk(Handle timer)
 	{
 		if (nccommcheckxready == 1 && nccommcheckdone == 0)
 		{
-			PrintToChatAll("\x04[NCEV] \x07782876BOTH\x01 teams now have a commander.");
+			PrintToChatAll("\x04[NCEV] \x07B23B7FBOTH\x01 teams now have a commander.");
 			
 			//Clear timer
 			if (CommCheck != INVALID_HANDLE)
@@ -1026,15 +1026,15 @@ public Action CommChk(Handle timer)
 			}
 			if (nccommcheckxbe == 0 && nccommcheckxnf == 0)
 			{
-				PrintToChatAll("\x04[NCEV] \x07782876BOTH\x01 teams did not get a commander. Skipping map.");
+				PrintToChatAll("\x04[NCEV] \x07B23B7FBOTH\x01 teams did \x07ff0000not\x01 get a commander. Skipping map.");
 			}
 			if (nccommcheckxbe == 0 && nccommcheckxnf == 1)
 			{
-				PrintToChatAll("\x04[NCEV] \x078457DFBrenodi Empire\x01 did not get a commander. Skipping map.");
+				PrintToChatAll("\x04[NCEV] \x078457DFBrenodi Empire\x01 did \x07ff0000not\x01 get a commander. Skipping map.");
 			}
 			if (nccommcheckxnf == 0 && nccommcheckxbe == 1)
 			{
-				PrintToChatAll("\x04[NCEV] \x07DF1F1FNorthern Faction\x01 did not get a commander. Skipping map.");
+				PrintToChatAll("\x04[NCEV] \x07DF1F1FNorthern Faction\x01 did \x07ff0000not\x01 get a commander. Skipping map.");
 			}
 		}
 		//Clear timer
@@ -1068,15 +1068,15 @@ public Action CommChkWrn(Handle timer)
 		{
 			if (nccommcheckxnf == 1 && nccommcheckxbe == 0)
 			{
-				PrintToChatAll("\x04[NCEV] \x01Skipping map in 10 seconds! \x078457DFBrenodi Empire\x01 has no commander.");
+				PrintToChatAll("\x04[NCEV] \x01Skipping map in \x073399ff10\x01 seconds! \x078457DFBrenodi Empire\x01 has no commander.");
 			}
 			if (nccommcheckxbe == 1 && nccommcheckxnf == 0)
 			{
-				PrintToChatAll("\x04[NCEV] \x01Skipping map in 10 seconds! \x07DF1F1FNorthern Faction\x01 has no commander.");
+				PrintToChatAll("\x04[NCEV] \x01Skipping map in \x073399ff10\x01 seconds! \x07DF1F1FNorthern Faction\x01 has no commander.");
 			}
 			if (nccommcheckxbe == 0 && nccommcheckxnf == 0)
 			{
-				PrintToChatAll("\x04[NCEV] \x01Skipping map in 10 seconds! \x07782876BOTH\x01 teams have no commander.");
+				PrintToChatAll("\x04[NCEV] \x01Skipping map in \x073399ff10\x01 seconds! \x07B23B7FBOTH\x01 teams have no commander.");
 			}
 			//Clear timer
 			if (CommCheckWarn != INVALID_HANDLE)
@@ -1094,19 +1094,19 @@ public Action CommChkInfo(Handle timer)
 	{
 		if (nccommcheckxbe == 0 && nccommcheckxnf == 1)
 		{
-			PrintToChatAll("\x04[NCEV] \x078457DFBrenodi Empire\x01 has no commander inside the command vehicle.");
+			PrintToChatAll("\x04[NCEV] \x078457DFBrenodi Empire\x01 has \x07ff0000no\x01 commander inside the command vehicle.");
 		}
 		if (nccommcheckxnf == 0 && nccommcheckxbe == 1)
 		{
-			PrintToChatAll("\x04[NCEV] \x07DF1F1FNorthern Faction\x01 has no commander inside the command vehicle.");
+			PrintToChatAll("\x04[NCEV] \x07DF1F1FNorthern Faction\x01 has \x07ff0000no\x01 commander inside the command vehicle.");
 		}
 		if (nccommcheckxbe == 0 && nccommcheckxnf == 0)
 		{
-			PrintToChatAll("\x04[NCEV] \x07782876BOTH\x01 teams have no commander inside the command vehicle.");
+			PrintToChatAll("\x04[NCEV] \x07B23B7FBOTH\x01 teams have \x07ff0000no\x01 commander inside the command vehicle.");
 		}
 		if (nccommcheckxready == 1)
 		{
-			PrintToChatAll("\x04[NCEV] \x07782876BOTH\x01 teams now have a commander inside the command vehicle.");
+			PrintToChatAll("\x04[NCEV] \x07B23B7FBOTH\x01 teams now have a commander inside the command vehicle.");
 			bothcommsdone = 1;
 			//Clear timer
 			if (CommCheck != INVALID_HANDLE)

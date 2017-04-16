@@ -78,13 +78,13 @@ public OnClientDisconnect(int client)
 	if(IsClientInGame(client))
 	{
 		int team = GetClientTeam(client);
+		if(!gameStarted && team >=2)
+		{
+			RefreshVotes(team);
+		}
 		if(comms[team] == client)
 		{
 			comms[team] = 0;
-			if(!gameStarted)
-			{
-				RefreshVotes(team);
-			}
 		}
 	}
 	
@@ -308,12 +308,13 @@ public Action Event_PlayerTeam(Event event, const char[] name, bool dontBroadcas
 	
 	//int team = GetEventInt(event, "team");
 	int oldTeam = GetEventInt(event, "oldteam");
+	// refresh the votes. the player might have been comm or he might have voted for the comm. 
+	if(oldTeam >= 2 && !gameStarted)
+	{
+		RefreshVotes(oldTeam);
+	}
 	if(comms[oldTeam] == client)
 	{
-		if(!gameStarted)
-		{
-			RefreshVotes(oldTeam);
-		}
 		comms[oldTeam] = 0;
 	}
 	return Plugin_Continue;
@@ -416,7 +417,7 @@ public Action Command_Say_Comm(int client,int args)
 			if(IsClientInGame(i) && GetClientTeam(i) == team)
 			{
 				// to everyone not comm and initiator
-				if( comms[team] != i) 
+				if(client != i && comms[team] != i) 
 				{
 					// the less important message. // need team color here
 					new Handle:hBf;
@@ -984,14 +985,16 @@ vote( int client,int squad,int target)
 	} 
 	
 	new String:message[128];
-	if(votes >= 3)
+	int requiredVotes = RoundToCeil(float(squadPlayers.Length) * 0.51);
+	PrintToChat(client,"%d",requiredVotes);
+	if(votes >= requiredVotes)
 	{
 		changeSquadLeader(team,squad,target);
 		Format(message, sizeof(message), "%s voted for %s to become squad leader, %s is now the leader",originName,targetName,targetName); 
 	}
 	else
 	{
-		Format(message, sizeof(message), "%s voted for %s to become squad leader (%d/3). Use /sl [player] to vote.",originName,targetName, votes);
+		Format(message, sizeof(message), "%s voted for %s to become squad leader (%d/%d). Use /sl [player] to vote.",originName,targetName, votes,requiredVotes);
 	}
 	
 	for (new i = 0; i < squadPlayers.Length; i++)
@@ -1065,6 +1068,8 @@ public OnMapStart()
 	for (int i=1; i<=MaxClients; i++)
 	{
 		playerVotes[i] = 0;
+		// commvotes need to be reset
+		commVotes[i] = 0;
 		// reset appropriate flags
 		playerFlags[i] &= ~(FLAG_SQUAD_VOICE | FLAG_COMM_VOICE);
 	}
@@ -1079,37 +1084,35 @@ public Action  Command_Comm_Vote(client, const String:command[], args)
 	GetCmdArg(1, arg, sizeof(arg));
 	int player = StringToInt(arg);
 	
-	int resourceEntity = GetPlayerResourceEntity();
-	if(GetEntProp(resourceEntity, Prop_Send, "m_bWantsCommand",4,player))
-	{
-		commVotes[client] = player;
-		RefreshVotes(team);
-	}
+	commVotes[client] = player;
+	RefreshVotes(team);
 	
 }
 
 public Action Command_Opt_Out(client, const String:command[], args)
 {
-	for (int i=1; i<=MaxClients; i++)
-	{
-		if(commVotes[i] == client)
-		{
-			commVotes[i] = 0;
-		}
-	}
+	// fix race condition. 
+	int resourceEntity = GetPlayerResourceEntity();
+	SetEntProp(resourceEntity, Prop_Send, "m_bWantsCommand",false,4,client);
 	RefreshVotes(GetClientTeam(client));
 }
+
 
  
 void RefreshVotes(int team)
 {
+	int resourceEntity = GetPlayerResourceEntity();
 	int votes[MAXPLAYERS+1] = {0,...}; // votes for each player
 	// add all the comm votes up.
 	for (int i=1; i<=MaxClients; i++)
 	{
 		if(IsClientInGame(i) && GetClientTeam(i) == team && commVotes[i] != 0)
 		{
-			votes[commVotes[i]]++;
+			// make sure the player wants command
+			if(GetEntProp(resourceEntity, Prop_Send, "m_bWantsCommand",4,commVotes[i]))
+			{
+				votes[commVotes[i]]++;
+			}
 		}
 	}
 	int mostVotesClient;

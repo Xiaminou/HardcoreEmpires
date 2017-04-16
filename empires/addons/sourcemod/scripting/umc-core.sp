@@ -1946,7 +1946,7 @@ public Action:Command_SetNextmap(client, args)
     {
         ReplyToCommand(
             client,
-            "\x03[UMC]\x01 Usage: sm_setnextmap <map> <0|1|2>\n 0 - Change Now\n 1 - Change at end of round\n 2 - Change at end of map."
+            "\x04[UMC]\x01 Usage: sm_setnextmap <map> <0|1|2>\n 0 - Change Now\n 1 - Change at end of round\n 2 - Change at end of map."
         );
         return Plugin_Handled;
     }
@@ -1956,7 +1956,7 @@ public Action:Command_SetNextmap(client, args)
     
     if (!IsMapValid(map))
     {
-        ReplyToCommand(client, "\x03[UMC]\x01 Map '%s' was not found.", map);
+        ReplyToCommand(client, "\x04[UMC]\x01 Map '%s' was not found.", map);
         return Plugin_Handled;
     }
     
@@ -1988,7 +1988,7 @@ public Action:Command_Reload(client, args)
     Call_StartForward(reload_forward);
     Call_Finish();
     
-    ReplyToCommand(client, "\x03[UMC]\x01 UMC Mapcycles Reloaded.");    
+    ReplyToCommand(client, "\x04[UMC]\x01 UMC Mapcycles Reloaded.");    
     
     //Return success
     return Plugin_Handled;
@@ -2017,7 +2017,7 @@ public Action:Command_StopVote(client, args)
         }
     }
     if (!stopped)
-        ReplyToCommand(client, "\x03[UMC]\x01 No map vote running!"); //TODO Translation?
+        ReplyToCommand(client, "\x04[UMC]\x01 No map vote running!"); //TODO Translation?
     return Plugin_Handled;
 }
 
@@ -3812,7 +3812,7 @@ Handle:ProcessVoteResults(Handle:vM, Handle:vote_results)
                 new Float:percentage;
                 GetVoteWinner(vM, "", 0, percentage);
                 PrintToChatAll(
-                    "\x03[UMC]\x01 %t (%t)",
+                    "\x04[UMC]\x01 %t (%t)",
                     "Vote Failed",
                     "Vote Win Percentage",
                         percentage,
@@ -4204,7 +4204,7 @@ public Action:Handle_RunoffVoteTimer(Handle:timer, Handle:datapack)
             LogUMCMessage("RUNOFF: Menu already has a vote in progress, cannot start a new vote.");
         else
         {
-            PrintToChatAll("\x03[UMC]\x01 %t", "Selective Runoff");
+            PrintToChatAll("\x04[UMC]\x01 %t", "Selective Runoff");
             vote_active = true;
         }
     }
@@ -4250,7 +4250,7 @@ public Handle_MapVoteWinner(Handle:vM, const String:info[], const String:disp[],
     if (StrEqual(info, EXTEND_MAP_OPTION))
     {
         PrintToChatAll(
-            "\x03[UMC]\x01 %t %t (%t)",
+            "\x04[UMC]\x01 %t %t (%t)",
             "End of Map Vote Over",
             "Map Extended",
             "Vote Win Percentage",
@@ -4263,7 +4263,7 @@ public Handle_MapVoteWinner(Handle:vM, const String:info[], const String:disp[],
     else if (StrEqual(info, DONT_CHANGE_OPTION))
     {
         PrintToChatAll(
-            "\x03[UMC]\x01 %t %t (%t)",
+            "\x04[UMC]\x01 %t %t (%t)",
             "End of Map Vote Over",
             "Map Unchanged",
             "Vote Win Percentage",
@@ -4277,7 +4277,7 @@ public Handle_MapVoteWinner(Handle:vM, const String:info[], const String:disp[],
     else //Otherwise, we print a message and then set the new map.
     {
         PrintToChatAll(
-            "\x03[UMC]\x01 %t %t (%t)",
+            "\x04[UMC]\x01 %t %t (%t)",
             "End of Map Vote Over",
             "End of Map Vote Map Won",
                 disp,
@@ -4340,7 +4340,7 @@ public Handle_CatVoteWinner(Handle:vM, const String:cat[], const String:disp[],
     {
         DEBUG_MESSAGE("Map was extended")
         PrintToChatAll(
-            "\x03[UMC]\x01 %t %t (%t)",
+            "\x04[UMC]\x01 %t %t (%t)",
             "End of Map Vote Over",
             "Map Extended",
             "Vote Win Percentage",
@@ -4354,7 +4354,7 @@ public Handle_CatVoteWinner(Handle:vM, const String:cat[], const String:disp[],
     {
         DEBUG_MESSAGE("Map was not changed.")
         PrintToChatAll(
-            "\x03[UMC]\x01 %t %t (%t)",
+            "\x04[UMC]\x01 %t %t (%t)",
             "End of Map Vote Over",
             "Map Unchanged",
             "Vote Win Percentage",
@@ -4500,7 +4500,7 @@ public Handle_CatVoteWinner(Handle:vM, const String:cat[], const String:disp[],
         CloseHandle(kv);
         
         PrintToChatAll(
-            "\x03[UMC]\x01 %t %t (%t)",
+            "\x04[UMC]\x01 %t %t (%t)",
             "End of Map Vote Over",
             "End of Map Vote Group Won",
                 map, cat,
@@ -4541,7 +4541,7 @@ public Handle_TierVoteWinner(Handle:vM, const String:cat[], const String:disp[],
         DEBUG_MESSAGE("Endvote - Extending the map.")
     
         PrintToChatAll(
-            "\x03[UMC]\x01 %t %t (%t)",
+            "\x04[UMC]\x01 %t %t (%t)",
             "End of Map Vote Over",
             "Map Extended",
             "Vote Win Percentage",
@@ -4555,7 +4555,7 @@ public Handle_TierVoteWinner(Handle:vM, const String:cat[], const String:disp[],
     else if (StrEqual(cat, DONT_CHANGE_OPTION))
     {
         PrintToChatAll(
-            "\x03[UMC]\x01 %t %t (%t)",
+            "\x04[UMC]\x01 %t %t (%t)",
             "End of Map Vote Over",
             "Map Unchanged",
             "Vote Win Percentage",
@@ -4907,7 +4907,7 @@ DoMapChange(UMC_ChangeMapTime:when, Handle:kv, const String:map[], const String:
             change_map_round = true;
             
             //Print a message.
-            PrintToChatAll("\x03[UMC]\x01 %t", "Map Change at Round End");
+            PrintToChatAll("\x04[UMC]\x01 %t", "Map Change at Round End");
         }
     }
 }
