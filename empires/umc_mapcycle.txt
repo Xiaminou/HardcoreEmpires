@@ -263,13 +263,13 @@
 		"emp_frozensummit_b2_2013_fix"
 		{
 			"min_players"	"32"
-			"max_players"	"52"
+			"max_players"	"64"
 		}
 		
 		"emp_fuel_a3_2013_fix"
 		{
 			"min_players"	"32"
-			"max_players"	"52"
+			"max_players"	"64"
 		}
 		
 		"emp_glacial_b2"
@@ -280,8 +280,8 @@
 		
 		"emp_mesa_d6"
 		{
-			"min_players"	"28"
-			"max_players"	"42"
+			"min_players"	"26"
+			"max_players"	"52"
 		}
 		
 		"emp_insurrection_rc4"
@@ -292,7 +292,7 @@
 		
 		"emp_massacred_rc1"
 		{
-			"min_players"	"12"
+			"min_players"	"14"
 			"max_players"	"42"
 		}
 		
@@ -304,13 +304,13 @@
 		
 		"emp_hazard_rc6"
 		{
-			"min_players"	"18"
-			"max_players"	"36"
+			"min_players"	"20"
+			"max_players"	"32"
 		}
 		
 		"emp_traders_a8"
 		{
-			"min_players"	"16"
+			"min_players"	"20"
 			"max_players"	"32"
 		}
 		
@@ -322,38 +322,38 @@
 		
 		"emp_snowstorm_rc6"
 		{
-			"min_players"	"18"
-			"max_players"	"36"
+			"min_players"	"14"
+			"max_players"	"32"
 		}
 		
 		"emp_snowbound_cl6"
 		{
-			"min_players"	"22"
+			"min_players"	"20"
 			"max_players"	"42"
 		}
 		
 		"emp_homeland_b9"
 		{
-			"min_players"	"18"
-			"max_players"	"36"
+			"min_players"	"22"
+			"max_players"	"42"
 		}
 		
 		"emp_plunge_ob2_2013"
 		{
-			"min_players"	"18"
-			"max_players"	"36"
+			"min_players"	"20"
+			"max_players"	"42"
 		}
 		
 		"emp_research_1_2_2013"
 		{
-			"min_players"	"18"
-			"max_players"	"36"
+			"min_players"	"20"
+			"max_players"	"32"
 		}
 		
 		"emp_silo_rc5"
 		{
-			"min_players"	"24"
-			"max_players"	"52"
+			"min_players"	"20"
+			"max_players"	"42"
 		}
 		
 		"emp_isle"
@@ -440,11 +440,11 @@
 			"max_players"	"64"
 		}
 		
-//		"emp_king_r5"
-//		{
-//			"min_players"	"40"
-//			"max_players"	"64"
-//		}
+		"emp_king_r5_nosplt"
+		{
+			"min_players"	"40"
+			"max_players"	"64"
+		}
     }
 	
     "Infantry Maps"
@@ -453,17 +453,42 @@
 		
 		"emp_district402"
 		{
-			"max_players"	"13"
+			"max_players"	"20"
 		}
 		
 		"emp_glycencity"
 		{
-			"max_players"	"13"
+			"max_players"	"20"
 		}
 		
 		"emp_urbanchaos"
 		{
-			"max_players"	"13"
+			"max_players"	"20"
+		}
+		
+		"emp_break_poc"
+		{
+			"max_players"	"20"
+		}
+		
+		"emp_blast_ob1"
+		{
+			"max_players"	"20"
+		}
+		
+		"con_forestattack_a2"
+		{
+			"max_players"	"20"
+		}
+		
+		"emp_vehicletraining_2013"
+		{
+			"max_players"	"20"
+		}
+		
+		"emp_nuclear_b8u"
+		{
+			"max_players"	"20"
 		}
 		
 		"emp_atomic_rc6"
