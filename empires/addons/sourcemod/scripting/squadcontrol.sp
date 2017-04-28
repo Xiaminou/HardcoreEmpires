@@ -16,6 +16,9 @@ public Plugin myinfo =
 	url = ""
 }
 
+// appears to crash clients. dont yet know why
+ConVar sc_fixcommvotes,sc_prelimcommander;
+
 new String:squadnames[][] = {"No Squad","Alpha","Bravo","Charlie","Delta","Echo","Foxtrot","Golf","Hotel","India","Juliet","Kilo","Lima","Mike","November","Oscar","Papa","Quebec","Romeo","Sierra","Tango","Uniform","Victor","Whiskey","X-Ray","Yankee","Zulu"};
 new String:teamcolors[][] = {"\x01","\x01","\x07FF2323","\x079764FF"};
 new String:highlightColors[][] = {"\x07CCCC00","\x07CCCC00","\x07d60000","\x077733ff"};
@@ -62,12 +65,15 @@ public void OnPluginStart()
 	AddCommandListener(Command_Opt_Out, "emp_commander_vote_drop_out");
 	AddCommandListener(Command_Say_Team, "say_team");
 	AddCommandListener(Command_Squad_Join, "emp_squad_join");
+	AddCommandListener(Command_Squad_Leave, "emp_squad_leave");
+	AddCommandListener(Command_Squad_Make_Lead, "emp_make_lead");
 	HookEvent("commander_vote", Event_Comm_Vote, EventHookMode_Post);
 	HookEvent("player_team", Event_PlayerTeam, EventHookMode_Post);
 	HookEvent("vehicle_enter", Event_VehicleEnter, EventHookMode_Post);
 	HookEvent("commander_elected_player", Event_Elected_Player, EventHookMode_Pre);
 	
-	
+	sc_fixcommvotes = CreateConVar("sc_fixcommvotes", "0", "Fixes comm vote numbers");
+	sc_prelimcommander = CreateConVar("sc_prelimcommander", "0", "Preliminary commander election");
 }
 // must be used for natives
 public APLRes AskPluginLoad2(Handle myself, bool late, char[] error, int err_max)
@@ -91,9 +97,12 @@ public OnClientDisconnect(int client)
 {
 	if(IsClientInGame(client))
 	{
+		onExitSquad(client);
+	
 		int team = GetClientTeam(client);
 		if(!VT_HasGameStarted() && team >=2)
 		{
+			commVotes[client] = 0;
 			RefreshVotes(team);
 		}
 		if(comms[team] == client)
@@ -316,9 +325,15 @@ void SquadChange(int client)
 
 public Action Event_PlayerTeam(Event event, const char[] name, bool dontBroadcast)
 {
-	int client = GetClientOfUserId(GetEventInt(event, "userid"));
-	playerVotes[client] = 0;
-	SquadChange(client);
+	int cuid = GetEventInt(event, "userid");
+	int client = GetClientOfUserId(cuid);
+	// this can happen, idk why, i think rejoining players on something. 
+	if(!IsClientInGame(client))
+	{
+		return Plugin_Handled;
+	}
+	
+	onExitSquad(client);
 	
 	int team = GetEventInt(event, "team");
 	int oldTeam = GetEventInt(event, "oldteam");
@@ -327,9 +342,10 @@ public Action Event_PlayerTeam(Event event, const char[] name, bool dontBroadcas
 	{
 		if(oldTeam >= 2)
 		{
+			commVotes[oldTeam] = 0;
 			RefreshVotes(oldTeam);
 		}
-		if(team >= 2)
+		if(team >= 2 && sc_fixcommvotes.IntValue > 0)
 		{
 			FixCommVotes(team);
 		}
@@ -357,14 +373,106 @@ public Action Event_VehicleEnter(Event event, const char[] name, bool dontBroadc
 
 public Action Command_Squad_Join(client, const String:command[], args)
 {
+	onExitSquad(client); 
+	return Plugin_Continue;
+}
+
+public Action Command_Squad_Leave(client, const String:command[], args)
+{
+	onExitSquad(client);
+	return Plugin_Continue;
+}
+onExitSquad(client)
+{
+	int squad = GetEntProp(client, Prop_Send, "m_iSquad");
+	if(squad == 0)
+		return;
 	playerVotes[client] = 0;
 	CreateTimer(1.0, onSquadChange,client);
-	// change overrides.  
+	int team = GetClientTeam(client);
+	int resourceEntity = GetPlayerResourceEntity();
+	bool leader = GetEntProp(resourceEntity, Prop_Send, "m_bSquadLeader",4,client) == 1;
+	if(leader)
+	{
+		new Handle:Datapack;
+		CreateDataTimer(1.0, onSquadLeaderChange,Datapack);
+		WritePackCell(Datapack, squad);
+		WritePackCell(Datapack, team);
+	}
+		
+}
+
+public Action Command_Squad_Make_Lead(client, const String:command[], args)
+{
+	// make sure the client is a squadleader or the commander
+	int team = GetClientTeam(client);
+	
+	int squad = GetEntProp(client, Prop_Send, "m_iSquad");
+	int resourceEntity = GetPlayerResourceEntity();
+	bool leader = GetEntProp(resourceEntity, Prop_Send, "m_bSquadLeader",4,client) == 1;
+	if(client == comms[team] || leader)
+	{
+		new Handle:Datapack;
+		CreateDataTimer(1.0, onSquadLeaderChange,Datapack);
+		WritePackCell(Datapack, squad);
+		WritePackCell(Datapack, team);
+		
+	}
+	
+	
 	return Plugin_Continue;
 }
 public Action onSquadChange(Handle timer, any client)
 {
 	SquadChange(client);
+}
+public Action onSquadLeaderChange(Handle timer,any dataPack)
+{
+	// must reset to start of pack
+	ResetPack(dataPack);
+	int squad = ReadPackCell(dataPack);
+	int team = ReadPackCell(dataPack);
+	
+	// find the new leader of the squad. 
+	ArrayList players = new ArrayList();
+	int resourceEntity = GetPlayerResourceEntity();
+	for (new i = 1; i <= MaxClients; i++)
+	{
+		if (IsClientInGame(i) && GetClientTeam(i) == team && GetEntProp(i, Prop_Send, "m_iSquad") == squad)
+		{
+				if(GetEntProp(resourceEntity, Prop_Send, "m_bSquadLeader",4,i) == 1)
+				{
+					if(players.Length > 0)
+					{
+						players.ShiftUp(0);
+						players.Set(0,i);
+					}
+					else
+					{
+						players.Push(i);
+					}
+						
+				}
+				else
+				{	
+					players.Push(i);
+				}
+		}
+	} 
+	
+	if(players.Length > 0)
+	{
+		int leaderid = players.Get(0);
+		new String:leaderName[128];
+		GetClientName(leaderid,leaderName,sizeof(leaderName));
+		PrintToChat(leaderid,"\x04[SC] \x01You are now squad leader",leaderName);
+		EmitSoundToClient(leaderid,"squadcontrol/squadleader_alert.wav");
+		
+	}
+	
+	delete players;
+	
+	
 }
 public Action Command_Say_Comm(int client,int args)
 {
@@ -405,14 +513,9 @@ public Action Command_Say_Comm(int client,int args)
 		{
 			if(IsClientInGame(i) && GetClientTeam(i) == team)
 			{
-				if(!(playerFlags[i] & HINT_COMM_CHAT))
-				{
-					PrintToChat(i,"x04[SC] \x07ff6600%s\x01 is using comm chat, put a \x04'.' \x01before your message to type a message that will play an alert sound to your comm.",clientName);
-					playerFlags[i] |= HINT_SQUAD_CHAT;
-				}
-			
+				
 				PrintToChat(i,message);
-				EmitSoundToClient(client,"squadcontrol/commchat_alert2.wav");
+				EmitSoundToClient(i,"squadcontrol/commchat_alert2.wav");
 				
 			}
 		}
@@ -429,7 +532,7 @@ public Action Command_Say_Comm(int client,int args)
 		new String:commMessage[256]; 
 		
 		Format(message, sizeof(message), "%s(To Comm) %s%s: %s",highlightColors[team],teamcolors[team], clientName,input); 
-		Format(commMessage, sizeof(commMessage), "%s,(To Comm) %s%s: %s",highlightColors2[team],teamcolors[team],clientName,input); 
+		Format(commMessage, sizeof(commMessage), "%s(To Comm) %s%s: %s",highlightColors2[team],teamcolors[team],clientName,input); 
 		
 		
 		
@@ -440,9 +543,16 @@ public Action Command_Say_Comm(int client,int args)
 				// to everyone not comm and initiator
 				if(client != i && comms[team] != i) 
 				{
-					PrintToChat(client,message);
-					
+					if(!(playerFlags[i] & HINT_COMM_CHAT))
+					{
+						PrintToChat(i,"x04[SC] \x07ff6600%s\x01 is using comm chat, put a \x04'.' \x01before your message to get your commanders attention with an alert sound.",clientName);
+						playerFlags[i] |= HINT_SQUAD_CHAT;
+					}
+					PrintToChat(i,message);
 				}
+				
+				
+				
 			}
 		}
 		PrintToChat(client,commMessage);
@@ -556,7 +666,7 @@ public Action Command_Say_Squad(int client,int args)
 				playerFlags[i] |= HINT_SQUAD_CHAT;
 			}
 			PrintToChat(i,message);
-			EmitSoundToClient(i,"squadcontrol/squadchat_alert.wav");
+			EmitSoundToClient(i,"squadcontrol/squadchat_alert2.wav");
 		}
 		
 	}
@@ -1019,7 +1129,6 @@ vote( int client,int squad,int target)
 	
 	new String:message[128];
 	int requiredVotes = RoundToCeil(float(squadPlayers.Length) * 0.51);
-	PrintToChat(client,"%d",requiredVotes);
 	if(votes >= requiredVotes)
 	{
 		changeSquadLeader(team,squad,target);
@@ -1086,18 +1195,21 @@ public Action Command_Invite_Player(client, const String:command[], args)
 
 public OnMapStart()
 {
+	AutoExecConfig(true, "squadcontrol");
 	AddFileToDownloadsTable("sound/squadcontrol/squadvoice_start.wav");
 	AddFileToDownloadsTable("sound/squadcontrol/squadvoice_end.wav");
 	AddFileToDownloadsTable("sound/squadcontrol/commvoice_start.wav");
 	AddFileToDownloadsTable("sound/squadcontrol/commvoice_end.wav");
 	AddFileToDownloadsTable("sound/squadcontrol/commchat_alert2.wav");
-	AddFileToDownloadsTable("sound/squadcontrol/squadchat_alert.wav");
+	AddFileToDownloadsTable("sound/squadcontrol/squadchat_alert2.wav");
+	AddFileToDownloadsTable("sound/squadcontrol/squadleader_alert.wav");
 	PrecacheSound("squadcontrol/squadvoice_start.wav");
 	PrecacheSound("squadcontrol/squadvoice_end.wav");
 	PrecacheSound("squadcontrol/commvoice_start.wav");
 	PrecacheSound("squadcontrol/commvoice_end.wav");
 	PrecacheSound("squadcontrol/commchat_alert2.wav");
-	PrecacheSound("squadcontrol/squadchat_alert.wav");
+	PrecacheSound("squadcontrol/squadchat_alert2.wav");
+	PrecacheSound("squadcontrol/squadleader_alert.wav");
 	for (int i=1; i<=MaxClients; i++)
 	{
 		playerVotes[i] = 0;
@@ -1145,6 +1257,9 @@ public Action Command_Opt_Out(client, const String:command[], args)
  
 void RefreshVotes(int team)
 {
+	if(sc_prelimcommander.IntValue == 0)
+		return;
+
 	int resourceEntity = GetPlayerResourceEntity();
 	int votes[MAXPLAYERS+1] = {0,...}; // votes for each player
 	// add all the comm votes up.
@@ -1168,15 +1283,14 @@ void RefreshVotes(int team)
 			mostVotes = votes[i];
 			mostVotesClient = i;
 		}
-		// lets test if first player index gets commander
 	}
 	if( mostVotesClient != comms[team])
 	{
-		if(comms[team] != 0)
+		if(comms[team] != 0 && IsClientInGame(comms[team]))
 		{
 			SetEntProp(comms[team], Prop_Send, "m_bCommander",false);
 		}
-		if(mostVotesClient != 0)
+		if(mostVotesClient != 0 && IsClientInGame(mostVotesClient))
 		{
 			if(!(playerFlags[mostVotesClient] & HINT_PRELIM_COMM))
 			{
@@ -1221,7 +1335,7 @@ void FixCommVotes(int team)
 	// resend every comm vote as an event when players join teams
 	for (int i=1; i<=MaxClients; i++)
 	{
-		if(IsClientInGame(i) && GetClientTeam(i) == team && commVotes[i] != 0)
+		if(IsClientInGame(i)  && GetClientTeam(i) == team && commVotes[i] != 0 && IsClientInGame(commVotes[i]))
 		{
 			// refire the event;
 			Event event = CreateEvent("commander_vote");
@@ -1229,8 +1343,8 @@ void FixCommVotes(int team)
 			{
 				return;
 			}
-			event.SetInt("voter_id", GetClientUserId(i));
-			event.SetInt("player_id", GetClientUserId(commVotes[i]));
+			event.SetInt("voter_id", i-1);
+			event.SetInt("player_id", commVotes[i] -1);
 			event.SetBool("squadcontrol", true);
 			event.Fire();
 		}

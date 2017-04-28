@@ -260,17 +260,17 @@
 			"max_players"	"52"
 		}
 		
-		"emp_frozensummit_b2_2013_fix"
-		{
-			"min_players"	"32"
-			"max_players"	"64"
-		}
+//		"emp_frozensummit_b2_2013_fix"
+//		{
+//			"min_players"	"32"
+//			"max_players"	"64"
+//		}
 		
-		"emp_fuel_a3_2013_fix"
-		{
-			"min_players"	"32"
-			"max_players"	"64"
-		}
+//		"emp_fuel_a3_2013_fix"
+//		{
+//			"min_players"	"32"
+//			"max_players"	"64"
+//		}
 		
 		"emp_glacial_b2"
 		{
@@ -326,11 +326,11 @@
 			"max_players"	"32"
 		}
 		
-		"emp_snowbound_cl6"
-		{
-			"min_players"	"20"
-			"max_players"	"42"
-		}
+//		"emp_snowbound_cl6"
+//		{
+//			"min_players"	"20"
+//			"max_players"	"42"
+//		}
 		
 		"emp_homeland_b9"
 		{
@@ -440,33 +440,28 @@
 			"max_players"	"64"
 		}
 		
-		"emp_king_r5_nosplt"
-		{
-			"min_players"	"40"
-			"max_players"	"64"
-		}
+//		"emp_king_r5_nosplt"
+//		{
+//			"min_players"	"40"
+//			"max_players"	"64"
+//		}
     }
 	
     "Infantry Maps"
     {
         "maps_invote"   "1"
 		
-		"emp_district402"
+		"con_district402"
 		{
 			"max_players"	"20"
 		}
 		
-		"emp_glycencity"
+		"con_glycencity"
 		{
 			"max_players"	"20"
 		}
 		
-		"emp_urbanchaos"
-		{
-			"max_players"	"20"
-		}
-		
-		"emp_break_poc"
+		"con_urbanchaos"
 		{
 			"max_players"	"20"
 		}
@@ -486,8 +481,9 @@
 			"max_players"	"20"
 		}
 		
-		"emp_nuclear_b8u"
+		"emp_nuclear_b8u_xfix"
 		{
+			"min_players"	"4"
 			"max_players"	"20"
 		}
 		

@@ -5,7 +5,7 @@ RankPointParse
 		"name"		"heal"
 		"description" 	"healing %i units worth"
 		"points"	1
-		"wages"		0
+		"wages"		5
 		"ammount required" 100
 	}
 
@@ -14,7 +14,7 @@ RankPointParse
 		"name"		"repair"
 		"description" 	"repairing %i units worth"
 		"points"	1
-		"wages"		0
+		"wages"		5
 		"ammount required" 100
 	}
 
@@ -23,7 +23,7 @@ RankPointParse
 		"name"		"recycle"
 		"description" 	"recycling %i units worth"
 		"points"	1
-		"wages"		0
+		"wages"		5
 		"ammount required" 100
 	}
 
@@ -32,7 +32,7 @@ RankPointParse
 		"name"		"enemykilled"
 		"description" 	"enemy killed"
 		"points"	1
-		"wages"		0
+		"wages"		5
 	}
 
 	buildingdestroyed
@@ -40,7 +40,7 @@ RankPointParse
 		"name"		"buildingdestroyed"
 		"description" 	"destroying an enemy building"
 		"points"	1
-		"wages"		0
+		"wages"		5
 	}
 
 	spottedbuildingdestroyed
@@ -56,7 +56,7 @@ RankPointParse
 		"name"			"sabotage"
 		"description" 		"sabotaging %i buildings"
 		"points"		1
-		"wages"			0
+		"wages"			5
 		"ammount required" 	2
 	}
 
@@ -65,7 +65,7 @@ RankPointParse
 		"name"		"defuse"
 		"description"	"disarming %i mines"
 		"points"	1
-		"wages"		0
+		"wages"		5
 		"ammount required" 	2
 	}
 
@@ -82,7 +82,7 @@ RankPointParse
 		"name"		"criticalassist"
 		"description"	"%i critical kill assists"
 		"points"	1
-		"wages"		0
+		"wages"		1
 		"ammount required" 	2
 	}
 
@@ -92,7 +92,7 @@ RankPointParse
 		"name"		"simpleassist"
 		"description"	"%i kill assists"
 		"points"	1
-		"wages"		0
+		"wages"		1
 		"ammount required" 	3
 	}
 	
@@ -102,7 +102,7 @@ RankPointParse
 		"name"		"tankdestroyed"
 		"description" 	"destroying an enemy vehicle"
 		"points"	1
-		"wages"		0
+		"wages"		5
 	}
 	
 	infantrydestroyedtank
@@ -110,7 +110,7 @@ RankPointParse
 		"name"		"infantrydestroyedtank"
 		"description" 	"destroying an enemy vehicle"
 		"points"	1
-		"wages"		0
+		"wages"		5
 	}
 	
 	spottedtankdestroyed
@@ -134,7 +134,7 @@ RankPointParse
 		"name"		"squadleaderbonus"
 		"description" 	"squad leader participation"
 		"points"	1
-		"wages"		0
+		"wages"		2
 	}
 
 	squadbonus
@@ -142,7 +142,7 @@ RankPointParse
 		"name"		"squadbonus"
 		"description" 	"squad participation"
 		"points"	1
-		"wages"		0
+		"wages"		2
 	}
 
 	revive
@@ -150,7 +150,7 @@ RankPointParse
 		"name"		"revive"
 		"description" 	"reviving a team mate"
 		"points"	1
-		"wages"		0
+		"wages"		5
 	}
 
 	emp_increase_rank
@@ -158,6 +158,6 @@ RankPointParse
 		"name"		"emp_increase_rank"
 		"description"	"emp_increase_rank"
 		"points"	10
-		"wages"		00
+		"wages"		200
 	}
 }

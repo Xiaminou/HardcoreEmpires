@@ -59,6 +59,8 @@ public void OnPluginStart()
 	//Find all console variables
 	vt_votetime = FindConVar("emp_sv_vote_commander_time");
 	vt_waittime = FindConVar("emp_sv_wait_phase_time");
+	
+	time_cvar = vt_votetime;
 
 	//Hook events
 	HookEvent("commander_vote_time", Event_CommVoteTime);
@@ -103,6 +105,7 @@ public void vt_paused_changed(ConVar convar, char[] oldValue, char[] newValue)
 		if (pauseNotifyHandle != INVALID_HANDLE)
 		{
 			KillTimer(pauseNotifyHandle);
+			pauseNotifyHandle = null;
 		}
 		pauseNotifyMessage = "";
 	}
@@ -223,30 +226,58 @@ public Action Command_VoteTime(int client, int args)
 	
 }
 
-
-
-public OnMapStart()
+// in some maps the cv is spawned in after map start e.g. emp_bush
+public Action RefreshTimeCvar(Handle timer)
 {
 	int paramEntity = FindEntityByClassname(-1, "emp_info_params");
 	commexists = GetEntProp(paramEntity, Prop_Send, "m_bCommanderExists") == 1;
+
 	
+	if(commexists)
+	{
+		if(time_cvar != vt_votetime)
+		{
+			time_cvar = vt_votetime;
+			originalVoteTime = time_cvar.IntValue;
+			if(timeEdited)
+			{
+				// correct for when we had the wrong time initially
+				time_cvar.IntValue = vt_waittime.IntValue;
+			}
+		}
+	}
+	else
+	{
+		if(time_cvar != vt_waittime)
+		{
+			time_cvar = vt_waittime;
+			originalVoteTime = time_cvar.IntValue;
+		}
+	}
+
+	
+}
+
+public OnMapStart()
+{
+	timeEdited = false;
+	voteStartTime = 0;
+	mapStartTime = GetTime();
+	
+	
+	int paramEntity = FindEntityByClassname(-1, "emp_info_params");
 	float startTime = GetEntPropFloat(paramEntity, Prop_Send, "m_flGameStartTime");
 	gameStarted = startTime > 1.0;
 	
-	if(commexists)
-		time_cvar = vt_votetime;
-	else
-		time_cvar = vt_waittime;
-	
-	voteStartTime = 0;
-	mapStartTime = GetTime();
 	AutoExecConfig(true, "votetime");
-	
 	
 	if(vt_paused.IntValue == 1)
 	{
 		vt_paused_changed(vt_paused,"1","0");
 	}
+	
+	RefreshTimeCvar(null);
+	CreateTimer(2.0,RefreshTimeCvar);
 }
 
 
@@ -258,10 +289,9 @@ public Event_CommVoteTime(Handle:event, const char[] name, bool dontBroadcast)
 	
 	if(voteStartTime == 0)
 	{
-		originalVoteTime = time_cvar.IntValue;
 		// check this in case we get reloaded in the middle of a vote
 
-		voteStartTime = GetTime() - 1 - (originalVoteTime - currentVoteTime);
+		voteStartTime = GetTime() - 1 - (time_cvar.IntValue - currentVoteTime);
 		if(commExists == 1 && !timeEdited)
 		{
 			int elapsedTime = voteStartTime - mapStartTime;

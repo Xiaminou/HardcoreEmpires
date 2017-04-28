@@ -39,10 +39,10 @@ public Action:UnGrief(client,args){
 	if(StrEqual(arg,"nf",false)){
 		Format(comm,256,"emp_nf_commander");
 		pos[2]+=50.0;	
-		PrintToChatAll("\x04[UG]\x01\x07ff6600 %N\x01 teleported\x07FF2323 Northern Faction\x01 Command Vehicle", client);
+		PrintToChatAll("\x04[UG]\x01\x07ff6600 %N\x01 teleported the\x07FF2323 Northern Faction\x01 Command Vehicle.", client);
 	}else if(StrEqual(arg,"be",false)||StrEqual(arg,"imp",false)){
 		Format(comm,256,"emp_imp_commander");
-		PrintToChatAll("\x04[UG]\x01\x07ff6600 %N\x01 teleported\x079764FF Brenodi Empire\x01 Command Vehicle", client);
+		PrintToChatAll("\x04[UG]\x01\x07ff6600 %N\x01 teleported the\x079764FF Brenodi Empire\x01 Command Vehicle.", client);
 	}else{
 		PrintToChat(client,"\x04[UG]\x01 Invalid Team");
 		PrintToConsole(client,"\x04[UG]\x01 Invalid Team");
