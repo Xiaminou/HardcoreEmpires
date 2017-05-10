@@ -25,205 +25,205 @@
 		"1"
 	{
 		"type"	"S"
-		"text"	"{GREEN}[ADV]{DEFAULT} If you are stuck type {GREEN}!us{DEFAULT} or {GREEN}!unstuck{DEFAULT}."
+		"text"	"{GREEN}[TIPS]{DEFAULT} If you are stuck type {GREEN}!us{DEFAULT} or {GREEN}!unstuck{DEFAULT}."
 	}
 	
 	"2"
 	{
 		"type"	"S"
-		"text"	"{GREEN}[ADV]{DEFAULT} To recycle your walls type {GREEN}!recwalls{DEFAULT}."
+		"text"	"{GREEN}[TIPS]{DEFAULT} To recycle your walls type {GREEN}!recwalls{DEFAULT}."
 	}
 	
 	"3"
 	{
 		"type"	"S"
-		"text"	"{GREEN}[ADV]{DEFAULT} If your sound is bugged type {GREEN}!fixsound{DEFAULT}."
+		"text"	"{GREEN}[TIPS]{DEFAULT} If your sound is bugged type {GREEN}!fixsound{DEFAULT}."
 	}
 	
 	"4"
 	{
 		"type"	"S"
-		"text"	"{GREEN}[ADV]{DEFAULT} If your commander tells you to killspawn press delete or type {GREEN}!kill{DEFAULT}."
+		"text"	"{GREEN}[TIPS]{DEFAULT} If your commander tells you to killspawn press delete or type {GREEN}!kill{DEFAULT}."
 	}
 	
 	"5"
 	{
 		"type"	"S"
-		"text"	"{GREEN}[ADV]{DEFAULT} Admins: To change the commander vote time use {GREEN}!votetime <time>{DEFAULT}."
+		"text"	"{GREEN}[TIPS]{DEFAULT} Admins: To change the commander vote time use {GREEN}!votetime <time>{DEFAULT}."
 		"flags" ""
 	}
 	
 	"6"
 	{
 		"type"	"S"
-		"text"	"{GREEN}[ADV]{DEFAULT} Admins: To turn alltalk on or off use {GREEN}!alltalk <1|0>{DEFAULT}."
+		"text"	"{GREEN}[TIPS]{DEFAULT} Admins: To turn alltalk on or off use {GREEN}!alltalk <1|0>{DEFAULT}."
 		"flags" ""
 	}
 	
 	"7"
 	{
 		"type"	"S"
-		"text"	"{GREEN}[ADV]{DEFAULT} Admins: To enable or disable spectators use {GREEN}!spec <1|0>{DEFAULT}."
+		"text"	"{GREEN}[TIPS]{DEFAULT} Admins: To enable or disable spectators use {GREEN}!spec <1|0>{DEFAULT}."
 		"flags" ""
 	}
 	
 	"8"
 	{
 		"type"	"S"
-		"text"	"{GREEN}[ADV]{DEFAULT} If you don't want engineers to revive you type {GREEN}!forcekill{DEFAULT}."
+		"text"	"{GREEN}[TIPS]{DEFAULT} If you don't want engineers to revive you type {GREEN}!forcekill{DEFAULT}."
 	}
 	
 	"9"
 	{
 		"type"	"S"
-		"text"	"{GREEN}[ADV]{DEFAULT} Admins: To pause the commander vote use {GREEN}!pausevote{DEFAULT}."
+		"text"	"{GREEN}[TIPS]{DEFAULT} Admins: To pause the commander vote use {GREEN}!pausevote{DEFAULT}."
 		"flags" ""
 	}
 	
 	"10"
 	{
 		"type"	"S"
-		"text"	"{GREEN}[ADV]{DEFAULT} Admins: To resume the commander vote use {GREEN}!resumevote{DEFAULT}."
+		"text"	"{GREEN}[TIPS]{DEFAULT} Admins: To resume the commander vote use {GREEN}!resumevote{DEFAULT}."
 		"flags" ""
 	}
 	
 	"11"
 	{
 		"type"	"S"
-		"text"	"{GREEN}[ADV]{DEFAULT} Commanders: To assign someone to a squad type {GREEN}!assign <player> <squad>{DEFAULT}."
+		"text"	"{GREEN}[TIPS]{DEFAULT} Commanders: To assign someone to a squad type {GREEN}!assign <player> <squad>{DEFAULT}."
 	}
 	
 	"12"
 	{
 		"type"	"S"
-		"text"	"{GREEN}[ADV]{DEFAULT} To list each squad's members and points type {GREEN}!squadinfo{DEFAULT}."
+		"text"	"{GREEN}[TIPS]{DEFAULT} To list each squad's members and points type {GREEN}!squadinfo{DEFAULT}."
 	}
 	
 	"13"
 	{
 		"type"	"S"
-		"text"	"{GREEN}[ADV]{DEFAULT} To vote for a new squadleader type {GREEN}!sl <player>{DEFAULT} (requires 3 votes)."
+		"text"	"{GREEN}[TIPS]{DEFAULT} To vote for a new squadleader type {GREEN}!sl <player>{DEFAULT} (requires 3 votes)."
 	}
 	
 	"14"
 	{
 		"type"	"S"
-		"text"	"{GREEN}[ADV]{DEFAULT} To communicate with your squad only {GREEN}open teamchat{DEFAULT} and type {GREEN};{DEFAULT} (semicolon) followed by your message."
+		"text"	"{GREEN}[TIPS]{DEFAULT} To communicate with your squad only {GREEN}open teamchat{DEFAULT} and type {GREEN};{DEFAULT} (semicolon) followed by your message."
 	}
 	
 	"15"
 	{
 		"type"	"S"
-		"text"	"{GREEN}[ADV]{DEFAULT} Spectators: To join a channel type {GREEN}!channel{DEFAULT} and a letter."
+		"text"	"{GREEN}[TIPS]{DEFAULT} Spectators: To join a channel type {GREEN}!channel{DEFAULT} and a letter."
 	}
 	
 	"16"
 	{
 		"type"	"S"
-		"text"	"{GREEN}[ADV]{DEFAULT} To use squad voice chat type {GREEN}!bindsquadvoice <key>{DEFAULT}, then press that key like normal voice chat, only your squad will hear you."
+		"text"	"{GREEN}[TIPS]{DEFAULT} To use squad voice chat type {GREEN}!bindsquadvoice <key>{DEFAULT}, then press that key like normal voice chat, only your squad will hear you."
 	}
 	
 	"17"
 	{
 		"type"	"S"
-		"text"	"{GREEN}[ADV]{DEFAULT} If you want to check out Empires Forums type {GREEN}!empires{DEFAULT} and click on forums."
+		"text"	"{GREEN}[TIPS]{DEFAULT} If you want to check out Empires Forums type {GREEN}!empires{DEFAULT} and click on forums."
 	}
 	
 	"18"
 	{
 		"type"	"S"
-		"text"	"{GREEN}[ADV]{DEFAULT} To participate in the Empires League 2017 type {GREEN}!league{DEFAULT} and follow the instructions in the thread."
+		"text"	"{GREEN}[TIPS]{DEFAULT} To participate in the Empires League 2017 type {GREEN}!league{DEFAULT} and follow the instructions in the thread."
 	}
 	
 	"19"
 	{
 		"type"	"S"
-		"text"	"{GREEN}[ADV]{DEFAULT} To consult the Empires wiki type {GREEN}!wiki{DEFAULT}."
+		"text"	"{GREEN}[TIPS]{DEFAULT} To consult the Empires wiki type {GREEN}!wiki{DEFAULT}."
 	}
 	
 	"20"
 	{
 		"type"	"S"
-		"text"	"{GREEN}[ADV]{DEFAULT} If you're new type {GREEN}!rtfm{DEFAULT} and read the Quick-Start Guide."
+		"text"	"{GREEN}[TIPS]{DEFAULT} If you're new type {GREEN}!rtfm{DEFAULT} and read the Quick-Start Guide."
 	}
 	
 	"21"
 	{
 		"type"	"S"
-		"text"	"{GREEN}[ADV]{DEFAULT} If you want more informations on the mapcycle and maps in general type {GREEN}!mapinfo{DEFAULT}."
+		"text"	"{GREEN}[TIPS]{DEFAULT} If you want more informations on the mapcycle and maps in general type {GREEN}!mapinfo{DEFAULT}."
 	}
 	
 	"22"
 	{
 		"type"	"S"
-		"text"	"{GREEN}[ADV]{DEFAULT} Admins: if you see a newbie doing bad force him to type !rtfm. Go in !admin menu, Force to Website, Force Player to Website, select his name, Empires Quick-Start Guide."
+		"text"	"{GREEN}[TIPS]{DEFAULT} Admins: if you see a newbie doing bad force him to type !rtfm. Go in !admin menu, Force to Website, Force Player to Website, select his name, Empires Quick-Start Guide."
 		"flags"	""
 	}
 	
 	"23"
 	{
 		"type"	"S"
-		"text"	"{GREEN}[ADV]{DEFAULT} Type {GREEN}!commander <be|nf>{DEFAULT} to see who was in the Command Vehicle last."
+		"text"	"{GREEN}[TIPS]{DEFAULT} Type {GREEN}!commander <be|nf>{DEFAULT} to see who was in the Command Vehicle last."
 	}
 	
 	"24"
 	{
 		"type"	"S"
-		"text"	"{GREEN}[ADV]{DEFAULT} To see the (almost) full list of commands available type {GREEN}!commandlist{DEFAULT}."
+		"text"	"{GREEN}[TIPS]{DEFAULT} To see the (almost) full list of commands available type {GREEN}!commandlist{DEFAULT}."
 	}
 	
 	"25"
 	{
 		"type"	"S"
-		"text"	"{GREEN}[ADV]{DEFAULT} Type {GREEN}!LeagueNF{DEFAULT} or {GREEN}!LeagueBE{DEFAULT} to join a team for the Empires League 2017."
+		"text"	"{GREEN}[TIPS]{DEFAULT} Type {GREEN}!LeagueNF{DEFAULT} or {GREEN}!LeagueBE{DEFAULT} to join a team for the Empires League 2017."
 	}
 	
 	"26"
 	{
 		"type"	"S"
-		"text"	"{GREEN}[ADV]{DEFAULT} To communicate with your Commander privately {GREEN}open teamchat{DEFAULT} and type {GREEN},{DEFAULT} (comma) followed by your message."
+		"text"	"{GREEN}[TIPS]{DEFAULT} To communicate with your Commander privately {GREEN}open teamchat{DEFAULT} and type {GREEN},{DEFAULT} (comma) followed by your message."
 	}
 	
 	"27"
 	{
 		"type"	"S"
-		"text"	"{GREEN}[ADV]{DEFAULT} To communicate with your Commander publicly {GREEN}open teamchat{DEFAULT} and type {GREEN}.{DEFAULT} (dot) followed by your message."
+		"text"	"{GREEN}[TIPS]{DEFAULT} To communicate with your Commander publicly {GREEN}open teamchat{DEFAULT} and type {GREEN}.{DEFAULT} (dot) followed by your message."
 	}
 	
 	"28"
 	{
 		"type"	"S"
-		"text"	"{GREEN}[ADV]{DEFAULT} To use Commander Voice chat type {GREEN}!bindcommvoice <key>{DEFAULT}, then press that key like normal voice chat, only your Commander will hear you."
+		"text"	"{GREEN}[TIPS]{DEFAULT} To use Commander Voice chat type {GREEN}!bindcommvoice <key>{DEFAULT}, then press that key like normal voice chat, only your Commander will hear you."
 	}
 	
 	"29"
 	{
 		"type"	"S"
-		"text"	"{GREEN}[ADV]{DEFAULT} Is there something wrong with the server? Something you do not like? Type {GREEN}!feedback{DEFAULT} and open an issue, your voice will be heard."
+		"text"	"{GREEN}[TIPS]{DEFAULT} Is there something wrong with the server? Something you do not like? Type {GREEN}!feedback{DEFAULT} and open an issue, your voice will be heard."
 	}
 	
 	"30"
 	{
 		"type"	"S"
-		"text"	"{GREEN}[ADV]{DEFAULT} To get notified of server events join our steam group by typing {GREEN}!steamgroup{DEFAULT}."
+		"text"	"{GREEN}[TIPS]{DEFAULT} To get notified of server events join our steam group by typing {GREEN}!steamgroup{DEFAULT}."
 	}
 	
 	"31"
 	{
 		"type"	"S"
-		"text"	"{GREEN}[ADV]{DEFAULT} To obtain more informations about a map type {GREEN}!<mapname>{DEFAULT} for example: {GREEN}!emp_isle{DEFAULT}."
+		"text"	"{GREEN}[TIPS]{DEFAULT} To obtain more informations about a map type {GREEN}!<mapname>{DEFAULT} for example: {GREEN}!emp_isle{DEFAULT}."
 	}
 	
 	"32"
 	{
 		"type"	"S"
-		"text"	"{GREEN}[ADV]{DEFAULT} Commanders: type {GREEN}!commanderpoll{DEFAULT} to fill a form about your Commanding Skills."
+		"text"	"{GREEN}[TIPS]{DEFAULT} Commanders: type {GREEN}!commanderpoll{DEFAULT} to fill a form about your Commanding Skills."
 	}
 	
-	"32"
+	"33"
 	{
 		"type"	"S"
-		"text"	"{GREEN}[ADV]{DEFAULT} If you don't know who to vote for type {GREEN}!commanders{DEFAULT} to view a list of known commanders and their ratings."
+		"text"	"{GREEN}[TIPS]{DEFAULT} If you don't know who to vote for type {GREEN}!commanders{DEFAULT} to view a list of known commanders and their ratings."
 	}
 	
 }

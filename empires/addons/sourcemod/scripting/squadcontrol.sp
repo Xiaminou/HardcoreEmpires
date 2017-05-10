@@ -30,7 +30,8 @@ int lastCommVoiceTime[MAXPLAYERS+1] = {0, ...};
 // bit flags
 int playerFlags [MAXPLAYERS+1] = {0, ...};
 int comms[4];
-
+new String:teamnames[][] = {"Unassigned","Spectator","NF","BE"};
+bool gameEnded;
 
 #define FLAG_SQUAD_VOICE		(1<<0)
 #define FLAG_COMM_VOICE		(1<<1)
@@ -46,6 +47,7 @@ public void OnPluginStart()
 
 	LoadTranslations("common.phrases");
 	RegConsoleCmd("sm_squadinfo", Command_Info);
+	RegConsoleCmd("sm_squadskills", Command_Skills);
 	RegConsoleCmd("sm_sl", Command_SL_Vote);
 	RegConsoleCmd("sm_rsl", Command_Request_SL);
 	RegConsoleCmd("say_squad", Command_Say_Squad);
@@ -55,23 +57,26 @@ public void OnPluginStart()
 	RegConsoleCmd("sm_channel", Command_Change_Channel);
 	RegConsoleCmd("sm_bindsquadvoice", Command_Bind_Squad_Voice);
 	RegConsoleCmd("sm_bindcommvoice", Command_Bind_Comm_Voice);
+	RegConsoleCmd("sm_hashmenu", Command_Hash_Menu);
 	RegConsoleCmd("sm_commander", Command_Check_Commander);
 	RegConsoleCmd("+voicerecord_squad", Command_Squad_Voice_Start);
 	RegConsoleCmd("-voicerecord_squad", Command_Squad_Voice_End);
 	RegConsoleCmd("+voicerecord_comm", Command_Comm_Voice_Start);
 	RegConsoleCmd("-voicerecord_comm", Command_Comm_Voice_End);
 	RegConsoleCmd("voice_squad_only", Comand_Squad_Voice);
+	RegConsoleCmd("sm_bindchatkeys",Command_Bind_Chat_Keys );
 	AddCommandListener(Command_Invite_Player, "emp_squad_invite");
 	AddCommandListener(Command_Opt_Out, "emp_commander_vote_drop_out");
 	AddCommandListener(Command_Say_Team, "say_team");
 	AddCommandListener(Command_Squad_Join, "emp_squad_join");
 	AddCommandListener(Command_Squad_Leave, "emp_squad_leave");
 	AddCommandListener(Command_Squad_Make_Lead, "emp_make_lead");
+	AddCommandListener(Command_Join_Team, "jointeam");
 	HookEvent("commander_vote", Event_Comm_Vote, EventHookMode_Post);
 	HookEvent("player_team", Event_PlayerTeam, EventHookMode_Post);
 	HookEvent("vehicle_enter", Event_VehicleEnter, EventHookMode_Post);
 	HookEvent("commander_elected_player", Event_Elected_Player, EventHookMode_Pre);
-	
+	HookEvent("game_end",Event_Game_End);
 	sc_fixcommvotes = CreateConVar("sc_fixcommvotes", "0", "Fixes comm vote numbers");
 	sc_prelimcommander = CreateConVar("sc_prelimcommander", "0", "Preliminary commander election");
 }
@@ -84,6 +89,7 @@ public APLRes AskPluginLoad2(Handle myself, bool late, char[] error, int err_max
 }
 
 
+
 public OnConfigsExecuted()
 {
 	
@@ -92,6 +98,10 @@ public OnClientConnected(int client)
 {
 	// reset all player flags
 	playerFlags[client] = 0;
+}
+public OnClientPutInServer(int client)
+{
+	ClientCommand(client,"bind home \"sm_hashmenu\"");
 }
 public OnClientDisconnect(int client)
 {
@@ -122,6 +132,7 @@ public Action  Command_Bind_Squad_Voice(int client,int args)
 	new String:arg[129];
 	GetCmdArg(1, arg, sizeof(arg));
 	ClientCommand(client,"bind \"%s\" \"+voicerecord_squad\"",arg,arg);
+	PrintToChat(client,"Squad voice now bound to %s",arg);
 	return Plugin_Handled;
 }
 public Action  Command_Bind_Comm_Voice(int client,int args)
@@ -131,8 +142,18 @@ public Action  Command_Bind_Comm_Voice(int client,int args)
 	new String:arg[129];
 	GetCmdArg(1, arg, sizeof(arg));
 	ClientCommand(client,"bind \"%s\" \"+voicerecord_comm\"",arg,arg);
+	PrintToChat(client,"Comm voice now bound to %s",arg);
 	return Plugin_Handled;
 }
+public Action Command_Bind_Chat_Keys(int client,int args)
+{
+	ClientCommand(client,"bind \".\" \"say_team\";bind \",\" \"say_team\";bind \"semicolon\" \"say_team\"");
+	
+	PrintToChat(client,"';', '.' and ',' are now bound to say_team. Double tap them for easy access to squad/comm chat");
+	return Plugin_Handled;
+}
+
+
 public Action Command_Squad_Voice_Start(int client,int args)
 {
 	FakeClientCommand(client,"voice_squad_only 1");
@@ -323,6 +344,24 @@ void SquadChange(int client)
 	}
 }
 
+public Action Command_Join_Team(int client, const String:command[], args)
+{
+	char arg[10];
+	GetCmdArg(1, arg, sizeof(arg));
+	int team = StringToInt(arg);
+	int oldTeam = GetClientTeam(client);
+
+	if(oldTeam != team && team >= 2)
+	{
+		onExitSquad(client);
+	}
+	
+	return Plugin_Continue;
+	
+}
+
+
+
 public Action Event_PlayerTeam(Event event, const char[] name, bool dontBroadcast)
 {
 	int cuid = GetEventInt(event, "userid");
@@ -333,10 +372,9 @@ public Action Event_PlayerTeam(Event event, const char[] name, bool dontBroadcas
 		return Plugin_Handled;
 	}
 	
-	onExitSquad(client);
-	
 	int team = GetEventInt(event, "team");
 	int oldTeam = GetEventInt(event, "oldteam");
+	
 	// refresh the votes. the player might have been comm or he might have voted for the comm. 
 	if(!VT_HasGameStarted())
 	{
@@ -398,6 +436,7 @@ onExitSquad(client)
 		CreateDataTimer(1.0, onSquadLeaderChange,Datapack);
 		WritePackCell(Datapack, squad);
 		WritePackCell(Datapack, team);
+		WritePackCell(Datapack, client);
 	}
 		
 }
@@ -410,6 +449,7 @@ public Action Command_Squad_Make_Lead(client, const String:command[], args)
 	int squad = GetEntProp(client, Prop_Send, "m_iSquad");
 	int resourceEntity = GetPlayerResourceEntity();
 	bool leader = GetEntProp(resourceEntity, Prop_Send, "m_bSquadLeader",4,client) == 1;
+	
 	if(client == comms[team] || leader)
 	{
 		new Handle:Datapack;
@@ -417,6 +457,10 @@ public Action Command_Squad_Make_Lead(client, const String:command[], args)
 		WritePackCell(Datapack, squad);
 		WritePackCell(Datapack, team);
 		
+		int prevLeader = client;
+		if(!leader)
+			prevLeader = 0;
+		WritePackCell(Datapack, prevLeader);
 	}
 	
 	
@@ -432,47 +476,20 @@ public Action onSquadLeaderChange(Handle timer,any dataPack)
 	ResetPack(dataPack);
 	int squad = ReadPackCell(dataPack);
 	int team = ReadPackCell(dataPack);
-	
-	// find the new leader of the squad. 
-	ArrayList players = new ArrayList();
+	int prevLeader = ReadPackCell(dataPack);
+
 	int resourceEntity = GetPlayerResourceEntity();
 	for (new i = 1; i <= MaxClients; i++)
 	{
 		if (IsClientInGame(i) && GetClientTeam(i) == team && GetEntProp(i, Prop_Send, "m_iSquad") == squad)
 		{
-				if(GetEntProp(resourceEntity, Prop_Send, "m_bSquadLeader",4,i) == 1)
-				{
-					if(players.Length > 0)
-					{
-						players.ShiftUp(0);
-						players.Set(0,i);
-					}
-					else
-					{
-						players.Push(i);
-					}
-						
-				}
-				else
-				{	
-					players.Push(i);
-				}
+			if(GetEntProp(resourceEntity, Prop_Send, "m_bSquadLeader",4,i) == 1 && i != prevLeader)
+			{
+				PrintToChat(i,"\x04[SC] \x01You are now squad leader");
+				EmitSoundToClient(i,"squadcontrol/squadleader_alert.wav");
+			}
 		}
 	} 
-	
-	if(players.Length > 0)
-	{
-		int leaderid = players.Get(0);
-		new String:leaderName[128];
-		GetClientName(leaderid,leaderName,sizeof(leaderName));
-		PrintToChat(leaderid,"\x04[SC] \x01You are now squad leader",leaderName);
-		EmitSoundToClient(leaderid,"squadcontrol/squadleader_alert.wav");
-		
-	}
-	
-	delete players;
-	
-	
 }
 public Action Command_Say_Comm(int client,int args)
 {
@@ -673,14 +690,7 @@ public Action Command_Say_Squad(int client,int args)
 	return Plugin_Handled;
 }
 
-StringSubString(const String:input[], startindx, endindx, String:dest[], maxlength)
-{
-    Format(dest, maxlength, input[startindx]);
-    if(strlen(input) > endindx)
-    {
-        ReplaceString(dest, maxlength, input[endindx], "");
-    }
-}
+
 
 
 
@@ -691,29 +701,32 @@ public Action Command_Say_Team(client, const String:command[], args)
 	new String:input[129];
 	
 	GetCmdArg(1, input, sizeof(input));
-
-	new String:shortString[2];
-	StringSubString(input,5,5,shortString,2);
-	if(StrEqual(";", shortString, false))
+	
+	if(input[5] == ';' && input[6] != ')' && (strlen(input) > 7 || (input[6] != 'P' && input[6] != 'D' )))
 	{
 		RemoveCharacters(input,sizeof(input),5,5);
 		FakeClientCommand(client,"say_squad \"%s\"",input);
 		return Plugin_Handled;
 	}
-	else if(StrEqual(".",shortString, false))
+	else if(input[5] == '.' && input[6] != '.')
 	{
 		RemoveCharacters(input,sizeof(input),5,5);
 		FakeClientCommand(client,"say_comm \"%s\"",input);
 		return Plugin_Handled;
 	}
-	else if(StrEqual(",",shortString, false))
+	else if(input[5] == ',')
 	{
 		RemoveCharacters(input,sizeof(input),5,5);
 		FakeClientCommand(client,"say_comm_private \"%s\"",input);
 		return Plugin_Handled;
 	}
+	else if (input[5] == '/' || input[5] == '!')
+	{
+		RemoveCharacters(input,sizeof(input),0,4);
+		FakeClientCommand(client,"say_team \"%s\"",input);
+		return Plugin_Handled;
+	}
 	return Plugin_Continue;
-	//
 }
 RemoveCharacters(char[] input,int inputsize,int startindex,int endindex)
 {
@@ -777,7 +790,7 @@ public Action Command_Info(int client, int args)
 			for (new j = 0; j < players[i].Length; j++)
 			{
 				int playerid =  players[i].Get(j);
-				if (IsClientInGame(playerid) && GetClientTeam(playerid) == currentTeam && GetEntProp(playerid, Prop_Send, "m_iSquad") == i )
+				if (IsClientInGame(playerid))
 				{
 					int len;
 					new String:color[12];
@@ -794,13 +807,15 @@ public Action Command_Info(int client, int args)
 						
 					new String:targetName[len];
 					GetClientName(playerid, targetName, len);
-					// replace all spaces in the player names 
-					ReplaceString(targetName, len, " ", "");
+					
 					// playeroutput also includes the color
 					new String:playeroutput[32];
-					Format(playeroutput, 32, "%s%s ",color,targetName);
+					Format(playeroutput, 32, "%s%s",color,targetName);
 					StrCat(message,sizeof(message),playeroutput);
-				
+					if(j != players[i].Length -1)
+					{
+						StrCat(message,sizeof(message), "\x01, ");
+					}
 				}
 			}
 			delete players[i];
@@ -822,47 +837,212 @@ public Action Command_Info(int client, int args)
 
 	return Plugin_Handled;
 }
+
+ArrayList GetSquadPlayers(int team,int squad)
+{
+	int resourceEntity = GetPlayerResourceEntity();
+	ArrayList players = new ArrayList();
+	for (new i = 1; i <= MaxClients; i++)
+	{
+		if (IsClientInGame(i) && GetClientTeam(i) == team && GetEntProp(i, Prop_Send, "m_iSquad") == squad)
+		{
+		
+			if(players.Length != 0 && GetEntProp(resourceEntity, Prop_Send, "m_bSquadLeader",4,i) == 1 )
+			{
+				players.ShiftUp(0);
+				players.Set(0,i);
+			}
+			else
+			{	
+				players.Push(i);
+			}
+
+		}
+	}
+	return players;
+}
+
+public Action Command_Skills(int client, int args)
+{
+	if(client == 0)
+		client = 1;
+	int currentTeam = GetClientTeam(client);
+	int currentSquad = GetEntProp(client, Prop_Send, "m_iSquad");
+	ArrayList squadPlayers = GetSquadPlayers(currentTeam,currentSquad);
+	
+	new String:message[512] = "";
+	
+
+	
+	for (new j = 0; j < squadPlayers.Length; j++)
+	{
+		int playerid =  squadPlayers.Get(j);
+		
+		
+		if (IsClientInGame(playerid))
+		{
+			new String:targetName[128];
+			GetClientName(playerid, targetName, sizeof(targetName));
+			Format(targetName, sizeof(targetName), "\x07ff6600%s: \x01",targetName);
+			StrCat(message,sizeof(message),targetName);
+			
+			
+			for(int i = 1;i < 5;i++)
+			{
+				// may do it so if alive use skill else use desiredskill
+				new String:property[20];
+				Format(property, 20, "m_iSkill%i",i);
+				int skill = GetEntProp(playerid, Prop_Send, property);
+				if(skill > 8)
+				{
+					new String:skillName[100];
+					GetSkillName(skill,skillName,sizeof(skillName));
+					Format(skillName, sizeof(skillName), "%s, ",skillName);
+					StrCat(message,sizeof(message),skillName);
+				}
+			}
+			message[strlen(message)-2] = 0; 
+			StrCat(message,sizeof(message),"\n");
+		}
+	}
+	
+	delete squadPlayers;
+	
+	PrintToChat(client,message);
+
+	return Plugin_Handled;
+}
+public Action Command_Hash_Menu(int client, int args)
+{
+	if(client == 0)
+		client = 1;
+	Menu menu = new Menu(HashMenuHandler);
+	menu.SetTitle("Command List");
+	
+	menu.AddItem("recycle walls", "Recycle Walls");	
+	menu.AddItem("unstuck", "Unstuck");
+	menu.AddItem("request lead", "Request Squad Lead");
+	menu.AddItem("squadleadvote", "Squad Lead Vote");
+	menu.AddItem("squadinfo", "Squad Info");
+	menu.AddItem("squadskills", "Squad Skills");
+	menu.AddItem("lastcomm", "Last Commander");		
+	menu.ExitButton = true;
+	menu.Display(client, 10);
+
+}
+public int HashMenuHandler(Menu menu, MenuAction action, int client, int param2)
+{
+	if (action == MenuAction_Select)
+	{
+		switch(param2)
+		{
+			case 0:
+				FakeClientCommand(client,"emp_eng_recycle_walls");
+			case 1:
+				FakeClientCommand(client,"emp_unstuck");
+			case 2:
+				FakeClientCommand(client,"sm_rsl");
+			case 3:
+				SquadLeadVote(client);
+			case 4:
+				FakeClientCommand(client,"sm_squadinfo");
+			case 5:
+				FakeClientCommand(client,"sm_squadskills");
+			case 6:
+				FakeClientCommand(client,"sm_commander");			
+		}
+	}
+	/* If the menu has ended, destroy it */
+	else if (action == MenuAction_End)
+	{
+		delete menu;
+	}
+}
+void SquadLeadVote(int client)
+{
+	Menu menu = new Menu(SquadVoteMenuHandler);
+	menu.SetTitle("Pick Player");
+	
+	char idbuffer[32];
+	IntToString(client,idbuffer,sizeof(idbuffer));
+	menu.AddItem(idbuffer, "Yourself");	
+	
+	ArrayList players = GetSquadPlayers(GetClientTeam(client),GetEntProp(client, Prop_Send, "m_iSquad"));
+	
+	char clientName[256];
+			
+	for(int i = 0;i<players.Length;i++)
+	{
+		int playerid = players.Get(i);
+		if(playerid != client)
+		{
+			GetClientName(playerid, clientName, sizeof(clientName));
+			IntToString(playerid,idbuffer,sizeof(idbuffer));
+			menu.AddItem(idbuffer, clientName);
+		}
+		
+	}
+	menu.ExitButton = true;
+	menu.Display(client, 10);
+	
+	delete players;
+}
+public int SquadVoteMenuHandler(Menu menu, MenuAction action, int client, int param2)
+{
+	if (action == MenuAction_Select)
+	{
+		char info[32];
+		menu.GetItem(param2, info, sizeof(info));
+		int targetId = StringToInt(info);
+		vote(client,targetId);
+	}
+	/* If the menu has ended, destroy it */
+	else if (action == MenuAction_End)
+	{
+		delete menu;
+	}
+}
+
+
+
 public Action Command_Check_Commander(int client, int args)
 {
 		char arg[65];
 		if(client == 0)
 			client = 1;
+		
 		GetCmdArg(1, arg, sizeof(arg));
 		int team = GetClientTeam(client);
 		int target = 0;
-		if(StrEqual("nf", arg, false))
+		bool foundTarget = false;
+		for(int i = 2;i<4;i++)
 		{
-			if(team == 3)
+			if(StrEqual(teamnames[i], arg, false))
 			{
-				PrintToChat(client,"We don't know!");
-				return Plugin_Handled;
-			}
-			else
-			{
-				target = comms[2];
+				if(team >=2 && team != i && !gameEnded)
+				{
+					PrintToChat(client,"We don't know!");
+					return Plugin_Handled;
+				}
+				else
+				{
+					target = comms[i];
+					foundTarget = true;
+				}
 			}
 		}
-		else if (StrEqual("be", arg, false))
-		{
-			if(team == 2)
-			{
-				PrintToChat(client,"We don't know!");
-				return Plugin_Handled;
-			}
-			else
-			{
-				target = comms[3];
-			}
-		}
-		else
+		
+		// we use the team we are on
+		if(!foundTarget)
 		{
 			target = comms[team];
 		}
 		
-		if( target != 0 && !IsClientInGame(target))
+		if(target != 0 && !IsClientInGame(target))
 		{
 			target = 0;
 		}
+		
 		
 		if(target != 0)
 		{
@@ -921,33 +1101,8 @@ public Action Command_SL_Vote(int client, int args)
 	{
 		target = client;
 	}
-	int clientSquad = GetEntProp(client, Prop_Send, "m_iSquad");
-	int clientTeam = GetClientTeam(client);
-
-	int targetSquad = GetEntProp(target, Prop_Send, "m_iSquad");
-	int targetTeam = GetClientTeam(target);
 	
-	int resourceEntity = GetPlayerResourceEntity();
-	char targetName[256];
-	GetClientName(target, targetName, sizeof(targetName));
-	
-	if(clientTeam < 2)
-	{
-		ReplyToCommand(client, "You must be in a team to vote");
-		return Plugin_Handled;
-	}
-	if(clientTeam != targetTeam || clientSquad != targetSquad)
-	{
-		ReplyToCommand(client, "%s is not in your squad",targetName);
-		return Plugin_Handled;
-	}
-	if(GetEntProp(resourceEntity, Prop_Send, "m_bSquadLeader",4,target) == 1)
-	{
-		ReplyToCommand(client, "%s is already squad leader",targetName);
-		return Plugin_Handled;
-	}
-	
-	vote(client,clientSquad,target);
+	vote(client,target);
 	
 	return Plugin_Handled;
 }
@@ -1102,30 +1257,51 @@ int getSquad(char[] name)
 
 
 
-vote( int client,int squad,int target)
+vote( int client,int target)
 {
-	playerVotes[client] = target;
-	int team = GetClientTeam(client);
-	int votes = 0;
-	ArrayList squadPlayers = new ArrayList();
+	int squad = GetEntProp(client, Prop_Send, "m_iSquad");
+
+	
+	int resourceEntity = GetPlayerResourceEntity();
 	char originName[256];
 	char targetName[256];
 	GetClientName(client, originName, sizeof(originName));
 	GetClientName(target, targetName, sizeof(targetName));
 	
-	
-	for (new i = 1; i <= MaxClients; i++)
-	{
-		if(IsClientInGame(i) &&  GetClientTeam(i) == team && GetEntProp(i, Prop_Send, "m_iSquad")== squad)
-		{
-			squadPlayers.Push(i);
-			if(playerVotes[i] == target)
-			{
-				votes ++;
-			}
-		}			
+	int team = GetClientTeam(client);
 
-	} 
+	int targetSquad = GetEntProp(target, Prop_Send, "m_iSquad");
+	int targetTeam = GetClientTeam(target);
+	if(team < 2)
+	{
+		PrintToChat(client, "You must be in a team to vote");
+		return;
+	}
+	if(team != targetTeam || squad != targetSquad)
+	{
+		PrintToChat(client, "%s is not in your squad",targetName);
+		return;
+	}
+	if(GetEntProp(resourceEntity, Prop_Send, "m_bSquadLeader",4,target) == 1)
+	{
+		PrintToChat(client, "%s is already squad leader",targetName);
+		return;
+	}
+	
+	playerVotes[client] = target;
+	int votes = 0;
+	ArrayList squadPlayers = GetSquadPlayers(team,squad);
+	
+	
+	for(int i = 0;i<squadPlayers.Length;i++)
+	{
+		int playerid = squadPlayers.Get(i);
+		if(playerVotes[playerid] == target)
+		{
+			votes ++;
+		}	
+	}
+	
 	
 	new String:message[128];
 	int requiredVotes = RoundToCeil(float(squadPlayers.Length) * 0.51);
@@ -1220,6 +1396,7 @@ public OnMapStart()
 	}
 	comms[2] = 0;
 	comms[3] = 0;
+	gameEnded = false;
 }
 public Action Event_Comm_Vote(Event event, const char[] name, bool dontBroadcast)
 {
@@ -1329,6 +1506,10 @@ public Event_Elected_Player(Handle:event, const char[] name, bool dontBroadcast)
 	}
 	
 }
+public Event_Game_End(Handle:event, const char[] name, bool dontBroadcast)
+{	
+	gameEnded = true;
+}
 
 void FixCommVotes(int team)
 {
@@ -1348,6 +1529,62 @@ void FixCommVotes(int team)
 			event.SetBool("squadcontrol", true);
 			event.Fire();
 		}
+	}
+}
+
+// taken from the emp_skills.txt file 
+GetSkillName(int id,char[] result,resultlength)
+{
+	switch(id)
+	{
+		case 16:
+			strcopy(result, resultlength, "Wpn Silencer");
+		case 32:
+			strcopy(result, resultlength, "Enhanced Senses");
+		case 64:
+			strcopy(result, resultlength, "Radar Stealth");
+		case 128:
+			strcopy(result, resultlength, "Hide");
+		case 256:
+			strcopy(result, resultlength, "Vehicle Speed");
+		case 512:
+			strcopy(result, resultlength, "Dig In");
+		case 1024:
+			strcopy(result, resultlength, "Damage Increase");
+		case 2048:
+			strcopy(result, resultlength, "Vehicle Damage");
+		case 4096:
+			strcopy(result, resultlength, "Defusal");
+		case 8192:
+			strcopy(result, resultlength, "Armor Detection");
+		case 16384:
+			strcopy(result, resultlength, "Artillery Feedback");
+		case 32768:
+			strcopy(result, resultlength, "Increased Armor");
+		case 65536:
+			strcopy(result, resultlength, "Healing Upgrade");
+		case 131072:
+			strcopy(result, resultlength, "Repair Upgrade");	
+		case 262144:
+			strcopy(result, resultlength, "Revive");
+		case 524288:
+			strcopy(result, resultlength, "Turret Upgrade");
+		case 1048576:
+			strcopy(result, resultlength, "Vehicle Cooling");
+		case 2097152:
+			strcopy(result, resultlength, "Health Upgrade");
+		case 4194304:
+			strcopy(result, resultlength, "Health Regeneration");
+		case 8388608:
+			strcopy(result, resultlength, "Ammo Increase");
+		case 16777216:
+			strcopy(result, resultlength, "Stamina Increase");	
+		case 33554432:
+			strcopy(result, resultlength, "Speed Upgrade");
+		case 67108864:
+			strcopy(result, resultlength, "Accuracy Upgrade");
+		case 134217728:
+			strcopy(result, resultlength, "Melee Upgrade");	
 	}
 }
 

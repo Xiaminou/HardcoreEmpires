@@ -431,7 +431,7 @@ public Action Event_PlayerTeam(Event event, const char[] name, bool dontBroadcas
 			CheckPickPlayers();
 		}
 	}
-	if(stage == STAGE_GAME && gameTeam == -1)
+	if(stage == STAGE_GAME && gameTeam == -1 && team >= 2)
 	{
 		// they are now drafted into this team. 
 		AddToTeam(client,team -2);
@@ -803,7 +803,13 @@ void Pick(int client,int target)
 	
 	if(picksLeft <= 0)
 	{
-		teamTime[teamToPick] -= (GetTime() - pickStartTime) ;
+		int newTime = teamTime[teamToPick] - (GetTime() - pickStartTime);
+		// make sure time doesent go below 0. we dont want 
+		if(newTime <0)
+		{
+			newTime = 0;
+		}
+		teamTime[teamToPick] = newTime;
 		teamToPick = OppTeam(teamToPick);
 		BeginPick();
 	}
@@ -850,7 +856,7 @@ void OptInCandidates()
 			// add any players that are not in a team. 
 			if(team == -1)
 			{
-				// opt in, if in squad mode make sure only squad leaders can opt int
+				// opt in, if in squad mode make sure only squad leaders opt int
 				if(!squadMode || identities[i] < 4 ||  GetEntProp(resourceEntity, Prop_Send, "m_bSquadLeader",4,i) == 1)
 					FakeClientCommand(i,"emp_commander_vote_add_in");
 			}
@@ -931,9 +937,10 @@ public OnClientDisconnect(int client)
 			// set the clientid to 0 for that member
 			teams[team].Set(index,0);
 		}
-		if(stage == STAGE_PICK)
+		if(stage == STAGE_PICK || stage == STAGE_PICKWAIT)
 		{
-			CheckPickPlayers();
+			if(draftBegun)
+				CheckPickPlayers();
 			int captained = TeamCaptained(client);
 			// a player cannot be captain if they left the server
 			if(captained != -1)
@@ -1043,6 +1050,8 @@ DraftEnded()
 	{
 		if(IsClientInGame(i))
 		{
+			squads[i] = 0;
+			identities[i] = 0;
 			AdjustPrefix(i);
 		}
 	}
@@ -1102,7 +1111,7 @@ public Action Command_Opt_Out(client, const String:command[], args)
 public Action Command_Opt_In(client, const String:command[], args)
 {
 	// prevent opt ins
-	if(stage == STAGE_PICK || stage == STAGE_PICKWAIT)
+	if(stage == STAGE_PICK)
 	{
 		int index;
 		int team = GetTeam(client,index);
@@ -1111,6 +1120,10 @@ public Action Command_Opt_In(client, const String:command[], args)
 		{
 			return Plugin_Handled;
 		}
+	}
+	else if(stage == STAGE_PICKWAIT)
+	{
+		return Plugin_Handled;
 	}
 	return Plugin_Continue;
 }
@@ -1127,7 +1140,7 @@ bool CanPick(int client)
 	int index;
 	int team = GetTeam(client,index);
 	
-	if(client!=captains[team])
+	if(team == -1 || client!=captains[team])
 	{
 		PrintToChat(client,"You are not team captain");
 		return false;
@@ -1257,7 +1270,7 @@ public Action Command_Comm_Vote(int client, const String:command[], args)
 void AddToTeam(int client,int team)
 {
 	int index;
-	int steamid = GetSteamAccountID(client,false);
+	int steamid = GetSteamAccountID(client,true);
 	int currentTeam = GetTeam(client,index);
 	// make sure that a player can only be in one team
 	if(currentTeam == team || client < 1)
@@ -1499,7 +1512,7 @@ bool RemoveWrongIdentities(char[] clientName,int namesize, int identity)
 	int prefixCheckMax = 5;
 	if(squadMode)
 	{
-		prefixCheckMax = 32;
+		prefixCheckMax = 31;
 	}
 	bool wrongIdentity = false;
 	for(int j = 0;j<10;j++)
@@ -1578,9 +1591,9 @@ public Hook_OnThinkPost(iEnt) {
 			{
 				score = 30 - score;
 			}
-			else
+			else if(score != 0)
 			{
-				score += 30;
+				score += 26;
 			}
 			SetEntProp(iEnt,Prop_Send, "m_iScore", score,4, i);
 		}
@@ -1610,19 +1623,13 @@ Stage_CaptainVote_End()
 }
 Stage_Pickwait_Start()
 {
-	if(!draftBegun)
-	{
-		teamToPick = GetRandomInt(0, 1);
-	}
 	
 	int time = dp_pick_wait_time.IntValue;
-	
-	new String:clientName[128];
-	GetClientName(captains[teamToPick],clientName,sizeof(clientName));
-	PrintToChatAll("\x04[DP] \x01Both captains have been assigned, Picking begins in \x073399ff%d\x01 seconds, %s%s\x01 will be first to pick",time,teamcolors[teamToPick],clientName);
+
+	PrintToChatAll("\x04[DP] \x01Both captains have been assigned, Picking begins in \x073399ff%d\x01 seconds",time);
 	if(!draftBegun)
 	{
-		pickWaitNotifyHandle = CreateTimer(8.0, Timer_PickWaitNotify, _, TIMER_REPEAT);
+		pickWaitNotifyHandle = CreateTimer(10.0, Timer_PickWaitNotify, _, TIMER_REPEAT);
 		new String:captainMessage[128] = "\x04[DP]\x01 You should use this phase to prepare your drafting strategy";
 		PrintToChat(captains[0],captainMessage);
 		PrintToChat(captains[1],captainMessage);
@@ -1630,7 +1637,7 @@ Stage_Pickwait_Start()
 		if(squadMode)
 		{
 			RemoveCaptainsFromSquads();
-			PrintToChatAll("\x04[DP] \x01Squad Mode Enabled: You can join squads with players you want to play with. ",time,teamcolors[teamToPick],clientName);
+			PrintToChatAll("\x04[DP] \x01Squad Mode Enabled: You can join squads with players you want to play with. ");
 		}
 		
 	}
@@ -1643,12 +1650,30 @@ public Action Timer_PickWaitNotify(Handle timer)
 	// warn all non nf players that they must get in or they wont be able to join. 
 	for (int i=1; i<=MaxClients; i++)
 	{
-		if(IsClientInGame(i) && GetClientTeam(i) <2)
+		if(IsClientInGame(i))
 		{
-			PrintToChat(i,"\x07b30000[WARNING] \x01The draft pick is starting! If you are not in NF when the timer hits 0 you will not be able to join until 1 minutes after the the pick ends");
+			if(GetClientTeam(i) <2)
+			{
+				PrintToChat(i,"\x07b30000[WARNING] \x01The draft pick is starting! If you are not in NF when the timer hits 0 you will not be able to join until 1 minutes after the the pick ends");
+			}
+			else
+			{
+				if(squadMode)
+				{
+					PrintToChat(i,"\x04[SC] \x01The draft pick is starting! Picking will begin when the timer hits 0. Join squads to play with your friends!");
+				}
+				else
+				{
+					PrintToChat(i,"\x04[SC] \x01The draft pick is starting! Picking will begin when the timer hits 0.");
+				}
+				
+			
+			}
+			
 		}
 	}
 }
+
 Stage_Pickwait_End()
 {
 	if (pickWaitNotifyHandle != INVALID_HANDLE)
@@ -1695,6 +1720,8 @@ Stage_Pick_Start()
 {
 	if(!draftBegun)
 	{
+		//move teamtopick back here because of confusing stuff. 
+		teamToPick = GetRandomInt(0, 1);
 		BeginNewDraft();
 		int baseTime = 20 + GetClientCount(true) * dp_pick_initial_multiplier.IntValue;
 		teamTime[0] = baseTime;
@@ -1743,8 +1770,10 @@ Stage_Game_Start()
 				{
 					// join the squad we were in. 
 					ForceSquad(i,squads[i]);
+					
 				}
 			}
+		
 		}
 	}
 	DraftEnded();
@@ -1971,7 +2000,7 @@ RefreshClientIDs()
 	{
 		if(IsClientInGame(i))
 		{
-			int playerid = GetSteamAccountID(i,false);
+			int playerid = GetSteamAccountID(i,true);
 			int index;
 			int team = GetTeamBySteamId(playerid,index);
 			if(team != -1)
@@ -2014,7 +2043,7 @@ public Action Command_SaveTeams(int client, int args)
 			{
 				if(IsClientInGame(i) && GetClientTeam(i) == j + 2)
 				{
-					IntToString(GetSteamAccountID(i,false),idbuffer,sizeof(idbuffer));
+					IntToString(GetSteamAccountID(i,true),idbuffer,sizeof(idbuffer));
 					GetClientName(i,nameBuffer,sizeof(nameBuffer));
 					kv.SetString(idbuffer, nameBuffer);
 				}
@@ -2062,7 +2091,7 @@ int GetClientOfSteamID(int steamid)
 	{
 		if(IsClientInGame(i))
 		{
-			if(GetSteamAccountID(i,false) == steamid)
+			if(GetSteamAccountID(i,true) == steamid)
 				return i;
 		}
 	}

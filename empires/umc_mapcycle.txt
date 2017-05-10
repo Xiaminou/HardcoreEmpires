@@ -362,17 +362,23 @@
 			"max_players"	"64"
 		}
 		
+		"emp_fury_rc1"
+		{
+			"min_players"	"26"
+			"max_players"	"52"
+		}
+		
 		"emp_coast"
 		{
 			"min_players"	"20"
 			"max_players"	"52"
 		}
 		
-		"emp_tropicvendetta_rc4"
-		{
-			"min_players"	"32"
-			"max_players"	"52"
-		}
+//		"emp_tropicvendetta_rc4"
+//		{
+//			"min_players"	"32"
+//			"max_players"	"52"
+//		}
 		
 //		"emp_streetsoffire_old"
 //		{
@@ -467,11 +473,6 @@
 		}
 		
 		"emp_blast_ob1"
-		{
-			"max_players"	"20"
-		}
-		
-		"con_forestattack_a2"
 		{
 			"max_players"	"20"
 		}
