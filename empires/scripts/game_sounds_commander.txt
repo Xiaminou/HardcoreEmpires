@@ -1,0 +1,19 @@
+//Commander related
+"Commander_NF.building_place"
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.000"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"		"SNDLVL_NORM"
+
+	"wave"			"commander/building_place.wav"
+}
+"Commander_NF.building_create"
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1.000"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"		"SNDLVL_NORM"
+
+	"wave"			"commander/building_create.wav"
+}

@@ -1,0 +1,679 @@
+WeaponDescriptionData 
+{
+
+// WeaponCode rules:
+// 0 - 63 is the current limitation for weaponscode values
+// WeaponCode values outside of this range will give strange results; one example is world sounds being broken for the weapon exceeding this limit.
+// The server will give the client the wrong WeaponCode, possibly taking values from the wrong scripts.
+// See te_firebullets.cpp:71 to increase this limitation.
+
+	//Name of the weapon which can be used for reference in the class scripts.
+	SIDEARM_NF_9MM 
+	{
+		"WeaponName"		"SIDEARM_NF_9MM" 
+		"WeaponCode"		"1"
+		//Number which references the weapon in the code.
+		"WeaponText"		"9mm Pistol"
+		//Short name for the weapon.
+		"WeaponDescription"	"The Northern Faction 9mm is the standard sidearm of the northern faction military and good at medium to close ranges."
+		//Long description for the weapon.
+		"WeaponBackground"	"guns/nf/pistol"
+		//Weapon image.
+		"WeaponScript"		"emp_nf_pistol"
+		//Weapon script.
+	}
+	
+	"SIDEARM_NF_BUCKSHOT"
+	{
+		"WeaponName"		"SIDEARM_NF_BUCKSHOT"
+		"WeaponCode"		"2"
+		//Number which references the weapon in the code.
+		"WeaponText"		"Buckshot Pistol"
+		//Short name for the weapon.
+		"WeaponDescription"	"The Shot Pistol has two barrels and fires buckshot rounds creating a wider firing cone and high damage at short ranges."
+		//Long description for the weapon.
+		"WeaponBackground"	"guns/nf/bpistol"
+		//Weapon image.
+		"WeaponScript"		"emp_nf_shot_pistol"
+		//Weapon script.
+	}
+
+
+	"PRIMARY_NF_SMG1"
+	{
+		"WeaponName"		"PRIMARY_NF_SMG1"
+		"WeaponCode"		"3"
+		//Number which references the weapon in the code.
+		"WeaponText"		"Ranged SMG"
+		//Short name for the weapon.
+		"WeaponDescription"	"The Northern Faction's Ranged SMG is designed for high accuracy at all ranges. Its rounds are designed to remain accurate and powerful even at the greatest distances."
+		//Long description for the weapon.
+		"WeaponBackground"	"guns/nf/smg1"
+		//Weapon image.
+		"WeaponScript"		"emp_nf_smg1"
+		//Weapon script.
+	}
+
+	"PRIMARY_NF_SMG2"
+	{
+		"WeaponName"		"PRIMARY_NF_SMG2"
+		"WeaponCode"		"4"
+		//Number which references the weapon in the code.
+		"WeaponText"		"Close Quarters SMG"
+		//Short name for the weapon.
+		"WeaponDescription"	"The Northern Faction CQ SMG is effective in close quarters due to its high rate of fire but is less effective at range due to its low accuracy."
+		//Long description for the weapon.
+		"WeaponBackground"	"guns/nf/smg2"
+		//Weapon image.
+		"WeaponScript"		"emp_nf_smg2"
+		//Weapon script.
+	}
+
+	"PRIMARY_NF_SMG3"
+	{
+		"WeaponName"		"PRIMARY_NF_SMG3"
+		"WeaponCode"		"5"
+		//Number which references the weapon in the code.
+		"WeaponText"		"Heavy Carbine"
+		//Short name for the weapon.
+		"WeaponDescription"	"The Northern Faction's heavy Carbine is the hardest hitting Carbine in the Northern Faction arsenal but has a slow rate of fire and small clip."
+		//Long description for the weapon.
+		"WeaponBackground"	"guns/nf/smg3"
+		//Weapon image.
+		"WeaponScript"		"emp_nf_smg3"
+		//Weapon script.
+	}
+
+	"PRIMARY_NF_RIFLE"
+	{
+		"WeaponName"		"PRIMARY_NF_RIFLE"
+		"WeaponCode"		"6"
+		//Number which references the weapon in the code.
+		"WeaponText"		"Assault Rifle"
+		//Short name for the weapon.
+		"WeaponDescription"	"The Northern Faction's Assault Rifle is an excellent general purpose weapon, useful at all ranges."
+		//Long description for the weapon.
+		"WeaponBackground"	"guns/nf/ar"
+		//Weapon image.
+		"WeaponScript"		"emp_nf_rifle"
+		//Weapon script.
+	}
+
+	"PRIMARY_NF_RANGEDRIFLE"
+	{
+		"WeaponName"		"PRIMARY_NF_RANGEDRIFLE"
+		"WeaponCode"		"7"
+		//Number which references the weapon in the code.
+		"WeaponText"		"Scoped Rifle"
+		//Short name for the weapon.
+		"WeaponDescription"	"The Northern Faction's Scoped Rifle is useful for hitting targets at the most extreme of ranges. Trained marksmen can also use the rifle effectively at closer ranges."
+		//Long description for the weapon.
+		"WeaponBackground"	"guns/nf/aar"
+		//Weapon image.
+		"WeaponScript"		"emp_nf_scout_rifle"
+		//Weapon script.
+	}
+
+	"PRIMARY_NF_50CAL"
+	{
+		"WeaponName"		"PRIMARY_NF_50CAL"
+		"WeaponCode"		"8"
+		//Number which references the weapon in the code.
+		"WeaponText"		"50cal rifle"
+		//Short name for the weapon.
+		"WeaponDescription"	"The Northern faction 50cal rifle is most effective and long range combat but has a slow rate of fire."
+        //Long description for the weapon.
+		"WeaponBackground"	"guns/nf/50cal"
+		//Weapon image.
+		"WeaponScript"		"emp_nf_50cal"
+		//Weapon script.
+	}
+
+	"PRIMARY_NF_HMG"
+	{
+		"WeaponName"		"PRIMARY_NF_HMG"
+		"WeaponCode"		"9"
+		//Number which references the weapon in the code.
+		"WeaponText"		"Light Machine Gun"
+		//Short name for the weapon.
+		"WeaponDescription"	"The Northern Faction Light Machine Gun has a large clip making it good for sustained fire on one or more targets, but requires you to be stationary."
+		//Long description for the weapon.
+		"WeaponBackground"	"guns/nf/hmg"
+		//Weapon image.
+		"WeaponScript"		"emp_nf_hmg"
+		//Weapon script.
+	}
+
+	"PRIMARY_NF_RPG"
+	{
+		"WeaponName"		"PRIMARY_NF_RPG"
+		"WeaponCode"		"10"
+		//Number which references the weapon in the code.
+		"WeaponText"		"RPG Launcher"
+		//Short name for the weapon.
+		"WeaponDescription"	"The RPG launcher has two operating modes, rocket launcher, and mortar launcher.  This gives great versatility to the grenadier unit in taking on numerous threats on the battlefield."
+		//Long description for the weapon.
+		"WeaponBackground"	"guns/nf/rpg"
+		//Weapon image.
+		"WeaponScript"		"emp_nf_rpg"
+		//Weapon script.
+	}
+
+	"PRIMARY_NF_MORTAR"
+	{
+		"WeaponName"		"PRIMARY_NF_MORTAR"
+		"WeaponCode"		"11"
+		//Number which references the weapon in the code.
+		"WeaponText"		"Unused"
+		//Short name for the weapon.
+		"WeaponDescription"	"Unused"
+		//Long description for the weapon.
+		"WeaponBackground"	"Unused"
+		//Weapon image.
+		"WeaponScript"		"emp_nf_mortar"
+		//Weapon script.
+	}
+
+	"GRENADE_NF_EXPLOSIVE"
+	{
+		"WeaponName"		"GRENADE_NF_EXPLOSIVE"
+		"WeaponCode"		"12"
+		//Number which references the weapon in the code.
+		"WeaponText"		"Explosive Grenade"
+		//Short name for the weapon.
+		"WeaponDescription"	"A standard grenade that is effective against infantry, heavy armour and structures. Explosives are especially effective against Scouts"
+		//Long description for the weapon.
+		"WeaponBackground"	"guns/nf/grenade_he_nf"
+		//Weapon image.
+		"WeaponScript"		"emp_nf_explosive_grenade"
+		//Weapon script.
+	}
+
+	"GRENADE_NF_CONCUSSIVE"
+	{
+		"WeaponName"		"GRENADE_NF_CONCUSSION"
+		"WeaponCode"		"13"
+		//Number which references the weapon in the code.
+		"WeaponText"		"Concussion Grenade"
+		//Short name for the weapon.
+		"WeaponDescription"	"Creates a blinding flash that can briefly blind enemies and disable turrets."
+		//Long description for the weapon.
+		"WeaponBackground"	"guns/nf/grenade_conc_nf"
+		//Weapon image.
+		"WeaponScript"		"emp_nf_concussion_grenade"
+		//Weapon script.
+	}
+
+	"GRENADE_NF_SEISMIC"
+	{
+		"WeaponName"		"GRENADE_NF_SEISMIC"
+		"WeaponCode"		"14"
+		//Number which references the weapon in the code.
+		"WeaponText"		"Seismic Resonator"
+		//Short name for the weapon.
+		"WeaponDescription"	"Creates a shockwave which causes massive damage to buildings."
+		//Long description for the weapon.
+		"WeaponBackground"	"guns/nf/grenade"
+		//Weapon image.
+		"WeaponScript"		"emp_nf_seismic_grenade"
+		//Weapon script.
+	}
+
+	"GRENADE_NF_SMOKE"
+	{
+		"WeaponName"		"GRENADE_NF_SMOKE"
+		"WeaponCode"		"15"
+		//Number which references the weapon in the code.
+		"WeaponText"		"Smoke Grenade"
+		//Short name for the weapon.
+		"WeaponDescription"	"Covers a small area with smoke for moving under cover."
+		//Long description for the weapon.
+		"WeaponBackground"	"guns/nf/grenade"
+		//Weapon image.
+		"WeaponScript"		"emp_nf_smoke_grenade"
+		//Weapon script.
+	}
+
+	"GRENADE_NF_STICKY"
+	{
+		"WeaponName"		"GRENADE_NF_STICKY"
+		"WeaponCode"		"16"
+		//Number which references the weapon in the code.
+		"WeaponText"		"Sticky Bomb"
+		//Short name for the weapon.
+		"WeaponDescription"	"An improvised grenade that sticks to enemies. It is especially effective against vehicles, but the heavier payload means you will have to get close."
+		//Long description for the weapon.
+		"WeaponBackground"	"guns/nf/grenade_sticky_nf"
+		//Weapon image.
+		"WeaponScript"		"emp_nf_sticky_grenade"
+		//Weapon script.
+	}
+
+	"GRENADE_NF_STICKYSTUN"
+	{
+		"WeaponName"		"GRENADE_NF_STICKYSTUN"
+		"WeaponCode"		"17"
+		//Number which references the weapon in the code.
+		"WeaponText"		"Sticky Stun Bomb"
+		//Short name for the weapon.
+		"WeaponDescription"	"Improvised grenade that sticks to vehicles.  It is heavier and harder to throw, but it disables vehicles for a short amount of time."
+		//Long description for the weapon.
+		"WeaponBackground"	"guns/nf/grenade_elec_nf"
+		//Weapon image.
+		"WeaponScript"		"emp_nf_sticky_stun_grenade"
+		//Weapon script.
+	}
+
+	"EQUIP_NF_MINE"
+	{
+		"WeaponName"		"EQUIP_NF_MINE"
+		"WeaponCode"		"18"
+		//Number which references the weapon in the code.
+		"WeaponText"		"Mine"
+		//Short name for the weapon.
+		"WeaponDescription"	"Designed to be placed on the ground and left alone for its detonator to be activated by an enemy soldier or vehicle."
+		//Long description for the weapon.
+		"WeaponBackground"	"guns/nf/mine"
+		//Weapon image.
+		"WeaponScript"		"emp_nf_mine_grenade"
+		//Weapon script.
+	}
+
+	"EQUIP_NF_ENGYTOOL"
+	{
+		"WeaponName"		"EQUIP_NF_ENGYTOOL"
+		"WeaponCode"		"19"
+		//Number which references the weapon in the code.
+		"WeaponText"		"Repair Kit"
+		//Short name for the weapon.
+		"WeaponDescription"	"Repair Vehicles\nHeal Infantry"
+		//Long description for the weapon.
+		"WeaponBackground"	"guns/nf/engkit"
+		//Weapon image.
+		"WeaponScript"		"emp_nf_engineer_kit"
+		//Weapon script.
+	}
+
+	"EQUIP_NF_BINOCS"
+	{
+		"WeaponName"		"EQUIP_NF_BINOCS"
+		"WeaponCode"		"20"
+		//Number which references the weapon in the code.
+		"WeaponText"		"Binoculars"
+		//Short name for the weapon.
+		"WeaponDescription"	"Set Artillery Markers"
+		//Long description for the weapon.
+		"WeaponBackground"	"guns/nf/binocs"
+		//Weapon image.
+		"WeaponScript"		"emp_nf_binoculars"
+		//Weapon script.
+	}
+
+	"EQUIP_NF_ARMOR"
+	{
+		"WeaponName"		"EQUIP_NF_ARMOR"
+		"WeaponCode"		"21"
+		//Number which references the weapon in the code.
+		"WeaponText"		"Armor"
+		//Short name for the weapon.
+		"WeaponDescription"	"Ballistics Protection"
+		//Long description for the weapon.
+		"WeaponBackground"	"guns/nf/armor" //guns/nf/armor test
+		//Weapon image.
+	}
+
+	"EQUIP_NF_DETECTOR"
+	{
+		"WeaponName"		"EQUIP_NF_DETECTOR"
+		"WeaponCode"		"22"
+		//Number which references the weapon in the code.
+		"WeaponText"		"Mine Detector"
+		//Short name for the weapon.
+		"WeaponDescription"	"Mine Detection"
+		//Long description for the weapon.
+		"WeaponBackground"	"guns/nf/detector"
+		//Weapon image.
+	}
+
+	"SIDEARM_IMP_9MM"
+	{
+		"WeaponName"		"SIDEARM_IMP_9MM"
+		"WeaponCode"		"23"
+		//Number which references the weapon in the code.
+		"WeaponText"		"9mm Pistol"
+		//Short name for the weapon.
+		"WeaponDescription"	"The Brenodi 9mm pistol features the smallest calibre round on either faction. Despite this, the hollow point rounds are exceptionally effective when striking unarmored parts of the body, such as the head."
+		//Long description for the weapon.
+		"WeaponBackground"	"guns/imp/pistol1"
+		//Weapon image.
+		"WeaponScript"		"emp_imp_pistol1"
+		//Weapon script.
+	}
+
+	"SIDEARM_IMP_PISTOL2"
+	{
+		"WeaponName"		"SIDEARM_IMP_PISTOL2"
+		"WeaponCode"		"24"
+		//Number which references the weapon in the code.
+		"WeaponText"		".44 Pistol"
+		//Short name for the weapon.
+		"WeaponDescription"	"The Brenodi Heavy Pistol is an exceptionally powerful sidearm featuring a small clip and a high calibre for hitting targets at any range."
+		//Long description for the weapon.
+		"WeaponBackground"	"guns/imp/pistol2"
+		//Weapon image.
+		"WeaponScript"		"emp_imp_pistol2"
+		//Weapon script.
+	}
+	
+	"PRIMARY_IMP_SMG1"
+	{
+		"WeaponName"		"PRIMARY_IMP_SMG1"
+		"WeaponCode"		"25"
+		//Number which references the weapon in the code.
+		"WeaponText"		"Ranged SMG"
+		//Short name for the weapon.
+		"WeaponDescription"	"The Brenodi Ranged SMG is effective at all ranges, it's ergonomic design makes it's recoil easy to handle and allows for accurate fire even at long range targets."
+		//Long description for the weapon.
+		"WeaponBackground"	"guns/imp/smg1"
+		//Weapon image.
+		"WeaponScript"		"emp_imp_smg1"
+		//Weapon script.
+	}
+
+	"PRIMARY_IMP_SMG2"
+	{
+		"WeaponName"		"PRIMARY_IMP_SMG2"
+		"WeaponCode"		"26"
+		//Number which references the weapon in the code.
+		"WeaponText"		"Close Quarters SMG"
+		//Short name for the weapon.
+		"WeaponDescription"	"The Brenodi CQ SMG is effective in close quarters due to its high rate of fire but is less effective at range due to its low accuracy."
+		//Long description for the weapon.
+		"WeaponBackground"	"guns/imp/smg2"
+		//Weapon image.
+		"WeaponScript"		"emp_imp_smg2"
+		//Weapon script.
+	}
+	
+	"PRIMARY_IMP_CARBINE"
+	{
+		"WeaponName"		"PRIMARY_IMP_CARBINE"
+		"WeaponCode"		"27"
+		//Number which references the weapon in the code.
+		"WeaponText"		"Assault Rifle"
+		//Short name for the weapon.
+		"WeaponDescription"	"The Brenodi Assault Rifle features a high rate of fire good accuracy and is good at all ranges."
+		//Long description for the weapon.
+		"WeaponBackground"	"guns/imp/rifle1"
+		//Weapon image.
+		"WeaponScript"		"emp_imp_rifle1"
+		//Weapon script.
+	}
+
+	"PRIMARY_IMP_RIFLE"
+	{
+		"WeaponName"		"PRIMARY_IMP_RIFLE"
+		"WeaponCode"		"28"
+		//Number which references the weapon in the code.
+		"WeaponText"		"Heavy Rifle"
+		//Short name for the weapon.
+		"WeaponDescription"	"The Brenodi Heavy Rifle is an excellent general purpose weapon with an extended clip allowing it to be more useful in close quarters."
+		//Long description for the weapon.
+		"WeaponBackground"	"guns/imp/rifle2"
+		//Weapon image.
+		"WeaponScript"		"emp_imp_rifle2"
+		//Weapon script.
+	}
+
+	"PRIMARY_IMP_RANGEDRIFLE"
+	{
+		"WeaponName"		"PRIMARY_IMP_RANGEDRIFLE"
+		"WeaponCode"		"29"
+		//Number which references the weapon in the code.
+		"WeaponText"		"Scoped Rifle"
+		//Short name for the weapon.
+		"WeaponDescription"	"The Brenodi Scoped rifle is effective at even the most extreme ranges. Skilled marksmen can even use the weapon somewhat effectively in close quarters."
+		//Long description for the weapon.
+		"WeaponBackground"	"guns/imp/rifle3"
+		//Weapon image.
+		"WeaponScript"		"emp_imp_rifle3"
+		//Weapon script.
+	}
+
+	"PRIMARY_IMP_HMG"
+	{
+		"WeaponName"		"PRIMARY_IMP_HMG"
+		"WeaponCode"		"30"
+		//Number which references the weapon in the code.
+		"WeaponText"		"Light Machine Gun"
+		//Short name for the weapon.
+		"WeaponDescription"	"The Brenodi Light Machine Gun has a large clip making it good for sustained fire on one or more targets, but requires you to be stationary."
+		//Long description for the weapon.
+		"WeaponBackground"	"guns/imp/hmg"
+		//Weapon image.
+		"WeaponScript"		"emp_imp_hmg"
+		//Weapon script.
+	}
+
+	"PRIMARY_IMP_RPG"
+	{
+		"WeaponName"		"PRIMARY_IMP_RPG"
+		"WeaponCode"		"31"
+		//Number which references the weapon in the code.
+		"WeaponText"		"RPG Launcher"
+		//Short name for the weapon.
+		"WeaponDescription"	"The RPG launcher has tow operating modes, grenade launcher and mortar launcher.  This gives great versatility to the grenadier unit in taking on numerous threats on the battlefield."
+		//Long description for the weapon.
+		"WeaponBackground"	"guns/imp/rpg"
+		//Weapon image.
+		"WeaponScript"		"emp_imp_rpg"
+		//Weapon script.
+	}
+
+	"GRENADE_IMP_EXPLOSIVE"
+	{
+		"WeaponName"		"GRENADE_IMP_EXPLOSIVE"
+		"WeaponCode"		"32"
+		//Number which references the weapon in the code.
+		"WeaponText"		"Explosive Grenade"
+		//Short name for the weapon.
+		"WeaponDescription"	"This Brenodi issue grenade will deal damage to all targets within its explosive radius. Explosives are especially effective against Scouts."
+		//Long description for the weapon.
+		"WeaponBackground"	"guns/imp/grenade_he_be"
+		//Weapon image.
+		"WeaponScript"		"emp_imp_explosive_grenade"
+		//Weapon script.
+	}
+
+	"GRENADE_IMP_CONCUSSION"
+	{
+		"WeaponName"		"GRENADE_IMP_CONCUSSION"
+		"WeaponCode"		"33"
+		//Number which references the weapon in the code.
+		"WeaponText"		"Concussion Grenade"
+		//Short name for the weapon.
+		"WeaponDescription"	"Creates a blinding flash that can briefly blind enemies and disable turrets."
+		//Long description for the weapon.
+		"WeaponBackground"	"guns/imp/grenade_conc_be"
+		//Weapon image.
+		"WeaponScript"		"emp_imp_concussion_grenade"
+		//Weapon script.
+	}
+
+	"GRENADE_IMP_SEISMIC"
+	{
+		"WeaponName"		"GRENADE_IMP_SEISMIC"
+		"WeaponCode"		"34"
+		//Number which references the weapon in the code.
+		"WeaponText"		"Seismic Resonator"
+		//Short name for the weapon.
+		"WeaponDescription"	"Creates a shockwave which causes massive damage to buildings."
+		//Long description for the weapon.
+		"WeaponBackground"	"guns/imp/grenade"
+		//Weapon image.
+		"WeaponScript"		"emp_imp_seismic_grenade"
+		//Weapon script.
+	}
+
+	"GRENADE_IMP_SMOKE"
+	{
+		"WeaponName"		"GRENADE_IMP_SMOKE"
+		"WeaponCode"		"35"
+		//Number which references the weapon in the code.
+		"WeaponText"		"Smoke Grenade"
+		//Short name for the weapon.
+		"WeaponDescription"	"Covers a small area with smoke for moving under cover."
+		//Long description for the weapon.
+		"WeaponBackground"	"guns/imp/grenade"
+		//Weapon image.
+		"WeaponScript"		"emp_imp_smoke_grenade"
+		//Weapon script.
+	}
+
+	"GRENADE_IMP_STICKY"
+	{
+		"WeaponName"		"GRENADE_IMP_STICKY"
+		"WeaponCode"		"36"
+		//Number which references the weapon in the code.
+		"WeaponText"		"Sticky Bomb"
+		//Short name for the weapon.
+		"WeaponDescription"	"This improvised grenade sticks to enemies and is particularly effective against vehicles. The heavier payload results in a much reduced range, however."
+		//Long description for the weapon.
+		"WeaponBackground"	"guns/imp/grenade_sticky_be"
+		//Weapon image.
+		"WeaponScript"		"emp_imp_sticky_grenade"
+		//Weapon script.
+	}
+
+	"GRENADE_IMP_STICKYSTUN"
+	{
+		"WeaponName"		"GRENADE_IMP_STICKYSTUN"
+		"WeaponCode"		"37"
+		//Number which references the weapon in the code.
+		"WeaponText"		"Sticky Stun Bomb"
+		//Short name for the weapon.
+		"WeaponDescription"	"Improvised grenade that sticks to vehicles.  It is heavier and harder to throw, but it disables vehicles for a short amount of time."
+		//Long description for the weapon.
+		"WeaponBackground"	"guns/imp/grenade_elec_be"
+		//Weapon image.
+		"WeaponScript"		"emp_imp_sticky_stun_grenade"
+		//Weapon script.
+	}
+
+	"EQUIP_IMP_MINE"
+	{
+		"WeaponName"		"EQUIP_IMP_MINE"
+		"WeaponCode"		"38"
+		//Number which references the weapon in the code.
+		"WeaponText"		"Mine"
+		//Short name for the weapon.
+		"WeaponDescription"	"Designed to be placed on the ground and left alone for its detonator to be activated by an enemy soldier or vehicle."
+		//Long description for the weapon.
+		"WeaponBackground"	"guns/imp/mine"
+		//Weapon image.
+		"WeaponScript"		"emp_imp_mine_grenade"
+		//Weapon script.
+	}
+
+
+	"EQUIP_IMP_ENGYTOOL"
+	{
+		"WeaponName"		"EQUIP_IMP_ENGYTOOL"
+		"WeaponCode"		"39"
+		//Number which references the weapon in the code.
+		"WeaponText"		"Repair Kit"
+		//Short name for the weapon.
+		"WeaponDescription"	"Repair Vehicles\nHeal Infantry"
+		//Long description for the weapon.
+		"WeaponBackground"	"guns/imp/engkit"
+		//Weapon image.
+		"WeaponScript"		"emp_imp_engineer_kit"
+		//Weapon script.
+	}
+
+	"EQUIP_IMP_BINOCS"
+	{
+		"WeaponName"		"EQUIP_IMP_BINOCS"
+		"WeaponCode"		"40"
+		//Number which references the weapon in the code.
+		"WeaponText"		"Binoculars"
+		//Short name for the weapon.
+		"WeaponDescription"	"Set Artillery Markers"
+		//Long description for the weapon.
+		"WeaponBackground"	"guns/imp/binocs"
+		//Weapon image.
+		"WeaponScript"		"emp_imp_binoculars"
+		//Weapon script.
+	}
+
+	"EQUIP_IMP_ARMOR"
+	{
+		"WeaponName"		"EQUIP_IMP_ARMOR"
+		"WeaponCode"		"41"
+		//Number which references the weapon in the code.
+		"WeaponText"		"Armor"
+		//Short name for the weapon.
+		"WeaponDescription"	"Ballistics Protection"
+		//Long description for the weapon.
+		"WeaponBackground"	"guns/imp/armor"
+		//Weapon image.
+	}
+
+	"EQUIP_IMP_DETECTOR"
+	{
+		"WeaponName"		"EQUIP_IMP_DETECTOR"
+		"WeaponCode"		"42"
+		//Number which references the weapon in the code.
+		"WeaponText"		"Mine Detector"
+		//Short name for the weapon.
+		"WeaponDescription"	"Mine Detection"
+		//Long description for the weapon.
+		"WeaponBackground"	"guns/imp/detector"
+		//Weapon image.
+	}
+
+	"PRIMARY_NF_SHOTGUN" 
+	{
+		"WeaponName"		"PRIMARY_NF_SHOTGUN" 
+		"WeaponCode"		"43"
+		//Number which references the weapon in the code.
+		"WeaponText"		"Combat Shotgun"
+		//Short name for the weapon.
+		"WeaponDescription"	"Shoots buckshot in a wide spread cone. Holds up to 6 shells."
+		//Long description for the weapon.
+		"WeaponBackground"	"guns/nf/shotgun"
+		//Weapon image.
+		"WeaponScript"		"emp_nf_shotgun"
+		//Weapon script.
+	}
+
+	"PRIMARY_IMP_SHOTGUN" 
+	{
+		"WeaponName"		"PRIMARY_IMP_SHOTGUN" 
+		"WeaponCode"		"44"
+		//Number which references the weapon in the code.
+		"WeaponText"		"Combat Shotgun"
+		//Short name for the weapon.
+		"WeaponDescription"	"Shoots buckshot in a wide spread cone. Holds up to 6 shells."
+		//Long description for the weapon.
+		"WeaponBackground"	"guns/imp/shotgun"
+		//Weapon image.
+		"WeaponScript"		"emp_imp_shotgun"
+		//Weapon script.
+	}
+
+	"SIDEARM_IMP_MACHINEPISTOL"
+	{
+		"WeaponName"		"SIDEARM_IMP_MACHINEPISTOL"
+		"WeaponCode"		"45"
+		//Number which references the weapon in the code.
+		"WeaponText"		"Machine Pistol"
+		//Short name for the weapon.
+		"WeaponDescription"	"The Brenodi Machine pistol offers short range superiority with a large clip and high rate of fire"
+		//Long description for the weapon
+		"WeaponBackground"	"guns/imp/machinepistol"
+		//Weapon image.
+		"WeaponScript"		"emp_imp_machinepistol"
+		//Weapon script.
+	}
+}

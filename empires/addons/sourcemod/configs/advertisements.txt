@@ -226,4 +226,47 @@
 		"text"	"{GREEN}[TIPS]{DEFAULT} If you don't know who to vote for type {GREEN}!commanders{DEFAULT} to view a list of known commanders and their ratings."
 	}
 	
+	"34"
+	{
+		"type"	"S"
+		"text"	"{GREEN}[TIPS]{DEFAULT} Has someone been griefing? type {GREEN}!report{DEFAULT} to report them and fill up as many details as possible."
+	}
+	
+	"35"
+	{
+		"type"	"S"
+		"text"	"{GREEN}[TIPS]{DEFAULT} Have you been muted or banned unfairly? {GREEN}!appeal{DEFAULT} to appeal for your bad behavior."
+	}
+	
+	"36"
+	{
+		"type"	"S"
+		"text"	"{GREEN}[TIPS]{DEFAULT} Admins: If you ban someone make sure to go to {GREEN}!sourcebans{DEFAULT} and fill the report with as many details as possible."
+		"flags"	""
+	}
+	
+	"37"
+	{
+		"type"	"S"
+		"text"	"{GREEN}[TIPS]{DEFAULT} If you can't remember the commands press the {GREEN}home{DEFAULT} key on your keyboard to open up the menu."
+	}
+	
+	"38"
+	{
+		"type"	"S"
+		"text"	"{GREEN}[TIPS]{DEFAULT} Type {GREEN}!empstats{DEFAULT} to see your rank."
+	}
+	
+	"39"
+	{
+		"type"	"S"
+		"text"	"{GREEN}[TIPS]{DEFAULT} Type {GREEN}!commstats{DEFAULT} to see your commander stats."
+	}
+	
+	"40"
+	{
+		"type"	"S"
+		"text"	"{GREEN}[TIPS]{DEFAULT} Did you like your commander? Make sure to give him an upvote at the end of the turn by entering {GREEN}!upc{DEFAULT}."
+	}
+	
 }

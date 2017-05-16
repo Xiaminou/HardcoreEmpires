@@ -552,6 +552,12 @@
 				
 			}
 		}
+		"Force Sudden Death"
+		{
+			"cmd"			"emp_sv_enable_sudden_death"
+			"admin"			"sm_cvar"
+			"execute"		"server"
+		}
 	}
 	"Force to Website"
 	{

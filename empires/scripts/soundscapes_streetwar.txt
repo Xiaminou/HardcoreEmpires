@@ -1,0 +1,42 @@
+
+// bank, siren (gamesounds - apc_alarm_loop1.wav)
+// courtyard, drawbridge motor start, stop (gamesounds)
+// courtyard, drawbridge stop clank
+// specific fire, rubble, siren sounds
+
+
+
+//////////////////////////////// Utility soundscapes ////////////////////////
+
+"streetwar.battle_ambient"
+{
+
+	//DSP 19 = large concrete
+	"dsp"	"19"
+
+	"playlooping"
+	{
+//		"time"		"0.5,2.0"
+//		"volume"	"0.85,0.95"
+		"volume"	"0.9"
+//		"pitch"		"90,100"
+		"pitch"		"100"
+//		"position"	"random"
+//		"soundlevel"	"SNDLVL_140db"
+		"wave"		"Common/ambient/ambient battle.wav"
+
+//		"rndwave" 
+//		{
+//			"wave"		"Common/ambient/ambient battle.wav"
+//			"wave"		"ambient/atmosphere/cave_hit2.wav"
+//			"wave"		"ambient/atmosphere/cave_hit3.wav"
+//			"wave"		"ambient/atmosphere/cave_hit4.wav"
+//			"wave"		"ambient/atmosphere/cave_hit5.wav"
+//			"wave"		"ambient/atmosphere/cave_hit6.wav"
+//
+//			"wave"		"ambient/atmosphere/city_skybeam1.wav"
+//			"wave"		"ambient/atmosphere/city_skypass1.wav"
+//			"wave"		"ambient/atmosphere/city_truckpass1.wav"
+//		}
+	}
+}

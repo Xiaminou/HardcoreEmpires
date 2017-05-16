@@ -1,0 +1,211 @@
+"Vehicle_Fighter"
+{
+	"properties"
+	{
+		"Vehicle Script"		"scripts/Imperial/Vehicles/ground/afv/imp_afv.txt"
+		"Model"		"models/Imperial/Vehicles/ground/afv/imp_afv.mdl"
+		"Turret Model"		"models/Imperial/Vehicles/ground/afv/turret.mdl"
+		"Cannon Model"		"models/Imperial/Vehicles/ground/afv/cannon.mdl"
+		"name"		"Imperial F-28C"
+		"Description"		"The Imperial F-28C is the second revision of the successful F-28 fighter jet.  It is designed for speed and agility."
+		"team"		"IMP"
+		"Chassis Pic"		"vehicles/gui/bg/imp_afv"
+		"Side Pic"		"vehicles/gui/imp_afv_side"
+		"Top Pic"		"vehicles/gui/imp_afv_top"
+		"Engine Pic"		"vehicles/gui/imp_afv_side"
+		"Summary Pic"		"vehicles/gui/bg/imp_afv"
+		"Map Icon"		"vehicles/map/afv_map"
+		"Unit Icon"		"comm/selection/imp_afv"
+		"HUD Chassis Pic"		"vehicles/hud/afv_chassis"
+		"HUD Turret Pic"		"vehicles/hud/afv_turret"
+		"HUD Chassis Width"		"101"
+		"HUD Chassis Height"		"206"
+		"HUD Chassis X Offset"		"0"
+		"HUD Chassis Y Offset"		"5"
+		"Armor Left"		"50"
+		"Armor Right"		"50"
+		"type"		"2"
+		"Max Weight"		"8000"
+		"Base Weight"		"4000"
+		"Cost"		"200"
+		"Seats"		"4"
+
+		"Seat_1_Visible"		"0"
+		"Seat_1_PersonalWeapons"	"0"
+		"Seat_1_Ducking"		"0"
+		"Seat_1_Cannon"			"0"
+		"Seat_1_Turret"			"0"
+
+
+		"Seat_2_Visible"		"1"
+		"Seat_2_PersonalWeapons"	"1"
+		"Seat_2_Ducking"		"0"
+		"Seat_2_Turret"			"0"
+
+
+		"Seat_3_Visible"		"0"
+		"Seat_3_PersonalWeapons"	"0"
+		"Seat_4_Visible"		"0"
+		"Seat_4_PersonalWeapons"	"0"
+		"Seat_5_Visible"		"0"
+
+		"health"		"150"
+		"Repair Station Heal"		"25"
+		"Engineer Heal"		"1"
+		"Heat Capacity"		"100"
+		"Max Front Armor"		"3"
+		"Max Rear Armor"		"2"
+		"Max Left Armor"		"3"
+		"Max Right Armor"		"3"
+		"Repair Station Repair"		"0.250000"
+		"Engineer Repair"		"0.100000"
+		"Type of Vehicle"		"2"
+
+		"Max Machine Guns"		"1"
+		"Max Missile Launchers"		"2"
+
+		//Physics Impact Damage Modifiers: FORCE = MASS * ACCELERATION, when a vehicle impacts an object, the force is determined for the vehicle using its mass and acceleration
+			//when colliding with an object, an inverse force is exerted on this vehicle (every action has an equal and opposite reaction); damage is determined by: damage = force/(modifier*our_mass)
+		"Physics Impact Modifier"	"0.01"
+
+		//____AIRCRAFT ONLY PARAMETERS____
+		// no additional spaces between "x y" not "x  y", also no tabs
+
+		//AoA vs cL
+		//"AoA_0"	"0 0.033"
+		//"AoA_1"	"10 0.2"
+		//"AoA_2"	"20 0.375"
+		//"AoA_3"	"24 0.433"
+		//"AoA_4"	"30 0.49"
+		//"AoA_5"	"34 0.515"
+		//"AoA_6"	"40 0.505"
+		//"AoA_7"	"45 0.475"
+		//"AoA_8"	"48 0.3"
+		//"AoA_9"	"50 0"
+
+		//Wing AoA vs cL
+		"AoA_0"	"0 0"
+		"AoA_1"	"12.6 0.764"
+		"AoA_2"	"25.4 1.448"
+		"AoA_3"	"30.4 1.615"
+		"AoA_4"	"38.2 1.722"
+		"AoA_5"	"43.5 1.761"
+		"AoA_6"	"51 1.733"
+		"AoA_7"	"57.2 1.66"
+		"AoA_8"	"73.8 1.109"
+		"AoA_9"	"80 0"
+
+		//Stabilizer/Rudder AoA vs cL
+		"Stabilizer_AoA_0"	"0 0.0"
+		"Stabilizer_AoA_1"	"10 0.001"
+		"Stabilizer_AoA_2"	"20 0.0255"
+		"Stabilizer_AoA_3"	"24 0.0275"
+		"Stabilizer_AoA_4"	"30 0.03"
+		"Stabilizer_AoA_5"	"34 0.0315"
+		"Stabilizer_AoA_6"	"40 0.0305"
+		"Stabilizer_AoA_7"	"45 0.0275"
+		"Stabilizer_AoA_8"	"48 0.002"
+		"Stabilizer_AoA_9"	"50 0"
+
+		//Stabilizer/Rudder AoA vs cL
+		"Elevator_AoA_0"	"0 0.0"
+		"Elevator_AoA_1"	"10 0.003"
+		"Elevator_AoA_2"	"20 0.00765"
+		"Elevator_AoA_3"	"24 0.00825"
+		"Elevator_AoA_4"	"30 0.009"
+		"Elevator_AoA_5"	"34 0.00945"
+		"Elevator_AoA_6"	"40 0.00915"
+		"Elevator_AoA_7"	"45 0.00825"
+		"Elevator_AoA_8"	"48 0.006"
+		"Elevator_AoA_9"	"50 0"
+
+		//maximum angle of attack, beyond this and the controls limit your pitch
+		//"AoA Limiter"	"22"
+
+		//G force limits
+		"Max Gz"	"9"
+		"Min Gz"	"-3"
+
+		//Area of control surfaces in square feet - per wing
+		"Wing Area"	"150"
+		"Aileron Area" "46.1"
+		"Rudder Total Area" "123.76"
+		"Rudder Control Area" "20.2"
+		"Elevator Area" "46.1"
+
+		//Max angles in degrees
+		//"Elevator Max Angle"	"25"
+		//"Aileron Max Angle"	"21.5"
+		//"Rudder Max Angle"	"30"
+		"Elevator Max Angle"	"15"
+		"Aileron Max Angle"	"21.5"
+		"Rudder Max Angle"	"5"
+
+		//Max delta (change per second) angles in degrees
+		"Elevator Max Delta"	"60"
+		"Aileron Max Delta"	"80"
+		"Rudder Max Delta"	"120"
+
+
+	}
+	"weapon_slot"
+	{
+		"Bone"		"c_weapon_passenger0_type0"
+		"Seat"		"1"
+		"size"		"3"
+		"type"		"0"
+		"Slot_x"		"280"
+		"Slot_y"		"20"
+		"Origin_x"		"312"
+		"Origin_y"		"150"
+	}
+	"weapon_slot"
+	{
+		"Bone"		"c_weapon_passenger0_type3"
+		"Seat"		"1"
+		"size"		"3"
+		"type"		"3"
+		"Slot_x"		"360"
+		"Slot_y"		"70"
+		"Origin_x"		"392"
+		"Origin_y"		"150"
+	}
+	"weapon_slot"
+	{
+		"Bone"		"c_weapon_passenger0_type3"
+		"Seat"		"1"
+		"size"		"3"
+		"type"		"3"
+		"Slot_x"		"30"
+		"Slot_y"		"70"
+		"Origin_x"		"239"
+		"Origin_y"		"150"
+	}
+	"armor_slot"
+	{
+		"size"		"1"
+		"type"		"0"
+		"Slot_x"		"20"
+		"Slot_y"		"20"
+		"Front_x"		"467"
+		"Front_y"		"108"
+		"Rear_x"		"116"
+		"Rear_y"		"108"
+		"Left_x"		"123"
+		"Left_y"		"97"
+		"Right_x"		"123"
+		"Right_y"		"272"
+		"Front_Width"		"13"
+		"Front_Height"		"210"
+		"Left_Width"		"420"
+		"Left_Height"		"13"
+	}
+	"engine_slot"
+	{
+		"Size"			"2"			//size of this slot
+		"Type"			"0"			
+		"Slot_x"		"20"			//x of slot's top left corner
+		"Slot_y"		"20"			//y of slot's top left corner
+	}
+
+}

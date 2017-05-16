@@ -1,0 +1,164 @@
+Vehicle_APC
+{
+	//cost increased to 120
+	"properties"
+	{
+		"Vehicle Script"	"scripts/imperial/vehicles/ground/apc/imp_apc.txt"	//file name for the standard HL2 vehicle properties
+		"Model"			"models/imperial/vehicles/ground/apc/imp_apc.mdl"	//file name for the vehicle model
+		"Turret Model"		"models/imperial/vehicles/ground/apc/turret.mdl"
+		"Cannon Model"		"models/imperial/vehicles/ground/apc/cannon.mdl"
+		"horn" "Vehicle.horn_klaxon" //sound to use when blasting the horn
+
+		"Name"			"Imperial APC"						//name given when chassis
+		"Spotted Name"		"APC"							//name given when spotted by an enemy
+		"Description"		"The Imperial Armored Personnel Carrier is excellent for transporting troops into hostile areas and for providing light fire support."	//description given in creation GUI
+		"Hint" "APC's give ammo and health in all but the driver's seat. Press %emp_change_seat_1%-%emp_change_seat_8% to change seats. It also acts as a mobile spawn point."
+		"Team"			"IMP" 							//team able to purchase, 'IMP', 'NF', or 'ALL'
+		"Chassis Pic"		"vehicles/gui/bg/imp_apc"		//picture shown when selecting chassis, path is preceded by 'vgui/'
+		"Side Pic"		"vehicles/gui/imp_apc_side"		//picture shown from the side for loadouts, path is preceded by 'vgui/'
+		"Top Pic"		"vehicles/gui/imp_apc_top"		//picture shown from top for armor, path is preceded by 'vgui/' (Same as AFV //top view so same image used (Wealthysoup))
+		"Engine Pic"		"vehicles/gui/imp_apc_side"		//picture shown of interior depicting engine compartment, path is preceded by 'vgui/'
+		"Summary Pic"		"vehicles/gui/bg/imp_apc"		//picture shown in the build summary screen, path is preceded by 'vgui/'
+		"Map Icon"		"vehicles/map/AFV_map"
+		"Unit Icon"		"comm/selection/imp_apc"						//the picture that shows up in the commander's unit selection area when this unit is selected
+
+		"HUD Chassis Pic"	"vehicles/hud/AFV_chassis"		//picture shown when selecting chassis, path is preceded by 'vgui/'
+		"HUD Turret Pic"	"vehicles/hud/AFV_turret"		//picture shown when selecting chassis, path is preceded by 'vgui/'
+		"HUD Chassis Width"	"101"	//for sizing the armor bars 
+		"HUD Chassis Height"	"206"	//for sizing the armor bars
+		"HUD Chassis X Offset"	"0"
+		"HUD Chassis Y Offset"	"5"	//this accounts for the turret not rotating exactly on the center of the chassis picture
+
+		//define the angles of the armor sides to determine where to deal damage based on hit location
+		"Armor Angle 1"		"60"
+		"Armor Angle 2"		"120"
+		"Armor Angle 3"		"245"
+		"Armor Angle 4"		"295"
+
+		"Type"			"9"		//which vehicle type this is 0=jeep, 1=apc, 2=tank, 3=artillery, 4=anti-air
+		"Max Weight"		"809"           //was 600
+		"Base Weight"		"614"
+		"Cost"			"80"		//cost of just the chassis in resources
+		
+		"Recycling Max CarcassHealth" "100"
+		"Friendly Recycling Percentage"	"0.5"	//The percentage of the cost of a friendly vehicle that is reimbursed when recycling a dead vehicle carcass.
+		"Enemy Recycling Percentage"	"0.5"	//The percentage of the cost of an enemy vehicle that is reimbursed when recycling a dead vehicle carcass.
+
+		//define max seats and properties
+		"Seats"			"8"
+
+		"Seat_1_Visible"		"0"	//0 means that this passenger is not visible, 1 means he is visible
+		"Seat_1_PersonalWeapons"	"0"	//0 means he uses the vehicle's weapons for any weapons associated with his seat, 1 means that this passenger only shoots with his personal weapons
+		"Seat_1_Ducking"		"0"	//0 for standing, 1 for ducking in seat
+		"Seat_1_Cannon"			"0"
+		"Seat_1_Turret"			"0"
+
+		"Seat_2_Visible"		"1"
+		"Seat_2_PersonalWeapons"	"1"
+		"Seat_2_Ducking"		"0"
+		"Seat_2_Turret"			"0"
+
+		"Seat_3_Visible"		"0"
+		"Seat_3_PersonalWeapons"	"0"
+		"Seat_3_Ducking"		"0"
+		"Seat_4_Visible"		"0"
+		"Seat_4_PersonalWeapons"	"0"
+		"Seat_4_Ducking"		"0"
+		"Seat_5_Visible"		"0"
+		"Seat_5_PersonalWeapons"	"0"
+		"Seat_5_Ducking"		"0"
+		"Seat_6_Visible"		"0"
+		"Seat_6_PersonalWeapons"	"0"
+		"Seat_6_Ducking"		"0"
+		"Seat_7_Visible"		"0"
+		"Seat_7_PersonalWeapons"	"0"
+		"Seat_7_Ducking"		"0"
+		"Seat_8_Visible"		"0"
+		"Seat_8_PersonalWeapons"	"0"
+		"Seat_8_Ducking"		"0"
+
+		//Turret properties
+		"Seat 1 Min Pitch"	"15"	//min is how low the turret can aim
+		"Seat 1 Max Pitch"	"-65"	//max is how high the turret can aim
+		"Seat 1 Min Pitch Rear"	"5"	//min is how low the turret can aim when facing the rear
+		"Seat 1 Max Pitch Rear"	"-65"	//max is how high the turret can aim when facing the rear
+
+		"Turret Turn Rate"  "7000" // speed at which the turret turns
+		"Cannon Turn Rate"  "7000" // speed at which the cannon moves
+
+		"Health"		"150"		//amount of vehicle base health
+		"Repair Station Heal"	"15"		//amount of vehicle health restored per second by the repair station
+		"Engineer Heal"		"2"		//amount of vehicle health restored per engineer's repair unit
+		"Dust Particle"		"heavy_dust"
+		"Dust Particle Interval" "0.0"
+
+		"Heat Capacity"		"100"		//amount of maximum heat level
+
+		"Max Front Armor"	"3"		//max inches of armor able to go on front
+		"Max Rear Armor"	"3"
+		"Max Left Armor"	"3"
+		"Max Right Armor"	"3"
+
+		"Repair Station Repair"	"1"		//percent of one inch of armor repaired per second by the repair station (0.5 = a half inch of armor is repaired per second)
+		"Engineer Repair"	"0.06"		//percent of one inch of armor repaired per engineer's repair unit (0.1 = a tenth inch of armor is repaired per engineer repair unit)
+
+		"Spawn Point"		"1"	//1 = vehicle has an attached spawn point
+
+		"Max Machine Guns"	"1"
+		"Max Grenade Launchers"	"2"
+
+	}
+
+	//driver MG turret
+	"weapon_slot"
+	{
+		"Bone"			"c_weapon_passenger0_type0"	//bone name in the model where the weapon is fired from
+		"Seat"			"1"			//The passenger who controls this weapon
+		"Size"			"3"			//size of this slot
+		"Type"			"0"			//0=machine gun, 1=tank cannon, 2=artillery cannon, 3=missile launcher, 4=grenade launcher, 5=aircraft bomb bay, weapon types able to go in this slot
+		"Slot_x"		"340"			//x of slot's top left corner 
+		"Slot_y"		"55"			//y of slot's top left corner //was 70
+		"Origin_x"		"360"			//x point to draw line from schematic to slot
+		"Origin_y"		"155"			//y point to draw line from schematic to slot //was 144
+	}
+
+	//driver grenade launcher
+	"weapon_slot"
+	{
+		"Bone"			"c_weapon_passenger0_type4"	//bone name in the model where the weapon is fired from
+		"Seat"			"1"			//The passenger who controls this weapon
+		"Size"			"3"			//size of this slot
+		"Type"			"4"			//0=machine gun, 1=tank cannon, 2=artillery cannon, 3=missile launcher, 4=grenade launcher, 5=aircraft bomb bay, weapon types able to go in this slot
+		"Slot_x"		"90"			//x of slot's top left corner //was 108
+		"Slot_y"		"55"			//y of slot's top left corner //was 70
+		"Origin_x"		"255"			//x point to draw line from schematic to slot //was 269
+		"Origin_y"		"137"			//y point to draw line from schematic to slot //was 144
+	}
+	"armor_slot"
+	{
+		"Size"			"1"			//size of this slot
+		"Type"			"0"			
+		"Slot_x"		"20"			//x of slot's top left corner
+		"Slot_y"		"20"			//y of slot's top left corner
+
+		"Front_x"		"480"			//x of first front layer's top left corner (was 467)
+		"Front_y"		"108"			//y of first front layer's top left corner
+		"Rear_x"		"114"			//x of first rear layer's top left corner (was 116)
+		"Rear_y"		"108"			//y of first rear layer's top left corner
+		"Left_x"		"123"			//x of first left layer's top left corner
+		"Left_y"		"97"			//y of first left layer's top left corner
+		"Right_x"		"123"			//x of first right layer's top left corner
+		"Right_y"		"272"			//y of first right layer's top left corner
+		"Front_Width"		"13"
+		"Front_Height"		"210"
+		"Left_Width"		"440"			//y of side layers left corner (wealthysoup-was 420)
+		"Left_Height"		"13"
+	}
+	"engine_slot"
+	{
+		"Size"			"1"			//size of this slot
+		"Type"			"0"			
+		"Slot_x"		"20"			//x of slot's top left corner
+		"Slot_y"		"20"			//y of slot's top left corner
+	}
+}

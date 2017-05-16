@@ -1,0 +1,24 @@
+"MapLoadingData"
+{
+
+	"generic"
+	{
+       	"html"
+		{
+			"1"		"\generic\1\1.html"
+		}
+		"music"
+		{
+			"1"		"common/music/loading/werihukka_winners_write_the_history_rock1.mp3"
+			"2"		"common/music/loading/werihukka_winners_write_the_history_rock2.mp3"
+			"3"		"common/music/loading/werihukka_winners_write_the_history_rock3.mp3"
+			"4"		"common/music/loading/werihukka_winners_write_the_history_full.mp3"
+			"5"		"common/music/loading/cb_a_bit_of_conflict.mp3"
+			"6"		"common/music/loading/cb_our_obdurate_past.mp3"
+		}
+	}
+
+	"emp_crossroads"
+	{
+	}
+}

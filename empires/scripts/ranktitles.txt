@@ -1,0 +1,75 @@
+RankTitleParse 
+{
+	1
+	{
+		"name"		"Private ( E-1 )"
+		"icon"		"e1"
+		"points"	0
+	}
+	2
+	{
+		"name"		"Private First Class ( E-2 )"
+		"icon"		"e2"
+		"points"	10
+	}
+	3
+	{
+		"name"		"Corporal ( E-3 )"
+		"icon"		"e3"
+		"points"	20
+	}
+	4
+	{
+		"name"		"Sergeant ( E-4 )"
+		"icon"		"e4"
+		"points"	30
+	}
+	5
+	{
+		"name"		"Staff Sergeant ( E-5 )"
+		"icon"		"e5"
+		"points"	40
+	}
+	6
+	{
+		"name"		"Sergeant First Class ( E-6 )"
+		"icon"		"e6"
+		"points"	50
+	}
+	7
+	{
+		"name"		"Master Sergeant ( E-7 )"
+		"icon"		"e7"
+		"points"	60
+	}
+	8
+	{
+		"name"		"2nd Lieutenant ( O-1 )"
+		"icon"		"o1"
+		"points"	70
+	}
+	9
+	{
+		"name"		"1st Lieutenant ( O-2 )"
+		"icon"		"o2"
+		"points"	80
+	}
+	10
+	{
+		"name"		"Captain ( O-3 )"
+		"icon"		"o3"
+		"points"	90
+	}
+	11
+	{
+		"name"		"Major ( O-4 )"
+		"icon"		"o4"
+		"points"	100
+	}
+	12
+	{
+		"name"		"Commander ( O-5 )"
+		"icon"		"o5"
+		"points"	110
+	}
+}

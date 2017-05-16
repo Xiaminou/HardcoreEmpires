@@ -1,0 +1,197 @@
+WeaponData
+{
+	// Weapon characteristics:
+	"Damage"			"28"		// damage per bullet
+	"Bullets"			"1"		// bullets per shoot
+	"CycleTime"			"0.08"		// time between shoots
+	"Falloffbase"			"0.75"		// Falloff Base default 0.85
+	"Falloff"			"2000"		// distance at which bullet strength has dropped to 85% (damage decreases linearly)	
+	"MinimalDamage"			"18"		// bullet will always deal this amount of damage even after damage decrease
+
+	"Damage Head Modifier"		"2"
+	"Damage Chest Modifier"		"1"
+	"Damage Stomach Modifier"	"1"
+	"Damage Left Arm Modifier"	"0.7"
+	"Damage Right Arm Modifier"	"0.7"
+	"Damage Left Leg Modifier"	"0.7"
+	"Damage Right Leg Modifier"	"0.7"
+	
+	
+	// Weapon data is loaded by both the Game and Client DLLs.
+	"printname"			"#SDK_MP5"
+	"viewmodel"			"models/NF/Weapons/v/hmg/nf_hmg.mdl"
+	"playermodel"			"models/NF/Weapons/w/hmg/nf_hmg.mdl"
+	
+	"anim_prefix"			"Galil"
+	"bucket"			"1"
+	"bucket_position"		"0"
+
+	"clip_size"			"125"
+	"clip2_size"			"-1"
+	
+	"primary_ammo"			"AMMO_HMG"
+	"secondary_ammo"		"AMMO_MELEE"
+
+	"weight"			"100"
+	"item_flags"			"0"
+
+	"BuiltRightHanded"		"0"
+	"AllowFlipping"			"1" 
+
+	"MeleeWeapon"			"0"
+	"MeleeDamage"			"50"	// damage per melee hit
+	"MeleeCycleTime"		"1.0"	// time between melee attacks
+
+	//Accuracy Upgrade Modifier. Default is 0.75. The lower the better.
+	"AccuracyUpgradeModifier"	"0.90"
+//Stamina Penalty
+	"StaminaPenalty_Standing"	"3.5"
+	"StaminaPenalty_Crouching"	"1.5"
+	"StaminaPenalty_Prone"		"1.0"
+//Weapon Spread
+	//When at rest
+	"JumpingSpread"			"0.05"
+	"StandingSpread"		"0.06"
+	"DuckingSpread"			"0.003"
+	"ProneSpread"			"0.002"
+
+	//When moving at full speed (sv_maxspeed)
+	"JumpingSpreadModifier"		"0.1"
+	"StandingSpreadModifier"	"0.06"
+	"DuckingSpreadModifier"		"0.01"
+	"ProneSpreadModifier"		"0.005"
+
+	//Maximum the spread can become due to spread increment per shot below
+	"JumpingSpreadMax"	"0.7"
+	"StandingSpreadMax"	"0.5"
+	"DuckingSpreadMax"	"0.4"
+	"ProneSpreadMax"	"0.03"
+
+	//Increment spread by this amount for every shot fired to maximum of moving at full speed spread
+	"JumpingSpreadIncrement"	"0.01"
+	"StandingSpreadIncrement"	"0.0070"
+	"DuckingSpreadIncrement"	"0.0040"
+	"ProneSpreadIncrement"		"0.0030"
+
+	//Decrease spread by this amount for every second not fired down to minimum rest spread
+	"JumpingSpreadDecrement"	"0.01"
+	"StandingSpreadDecrement"	"0.1"
+	"DuckingSpreadDecrement"	"0.15"
+	"ProneSpreadDecrement"		"0.15"
+	//Multiply base weapon spread by this value when in Ironsight view.
+	//Default value is 0.75
+	"IronsightJumpSpread"		"0.75"
+	"IronsightStandSpread"		"0.65"
+	"IronsightDuckSpread"		"0.65"
+	"IronsightProneSpread" 		"0.65"
+
+	//Base weapon kick values when in Ironsight view.  
+	//Affects way model behaves from clients POV.  Default value is 0.5
+	"IronsightJumpKick"		"0.5"
+	"IronsightStandKick"		"0.5"
+	"IronsightDuckKick"		"0.5"
+	"IronsightProneKick"		"0.5"
+
+	//Weapon kick range x (vertical) and y (horizontal), full and no spread, max and min
+	//interpolates between full and no spread value based on current spread (percentage inbetween at rest and maximum spread due to firing)
+	//The max and min values are for defining a range that a random number is generated between
+	"JumpingKick_X_FullSpread_Max"	"1"
+	"JumpingKick_X_FullSpread_Min"	"0.75"
+	"JumpingKick_X_NoSpread_Max"	"1"
+	"JumpingKick_X_NoSpread_Min"	"0.4"
+
+	"JumpingKick_Y_FullSpread_Max"	"0.1"
+	"JumpingKick_Y_FullSpread_Min"	"0"
+	"JumpingKick_Y_NoSpread_Max"	"0.05"
+	"JumpingKick_Y_NoSpread_Min"	"1"
+
+	"StandingKick_X_FullSpread_Max"	"1"
+	"StandingKick_X_FullSpread_Min"	"0.75"
+	"StandingKick_X_NoSpread_Max"	"0.8"
+	"StandingKick_X_NoSpread_Min"	"0.5"
+
+	"StandingKick_Y_FullSpread_Max"	"0.1"
+	"StandingKick_Y_FullSpread_Min"	"0"
+	"StandingKick_Y_NoSpread_Max"	"0.05"
+	"StandingKick_Y_NoSpread_Min"	"0"
+
+	"DuckingKick_X_FullSpread_Max"	"1"
+	"DuckingKick_X_FullSpread_Min"	"0.75"
+	"DuckingKick_X_NoSpread_Max"	"0.8"
+	"DuckingKick_X_NoSpread_Min"	"0.5"
+
+	"DuckingKick_Y_FullSpread_Max"	"0.1"
+	"DuckingKick_Y_FullSpread_Min"	"0"
+	"DuckingKick_Y_NoSpread_Max"	"0.05"
+	"DuckingKick_Y_NoSpread_Min"	"0"
+
+	"ProneKick_X_FullSpread_Max"	"1"
+	"ProneKick_X_FullSpread_Min"	"0.75"
+	"ProneKick_X_NoSpread_Max"	"0.8"
+	"ProneKick_X_NoSpread_Min"	"0.5"
+
+	"ProneKick_Y_FullSpread_Max"	"0.1"
+	"ProneKick_Y_FullSpread_Min"	"0"
+	"ProneKick_Y_NoSpread_Max"	"0.05"
+	"ProneKick_Y_NoSpread_Min"	"0"
+//End Weapon Spread
+
+
+
+	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
+	SoundData
+	{
+		//"reload"			"Default.Reload"
+		//"empty"			"Default.ClipEmpty_Rifle"
+		"single_shot"			"NF_HMG.Fire"
+	}
+
+	// Weapon Sprite data is loaded by the Client DLL.
+	TextureData
+	{
+		"weapon"
+		{
+				"font"		"EmpiresTypeDeath"
+				"character"	"M"
+		}
+		"weapon_s"
+		{	
+				"font"		"EmpiresTypeDeath"
+				"character"	"M"
+		}
+		"ammo"
+		{
+				"font"		"WeaponIcons"
+				"character"	"r"
+		}
+		"crosshair"
+		{
+				"file"		"sprites/crosshairs"
+				"x"		"0"
+				"y"		"48"
+				"width"		"24"
+				"height"	"24"
+		}
+		"autoaim"
+		{
+				"file"		"sprites/crosshairs"
+				"x"			"0"
+				"y"			"48"
+				"width"		"24"
+				"height"	"24"
+		}
+	}
+	ModelBounds
+	{
+		Viewmodel
+		{
+			Mins	"-10 -4 -13"
+			Maxs	"21 9 -1"
+		}
+		World
+		{
+			Mins	"-10 -7 -6"
+			Maxs	"22 8 9"
+		}
+	}
+}
