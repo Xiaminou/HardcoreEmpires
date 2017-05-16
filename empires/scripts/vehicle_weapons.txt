@@ -2,463 +2,356 @@ Vehicle_Weapons
 {
 	"Standard Machine Gun"
 	{
-		"Name"			"Standard Machine Gun"		//name given when selecting weapons
-		"HUD Name"		"Std MG"			//name displayed in the weapon area of the vehicle HUD
+		"Name"				"Standard Machine Gun"		//name given when selecting weapons
+		"HUD Name"			"Std MG"			//name displayed in the weapon area of the vehicle HUD
 		"Description"		"A small machine gun that fires anti-infantry rounds."		//description given when selecting weapons
-		"Icon"			"vehicles/gui/weapons/mg_std_sml"		//icon drawn in the GUI
-		"HUD Icon"		"vehicles/gui/weapons/mg"
-		"Size"			"1"		//number of slots required when selecting weapons
-		"Type"			"0"		//0=machine gun, 1=tank cannon, 2=artillery cannon, 3=missile launcher, 4=grenade launcher, 5=aircraft bomb bay
-		"Cost"			"40"		//cost of this weapon added onto vehicle cost
-		"Team"			"ALL"		//team that can use this "NF" or "IMP"
-		"Research"		""		//name of research item that must be researched before using
+		"Icon"				"vehicles/gui/weapons/mg_std_sml"		//icon drawn in the GUI
+		"HUD Icon"			"vehicles/gui/weapons/mg"
+		"Size"				"1"			//number of slots required when selecting weapons
+		"Type"				"0"			//0=machine gun, 1=tank cannon, 2=artillery cannon, 3=missile launcher, 4=grenade launcher, 5=aircraft bomb bay
+		"Cost"				"40"		//cost of this weapon added onto vehicle cost
+		"Team"				"ALL"		//team that can use this "NF" or "IMP"
+		"Research"			""			//name of research item that must be researched before using
 		"Sound Firing"		"Vehicle_MG.Fire"
 		"Sound Impact"		""
 		"Sound Reloading"	"Vehicle_Weapon.Reload"
 
 		"Damage Type"		"Bullet"	//Which damage type this weapon falls under, armor, structures and infantry dictate the resistance against the chosen damage type. 
-		"Ammo Type"		"0"		//for mguns only, 0 = nonarmor penetrating (no effect on armored vehicles), 1 = armor penetrating (hurts armored vehicles), 2 = explosive (hurts vehicles and has a radius damage around it based on 'explosion radius'"
-		"Damage"		"17"		//damage done by projectile
-		"Speed"			"1000"		//speed of projectile
-		"Gravity"		"0"		//effects of gravity on the projectile, only for projectiles
-		"Heat"			"1"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status).
-		"Weight"		"30"		//weight in terms of effects on engine and weight restrictions for chassis
+		"Ammo Type"			"0"			//for mguns only, 0 = nonarmor penetrating (no effect on armored vehicles), 1 = armor penetrating (hurts armored vehicles), 2 = explosive (hurts vehicles and has a radius damage around it based on 'explosion radius'"
+		"Damage"			"24"		//damage done by projectile
+		"Speed"				"1000"		//speed of projectile
+		"Gravity"			"0"			//effects of gravity on the projectile, only for projectiles
+		"Heat"				"0.8"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status).
+		"Weight"			"30"		//weight in terms of effects on engine and weight restrictions for chassis
 		"Cycle Time"		"0.1"		//time between shots
-		"Clip Size"		"60"		//ammo loaded per reloads
-		"Total Ammo Clips"	"4"		//max ammo clips carried (0 is the same as not using clips)
+		"Clip Size"			"50"		//ammo loaded per reloads
+		"Total Ammo Clips"	"4"			//max ammo clips carried (0 is the same as not using clips)
 		"Unlimited Ammo"	"0"
-		"Reload Time"		"3.5"		//time to load one clip, if total ammo clips is '0', time to reload one unit of ammo (as one unit of ammo is reloaded per time and not a full clip)
+		"Reload Time"		"5"			//time to load one clip, if total ammo clips is '0', time to reload one unit of ammo (as one unit of ammo is reloaded per time and not a full clip)
 		"Projectile Spread"	"0.015"		//only applicable to machine guns at the moment
-		"Heat to Target"	"0"		//heat added to target on hit (a small amount of heat is also added to the target based on damage, this is defined within the armor script)
-		"Inertia"		"1"		//only applicable to cannons, artillery cannons, and grenades; affects how the speed of the vehicle affects the momentum of the projectile (higher inertia = vehicle speed will affect the trajectory of the projectile possibly causing it to veer off from a straight line or shoot farther or shorter)
-		"Explosion Radius"	"0"		//radius of damage sphere to hurt surrounding entities
-		"Explosion Force"	"0"		//force of explosion
+		"Heat to Target"	"0"			//heat added to target on hit (a small amount of heat is also added to the target based on damage, this is defined within the armor script)
+		"Inertia"			"1"			//only applicable to cannons, artillery cannons, and grenades; affects how the speed of the vehicle affects the momentum of the projectile (higher inertia = vehicle speed will affect the trajectory of the projectile possibly causing it to veer off from a straight line or shoot farther or shorter)
+		"Explosion Radius"	"0"			//radius of damage sphere to hurt surrounding entities
+		"Explosion Force"	"0"			//force of explosion
 
-		//only for missile launchers
-		"Dumb Missile"			"0"		//'1' if missile flies straight ahead
-		"Homing Missile"		"0"		//'1' if missile flies towards locked on target
-		"Guided Missile"		"0"		//'1' if missile follows crosshairs after launch
-		"Missile Range"			"0"		//max range in HL2 units (1 inch = 1) that the player can lock onto a target with a homing missile, or range from vehicle being fired from when a guided missile stops following the player's crosshairs
-		"Lock On Time"			"0"		//time it takes for a homing missile to lock onto the target under the player crosshairs
-		"Lock Range Modifier"		"0"		//modifies lock on time based on range (as range increases, lock on time increases based on the modifier: modifier * range to target + lock on time = total lock on time)
-		"Countermeasure Effectiveness"	"0.9"		//a percentage (1 = 100%) which determines how likely the missile will lock onto a flare or chaff rather than the actual target when flares or chaff is inbetween it and its target. When a flare or chaff is detected in front of the missile, a number between 0.000 and 1.000 is generated.  If the number is less than the effectiveness number, the missile will target the flare/chaff.
-		"Turning Ability"		"0.2"		//determines how effective the missile can turn to home in on its target or guide itself to the crosshair for a guided missile; 1.0 means the missile can turn instantly towards its target, 0.0 and the missile doesn't turn at all
-
-		//for biological weapons: when a player or vehicle is hit, the damage (Damage) is inflicted every specified amount of seconds (Interval) over a total amount of time period (Time)
-		//all weapons can use these, explosions will infect all players and vehicles the explosion touches, not just the direct hit target
-		"Player Bio Damage"	"0"	//damage inflicted to players every interval
-		"Player Bio Time"	"0"	//total time to inflict damage to players
-		"Player Bio Interval"	"0"	//time inbetween each infliction of damage to players
-		"Vehicle Bio Damage"	"0"	//damage inflicted to vehicles every interval
-		"Vehicle Bio Time"	"0"	//total time to inflict damage to vehicles
-		"Vehicle Bio Interval"	"0"	//time inbetween each infliction of damage to vehicles
+		//Falloff
+		"Falloff"			"1300"
+		"Falloffbase"		"0.8"
+		"MinimalDamage"		"20"
 		
 		//effects
 		"Tracer Type"		"tracer_vehiclemg" //Tracer effect, tracer names are logical, a list: tracer_du, tracer_bio, tracer_he, tracer_rifle, tracer_smg, tracer_vehiclemg, tracer_cg, tracer_plasma
-		"Muzzle Flash"		"tracer_vehiclemg_muzzle"
-
-
-
-		//Falloff
-		"Falloff"			"1000"		
-		"Falloffbase"			"0.8"		
-		"MinimalDamage"			"13"		
+		"Muzzle Flash"		"tracer_vehiclemg_muzzle"		
 	}
 	"Bio Machine Gun"
 	{
-		"Name"			"Bio Machine Gun"		//name given when selecting weapons
-		"HUD Name"		"Bio MG"			//name displayed in the weapon area of the vehicle HUD
-		"Description"		"A small machine gun that fires bullets containing infectious material to do continual damage to a target."		//description given when selecting weapons
-		"Icon"			"vehicles/gui/weapons/mg_bio_med"		//icon drawn in the GUI
-		"HUD Icon"		"vehicles/gui/weapons/mg"
-		"Size"			"2"		//number of slots required when selecting weapons
-		"Type"			"0"		//0=machine gun, 1=tank cannon, 2=artillery cannon, 3=missile launcher, 4=grenade launcher, 5=aircraft bomb bay
-		"Cost"			"75"		//cost of this weapon added onto vehicle cost
-		"Team"			"ALL"		//team that can use this "NF" or "IMP"
-		"Research"		"Biological Projectile"		//name of research item that must be researched before using
-		"Sound Firing"		"Vehicle_BioMG.Fire"
-		"Sound Impact"		""
-		"Sound Reloading"	"Vehicle_Weapon.Reload"
+		"Name"					"Bio Machine Gun"
+		"HUD Name"				"Bio MG"
+		"Description"			"A small machine gun that fires bullets containing infectious material to do continual damage to a target."
+		"Icon"					"vehicles/gui/weapons/mg_bio_med"
+		"HUD Icon"				"vehicles/gui/weapons/mg"
+		"Size"					"2"
+		"Type"					"0"
+		"Cost"					"75"
+		"Team"					"ALL"
+		"Research"				"Biological Projectile"
+		"Sound Firing"			"Vehicle_BioMG.Fire"
+		"Sound Impact"			""
+		"Sound Reloading"		"Vehicle_Weapon.Reload"
 
-		"Damage Type"		"APBullet"
-		"Ammo Type"		"1"		//for mguns only, 0 = nonarmor penetrating (no effect on armored vehicles), 1 = armor penetrating (hurts armored vehicles), 2 = explosive (hurts vehicles and has a radius damage around it based on 'explosion radius'"
-		"Damage"		"8"		//damage done by projectile
-		"Speed"			"1000"		//speed of projectile
-		"Gravity"		"0"		//effects of gravity on the projectile, only for projectiles
-		"Heat"			"1"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status).
-		"Weight"		"40"		//weight in terms of effects on engine and weight restrictions for chassis
-		"Cycle Time"		"0.43"		//time between shots
-		"Clip Size"		"30"		//ammo loaded per reloads
-		"Total Ammo Clips"	"5"		//max ammo clips carried (0 is the same as not using clips)
-		"Unlimited Ammo"	"0"
-		"Reload Time"		"4"		//time to load one clip, if total ammo clips is '0', time to reload one unit of ammo (as one unit of ammo is reloaded per time and not a full clip)
-		"Projectile Spread"	"0.025"		//only applicable to machine guns at the moment
-		"Heat to Target"	"0"		//heat added to target on hit (a small amount of heat is also added to the target based on damage, this is defined within the armor script)
-		"Inertia"		"1"		//only applicable to cannons, artillery cannons, and grenades; affects how the speed of the vehicle affects the momentum of the projectile (higher inertia = vehicle speed will affect the trajectory of the projectile possibly causing it to veer off from a straight line or shoot farther or shorter)
-		"Explosion Radius"	"0"		//radius of damage sphere to hurt surrounding entities
-		"Explosion Force"	"0"		//force of explosion
+		"Damage Type"			"APBullet"
+		"Ammo Type"				"1"
+		"Damage"				"8"
+		"Speed"					"1000"
+		"Gravity"				"0"
+		"Heat"					"1"
+		"Weight"				"40"
+		"Cycle Time"			"0.43"
+		"Clip Size"				"30"
+		"Total Ammo Clips"		"5"
+		"Unlimited Ammo"		"0"
+		"Reload Time"			"4"
+		"Projectile Spread"		"0.025"
+		"Heat to Target"		"0"
+		"Explosion Radius"		"0"
+		"Explosion Force"		"0"
 
-		//only for missile launchers
-		"Dumb Missile"			"0"		//'1' if missile flies straight ahead
-		"Homing Missile"		"0"		//'1' if missile flies towards locked on target
-		"Guided Missile"		"0"		//'1' if missile follows crosshairs after launch
-		"Missile Range"			"0"		//max range in HL2 units (1 inch = 1) that the player can lock onto a target with a homing missile, or range from vehicle being fired from when a guided missile stops following the player's crosshairs
-		"Lock On Time"			"0"		//time it takes for a homing missile to lock onto the target under the player crosshairs
-		"Lock Range Modifier"		"0"		//modifies lock on time based on range (as range increases, lock on time increases based on the modifier: modifier * range to target + lock on time = total lock on time)
-		"Countermeasure Effectiveness"	"0.9"		//a percentage (1 = 100%) which determines how likely the missile will lock onto a flare or chaff rather than the actual target when flares or chaff is inbetween it and its target. When a flare or chaff is detected in front of the missile, a number between 0.000 and 1.000 is generated.  If the number is less than the effectiveness number, the missile will target the flare/chaff.
-		"Turning Ability"		"0.2"		//determines how effective the missile can turn to home in on its target or guide itself to the crosshair for a guided missile; 1.0 means the missile can turn instantly towards its target, 0.0 and the missile doesn't turn at all
-
-		//for biological weapons: when a player or vehicle is hit, the damage (Damage) is inflicted every specified amount of seconds (Interval) over a total amount of time period (Time)
-		//all weapons can use these, explosions will infect all players and vehicles the explosion touches, not just the direct hit target
-		"Player Bio Damage"	"5"	//damage inflicted to players every interval
-		"Player Bio Time"	"5"	//total time to inflict damage to players
-		"Player Bio Interval"	"1"	//time inbetween each infliction of damage to players
-		"Vehicle Bio Damage"	"4"	//damage inflicted to vehicles every interval
-		"Vehicle Bio Time"	"2.8"	//total time to inflict damage to vehicles
-		"Vehicle Bio Interval"	"0.2"	//time inbetween each infliction of damage to vehicles
-
-		//explosion effects
-		"Explosion Speed"	"3"	//how long the explosion sprite lives (15 is default)
-		"Explosion Sprite"	"1"	//explosion sprite to use for explosion, 0 = default, 1 = green (bio), 2 = blue (plasma)
-		
-		//effects
-		"Tracer Type"		"tracer_bio" //Tracer effect, tracer names are logical, a list: tracer_du, tracer_bio, tracer_he, tracer_rifle, tracer_smg, tracer_vehiclemg, tracer_cg, tracer_plasma
-		"Muzzle Flash"		"tracer_bio_muzzle"
+		//biological weapons
+		"Player Bio Damage"		"5"
+		"Player Bio Time"		"5"
+		"Player Bio Interval"	"1"
+		"Vehicle Bio Damage"	"4"
+		"Vehicle Bio Time"		"2.8"
+		"Vehicle Bio Interval"	"0.2"
 		
 		//Falloff
-		"Falloff"			"2500"		
+		"Falloff"				"2500"		
 		"Falloffbase"			"0.8"		
-		"MinimalDamage"			"4"	
+		"MinimalDamage"			"4"
+		
+		//explosion effects
+		"Explosion Speed"		"3"
+		"Explosion Sprite"		"1"
+		
+		//effects
+		"Tracer Type"			"tracer_bio"
+		"Muzzle Flash"			"tracer_bio_muzzle"
 	}
-
 	".50 Caliber Medium Machine Gun"
 	{
-		"Name"			".50 Cal Medium MG"		//name given when selecting weapons
-		"HUD Name"		".50 MG"			//name displayed in the weapon area of the vehicle HUD
-		"Description"		"A heavier .50 caliber firing medium machine gun."		//description given when selecting weapons
-		"Icon"			"vehicles/gui/weapons/mg_50cal_med"		//icon drawn in the GUI
-		"HUD Icon"		"vehicles/gui/weapons/mg"
-		"Size"			"2"		//number of slots required when selecting weapons
-		"Type"			"0"		//0=machine gun, 1=tank cannon, 2=artillery cannon, 3=missile launcher, 4=grenade launcher, 5=aircraft bomb bay
-		"Cost"			"70"		//cost of this weapon added onto vehicle cost
-		"Team"			"ALL"		//team that can use this "NF" or "IMP"
-		"Research"		"Heavy Caliber Machine Gun"		//name of research item that must be researched before using
+		"Name"				".50 Cal Medium MG"
+		"HUD Name"			".50 MG"
+		"Description"		"A heavier .50 caliber firing medium machine gun."
+		"Icon"				"vehicles/gui/weapons/mg_50cal_med"
+		"HUD Icon"			"vehicles/gui/weapons/mg"
+		"Size"				"2"
+		"Type"				"0"
+		"Cost"				"70"
+		"Team"				"ALL"
+		"Research"			"Heavy Caliber Machine Gun"
 		"Sound Firing"		"Vehicle_L50MG.Fire"
 		"Sound Impact"		""
 		"Sound Reloading"	"Vehicle_Weapon.Reload"
 
 		"Damage Type"		"Bullet"
-		"Ammo Type"		"0"		//for mguns only, 0 = nonarmor penetrating (no effect on armored vehicles), 1 = armor penetrating (hurts armored vehicles)
-		"Damage"		"20"		//damage done by projectile
-		"Speed"			"1000"		//speed of projectile
-		"Gravity"		"0"		//effects of gravity on the projectile, only for projectiles
-		"Heat"			"0.8"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status).
-		"Weight"		"50"		//weight in terms of effects on engine and weight restrictions for chassis
-		"Cycle Time"		"0.06"		//time between shots
-		"Clip Size"		"70"		//ammo loaded per reloads
-		"Total Ammo Clips"	"3"		//max ammo clips carried (0 is the same as not using clips)
+		"Ammo Type"			"0"
+		"Damage"			"31"
+		"Speed"				"1000"
+		"Gravity"			"0"
+		"Heat"				"1"
+		"Weight"			"40"
+		"Cycle Time"		"0.06"
+		"Clip Size"			"80"
+		"Total Ammo Clips"	"3"
 		"Unlimited Ammo"	"0"
-		"Reload Time"		"7.2"		//time to load one clip, if total ammo clips is '0', time to reload one unit of ammo (as one unit of ammo is reloaded per time and not a full clip)
-		"Projectile Spread"	"0.013"		//only applicable to machine guns at the moment
-		"Heat to Target"	"0"		//heat added to target on hit (a small amount of heat is also added to the target based on damage, this is defined within the armor script)
-		"Inertia"		"1"		//only applicable to cannons, artillery cannons, and grenades; affects how the speed of the vehicle affects the momentum of the projectile (higher inertia = vehicle speed will affect the trajectory of the projectile possibly causing it to veer off from a straight line or shoot farther or shorter)
-		"Explosion Radius"	"0"		//radius of damage sphere to hurt surrounding entities
-		"Explosion Force"	"0"		//force of explosion
+		"Reload Time"		"7"
+		"Projectile Spread"	"0.013"
+		"Heat to Target"	"0"
+		"Inertia"			"1"
+		"Explosion Radius"	"0"
+		"Explosion Force"	"0"
 
-
-			//only for missile launchers
-		"Dumb Missile"			"0"		//'1' if missile flies straight ahead
-		"Homing Missile"		"0"		//'1' if missile flies towards locked on target
-		"Guided Missile"		"0"		//'1' if missile follows crosshairs after launch
-		"Missile Range"			"0"		//max range in HL2 units (1 inch = 1) that the player can lock onto a target with a homing missile, or range from vehicle being fired from when a guided missile stops following the player's crosshairs
-		"Lock On Time"			"0"		//time it takes for a homing missile to lock onto the target under the player crosshairs
-		"Lock Range Modifier"		"0"		//modifies lock on time based on range (as range increases, lock on time increases based on the modifier: modifier * range to target + lock on time = total lock on time)
-		"Countermeasure Effectiveness"	"0.9"		//a percentage (1 = 100%) which determines how likely the missile will lock onto a flare or chaff rather than the actual target when flares or chaff is inbetween it and its target. When a flare or chaff is detected in front of the missile, a number between 0.000 and 1.000 is generated.  If the number is less than the effectiveness number, the missile will target the flare/chaff.
-		"Turning Ability"		"0.2"		//determines how effective the missile can turn to home in on its target or guide itself to the crosshair for a guided missile; 1.0 means the missile can turn instantly towards its target, 0.0 and the missile doesn't turn at all
-	
-		//effects
-		"Tracer Type"			"tracer_vehiclemg" //Tracer effect, tracer names are logical, a list: tracer_du, tracer_bio, tracer_he, tracer_rifle, tracer_smg, tracer_vehiclemg, tracer_cg, tracer_plasma
-		"Muzzle Flash"			"tracer_vehiclemg_muzzle"
 		//Falloff 
 		"Falloff"			"2500"		
-		"Falloffbase"			"0.9"		
-		"MinimalDamage"			"16"	
-	
+		"Falloffbase"		"0.9"		
+		"MinimalDamage"		"28"
+
+		//effects
+		"Tracer Type"		"tracer_vehiclemg" //Tracer effect, tracer names are logical, a list: tracer_du, tracer_bio, tracer_he, tracer_rifle, tracer_smg, tracer_vehiclemg, tracer_cg, tracer_plasma
+		"Muzzle Flash"		"tracer_vehiclemg_muzzle"
 	}
 	".50 Caliber Heavy Machine Gun"
 	{
-		"Name"			".50 Cal Heavy MG"		//name given when selecting weapons
-		"HUD Name"		".50 HMG"			//name displayed in the weapon area of the vehicle HUD
+		"Name"				".50 Cal Heavy MG"		//name given when selecting weapons
+		"HUD Name"			".50 HMG"			//name displayed in the weapon area of the vehicle HUD
 		"Description"		"A heavier .50 caliber firing heavy machine gun."		//description given when selecting weapons
-		"Icon"			"vehicles/gui/weapons/mg_50cal_hvy"		//icon drawn in the GUI
-		"HUD Icon"		"vehicles/gui/weapons/mg"
-		"Size"			"3"		//number of slots required when selecting weapons
-		"Type"			"0"		//0=machine gun, 1=tank cannon, 2=artillery cannon, 3=missile launcher, 4=grenade launcher, 5=aircraft bomb bay
-		"Cost"			"95"		//cost of this weapon added onto vehicle cost
-		"Team"			"ALL"		//team that can use this "NF" or "IMP"
-		"Research"		"Heavy Caliber Machine Gun"		//name of research item that must be researched before using
+		"Icon"				"vehicles/gui/weapons/mg_50cal_hvy"		//icon drawn in the GUI
+		"HUD Icon"			"vehicles/gui/weapons/mg"
+		"Size"				"3"		//number of slots required when selecting weapons
+		"Type"				"0"		//0=machine gun, 1=tank cannon, 2=artillery cannon, 3=missile launcher, 4=grenade launcher, 5=aircraft bomb bay
+		"Cost"				"95"		//cost of this weapon added onto vehicle cost
+		"Team"				"ALL"		//team that can use this "NF" or "IMP"
+		"Research"			"Heavy Caliber Machine Gun"		//name of research item that must be researched before using
 		"Sound Firing"		"Vehicle_H50MG.Fire"
 		"Sound Impact"		""
 		"Sound Reloading"	"Vehicle_Weapon.Reload"
 
 		"Damage Type"		"Bullet"
-		"Ammo Type"		"0"		//for mguns only, 0 = nonarmor penetrating (no effect on armored vehicles), 1 = armor penetrating (hurts armored vehicles)
-		"Damage"		"23"		//damage done by projectile
-		"Speed"			"1000"		//speed of projectile
-		"Gravity"		"0"		//effects of gravity on the projectile, only for projectiles
-		"Heat"			"0.8"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status).
-		"Weight"		"60"		//weight in terms of effects on engine and weight restrictions for chassis
+		"Ammo Type"			"0"		//for mguns only, 0 = nonarmor penetrating (no effect on armored vehicles), 1 = armor penetrating (hurts armored vehicles)
+		"Damage"			"40"		//damage done by projectile
+		"Speed"				"1000"		//speed of projectile
+		"Gravity"			"0"		//effects of gravity on the projectile, only for projectiles
+		"Heat"				"1.1"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status).
+		"Weight"			"60"		//weight in terms of effects on engine and weight restrictions for chassis
 		"Cycle Time"		"0.06"		//time between shots
-		"Clip Size"		"120"		//ammo loaded per reloads
+		"Clip Size"			"120"		//ammo loaded per reloads
 		"Total Ammo Clips"	"3"		//max ammo clips carried (0 is the same as not using clips)
 		"Unlimited Ammo"	"0"
 		"Reload Time"		"9"		//time to load one clip, if total ammo clips is '0', time to reload one unit of ammo (as one unit of ammo is reloaded per time and not a full clip)
 		"Projectile Spread"	"0.013"		//only applicable to machine guns at the moment
 		"Heat to Target"	"0"		//heat added to target on hit (a small amount of heat is also added to the target based on damage, this is defined within the armor script)
-		"Inertia"		"1"		//only applicable to cannons, artillery cannons, and grenades; affects how the speed of the vehicle affects the momentum of the projectile (higher inertia = vehicle speed will affect the trajectory of the projectile possibly causing it to veer off from a straight line or shoot farther or shorter)
+		"Inertia"			"1"		//only applicable to cannons, artillery cannons, and grenades; affects how the speed of the vehicle affects the momentum of the projectile (higher inertia = vehicle speed will affect the trajectory of the projectile possibly causing it to veer off from a straight line or shoot farther or shorter)
 		"Explosion Radius"	"0"		//radius of damage sphere to hurt surrounding entities
 		"Explosion Force"	"0"		//force of explosion
 
+		//Falloff
+		"Falloff"			"3000"		
+		"Falloffbase"		"0.9"		
+		"MinimalDamage"		"35"	
 
-			//only for missile launchers
-		"Dumb Missile"			"0"		//'1' if missile flies straight ahead
-		"Homing Missile"		"0"		//'1' if missile flies towards locked on target
-		"Guided Missile"		"0"		//'1' if missile follows crosshairs after launch
-		"Missile Range"			"0"		//max range in HL2 units (1 inch = 1) that the player can lock onto a target with a homing missile, or range from vehicle being fired from when a guided missile stops following the player's crosshairs
-		"Lock On Time"			"0"		//time it takes for a homing missile to lock onto the target under the player crosshairs
-		"Lock Range Modifier"		"0"		//modifies lock on time based on range (as range increases, lock on time increases based on the modifier: modifier * range to target + lock on time = total lock on time)
-		"Countermeasure Effectiveness"	"0.9"		//a percentage (1 = 100%) which determines how likely the missile will lock onto a flare or chaff rather than the actual target when flares or chaff is inbetween it and its target. When a flare or chaff is detected in front of the missile, a number between 0.000 and 1.000 is generated.  If the number is less than the effectiveness number, the missile will target the flare/chaff.
-		"Turning Ability"		"0.2"		//determines how effective the missile can turn to home in on its target or guide itself to the crosshair for a guided missile; 1.0 means the missile can turn instantly towards its target, 0.0 and the missile doesn't turn at all
-	
 		//effects
-		"Tracer Type"			"tracer_vehiclemg" //Tracer effect, tracer names are logical, a list: tracer_du, tracer_bio, tracer_he, tracer_rifle, tracer_smg, tracer_vehiclemg, tracer_cg, tracer_plasma
-		"Muzzle Flash"			"tracer_vehiclemg_muzzle"
-
-			//Falloff
-		"Falloff"			"2500"		
-		"Falloffbase"			"0.9"		
-		"MinimalDamage"			"19"	
-	
+		"Tracer Type"		"tracer_vehiclemg" //Tracer effect, tracer names are logical, a list: tracer_du, tracer_bio, tracer_he, tracer_rifle, tracer_smg, tracer_vehiclemg, tracer_cg, tracer_plasma
+		"Muzzle Flash"		"tracer_vehiclemg_muzzle"	
 	}
 	"Anti-Tank Machine Gun"
 	{
-		"Name"			"Depleted Uranium MG"		//name given when selecting weapons
-		"HUD Name"		"DU MG"			//name displayed in the weapon area of the vehicle HUD
+		"Name"				"Depleted Uranium MG"		//name given when selecting weapons
+		"HUD Name"			"DU MG"			//name displayed in the weapon area of the vehicle HUD
 		"Description"		"This machine gun fires ammunition which can damage vehicle armor."		//description given when selecting weapons
-		"Icon"			"vehicles/gui/weapons/mg_du_med"		//icon drawn in the GUI
-		"HUD Icon"		"vehicles/gui/weapons/mg"
-		"Size"			"2"		//number of slots required when selecting weapons
-		"Type"			"0"		//0=machine gun, 1=tank cannon, 2=artillery cannon, 3=missile launcher, 4=grenade launcher, 5=aircraft bomb bay
-		"Cost"			"70"		//cost of this weapon added onto vehicle cost
-		"Team"			"ALL"		//team that can use this "NF" or "IMP"
-		"Research"		"Heavy Caliber Machine Gun"		//name of research item that must be researched before using
+		"Icon"				"vehicles/gui/weapons/mg_du_med"		//icon drawn in the GUI
+		"HUD Icon"			"vehicles/gui/weapons/mg"
+		"Size"				"2"		//number of slots required when selecting weapons
+		"Type"				"0"		//0=machine gun, 1=tank cannon, 2=artillery cannon, 3=missile launcher, 4=grenade launcher, 5=aircraft bomb bay
+		"Cost"				"70"		//cost of this weapon added onto vehicle cost
+		"Team"				"ALL"		//team that can use this "NF" or "IMP"
+		"Research"			"Heavy Caliber Machine Gun"		//name of research item that must be researched before using
 		"Sound Firing"		"Vehicle_DUMG.Fire"
 		"Sound Impact"		""
 		"Sound Reloading"	"Vehicle_Weapon.Reload"
 
 		"Damage Type"		"APBullet"
-		"Ammo Type"		"1"		//for mguns only, 0 = nonarmor penetrating (no effect on armored vehicles), 1 = armor penetrating (hurts armored vehicles)
-		"Damage"		"5"		//damage done by projectile
-		"Speed"			"1000"		//speed of projectile
-		"Gravity"		"0"		//effects of gravity on the projectile, only for projectiles
-		"Heat"			"0.5"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status).
-		"Weight"		"40"		//weight in terms of effects on engine and weight restrictions for chassis
+		"Ammo Type"			"1"		//for mguns only, 0 = nonarmor penetrating (no effect on armored vehicles), 1 = armor penetrating (hurts armored vehicles)
+		"Damage"			"5"		//damage done by projectile
+		"Speed"				"1000"		//speed of projectile
+		"Gravity"			"0"		//effects of gravity on the projectile, only for projectiles
+		"Heat"				"0.5"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status).
+		"Weight"			"40"		//weight in terms of effects on engine and weight restrictions for chassis
 		"Cycle Time"		"0.1"		//time between shots
-		"Clip Size"		"80"		//ammo loaded per reloads
+		"Clip Size"			"80"		//ammo loaded per reloads
 		"Total Ammo Clips"	"6"		//max ammo clips carried (0 is the same as not using clips)
 		"Unlimited Ammo"	"0"
 		"Reload Time"		"2.0"		//time to load one clip, if total ammo clips is '0', time to reload one unit of ammo (as one unit of ammo is reloaded per time and not a full clip)
 		"Projectile Spread"	"0.018"		//only applicable to machine guns at the moment
 		"Heat to Target"	"0"		//heat added to target on hit (a small amount of heat is also added to the target based on damage, this is defined within the armor script)
-		"Inertia"		"1"		//only applicable to cannons, artillery cannons, and grenades; affects how the speed of the vehicle affects the momentum of the projectile (higher inertia = vehicle speed will affect the trajectory of the projectile possibly causing it to veer off from a straight line or shoot farther or shorter)
+		"Inertia"			"1"		//only applicable to cannons, artillery cannons, and grenades; affects how the speed of the vehicle affects the momentum of the projectile (higher inertia = vehicle speed will affect the trajectory of the projectile possibly causing it to veer off from a straight line or shoot farther or shorter)
 		"Explosion Radius"	"50"		//radius of damage sphere to hurt surrounding entities
 		"Explosion Force"	"30"		//force of explosion
 
-
-			//only for missile launchers
-		"Dumb Missile"			"0"		//'1' if missile flies straight ahead
-		"Homing Missile"		"0"		//'1' if missile flies towards locked on target
-		"Guided Missile"		"0"		//'1' if missile follows crosshairs after launch
-		"Missile Range"			"0"		//max range in HL2 units (1 inch = 1) that the player can lock onto a target with a homing missile, or range from vehicle being fired from when a guided missile stops following the player's crosshairs
-		"Lock On Time"			"0"		//time it takes for a homing missile to lock onto the target under the player crosshairs
-		"Lock Range Modifier"		"0"		//modifies lock on time based on range (as range increases, lock on time increases based on the modifier: modifier * range to target + lock on time = total lock on time)
-		"Countermeasure Effectiveness"	"0.9"		//a percentage (1 = 100%) which determines how likely the missile will lock onto a flare or chaff rather than the actual target when flares or chaff is inbetween it and its target. When a flare or chaff is detected in front of the missile, a number between 0.000 and 1.000 is generated.  If the number is less than the effectiveness number, the missile will target the flare/chaff.
-		"Turning Ability"		"0.2"		//determines how effective the missile can turn to home in on its target or guide itself to the crosshair for a guided missile; 1.0 means the missile can turn instantly towards its target, 0.0 and the missile doesn't turn at all
-	
 		//effects
-		"Tracer Type"			"tracer_du" //Tracer effect, tracer names are logical, a list: tracer_du, tracer_bio, tracer_he, tracer_rifle, tracer_smg, tracer_vehiclemg, tracer_cg, tracer_plasma
-		"Muzzle Flash"			"tracer_du_muzzle"
+		"Tracer Type"		"tracer_du" //Tracer effect, tracer names are logical, a list: tracer_du, tracer_bio, tracer_he, tracer_rifle, tracer_smg, tracer_vehiclemg, tracer_cg, tracer_plasma
+		"Muzzle Flash"		"tracer_du_muzzle"
 
 		//Falloff
 		"Falloff"			"2500"		
-		"Falloffbase"			"0.8"		
-		"MinimalDamage"			"3"	
-	
+		"Falloffbase"		"0.8"		
+		"MinimalDamage"		"3"	
 	}
 	"Anti-Tank Heavy Machine Gun"
 	{
-		"Name"			"Depleted Uranium HMG"		//name given when selecting weapons
-		"HUD Name"		"DU HMG"			//name displayed in the weapon area of the vehicle HUD
+		"Name"				"Depleted Uranium HMG"		//name given when selecting weapons
+		"HUD Name"			"DU HMG"			//name displayed in the weapon area of the vehicle HUD
 		"Description"		"This machine gun fires ammunition which can damage vehicle armor.  It is more damaging than the standard version."		//description given when selecting weapons
-		"Icon"			"vehicles/gui/weapons/mg_du_hvy"		//icon drawn in the GUI
-		"HUD Icon"		"vehicles/gui/weapons/mg"
-		"Size"			"3"		//number of slots required when selecting weapons
-		"Type"			"0"		//0=machine gun, 1=tank cannon, 2=artillery cannon, 3=missile launcher, 4=grenade launcher, 5=aircraft bomb bay
-		"Cost"			"95"		//cost of this weapon added onto vehicle cost
-		"Team"			"ALL"		//team that can use this "NF" or "IMP"
-		"Research"		"Heavy Caliber Machine Gun"		//name of research item that must be researched before using
+		"Icon"				"vehicles/gui/weapons/mg_du_hvy"		//icon drawn in the GUI
+		"HUD Icon"			"vehicles/gui/weapons/mg"
+		"Size"				"3"		//number of slots required when selecting weapons
+		"Type"				"0"		//0=machine gun, 1=tank cannon, 2=artillery cannon, 3=missile launcher, 4=grenade launcher, 5=aircraft bomb bay
+		"Cost"				"95"		//cost of this weapon added onto vehicle cost
+		"Team"				"ALL"		//team that can use this "NF" or "IMP"
+		"Research"			"Heavy Caliber Machine Gun"		//name of research item that must be researched before using
 		"Sound Firing"		"Vehicle_DUHMG.Fire"
 		"Sound Impact"		""
 		"Sound Reloading"	"Vehicle_Weapon.Reload"
 
 		"Damage Type"		"APBullet"
-		"Ammo Type"		"1"		//for mguns only, 0 = nonarmor penetrating (no effect on armored vehicles), 1 = armor penetrating (hurts armored vehicles)
-		"Damage"		"8"		//damage done by projectile
-		"Speed"			"1000"		//speed of projectile
-		"Gravity"		"0"		//effects of gravity on the projectile, only for projectiles
-		"Heat"			"0.5"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status).
-		"Weight"		"60"		//weight in terms of effects on engine and weight restrictions for chassis
+		"Ammo Type"			"1"		//for mguns only, 0 = nonarmor penetrating (no effect on armored vehicles), 1 = armor penetrating (hurts armored vehicles)
+		"Damage"			"8"		//damage done by projectile
+		"Speed"				"1000"		//speed of projectile
+		"Gravity"			"0"		//effects of gravity on the projectile, only for projectiles
+		"Heat"				"0.5"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status).
+		"Weight"			"60"		//weight in terms of effects on engine and weight restrictions for chassis
 		"Cycle Time"		"0.1"		//time between shots
-		"Clip Size"		"120"		//ammo loaded per reloads
+		"Clip Size"			"120"		//ammo loaded per reloads
 		"Total Ammo Clips"	"6"		//max ammo clips carried (0 is the same as not using clips)
 		"Unlimited Ammo"	"0"
 		"Reload Time"		"3.0"		//time to load one clip, if total ammo clips is '0', time to reload one unit of ammo (as one unit of ammo is reloaded per time and not a full clip)
 		"Projectile Spread"	"0.018"		//only applicable to machine guns at the moment
 		"Heat to Target"	"0"		//heat added to target on hit (a small amount of heat is also added to the target based on damage, this is defined within the armor script)
-		"Inertia"		"1"		//only applicable to cannons, artillery cannons, and grenades; affects how the speed of the vehicle affects the momentum of the projectile (higher inertia = vehicle speed will affect the trajectory of the projectile possibly causing it to veer off from a straight line or shoot farther or shorter)
+		"Inertia"			"1"		//only applicable to cannons, artillery cannons, and grenades; affects how the speed of the vehicle affects the momentum of the projectile (higher inertia = vehicle speed will affect the trajectory of the projectile possibly causing it to veer off from a straight line or shoot farther or shorter)
 		"Explosion Radius"	"50"		//radius of damage sphere to hurt surrounding entities
 		"Explosion Force"	"30"		//force of explosion
 
-
-			//only for missile launchers
-		"Dumb Missile"			"0"		//'1' if missile flies straight ahead
-		"Homing Missile"		"0"		//'1' if missile flies towards locked on target
-		"Guided Missile"		"0"		//'1' if missile follows crosshairs after launch
-		"Missile Range"			"0"		//max range in HL2 units (1 inch = 1) that the player can lock onto a target with a homing missile, or range from vehicle being fired from when a guided missile stops following the player's crosshairs
-		"Lock On Time"			"0"		//time it takes for a homing missile to lock onto the target under the player crosshairs
-		"Lock Range Modifier"		"0"		//modifies lock on time based on range (as range increases, lock on time increases based on the modifier: modifier * range to target + lock on time = total lock on time)
-		"Countermeasure Effectiveness"	"0.9"		//a percentage (1 = 100%) which determines how likely the missile will lock onto a flare or chaff rather than the actual target when flares or chaff is inbetween it and its target. When a flare or chaff is detected in front of the missile, a number between 0.000 and 1.000 is generated.  If the number is less than the effectiveness number, the missile will target the flare/chaff.
-		"Turning Ability"		"0.2"		//determines how effective the missile can turn to home in on its target or guide itself to the crosshair for a guided missile; 1.0 means the missile can turn instantly towards its target, 0.0 and the missile doesn't turn at all
-	
 		//effects
-		"Tracer Type"			"tracer_du" //Tracer effect, tracer names are logical, a list: tracer_du, tracer_bio, tracer_he, tracer_rifle, tracer_smg, tracer_vehiclemg, tracer_cg, tracer_plasma
-		"Muzzle Flash"			"tracer_du_muzzle"
+		"Tracer Type"		"tracer_du" //Tracer effect, tracer names are logical, a list: tracer_du, tracer_bio, tracer_he, tracer_rifle, tracer_smg, tracer_vehiclemg, tracer_cg, tracer_plasma
+		"Muzzle Flash"		"tracer_du_muzzle"
 
-			//Falloff
+		//Falloff
 		"Falloff"			"2500"		
-		"Falloffbase"			"0.8"		
-		"MinimalDamage"			"5"	
-	
+		"Falloffbase"		"0.8"		
+		"MinimalDamage"		"5"	
 	}
 	"Chain Gun"
 	{
-		"Name"			"Chain Gun"		//name given when selecting weapons
-		"HUD Name"		"CG"			//name displayed in the weapon area of the vehicle HUD
-		"Description"		"This chain gun fires at a very fast rate."		//description given when selecting weapons
-		"Icon"			"vehicles/gui/weapons/mg_chain_sml"		//icon drawn in the GUI
-		"HUD Icon"		"vehicles/gui/weapons/mg"
-		"Size"			"1"		//number of slots required when selecting weapons
-		"Type"			"0"		//0=machine gun, 1=tank cannon, 2=artillery cannon, 3=missile launcher, 4=grenade launcher, 5=aircraft bomb bay
-		"Cost"			"50"		//cost of this weapon added onto vehicle cost
-		"Team"			"ALL"		//team that can use this "NF" or "IMP"
-		"Research"		""		//name of research item that must be researched before using
+		"Name"				"Chain Gun"
+		"HUD Name"			"CG"
+		"Description"		"This chain gun fires at a very fast rate."
+		"Icon"				"vehicles/gui/weapons/mg_chain_sml"
+		"HUD Icon"			"vehicles/gui/weapons/mg"
+		"Size"				"1"
+		"Type"				"0"
+		"Cost"				"50"
+		"Team"				"ALL"
+		"Research"			""
 		"Sound Firing"		"Vehicle_CGMG.Fire"
 		"Sound Impact"		""
 		"Sound Reloading"	"Vehicle_Weapon.Reload"
 
 		"Damage Type"		"Bullet"
-		"Ammo Type"		"0"		//for mguns only, 0 = nonarmor penetrating (no effect on armored vehicles), 1 = armor penetrating (hurts armored vehicles)
-		"Damage"		"14"		//damage done by projectile
-		"Speed"			"1000"		//speed of projectile
-		"Gravity"		"0"		//effects of gravity on the projectile, only for projectiles
-		"Heat"			"0.35"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status).
-		"Weight"		"50"		//weight in terms of effects on engine and weight restrictions for chassis
-		"Cycle Time"		"0.04"		//time between shots
-		"Clip Size"		"125"		//ammo loaded per reloads
-		"Total Ammo Clips"	"3"		//max ammo clips carried (0 is the same as not using clips)
+		"Ammo Type"			"0"
+		"Damage"			"20"
+		"Speed"				"1000"
+		"Gravity"			"0"
+		"Heat"				"0.5"
+		"Weight"			"40"
+		"Cycle Time"		"0.04"
+		"Clip Size"			"125"
+		"Total Ammo Clips"	"3"
 		"Unlimited Ammo"	"0"
-		"Reload Time"		"6.0"		//time to load one clip, if total ammo clips is '0', time to reload one unit of ammo (as one unit of ammo is reloaded per time and not a full clip)
-		"Projectile Spread"	"0.03"		//only applicable to machine guns at the moment
-		"Heat to Target"	"0"		//heat added to target on hit (a small amount of heat is also added to the target based on damage, this is defined within the armor script)
-		"Inertia"		"1"		//only applicable to cannons, artillery cannons, and grenades; affects how the speed of the vehicle affects the momentum of the projectile (higher inertia = vehicle speed will affect the trajectory of the projectile possibly causing it to veer off from a straight line or shoot farther or shorter)
-		"Explosion Radius"	"0"		//radius of damage sphere to hurt surrounding entities
-		"Explosion Force"	"0"		//force of explosion
+		"Reload Time"		"6.0"
+		"Projectile Spread"	"0.03"
+		"Heat to Target"	"0"
+		"Explosion Radius"	"0"
+		"Explosion Force"	"0"
 
-
-			//only for missile launchers
-		"Dumb Missile"			"0"		//'1' if missile flies straight ahead
-		"Homing Missile"		"0"		//'1' if missile flies towards locked on target
-		"Guided Missile"		"0"		//'1' if missile follows crosshairs after launch
-		"Missile Range"			"0"		//max range in HL2 units (1 inch = 1) that the player can lock onto a target with a homing missile, or range from vehicle being fired from when a guided missile stops following the player's crosshairs
-		"Lock On Time"			"0"		//time it takes for a homing missile to lock onto the target under the player crosshairs
-		"Lock Range Modifier"		"0"		//modifies lock on time based on range (as range increases, lock on time increases based on the modifier: modifier * range to target + lock on time = total lock on time)
-		"Countermeasure Effectiveness"	"0.9"		//a percentage (1 = 100%) which determines how likely the missile will lock onto a flare or chaff rather than the actual target when flares or chaff is inbetween it and its target. When a flare or chaff is detected in front of the missile, a number between 0.000 and 1.000 is generated.  If the number is less than the effectiveness number, the missile will target the flare/chaff.
-		"Turning Ability"		"0.2"		//determines how effective the missile can turn to home in on its target or guide itself to the crosshair for a guided missile; 1.0 means the missile can turn instantly towards its target, 0.0 and the missile doesn't turn at all
-		
-		//effects
-		"Tracer Type"			"tracer_cg" //Tracer effect, tracer names are logical, a list: tracer_du, tracer_bio, tracer_he, tracer_rifle, tracer_smg, tracer_vehiclemg, tracer_cg, tracer_plasma
-		"Muzzle Flash"			"tracer_cg_muzzle"
-
-			//Falloff
+		//Falloff
 		"Falloff"			"1000"		
-		"Falloffbase"			"0.7"		
-		"MinimalDamage"			"11"	
+		"Falloffbase"		"0.7"		
+		"MinimalDamage"		"17"	
 
+		//effects
+		"Tracer Type"		"tracer_cg"
+		"Muzzle Flash"		"tracer_cg_muzzle"
 	}
 	"Medium Chain Gun"
 	{
-		"Name"			"Medium Chain Gun"		//name given when selecting weapons
-		"HUD Name"		"Med CG"			//name displayed in the weapon area of the vehicle HUD
-		"Description"		"This machine gun fires at a very fast rate.  Its damage is greater than the smaller version."		//description given when selecting weapons
-		"Icon"			"vehicles/gui/weapons/mg_chain_med"		//icon drawn in the GUI
-		"HUD Icon"		"vehicles/gui/weapons/mg"
-		"Size"			"2"		//number of slots required when selecting weapons
-		"Type"			"0"		//0=machine gun, 1=tank cannon, 2=artillery cannon, 3=missile launcher, 4=grenade launcher, 5=aircraft bomb bay
-		"Cost"			"70"		//cost of this weapon added onto vehicle cost
-		"Team"			"ALL"		//team that can use this "NF" or "IMP"
-		"Research"		""		//name of research item that must be researched before using
+		"Name"				"Medium Chain Gun"
+		"HUD Name"			"Med CG"
+		"Description"		"This machine gun fires at a very fast rate.  Its damage is greater than the smaller version."
+		"Icon"				"vehicles/gui/weapons/mg_chain_med"
+		"HUD Icon"			"vehicles/gui/weapons/mg"
+		"Size"				"2"
+		"Type"				"0"
+		"Cost"				"70"
+		"Team"				"ALL"
+		"Research"			""
 		"Sound Firing"		"Vehicle_HCGMG.Fire"
 		"Sound Impact"		""
 		"Sound Reloading"	"Vehicle_Weapon.Reload"
 
 		"Damage Type"		"Bullet"
-		"Ammo Type"		"0"		//for mguns only, 0 = nonarmor penetrating (no effect on armored vehicles), 1 = armor penetrating (hurts armored vehicles)
-		"Damage"		"17"		//damage done by projectile
-		"Speed"			"1000"		//speed of projectile
-		"Gravity"		"0"		//effects of gravity on the projectile, only for projectiles
-		"Heat"			"0.45"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status).
-		"Weight"		"65"		//weight in terms of effects on engine and weight restrictions for chassis
-		"Cycle Time"		"0.035"		//time between shots
-		"Clip Size"		"175"		//ammo loaded per reloads
-		"Total Ammo Clips"	"3"		//max ammo clips carried (0 is the same as not using clips)
+		"Ammo Type"			"0"
+		"Damage"			"17"
+		"Speed"				"1000"
+		"Gravity"			"0"
+		"Heat"				"0.45"
+		"Weight"			"65"
+		"Cycle Time"		"0.035"
+		"Clip Size"			"175"
+		"Total Ammo Clips"	"3"
 		"Unlimited Ammo"	"0"
-		"Reload Time"		"6.0"		//time to load one clip, if total ammo clips is '0', time to reload one unit of ammo (as one unit of ammo is reloaded per time and not a full clip)
-		"Projectile Spread"	"0.03"		//only applicable to machine guns at the moment
-		"Heat to Target"	"0"		//heat added to target on hit (a small amount of heat is also added to the target based on damage, this is defined within the armor script)
-		"Inertia"		"1"		//only applicable to cannons, artillery cannons, and grenades; affects how the speed of the vehicle affects the momentum of the projectile (higher inertia = vehicle speed will affect the trajectory of the projectile possibly causing it to veer off from a straight line or shoot farther or shorter)
-		"Explosion Radius"	"0"		//radius of damage sphere to hurt surrounding entities
-		"Explosion Force"	"0"		//force of explosion
-
-
-			//only for missile launchers
-		"Dumb Missile"			"0"		//'1' if missile flies straight ahead
-		"Homing Missile"		"0"		//'1' if missile flies towards locked on target
-		"Guided Missile"		"0"		//'1' if missile follows crosshairs after launch
-		"Missile Range"			"0"		//max range in HL2 units (1 inch = 1) that the player can lock onto a target with a homing missile, or range from vehicle being fired from when a guided missile stops following the player's crosshairs
-		"Lock On Time"			"0"		//time it takes for a homing missile to lock onto the target under the player crosshairs
-		"Lock Range Modifier"		"0"		//modifies lock on time based on range (as range increases, lock on time increases based on the modifier: modifier * range to target + lock on time = total lock on time)
-		"Countermeasure Effectiveness"	"0.9"		//a percentage (1 = 100%) which determines how likely the missile will lock onto a flare or chaff rather than the actual target when flares or chaff is inbetween it and its target. When a flare or chaff is detected in front of the missile, a number between 0.000 and 1.000 is generated.  If the number is less than the effectiveness number, the missile will target the flare/chaff.
-		"Turning Ability"		"0.2"		//determines how effective the missile can turn to home in on its target or guide itself to the crosshair for a guided missile; 1.0 means the missile can turn instantly towards its target, 0.0 and the missile doesn't turn at all
-	
-		//effects
-		"Tracer Type"			"tracer_cg" //Tracer effect, tracer names are logical, a list: tracer_du, tracer_bio, tracer_he, tracer_rifle, tracer_smg, tracer_vehiclemg, tracer_cg, tracer_plasma
-		"Muzzle Flash"			"tracer_cg_muzzle"
-
+		"Reload Time"		"6.0"
+		"Projectile Spread"	"0.03"
+		"Heat to Target"	"0"
+		"Explosion Radius"	"0"
+		"Explosion Force"	"0"
+		
+		//Falloff
 		"Falloff"			"1000"		
-		"Falloffbase"			"0.7"		
-		"MinimalDamage"			"12"	
+		"Falloffbase"		"0.7"		
+		"MinimalDamage"		"12"
 
-
+		//effects
+		"Tracer Type"		"tracer_cg"
+		"Muzzle Flash"		"tracer_cg_muzzle"
 	}
 	"Plasma Machine Gun"
 	{
@@ -566,102 +459,80 @@ Vehicle_Weapons
 		"Tracer Type"			"tracer_plasma" //Tracer effect, tracer names are logical, a list: tracer_du, tracer_bio, tracer_he, tracer_rifle, tracer_smg, tracer_vehiclemg, tracer_cg, tracer_plasma
 		"Muzzle Flash"			"tracer_plasma_muzzle"
 	}
-	//NOTATION!
-	//AMMO TYPE OF HEMG HAS TEMPORARELY CHANGED TO 1 (ARMOR PIERCING) FROM 2 (EXPLOSIVE) REQUESTED BY EMPTY
 	"HE MG"
 	{
-		"HUD Name"		"HE MG"			//name displayed in the weapon area of the vehicle HUD
-		"Name"			"High Explosive MG"		//name given when selecting weapons
+	//NOTATION!
+	//AMMO TYPE OF HEMG HAS TEMPORARELY CHANGED TO 1 (ARMOR PIERCING) FROM 2 (EXPLOSIVE) REQUESTED BY EMPTY
+		"HUD Name"			"HE MG"			//name displayed in the weapon area of the vehicle HUD
+		"Name"				"High Explosive MG"		//name given when selecting weapons
 		"Description"		"This machine gun fires rounds which explode upon impact.  It is very effective against vehicles."		//description given when selecting weapons
-		"Icon"			"vehicles/gui/weapons/mg_he_med"		//icon drawn in the GUI
-		"HUD Icon"		"vehicles/gui/weapons/mg"
-		"Size"			"2"		//number of slots required when selecting weapons
-		"Type"			"0"		//0=machine gun, 1=tank cannon, 2=artillery cannon, 3=missile launcher, 4=grenade launcher, 5=aircraft bomb bay
-		"Cost"			"80"		//cost of this weapon added onto vehicle cost
-		"Team"			"ALL"		//team that can use this "NF" or "IMP"
-		"Research"		"Explosive Tipped Bullets"		//name of research item that must be researched before using
+		"Icon"				"vehicles/gui/weapons/mg_he_med"		//icon drawn in the GUI
+		"HUD Icon"			"vehicles/gui/weapons/mg"
+		"Size"				"2"		//number of slots required when selecting weapons
+		"Type"				"0"		//0=machine gun, 1=tank cannon, 2=artillery cannon, 3=missile launcher, 4=grenade launcher, 5=aircraft bomb bay
+		"Cost"				"80"		//cost of this weapon added onto vehicle cost
+		"Team"				"ALL"		//team that can use this "NF" or "IMP"
+		"Research"			"Explosive Tipped Bullets"		//name of research item that must be researched before using
 		"Sound Firing"		"Vehicle_HEMG.Fire"
 		"Sound Impact"		""
 		"Sound Reloading"	"Vehicle_Weapon.Reload"
 
 		"Damage Type"		"BulletExplosive"
-		"Ammo Type"		"2"		//for mguns only, 0 = nonarmor penetrating (no effect on armored vehicles), 1 = armor penetrating (hurts armored vehicles)
-		"Damage"		"10"		//damage done by projectile
-		"Speed"			"1000"		//speed of projectile
-		"Gravity"		"0"		//effects of gravity on the projectile, only for projectiles
-		"Heat"			"1.5"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status).
-		"Weight"		"40"		//weight in terms of effects on engine and weight restrictions for chassis
+		"Ammo Type"			"2"		//for mguns only, 0 = nonarmor penetrating (no effect on armored vehicles), 1 = armor penetrating (hurts armored vehicles)
+		"Damage"			"10"		//damage done by projectile
+		"Speed"				"1000"		//speed of projectile
+		"Gravity"			"0"		//effects of gravity on the projectile, only for projectiles
+		"Heat"				"1.5"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status).
+		"Weight"			"40"		//weight in terms of effects on engine and weight restrictions for chassis
 		"Cycle Time"		"0.4"		//time between shots
-		"Clip Size"		"25"		//ammo loaded per reloads
+		"Clip Size"			"25"		//ammo loaded per reloads
 		"Total Ammo Clips"	"6"		//max ammo clips carried (0 is the same as not using clips)
 		"Unlimited Ammo"	"0"
 		"Reload Time"		"4"		//time to load one clip, if total ammo clips is '0', time to reload one unit of ammo (as one unit of ammo is reloaded per time and not a full clip)
 		"Projectile Spread"	"0.025"		//only applicable to machine guns at the moment
 		"Heat to Target"	"0"		//heat added to target on hit (a small amount of heat is also added to the target based on damage, this is defined within the armor script)
-		"Inertia"		"1"		//only applicable to cannons, artillery cannons, and grenades; affects how the speed of the vehicle affects the momentum of the projectile (higher inertia = vehicle speed will affect the trajectory of the projectile possibly causing it to veer off from a straight line or shoot farther or shorter)
+		"Inertia"			"1"		//only applicable to cannons, artillery cannons, and grenades; affects how the speed of the vehicle affects the momentum of the projectile (higher inertia = vehicle speed will affect the trajectory of the projectile possibly causing it to veer off from a straight line or shoot farther or shorter)
 		"Explosion Radius"	"200"		//radius of damage sphere to hurt surrounding entities
 		"Explosion Force"	"100"		//force of explosion
 
-
-			//only for missile launchers
-		"Dumb Missile"			"0"		//'1' if missile flies straight ahead
-		"Homing Missile"		"0"		//'1' if missile flies towards locked on target
-		"Guided Missile"		"0"		//'1' if missile follows crosshairs after launch
-		"Missile Range"			"0"		//max range in HL2 units (1 inch = 1) that the player can lock onto a target with a homing missile, or range from vehicle being fired from when a guided missile stops following the player's crosshairs
-		"Lock On Time"			"0"		//time it takes for a homing missile to lock onto the target under the player crosshairs
-		"Lock Range Modifier"		"0"		//modifies lock on time based on range (as range increases, lock on time increases based on the modifier: modifier * range to target + lock on time = total lock on time)
-		"Countermeasure Effectiveness"	"0.9"		//a percentage (1 = 100%) which determines how likely the missile will lock onto a flare or chaff rather than the actual target when flares or chaff is inbetween it and its target. When a flare or chaff is detected in front of the missile, a number between 0.000 and 1.000 is generated.  If the number is less than the effectiveness number, the missile will target the flare/chaff.
-		"Turning Ability"		"0.2"		//determines how effective the missile can turn to home in on its target or guide itself to the crosshair for a guided missile; 1.0 means the missile can turn instantly towards its target, 0.0 and the missile doesn't turn at all
-	
 		//effects
 		"Tracer Type"			"tracer_he" //Tracer effect, tracer names are logical, a list: tracer_du, tracer_bio, tracer_he, tracer_rifle, tracer_smg, tracer_vehiclemg, tracer_cg, tracer_plasma
 		"Muzzle Flash"			"tracer_he_muzzle"
 	}
 	"HE HMG"
 	{
-		"HUD Name"		"HE HMG"			//name displayed in the weapon area of the vehicle HUD
-		"Name"			"High Explosive HMG"		//name given when selecting weapons
+		"HUD Name"			"HE HMG"			//name displayed in the weapon area of the vehicle HUD
+		"Name"				"High Explosive HMG"		//name given when selecting weapons
 		"Description"		"This machine gun fires high caliber rounds which explode upon impact.  It is very effective against vehicles."		//description given when selecting weapons
-		"Icon"			"vehicles/gui/weapons/mg_he_hvy"		//icon drawn in the GUI
-		"HUD Icon"		"vehicles/gui/weapons/mg"
-		"Size"			"3"		//number of slots required when selecting weapons
-		"Type"			"0"		//0=machine gun, 1=tank cannon, 2=artillery cannon, 3=missile launcher, 4=grenade launcher, 5=aircraft bomb bay
-		"Cost"			"125"		//cost of this weapon added onto vehicle cost
-		"Team"			"ALL"		//team that can use this "NF" or "IMP"
-		"Research"		"Explosive Tipped Bullets"		//name of research item that must be researched before using
+		"Icon"				"vehicles/gui/weapons/mg_he_hvy"		//icon drawn in the GUI
+		"HUD Icon"			"vehicles/gui/weapons/mg"
+		"Size"				"3"		//number of slots required when selecting weapons
+		"Type"				"0"		//0=machine gun, 1=tank cannon, 2=artillery cannon, 3=missile launcher, 4=grenade launcher, 5=aircraft bomb bay
+		"Cost"				"125"		//cost of this weapon added onto vehicle cost
+		"Team"				"ALL"		//team that can use this "NF" or "IMP"
+		"Research"			"Explosive Tipped Bullets"		//name of research item that must be researched before using
 		"Sound Firing"		"Vehicle_HEMG.Fire"
 		"Sound Impact"		""
 		"Sound Reloading"	"Vehicle_Weapon.Reload"
 
 		"Damage Type"		"BulletExplosive"
-		"Ammo Type"		"2"		//for mguns only, 0 = nonarmor penetrating (no effect on armored vehicles), 1 = armor penetrating (hurts armored vehicles)
-		"Damage"		"13"		//damage done by projectile
-		"Speed"			"1000"		//speed of projectile
-		"Gravity"		"0"		//effects of gravity on the projectile, only for projectiles
-		"Heat"			"3"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status).
-		"Weight"		"55"		//weight in terms of effects on engine and weight restrictions for chassis
+		"Ammo Type"			"2"		//for mguns only, 0 = nonarmor penetrating (no effect on armored vehicles), 1 = armor penetrating (hurts armored vehicles)
+		"Damage"			"13"		//damage done by projectile
+		"Speed"				"1000"		//speed of projectile
+		"Gravity"			"0"		//effects of gravity on the projectile, only for projectiles
+		"Heat"				"3"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status).
+		"Weight"			"55"		//weight in terms of effects on engine and weight restrictions for chassis
 		"Cycle Time"		"0.4"		//time between shots
-		"Clip Size"		"25"		//ammo loaded per reloads
+		"Clip Size"			"25"		//ammo loaded per reloads
 		"Total Ammo Clips"	"6"		//max ammo clips carried (0 is the same as not using clips)
 		"Unlimited Ammo"	"0"
 		"Reload Time"		"4"		//time to load one clip, if total ammo clips is '0', time to reload one unit of ammo (as one unit of ammo is reloaded per time and not a full clip)
 		"Projectile Spread"	"0.025"		//only applicable to machine guns at the moment
 		"Heat to Target"	"0"		//heat added to target on hit (a small amount of heat is also added to the target based on damage, this is defined within the armor script)
-		"Inertia"		"1"		//only applicable to cannons, artillery cannons, and grenades; affects how the speed of the vehicle affects the momentum of the projectile (higher inertia = vehicle speed will affect the trajectory of the projectile possibly causing it to veer off from a straight line or shoot farther or shorter)
+		"Inertia"			"1"		//only applicable to cannons, artillery cannons, and grenades; affects how the speed of the vehicle affects the momentum of the projectile (higher inertia = vehicle speed will affect the trajectory of the projectile possibly causing it to veer off from a straight line or shoot farther or shorter)
 		"Explosion Radius"	"200"		//radius of damage sphere to hurt surrounding entities
 		"Explosion Force"	"100"		//force of explosion
 
-
-			//only for missile launchers
-		"Dumb Missile"			"0"		//'1' if missile flies straight ahead
-		"Homing Missile"		"0"		//'1' if missile flies towards locked on target
-		"Guided Missile"		"0"		//'1' if missile follows crosshairs after launch
-		"Missile Range"			"0"		//max range in HL2 units (1 inch = 1) that the player can lock onto a target with a homing missile, or range from vehicle being fired from when a guided missile stops following the player's crosshairs
-		"Lock On Time"			"0"		//time it takes for a homing missile to lock onto the target under the player crosshairs
-		"Lock Range Modifier"		"0"		//modifies lock on time based on range (as range increases, lock on time increases based on the modifier: modifier * range to target + lock on time = total lock on time)
-		"Countermeasure Effectiveness"	"0.9"		//a percentage (1 = 100%) which determines how likely the missile will lock onto a flare or chaff rather than the actual target when flares or chaff is inbetween it and its target. When a flare or chaff is detected in front of the missile, a number between 0.000 and 1.000 is generated.  If the number is less than the effectiveness number, the missile will target the flare/chaff.
-		"Turning Ability"		"0.2"		//determines how effective the missile can turn to home in on its target or guide itself to the crosshair for a guided missile; 1.0 means the missile can turn instantly towards its target, 0.0 and the missile doesn't turn at all
-	
 		//effects
 		"Tracer Type"			"tracer_he" //Tracer effect, tracer names are logical, a list: tracer_du, tracer_bio, tracer_he, tracer_rifle, tracer_smg, tracer_vehiclemg, tracer_cg, tracer_plasma
 		"Muzzle Flash"			"tracer_he_muzzle"
@@ -712,7 +583,6 @@ Vehicle_Weapons
 		"Lock On Time"		"0"		//time it takes for a homing missile to lock onto the target under the player crosshairs
 		"Lock Range Modifier"	"0"		//modifies lock on time based on range (as range increases, lock on time increases based on the modifier: modifier * range to target + lock on time = total lock on time)
 	}
-
 	"Ranged Cannon"
 	{
 		"Name"			"Ranged Cannon"		//name given when selecting weapons
@@ -1372,7 +1242,6 @@ Vehicle_Weapons
 		"Lock On Time"		"0"		//time it takes for a homing missile to lock onto the target under the player crosshairs
 		"Lock Range Modifier"	"0"		//modifies lock on time based on range (as range increases, lock on time increases based on the modifier: modifier * range to target + lock on time = total lock on time)
 	}
-
 	"singleMissileLauncher"
 	{
 		"Name"			"Standard ML"		//name given when selecting weapons
@@ -2046,7 +1915,6 @@ Vehicle_Weapons
 		"Lock On Time"		"0"		//time it takes for a homing missile to lock onto the target under the player crosshairs
 		"Lock Range Modifier"	"0"		//modifies lock on time based on range (as range increases, lock on time increases based on the modifier: modifier * range to target + lock on time = total lock on time)
 	}
-
 	"HE Grenade Launcher"
 	{
 		"Name"			"HE Grenade Launcher"		//name given when selecting weapons

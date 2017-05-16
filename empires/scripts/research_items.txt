@@ -522,12 +522,12 @@ research_items
 				"Unresearched Icon"	"comm/hex_infantry_empty"		//icon drawn in the GUI
 				"Type"			"0"		//nothing
 				"Cost"			"0"		//cost of this research item
-				"Time"			"45"		//time to research this item in seconds
+				"Time"			"1"		//time to research this item in seconds
 				"Team"			""		//which team can research this
 				"XPos"			"317"
 				"YPos"			"72"
 				"Ammo_Type"		"AMMO_ROCKETS"	
-				"Damage_Modifier" "30"
+				"Damage_Modifier" "0"
 			}
 			"Advanced Chassis"
 			{
@@ -552,12 +552,12 @@ research_items
 					"Unresearched Icon"	"comm/hex_infantry_empty"		//icon drawn in the GUI
 					"Type"			"0"		//nothing
 					"Cost"			"0"		//cost of this research item
-					"Time"			"45"		//time to research this item in seconds
+					"Time"			"1"		//time to research this item in seconds
 					"Team"			""		//which team can research this
 					"XPos"			"317"
 					"YPos"			"72"
 					"Ammo_Type"		"AMMO_ROCKETS"	
-					"Damage_Modifier" "30"
+					"Damage_Modifier" "0"
 				}
 				"Heavy Tank Chassis"
 				{
