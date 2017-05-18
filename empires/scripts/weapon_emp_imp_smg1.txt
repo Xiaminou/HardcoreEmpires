@@ -2,13 +2,13 @@ WeaponData
 {
 	// Weapon characteristics:
 	"Damage"			"30"		// damage per bullet
-	"Bullets"			"1"		// bullets per shoot
+	"Bullets"			"1"			// bullets per shoot
 	"CycleTime"			"0.09"		// time between shoots
 	"Falloff"			"1500"		// distance at which bullet strength has dropped to 85% (damage decreases linearly)
-	"Falloff Base"			"0.9"		// falloff base
-	"MinimalDamage"			"15"		// bullet will always deal this amount of damage even after damage decrease
+	"Falloff Base"		"0.9"		// falloff base
+	"MinimalDamage"		"15"		// bullet will always deal this amount of damage even after damage decrease
 
-	"Damage Head Modifier"		"1.4"
+	"Damage Head Modifier"		"2"
 	"Damage Chest Modifier"		"1"
 	"Damage Stomach Modifier"	"1"
 	"Damage Left Arm Modifier"	"0.7"
@@ -20,27 +20,27 @@ WeaponData
 	// Weapon data is loaded by both the Game and Client DLLs.
 	"printname"			"#SDK_MP5"
 	"viewmodel"			"models/Imperial/Weapons/v/smg1/imp_smg1.mdl"
-	"playermodel"			"models/Imperial/Weapons/w/smg1/imp_smg1.mdl"
+	"playermodel"		"models/Imperial/Weapons/w/smg1/imp_smg1.mdl"
 	
-	"anim_prefix"			"xm1014"
+	"anim_prefix"		"xm1014"
 	"bucket"			"1"
-	"bucket_position"		"0"
+	"bucket_position"	"0"
 
 	"clip_size"			"30"
-	"clip2_size"			"-1"
+	"clip2_size"		"-1"
 	
-	"primary_ammo"			"AMMO_SMG"
-	"secondary_ammo"		"AMMO_MELEE"
+	"primary_ammo"		"AMMO_SMG"
+	"secondary_ammo"	"AMMO_MELEE"
 
 	"weight"			"25"
-	"item_flags"			"0"
+	"item_flags"		"0"
 
-	"BuiltRightHanded"		"0"
-	"AllowFlipping"			"1"
+	"BuiltRightHanded"	"0"
+	"AllowFlipping"		"1"
 
-	"MeleeWeapon"			"0"
-	"MeleeDamage"			"70"	// damage per melee hit
-	"MeleeCycleTime"		"0.5"	// time between melee attacks
+	"MeleeWeapon"		"0"
+	"MeleeDamage"		"70"	// damage per melee hit
+	"MeleeCycleTime"	"0.5"	// time between melee attacks
 
 
 //Weapon Spread

@@ -14,7 +14,6 @@ research_items
 		"XPos"			"257"
 		"YPos"			"0"
 	}
-
 	"Physics"
 	{
 		"Name"			"Physics"		//name given to research item
@@ -29,7 +28,6 @@ research_items
 		"XPos"			"50"
 		"YPos"			"24"
 	}
-
 		"Superheated Material Physics"
 		{
 			"Name"			"Superheated Material Physics"		//name given to research item
@@ -226,9 +224,6 @@ research_items
 			"XPos"			"50"
 			"YPos"			"92"
 		}
-
-
-
 	"Chemistry"
 	{
 		"Name"			"Chemistry"		//name given to research item
@@ -341,7 +336,6 @@ research_items
 					"XPos"			"195"
 					"YPos"			"72"
 				}
-
 		"Improved Warhead Compounds"
 		{
 			"Name"			"Improved Warhead Compounds"		//name given to research item
@@ -398,8 +392,6 @@ research_items
 					"XPos"			"255"
 					"YPos"			"72"
 				}
-
-
 		"Improved Heat Transfer Fluids"
 		{
 			"Name"			"Improved Heat Transfer Fluids"		//name given to research item
@@ -428,7 +420,6 @@ research_items
 				"XPos"			"195"
 				"YPos"			"72"
 			}
-
 //		"Absorbant Materials"
 //		{
 //			"Name"			"Absorbant Materials"		//name given to research item
@@ -455,8 +446,6 @@ research_items
 				"XPos"			"175"
 				"YPos"			"48"
 			}
-
-
 	"Mechanical Engineering"
 	{
 		"Name"			"Mechanical Engineering"		//name given to research item
@@ -573,9 +562,6 @@ research_items
 					"XPos"			"257"
 					"YPos"			"96"
 				}
-
-
-
 		"Advanced Machining"
 		{
 			"Name"			"Advanced Machining"		//name given to research item
@@ -590,7 +576,6 @@ research_items
 			"XPos"			"277"
 			"YPos"			"48"
 		}
-
 			"Composite Armor"
 			{
 				"Name"			"Composite Armor"		//name given to research item
@@ -605,7 +590,6 @@ research_items
 				"XPos"			"297"
 				"YPos"			"72"
 			}
-
 			"Gas Turbine Engine"
 			{
 				"Name"			"Gas Turbine Engine"		//name given to research item
@@ -620,7 +604,6 @@ research_items
 				"XPos"			"277"
 				"YPos"			"72"
 			}
-
 	"Electrical Engineering"
 	{
 		"Name"			"Electrical Engineering"		//name given to research item
@@ -705,7 +688,6 @@ research_items
 				"XPos"			"360"
 				"YPos"			"72"
 			}
-
 		"Capacitive Armor"
 		{
 			"Name"			"Capacitive Armor"		//name given to research item
@@ -860,8 +842,6 @@ research_items
 				"XPos"			"320"
 				"YPos"			"72"
 			}
-
-
 //		"Improved Detonators"
 //		{
 //			"Name"			"Improved Detonators"		//name given to research item
@@ -874,7 +854,6 @@ research_items
 //			"Time"			"60"		//time to research this item in seconds
 //			"Team"			""		//which team can research this
 //		}
-
 	"Biology"
 	{
 		"Name"			"Biology"		//name given to research item
@@ -973,7 +952,6 @@ research_items
 					"XPos"			"465"
 					"YPos"			"72"
 				}
-
 			"Biological Projectile"
 			{
 				"Name"			"Biological Projectile"		//name given to research item
@@ -987,8 +965,7 @@ research_items
 				"Team"			""		//which team can research this
 				"XPos"			"445"
 				"YPos"			"72"
-			}
-			
+			}			
 			"Biological Cannon"
 			{
 				"Name"			"Biological Cannon"		//name given to research item
@@ -1031,5 +1008,4 @@ research_items
 					"XPos"			"455"
 					"YPos"			"72"
 				}
-
-}
+}
