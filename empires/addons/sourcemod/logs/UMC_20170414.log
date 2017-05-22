@@ -1,0 +1,2055 @@
+L 04/14/2017 - 00:12:07: [umc-emp-mapvote.smx] Map vote will appear in 1 seconds.
+L 04/14/2017 - 00:12:08: [umc-emp-mapvote.smx] Starting a map vote.
+L 04/14/2017 - 00:12:08: [umc-core.smx] Initiating Vote Type: Map
+L 04/14/2017 - 00:12:08: [umc-emp-mapvote.smx] Could not start UMC vote.
+L 04/14/2017 - 00:12:08: [umc-emp-mapvote.smx] WARNING: Map Voting failure. Initiating random map fail-safe.
+L 04/14/2017 - 00:12:08: [umc-core.smx] Setting nextmap to: emp_flat_fix
+L 04/14/2017 - 00:12:08: [umc-randomcycle.smx] Disabling random nextmap selection.
+L 04/14/2017 - 00:12:08: [umc-core.smx] umc-emp-mapvote.smx: Changing map to 'emp_flat_fix' in 5 seconds.
+L 04/14/2017 - 00:12:13: [umc-core.smx] ---------------------MAP CHANGE: emp_flat_fix---------------------
+L 04/14/2017 - 00:12:13: [umc-endvote-warnings.smx] Successfully parsed and set up 11 vote warnings.
+L 04/14/2017 - 00:12:13: [umc-playercountmonitor.smx] Min Players: 0, Max Players: 22
+L 04/14/2017 - 00:12:13: [umc-playercountmonitor.smx] Server will begin watching for inproper number of players in 240 seconds.
+L 04/14/2017 - 00:12:13: [umc-rockthevote.smx] RTV is now available.
+L 04/14/2017 - 00:16:13: [umc-playercountmonitor.smx] Server is now watching for inproper number of players.
+L 04/14/2017 - 01:09:02: [umc-emp-mapvote.smx] Map vote will appear in 1 seconds.
+L 04/14/2017 - 01:09:03: [umc-emp-mapvote.smx] Starting a map vote.
+L 04/14/2017 - 01:09:03: [umc-core.smx] Initiating Vote Type: Map
+L 04/14/2017 - 01:09:03: [umc-emp-mapvote.smx] Could not start UMC vote.
+L 04/14/2017 - 01:09:03: [umc-emp-mapvote.smx] WARNING: Map Voting failure. Initiating random map fail-safe.
+L 04/14/2017 - 01:09:03: [umc-core.smx] Setting nextmap to: emp_district402
+L 04/14/2017 - 01:09:03: [umc-randomcycle.smx] Disabling random nextmap selection.
+L 04/14/2017 - 01:09:03: [umc-core.smx] umc-emp-mapvote.smx: Changing map to 'emp_district402' in 5 seconds.
+L 04/14/2017 - 01:09:08: [umc-core.smx] ---------------------MAP CHANGE: emp_district402---------------------
+L 04/14/2017 - 01:09:09: [umc-endvote-warnings.smx] Successfully parsed and set up 11 vote warnings.
+L 04/14/2017 - 01:09:09: [umc-playercountmonitor.smx] Min Players: 0, Max Players: 13
+L 04/14/2017 - 01:09:09: [umc-playercountmonitor.smx] Server will begin watching for inproper number of players in 240 seconds.
+L 04/14/2017 - 01:09:09: [umc-rockthevote.smx] RTV is now available.
+L 04/14/2017 - 01:13:09: [umc-playercountmonitor.smx] Server is now watching for inproper number of players.
+L 04/14/2017 - 01:23:08: [umc-emp-mapvote.smx] Map vote will appear in 1 seconds.
+L 04/14/2017 - 01:23:09: [umc-emp-mapvote.smx] Starting a map vote.
+L 04/14/2017 - 01:23:09: [umc-core.smx] Initiating Vote Type: Map
+L 04/14/2017 - 01:23:40: [umc-emp-mapvote.smx] WARNING: Map Voting failure. Initiating random map fail-safe.
+L 04/14/2017 - 01:23:40: [umc-core.smx] Setting nextmap to: emp_crossroads
+L 04/14/2017 - 01:23:40: [umc-randomcycle.smx] Disabling random nextmap selection.
+L 04/14/2017 - 01:23:40: [umc-core.smx] umc-emp-mapvote.smx: Changing map to 'emp_crossroads' in 5 seconds.
+L 04/14/2017 - 01:23:46: [umc-core.smx] ---------------------MAP CHANGE: emp_crossroads---------------------
+L 04/14/2017 - 01:23:46: [umc-endvote-warnings.smx] Successfully parsed and set up 11 vote warnings.
+L 04/14/2017 - 01:23:46: [umc-playercountmonitor.smx] Min Players: 0, Max Players: 22
+L 04/14/2017 - 01:23:46: [umc-playercountmonitor.smx] Server will begin watching for inproper number of players in 240 seconds.
+L 04/14/2017 - 01:23:46: [umc-rockthevote.smx] RTV is now available.
+L 04/14/2017 - 01:27:46: [umc-playercountmonitor.smx] Server is now watching for inproper number of players.
+L 04/14/2017 - 14:44:15: [umc-core.smx] Initiating Vote Type: Map
+L 04/14/2017 - 14:44:17: [umc-core.smx] Setting nextmap to: emp_glycencity
+L 04/14/2017 - 14:44:17: [umc-randomcycle.smx] Disabling random nextmap selection.
+L 04/14/2017 - 14:44:17: [umc-core.smx] MAPVOTE: Players voted for map 'emp_glycencity' from group 'Infantry Maps'
+L 04/14/2017 - 14:44:45: [umc-core.smx] ---------------------MAP CHANGE: emp_crossroads---------------------
+L 04/14/2017 - 14:44:45: [umc-endvote-warnings.smx] Successfully parsed and set up 11 vote warnings.
+L 04/14/2017 - 14:44:45: [umc-playercountmonitor.smx] Current Map Group could not be determined. (Non-UMC mapchange or plugin just loaded.)
+L 04/14/2017 - 14:44:45: [umc-playercountmonitor.smx] Min Players: 0, Max Players: 64
+L 04/14/2017 - 14:44:45: [umc-rockthevote.smx] RTV is now available.
+L 04/14/2017 - 14:44:57: [umc-core.smx] Initiating Vote Type: Map
+L 04/14/2017 - 14:44:58: [umc-core.smx] Setting nextmap to: emp_glycencity
+L 04/14/2017 - 14:44:58: [umc-randomcycle.smx] Disabling random nextmap selection.
+L 04/14/2017 - 14:44:58: [umc-core.smx] MAPVOTE: Players voted for map 'emp_glycencity' from group 'Infantry Maps'
+L 04/14/2017 - 14:46:00: [umc-core.smx] ---------------------MAP CHANGE: emp_crossroads---------------------
+L 04/14/2017 - 14:46:00: [umc-endvote-warnings.smx] Successfully parsed and set up 11 vote warnings.
+L 04/14/2017 - 14:46:00: [umc-playercountmonitor.smx] Current Map Group could not be determined. (Non-UMC mapchange or plugin just loaded.)
+L 04/14/2017 - 14:46:00: [umc-playercountmonitor.smx] Min Players: 0, Max Players: 64
+L 04/14/2017 - 14:46:00: [umc-rockthevote.smx] RTV is now available.
+L 04/14/2017 - 14:53:24: [umc-core.smx] DEBUG: Executing Core OnMapStart
+L 04/14/2017 - 14:53:24: [umc-core.smx] ---------------------MAP CHANGE: emp_crossroads---------------------
+L 04/14/2017 - 14:53:24: [umc-core.smx] DEBUG: Executing Core OnConfigsExecuted
+L 04/14/2017 - 14:53:24: [umc-endvote-warnings.smx] Successfully parsed and set up 11 vote warnings.
+L 04/14/2017 - 14:53:24: [umc-playercountmonitor.smx] Min Players: 0, Max Players: 22
+L 04/14/2017 - 14:53:24: [umc-playercountmonitor.smx] Server will begin watching for inproper number of players in 240 seconds.
+L 04/14/2017 - 14:53:24: [umc-rockthevote.smx] RTV is now available.
+L 04/14/2017 - 14:53:34: [umc-endvote-warnings.smx] Successfully parsed and set up 11 vote warnings.
+L 04/14/2017 - 14:53:34: [umc-playercountmonitor.smx] Min Players: 0, Max Players: 22
+L 04/14/2017 - 14:53:34: [umc-playercountmonitor.smx] Server will begin watching for inproper number of players in 240 seconds.
+L 04/14/2017 - 14:53:34: [umc-rockthevote.smx] RTV is now available.
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: MAPVOTE - Building map vote menu.
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Preparing mapcycle for traversal.
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Starting mapcycle filtering.
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Starting filtering of map group "Commander Maps".
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Removing invalid map "emp_downfall" from group "Commander Maps".
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Removing invalid map "emp_blah4" from group "Commander Maps".
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Removing invalid map "emp_bush" from group "Commander Maps".
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Removing invalid map "emp_forest_ob_2013" from group "Commander Maps".
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Removing invalid map "emp_commandergrad_b1" from group "Commander Maps".
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Removing invalid map "emp_dune_ob1" from group "Commander Maps".
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Removing invalid map "emp_frozensummit_b2_2013_fix" from group "Commander Maps".
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Removing invalid map "emp_fuel_a3_2013_fix" from group "Commander Maps".
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Removing invalid map "emp_glacial_b2" from group "Commander Maps".
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Removing invalid map "emp_mesa_d6" from group "Commander Maps".
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Removing invalid map "emp_insurrection_rc4" from group "Commander Maps".
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Removing invalid map "emp_massacred_rc1" from group "Commander Maps".
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Removing invalid map "emp_canyon" from group "Commander Maps".
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Removing invalid map "emp_hazard_rc6" from group "Commander Maps".
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Removing invalid map "emp_traders_a8" from group "Commander Maps".
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Removing invalid map "emp_temple_b3a" from group "Commander Maps".
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Removing invalid map "emp_snowstorm_rc6" from group "Commander Maps".
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Removing invalid map "emp_snowbound_cl6" from group "Commander Maps".
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Removing invalid map "emp_homeland_b9" from group "Commander Maps".
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Removing invalid map "emp_plunge_ob2_2013" from group "Commander Maps".
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Removing invalid map "emp_research_1_2_2013" from group "Commander Maps".
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Removing invalid map "emp_silo_rc5" from group "Commander Maps".
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Removing invalid map "emp_isle" from group "Commander Maps".
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Removing invalid map "emp_coast" from group "Commander Maps".
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Removing invalid map "emp_tropicvendetta_rc4" from group "Commander Maps".
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Removing invalid map "emp_cyclopean" from group "Commander Maps".
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Removing invalid map "emp_raiders_b1" from group "Commander Maps".
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Removing invalid map "emp_duststorm" from group "Commander Maps".
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Removing invalid map "emp_ward_rc2" from group "Commander Maps".
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Removing invalid map "emp_mvalley" from group "Commander Maps".
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Removing invalid map "emp_arid" from group "Commander Maps".
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Removing invalid map "emp_palmbay_fix" from group "Commander Maps".
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Removing invalid map "emp_chain" from group "Commander Maps".
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Removing invalid map "emp_midbridge" from group "Commander Maps".
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Removing invalid map "emp_blackmountain" from group "Commander Maps".
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Map Group filtering completed for group "Commander Maps".
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Starting filtering of map group "Infantry Maps".
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Removing invalid map "emp_atomic_rc6" from group "Infantry Maps".
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Map Group filtering completed for group "Infantry Maps".
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Mapcycle filtering completed.
+L 04/14/2017 - 14:53:59: [umc-core.smx] 1: "umc_rotation"
+L 04/14/2017 - 14:53:59: [umc-core.smx] 2:   "Commander Maps"
+L 04/14/2017 - 14:53:59: [umc-core.smx] 3:     "emp_drygulch_a6"
+L 04/14/2017 - 14:53:59: [umc-core.smx] 3:     "emp_beachfront_b2"
+L 04/14/2017 - 14:53:59: [umc-core.smx] 3:     "emp_flat_fix"
+L 04/14/2017 - 14:53:59: [umc-core.smx] 2:   "Infantry Maps"
+L 04/14/2017 - 14:53:59: [umc-core.smx] 3:     "emp_district402"
+L 04/14/2017 - 14:53:59: [umc-core.smx] 3:     "emp_glycencity"
+L 04/14/2017 - 14:53:59: [umc-core.smx] 3:     "emp_urbanchaos"
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Checking for groups.
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Preparing vote data storage.
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Getting options from cvars.
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Initializing Buffers
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Performing Traversal
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: New map weight: 1.000000
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: New map weight: 1.000000
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: New map weight: 1.000000
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: New map weight: 1.000000
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: New map weight: 1.000000
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: New map weight: 1.000000
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Fetching map group data
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Fetching Nominations
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Unfiltered:
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Filtered:
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Calculating amount of maps needed to be fetched.
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Determining proper nomination processing algorithm.
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Adding all nominations to the vote.
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Finished processing nominations.
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Current gDisp value: {MAP}
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Begin filling remaining spots in the vote.
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Attempting to fetch a map from the group.
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Preparing mapcycle for random map selection.
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Preparing to traverse maps in the group.
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Adding map emp_drygulch_a6 to the pool.
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Adding map emp_beachfront_b2 to the pool.
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Adding map emp_flat_fix to the pool.
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Finished populating random pool.
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Getting random map from the pool.
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Getting number of items in the pool - 3
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Setting up array of weights.
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Picking a random number.
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Find the winner in the pool.
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Item found.
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Checking to make sure the map isn't already in the vote.
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Searching for map in nominations.
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Fetching display info for the map from the mapcycle.
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: OFTS: 'emp_beachfront_b2' 'Commander Maps' '{MAP}'
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: OFTS End: emp_beachfront_b2
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: GMDS Buffer: emp_beachfront_b2
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Display name for emp_beachfront_b2: 'emp_beachfront_b2'
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Determining where to place the map in the vote.
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Adding map to the vote.
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: *MEMLEAKTEST* Creating map trie (BuildMapVoteItems) [5]
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: *MEMLEAKTEST* Inserting map trie created at [5] into vote manager storage
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Preventing map from being picked again.
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Attempting to fetch a map from the group.
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Preparing mapcycle for random map selection.
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Preparing to traverse maps in the group.
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Adding map emp_drygulch_a6 to the pool.
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Adding map emp_flat_fix to the pool.
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Finished populating random pool.
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Getting random map from the pool.
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Getting number of items in the pool - 2
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Setting up array of weights.
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Picking a random number.
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Find the winner in the pool.
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Item found.
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Checking to make sure the map isn't already in the vote.
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Searching for map in nominations.
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Fetching display info for the map from the mapcycle.
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: OFTS: 'emp_drygulch_a6' 'Commander Maps' '{MAP}'
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: OFTS End: emp_drygulch_a6
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: GMDS Buffer: emp_drygulch_a6
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Display name for emp_drygulch_a6: 'emp_drygulch_a6'
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Determining where to place the map in the vote.
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Adding map to the vote.
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: *MEMLEAKTEST* Creating map trie (BuildMapVoteItems) [5]
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: *MEMLEAKTEST* Inserting map trie created at [5] into vote manager storage
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Preventing map from being picked again.
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Attempting to fetch a map from the group.
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Preparing mapcycle for random map selection.
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Preparing to traverse maps in the group.
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Adding map emp_flat_fix to the pool.
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Finished populating random pool.
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Getting random map from the pool.
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Getting number of items in the pool - 1
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Only 1 item in pool, setting it as the winner.
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Checking to make sure the map isn't already in the vote.
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Searching for map in nominations.
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Fetching display info for the map from the mapcycle.
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: OFTS: 'emp_flat_fix' 'Commander Maps' '{MAP}'
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: OFTS End: emp_flat_fix
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: GMDS Buffer: emp_flat_fix
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Display name for emp_flat_fix: 'emp_flat_fix'
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Determining where to place the map in the vote.
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Adding map to the vote.
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: *MEMLEAKTEST* Creating map trie (BuildMapVoteItems) [5]
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: *MEMLEAKTEST* Inserting map trie created at [5] into vote manager storage
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Preventing map from being picked again.
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Attempting to fetch a map from the group.
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Preparing mapcycle for random map selection.
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: No maps found in map group Commander Maps. Return false.
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: No more maps in group. Continuing to next group.
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: New map weight: 1.000000
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: New map weight: 1.000000
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: New map weight: 1.000000
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: New map weight: 1.000000
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: New map weight: 1.000000
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: New map weight: 1.000000
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Fetching map group data
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Fetching Nominations
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Unfiltered:
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Filtered:
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Calculating amount of maps needed to be fetched.
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Determining proper nomination processing algorithm.
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Adding all nominations to the vote.
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Finished processing nominations.
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Current gDisp value: {MAP}
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Begin filling remaining spots in the vote.
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Attempting to fetch a map from the group.
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Preparing mapcycle for random map selection.
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Preparing to traverse maps in the group.
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Adding map emp_district402 to the pool.
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Adding map emp_glycencity to the pool.
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Adding map emp_urbanchaos to the pool.
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Finished populating random pool.
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Getting random map from the pool.
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Getting number of items in the pool - 3
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Setting up array of weights.
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Picking a random number.
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Find the winner in the pool.
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Item found.
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Checking to make sure the map isn't already in the vote.
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Searching for map in nominations.
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Fetching display info for the map from the mapcycle.
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: OFTS: 'emp_district402' 'Infantry Maps' '{MAP}'
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: OFTS End: emp_district402
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: GMDS Buffer: emp_district402
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Display name for emp_district402: 'emp_district402'
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Determining where to place the map in the vote.
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Adding map to the vote.
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: *MEMLEAKTEST* Creating map trie (BuildMapVoteItems) [5]
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: *MEMLEAKTEST* Inserting map trie created at [5] into vote manager storage
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Preventing map from being picked again.
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Adding Don't Change Option to end of options list...
+L 04/14/2017 - 14:53:59: [umc-core.smx] Initiating Vote Type: Map
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Attempting to start core vote...
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Setup slot blocking.
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Adding Don't Change Option to vote menu. Position: 7
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Setting proper pagination.
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Vote menu built successfully.
+L 04/14/2017 - 14:53:59: [umc-core.smx] DEBUG: Setting CVA True
+L 04/14/2017 - 14:54:11: [umc-core.smx] DEBUG: MenuAction_Select
+L 04/14/2017 - 14:54:11: [umc-core.smx] DEBUG: Handling vote results...
+L 04/14/2017 - 14:54:11: [umc-core.smx] DEBUG: Setting CVA False -- Completed
+L 04/14/2017 - 14:54:11: [umc-core.smx] DEBUG: *VoteManagerVoteCompleted*
+L 04/14/2017 - 14:54:11: [umc-core.smx] DEBUG: Processing vote results
+L 04/14/2017 - 14:54:11: [umc-core.smx] DEBUG: Old storage size (PVC): 0
+L 04/14/2017 - 14:54:11: [umc-core.smx] DEBUG: New storage size: 1
+L 04/14/2017 - 14:54:11: [umc-core.smx] DEBUG: Determining if the vote meets the defined threshold of 0.180000
+L 04/14/2017 - 14:54:11: [umc-core.smx] DEBUG: Vote no longer in progress!
+L 04/14/2017 - 14:54:11: [umc-core.smx] Setting nextmap to: emp_beachfront_b2
+L 04/14/2017 - 14:54:11: [umc-randomcycle.smx] Disabling random nextmap selection.
+L 04/14/2017 - 14:54:11: [umc-randomcycle.smx] Disabling random nextmap selection.
+L 04/14/2017 - 14:54:11: [umc-core.smx] MAPVOTE: Players voted for map 'emp_beachfront_b2' from group 'Commander Maps'
+L 04/14/2017 - 14:54:11: [umc-core.smx] DEBUG: *MEMLEAKTEST* Closing map trie (ClearVoteArrays) {3, 4, 5}
+L 04/14/2017 - 14:54:11: [umc-core.smx] DEBUG: *MEMLEAKTEST* Closing map trie (ClearVoteArrays) {3, 4, 5}
+L 04/14/2017 - 14:54:11: [umc-core.smx] DEBUG: *MEMLEAKTEST* Closing map trie (ClearVoteArrays) {3, 4, 5}
+L 04/14/2017 - 14:54:11: [umc-core.smx] DEBUG: *MEMLEAKTEST* Closing map trie (ClearVoteArrays) {3, 4, 5}
+L 04/14/2017 - 14:54:11: [umc-core.smx] DEBUG: Deleting Vote Parameters
+L 04/14/2017 - 14:54:11: [umc-core.smx] DEBUG: MenuAction_End
+L 04/14/2017 - 14:54:49: [umc-core.smx] DEBUG: Executing Core OnMapEnd
+L 04/14/2017 - 14:54:49: [umc-core.smx] DEBUG: Executing Core OnMapStart
+L 04/14/2017 - 14:54:49: [umc-core.smx] ---------------------MAP CHANGE: emp_crossroads---------------------
+L 04/14/2017 - 14:54:49: [umc-core.smx] DEBUG: Executing Core OnConfigsExecuted
+L 04/14/2017 - 14:54:49: [umc-endvote-warnings.smx] Successfully parsed and set up 11 vote warnings.
+L 04/14/2017 - 14:54:49: [umc-playercountmonitor.smx] Min Players: 0, Max Players: 22
+L 04/14/2017 - 14:54:49: [umc-playercountmonitor.smx] Server will begin watching for inproper number of players in 240 seconds.
+L 04/14/2017 - 14:54:49: [umc-rockthevote.smx] RTV is now available.
+L 04/14/2017 - 14:54:49: [umc-endvote-warnings.smx] Successfully parsed and set up 11 vote warnings.
+L 04/14/2017 - 14:54:49: [umc-playercountmonitor.smx] Min Players: 0, Max Players: 22
+L 04/14/2017 - 14:54:49: [umc-playercountmonitor.smx] Server will begin watching for inproper number of players in 240 seconds.
+L 04/14/2017 - 14:54:49: [umc-rockthevote.smx] RTV is now available.
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: MAPVOTE - Building map vote menu.
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Preparing mapcycle for traversal.
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Starting mapcycle filtering.
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Starting filtering of map group "Commander Maps".
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Removing invalid map "emp_downfall" from group "Commander Maps".
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Removing invalid map "emp_blah4" from group "Commander Maps".
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Removing invalid map "emp_bush" from group "Commander Maps".
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Removing invalid map "emp_forest_ob_2013" from group "Commander Maps".
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Removing invalid map "emp_commandergrad_b1" from group "Commander Maps".
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Removing invalid map "emp_dune_ob1" from group "Commander Maps".
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Removing invalid map "emp_frozensummit_b2_2013_fix" from group "Commander Maps".
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Removing invalid map "emp_fuel_a3_2013_fix" from group "Commander Maps".
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Removing invalid map "emp_glacial_b2" from group "Commander Maps".
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Removing invalid map "emp_mesa_d6" from group "Commander Maps".
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Removing invalid map "emp_insurrection_rc4" from group "Commander Maps".
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Removing invalid map "emp_massacred_rc1" from group "Commander Maps".
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Removing invalid map "emp_canyon" from group "Commander Maps".
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Removing invalid map "emp_hazard_rc6" from group "Commander Maps".
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Removing invalid map "emp_traders_a8" from group "Commander Maps".
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Removing invalid map "emp_temple_b3a" from group "Commander Maps".
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Removing invalid map "emp_snowstorm_rc6" from group "Commander Maps".
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Removing invalid map "emp_snowbound_cl6" from group "Commander Maps".
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Removing invalid map "emp_homeland_b9" from group "Commander Maps".
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Removing invalid map "emp_plunge_ob2_2013" from group "Commander Maps".
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Removing invalid map "emp_research_1_2_2013" from group "Commander Maps".
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Removing invalid map "emp_silo_rc5" from group "Commander Maps".
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Removing invalid map "emp_isle" from group "Commander Maps".
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Removing invalid map "emp_coast" from group "Commander Maps".
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Removing invalid map "emp_tropicvendetta_rc4" from group "Commander Maps".
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Removing invalid map "emp_cyclopean" from group "Commander Maps".
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Removing invalid map "emp_raiders_b1" from group "Commander Maps".
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Removing invalid map "emp_duststorm" from group "Commander Maps".
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Removing invalid map "emp_ward_rc2" from group "Commander Maps".
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Removing invalid map "emp_mvalley" from group "Commander Maps".
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Removing invalid map "emp_arid" from group "Commander Maps".
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Removing invalid map "emp_palmbay_fix" from group "Commander Maps".
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Removing invalid map "emp_chain" from group "Commander Maps".
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Removing invalid map "emp_midbridge" from group "Commander Maps".
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Removing invalid map "emp_blackmountain" from group "Commander Maps".
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Map Group filtering completed for group "Commander Maps".
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Starting filtering of map group "Infantry Maps".
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Removing invalid map "emp_atomic_rc6" from group "Infantry Maps".
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Map Group filtering completed for group "Infantry Maps".
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Mapcycle filtering completed.
+L 04/14/2017 - 14:55:46: [umc-core.smx] 1: "umc_rotation"
+L 04/14/2017 - 14:55:46: [umc-core.smx] 2:   "Commander Maps"
+L 04/14/2017 - 14:55:46: [umc-core.smx] 3:     "emp_drygulch_a6"
+L 04/14/2017 - 14:55:46: [umc-core.smx] 3:     "emp_beachfront_b2"
+L 04/14/2017 - 14:55:46: [umc-core.smx] 3:     "emp_flat_fix"
+L 04/14/2017 - 14:55:46: [umc-core.smx] 2:   "Infantry Maps"
+L 04/14/2017 - 14:55:46: [umc-core.smx] 3:     "emp_district402"
+L 04/14/2017 - 14:55:46: [umc-core.smx] 3:     "emp_glycencity"
+L 04/14/2017 - 14:55:46: [umc-core.smx] 3:     "emp_urbanchaos"
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Checking for groups.
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Preparing vote data storage.
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Getting options from cvars.
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Initializing Buffers
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Performing Traversal
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: New map weight: 1.000000
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: New map weight: 1.000000
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: New map weight: 1.000000
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: New map weight: 1.000000
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: New map weight: 1.000000
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: New map weight: 1.000000
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Fetching map group data
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Fetching Nominations
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Unfiltered:
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Filtered:
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Calculating amount of maps needed to be fetched.
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Determining proper nomination processing algorithm.
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Adding all nominations to the vote.
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Finished processing nominations.
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Current gDisp value: {MAP}
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Begin filling remaining spots in the vote.
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Attempting to fetch a map from the group.
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Preparing mapcycle for random map selection.
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Preparing to traverse maps in the group.
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Adding map emp_drygulch_a6 to the pool.
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Adding map emp_beachfront_b2 to the pool.
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Adding map emp_flat_fix to the pool.
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Finished populating random pool.
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Getting random map from the pool.
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Getting number of items in the pool - 3
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Setting up array of weights.
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Picking a random number.
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Find the winner in the pool.
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Item found.
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Checking to make sure the map isn't already in the vote.
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Searching for map in nominations.
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Fetching display info for the map from the mapcycle.
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: OFTS: 'emp_beachfront_b2' 'Commander Maps' '{MAP}'
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: OFTS End: emp_beachfront_b2
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: GMDS Buffer: emp_beachfront_b2
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Display name for emp_beachfront_b2: 'emp_beachfront_b2'
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Determining where to place the map in the vote.
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Adding map to the vote.
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: *MEMLEAKTEST* Creating map trie (BuildMapVoteItems) [5]
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: *MEMLEAKTEST* Inserting map trie created at [5] into vote manager storage
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Preventing map from being picked again.
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Attempting to fetch a map from the group.
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Preparing mapcycle for random map selection.
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Preparing to traverse maps in the group.
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Adding map emp_drygulch_a6 to the pool.
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Adding map emp_flat_fix to the pool.
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Finished populating random pool.
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Getting random map from the pool.
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Getting number of items in the pool - 2
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Setting up array of weights.
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Picking a random number.
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Find the winner in the pool.
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Item found.
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Checking to make sure the map isn't already in the vote.
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Searching for map in nominations.
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Fetching display info for the map from the mapcycle.
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: OFTS: 'emp_flat_fix' 'Commander Maps' '{MAP}'
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: OFTS End: emp_flat_fix
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: GMDS Buffer: emp_flat_fix
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Display name for emp_flat_fix: 'emp_flat_fix'
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Determining where to place the map in the vote.
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Adding map to the vote.
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: *MEMLEAKTEST* Creating map trie (BuildMapVoteItems) [5]
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: *MEMLEAKTEST* Inserting map trie created at [5] into vote manager storage
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Preventing map from being picked again.
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Attempting to fetch a map from the group.
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Preparing mapcycle for random map selection.
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Preparing to traverse maps in the group.
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Adding map emp_drygulch_a6 to the pool.
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Finished populating random pool.
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Getting random map from the pool.
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Getting number of items in the pool - 1
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Only 1 item in pool, setting it as the winner.
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Checking to make sure the map isn't already in the vote.
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Searching for map in nominations.
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Fetching display info for the map from the mapcycle.
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: OFTS: 'emp_drygulch_a6' 'Commander Maps' '{MAP}'
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: OFTS End: emp_drygulch_a6
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: GMDS Buffer: emp_drygulch_a6
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Display name for emp_drygulch_a6: 'emp_drygulch_a6'
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Determining where to place the map in the vote.
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Adding map to the vote.
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: *MEMLEAKTEST* Creating map trie (BuildMapVoteItems) [5]
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: *MEMLEAKTEST* Inserting map trie created at [5] into vote manager storage
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Preventing map from being picked again.
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Attempting to fetch a map from the group.
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Preparing mapcycle for random map selection.
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: No maps found in map group Commander Maps. Return false.
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: No more maps in group. Continuing to next group.
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: New map weight: 1.000000
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: New map weight: 1.000000
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: New map weight: 1.000000
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: New map weight: 1.000000
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: New map weight: 1.000000
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: New map weight: 1.000000
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Fetching map group data
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Fetching Nominations
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Unfiltered:
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Filtered:
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Calculating amount of maps needed to be fetched.
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Determining proper nomination processing algorithm.
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Adding all nominations to the vote.
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Finished processing nominations.
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Current gDisp value: {MAP}
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Begin filling remaining spots in the vote.
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Attempting to fetch a map from the group.
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Preparing mapcycle for random map selection.
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Preparing to traverse maps in the group.
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Adding map emp_district402 to the pool.
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Adding map emp_glycencity to the pool.
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Adding map emp_urbanchaos to the pool.
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Finished populating random pool.
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Getting random map from the pool.
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Getting number of items in the pool - 3
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Setting up array of weights.
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Picking a random number.
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Find the winner in the pool.
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Item found.
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Checking to make sure the map isn't already in the vote.
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Searching for map in nominations.
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Fetching display info for the map from the mapcycle.
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: OFTS: 'emp_glycencity' 'Infantry Maps' '{MAP}'
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: OFTS End: emp_glycencity
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: GMDS Buffer: emp_glycencity
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Display name for emp_glycencity: 'emp_glycencity'
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Determining where to place the map in the vote.
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Adding map to the vote.
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: *MEMLEAKTEST* Creating map trie (BuildMapVoteItems) [5]
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: *MEMLEAKTEST* Inserting map trie created at [5] into vote manager storage
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Preventing map from being picked again.
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Adding Don't Change Option to end of options list...
+L 04/14/2017 - 14:55:46: [umc-core.smx] Initiating Vote Type: Map
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Attempting to start core vote...
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Setup slot blocking.
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Adding Don't Change Option to vote menu. Position: 7
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Setting proper pagination.
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Vote menu built successfully.
+L 04/14/2017 - 14:55:46: [umc-core.smx] DEBUG: Setting CVA True
+L 04/14/2017 - 14:55:47: [umc-core.smx] DEBUG: MenuAction_Select
+L 04/14/2017 - 14:55:47: [umc-core.smx] DEBUG: Handling vote results...
+L 04/14/2017 - 14:55:47: [umc-core.smx] DEBUG: Setting CVA False -- Completed
+L 04/14/2017 - 14:55:47: [umc-core.smx] DEBUG: *VoteManagerVoteCompleted*
+L 04/14/2017 - 14:55:47: [umc-core.smx] DEBUG: Processing vote results
+L 04/14/2017 - 14:55:47: [umc-core.smx] DEBUG: Old storage size (PVC): 0
+L 04/14/2017 - 14:55:47: [umc-core.smx] DEBUG: New storage size: 1
+L 04/14/2017 - 14:55:47: [umc-core.smx] DEBUG: Determining if the vote meets the defined threshold of 0.180000
+L 04/14/2017 - 14:55:47: [umc-core.smx] DEBUG: Vote no longer in progress!
+L 04/14/2017 - 14:55:47: [umc-core.smx] Setting nextmap to: emp_glycencity
+L 04/14/2017 - 14:55:47: [umc-randomcycle.smx] Disabling random nextmap selection.
+L 04/14/2017 - 14:55:47: [umc-randomcycle.smx] Disabling random nextmap selection.
+L 04/14/2017 - 14:55:47: [umc-core.smx] MAPVOTE: Players voted for map 'emp_glycencity' from group 'Infantry Maps'
+L 04/14/2017 - 14:55:47: [umc-core.smx] DEBUG: *MEMLEAKTEST* Closing map trie (ClearVoteArrays) {3, 4, 5}
+L 04/14/2017 - 14:55:47: [umc-core.smx] DEBUG: *MEMLEAKTEST* Closing map trie (ClearVoteArrays) {3, 4, 5}
+L 04/14/2017 - 14:55:47: [umc-core.smx] DEBUG: *MEMLEAKTEST* Closing map trie (ClearVoteArrays) {3, 4, 5}
+L 04/14/2017 - 14:55:47: [umc-core.smx] DEBUG: *MEMLEAKTEST* Closing map trie (ClearVoteArrays) {3, 4, 5}
+L 04/14/2017 - 14:55:47: [umc-core.smx] DEBUG: Deleting Vote Parameters
+L 04/14/2017 - 14:55:47: [umc-core.smx] DEBUG: MenuAction_End
+L 04/14/2017 - 14:58:49: [umc-playercountmonitor.smx] Server is now watching for inproper number of players.
+L 04/14/2017 - 14:58:49: [umc-playercountmonitor.smx] Server is now watching for inproper number of players.
+L 04/14/2017 - 15:30:24: [umc-core.smx] DEBUG: Executing Core OnMapEnd
+L 04/14/2017 - 15:30:25: [umc-core.smx] DEBUG: Executing Core OnMapStart
+L 04/14/2017 - 15:30:25: [umc-core.smx] ---------------------MAP CHANGE: emp_crossroads---------------------
+L 04/14/2017 - 15:30:25: [umc-core.smx] DEBUG: Executing Core OnConfigsExecuted
+L 04/14/2017 - 15:30:25: [umc-endvote-warnings.smx] Successfully parsed and set up 11 vote warnings.
+L 04/14/2017 - 15:30:25: [umc-playercountmonitor.smx] Current Map Group could not be determined. (Non-UMC mapchange or plugin just loaded.)
+L 04/14/2017 - 15:30:25: [umc-playercountmonitor.smx] Min Players: 0, Max Players: 64
+L 04/14/2017 - 15:30:25: [umc-rockthevote.smx] RTV is now available.
+L 04/14/2017 - 15:30:25: [umc-endvote-warnings.smx] Successfully parsed and set up 11 vote warnings.
+L 04/14/2017 - 15:30:25: [umc-playercountmonitor.smx] Current Map Group could not be determined. (Non-UMC mapchange or plugin just loaded.)
+L 04/14/2017 - 15:30:25: [umc-playercountmonitor.smx] Min Players: 0, Max Players: 64
+L 04/14/2017 - 15:30:25: [umc-rockthevote.smx] RTV is now available.
+L 04/14/2017 - 19:28:53: [umc-nominate.smx] Bird wants to nominate a map.
+L 04/14/2017 - 19:28:53: [umc-nominate.smx] Bird wants to nominate a map.
+L 04/14/2017 - 19:28:55: [umc-core.smx] DEBUG: *MEMLEAKTEST* Creating map trie (CreateMapArray) [2]
+L 04/14/2017 - 19:28:55: [umc-core.smx] DEBUG: *MEMLEAKTEST* Creating map trie (CreateMapArray) [2]
+L 04/14/2017 - 19:28:55: [umc-core.smx] DEBUG: *MEMLEAKTEST* Creating map trie (CreateMapArray) [2]
+L 04/14/2017 - 19:28:55: [umc-core.smx] DEBUG: *MEMLEAKTEST* Closing and cloning map trie made at {2}
+L 04/14/2017 - 19:28:55: [umc-core.smx] DEBUG: OFTS: 'emp_district402' 'Infantry Maps' '{MAP}'
+L 04/14/2017 - 19:28:55: [umc-core.smx] DEBUG: OFTS End: emp_district402
+L 04/14/2017 - 19:28:55: [umc-core.smx] DEBUG: GMDS Buffer: emp_district402
+L 04/14/2017 - 19:28:55: [umc-core.smx] DEBUG: OFTS: 'emp_glycencity' 'Infantry Maps' '{MAP}'
+L 04/14/2017 - 19:28:55: [umc-core.smx] DEBUG: OFTS End: emp_glycencity
+L 04/14/2017 - 19:28:55: [umc-core.smx] DEBUG: GMDS Buffer: emp_glycencity
+L 04/14/2017 - 19:28:55: [umc-core.smx] DEBUG: OFTS: 'emp_urbanchaos' 'Infantry Maps' '{MAP}'
+L 04/14/2017 - 19:28:55: [umc-core.smx] DEBUG: OFTS End: emp_urbanchaos
+L 04/14/2017 - 19:28:55: [umc-core.smx] DEBUG: GMDS Buffer: emp_urbanchaos
+L 04/14/2017 - 19:28:57: [umc-core.smx] 1: "umc_rotation"
+L 04/14/2017 - 19:28:57: [umc-core.smx] 2:   "Commander Maps"
+L 04/14/2017 - 19:28:57: [umc-core.smx] 3:     "emp_drygulch_a6"
+L 04/14/2017 - 19:28:57: [umc-core.smx] 3:     "emp_beachfront_b2"
+L 04/14/2017 - 19:28:57: [umc-core.smx] 3:     "emp_downfall"
+L 04/14/2017 - 19:28:57: [umc-core.smx] 3:     "emp_flat_fix"
+L 04/14/2017 - 19:28:57: [umc-core.smx] 3:     "emp_blah4"
+L 04/14/2017 - 19:28:57: [umc-core.smx] 3:     "emp_bush"
+L 04/14/2017 - 19:28:57: [umc-core.smx] 3:     "emp_forest_ob_2013"
+L 04/14/2017 - 19:28:57: [umc-core.smx] 3:     "emp_commandergrad_b1"
+L 04/14/2017 - 19:28:57: [umc-core.smx] 3:     "emp_dune_ob1"
+L 04/14/2017 - 19:28:57: [umc-core.smx] 3:     "emp_frozensummit_b2_2013_fix"
+L 04/14/2017 - 19:28:57: [umc-core.smx] 3:     "emp_fuel_a3_2013_fix"
+L 04/14/2017 - 19:28:57: [umc-core.smx] 3:     "emp_glacial_b2"
+L 04/14/2017 - 19:28:57: [umc-core.smx] 3:     "emp_mesa_d6"
+L 04/14/2017 - 19:28:57: [umc-core.smx] 3:     "emp_insurrection_rc4"
+L 04/14/2017 - 19:28:57: [umc-core.smx] 3:     "emp_massacred_rc1"
+L 04/14/2017 - 19:28:57: [umc-core.smx] 3:     "emp_canyon"
+L 04/14/2017 - 19:28:57: [umc-core.smx] 3:     "emp_hazard_rc6"
+L 04/14/2017 - 19:28:57: [umc-core.smx] 3:     "emp_traders_a8"
+L 04/14/2017 - 19:28:57: [umc-core.smx] 3:     "emp_temple_b3a"
+L 04/14/2017 - 19:28:57: [umc-core.smx] 3:     "emp_snowstorm_rc6"
+L 04/14/2017 - 19:28:57: [umc-core.smx] 3:     "emp_snowbound_cl6"
+L 04/14/2017 - 19:28:57: [umc-core.smx] 3:     "emp_homeland_b9"
+L 04/14/2017 - 19:28:57: [umc-core.smx] 3:     "emp_plunge_ob2_2013"
+L 04/14/2017 - 19:28:57: [umc-core.smx] 3:     "emp_research_1_2_2013"
+L 04/14/2017 - 19:28:57: [umc-core.smx] 3:     "emp_silo_rc5"
+L 04/14/2017 - 19:28:57: [umc-core.smx] 3:     "emp_isle"
+L 04/14/2017 - 19:28:57: [umc-core.smx] 3:     "emp_coast"
+L 04/14/2017 - 19:28:57: [umc-core.smx] 3:     "emp_tropicvendetta_rc4"
+L 04/14/2017 - 19:28:57: [umc-core.smx] 3:     "emp_cyclopean"
+L 04/14/2017 - 19:28:57: [umc-core.smx] 3:     "emp_raiders_b1"
+L 04/14/2017 - 19:28:57: [umc-core.smx] 3:     "emp_duststorm"
+L 04/14/2017 - 19:28:57: [umc-core.smx] 3:     "emp_ward_rc2"
+L 04/14/2017 - 19:28:57: [umc-core.smx] 3:     "emp_mvalley"
+L 04/14/2017 - 19:28:57: [umc-core.smx] 3:     "emp_arid"
+L 04/14/2017 - 19:28:57: [umc-core.smx] 3:     "emp_palmbay_fix"
+L 04/14/2017 - 19:28:57: [umc-core.smx] 3:     "emp_chain"
+L 04/14/2017 - 19:28:57: [umc-core.smx] 3:     "emp_midbridge"
+L 04/14/2017 - 19:28:57: [umc-core.smx] 3:     "emp_blackmountain"
+L 04/14/2017 - 19:28:57: [umc-core.smx] 2:   "Infantry Maps"
+L 04/14/2017 - 19:28:57: [umc-core.smx] 3:     "emp_district402"
+L 04/14/2017 - 19:28:57: [umc-core.smx] 3:     "emp_glycencity"
+L 04/14/2017 - 19:28:57: [umc-core.smx] 3:     "emp_urbanchaos"
+L 04/14/2017 - 19:28:57: [umc-core.smx] 3:     "emp_atomic_rc6"
+L 04/14/2017 - 19:28:57: [umc-core.smx] DEBUG: Adding map 'emp_urbanchaos' from group 'Infantry Maps' to nominations.
+L 04/14/2017 - 19:28:57: [umc-core.smx] DEBUG: *MEMLEAKTEST* Creating nomination trie (InternalNominateMap) [1]
+L 04/14/2017 - 19:28:57: [umc-core.smx] DEBUG: Detecting client's old nomination
+L 04/14/2017 - 19:28:57: [umc-core.smx] DEBUG: *MEMLEAKTEST* Adding new nomination made at [1] to nomination array
+L 04/14/2017 - 19:28:57: [umc-nominate.smx] Bird has nominated 'emp_urbanchaos' from group 'Infantry Maps'
+L 04/14/2017 - 20:03:11: [umc-emp-mapvote.smx] Map vote will appear in 1 seconds.
+L 04/14/2017 - 20:03:12: [umc-emp-mapvote.smx] Starting a map vote.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: MAPVOTE - Building map vote menu.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Preparing mapcycle for traversal.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Starting mapcycle filtering.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Starting filtering of map group "Commander Maps".
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Removing invalid map "emp_blah4" from group "Commander Maps".
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Removing invalid map "emp_bush" from group "Commander Maps".
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Removing invalid map "emp_forest_ob_2013" from group "Commander Maps".
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Removing invalid map "emp_commandergrad_b1" from group "Commander Maps".
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Removing invalid map "emp_dune_ob1" from group "Commander Maps".
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Removing invalid map "emp_frozensummit_b2_2013_fix" from group "Commander Maps".
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Removing invalid map "emp_fuel_a3_2013_fix" from group "Commander Maps".
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Removing invalid map "emp_glacial_b2" from group "Commander Maps".
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Removing invalid map "emp_mesa_d6" from group "Commander Maps".
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Removing invalid map "emp_insurrection_rc4" from group "Commander Maps".
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Removing invalid map "emp_massacred_rc1" from group "Commander Maps".
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Removing invalid map "emp_canyon" from group "Commander Maps".
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Removing invalid map "emp_hazard_rc6" from group "Commander Maps".
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Removing invalid map "emp_traders_a8" from group "Commander Maps".
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Removing invalid map "emp_snowstorm_rc6" from group "Commander Maps".
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Removing invalid map "emp_snowbound_cl6" from group "Commander Maps".
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Removing invalid map "emp_homeland_b9" from group "Commander Maps".
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Removing invalid map "emp_plunge_ob2_2013" from group "Commander Maps".
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Removing invalid map "emp_research_1_2_2013" from group "Commander Maps".
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Removing invalid map "emp_silo_rc5" from group "Commander Maps".
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Removing invalid map "emp_isle" from group "Commander Maps".
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Removing invalid map "emp_coast" from group "Commander Maps".
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Removing invalid map "emp_tropicvendetta_rc4" from group "Commander Maps".
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Removing invalid map "emp_cyclopean" from group "Commander Maps".
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Removing invalid map "emp_raiders_b1" from group "Commander Maps".
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Removing invalid map "emp_duststorm" from group "Commander Maps".
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Removing invalid map "emp_ward_rc2" from group "Commander Maps".
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Removing invalid map "emp_mvalley" from group "Commander Maps".
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Removing invalid map "emp_arid" from group "Commander Maps".
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Removing invalid map "emp_palmbay_fix" from group "Commander Maps".
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Removing invalid map "emp_chain" from group "Commander Maps".
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Removing invalid map "emp_midbridge" from group "Commander Maps".
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Removing invalid map "emp_blackmountain" from group "Commander Maps".
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Map Group filtering completed for group "Commander Maps".
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Starting filtering of map group "Infantry Maps".
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Removing invalid map "emp_atomic_rc6" from group "Infantry Maps".
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Map Group filtering completed for group "Infantry Maps".
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Mapcycle filtering completed.
+L 04/14/2017 - 20:03:12: [umc-core.smx] 1: "umc_rotation"
+L 04/14/2017 - 20:03:12: [umc-core.smx] 2:   "Commander Maps"
+L 04/14/2017 - 20:03:12: [umc-core.smx] 3:     "emp_drygulch_a6"
+L 04/14/2017 - 20:03:12: [umc-core.smx] 3:     "emp_beachfront_b2"
+L 04/14/2017 - 20:03:12: [umc-core.smx] 3:     "emp_downfall"
+L 04/14/2017 - 20:03:12: [umc-core.smx] 3:     "emp_flat_fix"
+L 04/14/2017 - 20:03:12: [umc-core.smx] 3:     "emp_temple_b3a"
+L 04/14/2017 - 20:03:12: [umc-core.smx] 2:   "Infantry Maps"
+L 04/14/2017 - 20:03:12: [umc-core.smx] 3:     "emp_district402"
+L 04/14/2017 - 20:03:12: [umc-core.smx] 3:     "emp_glycencity"
+L 04/14/2017 - 20:03:12: [umc-core.smx] 3:     "emp_urbanchaos"
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Checking for groups.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Preparing vote data storage.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Getting options from cvars.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Initializing Buffers
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Performing Traversal
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: New map weight: 1.000000
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: New map weight: 1.000000
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: New map weight: 1.000000
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: New map weight: 1.000000
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: New map weight: 1.000000
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: New map weight: 1.000000
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: New map weight: 1.000000
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: New map weight: 1.000000
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: New map weight: 1.000000
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: New map weight: 1.000000
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Fetching map group data
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Fetching Nominations
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Unfiltered:
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Filtered:
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Calculating amount of maps needed to be fetched.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Determining proper nomination processing algorithm.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Adding all nominations to the vote.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Finished processing nominations.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Current gDisp value: {MAP}
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Begin filling remaining spots in the vote.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Attempting to fetch a map from the group.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Preparing mapcycle for random map selection.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Preparing to traverse maps in the group.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Adding map emp_drygulch_a6 to the pool.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Adding map emp_beachfront_b2 to the pool.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Adding map emp_downfall to the pool.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Adding map emp_flat_fix to the pool.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Adding map emp_temple_b3a to the pool.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Finished populating random pool.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Getting random map from the pool.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Getting number of items in the pool - 5
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Setting up array of weights.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Picking a random number.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Find the winner in the pool.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Item found.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Checking to make sure the map isn't already in the vote.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Searching for map in nominations.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Fetching display info for the map from the mapcycle.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: OFTS: 'emp_beachfront_b2' 'Commander Maps' '{MAP}'
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: OFTS End: emp_beachfront_b2
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: GMDS Buffer: emp_beachfront_b2
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Display name for emp_beachfront_b2: 'emp_beachfront_b2'
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Determining where to place the map in the vote.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Adding map to the vote.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: *MEMLEAKTEST* Creating map trie (BuildMapVoteItems) [5]
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: *MEMLEAKTEST* Inserting map trie created at [5] into vote manager storage
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Preventing map from being picked again.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Attempting to fetch a map from the group.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Preparing mapcycle for random map selection.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Preparing to traverse maps in the group.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Adding map emp_drygulch_a6 to the pool.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Adding map emp_downfall to the pool.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Adding map emp_flat_fix to the pool.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Adding map emp_temple_b3a to the pool.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Finished populating random pool.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Getting random map from the pool.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Getting number of items in the pool - 4
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Setting up array of weights.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Picking a random number.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Find the winner in the pool.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Item found.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Checking to make sure the map isn't already in the vote.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Searching for map in nominations.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Fetching display info for the map from the mapcycle.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: OFTS: 'emp_downfall' 'Commander Maps' '{MAP}'
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: OFTS End: emp_downfall
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: GMDS Buffer: emp_downfall
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Display name for emp_downfall: 'emp_downfall'
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Determining where to place the map in the vote.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Adding map to the vote.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: *MEMLEAKTEST* Creating map trie (BuildMapVoteItems) [5]
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: *MEMLEAKTEST* Inserting map trie created at [5] into vote manager storage
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Preventing map from being picked again.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Attempting to fetch a map from the group.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Preparing mapcycle for random map selection.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Preparing to traverse maps in the group.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Adding map emp_drygulch_a6 to the pool.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Adding map emp_flat_fix to the pool.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Adding map emp_temple_b3a to the pool.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Finished populating random pool.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Getting random map from the pool.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Getting number of items in the pool - 3
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Setting up array of weights.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Picking a random number.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Find the winner in the pool.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Item found.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Checking to make sure the map isn't already in the vote.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Searching for map in nominations.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Fetching display info for the map from the mapcycle.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: OFTS: 'emp_temple_b3a' 'Commander Maps' '{MAP}'
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: OFTS End: emp_temple_b3a
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: GMDS Buffer: emp_temple_b3a
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Display name for emp_temple_b3a: 'emp_temple_b3a'
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Determining where to place the map in the vote.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Adding map to the vote.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: *MEMLEAKTEST* Creating map trie (BuildMapVoteItems) [5]
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: *MEMLEAKTEST* Inserting map trie created at [5] into vote manager storage
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Preventing map from being picked again.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Attempting to fetch a map from the group.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Preparing mapcycle for random map selection.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Preparing to traverse maps in the group.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Adding map emp_drygulch_a6 to the pool.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Adding map emp_flat_fix to the pool.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Finished populating random pool.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Getting random map from the pool.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Getting number of items in the pool - 2
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Setting up array of weights.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Picking a random number.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Find the winner in the pool.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Item found.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Checking to make sure the map isn't already in the vote.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Searching for map in nominations.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Fetching display info for the map from the mapcycle.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: OFTS: 'emp_flat_fix' 'Commander Maps' '{MAP}'
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: OFTS End: emp_flat_fix
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: GMDS Buffer: emp_flat_fix
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Display name for emp_flat_fix: 'emp_flat_fix'
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Determining where to place the map in the vote.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Adding map to the vote.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: *MEMLEAKTEST* Creating map trie (BuildMapVoteItems) [5]
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: *MEMLEAKTEST* Inserting map trie created at [5] into vote manager storage
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Preventing map from being picked again.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Attempting to fetch a map from the group.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Preparing mapcycle for random map selection.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Preparing to traverse maps in the group.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Adding map emp_drygulch_a6 to the pool.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Finished populating random pool.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Getting random map from the pool.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Getting number of items in the pool - 1
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Only 1 item in pool, setting it as the winner.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Checking to make sure the map isn't already in the vote.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Searching for map in nominations.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Fetching display info for the map from the mapcycle.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: OFTS: 'emp_drygulch_a6' 'Commander Maps' '{MAP}'
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: OFTS End: emp_drygulch_a6
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: GMDS Buffer: emp_drygulch_a6
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Display name for emp_drygulch_a6: 'emp_drygulch_a6'
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Determining where to place the map in the vote.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Adding map to the vote.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: *MEMLEAKTEST* Creating map trie (BuildMapVoteItems) [5]
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: *MEMLEAKTEST* Inserting map trie created at [5] into vote manager storage
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Preventing map from being picked again.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Attempting to fetch a map from the group.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Preparing mapcycle for random map selection.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: No maps found in map group Commander Maps. Return false.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: No more maps in group. Continuing to next group.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: New map weight: 1.000000
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: New map weight: 1.000000
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: New map weight: 1.000000
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: New map weight: 1.000000
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: New map weight: 1.000000
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: New map weight: 1.000000
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Fetching map group data
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Fetching Nominations
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Unfiltered:
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Filtered:
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Calculating amount of maps needed to be fetched.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Determining proper nomination processing algorithm.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Adding all nominations to the vote.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Finished processing nominations.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Current gDisp value: {MAP}
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Begin filling remaining spots in the vote.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Attempting to fetch a map from the group.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Preparing mapcycle for random map selection.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Preparing to traverse maps in the group.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Adding map emp_district402 to the pool.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Adding map emp_glycencity to the pool.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Adding map emp_urbanchaos to the pool.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Finished populating random pool.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Getting random map from the pool.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Getting number of items in the pool - 3
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Setting up array of weights.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Picking a random number.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Find the winner in the pool.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Item found.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Checking to make sure the map isn't already in the vote.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Searching for map in nominations.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Fetching display info for the map from the mapcycle.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: OFTS: 'emp_urbanchaos' 'Infantry Maps' '{MAP}'
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: OFTS End: emp_urbanchaos
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: GMDS Buffer: emp_urbanchaos
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Display name for emp_urbanchaos: 'emp_urbanchaos'
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Determining where to place the map in the vote.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Adding map to the vote.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: *MEMLEAKTEST* Creating map trie (BuildMapVoteItems) [5]
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: *MEMLEAKTEST* Inserting map trie created at [5] into vote manager storage
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Preventing map from being picked again.
+L 04/14/2017 - 20:03:12: [umc-core.smx] Initiating Vote Type: Map
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Attempting to start core vote...
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Setup slot blocking.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Setting proper pagination.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Vote menu built successfully.
+L 04/14/2017 - 20:03:12: [umc-core.smx] DEBUG: Setting CVA True
+L 04/14/2017 - 20:03:19: [umc-core.smx] DEBUG: MenuAction_Select
+L 04/14/2017 - 20:03:22: [umc-core.smx] DEBUG: MenuAction_Select
+L 04/14/2017 - 20:03:23: [umc-core.smx] DEBUG: MenuAction_Select
+L 04/14/2017 - 20:03:24: [umc-core.smx] DEBUG: MenuAction_Select
+L 04/14/2017 - 20:03:39: [umc-core.smx] DEBUG: MenuAction_Select
+L 04/14/2017 - 20:03:40: [umc-core.smx] DEBUG: MenuAction_Select
+L 04/14/2017 - 20:03:40: [umc-core.smx] DEBUG: MenuAction_Select
+L 04/14/2017 - 20:03:43: [umc-core.smx] DEBUG: Handling vote results...
+L 04/14/2017 - 20:03:43: [umc-core.smx] DEBUG: Setting CVA False -- Completed
+L 04/14/2017 - 20:03:43: [umc-core.smx] DEBUG: *VoteManagerVoteCompleted*
+L 04/14/2017 - 20:03:43: [umc-core.smx] DEBUG: Processing vote results
+L 04/14/2017 - 20:03:43: [umc-core.smx] DEBUG: Old storage size (PVC): 0
+L 04/14/2017 - 20:03:43: [umc-core.smx] DEBUG: New storage size: 4
+L 04/14/2017 - 20:03:43: [umc-core.smx] DEBUG: Determining if the vote meets the defined threshold of 0.509999
+L 04/14/2017 - 20:03:43: [umc-core.smx] DEBUG: Will Runoff? (RR: 1) (PVC: 0)
+L 04/14/2017 - 20:03:43: [umc-core.smx] DEBUG: Performing runoff vote
+L 04/14/2017 - 20:03:43: [umc-core.smx] DEBUG: *MEMLEAKTEST* Creating VoteOption Trie for Runoff (BuildRunoffOptions) [6]
+L 04/14/2017 - 20:03:43: [umc-core.smx] DEBUG: *MEMLEAKTEST* Creating VoteOption Trie for Runoff (BuildRunoffOptions) [6]
+L 04/14/2017 - 20:03:43: [umc-core.smx] DEBUG: Non-selective runoff vote: erasing storage and adding all clients.
+L 04/14/2017 - 20:03:43: [umc-core.smx] DEBUG: Runoff timer created. Runoff vote will be displayed in 8 seconds.
+L 04/14/2017 - 20:03:43: [umc-core.smx] DEBUG: MenuAction_End
+L 04/14/2017 - 20:03:51: [umc-core.smx] RUNOFF: Starting runoff vote.
+L 04/14/2017 - 20:03:51: [umc-core.smx] Initiating Vote Type: Map
+L 04/14/2017 - 20:03:51: [umc-core.smx] DEBUG: Attempting to start core vote...
+L 04/14/2017 - 20:03:51: [umc-core.smx] DEBUG: Setup slot blocking.
+L 04/14/2017 - 20:03:51: [umc-core.smx] DEBUG: Setting proper pagination.
+L 04/14/2017 - 20:03:51: [umc-core.smx] DEBUG: Vote menu built successfully.
+L 04/14/2017 - 20:03:51: [umc-core.smx] DEBUG: Setting CVA True
+L 04/14/2017 - 20:03:53: [umc-core.smx] DEBUG: MenuAction_Select
+L 04/14/2017 - 20:03:54: [umc-core.smx] DEBUG: MenuAction_Select
+L 04/14/2017 - 20:03:55: [umc-core.smx] DEBUG: MenuAction_Select
+L 04/14/2017 - 20:03:56: [umc-core.smx] DEBUG: MenuAction_Select
+L 04/14/2017 - 20:03:59: [umc-core.smx] DEBUG: MenuAction_Select
+L 04/14/2017 - 20:04:05: [umc-core.smx] DEBUG: MenuAction_Select
+L 04/14/2017 - 20:04:21: [umc-core.smx] DEBUG: Handling vote results...
+L 04/14/2017 - 20:04:21: [umc-core.smx] DEBUG: Setting CVA False -- Completed
+L 04/14/2017 - 20:04:21: [umc-core.smx] DEBUG: *VoteManagerVoteCompleted*
+L 04/14/2017 - 20:04:21: [umc-core.smx] DEBUG: Processing vote results
+L 04/14/2017 - 20:04:21: [umc-core.smx] DEBUG: Old storage size (PVC): 0
+L 04/14/2017 - 20:04:21: [umc-core.smx] DEBUG: New storage size: 2
+L 04/14/2017 - 20:04:21: [umc-core.smx] DEBUG: Determining if the vote meets the defined threshold of 0.509999
+L 04/14/2017 - 20:04:21: [umc-core.smx] DEBUG: Vote no longer in progress!
+L 04/14/2017 - 20:04:21: [umc-core.smx] Setting nextmap to: emp_urbanchaos
+L 04/14/2017 - 20:04:21: [umc-randomcycle.smx] Disabling random nextmap selection.
+L 04/14/2017 - 20:04:21: [umc-randomcycle.smx] Disabling random nextmap selection.
+L 04/14/2017 - 20:04:21: [umc-core.smx] MAPVOTE: Players voted for map 'emp_urbanchaos' from group 'Infantry Maps'
+L 04/14/2017 - 20:04:21: [umc-core.smx] DEBUG: *MEMLEAKTEST* Closing map trie (ClearVoteArrays) {3, 4, 5}
+L 04/14/2017 - 20:04:21: [umc-core.smx] DEBUG: *MEMLEAKTEST* Closing map trie (ClearVoteArrays) {3, 4, 5}
+L 04/14/2017 - 20:04:21: [umc-core.smx] DEBUG: *MEMLEAKTEST* Closing map trie (ClearVoteArrays) {3, 4, 5}
+L 04/14/2017 - 20:04:21: [umc-core.smx] DEBUG: *MEMLEAKTEST* Closing map trie (ClearVoteArrays) {3, 4, 5}
+L 04/14/2017 - 20:04:21: [umc-core.smx] DEBUG: *MEMLEAKTEST* Closing map trie (ClearVoteArrays) {3, 4, 5}
+L 04/14/2017 - 20:04:21: [umc-core.smx] DEBUG: *MEMLEAKTEST* Closing map trie (ClearVoteArrays) {3, 4, 5}
+L 04/14/2017 - 20:04:21: [umc-core.smx] DEBUG: Deleting Vote Parameters
+L 04/14/2017 - 20:04:21: [umc-core.smx] DEBUG: MenuAction_End
+L 04/14/2017 - 20:05:29: [umc-core.smx] DEBUG: Executing Core OnMapEnd
+L 04/14/2017 - 20:05:31: [umc-core.smx] DEBUG: Executing Core OnMapStart
+L 04/14/2017 - 20:05:31: [umc-core.smx] ---------------------MAP CHANGE: emp_urbanchaos---------------------
+L 04/14/2017 - 20:05:31: [umc-core.smx] DEBUG: Executing Core OnConfigsExecuted
+L 04/14/2017 - 20:05:31: [umc-endvote-warnings.smx] Successfully parsed and set up 11 vote warnings.
+L 04/14/2017 - 20:05:31: [umc-playercountmonitor.smx] Min Players: 0, Max Players: 13
+L 04/14/2017 - 20:05:31: [umc-playercountmonitor.smx] Server will begin watching for inproper number of players in 240 seconds.
+L 04/14/2017 - 20:05:31: [umc-rockthevote.smx] RTV is now available.
+L 04/14/2017 - 20:05:31: [umc-endvote-warnings.smx] Successfully parsed and set up 11 vote warnings.
+L 04/14/2017 - 20:05:31: [umc-playercountmonitor.smx] Min Players: 0, Max Players: 13
+L 04/14/2017 - 20:05:31: [umc-playercountmonitor.smx] Server will begin watching for inproper number of players in 240 seconds.
+L 04/14/2017 - 20:05:31: [umc-rockthevote.smx] RTV is now available.
+L 04/14/2017 - 20:09:31: [umc-playercountmonitor.smx] Server is now watching for inproper number of players.
+L 04/14/2017 - 20:09:31: [umc-playercountmonitor.smx] Server is now watching for inproper number of players.
+L 04/14/2017 - 20:19:42: [umc-emp-mapvote.smx] Map vote will appear in 1 seconds.
+L 04/14/2017 - 20:19:43: [umc-emp-mapvote.smx] Starting a map vote.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: MAPVOTE - Building map vote menu.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Preparing mapcycle for traversal.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Starting mapcycle filtering.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Starting filtering of map group "Commander Maps".
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Removing invalid map "emp_bush" from group "Commander Maps".
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Removing invalid map "emp_forest_ob_2013" from group "Commander Maps".
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Removing invalid map "emp_commandergrad_b1" from group "Commander Maps".
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Removing invalid map "emp_dune_ob1" from group "Commander Maps".
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Removing invalid map "emp_frozensummit_b2_2013_fix" from group "Commander Maps".
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Removing invalid map "emp_fuel_a3_2013_fix" from group "Commander Maps".
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Removing invalid map "emp_glacial_b2" from group "Commander Maps".
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Removing invalid map "emp_mesa_d6" from group "Commander Maps".
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Removing invalid map "emp_insurrection_rc4" from group "Commander Maps".
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Removing invalid map "emp_hazard_rc6" from group "Commander Maps".
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Removing invalid map "emp_snowstorm_rc6" from group "Commander Maps".
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Removing invalid map "emp_snowbound_cl6" from group "Commander Maps".
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Removing invalid map "emp_homeland_b9" from group "Commander Maps".
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Removing invalid map "emp_plunge_ob2_2013" from group "Commander Maps".
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Removing invalid map "emp_research_1_2_2013" from group "Commander Maps".
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Removing invalid map "emp_silo_rc5" from group "Commander Maps".
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Removing invalid map "emp_isle" from group "Commander Maps".
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Removing invalid map "emp_coast" from group "Commander Maps".
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Removing invalid map "emp_tropicvendetta_rc4" from group "Commander Maps".
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Removing invalid map "emp_cyclopean" from group "Commander Maps".
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Removing invalid map "emp_raiders_b1" from group "Commander Maps".
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Removing invalid map "emp_duststorm" from group "Commander Maps".
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Removing invalid map "emp_ward_rc2" from group "Commander Maps".
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Removing invalid map "emp_mvalley" from group "Commander Maps".
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Removing invalid map "emp_arid" from group "Commander Maps".
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Removing invalid map "emp_chain" from group "Commander Maps".
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Removing invalid map "emp_midbridge" from group "Commander Maps".
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Removing invalid map "emp_blackmountain" from group "Commander Maps".
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Map Group filtering completed for group "Commander Maps".
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Starting filtering of map group "Infantry Maps".
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Removing invalid map "emp_district402" from group "Infantry Maps".
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Removing invalid map "emp_glycencity" from group "Infantry Maps".
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Removing invalid map "emp_atomic_rc6" from group "Infantry Maps".
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Map Group filtering completed for group "Infantry Maps".
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Mapcycle filtering completed.
+L 04/14/2017 - 20:19:43: [umc-core.smx] 1: "umc_rotation"
+L 04/14/2017 - 20:19:43: [umc-core.smx] 2:   "Commander Maps"
+L 04/14/2017 - 20:19:43: [umc-core.smx] 3:     "emp_drygulch_a6"
+L 04/14/2017 - 20:19:43: [umc-core.smx] 3:     "emp_beachfront_b2"
+L 04/14/2017 - 20:19:43: [umc-core.smx] 3:     "emp_downfall"
+L 04/14/2017 - 20:19:43: [umc-core.smx] 3:     "emp_flat_fix"
+L 04/14/2017 - 20:19:43: [umc-core.smx] 3:     "emp_blah4"
+L 04/14/2017 - 20:19:43: [umc-core.smx] 3:     "emp_massacred_rc1"
+L 04/14/2017 - 20:19:43: [umc-core.smx] 3:     "emp_canyon"
+L 04/14/2017 - 20:19:43: [umc-core.smx] 3:     "emp_traders_a8"
+L 04/14/2017 - 20:19:43: [umc-core.smx] 3:     "emp_temple_b3a"
+L 04/14/2017 - 20:19:43: [umc-core.smx] 3:     "emp_palmbay_fix"
+L 04/14/2017 - 20:19:43: [umc-core.smx] 2:   "Infantry Maps"
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Checking for groups.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Preparing vote data storage.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Getting options from cvars.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Initializing Buffers
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Performing Traversal
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: New map weight: 1.000000
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: New map weight: 1.000000
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: New map weight: 1.000000
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: New map weight: 1.000000
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: New map weight: 1.000000
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: New map weight: 1.000000
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: New map weight: 1.000000
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: New map weight: 1.000000
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: New map weight: 1.000000
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: New map weight: 1.000000
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: New map weight: 1.000000
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: New map weight: 1.000000
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: New map weight: 1.000000
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: New map weight: 1.000000
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: New map weight: 1.000000
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: New map weight: 1.000000
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: New map weight: 1.000000
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: New map weight: 1.000000
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: New map weight: 1.000000
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: New map weight: 1.000000
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Fetching map group data
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Fetching Nominations
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Unfiltered:
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Filtered:
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Calculating amount of maps needed to be fetched.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Determining proper nomination processing algorithm.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Adding all nominations to the vote.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Finished processing nominations.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Current gDisp value: {MAP}
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Begin filling remaining spots in the vote.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Attempting to fetch a map from the group.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Preparing mapcycle for random map selection.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Preparing to traverse maps in the group.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Adding map emp_drygulch_a6 to the pool.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Adding map emp_beachfront_b2 to the pool.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Adding map emp_downfall to the pool.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Adding map emp_flat_fix to the pool.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Adding map emp_blah4 to the pool.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Adding map emp_massacred_rc1 to the pool.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Adding map emp_canyon to the pool.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Adding map emp_traders_a8 to the pool.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Adding map emp_temple_b3a to the pool.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Adding map emp_palmbay_fix to the pool.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Finished populating random pool.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Getting random map from the pool.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Getting number of items in the pool - 10
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Setting up array of weights.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Picking a random number.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Find the winner in the pool.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Item found.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Checking to make sure the map isn't already in the vote.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Searching for map in nominations.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Fetching display info for the map from the mapcycle.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: OFTS: 'emp_canyon' 'Commander Maps' '{MAP}'
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: OFTS End: emp_canyon
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: GMDS Buffer: emp_canyon
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Display name for emp_canyon: 'emp_canyon'
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Determining where to place the map in the vote.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Adding map to the vote.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: *MEMLEAKTEST* Creating map trie (BuildMapVoteItems) [5]
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: *MEMLEAKTEST* Inserting map trie created at [5] into vote manager storage
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Preventing map from being picked again.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Attempting to fetch a map from the group.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Preparing mapcycle for random map selection.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Preparing to traverse maps in the group.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Adding map emp_drygulch_a6 to the pool.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Adding map emp_beachfront_b2 to the pool.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Adding map emp_downfall to the pool.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Adding map emp_flat_fix to the pool.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Adding map emp_blah4 to the pool.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Adding map emp_massacred_rc1 to the pool.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Adding map emp_traders_a8 to the pool.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Adding map emp_temple_b3a to the pool.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Adding map emp_palmbay_fix to the pool.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Finished populating random pool.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Getting random map from the pool.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Getting number of items in the pool - 9
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Setting up array of weights.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Picking a random number.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Find the winner in the pool.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Item found.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Checking to make sure the map isn't already in the vote.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Searching for map in nominations.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Fetching display info for the map from the mapcycle.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: OFTS: 'emp_massacred_rc1' 'Commander Maps' '{MAP}'
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: OFTS End: emp_massacred_rc1
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: GMDS Buffer: emp_massacred_rc1
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Display name for emp_massacred_rc1: 'emp_massacred_rc1'
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Determining where to place the map in the vote.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Adding map to the vote.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: *MEMLEAKTEST* Creating map trie (BuildMapVoteItems) [5]
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: *MEMLEAKTEST* Inserting map trie created at [5] into vote manager storage
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Preventing map from being picked again.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Attempting to fetch a map from the group.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Preparing mapcycle for random map selection.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Preparing to traverse maps in the group.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Adding map emp_drygulch_a6 to the pool.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Adding map emp_beachfront_b2 to the pool.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Adding map emp_downfall to the pool.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Adding map emp_flat_fix to the pool.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Adding map emp_blah4 to the pool.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Adding map emp_traders_a8 to the pool.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Adding map emp_temple_b3a to the pool.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Adding map emp_palmbay_fix to the pool.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Finished populating random pool.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Getting random map from the pool.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Getting number of items in the pool - 8
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Setting up array of weights.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Picking a random number.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Find the winner in the pool.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Item found.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Checking to make sure the map isn't already in the vote.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Searching for map in nominations.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Fetching display info for the map from the mapcycle.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: OFTS: 'emp_downfall' 'Commander Maps' '{MAP}'
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: OFTS End: emp_downfall
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: GMDS Buffer: emp_downfall
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Display name for emp_downfall: 'emp_downfall'
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Determining where to place the map in the vote.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Adding map to the vote.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: *MEMLEAKTEST* Creating map trie (BuildMapVoteItems) [5]
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: *MEMLEAKTEST* Inserting map trie created at [5] into vote manager storage
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Preventing map from being picked again.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Attempting to fetch a map from the group.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Preparing mapcycle for random map selection.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Preparing to traverse maps in the group.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Adding map emp_drygulch_a6 to the pool.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Adding map emp_beachfront_b2 to the pool.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Adding map emp_flat_fix to the pool.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Adding map emp_blah4 to the pool.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Adding map emp_traders_a8 to the pool.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Adding map emp_temple_b3a to the pool.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Adding map emp_palmbay_fix to the pool.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Finished populating random pool.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Getting random map from the pool.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Getting number of items in the pool - 7
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Setting up array of weights.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Picking a random number.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Find the winner in the pool.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Item found.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Checking to make sure the map isn't already in the vote.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Searching for map in nominations.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Fetching display info for the map from the mapcycle.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: OFTS: 'emp_traders_a8' 'Commander Maps' '{MAP}'
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: OFTS End: emp_traders_a8
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: GMDS Buffer: emp_traders_a8
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Display name for emp_traders_a8: 'emp_traders_a8'
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Determining where to place the map in the vote.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Adding map to the vote.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: *MEMLEAKTEST* Creating map trie (BuildMapVoteItems) [5]
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: *MEMLEAKTEST* Inserting map trie created at [5] into vote manager storage
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Preventing map from being picked again.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Attempting to fetch a map from the group.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Preparing mapcycle for random map selection.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Preparing to traverse maps in the group.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Adding map emp_drygulch_a6 to the pool.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Adding map emp_beachfront_b2 to the pool.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Adding map emp_flat_fix to the pool.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Adding map emp_blah4 to the pool.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Adding map emp_temple_b3a to the pool.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Adding map emp_palmbay_fix to the pool.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Finished populating random pool.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Getting random map from the pool.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Getting number of items in the pool - 6
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Setting up array of weights.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Picking a random number.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Find the winner in the pool.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Item found.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Checking to make sure the map isn't already in the vote.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Searching for map in nominations.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Fetching display info for the map from the mapcycle.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: OFTS: 'emp_palmbay_fix' 'Commander Maps' '{MAP}'
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: OFTS End: emp_palmbay_fix
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: GMDS Buffer: emp_palmbay_fix
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Display name for emp_palmbay_fix: 'emp_palmbay_fix'
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Determining where to place the map in the vote.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Adding map to the vote.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: *MEMLEAKTEST* Creating map trie (BuildMapVoteItems) [5]
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: *MEMLEAKTEST* Inserting map trie created at [5] into vote manager storage
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Preventing map from being picked again.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Attempting to fetch a map from the group.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Preparing mapcycle for random map selection.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Preparing to traverse maps in the group.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Adding map emp_drygulch_a6 to the pool.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Adding map emp_beachfront_b2 to the pool.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Adding map emp_flat_fix to the pool.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Adding map emp_blah4 to the pool.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Adding map emp_temple_b3a to the pool.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Finished populating random pool.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Getting random map from the pool.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Getting number of items in the pool - 5
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Setting up array of weights.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Picking a random number.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Find the winner in the pool.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Item found.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Checking to make sure the map isn't already in the vote.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Searching for map in nominations.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Fetching display info for the map from the mapcycle.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: OFTS: 'emp_temple_b3a' 'Commander Maps' '{MAP}'
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: OFTS End: emp_temple_b3a
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: GMDS Buffer: emp_temple_b3a
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Display name for emp_temple_b3a: 'emp_temple_b3a'
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Determining where to place the map in the vote.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Adding map to the vote.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: *MEMLEAKTEST* Creating map trie (BuildMapVoteItems) [5]
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: *MEMLEAKTEST* Inserting map trie created at [5] into vote manager storage
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Preventing map from being picked again.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Fetching map group data
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Fetching Nominations
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Unfiltered:
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Filtered:
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Calculating amount of maps needed to be fetched.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Determining proper nomination processing algorithm.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Adding all nominations to the vote.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Finished processing nominations.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Current gDisp value: {MAP}
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Begin filling remaining spots in the vote.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Attempting to fetch a map from the group.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Preparing mapcycle for random map selection.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: No maps found in map group Infantry Maps. Return false.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: No more maps in group. Continuing to next group.
+L 04/14/2017 - 20:19:43: [umc-core.smx] Initiating Vote Type: Map
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Attempting to start core vote...
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Setup slot blocking.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Setting proper pagination.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Vote menu built successfully.
+L 04/14/2017 - 20:19:43: [umc-core.smx] DEBUG: Setting CVA True
+L 04/14/2017 - 20:19:48: [umc-core.smx] DEBUG: MenuAction_Select
+L 04/14/2017 - 20:19:51: [umc-core.smx] DEBUG: MenuAction_Select
+L 04/14/2017 - 20:19:51: [umc-core.smx] DEBUG: MenuAction_Select
+L 04/14/2017 - 20:19:53: [umc-core.smx] DEBUG: MenuAction_Select
+L 04/14/2017 - 20:19:55: [umc-core.smx] DEBUG: MenuAction_Select
+L 04/14/2017 - 20:19:56: [umc-core.smx] DEBUG: MenuAction_Select
+L 04/14/2017 - 20:19:58: [umc-core.smx] DEBUG: MenuAction_Select
+L 04/14/2017 - 20:20:13: [umc-core.smx] DEBUG: MenuAction_Select
+L 04/14/2017 - 20:20:14: [umc-core.smx] DEBUG: Handling vote results...
+L 04/14/2017 - 20:20:14: [umc-core.smx] DEBUG: Setting CVA False -- Completed
+L 04/14/2017 - 20:20:14: [umc-core.smx] DEBUG: *VoteManagerVoteCompleted*
+L 04/14/2017 - 20:20:14: [umc-core.smx] DEBUG: Processing vote results
+L 04/14/2017 - 20:20:14: [umc-core.smx] DEBUG: Old storage size (PVC): 0
+L 04/14/2017 - 20:20:14: [umc-core.smx] DEBUG: New storage size: 3
+L 04/14/2017 - 20:20:14: [umc-core.smx] DEBUG: Determining if the vote meets the defined threshold of 0.509999
+L 04/14/2017 - 20:20:14: [umc-core.smx] DEBUG: Will Runoff? (RR: 1) (PVC: 0)
+L 04/14/2017 - 20:20:14: [umc-core.smx] DEBUG: Performing runoff vote
+L 04/14/2017 - 20:20:14: [umc-core.smx] DEBUG: *MEMLEAKTEST* Creating VoteOption Trie for Runoff (BuildRunoffOptions) [6]
+L 04/14/2017 - 20:20:14: [umc-core.smx] DEBUG: *MEMLEAKTEST* Creating VoteOption Trie for Runoff (BuildRunoffOptions) [6]
+L 04/14/2017 - 20:20:14: [umc-core.smx] DEBUG: Non-selective runoff vote: erasing storage and adding all clients.
+L 04/14/2017 - 20:20:14: [umc-core.smx] DEBUG: Runoff timer created. Runoff vote will be displayed in 8 seconds.
+L 04/14/2017 - 20:20:14: [umc-core.smx] DEBUG: MenuAction_End
+L 04/14/2017 - 20:20:22: [umc-core.smx] RUNOFF: Starting runoff vote.
+L 04/14/2017 - 20:20:22: [umc-core.smx] Initiating Vote Type: Map
+L 04/14/2017 - 20:20:22: [umc-core.smx] DEBUG: Attempting to start core vote...
+L 04/14/2017 - 20:20:22: [umc-core.smx] DEBUG: Setup slot blocking.
+L 04/14/2017 - 20:20:22: [umc-core.smx] DEBUG: Setting proper pagination.
+L 04/14/2017 - 20:20:22: [umc-core.smx] DEBUG: Vote menu built successfully.
+L 04/14/2017 - 20:20:22: [umc-core.smx] DEBUG: Setting CVA True
+L 04/14/2017 - 20:20:23: [umc-core.smx] DEBUG: MenuAction_Select
+L 04/14/2017 - 20:20:24: [umc-core.smx] DEBUG: MenuAction_Select
+L 04/14/2017 - 20:20:25: [umc-core.smx] DEBUG: MenuAction_Select
+L 04/14/2017 - 20:20:26: [umc-core.smx] DEBUG: MenuAction_Select
+L 04/14/2017 - 20:20:29: [umc-core.smx] DEBUG: MenuAction_Select
+L 04/14/2017 - 20:20:30: [umc-core.smx] DEBUG: MenuAction_Select
+L 04/14/2017 - 20:20:34: [umc-core.smx] DEBUG: MenuAction_Select
+L 04/14/2017 - 20:20:38: [umc-core.smx] DEBUG: MenuAction_Select
+L 04/14/2017 - 20:20:45: [umc-core.smx] DEBUG: MenuAction_Select
+L 04/14/2017 - 20:20:47: [umc-core.smx] DEBUG: MenuAction_Select
+L 04/14/2017 - 20:20:47: [umc-core.smx] DEBUG: MenuAction_Select
+L 04/14/2017 - 20:20:49: [umc-core.smx] DEBUG: MenuAction_Select
+L 04/14/2017 - 20:20:52: [umc-core.smx] DEBUG: Handling vote results...
+L 04/14/2017 - 20:20:52: [umc-core.smx] DEBUG: Setting CVA False -- Completed
+L 04/14/2017 - 20:20:52: [umc-core.smx] DEBUG: *VoteManagerVoteCompleted*
+L 04/14/2017 - 20:20:52: [umc-core.smx] DEBUG: Processing vote results
+L 04/14/2017 - 20:20:52: [umc-core.smx] DEBUG: Old storage size (PVC): 0
+L 04/14/2017 - 20:20:52: [umc-core.smx] DEBUG: New storage size: 2
+L 04/14/2017 - 20:20:52: [umc-core.smx] DEBUG: Determining if the vote meets the defined threshold of 0.509999
+L 04/14/2017 - 20:20:52: [umc-core.smx] DEBUG: Vote no longer in progress!
+L 04/14/2017 - 20:20:52: [umc-core.smx] Setting nextmap to: emp_canyon
+L 04/14/2017 - 20:20:52: [umc-randomcycle.smx] Disabling random nextmap selection.
+L 04/14/2017 - 20:20:52: [umc-randomcycle.smx] Disabling random nextmap selection.
+L 04/14/2017 - 20:20:52: [umc-core.smx] MAPVOTE: Players voted for map 'emp_canyon' from group 'Commander Maps'
+L 04/14/2017 - 20:20:52: [umc-core.smx] DEBUG: *MEMLEAKTEST* Closing map trie (ClearVoteArrays) {3, 4, 5}
+L 04/14/2017 - 20:20:52: [umc-core.smx] DEBUG: *MEMLEAKTEST* Closing map trie (ClearVoteArrays) {3, 4, 5}
+L 04/14/2017 - 20:20:52: [umc-core.smx] DEBUG: *MEMLEAKTEST* Closing map trie (ClearVoteArrays) {3, 4, 5}
+L 04/14/2017 - 20:20:52: [umc-core.smx] DEBUG: *MEMLEAKTEST* Closing map trie (ClearVoteArrays) {3, 4, 5}
+L 04/14/2017 - 20:20:52: [umc-core.smx] DEBUG: *MEMLEAKTEST* Closing map trie (ClearVoteArrays) {3, 4, 5}
+L 04/14/2017 - 20:20:52: [umc-core.smx] DEBUG: *MEMLEAKTEST* Closing map trie (ClearVoteArrays) {3, 4, 5}
+L 04/14/2017 - 20:20:52: [umc-core.smx] DEBUG: Deleting Vote Parameters
+L 04/14/2017 - 20:20:52: [umc-core.smx] DEBUG: MenuAction_End
+L 04/14/2017 - 20:21:23: [umc-core.smx] DEBUG: Executing Core OnMapEnd
+L 04/14/2017 - 20:21:24: [umc-core.smx] DEBUG: Executing Core OnMapStart
+L 04/14/2017 - 20:21:24: [umc-core.smx] ---------------------MAP CHANGE: emp_canyon---------------------
+L 04/14/2017 - 20:21:24: [umc-core.smx] DEBUG: Executing Core OnConfigsExecuted
+L 04/14/2017 - 20:21:24: [umc-endvote-warnings.smx] Successfully parsed and set up 11 vote warnings.
+L 04/14/2017 - 20:21:24: [umc-playercountmonitor.smx] Min Players: 14, Max Players: 32
+L 04/14/2017 - 20:21:24: [umc-playercountmonitor.smx] Server will begin watching for inproper number of players in 240 seconds.
+L 04/14/2017 - 20:21:24: [umc-rockthevote.smx] RTV is now available.
+L 04/14/2017 - 20:21:24: [umc-endvote-warnings.smx] Successfully parsed and set up 11 vote warnings.
+L 04/14/2017 - 20:21:24: [umc-playercountmonitor.smx] Min Players: 14, Max Players: 32
+L 04/14/2017 - 20:21:24: [umc-playercountmonitor.smx] Server will begin watching for inproper number of players in 240 seconds.
+L 04/14/2017 - 20:21:24: [umc-rockthevote.smx] RTV is now available.
+L 04/14/2017 - 20:25:24: [umc-playercountmonitor.smx] Server is now watching for inproper number of players.
+L 04/14/2017 - 20:25:24: [umc-playercountmonitor.smx] Server is now watching for inproper number of players.
+L 04/14/2017 - 21:28:13: [umc-emp-mapvote.smx] Map vote will appear in 1 seconds.
+L 04/14/2017 - 21:28:14: [umc-emp-mapvote.smx] Starting a map vote.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: MAPVOTE - Building map vote menu.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Preparing mapcycle for traversal.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Starting mapcycle filtering.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Starting filtering of map group "Commander Maps".
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Removing invalid map "emp_bush" from group "Commander Maps".
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Removing invalid map "emp_forest_ob_2013" from group "Commander Maps".
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Removing invalid map "emp_frozensummit_b2_2013_fix" from group "Commander Maps".
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Removing invalid map "emp_fuel_a3_2013_fix" from group "Commander Maps".
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Removing invalid map "emp_mesa_d6" from group "Commander Maps".
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Removing invalid map "emp_insurrection_rc4" from group "Commander Maps".
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Removing invalid map "emp_snowbound_cl6" from group "Commander Maps".
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Removing invalid map "emp_silo_rc5" from group "Commander Maps".
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Removing invalid map "emp_isle" from group "Commander Maps".
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Removing invalid map "emp_tropicvendetta_rc4" from group "Commander Maps".
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Removing invalid map "emp_cyclopean" from group "Commander Maps".
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Removing invalid map "emp_raiders_b1" from group "Commander Maps".
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Removing invalid map "emp_chain" from group "Commander Maps".
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Removing invalid map "emp_midbridge" from group "Commander Maps".
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Removing invalid map "emp_blackmountain" from group "Commander Maps".
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Map Group filtering completed for group "Commander Maps".
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Starting filtering of map group "Infantry Maps".
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Removing invalid map "emp_district402" from group "Infantry Maps".
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Removing invalid map "emp_glycencity" from group "Infantry Maps".
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Removing invalid map "emp_atomic_rc6" from group "Infantry Maps".
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Map Group filtering completed for group "Infantry Maps".
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Mapcycle filtering completed.
+L 04/14/2017 - 21:28:14: [umc-core.smx] 1: "umc_rotation"
+L 04/14/2017 - 21:28:14: [umc-core.smx] 2:   "Commander Maps"
+L 04/14/2017 - 21:28:14: [umc-core.smx] 3:     "emp_drygulch_a6"
+L 04/14/2017 - 21:28:14: [umc-core.smx] 3:     "emp_beachfront_b2"
+L 04/14/2017 - 21:28:14: [umc-core.smx] 3:     "emp_downfall"
+L 04/14/2017 - 21:28:14: [umc-core.smx] 3:     "emp_flat_fix"
+L 04/14/2017 - 21:28:14: [umc-core.smx] 3:     "emp_blah4"
+L 04/14/2017 - 21:28:14: [umc-core.smx] 3:     "emp_commandergrad_b1"
+L 04/14/2017 - 21:28:14: [umc-core.smx] 3:     "emp_dune_ob1"
+L 04/14/2017 - 21:28:14: [umc-core.smx] 3:     "emp_glacial_b2"
+L 04/14/2017 - 21:28:14: [umc-core.smx] 3:     "emp_massacred_rc1"
+L 04/14/2017 - 21:28:14: [umc-core.smx] 3:     "emp_hazard_rc6"
+L 04/14/2017 - 21:28:14: [umc-core.smx] 3:     "emp_traders_a8"
+L 04/14/2017 - 21:28:14: [umc-core.smx] 3:     "emp_temple_b3a"
+L 04/14/2017 - 21:28:14: [umc-core.smx] 3:     "emp_snowstorm_rc6"
+L 04/14/2017 - 21:28:14: [umc-core.smx] 3:     "emp_homeland_b9"
+L 04/14/2017 - 21:28:14: [umc-core.smx] 3:     "emp_plunge_ob2_2013"
+L 04/14/2017 - 21:28:14: [umc-core.smx] 3:     "emp_research_1_2_2013"
+L 04/14/2017 - 21:28:14: [umc-core.smx] 3:     "emp_coast"
+L 04/14/2017 - 21:28:14: [umc-core.smx] 3:     "emp_duststorm"
+L 04/14/2017 - 21:28:14: [umc-core.smx] 3:     "emp_ward_rc2"
+L 04/14/2017 - 21:28:14: [umc-core.smx] 3:     "emp_mvalley"
+L 04/14/2017 - 21:28:14: [umc-core.smx] 3:     "emp_arid"
+L 04/14/2017 - 21:28:14: [umc-core.smx] 3:     "emp_palmbay_fix"
+L 04/14/2017 - 21:28:14: [umc-core.smx] 2:   "Infantry Maps"
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Checking for groups.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Preparing vote data storage.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Getting options from cvars.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Initializing Buffers
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Performing Traversal
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: New map weight: 1.000000
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: New map weight: 1.000000
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: New map weight: 1.000000
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: New map weight: 1.000000
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: New map weight: 1.000000
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: New map weight: 1.000000
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: New map weight: 1.000000
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: New map weight: 1.000000
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: New map weight: 1.000000
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: New map weight: 1.000000
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: New map weight: 1.000000
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: New map weight: 1.000000
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: New map weight: 1.000000
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: New map weight: 1.000000
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: New map weight: 1.000000
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: New map weight: 1.000000
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: New map weight: 1.000000
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: New map weight: 1.000000
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: New map weight: 1.000000
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: New map weight: 1.000000
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: New map weight: 1.000000
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: New map weight: 1.000000
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: New map weight: 1.000000
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: New map weight: 1.000000
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: New map weight: 1.000000
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: New map weight: 1.000000
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: New map weight: 1.000000
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: New map weight: 1.000000
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: New map weight: 1.000000
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: New map weight: 1.000000
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: New map weight: 1.000000
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: New map weight: 1.000000
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: New map weight: 1.000000
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: New map weight: 1.000000
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: New map weight: 1.000000
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: New map weight: 1.000000
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: New map weight: 1.000000
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: New map weight: 1.000000
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: New map weight: 1.000000
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: New map weight: 1.000000
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: New map weight: 1.000000
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: New map weight: 1.000000
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: New map weight: 1.000000
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: New map weight: 1.000000
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Fetching map group data
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Fetching Nominations
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Unfiltered:
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Filtered:
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Calculating amount of maps needed to be fetched.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Determining proper nomination processing algorithm.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding all nominations to the vote.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Finished processing nominations.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Current gDisp value: {MAP}
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Begin filling remaining spots in the vote.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Attempting to fetch a map from the group.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Preparing mapcycle for random map selection.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Preparing to traverse maps in the group.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_drygulch_a6 to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_beachfront_b2 to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_downfall to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_flat_fix to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_blah4 to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_commandergrad_b1 to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_dune_ob1 to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_glacial_b2 to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_massacred_rc1 to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_hazard_rc6 to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_traders_a8 to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_temple_b3a to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_snowstorm_rc6 to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_homeland_b9 to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_plunge_ob2_2013 to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_research_1_2_2013 to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_coast to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_duststorm to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_ward_rc2 to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_mvalley to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_arid to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_palmbay_fix to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Finished populating random pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Getting random map from the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Getting number of items in the pool - 22
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Setting up array of weights.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Picking a random number.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Find the winner in the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Item found.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Checking to make sure the map isn't already in the vote.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Searching for map in nominations.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Fetching display info for the map from the mapcycle.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: OFTS: 'emp_traders_a8' 'Commander Maps' '{MAP}'
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: OFTS End: emp_traders_a8
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: GMDS Buffer: emp_traders_a8
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Display name for emp_traders_a8: 'emp_traders_a8'
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Determining where to place the map in the vote.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map to the vote.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: *MEMLEAKTEST* Creating map trie (BuildMapVoteItems) [5]
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: *MEMLEAKTEST* Inserting map trie created at [5] into vote manager storage
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Preventing map from being picked again.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Attempting to fetch a map from the group.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Preparing mapcycle for random map selection.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Preparing to traverse maps in the group.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_drygulch_a6 to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_beachfront_b2 to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_downfall to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_flat_fix to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_blah4 to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_commandergrad_b1 to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_dune_ob1 to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_glacial_b2 to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_massacred_rc1 to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_hazard_rc6 to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_temple_b3a to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_snowstorm_rc6 to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_homeland_b9 to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_plunge_ob2_2013 to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_research_1_2_2013 to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_coast to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_duststorm to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_ward_rc2 to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_mvalley to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_arid to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_palmbay_fix to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Finished populating random pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Getting random map from the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Getting number of items in the pool - 21
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Setting up array of weights.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Picking a random number.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Find the winner in the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Item found.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Checking to make sure the map isn't already in the vote.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Searching for map in nominations.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Fetching display info for the map from the mapcycle.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: OFTS: 'emp_arid' 'Commander Maps' '{MAP}'
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: OFTS End: emp_arid
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: GMDS Buffer: emp_arid
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Display name for emp_arid: 'emp_arid'
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Determining where to place the map in the vote.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map to the vote.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: *MEMLEAKTEST* Creating map trie (BuildMapVoteItems) [5]
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: *MEMLEAKTEST* Inserting map trie created at [5] into vote manager storage
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Preventing map from being picked again.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Attempting to fetch a map from the group.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Preparing mapcycle for random map selection.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Preparing to traverse maps in the group.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_drygulch_a6 to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_beachfront_b2 to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_downfall to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_flat_fix to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_blah4 to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_commandergrad_b1 to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_dune_ob1 to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_glacial_b2 to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_massacred_rc1 to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_hazard_rc6 to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_temple_b3a to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_snowstorm_rc6 to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_homeland_b9 to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_plunge_ob2_2013 to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_research_1_2_2013 to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_coast to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_duststorm to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_ward_rc2 to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_mvalley to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_palmbay_fix to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Finished populating random pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Getting random map from the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Getting number of items in the pool - 20
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Setting up array of weights.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Picking a random number.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Find the winner in the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Item found.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Checking to make sure the map isn't already in the vote.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Searching for map in nominations.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Fetching display info for the map from the mapcycle.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: OFTS: 'emp_plunge_ob2_2013' 'Commander Maps' '{MAP}'
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: OFTS End: emp_plunge_ob2_2013
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: GMDS Buffer: emp_plunge_ob2_2013
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Display name for emp_plunge_ob2_2013: 'emp_plunge_ob2_2013'
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Determining where to place the map in the vote.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map to the vote.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: *MEMLEAKTEST* Creating map trie (BuildMapVoteItems) [5]
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: *MEMLEAKTEST* Inserting map trie created at [5] into vote manager storage
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Preventing map from being picked again.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Attempting to fetch a map from the group.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Preparing mapcycle for random map selection.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Preparing to traverse maps in the group.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_drygulch_a6 to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_beachfront_b2 to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_downfall to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_flat_fix to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_blah4 to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_commandergrad_b1 to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_dune_ob1 to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_glacial_b2 to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_massacred_rc1 to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_hazard_rc6 to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_temple_b3a to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_snowstorm_rc6 to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_homeland_b9 to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_research_1_2_2013 to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_coast to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_duststorm to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_ward_rc2 to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_mvalley to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_palmbay_fix to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Finished populating random pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Getting random map from the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Getting number of items in the pool - 19
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Setting up array of weights.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Picking a random number.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Find the winner in the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Item found.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Checking to make sure the map isn't already in the vote.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Searching for map in nominations.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Fetching display info for the map from the mapcycle.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: OFTS: 'emp_duststorm' 'Commander Maps' '{MAP}'
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: OFTS End: emp_duststorm
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: GMDS Buffer: emp_duststorm
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Display name for emp_duststorm: 'emp_duststorm'
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Determining where to place the map in the vote.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map to the vote.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: *MEMLEAKTEST* Creating map trie (BuildMapVoteItems) [5]
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: *MEMLEAKTEST* Inserting map trie created at [5] into vote manager storage
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Preventing map from being picked again.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Attempting to fetch a map from the group.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Preparing mapcycle for random map selection.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Preparing to traverse maps in the group.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_drygulch_a6 to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_beachfront_b2 to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_downfall to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_flat_fix to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_blah4 to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_commandergrad_b1 to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_dune_ob1 to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_glacial_b2 to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_massacred_rc1 to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_hazard_rc6 to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_temple_b3a to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_snowstorm_rc6 to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_homeland_b9 to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_research_1_2_2013 to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_coast to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_ward_rc2 to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_mvalley to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_palmbay_fix to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Finished populating random pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Getting random map from the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Getting number of items in the pool - 18
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Setting up array of weights.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Picking a random number.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Find the winner in the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Item found.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Checking to make sure the map isn't already in the vote.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Searching for map in nominations.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Fetching display info for the map from the mapcycle.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: OFTS: 'emp_hazard_rc6' 'Commander Maps' '{MAP}'
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: OFTS End: emp_hazard_rc6
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: GMDS Buffer: emp_hazard_rc6
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Display name for emp_hazard_rc6: 'emp_hazard_rc6'
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Determining where to place the map in the vote.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map to the vote.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: *MEMLEAKTEST* Creating map trie (BuildMapVoteItems) [5]
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: *MEMLEAKTEST* Inserting map trie created at [5] into vote manager storage
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Preventing map from being picked again.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Attempting to fetch a map from the group.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Preparing mapcycle for random map selection.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Preparing to traverse maps in the group.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_drygulch_a6 to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_beachfront_b2 to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_downfall to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_flat_fix to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_blah4 to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_commandergrad_b1 to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_dune_ob1 to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_glacial_b2 to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_massacred_rc1 to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_temple_b3a to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_snowstorm_rc6 to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_homeland_b9 to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_research_1_2_2013 to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_coast to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_ward_rc2 to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_mvalley to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map emp_palmbay_fix to the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Finished populating random pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Getting random map from the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Getting number of items in the pool - 17
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Setting up array of weights.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Picking a random number.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Find the winner in the pool.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Update running total of weights.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Check if we're at the right item.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Item found.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Checking to make sure the map isn't already in the vote.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Searching for map in nominations.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Fetching display info for the map from the mapcycle.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: OFTS: 'emp_dune_ob1' 'Commander Maps' '{MAP}'
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: OFTS End: emp_dune_ob1
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: GMDS Buffer: emp_dune_ob1
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Display name for emp_dune_ob1: 'emp_dune_ob1'
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Determining where to place the map in the vote.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding map to the vote.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: *MEMLEAKTEST* Creating map trie (BuildMapVoteItems) [5]
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: *MEMLEAKTEST* Inserting map trie created at [5] into vote manager storage
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Preventing map from being picked again.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Fetching map group data
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Fetching Nominations
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Unfiltered:
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Filtered:
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Calculating amount of maps needed to be fetched.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Determining proper nomination processing algorithm.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Adding all nominations to the vote.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Finished processing nominations.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Current gDisp value: {MAP}
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Begin filling remaining spots in the vote.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Attempting to fetch a map from the group.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Preparing mapcycle for random map selection.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: No maps found in map group Infantry Maps. Return false.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: No more maps in group. Continuing to next group.
+L 04/14/2017 - 21:28:14: [umc-core.smx] Initiating Vote Type: Map
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Attempting to start core vote...
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Setup slot blocking.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Setting proper pagination.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Vote menu built successfully.
+L 04/14/2017 - 21:28:14: [umc-core.smx] DEBUG: Setting CVA True
+L 04/14/2017 - 21:28:17: [umc-core.smx] DEBUG: MenuAction_Select
+L 04/14/2017 - 21:28:18: [umc-core.smx] DEBUG: MenuAction_Select
+L 04/14/2017 - 21:28:18: [umc-core.smx] DEBUG: MenuAction_Select
+L 04/14/2017 - 21:28:19: [umc-core.smx] DEBUG: MenuAction_Select
+L 04/14/2017 - 21:28:26: [umc-core.smx] DEBUG: MenuAction_Select
+L 04/14/2017 - 21:28:31: [umc-core.smx] DEBUG: MenuAction_Select
+L 04/14/2017 - 21:28:34: [umc-core.smx] DEBUG: MenuAction_Select
+L 04/14/2017 - 21:28:44: [umc-core.smx] DEBUG: Handling vote results...
+L 04/14/2017 - 21:28:44: [umc-core.smx] DEBUG: Setting CVA False -- Completed
+L 04/14/2017 - 21:28:44: [umc-core.smx] DEBUG: *VoteManagerVoteCompleted*
+L 04/14/2017 - 21:28:44: [umc-core.smx] DEBUG: Processing vote results
+L 04/14/2017 - 21:28:44: [umc-core.smx] DEBUG: Old storage size (PVC): 0
+L 04/14/2017 - 21:28:44: [umc-core.smx] DEBUG: New storage size: 3
+L 04/14/2017 - 21:28:44: [umc-core.smx] DEBUG: Determining if the vote meets the defined threshold of 0.509999
+L 04/14/2017 - 21:28:44: [umc-core.smx] DEBUG: Will Runoff? (RR: 1) (PVC: 0)
+L 04/14/2017 - 21:28:44: [umc-core.smx] DEBUG: Performing runoff vote
+L 04/14/2017 - 21:28:44: [umc-core.smx] DEBUG: *MEMLEAKTEST* Creating VoteOption Trie for Runoff (BuildRunoffOptions) [6]
+L 04/14/2017 - 21:28:44: [umc-core.smx] DEBUG: *MEMLEAKTEST* Creating VoteOption Trie for Runoff (BuildRunoffOptions) [6]
+L 04/14/2017 - 21:28:44: [umc-core.smx] DEBUG: Non-selective runoff vote: erasing storage and adding all clients.
+L 04/14/2017 - 21:28:44: [umc-core.smx] DEBUG: Runoff timer created. Runoff vote will be displayed in 8 seconds.
+L 04/14/2017 - 21:28:44: [umc-core.smx] DEBUG: MenuAction_End
+L 04/14/2017 - 21:28:52: [umc-core.smx] RUNOFF: Starting runoff vote.
+L 04/14/2017 - 21:28:52: [umc-core.smx] Initiating Vote Type: Map
+L 04/14/2017 - 21:28:52: [umc-core.smx] DEBUG: Attempting to start core vote...
+L 04/14/2017 - 21:28:52: [umc-core.smx] DEBUG: Setup slot blocking.
+L 04/14/2017 - 21:28:52: [umc-core.smx] DEBUG: Setting proper pagination.
+L 04/14/2017 - 21:28:52: [umc-core.smx] DEBUG: Vote menu built successfully.
+L 04/14/2017 - 21:28:52: [umc-core.smx] DEBUG: Setting CVA True
+L 04/14/2017 - 21:28:54: [umc-core.smx] DEBUG: MenuAction_Select
+L 04/14/2017 - 21:28:55: [umc-core.smx] DEBUG: MenuAction_Select
+L 04/14/2017 - 21:28:56: [umc-core.smx] DEBUG: MenuAction_Select
+L 04/14/2017 - 21:28:59: [umc-core.smx] DEBUG: MenuAction_Select
+L 04/14/2017 - 21:29:00: [umc-core.smx] DEBUG: MenuAction_Select
+L 04/14/2017 - 21:29:13: [umc-core.smx] DEBUG: MenuAction_Select
+L 04/14/2017 - 21:29:16: [umc-core.smx] DEBUG: MenuAction_Select
+L 04/14/2017 - 21:29:23: [umc-core.smx] DEBUG: Handling vote results...
+L 04/14/2017 - 21:29:23: [umc-core.smx] DEBUG: Setting CVA False -- Completed
+L 04/14/2017 - 21:29:23: [umc-core.smx] DEBUG: *VoteManagerVoteCompleted*
+L 04/14/2017 - 21:29:23: [umc-core.smx] DEBUG: Processing vote results
+L 04/14/2017 - 21:29:23: [umc-core.smx] DEBUG: Old storage size (PVC): 0
+L 04/14/2017 - 21:29:23: [umc-core.smx] DEBUG: New storage size: 2
+L 04/14/2017 - 21:29:23: [umc-core.smx] DEBUG: Determining if the vote meets the defined threshold of 0.509999
+L 04/14/2017 - 21:29:23: [umc-core.smx] DEBUG: Vote no longer in progress!
+L 04/14/2017 - 21:29:23: [umc-core.smx] Setting nextmap to: emp_dune_ob1
+L 04/14/2017 - 21:29:23: [umc-randomcycle.smx] Disabling random nextmap selection.
+L 04/14/2017 - 21:29:23: [umc-randomcycle.smx] Disabling random nextmap selection.
+L 04/14/2017 - 21:29:23: [umc-core.smx] MAPVOTE: Players voted for map 'emp_dune_ob1' from group 'Commander Maps'
+L 04/14/2017 - 21:29:23: [umc-core.smx] DEBUG: *MEMLEAKTEST* Closing map trie (ClearVoteArrays) {3, 4, 5}
+L 04/14/2017 - 21:29:23: [umc-core.smx] DEBUG: *MEMLEAKTEST* Closing map trie (ClearVoteArrays) {3, 4, 5}
+L 04/14/2017 - 21:29:23: [umc-core.smx] DEBUG: *MEMLEAKTEST* Closing map trie (ClearVoteArrays) {3, 4, 5}
+L 04/14/2017 - 21:29:23: [umc-core.smx] DEBUG: *MEMLEAKTEST* Closing map trie (ClearVoteArrays) {3, 4, 5}
+L 04/14/2017 - 21:29:23: [umc-core.smx] DEBUG: *MEMLEAKTEST* Closing map trie (ClearVoteArrays) {3, 4, 5}
+L 04/14/2017 - 21:29:23: [umc-core.smx] DEBUG: *MEMLEAKTEST* Closing map trie (ClearVoteArrays) {3, 4, 5}
+L 04/14/2017 - 21:29:23: [umc-core.smx] DEBUG: Deleting Vote Parameters
+L 04/14/2017 - 21:29:23: [umc-core.smx] DEBUG: MenuAction_End
+L 04/14/2017 - 21:29:41: [umc-core.smx] ---------------------MAP CHANGE: emp_district402---------------------
+L 04/14/2017 - 21:29:41: [umc-endvote-warnings.smx] Successfully parsed and set up 11 vote warnings.
+L 04/14/2017 - 21:29:41: [umc-playercountmonitor.smx] Min Players: 0, Max Players: 13
+L 04/14/2017 - 21:29:41: [umc-playercountmonitor.smx] Server will begin watching for inproper number of players in 240 seconds.
+L 04/14/2017 - 21:29:41: [umc-rockthevote.smx] RTV is now available.
+L 04/14/2017 - 21:29:57: [umc-core.smx] ---------------------MAP CHANGE: emp_dune_ob1---------------------
+L 04/14/2017 - 21:29:57: [umc-endvote-warnings.smx] Successfully parsed and set up 11 vote warnings.
+L 04/14/2017 - 21:29:57: [umc-playercountmonitor.smx] Min Players: 20, Max Players: 52
+L 04/14/2017 - 21:29:57: [umc-playercountmonitor.smx] Server will begin watching for inproper number of players in 240 seconds.
+L 04/14/2017 - 21:29:57: [umc-rockthevote.smx] RTV is now available.
+L 04/14/2017 - 21:33:29: [umc-emp-mapvote.smx] Map vote will appear in 1 seconds.
+L 04/14/2017 - 21:33:30: [umc-emp-mapvote.smx] Starting a map vote.
+L 04/14/2017 - 21:33:30: [umc-core.smx] Initiating Vote Type: Map
+L 04/14/2017 - 21:33:57: [umc-playercountmonitor.smx] Server is now watching for inproper number of players.
+L 04/14/2017 - 21:34:09: [umc-core.smx] RUNOFF: Starting runoff vote.
+L 04/14/2017 - 21:34:09: [umc-core.smx] Initiating Vote Type: Map
+L 04/14/2017 - 21:34:40: [umc-core.smx] Setting nextmap to: emp_drygulch_a6
+L 04/14/2017 - 21:34:40: [umc-randomcycle.smx] Disabling random nextmap selection.
+L 04/14/2017 - 21:34:40: [umc-core.smx] umc-emp-mapvote.smx: Changing map to 'emp_drygulch_a6' in 5 seconds.
+L 04/14/2017 - 21:34:40: [umc-core.smx] MAPVOTE: Players voted for map 'emp_drygulch_a6' from group 'Commander Maps'
+L 04/14/2017 - 21:34:46: [umc-core.smx] ---------------------MAP CHANGE: emp_drygulch_a6---------------------
+L 04/14/2017 - 21:34:46: [umc-endvote-warnings.smx] Successfully parsed and set up 11 vote warnings.
+L 04/14/2017 - 21:34:46: [umc-playercountmonitor.smx] Min Players: 0, Max Players: 22
+L 04/14/2017 - 21:34:46: [umc-playercountmonitor.smx] Server will begin watching for inproper number of players in 240 seconds.
+L 04/14/2017 - 21:34:46: [umc-rockthevote.smx] RTV is now available.
+L 04/14/2017 - 21:38:46: [umc-playercountmonitor.smx] Server is now watching for inproper number of players.
+L 04/14/2017 - 22:06:21: [umc-nominate.smx] Oktay wants to nominate a map.
+L 04/14/2017 - 22:06:29: [umc-nominate.smx] Oktay has nominated 'emp_duststorm' from group 'Commander Maps'
+L 04/14/2017 - 22:28:46: [umc-nominate.smx] Imperialistic - Furry wants to nominate a map.
+L 04/14/2017 - 22:31:58: [umc-nominate.smx] Oktay wants to nominate a map.
+L 04/14/2017 - 22:32:16: [umc-nominate.smx] Imperialistic - Furry wants to nominate a map.
+L 04/14/2017 - 22:38:35: [umc-emp-mapvote.smx] Map vote will appear in 1 seconds.
+L 04/14/2017 - 22:38:36: [umc-emp-mapvote.smx] Starting a map vote.
+L 04/14/2017 - 22:38:36: [umc-core.smx] Initiating Vote Type: Map
+L 04/14/2017 - 22:39:15: [umc-core.smx] RUNOFF: Starting runoff vote.
+L 04/14/2017 - 22:39:15: [umc-core.smx] Initiating Vote Type: Map
+L 04/14/2017 - 22:39:45: [umc-core.smx] Setting nextmap to: emp_duststorm
+L 04/14/2017 - 22:39:45: [umc-randomcycle.smx] Disabling random nextmap selection.
+L 04/14/2017 - 22:39:45: [umc-core.smx] umc-emp-mapvote.smx: Changing map to 'emp_duststorm' in 5 seconds.
+L 04/14/2017 - 22:39:45: [umc-core.smx] MAPVOTE: Players voted for map 'emp_duststorm' from group 'Commander Maps'
+L 04/14/2017 - 22:39:52: [umc-core.smx] ---------------------MAP CHANGE: emp_duststorm---------------------
+L 04/14/2017 - 22:39:52: [umc-endvote-warnings.smx] Successfully parsed and set up 11 vote warnings.
+L 04/14/2017 - 22:39:52: [umc-playercountmonitor.smx] Min Players: 20, Max Players: 52
+L 04/14/2017 - 22:39:52: [umc-playercountmonitor.smx] Server will begin watching for inproper number of players in 240 seconds.
+L 04/14/2017 - 22:39:52: [umc-rockthevote.smx] RTV is now available.
+L 04/14/2017 - 22:43:52: [umc-playercountmonitor.smx] Server is now watching for inproper number of players.
+L 04/14/2017 - 22:47:36: [umc-nominate.smx] Justkidding wants to nominate a map.
+L 04/14/2017 - 22:48:03: [umc-nominate.smx] Justkidding wants to nominate a map.
+L 04/14/2017 - 22:48:36: [umc-nominate.smx] Justkidding wants to nominate a map.
+L 04/14/2017 - 22:49:10: [umc-nominate.smx] Justkidding wants to nominate a map.
+L 04/14/2017 - 22:49:13: [umc-nominate.smx] Justkidding has nominated 'emp_homeland_b9' from group 'Commander Maps'
+L 04/14/2017 - 22:54:54: [umc-nominate.smx] Oktay wants to nominate a map.
+L 04/14/2017 - 22:55:29: [umc-emp-mapvote.smx] Map vote will appear in 1 seconds.
+L 04/14/2017 - 22:55:30: [umc-emp-mapvote.smx] Starting a map vote.
+L 04/14/2017 - 22:55:30: [umc-core.smx] Initiating Vote Type: Map
+L 04/14/2017 - 22:56:08: [umc-core.smx] RUNOFF: Starting runoff vote.
+L 04/14/2017 - 22:56:08: [umc-core.smx] Initiating Vote Type: Map
+L 04/14/2017 - 22:56:38: [umc-core.smx] Setting nextmap to: emp_homeland_b9
+L 04/14/2017 - 22:56:38: [umc-randomcycle.smx] Disabling random nextmap selection.
+L 04/14/2017 - 22:56:38: [umc-core.smx] umc-emp-mapvote.smx: Changing map to 'emp_homeland_b9' in 5 seconds.
+L 04/14/2017 - 22:56:38: [umc-core.smx] MAPVOTE: Players voted for map 'emp_homeland_b9' from group 'Commander Maps'
+L 04/14/2017 - 22:56:45: [umc-core.smx] ---------------------MAP CHANGE: emp_homeland_b9---------------------
+L 04/14/2017 - 22:56:45: [umc-endvote-warnings.smx] Successfully parsed and set up 11 vote warnings.
+L 04/14/2017 - 22:56:45: [umc-playercountmonitor.smx] Min Players: 18, Max Players: 36
+L 04/14/2017 - 22:56:45: [umc-playercountmonitor.smx] Server will begin watching for inproper number of players in 240 seconds.
+L 04/14/2017 - 22:56:45: [umc-rockthevote.smx] RTV is now available.
+L 04/14/2017 - 23:00:45: [umc-playercountmonitor.smx] Server is now watching for inproper number of players.
+L 04/14/2017 - 23:46:11: [umc-emp-mapvote.smx] Map vote will appear in 1 seconds.
+L 04/14/2017 - 23:46:12: [umc-emp-mapvote.smx] Starting a map vote.
+L 04/14/2017 - 23:46:12: [umc-core.smx] Initiating Vote Type: Map
+L 04/14/2017 - 23:46:51: [umc-core.smx] RUNOFF: Starting runoff vote.
+L 04/14/2017 - 23:46:51: [umc-core.smx] Initiating Vote Type: Map
+L 04/14/2017 - 23:47:21: [umc-core.smx] Setting nextmap to: emp_isle
+L 04/14/2017 - 23:47:21: [umc-randomcycle.smx] Disabling random nextmap selection.
+L 04/14/2017 - 23:47:21: [umc-core.smx] umc-emp-mapvote.smx: Changing map to 'emp_isle' in 5 seconds.
+L 04/14/2017 - 23:47:21: [umc-core.smx] MAPVOTE: Players voted for map 'emp_isle' from group 'Commander Maps'
+L 04/14/2017 - 23:47:27: [umc-core.smx] ---------------------MAP CHANGE: emp_isle---------------------
+L 04/14/2017 - 23:47:27: [umc-endvote-warnings.smx] Successfully parsed and set up 11 vote warnings.
+L 04/14/2017 - 23:47:27: [umc-playercountmonitor.smx] Min Players: 26, Max Players: 64
+L 04/14/2017 - 23:47:27: [umc-playercountmonitor.smx] Server will begin watching for inproper number of players in 240 seconds.
+L 04/14/2017 - 23:47:27: [umc-rockthevote.smx] RTV is now available.
+L 04/14/2017 - 23:51:27: [umc-playercountmonitor.smx] Server is now watching for inproper number of players.

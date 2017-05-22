@@ -1,0 +1,170 @@
+L 05/13/2017 - 00:22:34: SourceMod log file session started (file "L20170513.log") (Version "1.8.0.5912")
+L 05/13/2017 - 00:22:34: [basecommands.smx] "Mr. X.<120><[U:1:27106968]><>" kicked "alexfang<119><[U:1:110803780]><>" (reason "")
+L 05/13/2017 - 00:50:30: [SM] Changed map to "emp_ward_rc2"
+L 05/13/2017 - 00:50:30: -------- Mapchange to emp_ward_rc2 --------
+L 05/13/2017 - 00:55:03: [SM] Changed map to "emp_canyon"
+L 05/13/2017 - 00:55:03: -------- Mapchange to emp_canyon --------
+L 05/13/2017 - 01:54:59: [SM] Changed map to "emp_nuclear_b8u_xfix"
+L 05/13/2017 - 01:55:00: -------- Mapchange to emp_nuclear_b8u_xfix --------
+L 05/13/2017 - 02:13:18: [SM] Changed map to "emp_temple_b3a"
+L 05/13/2017 - 02:13:19: -------- Mapchange to emp_temple_b3a --------
+L 05/13/2017 - 02:24:41: [basecommands.smx] "Mr. X.<120><[U:1:27106968]><>" changed map to "emp_shadows_attacks"
+L 05/13/2017 - 02:24:44: [SM] Changed map to "emp_shadows_attacks"
+L 05/13/2017 - 02:24:46: -------- Mapchange to emp_shadows_attacks --------
+L 05/13/2017 - 03:07:53: [SM] Changed map to "con_district402"
+L 05/13/2017 - 03:07:53: -------- Mapchange to con_district402 --------
+L 05/13/2017 - 03:33:36: [SM] Changed map to "con_urbanchaos"
+L 05/13/2017 - 03:33:37: -------- Mapchange to con_urbanchaos --------
+L 05/13/2017 - 03:49:34: [SM] Changed map to "emp_crossroads"
+L 05/13/2017 - 03:49:35: -------- Mapchange to emp_crossroads --------
+L 05/13/2017 - 05:36:15: [SM] Changed map to "emp_drygulch_a6"
+L 05/13/2017 - 05:36:16: -------- Mapchange to emp_drygulch_a6 --------
+L 05/13/2017 - 14:32:03: [basecommands.smx] "Mr. X.<197><[U:1:27106968]><>" console command (cmdline "sm plugins refresh")
+L 05/13/2017 - 14:32:03: [basecommands.smx] "Mr. X.<197><[U:1:27106968]><>" console command (cmdline "sm plugins refresh")
+L 05/13/2017 - 14:32:29: SourceMod log file session started (file "L20170513.log") (Version "1.8.0.5912")
+L 05/13/2017 - 14:32:29: -------- Mapchange to con_district402 --------
+L 05/13/2017 - 14:34:00: SourceMod log file session started (file "L20170513.log") (Version "1.8.0.5912")
+L 05/13/2017 - 14:34:00: -------- Mapchange to con_district402 --------
+L 05/13/2017 - 15:02:00: [basecommands.smx] "Mr. X.<3><[U:1:27106968]><>" console command (cmdline "sm plugins refresh")
+L 05/13/2017 - 15:02:00: [basecommands.smx] "Mr. X.<3><[U:1:27106968]><>" console command (cmdline "sm plugins refresh")
+L 05/13/2017 - 15:02:46: SourceMod log file session started (file "L20170513.log") (Version "1.8.0.5912")
+L 05/13/2017 - 15:02:46: -------- Mapchange to con_district402 --------
+L 05/13/2017 - 15:12:04: [basecommands.smx] "Mr. X.<3><[U:1:27106968]><>" console command (cmdline "sm_advertisements_enabled 0")
+L 05/13/2017 - 15:30:10: [SM] Changed map to "emp_crossroads"
+L 05/13/2017 - 15:30:11: -------- Mapchange to emp_crossroads --------
+L 05/13/2017 - 15:39:47: [playercommands.smx] "Mr. X.<12><[U:1:27106968]><>" slayed "Black<9><[U:1:412810200]><>"
+L 05/13/2017 - 15:40:20: [basechat.smx] "Mr. X.<12><[U:1:27106968]><>" triggered sm_psay to "Black<9><[U:1:412810200]><>" (text you did not read the manual like I told you so the next one is a kick)
+L 05/13/2017 - 15:40:28: [basechat.smx] "Mr. X.<12><[U:1:27106968]><>" triggered sm_psay to "Black<9><[U:1:412810200]><>" (text don't steal vehicles!)
+L 05/13/2017 - 15:40:53: [basechat.smx] "Mr. X.<12><[U:1:27106968]><>" triggered sm_say (text Black you've been warned dude)
+L 05/13/2017 - 15:40:57: [basechat.smx] "Mr. X.<12><[U:1:27106968]><>" triggered sm_say (text do it again and it's a kick)
+L 05/13/2017 - 15:41:51: [playercommands.smx] "Mr. X.<12><[U:1:27106968]><>" slapped "Black<9><[U:1:412810200]><>" (damage "0")
+L 05/13/2017 - 15:43:41: [basecommands.smx] "Mr. X.<12><[U:1:27106968]><>" kicked "Black<9><[U:1:412810200]><>" (reason ""don't steal the CV"")
+L 05/13/2017 - 15:43:59: [basechat.smx] "Mr. X.<12><[U:1:27106968]><>" triggered sm_say (text next one is a ban dude)
+L 05/13/2017 - 15:45:17: [sbpp_main.smx] "Mr. X.<12><[U:1:27106968]><>" banned "Black<16><[U:1:412810200]><>" (minutes "5") (reason "don't steal vehicles")
+L 05/13/2017 - 15:56:09: [basechat.smx] "Mr. X.<12><[U:1:27106968]><>" triggered sm_psay to "|$m0k!n|-ThePunisher-<18><[U:1:15015679]><>" (text don't take the command vehicle)
+L 05/13/2017 - 15:56:16: [basechat.smx] "Mr. X.<12><[U:1:27106968]><>" triggered sm_psay to "|$m0k!n|-ThePunisher-<18><[U:1:15015679]><>" (text and read the manual)
+L 05/13/2017 - 15:56:29: [basechat.smx] "Mr. X.<12><[U:1:27106968]><>" triggered sm_psay to "|$m0k!n|-ThePunisher-<18><[U:1:15015679]><>" (text type !rtfm, please, read the manual)
+L 05/13/2017 - 15:57:08: [basechat.smx] "Mr. X.<12><[U:1:27106968]><>" triggered sm_psay to "|$m0k!n|-ThePunisher-<18><[U:1:15015679]><>" (text if you refuse to read the manual you forfeit the benefit of the doubt from admins)
+L 05/13/2017 - 16:51:12: [SM] Changed map to "emp_drygulch_a6"
+L 05/13/2017 - 16:51:12: -------- Mapchange to emp_drygulch_a6 --------
+L 05/13/2017 - 18:11:38: [basecommands.smx] "Mr. X.<26><[U:1:27106968]><>" console command (cmdline "emp_sv_vehicle_fadeout_time 3600")
+L 05/13/2017 - 18:11:47: [basecommands.smx] "Mr. X.<26><[U:1:27106968]><>" console command (cmdline "emp_sv_vehicle_JEEP_selfdestruct_time 3600")
+L 05/13/2017 - 18:11:55: [basecommands.smx] "Mr. X.<26><[U:1:27106968]><>" console command (cmdline "emp_sv_vehicle_AFV_selfdestruct_time 3600")
+L 05/13/2017 - 18:12:16: [basecommands.smx] "Mr. X.<26><[U:1:27106968]><>" console command (cmdline "emp_sv_vehicle_APC_selfdestruct_time 3600")
+L 05/13/2017 - 18:12:22: [basecommands.smx] "Mr. X.<26><[U:1:27106968]><>" console command (cmdline "emp_sv_vehicle_ARTY_selfdestruct_time 3600")
+L 05/13/2017 - 18:12:25: [basecommands.smx] "Mr. X.<26><[U:1:27106968]><>" console command (cmdline "emp_sv_vehicle_ARTY_selfdestruct_time")
+L 05/13/2017 - 18:12:35: [basecommands.smx] "Mr. X.<26><[U:1:27106968]><>" console command (cmdline "emp_sv_vehicle_HEAVY_selfdestruct_time 3600")
+L 05/13/2017 - 18:12:40: [basecommands.smx] "Mr. X.<26><[U:1:27106968]><>" console command (cmdline "emp_sv_vehicle_LT_selfdestruct_time 3600")
+L 05/13/2017 - 18:12:49: [basecommands.smx] "Mr. X.<26><[U:1:27106968]><>" console command (cmdline "emp_sv_vehicle_MED_selfdestruct_time 3600")
+L 05/13/2017 - 18:13:06: [basecommands.smx] "Mr. X.<26><[U:1:27106968]><>" console command (cmdline "emp_sv_max_vehicles 99")
+L 05/13/2017 - 19:51:19: [SM] Changed map to "emp_temple_b3a"
+L 05/13/2017 - 19:51:21: -------- Mapchange to emp_temple_b3a --------
+L 05/13/2017 - 20:13:11: [SM] Changed map to "emp_nuclear_b8u_xfix"
+L 05/13/2017 - 20:13:12: -------- Mapchange to emp_nuclear_b8u_xfix --------
+L 05/13/2017 - 20:31:51: [SM] Changed map to "emp_beachfront_b2"
+L 05/13/2017 - 20:31:52: -------- Mapchange to emp_beachfront_b2 --------
+L 05/13/2017 - 20:49:44: [SM] Changed map to "emp_flat_fix"
+L 05/13/2017 - 20:49:44: -------- Mapchange to emp_flat_fix --------
+L 05/13/2017 - 21:20:45: [SM] Changed map to "emp_downfall"
+L 05/13/2017 - 21:20:46: -------- Mapchange to emp_downfall --------
+L 05/13/2017 - 21:53:12: [basecommands.smx] "Mr. X.<72><[U:1:27106968]><>" console command (cmdline "sm plugins refresh")
+L 05/13/2017 - 21:53:13: [basecommands.smx] "Mr. X.<72><[U:1:27106968]><>" console command (cmdline "sm plugins refresh")
+L 05/13/2017 - 22:05:18: [basecommands.smx] "Mr. X.<72><[U:1:27106968]><>" console command (cmdline "sm plugins refresh")
+L 05/13/2017 - 22:05:19: [basecommands.smx] "Mr. X.<72><[U:1:27106968]><>" console command (cmdline "sm plugins refresh")
+L 05/13/2017 - 23:09:25: [basechat.smx] "Paradox<122><[U:1:23216004]><>" triggered sm_csay (text rtv)
+L 05/13/2017 - 23:12:54: [basechat.smx] "Mr. X.<72><[U:1:27106968]><>" triggered sm_say (text you have 12 minutes left to end it people)
+L 05/13/2017 - 23:22:02: [basechat.smx] "Mr. X.<72><[U:1:27106968]><>" triggered sm_say (text 3 minutes left)
+L 05/13/2017 - 23:23:46: [basechat.smx] "Mr. X.<72><[U:1:27106968]><>" triggered sm_say (text 1 minute left!)
+L 05/13/2017 - 23:24:00: [basechat.smx] "Paradox<122><[U:1:23216004]><>" triggered sm_say (text till we ban president donald j trump)
+L 05/13/2017 - 23:24:23: [basechat.smx] "Mr. X.<72><[U:1:27106968]><>" triggered sm_say (text last action NF)
+L 05/13/2017 - 23:25:05: [basechat.smx] "Mr. X.<72><[U:1:27106968]><>" triggered sm_say (text too late)
+L 05/13/2017 - 23:25:30: [basecommands.smx] "Mr. X.<72><[U:1:27106968]><>" console command (cmdline "emp_sv_enable_sudden_death 1")
+L 05/13/2017 - 23:27:36: [basechat.smx] "Paradox<122><[U:1:23216004]><>" triggered sm_say (text who wants to be captain next map)
+L 05/13/2017 - 23:27:56: [basecommands.smx] "Mr. X.<72><[U:1:27106968]><>" changed map to "emp_fury_rc1"
+L 05/13/2017 - 23:27:59: [SM] Changed map to "emp_fury_rc1"
+L 05/13/2017 - 23:28:00: -------- Mapchange to emp_fury_rc1 --------
+L 05/13/2017 - 23:29:41: [basechat.smx] "Paradox<122><[U:1:23216004]><>" triggered sm_say (text who wants to be other captain??)
+L 05/13/2017 - 23:29:42: [basechat.smx] "Paradox<122><[U:1:23216004]><>" triggered sm_say (text who wants to be other captain??)
+L 05/13/2017 - 23:29:45: [basechat.smx] "Paradox<122><[U:1:23216004]><>" triggered sm_say (text who wants to be other captain??)
+L 05/13/2017 - 23:29:47: [basechat.smx] "Paradox<122><[U:1:23216004]><>" triggered sm_say (text who wants to be other captain??)
+L 05/13/2017 - 23:29:48: [basechat.smx] "Paradox<122><[U:1:23216004]><>" triggered sm_say (text who wants to be other captain??)
+L 05/13/2017 - 23:30:38: [basecomm.smx] "[BE Capt] Mr. X.<72><[U:1:27106968]><>" muted "SourceTV - Auto-Recording<2><BOT><>"
+L 05/13/2017 - 23:30:38: [basecomm.smx] "[BE Capt] Mr. X.<72><[U:1:27106968]><>" muted ".|Ϟ|. Quigon<136><[U:1:5653485]><>"
+L 05/13/2017 - 23:30:38: [basecomm.smx] "[BE Capt] Mr. X.<72><[U:1:27106968]><>" muted "[BE Capt] Mr. X.<72><[U:1:27106968]><>"
+L 05/13/2017 - 23:30:38: [basecomm.smx] "[BE Capt] Mr. X.<72><[U:1:27106968]><>" muted "Steve_[UK]<101><[U:1:7600510]><>"
+L 05/13/2017 - 23:30:38: [basecomm.smx] "[BE Capt] Mr. X.<72><[U:1:27106968]><>" muted "Sir.DieALot<7><[U:1:249217]><>"
+L 05/13/2017 - 23:30:38: [basecomm.smx] "[BE Capt] Mr. X.<72><[U:1:27106968]><>" muted "Desert Yinglet<133><[U:1:52053844]><>"
+L 05/13/2017 - 23:30:38: [basecomm.smx] "[BE Capt] Mr. X.<72><[U:1:27106968]><>" muted "Dustbin<114><[U:1:23269756]><>"
+L 05/13/2017 - 23:30:38: [basecomm.smx] "[BE Capt] Mr. X.<72><[U:1:27106968]><>" muted "Mikleo<93><[U:1:376259319]><>"
+L 05/13/2017 - 23:30:38: [basecomm.smx] "[BE Capt] Mr. X.<72><[U:1:27106968]><>" muted "JOSETODOPE<63><[U:1:192167969]><>"
+L 05/13/2017 - 23:30:38: [basecomm.smx] "[BE Capt] Mr. X.<72><[U:1:27106968]><>" muted "Uninspired<86><[U:1:29103880]><>"
+L 05/13/2017 - 23:30:38: [basecomm.smx] "[BE Capt] Mr. X.<72><[U:1:27106968]><>" muted "Sarabi<134><[U:1:9882103]><>"
+L 05/13/2017 - 23:30:38: [basecomm.smx] "[BE Capt] Mr. X.<72><[U:1:27106968]><>" muted "rauer<65><[U:1:2546402]><>"
+L 05/13/2017 - 23:30:38: [basecomm.smx] "[BE Capt] Mr. X.<72><[U:1:27106968]><>" muted "The Elitist<95><[U:1:36574306]><>"
+L 05/13/2017 - 23:30:38: [basecomm.smx] "[BE Capt] Mr. X.<72><[U:1:27106968]><>" muted "estratoscopia<76><[U:1:182482273]><>"
+L 05/13/2017 - 23:30:38: [basecomm.smx] "[BE Capt] Mr. X.<72><[U:1:27106968]><>" muted "Decisively<125><[U:1:108425588]><>"
+L 05/13/2017 - 23:30:38: [basecomm.smx] "[BE Capt] Mr. X.<72><[U:1:27106968]><>" muted "P-MAN<97><[U:1:32966028]><>"
+L 05/13/2017 - 23:30:38: [basecomm.smx] "[BE Capt] Mr. X.<72><[U:1:27106968]><>" muted "Oktay<79><[U:1:116496292]><>"
+L 05/13/2017 - 23:30:38: [basecomm.smx] "[BE Capt] Mr. X.<72><[U:1:27106968]><>" muted "lanskii<80><[U:1:29248374]><>"
+L 05/13/2017 - 23:30:38: [basecomm.smx] "[BE Capt] Mr. X.<72><[U:1:27106968]><>" muted "VV<98><[U:1:5870260]><>"
+L 05/13/2017 - 23:30:38: [basecomm.smx] "[BE Capt] Mr. X.<72><[U:1:27106968]><>" muted "=F= MrBlueSky<99><[U:1:7486994]><>"
+L 05/13/2017 - 23:30:38: [basecomm.smx] "[BE Capt] Mr. X.<72><[U:1:27106968]><>" muted "xsEgo<84><[U:1:72025437]><>"
+L 05/13/2017 - 23:30:38: [basecomm.smx] "[BE Capt] Mr. X.<72><[U:1:27106968]><>" muted "ScardyBob<100><[U:1:21571057]><>"
+L 05/13/2017 - 23:30:38: [basecomm.smx] "[BE Capt] Mr. X.<72><[U:1:27106968]><>" muted "bambam<103><[U:1:99796655]><>"
+L 05/13/2017 - 23:30:38: [basecomm.smx] "[BE Capt] Mr. X.<72><[U:1:27106968]><>" muted "Justkidding<126><[U:1:2788022]><>"
+L 05/13/2017 - 23:30:38: [basecomm.smx] "[BE Capt] Mr. X.<72><[U:1:27106968]><>" muted "MooNLighT<108><[U:1:113713082]><>"
+L 05/13/2017 - 23:30:38: [basecomm.smx] "[BE Capt] Mr. X.<72><[U:1:27106968]><>" muted "raidurrr<135><[U:1:50823944]><>"
+L 05/13/2017 - 23:30:38: [basecomm.smx] "[BE Capt] Mr. X.<72><[U:1:27106968]><>" muted "DreamyMoon<111><[U:1:133938767]><>"
+L 05/13/2017 - 23:30:38: [basecomm.smx] "[BE Capt] Mr. X.<72><[U:1:27106968]><>" muted "Señor_Awesome<112><[U:1:34941040]><>"
+L 05/13/2017 - 23:30:38: [basecomm.smx] "[BE Capt] Mr. X.<72><[U:1:27106968]><>" muted ": ][CW][ : Silk<113><[U:1:262151]><>"
+L 05/13/2017 - 23:30:38: [basecomm.smx] "[BE Capt] Mr. X.<72><[U:1:27106968]><>" muted "[NF Capt] .|Ϟ|. Spike<115><[U:1:39029790]><>"
+L 05/13/2017 - 23:30:38: [basecomm.smx] "[BE Capt] Mr. X.<72><[U:1:27106968]><>" muted "Linko<116><[U:1:132000769]><>"
+L 05/13/2017 - 23:30:38: [basecomm.smx] "[BE Capt] Mr. X.<72><[U:1:27106968]><>" muted "‡|JPL|‡ [o_O] WTFace<117><[U:1:954351]><>"
+L 05/13/2017 - 23:30:38: [basecomm.smx] "[BE Capt] Mr. X.<72><[U:1:27106968]><>" muted "gunguy<118><[U:1:38743071]><>"
+L 05/13/2017 - 23:30:38: [basecomm.smx] "[BE Capt] Mr. X.<72><[U:1:27106968]><>" muted "brianfigu01<119><[U:1:194337936]><>"
+L 05/13/2017 - 23:30:38: [basecomm.smx] "[BE Capt] Mr. X.<72><[U:1:27106968]><>" muted "Terranfear<127><[U:1:15143294]><>"
+L 05/13/2017 - 23:30:38: [basecomm.smx] "[BE Capt] Mr. X.<72><[U:1:27106968]><>" muted "Paradox<122><[U:1:23216004]><>"
+L 05/13/2017 - 23:30:38: [basecomm.smx] "[BE Capt] Mr. X.<72><[U:1:27106968]><>" muted "Rightwing Extremist<123><[U:1:30436425]><>"
+L 05/13/2017 - 23:30:38: [basecomm.smx] "[BE Capt] Mr. X.<72><[U:1:27106968]><>" muted "President Donald J. Trump<124><[U:1:43692918]><>"
+L 05/13/2017 - 23:30:38: [basecomm.smx] "[BE Capt] Mr. X.<72><[U:1:27106968]><>" muted "[LG] HellHound<130><[U:1:64321029]><>"
+L 05/13/2017 - 23:30:42: [basecomm.smx] "[BE Capt] Mr. X.<72><[U:1:27106968]><>" unmuted "[BE Capt] Mr. X.<72><[U:1:27106968]><>"
+L 05/13/2017 - 23:30:44: [basecomm.smx] "[BE Capt] Mr. X.<72><[U:1:27106968]><>" unmuted "[NF Capt] .|Ϟ|. Spike<115><[U:1:39029790]><>"
+L 05/13/2017 - 23:31:06: [basecomm.smx] "Paradox<122><[U:1:23216004]><>" unmuted "Paradox<122><[U:1:23216004]><>"
+L 05/13/2017 - 23:31:09: [basecomm.smx] "Paradox<122><[U:1:23216004]><>" ungagged "Paradox<122><[U:1:23216004]><>"
+L 05/13/2017 - 23:37:19: [basecomm.smx] "Mr. X.<72><[U:1:27106968]><>" unmuted "SourceTV - Auto-Recording<2><BOT><>"
+L 05/13/2017 - 23:37:19: [basecomm.smx] "Mr. X.<72><[U:1:27106968]><>" unmuted ".|Ϟ|. Quigon<136><[U:1:5653485]><>"
+L 05/13/2017 - 23:37:19: [basecomm.smx] "Mr. X.<72><[U:1:27106968]><>" unmuted "Steve_[UK]<101><[U:1:7600510]><>"
+L 05/13/2017 - 23:37:19: [basecomm.smx] "Mr. X.<72><[U:1:27106968]><>" unmuted "Sir.DieALot<7><[U:1:249217]><>"
+L 05/13/2017 - 23:37:19: [basecomm.smx] "Mr. X.<72><[U:1:27106968]><>" unmuted "Desert Yinglet<133><[U:1:52053844]><>"
+L 05/13/2017 - 23:37:19: [basecomm.smx] "Mr. X.<72><[U:1:27106968]><>" unmuted "Dustbin<114><[U:1:23269756]><>"
+L 05/13/2017 - 23:37:19: [basecomm.smx] "Mr. X.<72><[U:1:27106968]><>" unmuted "Mikleo<93><[U:1:376259319]><>"
+L 05/13/2017 - 23:37:19: [basecomm.smx] "Mr. X.<72><[U:1:27106968]><>" unmuted "JOSETODOPE<63><[U:1:192167969]><>"
+L 05/13/2017 - 23:37:19: [basecomm.smx] "Mr. X.<72><[U:1:27106968]><>" unmuted "Uninspired<86><[U:1:29103880]><>"
+L 05/13/2017 - 23:37:19: [basecomm.smx] "Mr. X.<72><[U:1:27106968]><>" unmuted "Sarabi<134><[U:1:9882103]><>"
+L 05/13/2017 - 23:37:19: [basecomm.smx] "Mr. X.<72><[U:1:27106968]><>" unmuted "rauer<65><[U:1:2546402]><>"
+L 05/13/2017 - 23:37:19: [basecomm.smx] "Mr. X.<72><[U:1:27106968]><>" unmuted "The Elitist<95><[U:1:36574306]><>"
+L 05/13/2017 - 23:37:19: [basecomm.smx] "Mr. X.<72><[U:1:27106968]><>" unmuted "estratoscopia<76><[U:1:182482273]><>"
+L 05/13/2017 - 23:37:19: [basecomm.smx] "Mr. X.<72><[U:1:27106968]><>" unmuted "Decisively<125><[U:1:108425588]><>"
+L 05/13/2017 - 23:37:19: [basecomm.smx] "Mr. X.<72><[U:1:27106968]><>" unmuted "P-MAN<97><[U:1:32966028]><>"
+L 05/13/2017 - 23:37:19: [basecomm.smx] "Mr. X.<72><[U:1:27106968]><>" unmuted "Oktay<79><[U:1:116496292]><>"
+L 05/13/2017 - 23:37:19: [basecomm.smx] "Mr. X.<72><[U:1:27106968]><>" unmuted "lanskii<80><[U:1:29248374]><>"
+L 05/13/2017 - 23:37:19: [basecomm.smx] "Mr. X.<72><[U:1:27106968]><>" unmuted "VV<98><[U:1:5870260]><>"
+L 05/13/2017 - 23:37:19: [basecomm.smx] "Mr. X.<72><[U:1:27106968]><>" unmuted "=F= MrBlueSky<99><[U:1:7486994]><>"
+L 05/13/2017 - 23:37:19: [basecomm.smx] "Mr. X.<72><[U:1:27106968]><>" unmuted "xsEgo<84><[U:1:72025437]><>"
+L 05/13/2017 - 23:37:19: [basecomm.smx] "Mr. X.<72><[U:1:27106968]><>" unmuted "ScardyBob<100><[U:1:21571057]><>"
+L 05/13/2017 - 23:37:19: [basecomm.smx] "Mr. X.<72><[U:1:27106968]><>" unmuted "bambam<103><[U:1:99796655]><>"
+L 05/13/2017 - 23:37:19: [basecomm.smx] "Mr. X.<72><[U:1:27106968]><>" unmuted "Justkidding<126><[U:1:2788022]><>"
+L 05/13/2017 - 23:37:19: [basecomm.smx] "Mr. X.<72><[U:1:27106968]><>" unmuted "MooNLighT<108><[U:1:113713082]><>"
+L 05/13/2017 - 23:37:19: [basecomm.smx] "Mr. X.<72><[U:1:27106968]><>" unmuted "raidurrr<135><[U:1:50823944]><>"
+L 05/13/2017 - 23:37:19: [basecomm.smx] "Mr. X.<72><[U:1:27106968]><>" unmuted "DreamyMoon<111><[U:1:133938767]><>"
+L 05/13/2017 - 23:37:19: [basecomm.smx] "Mr. X.<72><[U:1:27106968]><>" unmuted "Señor_Awesome<112><[U:1:34941040]><>"
+L 05/13/2017 - 23:37:19: [basecomm.smx] "Mr. X.<72><[U:1:27106968]><>" unmuted ": ][CW][ : Silk<113><[U:1:262151]><>"
+L 05/13/2017 - 23:37:19: [basecomm.smx] "Mr. X.<72><[U:1:27106968]><>" unmuted "Linko<116><[U:1:132000769]><>"
+L 05/13/2017 - 23:37:19: [basecomm.smx] "Mr. X.<72><[U:1:27106968]><>" unmuted "‡|JPL|‡ [o_O] WTFace<117><[U:1:954351]><>"
+L 05/13/2017 - 23:37:19: [basecomm.smx] "Mr. X.<72><[U:1:27106968]><>" unmuted "gunguy<118><[U:1:38743071]><>"
+L 05/13/2017 - 23:37:19: [basecomm.smx] "Mr. X.<72><[U:1:27106968]><>" unmuted "brianfigu01<119><[U:1:194337936]><>"
+L 05/13/2017 - 23:37:19: [basecomm.smx] "Mr. X.<72><[U:1:27106968]><>" unmuted "Terranfear<127><[U:1:15143294]><>"
+L 05/13/2017 - 23:37:19: [basecomm.smx] "Mr. X.<72><[U:1:27106968]><>" unmuted "Rightwing Extremist<123><[U:1:30436425]><>"
+L 05/13/2017 - 23:37:19: [basecomm.smx] "Mr. X.<72><[U:1:27106968]><>" unmuted "President Donald J. Trump<124><[U:1:43692918]><>"
+L 05/13/2017 - 23:44:17: [basecommands.smx] "Mr. X.<72><[U:1:27106968]><>" console command (cmdline "emp_sv_refinery_multiplier")
+L 05/13/2017 - 23:44:22: [basecommands.smx] "Mr. X.<72><[U:1:27106968]><>" console command (cmdline "emp_sv_refinery_multiplier 2")

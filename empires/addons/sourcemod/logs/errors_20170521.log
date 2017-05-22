@@ -1,0 +1,85 @@
+L 05/21/2017 - 00:03:36: SourceMod error session started
+L 05/21/2017 - 00:03:36: Info (map "emp_forest_ob_2013") (file "errors_20170521.log")
+L 05/21/2017 - 00:03:36: [SM] Exception reported: Invalid timer handle b2950321 (error 3)
+L 05/21/2017 - 00:03:36: [SM] Blaming: umc-emp-mapvote.smx()
+L 05/21/2017 - 00:03:36: [SM] Call stack trace:
+L 05/21/2017 - 00:03:36: [SM]   [0] KillTimer
+L 05/21/2017 - 00:03:36: [SM]   [1] Line 686, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-emp-mapvote.sp::UMC_OnNextmapSet()
+L 05/21/2017 - 00:03:36: [SM]   [3] Call_Finish
+L 05/21/2017 - 00:03:36: [SM]   [4] Line 4834, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::DoMapChange()
+L 05/21/2017 - 00:03:36: [SM]   [5] Line 1767, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Native_UMCSetNextMap()
+L 05/21/2017 - 00:03:36: [SM]   [7] UMC_SetNextMap
+L 05/21/2017 - 00:03:36: [SM]   [8] Line 621, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-emp-mapvote.sp::DoRandomNextMap()
+L 05/21/2017 - 00:03:36: [SM]   [9] Line 606, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-emp-mapvote.sp::DoMapChangeFailSafe()
+L 05/21/2017 - 00:03:36: [SM]   [10] Line 722, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-emp-mapvote.sp::UMC_OnVoteFailed()
+L 05/21/2017 - 00:03:36: [SM]   [12] Call_Finish
+L 05/21/2017 - 00:03:36: [SM]   [13] Line 4796, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::VoteFailed()
+L 05/21/2017 - 00:03:36: [SM]   [14] Line 3507, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::VoteCancelled()
+L 05/21/2017 - 00:03:36: [SM]   [15] Line 1177, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Native_UMCVoteManagerCancel()
+L 05/21/2017 - 00:03:36: [SM]   [17] UMC_VoteManagerVoteCancelled
+L 05/21/2017 - 00:03:36: [SM]   [18] Line 2276, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_VoteMenu()
+L 05/21/2017 - 00:03:41: Error log file session closed.
+L 05/21/2017 - 01:14:04: SourceMod error session started
+L 05/21/2017 - 01:14:04: Info (map "emp_blast_ob1") (file "errors_20170521.log")
+L 05/21/2017 - 01:14:04: [SM] Exception reported: Invalid timer handle b73a0309 (error 3)
+L 05/21/2017 - 01:14:04: [SM] Blaming: umc-emp-mapvote.smx()
+L 05/21/2017 - 01:14:04: [SM] Call stack trace:
+L 05/21/2017 - 01:14:04: [SM]   [0] KillTimer
+L 05/21/2017 - 01:14:04: [SM]   [1] Line 686, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-emp-mapvote.sp::UMC_OnNextmapSet()
+L 05/21/2017 - 01:14:04: [SM]   [3] Call_Finish
+L 05/21/2017 - 01:14:04: [SM]   [4] Line 4834, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::DoMapChange()
+L 05/21/2017 - 01:14:04: [SM]   [5] Line 1767, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Native_UMCSetNextMap()
+L 05/21/2017 - 01:14:04: [SM]   [7] UMC_SetNextMap
+L 05/21/2017 - 01:14:04: [SM]   [8] Line 621, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-emp-mapvote.sp::DoRandomNextMap()
+L 05/21/2017 - 01:14:04: [SM]   [9] Line 606, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-emp-mapvote.sp::DoMapChangeFailSafe()
+L 05/21/2017 - 01:14:04: [SM]   [10] Line 722, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-emp-mapvote.sp::UMC_OnVoteFailed()
+L 05/21/2017 - 01:14:04: [SM]   [12] Call_Finish
+L 05/21/2017 - 01:14:04: [SM]   [13] Line 4796, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::VoteFailed()
+L 05/21/2017 - 01:14:04: [SM]   [14] Line 3507, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::VoteCancelled()
+L 05/21/2017 - 01:14:04: [SM]   [15] Line 1177, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Native_UMCVoteManagerCancel()
+L 05/21/2017 - 01:14:04: [SM]   [17] UMC_VoteManagerVoteCancelled
+L 05/21/2017 - 01:14:04: [SM]   [18] Line 2276, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_VoteMenu()
+L 05/21/2017 - 01:14:10: Error log file session closed.
+L 05/21/2017 - 18:10:05: SourceMod error session started
+L 05/21/2017 - 18:10:05: Info (map "emp_drygulch_a6") (file "errors_20170521.log")
+L 05/21/2017 - 18:10:05: [SM] Exception reported: Invalid edict (1 - 1)
+L 05/21/2017 - 18:10:05: [SM] Blaming: rg_ungrief.smx()
+L 05/21/2017 - 18:10:05: [SM] Call stack trace:
+L 05/21/2017 - 18:10:05: [SM]   [0] GetEdictClassname
+L 05/21/2017 - 18:10:05: [SM]   [1] Line 57, C:\Program Files (x86)\Steam\steamcmd\steamapps\common\Empires Dedicated Server\empires\addons\sourcemod\scripting\rg_ungrief.sp::UnGrief()
+L 05/21/2017 - 18:10:16: [SM] Exception reported: Invalid edict (1 - 1)
+L 05/21/2017 - 18:10:16: [SM] Blaming: rg_ungrief.smx()
+L 05/21/2017 - 18:10:16: [SM] Call stack trace:
+L 05/21/2017 - 18:10:16: [SM]   [0] GetEdictClassname
+L 05/21/2017 - 18:10:16: [SM]   [1] Line 57, C:\Program Files (x86)\Steam\steamcmd\steamapps\common\Empires Dedicated Server\empires\addons\sourcemod\scripting\rg_ungrief.sp::UnGrief()
+L 05/21/2017 - 18:10:27: [SM] Exception reported: Invalid edict (1 - 1)
+L 05/21/2017 - 18:10:27: [SM] Blaming: rg_ungrief.smx()
+L 05/21/2017 - 18:10:27: [SM] Call stack trace:
+L 05/21/2017 - 18:10:27: [SM]   [0] GetEdictClassname
+L 05/21/2017 - 18:10:27: [SM]   [1] Line 57, C:\Program Files (x86)\Steam\steamcmd\steamapps\common\Empires Dedicated Server\empires\addons\sourcemod\scripting\rg_ungrief.sp::UnGrief()
+L 05/21/2017 - 18:10:38: [SM] Exception reported: Invalid edict (1 - 1)
+L 05/21/2017 - 18:10:38: [SM] Blaming: rg_ungrief.smx()
+L 05/21/2017 - 18:10:38: [SM] Call stack trace:
+L 05/21/2017 - 18:10:38: [SM]   [0] GetEdictClassname
+L 05/21/2017 - 18:10:38: [SM]   [1] Line 57, C:\Program Files (x86)\Steam\steamcmd\steamapps\common\Empires Dedicated Server\empires\addons\sourcemod\scripting\rg_ungrief.sp::UnGrief()
+L 05/21/2017 - 18:10:49: [SM] Exception reported: Invalid edict (1 - 1)
+L 05/21/2017 - 18:10:49: [SM] Blaming: rg_ungrief.smx()
+L 05/21/2017 - 18:10:49: [SM] Call stack trace:
+L 05/21/2017 - 18:10:49: [SM]   [0] GetEdictClassname
+L 05/21/2017 - 18:10:49: [SM]   [1] Line 57, C:\Program Files (x86)\Steam\steamcmd\steamapps\common\Empires Dedicated Server\empires\addons\sourcemod\scripting\rg_ungrief.sp::UnGrief()
+L 05/21/2017 - 18:11:04: [SM] Exception reported: Invalid edict (1 - 1)
+L 05/21/2017 - 18:11:04: [SM] Blaming: rg_ungrief.smx()
+L 05/21/2017 - 18:11:04: [SM] Call stack trace:
+L 05/21/2017 - 18:11:04: [SM]   [0] GetEdictClassname
+L 05/21/2017 - 18:11:04: [SM]   [1] Line 57, C:\Program Files (x86)\Steam\steamcmd\steamapps\common\Empires Dedicated Server\empires\addons\sourcemod\scripting\rg_ungrief.sp::UnGrief()
+L 05/21/2017 - 18:11:19: [SM] Exception reported: Invalid edict (1 - 1)
+L 05/21/2017 - 18:11:19: [SM] Blaming: rg_ungrief.smx()
+L 05/21/2017 - 18:11:19: [SM] Call stack trace:
+L 05/21/2017 - 18:11:19: [SM]   [0] GetEdictClassname
+L 05/21/2017 - 18:11:19: [SM]   [1] Line 57, C:\Program Files (x86)\Steam\steamcmd\steamapps\common\Empires Dedicated Server\empires\addons\sourcemod\scripting\rg_ungrief.sp::UnGrief()
+L 05/21/2017 - 18:11:28: [SM] Exception reported: Invalid edict (1 - 1)
+L 05/21/2017 - 18:11:28: [SM] Blaming: rg_ungrief.smx()
+L 05/21/2017 - 18:11:28: [SM] Call stack trace:
+L 05/21/2017 - 18:11:28: [SM]   [0] GetEdictClassname
+L 05/21/2017 - 18:11:28: [SM]   [1] Line 57, C:\Program Files (x86)\Steam\steamcmd\steamapps\common\Empires Dedicated Server\empires\addons\sourcemod\scripting\rg_ungrief.sp::UnGrief()
+L 05/21/2017 - 22:55:22: Error log file session closed.

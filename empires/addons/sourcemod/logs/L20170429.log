@@ -1,0 +1,65 @@
+L 04/29/2017 - 00:03:36: SourceMod log file session started (file "L20170429.log") (Version "1.8.0.5912")
+L 04/29/2017 - 00:03:36: -------- Mapchange to con_district402 --------
+L 04/29/2017 - 00:04:05: [basecommands.smx] "Mr. X.<2><[U:1:27106968]><>" changed map to "emp_duststorm"
+L 04/29/2017 - 00:04:08: [SM] Changed map to "emp_duststorm"
+L 04/29/2017 - 00:04:09: -------- Mapchange to emp_duststorm --------
+L 04/29/2017 - 00:04:33: [basecommands.smx] "Mr. X.<2><[U:1:27106968]><>" console command (cmdline "emp_sv_refinery_multiplier")
+L 04/29/2017 - 13:04:09: [SM] Changed map to "emp_crossroads"
+L 04/29/2017 - 13:04:10: -------- Mapchange to emp_crossroads --------
+L 04/29/2017 - 13:45:20: [SM] Changed map to "con_urbanchaos"
+L 04/29/2017 - 13:45:22: -------- Mapchange to con_urbanchaos --------
+L 04/29/2017 - 14:02:13: [SM] Changed map to "emp_flat_fix"
+L 04/29/2017 - 14:02:13: -------- Mapchange to emp_flat_fix --------
+L 04/29/2017 - 15:01:50: [SM] Changed map to "emp_drygulch_a6"
+L 04/29/2017 - 15:01:51: -------- Mapchange to emp_drygulch_a6 --------
+L 04/29/2017 - 15:24:03: [SM] Changed map to "con_forestattack_a2"
+L 04/29/2017 - 15:24:03: -------- Mapchange to con_forestattack_a2 --------
+L 04/29/2017 - 16:23:03: [basecommands.smx] "Mr. X.<44><[U:1:27106968]><>" console command (cmdline "sm plugins refresh")
+L 04/29/2017 - 16:23:04: [basecommands.smx] "Mr. X.<44><[U:1:27106968]><>" console command (cmdline "sm plugins refresh")
+L 04/29/2017 - 17:37:06: SourceMod log file session started (file "L20170429.log") (Version "1.8.0.5912")
+L 04/29/2017 - 17:37:06: -------- Mapchange to con_district402 --------
+L 04/29/2017 - 17:38:05: [basecommands.smx] "Mr. X.<2><[U:1:27106968]><>" changed map to "emp_havoc_b1"
+L 04/29/2017 - 17:38:08: [SM] Changed map to "emp_havoc_b1"
+L 04/29/2017 - 17:38:09: -------- Mapchange to emp_havoc_b1 --------
+L 04/29/2017 - 17:42:28: [basecommands.smx] "Mr. X.<2><[U:1:27106968]><>" changed map to "emp_district402"
+L 04/29/2017 - 17:42:30: [SM] Changed map to "emp_district402"
+L 04/29/2017 - 17:42:31: -------- Mapchange to emp_district402 --------
+L 04/29/2017 - 17:51:13: [basecommands.smx] "Mr. X.<2><[U:1:27106968]><>" changed map to "con_district402"
+L 04/29/2017 - 17:51:16: [SM] Changed map to "con_district402"
+L 04/29/2017 - 17:51:17: -------- Mapchange to con_district402 --------
+L 04/29/2017 - 18:28:01: [basecommands.smx] "Mr. X.<2><[U:1:27106968]><>" console command (cmdline "sm_advertisements 0")
+L 04/29/2017 - 18:28:38: [basecommands.smx] "Mr. X.<2><[U:1:27106968]><>" console command (cmdline "sm_advertisements_enabled 0")
+L 04/29/2017 - 18:45:43: [basecommands.smx] "Mr. X.<2><[U:1:27106968]><>" console command (cmdline "tv_enable 1")
+L 04/29/2017 - 18:46:04: [basecommands.smx] "Mr. X.<2><[U:1:27106968]><>" console command (cmdline "tv_record 1")
+L 04/29/2017 - 18:47:43: [basecommands.smx] "Mr. X.<2><[U:1:27106968]><>" changed map to "con_district402"
+L 04/29/2017 - 18:47:46: [SM] Changed map to "con_district402"
+L 04/29/2017 - 18:47:46: -------- Mapchange to con_district402 --------
+L 04/29/2017 - 18:48:34: [basecommands.smx] "Mr. X.<2><[U:1:27106968]><>" console command (cmdline "tv_record test")
+L 04/29/2017 - 18:49:05: [basecommands.smx] "Mr. X.<2><[U:1:27106968]><>" console command (cmdline "tv_stoprecord")
+L 04/29/2017 - 18:50:37: [basecommands.smx] "Mr. X.<2><[U:1:27106968]><>" changed map to "con_district402"
+L 04/29/2017 - 18:50:40: [SM] Changed map to "con_district402"
+L 04/29/2017 - 18:50:40: -------- Mapchange to con_district402 --------
+L 04/29/2017 - 18:51:20: [basecommands.smx] "Mr. X.<2><[U:1:27106968]><>" changed map to "con_district402"
+L 04/29/2017 - 18:51:23: [SM] Changed map to "con_district402"
+L 04/29/2017 - 18:51:23: -------- Mapchange to con_district402 --------
+L 04/29/2017 - 19:12:12: [SM] Changed map to "emp_crossroads"
+L 04/29/2017 - 19:12:13: -------- Mapchange to emp_crossroads --------
+L 04/29/2017 - 19:18:40: [basechat.smx] "Mr. X.<17><[U:1:27106968]><>" triggered sm_say (text read the guide, newbies)
+L 04/29/2017 - 20:01:42: [playercommands.smx] "Mr. X.<17><[U:1:27106968]><>" slayed "ldohotaru<15><[U:1:358562395]><>"
+L 04/29/2017 - 20:03:57: [SM] Changed map to "emp_snowstorm_rc6"
+L 04/29/2017 - 20:03:58: -------- Mapchange to emp_snowstorm_rc6 --------
+L 04/29/2017 - 20:25:00: [SM] Changed map to "con_urbanchaos"
+L 04/29/2017 - 20:25:02: -------- Mapchange to con_urbanchaos --------
+L 04/29/2017 - 20:34:20: [basechat.smx] "Mr. X.<17><[U:1:27106968]><>" triggered sm_psay to "xsEgo<30><[U:1:72025437]><>" (text use the health box)
+L 04/29/2017 - 20:40:13: [SM] Changed map to "emp_nuclear_b8u_xfix"
+L 04/29/2017 - 20:40:13: -------- Mapchange to emp_nuclear_b8u_xfix --------
+L 04/29/2017 - 20:53:18: [basecomm.smx] "Mr. X.<17><[U:1:27106968]><>" gagged "agent  barack \ ϟ \ ϟ<45><[U:1:192997]><>"
+L 04/29/2017 - 21:23:36: [SM] Changed map to "emp_downfall"
+L 04/29/2017 - 21:23:36: -------- Mapchange to emp_downfall --------
+L 04/29/2017 - 22:27:43: [SM] Changed map to "emp_dune_ob1"
+L 04/29/2017 - 22:27:43: -------- Mapchange to emp_dune_ob1 --------
+L 04/29/2017 - 22:57:35: [SM] Changed map to "emp_duststorm"
+L 04/29/2017 - 22:57:35: -------- Mapchange to emp_duststorm --------
+L 04/29/2017 - 23:16:35: [SM] Changed map to "emp_homeland_b9"
+L 04/29/2017 - 23:16:36: -------- Mapchange to emp_homeland_b9 --------
+L 04/29/2017 - 23:53:10: [playercommands.smx] "Mr. X.<17><[U:1:27106968]><>" slayed "rinoceronteblanco<111><[U:1:259080899]><>"

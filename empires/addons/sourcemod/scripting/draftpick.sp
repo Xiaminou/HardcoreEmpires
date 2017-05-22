@@ -32,7 +32,7 @@ int stage = STAGE_DISABLED;
 #define TEAM_BE 1;
 
 
-ConVar cv_autobalance,cv_autoassign,dp_captain_vote_time,dp_pick_wait_time,dp_pick_initial_multiplier,dp_time_increment;
+ConVar cv_autobalance,cv_autoassign,dp_captain_vote_time,dp_pick_wait_time,dp_pick_initial_multiplier,dp_time_increment,dp_in_draft;
 
 // stores the clientids of the captains. 
 int captains[2];
@@ -105,11 +105,13 @@ public void OnPluginStart()
 	cv_autobalance = FindConVar("mp_autoteambalance");
 	cv_autoassign = FindConVar("emp_sv_forceautoassign");
 	
+	AddCommandListener(Command_Plugin_Version, "dp_version");
+	
 	dp_captain_vote_time = CreateConVar("dp_captain_vote_time", "100", "The time set in the captain vote stage");
 	dp_pick_wait_time = CreateConVar("dp_pick_wait_time", "50", "The time set in the pick wait stage");
 	dp_pick_initial_multiplier = CreateConVar("dp_pick_initial_multiplier", "2", "Amount of initial time given to each captain per player");
 	dp_time_increment = CreateConVar("dp_time_increment", "3", "The time increment given to each captain per player in the pick phase");
-	
+	dp_in_draft = CreateConVar("dp_in_draft", "0", "Notification of drafting. ignore");
 	// create the directory for the teams
 	CreateDirectory("addons/sourcemod/data/draftpick/teams",3);
 	CreateDirectory("addons/sourcemod/data/draftpick/autopick",3);	
@@ -990,6 +992,7 @@ void SetUpDraft()
 	// votetime may not have been called
 	if(!HasGameStarted())
 	{
+		dp_in_draft.IntValue = 1;
 		// make sure everyone is on nf
 		for (int i=1; i<=MaxClients; i++)
 		{
@@ -1044,6 +1047,7 @@ DraftEnded()
 		// just correct autobalance now
 		cv_autobalance.IntValue = 1;
 	}
+	dp_in_draft.IntValue = 0;
 	
 	// remove player prefixes
 	for (int i=1; i<=MaxClients; i++)
@@ -1784,12 +1788,13 @@ Stage_Game_Start()
 	VT_SetVoteTime(VT_GetOriginalVoteTime());
 	// may have to set timer for this. 
 	//cv_autoassign.IntValue = 1;
-	
+	dp_in_draft.IntValue = 2;
 }
 
 Stage_Game_End()
 {
 	cv_autoassign.IntValue = 0;
+	dp_in_draft.IntValue = 0;
 }
 Stage_Disabled_Start(int prevStage)
 {
@@ -2209,7 +2214,17 @@ public Action Command_SquadMode(int client, int args)
 	}
 	return Plugin_Handled;
 }
+// maybe use timer here to check it worked later idk. 
+public Action Command_Plugin_Version(client, const String:command[], args)
+{
+	if(!IsClientInGame(client))
+		return Plugin_Continue;
+	
+	PrintToConsole(client,"%s ",PluginVersion);
+	
 
+	return Plugin_Handled;
+}
 
 
 

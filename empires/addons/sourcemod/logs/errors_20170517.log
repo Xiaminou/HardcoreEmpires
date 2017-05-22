@@ -1,0 +1,16 @@
+L 05/17/2017 - 18:41:46: SourceMod error session started
+L 05/17/2017 - 18:41:46: Info (map "con_district402") (file "errors_20170517.log")
+L 05/17/2017 - 18:41:46: [SDKTOOLS] Invalid detour address passed - Disabling detour to prevent crashes
+L 05/17/2017 - 18:41:46: [SDKTOOLS] Failed to find PlayerRunCmd offset - OnPlayerRunCmd forward disabled.
+L 05/17/2017 - 18:41:48: [SM] Exception reported: Failed to connect to SourceBans DB, [2003]: Can't connect to MySQL server on 'localhost' (10061)
+L 05/17/2017 - 18:41:48: [SM] Blaming: sbpp_checker.smx()
+L 05/17/2017 - 18:41:48: [SM] Call stack trace:
+L 05/17/2017 - 18:41:48: [SM]   [0] SetFailState
+L 05/17/2017 - 18:41:48: [SM]   [1] Line 76, sbpp_checker.sp::OnDatabaseConnected()
+L 05/17/2017 - 18:41:50: [sbpp_sleuth.smx] SourceSleuth: Database connection error: [2003]: Can't connect to MySQL server on 'localhost' (10061)
+L 05/17/2017 - 18:41:53: [SM] Exception reported: Invalid Handle 0 (error: 4)
+L 05/17/2017 - 18:41:53: [SM] Blaming: empstats.smx()
+L 05/17/2017 - 18:41:53: [SM] Call stack trace:
+L 05/17/2017 - 18:41:53: [SM]   [0] ArrayList.Length.get
+L 05/17/2017 - 18:41:53: [SM]   [1] Line 438, empstats.sp::LoadStats()
+L 05/17/2017 - 18:41:53: [SM]   [2] Line 421, empstats.sp::Timer_PlayerJoin()

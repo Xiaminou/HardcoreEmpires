@@ -246,7 +246,6 @@
 			"max_players"	"52"
 		}
     }
-	
     "Infantry Maps"
     {
         "maps_invote"   "1"
@@ -261,7 +260,7 @@
 			"max_players"	"20"
 		}
 		
-		"con_urbanchaos"
+		"con_urbanchaos_fix"
 		{
 			"max_players"	"20"
 		}
@@ -276,7 +275,7 @@
 			"max_players"	"20"
 		}
 		
-		"emp_shadows_attacks"
+		"emp_shadows_attacks_fix"
 		{
 			"max_players"	"20"
 		}

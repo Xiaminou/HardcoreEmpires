@@ -241,7 +241,7 @@
 				"9"			"30"
 			}
 		}
-		"Research Multiplier"
+		"Research Multiplier (default: 1)"
 		{
 			"cmd"			"emp_sv_research_multiplier #1"
 			"admin"			"sm_cvar"
@@ -262,7 +262,7 @@
 				"9"			"40"
 			}
 		}
-		"Max Buildings (default: 48)"
+		"Max Buildings (default: 999)"
 		{
 			"cmd"			"emp_sv_max_buildings #1"
 			"admin"			"sm_cvar"
@@ -283,7 +283,7 @@
 				"9"			"160"
 			}
 		}
-		"Max Turrets (default: 32)"
+		"Max Turrets (default: 999)"
 		{
 			"cmd"			"emp_sv_max_turrets #1"
 			"admin"			"sm_cvar"
@@ -304,7 +304,7 @@
 				"9"			"144"
 			}
 		}
-		"Max Walls (default: 64)"
+		"Max Walls (default: 999)"
 		{
 			"cmd"			"emp_sv_max_walls #1"
 			"admin"			"sm_cvar"
@@ -325,7 +325,7 @@
 				"9"			"160"
 			}
 		}
-		"Max Vehicles (default: 16)"
+		"Max Vehicles (default: 99)"
 		{
 			"cmd"			"emp_sv_max_vehicles #1"
 			"admin"			"sm_cvar"
@@ -555,6 +555,12 @@
 		"Force Sudden Death"
 		{
 			"cmd"			"emp_sv_enable_sudden_death"
+			"admin"			"sm_cvar"
+			"execute"		"server"
+		}
+		"Scramble Teams"
+		{
+			"cmd"			"emp_scramble_teams"
 			"admin"			"sm_cvar"
 			"execute"		"server"
 		}

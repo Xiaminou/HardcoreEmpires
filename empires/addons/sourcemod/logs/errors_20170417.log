@@ -1,0 +1,133 @@
+L 04/17/2017 - 18:32:18: SourceMod error session started
+L 04/17/2017 - 18:32:18: Info (map "emp_district402") (file "errors_20170417.log")
+L 04/17/2017 - 18:32:18: [SDKTOOLS] Invalid detour address passed - Disabling detour to prevent crashes
+L 04/17/2017 - 18:32:18: [SDKTOOLS] Failed to find PlayerRunCmd offset - OnPlayerRunCmd forward disabled.
+L 04/17/2017 - 18:37:41: Error log file session closed.
+L 04/17/2017 - 19:26:05: SourceMod error session started
+L 04/17/2017 - 19:26:05: Info (map "emp_district402") (file "errors_20170417.log")
+L 04/17/2017 - 19:26:05: [SM] Exception reported: Invalid timer handle 7590221 (error 1)
+L 04/17/2017 - 19:26:05: [SM] Blaming: umc-emp-mapvote.smx()
+L 04/17/2017 - 19:26:05: [SM] Call stack trace:
+L 04/17/2017 - 19:26:05: [SM]   [0] KillTimer
+L 04/17/2017 - 19:26:05: [SM]   [1] Line 686, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-emp-mapvote.sp::UMC_OnNextmapSet()
+L 04/17/2017 - 19:26:05: [SM]   [3] Call_Finish
+L 04/17/2017 - 19:26:05: [SM]   [4] Line 4834, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::DoMapChange()
+L 04/17/2017 - 19:26:05: [SM]   [5] Line 4267, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteWinner()
+L 04/17/2017 - 19:26:05: [SM]   [6] Line 3819, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteWinner()
+L 04/17/2017 - 19:26:05: [SM]   [7] Line 3795, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteResults()
+L 04/17/2017 - 19:26:05: [SM]   [8] Line 1277, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Native_UMCVoteManagerComplete()
+L 04/17/2017 - 19:26:05: [SM]   [10] UMC_VoteManagerVoteCompleted
+L 04/17/2017 - 19:26:05: [SM]   [11] Line 2309, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteResults()
+L 04/17/2017 - 19:26:10: Error log file session closed.
+L 04/17/2017 - 20:23:07: SourceMod error session started
+L 04/17/2017 - 20:23:07: Info (map "emp_beachfront_b2") (file "errors_20170417.log")
+L 04/17/2017 - 20:23:07: [SM] Exception reported: Invalid timer handle 12c0025c (error 1)
+L 04/17/2017 - 20:23:07: [SM] Blaming: umc-emp-mapvote.smx()
+L 04/17/2017 - 20:23:07: [SM] Call stack trace:
+L 04/17/2017 - 20:23:07: [SM]   [0] KillTimer
+L 04/17/2017 - 20:23:07: [SM]   [1] Line 686, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-emp-mapvote.sp::UMC_OnNextmapSet()
+L 04/17/2017 - 20:23:07: [SM]   [3] Call_Finish
+L 04/17/2017 - 20:23:07: [SM]   [4] Line 4834, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::DoMapChange()
+L 04/17/2017 - 20:23:07: [SM]   [5] Line 4267, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteWinner()
+L 04/17/2017 - 20:23:07: [SM]   [6] Line 3819, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteWinner()
+L 04/17/2017 - 20:23:07: [SM]   [7] Line 3795, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteResults()
+L 04/17/2017 - 20:23:07: [SM]   [8] Line 1277, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Native_UMCVoteManagerComplete()
+L 04/17/2017 - 20:23:07: [SM]   [10] UMC_VoteManagerVoteCompleted
+L 04/17/2017 - 20:23:07: [SM]   [11] Line 2309, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteResults()
+L 04/17/2017 - 20:23:13: Error log file session closed.
+L 04/17/2017 - 20:53:06: SourceMod error session started
+L 04/17/2017 - 20:53:06: Info (map "emp_crossroads") (file "errors_20170417.log")
+L 04/17/2017 - 20:53:06: [SM] Exception reported: Invalid timer handle 203b025c (error 3)
+L 04/17/2017 - 20:53:06: [SM] Blaming: umc-emp-mapvote.smx()
+L 04/17/2017 - 20:53:06: [SM] Call stack trace:
+L 04/17/2017 - 20:53:06: [SM]   [0] KillTimer
+L 04/17/2017 - 20:53:06: [SM]   [1] Line 686, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-emp-mapvote.sp::UMC_OnNextmapSet()
+L 04/17/2017 - 20:53:06: [SM]   [3] Call_Finish
+L 04/17/2017 - 20:53:06: [SM]   [4] Line 4834, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::DoMapChange()
+L 04/17/2017 - 20:53:06: [SM]   [5] Line 4267, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteWinner()
+L 04/17/2017 - 20:53:06: [SM]   [6] Line 3819, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteWinner()
+L 04/17/2017 - 20:53:06: [SM]   [7] Line 3795, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteResults()
+L 04/17/2017 - 20:53:06: [SM]   [8] Line 1277, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Native_UMCVoteManagerComplete()
+L 04/17/2017 - 20:53:06: [SM]   [10] UMC_VoteManagerVoteCompleted
+L 04/17/2017 - 20:53:06: [SM]   [11] Line 2309, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteResults()
+L 04/17/2017 - 20:53:12: Error log file session closed.
+L 04/17/2017 - 21:13:14: SourceMod error session started
+L 04/17/2017 - 21:13:14: Info (map "emp_downfall") (file "errors_20170417.log")
+L 04/17/2017 - 21:13:14: [SM] Exception reported: Invalid timer handle 28750252 (error 1)
+L 04/17/2017 - 21:13:14: [SM] Blaming: umc-emp-mapvote.smx()
+L 04/17/2017 - 21:13:14: [SM] Call stack trace:
+L 04/17/2017 - 21:13:14: [SM]   [0] KillTimer
+L 04/17/2017 - 21:13:14: [SM]   [1] Line 686, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-emp-mapvote.sp::UMC_OnNextmapSet()
+L 04/17/2017 - 21:13:14: [SM]   [3] Call_Finish
+L 04/17/2017 - 21:13:14: [SM]   [4] Line 4834, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::DoMapChange()
+L 04/17/2017 - 21:13:14: [SM]   [5] Line 4267, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteWinner()
+L 04/17/2017 - 21:13:14: [SM]   [6] Line 3819, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteWinner()
+L 04/17/2017 - 21:13:14: [SM]   [7] Line 3795, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteResults()
+L 04/17/2017 - 21:13:14: [SM]   [8] Line 1277, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Native_UMCVoteManagerComplete()
+L 04/17/2017 - 21:13:14: [SM]   [10] UMC_VoteManagerVoteCompleted
+L 04/17/2017 - 21:13:14: [SM]   [11] Line 2309, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteResults()
+L 04/17/2017 - 21:13:21: Error log file session closed.
+L 04/17/2017 - 21:27:24: SourceMod error session started
+L 04/17/2017 - 21:27:24: Info (map "emp_urbanchaos") (file "errors_20170417.log")
+L 04/17/2017 - 21:27:24: [SM] Exception reported: Invalid timer handle 2e5d0276 (error 1)
+L 04/17/2017 - 21:27:24: [SM] Blaming: umc-emp-mapvote.smx()
+L 04/17/2017 - 21:27:24: [SM] Call stack trace:
+L 04/17/2017 - 21:27:24: [SM]   [0] KillTimer
+L 04/17/2017 - 21:27:24: [SM]   [1] Line 686, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-emp-mapvote.sp::UMC_OnNextmapSet()
+L 04/17/2017 - 21:27:24: [SM]   [3] Call_Finish
+L 04/17/2017 - 21:27:24: [SM]   [4] Line 4834, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::DoMapChange()
+L 04/17/2017 - 21:27:24: [SM]   [5] Line 4267, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteWinner()
+L 04/17/2017 - 21:27:24: [SM]   [6] Line 3819, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteWinner()
+L 04/17/2017 - 21:27:24: [SM]   [7] Line 3795, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteResults()
+L 04/17/2017 - 21:27:24: [SM]   [8] Line 1277, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Native_UMCVoteManagerComplete()
+L 04/17/2017 - 21:27:24: [SM]   [10] UMC_VoteManagerVoteCompleted
+L 04/17/2017 - 21:27:24: [SM]   [11] Line 2309, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteResults()
+L 04/17/2017 - 21:27:31: Error log file session closed.
+L 04/17/2017 - 21:47:28: SourceMod error session started
+L 04/17/2017 - 21:47:28: Info (map "emp_glycencity") (file "errors_20170417.log")
+L 04/17/2017 - 21:47:28: [SM] Exception reported: Invalid timer handle 2e5d0276 (error 1)
+L 04/17/2017 - 21:47:28: [SM] Blaming: umc-emp-mapvote.smx()
+L 04/17/2017 - 21:47:28: [SM] Call stack trace:
+L 04/17/2017 - 21:47:28: [SM]   [0] KillTimer
+L 04/17/2017 - 21:47:28: [SM]   [1] Line 686, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-emp-mapvote.sp::UMC_OnNextmapSet()
+L 04/17/2017 - 21:47:28: [SM]   [3] Call_Finish
+L 04/17/2017 - 21:47:28: [SM]   [4] Line 4834, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::DoMapChange()
+L 04/17/2017 - 21:47:29: [SM]   [5] Line 4267, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteWinner()
+L 04/17/2017 - 21:47:29: [SM]   [6] Line 3819, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteWinner()
+L 04/17/2017 - 21:47:29: [SM]   [7] Line 3765, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteResults()
+L 04/17/2017 - 21:47:29: [SM]   [8] Line 1277, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Native_UMCVoteManagerComplete()
+L 04/17/2017 - 21:47:29: [SM]   [10] UMC_VoteManagerVoteCompleted
+L 04/17/2017 - 21:47:29: [SM]   [11] Line 2309, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteResults()
+L 04/17/2017 - 21:47:37: Error log file session closed.
+L 04/17/2017 - 22:41:19: SourceMod error session started
+L 04/17/2017 - 22:41:19: Info (map "emp_massacred_rc1") (file "errors_20170417.log")
+L 04/17/2017 - 22:41:19: [SM] Exception reported: Invalid timer handle 4aba026c (error 3)
+L 04/17/2017 - 22:41:19: [SM] Blaming: umc-emp-mapvote.smx()
+L 04/17/2017 - 22:41:19: [SM] Call stack trace:
+L 04/17/2017 - 22:41:19: [SM]   [0] KillTimer
+L 04/17/2017 - 22:41:19: [SM]   [1] Line 686, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-emp-mapvote.sp::UMC_OnNextmapSet()
+L 04/17/2017 - 22:41:19: [SM]   [3] Call_Finish
+L 04/17/2017 - 22:41:19: [SM]   [4] Line 4834, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::DoMapChange()
+L 04/17/2017 - 22:41:19: [SM]   [5] Line 4267, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteWinner()
+L 04/17/2017 - 22:41:19: [SM]   [6] Line 3819, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteWinner()
+L 04/17/2017 - 22:41:19: [SM]   [7] Line 3795, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteResults()
+L 04/17/2017 - 22:41:19: [SM]   [8] Line 1277, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Native_UMCVoteManagerComplete()
+L 04/17/2017 - 22:41:19: [SM]   [10] UMC_VoteManagerVoteCompleted
+L 04/17/2017 - 22:41:19: [SM]   [11] Line 2309, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteResults()
+L 04/17/2017 - 22:41:24: Error log file session closed.
+L 04/17/2017 - 23:01:07: SourceMod error session started
+L 04/17/2017 - 23:01:07: Info (map "emp_beachfront_b2") (file "errors_20170417.log")
+L 04/17/2017 - 23:01:07: [SM] Exception reported: Invalid timer handle 5474027b (error 3)
+L 04/17/2017 - 23:01:07: [SM] Blaming: umc-emp-mapvote.smx()
+L 04/17/2017 - 23:01:07: [SM] Call stack trace:
+L 04/17/2017 - 23:01:07: [SM]   [0] KillTimer
+L 04/17/2017 - 23:01:07: [SM]   [1] Line 686, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-emp-mapvote.sp::UMC_OnNextmapSet()
+L 04/17/2017 - 23:01:07: [SM]   [3] Call_Finish
+L 04/17/2017 - 23:01:07: [SM]   [4] Line 4834, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::DoMapChange()
+L 04/17/2017 - 23:01:07: [SM]   [5] Line 4267, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteWinner()
+L 04/17/2017 - 23:01:07: [SM]   [6] Line 3819, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteWinner()
+L 04/17/2017 - 23:01:07: [SM]   [7] Line 3795, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteResults()
+L 04/17/2017 - 23:01:07: [SM]   [8] Line 1277, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Native_UMCVoteManagerComplete()
+L 04/17/2017 - 23:01:07: [SM]   [10] UMC_VoteManagerVoteCompleted
+L 04/17/2017 - 23:01:07: [SM]   [11] Line 2309, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteResults()
+L 04/17/2017 - 23:01:13: Error log file session closed.

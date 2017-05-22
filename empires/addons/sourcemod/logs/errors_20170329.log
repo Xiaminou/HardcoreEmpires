@@ -1,0 +1,48 @@
+L 03/29/2017 - 15:45:58: SourceMod error session started
+L 03/29/2017 - 15:45:58: Info (map "emp_district402") (file "errors_20170329.log")
+L 03/29/2017 - 15:45:58: [SDKTOOLS] Invalid detour address passed - Disabling detour to prevent crashes
+L 03/29/2017 - 15:45:58: [SM] Exception reported: Fatal error creating dynamic native!
+L 03/29/2017 - 15:45:58: [SM] Blaming: umc-endvote.smx()
+L 03/29/2017 - 15:45:58: [SM] Call stack trace:
+L 03/29/2017 - 15:45:58: [SM]   [0] CreateNative
+L 03/29/2017 - 15:45:58: [SM]   [1] Line 147, umc-endvote.sp::AskPluginLoad2()
+L 03/29/2017 - 15:45:58: [SM] Failed to load plugin "umc-endvote.smx": unexpected error 23 in AskPluginLoad callback.
+L 03/29/2017 - 15:45:58: [SDKTOOLS] Failed to find PlayerRunCmd offset - OnPlayerRunCmd forward disabled.
+L 03/29/2017 - 15:45:58: [SM] Fatal error encountered parsing translation file "maprate.phrases.txt"
+L 03/29/2017 - 15:45:58: [SM] Error (line 0, column 0): Stream failed to open
+L 03/29/2017 - 15:45:58: [SM] Exception reported: Database failure: Could not find Database conf "sourcebans"
+L 03/29/2017 - 15:45:58: [SM] Blaming: sourcebans.smx()
+L 03/29/2017 - 15:45:58: [SM] Call stack trace:
+L 03/29/2017 - 15:45:58: [SM]   [0] SetFailState
+L 03/29/2017 - 15:45:58: [SM]   [1] Line 206, sourcebans.sp::OnPluginStart()
+L 03/29/2017 - 15:45:58: [SM] Unable to load plugin "sourcebans.smx": Error detected in plugin startup (see error logs)
+L 03/29/2017 - 15:46:00: [maprate.smx] Error establishing database connection: [2003]: Can't connect to MySQL server on 'localhost' (10061)
+L 03/29/2017 - 15:46:00: [maprate.smx] FATAL: An error occurred while connecting to the database.
+L 03/29/2017 - 15:46:00: [SM] Exception reported: An error occurred while connecting to the database.
+L 03/29/2017 - 15:46:00: [SM] Blaming: maprate.smx()
+L 03/29/2017 - 15:46:00: [SM] Call stack trace:
+L 03/29/2017 - 15:46:00: [SM]   [0] SetFailState
+L 03/29/2017 - 15:46:00: [SM]   [1] Line 90, /home/forums/content/files/6/4/8/1/2/114450.attach::OnConfigsExecuted()
+L 03/29/2017 - 15:46:01: [umc-maprate-reweight.smx] Error establishing a database connection: [2003]: Can't connect to MySQL server on 'localhost' (10061)
+L 03/29/2017 - 20:07:12: [SM] Exception reported: Plugin not runnable
+L 03/29/2017 - 20:07:31: [SM] Exception reported: Plugin not runnable
+L 03/29/2017 - 20:07:32: Error log file session closed.
+L 03/29/2017 - 20:07:32: SourceMod error session started
+L 03/29/2017 - 20:07:32: Info (map "emp_crossroads") (file "errors_20170329.log")
+L 03/29/2017 - 20:07:32: [SM] Fatal error encountered parsing translation file "maprate.phrases.txt"
+L 03/29/2017 - 20:07:32: [SM] Error (line 0, column 0): Stream failed to open
+L 03/29/2017 - 20:07:32: [SM] Exception reported: Plugin not runnable
+L 03/29/2017 - 20:07:33: [maprate.smx] Error establishing database connection: [1049]: Unknown database 'sourcemod'
+L 03/29/2017 - 20:07:33: [maprate.smx] FATAL: An error occurred while connecting to the database.
+L 03/29/2017 - 20:07:33: [SM] Exception reported: An error occurred while connecting to the database.
+L 03/29/2017 - 20:07:33: [SM] Blaming: maprate.smx()
+L 03/29/2017 - 20:07:33: [SM] Call stack trace:
+L 03/29/2017 - 20:07:33: [SM]   [0] SetFailState
+L 03/29/2017 - 20:07:33: [SM]   [1] Line 90, /home/forums/content/files/6/4/8/1/2/114450.attach::OnConfigsExecuted()
+L 03/29/2017 - 20:07:33: [umc-maprate-reweight.smx] Error establishing a database connection: [1049]: Unknown database 'sourcemod'
+L 03/29/2017 - 20:07:41: [SM] Exception reported: Plugin not runnable
+L 03/29/2017 - 20:10:17: [SM] Exception reported: Plugin not runnable
+L 03/29/2017 - 20:16:54: [SM] Exception reported: Plugin not runnable
+L 03/29/2017 - 21:57:58: [SM] Exception reported: Plugin not runnable
+L 03/29/2017 - 21:57:58: [SM] Exception reported: Plugin not runnable
+L 03/29/2017 - 22:02:14: [SM] Exception reported: Plugin not runnable

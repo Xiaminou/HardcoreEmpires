@@ -1,0 +1,491 @@
+L 03/27/2017 - 19:55:55: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 19:55:55: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 19:56:29: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 19:59:39: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 19:59:39: Error log file session closed.
+L 03/27/2017 - 19:59:39: SourceMod error session started
+L 03/27/2017 - 19:59:39: Info (map "emp_homeland_b9") (file "errors_20170327.log")
+L 03/27/2017 - 19:59:39: [SM] Fatal error encountered parsing translation file "maprate.phrases.txt"
+L 03/27/2017 - 19:59:39: [SM] Error (line 0, column 0): Stream failed to open
+L 03/27/2017 - 19:59:39: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 19:59:40: [maprate.smx] Error establishing database connection: [1049]: Unknown database 'sourcemod'
+L 03/27/2017 - 19:59:40: [maprate.smx] FATAL: An error occurred while connecting to the database.
+L 03/27/2017 - 19:59:40: [SM] Exception reported: An error occurred while connecting to the database.
+L 03/27/2017 - 19:59:40: [SM] Blaming: maprate.smx()
+L 03/27/2017 - 19:59:40: [SM] Call stack trace:
+L 03/27/2017 - 19:59:40: [SM]   [0] SetFailState
+L 03/27/2017 - 19:59:40: [SM]   [1] Line 90, /home/forums/content/files/6/4/8/1/2/114450.attach::OnConfigsExecuted()
+L 03/27/2017 - 19:59:40: [umc-maprate-reweight.smx] Error establishing a database connection: [1049]: Unknown database 'sourcemod'
+L 03/27/2017 - 19:59:46: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 20:01:21: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 20:03:06: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 20:03:06: [SM] Blaming: teamswitch.smx()
+L 03/27/2017 - 20:03:06: [SM] Call stack trace:
+L 03/27/2017 - 20:03:06: [SM]   [0] ChangeClientTeam
+L 03/27/2017 - 20:03:06: [SM]   [1] Line 509, /home/forums/content/files/2/1/3/1/23850.attach::PerformSwitch()
+L 03/27/2017 - 20:03:06: [SM]   [2] Line 131, /home/forums/content/files/2/1/3/1/23850.attach::Command_SwitchImmed()
+L 03/27/2017 - 20:06:21: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 20:07:07: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 20:09:22: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 20:09:22: [SM] Blaming: teamswitch.smx()
+L 03/27/2017 - 20:09:22: [SM] Call stack trace:
+L 03/27/2017 - 20:09:22: [SM]   [0] ChangeClientTeam
+L 03/27/2017 - 20:09:22: [SM]   [1] Line 509, /home/forums/content/files/2/1/3/1/23850.attach::PerformSwitch()
+L 03/27/2017 - 20:09:22: [SM]   [2] Line 131, /home/forums/content/files/2/1/3/1/23850.attach::Command_SwitchImmed()
+L 03/27/2017 - 20:11:52: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 20:11:59: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 20:11:59: [SM] Blaming: teamswitch.smx()
+L 03/27/2017 - 20:11:59: [SM] Call stack trace:
+L 03/27/2017 - 20:11:59: [SM]   [0] ChangeClientTeam
+L 03/27/2017 - 20:11:59: [SM]   [1] Line 509, /home/forums/content/files/2/1/3/1/23850.attach::PerformSwitch()
+L 03/27/2017 - 20:11:59: [SM]   [2] Line 131, /home/forums/content/files/2/1/3/1/23850.attach::Command_SwitchImmed()
+L 03/27/2017 - 20:17:02: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 20:17:37: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 20:17:37: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 20:17:37: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 20:17:38: Error log file session closed.
+L 03/27/2017 - 20:17:38: SourceMod error session started
+L 03/27/2017 - 20:17:38: Info (map "emp_crossroads") (file "errors_20170327.log")
+L 03/27/2017 - 20:17:38: [SM] Fatal error encountered parsing translation file "maprate.phrases.txt"
+L 03/27/2017 - 20:17:38: [SM] Error (line 0, column 0): Stream failed to open
+L 03/27/2017 - 20:17:38: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 20:17:38: [maprate.smx] Error establishing database connection: [1049]: Unknown database 'sourcemod'
+L 03/27/2017 - 20:17:38: [maprate.smx] FATAL: An error occurred while connecting to the database.
+L 03/27/2017 - 20:17:38: [SM] Exception reported: An error occurred while connecting to the database.
+L 03/27/2017 - 20:17:38: [SM] Blaming: maprate.smx()
+L 03/27/2017 - 20:17:38: [SM] Call stack trace:
+L 03/27/2017 - 20:17:38: [SM]   [0] SetFailState
+L 03/27/2017 - 20:17:38: [SM]   [1] Line 90, /home/forums/content/files/6/4/8/1/2/114450.attach::OnConfigsExecuted()
+L 03/27/2017 - 20:17:38: [umc-maprate-reweight.smx] Error establishing a database connection: [1049]: Unknown database 'sourcemod'
+L 03/27/2017 - 20:17:41: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 20:17:49: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 20:17:57: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 20:27:26: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 20:35:38: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 20:36:10: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 20:36:10: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 20:36:11: Error log file session closed.
+L 03/27/2017 - 20:36:11: SourceMod error session started
+L 03/27/2017 - 20:36:11: Info (map "emp_homeland_b9") (file "errors_20170327.log")
+L 03/27/2017 - 20:36:11: [SM] Fatal error encountered parsing translation file "maprate.phrases.txt"
+L 03/27/2017 - 20:36:11: [SM] Error (line 0, column 0): Stream failed to open
+L 03/27/2017 - 20:36:11: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 20:36:11: [maprate.smx] Error establishing database connection: [1049]: Unknown database 'sourcemod'
+L 03/27/2017 - 20:36:11: [maprate.smx] FATAL: An error occurred while connecting to the database.
+L 03/27/2017 - 20:36:11: [SM] Exception reported: An error occurred while connecting to the database.
+L 03/27/2017 - 20:36:11: [SM] Blaming: maprate.smx()
+L 03/27/2017 - 20:36:11: [SM] Call stack trace:
+L 03/27/2017 - 20:36:11: [SM]   [0] SetFailState
+L 03/27/2017 - 20:36:11: [SM]   [1] Line 90, /home/forums/content/files/6/4/8/1/2/114450.attach::OnConfigsExecuted()
+L 03/27/2017 - 20:36:11: [umc-maprate-reweight.smx] Error establishing a database connection: [1049]: Unknown database 'sourcemod'
+L 03/27/2017 - 20:36:16: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 20:36:19: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 20:38:54: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 20:39:33: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 20:39:33: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 20:41:29: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 20:44:33: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 21:22:09: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 21:25:29: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 21:25:29: [SM] Blaming: adminmenu.smx()
+L 03/27/2017 - 21:25:29: [SM] Call stack trace:
+L 03/27/2017 - 21:25:29: [SM]   [0] TopMenu.Display
+L 03/27/2017 - 21:25:29: [SM]   [1] Line 195, D:\builds\build-sourcemod-msvc12\windows-1.8\build\plugins\adminmenu.sp::Command_DisplayMenu()
+L 03/27/2017 - 21:26:03: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 21:26:23: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 21:29:33: SourceMod error session started
+L 03/27/2017 - 21:29:33: Info (map "emp_district402") (file "errors_20170327.log")
+L 03/27/2017 - 21:29:33: [SDKTOOLS] Invalid detour address passed - Disabling detour to prevent crashes
+L 03/27/2017 - 21:29:33: [SM] Exception reported: Fatal error creating dynamic native!
+L 03/27/2017 - 21:29:33: [SM] Blaming: umc-endvote.smx()
+L 03/27/2017 - 21:29:33: [SM] Call stack trace:
+L 03/27/2017 - 21:29:33: [SM]   [0] CreateNative
+L 03/27/2017 - 21:29:33: [SM]   [1] Line 147, umc-endvote.sp::AskPluginLoad2()
+L 03/27/2017 - 21:29:33: [SM] Failed to load plugin "umc-endvote.smx": unexpected error 23 in AskPluginLoad callback.
+L 03/27/2017 - 21:29:33: [SDKTOOLS] Failed to find PlayerRunCmd offset - OnPlayerRunCmd forward disabled.
+L 03/27/2017 - 21:29:33: [SM] Fatal error encountered parsing translation file "maprate.phrases.txt"
+L 03/27/2017 - 21:29:33: [SM] Error (line 0, column 0): Stream failed to open
+L 03/27/2017 - 21:29:33: [SM] Exception reported: Database failure: Could not find Database conf "sourcebans"
+L 03/27/2017 - 21:29:33: [SM] Blaming: sourcebans.smx()
+L 03/27/2017 - 21:29:33: [SM] Call stack trace:
+L 03/27/2017 - 21:29:33: [SM]   [0] SetFailState
+L 03/27/2017 - 21:29:33: [SM]   [1] Line 206, sourcebans.sp::OnPluginStart()
+L 03/27/2017 - 21:29:33: [SM] Unable to load plugin "sourcebans.smx": Error detected in plugin startup (see error logs)
+L 03/27/2017 - 21:29:33: [maprate.smx] Error establishing database connection: [1049]: Unknown database 'sourcemod'
+L 03/27/2017 - 21:29:33: [maprate.smx] FATAL: An error occurred while connecting to the database.
+L 03/27/2017 - 21:29:33: [SM] Exception reported: An error occurred while connecting to the database.
+L 03/27/2017 - 21:29:33: [SM] Blaming: maprate.smx()
+L 03/27/2017 - 21:29:33: [SM] Call stack trace:
+L 03/27/2017 - 21:29:33: [SM]   [0] SetFailState
+L 03/27/2017 - 21:29:33: [SM]   [1] Line 90, /home/forums/content/files/6/4/8/1/2/114450.attach::OnConfigsExecuted()
+L 03/27/2017 - 21:29:34: [umc-maprate-reweight.smx] Error establishing a database connection: [1049]: Unknown database 'sourcemod'
+L 03/27/2017 - 21:29:49: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 21:29:56: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 21:29:57: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 21:29:57: [SM] Blaming: adminmenu.smx()
+L 03/27/2017 - 21:29:57: [SM] Call stack trace:
+L 03/27/2017 - 21:29:57: [SM]   [0] TopMenu.Display
+L 03/27/2017 - 21:29:57: [SM]   [1] Line 195, D:\builds\build-sourcemod-msvc12\windows-1.8\build\plugins\adminmenu.sp::Command_DisplayMenu()
+L 03/27/2017 - 21:29:59: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 21:29:59: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 21:30:15: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 21:30:15: Error log file session closed.
+L 03/27/2017 - 21:30:15: SourceMod error session started
+L 03/27/2017 - 21:30:15: Info (map "emp_research_1_2_2013") (file "errors_20170327.log")
+L 03/27/2017 - 21:30:15: [SM] Fatal error encountered parsing translation file "maprate.phrases.txt"
+L 03/27/2017 - 21:30:15: [SM] Error (line 0, column 0): Stream failed to open
+L 03/27/2017 - 21:30:15: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 21:30:16: [maprate.smx] Error establishing database connection: [1049]: Unknown database 'sourcemod'
+L 03/27/2017 - 21:30:16: [maprate.smx] FATAL: An error occurred while connecting to the database.
+L 03/27/2017 - 21:30:16: [SM] Exception reported: An error occurred while connecting to the database.
+L 03/27/2017 - 21:30:16: [SM] Blaming: maprate.smx()
+L 03/27/2017 - 21:30:16: [SM] Call stack trace:
+L 03/27/2017 - 21:30:16: [SM]   [0] SetFailState
+L 03/27/2017 - 21:30:16: [SM]   [1] Line 90, /home/forums/content/files/6/4/8/1/2/114450.attach::OnConfigsExecuted()
+L 03/27/2017 - 21:30:16: [umc-maprate-reweight.smx] Error establishing a database connection: [1049]: Unknown database 'sourcemod'
+L 03/27/2017 - 21:30:21: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 21:30:22: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 21:33:13: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 21:41:47: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 21:41:47: [SM] Blaming: adminmenu.smx()
+L 03/27/2017 - 21:41:47: [SM] Call stack trace:
+L 03/27/2017 - 21:41:47: [SM]   [0] TopMenu.Display
+L 03/27/2017 - 21:41:47: [SM]   [1] Line 195, D:\builds\build-sourcemod-msvc12\windows-1.8\build\plugins\adminmenu.sp::Command_DisplayMenu()
+L 03/27/2017 - 21:41:49: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 21:41:49: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 21:41:57: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 21:42:00: Error log file session closed.
+L 03/27/2017 - 21:42:00: SourceMod error session started
+L 03/27/2017 - 21:42:00: Info (map "emp_insurrection_rc4") (file "errors_20170327.log")
+L 03/27/2017 - 21:42:00: [SM] Fatal error encountered parsing translation file "maprate.phrases.txt"
+L 03/27/2017 - 21:42:00: [SM] Error (line 0, column 0): Stream failed to open
+L 03/27/2017 - 21:42:00: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 21:42:00: [maprate.smx] Error establishing database connection: [1049]: Unknown database 'sourcemod'
+L 03/27/2017 - 21:42:00: [maprate.smx] FATAL: An error occurred while connecting to the database.
+L 03/27/2017 - 21:42:00: [SM] Exception reported: An error occurred while connecting to the database.
+L 03/27/2017 - 21:42:00: [SM] Blaming: maprate.smx()
+L 03/27/2017 - 21:42:00: [SM] Call stack trace:
+L 03/27/2017 - 21:42:00: [SM]   [0] SetFailState
+L 03/27/2017 - 21:42:00: [SM]   [1] Line 90, /home/forums/content/files/6/4/8/1/2/114450.attach::OnConfigsExecuted()
+L 03/27/2017 - 21:42:00: [umc-maprate-reweight.smx] Error establishing a database connection: [1049]: Unknown database 'sourcemod'
+L 03/27/2017 - 21:42:10: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 21:42:26: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 21:43:48: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 21:44:20: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 21:45:20: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 21:45:20: [SM] Blaming: adminmenu.smx()
+L 03/27/2017 - 21:45:20: [SM] Call stack trace:
+L 03/27/2017 - 21:45:20: [SM]   [0] TopMenu.Display
+L 03/27/2017 - 21:45:20: [SM]   [1] Line 195, D:\builds\build-sourcemod-msvc12\windows-1.8\build\plugins\adminmenu.sp::Command_DisplayMenu()
+L 03/27/2017 - 21:45:22: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 21:45:22: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 21:45:42: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 21:45:43: Error log file session closed.
+L 03/27/2017 - 21:45:43: SourceMod error session started
+L 03/27/2017 - 21:45:43: Info (map "emp_snowbound_cl5") (file "errors_20170327.log")
+L 03/27/2017 - 21:45:43: [SM] Fatal error encountered parsing translation file "maprate.phrases.txt"
+L 03/27/2017 - 21:45:43: [SM] Error (line 0, column 0): Stream failed to open
+L 03/27/2017 - 21:45:43: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 21:45:43: [maprate.smx] Error establishing database connection: [1049]: Unknown database 'sourcemod'
+L 03/27/2017 - 21:45:43: [maprate.smx] FATAL: An error occurred while connecting to the database.
+L 03/27/2017 - 21:45:43: [SM] Exception reported: An error occurred while connecting to the database.
+L 03/27/2017 - 21:45:43: [SM] Blaming: maprate.smx()
+L 03/27/2017 - 21:45:43: [SM] Call stack trace:
+L 03/27/2017 - 21:45:43: [SM]   [0] SetFailState
+L 03/27/2017 - 21:45:43: [SM]   [1] Line 90, /home/forums/content/files/6/4/8/1/2/114450.attach::OnConfigsExecuted()
+L 03/27/2017 - 21:45:43: [umc-maprate-reweight.smx] Error establishing a database connection: [1049]: Unknown database 'sourcemod'
+L 03/27/2017 - 21:45:47: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 21:45:51: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 21:46:26: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 21:51:18: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 21:51:47: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 21:53:50: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 21:53:57: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 21:53:57: [SM] Blaming: adminmenu.smx()
+L 03/27/2017 - 21:53:57: [SM] Call stack trace:
+L 03/27/2017 - 21:53:57: [SM]   [0] TopMenu.Display
+L 03/27/2017 - 21:53:57: [SM]   [1] Line 195, D:\builds\build-sourcemod-msvc12\windows-1.8\build\plugins\adminmenu.sp::Command_DisplayMenu()
+L 03/27/2017 - 21:53:59: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 21:53:59: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 21:54:06: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 21:54:06: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 21:54:06: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 21:54:08: Error log file session closed.
+L 03/27/2017 - 21:54:08: SourceMod error session started
+L 03/27/2017 - 21:54:08: Info (map "emp_insurrection_rc4") (file "errors_20170327.log")
+L 03/27/2017 - 21:54:08: [SM] Fatal error encountered parsing translation file "maprate.phrases.txt"
+L 03/27/2017 - 21:54:08: [SM] Error (line 0, column 0): Stream failed to open
+L 03/27/2017 - 21:54:08: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 21:54:08: [maprate.smx] Error establishing database connection: [1049]: Unknown database 'sourcemod'
+L 03/27/2017 - 21:54:08: [maprate.smx] FATAL: An error occurred while connecting to the database.
+L 03/27/2017 - 21:54:08: [SM] Exception reported: An error occurred while connecting to the database.
+L 03/27/2017 - 21:54:08: [SM] Blaming: maprate.smx()
+L 03/27/2017 - 21:54:08: [SM] Call stack trace:
+L 03/27/2017 - 21:54:08: [SM]   [0] SetFailState
+L 03/27/2017 - 21:54:08: [SM]   [1] Line 90, /home/forums/content/files/6/4/8/1/2/114450.attach::OnConfigsExecuted()
+L 03/27/2017 - 21:54:08: [umc-maprate-reweight.smx] Error establishing a database connection: [1049]: Unknown database 'sourcemod'
+L 03/27/2017 - 21:54:16: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 21:54:17: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 21:54:23: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 21:55:19: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 21:55:28: SourceMod error session started
+L 03/27/2017 - 21:55:28: Info (map "emp_district402") (file "errors_20170327.log")
+L 03/27/2017 - 21:55:28: [SDKTOOLS] Invalid detour address passed - Disabling detour to prevent crashes
+L 03/27/2017 - 21:55:28: [SM] Exception reported: Fatal error creating dynamic native!
+L 03/27/2017 - 21:55:28: [SM] Blaming: umc-endvote.smx()
+L 03/27/2017 - 21:55:28: [SM] Call stack trace:
+L 03/27/2017 - 21:55:28: [SM]   [0] CreateNative
+L 03/27/2017 - 21:55:28: [SM]   [1] Line 147, umc-endvote.sp::AskPluginLoad2()
+L 03/27/2017 - 21:55:28: [SM] Failed to load plugin "umc-endvote.smx": unexpected error 23 in AskPluginLoad callback.
+L 03/27/2017 - 21:55:28: [SDKTOOLS] Failed to find PlayerRunCmd offset - OnPlayerRunCmd forward disabled.
+L 03/27/2017 - 21:55:28: [SM] Fatal error encountered parsing translation file "maprate.phrases.txt"
+L 03/27/2017 - 21:55:28: [SM] Error (line 0, column 0): Stream failed to open
+L 03/27/2017 - 21:55:28: [SM] Exception reported: Database failure: Could not find Database conf "sourcebans"
+L 03/27/2017 - 21:55:28: [SM] Blaming: sourcebans.smx()
+L 03/27/2017 - 21:55:28: [SM] Call stack trace:
+L 03/27/2017 - 21:55:28: [SM]   [0] SetFailState
+L 03/27/2017 - 21:55:28: [SM]   [1] Line 206, sourcebans.sp::OnPluginStart()
+L 03/27/2017 - 21:55:28: [SM] Unable to load plugin "sourcebans.smx": Error detected in plugin startup (see error logs)
+L 03/27/2017 - 21:55:29: [maprate.smx] Error establishing database connection: [1049]: Unknown database 'sourcemod'
+L 03/27/2017 - 21:55:29: [maprate.smx] FATAL: An error occurred while connecting to the database.
+L 03/27/2017 - 21:55:29: [SM] Exception reported: An error occurred while connecting to the database.
+L 03/27/2017 - 21:55:29: [SM] Blaming: maprate.smx()
+L 03/27/2017 - 21:55:29: [SM] Call stack trace:
+L 03/27/2017 - 21:55:29: [SM]   [0] SetFailState
+L 03/27/2017 - 21:55:29: [SM]   [1] Line 90, /home/forums/content/files/6/4/8/1/2/114450.attach::OnConfigsExecuted()
+L 03/27/2017 - 21:55:29: [umc-maprate-reweight.smx] Error establishing a database connection: [1049]: Unknown database 'sourcemod'
+L 03/27/2017 - 21:55:33: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 21:55:39: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 21:55:44: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 21:55:44: [SM] Blaming: adminmenu.smx()
+L 03/27/2017 - 21:55:44: [SM] Call stack trace:
+L 03/27/2017 - 21:55:44: [SM]   [0] TopMenu.Display
+L 03/27/2017 - 21:55:44: [SM]   [1] Line 195, D:\builds\build-sourcemod-msvc12\windows-1.8\build\plugins\adminmenu.sp::Command_DisplayMenu()
+L 03/27/2017 - 21:55:46: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 21:55:46: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 21:55:52: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 21:55:52: Error log file session closed.
+L 03/27/2017 - 21:55:52: SourceMod error session started
+L 03/27/2017 - 21:55:52: Info (map "emp_snowbound_cl5") (file "errors_20170327.log")
+L 03/27/2017 - 21:55:52: [SM] Fatal error encountered parsing translation file "maprate.phrases.txt"
+L 03/27/2017 - 21:55:52: [SM] Error (line 0, column 0): Stream failed to open
+L 03/27/2017 - 21:55:52: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 21:55:53: [maprate.smx] Error establishing database connection: [1049]: Unknown database 'sourcemod'
+L 03/27/2017 - 21:55:53: [maprate.smx] FATAL: An error occurred while connecting to the database.
+L 03/27/2017 - 21:55:53: [SM] Exception reported: An error occurred while connecting to the database.
+L 03/27/2017 - 21:55:53: [SM] Blaming: maprate.smx()
+L 03/27/2017 - 21:55:53: [SM] Call stack trace:
+L 03/27/2017 - 21:55:53: [SM]   [0] SetFailState
+L 03/27/2017 - 21:55:53: [SM]   [1] Line 90, /home/forums/content/files/6/4/8/1/2/114450.attach::OnConfigsExecuted()
+L 03/27/2017 - 21:55:53: [umc-maprate-reweight.smx] Error establishing a database connection: [1049]: Unknown database 'sourcemod'
+L 03/27/2017 - 21:55:56: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 21:55:58: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 22:02:04: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 22:03:01: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 22:03:01: [SM] Blaming: adminmenu.smx()
+L 03/27/2017 - 22:03:01: [SM] Call stack trace:
+L 03/27/2017 - 22:03:01: [SM]   [0] TopMenu.Display
+L 03/27/2017 - 22:03:01: [SM]   [1] Line 195, D:\builds\build-sourcemod-msvc12\windows-1.8\build\plugins\adminmenu.sp::Command_DisplayMenu()
+L 03/27/2017 - 22:03:34: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 22:03:34: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 22:03:44: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 22:03:45: Error log file session closed.
+L 03/27/2017 - 22:03:45: SourceMod error session started
+L 03/27/2017 - 22:03:45: Info (map "emp_frozensummit_b2_2013") (file "errors_20170327.log")
+L 03/27/2017 - 22:03:45: [SM] Fatal error encountered parsing translation file "maprate.phrases.txt"
+L 03/27/2017 - 22:03:45: [SM] Error (line 0, column 0): Stream failed to open
+L 03/27/2017 - 22:03:45: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 22:03:45: [maprate.smx] Error establishing database connection: [1049]: Unknown database 'sourcemod'
+L 03/27/2017 - 22:03:45: [maprate.smx] FATAL: An error occurred while connecting to the database.
+L 03/27/2017 - 22:03:45: [SM] Exception reported: An error occurred while connecting to the database.
+L 03/27/2017 - 22:03:45: [SM] Blaming: maprate.smx()
+L 03/27/2017 - 22:03:45: [SM] Call stack trace:
+L 03/27/2017 - 22:03:45: [SM]   [0] SetFailState
+L 03/27/2017 - 22:03:45: [SM]   [1] Line 90, /home/forums/content/files/6/4/8/1/2/114450.attach::OnConfigsExecuted()
+L 03/27/2017 - 22:03:45: [umc-maprate-reweight.smx] Error establishing a database connection: [1049]: Unknown database 'sourcemod'
+L 03/27/2017 - 22:03:49: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 22:03:51: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 22:03:54: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 22:03:56: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 22:03:56: [SM] Blaming: adminmenu.smx()
+L 03/27/2017 - 22:03:56: [SM] Call stack trace:
+L 03/27/2017 - 22:03:56: [SM]   [0] TopMenu.Display
+L 03/27/2017 - 22:03:56: [SM]   [1] Line 195, D:\builds\build-sourcemod-msvc12\windows-1.8\build\plugins\adminmenu.sp::Command_DisplayMenu()
+L 03/27/2017 - 22:03:56: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 22:03:56: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 22:04:06: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 22:04:06: Error log file session closed.
+L 03/27/2017 - 22:04:06: SourceMod error session started
+L 03/27/2017 - 22:04:06: Info (map "emp_snowstorm_rc6") (file "errors_20170327.log")
+L 03/27/2017 - 22:04:06: [SM] Fatal error encountered parsing translation file "maprate.phrases.txt"
+L 03/27/2017 - 22:04:06: [SM] Error (line 0, column 0): Stream failed to open
+L 03/27/2017 - 22:04:06: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 22:04:06: [maprate.smx] Error establishing database connection: [1049]: Unknown database 'sourcemod'
+L 03/27/2017 - 22:04:06: [maprate.smx] FATAL: An error occurred while connecting to the database.
+L 03/27/2017 - 22:04:06: [SM] Exception reported: An error occurred while connecting to the database.
+L 03/27/2017 - 22:04:06: [SM] Blaming: maprate.smx()
+L 03/27/2017 - 22:04:06: [SM] Call stack trace:
+L 03/27/2017 - 22:04:06: [SM]   [0] SetFailState
+L 03/27/2017 - 22:04:06: [SM]   [1] Line 90, /home/forums/content/files/6/4/8/1/2/114450.attach::OnConfigsExecuted()
+L 03/27/2017 - 22:04:06: [umc-maprate-reweight.smx] Error establishing a database connection: [1049]: Unknown database 'sourcemod'
+L 03/27/2017 - 22:04:10: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 22:04:18: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 22:04:27: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 22:04:29: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 22:04:48: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 22:04:48: [SM] Blaming: adminmenu.smx()
+L 03/27/2017 - 22:04:48: [SM] Call stack trace:
+L 03/27/2017 - 22:04:48: [SM]   [0] TopMenu.Display
+L 03/27/2017 - 22:04:48: [SM]   [1] Line 195, D:\builds\build-sourcemod-msvc12\windows-1.8\build\plugins\adminmenu.sp::Command_DisplayMenu()
+L 03/27/2017 - 22:04:49: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 22:04:49: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 22:04:58: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 22:04:58: Error log file session closed.
+L 03/27/2017 - 22:04:58: SourceMod error session started
+L 03/27/2017 - 22:04:58: Info (map "emp_research_1_2_2013") (file "errors_20170327.log")
+L 03/27/2017 - 22:04:58: [SM] Fatal error encountered parsing translation file "maprate.phrases.txt"
+L 03/27/2017 - 22:04:58: [SM] Error (line 0, column 0): Stream failed to open
+L 03/27/2017 - 22:04:58: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 22:04:58: [maprate.smx] Error establishing database connection: [1049]: Unknown database 'sourcemod'
+L 03/27/2017 - 22:04:58: [maprate.smx] FATAL: An error occurred while connecting to the database.
+L 03/27/2017 - 22:04:58: [SM] Exception reported: An error occurred while connecting to the database.
+L 03/27/2017 - 22:04:58: [SM] Blaming: maprate.smx()
+L 03/27/2017 - 22:04:58: [SM] Call stack trace:
+L 03/27/2017 - 22:04:58: [SM]   [0] SetFailState
+L 03/27/2017 - 22:04:58: [SM]   [1] Line 90, /home/forums/content/files/6/4/8/1/2/114450.attach::OnConfigsExecuted()
+L 03/27/2017 - 22:04:58: [umc-maprate-reweight.smx] Error establishing a database connection: [1049]: Unknown database 'sourcemod'
+L 03/27/2017 - 22:05:00: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 22:05:01: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 22:05:01: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 22:05:20: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 22:10:03: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 22:11:23: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 22:31:02: SourceMod error session started
+L 03/27/2017 - 22:31:02: Info (map "emp_district402") (file "errors_20170327.log")
+L 03/27/2017 - 22:31:02: [SDKTOOLS] Invalid detour address passed - Disabling detour to prevent crashes
+L 03/27/2017 - 22:31:02: [SM] Exception reported: Fatal error creating dynamic native!
+L 03/27/2017 - 22:31:02: [SM] Blaming: umc-endvote.smx()
+L 03/27/2017 - 22:31:02: [SM] Call stack trace:
+L 03/27/2017 - 22:31:02: [SM]   [0] CreateNative
+L 03/27/2017 - 22:31:02: [SM]   [1] Line 147, umc-endvote.sp::AskPluginLoad2()
+L 03/27/2017 - 22:31:02: [SM] Failed to load plugin "umc-endvote.smx": unexpected error 23 in AskPluginLoad callback.
+L 03/27/2017 - 22:31:02: [SDKTOOLS] Failed to find PlayerRunCmd offset - OnPlayerRunCmd forward disabled.
+L 03/27/2017 - 22:31:02: [SM] Fatal error encountered parsing translation file "maprate.phrases.txt"
+L 03/27/2017 - 22:31:02: [SM] Error (line 0, column 0): Stream failed to open
+L 03/27/2017 - 22:31:02: [SM] Exception reported: Database failure: Could not find Database conf "sourcebans"
+L 03/27/2017 - 22:31:02: [SM] Blaming: sourcebans.smx()
+L 03/27/2017 - 22:31:02: [SM] Call stack trace:
+L 03/27/2017 - 22:31:02: [SM]   [0] SetFailState
+L 03/27/2017 - 22:31:02: [SM]   [1] Line 206, sourcebans.sp::OnPluginStart()
+L 03/27/2017 - 22:31:02: [SM] Unable to load plugin "sourcebans.smx": Error detected in plugin startup (see error logs)
+L 03/27/2017 - 22:31:03: [maprate.smx] Error establishing database connection: [1049]: Unknown database 'sourcemod'
+L 03/27/2017 - 22:31:03: [maprate.smx] FATAL: An error occurred while connecting to the database.
+L 03/27/2017 - 22:31:03: [SM] Exception reported: An error occurred while connecting to the database.
+L 03/27/2017 - 22:31:03: [SM] Blaming: maprate.smx()
+L 03/27/2017 - 22:31:03: [SM] Call stack trace:
+L 03/27/2017 - 22:31:03: [SM]   [0] SetFailState
+L 03/27/2017 - 22:31:03: [SM]   [1] Line 90, /home/forums/content/files/6/4/8/1/2/114450.attach::OnConfigsExecuted()
+L 03/27/2017 - 22:31:03: [umc-maprate-reweight.smx] Error establishing a database connection: [1049]: Unknown database 'sourcemod'
+L 03/27/2017 - 22:31:50: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 22:31:55: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 22:31:55: [SM] Blaming: adminmenu.smx()
+L 03/27/2017 - 22:31:55: [SM] Call stack trace:
+L 03/27/2017 - 22:31:55: [SM]   [0] TopMenu.Display
+L 03/27/2017 - 22:31:55: [SM]   [1] Line 195, D:\builds\build-sourcemod-msvc12\windows-1.8\build\plugins\adminmenu.sp::Command_DisplayMenu()
+L 03/27/2017 - 22:31:56: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 22:31:56: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 22:32:02: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 22:32:02: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 22:32:08: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 22:32:10: Error log file session closed.
+L 03/27/2017 - 22:32:10: SourceMod error session started
+L 03/27/2017 - 22:32:10: Info (map "emp_insurrection_rc4") (file "errors_20170327.log")
+L 03/27/2017 - 22:32:10: [SM] Fatal error encountered parsing translation file "maprate.phrases.txt"
+L 03/27/2017 - 22:32:10: [SM] Error (line 0, column 0): Stream failed to open
+L 03/27/2017 - 22:32:10: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 22:32:11: [maprate.smx] Error establishing database connection: [1049]: Unknown database 'sourcemod'
+L 03/27/2017 - 22:32:11: [maprate.smx] FATAL: An error occurred while connecting to the database.
+L 03/27/2017 - 22:32:11: [SM] Exception reported: An error occurred while connecting to the database.
+L 03/27/2017 - 22:32:11: [SM] Blaming: maprate.smx()
+L 03/27/2017 - 22:32:11: [SM] Call stack trace:
+L 03/27/2017 - 22:32:11: [SM]   [0] SetFailState
+L 03/27/2017 - 22:32:11: [SM]   [1] Line 90, /home/forums/content/files/6/4/8/1/2/114450.attach::OnConfigsExecuted()
+L 03/27/2017 - 22:32:11: [umc-maprate-reweight.smx] Error establishing a database connection: [1049]: Unknown database 'sourcemod'
+L 03/27/2017 - 22:32:21: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 22:35:13: SourceMod error session started
+L 03/27/2017 - 22:35:13: Info (map "emp_district402") (file "errors_20170327.log")
+L 03/27/2017 - 22:35:13: [SDKTOOLS] Invalid detour address passed - Disabling detour to prevent crashes
+L 03/27/2017 - 22:35:13: [SM] Exception reported: Fatal error creating dynamic native!
+L 03/27/2017 - 22:35:13: [SM] Blaming: umc-endvote.smx()
+L 03/27/2017 - 22:35:13: [SM] Call stack trace:
+L 03/27/2017 - 22:35:13: [SM]   [0] CreateNative
+L 03/27/2017 - 22:35:13: [SM]   [1] Line 147, umc-endvote.sp::AskPluginLoad2()
+L 03/27/2017 - 22:35:13: [SM] Failed to load plugin "umc-endvote.smx": unexpected error 23 in AskPluginLoad callback.
+L 03/27/2017 - 22:35:13: [SDKTOOLS] Failed to find PlayerRunCmd offset - OnPlayerRunCmd forward disabled.
+L 03/27/2017 - 22:35:13: [SM] Fatal error encountered parsing translation file "maprate.phrases.txt"
+L 03/27/2017 - 22:35:13: [SM] Error (line 0, column 0): Stream failed to open
+L 03/27/2017 - 22:35:13: [SM] Exception reported: Database failure: Could not find Database conf "sourcebans"
+L 03/27/2017 - 22:35:13: [SM] Blaming: sourcebans.smx()
+L 03/27/2017 - 22:35:13: [SM] Call stack trace:
+L 03/27/2017 - 22:35:13: [SM]   [0] SetFailState
+L 03/27/2017 - 22:35:13: [SM]   [1] Line 206, sourcebans.sp::OnPluginStart()
+L 03/27/2017 - 22:35:13: [SM] Unable to load plugin "sourcebans.smx": Error detected in plugin startup (see error logs)
+L 03/27/2017 - 22:35:14: [maprate.smx] Error establishing database connection: [1049]: Unknown database 'sourcemod'
+L 03/27/2017 - 22:35:14: [maprate.smx] FATAL: An error occurred while connecting to the database.
+L 03/27/2017 - 22:35:14: [SM] Exception reported: An error occurred while connecting to the database.
+L 03/27/2017 - 22:35:14: [SM] Blaming: maprate.smx()
+L 03/27/2017 - 22:35:14: [SM] Call stack trace:
+L 03/27/2017 - 22:35:14: [SM]   [0] SetFailState
+L 03/27/2017 - 22:35:14: [SM]   [1] Line 90, /home/forums/content/files/6/4/8/1/2/114450.attach::OnConfigsExecuted()
+L 03/27/2017 - 22:35:14: [umc-maprate-reweight.smx] Error establishing a database connection: [1049]: Unknown database 'sourcemod'
+L 03/27/2017 - 22:35:56: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 22:36:22: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 22:36:22: [SM] Blaming: adminmenu.smx()
+L 03/27/2017 - 22:36:22: [SM] Call stack trace:
+L 03/27/2017 - 22:36:22: [SM]   [0] TopMenu.Display
+L 03/27/2017 - 22:36:22: [SM]   [1] Line 195, D:\builds\build-sourcemod-msvc12\windows-1.8\build\plugins\adminmenu.sp::Command_DisplayMenu()
+L 03/27/2017 - 22:36:22: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 22:36:22: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 22:36:29: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 22:36:31: Error log file session closed.
+L 03/27/2017 - 22:36:31: SourceMod error session started
+L 03/27/2017 - 22:36:31: Info (map "emp_insurrection_rc4") (file "errors_20170327.log")
+L 03/27/2017 - 22:36:31: [SM] Fatal error encountered parsing translation file "maprate.phrases.txt"
+L 03/27/2017 - 22:36:31: [SM] Error (line 0, column 0): Stream failed to open
+L 03/27/2017 - 22:36:31: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 22:36:32: [maprate.smx] Error establishing database connection: [1049]: Unknown database 'sourcemod'
+L 03/27/2017 - 22:36:32: [maprate.smx] FATAL: An error occurred while connecting to the database.
+L 03/27/2017 - 22:36:32: [SM] Exception reported: An error occurred while connecting to the database.
+L 03/27/2017 - 22:36:32: [SM] Blaming: maprate.smx()
+L 03/27/2017 - 22:36:32: [SM] Call stack trace:
+L 03/27/2017 - 22:36:32: [SM]   [0] SetFailState
+L 03/27/2017 - 22:36:32: [SM]   [1] Line 90, /home/forums/content/files/6/4/8/1/2/114450.attach::OnConfigsExecuted()
+L 03/27/2017 - 22:36:32: [umc-maprate-reweight.smx] Error establishing a database connection: [1049]: Unknown database 'sourcemod'
+L 03/27/2017 - 22:36:41: [SM] Exception reported: Plugin not runnable
+L 03/27/2017 - 23:55:24: SourceMod error session started
+L 03/27/2017 - 23:55:24: Info (map "emp_district402") (file "errors_20170327.log")
+L 03/27/2017 - 23:55:24: [SDKTOOLS] Invalid detour address passed - Disabling detour to prevent crashes
+L 03/27/2017 - 23:55:24: [SM] Exception reported: Fatal error creating dynamic native!
+L 03/27/2017 - 23:55:24: [SM] Blaming: umc-endvote.smx()
+L 03/27/2017 - 23:55:24: [SM] Call stack trace:
+L 03/27/2017 - 23:55:24: [SM]   [0] CreateNative
+L 03/27/2017 - 23:55:24: [SM]   [1] Line 147, umc-endvote.sp::AskPluginLoad2()
+L 03/27/2017 - 23:55:24: [SM] Failed to load plugin "umc-endvote.smx": unexpected error 23 in AskPluginLoad callback.
+L 03/27/2017 - 23:55:24: [SDKTOOLS] Failed to find PlayerRunCmd offset - OnPlayerRunCmd forward disabled.
+L 03/27/2017 - 23:55:24: [SM] Fatal error encountered parsing translation file "maprate.phrases.txt"
+L 03/27/2017 - 23:55:24: [SM] Error (line 0, column 0): Stream failed to open
+L 03/27/2017 - 23:55:24: [SM] Exception reported: Database failure: Could not find Database conf "sourcebans"
+L 03/27/2017 - 23:55:24: [SM] Blaming: sourcebans.smx()
+L 03/27/2017 - 23:55:24: [SM] Call stack trace:
+L 03/27/2017 - 23:55:24: [SM]   [0] SetFailState
+L 03/27/2017 - 23:55:24: [SM]   [1] Line 206, sourcebans.sp::OnPluginStart()
+L 03/27/2017 - 23:55:24: [SM] Unable to load plugin "sourcebans.smx": Error detected in plugin startup (see error logs)
+L 03/27/2017 - 23:55:26: [maprate.smx] Error establishing database connection: [1049]: Unknown database 'sourcemod'
+L 03/27/2017 - 23:55:26: [maprate.smx] FATAL: An error occurred while connecting to the database.
+L 03/27/2017 - 23:55:26: [SM] Exception reported: An error occurred while connecting to the database.
+L 03/27/2017 - 23:55:26: [SM] Blaming: maprate.smx()
+L 03/27/2017 - 23:55:26: [SM] Call stack trace:
+L 03/27/2017 - 23:55:26: [SM]   [0] SetFailState
+L 03/27/2017 - 23:55:26: [SM]   [1] Line 90, /home/forums/content/files/6/4/8/1/2/114450.attach::OnConfigsExecuted()
+L 03/27/2017 - 23:55:26: [umc-maprate-reweight.smx] Error establishing a database connection: [1049]: Unknown database 'sourcemod'
+L 03/27/2017 - 23:57:43: [SM] Exception reported: Plugin not runnable

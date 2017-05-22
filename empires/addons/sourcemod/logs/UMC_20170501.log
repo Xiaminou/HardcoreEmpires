@@ -1,0 +1,291 @@
+L 05/01/2017 - 00:00:52: [umc-playercountmonitor.smx] Server is now watching for inproper number of players.
+L 05/01/2017 - 00:07:06: [umc-nominate.smx] hgluzowski wants to nominate a map.
+L 05/01/2017 - 00:07:22: [umc-nominate.smx] hgluzowski wants to nominate a map.
+L 05/01/2017 - 00:07:34: [umc-nominate.smx] hgluzowski has nominated 'emp_homeland_b9' from group 'Commander Maps'
+L 05/01/2017 - 00:35:21: [umc-nominate.smx] Uninspired wants to nominate a map.
+L 05/01/2017 - 00:35:34: [umc-nominate.smx] Uninspired has nominated 'emp_duststorm' from group 'Commander Maps'
+L 05/01/2017 - 01:18:06: [umc-nominate.smx] Dragolich wants to nominate a map.
+L 05/01/2017 - 01:18:21: [umc-nominate.smx] Dragolich wants to nominate a map.
+L 05/01/2017 - 01:18:42: [umc-nominate.smx] Dragolich has nominated 'emp_mesa_d6' from group 'Commander Maps'
+L 05/01/2017 - 01:21:16: [umc-emp-mapvote.smx] Map vote will appear in 1 seconds.
+L 05/01/2017 - 01:21:17: [umc-emp-mapvote.smx] Starting a map vote.
+L 05/01/2017 - 01:21:17: [umc-core.smx] Initiating Vote Type: Map
+L 05/01/2017 - 01:21:56: [umc-core.smx] RUNOFF: Starting runoff vote.
+L 05/01/2017 - 01:21:56: [umc-core.smx] Initiating Vote Type: Map
+L 05/01/2017 - 01:22:26: [umc-core.smx] Setting nextmap to: emp_mesa_d6
+L 05/01/2017 - 01:22:26: [umc-randomcycle.smx] Disabling random nextmap selection.
+L 05/01/2017 - 01:22:26: [umc-core.smx] umc-emp-mapvote.smx: Changing map to 'emp_mesa_d6' in 5 seconds.
+L 05/01/2017 - 01:22:26: [umc-core.smx] MAPVOTE: Players voted for map 'emp_mesa_d6' from group 'Commander Maps'
+L 05/01/2017 - 01:22:33: [umc-core.smx] ---------------------MAP CHANGE: emp_mesa_d6---------------------
+L 05/01/2017 - 01:22:33: [umc-endvote-warnings.smx] Successfully parsed and set up 11 vote warnings.
+L 05/01/2017 - 01:22:33: [umc-playercountmonitor.smx] Min Players: 26, Max Players: 52
+L 05/01/2017 - 01:22:33: [umc-playercountmonitor.smx] Server will begin watching for inproper number of players in 240 seconds.
+L 05/01/2017 - 01:22:33: [umc-rockthevote.smx] RTV is now available.
+L 05/01/2017 - 01:23:19: [umc-nominate.smx] Axeman wants to nominate a map.
+L 05/01/2017 - 01:23:30: [umc-nominate.smx] JK wants to nominate a map.
+L 05/01/2017 - 01:23:37: [umc-nominate.smx] JK has nominated 'emp_downfall' from group 'Commander Maps'
+L 05/01/2017 - 01:23:48: [umc-nominate.smx] Axeman has nominated 'emp_flat_fix' from group 'Commander Maps'
+L 05/01/2017 - 01:25:37: [umc-nominate.smx] Sir.DieALot wants to nominate a map.
+L 05/01/2017 - 01:25:59: [umc-nominate.smx] Sir.DieALot wants to nominate a map.
+L 05/01/2017 - 01:26:07: [umc-nominate.smx] Sir.DieALot has nominated 'emp_crossroads' from group 'Commander Maps'
+L 05/01/2017 - 01:26:33: [umc-playercountmonitor.smx] Server is now watching for inproper number of players.
+L 05/01/2017 - 01:28:11: [umc-nominate.smx] Aranjedeath wants to nominate a map.
+L 05/01/2017 - 01:30:13: [umc-nominate.smx] Axeman wants to nominate a map.
+L 05/01/2017 - 01:30:17: [umc-nominate.smx] Axeman has nominated 'con_urbanchaos' from group 'Infantry Maps'
+L 05/01/2017 - 01:30:21: [umc-nominate.smx] Axeman wants to nominate a map.
+L 05/01/2017 - 01:46:12: [umc-emp-mapvote.smx] Map vote will appear in 1 seconds.
+L 05/01/2017 - 01:46:13: [umc-emp-mapvote.smx] Starting a map vote.
+L 05/01/2017 - 01:46:13: [umc-core.smx] Initiating Vote Type: Map
+L 05/01/2017 - 01:46:51: [umc-core.smx] RUNOFF: Starting runoff vote.
+L 05/01/2017 - 01:46:51: [umc-core.smx] Initiating Vote Type: Map
+L 05/01/2017 - 01:47:22: [umc-core.smx] Setting nextmap to: emp_crossroads
+L 05/01/2017 - 01:47:22: [umc-randomcycle.smx] Disabling random nextmap selection.
+L 05/01/2017 - 01:47:22: [umc-core.smx] umc-emp-mapvote.smx: Changing map to 'emp_crossroads' in 5 seconds.
+L 05/01/2017 - 01:47:22: [umc-core.smx] MAPVOTE: Players voted for map 'emp_crossroads' from group 'Commander Maps'
+L 05/01/2017 - 01:47:28: [umc-core.smx] ---------------------MAP CHANGE: emp_crossroads---------------------
+L 05/01/2017 - 01:47:28: [umc-endvote-warnings.smx] Successfully parsed and set up 11 vote warnings.
+L 05/01/2017 - 01:47:28: [umc-playercountmonitor.smx] Min Players: 0, Max Players: 22
+L 05/01/2017 - 01:47:28: [umc-playercountmonitor.smx] Server will begin watching for inproper number of players in 240 seconds.
+L 05/01/2017 - 01:47:28: [umc-rockthevote.smx] RTV is now available.
+L 05/01/2017 - 01:51:28: [umc-playercountmonitor.smx] Server is now watching for inproper number of players.
+L 05/01/2017 - 02:01:36: [umc-nominate.smx] Uninspired wants to nominate a map.
+L 05/01/2017 - 02:01:47: [umc-nominate.smx] Uninspired has nominated 'emp_snowstorm_rc6' from group 'Commander Maps'
+L 05/01/2017 - 02:08:13: [umc-emp-mapvote.smx] Map vote will appear in 1 seconds.
+L 05/01/2017 - 02:08:14: [umc-emp-mapvote.smx] Starting a map vote.
+L 05/01/2017 - 02:08:14: [umc-core.smx] Initiating Vote Type: Map
+L 05/01/2017 - 02:08:45: [umc-core.smx] Setting nextmap to: emp_canyon
+L 05/01/2017 - 02:08:45: [umc-randomcycle.smx] Disabling random nextmap selection.
+L 05/01/2017 - 02:08:45: [umc-core.smx] umc-emp-mapvote.smx: Changing map to 'emp_canyon' in 5 seconds.
+L 05/01/2017 - 02:08:45: [umc-core.smx] MAPVOTE: Players voted for map 'emp_canyon' from group 'Commander Maps'
+L 05/01/2017 - 02:08:51: [umc-core.smx] ---------------------MAP CHANGE: emp_canyon---------------------
+L 05/01/2017 - 02:08:51: [umc-endvote-warnings.smx] Successfully parsed and set up 11 vote warnings.
+L 05/01/2017 - 02:08:51: [umc-playercountmonitor.smx] Min Players: 14, Max Players: 32
+L 05/01/2017 - 02:08:51: [umc-playercountmonitor.smx] Server will begin watching for inproper number of players in 240 seconds.
+L 05/01/2017 - 02:08:51: [umc-rockthevote.smx] RTV is now available.
+L 05/01/2017 - 02:12:51: [umc-playercountmonitor.smx] Server is now watching for inproper number of players.
+L 05/01/2017 - 02:40:07: [umc-emp-mapvote.smx] Map vote will appear in 1 seconds.
+L 05/01/2017 - 02:40:08: [umc-emp-mapvote.smx] Starting a map vote.
+L 05/01/2017 - 02:40:08: [umc-core.smx] Initiating Vote Type: Map
+L 05/01/2017 - 02:40:47: [umc-core.smx] RUNOFF: Starting runoff vote.
+L 05/01/2017 - 02:40:47: [umc-core.smx] Initiating Vote Type: Map
+L 05/01/2017 - 02:41:18: [umc-core.smx] Setting nextmap to: emp_snowstorm_rc6
+L 05/01/2017 - 02:41:18: [umc-randomcycle.smx] Disabling random nextmap selection.
+L 05/01/2017 - 02:41:18: [umc-core.smx] umc-emp-mapvote.smx: Changing map to 'emp_snowstorm_rc6' in 5 seconds.
+L 05/01/2017 - 02:41:18: [umc-core.smx] MAPVOTE: Players voted for map 'emp_snowstorm_rc6' from group 'Commander Maps'
+L 05/01/2017 - 02:41:24: [umc-core.smx] ---------------------MAP CHANGE: emp_snowstorm_rc6---------------------
+L 05/01/2017 - 02:41:24: [umc-endvote-warnings.smx] Successfully parsed and set up 11 vote warnings.
+L 05/01/2017 - 02:41:24: [umc-playercountmonitor.smx] Min Players: 14, Max Players: 32
+L 05/01/2017 - 02:41:24: [umc-playercountmonitor.smx] Server will begin watching for inproper number of players in 240 seconds.
+L 05/01/2017 - 02:41:24: [umc-rockthevote.smx] RTV is now available.
+L 05/01/2017 - 02:45:24: [umc-playercountmonitor.smx] Server is now watching for inproper number of players.
+L 05/01/2017 - 02:59:54: [umc-emp-mapvote.smx] Map vote will appear in 1 seconds.
+L 05/01/2017 - 02:59:55: [umc-emp-mapvote.smx] Starting a map vote.
+L 05/01/2017 - 02:59:55: [umc-core.smx] Initiating Vote Type: Map
+L 05/01/2017 - 03:00:26: [umc-core.smx] Setting nextmap to: emp_flat_fix
+L 05/01/2017 - 03:00:26: [umc-randomcycle.smx] Disabling random nextmap selection.
+L 05/01/2017 - 03:00:26: [umc-core.smx] umc-emp-mapvote.smx: Changing map to 'emp_flat_fix' in 5 seconds.
+L 05/01/2017 - 03:00:26: [umc-core.smx] MAPVOTE: Players voted for map 'emp_flat_fix' from group 'Commander Maps'
+L 05/01/2017 - 03:00:32: [umc-core.smx] ---------------------MAP CHANGE: emp_flat_fix---------------------
+L 05/01/2017 - 03:00:32: [umc-endvote-warnings.smx] Successfully parsed and set up 11 vote warnings.
+L 05/01/2017 - 03:00:32: [umc-playercountmonitor.smx] Min Players: 0, Max Players: 22
+L 05/01/2017 - 03:00:32: [umc-playercountmonitor.smx] Server will begin watching for inproper number of players in 240 seconds.
+L 05/01/2017 - 03:00:32: [umc-rockthevote.smx] RTV is now available.
+L 05/01/2017 - 03:04:32: [umc-playercountmonitor.smx] Server is now watching for inproper number of players.
+L 05/01/2017 - 10:22:35: [umc-emp-mapvote.smx] Map vote will appear in 1 seconds.
+L 05/01/2017 - 10:22:36: [umc-emp-mapvote.smx] Starting a map vote.
+L 05/01/2017 - 10:22:36: [umc-core.smx] Initiating Vote Type: Map
+L 05/01/2017 - 10:22:50: [umc-core.smx] Setting nextmap to: emp_drygulch_a6
+L 05/01/2017 - 10:22:50: [umc-randomcycle.smx] Disabling random nextmap selection.
+L 05/01/2017 - 10:22:50: [umc-core.smx] umc-emp-mapvote.smx: Changing map to 'emp_drygulch_a6' in 5 seconds.
+L 05/01/2017 - 10:22:50: [umc-core.smx] MAPVOTE: Players voted for map 'emp_drygulch_a6' from group 'Commander Maps'
+L 05/01/2017 - 10:22:56: [umc-core.smx] ---------------------MAP CHANGE: emp_drygulch_a6---------------------
+L 05/01/2017 - 10:22:56: [umc-endvote-warnings.smx] Successfully parsed and set up 11 vote warnings.
+L 05/01/2017 - 10:22:56: [umc-playercountmonitor.smx] Min Players: 0, Max Players: 22
+L 05/01/2017 - 10:22:56: [umc-playercountmonitor.smx] Server will begin watching for inproper number of players in 240 seconds.
+L 05/01/2017 - 10:22:56: [umc-rockthevote.smx] RTV is now available.
+L 05/01/2017 - 10:26:56: [umc-playercountmonitor.smx] Server is now watching for inproper number of players.
+L 05/01/2017 - 11:26:09: [umc-nominate.smx] xsEgo wants to nominate a map.
+L 05/01/2017 - 11:26:13: [umc-nominate.smx] xsEgo has nominated 'con_district402' from group 'Infantry Maps'
+L 05/01/2017 - 11:31:23: [umc-emp-mapvote.smx] Map vote will appear in 1 seconds.
+L 05/01/2017 - 11:31:24: [umc-emp-mapvote.smx] Starting a map vote.
+L 05/01/2017 - 11:31:24: [umc-core.smx] Initiating Vote Type: Map
+L 05/01/2017 - 11:31:54: [umc-core.smx] Setting nextmap to: con_district402
+L 05/01/2017 - 11:31:55: [umc-randomcycle.smx] Disabling random nextmap selection.
+L 05/01/2017 - 11:31:55: [umc-core.smx] umc-emp-mapvote.smx: Changing map to 'con_district402' in 5 seconds.
+L 05/01/2017 - 11:31:55: [umc-core.smx] MAPVOTE: Players voted for map 'con_district402' from group 'Infantry Maps'
+L 05/01/2017 - 11:32:01: [umc-core.smx] ---------------------MAP CHANGE: con_district402---------------------
+L 05/01/2017 - 11:32:01: [umc-endvote-warnings.smx] Successfully parsed and set up 11 vote warnings.
+L 05/01/2017 - 11:32:01: [umc-playercountmonitor.smx] Min Players: 0, Max Players: 20
+L 05/01/2017 - 11:32:01: [umc-playercountmonitor.smx] Server will begin watching for inproper number of players in 240 seconds.
+L 05/01/2017 - 11:32:01: [umc-rockthevote.smx] RTV is now available.
+L 05/01/2017 - 11:36:01: [umc-playercountmonitor.smx] Server is now watching for inproper number of players.
+L 05/01/2017 - 11:53:02: [umc-emp-mapvote.smx] Map vote will appear in 1 seconds.
+L 05/01/2017 - 11:53:03: [umc-emp-mapvote.smx] Starting a map vote.
+L 05/01/2017 - 11:53:03: [umc-core.smx] Initiating Vote Type: Map
+L 05/01/2017 - 11:53:11: [umc-core.smx] Setting nextmap to: emp_crossroads
+L 05/01/2017 - 11:53:11: [umc-randomcycle.smx] Disabling random nextmap selection.
+L 05/01/2017 - 11:53:11: [umc-core.smx] umc-emp-mapvote.smx: Changing map to 'emp_crossroads' in 5 seconds.
+L 05/01/2017 - 11:53:11: [umc-core.smx] MAPVOTE: Players voted for map 'emp_crossroads' from group 'Commander Maps'
+L 05/01/2017 - 11:53:17: [umc-core.smx] ---------------------MAP CHANGE: emp_crossroads---------------------
+L 05/01/2017 - 11:53:17: [umc-endvote-warnings.smx] Successfully parsed and set up 11 vote warnings.
+L 05/01/2017 - 11:53:17: [umc-playercountmonitor.smx] Min Players: 0, Max Players: 22
+L 05/01/2017 - 11:53:17: [umc-playercountmonitor.smx] Server will begin watching for inproper number of players in 240 seconds.
+L 05/01/2017 - 11:53:17: [umc-rockthevote.smx] RTV is now available.
+L 05/01/2017 - 11:57:17: [umc-playercountmonitor.smx] Server is now watching for inproper number of players.
+L 05/01/2017 - 12:45:23: [umc-emp-mapvote.smx] Map vote will appear in 1 seconds.
+L 05/01/2017 - 12:45:24: [umc-emp-mapvote.smx] Starting a map vote.
+L 05/01/2017 - 12:45:24: [umc-core.smx] Initiating Vote Type: Map
+L 05/01/2017 - 12:45:34: [umc-emp-mapvote.smx] WARNING: Map Voting failure. Initiating random map fail-safe.
+L 05/01/2017 - 12:45:34: [umc-core.smx] Setting nextmap to: con_glycencity
+L 05/01/2017 - 12:45:34: [umc-randomcycle.smx] Disabling random nextmap selection.
+L 05/01/2017 - 12:45:34: [umc-core.smx] umc-emp-mapvote.smx: Changing map to 'con_glycencity' in 5 seconds.
+L 05/01/2017 - 12:45:41: [umc-core.smx] ---------------------MAP CHANGE: con_glycencity---------------------
+L 05/01/2017 - 12:45:41: [umc-endvote-warnings.smx] Successfully parsed and set up 11 vote warnings.
+L 05/01/2017 - 12:45:41: [umc-playercountmonitor.smx] Min Players: 0, Max Players: 20
+L 05/01/2017 - 12:45:41: [umc-playercountmonitor.smx] Server will begin watching for inproper number of players in 240 seconds.
+L 05/01/2017 - 12:45:41: [umc-rockthevote.smx] RTV is now available.
+L 05/01/2017 - 12:49:41: [umc-playercountmonitor.smx] Server is now watching for inproper number of players.
+L 05/01/2017 - 16:54:05: [umc-core.smx] ---------------------MAP CHANGE: con_district402---------------------
+L 05/01/2017 - 16:54:05: [umc-endvote-warnings.smx] Successfully parsed and set up 11 vote warnings.
+L 05/01/2017 - 16:54:05: [umc-playercountmonitor.smx] Min Players: 0, Max Players: 20
+L 05/01/2017 - 16:54:05: [umc-playercountmonitor.smx] Server will begin watching for inproper number of players in 240 seconds.
+L 05/01/2017 - 16:54:05: [umc-rockthevote.smx] RTV is now available.
+L 05/01/2017 - 16:58:05: [umc-playercountmonitor.smx] Server is now watching for inproper number of players.
+L 05/01/2017 - 18:25:25: [umc-nominate.smx] Oktay wants to nominate a map.
+L 05/01/2017 - 18:25:27: [umc-nominate.smx] Oktay has nominated 'emp_beachfront_b2' from group 'Commander Maps'
+L 05/01/2017 - 18:25:34: [umc-nominate.smx] Oktay wants to nominate a map.
+L 05/01/2017 - 18:25:36: [umc-nominate.smx] Oktay has nominated 'emp_vehicletraining_2013' from group 'Infantry Maps'
+L 05/01/2017 - 18:29:03: [umc-core.smx] Setting nextmap to: emp_vehicletraining_2013
+L 05/01/2017 - 18:29:03: [umc-randomcycle.smx] Disabling random nextmap selection.
+L 05/01/2017 - 18:29:03: [umc-core.smx] umc-adminmenu.smx: Changing map to 'emp_vehicletraining_2013' in 5 seconds.
+L 05/01/2017 - 18:29:03: [umc-adminmenu.smx] Oktay<6><[U:1:116496292]><> set the next map to emp_vehicletraining_2013 from group Infantry Maps.
+L 05/01/2017 - 18:29:09: [umc-core.smx] ---------------------MAP CHANGE: emp_vehicletraining_2013---------------------
+L 05/01/2017 - 18:29:09: [umc-endvote-warnings.smx] Successfully parsed and set up 11 vote warnings.
+L 05/01/2017 - 18:29:09: [umc-playercountmonitor.smx] Min Players: 0, Max Players: 20
+L 05/01/2017 - 18:29:09: [umc-playercountmonitor.smx] Server will begin watching for inproper number of players in 240 seconds.
+L 05/01/2017 - 18:29:09: [umc-rockthevote.smx] RTV is now available.
+L 05/01/2017 - 18:33:09: [umc-playercountmonitor.smx] Server is now watching for inproper number of players.
+L 05/01/2017 - 19:04:34: [umc-nominate.smx] .|Ϟ|. Kitten  <3 wants to nominate a map.
+L 05/01/2017 - 19:04:42: [umc-nominate.smx] .|Ϟ|. Kitten  <3 has nominated 'emp_beachfront_b2' from group 'Commander Maps'
+L 05/01/2017 - 19:12:33: [umc-emp-mapvote.smx] Map vote will appear in 1 seconds.
+L 05/01/2017 - 19:12:34: [umc-emp-mapvote.smx] Starting a map vote.
+L 05/01/2017 - 19:12:34: [umc-core.smx] Initiating Vote Type: Map
+L 05/01/2017 - 19:13:04: [umc-core.smx] Setting nextmap to: emp_nuclear_b8u_xfix
+L 05/01/2017 - 19:13:04: [umc-randomcycle.smx] Disabling random nextmap selection.
+L 05/01/2017 - 19:13:04: [umc-core.smx] umc-emp-mapvote.smx: Changing map to 'emp_nuclear_b8u_xfix' in 5 seconds.
+L 05/01/2017 - 19:13:04: [umc-core.smx] MAPVOTE: Players voted for map 'emp_nuclear_b8u_xfix' from group 'Infantry Maps'
+L 05/01/2017 - 19:13:10: [umc-core.smx] ---------------------MAP CHANGE: emp_nuclear_b8u_xfix---------------------
+L 05/01/2017 - 19:13:10: [umc-endvote-warnings.smx] Successfully parsed and set up 11 vote warnings.
+L 05/01/2017 - 19:13:10: [umc-playercountmonitor.smx] Min Players: 4, Max Players: 20
+L 05/01/2017 - 19:13:10: [umc-playercountmonitor.smx] Server will begin watching for inproper number of players in 240 seconds.
+L 05/01/2017 - 19:13:10: [umc-rockthevote.smx] RTV is now available.
+L 05/01/2017 - 19:17:10: [umc-playercountmonitor.smx] Server is now watching for inproper number of players.
+L 05/01/2017 - 19:51:40: [umc-emp-mapvote.smx] Map vote will appear in 1 seconds.
+L 05/01/2017 - 19:51:41: [umc-emp-mapvote.smx] Starting a map vote.
+L 05/01/2017 - 19:51:41: [umc-core.smx] Initiating Vote Type: Map
+L 05/01/2017 - 19:52:19: [umc-core.smx] RUNOFF: Starting runoff vote.
+L 05/01/2017 - 19:52:19: [umc-core.smx] Initiating Vote Type: Map
+L 05/01/2017 - 19:52:50: [umc-core.smx] Setting nextmap to: con_urbanchaos
+L 05/01/2017 - 19:52:50: [umc-randomcycle.smx] Disabling random nextmap selection.
+L 05/01/2017 - 19:52:50: [umc-core.smx] umc-emp-mapvote.smx: Changing map to 'con_urbanchaos' in 5 seconds.
+L 05/01/2017 - 19:52:50: [umc-core.smx] MAPVOTE: Players voted for map 'con_urbanchaos' from group 'Infantry Maps'
+L 05/01/2017 - 19:52:57: [umc-core.smx] ---------------------MAP CHANGE: con_urbanchaos---------------------
+L 05/01/2017 - 19:52:57: [umc-endvote-warnings.smx] Successfully parsed and set up 11 vote warnings.
+L 05/01/2017 - 19:52:57: [umc-playercountmonitor.smx] Min Players: 0, Max Players: 20
+L 05/01/2017 - 19:52:57: [umc-playercountmonitor.smx] Server will begin watching for inproper number of players in 240 seconds.
+L 05/01/2017 - 19:52:57: [umc-rockthevote.smx] RTV is now available.
+L 05/01/2017 - 19:56:57: [umc-playercountmonitor.smx] Server is now watching for inproper number of players.
+L 05/01/2017 - 20:00:05: [umc-emp-mapvote.smx] Map vote will appear in 1 seconds.
+L 05/01/2017 - 20:00:07: [umc-emp-mapvote.smx] Starting a map vote.
+L 05/01/2017 - 20:00:07: [umc-core.smx] Initiating Vote Type: Map
+L 05/01/2017 - 20:00:45: [umc-core.smx] RUNOFF: Starting runoff vote.
+L 05/01/2017 - 20:00:45: [umc-core.smx] Initiating Vote Type: Map
+L 05/01/2017 - 20:01:15: [umc-core.smx] Setting nextmap to: emp_drygulch_a6
+L 05/01/2017 - 20:01:15: [umc-randomcycle.smx] Disabling random nextmap selection.
+L 05/01/2017 - 20:01:15: [umc-core.smx] umc-emp-mapvote.smx: Changing map to 'emp_drygulch_a6' in 5 seconds.
+L 05/01/2017 - 20:01:15: [umc-core.smx] MAPVOTE: Players voted for map 'emp_drygulch_a6' from group 'Commander Maps'
+L 05/01/2017 - 20:01:22: [umc-core.smx] ---------------------MAP CHANGE: emp_drygulch_a6---------------------
+L 05/01/2017 - 20:01:22: [umc-endvote-warnings.smx] Successfully parsed and set up 11 vote warnings.
+L 05/01/2017 - 20:01:22: [umc-playercountmonitor.smx] Min Players: 0, Max Players: 22
+L 05/01/2017 - 20:01:22: [umc-playercountmonitor.smx] Server will begin watching for inproper number of players in 240 seconds.
+L 05/01/2017 - 20:01:22: [umc-rockthevote.smx] RTV is now available.
+L 05/01/2017 - 20:05:22: [umc-playercountmonitor.smx] Server is now watching for inproper number of players.
+L 05/01/2017 - 20:53:47: [umc-emp-mapvote.smx] Map vote will appear in 1 seconds.
+L 05/01/2017 - 20:53:48: [umc-emp-mapvote.smx] Starting a map vote.
+L 05/01/2017 - 20:53:48: [umc-core.smx] Initiating Vote Type: Map
+L 05/01/2017 - 20:54:27: [umc-core.smx] RUNOFF: Starting runoff vote.
+L 05/01/2017 - 20:54:27: [umc-core.smx] Initiating Vote Type: Map
+L 05/01/2017 - 20:54:58: [umc-core.smx] Setting nextmap to: emp_crossroads
+L 05/01/2017 - 20:54:58: [umc-randomcycle.smx] Disabling random nextmap selection.
+L 05/01/2017 - 20:54:58: [umc-core.smx] umc-emp-mapvote.smx: Changing map to 'emp_crossroads' in 5 seconds.
+L 05/01/2017 - 20:54:58: [umc-core.smx] MAPVOTE: Players voted for map 'emp_crossroads' from group 'Commander Maps'
+L 05/01/2017 - 20:55:04: [umc-core.smx] ---------------------MAP CHANGE: emp_crossroads---------------------
+L 05/01/2017 - 20:55:04: [umc-endvote-warnings.smx] Successfully parsed and set up 11 vote warnings.
+L 05/01/2017 - 20:55:04: [umc-playercountmonitor.smx] Min Players: 0, Max Players: 22
+L 05/01/2017 - 20:55:04: [umc-playercountmonitor.smx] Server will begin watching for inproper number of players in 240 seconds.
+L 05/01/2017 - 20:55:04: [umc-rockthevote.smx] RTV is now available.
+L 05/01/2017 - 20:59:04: [umc-playercountmonitor.smx] Server is now watching for inproper number of players.
+L 05/01/2017 - 21:12:37: [umc-nominate.smx] Mr. X. wants to nominate a map.
+L 05/01/2017 - 21:12:46: [umc-nominate.smx] Mr. X. has nominated 'emp_palmbay_fix' from group 'Commander Maps'
+L 05/01/2017 - 21:20:52: [umc-emp-mapvote.smx] Map vote will appear in 1 seconds.
+L 05/01/2017 - 21:20:53: [umc-emp-mapvote.smx] Starting a map vote.
+L 05/01/2017 - 21:20:53: [umc-core.smx] Initiating Vote Type: Map
+L 05/01/2017 - 21:21:32: [umc-core.smx] RUNOFF: Starting runoff vote.
+L 05/01/2017 - 21:21:32: [umc-core.smx] Initiating Vote Type: Map
+L 05/01/2017 - 21:22:03: [umc-core.smx] Setting nextmap to: con_forestattack_a2
+L 05/01/2017 - 21:22:03: [umc-randomcycle.smx] Disabling random nextmap selection.
+L 05/01/2017 - 21:22:03: [umc-core.smx] umc-emp-mapvote.smx: Changing map to 'con_forestattack_a2' in 5 seconds.
+L 05/01/2017 - 21:22:03: [umc-core.smx] MAPVOTE: Players voted for map 'con_forestattack_a2' from group 'Infantry Maps'
+L 05/01/2017 - 21:22:08: [umc-rockthevote.smx] Starting RTV.
+L 05/01/2017 - 21:22:08: [umc-rockthevote.smx] End of map vote has already been completed, changing map.
+L 05/01/2017 - 21:22:08: [umc-rockthevote.smx] RTV: Changing map to 'con_forestattack_a2' in 5 seconds.
+L 05/01/2017 - 21:22:08: [umc-core.smx] ---------------------MAP CHANGE: con_forestattack_a2---------------------
+L 05/01/2017 - 21:22:08: [umc-endvote-warnings.smx] Successfully parsed and set up 11 vote warnings.
+L 05/01/2017 - 21:22:08: [umc-playercountmonitor.smx] Min Players: 0, Max Players: 20
+L 05/01/2017 - 21:22:08: [umc-playercountmonitor.smx] Server will begin watching for inproper number of players in 240 seconds.
+L 05/01/2017 - 21:22:08: [umc-rockthevote.smx] RTV is now available.
+L 05/01/2017 - 21:24:59: [umc-core.smx] ---------------------MAP CHANGE: con_district402---------------------
+L 05/01/2017 - 21:24:59: [umc-endvote-warnings.smx] Successfully parsed and set up 11 vote warnings.
+L 05/01/2017 - 21:24:59: [umc-playercountmonitor.smx] Min Players: 0, Max Players: 20
+L 05/01/2017 - 21:24:59: [umc-playercountmonitor.smx] Server will begin watching for inproper number of players in 240 seconds.
+L 05/01/2017 - 21:24:59: [umc-rockthevote.smx] RTV is now available.
+L 05/01/2017 - 21:28:59: [umc-playercountmonitor.smx] Server is now watching for inproper number of players.
+L 05/01/2017 - 21:35:19: [umc-emp-mapvote.smx] Map vote will appear in 1 seconds.
+L 05/01/2017 - 21:35:20: [umc-emp-mapvote.smx] Starting a map vote.
+L 05/01/2017 - 21:35:20: [umc-core.smx] Initiating Vote Type: Map
+L 05/01/2017 - 21:35:50: [umc-core.smx] Setting nextmap to: con_urbanchaos
+L 05/01/2017 - 21:35:50: [umc-randomcycle.smx] Disabling random nextmap selection.
+L 05/01/2017 - 21:35:50: [umc-core.smx] umc-emp-mapvote.smx: Changing map to 'con_urbanchaos' in 5 seconds.
+L 05/01/2017 - 21:35:50: [umc-core.smx] MAPVOTE: Players voted for map 'con_urbanchaos' from group 'Infantry Maps'
+L 05/01/2017 - 21:35:56: [umc-core.smx] ---------------------MAP CHANGE: con_urbanchaos---------------------
+L 05/01/2017 - 21:35:56: [umc-endvote-warnings.smx] Successfully parsed and set up 11 vote warnings.
+L 05/01/2017 - 21:35:56: [umc-playercountmonitor.smx] Min Players: 0, Max Players: 20
+L 05/01/2017 - 21:35:56: [umc-playercountmonitor.smx] Server will begin watching for inproper number of players in 240 seconds.
+L 05/01/2017 - 21:35:56: [umc-rockthevote.smx] RTV is now available.
+L 05/01/2017 - 21:39:56: [umc-playercountmonitor.smx] Server is now watching for inproper number of players.
+L 05/01/2017 - 21:54:53: [umc-emp-mapvote.smx] Map vote will appear in 1 seconds.
+L 05/01/2017 - 21:54:54: [umc-emp-mapvote.smx] Starting a map vote.
+L 05/01/2017 - 21:54:54: [umc-core.smx] Initiating Vote Type: Map
+L 05/01/2017 - 21:55:24: [umc-core.smx] Setting nextmap to: emp_blast_ob1
+L 05/01/2017 - 21:55:24: [umc-randomcycle.smx] Disabling random nextmap selection.
+L 05/01/2017 - 21:55:24: [umc-core.smx] umc-emp-mapvote.smx: Changing map to 'emp_blast_ob1' in 5 seconds.
+L 05/01/2017 - 21:55:24: [umc-core.smx] MAPVOTE: Players voted for map 'emp_blast_ob1' from group 'Infantry Maps'
+L 05/01/2017 - 21:55:30: [umc-core.smx] ---------------------MAP CHANGE: emp_blast_ob1---------------------
+L 05/01/2017 - 21:55:30: [umc-endvote-warnings.smx] Successfully parsed and set up 11 vote warnings.
+L 05/01/2017 - 21:55:30: [umc-playercountmonitor.smx] Min Players: 0, Max Players: 20
+L 05/01/2017 - 21:55:30: [umc-playercountmonitor.smx] Server will begin watching for inproper number of players in 240 seconds.
+L 05/01/2017 - 21:55:30: [umc-rockthevote.smx] RTV is now available.
+L 05/01/2017 - 21:59:30: [umc-playercountmonitor.smx] Server is now watching for inproper number of players.
+L 05/01/2017 - 22:12:45: [umc-emp-mapvote.smx] Map vote will appear in 1 seconds.
+L 05/01/2017 - 22:12:46: [umc-emp-mapvote.smx] Starting a map vote.
+L 05/01/2017 - 22:12:46: [umc-core.smx] Initiating Vote Type: Map
+L 05/01/2017 - 22:13:17: [umc-core.smx] Setting nextmap to: emp_crossroads
+L 05/01/2017 - 22:13:17: [umc-randomcycle.smx] Disabling random nextmap selection.
+L 05/01/2017 - 22:13:17: [umc-core.smx] umc-emp-mapvote.smx: Changing map to 'emp_crossroads' in 5 seconds.
+L 05/01/2017 - 22:13:17: [umc-core.smx] MAPVOTE: Players voted for map 'emp_crossroads' from group 'Commander Maps'
+L 05/01/2017 - 22:13:23: [umc-core.smx] ---------------------MAP CHANGE: emp_crossroads---------------------
+L 05/01/2017 - 22:13:23: [umc-endvote-warnings.smx] Successfully parsed and set up 11 vote warnings.
+L 05/01/2017 - 22:13:23: [umc-playercountmonitor.smx] Min Players: 0, Max Players: 22
+L 05/01/2017 - 22:13:23: [umc-playercountmonitor.smx] Server will begin watching for inproper number of players in 240 seconds.
+L 05/01/2017 - 22:13:23: [umc-rockthevote.smx] RTV is now available.
+L 05/01/2017 - 22:17:23: [umc-playercountmonitor.smx] Server is now watching for inproper number of players.

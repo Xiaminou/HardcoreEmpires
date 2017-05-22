@@ -1,0 +1,1835 @@
+L 04/22/2017 - 00:42:00: SourceMod error session started
+L 04/22/2017 - 00:42:00: Info (map "emp_nuclear_b8u_xfix") (file "errors_20170422.log")
+L 04/22/2017 - 00:42:00: [SM] Exception reported: Invalid timer handle 42ae0280 (error 3)
+L 04/22/2017 - 00:42:00: [SM] Blaming: umc-emp-mapvote.smx()
+L 04/22/2017 - 00:42:00: [SM] Call stack trace:
+L 04/22/2017 - 00:42:00: [SM]   [0] KillTimer
+L 04/22/2017 - 00:42:00: [SM]   [1] Line 686, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-emp-mapvote.sp::UMC_OnNextmapSet()
+L 04/22/2017 - 00:42:00: [SM]   [3] Call_Finish
+L 04/22/2017 - 00:42:00: [SM]   [4] Line 4834, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::DoMapChange()
+L 04/22/2017 - 00:42:00: [SM]   [5] Line 4267, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteWinner()
+L 04/22/2017 - 00:42:00: [SM]   [6] Line 3819, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteWinner()
+L 04/22/2017 - 00:42:00: [SM]   [7] Line 3795, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteResults()
+L 04/22/2017 - 00:42:00: [SM]   [8] Line 1277, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Native_UMCVoteManagerComplete()
+L 04/22/2017 - 00:42:00: [SM]   [10] UMC_VoteManagerVoteCompleted
+L 04/22/2017 - 00:42:00: [SM]   [11] Line 2309, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteResults()
+L 04/22/2017 - 00:42:06: Error log file session closed.
+L 04/22/2017 - 00:46:28: SourceMod error session started
+L 04/22/2017 - 00:46:28: Info (map "emp_temple_b3a") (file "errors_20170422.log")
+L 04/22/2017 - 00:46:28: [SM] Exception reported: Invalid timer handle 42ae0280 (error 1)
+L 04/22/2017 - 00:46:28: [SM] Blaming: umc-emp-mapvote.smx()
+L 04/22/2017 - 00:46:28: [SM] Call stack trace:
+L 04/22/2017 - 00:46:28: [SM]   [0] KillTimer
+L 04/22/2017 - 00:46:28: [SM]   [1] Line 686, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-emp-mapvote.sp::UMC_OnNextmapSet()
+L 04/22/2017 - 00:46:28: [SM]   [3] Call_Finish
+L 04/22/2017 - 00:46:28: [SM]   [4] Line 4834, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::DoMapChange()
+L 04/22/2017 - 00:46:28: [SM]   [5] Line 4267, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteWinner()
+L 04/22/2017 - 00:46:28: [SM]   [6] Line 3819, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteWinner()
+L 04/22/2017 - 00:46:28: [SM]   [7] Line 3795, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteResults()
+L 04/22/2017 - 00:46:28: [SM]   [8] Line 1277, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Native_UMCVoteManagerComplete()
+L 04/22/2017 - 00:46:28: [SM]   [10] UMC_VoteManagerVoteCompleted
+L 04/22/2017 - 00:46:28: [SM]   [11] Line 2309, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteResults()
+L 04/22/2017 - 00:46:33: Error log file session closed.
+L 04/22/2017 - 01:09:12: SourceMod error session started
+L 04/22/2017 - 01:09:12: Info (map "con_forestattack_a2") (file "errors_20170422.log")
+L 04/22/2017 - 01:09:12: [SM] Exception reported: Invalid timer handle 56ac0248 (error 1)
+L 04/22/2017 - 01:09:12: [SM] Blaming: umc-emp-mapvote.smx()
+L 04/22/2017 - 01:09:12: [SM] Call stack trace:
+L 04/22/2017 - 01:09:12: [SM]   [0] KillTimer
+L 04/22/2017 - 01:09:12: [SM]   [1] Line 686, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-emp-mapvote.sp::UMC_OnNextmapSet()
+L 04/22/2017 - 01:09:12: [SM]   [3] Call_Finish
+L 04/22/2017 - 01:09:12: [SM]   [4] Line 4834, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::DoMapChange()
+L 04/22/2017 - 01:09:12: [SM]   [5] Line 4267, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteWinner()
+L 04/22/2017 - 01:09:12: [SM]   [6] Line 3819, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteWinner()
+L 04/22/2017 - 01:09:12: [SM]   [7] Line 3795, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteResults()
+L 04/22/2017 - 01:09:12: [SM]   [8] Line 1277, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Native_UMCVoteManagerComplete()
+L 04/22/2017 - 01:09:12: [SM]   [10] UMC_VoteManagerVoteCompleted
+L 04/22/2017 - 01:09:12: [SM]   [11] Line 2309, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteResults()
+L 04/22/2017 - 01:09:18: Error log file session closed.
+L 04/22/2017 - 01:14:03: SourceMod error session started
+L 04/22/2017 - 01:14:03: Info (map "emp_drygulch_a6") (file "errors_20170422.log")
+L 04/22/2017 - 01:14:03: [SM] Exception reported: Invalid timer handle 56ac0248 (error 1)
+L 04/22/2017 - 01:14:03: [SM] Blaming: umc-emp-mapvote.smx()
+L 04/22/2017 - 01:14:03: [SM] Call stack trace:
+L 04/22/2017 - 01:14:03: [SM]   [0] KillTimer
+L 04/22/2017 - 01:14:03: [SM]   [1] Line 686, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-emp-mapvote.sp::UMC_OnNextmapSet()
+L 04/22/2017 - 01:14:03: [SM]   [3] Call_Finish
+L 04/22/2017 - 01:14:03: [SM]   [4] Line 4834, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::DoMapChange()
+L 04/22/2017 - 01:14:03: [SM]   [5] Line 4267, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteWinner()
+L 04/22/2017 - 01:14:03: [SM]   [6] Line 3819, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteWinner()
+L 04/22/2017 - 01:14:03: [SM]   [7] Line 3795, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteResults()
+L 04/22/2017 - 01:14:03: [SM]   [8] Line 1277, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Native_UMCVoteManagerComplete()
+L 04/22/2017 - 01:14:03: [SM]   [10] UMC_VoteManagerVoteCompleted
+L 04/22/2017 - 01:14:03: [SM]   [11] Line 2309, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteResults()
+L 04/22/2017 - 01:14:09: Error log file session closed.
+L 04/22/2017 - 01:38:05: SourceMod error session started
+L 04/22/2017 - 01:38:05: Info (map "emp_district402") (file "errors_20170422.log")
+L 04/22/2017 - 01:38:05: [SM] Exception reported: Invalid timer handle 61d70286 (error 3)
+L 04/22/2017 - 01:38:05: [SM] Blaming: umc-emp-mapvote.smx()
+L 04/22/2017 - 01:38:05: [SM] Call stack trace:
+L 04/22/2017 - 01:38:05: [SM]   [0] KillTimer
+L 04/22/2017 - 01:38:05: [SM]   [1] Line 686, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-emp-mapvote.sp::UMC_OnNextmapSet()
+L 04/22/2017 - 01:38:05: [SM]   [3] Call_Finish
+L 04/22/2017 - 01:38:05: [SM]   [4] Line 4834, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::DoMapChange()
+L 04/22/2017 - 01:38:05: [SM]   [5] Line 1767, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Native_UMCSetNextMap()
+L 04/22/2017 - 01:38:05: [SM]   [7] UMC_SetNextMap
+L 04/22/2017 - 01:38:05: [SM]   [8] Line 621, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-emp-mapvote.sp::DoRandomNextMap()
+L 04/22/2017 - 01:38:05: [SM]   [9] Line 606, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-emp-mapvote.sp::DoMapChangeFailSafe()
+L 04/22/2017 - 01:38:05: [SM]   [10] Line 722, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-emp-mapvote.sp::UMC_OnVoteFailed()
+L 04/22/2017 - 01:38:05: [SM]   [12] Call_Finish
+L 04/22/2017 - 01:38:05: [SM]   [13] Line 4796, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::VoteFailed()
+L 04/22/2017 - 01:38:05: [SM]   [14] Line 3507, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::VoteCancelled()
+L 04/22/2017 - 01:38:05: [SM]   [15] Line 1177, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Native_UMCVoteManagerCancel()
+L 04/22/2017 - 01:38:05: [SM]   [17] UMC_VoteManagerVoteCancelled
+L 04/22/2017 - 01:38:05: [SM]   [18] Line 2276, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_VoteMenu()
+L 04/22/2017 - 01:38:11: Error log file session closed.
+L 04/22/2017 - 08:17:55: SourceMod error session started
+L 04/22/2017 - 08:17:55: Info (map "emp_blast_ob1") (file "errors_20170422.log")
+L 04/22/2017 - 08:17:55: [SM] Exception reported: Invalid timer handle 639d0283 (error 1)
+L 04/22/2017 - 08:17:55: [SM] Blaming: umc-emp-mapvote.smx()
+L 04/22/2017 - 08:17:55: [SM] Call stack trace:
+L 04/22/2017 - 08:17:55: [SM]   [0] KillTimer
+L 04/22/2017 - 08:17:55: [SM]   [1] Line 686, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-emp-mapvote.sp::UMC_OnNextmapSet()
+L 04/22/2017 - 08:17:55: [SM]   [3] Call_Finish
+L 04/22/2017 - 08:17:55: [SM]   [4] Line 4834, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::DoMapChange()
+L 04/22/2017 - 08:17:55: [SM]   [5] Line 4267, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteWinner()
+L 04/22/2017 - 08:17:55: [SM]   [6] Line 3819, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteWinner()
+L 04/22/2017 - 08:17:55: [SM]   [7] Line 3795, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteResults()
+L 04/22/2017 - 08:17:55: [SM]   [8] Line 1277, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Native_UMCVoteManagerComplete()
+L 04/22/2017 - 08:17:55: [SM]   [10] UMC_VoteManagerVoteCompleted
+L 04/22/2017 - 08:17:55: [SM]   [11] Line 2309, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteResults()
+L 04/22/2017 - 08:18:01: Error log file session closed.
+L 04/22/2017 - 08:53:23: SourceMod error session started
+L 04/22/2017 - 08:53:23: Info (map "emp_vehicletraining_2013") (file "errors_20170422.log")
+L 04/22/2017 - 08:53:23: [SM] Exception reported: Invalid timer handle 64af0100 (error 1)
+L 04/22/2017 - 08:53:23: [SM] Blaming: umc-emp-mapvote.smx()
+L 04/22/2017 - 08:53:23: [SM] Call stack trace:
+L 04/22/2017 - 08:53:23: [SM]   [0] KillTimer
+L 04/22/2017 - 08:53:23: [SM]   [1] Line 686, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-emp-mapvote.sp::UMC_OnNextmapSet()
+L 04/22/2017 - 08:53:23: [SM]   [3] Call_Finish
+L 04/22/2017 - 08:53:23: [SM]   [4] Line 4834, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::DoMapChange()
+L 04/22/2017 - 08:53:23: [SM]   [5] Line 4267, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteWinner()
+L 04/22/2017 - 08:53:23: [SM]   [6] Line 3819, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteWinner()
+L 04/22/2017 - 08:53:23: [SM]   [7] Line 3795, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteResults()
+L 04/22/2017 - 08:53:23: [SM]   [8] Line 1277, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Native_UMCVoteManagerComplete()
+L 04/22/2017 - 08:53:23: [SM]   [10] UMC_VoteManagerVoteCompleted
+L 04/22/2017 - 08:53:23: [SM]   [11] Line 2309, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteResults()
+L 04/22/2017 - 08:53:28: Error log file session closed.
+L 04/22/2017 - 14:27:44: SourceMod error session started
+L 04/22/2017 - 14:27:44: Info (map "con_forestattack_a2") (file "errors_20170422.log")
+L 04/22/2017 - 14:27:44: [mostactive.smx] Database failure: Could not find database conf "mostactive"
+L 04/22/2017 - 14:27:44: [SM] Exception reported: Databases dont work
+L 04/22/2017 - 14:27:44: [SM] Blaming: mostactive.smx()
+L 04/22/2017 - 14:27:44: [SM] Call stack trace:
+L 04/22/2017 - 14:27:44: [SM]   [0] SetFailState
+L 04/22/2017 - 14:27:44: [SM]   [1] Line 75, E:\Github\MostActive\mostactive.sp::OnSQLConnect()
+L 04/22/2017 - 14:27:44: [SM]   [3] SQL_TConnect
+L 04/22/2017 - 14:27:44: [SM]   [4] Line 66, E:\Github\MostActive\mostactive.sp::OnPluginStart()
+L 04/22/2017 - 14:27:44: [SM]   [6] ServerCommandEx
+L 04/22/2017 - 14:27:44: [SM]   [7] Line 390, D:\builds\build-sourcemod-msvc12\windows-1.8\build\plugins\basecommands.sp::Command_Rcon()
+L 04/22/2017 - 14:27:44: [mostactive.smx] Database failure: Could not find database conf "mostactive"
+L 04/22/2017 - 14:27:44: [SM] Exception reported: Databases dont work
+L 04/22/2017 - 14:27:44: [SM] Blaming: mostactive.smx()
+L 04/22/2017 - 14:27:44: [SM] Call stack trace:
+L 04/22/2017 - 14:27:44: [SM]   [0] SetFailState
+L 04/22/2017 - 14:27:44: [SM]   [1] Line 75, E:\Github\MostActive\mostactive.sp::OnSQLConnect()
+L 04/22/2017 - 14:27:44: [SM]   [3] SQL_TConnect
+L 04/22/2017 - 14:27:44: [SM]   [4] Line 66, E:\Github\MostActive\mostactive.sp::OnPluginStart()
+L 04/22/2017 - 14:27:44: [SM]   [6] ServerCommandEx
+L 04/22/2017 - 14:27:44: [SM]   [7] Line 390, D:\builds\build-sourcemod-msvc12\windows-1.8\build\plugins\basecommands.sp::Command_Rcon()
+L 04/22/2017 - 14:28:40: SourceMod error session started
+L 04/22/2017 - 14:28:40: Info (map "emp_district402") (file "errors_20170422.log")
+L 04/22/2017 - 14:28:40: [SDKTOOLS] Invalid detour address passed - Disabling detour to prevent crashes
+L 04/22/2017 - 14:28:40: [SDKTOOLS] Failed to find PlayerRunCmd offset - OnPlayerRunCmd forward disabled.
+L 04/22/2017 - 14:34:12: [SM] Exception reported: Client index 0 is invalid
+L 04/22/2017 - 14:34:12: [SM] Blaming: mostactive.smx()
+L 04/22/2017 - 14:34:12: [SM] Call stack trace:
+L 04/22/2017 - 14:34:12: [SM]   [0] GetClientUserId
+L 04/22/2017 - 14:34:12: [SM]   [1] Line 590, E:\Github\MostActive\mostactive.sp::DOMenu()
+L 04/22/2017 - 14:34:12: [SM]   [3] ServerCommandEx
+L 04/22/2017 - 14:34:12: [SM]   [4] Line 390, D:\builds\build-sourcemod-msvc12\windows-1.8\build\plugins\basecommands.sp::Command_Rcon()
+L 04/22/2017 - 14:36:15: SourceMod error session started
+L 04/22/2017 - 14:36:15: Info (map "emp_district402") (file "errors_20170422.log")
+L 04/22/2017 - 14:36:15: [SDKTOOLS] Invalid detour address passed - Disabling detour to prevent crashes
+L 04/22/2017 - 14:36:15: [SDKTOOLS] Failed to find PlayerRunCmd offset - OnPlayerRunCmd forward disabled.
+L 04/22/2017 - 14:36:31: [SM] Exception reported: Client index 0 is invalid
+L 04/22/2017 - 14:36:31: [SM] Blaming: mostactive.smx()
+L 04/22/2017 - 14:36:31: [SM] Call stack trace:
+L 04/22/2017 - 14:36:31: [SM]   [0] GetClientUserId
+L 04/22/2017 - 14:36:31: [SM]   [1] Line 590, E:\Github\MostActive\mostactive.sp::DOMenu()
+L 04/22/2017 - 14:36:31: [SM]   [3] ServerExecute
+L 04/22/2017 - 14:36:31: [SM]   [4] Line 590, D:\builds\build-sourcemod-msvc12\windows-1.8\build\plugins\adminmenu/dynamicmenu.sp::ParamCheck()
+L 04/22/2017 - 14:36:31: [SM]   [5] Line 636, D:\builds\build-sourcemod-msvc12\windows-1.8\build\plugins\adminmenu/dynamicmenu.sp::Menu_Selection()
+L 04/22/2017 - 14:37:14: SourceMod error session started
+L 04/22/2017 - 14:37:14: Info (map "emp_district402") (file "errors_20170422.log")
+L 04/22/2017 - 14:37:14: [SDKTOOLS] Invalid detour address passed - Disabling detour to prevent crashes
+L 04/22/2017 - 14:37:15: [SDKTOOLS] Failed to find PlayerRunCmd offset - OnPlayerRunCmd forward disabled.
+L 04/22/2017 - 14:38:22: SourceMod error session started
+L 04/22/2017 - 14:38:22: Info (map "emp_district402") (file "errors_20170422.log")
+L 04/22/2017 - 14:38:22: [SDKTOOLS] Invalid detour address passed - Disabling detour to prevent crashes
+L 04/22/2017 - 14:38:22: [SDKTOOLS] Failed to find PlayerRunCmd offset - OnPlayerRunCmd forward disabled.
+L 04/22/2017 - 14:39:38: SourceMod error session started
+L 04/22/2017 - 14:39:38: Info (map "emp_district402") (file "errors_20170422.log")
+L 04/22/2017 - 14:39:38: [SDKTOOLS] Invalid detour address passed - Disabling detour to prevent crashes
+L 04/22/2017 - 14:39:38: [SDKTOOLS] Failed to find PlayerRunCmd offset - OnPlayerRunCmd forward disabled.
+L 04/22/2017 - 14:43:45: Error log file session closed.
+L 04/22/2017 - 15:25:36: SourceMod error session started
+L 04/22/2017 - 15:25:36: Info (map "emp_district402") (file "errors_20170422.log")
+L 04/22/2017 - 15:25:36: [SM] Exception reported: Invalid timer handle 41b0231 (error 3)
+L 04/22/2017 - 15:25:36: [SM] Blaming: umc-emp-mapvote.smx()
+L 04/22/2017 - 15:25:36: [SM] Call stack trace:
+L 04/22/2017 - 15:25:36: [SM]   [0] KillTimer
+L 04/22/2017 - 15:25:36: [SM]   [1] Line 686, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-emp-mapvote.sp::UMC_OnNextmapSet()
+L 04/22/2017 - 15:25:36: [SM]   [3] Call_Finish
+L 04/22/2017 - 15:25:36: [SM]   [4] Line 4834, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::DoMapChange()
+L 04/22/2017 - 15:25:36: [SM]   [5] Line 1767, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Native_UMCSetNextMap()
+L 04/22/2017 - 15:25:36: [SM]   [7] UMC_SetNextMap
+L 04/22/2017 - 15:25:36: [SM]   [8] Line 621, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-emp-mapvote.sp::DoRandomNextMap()
+L 04/22/2017 - 15:25:36: [SM]   [9] Line 606, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-emp-mapvote.sp::DoMapChangeFailSafe()
+L 04/22/2017 - 15:25:36: [SM]   [10] Line 722, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-emp-mapvote.sp::UMC_OnVoteFailed()
+L 04/22/2017 - 15:25:36: [SM]   [12] Call_Finish
+L 04/22/2017 - 15:25:36: [SM]   [13] Line 4796, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::VoteFailed()
+L 04/22/2017 - 15:25:36: [SM]   [14] Line 3507, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::VoteCancelled()
+L 04/22/2017 - 15:25:36: [SM]   [15] Line 1177, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Native_UMCVoteManagerCancel()
+L 04/22/2017 - 15:25:36: [SM]   [17] UMC_VoteManagerVoteCancelled
+L 04/22/2017 - 15:25:36: [SM]   [18] Line 2276, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_VoteMenu()
+L 04/22/2017 - 15:25:42: Error log file session closed.
+L 04/22/2017 - 15:30:12: SourceMod error session started
+L 04/22/2017 - 15:30:12: Info (map "emp_district402") (file "errors_20170422.log")
+L 04/22/2017 - 15:30:12: [SDKTOOLS] Invalid detour address passed - Disabling detour to prevent crashes
+L 04/22/2017 - 15:30:12: [SDKTOOLS] Failed to find PlayerRunCmd offset - OnPlayerRunCmd forward disabled.
+L 04/22/2017 - 15:30:23: Error log file session closed.
+L 04/22/2017 - 18:25:53: SourceMod error session started
+L 04/22/2017 - 18:25:53: Info (map "emp_beachfront_b2") (file "errors_20170422.log")
+L 04/22/2017 - 18:25:53: [SM] Exception reported: Invalid timer handle 16fa0274 (error 1)
+L 04/22/2017 - 18:25:53: [SM] Blaming: umc-emp-mapvote.smx()
+L 04/22/2017 - 18:25:53: [SM] Call stack trace:
+L 04/22/2017 - 18:25:53: [SM]   [0] KillTimer
+L 04/22/2017 - 18:25:53: [SM]   [1] Line 686, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-emp-mapvote.sp::UMC_OnNextmapSet()
+L 04/22/2017 - 18:25:53: [SM]   [3] Call_Finish
+L 04/22/2017 - 18:25:53: [SM]   [4] Line 4834, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::DoMapChange()
+L 04/22/2017 - 18:25:53: [SM]   [5] Line 4267, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteWinner()
+L 04/22/2017 - 18:25:53: [SM]   [6] Line 3819, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteWinner()
+L 04/22/2017 - 18:25:53: [SM]   [7] Line 3795, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteResults()
+L 04/22/2017 - 18:25:53: [SM]   [8] Line 1277, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Native_UMCVoteManagerComplete()
+L 04/22/2017 - 18:25:53: [SM]   [10] UMC_VoteManagerVoteCompleted
+L 04/22/2017 - 18:25:53: [SM]   [11] Line 2309, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteResults()
+L 04/22/2017 - 18:25:59: Error log file session closed.
+L 04/22/2017 - 18:43:56: SourceMod error session started
+L 04/22/2017 - 18:43:56: Info (map "emp_urbanchaos") (file "errors_20170422.log")
+L 04/22/2017 - 18:43:56: [SM] Exception reported: Invalid timer handle 205d0274 (error 1)
+L 04/22/2017 - 18:43:56: [SM] Blaming: umc-emp-mapvote.smx()
+L 04/22/2017 - 18:43:56: [SM] Call stack trace:
+L 04/22/2017 - 18:43:56: [SM]   [0] KillTimer
+L 04/22/2017 - 18:43:56: [SM]   [1] Line 686, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-emp-mapvote.sp::UMC_OnNextmapSet()
+L 04/22/2017 - 18:43:56: [SM]   [3] Call_Finish
+L 04/22/2017 - 18:43:56: [SM]   [4] Line 4834, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::DoMapChange()
+L 04/22/2017 - 18:43:56: [SM]   [5] Line 4267, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteWinner()
+L 04/22/2017 - 18:43:56: [SM]   [6] Line 3819, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteWinner()
+L 04/22/2017 - 18:43:56: [SM]   [7] Line 3795, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteResults()
+L 04/22/2017 - 18:43:56: [SM]   [8] Line 1277, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Native_UMCVoteManagerComplete()
+L 04/22/2017 - 18:43:56: [SM]   [10] UMC_VoteManagerVoteCompleted
+L 04/22/2017 - 18:43:56: [SM]   [11] Line 2309, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteResults()
+L 04/22/2017 - 18:44:02: Error log file session closed.
+L 04/22/2017 - 18:47:25: SourceMod error session started
+L 04/22/2017 - 18:47:25: Info (map "emp_canyon") (file "errors_20170422.log")
+L 04/22/2017 - 18:47:25: [SM] Exception reported: Client 9 is not in game
+L 04/22/2017 - 18:47:25: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 18:47:25: [SM] Call stack trace:
+L 04/22/2017 - 18:47:25: [SM]   [0] PrintToChat
+L 04/22/2017 - 18:47:25: [SM]   [1] Line 1183, squadcontrol.sp::RefreshVotes()
+L 04/22/2017 - 18:47:25: [SM]   [2] Line 97, squadcontrol.sp::OnClientDisconnect()
+L 04/22/2017 - 18:47:25: [SM] Exception reported: Entity 9 (9) is invalid
+L 04/22/2017 - 18:47:25: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 18:47:25: [SM] Call stack trace:
+L 04/22/2017 - 18:47:25: [SM]   [0] SetEntProp
+L 04/22/2017 - 18:47:25: [SM]   [1] Line 1186, squadcontrol.sp::RefreshVotes()
+L 04/22/2017 - 18:47:25: [SM]   [2] Line 330, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 18:47:59: [SM] Exception reported: Entity 9 (9) is invalid
+L 04/22/2017 - 18:47:59: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 18:47:59: [SM] Call stack trace:
+L 04/22/2017 - 18:47:59: [SM]   [0] SetEntProp
+L 04/22/2017 - 18:47:59: [SM]   [1] Line 1186, squadcontrol.sp::RefreshVotes()
+L 04/22/2017 - 18:47:59: [SM]   [2] Line 97, squadcontrol.sp::OnClientDisconnect()
+L 04/22/2017 - 18:47:59: [SM] Exception reported: Entity 9 (9) is invalid
+L 04/22/2017 - 18:47:59: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 18:47:59: [SM] Call stack trace:
+L 04/22/2017 - 18:47:59: [SM]   [0] SetEntProp
+L 04/22/2017 - 18:47:59: [SM]   [1] Line 1186, squadcontrol.sp::RefreshVotes()
+L 04/22/2017 - 18:47:59: [SM]   [2] Line 330, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 18:51:38: SourceMod error session started
+L 04/22/2017 - 18:51:38: Info (map "emp_district402") (file "errors_20170422.log")
+L 04/22/2017 - 18:51:38: [SDKTOOLS] Invalid detour address passed - Disabling detour to prevent crashes
+L 04/22/2017 - 18:51:38: [SDKTOOLS] Failed to find PlayerRunCmd offset - OnPlayerRunCmd forward disabled.
+L 04/22/2017 - 18:51:47: Error log file session closed.
+L 04/22/2017 - 18:56:33: SourceMod error session started
+L 04/22/2017 - 18:56:33: Info (map "emp_canyon") (file "errors_20170422.log")
+L 04/22/2017 - 18:56:33: [SM] Exception reported: Array index is out of bounds
+L 04/22/2017 - 18:56:33: [SM] Blaming: webshortcuts.smx()
+L 04/22/2017 - 18:56:33: [SM] Call stack trace:
+L 04/22/2017 - 18:56:33: [SM]   [1] Line 57, webshortcuts.sp::OnSay()
+L 04/22/2017 - 19:53:24: [SM] Exception reported: Invalid timer handle 22f40267 (error 3)
+L 04/22/2017 - 19:53:24: [SM] Blaming: umc-emp-mapvote.smx()
+L 04/22/2017 - 19:53:24: [SM] Call stack trace:
+L 04/22/2017 - 19:53:24: [SM]   [0] KillTimer
+L 04/22/2017 - 19:53:24: [SM]   [1] Line 686, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-emp-mapvote.sp::UMC_OnNextmapSet()
+L 04/22/2017 - 19:53:24: [SM]   [3] Call_Finish
+L 04/22/2017 - 19:53:24: [SM]   [4] Line 4834, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::DoMapChange()
+L 04/22/2017 - 19:53:24: [SM]   [5] Line 4267, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteWinner()
+L 04/22/2017 - 19:53:24: [SM]   [6] Line 3819, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteWinner()
+L 04/22/2017 - 19:53:24: [SM]   [7] Line 3795, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteResults()
+L 04/22/2017 - 19:53:24: [SM]   [8] Line 1277, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Native_UMCVoteManagerComplete()
+L 04/22/2017 - 19:53:24: [SM]   [10] UMC_VoteManagerVoteCompleted
+L 04/22/2017 - 19:53:24: [SM]   [11] Line 2309, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteResults()
+L 04/22/2017 - 19:53:30: Error log file session closed.
+L 04/22/2017 - 20:29:14: SourceMod error session started
+L 04/22/2017 - 20:29:14: Info (map "emp_snowstorm_rc6") (file "errors_20170422.log")
+L 04/22/2017 - 20:29:14: [SM] Exception reported: Invalid timer handle 39ed0243 (error 3)
+L 04/22/2017 - 20:29:14: [SM] Blaming: umc-emp-mapvote.smx()
+L 04/22/2017 - 20:29:14: [SM] Call stack trace:
+L 04/22/2017 - 20:29:14: [SM]   [0] KillTimer
+L 04/22/2017 - 20:29:14: [SM]   [1] Line 686, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-emp-mapvote.sp::UMC_OnNextmapSet()
+L 04/22/2017 - 20:29:14: [SM]   [3] Call_Finish
+L 04/22/2017 - 20:29:14: [SM]   [4] Line 4834, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::DoMapChange()
+L 04/22/2017 - 20:29:14: [SM]   [5] Line 4267, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteWinner()
+L 04/22/2017 - 20:29:14: [SM]   [6] Line 3819, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteWinner()
+L 04/22/2017 - 20:29:14: [SM]   [7] Line 3795, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteResults()
+L 04/22/2017 - 20:29:14: [SM]   [8] Line 1277, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Native_UMCVoteManagerComplete()
+L 04/22/2017 - 20:29:14: [SM]   [10] UMC_VoteManagerVoteCompleted
+L 04/22/2017 - 20:29:14: [SM]   [11] Line 2309, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteResults()
+L 04/22/2017 - 20:29:23: Error log file session closed.
+L 04/22/2017 - 20:37:33: SourceMod error session started
+L 04/22/2017 - 20:37:33: Info (map "emp_massacred_rc1") (file "errors_20170422.log")
+L 04/22/2017 - 20:37:33: [SM] Exception reported: Invalid timer handle 39ed0243 (error 1)
+L 04/22/2017 - 20:37:33: [SM] Blaming: umc-emp-mapvote.smx()
+L 04/22/2017 - 20:37:33: [SM] Call stack trace:
+L 04/22/2017 - 20:37:33: [SM]   [0] KillTimer
+L 04/22/2017 - 20:37:33: [SM]   [1] Line 686, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-emp-mapvote.sp::UMC_OnNextmapSet()
+L 04/22/2017 - 20:37:33: [SM]   [3] Call_Finish
+L 04/22/2017 - 20:37:33: [SM]   [4] Line 4834, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::DoMapChange()
+L 04/22/2017 - 20:37:33: [SM]   [5] Line 4267, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteWinner()
+L 04/22/2017 - 20:37:33: [SM]   [6] Line 3819, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteWinner()
+L 04/22/2017 - 20:37:33: [SM]   [7] Line 3795, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteResults()
+L 04/22/2017 - 20:37:33: [SM]   [8] Line 1277, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Native_UMCVoteManagerComplete()
+L 04/22/2017 - 20:37:33: [SM]   [10] UMC_VoteManagerVoteCompleted
+L 04/22/2017 - 20:37:33: [SM]   [11] Line 2309, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteResults()
+L 04/22/2017 - 20:37:38: Error log file session closed.
+L 04/22/2017 - 20:51:11: SourceMod error session started
+L 04/22/2017 - 20:51:11: Info (map "emp_flat_fix") (file "errors_20170422.log")
+L 04/22/2017 - 20:51:11: [SM] Exception reported: Client index 66 is invalid
+L 04/22/2017 - 20:51:11: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 20:51:11: [SM] Call stack trace:
+L 04/22/2017 - 20:51:11: [SM]   [0] IsClientInGame
+L 04/22/2017 - 20:51:11: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 20:52:15: [SM] Exception reported: Client index 65 is invalid
+L 04/22/2017 - 20:52:15: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 20:52:15: [SM] Call stack trace:
+L 04/22/2017 - 20:52:15: [SM]   [0] IsClientInGame
+L 04/22/2017 - 20:52:15: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 20:53:07: [SM] Exception reported: Client index 67 is invalid
+L 04/22/2017 - 20:53:07: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 20:53:07: [SM] Call stack trace:
+L 04/22/2017 - 20:53:07: [SM]   [0] IsClientInGame
+L 04/22/2017 - 20:53:07: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 20:53:24: [SM] Exception reported: Client index 67 is invalid
+L 04/22/2017 - 20:53:24: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 20:53:24: [SM] Call stack trace:
+L 04/22/2017 - 20:53:24: [SM]   [0] IsClientInGame
+L 04/22/2017 - 20:53:24: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 20:53:33: [SM] Exception reported: Client index 71 is invalid
+L 04/22/2017 - 20:53:33: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 20:53:33: [SM] Call stack trace:
+L 04/22/2017 - 20:53:33: [SM]   [0] IsClientInGame
+L 04/22/2017 - 20:53:33: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 20:54:37: [SM] Exception reported: Client index 72 is invalid
+L 04/22/2017 - 20:54:37: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 20:54:37: [SM] Call stack trace:
+L 04/22/2017 - 20:54:37: [SM]   [0] IsClientInGame
+L 04/22/2017 - 20:54:37: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 20:54:52: [SM] Exception reported: Client index 70 is invalid
+L 04/22/2017 - 20:54:52: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 20:54:52: [SM] Call stack trace:
+L 04/22/2017 - 20:54:52: [SM]   [0] IsClientInGame
+L 04/22/2017 - 20:54:52: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 20:54:55: [SM] Exception reported: Client index 70 is invalid
+L 04/22/2017 - 20:54:55: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 20:54:55: [SM] Call stack trace:
+L 04/22/2017 - 20:54:55: [SM]   [0] IsClientInGame
+L 04/22/2017 - 20:54:55: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 20:55:12: [SM] Exception reported: Client index 69 is invalid
+L 04/22/2017 - 20:55:12: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 20:55:12: [SM] Call stack trace:
+L 04/22/2017 - 20:55:12: [SM]   [0] IsClientInGame
+L 04/22/2017 - 20:55:12: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 20:57:36: [SM] Exception reported: Client index 73 is invalid
+L 04/22/2017 - 20:57:36: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 20:57:36: [SM] Call stack trace:
+L 04/22/2017 - 20:57:36: [SM]   [0] IsClientInGame
+L 04/22/2017 - 20:57:36: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 20:58:36: [SM] Exception reported: Invalid timer handle 4dc20259 (error 3)
+L 04/22/2017 - 20:58:36: [SM] Blaming: umc-emp-mapvote.smx()
+L 04/22/2017 - 20:58:36: [SM] Call stack trace:
+L 04/22/2017 - 20:58:36: [SM]   [0] KillTimer
+L 04/22/2017 - 20:58:36: [SM]   [1] Line 686, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-emp-mapvote.sp::UMC_OnNextmapSet()
+L 04/22/2017 - 20:58:36: [SM]   [3] Call_Finish
+L 04/22/2017 - 20:58:36: [SM]   [4] Line 4834, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::DoMapChange()
+L 04/22/2017 - 20:58:36: [SM]   [5] Line 4267, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteWinner()
+L 04/22/2017 - 20:58:36: [SM]   [6] Line 3819, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteWinner()
+L 04/22/2017 - 20:58:36: [SM]   [7] Line 3795, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteResults()
+L 04/22/2017 - 20:58:36: [SM]   [8] Line 1277, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Native_UMCVoteManagerComplete()
+L 04/22/2017 - 20:58:36: [SM]   [10] UMC_VoteManagerVoteCompleted
+L 04/22/2017 - 20:58:36: [SM]   [11] Line 2309, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteResults()
+L 04/22/2017 - 20:58:42: Error log file session closed.
+L 04/22/2017 - 20:58:50: SourceMod error session started
+L 04/22/2017 - 20:58:50: Info (map "emp_arid") (file "errors_20170422.log")
+L 04/22/2017 - 20:58:50: [SM] Exception reported: Client index 71 is invalid
+L 04/22/2017 - 20:58:50: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 20:58:50: [SM] Call stack trace:
+L 04/22/2017 - 20:58:50: [SM]   [0] IsClientInGame
+L 04/22/2017 - 20:58:50: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 20:59:01: [SM] Exception reported: Client index 70 is invalid
+L 04/22/2017 - 20:59:01: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 20:59:01: [SM] Call stack trace:
+L 04/22/2017 - 20:59:01: [SM]   [0] IsClientInGame
+L 04/22/2017 - 20:59:01: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 20:59:10: [SM] Exception reported: Client index 74 is invalid
+L 04/22/2017 - 20:59:10: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 20:59:10: [SM] Call stack trace:
+L 04/22/2017 - 20:59:10: [SM]   [0] IsClientInGame
+L 04/22/2017 - 20:59:10: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 20:59:27: [SM] Exception reported: Client index 67 is invalid
+L 04/22/2017 - 20:59:27: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 20:59:27: [SM] Call stack trace:
+L 04/22/2017 - 20:59:27: [SM]   [0] IsClientInGame
+L 04/22/2017 - 20:59:27: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 21:00:28: [SM] Exception reported: Client index 73 is invalid
+L 04/22/2017 - 21:00:28: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 21:00:28: [SM] Call stack trace:
+L 04/22/2017 - 21:00:28: [SM]   [0] IsClientInGame
+L 04/22/2017 - 21:00:28: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 21:01:12: [SM] Exception reported: Client index 77 is invalid
+L 04/22/2017 - 21:01:12: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 21:01:12: [SM] Call stack trace:
+L 04/22/2017 - 21:01:12: [SM]   [0] IsClientInGame
+L 04/22/2017 - 21:01:12: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 21:01:29: [SM] Exception reported: Client index 76 is invalid
+L 04/22/2017 - 21:01:29: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 21:01:29: [SM] Call stack trace:
+L 04/22/2017 - 21:01:29: [SM]   [0] IsClientInGame
+L 04/22/2017 - 21:01:29: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 21:01:48: [SM] Exception reported: Client index 75 is invalid
+L 04/22/2017 - 21:01:48: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 21:01:48: [SM] Call stack trace:
+L 04/22/2017 - 21:01:48: [SM]   [0] IsClientInGame
+L 04/22/2017 - 21:01:48: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 21:01:53: [SM] Exception reported: Client index 75 is invalid
+L 04/22/2017 - 21:01:53: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 21:01:53: [SM] Call stack trace:
+L 04/22/2017 - 21:01:53: [SM]   [0] IsClientInGame
+L 04/22/2017 - 21:01:53: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 21:03:57: [SM] Exception reported: Array index is out of bounds
+L 04/22/2017 - 21:03:57: [SM] Blaming: webshortcuts.smx()
+L 04/22/2017 - 21:03:57: [SM] Call stack trace:
+L 04/22/2017 - 21:03:57: [SM]   [1] Line 57, webshortcuts.sp::OnSay()
+L 04/22/2017 - 21:05:47: [SM] Exception reported: Client index 65 is invalid
+L 04/22/2017 - 21:05:47: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 21:05:47: [SM] Call stack trace:
+L 04/22/2017 - 21:05:47: [SM]   [0] IsClientInGame
+L 04/22/2017 - 21:05:47: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 21:13:13: [SM] Exception reported: Client index 79 is invalid
+L 04/22/2017 - 21:13:13: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 21:13:13: [SM] Call stack trace:
+L 04/22/2017 - 21:13:13: [SM]   [0] IsClientInGame
+L 04/22/2017 - 21:13:13: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 21:13:59: [SM] Exception reported: Client index 79 is invalid
+L 04/22/2017 - 21:13:59: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 21:13:59: [SM] Call stack trace:
+L 04/22/2017 - 21:13:59: [SM]   [0] IsClientInGame
+L 04/22/2017 - 21:13:59: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 21:14:26: [SM] Exception reported: Client index 81 is invalid
+L 04/22/2017 - 21:14:26: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 21:14:26: [SM] Call stack trace:
+L 04/22/2017 - 21:14:26: [SM]   [0] IsClientInGame
+L 04/22/2017 - 21:14:26: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 21:19:30: [SM] Exception reported: Client index 79 is invalid
+L 04/22/2017 - 21:19:30: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 21:19:30: [SM] Call stack trace:
+L 04/22/2017 - 21:19:30: [SM]   [0] IsClientInGame
+L 04/22/2017 - 21:19:30: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 21:21:38: [SM] Exception reported: Client index 81 is invalid
+L 04/22/2017 - 21:21:38: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 21:21:38: [SM] Call stack trace:
+L 04/22/2017 - 21:21:38: [SM]   [0] IsClientInGame
+L 04/22/2017 - 21:21:38: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 21:22:07: [SM] Exception reported: Client index 83 is invalid
+L 04/22/2017 - 21:22:07: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 21:22:07: [SM] Call stack trace:
+L 04/22/2017 - 21:22:07: [SM]   [0] IsClientInGame
+L 04/22/2017 - 21:22:07: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 21:23:57: [SM] Exception reported: Client index 80 is invalid
+L 04/22/2017 - 21:23:57: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 21:23:57: [SM] Call stack trace:
+L 04/22/2017 - 21:23:57: [SM]   [0] IsClientInGame
+L 04/22/2017 - 21:23:57: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 21:26:07: [SM] Exception reported: Client index 84 is invalid
+L 04/22/2017 - 21:26:07: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 21:26:07: [SM] Call stack trace:
+L 04/22/2017 - 21:26:07: [SM]   [0] IsClientInGame
+L 04/22/2017 - 21:26:07: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 21:26:18: [SM] Exception reported: Client index 84 is invalid
+L 04/22/2017 - 21:26:18: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 21:26:18: [SM] Call stack trace:
+L 04/22/2017 - 21:26:18: [SM]   [0] IsClientInGame
+L 04/22/2017 - 21:26:18: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 21:28:06: [SM] Exception reported: Client index 66 is invalid
+L 04/22/2017 - 21:28:06: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 21:28:06: [SM] Call stack trace:
+L 04/22/2017 - 21:28:06: [SM]   [0] IsClientInGame
+L 04/22/2017 - 21:28:06: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 21:29:27: [SM] Exception reported: Client index 85 is invalid
+L 04/22/2017 - 21:29:27: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 21:29:27: [SM] Call stack trace:
+L 04/22/2017 - 21:29:27: [SM]   [0] IsClientInGame
+L 04/22/2017 - 21:29:27: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 21:29:37: [SM] Exception reported: Client index 86 is invalid
+L 04/22/2017 - 21:29:37: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 21:29:37: [SM] Call stack trace:
+L 04/22/2017 - 21:29:37: [SM]   [0] IsClientInGame
+L 04/22/2017 - 21:29:37: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 21:32:13: [SM] Exception reported: Invalid timer handle 60540287 (error 1)
+L 04/22/2017 - 21:32:13: [SM] Blaming: umc-emp-mapvote.smx()
+L 04/22/2017 - 21:32:13: [SM] Call stack trace:
+L 04/22/2017 - 21:32:13: [SM]   [0] KillTimer
+L 04/22/2017 - 21:32:13: [SM]   [1] Line 686, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-emp-mapvote.sp::UMC_OnNextmapSet()
+L 04/22/2017 - 21:32:13: [SM]   [3] Call_Finish
+L 04/22/2017 - 21:32:13: [SM]   [4] Line 4834, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::DoMapChange()
+L 04/22/2017 - 21:32:13: [SM]   [5] Line 4267, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteWinner()
+L 04/22/2017 - 21:32:13: [SM]   [6] Line 3819, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteWinner()
+L 04/22/2017 - 21:32:13: [SM]   [7] Line 3795, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteResults()
+L 04/22/2017 - 21:32:13: [SM]   [8] Line 1277, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Native_UMCVoteManagerComplete()
+L 04/22/2017 - 21:32:13: [SM]   [10] UMC_VoteManagerVoteCompleted
+L 04/22/2017 - 21:32:13: [SM]   [11] Line 2309, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteResults()
+L 04/22/2017 - 21:32:19: Error log file session closed.
+L 04/22/2017 - 21:32:33: SourceMod error session started
+L 04/22/2017 - 21:32:33: Info (map "emp_mvalley") (file "errors_20170422.log")
+L 04/22/2017 - 21:32:33: [SM] Exception reported: Client index 71 is invalid
+L 04/22/2017 - 21:32:33: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 21:32:33: [SM] Call stack trace:
+L 04/22/2017 - 21:32:33: [SM]   [0] IsClientInGame
+L 04/22/2017 - 21:32:33: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 21:32:37: [SM] Exception reported: Client index 86 is invalid
+L 04/22/2017 - 21:32:37: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 21:32:37: [SM] Call stack trace:
+L 04/22/2017 - 21:32:37: [SM]   [0] IsClientInGame
+L 04/22/2017 - 21:32:37: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 21:32:44: [SM] Exception reported: Client index 70 is invalid
+L 04/22/2017 - 21:32:44: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 21:32:44: [SM] Call stack trace:
+L 04/22/2017 - 21:32:44: [SM]   [0] IsClientInGame
+L 04/22/2017 - 21:32:44: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 21:32:48: [SM] Exception reported: Client index 75 is invalid
+L 04/22/2017 - 21:32:48: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 21:32:48: [SM] Call stack trace:
+L 04/22/2017 - 21:32:48: [SM]   [0] IsClientInGame
+L 04/22/2017 - 21:32:48: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 21:33:56: [SM] Exception reported: Client index 87 is invalid
+L 04/22/2017 - 21:33:56: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 21:33:56: [SM] Call stack trace:
+L 04/22/2017 - 21:33:56: [SM]   [0] IsClientInGame
+L 04/22/2017 - 21:33:56: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 21:34:05: [SM] Exception reported: Client index 76 is invalid
+L 04/22/2017 - 21:34:05: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 21:34:05: [SM] Call stack trace:
+L 04/22/2017 - 21:34:05: [SM]   [0] IsClientInGame
+L 04/22/2017 - 21:34:05: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 21:34:35: [SM] Exception reported: Client index 84 is invalid
+L 04/22/2017 - 21:34:35: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 21:34:35: [SM] Call stack trace:
+L 04/22/2017 - 21:34:35: [SM]   [0] IsClientInGame
+L 04/22/2017 - 21:34:35: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 21:35:17: [SM] Exception reported: Client index 81 is invalid
+L 04/22/2017 - 21:35:17: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 21:35:17: [SM] Call stack trace:
+L 04/22/2017 - 21:35:17: [SM]   [0] IsClientInGame
+L 04/22/2017 - 21:35:17: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 21:35:41: [SM] Exception reported: Client index 77 is invalid
+L 04/22/2017 - 21:35:41: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 21:35:41: [SM] Call stack trace:
+L 04/22/2017 - 21:35:41: [SM]   [0] IsClientInGame
+L 04/22/2017 - 21:35:41: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 21:35:54: [SM] Exception reported: Client index 74 is invalid
+L 04/22/2017 - 21:35:54: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 21:35:54: [SM] Call stack trace:
+L 04/22/2017 - 21:35:54: [SM]   [0] IsClientInGame
+L 04/22/2017 - 21:35:54: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 21:35:54: [SM] Exception reported: Client index 88 is invalid
+L 04/22/2017 - 21:35:54: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 21:35:54: [SM] Call stack trace:
+L 04/22/2017 - 21:35:54: [SM]   [0] IsClientInGame
+L 04/22/2017 - 21:35:54: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 21:36:42: [SM] Exception reported: Client index 80 is invalid
+L 04/22/2017 - 21:36:42: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 21:36:42: [SM] Call stack trace:
+L 04/22/2017 - 21:36:42: [SM]   [0] IsClientInGame
+L 04/22/2017 - 21:36:42: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 21:37:17: [SM] Exception reported: Client index 89 is invalid
+L 04/22/2017 - 21:37:17: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 21:37:17: [SM] Call stack trace:
+L 04/22/2017 - 21:37:17: [SM]   [0] IsClientInGame
+L 04/22/2017 - 21:37:17: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 21:40:42: [SM] Exception reported: Client index 93 is invalid
+L 04/22/2017 - 21:40:42: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 21:40:42: [SM] Call stack trace:
+L 04/22/2017 - 21:40:42: [SM]   [0] IsClientInGame
+L 04/22/2017 - 21:40:42: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 21:40:46: [SM] Exception reported: Client index 91 is invalid
+L 04/22/2017 - 21:40:46: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 21:40:46: [SM] Call stack trace:
+L 04/22/2017 - 21:40:46: [SM]   [0] IsClientInGame
+L 04/22/2017 - 21:40:46: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 21:41:19: [SM] Exception reported: Client index 67 is invalid
+L 04/22/2017 - 21:41:19: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 21:41:19: [SM] Call stack trace:
+L 04/22/2017 - 21:41:19: [SM]   [0] IsClientInGame
+L 04/22/2017 - 21:41:19: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 21:42:13: [SM] Exception reported: Client index 90 is invalid
+L 04/22/2017 - 21:42:13: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 21:42:13: [SM] Call stack trace:
+L 04/22/2017 - 21:42:13: [SM]   [0] IsClientInGame
+L 04/22/2017 - 21:42:13: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 21:42:59: [SM] Exception reported: Invalid timer handle 66660293 (error 1)
+L 04/22/2017 - 21:42:59: [SM] Blaming: umc-emp-mapvote.smx()
+L 04/22/2017 - 21:42:59: [SM] Call stack trace:
+L 04/22/2017 - 21:42:59: [SM]   [0] KillTimer
+L 04/22/2017 - 21:42:59: [SM]   [1] Line 686, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-emp-mapvote.sp::UMC_OnNextmapSet()
+L 04/22/2017 - 21:42:59: [SM]   [3] Call_Finish
+L 04/22/2017 - 21:42:59: [SM]   [4] Line 4834, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::DoMapChange()
+L 04/22/2017 - 21:42:59: [SM]   [5] Line 4267, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteWinner()
+L 04/22/2017 - 21:42:59: [SM]   [6] Line 3819, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteWinner()
+L 04/22/2017 - 21:42:59: [SM]   [7] Line 3795, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteResults()
+L 04/22/2017 - 21:42:59: [SM]   [8] Line 1277, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Native_UMCVoteManagerComplete()
+L 04/22/2017 - 21:42:59: [SM]   [10] UMC_VoteManagerVoteCompleted
+L 04/22/2017 - 21:42:59: [SM]   [11] Line 2309, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteResults()
+L 04/22/2017 - 21:43:04: Error log file session closed.
+L 04/22/2017 - 21:43:13: SourceMod error session started
+L 04/22/2017 - 21:43:13: Info (map "emp_coast") (file "errors_20170422.log")
+L 04/22/2017 - 21:43:13: [SM] Exception reported: Client index 88 is invalid
+L 04/22/2017 - 21:43:13: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 21:43:13: [SM] Call stack trace:
+L 04/22/2017 - 21:43:13: [SM]   [0] IsClientInGame
+L 04/22/2017 - 21:43:13: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 21:43:14: [SM] Exception reported: Client index 87 is invalid
+L 04/22/2017 - 21:43:14: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 21:43:14: [SM] Call stack trace:
+L 04/22/2017 - 21:43:14: [SM]   [0] IsClientInGame
+L 04/22/2017 - 21:43:14: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 21:43:16: [SM] Exception reported: Client index 71 is invalid
+L 04/22/2017 - 21:43:16: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 21:43:16: [SM] Call stack trace:
+L 04/22/2017 - 21:43:16: [SM]   [0] IsClientInGame
+L 04/22/2017 - 21:43:16: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 21:43:16: [SM] Exception reported: Client index 89 is invalid
+L 04/22/2017 - 21:43:16: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 21:43:16: [SM] Call stack trace:
+L 04/22/2017 - 21:43:16: [SM]   [0] IsClientInGame
+L 04/22/2017 - 21:43:16: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 21:43:25: [SM] Exception reported: Client index 93 is invalid
+L 04/22/2017 - 21:43:25: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 21:43:25: [SM] Call stack trace:
+L 04/22/2017 - 21:43:25: [SM]   [0] IsClientInGame
+L 04/22/2017 - 21:43:25: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 21:43:26: [SM] Exception reported: Client index 91 is invalid
+L 04/22/2017 - 21:43:26: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 21:43:26: [SM] Call stack trace:
+L 04/22/2017 - 21:43:26: [SM]   [0] IsClientInGame
+L 04/22/2017 - 21:43:26: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 21:43:28: [SM] Exception reported: Client index 84 is invalid
+L 04/22/2017 - 21:43:28: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 21:43:28: [SM] Call stack trace:
+L 04/22/2017 - 21:43:28: [SM]   [0] IsClientInGame
+L 04/22/2017 - 21:43:28: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 21:43:29: [SM] Exception reported: Client index 70 is invalid
+L 04/22/2017 - 21:43:29: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 21:43:29: [SM] Call stack trace:
+L 04/22/2017 - 21:43:29: [SM]   [0] IsClientInGame
+L 04/22/2017 - 21:43:29: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 21:43:29: [SM] Exception reported: Client index 86 is invalid
+L 04/22/2017 - 21:43:29: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 21:43:29: [SM] Call stack trace:
+L 04/22/2017 - 21:43:29: [SM]   [0] IsClientInGame
+L 04/22/2017 - 21:43:29: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 21:43:30: [SM] Exception reported: Client index 90 is invalid
+L 04/22/2017 - 21:43:30: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 21:43:30: [SM] Call stack trace:
+L 04/22/2017 - 21:43:30: [SM]   [0] IsClientInGame
+L 04/22/2017 - 21:43:30: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 21:43:34: [SM] Exception reported: Client index 76 is invalid
+L 04/22/2017 - 21:43:34: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 21:43:34: [SM] Call stack trace:
+L 04/22/2017 - 21:43:34: [SM]   [0] IsClientInGame
+L 04/22/2017 - 21:43:34: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 21:44:28: [SM] Exception reported: Client index 74 is invalid
+L 04/22/2017 - 21:44:28: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 21:44:28: [SM] Call stack trace:
+L 04/22/2017 - 21:44:28: [SM]   [0] IsClientInGame
+L 04/22/2017 - 21:44:28: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 21:44:57: [SM] Exception reported: Client index 75 is invalid
+L 04/22/2017 - 21:44:57: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 21:44:57: [SM] Call stack trace:
+L 04/22/2017 - 21:44:57: [SM]   [0] IsClientInGame
+L 04/22/2017 - 21:44:57: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 21:45:03: [SM] Exception reported: Client index 81 is invalid
+L 04/22/2017 - 21:45:03: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 21:45:03: [SM] Call stack trace:
+L 04/22/2017 - 21:45:03: [SM]   [0] IsClientInGame
+L 04/22/2017 - 21:45:03: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 21:45:19: [SM] Exception reported: Client index 94 is invalid
+L 04/22/2017 - 21:45:19: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 21:45:19: [SM] Call stack trace:
+L 04/22/2017 - 21:45:19: [SM]   [0] IsClientInGame
+L 04/22/2017 - 21:45:19: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 21:45:30: [SM] Exception reported: Client index 67 is invalid
+L 04/22/2017 - 21:45:30: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 21:45:30: [SM] Call stack trace:
+L 04/22/2017 - 21:45:30: [SM]   [0] IsClientInGame
+L 04/22/2017 - 21:45:30: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 21:45:43: [SM] Exception reported: Client index 77 is invalid
+L 04/22/2017 - 21:45:43: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 21:45:43: [SM] Call stack trace:
+L 04/22/2017 - 21:45:43: [SM]   [0] IsClientInGame
+L 04/22/2017 - 21:45:43: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 21:45:46: [SM] Exception reported: Client index 67 is invalid
+L 04/22/2017 - 21:45:46: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 21:45:46: [SM] Call stack trace:
+L 04/22/2017 - 21:45:46: [SM]   [0] IsClientInGame
+L 04/22/2017 - 21:45:46: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 21:46:26: [SM] Exception reported: Client index 80 is invalid
+L 04/22/2017 - 21:46:26: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 21:46:26: [SM] Call stack trace:
+L 04/22/2017 - 21:46:26: [SM]   [0] IsClientInGame
+L 04/22/2017 - 21:46:26: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 21:47:32: [SM] Exception reported: Client index 95 is invalid
+L 04/22/2017 - 21:47:32: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 21:47:32: [SM] Call stack trace:
+L 04/22/2017 - 21:47:32: [SM]   [0] IsClientInGame
+L 04/22/2017 - 21:47:32: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 21:48:01: [SM] Exception reported: Client index 88 is invalid
+L 04/22/2017 - 21:48:01: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 21:48:01: [SM] Call stack trace:
+L 04/22/2017 - 21:48:01: [SM]   [0] IsClientInGame
+L 04/22/2017 - 21:48:01: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 21:48:01: [SM]   [3] ChangeClientTeam
+L 04/22/2017 - 21:48:01: [SM]   [4] Line 509, /home/forums/content/files/2/1/3/1/23850.attach::PerformSwitch()
+L 04/22/2017 - 21:48:01: [SM]   [5] Line 207, /home/forums/content/files/2/1/3/1/23850.attach::Command_SwitchSpec()
+L 04/22/2017 - 21:48:10: [SM] Exception reported: Client index 88 is invalid
+L 04/22/2017 - 21:48:10: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 21:48:10: [SM] Call stack trace:
+L 04/22/2017 - 21:48:10: [SM]   [0] IsClientInGame
+L 04/22/2017 - 21:48:10: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 21:48:22: [SM] Exception reported: Client index 96 is invalid
+L 04/22/2017 - 21:48:22: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 21:48:22: [SM] Call stack trace:
+L 04/22/2017 - 21:48:22: [SM]   [0] IsClientInGame
+L 04/22/2017 - 21:48:22: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 21:48:35: [SM] Exception reported: Client index 98 is invalid
+L 04/22/2017 - 21:48:35: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 21:48:35: [SM] Call stack trace:
+L 04/22/2017 - 21:48:35: [SM]   [0] IsClientInGame
+L 04/22/2017 - 21:48:35: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 21:48:59: [SM] Exception reported: Client index 97 is invalid
+L 04/22/2017 - 21:48:59: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 21:48:59: [SM] Call stack trace:
+L 04/22/2017 - 21:48:59: [SM]   [0] IsClientInGame
+L 04/22/2017 - 21:48:59: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 21:52:34: [SM] Exception reported: Client index 79 is invalid
+L 04/22/2017 - 21:52:34: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 21:52:34: [SM] Call stack trace:
+L 04/22/2017 - 21:52:34: [SM]   [0] IsClientInGame
+L 04/22/2017 - 21:52:34: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 21:52:48: [SM] Exception reported: Client index 79 is invalid
+L 04/22/2017 - 21:52:48: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 21:52:48: [SM] Call stack trace:
+L 04/22/2017 - 21:52:48: [SM]   [0] IsClientInGame
+L 04/22/2017 - 21:52:48: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 21:52:53: [SM] Exception reported: Client index 99 is invalid
+L 04/22/2017 - 21:52:53: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 21:52:53: [SM] Call stack trace:
+L 04/22/2017 - 21:52:53: [SM]   [0] IsClientInGame
+L 04/22/2017 - 21:52:53: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 21:54:16: [SM] Exception reported: Client index 100 is invalid
+L 04/22/2017 - 21:54:16: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 21:54:16: [SM] Call stack trace:
+L 04/22/2017 - 21:54:16: [SM]   [0] IsClientInGame
+L 04/22/2017 - 21:54:16: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 21:57:33: [SM] Exception reported: Client index 101 is invalid
+L 04/22/2017 - 21:57:33: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 21:57:33: [SM] Call stack trace:
+L 04/22/2017 - 21:57:33: [SM]   [0] IsClientInGame
+L 04/22/2017 - 21:57:33: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 21:58:13: [SM] Exception reported: Client index 102 is invalid
+L 04/22/2017 - 21:58:13: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 21:58:13: [SM] Call stack trace:
+L 04/22/2017 - 21:58:13: [SM]   [0] IsClientInGame
+L 04/22/2017 - 21:58:13: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 21:58:36: [SM] Exception reported: Client index 94 is invalid
+L 04/22/2017 - 21:58:36: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 21:58:36: [SM] Call stack trace:
+L 04/22/2017 - 21:58:36: [SM]   [0] IsClientInGame
+L 04/22/2017 - 21:58:36: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 21:59:04: [SM] Exception reported: Client index 103 is invalid
+L 04/22/2017 - 21:59:04: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 21:59:04: [SM] Call stack trace:
+L 04/22/2017 - 21:59:04: [SM]   [0] IsClientInGame
+L 04/22/2017 - 21:59:04: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 22:01:44: [SM] Exception reported: Client index 105 is invalid
+L 04/22/2017 - 22:01:44: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 22:01:44: [SM] Call stack trace:
+L 04/22/2017 - 22:01:44: [SM]   [0] IsClientInGame
+L 04/22/2017 - 22:01:44: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 22:01:54: [SM] Exception reported: Client index 66 is invalid
+L 04/22/2017 - 22:01:54: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 22:01:54: [SM] Call stack trace:
+L 04/22/2017 - 22:01:54: [SM]   [0] IsClientInGame
+L 04/22/2017 - 22:01:54: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 22:02:08: [SM] Exception reported: Client index 104 is invalid
+L 04/22/2017 - 22:02:08: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 22:02:08: [SM] Call stack trace:
+L 04/22/2017 - 22:02:08: [SM]   [0] IsClientInGame
+L 04/22/2017 - 22:02:08: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 22:02:34: [SM] Exception reported: Client index 104 is invalid
+L 04/22/2017 - 22:02:34: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 22:02:34: [SM] Call stack trace:
+L 04/22/2017 - 22:02:34: [SM]   [0] IsClientInGame
+L 04/22/2017 - 22:02:34: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 22:07:23: [SM] Exception reported: Client index 106 is invalid
+L 04/22/2017 - 22:07:23: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 22:07:23: [SM] Call stack trace:
+L 04/22/2017 - 22:07:23: [SM]   [0] IsClientInGame
+L 04/22/2017 - 22:07:23: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 22:08:15: [SM] Exception reported: Client index 86 is invalid
+L 04/22/2017 - 22:08:15: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 22:08:15: [SM] Call stack trace:
+L 04/22/2017 - 22:08:15: [SM]   [0] IsClientInGame
+L 04/22/2017 - 22:08:15: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 22:08:21: [SM] Exception reported: Client index 101 is invalid
+L 04/22/2017 - 22:08:21: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 22:08:21: [SM] Call stack trace:
+L 04/22/2017 - 22:08:21: [SM]   [0] IsClientInGame
+L 04/22/2017 - 22:08:21: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 22:08:27: [SM] Exception reported: Client index 107 is invalid
+L 04/22/2017 - 22:08:27: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 22:08:27: [SM] Call stack trace:
+L 04/22/2017 - 22:08:27: [SM]   [0] IsClientInGame
+L 04/22/2017 - 22:08:27: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 22:09:39: [SM] Exception reported: Client index 107 is invalid
+L 04/22/2017 - 22:09:39: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 22:09:39: [SM] Call stack trace:
+L 04/22/2017 - 22:09:39: [SM]   [0] IsClientInGame
+L 04/22/2017 - 22:09:39: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 22:09:47: [SM] Exception reported: Client index 109 is invalid
+L 04/22/2017 - 22:09:47: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 22:09:47: [SM] Call stack trace:
+L 04/22/2017 - 22:09:47: [SM]   [0] IsClientInGame
+L 04/22/2017 - 22:09:47: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 22:11:28: [SM] Exception reported: Client index 108 is invalid
+L 04/22/2017 - 22:11:28: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 22:11:28: [SM] Call stack trace:
+L 04/22/2017 - 22:11:28: [SM]   [0] IsClientInGame
+L 04/22/2017 - 22:11:28: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 22:14:59: [SM] Exception reported: Client index 91 is invalid
+L 04/22/2017 - 22:14:59: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 22:14:59: [SM] Call stack trace:
+L 04/22/2017 - 22:14:59: [SM]   [0] IsClientInGame
+L 04/22/2017 - 22:14:59: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 22:15:45: [SM] Exception reported: Client index 99 is invalid
+L 04/22/2017 - 22:15:45: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 22:15:45: [SM] Call stack trace:
+L 04/22/2017 - 22:15:45: [SM]   [0] IsClientInGame
+L 04/22/2017 - 22:15:45: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 22:15:53: [SM] Exception reported: Client index 93 is invalid
+L 04/22/2017 - 22:15:53: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 22:15:53: [SM] Call stack trace:
+L 04/22/2017 - 22:15:53: [SM]   [0] IsClientInGame
+L 04/22/2017 - 22:15:53: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 22:16:14: [SM] Exception reported: Client index 110 is invalid
+L 04/22/2017 - 22:16:14: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 22:16:14: [SM] Call stack trace:
+L 04/22/2017 - 22:16:14: [SM]   [0] IsClientInGame
+L 04/22/2017 - 22:16:14: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 22:20:06: [SM] Exception reported: Client index 105 is invalid
+L 04/22/2017 - 22:20:06: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 22:20:06: [SM] Call stack trace:
+L 04/22/2017 - 22:20:06: [SM]   [0] IsClientInGame
+L 04/22/2017 - 22:20:06: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 22:20:29: [SM] Exception reported: Client index 112 is invalid
+L 04/22/2017 - 22:20:29: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 22:20:29: [SM] Call stack trace:
+L 04/22/2017 - 22:20:29: [SM]   [0] IsClientInGame
+L 04/22/2017 - 22:20:29: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 22:20:30: [SM] Exception reported: Client index 111 is invalid
+L 04/22/2017 - 22:20:30: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 22:20:30: [SM] Call stack trace:
+L 04/22/2017 - 22:20:30: [SM]   [0] IsClientInGame
+L 04/22/2017 - 22:20:30: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 22:22:57: [SM] Exception reported: Client index 113 is invalid
+L 04/22/2017 - 22:22:57: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 22:22:57: [SM] Call stack trace:
+L 04/22/2017 - 22:22:57: [SM]   [0] IsClientInGame
+L 04/22/2017 - 22:22:57: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 22:22:57: [SM] Exception reported: Client index 75 is invalid
+L 04/22/2017 - 22:22:57: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 22:22:57: [SM] Call stack trace:
+L 04/22/2017 - 22:22:57: [SM]   [0] IsClientInGame
+L 04/22/2017 - 22:22:57: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 22:24:23: [SM] Exception reported: Client index 114 is invalid
+L 04/22/2017 - 22:24:23: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 22:24:23: [SM] Call stack trace:
+L 04/22/2017 - 22:24:23: [SM]   [0] IsClientInGame
+L 04/22/2017 - 22:24:23: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 22:25:37: [SM] Exception reported: Client index 98 is invalid
+L 04/22/2017 - 22:25:37: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 22:25:37: [SM] Call stack trace:
+L 04/22/2017 - 22:25:37: [SM]   [0] IsClientInGame
+L 04/22/2017 - 22:25:37: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 22:31:16: [SM] Exception reported: Client index 115 is invalid
+L 04/22/2017 - 22:31:16: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 22:31:16: [SM] Call stack trace:
+L 04/22/2017 - 22:31:16: [SM]   [0] IsClientInGame
+L 04/22/2017 - 22:31:16: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 22:31:22: [SM] Exception reported: Client index 115 is invalid
+L 04/22/2017 - 22:31:22: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 22:31:22: [SM] Call stack trace:
+L 04/22/2017 - 22:31:22: [SM]   [0] IsClientInGame
+L 04/22/2017 - 22:31:22: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 22:35:34: [SM] Exception reported: Client index 116 is invalid
+L 04/22/2017 - 22:35:34: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 22:35:34: [SM] Call stack trace:
+L 04/22/2017 - 22:35:34: [SM]   [0] IsClientInGame
+L 04/22/2017 - 22:35:34: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 22:36:21: [SM] Exception reported: Client index 115 is invalid
+L 04/22/2017 - 22:36:21: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 22:36:21: [SM] Call stack trace:
+L 04/22/2017 - 22:36:21: [SM]   [0] IsClientInGame
+L 04/22/2017 - 22:36:21: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 22:36:50: [SM] Exception reported: Client index 117 is invalid
+L 04/22/2017 - 22:36:50: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 22:36:50: [SM] Call stack trace:
+L 04/22/2017 - 22:36:50: [SM]   [0] IsClientInGame
+L 04/22/2017 - 22:36:50: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 22:37:26: [SM] Exception reported: Client index 100 is invalid
+L 04/22/2017 - 22:37:26: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 22:37:26: [SM] Call stack trace:
+L 04/22/2017 - 22:37:26: [SM]   [0] IsClientInGame
+L 04/22/2017 - 22:37:26: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 22:42:27: [SM] Exception reported: Client index 118 is invalid
+L 04/22/2017 - 22:42:27: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 22:42:27: [SM] Call stack trace:
+L 04/22/2017 - 22:42:27: [SM]   [0] IsClientInGame
+L 04/22/2017 - 22:42:27: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 22:42:38: [SM] Exception reported: Client index 119 is invalid
+L 04/22/2017 - 22:42:38: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 22:42:38: [SM] Call stack trace:
+L 04/22/2017 - 22:42:38: [SM]   [0] IsClientInGame
+L 04/22/2017 - 22:42:38: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 22:44:17: [SM] Exception reported: Client index 120 is invalid
+L 04/22/2017 - 22:44:17: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 22:44:17: [SM] Call stack trace:
+L 04/22/2017 - 22:44:17: [SM]   [0] IsClientInGame
+L 04/22/2017 - 22:44:17: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 22:47:09: [SM] Exception reported: Client index 84 is invalid
+L 04/22/2017 - 22:47:09: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 22:47:09: [SM] Call stack trace:
+L 04/22/2017 - 22:47:09: [SM]   [0] IsClientInGame
+L 04/22/2017 - 22:47:09: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 22:47:58: [SM] Exception reported: Client index 89 is invalid
+L 04/22/2017 - 22:47:58: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 22:47:58: [SM] Call stack trace:
+L 04/22/2017 - 22:47:58: [SM]   [0] IsClientInGame
+L 04/22/2017 - 22:47:58: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 22:48:01: [SM] Exception reported: Client index 122 is invalid
+L 04/22/2017 - 22:48:01: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 22:48:01: [SM] Call stack trace:
+L 04/22/2017 - 22:48:01: [SM]   [0] IsClientInGame
+L 04/22/2017 - 22:48:01: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 22:48:06: [SM] Exception reported: Client index 95 is invalid
+L 04/22/2017 - 22:48:06: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 22:48:06: [SM] Call stack trace:
+L 04/22/2017 - 22:48:06: [SM]   [0] IsClientInGame
+L 04/22/2017 - 22:48:06: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 22:48:12: [SM] Exception reported: Client index 123 is invalid
+L 04/22/2017 - 22:48:12: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 22:48:12: [SM] Call stack trace:
+L 04/22/2017 - 22:48:12: [SM]   [0] IsClientInGame
+L 04/22/2017 - 22:48:12: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 22:49:01: [SM] Exception reported: Client index 121 is invalid
+L 04/22/2017 - 22:49:01: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 22:49:01: [SM] Call stack trace:
+L 04/22/2017 - 22:49:01: [SM]   [0] IsClientInGame
+L 04/22/2017 - 22:49:01: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 22:49:06: [SM] Exception reported: Client index 121 is invalid
+L 04/22/2017 - 22:49:06: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 22:49:06: [SM] Call stack trace:
+L 04/22/2017 - 22:49:06: [SM]   [0] IsClientInGame
+L 04/22/2017 - 22:49:06: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 22:53:25: [SM] Exception reported: Client index 125 is invalid
+L 04/22/2017 - 22:53:25: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 22:53:25: [SM] Call stack trace:
+L 04/22/2017 - 22:53:25: [SM]   [0] IsClientInGame
+L 04/22/2017 - 22:53:25: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 22:53:28: [SM] Exception reported: Invalid timer handle c1090265 (error 1)
+L 04/22/2017 - 22:53:28: [SM] Blaming: umc-emp-mapvote.smx()
+L 04/22/2017 - 22:53:28: [SM] Call stack trace:
+L 04/22/2017 - 22:53:28: [SM]   [0] KillTimer
+L 04/22/2017 - 22:53:28: [SM]   [1] Line 686, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-emp-mapvote.sp::UMC_OnNextmapSet()
+L 04/22/2017 - 22:53:28: [SM]   [3] Call_Finish
+L 04/22/2017 - 22:53:28: [SM]   [4] Line 4834, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::DoMapChange()
+L 04/22/2017 - 22:53:28: [SM]   [5] Line 4267, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteWinner()
+L 04/22/2017 - 22:53:28: [SM]   [6] Line 3819, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteWinner()
+L 04/22/2017 - 22:53:28: [SM]   [7] Line 3795, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteResults()
+L 04/22/2017 - 22:53:28: [SM]   [8] Line 1277, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Native_UMCVoteManagerComplete()
+L 04/22/2017 - 22:53:28: [SM]   [10] UMC_VoteManagerVoteCompleted
+L 04/22/2017 - 22:53:28: [SM]   [11] Line 2309, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteResults()
+L 04/22/2017 - 22:53:34: Error log file session closed.
+L 04/22/2017 - 22:53:41: SourceMod error session started
+L 04/22/2017 - 22:53:41: Info (map "emp_cyclopean") (file "errors_20170422.log")
+L 04/22/2017 - 22:53:41: [SM] Exception reported: Client index 71 is invalid
+L 04/22/2017 - 22:53:41: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 22:53:41: [SM] Call stack trace:
+L 04/22/2017 - 22:53:41: [SM]   [0] IsClientInGame
+L 04/22/2017 - 22:53:41: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 22:53:50: [SM] Exception reported: Client index 111 is invalid
+L 04/22/2017 - 22:53:50: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 22:53:50: [SM] Call stack trace:
+L 04/22/2017 - 22:53:50: [SM]   [0] IsClientInGame
+L 04/22/2017 - 22:53:50: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 22:53:51: [SM] Exception reported: Client index 118 is invalid
+L 04/22/2017 - 22:53:51: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 22:53:51: [SM] Call stack trace:
+L 04/22/2017 - 22:53:51: [SM]   [0] IsClientInGame
+L 04/22/2017 - 22:53:51: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 22:53:51: [SM] Exception reported: Client index 74 is invalid
+L 04/22/2017 - 22:53:51: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 22:53:51: [SM] Call stack trace:
+L 04/22/2017 - 22:53:51: [SM]   [0] IsClientInGame
+L 04/22/2017 - 22:53:51: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 22:53:51: [SM] Exception reported: Client index 119 is invalid
+L 04/22/2017 - 22:53:51: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 22:53:51: [SM] Call stack trace:
+L 04/22/2017 - 22:53:51: [SM]   [0] IsClientInGame
+L 04/22/2017 - 22:53:51: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 22:53:51: [SM] Exception reported: Client index 125 is invalid
+L 04/22/2017 - 22:53:51: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 22:53:51: [SM] Call stack trace:
+L 04/22/2017 - 22:53:51: [SM]   [0] IsClientInGame
+L 04/22/2017 - 22:53:51: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 22:53:53: [SM] Exception reported: Client index 106 is invalid
+L 04/22/2017 - 22:53:53: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 22:53:53: [SM] Call stack trace:
+L 04/22/2017 - 22:53:53: [SM]   [0] IsClientInGame
+L 04/22/2017 - 22:53:53: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 22:53:57: [SM] Exception reported: Client index 124 is invalid
+L 04/22/2017 - 22:53:57: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 22:53:57: [SM] Call stack trace:
+L 04/22/2017 - 22:53:57: [SM]   [0] IsClientInGame
+L 04/22/2017 - 22:53:57: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 22:54:02: [SM] Exception reported: Client index 102 is invalid
+L 04/22/2017 - 22:54:02: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 22:54:02: [SM] Call stack trace:
+L 04/22/2017 - 22:54:02: [SM]   [0] IsClientInGame
+L 04/22/2017 - 22:54:02: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 22:54:19: [SM] Exception reported: Client index 88 is invalid
+L 04/22/2017 - 22:54:19: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 22:54:19: [SM] Call stack trace:
+L 04/22/2017 - 22:54:19: [SM]   [0] IsClientInGame
+L 04/22/2017 - 22:54:19: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 22:54:20: [SM] Exception reported: Client index 121 is invalid
+L 04/22/2017 - 22:54:20: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 22:54:20: [SM] Call stack trace:
+L 04/22/2017 - 22:54:20: [SM]   [0] IsClientInGame
+L 04/22/2017 - 22:54:20: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 22:54:20: [SM] Exception reported: Client index 113 is invalid
+L 04/22/2017 - 22:54:20: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 22:54:20: [SM] Call stack trace:
+L 04/22/2017 - 22:54:20: [SM]   [0] IsClientInGame
+L 04/22/2017 - 22:54:20: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 22:54:34: [SM] Exception reported: Client index 87 is invalid
+L 04/22/2017 - 22:54:34: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 22:54:34: [SM] Call stack trace:
+L 04/22/2017 - 22:54:34: [SM]   [0] IsClientInGame
+L 04/22/2017 - 22:54:34: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 22:54:44: [SM] Exception reported: Client index 88 is invalid
+L 04/22/2017 - 22:54:44: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 22:54:44: [SM] Call stack trace:
+L 04/22/2017 - 22:54:44: [SM]   [0] IsClientInGame
+L 04/22/2017 - 22:54:44: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 22:54:58: [SM] Exception reported: Client index 109 is invalid
+L 04/22/2017 - 22:54:58: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 22:54:58: [SM] Call stack trace:
+L 04/22/2017 - 22:54:58: [SM]   [0] IsClientInGame
+L 04/22/2017 - 22:54:58: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 22:55:12: [SM] Exception reported: Client index 81 is invalid
+L 04/22/2017 - 22:55:12: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 22:55:12: [SM] Call stack trace:
+L 04/22/2017 - 22:55:12: [SM]   [0] IsClientInGame
+L 04/22/2017 - 22:55:12: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 22:55:21: [SM] Exception reported: Client index 79 is invalid
+L 04/22/2017 - 22:55:21: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 22:55:21: [SM] Call stack trace:
+L 04/22/2017 - 22:55:21: [SM]   [0] IsClientInGame
+L 04/22/2017 - 22:55:21: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 22:55:39: [SM] Exception reported: Client index 122 is invalid
+L 04/22/2017 - 22:55:39: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 22:55:39: [SM] Call stack trace:
+L 04/22/2017 - 22:55:39: [SM]   [0] IsClientInGame
+L 04/22/2017 - 22:55:39: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 22:55:48: [SM] Exception reported: Client index 103 is invalid
+L 04/22/2017 - 22:55:48: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 22:55:48: [SM] Call stack trace:
+L 04/22/2017 - 22:55:48: [SM]   [0] IsClientInGame
+L 04/22/2017 - 22:55:48: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 22:56:19: [SM] Exception reported: Client index 77 is invalid
+L 04/22/2017 - 22:56:19: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 22:56:19: [SM] Call stack trace:
+L 04/22/2017 - 22:56:19: [SM]   [0] IsClientInGame
+L 04/22/2017 - 22:56:19: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 22:56:22: [SM] Exception reported: Array index is out of bounds
+L 04/22/2017 - 22:56:22: [SM] Blaming: webshortcuts.smx()
+L 04/22/2017 - 22:56:22: [SM] Call stack trace:
+L 04/22/2017 - 22:56:22: [SM]   [1] Line 57, webshortcuts.sp::OnSay()
+L 04/22/2017 - 22:56:41: [SM] Exception reported: Client index 88 is invalid
+L 04/22/2017 - 22:56:41: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 22:56:41: [SM] Call stack trace:
+L 04/22/2017 - 22:56:41: [SM]   [0] IsClientInGame
+L 04/22/2017 - 22:56:41: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 22:56:41: [SM] Exception reported: Client index 71 is invalid
+L 04/22/2017 - 22:56:41: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 22:56:41: [SM] Call stack trace:
+L 04/22/2017 - 22:56:41: [SM]   [0] IsClientInGame
+L 04/22/2017 - 22:56:41: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 22:56:41: [SM] Exception reported: Client index 125 is invalid
+L 04/22/2017 - 22:56:41: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 22:56:41: [SM] Call stack trace:
+L 04/22/2017 - 22:56:41: [SM]   [0] IsClientInGame
+L 04/22/2017 - 22:56:41: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 22:56:41: [SM] Exception reported: Client index 103 is invalid
+L 04/22/2017 - 22:56:41: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 22:56:41: [SM] Call stack trace:
+L 04/22/2017 - 22:56:41: [SM]   [0] IsClientInGame
+L 04/22/2017 - 22:56:41: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 22:56:41: [SM] Exception reported: Client index 79 is invalid
+L 04/22/2017 - 22:56:41: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 22:56:41: [SM] Call stack trace:
+L 04/22/2017 - 22:56:41: [SM]   [0] IsClientInGame
+L 04/22/2017 - 22:56:41: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 22:56:41: [SM] Exception reported: Client index 113 is invalid
+L 04/22/2017 - 22:56:41: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 22:56:41: [SM] Call stack trace:
+L 04/22/2017 - 22:56:41: [SM]   [0] IsClientInGame
+L 04/22/2017 - 22:56:41: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 22:56:41: [SM] Exception reported: Client index 118 is invalid
+L 04/22/2017 - 22:56:41: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 22:56:41: [SM] Call stack trace:
+L 04/22/2017 - 22:56:41: [SM]   [0] IsClientInGame
+L 04/22/2017 - 22:56:41: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 22:56:41: [SM] Exception reported: Client index 106 is invalid
+L 04/22/2017 - 22:56:41: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 22:56:41: [SM] Call stack trace:
+L 04/22/2017 - 22:56:41: [SM]   [0] IsClientInGame
+L 04/22/2017 - 22:56:41: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 22:57:01: [SM] Exception reported: Client index 108 is invalid
+L 04/22/2017 - 22:57:01: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 22:57:01: [SM] Call stack trace:
+L 04/22/2017 - 22:57:01: [SM]   [0] IsClientInGame
+L 04/22/2017 - 22:57:01: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 22:57:24: [SM] Exception reported: Client index 116 is invalid
+L 04/22/2017 - 22:57:24: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 22:57:24: [SM] Call stack trace:
+L 04/22/2017 - 22:57:24: [SM]   [0] IsClientInGame
+L 04/22/2017 - 22:57:24: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 22:57:49: [SM] Exception reported: Client index 97 is invalid
+L 04/22/2017 - 22:57:49: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 22:57:49: [SM] Call stack trace:
+L 04/22/2017 - 22:57:49: [SM]   [0] IsClientInGame
+L 04/22/2017 - 22:57:49: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 22:57:51: [SM] Exception reported: Client index 90 is invalid
+L 04/22/2017 - 22:57:51: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 22:57:51: [SM] Call stack trace:
+L 04/22/2017 - 22:57:51: [SM]   [0] IsClientInGame
+L 04/22/2017 - 22:57:51: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 22:58:02: [SM] Exception reported: Client index 127 is invalid
+L 04/22/2017 - 22:58:02: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 22:58:02: [SM] Call stack trace:
+L 04/22/2017 - 22:58:02: [SM]   [0] IsClientInGame
+L 04/22/2017 - 22:58:02: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 22:58:13: [SM] Exception reported: Heap leak detected: hp:6096 should be 6084!
+L 04/22/2017 - 22:58:13: [SM] Exception reported: Invalid plugin address
+L 04/22/2017 - 23:00:37: [SM] Exception reported: Heap leak detected: hp:6144 should be 6120!
+L 04/22/2017 - 23:00:37: [SM] Exception reported: Invalid plugin address
+L 04/22/2017 - 23:00:37: [SM] Exception reported: Client index 87 is invalid
+L 04/22/2017 - 23:00:37: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:00:37: [SM] Call stack trace:
+L 04/22/2017 - 23:00:37: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:00:37: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:00:37: [SM] Exception reported: Client index 103 is invalid
+L 04/22/2017 - 23:00:37: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:00:37: [SM] Call stack trace:
+L 04/22/2017 - 23:00:37: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:00:37: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:00:37: [SM] Exception reported: Client index 79 is invalid
+L 04/22/2017 - 23:00:37: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:00:37: [SM] Call stack trace:
+L 04/22/2017 - 23:00:37: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:00:37: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:00:37: [SM] Exception reported: Client index 77 is invalid
+L 04/22/2017 - 23:00:37: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:00:37: [SM] Call stack trace:
+L 04/22/2017 - 23:00:37: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:00:37: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:00:37: [SM] Exception reported: Client index 109 is invalid
+L 04/22/2017 - 23:00:37: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:00:37: [SM] Call stack trace:
+L 04/22/2017 - 23:00:37: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:00:37: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:00:37: [SM] Exception reported: Client index 97 is invalid
+L 04/22/2017 - 23:00:37: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:00:37: [SM] Call stack trace:
+L 04/22/2017 - 23:00:37: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:00:37: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:00:37: [SM] Exception reported: Client index 118 is invalid
+L 04/22/2017 - 23:00:37: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:00:37: [SM] Call stack trace:
+L 04/22/2017 - 23:00:37: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:00:37: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:00:37: [SM] Exception reported: Client index 102 is invalid
+L 04/22/2017 - 23:00:37: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:00:37: [SM] Call stack trace:
+L 04/22/2017 - 23:00:37: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:00:37: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:00:37: [SM] Exception reported: Client index 106 is invalid
+L 04/22/2017 - 23:00:37: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:00:37: [SM] Call stack trace:
+L 04/22/2017 - 23:00:37: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:00:37: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:00:37: [SM] Exception reported: Client index 116 is invalid
+L 04/22/2017 - 23:00:37: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:00:37: [SM] Call stack trace:
+L 04/22/2017 - 23:00:37: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:00:37: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:00:37: [SM] Exception reported: Client index 121 is invalid
+L 04/22/2017 - 23:00:37: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:00:37: [SM] Call stack trace:
+L 04/22/2017 - 23:00:37: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:00:37: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:00:40: [SM] Exception reported: Client index 129 is invalid
+L 04/22/2017 - 23:00:40: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:00:40: [SM] Call stack trace:
+L 04/22/2017 - 23:00:40: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:00:40: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:00:40: [SM]   [3] ChangeClientTeam
+L 04/22/2017 - 23:00:40: [SM]   [4] Line 778, draftpick.sp::OnClientPostAdminCheck()
+L 04/22/2017 - 23:00:40: [SM] Exception reported: Client index 129 is invalid
+L 04/22/2017 - 23:00:40: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:00:40: [SM] Call stack trace:
+L 04/22/2017 - 23:00:40: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:00:40: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:01:18: [SM] Exception reported: Client index 102 is invalid
+L 04/22/2017 - 23:01:18: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:01:18: [SM] Call stack trace:
+L 04/22/2017 - 23:01:18: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:01:18: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:02:28: [SM] Exception reported: Client index 129 is invalid
+L 04/22/2017 - 23:02:28: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:02:28: [SM] Call stack trace:
+L 04/22/2017 - 23:02:28: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:02:28: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:04:02: [SM] Exception reported: Client index 79 is invalid
+L 04/22/2017 - 23:04:02: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:04:02: [SM] Call stack trace:
+L 04/22/2017 - 23:04:02: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:04:02: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:05:23: [SM] Exception reported: Client index 108 is invalid
+L 04/22/2017 - 23:05:23: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:05:23: [SM] Call stack trace:
+L 04/22/2017 - 23:05:23: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:05:23: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:05:46: [SM] Exception reported: Client index 131 is invalid
+L 04/22/2017 - 23:05:46: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:05:46: [SM] Call stack trace:
+L 04/22/2017 - 23:05:46: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:05:46: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:05:54: [SM] Exception reported: Client index 118 is invalid
+L 04/22/2017 - 23:05:54: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:05:54: [SM] Call stack trace:
+L 04/22/2017 - 23:05:54: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:05:54: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:06:00: [SM] Exception reported: Client index 118 is invalid
+L 04/22/2017 - 23:06:00: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:06:00: [SM] Call stack trace:
+L 04/22/2017 - 23:06:00: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:06:00: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:06:14: [SM] Exception reported: Client index 130 is invalid
+L 04/22/2017 - 23:06:14: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:06:14: [SM] Call stack trace:
+L 04/22/2017 - 23:06:14: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:06:14: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:06:31: [SM] Exception reported: Client index 110 is invalid
+L 04/22/2017 - 23:06:31: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:06:31: [SM] Call stack trace:
+L 04/22/2017 - 23:06:31: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:06:31: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:06:46: [SM] Exception reported: Client index 79 is invalid
+L 04/22/2017 - 23:06:46: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:06:46: [SM] Call stack trace:
+L 04/22/2017 - 23:06:46: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:06:46: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:06:49: [SM] Exception reported: Client index 79 is invalid
+L 04/22/2017 - 23:06:49: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:06:49: [SM] Call stack trace:
+L 04/22/2017 - 23:06:49: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:06:49: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:06:57: [SM] Exception reported: Client index 66 is invalid
+L 04/22/2017 - 23:06:57: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:06:57: [SM] Call stack trace:
+L 04/22/2017 - 23:06:57: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:06:57: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:07:22: [SM] Exception reported: Client index 128 is invalid
+L 04/22/2017 - 23:07:22: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:07:22: [SM] Call stack trace:
+L 04/22/2017 - 23:07:22: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:07:22: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:07:22: [SM] Exception reported: Client index 67 is invalid
+L 04/22/2017 - 23:07:22: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:07:22: [SM] Call stack trace:
+L 04/22/2017 - 23:07:22: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:07:22: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:07:24: [SM] Exception reported: Client index 131 is invalid
+L 04/22/2017 - 23:07:24: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:07:24: [SM] Call stack trace:
+L 04/22/2017 - 23:07:24: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:07:24: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:07:25: [SM] Exception reported: Client index 110 is invalid
+L 04/22/2017 - 23:07:25: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:07:25: [SM] Call stack trace:
+L 04/22/2017 - 23:07:25: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:07:25: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:07:28: [SM] Exception reported: Client index 66 is invalid
+L 04/22/2017 - 23:07:28: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:07:28: [SM] Call stack trace:
+L 04/22/2017 - 23:07:28: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:07:28: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:07:42: [SM] Exception reported: Array index is out of bounds
+L 04/22/2017 - 23:07:42: [SM] Blaming: draftpick.smx()
+L 04/22/2017 - 23:07:42: [SM] Call stack trace:
+L 04/22/2017 - 23:07:42: [SM]   [1] Line 1022, draftpick.sp::AddToTeam()
+L 04/22/2017 - 23:07:42: [SM]   [2] Line 337, draftpick.sp::Command_Join_Team()
+L 04/22/2017 - 23:07:43: [SM] Exception reported: Client index 67 is invalid
+L 04/22/2017 - 23:07:43: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:07:43: [SM] Call stack trace:
+L 04/22/2017 - 23:07:43: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:07:43: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:07:46: [SM] Exception reported: Client index 132 is invalid
+L 04/22/2017 - 23:07:46: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:07:46: [SM] Call stack trace:
+L 04/22/2017 - 23:07:46: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:07:46: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:07:46: [SM]   [3] ChangeClientTeam
+L 04/22/2017 - 23:07:46: [SM]   [4] Line 778, draftpick.sp::OnClientPostAdminCheck()
+L 04/22/2017 - 23:07:46: [SM] Exception reported: Client index 132 is invalid
+L 04/22/2017 - 23:07:46: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:07:46: [SM] Call stack trace:
+L 04/22/2017 - 23:07:46: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:07:46: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:08:43: [SM] Exception reported: Client index 132 is invalid
+L 04/22/2017 - 23:08:43: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:08:43: [SM] Call stack trace:
+L 04/22/2017 - 23:08:43: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:08:43: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:09:29: [SM] Exception reported: Client index 104 is invalid
+L 04/22/2017 - 23:09:29: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:09:29: [SM] Call stack trace:
+L 04/22/2017 - 23:09:29: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:09:29: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:10:16: [SM] Exception reported: Client index 117 is invalid
+L 04/22/2017 - 23:10:16: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:10:16: [SM] Call stack trace:
+L 04/22/2017 - 23:10:16: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:10:16: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:10:31: [SM] Exception reported: Client index 132 is invalid
+L 04/22/2017 - 23:10:31: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:10:31: [SM] Call stack trace:
+L 04/22/2017 - 23:10:31: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:10:31: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:10:39: [SM] Exception reported: Client index 133 is invalid
+L 04/22/2017 - 23:10:39: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:10:39: [SM] Call stack trace:
+L 04/22/2017 - 23:10:39: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:10:39: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:10:53: [SM] Exception reported: Client index 122 is invalid
+L 04/22/2017 - 23:10:53: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:10:53: [SM] Call stack trace:
+L 04/22/2017 - 23:10:53: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:10:53: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:11:11: [SM] Exception reported: Client index 135 is invalid
+L 04/22/2017 - 23:11:11: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:11:11: [SM] Call stack trace:
+L 04/22/2017 - 23:11:11: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:11:11: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:11:11: [SM]   [3] ChangeClientTeam
+L 04/22/2017 - 23:11:11: [SM]   [4] Line 778, draftpick.sp::OnClientPostAdminCheck()
+L 04/22/2017 - 23:11:11: [SM] Exception reported: Client index 135 is invalid
+L 04/22/2017 - 23:11:11: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:11:11: [SM] Call stack trace:
+L 04/22/2017 - 23:11:11: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:11:11: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:11:15: [SM] Exception reported: Client index 135 is invalid
+L 04/22/2017 - 23:11:15: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:11:15: [SM] Call stack trace:
+L 04/22/2017 - 23:11:15: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:11:15: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:11:47: [SM] Exception reported: Array index is out of bounds
+L 04/22/2017 - 23:11:47: [SM] Blaming: draftpick.smx()
+L 04/22/2017 - 23:11:47: [SM] Call stack trace:
+L 04/22/2017 - 23:11:47: [SM]   [1] Line 1022, draftpick.sp::AddToTeam()
+L 04/22/2017 - 23:11:47: [SM]   [2] Line 337, draftpick.sp::Command_Join_Team()
+L 04/22/2017 - 23:11:47: [SM] Exception reported: Client index 134 is invalid
+L 04/22/2017 - 23:11:47: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:11:47: [SM] Call stack trace:
+L 04/22/2017 - 23:11:47: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:11:47: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:11:53: [SM] Exception reported: Array index is out of bounds
+L 04/22/2017 - 23:11:53: [SM] Blaming: draftpick.smx()
+L 04/22/2017 - 23:11:53: [SM] Call stack trace:
+L 04/22/2017 - 23:11:53: [SM]   [1] Line 1022, draftpick.sp::AddToTeam()
+L 04/22/2017 - 23:11:53: [SM]   [2] Line 337, draftpick.sp::Command_Join_Team()
+L 04/22/2017 - 23:11:53: [SM] Exception reported: Client index 130 is invalid
+L 04/22/2017 - 23:11:53: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:11:53: [SM] Call stack trace:
+L 04/22/2017 - 23:11:53: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:11:53: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:12:11: [SM] Exception reported: Client index 80 is invalid
+L 04/22/2017 - 23:12:11: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:12:11: [SM] Call stack trace:
+L 04/22/2017 - 23:12:11: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:12:11: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:13:46: [SM] Exception reported: Client index 136 is invalid
+L 04/22/2017 - 23:13:46: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:13:46: [SM] Call stack trace:
+L 04/22/2017 - 23:13:46: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:13:46: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:17:19: [SM] Exception reported: Client index 137 is invalid
+L 04/22/2017 - 23:17:19: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:17:19: [SM] Call stack trace:
+L 04/22/2017 - 23:17:19: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:17:19: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:17:29: [SM] Exception reported: Client index 137 is invalid
+L 04/22/2017 - 23:17:29: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:17:29: [SM] Call stack trace:
+L 04/22/2017 - 23:17:29: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:17:29: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:19:39: [SM] Exception reported: Array index is out of bounds
+L 04/22/2017 - 23:19:39: [SM] Blaming: draftpick.smx()
+L 04/22/2017 - 23:19:39: [SM] Call stack trace:
+L 04/22/2017 - 23:19:39: [SM]   [1] Line 1022, draftpick.sp::AddToTeam()
+L 04/22/2017 - 23:19:39: [SM]   [2] Line 337, draftpick.sp::Command_Join_Team()
+L 04/22/2017 - 23:19:39: [SM] Exception reported: Client index 138 is invalid
+L 04/22/2017 - 23:19:39: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:19:39: [SM] Call stack trace:
+L 04/22/2017 - 23:19:39: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:19:39: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:22:21: [SM] Exception reported: Client index 138 is invalid
+L 04/22/2017 - 23:22:21: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:22:21: [SM] Call stack trace:
+L 04/22/2017 - 23:22:21: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:22:21: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:24:57: [SM] Exception reported: Client index 139 is invalid
+L 04/22/2017 - 23:24:57: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:24:57: [SM] Call stack trace:
+L 04/22/2017 - 23:24:57: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:24:57: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:24:57: [SM]   [3] ChangeClientTeam
+L 04/22/2017 - 23:24:57: [SM]   [4] Line 778, draftpick.sp::OnClientPostAdminCheck()
+L 04/22/2017 - 23:24:57: [SM] Exception reported: Client index 139 is invalid
+L 04/22/2017 - 23:24:57: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:24:57: [SM] Call stack trace:
+L 04/22/2017 - 23:24:57: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:24:57: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:25:10: [SM] Exception reported: Client index 139 is invalid
+L 04/22/2017 - 23:25:10: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:25:10: [SM] Call stack trace:
+L 04/22/2017 - 23:25:10: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:25:10: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:25:54: [SM] Exception reported: Client index 125 is invalid
+L 04/22/2017 - 23:25:54: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:25:54: [SM] Call stack trace:
+L 04/22/2017 - 23:25:54: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:25:54: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:28:29: [SM] Exception reported: Client index 88 is invalid
+L 04/22/2017 - 23:28:29: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:28:29: [SM] Call stack trace:
+L 04/22/2017 - 23:28:29: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:28:29: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:28:59: [SM] Exception reported: Client index 140 is invalid
+L 04/22/2017 - 23:28:59: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:28:59: [SM] Call stack trace:
+L 04/22/2017 - 23:28:59: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:28:59: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:28:59: [SM]   [3] ChangeClientTeam
+L 04/22/2017 - 23:28:59: [SM]   [4] Line 778, draftpick.sp::OnClientPostAdminCheck()
+L 04/22/2017 - 23:28:59: [SM] Exception reported: Client index 140 is invalid
+L 04/22/2017 - 23:28:59: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:28:59: [SM] Call stack trace:
+L 04/22/2017 - 23:28:59: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:28:59: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:29:31: [SM] Exception reported: Client index 140 is invalid
+L 04/22/2017 - 23:29:31: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:29:31: [SM] Call stack trace:
+L 04/22/2017 - 23:29:31: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:29:31: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:29:46: [SM] Exception reported: Client index 139 is invalid
+L 04/22/2017 - 23:29:46: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:29:46: [SM] Call stack trace:
+L 04/22/2017 - 23:29:46: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:29:46: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:29:53: [SM] Exception reported: Client index 142 is invalid
+L 04/22/2017 - 23:29:53: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:29:53: [SM] Call stack trace:
+L 04/22/2017 - 23:29:53: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:29:53: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:30:29: [SM] Exception reported: Client index 77 is invalid
+L 04/22/2017 - 23:30:29: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:30:29: [SM] Call stack trace:
+L 04/22/2017 - 23:30:29: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:30:29: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:30:31: [SM] Exception reported: Client index 127 is invalid
+L 04/22/2017 - 23:30:31: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:30:31: [SM] Call stack trace:
+L 04/22/2017 - 23:30:31: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:30:31: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:30:32: [SM] Exception reported: Client index 74 is invalid
+L 04/22/2017 - 23:30:32: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:30:32: [SM] Call stack trace:
+L 04/22/2017 - 23:30:32: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:30:32: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:30:38: [SM] Exception reported: Client index 133 is invalid
+L 04/22/2017 - 23:30:38: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:30:38: [SM] Call stack trace:
+L 04/22/2017 - 23:30:38: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:30:38: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:30:43: [SM] Exception reported: Client index 143 is invalid
+L 04/22/2017 - 23:30:43: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:30:43: [SM] Call stack trace:
+L 04/22/2017 - 23:30:43: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:30:43: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:30:46: [SM] Exception reported: Client index 144 is invalid
+L 04/22/2017 - 23:30:46: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:30:46: [SM] Call stack trace:
+L 04/22/2017 - 23:30:46: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:30:46: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:30:46: [SM]   [3] ChangeClientTeam
+L 04/22/2017 - 23:30:46: [SM]   [4] Line 778, draftpick.sp::OnClientPostAdminCheck()
+L 04/22/2017 - 23:30:46: [SM] Exception reported: Client index 144 is invalid
+L 04/22/2017 - 23:30:46: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:30:46: [SM] Call stack trace:
+L 04/22/2017 - 23:30:46: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:30:46: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:30:49: [SM] Exception reported: Client index 145 is invalid
+L 04/22/2017 - 23:30:49: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:30:49: [SM] Call stack trace:
+L 04/22/2017 - 23:30:49: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:30:49: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:30:49: [SM] Exception reported: Client index 144 is invalid
+L 04/22/2017 - 23:30:49: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:30:49: [SM] Call stack trace:
+L 04/22/2017 - 23:30:49: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:30:49: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:30:53: [SM] Exception reported: Client index 146 is invalid
+L 04/22/2017 - 23:30:53: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:30:53: [SM] Call stack trace:
+L 04/22/2017 - 23:30:53: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:30:53: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:30:53: [SM]   [3] ChangeClientTeam
+L 04/22/2017 - 23:30:53: [SM]   [4] Line 778, draftpick.sp::OnClientPostAdminCheck()
+L 04/22/2017 - 23:30:53: [SM] Exception reported: Client index 146 is invalid
+L 04/22/2017 - 23:30:53: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:30:53: [SM] Call stack trace:
+L 04/22/2017 - 23:30:53: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:30:53: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:31:03: [SM] Exception reported: Client index 141 is invalid
+L 04/22/2017 - 23:31:03: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:31:03: [SM] Call stack trace:
+L 04/22/2017 - 23:31:03: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:31:03: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:31:08: [SM] Exception reported: Client index 146 is invalid
+L 04/22/2017 - 23:31:08: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:31:08: [SM] Call stack trace:
+L 04/22/2017 - 23:31:08: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:31:08: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:31:13: [SM] Exception reported: Client index 141 is invalid
+L 04/22/2017 - 23:31:13: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:31:13: [SM] Call stack trace:
+L 04/22/2017 - 23:31:13: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:31:13: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:31:16: [SM] Exception reported: Client index 119 is invalid
+L 04/22/2017 - 23:31:16: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:31:16: [SM] Call stack trace:
+L 04/22/2017 - 23:31:16: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:31:16: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:32:14: [SM] Exception reported: Client index 148 is invalid
+L 04/22/2017 - 23:32:14: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:32:14: [SM] Call stack trace:
+L 04/22/2017 - 23:32:14: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:32:14: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:32:14: [SM]   [3] ChangeClientTeam
+L 04/22/2017 - 23:32:14: [SM]   [4] Line 778, draftpick.sp::OnClientPostAdminCheck()
+L 04/22/2017 - 23:32:14: [SM] Exception reported: Client index 148 is invalid
+L 04/22/2017 - 23:32:14: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:32:14: [SM] Call stack trace:
+L 04/22/2017 - 23:32:14: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:32:14: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:32:15: [SM] Exception reported: Client index 147 is invalid
+L 04/22/2017 - 23:32:15: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:32:15: [SM] Call stack trace:
+L 04/22/2017 - 23:32:15: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:32:15: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:32:15: [SM]   [3] ChangeClientTeam
+L 04/22/2017 - 23:32:15: [SM]   [4] Line 778, draftpick.sp::OnClientPostAdminCheck()
+L 04/22/2017 - 23:32:15: [SM] Exception reported: Client index 147 is invalid
+L 04/22/2017 - 23:32:15: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:32:15: [SM] Call stack trace:
+L 04/22/2017 - 23:32:15: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:32:15: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:32:28: [SM] Exception reported: Client index 148 is invalid
+L 04/22/2017 - 23:32:28: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:32:28: [SM] Call stack trace:
+L 04/22/2017 - 23:32:28: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:32:28: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:32:37: [SM] Exception reported: Client index 147 is invalid
+L 04/22/2017 - 23:32:37: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:32:37: [SM] Call stack trace:
+L 04/22/2017 - 23:32:37: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:32:37: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:32:47: [SM] Exception reported: Client index 117 is invalid
+L 04/22/2017 - 23:32:47: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:32:47: [SM] Call stack trace:
+L 04/22/2017 - 23:32:47: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:32:47: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:32:49: [SM] Exception reported: Client index 90 is invalid
+L 04/22/2017 - 23:32:49: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:32:49: [SM] Call stack trace:
+L 04/22/2017 - 23:32:49: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:32:49: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:32:50: [SM] Exception reported: Client index 113 is invalid
+L 04/22/2017 - 23:32:50: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:32:50: [SM] Call stack trace:
+L 04/22/2017 - 23:32:50: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:32:50: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:33:03: [SM] Exception reported: Client index 149 is invalid
+L 04/22/2017 - 23:33:03: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:33:03: [SM] Call stack trace:
+L 04/22/2017 - 23:33:03: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:33:03: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:33:03: [SM]   [3] ChangeClientTeam
+L 04/22/2017 - 23:33:03: [SM]   [4] Line 778, draftpick.sp::OnClientPostAdminCheck()
+L 04/22/2017 - 23:33:03: [SM] Exception reported: Client index 149 is invalid
+L 04/22/2017 - 23:33:03: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:33:03: [SM] Call stack trace:
+L 04/22/2017 - 23:33:03: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:33:03: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:33:28: [SM] Exception reported: Client index 118 is invalid
+L 04/22/2017 - 23:33:28: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:33:28: [SM] Call stack trace:
+L 04/22/2017 - 23:33:28: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:33:28: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:34:16: [SM] Exception reported: Client index 143 is invalid
+L 04/22/2017 - 23:34:16: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:34:16: [SM] Call stack trace:
+L 04/22/2017 - 23:34:16: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:34:16: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:34:16: [SM] Exception reported: Client index 150 is invalid
+L 04/22/2017 - 23:34:16: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:34:16: [SM] Call stack trace:
+L 04/22/2017 - 23:34:16: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:34:16: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:34:16: [SM]   [3] ChangeClientTeam
+L 04/22/2017 - 23:34:16: [SM]   [4] Line 778, draftpick.sp::OnClientPostAdminCheck()
+L 04/22/2017 - 23:34:16: [SM] Exception reported: Client index 150 is invalid
+L 04/22/2017 - 23:34:16: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:34:16: [SM] Call stack trace:
+L 04/22/2017 - 23:34:16: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:34:16: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:34:22: [SM] Exception reported: Client index 150 is invalid
+L 04/22/2017 - 23:34:22: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:34:22: [SM] Call stack trace:
+L 04/22/2017 - 23:34:22: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:34:22: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:34:36: [SM] Exception reported: Client index 106 is invalid
+L 04/22/2017 - 23:34:36: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:34:36: [SM] Call stack trace:
+L 04/22/2017 - 23:34:36: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:34:36: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:34:42: [SM] Exception reported: Client index 130 is invalid
+L 04/22/2017 - 23:34:42: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:34:42: [SM] Call stack trace:
+L 04/22/2017 - 23:34:42: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:34:42: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:36:16: [SM] Exception reported: Client index 149 is invalid
+L 04/22/2017 - 23:36:16: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:36:16: [SM] Call stack trace:
+L 04/22/2017 - 23:36:16: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:36:16: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:38:32: [SM] Exception reported: Client index 151 is invalid
+L 04/22/2017 - 23:38:32: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:38:32: [SM] Call stack trace:
+L 04/22/2017 - 23:38:32: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:38:32: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:38:45: [SM] Exception reported: Client index 151 is invalid
+L 04/22/2017 - 23:38:45: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:38:45: [SM] Call stack trace:
+L 04/22/2017 - 23:38:45: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:38:45: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:40:44: [SM] Exception reported: Client index 153 is invalid
+L 04/22/2017 - 23:40:44: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:40:44: [SM] Call stack trace:
+L 04/22/2017 - 23:40:44: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:40:44: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:40:48: [SM] Exception reported: Client index 151 is invalid
+L 04/22/2017 - 23:40:48: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:40:48: [SM] Call stack trace:
+L 04/22/2017 - 23:40:48: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:40:48: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:42:32: [SM] Exception reported: Client index 116 is invalid
+L 04/22/2017 - 23:42:32: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:42:32: [SM] Call stack trace:
+L 04/22/2017 - 23:42:32: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:42:32: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:43:53: [SM] Exception reported: Client index 155 is invalid
+L 04/22/2017 - 23:43:53: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:43:53: [SM] Call stack trace:
+L 04/22/2017 - 23:43:53: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:43:53: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:43:53: [SM]   [3] ChangeClientTeam
+L 04/22/2017 - 23:43:53: [SM]   [4] Line 778, draftpick.sp::OnClientPostAdminCheck()
+L 04/22/2017 - 23:43:53: [SM] Exception reported: Client index 155 is invalid
+L 04/22/2017 - 23:43:53: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:43:53: [SM] Call stack trace:
+L 04/22/2017 - 23:43:53: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:43:53: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:44:02: [SM] Exception reported: Client index 155 is invalid
+L 04/22/2017 - 23:44:02: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:44:02: [SM] Call stack trace:
+L 04/22/2017 - 23:44:02: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:44:02: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:44:27: [SM] Exception reported: Client index 156 is invalid
+L 04/22/2017 - 23:44:27: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:44:27: [SM] Call stack trace:
+L 04/22/2017 - 23:44:27: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:44:27: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:44:31: [SM] Exception reported: Client index 153 is invalid
+L 04/22/2017 - 23:44:31: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:44:31: [SM] Call stack trace:
+L 04/22/2017 - 23:44:31: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:44:31: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:44:43: [SM] Exception reported: Client index 137 is invalid
+L 04/22/2017 - 23:44:43: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:44:43: [SM] Call stack trace:
+L 04/22/2017 - 23:44:43: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:44:43: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:45:48: [SM] Exception reported: Client index 104 is invalid
+L 04/22/2017 - 23:45:48: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:45:48: [SM] Call stack trace:
+L 04/22/2017 - 23:45:48: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:45:48: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:46:45: [SM] Exception reported: Client index 157 is invalid
+L 04/22/2017 - 23:46:45: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:46:45: [SM] Call stack trace:
+L 04/22/2017 - 23:46:45: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:46:45: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:46:57: [SM] Exception reported: Client index 158 is invalid
+L 04/22/2017 - 23:46:57: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:46:57: [SM] Call stack trace:
+L 04/22/2017 - 23:46:57: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:46:57: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:47:19: [SM] Exception reported: Client index 158 is invalid
+L 04/22/2017 - 23:47:19: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:47:19: [SM] Call stack trace:
+L 04/22/2017 - 23:47:19: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:47:19: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:47:24: [SM] Exception reported: Client index 157 is invalid
+L 04/22/2017 - 23:47:24: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:47:24: [SM] Call stack trace:
+L 04/22/2017 - 23:47:24: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:47:24: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:48:03: [SM] Exception reported: Client index 159 is invalid
+L 04/22/2017 - 23:48:03: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:48:03: [SM] Call stack trace:
+L 04/22/2017 - 23:48:03: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:48:03: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:48:19: [SM] Exception reported: Client index 159 is invalid
+L 04/22/2017 - 23:48:19: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:48:19: [SM] Call stack trace:
+L 04/22/2017 - 23:48:19: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:48:19: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:51:41: [SM] Exception reported: Client index 160 is invalid
+L 04/22/2017 - 23:51:41: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:51:41: [SM] Call stack trace:
+L 04/22/2017 - 23:51:41: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:51:41: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:51:41: [SM]   [3] ChangeClientTeam
+L 04/22/2017 - 23:51:41: [SM]   [4] Line 778, draftpick.sp::OnClientPostAdminCheck()
+L 04/22/2017 - 23:51:41: [SM] Exception reported: Client index 160 is invalid
+L 04/22/2017 - 23:51:41: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:51:41: [SM] Call stack trace:
+L 04/22/2017 - 23:51:41: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:51:41: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:52:05: [SM] Exception reported: Client index 160 is invalid
+L 04/22/2017 - 23:52:05: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:52:05: [SM] Call stack trace:
+L 04/22/2017 - 23:52:05: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:52:05: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:52:32: [SM] Exception reported: Client index 156 is invalid
+L 04/22/2017 - 23:52:32: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:52:32: [SM] Call stack trace:
+L 04/22/2017 - 23:52:32: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:52:32: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:53:50: [SM] Exception reported: Client index 161 is invalid
+L 04/22/2017 - 23:53:50: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:53:50: [SM] Call stack trace:
+L 04/22/2017 - 23:53:50: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:53:50: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:53:50: [SM]   [3] ChangeClientTeam
+L 04/22/2017 - 23:53:50: [SM]   [4] Line 778, draftpick.sp::OnClientPostAdminCheck()
+L 04/22/2017 - 23:53:50: [SM] Exception reported: Client index 161 is invalid
+L 04/22/2017 - 23:53:50: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:53:50: [SM] Call stack trace:
+L 04/22/2017 - 23:53:50: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:53:50: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:53:54: [SM] Exception reported: Client index 161 is invalid
+L 04/22/2017 - 23:53:54: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:53:54: [SM] Call stack trace:
+L 04/22/2017 - 23:53:54: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:53:54: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:56:01: [SM] Exception reported: Client index 141 is invalid
+L 04/22/2017 - 23:56:01: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:56:01: [SM] Call stack trace:
+L 04/22/2017 - 23:56:01: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:56:01: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:56:18: [SM] Exception reported: Client index 144 is invalid
+L 04/22/2017 - 23:56:18: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:56:18: [SM] Call stack trace:
+L 04/22/2017 - 23:56:18: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:56:18: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:57:32: [SM] Exception reported: Client index 134 is invalid
+L 04/22/2017 - 23:57:32: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:57:32: [SM] Call stack trace:
+L 04/22/2017 - 23:57:32: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:57:32: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:57:54: [SM] Exception reported: Client index 159 is invalid
+L 04/22/2017 - 23:57:54: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:57:54: [SM] Call stack trace:
+L 04/22/2017 - 23:57:54: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:57:54: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
+L 04/22/2017 - 23:59:20: [SM] Exception reported: Client index 110 is invalid
+L 04/22/2017 - 23:59:20: [SM] Blaming: squadcontrol.smx()
+L 04/22/2017 - 23:59:20: [SM] Call stack trace:
+L 04/22/2017 - 23:59:20: [SM]   [0] IsClientInGame
+L 04/22/2017 - 23:59:20: [SM]   [1] Line 325, squadcontrol.sp::Event_PlayerTeam()
