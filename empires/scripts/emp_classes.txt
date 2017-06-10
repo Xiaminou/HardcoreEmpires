@@ -1,5 +1,4 @@
 // These KeyValues are used to populate the VGUI Class Screen.
-
 PlayerClassData
 {
 	Scout
@@ -94,7 +93,6 @@ PlayerClassData
 		//	Skill5 "SKILL_DIGIN"
 		}
 	}
-
 	Rifleman
 	{
 		name				"Rifleman"
@@ -177,7 +175,6 @@ PlayerClassData
 			Skill2 "SKILL_VEHICLEDAMAGE"
 		}
 	}
-
 	Grenadier
 	{
 		name				"Grenadier"
@@ -255,8 +252,6 @@ PlayerClassData
 			Skill3 "SKILL_INCREASEDARMOR"
 		}
 	}
-
-
 	Engineer
 	{
 		name				"Engineer"

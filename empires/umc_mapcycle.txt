@@ -48,7 +48,7 @@
 			"max_players"	"64"
 		}
 		
-		"emp_coast"
+		"emp_coast_fix"
 		{
 			"min_players"	"20"
 			"max_players"	"52"
@@ -138,11 +138,11 @@
 			"max_players"	"42"
 		}
 		
-		"emp_insurrection_rc4"
-		{
-			"min_players"	"32"
-			"max_players"	"64"
-		}
+//		"emp_insurrection_rc4"
+//		{
+//			"min_players"	"32"
+//			"max_players"	"64"
+//		}
 		
 		"emp_isle"
 		{
@@ -168,11 +168,11 @@
 			"max_players"	"52"
 		}
 		
-		"emp_midbridge"
-		{
-			"min_players"	"40"
-			"max_players"	"64"
-		}
+//		"emp_midbridge"
+//		{
+//			"min_players"	"40"
+//			"max_players"	"64"
+//		}
 		
 		"emp_mvalley"
 		{
@@ -204,11 +204,11 @@
 			"max_players"	"32"
 		}
 		
-		"emp_silo_rc5"
-		{
-			"min_players"	"20"
-			"max_players"	"42"
-		}
+//		"emp_silo_rc5"
+//		{
+//			"min_players"	"20"
+//			"max_players"	"42"
+//		}
 		
 		"emp_snowbound_cl6"
 		{
@@ -250,7 +250,23 @@
     {
         "maps_invote"   "1"
 		
-		"con_district402"
+		"emp_atomic_rc6"
+		{
+			"min_players"	"32"
+			"max_players"	"64"
+		}
+		
+		"emp_blast_ob1"
+		{
+			"max_players"	"20"
+		}
+		
+//		"con_district402"
+//		{
+//			"max_players"	"20"
+//		}
+		
+		"emp_fogtown_cl2_fix"
 		{
 			"max_players"	"20"
 		}
@@ -260,17 +276,7 @@
 			"max_players"	"20"
 		}
 		
-		"con_urbanchaos_fix"
-		{
-			"max_players"	"20"
-		}
-		
-		"emp_blast_ob1"
-		{
-			"max_players"	"20"
-		}
-		
-		"emp_vehicletraining_2013"
+		"emp_havoc_b1_fix"
 		{
 			"max_players"	"20"
 		}
@@ -286,10 +292,14 @@
 			"max_players"	"20"
 		}
 		
-		"emp_atomic_rc6"
+		"con_urbanchaos_fix"
 		{
-			"min_players"	"32"
-			"max_players"	"64"
+			"max_players"	"20"
+		}
+		
+		"emp_vehicletraining_2013"
+		{
+			"max_players"	"20"
 		}
 	}
 }

@@ -1,6 +1,6 @@
 Vehicle_armor
 {
-	// GENERIC ARMORS
+	//Generic Armors
 	"Plain Armor"
 	{
 		"Name"						"Plain Armor"		//name given when selecting weapons
@@ -8,13 +8,13 @@ Vehicle_armor
 		"Icon"						"vehicles/gui/armor/armor_small"		//icon drawn in the GUI
 		"HUD Icon"					""
 		"Size"						"1"		//number of slots required when selecting weapons
-		"Type"						"0"		//which vehicle can use this armor, 0=all, 1=ground, 2=aircraft, 3=ship, 4=jeep, 5=light tank/afv, 6=med tank, 7=heavy tank, 8=artillery tank, 9=apc, 10=all tanks:light, medium, heavy and artillery
+		"Type"						"0"		//which vehicle can use this armor, 0=all, 1=ground, 2=aircraft, 3=ship, 4=jeep, 5=light tank/afv, 6=med tank, 7=heavy tank, 8=artillery tank, 9=apc, 10=all tanks:light, medium, heavy and artillery, 11=Command Vehicle
 		"Weight"					"15"	//weight of a plate of armor
 		"Cost"						"5"		//cost of a plate of armor
 		"Research"					""		//Research required before this armor is available to use
 		"Health"					"40"	//Health per plate of armor
-		"Regeneration"				"0"		//Health regenerated per second
-		"Angle Modifier"			"0.0"	//("damage taken" = "angle * 90 / 100" * "angle modifier" * "damage")("angle * 90 / 100" caps at 45° so 45° and above will be 0.5)
+		"Regeneration"				"0"		//Plate(s) per second
+		"Angle Modifier"			"0.0"	//("damage taken" = damage - ("angle / 90" * "angle modifier" * "damage"))("angle * 90 / 100" caps at 45° so 45° and above will be 0.5)
 		"Speed To Damage Modifier"	"0"		//("damage taken" = "speed of projectile" * "speed to damage modifier" * "damage")
 		"Damage Modifier"			"1"		//("damage taken" = "damage" * "damage modifier")
 		"Damage To Heat Absorbed"	"0.0"	//("heat generated" = "damage" * "damage to heat absorbed")
@@ -191,35 +191,7 @@ Vehicle_armor
 		"Sound Impact"			""
 		"Sound Repair"			""
 	}
-	"Capacitive"
-	{
-		"Name"						"Capacitive"
-		"Description"				"Capacitive armor is very strong, but will generate heat if taking damage. It takes extra damage from high-velocity shells and biological weapons.  Tips : Arguably the strongest armor, but care for the extra heat you receive from damage.  Good against : Bio weaponry, missiles, anti-vehicle MG.  Weakness to : Cannons. "
-		"Icon"						"vehicles/gui/armor/capacitive_sml_alt"
-		"HUD Icon"					""
-		"Size"						"1"
-		"Type"						"0"
-		"Weight"					"18"
-		"Cost"						"18"
-		"Research"					"Capacitive Armor"
-		"Health"					"160"
-		"Regeneration"				"0.0"
-		"Angle Modifier"			"-0.1"
-		"Speed To Damage Modifier"	"0.0001"
-		"Damage Modifier"			"1"
-		"Damage To Heat Absorbed"	"0.02"
-		"Bioweapon Damage Modifier"	"1.2"
-		"BulletResist" 				"1"		//Non Armor damaging
-		"InfantrySeismicResist" 	"0.95"	//Siesmic Grenades
-		"InfantryBulletResist" 		"1"		//Just In Case
-		"ExtraType1Resist" 			"0.95" 	//Building Damage
-		"InfantryMeleeResist"		"1.0"	//Infantry melee
-		
-		//sounds
-		"Sound Impact"			""
-		"Sound Repair"			""
-	}
-	// Commander armor
+	//Commander Armor
 	"Command Vehicle"
 	{
 		"Name"						"Command Vehicle Armor"
@@ -246,6 +218,68 @@ Vehicle_armor
 		"InfantryMeleeResist"		"1.0"	//Infantry melee
 		"InfantryStickyResist"		"0.25"
 
+		//sounds
+		"Sound Impact"			""
+		"Sound Repair"			""
+	}
+	//Aircraft Armors
+	"plainArmor"
+	{
+		"Name"			"Plain Armor"		//name given when selecting weapons
+		"Description"		"Plain armor offers mild protection from damage."		//description given when selecting weapons
+		"Icon"			"vehicles/gui/armor/armor_small"		//icon drawn in the GUI
+		"HUD Icon"		""
+		"Size"			"1"		//number of slots required when selecting weapons
+		"Type"			"2"		//which vehicle can use this armor
+							// 0=all, 1=ground, 2=aircraft, 3=ship, 4=jeep, 5=light tank/afv, 6=med tank, 7=heavy tank,
+							// 8=artillery tank, 9=apc, 10=all tanks:light, medium, heavy and artillery
+		"Weight"		"15"            //** weight was 5
+		"Cost"			"5"	//cost of an inch of armor in resources, added onto the final vehicle cost
+		"Research"		""
+
+		"Health"			"43.3"	//amount of health per every inch of armor
+		"Regeneration"			"0"	//amount of health this armor regenerates per second
+		"Angle Modifier"		"0.0"	// was 0
+		"Speed To Damage Modifier"	"0.008"	
+		"Damage Modifier"		"1"	//modifier to damage (0.9 reduces damage by 10%; damage*0.9=damage taken)
+		"Damage To Heat Absorbed"	"0.025"	//percentage of damage received which is added as heat (0.2: damage*0.2=heat added
+		"Heat Dissipation"		"4"	
+		"Bioweapon Damage Modifier"	"1.5"	// was 1  //scale damage from biological weapons by this amount (bioweapon damage per interval * modifier = damage taken per interval)
+
+		"Sound Impact"			""
+		"Sound Repair"			""
+
+		"BulletResist" 			"1"		//Non Armor damaging
+		"InfantrySeismicResist" 	"0.95"		//Siesmic Grenades
+		"InfantryBulletResist" 		"1"		//Just In Case
+		"ExtraType1Resist" 		"0.95" 		//Building Damage
+		"InfantryMeleeResist"		"1.0"					//Infantry melee
+	}
+	//Generic Armors
+	"Capacitive"
+	{
+		"Name"						"Capacitive"
+		"Description"				"Capacitive armor is very strong, but will generate heat if taking damage. It takes extra damage from high-velocity shells and biological weapons.  Tips : Arguably the strongest armor, but care for the extra heat you receive from damage.  Good against : Bio weaponry, missiles, anti-vehicle MG.  Weakness to : Cannons. "
+		"Icon"						"vehicles/gui/armor/capacitive_sml_alt"
+		"HUD Icon"					""
+		"Size"						"1"
+		"Type"						"0"
+		"Weight"					"18"
+		"Cost"						"18"
+		"Research"					"Capacitive Armor"
+		"Health"					"160"
+		"Regeneration"				"0.0"
+		"Angle Modifier"			"-0.1"
+		"Speed To Damage Modifier"	"0.0001"
+		"Damage Modifier"			"1"
+		"Damage To Heat Absorbed"	"0.02"
+		"Bioweapon Damage Modifier"	"1.2"
+		"BulletResist" 				"1"		//Non Armor damaging
+		"InfantrySeismicResist" 	"0.95"	//Siesmic Grenades
+		"InfantryBulletResist" 		"1"		//Just In Case
+		"ExtraType1Resist" 			"0.95" 	//Building Damage
+		"InfantryMeleeResist"		"1.0"	//Infantry melee
+		
 		//sounds
 		"Sound Impact"			""
 		"Sound Repair"			""

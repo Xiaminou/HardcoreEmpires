@@ -6,80 +6,91 @@
 #include <squadcontrol>
 #include <votetime>
 
-#define PluginVersion "v0.24" 
- 
+#define PluginVersion "v0.31" 
+
+#define InflationAdjust 1.0
 #define NF 0
 #define BE 1
  
-ConVar es_teambalance,es_teambalance_margin,es_teambalance_nocomm,es_teambalance_playerratio,es_teambalance_blockunevenswitch, cv_autobalance,dp_in_draft; 
+ConVar es_stat_tracking,es_teambalance,es_teambalance_margin,es_teambalance_nocomm,es_teambalance_playerratio,es_teambalance_blockunevenswitch, cv_autobalance,dp_in_draft; 
 
 Database statsdb = null;
 
-new String:ranks[][] = {"New Player","Newbie","Rookie","Beginner","Average Joe","Experienced","Veteran","Expert","God-Like"};
-int rankPoints[] =     { 0,1,500,1000,2000,4000,10000,20000,50000};
+new String:ranks[][] = {"New Player","Newbie","Rookie","Beginner","Average Joe","Experienced","Veteran","Expert","God-Like","Sorey"};
+int rankPoints[] =     { 0,1,500,1000,2000,4000,10000,20000,50000,200000};
 new String:teamnames[][] = {"Unassigned","Spectator","NF","BE"};
 new String:teamcolors[][] = {"\x01","\x01","\x07FF2323","\x079764FF"};
 new String:servername[60];
 new String:escapedServerName[128];
 new String:logPath[128];
 
+
+
+
 enum playerdataenum {
+	String:steam_id[20],
 	havestats,
 	stat_empty,
 	stat_id,
-	stat_first_played,
 	stat_time_played,
 	stat_time_commanded,
 	stat_wins,
 	Float:stat_rating,
+	Float:stat_comm_rating,
 	stat_comm_wins,
 	stat_total_score,
 	stat_upvotes,
 	data_jointime,
+	data_playtimestart,
 	data_commtimestart,
-	data_commtimetotal,
 	data_upvotes,
 	data_has_upvoted,
 	data_startscore,
+	data_totalscore,
 	data_commstatsshown,
-	data_playtimestart_nf,
-	data_playtimetotal_nf,
-	Float:data_scaledtime_nf,
-	data_playtimestart_be,
-	data_playtimetotal_be,
-	Float:data_scaledtime_be,
-	Float:data_ratingadjust
+	data_playtimetotal[2],
+	data_commtimetotal[2],
+	Float:data_scaledtime[2],
+	Float:data_comm_scaledtime[2],
+	Float:data_ratingadjust,
+	Float:data_comm_ratingadjust,
+	data_rated_team,
+	Float:data_rated_adjust,
+	data_disconnect_time,
+	data_win,
+	data_comm_win
 }
+
+
+
+//early playtime is the amount of time played in the first 10 minutes. 
 
 // all player info
 new playerData[MAXPLAYERS+1][playerdataenum];
 
 
-char steam_ids[MAXPLAYERS+1][50];
-
 ArrayList playerJoinList;
 int resourceEntity;
+int paramEntity;
 bool gameStarted;
 bool gameEnded;
 int teamWon;
-int commWon;
 bool activated;
 
 bool testing = false;
-bool mapChanging;
+bool statsAllRound;
+bool statsReported = false;
 
 
 int gameStartTime;
 
 new Handle:commCheckHandle;
 
-enum savedataenum {
-	saved_id,
-	Float:saved_rating,
-	Float:saved_scaledtime_be,
-	Float:saved_scaledtime_nf
-}
-ArrayList inactivePlayers;
+
+
+// a stringmap which can be easily reloaded when a client reconnects.
+StringMap inactivePlayers;
+
 
 bool commMap;
 
@@ -96,8 +107,6 @@ public Plugin myinfo =
 // on game end update the database. 
 public void OnPluginStart()
 {
-	
-	
 	RegConsoleCmd("sm_empstats", Command_Emp_Stats);
 	RegConsoleCmd("sm_commstats", Command_Comm_Stats);
 	RegConsoleCmd("sm_comminfo", Command_Comm_Info);
@@ -111,6 +120,8 @@ public void OnPluginStart()
 	ConVar hostName= FindConVar("hostname");
 	GetConVarString(hostName, servername, sizeof(servername));
 	
+	es_stat_tracking = CreateConVar("es_stat_tracking", "1", "Track Stats");
+	es_stat_tracking.AddChangeHook(es_stat_tracking_changed);
 	es_teambalance = CreateConVar("es_teambalance", "1", "Teambalance with mmr");
 	es_teambalance_margin = CreateConVar("es_teambalance_margin", "100", "margin of mmr difference to allow, Remember 100 point difference is a 64% win chance.");
 	es_teambalance_nocomm = CreateConVar("es_teambalance_nocomm", "0", "teambalance on infantry maps");
@@ -124,26 +135,57 @@ public void OnPluginStart()
 		PrintToServer("testing mode enabled");
 	}
 
-	
-	
-	inactivePlayers = new ArrayList(savedataenum);
+	inactivePlayers = new StringMap();
 	playerJoinList = new ArrayList();
 	activated = false;
 	SetUpDB();
 	InitData();
 	BuildPath(Path_SM, logPath, sizeof(logPath), "logs/empstats.txt");
 }
-void CheckGameStarted()
+// must be used for natives
+public APLRes AskPluginLoad2(Handle myself, bool late, char[] error, int err_max)
 {
-	int paramEntity = FindEntityByClassname(-1, "emp_info_params");
-	float startTime = GetEntPropFloat(paramEntity, Prop_Send, "m_flGameStartTime");
-	if(startTime > 1.0)
-	{
-		gameStartTime = RoundFloat(startTime);
-		gameStarted = true;
-	}
+	CreateNative("ES_GetStats", Native_GetStats);	
+	CreateNative("ES_GetStat", Native_GetStat);	
+	RegPluginLibrary("empstats");
+	return APLRes_Success;
 }
 
+
+
+// confirmed because when bot spawns first game doesent officially start. 
+void CheckGameStarted(bool confirmed)
+{
+	
+	float startTime = GetEntPropFloat(paramEntity, Prop_Send, "m_flGameStartTime");
+	if(!gameStarted && (startTime > 0.0 || confirmed))
+	{
+		int now = GetTime();
+		gameStartTime = now;
+		
+		gameStarted = true;
+		// set starttime of all players
+		for (int i=1; i<=MaxClients; i++)
+		{
+			if(IsClientInGame(i) )
+			{
+				int team = GetClientTeam(i);
+				if(team >=2)
+				{
+					playerData[i][data_playtimestart] = now;
+					playerData[i][data_rated_team] = team -2;
+					playerData[i][data_rated_adjust] = 1.0;
+				}
+	
+			}
+		}
+		
+	}
+}
+public void es_stat_tracking_changed(ConVar convar, char[] oldValue, char[] newValue)
+{
+	CheckActivate();
+}
 
 public void OnAllPluginsLoaded()
 {
@@ -155,10 +197,10 @@ void InitData()
 {
 	for (int i=1; i<=MaxClients; i++)
 	{
-		steam_ids[i] = "";
+		strcopy(playerData[i][steam_id],20,"");
 		if(IsClientInGame(i))
 		{
-			GetClientAuthId(i, AuthId_Steam3, steam_ids[i], 255);
+			GetClientAuthId(i, AuthId_Steam3, playerData[i][steam_id], 255);
 		}
 			
 	}
@@ -169,36 +211,46 @@ void InitData()
 CheckActivate()
 {
 
+
+	
 	int requiredPlayers = 4;
 	if(testing)
 		requiredPlayers = 1;
 
 	// client count
 	int count = GetClientCount(true);
-	if(count >= requiredPlayers && !activated)
+	if(count >= requiredPlayers && es_stat_tracking.IntValue == 1 && !activated)
 		Activate();
-	else if(count <requiredPlayers && activated)
+	else if((count <requiredPlayers || es_stat_tracking.IntValue !=1) && activated)
 		Deactivate();
 		
 		
 }
+
+
+// tracking stats. 
 void Activate()
 {
 	if(activated)
 		return;
 	activated = true;
+	statsReported = false;
 	
 	HookEvent("game_end",Event_Game_End);
 	HookEvent("vehicle_enter", Event_VehicleEnter, EventHookMode_Post);
-	HookEvent("vehicle_exit", Event_VehicleExit, EventHookMode_Pre);
 	AddCommandListener(Command_Join_Team, "jointeam");
 	HookEvent("player_team", Event_PlayerTeam, EventHookMode_Post);
-	
+	HookEvent("player_disconnect",Event_PlayerDisconnect,EventHookMode_Pre);
 
 	commCheckHandle = CreateTimer(120.0, Timer_CheckComm, _, TIMER_REPEAT);
 	
-	
-	UpdateAllPlayers();
+	for (int i=1; i<=MaxClients; i++)
+	{
+		if(IsClientInGame(i))
+		{
+			SetStartingInfo(i);
+		}
+	}
 }
 // fix an issue where vehicle_exit doesent work sometimes for nf cv. 
 public Action Timer_CheckComm(Handle timer)
@@ -209,10 +261,8 @@ public Action Timer_CheckComm(Handle timer)
 		{
 			if(playerData[i][data_commtimestart] >0 && GetEntProp(i, Prop_Send, "m_bCommander") != 1)
 			{
-				playerData[i][data_commtimetotal] += GetTime() - playerData[i][data_commtimestart];
-				playerData[i][data_commtimestart] = 0;
+				EndCommTime(i);
 			}
-
 		} 
 	}
 }
@@ -222,25 +272,53 @@ void Deactivate()
 	if(!activated)
 		return;
 	
-	
+	UnhookEvent("player_disconnect",Event_PlayerDisconnect,EventHookMode_Pre);
 	UnhookEvent("game_end",Event_Game_End);
 	UnhookEvent("vehicle_enter", Event_VehicleEnter, EventHookMode_Post);
-	UnhookEvent("vehicle_exit", Event_VehicleExit, EventHookMode_Pre);
 	RemoveCommandListener(Command_Join_Team, "jointeam");
 	UnhookEvent("player_team", Event_PlayerTeam, EventHookMode_Post);
 	
+
 	
-	for (int i=1; i<=MaxClients; i++)
-	{
-		if(IsClientInGame(i))
-		{
-			ReportStats(i);
-		}
-	}
+	ReportAllStats(true);
 	
 	KillTimer(commCheckHandle);
 	activated = false;
+	statsAllRound = false;
 	
+	
+}
+
+ReportAllStats(bool reportActive)
+{
+	if(activated && !statsReported)
+	{
+		statsReported = true;
+		if(reportActive)
+		{
+			for(int i = 1;i<MaxClients;i++)
+			{
+				if(IsClientInGame(i))
+				{
+					CloseSession(i);
+					ReportStats(playerData[i],i);
+				}
+			}
+		}
+		
+		ArrayList inactive = GetInactivePlayersList();
+		PrintToServer("%d",inactive.Length);
+		for(int i = 0;i<inactive.Length;i++)
+		{
+			new saveData[playerdataenum]; 
+			inactive.GetArray(i,saveData,playerdataenum);
+			PrintToServer("reporting saved stats %s %d",saveData[steam_id],saveData[havestats]);
+			ReportStats(saveData,0);
+		}
+		delete inactive;
+		inactivePlayers.Clear();
+	}
+
 }
 
 
@@ -358,7 +436,7 @@ public Action Command_Comm_Info(int client, int args)
 		}
 	}
 	
-	char message[1024] =  "";
+	char message[1500] =  "";
 	char clientName[256];
 	char playerMessage[256];
 	char commstats[256];
@@ -398,7 +476,7 @@ GetCommStats(int client, char[] buffer,int buffersize)
 	FormatSeconds(GetCurrentPlayTime(client),playtimestring,sizeof(playtimestring));
 	char commtimestring[32];
 	FormatSeconds(GetCurrentCommTime(client),commtimestring,sizeof(commtimestring));
-	Format(stats, sizeof(stats),"\x04Comm Wins \x01%d\x04  Time Commanded \x01%s\x04  Time Played \x01%s\x04  Upvotes \x01%d",GetCurrentCommWins(client),commtimestring,playtimestring,GetCurrentUpvotes(client));
+	Format(stats, sizeof(stats),"\x04Comm Wins \x01%d\x04  Time Commanded \x01%s\x04  Upvotes \x01%d\x04  Time Played \x01%s  ",GetCurrentCommWins(client),commtimestring,GetCurrentUpvotes(client),playtimestring);
 	
 	
 	// copy into buffer
@@ -475,26 +553,35 @@ public Action Command_Predict(int client, int args)
 		PrintToChat(client,"Game has already ended");
 		return Plugin_Handled;
 	}
-	bool immediate = false;
-
-	char arg[32];
-	if(GetCmdArg(1, arg, sizeof(arg)))
+	int future = 5;
+	
+	if(!gameStarted)
 	{
-		
-		if(strcmp(arg, "1" ,true) == 0 )
-		{
-			immediate = true;
-		}
-	
+		future = 10;
 	}
-	
-	// predict who will win the game. 
-	float playratio;
-	int chances = RoundToFloor(GetNFTeamChances(playratio,immediate) * 100.0);
+	else
+	{
+		char arg[32];
+		if(GetCmdArg(1, arg, sizeof(arg)))
+		{
+			future = StringToInt(arg);
+			if(future < 0)
+				future = 0;
+			else if (future > 60)
+				future = 60;
+		}
+	}
+		
+		
+	int chances = RoundToFloor(GetNFTeamChances(future * 60) * 100.0);
 	
 	if(chances > 50)
 	{
 		PrintToChat(client,"\x04[ES] \x01Based on MMR we predict that %sNF\x01 will win \x073399ff%d\x01 percent of the time",teamcolors[2],chances);
+	}
+	else if(chances == 50)
+	{
+		PrintToChat(client,"\x04[ES] \x01Based on MMR we predict that \x07CB4491BOTH\x01 teams have a \x073399ff50\x01 percent chance to win.");
 	}
 	else
 	{
@@ -508,19 +595,23 @@ public Action Command_Predict(int client, int args)
 
 
 
-
+ 
 public OnClientPostAdminCheck(int client)
 {
-	// set up a 5 second timer if we dont have players yet
-	if (playerJoinList.Length == 0)
-	{
-		CreateTimer(3.0, Timer_PlayerJoin);
-	}
-	if(GetClientAuthId(client, AuthId_Steam3, steam_ids[client], 255,false))
-	{
-		playerJoinList.Push(client);
-	}
+	bool hasSteamID = GetClientAuthId(client, AuthId_Steam3, playerData[client][steam_id], 255,false);
+	
 	SetStartingStats(client);
+	
+	// stats might have been loaded previously, if we disconnected less than ten minutes ago dont reload them. 
+	if(!playerData[client][havestats] && hasSteamID)
+	{
+		PrintToServer("trying to get stats");
+		playerJoinList.Push(client);
+		if (playerJoinList.Length == 1)
+		{
+			CreateTimer(3.0, Timer_PlayerJoin);
+		}
+	}
 	
 	CheckActivate();
 	
@@ -528,41 +619,72 @@ public OnClientPostAdminCheck(int client)
 void SetStartingStats(int client)
 {
 	
+	PrintToServer("steam id: %s",playerData[client][steam_id]);
+	if(inactivePlayers.GetArray(playerData[client][steam_id],playerData[client],playerdataenum))
+	{
+		PrintToServer("recieved stats %d %d %d",playerData[client][havestats],playerData[client][data_totalscore],playerData[client][data_disconnect_time]);
+		
+		// if we disconnected more than 5 minutes ago, refetch the stats. 
+		if(playerData[client][data_disconnect_time] < GetTime() - 300)
+		{
+			playerData[client][havestats] = false;
+		}
+		
+		playerData[client][data_disconnect_time] = 0;
+		// stats have been loaded from savestate
+		inactivePlayers.Remove(playerData[client][steam_id]);
+		return;
+	}
+	
+	playerData[client][data_disconnect_time] = 0;
 	playerData[client][havestats] = false;
+	playerData[client][data_win] = false;
+	playerData[client][data_comm_win] = false;
 	playerData[client][stat_empty] = false;
 	playerData[client][data_commtimestart] = 0;
 	playerData[client][data_commtimetotal] = 0;
 	playerData[client][data_upvotes] = 0;
 	playerData[client][data_has_upvoted] = false;
-	playerData[client][data_startscore] = 0;
 	playerData[client][data_commstatsshown] = false;
 	playerData[client][data_startscore] = GetEntProp(resourceEntity,Prop_Send, "m_iScore",4, client);
 	playerData[client][data_jointime] = GetTime();
-	playerData[client][data_playtimestart_be] = 0;
-	playerData[client][data_playtimestart_nf] = 0;
-	playerData[client][data_playtimetotal_be] = 0;
-	playerData[client][data_playtimetotal_nf] = 0;
-	playerData[client][data_scaledtime_be] = 0.0;
-	playerData[client][data_scaledtime_nf] = 0.0;
+	
 	playerData[client][data_ratingadjust] = 0.0;
+	playerData[client][data_comm_ratingadjust] = 0.0;
+	
+	playerData[client][data_playtimestart] = 0;
+	playerData[client][data_rated_team] = -1;
+	
+	for(int j=0;j<2;j++)
+	{
+		playerData[client][data_playtimetotal][j] = 0;
+		playerData[client][data_commtimetotal][j] = 0;
+		playerData[client][data_scaledtime][j] = 0.0;
+		playerData[client][data_comm_scaledtime][j] = 0.0;
+	}
+	
+	SetStartingInfo(client);
 	
 	
+	
+	
+}
+SetStartingInfo(int client)
+{
 	int team = GetClientTeam(client);
-	if(team == 2)
+	if(team >= 2)
 	{
-		playerData[client][data_playtimestart_nf] = GetTime();
+		playerData[client][data_playtimestart] = GetTime();
 	}
-	else if(team == 3)
-	{
-		playerData[client][data_playtimestart_be] = GetTime();
-	}
+
+	
 	if(GetEntProp(client, Prop_Send, "m_bCommander") == 1)
 	{
 		playerData[client][data_commtimestart] = GetTime();
 	}
-	
-	
+
 }
+
 void UpdateAllPlayers()
 {
 	if(statsdb == null)
@@ -603,14 +725,15 @@ LoadStats()
 
 	//add all of the authstrings of the playerData. 
 	
-	char querystring[600] = "";
-	char playerliststring[512]="";
+	// need to be high to accommidate 60 steamids
+	char querystring[1200] = "";
+	char playerliststring[1024]="";
 	
 	for(int i = 0;i<playerJoinList.Length;i++)
 	{
 		int index = playerJoinList.Get(i);
 		StrCat(playerliststring,sizeof(playerliststring),"\'");
-		StrCat(playerliststring,sizeof(playerliststring),steam_ids[index]);
+		StrCat(playerliststring,sizeof(playerliststring),playerData[index][steam_id]);
 		if(i!= playerJoinList.Length -1)
 		{
 			StrCat(playerliststring,sizeof(playerliststring),"\',");
@@ -622,8 +745,8 @@ LoadStats()
 		// store the starting score so it can be retrieved 
 	}
 	
-	Format(querystring, sizeof(querystring), "SELECT steamid,ID,first_played,time_played,time_commanded,total_score,wins,comm_wins,upvotes,rating FROM players WHERE steamid IN(%s)", playerliststring);
-	
+	Format(querystring, sizeof(querystring), "SELECT steamid,ID,time_played,time_commanded,total_score,wins,comm_wins,upvotes,rating,comm_rating FROM players WHERE steamid IN(%s)", playerliststring);
+	PrintToServer("%s",querystring);
 	SQL_TQuery(statsdb, PlayerQueryCallback, querystring, playerJoinList.Clone());
 	
 	playerJoinList.Clear();
@@ -648,7 +771,7 @@ public PlayerQueryCallback(Handle:owner, Handle:results, const String:error[], a
 		for(int i = 0;i<joinList.Length;i++)
 		{
 			int index = joinList.Get(i);
-			if(index != -1 && StrEqual(steam_ids[index],buffer,true))
+			if(index != -1 && StrEqual(playerData[index][steam_id],buffer,true))
 			{
 				client = index;
 				joinList.Set(i,-1);
@@ -658,16 +781,17 @@ public PlayerQueryCallback(Handle:owner, Handle:results, const String:error[], a
 		// we need to create an empty list. 
 		if(client != 0 && IsClientInGame(client))
 		{
+			PrintToServer("found stats");
 			playerData[client][havestats] = true;
 			playerData[client][stat_id] = SQL_FetchInt(results, 1);
-			playerData[client][stat_first_played] = SQL_FetchInt(results, 2);
-			playerData[client][stat_time_played] = SQL_FetchInt(results, 3);
-			playerData[client][stat_time_commanded] = SQL_FetchInt(results, 4);
-			playerData[client][stat_total_score] = SQL_FetchInt(results, 5);
-			playerData[client][stat_wins] = SQL_FetchInt(results, 6);
-			playerData[client][stat_comm_wins] = SQL_FetchInt(results, 7);
-			playerData[client][stat_upvotes] = SQL_FetchInt(results, 8);
-			playerData[client][stat_rating] = SQL_FetchFloat(results, 9);
+			playerData[client][stat_time_played] = SQL_FetchInt(results, 2);
+			playerData[client][stat_time_commanded] = SQL_FetchInt(results, 3);
+			playerData[client][stat_total_score] = SQL_FetchInt(results, 4);
+			playerData[client][stat_wins] = SQL_FetchInt(results, 5);
+			playerData[client][stat_comm_wins] = SQL_FetchInt(results, 6);
+			playerData[client][stat_upvotes] = SQL_FetchInt(results, 7);
+			playerData[client][stat_rating] = SQL_FetchFloat(results, 8);
+			playerData[client][stat_comm_rating] = SQL_FetchFloat(results,9);
 		}
 	}
 	// players that we havent found in the database, set stats to 0
@@ -678,7 +802,6 @@ public PlayerQueryCallback(Handle:owner, Handle:results, const String:error[], a
 		{
 			playerData[client][havestats] = true;
 			playerData[client][stat_empty] = true;
-			playerData[client][stat_first_played] =0;
 			playerData[client][stat_time_played] = 0;
 			playerData[client][stat_time_commanded] = 0;
 			playerData[client][stat_total_score] = 0;
@@ -688,7 +811,7 @@ public PlayerQueryCallback(Handle:owner, Handle:results, const String:error[], a
 			
 			// set a default ELO rating as 1000
 			playerData[client][stat_rating] = 1000.0;
-			
+			playerData[client][stat_comm_rating] = 1000.0;
 			
 			// used for testing teambalance
 			//int team = GetClientTeam(client);
@@ -709,112 +832,126 @@ public PlayerQueryCallback(Handle:owner, Handle:results, const String:error[], a
 	delete joinList;
 }
 
+void CloseSession(int client)
+{
+	if(!gameEnded)
+	{
+		EndTeamTime(client,GetClientTeam(client));
+		EndCommTime(client);
+		playerData[client][data_totalscore] = GetEntProp(resourceEntity,Prop_Send, "m_iScore",4, client) - playerData[client][data_startscore];
+		
+	}
+}
+
+
+void EndTeamTime(int client,int team)
+{
+	if(team >= 2)
+	{
+		int t = team -2;
+		if(playerData[client][data_playtimestart] !=0)
+		{
+			float scaledTime = GetScaledSeconds(playerData[client][data_playtimestart],GetTime());
+			playerData[client][data_scaledtime][t]+= scaledTime;
+			
+			playerData[client][data_playtimetotal][t] += GetTime() - playerData[client][data_playtimestart];
+			playerData[client][data_playtimestart] = 0;
+		}
+		
+	}
+}
+void EndCommTime(int client)
+{
+	if(playerData[client][data_commtimestart] != 0)
+	{
+		int team = GetClientTeam(client);
+		if(team >= 2)
+		{
+			int currentTime = GetTime();
+			playerData[client][data_comm_scaledtime][team -2] += 1.5 * GetScaledSeconds(playerData[client][data_commtimestart],currentTime);
+			playerData[client][data_commtimetotal] += currentTime - playerData[client][data_commtimestart];
+			
+			playerData[client][data_commtimestart] = 0;
+		}
+		
+	}
+}
+
+// called after the player has left.
 public OnClientDisconnect(int client)
 {
 	if(!IsClientInGame(client) || !activated)
 		return;
 	
-	int team = GetClientTeam(client);
-	
+	// if the game hasn't ended close the session this player is in. 
 	if(!gameEnded)
 	{
-		UpdateTeamTime(client,team);
-	}
+		CloseSession(client);
+	}	
 	
-	if(playerData[client][havestats])
+	// if a non mapchange disconnect
+	if(playerData[client][data_disconnect_time] > 0)
 	{
-		
-		new savedstats[savedataenum];
-		savedstats[saved_id] = playerData[client][stat_id];
-		savedstats[saved_rating] =  playerData[client][stat_rating];
-		savedstats[saved_scaledtime_be] = playerData[client][data_scaledtime_be];
-		savedstats[saved_scaledtime_nf] = playerData[client][data_scaledtime_nf];
-		inactivePlayers.PushArray(savedstats,savedataenum);
-	
+		inactivePlayers.SetArray(playerData[client][steam_id],playerData[client],playerdataenum);
 	}
-	
-	ReportStats(client);
-}
-void UpdateTeamTime(int client,int team)
-{
-	if(team == 2 && playerData[client][data_playtimestart_nf] != 0)
+	else
 	{
-		if(commMap)
-		{
-			float scaledTime = GetScaledSeconds(playerData[client][data_playtimestart_nf],GetTime());
-			playerData[client][data_scaledtime_nf]+= scaledTime;
-		}
+		ReportStats(playerData[client],client);
 		
-		playerData[client][data_playtimetotal_nf] += GetTime() - playerData[client][data_playtimestart_nf];
-		playerData[client][data_playtimestart_nf] = 0;
-		
-	}
-	else if (team == 3 && playerData[client][data_playtimestart_be] != 0)
-	{
-		if(commMap)
-		{
-			float scaledTime = GetScaledSeconds(playerData[client][data_playtimestart_be],GetTime());
-			playerData[client][data_scaledtime_be]+= scaledTime;
-		}
-		
-		playerData[client][data_playtimetotal_be] += GetTime() - playerData[client][data_playtimestart_be];
-		playerData[client][data_playtimestart_be] = 0;
 	}
 	
 }
+
 // called after the player has left.
 public OnClientDisconnect_Post(int client)
 {
-	if(!mapChanging)
+	// if a non mapchange disconnect
+	if(playerData[client][data_disconnect_time] > 0)
+	{
 		CheckActivate();	
+	}
+	else
+	{
+		playerData[client][data_disconnect_time] = GetTime();
+	}
 }
+// make sure we report our current stats when the plugin is unloaded. 
 public void OnPluginEnd()
 {
 	Deactivate();	
-	
 }
 
 
-void ReportStats(int client)
+void ReportStats(any pData[playerdataenum], int client)
 {
-	if(!playerData[client][havestats] || statsdb == null )
+	
+
+	if(!pData[havestats] || statsdb == null )
 		return;
 
-	int team = GetClientTeam(client);
-	// if we have a new player insert the stats
+	PrintToServer("statscheck");
 	
-	int score = GetEntProp(resourceEntity,Prop_Send, "m_iScore",4, client) - playerData[client][data_startscore];
-	
-	int time_played = playerData[client][data_playtimetotal_be] + playerData[client][data_playtimetotal_nf];
+	int time_played = pData[data_playtimetotal][BE] + pData[data_playtimetotal][NF];
 	
 	// cannot have more than 300 points an hour 
 	int maxScore = RoundFloat(time_played / 12.0);
 	
+	int score = pData[data_totalscore];
 	if(score > maxScore)
 		score = maxScore;
 	
 	int comm_wins = 0;
 	int wins = 0;
 	
-	char clientName[256];
-	GetClientName(client, clientName, sizeof(clientName));
-	
-	// escape the clientname because users could edit it to inject
-	char escapedName[256];
-	SQL_EscapeString(statsdb,clientName, escapedName, sizeof(escapedName));
 
 	
 
 	
 	
-	if(gameEnded)
+	if(pData[data_win])
 	{
-		if(team == teamWon)
-		{
-			wins = 1;
-			
-		}
-		if(commWon ==client)
+		wins = 1;
+		if(pData[data_comm_win])
 		{
 			comm_wins = 1;
 		}	
@@ -822,26 +959,38 @@ void ReportStats(int client)
 	
 	
 	
-	if(playerData[client][data_commtimestart] != 0)
-	{
-		playerData[client][data_commtimetotal] += GetTime() - playerData[client][data_commtimestart];
-	}
-	
-	int time_commanded = playerData[client][data_commtimetotal];
+	int time_commanded = pData[data_commtimetotal][NF] + pData[data_commtimetotal][BE];
 	
 	char querystring[512];
-	if(playerData[client][stat_empty])
+	if(pData[stat_empty])
 	{
 		// use ignore to remove bot errors. 
-		Format(querystring, sizeof(querystring), "INSERT IGNORE INTO players (steamid,name, first_played,time_played,time_commanded, total_score,wins,comm_wins,upvotes,rating,last_server,server_version) VALUES ('%s','%s', %d,%d, %d, %d,%d,%d,%d,%f,'%s','%s')",steam_ids[client],escapedName,playerData[client][data_jointime],time_played,time_commanded,score,wins,comm_wins,playerData[client][data_upvotes],playerData[client][stat_rating],escapedServerName,PluginVersion);
+		Format(querystring, sizeof(querystring), "INSERT IGNORE INTO players (steamid, first_played,time_played,time_commanded, total_score,wins,comm_wins,upvotes,rating,comm_rating,last_server,server_version) VALUES ('%s', %d,%d, %d, %d,%d,%d,%d,%.4f,%.4f,'%s','%s')",pData[steam_id],pData[data_jointime],time_played,time_commanded,score,wins,comm_wins,pData[data_upvotes],pData[stat_rating] + pData[data_ratingadjust],pData[stat_comm_rating] + pData[data_comm_ratingadjust],escapedServerName,PluginVersion);
 		FastQuery(querystring);
 		
 	} // otherwise update them 
-	else if(playerData[client][havestats])
+	else if(pData[havestats])
 	{
-		Format(querystring, sizeof(querystring), "UPDATE players SET name='%s', time_played=time_played + %d,time_commanded=time_commanded + %d,total_score=total_score+%d ,wins=wins+%d,comm_wins=comm_wins+%d,upvotes=upvotes+%d,rating=rating+%.4f,last_update=now(),last_server='%s',server_version='%s' WHERE id=%d",escapedName,time_played,time_commanded, score,wins,comm_wins,playerData[client][data_upvotes],playerData[client][data_ratingadjust],escapedServerName,PluginVersion,playerData[client][stat_id]);
+		Format(querystring, sizeof(querystring), "UPDATE players SET  time_played=time_played + %d,time_commanded=time_commanded + %d,total_score=total_score+%d ,wins=wins+%d,comm_wins=comm_wins+%d,upvotes=upvotes+%d,rating=rating+%.4f,comm_rating=comm_rating+%.4f,last_update=now(),last_server='%s',server_version='%s' WHERE id=%d",time_played,time_commanded, score,wins,comm_wins,pData[data_upvotes],pData[data_ratingadjust],pData[data_comm_ratingadjust],escapedServerName,PluginVersion,pData[stat_id]);
+		PrintToServer("%s",querystring);
 		FastQuery(querystring);
 	} 
+	
+	// we wont save the name of inactive players. just update the players still in the game. 
+	if(client > 0)
+	{
+		char clientName[256];
+		GetClientName(client, clientName, sizeof(clientName));
+	
+		// escape the clientname because users could edit it to inject
+		char escapedName[256];
+		SQL_EscapeString(statsdb,clientName, escapedName, sizeof(escapedName));
+		
+		Format(querystring, sizeof(querystring), "UPDATE players SET name='%s' WHERE id=%d",escapedName,pData[stat_id]);
+		FastQuery(querystring);
+	}
+	
+	
 }
 void FastQuery(char[] querystring)
 {
@@ -888,7 +1037,9 @@ public void GotDatabase(Handle owner, Handle db, const char[] error, any data)
 		
 		//escape the servername because evil admins might try to inject. Naughty. Or they might just have put single quotes in the name. 
 		SQL_EscapeString(statsdb,servername, escapedServerName, sizeof(escapedServerName));
-
+		SQL_SetCharset(statsdb,"utf8");
+		
+		
 		UpdateAllPlayers();
 		
 	}
@@ -897,24 +1048,51 @@ public Action Timer_Reconnect(Handle timer)
 {
 	SQL_TConnect(GotDatabase, "empstats");
 }
+
+public Event_Test(Handle:event, const char[] name, bool dontBroadcast)
+{
+	PrintToServer("event: %s",name);
+}
+public Event_PlayerDisconnect(Handle:event, const char[] name, bool dontBroadcast)
+{
+	int client = GetClientOfUserId(GetEventInt(event,"userid"));
+	if(client <= 0 || !IsClientInGame(client))
+		return;
+	
+	
+	playerData[client][data_disconnect_time] = GetTime();
+
+	
+	
+	
+}
 public Event_Game_End(Handle:event, const char[] name, bool dontBroadcast)
 {	
-	gameEnded = true;
-
+	
+	
 	teamWon = 3;
 	// for some reason it is this way round dont know why
 	if(GetEventBool(event, "team"))
 	{
 		teamWon = 2;
 	}
-	commWon = SC_GetComm(teamWon);
+	int commWon = SC_GetComm(teamWon);
+	if(commWon > 0)
+	{
+		playerData[commWon][data_comm_win] = true;
+	}
 	
 
+	
 	for (int i=1; i<=MaxClients; i++)
 	{
 		if(IsClientInGame(i))
 		{
-			UpdateTeamTime(i,GetClientTeam(i));
+			CloseSession(i);
+			if(GetClientTeam(i) == teamWon)
+			{
+				playerData[i][data_win] = true;
+			}
 		}
 	}
 	
@@ -927,7 +1105,7 @@ public Event_Game_End(Handle:event, const char[] name, bool dontBroadcast)
 	CreateTimer(4.0, Timer_Promotions);
 	
 
-	
+	gameEnded = true;
 	
 		
 	//set up commwon here. 
@@ -941,9 +1119,8 @@ public Action Timer_Promotions(Handle timer)
 	{
 		if(IsClientInGame(i) && playerData[i][havestats])
 		{
-			int endscore = GetEntProp(resourceEntity,Prop_Send, "m_iScore",4, i) - playerData[i][data_startscore];
 			prevLevel = GetLevel(playerData[i][stat_total_score]);
-			newLevel = GetLevel(playerData[i][stat_total_score] + endscore);
+			newLevel = GetLevel(playerData[i][stat_total_score] + playerData[i][data_totalscore]);
 			if(newLevel != prevLevel)
 			{
 				GetClientName(i, clientName, sizeof(clientName));
@@ -975,18 +1152,28 @@ public Action Event_PlayerTeam(Event event, const char[] name, bool dontBroadcas
 	int team = GetEventInt(event, "team");
 	int oldTeam = GetEventInt(event, "oldteam");
 	
-	UpdateTeamTime(client,oldTeam);
+	EndTeamTime(client,oldTeam);
 	
 	if(gameStarted)
 	{
-		if(team == 2)
+		if(team >=2)
 		{
-			playerData[client][data_playtimestart_nf] = GetTime();
+			playerData[client][data_playtimestart] = GetTime();
+			int t = team-2;
+			if(t != playerData[client][data_rated_team])
+			{
+				int timediff = GetTime() - gameStartTime;
+				if(timediff < 300)
+				{
+					playerData[client][data_rated_team] = t;
+					playerData[client][data_rated_adjust] = 1-(timediff/300.0);
+				}
+			}
+		
+		
+			
 		}
-		else if(team == 3)
-		{
-			playerData[client][data_playtimestart_be] = GetTime();
-		}
+		
 	}
 	
 
@@ -995,51 +1182,52 @@ public Action Event_PlayerTeam(Event event, const char[] name, bool dontBroadcas
 public OnMapStart()
 {
 	AutoExecConfig(true, "empstats");
-	mapChanging = false;
 	gameStartTime = 0;
 	gameStarted = false;
-	CheckGameStarted();
+	statsAllRound = activated;
+	
+	
 	commMap = true;
 	resourceEntity = GetPlayerResourceEntity();
+	paramEntity = FindEntityByClassname(-1, "emp_info_params");
 	gameEnded = false;
 	CreateTimer(2.0,CheckCommMap);
-	HookEvent("player_spawn",FirstSpawn);
-	inactivePlayers.Clear();
+	
+	// if the game hasn't started hook the event. 
+
+	CheckGameStarted(false);
+	if(!gameStarted)
+	{
+		HookEvent("player_spawn",FirstSpawn);
+	}
+	
+	
 	CheckActivate();
 }
 public OnMapEnd()
 {
-	mapChanging = true;
-	
+	ReportAllStats(false);
 }
-public Action:FirstSpawn(Handle:event,const String:name[],bool:dontBroadcast)
+// game starts when the first player in a team spawns. 
+public Action FirstSpawn(Handle:event,const String:name[],bool:dontBroadcast)
 {
-	gameStartTime = GetTime();
-	gameStarted = true;
-	UnhookEvent("player_spawn",FirstSpawn);
-	// set starttime of all players
-	for (int i=1; i<=MaxClients; i++)
-	{
-		if(IsClientInGame(i) )
-		{
-			int team = GetClientTeam(i);
-			if(team == 2)
-			{
-				playerData[i][data_playtimestart_nf] = GetTime();
-			}
-			else if(team == 3)
-			{
-				playerData[i][data_playtimestart_be] = GetTime();
-			}
-		}
-	}
+	int client_id = GetEventInt(event, "userid");
+	int client = GetClientOfUserId(client_id);
+	int clientTeam = GetClientTeam(client);
+	if(clientTeam < 2)
+		return;
+
+	CheckGameStarted(true);
+	
 	
 }
 // in some maps the cv is spawned in after map start e.g. emp_bush
+// some funmaps have a commander so also check the map prefix.
 public Action CheckCommMap(Handle timer)
 {
-	int paramEntity = FindEntityByClassname(-1, "emp_info_params");
-	commMap = GetEntProp(paramEntity, Prop_Send, "m_bCommanderExists") == 1;
+	char mapName[128];
+	GetCurrentMap(mapName, sizeof(mapName));
+	commMap = GetEntProp(paramEntity, Prop_Send, "m_bCommanderExists") == 1 && StrContains(mapName,"emp_") == 0;
 }
 public Action Event_VehicleEnter(Event event, const char[] name, bool dontBroadcast)
 {
@@ -1054,19 +1242,7 @@ public Action Event_VehicleEnter(Event event, const char[] name, bool dontBroadc
 	}
 	return Plugin_Continue;
 }
-// most of the time doesent work
-public Action Event_VehicleExit(Event event, const char[] name, bool dontBroadcast)
-{
-	int client = GetClientOfUserId(GetEventInt(event, "userid"));
-	// this is probably less expensive than checking if its the command vehicle
-	if(playerData[client][data_commtimestart] != 0 && GetEntProp(client, Prop_Send, "m_bCommander") != 1)
-	{
-		playerData[client][data_commtimetotal] += GetTime() - playerData[client][data_commtimestart];
-		playerData[client][data_commtimestart] = 0;
-	}
-	return Plugin_Continue;
-}
-
+// exit vehicle doesent work with nfcv or with self kill, so dont use it.
 int GetClientID(char[] name,int client)
 {
 	char target_name[MAX_TARGET_LENGTH];
@@ -1101,7 +1277,7 @@ int GetCurrentUpvotes(int target)
 }
 int GetCurrentWins(int target)
 {
-	if(gameEnded && GetClientTeam(target) == teamWon)
+	if(gameEnded && playerData[target][data_win])
 	{
 		return playerData[target][stat_wins] + 1;
 	}
@@ -1112,7 +1288,7 @@ int GetCurrentWins(int target)
 }
 int GetCurrentCommWins(int target)
 {
-	if(gameEnded && commWon == target)
+	if(gameEnded && playerData[target][data_comm_win])
 	{
 		return playerData[target][stat_comm_wins] + 1;
 	}
@@ -1126,14 +1302,10 @@ int GetCurrentPlayTime(int target)
 	int time = playerData[target][stat_time_played];
 	if(!activated)
 		return time;
-	time += playerData[target][data_playtimetotal_be] + playerData[target][data_playtimetotal_nf];
-	if(playerData[target][data_playtimestart_be] > 0)
+	time += playerData[target][data_playtimetotal][BE] + playerData[target][data_playtimetotal][NF];
+	if(playerData[target][data_playtimestart] > 0)
 	{
-		time += GetTime() - playerData[target][data_playtimestart_be];
-	}
-	else if(playerData[target][data_playtimestart_nf] > 0)
-	{
-		time += GetTime() - playerData[target][data_playtimestart_nf];
+		time += GetTime() - playerData[target][data_playtimestart];
 	}
 	return time;
 }
@@ -1146,7 +1318,7 @@ int GetCurrentCommTime(int target)
 	{
 		expiredTime = GetTime() - playerData[target][data_commtimestart];
 	}
-	return playerData[target][stat_time_commanded] + playerData[target][data_commtimetotal] +  expiredTime;
+	return playerData[target][stat_time_commanded] + playerData[target][data_commtimetotal][NF] + playerData[target][data_commtimetotal][BE] +  expiredTime;
 }
 int GetCurrentScore(int target)
 {
@@ -1340,6 +1512,7 @@ bool CheckTeamBalance(int client,int currentTeam,int clientTeam)
 		int oppTeam = OppTeam(team);
 		if(clientTeam == team)
 		{
+			// if you exactly equal avgmmr, you can join both teams.
 			if(diff > margin && clientmmr > avgmmr)
 			{
 				PrintToChat(client,"\x04[Team Balance]\n\x01Team MMR difference is too high: You must join %s%s\x01",teamcolors[oppTeam],teamnames[oppTeam]);
@@ -1380,149 +1553,218 @@ bool CheckTeamBalance(int client,int currentTeam,int clientTeam)
 
 float RatingAdjust(float myChanceToWin,float myGameResult)
 {
-	// k-factor of 40, may reduce this later when the system gets a better idea of players
+	// k-factor of 40,  higher than standard. e.g. sc2 is 32
+	// less games means a higher k-factor is neccessary. 
 	return 40.0 * (myGameResult - myChanceToWin);
+}
+
+
+AdjustPlayerRating(any pData[playerdataenum],int tWon,int totalSeconds,float ratingAdjust[2])
+{
+	int ratedTeam = pData[data_rated_team];
+	
+	if(ratedTeam != -1)
+	{
+		float multiplier = 1.0;
+		// if we have played for less than 40 hours 
+		if(pData[stat_time_played] < 144000)
+		{
+			multiplier = 1.2;
+		}
+		float playratio = pData[data_playtimetotal][ratedTeam]/ float(totalSeconds);
+		if(tWon ==  ratedTeam )
+		{
+			if(playratio > 0.5)
+			{
+				//playtime over 95% is the same
+				playratio = (playratio - 0.5) * 2.1;
+				if(playratio > 1)
+				{
+					playratio = 1.0;
+				}
+				// on the winning team do a basic adjustment for the amount they played in the game
+				pData[data_ratingadjust] += pData[data_rated_adjust] * playratio * ratingAdjust[ratedTeam] * multiplier;
+			}
+		}
+		else
+		{
+			
+			// playtime over 50% is the same 
+			playratio *= 2.0;
+			if(playratio > 1)
+			{
+				playratio = 1.0;
+			}
+			// always lose 10% if leave early. 
+			float adjustment = 0.1 + 0.9 * playratio;
+			pData[data_ratingadjust] += pData[data_rated_adjust] * adjustment * ratingAdjust[ratedTeam];
+		}
+		
+		float commMultiplier = 1.0;
+		// if we have commanded less than 40 hours. 
+		if(pData[stat_time_commanded] < 144000)
+		{
+			commMultiplier = 1.2;
+		}
+		
+		playratio = pData[data_commtimetotal][ratedTeam]  / float(totalSeconds);
+		if(playratio > 0.0)
+		{
+			pData[data_comm_ratingadjust] += pData[data_rated_adjust] * playratio * ratingAdjust[ratedTeam] * commMultiplier;					
+		}
+	}
 }
 
 
 UpdateRatings()
 {
-	// using chance to win and MMRSeconds
+	// only update ratings if there are a certain number of players on the server and stats have been recorded for the entire round.
+	if(!gameStarted || (GetClientCount(false) < 16 || !statsAllRound) && !testing || teamWon < 2)
+		return;
 	
 	
 	
-	float nfplayratio;
-	float NFChanceToWin = GetNFTeamChances(nfplayratio,false);
-	float BEChanceToWin = 1- NFChanceToWin;
+	float chanceToWin[2];
+	chanceToWin[NF] = GetNFTeamChances(0);
+	chanceToWin[BE] = 1- chanceToWin[NF];
 	
 	
 	float ratingAdjust[2];
 
-	if(teamWon == 2)
-	{
-		ratingAdjust[0] = RatingAdjust(NFChanceToWin,1.0); 
-		ratingAdjust[1] = RatingAdjust(BEChanceToWin,0.0); 
-	}
-	else if(teamWon == 3)
-	{
-		ratingAdjust[0] = RatingAdjust(NFChanceToWin,0.0); 
-		ratingAdjust[1] = RatingAdjust(BEChanceToWin,1.0); 
-	}
+	int tWon = teamWon -2;
+	int tLost = OppTeamB(tWon);
 	
-	// try to keep the system more of a true zero sum game. So the winner gains as much as loser loses.
-	ratingAdjust[0] *=  2 * (1-nfplayratio);
-	ratingAdjust[1] *=  2 * nfplayratio;
+	ratingAdjust[tWon] = RatingAdjust(chanceToWin[tWon],1.0); 
+	ratingAdjust[tLost] = RatingAdjust(chanceToWin[tLost],0.0); 
+		
+	ratingAdjust[BE] += InflationAdjust;
+	ratingAdjust[NF] += InflationAdjust;
 	
-	float totalScaledSeconds = GetScaledSeconds(gameStartTime,GetTime());
+	
+
+	
+	int totalSeconds = GetTime() - gameStartTime;
+	
 	
 	for (int i=1; i<=MaxClients; i++)
 	{
 		if(IsClientInGame(i))
 		{
-			for(int j = 0;j<2;j++)
-			{
-				float scaleTime = Float:playerData[i][Get_Stat_Scaletime(j)];
-				if(scaleTime > 0.0)
-				{
-					float playratio = scaleTime/ totalScaledSeconds; 
-			
-					playerData[i][data_ratingadjust] += playratio * ratingAdjust[j];
-				}
-			}
-		
+			AdjustPlayerRating(playerData[i],tWon,totalSeconds,ratingAdjust);
 		}
 	}
+	
+	ArrayList inactive = GetInactivePlayersList();
+	
 
-
-	for(int i = 0;i<inactivePlayers.Length;i++)
+	for(int i = 0;i<inactive.Length;i++)
 	{
-		new savedata[savedataenum]; 
-		inactivePlayers.GetArray(i,savedata,savedataenum);
-		float ratingadjust = 0.0;
-
-		for(int j = 0;j<2;j++)
-		{
-			float scaleTime = Float:savedata[Get_Stat_SavedScaletime(j)];
-			if(scaleTime > 0)
-			{
-				float playratio = scaleTime/ totalScaledSeconds; 
-				ratingadjust+= playratio * ratingAdjust[j];
-			}
-		}
-		if(ratingadjust != 0.0)
-		{
-				char querystring[256];
-				Format(querystring, sizeof(querystring), "UPDATE players SET rating=rating+%.4f WHERE ID=%d",ratingadjust,savedata[saved_id]);
-				FastQuery(querystring);	
-		}
+		new saveData[playerdataenum]; 
+		inactive.GetArray(i,saveData,playerdataenum);
+		AdjustPlayerRating(saveData,tWon,totalSeconds,ratingAdjust);
+		// here we assume its by value so we reinsert the adjusted data
+		inactivePlayers.SetArray(saveData[steam_id],saveData,sizeof(saveData));
+		
+		
 	}
 	
+	delete inactive;
 	
-	inactivePlayers.Clear();
-	
-	LogToFile(logPath,"RatingAdjust[NF]:%f,RatingAdjust[BE]:%f  totalScaledSeconds:%f",ratingAdjust[0],ratingAdjust[1],totalScaledSeconds);
+	LogToFile(logPath,"RatingAdjust[NF]:%f,RatingAdjust[BE]:%f  ",ratingAdjust[0],ratingAdjust[1]);
 }
 
 
 
 // BE team chances is 1- nf team chances
-float GetNFTeamChances(float &playratio,bool immediate)
+float GetNFTeamChances(int future)
 {
 	
 	float teamMMRScaledSeconds[2] = {0.0,0.0};
 	float teamScaledSeconds[2]  = {0.0,0.0};
 	
+	int currentTime = GetTime();
+	
 	for (int i=1; i<=MaxClients; i++)
 	{
-		if(IsClientInGame(i))
+		if(IsClientInGame(i) && playerData[i][havestats])
 		{
+			int currentTeam = GetClientTeam(i) - 2;
 			for(int j = 0;j<2;j++)
 			{
-				if(!gameStarted || immediate)
+				
+				if(future > 0 && GetClientTeam(i) == j + 2)
 				{
-					if(GetClientTeam(i) == j + 2)
+					float amount = GetScaledSeconds(currentTime,currentTime + future);
+					teamMMRScaledSeconds[j] += playerData[i][stat_rating] * amount;
+					teamScaledSeconds[j] += amount;
+					
+					if(GetEntProp(i, Prop_Send, "m_bCommander") == 1)
 					{
-						teamMMRScaledSeconds[j] += playerData[i][stat_rating];
-						teamScaledSeconds[j] += 1.0;
+						teamMMRScaledSeconds[j] += playerData[i][stat_comm_rating] * amount;
+						teamScaledSeconds[j] += amount;
 					}
+					
 				}
-				else
+		
+			
+			
+				float scaledSeconds = Float:playerData[i][data_scaledtime][j] ;
+				if(playerData[i][data_playtimestart] != 0 && currentTeam == j)
 				{
-					float scaledSeconds = Float:playerData[i][Get_Stat_Scaletime(j)];
-					if(playerData[i][Get_Stat_Starttime(j)] != 0)
-					{
-						scaledSeconds += GetScaledSeconds(playerData[i][Get_Stat_Starttime(j)],GetTime());
-					}
-					teamMMRScaledSeconds[j] += playerData[i][stat_rating] * scaledSeconds;
+					scaledSeconds += GetScaledSeconds(playerData[i][data_playtimestart],currentTime);
+				}
+				teamMMRScaledSeconds[j] += playerData[i][stat_rating] * scaledSeconds;
+				teamScaledSeconds[j] += scaledSeconds;
+				
+				scaledSeconds = playerData[i][data_comm_scaledtime][j];
+				if(playerData[i][data_commtimestart] !=0 && currentTeam == j)
+				{
+					scaledSeconds+= GetScaledSeconds(playerData[i][data_commtimestart],currentTime);
+				}
+				if(scaledSeconds >0)
+				{
+					teamMMRScaledSeconds[j] += playerData[i][stat_comm_rating] * scaledSeconds;
 					teamScaledSeconds[j] += scaledSeconds;
 				}
+					
+				
 				
 			}
 		}
 	}
 	
-
-	if(!immediate)
+	ArrayList inactive = GetInactivePlayersList();
+	
+	
+	if(gameStarted)
 	{
-		for(int i = 0;i<inactivePlayers.Length;i++)
+		for(int i = 0;i<inactive.Length;i++)
 		{
-			new savedata[savedataenum]; 
-			inactivePlayers.GetArray(i,savedata,sizeof(savedata));
+			new saveData[playerdataenum]; 
+			inactive.GetArray(i,saveData,sizeof(saveData));
 			
 			for(int j = 0;j<2;j++)
 			{
-				float scaledSeconds = Float:savedata[Get_Stat_SavedScaletime(j)];
+				float scaledSeconds = saveData[data_scaledtime][j];
 				if(scaledSeconds > 0)
 				{
-					teamMMRScaledSeconds[j] += savedata[saved_rating] *  scaledSeconds;
+					teamMMRScaledSeconds[j] += saveData[stat_rating] *  scaledSeconds;
 					teamScaledSeconds[j] += scaledSeconds;
 				}	
+				
+				scaledSeconds = saveData[data_comm_scaledtime][j];
+				if(scaledSeconds >0)
+				{
+					teamMMRScaledSeconds[j] += playerData[i][stat_comm_rating] * scaledSeconds;
+					teamScaledSeconds[j] += scaledSeconds;
+				}
+				
 			}
 				
 		}
 	}
 	
-
+	delete inactive;
 	
 
 	float averagerating[2];
@@ -1546,8 +1788,7 @@ float GetNFTeamChances(float &playratio,bool immediate)
 		float multiplier =  0.7 +  0.6 * playratios[i];
 		averagerating[i] = multiplier * teamMMRScaledSeconds[i] / teamScaledSeconds[i];
 	}
-	playratio = playratios[0];
-	
+
 	float winChance = ChanceToWin(averagerating[0],averagerating[1]);
 	
 	LogToFile(logPath,"MMRSS[NF]:%f,MMRSS[BE]:%f  SS[NF]:%f,SS[BE]:%f  averageMMR[NF]:%f averageMMR[BE]:%f  playratio[NF]:%f playratio[BE]:%f  NFWinChance:%f ",teamMMRScaledSeconds[0],teamMMRScaledSeconds[1],teamScaledSeconds[0],teamScaledSeconds[1],averagerating[0],averagerating[1],playratios[0],playratios[1],winChance);
@@ -1564,81 +1805,105 @@ float GetScaledSeconds(int startTime,int endTime)
 {
 	float total = 0.0;
 	float multiplier = 0.1;
-	int diff = endTime - startTime;
+	
+	
 	if(!gameStarted)
-		return multiplier * float(diff);
+		return multiplier * float(endTime - startTime);
 	
 	
 	int currentTime = gameStartTime;
-	// between 0.1 at 0:00 and 0.3 at 1:40
-	for(int i= 0;i<100;i++)
+	// between 0.1 at 0:00 and 0.2 at 0:20
+	while(multiplier < 1.0)
 	{
 		if(currentTime > startTime)
 		{
 			int affectedTime = currentTime - startTime;
 			total += multiplier * float(affectedTime);
-			
-
-			if(startTime == endTime)
-				break;
-			
 			startTime = currentTime;
-			
 		}
 		
+		
+		if(currentTime >= endTime)
+			break;
 		currentTime +=60;
 		if(currentTime > endTime)
 			currentTime = endTime;
-		multiplier +=0.002;
+		multiplier = multiplier * 1.01 + 0.003;
+		
 		
 	}
+	// if the game is long use the last multiplier for the remaining part.
 	if(startTime <endTime)
 	{
 		total += multiplier * (endTime - startTime);
 	}
-
-	
 	return total;
+}
+
+int GetStatID(char[] name)
+{
+	if(StrEqual(name,"rating"))
+	{
+		return stat_rating;
+	}
+	else if(StrEqual(name,"comm_rating"))
+	{
+		return stat_comm_rating;
+	}
+	return -1;
+}
+
+
+public int Native_GetStats(Handle plugin, int numParams)
+{
+	char buffer[256];
+	GetNativeString(1, buffer, sizeof(buffer));
+	int statID = GetStatID(buffer);
+	if(statID == -1)
+		return;
+	new stats[MAXPLAYERS+1];
+	for (int i=1; i<=MaxClients; i++)
+	{
+		if(IsClientInGame(i) && playerData[i][havestats])
+		{
+			stats[i] = playerData[i][statID];
+		}
+		else
+		{
+			stats[i] = 0;
+		}
+	}
+	SetNativeArray(2, stats, sizeof(stats));
 	
-	
 }
-
-
-
-
-int Get_Stat_Scaletime(int team)
+public int Native_GetStat(Handle plugin, int numParams)
 {
-	if(team == 0)
-	{
-		return data_scaledtime_nf;
-	}
-	else
-	{
-		return data_scaledtime_be;
-	}
+	char buffer[256];
+	int player = GetNativeCell(1);
+	GetNativeString(2, buffer, sizeof(buffer));
+	int statID = GetStatID(buffer);
+	if(statID == -1 || !playerData[player][havestats])
+		return 0;
+	return playerData[player][statID];
 }
-int Get_Stat_SavedScaletime(int team)
+
+// simpler than using the snapshot. 
+ArrayList GetInactivePlayersList()
 {
-	if(team == 0)
+	ArrayList array = new ArrayList(playerdataenum);
+	StringMapSnapshot snapshot = inactivePlayers.Snapshot();
+	any saveData[playerdataenum];
+	char keybuffer[20];
+	for(int i = 0;i<snapshot.Length;i++)
 	{
-		return saved_scaledtime_nf;
+		snapshot.GetKey(i, keybuffer, sizeof(keybuffer));
+		inactivePlayers.GetArray(keybuffer,saveData,sizeof(saveData));
+		array.PushArray(saveData,sizeof(saveData));
 	}
-	else
-	{
-		return saved_scaledtime_be;
-	}
+	delete snapshot;
+	return array;
 }
-int Get_Stat_Starttime(int team)
-{
-	if(team == 0)
-	{
-		return data_playtimestart_nf;
-	}
-	else
-	{
-		return data_playtimestart_be;
-	}
-}
+
 
 
 int OppTeam(int team)

@@ -5,8 +5,10 @@
 #include <sdkhooks>
 #include <votetime>
 #include <squadcontrol>
+#undef REQUIRE_PLUGIN
+#include <empstats>
 
-#define PluginVersion "v0.1" 
+#define PluginVersion "v0.42" 
  
 public Plugin myinfo =
 {
@@ -20,9 +22,14 @@ public Plugin myinfo =
 #define STAGE_DISABLED 0
 #define STAGE_CAPTAINVOTE 1
 #define STAGE_PICKWAIT 2
-#define STAGE_PICK 3
+#define STAGE_PICK 3  
 #define STAGE_GAME 4
 #define STAGE_AUTOPICKWAIT 5
+
+#define MODE_DRAFT 1
+#define MODE_SQUADDRAFT 2
+#define MODE_AUTODRAFT 3
+#define MODE_AUTOSQUADDRAFT 4
 
 
 int stage = STAGE_DISABLED;
@@ -32,7 +39,12 @@ int stage = STAGE_DISABLED;
 #define TEAM_BE 1;
 
 
-ConVar cv_autobalance,cv_autoassign,dp_captain_vote_time,dp_pick_wait_time,dp_pick_initial_multiplier,dp_time_increment,dp_in_draft;
+ConVar cv_autobalance,cv_autoassign,cv_allowspectators,dp_draft,dp_captain_vote_time,dp_pick_wait_time,dp_pick_initial_multiplier,dp_time_increment,dp_in_draft,dp_maxpick;
+
+//sound convars
+ConVar dp_music,dp_wait_music,dp_wait_music_repeat,dp_pick_music,dp_pick_music_repeat,dp_pick_end_sound,dp_join_music,dp_your_turn_sound,dp_opp_turn_sound;
+
+char sound_wait_music[128],sound_pick_music[128],sound_pick_end[128],sound_join_music[128],sound_opp_turn[128],sound_your_turn[128];
 
 // stores the clientids of the captains. 
 int captains[2];
@@ -75,7 +87,7 @@ int paramEntity;
 
 bool pluginEnded;
 
-bool readyToJoin [MAXPLAYERS+1] = {false, ...};
+int joinTime [MAXPLAYERS+1] = {-1, ...};
 int identities[MAXPLAYERS+1] = {0, ...};
 int squads[MAXPLAYERS+1] = {0,...};
 
@@ -85,102 +97,114 @@ new String:autoPickPath[128];
 bool squadMode = false;
 bool squadIdentities = false;
 
+bool autoPickingAll = false;
+
+new Float:TeleportPosition[3] = {-16300.0,-16300.0,16300.0};
+
+bool bCurrentMusic = false;
+char currentMusic[128];
+float currentMusicStart;
+Handle currentMusicTimer =INVALID_HANDLE;
+
+bool soundsPrecached = false;
+
+int draftMode = 0;
+bool modeContinuous= false;
+
+bool savedTeams;
+
 public void OnPluginStart()
 {
 	pluginEnded = false;
+	
+	HookEvent("game_end",Event_Game_End);
+	
 	// lock down spectators and unassigned.
-	RegAdminCmd("sm_draft", Command_Enable, ADMFLAG_SLAY);
+	RegAdminCmd("sm_draft", Command_Draft, ADMFLAG_SLAY);
 	RegAdminCmd("sm_setcaptain", Command_SetCaptain, ADMFLAG_SLAY);
 	RegAdminCmd("sm_removecaptain", Command_RemoveCaptain, ADMFLAG_SLAY);
 	RegConsoleCmd("sm_leavecaptain", Command_LeaveCaptain);
-	RegAdminCmd("sm_setdraftteam", Command_SetDraftTeam, ADMFLAG_SLAY);
+	RegAdminCmd("sm_setteam", Command_SetTeam, ADMFLAG_SLAY);
 	RegAdminCmd("sm_reloadteams", Command_ReloadTeams, ADMFLAG_SLAY);
 	RegAdminCmd("sm_swapteams", Command_SwapTeams, ADMFLAG_SLAY);
 	RegAdminCmd("sm_loadteams", Command_LoadTeams, ADMFLAG_SLAY);
 	RegAdminCmd("sm_saveteams", Command_SaveTeams, ADMFLAG_SLAY);
 	RegAdminCmd("sm_autopick", Command_AutoPick, ADMFLAG_SLAY);
+	RegAdminCmd("sm_squaddraft", Command_SquadDraft, ADMFLAG_SLAY);
+	RegAdminCmd("sm_autodraft", Command_AutoDraft, ADMFLAG_SLAY);
+	RegAdminCmd("sm_autosquaddraft", Command_AutoSquadDraft, ADMFLAG_SLAY);
 	RegAdminCmd("sm_squadmode", Command_SquadMode, ADMFLAG_SLAY);
 	RegAdminCmd("sm_restartdraft", Command_RestartDraft, ADMFLAG_SLAY);
 	RegConsoleCmd("sm_pick", Command_Pick);
 	cv_autobalance = FindConVar("mp_autoteambalance");
 	cv_autoassign = FindConVar("emp_sv_forceautoassign");
+	cv_allowspectators = FindConVar("emp_allowspectators");
 	
 	AddCommandListener(Command_Plugin_Version, "dp_version");
 	
+	dp_draft = CreateConVar("dp_draft", "0", "The draft mode");
 	dp_captain_vote_time = CreateConVar("dp_captain_vote_time", "100", "The time set in the captain vote stage");
 	dp_pick_wait_time = CreateConVar("dp_pick_wait_time", "50", "The time set in the pick wait stage");
 	dp_pick_initial_multiplier = CreateConVar("dp_pick_initial_multiplier", "2", "Amount of initial time given to each captain per player");
 	dp_time_increment = CreateConVar("dp_time_increment", "3", "The time increment given to each captain per player in the pick phase");
 	dp_in_draft = CreateConVar("dp_in_draft", "0", "Notification of drafting. ignore");
+	dp_maxpick  = CreateConVar("dp_maxpick", "40", "maximum number of picks before autopick");
+	
+	dp_music  = CreateConVar("dp_music", "1", "If music is enabled");
+	dp_music.AddChangeHook(dp_music_changed);
+	dp_wait_music = CreateConVar("dp_wait_music",  "draftpick/draft_wait.mp3","");
+	dp_wait_music_repeat = CreateConVar("dp_wait_music_repeat", "95","");
+	dp_pick_music = CreateConVar("dp_pick_music",  "draftpick/draft_pick.mp3","");
+	dp_pick_music_repeat = CreateConVar("dp_pick_music_repeat", "55","");
+	dp_pick_end_sound = CreateConVar("dp_pick_end_sound", "draftpick/draft_complete.mp3","");
+	dp_join_music = CreateConVar("dp_join_music", "", "");
+	dp_your_turn_sound = CreateConVar("dp_your_turn_sound", "draftpick/your_turn.wav", "");
+	dp_opp_turn_sound = CreateConVar("dp_opp_turn_sound", "draftpick/opponent_turn.wav", "");
+	
+	
+	
 	// create the directory for the teams
 	CreateDirectory("addons/sourcemod/data/draftpick/teams",3);
 	CreateDirectory("addons/sourcemod/data/draftpick/autopick",3);	
+	
+	teams[0] = new ArrayList();
+	teams[1] = new ArrayList();
+	teamSIDs[0] = new ArrayList();
+	teamSIDs[1] = new ArrayList();
 }
 public void OnPluginEnd()
 {
 	pluginEnded = true;
 	ChangeStage(STAGE_DISABLED);
 }
-public Action Command_Enable(int client, int args)
+public void dp_music_changed(ConVar convar, char[] oldValue, char[] newValue)
 {
+	if(StrEqual(newValue,"1",true))
+	{
+		if(stage == STAGE_PICKWAIT)
+		{
+			PlayMusic(sound_wait_music,dp_wait_music_repeat.FloatValue);
+		}
+		else if(stage == STAGE_PICK)
+		{
+			PlayMusic(sound_pick_music,dp_pick_music_repeat.FloatValue);
+		}
+	}
+	else if(StrEqual(oldValue,"1",true))
+	{
+		StopMusic();
+	}
+}
 
-	char arg[32];
-	// the current vote time that we want. 
-	if(!GetCmdArg(1, arg, sizeof(arg)))
-	{
-		return Plugin_Handled;
-	}
-	
-	if(strcmp(arg, "1" ,true) == 0 )
-	{
-		if(!enabled)
-		{
-			SetUpDraft();
-		}
-		else
-		{
-			PrintToChat(client,"Draft already enabled");
-		}
-	}
-	else
-	{
-		if(enabled)
-		{
-			ChangeStage(STAGE_DISABLED);
-		}
-		else
-		{
-			PrintToChat(client,"Draft is not enabled");
-		}
-		
-	}
-	return Plugin_Handled;
-}
-public Action Command_ReloadTeams(int client, int args)
-{
-	if(!enabled)
-	{ 
-		PrintToChat(client,"\x04[DP] \x01Draft mode not enabled");
-		return Plugin_Handled;
-	}
-	if(draftBegun)
-	{
-		PrintToChat(client,"\x04[DP] \x01You cannot reload teams because a new draft has already begun.");
-		return Plugin_Handled;
-	}
-	if(teams[0] != INVALID_HANDLE)
-	{
-		draftBegun = true;
-		RefreshClientIDs();
-		ChangeStage(STAGE_GAME);
-	}
-	return Plugin_Handled;
-}
+
+
+
+
 public Action Command_SwapTeams(int client, int args)
 {
-	if(!enabled)
-	{ 
-		PrintToChat(client,"\x04[DP] \x01Draft mode not enabled");
+	if(HasGameStarted())
+	{
+		PrintToChat(client,"\x04[DP] \x01Game has already started. ");
 		return Plugin_Handled;
 	}
 	if(stage == STAGE_PICK)
@@ -188,6 +212,50 @@ public Action Command_SwapTeams(int client, int args)
 		PrintToChat(client,"\x04[DP] \x01You can't swap teams during the pick stage.");
 		return Plugin_Handled;
 	}
+	
+	if(!enabled || stage == STAGE_GAME)
+	{
+		
+		if(cv_autobalance.IntValue == 1)
+		{
+			CreateTimer(0.1, correctAutobalance);
+			cv_autobalance.IntValue = 0;
+		}	
+		for (int i=1; i<=MaxClients; i++)
+		{
+			if(IsClientInGame(i))
+			{
+				int team = GetClientTeam(i);
+				if(team == 2)
+				{
+					ForceTeam(i,3);
+				}
+				else if(team == 3)
+				{
+					ForceTeam(i,2);
+				}
+			}
+		}
+	}
+	else
+	{
+		// make sure everyones name is currect
+		for (int i=1; i<=MaxClients; i++)
+		{
+			if(IsClientInGame(i))
+			{
+				AdjustPrefix(i);
+			}
+		}
+	}
+	
+	if(!enabled)
+		return Plugin_Handled;
+	
+	
+	
+	
+	
 	int tempint = teamTime[0];
 	teamTime[0] = teamTime[1];
 	teamTime[1] = tempint;
@@ -205,37 +273,7 @@ public Action Command_SwapTeams(int client, int args)
 	teamSIDs[0] = teamSIDs[1];
 	teamSIDs[1] = templist;
 	
-	if(stage == STAGE_GAME)
-	{
-		cv_autobalance.IntValue = 0;
-		for (int i=1; i<=MaxClients; i++)
-		{
-			if(IsClientInGame(i))
-			{
-				int team = GetClientTeam(i);
-				if(team == 2)
-				{
-					ForceTeam(i,3);
-				}
-				else if(team == 3)
-				{
-					ForceTeam(i,2);
-				}
-			}
-		}
-		CreateTimer(0.1, correctAutobalance);
-	}
-	else
-	{
-		// make sure everyones name is currect
-		for (int i=1; i<=MaxClients; i++)
-		{
-			if(IsClientInGame(i))
-			{
-				AdjustPrefix(i);
-			}
-		}
-	}
+	
 	
 	return Plugin_Handled;
 }
@@ -250,7 +288,7 @@ public Action Command_RestartDraft(int client, int args)
 	{
 		if(!HasGameStarted())
 		{
-			SetUpDraft();
+			SetUpDraft(draftMode);
 		}
 	}
 	else
@@ -258,24 +296,15 @@ public Action Command_RestartDraft(int client, int args)
 		// end the current draft and set up a new one. 
 		draftBegun = false;
 		DraftEnded();
-		SetUpDraft();
+		SetUpDraft(draftMode);
 	}
 	
 	return Plugin_Handled;
 }
 
-public Action Command_SetDraftTeam(int client, int args)
+public Action Command_SetTeam(int client, int args)
 {
-	if(!enabled)
-	{
-		PrintToChat(client,"\x04[DP] \x01Draft mode not enabled");
-		return Plugin_Handled;
-	}
-	if(!draftBegun)
-	{
-		PrintToChat(client,"\x04[DP] \x01Draft has not begun");
-		return Plugin_Handled;
-	}
+	
 	char arg[65];
 	GetCmdArg(1, arg, sizeof(arg));
 	int target = GetClientID(arg,client);
@@ -285,18 +314,39 @@ public Action Command_SetDraftTeam(int client, int args)
 	char arg2[65];
 	GetCmdArg(2, arg2, sizeof(arg2));
 	
-	if(strcmp(arg2, "0" ,false ) == 0)
+	
+	if(!enabled)
 	{
-		RemoveFromTeam(target);
+		if(strcmp(arg2, "spec" ,false ) == 0)
+		{
+			ForceSwitchTeam(client,1);
+		}
+		else if(strcmp(arg2, teamnames[0] ,false ) == 0)
+		{
+			ForceSwitchTeam(client,2);
+		}
+		else if(strcmp(arg2, teamnames[1] ,false ) == 0)
+		{
+			ForceSwitchTeam(client,3);
+		}
 	}
-	else if(strcmp(arg2, teamnames[0] ,false ) == 0)
+	else
 	{
-		AddToTeam(target,0);
+		if(strcmp(arg2, "0" ,false ) == 0)
+		{
+			RemoveFromTeam(target);
+		}
+		else if(strcmp(arg2, teamnames[0] ,false ) == 0)
+		{
+			AddToTeam(target,0);
+		}
+		else if(strcmp(arg2, teamnames[1] ,false ) == 0)
+		{
+			AddToTeam(target,1);
+		}
+	
 	}
-	else if(strcmp(arg2, teamnames[1] ,false ) == 0)
-	{
-		AddToTeam(target,1);
-	}
+	
 	return Plugin_Handled;
 }
 
@@ -329,6 +379,12 @@ public Action Command_Join_Team(int client, const String:command[], args)
 	
 	// during the pick phase make sure they are only allowed in nf
 	
+	// dont let player join any if they are joining a team. 
+	if(joinTime[client] > 0)
+	{
+		PrintToChat(client,"\x04[DP] \x01Please wait to join a team.");
+		return Plugin_Handled;
+	}
 	
 	// prevent players joining after the draft has begun, if they are not already in nf. 
 	if(draftBegun && gameTeam == -1 && team >=2 && oldTeam != 2)
@@ -345,24 +401,36 @@ public Action Command_Join_Team(int client, const String:command[], args)
 		}
 		else
 		{
-			if(readyToJoin[client] && team == 4)
+			if(joinTime[client] == 0)
 			{
-				readyToJoin[client] = false;
-				// we can now autoassign. 
+				joinTime[client] = -1;
 				return Plugin_Continue;
 			}
 			else
 			{
-				CreateTimer(10.0, Timer_AutoAssign,client);
-				PrintToChat(client,"\x04[DP] \x01You missed the draft. You will be automatically drafted into a random team in \x073399ff10\x01 seconds. Please Wait." );
+				StartJoin(client,10);
+				PrintToChat(client,"\x04[DP] \x01You missed the draft. You will be automatically drafted into a random team in \x073399ff%d\x01 seconds. Please Wait.",joinTime[client] );
 				return Plugin_Handled;
 			}
-		
-		
+			
 			
 		}
 	}
-	else if(stage == STAGE_CAPTAINVOTE || stage == STAGE_PICKWAIT || stage == STAGE_PICK)
+	if(stage == STAGE_GAME && gameTeam != -1 && team >= 2  && GetTime() > unlockTime)
+	{
+		if(joinTime[client] == 0)
+		{
+			joinTime[client] = -1;
+		}
+		else if(oldTeam == 1 && HasGameStarted()) // only apply to spectators when the game has started
+		{
+			StartJoin(client,10);
+			PrintToChat(client,"\x04[DP] \x01Anti Ghost: You will rejoin your team in %d seconds. Please Wait.",joinTime[client] );
+			return Plugin_Handled;
+		}
+			
+	}
+	if(stage == STAGE_CAPTAINVOTE || stage == STAGE_PICKWAIT || stage == STAGE_PICK || stage == STAGE_AUTOPICKWAIT)
 	{
 		// brenodi or autoassign. 
 		if(team >= 3)
@@ -389,25 +457,71 @@ public Action Command_Join_Team(int client, const String:command[], args)
 			PrintToChat(client,"\x04[DP] \x01You were drafted into %s%s\x01 so you must stay on that team.",teamcolors[gameTeam],teamnames[gameTeam]);
 			return Plugin_Handled;
 		}
+		//joining the correct team.
+		if(team >= 2 && gameTeam == team-2) 
+		{
+			int numPlayers[2];
+			numPlayers[0] = GetTeamClientCount(2);
+			numPlayers[1] = GetTeamClientCount(3);
+			
+			int t = team-2;
+			if(t < 2 && numPlayers[t] > numPlayers[OppTeam(t)])
+			{
+				PrintToChat(client,"\x04[DP] \x01Can't rejoin team,numbers not balanced. ",teamcolors[gameTeam],teamnames[gameTeam]);
+				return Plugin_Handled;
+			}
+		}
 	}
 	
 	
 	return Plugin_Continue;
 	
 }
-
-
-public Action Timer_AutoAssign(Handle timer,client)
+void StartJoin(int client,int time)
 {
-	int index;
-	// force them into the correct team
-	int	gameTeam = GetTeam(client,index);
-	if(IsClientInGame(client) && GetClientTeam(client) <= 1 && gameTeam == -1)
+	
+	joinTime[client] = time;
+	// move the player to unassigned
+	ChangeClientTeam(client,0);
+	if(HasGameStarted())
 	{
-		// force the client to autoassign
-		readyToJoin[client] = true;
-		ForceTeam(client,4);
+		TeleportEntity(client, TeleportPosition, NULL_VECTOR, NULL_VECTOR);
 	}
+	CreateTimer(1.0, Timer_Join,client,TIMER_REPEAT);
+}
+
+public Action Timer_Join(Handle timer,client)
+{
+	if(!IsClientInGame(client))
+	{
+		KillTimer(timer);
+		return;
+	}
+	joinTime[client] --;
+	PrintCenterText(client,"Joining team in %d..",joinTime[client]);
+	if(joinTime[client] == 0)
+	{
+		KillTimer(timer);
+		
+		if( GetClientTeam(client) <= 1 )
+		{
+			int index;
+			int	gameTeam = GetTeam(client,index);
+			if(gameTeam == -1)
+			{
+				// force the client to autoassign
+				ForceTeam(client,4);
+			}
+			else 
+			{
+				ForceTeam(client,gameTeam + 2);
+			}
+			
+		}
+	}
+
+
+	
 }
 
 
@@ -513,17 +627,21 @@ bool AreCaptainsFull()
 BeginNewDraft()
 {
 	draftBegun = true;
-	delete teams[0];
-	delete teams[1];
-	delete teamSIDs[0];
-	delete teamSIDs[1];
-	teams[0] = new ArrayList();
-	teams[1] = new ArrayList();
-	teamSIDs[0] = new ArrayList();
-	teamSIDs[1] = new ArrayList();
 	if(squadMode)
 		SquadModeSetup();	
 }
+ClearDraft()
+{
+	captains[0] = 0;
+	captains[1] = 0;
+	captainWasDrafted[0] = false;
+	captainWasDrafted[1] = false;
+	teams[0].Clear();
+	teams[1].Clear();
+	teamSIDs[0].Clear();
+	teamSIDs[1].Clear();
+}
+
 public Action Command_SetCaptain(int client, int args)
 {
 	char arg[32];
@@ -661,19 +779,31 @@ void RemoveCaptain(int client,int origin)
 	}
 }
 
-int GetPicksLeft()
+int GetPicksLeft(int team)
 {
 	// must pick until  we have 1 more player than opposite team
 	// this accounts for players becoming captains etc. 
-	int teamnum = teams[teamToPick].Length;
-	int oppTeamNum = teams[OppTeam(teamToPick)].Length;
-	return oppTeamNum - teamnum + 1;
+	int teamnum = teams[team].Length;
+	int oppTeamNum = teams[OppTeam(team)].Length;
+	
+	int numPicks = oppTeamNum - teamnum + 1;
+	
+	// if we go over max picks limit to max. 
+	if(teamnum + numPicks > dp_maxpick.IntValue)
+	{
+		return dp_maxpick.IntValue - teamnum;
+	}
+	else
+	{
+		return numPicks;
+	}
+	
 }
 
 void BeginPick()
 {
 	
-	picksLeft = GetPicksLeft();
+	picksLeft = GetPicksLeft(teamToPick);
 	// add on time at the start for how many picks they need to make. 
 	teamTime[teamToPick] +=  dp_time_increment.IntValue * picksLeft;
 	pickStartTime = GetTime();
@@ -687,45 +817,33 @@ void BeginPick()
 	VT_SetVoteTime(teamTime[teamToPick]);
 	OptOutAll();
 	OptInCandidates();
+	
+	
+	
 	if(captains[teamToPick] > 0)
-		EmitSoundToClient(captains[teamToPick],"draftpick/your_turn.wav");
+		EmitSoundToClient(captains[teamToPick],sound_your_turn);
 	if(captains[OppTeam(teamToPick)] > 0)	
-		EmitSoundToClient(captains[OppTeam(teamToPick)],"draftpick/opponent_turn.wav");
+		EmitSoundToClient(captains[OppTeam(teamToPick)],sound_opp_turn);
 }
 
-// pick players via the autopick file or randomly. 
-void AutoPickPlayers(int numPlayers,KeyValues kv)
+// pick players via the autopick list or randomly.
+void AutoPickPlayers(int numPlayers,ArrayList pickList)
 {
 	int pickedPlayers = 0;
 	
-	char buffer[255];
-	
-	if(kv != null)
+	for(int i = 0;i<pickList.Length;i++)
 	{
-		kv.GotoFirstSubKey(false);
-		do
+		int client = pickList.Get(i);
+		int index;
+		int team = GetTeam(client,index);
+		if(team == -1)
 		{
-			kv.GotoFirstSubKey(false);
-			kv.GetSectionName(buffer, sizeof(buffer));
-			int steamid = StringToInt(buffer);
-			int client = GetClientOfSteamID(steamid);
-			if(client != -1 && IsClientInGame(client) && GetClientTeam(client) == 2)
-			{
-				int index;
-				int team = GetTeam(client,index);
-				if(team == -1)
-				{
-					Pick(0,client);
-					pickedPlayers ++;
-					if(pickedPlayers == numPlayers)
-						return;
-				}
-			}
-			
-		} while (kv.GotoNextKey(false));
-		kv.Rewind();
+			Pick(0,client);
+			pickedPlayers ++;
+			if(pickedPlayers == numPlayers)
+				return;
+		}
 	}
-	
 	
 	
 	for (int i=1; i<=MaxClients; i++)
@@ -746,6 +864,8 @@ void AutoPickPlayers(int numPlayers,KeyValues kv)
 		}
 	}
 	
+	delete pickList;
+	
 	
 }
 
@@ -753,17 +873,11 @@ void AutoPickPlayers(int numPlayers,KeyValues kv)
 // automatically pick remaining players
 void AutoPick()
 {
+
 	// add 5 seconds to the teams time for compensation. 
 	teamTime[teamToPick] += 5;
 	
-	KeyValues kv = new KeyValues("Players");
-	if(!kv.ImportFromFile("addons/sourcemod/data/draftpick/autopick/default.txt"))
-	{
-		delete kv;
-		kv = null;
-	}
-	AutoPickPlayers(picksLeft,kv);
-	delete kv;
+	AutoPickPlayers(picksLeft,GetAutoPickList());
 }
 void Pick(int client,int target)
 {
@@ -818,6 +932,19 @@ void Pick(int client,int target)
 	
 	// make sure we check if there are any players left
 	CheckPickPlayers();
+	
+	CheckMaxPick();
+}
+
+void CheckMaxPick()
+{
+	if(stage != STAGE_PICK)
+		return;
+	int maxpicks = dp_maxpick.IntValue;
+	if(teams[0].Length >= maxpicks && teams[1].Length >= maxpicks)
+	{
+		AutoPickAll();
+	}
 }
 
 void CheckPickPlayers()
@@ -835,6 +962,7 @@ void CheckPickPlayers()
 			}
 		}
 	}
+	
 	if(playersLeft == 0)
 	{
 		ChangeStage(STAGE_GAME);
@@ -875,23 +1003,13 @@ void OptOutAll()
 		}
 	}
 }
-void OptInAll()
-{
-	for (int i=1; i<=MaxClients; i++)
-	{
-		if(IsClientInGame(i) && GetClientTeam(i) == 2)
-		{
-			FakeClientCommand(i,"emp_commander_vote_add_in");
-		}
-	}
-}
 
 
 
 // player should be guarenteed to be in game and authorized 
 public OnClientPostAdminCheck(int client)
 {
-	if(enabled && draftBegun)
+	if(enabled)
 	{
 		int steamid = GetSteamAccountID(client,true);
 		int index;
@@ -912,10 +1030,11 @@ public OnClientPostAdminCheck(int client)
 			
 		}
 	}
+	AddToMusic(client);
 }
 public Action SwitchToCorrectTeam(Handle timer, int client)
 {
-	if(!IsClientInGame(client))
+	if(!IsClientInGame(client) || IsFakeClient(client))
 		return;
 	int steamid = GetSteamAccountID(client,true);	
 	int index;
@@ -934,14 +1053,14 @@ public OnClientDisconnect(int client)
 	{
 		int index;
 		int team = GetTeam(client,index);
-		if(team != -1 && draftBegun)
+		if(team != -1 )
 		{
 			// set the clientid to 0 for that member
 			teams[team].Set(index,0);
 		}
 		if(stage == STAGE_PICK || stage == STAGE_PICKWAIT)
 		{
-			if(draftBegun)
+			if(stage == STAGE_PICK)
 				CheckPickPlayers();
 			int captained = TeamCaptained(client);
 			// a player cannot be captain if they left the server
@@ -954,7 +1073,7 @@ public OnClientDisconnect(int client)
 	}
 	squads[client] = 0;
 	identities[client] = 0;
-	readyToJoin[client] = false;
+	joinTime[client] = -1;
 	
 }
 
@@ -987,8 +1106,25 @@ public Event_CommVoteTime(Handle:event, const char[] name, bool dontBroadcast)
 	
 	
 }
-void SetUpDraft()
+
+
+void SetUpDraft(mode)
 {
+	squadMode = false;
+	int startStage = STAGE_CAPTAINVOTE;
+	if(mode == MODE_SQUADDRAFT)
+	{
+		squadMode = true;
+	}
+	else if(mode == MODE_AUTODRAFT || mode == MODE_AUTOSQUADDRAFT)
+	{
+		if(mode == MODE_AUTOSQUADDRAFT)
+		{
+			squadMode = true;
+		}
+		startStage = STAGE_AUTOPICKWAIT;
+	}
+	draftMode = mode;
 	// votetime may not have been called
 	if(!HasGameStarted())
 	{
@@ -1004,20 +1140,15 @@ void SetUpDraft()
 		
 		// disable ncev until we can start the game. 
 		
-		
-		cv_autobalance.IntValue = 0;
 		draftBegun = false;
-		captains[0] = 0;
-		captains[1] = 0;
-		captainWasDrafted[0] = false;
-		captainWasDrafted[1] = false;
+		ClearDraft();
+		cv_autobalance.IntValue = 0;
 		pickStartTime = 0;
 		unlockTime = 0;
-		ChangeStage(STAGE_CAPTAINVOTE);
+		ChangeStage(startStage);
 		int resourceEntity = GetPlayerResourceEntity();
 		SDKHook(resourceEntity, SDKHook_ThinkPost, Hook_OnThinkPost);
 
-		
 		// set a timer to disable because race conditions and it enables itself at map start. 
 		CreateTimer(1.0, DisableNCEV);
 	}
@@ -1026,7 +1157,7 @@ void SetUpDraft()
 
 public Action DisableNCEV(Handle timer)
 {
-	if(stage == STAGE_CAPTAINVOTE)
+	if(stage != STAGE_GAME)
 		ServerCommand("nc_ncd");
 }
 
@@ -1071,6 +1202,10 @@ public Action correctAutobalance(Handle timer)
 	if(stage == STAGE_GAME || stage == STAGE_DISABLED)
 		cv_autobalance.IntValue = 1;
 }
+public Action correctSpec(Handle timer)
+{
+	cv_allowspectators.IntValue = 0;
+}
 
 
 bool HasGameStarted()
@@ -1080,18 +1215,70 @@ bool HasGameStarted()
 
 public OnConfigsExecuted()
 {
-	if(enabled)
+	if(modeContinuous)
 	{
-		SetUpDraft();
+		SetUpDraft(draftMode);
+	}
+	else if(dp_draft.IntValue > 0)
+	{
+		SetUpDraft(dp_draft.IntValue);
+	}
+	dp_opp_turn_sound.GetString(sound_opp_turn,128);
+	dp_your_turn_sound.GetString(sound_your_turn,128);
+	dp_pick_end_sound.GetString(sound_pick_end,128);
+	dp_pick_music.GetString(sound_pick_music,128);
+	dp_wait_music.GetString(sound_wait_music,128);
+	dp_join_music.GetString(sound_join_music,128);
+	AddDownloadSounds();
+	soundsPrecached = false;
+	if(enabled)
+		PrecacheSounds();
+}
+void AddSoundToDownload(char[] sound)
+{
+	if(StrEqual(sound,"",true))
+		return;
+	char downloadbuffer[128];
+	Format(downloadbuffer,sizeof(downloadbuffer),"sound/%s",sound);
+	AddFileToDownloadsTable(downloadbuffer);
+}
+AddDownloadSounds()
+{
+	AddSoundToDownload(sound_opp_turn);
+	AddSoundToDownload(sound_your_turn);
+	AddSoundToDownload(sound_pick_end);
+	AddSoundToDownload(sound_pick_music);
+	AddSoundToDownload(sound_wait_music);
+	AddSoundToDownload(sound_join_music);
+}
+SoundPrecache(char[] sound)
+{
+	if(!StrEqual(sound,"",true))
+	{
+		PrecacheSound(sound);
 	}
 }
+// force client to cache the sounds should only be used once enabled to lower client load
+PrecacheSounds()
+{
+	if(!soundsPrecached)
+	{
+		SoundPrecache(sound_opp_turn);
+		SoundPrecache(sound_your_turn);
+		SoundPrecache(sound_pick_end);
+		SoundPrecache(sound_pick_music);
+		SoundPrecache(sound_wait_music);
+		SoundPrecache(sound_join_music);
+		soundsPrecached = true;
+	}
+}
+
 public OnMapStart()
 {
-	AddFileToDownloadsTable("sound/draftpick/your_turn.wav");
-	AddFileToDownloadsTable("sound/draftpick/opponent_turn.wav");
-	PrecacheSound("draftpick/your_turn.wav");
-	PrecacheSound("draftpick/opponent_turn.wav");
-	
+	AutoExecConfig(true, "draftpick");
+	draftBegun = false;
+	draftMode = 0;
+	savedTeams = false;
 	paramEntity = FindEntityByClassname(-1, "emp_info_params");
 
 }
@@ -1306,13 +1493,17 @@ void AddToTeam(int client,int team)
 	}
 	else
 	{
+		
+			
 		int clientTeam = GetClientTeam(client);
 		if(clientTeam != team +2)
 		{
-			ForceTeam(client,team+2);
+			ForceSwitchTeam(client,team+2);
 		}
 	}
 }
+
+
 int RemoveFromTeam(int client)
 {
 	int index;
@@ -1330,8 +1521,6 @@ int RemoveFromTeam(int client)
 }
 int GetTeam(int client, int &index)
 {
-	if(!draftBegun)
-		return -1;
 	index = teams[0].FindValue(client);
 	if(index != -1)
 	{
@@ -1346,8 +1535,6 @@ int GetTeam(int client, int &index)
 }
 int GetTeamBySteamId(int steamid,int &index)
 {
-	if(!draftBegun)
-		return -1;
 	index = teamSIDs[0].FindValue(steamid);
 	if(index != -1)
 	{
@@ -1360,6 +1547,7 @@ int GetTeamBySteamId(int steamid,int &index)
 	}
 	return -1;
 }
+
 
 int TeamCaptained(int client)
 {
@@ -1463,6 +1651,28 @@ int GetIdentity(int client)
 void ForceTeam(int client,int team)
 {
 	FakeClientCommandEx(client, "jointeam %d", team);
+}
+void ForceSwitchTeam(int client,int team)
+{
+	if(team >=2)
+	{
+		if(cv_autobalance.IntValue == 1)
+		{
+			CreateTimer(0.01, correctAutobalance);
+			cv_autobalance.IntValue = 0;
+		}
+	}
+	else if(team == 1)
+	{
+		if(cv_allowspectators.IntValue == 0)
+		{
+			CreateTimer(0.01, correctSpec);
+			cv_allowspectators.IntValue = 1;
+		}
+	}
+	
+	
+	ForceTeam(client,team);
 }
 void ForceSquad(int client,int squad)
 {
@@ -1627,7 +1837,7 @@ Stage_CaptainVote_End()
 }
 Stage_Pickwait_Start()
 {
-	
+	PlayMusic(sound_wait_music,dp_wait_music_repeat.FloatValue);
 	int time = dp_pick_wait_time.IntValue;
 
 	PrintToChatAll("\x04[DP] \x01Both captains have been assigned, Picking begins in \x073399ff%d\x01 seconds",time);
@@ -1664,11 +1874,11 @@ public Action Timer_PickWaitNotify(Handle timer)
 			{
 				if(squadMode)
 				{
-					PrintToChat(i,"\x04[SC] \x01The draft pick is starting! Picking will begin when the timer hits 0. Join squads to play with your friends!");
+					PrintToChat(i,"\x04[DP] \x01The auto squad draft is starting! Picking will begin when the timer hits 0. Join squads to play with your friends!");
 				}
 				else
 				{
-					PrintToChat(i,"\x04[SC] \x01The draft pick is starting! Picking will begin when the timer hits 0.");
+					PrintToChat(i,"\x04[DP] \x01The automatic draft is starting! Picking will begin when the timer hits 0.");
 				}
 				
 			
@@ -1685,11 +1895,13 @@ Stage_Pickwait_End()
 		KillTimer(pickWaitNotifyHandle);
 		pickWaitNotifyHandle = INVALID_HANDLE;
 	}
+	StopMusic();
 }
 
 Stage_Autopickwait_Start()
 {
-	teamToPick = GetRandomInt(0, 1);
+	PlayMusic(sound_wait_music,dp_wait_music_repeat.FloatValue);
+	teamToPick = GetStartingTeam();
 	
 	int time = dp_pick_wait_time.IntValue;
 	
@@ -1703,10 +1915,25 @@ public Action Timer_AutoPickWaitNotify(Handle timer)
 {
 	for (int i=1; i<=MaxClients; i++)
 	{
-		if(IsClientInGame(i) && GetClientTeam(i) <2)
+		if(!IsClientInGame(i))
+			continue;
+		if(GetClientTeam(i) <2)
 		{
-			PrintToChat(i,"\x07b30000[WARNING] \x01The automatic pick is starting! If you are not in NF when the timer hits 0 you will not be able to join for 2 minutes. ");
+			PrintToChat(i,"\x07b30000[WARNING] \x01The automatic draft is starting! If you are not in NF when the timer hits 0 you will not be able to join until 2 minutes after the the draft ends");
 		}
+		else
+		{
+			if(squadMode)
+			{
+				PrintToChat(i,"\x04[DP] \x01The automatic draft is starting! You will be drafted into a team when the timer hits 0. Join squads to play with your friends!");
+			}
+			else
+			{
+				PrintToChat(i,"\x04[DP] \x01The automatic squad draft is starting! You will be drafted into a team when the timer hits 0.");
+			}
+			
+		}
+
 	}
 }
 Stage_Autopickwait_End()
@@ -1716,6 +1943,17 @@ Stage_Autopickwait_End()
 		KillTimer(AutopickWaitNotifyHandle);
 		AutopickWaitNotifyHandle = INVALID_HANDLE;
 	}
+	StopMusic();
+}
+
+int GetStartingTeam()
+{
+	int team = GetRandomInt(0, 1);
+	if(GetPicksLeft(team) <= 0)
+	{
+		team = OppTeam(team);
+	}
+	return team;
 }
 
 
@@ -1725,8 +1963,9 @@ Stage_Pick_Start()
 	if(!draftBegun)
 	{
 		//move teamtopick back here because of confusing stuff. 
-		teamToPick = GetRandomInt(0, 1);
-		BeginNewDraft();
+		teamToPick = GetStartingTeam();
+		
+		
 		int baseTime = 20 + GetClientCount(true) * dp_pick_initial_multiplier.IntValue;
 		teamTime[0] = baseTime;
 		teamTime[1] = baseTime;
@@ -1746,16 +1985,18 @@ Stage_Pick_Start()
 	
 	PrintToChatAll("\x04[DP] \x01Pick your players using the Commander Vote GUI");
 	
+	PlayMusic(sound_pick_music,dp_pick_music_repeat.FloatValue);
+	
 }
-
 
 
 Stage_Pick_End()
 {
-
+	StopMusic();
 }
 Stage_Game_Start()
 {
+	PlaySoundToAll(sound_pick_end);
 
 	// add everyone to the correct team. 
 	PrintToChatAll("\x04[DP] \x01 All players drafted. Starting Game.. ");
@@ -1784,8 +2025,18 @@ Stage_Game_Start()
 	
 	unlockTime = GetTime() + 60;
 	
-	// set the vote time to the original 
-	VT_SetVoteTime(VT_GetOriginalVoteTime());
+	int orgvotetime = VT_GetOriginalVoteTime();
+	
+	if(orgvotetime >0)
+	{
+		// set the vote time to the original 
+		VT_SetVoteTime(orgvotetime);
+	}
+	else
+	{
+		VT_SetVoteTime(1);
+	}
+	
 	// may have to set timer for this. 
 	//cv_autoassign.IntValue = 1;
 	dp_in_draft.IntValue = 2;
@@ -1798,6 +2049,8 @@ Stage_Game_End()
 }
 Stage_Disabled_Start(int prevStage)
 {
+	dp_draft.IntValue = 0;
+	ClearDraft();
 	PrintToChatAll("\x04[DP] \x01Draft pick disabled");
 	enabled = false;
 	UnhookEvent("player_team", Event_PlayerTeam, EventHookMode_Post);
@@ -1821,6 +2074,7 @@ Stage_Disabled_Start(int prevStage)
 Stage_Disabled_End()
 {
 	enabled = true;
+	PrecacheSounds();
 	HookEvent("player_team", Event_PlayerTeam, EventHookMode_Post);
 	HookEvent("commander_vote_time", Event_CommVoteTime);
 	HookEvent("player_changename", Event_NameChange, EventHookMode_Pre);
@@ -1868,17 +2122,103 @@ ChangeStage(int stg)
 	}
 }
 
+// use autopicklist or empstats rating system. 
+ArrayList GetAutoPickList()
+{
+	int resourceEntity = GetPlayerResourceEntity();
+	ArrayList players = new ArrayList();
+	if(LibraryExists("empstats"))
+	{
+		float ratings[MAXPLAYERS+1];
+		ES_GetStats("rating",ratings);
+		for (int i=1; i<=MaxClients; i++)
+		{  
+			if(IsClientInGame(i) && GetClientTeam(i) == 2 && ratings[i] != 0)
+			{
+				// add a random factor so that teams dont all look the same. 
+				
+				// get average rating for squadmode.
+				if(squadMode && squads[i] > 0)
+				{
+					float totalmmr = 0.0;
+					int totalplayers = 0;
+					// squad leader get an average of player mmr
+					if(GetEntProp(resourceEntity, Prop_Send, "m_bSquadLeader",4,i) == 1)
+					{
+						for (int j=1; j<=MaxClients; j++)
+						{
+							if(IsClientInGame(j) && squads[j] == squads[i] && ratings[j] != 0)
+							{
+								totalmmr += ratings[j];
+								totalplayers++;
+							}
+						}
+						ratings[i] = totalmmr/totalplayers;
+						// add on additional rating for prebuilts.
+						ratings[i] += (totalplayers - 1) * 2.0;
+						
+					}
+					else
+					{
+						continue;
+					}
+				}
+				ratings[i] += GetRandomFloat(-20.0,20.0);
+				bool inserted = false;
+				for(int j = 0;j<players.Length;j++)
+				{
+					int index = players.Get(j);
+					if(ratings[i] > ratings[index])
+					{
+						players.ShiftUp(j);
+						players.Set(j,i);
+						inserted = true;
+						break;
+					}
+				}
+				if(!inserted)
+				{
+					players.Push(i);
+				}
+			}
+		}
+	}
+	else
+	{
+		char buffer[128];
+		KeyValues kv = new KeyValues("Teams");
+		kv.ImportFromFile(autoPickPath);
+		if(kv != null)
+		{
+			kv.GotoFirstSubKey(false);
+			do
+			{
+				kv.GotoFirstSubKey(false);
+				kv.GetSectionName(buffer, sizeof(buffer));
+				int steamid = StringToInt(buffer);
+				int client = GetClientOfSteamID(steamid);
+				if(client != -1 && IsClientInGame(client) && GetClientTeam(client) == 2)
+				{
+					players.Push(client);
+				}
+				
+			} while (kv.GotoNextKey(false));
+			kv.Rewind();
+		}
+	}
+	return players;
+}
+
 void AutoPickAll()
 {
+	if(stage != STAGE_PICK || autoPickingAll)
+		return;
 	
-	KeyValues kv = new KeyValues("Teams");
-	kv.ImportFromFile(autoPickPath);
 	
-	AutoPickPlayers(100,kv);
-	
-	delete kv;
-	// pick players by steamid here
-	// use loaddraft as template.
+	autoPickingAll = true;
+	AutoPickPlayers(100,GetAutoPickList());
+	autoPickingAll = false;
+
 	
 }
 
@@ -1901,9 +2241,9 @@ public Action Command_AutoPick(int client, int args)
 		PrintToChat(client,"\x04[DP] \x01Draft mode not enabled");
 		return Plugin_Handled;
 	}
-	if(stage == STAGE_GAME)
+	if(stage != STAGE_PICK)
 	{
-		PrintToChat(client,"\x04[DP] \x01The game has already begun");
+		PrintToChat(client,"\x04[DP] \x01You must be in the pick stage to autopick");
 		return Plugin_Handled;
 	}
 	new String:filename[64];
@@ -1919,14 +2259,6 @@ public Action Command_AutoPick(int client, int args)
 		autoPickPath = "";
 		return Plugin_Handled; 
 	}
-	if(!draftBegun)
-	{
-		if(stage != STAGE_AUTOPICKWAIT)
-		{
-			ChangeStage(STAGE_AUTOPICKWAIT);
-			return Plugin_Handled; 
-		}
-	}
 	
 	AutoPickAll();
 
@@ -1934,16 +2266,42 @@ public Action Command_AutoPick(int client, int args)
 }
 
 
-
-// command to add in
-// emp_commander_vote_add_in
-
-
-public Action Command_LoadTeams(int client, int args)
+Action Command_DraftMode(int client,int mode)
 {
+	
+	
+	char arg[32];
+	
+	// the current vote time that we want. 
+	if(GetCmdArg(1, arg, sizeof(arg)))
+	{
+		if(StrEqual(arg,"1",true))
+		{
+			modeContinuous = true;
+		}
+		else if(StrEqual(arg,"0",true))
+		{
+			if(enabled)
+			{
+				ChangeStage(STAGE_DISABLED);
+				modeContinuous = false;
+			}
+			else
+			{
+				PrintToChat(client,"\x04[DP] \x01Draft is not enabled");
+			}
+			return Plugin_Handled;
+		}
+	}
+	if(mode == draftMode)
+	{
+		PrintToChat(client,"\x04[DP] \x01Draft mode already enabled");
+		return Plugin_Handled;
+	}
+	draftMode = mode;
 	if(!enabled)
 	{ 
-		PrintToChat(client,"\x04[DP] \x01Draft mode not enabled");
+		SetUpDraft(mode);
 		return Plugin_Handled;
 	}
 	if(draftBegun)
@@ -1951,90 +2309,147 @@ public Action Command_LoadTeams(int client, int args)
 		PrintToChat(client,"\x04[DP] \x01The draft has already begun");
 		return Plugin_Handled;
 	}
-	char arg[32];
-	// the current vote time that we want. 
-	if(!GetCmdArg(1, arg, sizeof(arg)))
+	
+	if(mode == MODE_SQUADDRAFT || mode == MODE_AUTOSQUADDRAFT)
+		squadMode = true;
+	
+	if(mode == MODE_AUTODRAFT  || mode == MODE_AUTOSQUADDRAFT)
+		ChangeStage(STAGE_AUTOPICKWAIT);
+	else
+		ChangeStage(STAGE_CAPTAINVOTE);
+		
+	return Plugin_Handled;	
+	
+}
+
+public Action Command_AutoSquadDraft(int client, int args)
+{
+	return Command_DraftMode(client,MODE_AUTOSQUADDRAFT);
+}
+public Action Command_SquadDraft(int client, int args)
+{
+	return Command_DraftMode(client,MODE_SQUADDRAFT);
+}
+public Action Command_AutoDraft(int client, int args)
+{
+	return Command_DraftMode(client,MODE_AUTODRAFT);
+}
+public Action Command_Draft(int client, int args)
+{
+	return Command_DraftMode(client,MODE_DRAFT);
+}
+
+
+LoadTeams(char[] teampath,bool swap,int client)
+{
+	if(HasGameStarted())
 	{
-		arg = "default.txt";
+		if(client > 0)
+			PrintToChat(client,"\x04[DP] \x01 Game has already started.");
+		return;
 	}
+	
 	new String:path[128] = "addons/sourcemod/data/draftpick/teams/";
-	StrCat(path, 128, arg);
+	StrCat(path, 128, teampath);
 	
-	
-	BeginNewDraft();
 	
 	KeyValues kv = new KeyValues("Teams");
 	if(!kv.ImportFromFile(path))
 	{
-		PrintToChat(client,"\x04[DP] \x01 Unable to find  team file");
-		return Plugin_Handled;
+		if(client > 0)
+			PrintToChat(client,"\x04[DP] \x01 Unable to find  team file");
+		return;
 	}
 	
-	// Iterate over subsections at the same nesting level
-	char buffer[255];
-	
-	for(int i = 0;i<2;i++)
+	if(!enabled)
 	{
-		kv.JumpToKey(teamnames[i], false);
-		do
+		if(cv_autobalance.IntValue == 1)
+			CreateTimer(0.1, correctAutobalance);
+		cv_autobalance.IntValue = 0;
+		
+		char buffer[255];
+		for(int i = 0;i<2;i++)
 		{
-			kv.GotoFirstSubKey(false);
-			kv.GetSectionName(buffer, sizeof(buffer));
-			int steamid = StringToInt(buffer);
-			teamSIDs[i].Push(steamid);
-			// push empty clientid for now. 
-			teams[i].Push(0);
-			
-		} while (kv.GotoNextKey(false));
-		kv.Rewind();
-	}
-	
-	// refresh client IDs using new steamids
-	RefreshClientIDs();
-	
-	// change to the game stage. 
-	ChangeStage(STAGE_GAME);
-
-
-	return Plugin_Handled;
-} 
-
-RefreshClientIDs()
-{
-	for (int i=1; i<=MaxClients; i++)
-	{
-		if(IsClientInGame(i))
-		{
-			int playerid = GetSteamAccountID(i,true);
-			int index;
-			int team = GetTeamBySteamId(playerid,index);
-			if(team != -1)
+			int team = i + 2;
+			if(swap)
 			{
-				teams[team].Set(index,i);
+				team = OppTeam(i) + 2;
 			}
-			else
+		
+			kv.JumpToKey(teamnames[i], false);
+			do
 			{
-				teams[team].Set(index,0);
-			}
 			
+				kv.GotoFirstSubKey(false);
+				kv.GetSectionName(buffer, sizeof(buffer));
+				int steamid = StringToInt(buffer);
+				int clientIndex = GetClientOfSteamID(steamid);
+				if(clientIndex > 0 && GetClientTeam(clientIndex) != team)
+				{
+					ForceTeam(clientIndex,team);
+				}
+			} while (kv.GotoNextKey(false));
+			kv.Rewind();
 		}
 	}
-}
-// you should probably be able to save teams even if draft is disabled
-public Action Command_SaveTeams(int client, int args)
-{
-	char arg[32];
-	// the current vote time that we want. 
-	if(!GetCmdArg(1, arg, sizeof(arg)))
+	else
 	{
-		arg = "default.txt";
+		if(draftBegun)
+		{
+			if(client > 0)
+				PrintToChat(client,"\x04[DP] \x01The draft has already begun");
+			return ;
+		}
+		
+		ClearDraft();
+		
+		BeginNewDraft();
+		
+		// Iterate over subsections at the same nesting level
+		char buffer[255];
+		
+		for(int i = 0;i<2;i++)
+		{
+			int team = i;
+			if(swap)
+			{
+				team = OppTeam(i);
+			}
+			
+			kv.JumpToKey(teamnames[i], false);
+			do
+			{
+				kv.GotoFirstSubKey(false);
+				kv.GetSectionName(buffer, sizeof(buffer));
+				int steamid = StringToInt(buffer);
+				
+				teamSIDs[team].Push(steamid);
+				// push empty clientid for now. 
+				teams[team].Push(0);
+				
+			} while (kv.GotoNextKey(false));
+			kv.Rewind();
+		}
+		
+		// refresh client IDs using new steamids
+		RefreshClientIDs();
+		
+		// change to the game stage. 
+		ChangeStage(STAGE_GAME);
+
 	}
+	
+	delete kv;
+
+	return;
+}
+SaveTeams(char[] teampath,int client)
+{
 	new String:path[128] = "addons/sourcemod/data/draftpick/teams/";
-	StrCat(path, 128, arg);
+	StrCat(path, 128, teampath);
 
 	char idbuffer[32];
 	new String:nameBuffer[128];
-	
 
 	if(!enabled)
 	{ 
@@ -2058,37 +2473,107 @@ public Action Command_SaveTeams(int client, int args)
 		kv.Rewind();
 		kv.ExportToFile(path);
 		delete kv;
-		PrintToChat(client,"Teams saved to %s",arg);
-		return Plugin_Handled;
 	}
-	if(!draftBegun)
+	else
 	{
-		PrintToChat(client,"\x04[DP] \x01Draft has not begun");
-		return Plugin_Handled;
-	}
-	
-	
-	
-	KeyValues kv = new KeyValues("Teams");
-	for(int j = 0;j<2;j++)
-	{
-		kv.JumpToKey(teamnames[j], true);
-		for(int i = 0;i<teamSIDs[j].Length;i++)
+		if(!draftBegun)
 		{
-			IntToString(teamSIDs[j].Get(i),idbuffer,sizeof(idbuffer));
-			GetClientName(teams[j].Get(i),nameBuffer,sizeof(nameBuffer));
-			kv.SetString(idbuffer, nameBuffer);
+			if(client > 0)
+				PrintToChat(client,"\x04[DP] \x01Draft has not begun");
+			return;
 		}
-		kv.GoBack();
+		KeyValues kv = new KeyValues("Teams");
+		for(int j = 0;j<2;j++)
+		{
+			kv.JumpToKey(teamnames[j], true);
+			for(int i = 0;i<teamSIDs[j].Length;i++)
+			{
+				IntToString(teamSIDs[j].Get(i),idbuffer,sizeof(idbuffer));
+				GetClientName(teams[j].Get(i),nameBuffer,sizeof(nameBuffer));
+				kv.SetString(idbuffer, nameBuffer);
+			}
+			kv.GoBack();
+		}
+		kv.Rewind();
+		kv.ExportToFile(path);
+		delete kv;
 	}
-	kv.Rewind();
-	kv.ExportToFile(path);
-	delete kv;
-
-	PrintToChat(client,"Teams saved to %s",arg);
 	
+
+
+	if(client>0)
+		PrintToChat(client,"Teams saved to %s",teampath);
+	
+	return;
+	
+}
+
+
+
+
+public Action Command_LoadTeams(int client, int args)
+{
+	char arg[32];
+	// the current vote time that we want. 
+	if(!GetCmdArg(1, arg, sizeof(arg)) || StrEqual(arg,"0",true))
+	{
+		arg = "default.txt";
+	}
+	bool oppteam = false;
+	if(GetCmdArg(2, arg, sizeof(arg)) && StrEqual(arg,"1",true))
+	{
+		oppteam = true;
+	}
+	LoadTeams(arg,oppteam,client);
+	return Plugin_Handled;
+} 
+
+public Action Command_SaveTeams(int client, int args)
+{
+	char arg[32];
+	// the current vote time that we want. 
+	if(!GetCmdArg(1, arg, sizeof(arg)))
+	{
+		arg = "default.txt";
+	}
+	SaveTeams(arg,client);
 	return Plugin_Handled;
 }
+
+public Action Command_ReloadTeams(int client, int args)
+{
+	bool swap = false;
+	char arg[32];
+	if(GetCmdArg(1, arg, sizeof(arg)) && StrEqual(arg,"1",true))
+	{
+		swap = true;
+	}
+	LoadTeams("lastgame.txt",swap,client);
+	return Plugin_Handled;
+}
+
+RefreshClientIDs()
+{
+	for (int i=1; i<=MaxClients; i++)
+	{
+		if(IsClientInGame(i))
+		{
+			int playerid = GetSteamAccountID(i,true);
+			int index;
+			int team = GetTeamBySteamId(playerid,index);
+			if(team != -1)
+			{
+				teams[team].Set(index,i);
+			}
+			else
+			{
+				teams[team].Set(index,0);
+			}
+			
+		}
+	}
+}
+
 
 int GetClientOfSteamID(int steamid)
 {
@@ -2104,17 +2589,18 @@ int GetClientOfSteamID(int steamid)
 }
 RemoveCaptainsFromSquads()
 {
-	if(IsClientInGame(captains[0]))
+	if(captains[0] != 0 && IsClientInGame(captains[0]))
 	{
 		FakeClientCommandEx(captains[0],"emp_squad_leave");
 	}
-	if(IsClientInGame(captains[1]))
+	if(captains[1] != 0 && IsClientInGame(captains[1]))
 	{
 		FakeClientCommandEx(captains[1],"emp_squad_leave");
 	}
 }
 SquadModeSetup()
 {
+	RemoveCaptainsFromSquads();
 	// set everyones identity to their squad in game..
 	for (int i=1; i<=MaxClients; i++)
 	{
@@ -2123,12 +2609,23 @@ SquadModeSetup()
 			int squad = GetEntProp(i, Prop_Send, "m_iSquad");
 			if(squad !=0)
 			{
-				squads[i] = squad;
-				AdjustPrefix(i);
+				int playersInSquad = 1;
+				for(int j =1;j<MaxClients;j++)
+				{	
+					if(IsClientInGame(j) && i!=j && (squads[j] == squad ||  GetEntProp(j, Prop_Send, "m_iSquad") == squad ))
+					{
+						playersInSquad++;
+					}
+				}
+				if(playersInSquad > 1)
+				{
+					squads[i] = squad;
+					AdjustPrefix(i);
+				}
 			}
 		}
 	}
-	RemoveCaptainsFromSquads();
+	
 	
 	squadIdentities = true;
 	LockSquads();
@@ -2224,6 +2721,127 @@ public Action Command_Plugin_Version(client, const String:command[], args)
 	
 
 	return Plugin_Handled;
+}
+
+PlayMusic(char[] sound,float repeatTime)
+{
+	if(dp_music.IntValue != 1)
+		return;
+
+	if(bCurrentMusic)
+	{
+		StopMusic();
+	}
+	bCurrentMusic = true;
+	strcopy(currentMusic,sizeof(currentMusic),sound);
+	PerformMusic();
+	if(repeatTime > 0)
+	{
+		currentMusicTimer = CreateTimer(repeatTime,Timer_PerformMusic,_,TIMER_REPEAT);
+	}
+	
+	
+	
+}
+public Action Timer_PerformMusic(Handle Timer)
+{
+	PerformMusic();
+}
+PerformMusic()
+{
+	currentMusicStart =  GetEngineTime();
+	for (int i=1; i<=MaxClients; i++)
+	{
+		if(IsClientInGame(i))
+		{
+			EmitSoundToClient(i,currentMusic, _, _, _, SND_STOPLOOPING);
+			EmitSoundToClient(i,currentMusic,_,_,SNDLEVEL_LIBRARY );
+		}
+	}
+}
+
+AddToMusic(int client)
+{
+	if(bCurrentMusic)
+	{
+		EmitSoundToClient(client,currentMusic,_,_,SNDLEVEL_LIBRARY ,_, _, _, _, _, _,_, GetEngineTime() - currentMusicStart);
+	}
+}
+StopMusic()
+{
+	if(bCurrentMusic)
+	{
+		bCurrentMusic = false;
+		if(currentMusicTimer != INVALID_HANDLE)
+		{
+			KillTimer(currentMusicTimer);
+			currentMusicTimer = INVALID_HANDLE;
+		}
+		for (int i=1; i<=MaxClients; i++)
+		{
+			if(IsClientInGame(i))
+			{
+				EmitSoundToClient(i,currentMusic, _, _, _, SND_STOPLOOPING);
+			}
+		}
+	}
+}
+PlaySoundToAll(char[] sound)
+{
+	for (int i=1; i<=MaxClients; i++)
+	{
+		if(IsClientInGame(i))
+		{
+			EmitSoundToClient(i,sound);
+		}
+	}
+}
+
+// disable draft 1 event.
+public OnMapEnd()
+{
+	if(enabled)
+	{
+		AutoSaveTeams();
+		if(dp_draft.IntValue == 0 || !modeContinuous)
+		{
+			draftMode = 0;
+			ChangeStage(STAGE_DISABLED);
+		}
+		
+	}
+}
+
+// wont repeat. 
+stock PlayMusicToClient(int client,char[] sound)
+{
+	if(dp_music.IntValue != 1 || !IsClientInGame(client))
+		return;
+	EmitSoundToClient(client, sound, _, _,SNDLEVEL_HOME );
+}
+stock StopMusicToClient(int client,char[] sound)
+{
+	if(!IsClientInGame(client))
+		return;
+	EmitSoundToClient(client, sound, _, _, _, SND_STOPLOOPING, _, _, _, _, _, _, _);
+}
+
+public Event_Game_End(Handle:event, const char[] name, bool dontBroadcast)
+{	
+	CreateTimer(3.0, Timer_SaveTeams);
+}
+public Action Timer_SaveTeams(Handle timer)
+{
+	AutoSaveTeams();
+}
+
+AutoSaveTeams()
+{
+	if(!savedTeams)
+	{
+		savedTeams = true;
+		SaveTeams("lastgame.txt",0);
+	}
 }
 
 

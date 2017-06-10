@@ -1,0 +1,131 @@
+L 05/23/2017 - 01:15:29: SourceMod error session started
+L 05/23/2017 - 01:15:29: Info (map "emp_beachfront_b2") (file "errors_20170523.log")
+L 05/23/2017 - 01:15:29: [SM] Exception reported: Invalid hook callback specified for game event "player_spawn"
+L 05/23/2017 - 01:15:29: [SM] Blaming: empstats.smx()
+L 05/23/2017 - 01:15:29: [SM] Call stack trace:
+L 05/23/2017 - 01:15:29: [SM]   [0] UnhookEvent
+L 05/23/2017 - 01:15:29: [SM]   [1] Line 150, empstats.sp::CheckGameStarted()
+L 05/23/2017 - 01:15:29: [SM]   [2] Line 1042, empstats.sp::OnMapStart()
+L 05/23/2017 - 01:15:29: [SM]   [4] ServerCommandEx
+L 05/23/2017 - 01:15:29: [SM]   [5] Line 390, D:\builds\build-sourcemod-msvc12\windows-1.8\build\plugins\basecommands.sp::Command_Rcon()
+L 05/23/2017 - 01:16:01: [SM] Exception reported: Invalid edict (2050 - -2037569534)
+L 05/23/2017 - 01:16:01: [SM] Blaming: entitylogger.smx()
+L 05/23/2017 - 01:16:01: [SM] Call stack trace:
+L 05/23/2017 - 01:16:01: [SM]   [0] GetEdictClassname
+L 05/23/2017 - 01:16:01: [SM]   [1] Line 33, /home/groups/alliedmodders/forums/files/8/7/0/2/6/122017.attach::LoopEntities()
+L 05/23/2017 - 01:16:01: [SM]   [2] Line 22, /home/groups/alliedmodders/forums/files/8/7/0/2/6/122017.attach::LogEntities()
+L 05/23/2017 - 01:56:48: [SM] Exception reported: Invalid timer handle 20fc02de (error 3)
+L 05/23/2017 - 01:56:48: [SM] Blaming: umc-emp-mapvote.smx()
+L 05/23/2017 - 01:56:48: [SM] Call stack trace:
+L 05/23/2017 - 01:56:48: [SM]   [0] KillTimer
+L 05/23/2017 - 01:56:48: [SM]   [1] Line 686, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-emp-mapvote.sp::UMC_OnNextmapSet()
+L 05/23/2017 - 01:56:48: [SM]   [3] Call_Finish
+L 05/23/2017 - 01:56:48: [SM]   [4] Line 4834, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::DoMapChange()
+L 05/23/2017 - 01:56:48: [SM]   [5] Line 1767, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Native_UMCSetNextMap()
+L 05/23/2017 - 01:56:48: [SM]   [7] UMC_SetNextMap
+L 05/23/2017 - 01:56:48: [SM]   [8] Line 621, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-emp-mapvote.sp::DoRandomNextMap()
+L 05/23/2017 - 01:56:48: [SM]   [9] Line 606, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-emp-mapvote.sp::DoMapChangeFailSafe()
+L 05/23/2017 - 01:56:48: [SM]   [10] Line 722, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-emp-mapvote.sp::UMC_OnVoteFailed()
+L 05/23/2017 - 01:56:48: [SM]   [12] Call_Finish
+L 05/23/2017 - 01:56:48: [SM]   [13] Line 4796, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::VoteFailed()
+L 05/23/2017 - 01:56:48: [SM]   [14] Line 3507, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::VoteCancelled()
+L 05/23/2017 - 01:56:48: [SM]   [15] Line 1177, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Native_UMCVoteManagerCancel()
+L 05/23/2017 - 01:56:48: [SM]   [17] UMC_VoteManagerVoteCancelled
+L 05/23/2017 - 01:56:48: [SM]   [18] Line 2276, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_VoteMenu()
+L 05/23/2017 - 01:56:54: Error log file session closed.
+L 05/23/2017 - 14:36:50: SourceMod error session started
+L 05/23/2017 - 14:36:50: Info (map "con_district402") (file "errors_20170523.log")
+L 05/23/2017 - 14:36:50: [SDKTOOLS] Invalid detour address passed - Disabling detour to prevent crashes
+L 05/23/2017 - 14:36:51: [SDKTOOLS] Failed to find PlayerRunCmd offset - OnPlayerRunCmd forward disabled.
+L 05/23/2017 - 14:38:14: Error log file session closed.
+L 05/23/2017 - 15:28:46: SourceMod error session started
+L 05/23/2017 - 15:28:46: Info (map "emp_king_r5_nosplt") (file "errors_20170523.log")
+L 05/23/2017 - 15:28:46: [maprate.smx] Error establishing database connection: [1049]: Unknown database 'sourcemod'
+L 05/23/2017 - 15:28:46: [maprate.smx] FATAL: An error occurred while connecting to the database.
+L 05/23/2017 - 15:28:46: [SM] Exception reported: An error occurred while connecting to the database.
+L 05/23/2017 - 15:28:46: [SM] Blaming: maprate.smx()
+L 05/23/2017 - 15:28:46: [SM] Call stack trace:
+L 05/23/2017 - 15:28:46: [SM]   [0] SetFailState
+L 05/23/2017 - 15:28:46: [SM]   [1] Line 90, /home/forums/content/files/6/4/8/1/2/114450.attach::OnConfigsExecuted()
+L 05/23/2017 - 15:28:46: [SM]   [3] ServerCommandEx
+L 05/23/2017 - 15:28:46: [SM]   [4] Line 390, D:\builds\build-sourcemod-msvc12\windows-1.8\build\plugins\basecommands.sp::Command_Rcon()
+L 05/23/2017 - 15:28:47: [maprate.smx] Error establishing database connection: [1049]: Unknown database 'sourcemod'
+L 05/23/2017 - 15:28:47: [maprate.smx] FATAL: An error occurred while connecting to the database.
+L 05/23/2017 - 15:28:47: [SM] Exception reported: An error occurred while connecting to the database.
+L 05/23/2017 - 15:28:47: [SM] Blaming: maprate.smx()
+L 05/23/2017 - 15:28:47: [SM] Call stack trace:
+L 05/23/2017 - 15:28:47: [SM]   [0] SetFailState
+L 05/23/2017 - 15:28:47: [SM]   [1] Line 90, /home/forums/content/files/6/4/8/1/2/114450.attach::OnConfigsExecuted()
+L 05/23/2017 - 15:28:47: [SM]   [3] ServerCommandEx
+L 05/23/2017 - 15:28:47: [SM]   [4] Line 390, D:\builds\build-sourcemod-msvc12\windows-1.8\build\plugins\basecommands.sp::Command_Rcon()
+L 05/23/2017 - 15:28:47: [SM] Exception reported: Plugin not runnable
+L 05/23/2017 - 15:36:26: [SM] Exception reported: Plugin not runnable
+L 05/23/2017 - 15:37:26: [maprate.smx] Error establishing database connection: [1049]: Unknown database 'sourcemod'
+L 05/23/2017 - 15:37:26: [maprate.smx] FATAL: An error occurred while connecting to the database.
+L 05/23/2017 - 15:37:26: [SM] Exception reported: An error occurred while connecting to the database.
+L 05/23/2017 - 15:37:26: [SM] Blaming: maprate.smx()
+L 05/23/2017 - 15:37:26: [SM] Call stack trace:
+L 05/23/2017 - 15:37:26: [SM]   [0] SetFailState
+L 05/23/2017 - 15:37:26: [SM]   [1] Line 90, /home/forums/content/files/6/4/8/1/2/114450.attach::OnConfigsExecuted()
+L 05/23/2017 - 15:37:26: [SM]   [3] ServerCommandEx
+L 05/23/2017 - 15:37:26: [SM]   [4] Line 390, D:\builds\build-sourcemod-msvc12\windows-1.8\build\plugins\basecommands.sp::Command_Rcon()
+L 05/23/2017 - 15:37:26: [maprate.smx] Error establishing database connection: [1049]: Unknown database 'sourcemod'
+L 05/23/2017 - 15:37:26: [maprate.smx] FATAL: An error occurred while connecting to the database.
+L 05/23/2017 - 15:37:26: [SM] Exception reported: An error occurred while connecting to the database.
+L 05/23/2017 - 15:37:26: [SM] Blaming: maprate.smx()
+L 05/23/2017 - 15:37:26: [SM] Call stack trace:
+L 05/23/2017 - 15:37:26: [SM]   [0] SetFailState
+L 05/23/2017 - 15:37:26: [SM]   [1] Line 90, /home/forums/content/files/6/4/8/1/2/114450.attach::OnConfigsExecuted()
+L 05/23/2017 - 15:37:26: [SM]   [3] ServerCommandEx
+L 05/23/2017 - 15:37:26: [SM]   [4] Line 390, D:\builds\build-sourcemod-msvc12\windows-1.8\build\plugins\basecommands.sp::Command_Rcon()
+L 05/23/2017 - 15:37:26: [SM] Exception reported: Plugin not runnable
+L 05/23/2017 - 15:41:30: [SM] Exception reported: Plugin not runnable
+L 05/23/2017 - 15:41:30: [SM] Exception reported: Plugin not runnable
+L 05/23/2017 - 15:41:33: [SM] Exception reported: Plugin not runnable
+L 05/23/2017 - 15:41:33: [SM] Exception reported: Plugin not runnable
+L 05/23/2017 - 15:42:48: [SM] Exception reported: Plugin not runnable
+L 05/23/2017 - 15:42:48: [SM] Exception reported: Plugin not runnable
+L 05/23/2017 - 15:48:09: SourceMod error session started
+L 05/23/2017 - 15:48:09: Info (map "con_district402") (file "errors_20170523.log")
+L 05/23/2017 - 15:48:09: [SM] Detected parse error(s) in file "C:\Program Files (x86)\Steam\steamcmd\steamapps\common\Empires Dedicated Server\empires\addons\sourcemod\configs\databases.cfg"
+L 05/23/2017 - 15:48:09: [SM] Line 67: Section declared with unknown tokens
+L 05/23/2017 - 15:48:09: [SDKTOOLS] Invalid detour address passed - Disabling detour to prevent crashes
+L 05/23/2017 - 15:48:09: [SDKTOOLS] Failed to find PlayerRunCmd offset - OnPlayerRunCmd forward disabled.
+L 05/23/2017 - 15:48:10: [maprate.smx] Database configuration "maprate" does not exist
+L 05/23/2017 - 15:48:10: [maprate.smx] FATAL: An error occurred while connecting to the database.
+L 05/23/2017 - 15:48:10: [SM] Exception reported: An error occurred while connecting to the database.
+L 05/23/2017 - 15:48:10: [SM] Blaming: maprate.smx()
+L 05/23/2017 - 15:48:10: [SM] Call stack trace:
+L 05/23/2017 - 15:48:10: [SM]   [0] SetFailState
+L 05/23/2017 - 15:48:10: [SM]   [1] Line 90, /home/forums/content/files/6/4/8/1/2/114450.attach::OnConfigsExecuted()
+L 05/23/2017 - 15:48:19: [SM] Exception reported: Plugin not runnable
+L 05/23/2017 - 16:00:28: [SM] Exception reported: Plugin not runnable
+L 05/23/2017 - 16:35:36: [SM] Exception reported: Plugin not runnable
+L 05/23/2017 - 16:35:36: [SM] Exception reported: Plugin not runnable
+L 05/23/2017 - 16:35:38: Error log file session closed.
+L 05/23/2017 - 16:35:38: SourceMod error session started
+L 05/23/2017 - 16:35:38: Info (map "con_glycencity") (file "errors_20170523.log")
+L 05/23/2017 - 16:35:38: [SM] Detected parse error(s) in file "C:\Program Files (x86)\Steam\steamcmd\steamapps\common\Empires Dedicated Server\empires\addons\sourcemod\configs\databases.cfg"
+L 05/23/2017 - 16:35:38: [SM] Line 67: Section declared with unknown tokens
+L 05/23/2017 - 17:10:04: Error log file session closed.
+L 05/23/2017 - 17:10:04: SourceMod error session started
+L 05/23/2017 - 17:10:04: Info (map "emp_downfall") (file "errors_20170523.log")
+L 05/23/2017 - 17:10:04: [SM] Detected parse error(s) in file "C:\Program Files (x86)\Steam\steamcmd\steamapps\common\Empires Dedicated Server\empires\addons\sourcemod\configs\databases.cfg"
+L 05/23/2017 - 17:10:04: [SM] Line 67: Section declared with unknown tokens
+L 05/23/2017 - 21:13:13: Error log file session closed.
+L 05/23/2017 - 23:48:44: SourceMod error session started
+L 05/23/2017 - 23:48:44: Info (map "emp_canyon") (file "errors_20170523.log")
+L 05/23/2017 - 23:48:44: [SM] Exception reported: Invalid timer handle 368602bf (error 1)
+L 05/23/2017 - 23:48:44: [SM] Blaming: umc-emp-mapvote.smx()
+L 05/23/2017 - 23:48:44: [SM] Call stack trace:
+L 05/23/2017 - 23:48:44: [SM]   [0] KillTimer
+L 05/23/2017 - 23:48:44: [SM]   [1] Line 686, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-emp-mapvote.sp::UMC_OnNextmapSet()
+L 05/23/2017 - 23:48:44: [SM]   [3] Call_Finish
+L 05/23/2017 - 23:48:44: [SM]   [4] Line 4834, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::DoMapChange()
+L 05/23/2017 - 23:48:44: [SM]   [5] Line 4267, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteWinner()
+L 05/23/2017 - 23:48:44: [SM]   [6] Line 3819, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteWinner()
+L 05/23/2017 - 23:48:44: [SM]   [7] Line 3795, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteResults()
+L 05/23/2017 - 23:48:44: [SM]   [8] Line 1277, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Native_UMCVoteManagerComplete()
+L 05/23/2017 - 23:48:44: [SM]   [10] UMC_VoteManagerVoteCompleted
+L 05/23/2017 - 23:48:44: [SM]   [11] Line 2309, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteResults()
+L 05/23/2017 - 23:48:50: Error log file session closed.
