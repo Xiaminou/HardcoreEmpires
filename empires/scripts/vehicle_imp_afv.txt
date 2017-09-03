@@ -39,7 +39,7 @@ Vehicle_AFV
 		"Base Weight"		"634"
 		"Cost"			"80"		//cost of just the chassis in resources
 		
-		"Recycling Max CarcassHealth" "120"		//Calculator works every 0.5s - Therefore half of this value is the time in seconds needed to recycle all of the chassis. Having repair upgrade halves the time again.
+		"Recycling Max CarcassHealth" "100"		//Calculator works every 0.5s - Therefore half of this value is the time in seconds needed to recycle all of the chassis. Having repair upgrade halves the time again.
 		"Friendly Recycling Percentage"	"0.5"	//The percentage of the cost of a friendly vehicle that is reimbursed when recycling a dead vehicle carcass.
 		"Enemy Recycling Percentage"	"0.5"	//The percentage of the cost of an enemy vehicle that is reimbursed when recycling a dead vehicle carcass.
 

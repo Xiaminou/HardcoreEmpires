@@ -40,7 +40,7 @@ Vehicle_NF_APC
 		"Base Weight"		"579"           // was 300
 		"Cost"			"80"		//cost of just the chassis in resources
 		
-		"Recycling Max CarcassHealth" "100"
+		"Recycling Max CarcassHealth" "80"
 		"Friendly Recycling Percentage"	"0.5"	//The percentage of the cost of a friendly vehicle that is reimbursed when recycling a dead vehicle carcass.
 		"Enemy Recycling Percentage"	"0.5"	//The percentage of the cost of an enemy vehicle that is reimbursed when recycling a dead vehicle carcass.
 

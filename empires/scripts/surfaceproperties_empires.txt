@@ -52,11 +52,11 @@
 "slidingtanktread"		//Empires-specific tank tread for increased friction.
 {
 	"base"			"rubber"
-	"friction"		"0.2"
+	"friction"		"1.5"
 }
 
 "brakingtanktread"		//Empires-specific tank tread for increased friction.
 {
 	"base"			"rubber"
-	"friction"		"0.6"
+	"friction"		"1.8"
 }

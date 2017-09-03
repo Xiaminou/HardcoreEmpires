@@ -1,14 +1,14 @@
 WeaponData
 {
 	// Weapon characteristics:
-	"Damage"			"30"		// damage per bullet
-	"Bullets"			"1"			// bullets per shoot
+	"Damage"			"19"		// damage per bullet
+	"Bullets"			"1"		// bullets per shoot
 	"CycleTime"			"0.075"		// time between shoots
-	"Falloff"			"1000"		// distance at which bullet strength has dropped to 85% (damage decreases linearly)
-	"Falloff Base"		"0.8"		// falloff base
-	"MinimalDamage"		"15"		// bullet will always deal this amount of damage even after damage decrease
+	"Falloff"			"2000"		// distance at which bullet strength has dropped to 85% (damage decreases linearly)
+	"Falloff Base"			"0.8"		// falloff base
+	"MinimalDamage"			"13"		// bullet will always deal this amount of damage even after damage decrease
 
-	"Damage Head Modifier"		"2"
+	"Damage Head Modifier"		"3.0"
 	"Damage Chest Modifier"		"1"
 	"Damage Stomach Modifier"	"1"
 	"Damage Left Arm Modifier"	"0.7"

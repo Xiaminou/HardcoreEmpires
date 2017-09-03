@@ -1,15 +1,15 @@
 WeaponData
 {
 	// Weapon characteristics:
-	"Damage"			"30"		// damage per bullet
-	"Bullets"			"1"			// bullets per shoot
+	"Damage"			"19"		// damage per bullet
+	"Bullets"			"1"		// bullets per shoot
 	"CycleTime"			"0.15"		// time between shoots
-	"Falloff"			"1000"		// distance at which bullet strength has dropped to 85% (damage decreases linearly)
-	"Falloffbase"		"0.9"		// Falloff Base default 0.85	
-	"MinimalDamage"		"17"		// bullet will always deal this amount of damage even after damage decrease
-	"Semiautomatic"		"1"
+	"Falloff"			"2500"		// distance at which bullet strength has dropped to 85% (damage decreases linearly)
+	"MinimalDamage"			"12"		// bullet will always deal this amount of damage even after damage decrease
+	"Falloffbase"			"0.9"		// Falloff Base default 0.85	
+	"Semiautomatic"			"1"
 
-	"Damage Head Modifier"		"1.9"
+	"Damage Head Modifier"		"3.0"
 	"Damage Chest Modifier"		"1"
 	"Damage Stomach Modifier"	"1"
 	"Damage Left Arm Modifier"	"0.7"
@@ -20,27 +20,27 @@ WeaponData
 	// Weapon data is loaded by both the Game and Client DLLs.
 	"printname"			"Pistol"
 	"viewmodel"			"models/NF/Weapons/v/pistol2/nf_pistol2.mdl"
-	"playermodel"		"models/NF/Weapons/w/pistol2/nf_pistol2.mdl"
+	"playermodel"			"models/NF/Weapons/w/pistol2/nf_pistol2.mdl"
 	
-	"anim_prefix"		"pistol"
+	"anim_prefix"			"pistol"
 	"bucket"			"0"
-	"bucket_position"	"0"
+	"bucket_position"		"0"
 
 	"clip_size"			"12"
-	"clip2_size"		"-1"
+	"clip2_size"			"-1"
 	
-	"primary_ammo"		"AMMO_PISTOL"
-	"secondary_ammo"	"AMMO_MELEE"
+	"primary_ammo"			"AMMO_PISTOL"
+	"secondary_ammo"		"AMMO_MELEE"
 
 	"weight"			"8"
-	"item_flags"		"0"
+	"item_flags"			"0"
 
-	"BuiltRightHanded"	"0"
-	"AllowFlipping"		"1" 
+	"BuiltRightHanded"		"0"
+	"AllowFlipping"			"1" 
 
-	"MeleeWeapon"		"0"
-	"MeleeDamage"		"70"	// damage per melee hit
-	"MeleeCycleTime"	"0.5"	// time between melee attacks
+	"MeleeWeapon"			"0"
+	"MeleeDamage"			"70"	// damage per melee hit
+	"MeleeCycleTime"		"0.5"	// time between melee attacks
 
 	//Accuracy Upgrade Modifier. Default is 0.75. The lower the better.
 	"AccuracyUpgradeModifier"	"0.90"

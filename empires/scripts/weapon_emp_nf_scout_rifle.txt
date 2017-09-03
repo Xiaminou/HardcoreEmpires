@@ -1,14 +1,14 @@
 WeaponData
 {
 	// Weapon characteristics:
-	"Damage"			"70"		// damage per bullet
-	"Bullets"			"1"			// bullets per shoot
+	"Damage"			"60"		// damage per bullet
+	"Bullets"			"1"		// bullets per shoot
 	"CycleTime"			"1.275"		// time between shoots
-	"Falloff"			"1300"		// distance at which bullet strength has dropped to 85% (damage decreases linearly)
-	"Falloffbase"		"0.85"		// Falloff Base default 0.85
-	"MinimalDamage"		"60"		// Minimal damage the weapon does
+	"Falloff"			"4000"		// distance at which bullet strength has dropped to 85% (damage decreases linearly)
+	"Falloffbase"			"0.85"		// Falloff Base default 0.85
+	"MinimalDamage"			"55"		// Minimal damage the weapon does
 	
-	"Damage Head Modifier"		"3"
+	"Damage Head Modifier"		"3.5"
 	"Damage Chest Modifier"		"1"
 	"Damage Stomach Modifier"	"1"
 	"Damage Left Arm Modifier"	"0.7"
@@ -53,8 +53,8 @@ WeaponData
 	//When at rest
 	"JumpingSpread"			"0.5"
 	"StandingSpread"		"0.02"
-	"DuckingSpread"			"0.0005"
-	"ProneSpread"			"0.0005"
+	"DuckingSpread"			"0.01"
+	"ProneSpread"			"0.005"
 
 	//When moving at full speed (sv_maxspeed)
 	"JumpingSpreadModifier"		"0.5"
@@ -70,9 +70,9 @@ WeaponData
 
 	//Increment spread by this amount for every shot fired to maximum of moving at full speed spread
 	"JumpingSpreadIncrement"	"0.01"
-	"StandingSpreadIncrement"	"0.005"
-	"DuckingSpreadIncrement"	"0.002"
-	"ProneSpreadIncrement"	"0.002"
+	"StandingSpreadIncrement"	"0.04"
+	"DuckingSpreadIncrement"	"0.02"
+	"ProneSpreadIncrement"	"0.01"
 
 	//Decrease spread by this amount for every second not fired down to minimum rest spread
 	"JumpingSpreadDecrement"	"0.01"

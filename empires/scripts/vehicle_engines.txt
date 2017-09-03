@@ -553,7 +553,7 @@ Vehicle_Engines
 		"Stall On Heat"			"0.8"	//the percentage of heat to begin stalling the engine
 		"Heat Capacity"			"100.0"
 		"Heat Stall Penalty"		"0.0" 	//how much max throttle is limited to when overheating is occurring
-		"Heat Dissipation"		"5"	//amount of heat removed per second
+		"Heat Dissipation"		"6"	//amount of heat removed per second
 	}
 	"Mechanical Eng 1"
 	{

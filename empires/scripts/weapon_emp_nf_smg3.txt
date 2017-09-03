@@ -1,14 +1,14 @@
 WeaponData
 {
 	// Weapon characteristics:
-	"Damage"			"38"		// damage per bullet
+	"Damage"			"30"		// damage per bullet
 	"Bullets"			"1"		// bullets per shoot
 	"CycleTime"			"0.15"		// time between shoots
-	"Falloff"			"1500"		// distance at which bullet strength has dropped to 85% (damage decreases linearly)
-	"Falloff Base"		"0.9"		// falloff base
-	"MinimalDamage"		"29"		// bullet will always deal this amount of damage even after damage decrease
+	"Falloff"			"3000"		// distance at which bullet strength has dropped to 85% (damage decreases linearly)
+	"Falloff Base"			"0.9"		// falloff base
+	"MinimalDamage"			"23"		// bullet will always deal this amount of damage even after damage decrease
 
-	"Damage Head Modifier"		"2"
+	"Damage Head Modifier"		"3.0"
 	"Damage Chest Modifier"		"1"
 	"Damage Stomach Modifier"	"1"
 	"Damage Left Arm Modifier"	"0.7"
@@ -42,7 +42,7 @@ WeaponData
 	"MeleeCycleTime"		"0.5"	// time between melee attacks
 	//Accuracy Upgrade Modifier. Default is 0.75. The lower the better.
 	"AccuracyUpgradeModifier"	"0.90"
-	//Weapon Spread
+//Weapon Spread
 	//When at rest
 	"JumpingSpread"			"0.03"
 	"StandingSpread"		"0.015"
@@ -108,14 +108,14 @@ WeaponData
 
 	"ProneKick_X_FullSpread_Max"	"1"
 	"ProneKick_X_FullSpread_Min"	"0"
-	"ProneKick_X_NoSpread_Max"		"1"
-	"ProneKick_X_NoSpread_Min"		"0.5"
+	"ProneKick_X_NoSpread_Max"	"1"
+	"ProneKick_X_NoSpread_Min"	"0.5"
 
 	"ProneKick_Y_FullSpread_Max"	"0.1"
 	"ProneKick_Y_FullSpread_Min"	"0"
-	"ProneKick_Y_NoSpread_Max"		"0.05"
-	"ProneKick_Y_NoSpread_Min"		"0"
-	//End Weapon Spread
+	"ProneKick_Y_NoSpread_Max"	"0.05"
+	"ProneKick_Y_NoSpread_Min"	"0"
+//End Weapon Spread
 
 
 	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
