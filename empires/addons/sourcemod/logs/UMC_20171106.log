@@ -1,0 +1,41 @@
+L 11/06/2017 - 00:00:07: [umc-rockthevote.smx] RTV is now available.
+L 11/06/2017 - 00:42:11: [umc-emp-mapvote.smx] Map vote will appear in 30 seconds.
+L 11/06/2017 - 00:42:41: [umc-emp-mapvote.smx] Starting a map vote.
+L 11/06/2017 - 00:42:41: [umc-core.smx] Initiating Vote Type: Map
+L 11/06/2017 - 00:43:20: [umc-core.smx] RUNOFF: Starting runoff vote.
+L 11/06/2017 - 00:43:20: [umc-core.smx] Initiating Vote Type: Map
+L 11/06/2017 - 00:43:50: [umc-core.smx] Setting nextmap to: emp_canyon
+L 11/06/2017 - 00:43:50: [umc-randomcycle.smx] Disabling random nextmap selection.
+L 11/06/2017 - 00:43:50: [umc-core.smx] umc-emp-mapvote.smx: Changing map to 'emp_canyon' in 5 seconds.
+L 11/06/2017 - 00:43:50: [umc-core.smx] MAPVOTE: Players voted for map 'emp_canyon' from group 'Commander Maps'
+L 11/06/2017 - 00:43:56: [umc-core.smx] ---------------------MAP CHANGE: emp_canyon---------------------
+L 11/06/2017 - 00:43:56: [umc-endvote-warnings.smx] Successfully parsed and set up 11 vote warnings.
+L 11/06/2017 - 00:43:56: [umc-rockthevote.smx] RTV will be made available in 60 seconds.
+L 11/06/2017 - 00:44:57: [umc-rockthevote.smx] RTV is now available.
+L 11/06/2017 - 02:29:17: [umc-emp-mapvote.smx] Map vote will appear in 30 seconds.
+L 11/06/2017 - 02:29:47: [umc-emp-mapvote.smx] Starting a map vote.
+L 11/06/2017 - 02:29:47: [umc-core.smx] Initiating Vote Type: Map
+L 11/06/2017 - 02:30:12: [umc-rockthevote.smx] Starting RTV.
+L 11/06/2017 - 02:30:12: [umc-rockthevote.smx] There is a vote already in progress, cannot start a new vote.
+L 11/06/2017 - 02:30:12: [umc-core.smx] Setting nextmap to: fun_ricochet_a3
+L 11/06/2017 - 02:30:12: [umc-randomcycle.smx] Disabling random nextmap selection.
+L 11/06/2017 - 02:30:12: [umc-core.smx] umc-emp-mapvote.smx: Changing map to 'fun_ricochet_a3' in 5 seconds.
+L 11/06/2017 - 02:30:12: [umc-core.smx] MAPVOTE: Players voted for map 'fun_ricochet_a3' from group 'Cooldown Maps'
+L 11/06/2017 - 02:30:13: [umc-rockthevote.smx] Starting RTV.
+L 11/06/2017 - 02:30:17: [umc-core.smx] ---------------------MAP CHANGE: fun_ricochet_a3---------------------
+L 11/06/2017 - 02:30:17: [umc-endvote-warnings.smx] Successfully parsed and set up 11 vote warnings.
+L 11/06/2017 - 02:30:17: [umc-rockthevote.smx] RTV will be made available in 60 seconds.
+L 11/06/2017 - 02:31:18: [umc-rockthevote.smx] RTV is now available.
+L 11/06/2017 - 02:31:47: [umc-emp-mapvote.smx] Map vote will appear in 30 seconds.
+L 11/06/2017 - 02:32:17: [umc-emp-mapvote.smx] Starting a map vote.
+L 11/06/2017 - 02:32:17: [umc-core.smx] Initiating Vote Type: Map
+L 11/06/2017 - 02:32:17: [umc-core.smx] Could not start core vote, no players to display vote to!
+L 11/06/2017 - 02:32:17: [umc-emp-mapvote.smx] Could not start UMC vote.
+L 11/06/2017 - 02:32:17: [umc-emp-mapvote.smx] WARNING: Map Voting failure. Initiating random map fail-safe.
+L 11/06/2017 - 02:32:17: [umc-core.smx] Setting nextmap to: con_urbanchaos_fix
+L 11/06/2017 - 02:32:17: [umc-randomcycle.smx] Disabling random nextmap selection.
+L 11/06/2017 - 02:32:17: [umc-core.smx] umc-emp-mapvote.smx: Changing map to 'con_urbanchaos_fix' in 5 seconds.
+L 11/06/2017 - 02:32:23: [umc-core.smx] ---------------------MAP CHANGE: con_urbanchaos_fix---------------------
+L 11/06/2017 - 02:32:23: [umc-endvote-warnings.smx] Successfully parsed and set up 11 vote warnings.
+L 11/06/2017 - 02:32:23: [umc-rockthevote.smx] RTV will be made available in 60 seconds.
+L 11/06/2017 - 02:33:24: [umc-rockthevote.smx] RTV is now available.

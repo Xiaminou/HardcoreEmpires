@@ -1,0 +1,145 @@
+L 07/09/2017 - 16:52:19: SourceMod error session started
+L 07/09/2017 - 16:52:19: Info (map "con_district402") (file "errors_20170709.log")
+L 07/09/2017 - 16:52:19: [SDKTOOLS] Invalid detour address passed - Disabling detour to prevent crashes
+L 07/09/2017 - 16:52:19: [SDKTOOLS] Failed to find PlayerRunCmd offset - OnPlayerRunCmd forward disabled.
+L 07/09/2017 - 16:52:20: [nextmap.smx] FATAL: Cannot load map cycle. Nextmap not loaded.
+L 07/09/2017 - 16:52:20: [SM] Exception reported: Mapcycle Not Found
+L 07/09/2017 - 16:52:20: [SM] Blaming: nextmap.smx()
+L 07/09/2017 - 16:52:20: [SM] Call stack trace:
+L 07/09/2017 - 16:52:20: [SM]   [0] SetFailState
+L 07/09/2017 - 16:52:20: [SM]   [1] Line 139, D:\builds\build-sourcemod-msvc12\windows-1.8\build\plugins\nextmap.sp::FindAndSetNextMap()
+L 07/09/2017 - 16:52:20: [SM]   [2] Line 109, D:\builds\build-sourcemod-msvc12\windows-1.8\build\plugins\nextmap.sp::OnConfigsExecuted()
+L 07/09/2017 - 17:06:14: [SM] Exception reported: Heap leak detected: hp:11372 should be 11364!
+L 07/09/2017 - 17:06:14: [nextmap.smx] FATAL: Cannot load map cycle. Nextmap not loaded.
+L 07/09/2017 - 17:06:14: [SM] Exception reported: Mapcycle Not Found
+L 07/09/2017 - 17:06:14: [SM] Blaming: nextmap.smx()
+L 07/09/2017 - 17:06:14: [SM] Call stack trace:
+L 07/09/2017 - 17:06:14: [SM]   [0] SetFailState
+L 07/09/2017 - 17:06:14: [SM]   [1] Line 139, D:\builds\build-sourcemod-msvc12\windows-1.8\build\plugins\nextmap.sp::FindAndSetNextMap()
+L 07/09/2017 - 17:06:14: [SM]   [2] Line 109, D:\builds\build-sourcemod-msvc12\windows-1.8\build\plugins\nextmap.sp::OnConfigsExecuted()
+L 07/09/2017 - 17:06:48: [SM] Exception reported: Heap leak detected: hp:12160 should be 12152!
+L 07/09/2017 - 17:33:00: [SM] Exception reported: Invalid timer handle 124e0126 (error 1)
+L 07/09/2017 - 17:33:00: [SM] Blaming: umc-emp-mapvote.smx()
+L 07/09/2017 - 17:33:00: [SM] Call stack trace:
+L 07/09/2017 - 17:33:00: [SM]   [0] KillTimer
+L 07/09/2017 - 17:33:00: [SM]   [1] Line 686, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-emp-mapvote.sp::UMC_OnNextmapSet()
+L 07/09/2017 - 17:33:00: [SM]   [3] Call_Finish
+L 07/09/2017 - 17:33:00: [SM]   [4] Line 4834, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::DoMapChange()
+L 07/09/2017 - 17:33:00: [SM]   [5] Line 4267, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteWinner()
+L 07/09/2017 - 17:33:00: [SM]   [6] Line 3819, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteWinner()
+L 07/09/2017 - 17:33:00: [SM]   [7] Line 3795, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteResults()
+L 07/09/2017 - 17:33:00: [SM]   [8] Line 1277, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Native_UMCVoteManagerComplete()
+L 07/09/2017 - 17:33:00: [SM]   [10] UMC_VoteManagerVoteCompleted
+L 07/09/2017 - 17:33:00: [SM]   [11] Line 2309, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteResults()
+L 07/09/2017 - 17:33:07: Error log file session closed.
+L 07/09/2017 - 17:33:08: SourceMod error session started
+L 07/09/2017 - 17:33:08: Info (map "con_glycencity") (file "errors_20170709.log")
+L 07/09/2017 - 17:33:08: [nextmap.smx] FATAL: Cannot load map cycle. Nextmap not loaded.
+L 07/09/2017 - 17:33:08: [SM] Exception reported: Mapcycle Not Found
+L 07/09/2017 - 17:33:08: [SM] Blaming: nextmap.smx()
+L 07/09/2017 - 17:33:08: [SM] Call stack trace:
+L 07/09/2017 - 17:33:08: [SM]   [0] SetFailState
+L 07/09/2017 - 17:33:08: [SM]   [1] Line 139, D:\builds\build-sourcemod-msvc12\windows-1.8\build\plugins\nextmap.sp::FindAndSetNextMap()
+L 07/09/2017 - 17:33:08: [SM]   [2] Line 109, D:\builds\build-sourcemod-msvc12\windows-1.8\build\plugins\nextmap.sp::OnConfigsExecuted()
+L 07/09/2017 - 18:03:15: [SM] Exception reported: Invalid timer handle 193102e4 (error 1)
+L 07/09/2017 - 18:03:15: [SM] Blaming: umc-emp-mapvote.smx()
+L 07/09/2017 - 18:03:15: [SM] Call stack trace:
+L 07/09/2017 - 18:03:15: [SM]   [0] KillTimer
+L 07/09/2017 - 18:03:15: [SM]   [1] Line 686, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-emp-mapvote.sp::UMC_OnNextmapSet()
+L 07/09/2017 - 18:03:15: [SM]   [3] Call_Finish
+L 07/09/2017 - 18:03:15: [SM]   [4] Line 4834, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::DoMapChange()
+L 07/09/2017 - 18:03:15: [SM]   [5] Line 4267, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteWinner()
+L 07/09/2017 - 18:03:15: [SM]   [6] Line 3819, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteWinner()
+L 07/09/2017 - 18:03:15: [SM]   [7] Line 3795, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteResults()
+L 07/09/2017 - 18:03:15: [SM]   [8] Line 1277, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Native_UMCVoteManagerComplete()
+L 07/09/2017 - 18:03:15: [SM]   [10] UMC_VoteManagerVoteCompleted
+L 07/09/2017 - 18:03:15: [SM]   [11] Line 2309, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteResults()
+L 07/09/2017 - 18:03:20: Error log file session closed.
+L 07/09/2017 - 18:03:22: SourceMod error session started
+L 07/09/2017 - 18:03:22: Info (map "emp_vehicletraining_2013") (file "errors_20170709.log")
+L 07/09/2017 - 18:03:22: [nextmap.smx] FATAL: Cannot load map cycle. Nextmap not loaded.
+L 07/09/2017 - 18:03:22: [SM] Exception reported: Mapcycle Not Found
+L 07/09/2017 - 18:03:22: [SM] Blaming: nextmap.smx()
+L 07/09/2017 - 18:03:22: [SM] Call stack trace:
+L 07/09/2017 - 18:03:22: [SM]   [0] SetFailState
+L 07/09/2017 - 18:03:22: [SM]   [1] Line 139, D:\builds\build-sourcemod-msvc12\windows-1.8\build\plugins\nextmap.sp::FindAndSetNextMap()
+L 07/09/2017 - 18:03:22: [SM]   [2] Line 109, D:\builds\build-sourcemod-msvc12\windows-1.8\build\plugins\nextmap.sp::OnConfigsExecuted()
+L 07/09/2017 - 18:41:02: [SM] Exception reported: Invalid timer handle 1dfb02fd (error 1)
+L 07/09/2017 - 18:41:02: [SM] Blaming: umc-emp-mapvote.smx()
+L 07/09/2017 - 18:41:02: [SM] Call stack trace:
+L 07/09/2017 - 18:41:02: [SM]   [0] KillTimer
+L 07/09/2017 - 18:41:02: [SM]   [1] Line 686, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-emp-mapvote.sp::UMC_OnNextmapSet()
+L 07/09/2017 - 18:41:02: [SM]   [3] Call_Finish
+L 07/09/2017 - 18:41:02: [SM]   [4] Line 4834, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::DoMapChange()
+L 07/09/2017 - 18:41:02: [SM]   [5] Line 4267, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteWinner()
+L 07/09/2017 - 18:41:02: [SM]   [6] Line 3819, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteWinner()
+L 07/09/2017 - 18:41:02: [SM]   [7] Line 3795, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteResults()
+L 07/09/2017 - 18:41:02: [SM]   [8] Line 1277, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Native_UMCVoteManagerComplete()
+L 07/09/2017 - 18:41:02: [SM]   [10] UMC_VoteManagerVoteCompleted
+L 07/09/2017 - 18:41:02: [SM]   [11] Line 2309, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteResults()
+L 07/09/2017 - 18:41:07: Error log file session closed.
+L 07/09/2017 - 18:41:09: SourceMod error session started
+L 07/09/2017 - 18:41:09: Info (map "emp_nuclear_b8u_xfix") (file "errors_20170709.log")
+L 07/09/2017 - 18:41:09: [nextmap.smx] FATAL: Cannot load map cycle. Nextmap not loaded.
+L 07/09/2017 - 18:41:09: [SM] Exception reported: Mapcycle Not Found
+L 07/09/2017 - 18:41:09: [SM] Blaming: nextmap.smx()
+L 07/09/2017 - 18:41:09: [SM] Call stack trace:
+L 07/09/2017 - 18:41:09: [SM]   [0] SetFailState
+L 07/09/2017 - 18:41:09: [SM]   [1] Line 139, D:\builds\build-sourcemod-msvc12\windows-1.8\build\plugins\nextmap.sp::FindAndSetNextMap()
+L 07/09/2017 - 18:41:09: [SM]   [2] Line 109, D:\builds\build-sourcemod-msvc12\windows-1.8\build\plugins\nextmap.sp::OnConfigsExecuted()
+L 07/09/2017 - 19:18:52: [SM] Exception reported: Invalid timer handle 280b02f4 (error 1)
+L 07/09/2017 - 19:18:52: [SM] Blaming: umc-emp-mapvote.smx()
+L 07/09/2017 - 19:18:52: [SM] Call stack trace:
+L 07/09/2017 - 19:18:52: [SM]   [0] KillTimer
+L 07/09/2017 - 19:18:52: [SM]   [1] Line 686, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-emp-mapvote.sp::UMC_OnNextmapSet()
+L 07/09/2017 - 19:18:52: [SM]   [3] Call_Finish
+L 07/09/2017 - 19:18:52: [SM]   [4] Line 4834, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::DoMapChange()
+L 07/09/2017 - 19:18:52: [SM]   [5] Line 4267, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteWinner()
+L 07/09/2017 - 19:18:52: [SM]   [6] Line 3819, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteWinner()
+L 07/09/2017 - 19:18:52: [SM]   [7] Line 3795, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteResults()
+L 07/09/2017 - 19:18:52: [SM]   [8] Line 1277, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Native_UMCVoteManagerComplete()
+L 07/09/2017 - 19:18:52: [SM]   [10] UMC_VoteManagerVoteCompleted
+L 07/09/2017 - 19:18:52: [SM]   [11] Line 2309, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteResults()
+L 07/09/2017 - 19:18:58: Error log file session closed.
+L 07/09/2017 - 19:19:00: SourceMod error session started
+L 07/09/2017 - 19:19:00: Info (map "emp_drygulch_a6") (file "errors_20170709.log")
+L 07/09/2017 - 19:19:00: [nextmap.smx] FATAL: Cannot load map cycle. Nextmap not loaded.
+L 07/09/2017 - 19:19:00: [SM] Exception reported: Mapcycle Not Found
+L 07/09/2017 - 19:19:00: [SM] Blaming: nextmap.smx()
+L 07/09/2017 - 19:19:00: [SM] Call stack trace:
+L 07/09/2017 - 19:19:00: [SM]   [0] SetFailState
+L 07/09/2017 - 19:19:00: [SM]   [1] Line 139, D:\builds\build-sourcemod-msvc12\windows-1.8\build\plugins\nextmap.sp::FindAndSetNextMap()
+L 07/09/2017 - 19:19:00: [SM]   [2] Line 109, D:\builds\build-sourcemod-msvc12\windows-1.8\build\plugins\nextmap.sp::OnConfigsExecuted()
+L 07/09/2017 - 20:53:58: Error log file session closed.
+L 07/09/2017 - 20:53:59: SourceMod error session started
+L 07/09/2017 - 20:53:59: Info (map "emp_downfall") (file "errors_20170709.log")
+L 07/09/2017 - 20:53:59: [nextmap.smx] FATAL: Cannot load map cycle. Nextmap not loaded.
+L 07/09/2017 - 20:53:59: [SM] Exception reported: Mapcycle Not Found
+L 07/09/2017 - 20:53:59: [SM] Blaming: nextmap.smx()
+L 07/09/2017 - 20:53:59: [SM] Call stack trace:
+L 07/09/2017 - 20:53:59: [SM]   [0] SetFailState
+L 07/09/2017 - 20:53:59: [SM]   [1] Line 139, D:\builds\build-sourcemod-msvc12\windows-1.8\build\plugins\nextmap.sp::FindAndSetNextMap()
+L 07/09/2017 - 20:53:59: [SM]   [2] Line 109, D:\builds\build-sourcemod-msvc12\windows-1.8\build\plugins\nextmap.sp::OnConfigsExecuted()
+L 07/09/2017 - 23:53:28: [SM] Exception reported: Invalid timer handle 39470322 (error 1)
+L 07/09/2017 - 23:53:28: [SM] Blaming: umc-emp-mapvote.smx()
+L 07/09/2017 - 23:53:28: [SM] Call stack trace:
+L 07/09/2017 - 23:53:28: [SM]   [0] KillTimer
+L 07/09/2017 - 23:53:28: [SM]   [1] Line 686, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-emp-mapvote.sp::UMC_OnNextmapSet()
+L 07/09/2017 - 23:53:28: [SM]   [3] Call_Finish
+L 07/09/2017 - 23:53:28: [SM]   [4] Line 4834, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::DoMapChange()
+L 07/09/2017 - 23:53:28: [SM]   [5] Line 4267, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteWinner()
+L 07/09/2017 - 23:53:28: [SM]   [6] Line 3819, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteWinner()
+L 07/09/2017 - 23:53:28: [SM]   [7] Line 3795, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteResults()
+L 07/09/2017 - 23:53:28: [SM]   [8] Line 1277, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Native_UMCVoteManagerComplete()
+L 07/09/2017 - 23:53:28: [SM]   [10] UMC_VoteManagerVoteCompleted
+L 07/09/2017 - 23:53:28: [SM]   [11] Line 2309, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteResults()
+L 07/09/2017 - 23:53:34: Error log file session closed.
+L 07/09/2017 - 23:53:34: SourceMod error session started
+L 07/09/2017 - 23:53:34: Info (map "emp_crossroads") (file "errors_20170709.log")
+L 07/09/2017 - 23:53:34: [nextmap.smx] FATAL: Cannot load map cycle. Nextmap not loaded.
+L 07/09/2017 - 23:53:34: [SM] Exception reported: Mapcycle Not Found
+L 07/09/2017 - 23:53:34: [SM] Blaming: nextmap.smx()
+L 07/09/2017 - 23:53:34: [SM] Call stack trace:
+L 07/09/2017 - 23:53:34: [SM]   [0] SetFailState
+L 07/09/2017 - 23:53:34: [SM]   [1] Line 139, D:\builds\build-sourcemod-msvc12\windows-1.8\build\plugins\nextmap.sp::FindAndSetNextMap()
+L 07/09/2017 - 23:53:34: [SM]   [2] Line 109, D:\builds\build-sourcemod-msvc12\windows-1.8\build\plugins\nextmap.sp::OnConfigsExecuted()

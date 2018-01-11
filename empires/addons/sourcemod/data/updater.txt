@@ -1,0 +1,21 @@
+"Updater"
+{
+	"Information"
+	{
+		"Version"
+		{
+			"Latest"	"v0.54"
+		}
+	}
+	
+	"Files"
+	{
+		"Plugin"	"Path_Mod/addons/sourcemod/plugins/votetime.smx"
+		"Plugin"	"Path_Mod/sound/votetime/count.wav"
+		"Plugin"	"Path_Mod/sound/votetime/count_end.wav"
+		"Plugin"	"Path_Mod/sound/votetime/paused.mp3"
+		"Plugin"	"Path_Mod/sound/votetime/resumed.mp3"
+		
+		"Source"	"Path_Mod/addons/sourcemod/scripting/votetime.sp"
+	}
+}

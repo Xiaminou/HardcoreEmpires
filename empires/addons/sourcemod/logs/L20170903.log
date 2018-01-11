@@ -1,0 +1,131 @@
+L 09/03/2017 - 00:02:16: SourceMod log file session started (file "L20170903.log") (Version "1.8.0.5912")
+L 09/03/2017 - 00:02:16: [basechat.smx] "Mr. X.<125><[U:1:27106968]><>" triggered sm_say (text BE don't exploit again)
+L 09/03/2017 - 00:02:20: [basechat.smx] "Mr. X.<125><[U:1:27106968]><>" triggered sm_say (text it's not fun for anyone)
+L 09/03/2017 - 00:05:00: [basecommands.smx] "Mr. X.<125><[U:1:27106968]><>" console command (cmdline "emp_sv_vehicle_minimap_interval 1")
+L 09/03/2017 - 00:05:07: [basecommands.smx] "Mr. X.<125><[U:1:27106968]><>" console command (cmdline "emp_sv_player_minimap_interval 1")
+L 09/03/2017 - 00:05:18: [basecommands.smx] "Mr. X.<125><[U:1:27106968]><>" console command (cmdline "emp_sv_commander_resource_interval 1")
+L 09/03/2017 - 00:05:21: [basecommands.smx] "Mr. X.<125><[U:1:27106968]><>" console command (cmdline "emp_sv_commander_resource_interval")
+L 09/03/2017 - 00:05:27: [basecommands.smx] "Mr. X.<125><[U:1:27106968]><>" console command (cmdline "emp_sv_commander_visiblity_interval 0.4")
+L 09/03/2017 - 00:05:51: [basecommands.smx] "Mr. X.<125><[U:1:27106968]><>" console command (cmdline "emp_sv_commander_visiblity_interval 1")
+L 09/03/2017 - 00:26:08: [SM] Changed map to "emp_fury_rc1"
+L 09/03/2017 - 00:26:09: -------- Mapchange to emp_fury_rc1 --------
+L 09/03/2017 - 00:26:35: SourceMod log file session started (file "L20170903.log") (Version "1.8.0.5912")
+L 09/03/2017 - 00:26:35: -------- Mapchange to con_district402 --------
+L 09/03/2017 - 00:26:35: [security_entity_limit.smx] Security Entity Limit [SEL] Activate!
+L 09/03/2017 - 00:26:35: [security_entity_limit.smx] [SEL]Current version: 0.5.4
+Plugin made by Benoist3012!
+L 09/03/2017 - 00:26:46: [security_entity_limit.smx] [SEL] 434 entities have been protected from deleting.This map contain 1614 free entity slot!
+L 09/03/2017 - 00:27:17: [basecommands.smx] "Mr. X.<6><[U:1:27106968]><>" changed map to "emp_fury_rc1"
+L 09/03/2017 - 00:27:20: [SM] Changed map to "emp_fury_rc1"
+L 09/03/2017 - 00:27:20: -------- Mapchange to emp_fury_rc1 --------
+L 09/03/2017 - 00:27:31: [basecommands.smx] "Mr. X.<6><[U:1:27106968]><>" console command (cmdline "emp_allowspectators 1")
+L 09/03/2017 - 00:27:31: [basecommands.smx] "Mr. X.<6><[U:1:27106968]><>" console command (cmdline "emp_allowspectators 0")
+L 09/03/2017 - 00:27:32: [security_entity_limit.smx] [SEL] 207 entities have been protected from deleting.This map contain 1841 free entity slot!
+L 09/03/2017 - 00:28:48: [basecommands.smx] "Mr. X.<6><[U:1:27106968]><>" console command (cmdline "emp_sv_player_minimap_interval")
+L 09/03/2017 - 00:45:47: [basevotes.smx] "Neoony<33><[U:1:40282661]><>" initiated a ban vote against "JK<4><[U:1:17292082]><>"
+L 09/03/2017 - 00:52:06: [basechat.smx] "Mr. X.<6><[U:1:27106968]><>" triggered sm_say (text If NF CV is glitched admins can ungrief it)
+L 09/03/2017 - 02:17:54: [SM] Changed map to "emp_forest_ob_2013"
+L 09/03/2017 - 02:17:54: -------- Mapchange to emp_forest_ob_2013 --------
+L 09/03/2017 - 02:18:16: SourceMod log file session started (file "L20170903.log") (Version "1.8.0.5912")
+L 09/03/2017 - 02:18:16: -------- Mapchange to con_district402 --------
+L 09/03/2017 - 02:18:16: [security_entity_limit.smx] Security Entity Limit [SEL] Activate!
+L 09/03/2017 - 02:18:16: [security_entity_limit.smx] [SEL]Current version: 0.5.4
+Plugin made by Benoist3012!
+L 09/03/2017 - 02:18:27: [security_entity_limit.smx] [SEL] 436 entities have been protected from deleting.This map contain 1612 free entity slot!
+L 09/03/2017 - 02:43:11: [SM] Changed map to "emp_duststorm"
+L 09/03/2017 - 02:43:12: -------- Mapchange to emp_duststorm --------
+L 09/03/2017 - 02:43:27: [security_entity_limit.smx] [SEL] 239 entities have been protected from deleting.This map contain 1809 free entity slot!
+L 09/03/2017 - 03:07:07: [sbpp_main.smx] "Icon<22><[U:1:15813678]><>" banned "ffff<31><[U:1:16097022]><>" (minutes "60") (reason "griefing the comm")
+L 09/03/2017 - 03:08:17: [SM] Changed map to "emp_coast_fix"
+L 09/03/2017 - 03:08:17: -------- Mapchange to emp_coast_fix --------
+L 09/03/2017 - 03:15:55: SourceMod log file session started (file "L20170903.log") (Version "1.8.0.5912")
+L 09/03/2017 - 03:15:55: -------- Mapchange to con_district402 --------
+L 09/03/2017 - 03:15:55: [security_entity_limit.smx] Security Entity Limit [SEL] Activate!
+L 09/03/2017 - 03:15:55: [security_entity_limit.smx] [SEL]Current version: 0.5.4
+Plugin made by Benoist3012!
+L 09/03/2017 - 15:28:15: SourceMod log file session started (file "L20170903.log") (Version "1.8.0.5912")
+L 09/03/2017 - 15:28:15: -------- Mapchange to con_district402 --------
+L 09/03/2017 - 15:28:15: [security_entity_limit.smx] Security Entity Limit [SEL] Activate!
+L 09/03/2017 - 15:28:15: [security_entity_limit.smx] [SEL]Current version: 0.5.4
+Plugin made by Benoist3012!
+L 09/03/2017 - 15:28:27: [security_entity_limit.smx] [SEL] 432 entities have been protected from deleting.This map contain 1616 free entity slot!
+L 09/03/2017 - 17:32:15: SourceMod log file session started (file "L20170903.log") (Version "1.8.0.5912")
+L 09/03/2017 - 17:32:15: -------- Mapchange to con_district402 --------
+L 09/03/2017 - 17:32:15: [security_entity_limit.smx] Security Entity Limit [SEL] Activate!
+L 09/03/2017 - 17:32:15: [security_entity_limit.smx] [SEL]Current version: 0.5.4
+Plugin made by Benoist3012!
+L 09/03/2017 - 17:32:26: [security_entity_limit.smx] [SEL] 432 entities have been protected from deleting.This map contain 1616 free entity slot!
+L 09/03/2017 - 17:35:41: SourceMod log file session started (file "L20170903.log") (Version "1.8.0.5912")
+L 09/03/2017 - 17:35:41: -------- Mapchange to con_district402 --------
+L 09/03/2017 - 17:35:41: [security_entity_limit.smx] Security Entity Limit [SEL] Activate!
+L 09/03/2017 - 17:35:41: [security_entity_limit.smx] [SEL]Current version: 0.5.4
+Plugin made by Benoist3012!
+L 09/03/2017 - 17:35:52: [security_entity_limit.smx] [SEL] 431 entities have been protected from deleting.This map contain 1617 free entity slot!
+L 09/03/2017 - 17:50:48: [basechat.smx] "Icon<4><[U:1:15813678]><>" triggered sm_psay to "Icon<4><[U:1:15813678]><>" (text test)
+L 09/03/2017 - 18:07:17: [basecommands.smx] "Mr. X.<2><[U:1:27106968]><>" console command (cmdline "sv_cheats 1")
+L 09/03/2017 - 18:07:21: [basecommands.smx] "Mr. X.<2><[U:1:27106968]><>" console command (cmdline "bot_add_imp")
+L 09/03/2017 - 18:08:03: [basecommands.smx] "Mr. X.<2><[U:1:27106968]><>" changed map to "con_district402"
+L 09/03/2017 - 18:08:06: [SM] Changed map to "con_district402"
+L 09/03/2017 - 18:08:08: -------- Mapchange to con_district402 --------
+L 09/03/2017 - 18:08:18: [security_entity_limit.smx] [SEL] 444 entities have been protected from deleting.This map contain 1604 free entity slot!
+L 09/03/2017 - 18:08:30: [basecommands.smx] "Mr. X.<2><[U:1:27106968]><>" console command (cmdline "sv_cheats 1")
+L 09/03/2017 - 18:08:34: [basecommands.smx] "Mr. X.<2><[U:1:27106968]><>" console command (cmdline "bot_add_nf")
+L 09/03/2017 - 18:08:55: SourceMod log file session started (file "L20170903.log") (Version "1.8.0.5912")
+L 09/03/2017 - 18:08:55: -------- Mapchange to con_district402 --------
+L 09/03/2017 - 18:08:55: [security_entity_limit.smx] Security Entity Limit [SEL] Activate!
+L 09/03/2017 - 18:08:55: [security_entity_limit.smx] [SEL]Current version: 0.5.4
+Plugin made by Benoist3012!
+L 09/03/2017 - 18:09:06: [security_entity_limit.smx] [SEL] 431 entities have been protected from deleting.This map contain 1617 free entity slot!
+L 09/03/2017 - 18:52:21: [SM] Changed map to "emp_vehicletraining_2013"
+L 09/03/2017 - 18:52:21: -------- Mapchange to emp_vehicletraining_2013 --------
+L 09/03/2017 - 18:52:34: [security_entity_limit.smx] [SEL] 342 entities have been protected from deleting.This map contain 1706 free entity slot!
+L 09/03/2017 - 19:27:52: [SM] Changed map to "con_urbanchaos_fix"
+L 09/03/2017 - 19:27:53: -------- Mapchange to con_urbanchaos_fix --------
+L 09/03/2017 - 19:28:05: [security_entity_limit.smx] [SEL] 664 entities have been protected from deleting.This map contain 1384 free entity slot!
+L 09/03/2017 - 19:40:40: [SM] Changed map to "emp_drygulch_a6"
+L 09/03/2017 - 19:40:41: -------- Mapchange to emp_drygulch_a6 --------
+L 09/03/2017 - 19:40:53: [security_entity_limit.smx] [SEL] 193 entities have been protected from deleting.This map contain 1855 free entity slot!
+L 09/03/2017 - 20:18:14: [SM] Changed map to "emp_massacred_rc1"
+L 09/03/2017 - 20:18:18: -------- Mapchange to emp_massacred_rc1 --------
+L 09/03/2017 - 20:18:28: [security_entity_limit.smx] [SEL] 349 entities have been protected from deleting.This map contain 1699 free entity slot!
+L 09/03/2017 - 20:47:26: [playercommands.smx] "Oktay<43><[U:1:116496292]><>" slayed "SPRINTER xD<42><[U:1:191948365]><>"
+L 09/03/2017 - 20:55:40: [SM] Changed map to "emp_nuclear_b8u_xfix"
+L 09/03/2017 - 20:55:41: -------- Mapchange to emp_nuclear_b8u_xfix --------
+L 09/03/2017 - 20:55:53: [security_entity_limit.smx] [SEL] 1001 entities have been protected from deleting.This map contain 1047 free entity slot!
+L 09/03/2017 - 20:57:19: [basecommands.smx] "Mr. X.<2><[U:1:27106968]><>" changed map to "emp_nuclear_b8u_xfix"
+L 09/03/2017 - 20:57:22: [SM] Changed map to "emp_nuclear_b8u_xfix"
+L 09/03/2017 - 20:57:22: -------- Mapchange to emp_nuclear_b8u_xfix --------
+L 09/03/2017 - 20:57:34: [security_entity_limit.smx] [SEL] 1015 entities have been protected from deleting.This map contain 1033 free entity slot!
+L 09/03/2017 - 21:37:10: [SM] Changed map to "emp_palmbay_fix"
+L 09/03/2017 - 21:37:11: -------- Mapchange to emp_palmbay_fix --------
+L 09/03/2017 - 21:37:25: [security_entity_limit.smx] [SEL] 226 entities have been protected from deleting.This map contain 1822 free entity slot!
+L 09/03/2017 - 22:14:12: [SM] Changed map to "emp_mvalley"
+L 09/03/2017 - 22:14:12: -------- Mapchange to emp_mvalley --------
+L 09/03/2017 - 22:14:28: SourceMod log file session started (file "L20170903.log") (Version "1.8.0.5912")
+L 09/03/2017 - 22:14:28: -------- Mapchange to con_district402 --------
+L 09/03/2017 - 22:14:28: [security_entity_limit.smx] Security Entity Limit [SEL] Activate!
+L 09/03/2017 - 22:14:28: [security_entity_limit.smx] [SEL]Current version: 0.5.4
+Plugin made by Benoist3012!
+L 09/03/2017 - 22:14:39: [security_entity_limit.smx] [SEL] 434 entities have been protected from deleting.This map contain 1614 free entity slot!
+L 09/03/2017 - 22:15:06: [SM] Changed map to "emp_mvalley"
+L 09/03/2017 - 22:15:06: -------- Mapchange to emp_mvalley --------
+L 09/03/2017 - 22:15:17: [security_entity_limit.smx] [SEL] 329 entities have been protected from deleting.This map contain 1719 free entity slot!
+L 09/03/2017 - 22:18:25: [basecommands.smx] "Mr. X.<24><[U:1:27106968]><>" console command (cmdline "emp_allowspectators 1")
+L 09/03/2017 - 22:18:26: [basecommands.smx] "Mr. X.<24><[U:1:27106968]><>" console command (cmdline "emp_allowspectators 0")
+L 09/03/2017 - 22:51:25: [SM] Changed map to "emp_forest_ob_2013"
+L 09/03/2017 - 22:51:26: -------- Mapchange to emp_forest_ob_2013 --------
+L 09/03/2017 - 22:51:42: [security_entity_limit.smx] [SEL] 282 entities have been protected from deleting.This map contain 1766 free entity slot!
+L 09/03/2017 - 23:12:15: [SM] Changed map to "emp_homeland_b9"
+L 09/03/2017 - 23:12:16: -------- Mapchange to emp_homeland_b9 --------
+L 09/03/2017 - 23:12:35: [security_entity_limit.smx] [SEL] 994 entities have been protected from deleting.This map contain 1054 free entity slot!
+L 09/03/2017 - 23:12:35: [basecommands.smx] "Mr. X.<24><[U:1:27106968]><>" console command (cmdline "emp_allowspectators 1")
+L 09/03/2017 - 23:12:35: [basecommands.smx] "Mr. X.<24><[U:1:27106968]><>" console command (cmdline "emp_allowspectators 0")
+L 09/03/2017 - 23:13:48: [basecommands.smx] "Mikleo<13><[U:1:376259319]><>" changed cvar (cvar "es_teambalance") (value "1")
+L 09/03/2017 - 23:14:49: [basecommands.smx] "Mikleo<13><[U:1:376259319]><>" changed cvar (cvar "es_teambalance_margin") (value "20")
+L 09/03/2017 - 23:22:55: [playercommands.smx] "Mr. X.<24><[U:1:27106968]><>" slayed "irene102<54><[U:1:360939636]><>"
+L 09/03/2017 - 23:23:31: [basecommands.smx] "Mr. X.<24><[U:1:27106968]><>" kicked "irene102<54><[U:1:360939636]><>" (reason "")
+L 09/03/2017 - 23:48:00: [SM] Changed map to "emp_coast_fix"
+L 09/03/2017 - 23:48:01: -------- Mapchange to emp_coast_fix --------
+L 09/03/2017 - 23:48:19: [security_entity_limit.smx] [SEL] 434 entities have been protected from deleting.This map contain 1614 free entity slot!
+L 09/03/2017 - 23:48:54: [basecommands.smx] "Mikleo<13><[U:1:376259319]><>" changed cvar (cvar "es_teambalance") (value "1")
+L 09/03/2017 - 23:49:39: [basecommands.smx] "Mikleo<13><[U:1:376259319]><>" changed cvar (cvar "es_teambalance_margin") (value "20")

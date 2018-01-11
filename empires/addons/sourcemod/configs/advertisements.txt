@@ -102,7 +102,7 @@
 	"13"
 	{
 		"type"	"S"
-		"text"	"{GREEN}[TIPS]{DEFAULT} To vote for a new squadleader type {GREEN}!sl <player>{DEFAULT} (requires 3 votes)."
+		"text"	"{GREEN}[TIPS]{DEFAULT} To vote for a new squadleader type {GREEN}!sl <player>{DEFAULT}."
 	}
 	
 	"14"
@@ -120,7 +120,7 @@
 	"16"
 	{
 		"type"	"S"
-		"text"	"{GREEN}[TIPS]{DEFAULT} To use squad voice chat type {GREEN}!bindsquadvoice <key>{DEFAULT}, then press that key like normal voice chat, only your squad will hear you."
+		"text"	"{GREEN}[TIPS]{DEFAULT} To access the request menu bind a key to {GREEN}sc_requestmenu{DEFAULT} in the console."
 	}
 	
 	"17"
@@ -128,13 +128,7 @@
 		"type"	"S"
 		"text"	"{GREEN}[TIPS]{DEFAULT} If you want to check out Empires Forums type {GREEN}!empires{DEFAULT} and click on forums."
 	}
-	
-	"18"
-	{
-		"type"	"S"
-		"text"	"{GREEN}[TIPS]{DEFAULT} To participate in the Empires League 2017 type {GREEN}!league{DEFAULT} and follow the instructions in the thread."
-	}
-	
+		
 	"19"
 	{
 		"type"	"S"
@@ -145,12 +139,6 @@
 	{
 		"type"	"S"
 		"text"	"{GREEN}[TIPS]{DEFAULT} If you're new type {GREEN}!rtfm{DEFAULT} and read the Quick-Start Guide."
-	}
-	
-	"21"
-	{
-		"type"	"S"
-		"text"	"{GREEN}[TIPS]{DEFAULT} If you want more informations on the mapcycle and maps in general type {GREEN}!mapinfo{DEFAULT}."
 	}
 	
 	"22"
@@ -172,12 +160,6 @@
 		"text"	"{GREEN}[TIPS]{DEFAULT} To see the (almost) full list of commands available type {GREEN}!commandlist{DEFAULT}."
 	}
 	
-	"25"
-	{
-		"type"	"S"
-		"text"	"{GREEN}[TIPS]{DEFAULT} Type {GREEN}!LeagueNF{DEFAULT} or {GREEN}!LeagueBE{DEFAULT} to join a team for the Empires League 2017."
-	}
-	
 	"26"
 	{
 		"type"	"S"
@@ -193,7 +175,7 @@
 	"28"
 	{
 		"type"	"S"
-		"text"	"{GREEN}[TIPS]{DEFAULT} To use Commander Voice chat type {GREEN}!bindcommvoice <key>{DEFAULT}, then press that key like normal voice chat, only your Commander will hear you."
+		"text"	"{GREEN}[TIPS]{DEFAULT} To see what skills your squadmaters are using type {GREEN}!squadskills{DEFAULT}."
 	}
 	
 	"29"
@@ -206,24 +188,6 @@
 	{
 		"type"	"S"
 		"text"	"{GREEN}[TIPS]{DEFAULT} To get notified of server events join our steam group by typing {GREEN}!steamgroup{DEFAULT}."
-	}
-	
-	"31"
-	{
-		"type"	"S"
-		"text"	"{GREEN}[TIPS]{DEFAULT} To obtain more informations about a map type {GREEN}!<mapname>{DEFAULT} for example: {GREEN}!emp_isle{DEFAULT}."
-	}
-	
-	"32"
-	{
-		"type"	"S"
-		"text"	"{GREEN}[TIPS]{DEFAULT} Commanders: type {GREEN}!commanderpoll{DEFAULT} to fill a form about your Commanding Skills."
-	}
-	
-	"33"
-	{
-		"type"	"S"
-		"text"	"{GREEN}[TIPS]{DEFAULT} If you don't know who to vote for type {GREEN}!commanders{DEFAULT} to view a list of known commanders and their ratings."
 	}
 	
 	"34"
@@ -248,7 +212,7 @@
 	"37"
 	{
 		"type"	"S"
-		"text"	"{GREEN}[TIPS]{DEFAULT} If you can't remember the commands press the {GREEN}home{DEFAULT} key on your keyboard to open up the menu."
+		"text"	"{GREEN}[TIPS]{DEFAULT} To request to be made Squad Leader to your Commander type {GREEN}!rsl{DEFAULT}."
 	}
 	
 	"38"

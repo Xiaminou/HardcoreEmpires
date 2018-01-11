@@ -1,0 +1,14 @@
+L 10/03/2017 - 00:04:10: [umc-emp-mapvote.smx] Map vote will appear in 30 seconds.
+L 10/03/2017 - 00:04:40: [umc-emp-mapvote.smx] Starting a map vote.
+L 10/03/2017 - 00:04:40: [umc-core.smx] Initiating Vote Type: Map
+L 10/03/2017 - 00:04:45: [umc-emp-mapvote.smx] WARNING: Map Voting failure. Initiating random map fail-safe.
+L 10/03/2017 - 00:04:45: [umc-core.smx] Setting nextmap to: emp_downfall
+L 10/03/2017 - 00:04:45: [umc-randomcycle.smx] Disabling random nextmap selection.
+L 10/03/2017 - 00:04:45: [umc-core.smx] umc-emp-mapvote.smx: Changing map to 'emp_downfall' in 5 seconds.
+L 10/03/2017 - 00:04:51: [umc-core.smx] ---------------------MAP CHANGE: emp_downfall---------------------
+L 10/03/2017 - 00:04:51: [umc-endvote-warnings.smx] Successfully parsed and set up 11 vote warnings.
+L 10/03/2017 - 00:04:51: [umc-playercountmonitor.smx] Min Players: 0, Max Players: 22
+L 10/03/2017 - 00:04:51: [umc-playercountmonitor.smx] Server will begin watching for inproper number of players in 240 seconds.
+L 10/03/2017 - 00:04:51: [umc-rockthevote.smx] RTV will be made available in 60 seconds.
+L 10/03/2017 - 00:05:52: [umc-rockthevote.smx] RTV is now available.
+L 10/03/2017 - 00:08:51: [umc-playercountmonitor.smx] Server is now watching for inproper number of players.

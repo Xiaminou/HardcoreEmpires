@@ -1,0 +1,39 @@
+L 12/05/2017 - 22:02:30: SourceMod error session started
+L 12/05/2017 - 22:02:30: Info (map "con_district402") (file "errors_20171205.log")
+L 12/05/2017 - 22:02:30: [SDKTOOLS] Invalid detour address passed - Disabling detour to prevent crashes
+L 12/05/2017 - 22:02:30: [SDKTOOLS] Failed to find PlayerRunCmd offset - OnPlayerRunCmd forward disabled.
+L 12/05/2017 - 23:42:13: SourceMod error session started
+L 12/05/2017 - 23:42:13: Info (map "con_district402") (file "errors_20171205.log")
+L 12/05/2017 - 23:42:13: [SDKTOOLS] Invalid detour address passed - Disabling detour to prevent crashes
+L 12/05/2017 - 23:42:13: [SDKTOOLS] Failed to find PlayerRunCmd offset - OnPlayerRunCmd forward disabled.
+L 12/05/2017 - 23:42:13: [SM] Exception reported: [SM warn] Database failure: Could not find database conf "warn"
+L 12/05/2017 - 23:42:13: [SM] Blaming: SM_warn.smx()
+L 12/05/2017 - 23:42:13: [SM] Call stack trace:
+L 12/05/2017 - 23:42:13: [SM]   [0] SetFailState
+L 12/05/2017 - 23:42:13: [SM]   [1] Line 257, SM_warn.sp::SQL_OnConnect()
+L 12/05/2017 - 23:42:13: [SM]   [3] SQL_TConnect
+L 12/05/2017 - 23:42:13: [SM]   [4] Line 240, SM_warn.sp::SetupDatabase()
+L 12/05/2017 - 23:42:13: [SM]   [5] Line 114, SM_warn.sp::OnPluginStart()
+L 12/05/2017 - 23:42:13: [SM] Exception reported: Native is not bound
+L 12/05/2017 - 23:42:13: [SM] Blaming: SM_warn.smx()
+L 12/05/2017 - 23:42:13: [SM] Call stack trace:
+L 12/05/2017 - 23:42:13: [SM]   [1] SocketCreate
+L 12/05/2017 - 23:42:13: [SM]   [2] Line 881, SM_warn.sp::UpdateCheck()
+L 12/05/2017 - 23:42:13: [SM]   [3] Line 128, SM_warn.sp::OnPluginStart()
+L 12/05/2017 - 23:42:13: [SM] Unable to load plugin "SM_warn.smx": Error detected in plugin startup (see error logs)
+L 12/05/2017 - 23:44:53: SourceMod error session started
+L 12/05/2017 - 23:44:53: Info (map "con_district402") (file "errors_20171205.log")
+L 12/05/2017 - 23:44:53: [SDKTOOLS] Invalid detour address passed - Disabling detour to prevent crashes
+L 12/05/2017 - 23:44:53: [SDKTOOLS] Failed to find PlayerRunCmd offset - OnPlayerRunCmd forward disabled.
+L 12/05/2017 - 23:44:54: [SM] Exception reported: Native is not bound
+L 12/05/2017 - 23:44:54: [SM] Blaming: SM_warn.smx()
+L 12/05/2017 - 23:44:54: [SM] Call stack trace:
+L 12/05/2017 - 23:44:54: [SM]   [1] SocketCreate
+L 12/05/2017 - 23:44:54: [SM]   [2] Line 881, SM_warn.sp::UpdateCheck()
+L 12/05/2017 - 23:44:54: [SM]   [3] Line 128, SM_warn.sp::OnPluginStart()
+L 12/05/2017 - 23:44:54: [SM] Unable to load plugin "SM_warn.smx": Error detected in plugin startup (see error logs)
+L 12/05/2017 - 23:44:54: [SM] Exception reported: Plugin not runnable
+L 12/05/2017 - 23:48:46: SourceMod error session started
+L 12/05/2017 - 23:48:46: Info (map "con_district402") (file "errors_20171205.log")
+L 12/05/2017 - 23:48:46: [SDKTOOLS] Invalid detour address passed - Disabling detour to prevent crashes
+L 12/05/2017 - 23:48:46: [SDKTOOLS] Failed to find PlayerRunCmd offset - OnPlayerRunCmd forward disabled.

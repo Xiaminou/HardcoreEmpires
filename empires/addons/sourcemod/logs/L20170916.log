@@ -1,0 +1,62 @@
+L 09/16/2017 - 00:37:30: SourceMod log file session started (file "L20170916.log") (Version "1.8.0.5912")
+L 09/16/2017 - 00:37:30: [SM] Changed map to "emp_shadows_attacks_fix"
+L 09/16/2017 - 00:37:31: -------- Mapchange to emp_shadows_attacks_fix --------
+L 09/16/2017 - 00:37:42: [security_entity_limit.smx] [SEL] 796 entities have been protected from deleting.This map contain 1252 free entity slot!
+L 09/16/2017 - 01:23:04: [SM] Changed map to "emp_crossroads"
+L 09/16/2017 - 01:23:06: -------- Mapchange to emp_crossroads --------
+L 09/16/2017 - 01:23:16: [security_entity_limit.smx] [SEL] 581 entities have been protected from deleting.This map contain 1467 free entity slot!
+L 09/16/2017 - 02:12:02: [SM] Changed map to "emp_beachfront_b2"
+L 09/16/2017 - 02:12:03: -------- Mapchange to emp_beachfront_b2 --------
+L 09/16/2017 - 02:12:13: [security_entity_limit.smx] [SEL] 167 entities have been protected from deleting.This map contain 1881 free entity slot!
+L 09/16/2017 - 03:03:32: [SM] Changed map to "emp_downfall"
+L 09/16/2017 - 03:03:33: -------- Mapchange to emp_downfall --------
+L 09/16/2017 - 03:03:43: [security_entity_limit.smx] [SEL] 160 entities have been protected from deleting.This map contain 1888 free entity slot!
+L 09/16/2017 - 04:41:37: [SM] Changed map to "emp_havoc_b1_fix"
+L 09/16/2017 - 04:41:38: -------- Mapchange to emp_havoc_b1_fix --------
+L 09/16/2017 - 04:41:48: [security_entity_limit.smx] [SEL] 700 entities have been protected from deleting.This map contain 1348 free entity slot!
+L 09/16/2017 - 04:55:29: [SM] Changed map to "con_district402"
+L 09/16/2017 - 04:55:29: -------- Mapchange to con_district402 --------
+L 09/16/2017 - 04:55:39: [security_entity_limit.smx] [SEL] 431 entities have been protected from deleting.This map contain 1617 free entity slot!
+L 09/16/2017 - 08:53:09: [SM] Changed map to "emp_drygulch_a6"
+L 09/16/2017 - 08:53:10: -------- Mapchange to emp_drygulch_a6 --------
+L 09/16/2017 - 08:53:20: [security_entity_limit.smx] [SEL] 180 entities have been protected from deleting.This map contain 1868 free entity slot!
+L 09/16/2017 - 13:12:57: [SM] Changed map to "emp_fogtown_cl2_fix"
+L 09/16/2017 - 13:12:58: -------- Mapchange to emp_fogtown_cl2_fix --------
+L 09/16/2017 - 13:13:08: [security_entity_limit.smx] [SEL] 948 entities have been protected from deleting.This map contain 1100 free entity slot!
+L 09/16/2017 - 19:20:44: [basecommands.smx] "Mikleo<46><[U:1:376259319]><>" changed map to "con_district402"
+L 09/16/2017 - 19:20:47: [SM] Changed map to "con_district402"
+L 09/16/2017 - 19:20:47: -------- Mapchange to con_district402 --------
+L 09/16/2017 - 19:20:58: [security_entity_limit.smx] [SEL] 431 entities have been protected from deleting.This map contain 1617 free entity slot!
+L 09/16/2017 - 19:21:32: [playercommands.smx] "Mikleo<46><[U:1:376259319]><>" renamed "Mikleo<46><[U:1:376259319]><>" to "t")
+L 09/16/2017 - 19:22:14: [basecommands.smx] "t<46><[U:1:376259319]><>" console command (cmdline "sv_cheats 1")
+L 09/16/2017 - 19:22:22: [basecommands.smx] "t<46><[U:1:376259319]><>" console command (cmdline "bot_add_nf")
+L 09/16/2017 - 19:22:38: SourceMod log file session started (file "L20170916.log") (Version "1.8.0.5912")
+L 09/16/2017 - 19:22:38: -------- Mapchange to con_district402 --------
+L 09/16/2017 - 19:22:38: [security_entity_limit.smx] Security Entity Limit [SEL] Activate!
+L 09/16/2017 - 19:22:38: [security_entity_limit.smx] [SEL]Current version: 0.5.4
+Plugin made by Benoist3012!
+L 09/16/2017 - 19:22:49: [security_entity_limit.smx] [SEL] 431 entities have been protected from deleting.This map contain 1617 free entity slot!
+L 09/16/2017 - 19:24:00: [basecommands.smx] "Mikleo<2><[U:1:376259319]><>" console command (cmdline "sv_cheats 1")
+L 09/16/2017 - 19:24:08: [basecommands.smx] "Mikleo<2><[U:1:376259319]><>" console command (cmdline "bot_add_nf")
+L 09/16/2017 - 19:24:18: [playercommands.smx] "Mikleo<2><[U:1:376259319]><>" renamed "Bot01<3><BOT><>" to "Turtle")
+L 09/16/2017 - 19:24:37: [basecommands.smx] "Mikleo<2><[U:1:376259319]><>" kicked "Turtle<3><BOT><>" (reason "")
+L 09/16/2017 - 19:24:47: [basecommands.smx] "Mikleo<2><[U:1:376259319]><>" changed cvar (cvar "sv_cheats") (value "0")
+L 09/16/2017 - 19:59:18: [SM] Changed map to "con_urbanchaos_fix"
+L 09/16/2017 - 19:59:19: -------- Mapchange to con_urbanchaos_fix --------
+L 09/16/2017 - 19:59:29: [security_entity_limit.smx] [SEL] 657 entities have been protected from deleting.This map contain 1391 free entity slot!
+L 09/16/2017 - 20:21:46: [basecommands.smx] "Console<0><Console><Console>" changed map to "con_coastbridge_o1"
+L 09/16/2017 - 20:21:49: [SM] Changed map to "con_coastbridge_o1"
+L 09/16/2017 - 20:21:49: -------- Mapchange to con_coastbridge_o1 --------
+L 09/16/2017 - 20:22:00: [security_entity_limit.smx] [SEL] 227 entities have been protected from deleting.This map contain 1821 free entity slot!
+L 09/16/2017 - 21:26:25: [SM] Changed map to "con_glycencity"
+L 09/16/2017 - 21:26:27: -------- Mapchange to con_glycencity --------
+L 09/16/2017 - 21:26:37: [security_entity_limit.smx] [SEL] 637 entities have been protected from deleting.This map contain 1411 free entity slot!
+L 09/16/2017 - 22:01:04: [SM] Changed map to "emp_drygulch_a6"
+L 09/16/2017 - 22:01:04: -------- Mapchange to emp_drygulch_a6 --------
+L 09/16/2017 - 22:01:15: [security_entity_limit.smx] [SEL] 180 entities have been protected from deleting.This map contain 1868 free entity slot!
+L 09/16/2017 - 23:53:56: SourceMod log file session started (file "L20170916.log") (Version "1.8.0.5912")
+L 09/16/2017 - 23:53:56: -------- Mapchange to con_district402 --------
+L 09/16/2017 - 23:53:57: [security_entity_limit.smx] Security Entity Limit [SEL] Activate!
+L 09/16/2017 - 23:53:57: [security_entity_limit.smx] [SEL]Current version: 0.5.4
+Plugin made by Benoist3012!
+L 09/16/2017 - 23:54:09: [security_entity_limit.smx] [SEL] 432 entities have been protected from deleting.This map contain 1616 free entity slot!

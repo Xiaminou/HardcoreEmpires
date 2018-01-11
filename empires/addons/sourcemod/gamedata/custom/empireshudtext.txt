@@ -1,0 +1,18 @@
+"Games"
+{
+	/**
+	 * Which games support HudMsg?
+	 */
+	"#default"
+	{
+		"#supported"
+		{
+			"game"					"empires"
+		}
+		
+		"Keys"
+		{
+			"HudTextMsg"			"HudMsg"
+		}
+	}
+}

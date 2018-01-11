@@ -1,0 +1,28 @@
+L 07/04/2017 - 14:54:43: SourceMod error session started
+L 07/04/2017 - 14:54:43: Info (map "con_district402") (file "errors_20170704.log")
+L 07/04/2017 - 14:54:43: [SDKTOOLS] Invalid detour address passed - Disabling detour to prevent crashes
+L 07/04/2017 - 14:54:43: [SDKTOOLS] Failed to find PlayerRunCmd offset - OnPlayerRunCmd forward disabled.
+L 07/04/2017 - 14:54:45: [nextmap.smx] FATAL: Cannot load map cycle. Nextmap not loaded.
+L 07/04/2017 - 14:54:45: [SM] Exception reported: Mapcycle Not Found
+L 07/04/2017 - 14:54:45: [SM] Blaming: nextmap.smx()
+L 07/04/2017 - 14:54:45: [SM] Call stack trace:
+L 07/04/2017 - 14:54:45: [SM]   [0] SetFailState
+L 07/04/2017 - 14:54:45: [SM]   [1] Line 139, D:\builds\build-sourcemod-msvc12\windows-1.8\build\plugins\nextmap.sp::FindAndSetNextMap()
+L 07/04/2017 - 14:54:45: [SM]   [2] Line 109, D:\builds\build-sourcemod-msvc12\windows-1.8\build\plugins\nextmap.sp::OnConfigsExecuted()
+L 07/04/2017 - 22:42:37: SourceMod error session started
+L 07/04/2017 - 22:42:37: Info (map "con_district402") (file "errors_20170704.log")
+L 07/04/2017 - 22:42:37: [SDKTOOLS] Invalid detour address passed - Disabling detour to prevent crashes
+L 07/04/2017 - 22:42:37: [SDKTOOLS] Failed to find PlayerRunCmd offset - OnPlayerRunCmd forward disabled.
+L 07/04/2017 - 22:42:38: [nextmap.smx] FATAL: Cannot load map cycle. Nextmap not loaded.
+L 07/04/2017 - 22:42:38: [SM] Exception reported: Mapcycle Not Found
+L 07/04/2017 - 22:42:38: [SM] Blaming: nextmap.smx()
+L 07/04/2017 - 22:42:38: [SM] Call stack trace:
+L 07/04/2017 - 22:42:38: [SM]   [0] SetFailState
+L 07/04/2017 - 22:42:38: [SM]   [1] Line 139, D:\builds\build-sourcemod-msvc12\windows-1.8\build\plugins\nextmap.sp::FindAndSetNextMap()
+L 07/04/2017 - 22:42:38: [SM]   [2] Line 109, D:\builds\build-sourcemod-msvc12\windows-1.8\build\plugins\nextmap.sp::OnConfigsExecuted()
+L 07/04/2017 - 22:42:39: [SM] Exception reported: Failed to connect to SourceBans DB, [2003]: Can't connect to MySQL server on 'localhost' (10061)
+L 07/04/2017 - 22:42:39: [SM] Blaming: sbpp_checker.smx()
+L 07/04/2017 - 22:42:39: [SM] Call stack trace:
+L 07/04/2017 - 22:42:39: [SM]   [0] SetFailState
+L 07/04/2017 - 22:42:39: [SM]   [1] Line 76, sbpp_checker.sp::OnDatabaseConnected()
+L 07/04/2017 - 22:42:40: [sbpp_comms.smx] Connecting to database failed: [2003]: Can't connect to MySQL server on 'localhost' (10061)

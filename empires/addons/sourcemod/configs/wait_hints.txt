@@ -1,0 +1,77 @@
+"Hints"
+{
+	"Commander"
+	{
+		"1"	
+		{
+			"text" "Only experienced players should be commander"
+		}
+		"2"	
+		{
+			"text" "Use the invite to squad button to assign players to squads"
+		}
+		"3"	
+		{
+			"text" "Use /assign [player] [squad] to assign players to squads"
+		}
+		"4"	
+		{
+			"text" "Use /move @[squad] [coords] to issue a move order pre-start"
+		}
+		"5"	
+		{
+			"text" "Type in team chat --[objectives] to issue objectives"
+		}
+		"6"	
+		{
+			"text" "Make sure your team knows where each squad should go"
+		}
+				
+	}
+	"SquadLeader"
+	{
+		"1"	
+		{
+			"text" "Only experienced players should be squad leader"
+		}
+		"2"	
+		{
+			"text" "A good class choice for squad leader is engineer"
+		}
+		"3"	
+		{
+			"text" "Use /move [coordinates] to issue a move order pre-start"
+		}
+		"4"	
+		{
+			"text" "Make sure your squad knows where they should be going"
+		}	
+	}
+	"Default"
+	{
+		"1"	
+		{
+			"text" "Don't opt in unless you are experienced"
+		}
+		"2"	
+		{
+			"text" "The best class to learn if you are new is engineer"
+		}
+		"3"	
+		{
+			"text" "Make sure you join a squad"
+		}
+		"4"	
+		{
+			"text" "Make sure you know where your squad is going"
+		}
+		"5"	
+		{
+			"text" "Follow your commander's orders"
+		}
+		"6"	
+		{
+			"text" "Build refineries to secure your team an advantage"
+		}
+	}
+}

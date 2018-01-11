@@ -1,0 +1,396 @@
+L 08/24/2017 - 00:33:23: SourceMod log file session started (file "L20170824.log") (Version "1.8.0.5912")
+L 08/24/2017 - 00:33:23: [basecommands.smx] "Mr. X.<13><[U:1:27106968]><>" console command (cmdline "emp_sv_commander_visiblity_interval 0.2")
+L 08/24/2017 - 00:33:28: [basecommands.smx] "Mr. X.<13><[U:1:27106968]><>" console command (cmdline "emp_sv_commander_visiblity_interval")
+L 08/24/2017 - 00:41:19: [basecommands.smx] "Mr. X.<14><[U:1:27106968]><>" console command (cmdline "emp_sv_commander_visiblity_interval 0.01")
+L 08/24/2017 - 01:33:11: [SM] Changed map to "emp_blast_ob1"
+L 08/24/2017 - 01:33:11: -------- Mapchange to emp_blast_ob1 --------
+L 08/24/2017 - 01:33:24: [security_entity_limit.smx] [SEL] 674 entities have been protected from deleting.This map contain 1374 free entity slot!
+L 08/24/2017 - 01:49:48: [SM] Changed map to "emp_beachfront_b2"
+L 08/24/2017 - 01:49:48: -------- Mapchange to emp_beachfront_b2 --------
+L 08/24/2017 - 01:50:01: [security_entity_limit.smx] [SEL] 167 entities have been protected from deleting.This map contain 1881 free entity slot!
+L 08/24/2017 - 02:37:10: [SM] Changed map to "emp_crossroads"
+L 08/24/2017 - 02:37:10: -------- Mapchange to emp_crossroads --------
+L 08/24/2017 - 02:37:22: [security_entity_limit.smx] [SEL] 569 entities have been protected from deleting.This map contain 1479 free entity slot!
+L 08/24/2017 - 03:45:23: [SM] Changed map to "emp_downfall"
+L 08/24/2017 - 03:45:24: -------- Mapchange to emp_downfall --------
+L 08/24/2017 - 03:45:37: [security_entity_limit.smx] [SEL] 172 entities have been protected from deleting.This map contain 1876 free entity slot!
+L 08/24/2017 - 04:18:28: [SM] Changed map to "con_glycencity"
+L 08/24/2017 - 04:18:30: -------- Mapchange to con_glycencity --------
+L 08/24/2017 - 04:18:42: [security_entity_limit.smx] [SEL] 637 entities have been protected from deleting.This map contain 1411 free entity slot!
+L 08/24/2017 - 04:48:14: [SM] Changed map to "emp_havoc_b1_fix"
+L 08/24/2017 - 04:48:15: -------- Mapchange to emp_havoc_b1_fix --------
+L 08/24/2017 - 04:48:25: [security_entity_limit.smx] [SEL] 703 entities have been protected from deleting.This map contain 1345 free entity slot!
+L 08/24/2017 - 05:08:56: [SM] Changed map to "emp_drygulch_a6"
+L 08/24/2017 - 05:08:57: -------- Mapchange to emp_drygulch_a6 --------
+L 08/24/2017 - 05:09:07: [security_entity_limit.smx] [SEL] 183 entities have been protected from deleting.This map contain 1865 free entity slot!
+L 08/24/2017 - 05:26:14: [SM] Changed map to "emp_vehicletraining_2013"
+L 08/24/2017 - 05:26:14: -------- Mapchange to emp_vehicletraining_2013 --------
+L 08/24/2017 - 05:26:24: [security_entity_limit.smx] [SEL] 337 entities have been protected from deleting.This map contain 1711 free entity slot!
+L 08/24/2017 - 06:00:11: [SM] Changed map to "emp_beachfront_b2"
+L 08/24/2017 - 06:00:11: -------- Mapchange to emp_beachfront_b2 --------
+L 08/24/2017 - 06:00:22: [security_entity_limit.smx] [SEL] 158 entities have been protected from deleting.This map contain 1890 free entity slot!
+L 08/24/2017 - 13:42:07: [basecommands.smx] "Mr. X.<55><[U:1:27106968]><>" changed map to "emp_coast"
+L 08/24/2017 - 13:42:10: [SM] Changed map to "emp_coast"
+L 08/24/2017 - 13:42:10: -------- Mapchange to emp_coast --------
+L 08/24/2017 - 13:42:21: [security_entity_limit.smx] [SEL] 416 entities have been protected from deleting.This map contain 1632 free entity slot!
+L 08/24/2017 - 13:43:12: [basecommands.smx] "Mr. X.<55><[U:1:27106968]><>" changed map to "emp_drygulch_a6"
+L 08/24/2017 - 13:43:15: [SM] Changed map to "emp_drygulch_a6"
+L 08/24/2017 - 13:43:16: -------- Mapchange to emp_drygulch_a6 --------
+L 08/24/2017 - 13:43:26: [security_entity_limit.smx] [SEL] 183 entities have been protected from deleting.This map contain 1865 free entity slot!
+L 08/24/2017 - 13:43:32: [basecommands.smx] "Mr. X.<55><[U:1:27106968]><>" changed map to "emp_drygulch_a6"
+L 08/24/2017 - 13:43:35: [SM] Changed map to "emp_drygulch_a6"
+L 08/24/2017 - 13:43:35: -------- Mapchange to emp_drygulch_a6 --------
+L 08/24/2017 - 13:43:45: [security_entity_limit.smx] [SEL] 183 entities have been protected from deleting.This map contain 1865 free entity slot!
+L 08/24/2017 - 13:43:48: [basecommands.smx] "Mr. X.<55><[U:1:27106968]><>" changed map to "emp_drygulch_a6"
+L 08/24/2017 - 13:43:51: [SM] Changed map to "emp_drygulch_a6"
+L 08/24/2017 - 13:43:52: -------- Mapchange to emp_drygulch_a6 --------
+L 08/24/2017 - 13:44:02: [security_entity_limit.smx] [SEL] 183 entities have been protected from deleting.This map contain 1865 free entity slot!
+L 08/24/2017 - 14:28:06: [SM] Changed map to "con_glycencity"
+L 08/24/2017 - 14:28:08: -------- Mapchange to con_glycencity --------
+L 08/24/2017 - 14:28:18: [security_entity_limit.smx] [SEL] 634 entities have been protected from deleting.This map contain 1414 free entity slot!
+L 08/24/2017 - 14:45:03: [SM] Changed map to "emp_vehicletraining_2013"
+L 08/24/2017 - 14:45:04: -------- Mapchange to emp_vehicletraining_2013 --------
+L 08/24/2017 - 14:45:14: [security_entity_limit.smx] [SEL] 340 entities have been protected from deleting.This map contain 1708 free entity slot!
+L 08/24/2017 - 14:58:55: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 14:58:55: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 14:58:56: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 14:58:56: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 14:58:56: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 14:58:56: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 14:58:56: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 14:58:56: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 14:58:57: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 14:58:57: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 14:58:57: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 14:58:57: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 14:58:57: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 14:58:57: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 14:58:57: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 14:58:58: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 14:58:58: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 14:58:58: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 14:58:58: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 14:58:58: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 14:58:59: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 14:58:59: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 14:58:59: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 14:58:59: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 14:59:00: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 14:59:00: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 14:59:04: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 14:59:04: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 14:59:04: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 14:59:04: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 14:59:05: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 14:59:05: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 14:59:05: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 14:59:05: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 14:59:05: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 14:59:05: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 14:59:06: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 14:59:19: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 14:59:19: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 14:59:20: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 14:59:20: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 14:59:20: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 14:59:20: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 14:59:21: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 14:59:21: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 14:59:21: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 14:59:21: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 14:59:21: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 14:59:21: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 14:59:22: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 14:59:22: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 14:59:22: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 14:59:22: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 14:59:22: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 14:59:23: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 14:59:23: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 14:59:23: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 14:59:23: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 14:59:25: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 14:59:25: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 14:59:25: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 14:59:25: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 14:59:25: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 14:59:26: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 14:59:26: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 14:59:26: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 14:59:26: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 14:59:26: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 14:59:27: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 14:59:27: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 14:59:27: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 14:59:27: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 14:59:28: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 14:59:28: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 14:59:28: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 14:59:28: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 14:59:28: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 14:59:29: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 14:59:29: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 14:59:29: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 14:59:29: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 14:59:29: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 14:59:29: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 14:59:30: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 14:59:30: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 14:59:30: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 14:59:30: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 14:59:30: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 14:59:31: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:00:41: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:00:42: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:00:43: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:00:43: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:00:43: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:00:43: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:00:43: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:00:43: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:00:43: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:00:44: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:00:44: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:00:44: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:00:44: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:00:45: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:00:45: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:00:45: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:00:46: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:00:46: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:00:46: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:00:46: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:00:47: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:00:47: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:00:47: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:00:47: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:00:47: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:00:47: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:00:48: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:00:48: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:00:48: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:00:48: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:00:48: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:00:48: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:00:49: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:00:49: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:00:49: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:00:49: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:00:49: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:00:49: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:00:52: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:00:53: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:00:53: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:00:53: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:00:53: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:00:53: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:00:53: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:00:54: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:00:54: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:00:54: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:00:54: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:00:54: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:00:55: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:00:55: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:00:55: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:00:55: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:00:55: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:00:55: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:00:56: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:00:56: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:00:56: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:00:56: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:00:56: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:00:56: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:00:57: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:00:57: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:00:57: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:00:57: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:00:57: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:01:42: [SM] Changed map to "emp_king_r5_nosplt"
+L 08/24/2017 - 15:01:43: -------- Mapchange to emp_king_r5_nosplt --------
+L 08/24/2017 - 15:01:54: [security_entity_limit.smx] [SEL] 572 entities have been protected from deleting.This map contain 1476 free entity slot!
+L 08/24/2017 - 15:08:20: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:08:20: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:08:20: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:08:21: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:08:21: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:08:21: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:08:21: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:08:22: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:08:22: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:08:22: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:08:22: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:08:23: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:08:23: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:08:23: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:08:23: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:08:23: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:08:24: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:08:24: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:08:25: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:08:25: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:08:25: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:08:25: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:08:26: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:08:26: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:08:27: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:08:32: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:08:33: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:08:40: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:08:40: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:08:40: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:08:40: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:08:40: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:08:40: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:08:41: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:08:41: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:08:41: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:08:41: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:08:41: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:08:41: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:08:42: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:08:42: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:08:42: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:08:42: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:08:42: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:08:43: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:08:52: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:08:52: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:08:59: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:09:00: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:09:00: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:09:00: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:09:00: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:09:00: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:09:05: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:09:05: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:09:05: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:09:05: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:09:10: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:09:10: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:09:11: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:09:11: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:09:11: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:09:11: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:09:11: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:09:12: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:09:12: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:09:12: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:09:12: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:09:13: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:09:13: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:09:13: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:09:13: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:09:14: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:09:14: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:09:23: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:09:23: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:09:23: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:09:23: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:09:23: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:09:23: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:09:23: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:09:24: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:09:29: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:09:29: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:09:29: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:09:29: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:09:30: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:09:30: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:09:30: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:09:30: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:09:30: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:09:30: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:09:31: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:09:31: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:09:31: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:09:31: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:09:38: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:09:38: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:09:39: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:09:40: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:09:41: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:09:42: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Oktay<60><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 15:09:59: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Sahin32<61><[U:1:105311035]><>" (damage "0")
+L 08/24/2017 - 15:10:00: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Sahin32<61><[U:1:105311035]><>" (damage "0")
+L 08/24/2017 - 15:10:00: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Sahin32<61><[U:1:105311035]><>" (damage "0")
+L 08/24/2017 - 15:10:01: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Sahin32<61><[U:1:105311035]><>" (damage "0")
+L 08/24/2017 - 15:10:01: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Sahin32<61><[U:1:105311035]><>" (damage "0")
+L 08/24/2017 - 15:10:01: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Sahin32<61><[U:1:105311035]><>" (damage "0")
+L 08/24/2017 - 15:10:01: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Sahin32<61><[U:1:105311035]><>" (damage "0")
+L 08/24/2017 - 15:10:01: [playercommands.smx] "Oktay<60><[U:1:116496292]><>" slapped "Sahin32<61><[U:1:105311035]><>" (damage "0")
+L 08/24/2017 - 16:27:51: [basecommands.smx] "Oktay<66><[U:1:116496292]><>" changed map to "con_district402"
+L 08/24/2017 - 16:27:54: [SM] Changed map to "con_district402"
+L 08/24/2017 - 16:27:55: -------- Mapchange to con_district402 --------
+L 08/24/2017 - 16:28:06: [security_entity_limit.smx] [SEL] 431 entities have been protected from deleting.This map contain 1617 free entity slot!
+L 08/24/2017 - 17:41:43: SourceMod log file session started (file "L20170824.log") (Version "1.8.0.5912")
+L 08/24/2017 - 17:41:43: -------- Mapchange to con_district402 --------
+L 08/24/2017 - 17:41:43: [security_entity_limit.smx] Security Entity Limit [SEL] Activate!
+L 08/24/2017 - 17:41:43: [security_entity_limit.smx] [SEL]Current version: 0.5.4
+Plugin made by Benoist3012!
+L 08/24/2017 - 17:41:54: [security_entity_limit.smx] [SEL] 432 entities have been protected from deleting.This map contain 1616 free entity slot!
+L 08/24/2017 - 17:42:33: [basecommands.smx] "Mr. X.<2><[U:1:27106968]><>" changed map to "emp_canyon"
+L 08/24/2017 - 17:42:36: [SM] Changed map to "emp_canyon"
+L 08/24/2017 - 17:42:36: -------- Mapchange to emp_canyon --------
+L 08/24/2017 - 17:42:47: [security_entity_limit.smx] [SEL] 258 entities have been protected from deleting.This map contain 1790 free entity slot!
+L 08/24/2017 - 17:44:02: SourceMod log file session started (file "L20170824.log") (Version "1.8.0.5912")
+L 08/24/2017 - 17:44:02: -------- Mapchange to con_district402 --------
+L 08/24/2017 - 17:44:02: [security_entity_limit.smx] Security Entity Limit [SEL] Activate!
+L 08/24/2017 - 17:44:02: [security_entity_limit.smx] [SEL]Current version: 0.5.4
+Plugin made by Benoist3012!
+L 08/24/2017 - 17:44:06: [basecommands.smx] "Console<0><Console><Console>" changed map to "emp_canyon"
+L 08/24/2017 - 17:44:09: [SM] Changed map to "emp_canyon"
+L 08/24/2017 - 17:44:09: -------- Mapchange to emp_canyon --------
+L 08/24/2017 - 17:44:14: [security_entity_limit.smx] [SEL] 255 entities have been protected from deleting.This map contain 1793 free entity slot!
+L 08/24/2017 - 17:44:20: [security_entity_limit.smx] [SEL] 258 entities have been protected from deleting.This map contain 1790 free entity slot!
+L 08/24/2017 - 17:45:03: [basecommands.smx] "Mr. X.<2><[U:1:27106968]><>" changed map to "emp_canyon"
+L 08/24/2017 - 17:45:06: [SM] Changed map to "emp_canyon"
+L 08/24/2017 - 17:45:06: -------- Mapchange to emp_canyon --------
+L 08/24/2017 - 17:45:16: [security_entity_limit.smx] [SEL] 258 entities have been protected from deleting.This map contain 1790 free entity slot!
+L 08/24/2017 - 18:26:14: [SM] Changed map to "emp_beachfront_b2"
+L 08/24/2017 - 18:26:14: -------- Mapchange to emp_beachfront_b2 --------
+L 08/24/2017 - 18:26:24: [security_entity_limit.smx] [SEL] 165 entities have been protected from deleting.This map contain 1883 free entity slot!
+L 08/24/2017 - 18:34:28: [SM] Changed map to "emp_fogtown_cl2_fix"
+L 08/24/2017 - 18:34:29: -------- Mapchange to emp_fogtown_cl2_fix --------
+L 08/24/2017 - 18:34:39: [security_entity_limit.smx] [SEL] 951 entities have been protected from deleting.This map contain 1097 free entity slot!
+L 08/24/2017 - 19:19:27: [SM] Changed map to "emp_blast_ob1"
+L 08/24/2017 - 19:19:28: -------- Mapchange to emp_blast_ob1 --------
+L 08/24/2017 - 19:19:38: [security_entity_limit.smx] [SEL] 670 entities have been protected from deleting.This map contain 1378 free entity slot!
+L 08/24/2017 - 19:23:09: [playercommands.smx] "Mr. X.<5><[U:1:27106968]><>" slapped "Megumin<12><[U:1:202664017]><>" (damage "1")
+L 08/24/2017 - 19:23:17: [playercommands.smx] "Mr. X.<5><[U:1:27106968]><>" slapped "Taithe<13><[U:1:37663286]><>" (damage "1")
+L 08/24/2017 - 19:23:28: [playercommands.smx] "Mr. X.<5><[U:1:27106968]><>" slapped "Taithe<13><[U:1:37663286]><>" (damage "2")
+L 08/24/2017 - 19:27:13: [playercommands.smx] "Mr. X.<5><[U:1:27106968]><>" slapped "Oktay<4><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 19:29:20: [playercommands.smx] "Mr. X.<5><[U:1:27106968]><>" slapped "Oktay<4><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 19:29:25: [playercommands.smx] "Mr. X.<5><[U:1:27106968]><>" slapped "Oktay<4><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 19:29:39: [playercommands.smx] "Mr. X.<5><[U:1:27106968]><>" slapped "Oktay<4><[U:1:116496292]><>" (damage "0")
+L 08/24/2017 - 19:33:24: [SM] Changed map to "emp_crossroads"
+L 08/24/2017 - 19:33:24: -------- Mapchange to emp_crossroads --------
+L 08/24/2017 - 19:33:36: [security_entity_limit.smx] [SEL] 565 entities have been protected from deleting.This map contain 1483 free entity slot!
+L 08/24/2017 - 19:38:21: [playercommands.smx] "Mr. X.<5><[U:1:27106968]><>" slayed "Megumin<12><[U:1:202664017]><>"
+L 08/24/2017 - 20:29:25: [basecommands.smx] "Mr. X.<25><[U:1:27106968]><>" console command (cmdline "sm plugins refresh")
+L 08/24/2017 - 20:30:00: [basecommands.smx] "Mr. X.<25><[U:1:27106968]><>" console command (cmdline "sm_fexec mr. "jointeam 3"")
+L 08/24/2017 - 20:36:10: [basecommands.smx] "Mr. X.<25><[U:1:27106968]><>" console command (cmdline "fexec mr. "say !rtfm"")
+L 08/24/2017 - 20:36:20: [basecommands.smx] "Mr. X.<25><[U:1:27106968]><>" console command (cmdline "sm_fexec mr. "say !rtfm"")
+L 08/24/2017 - 20:47:39: [SM] Changed map to "emp_downfall"
+L 08/24/2017 - 20:47:39: -------- Mapchange to emp_downfall --------
+L 08/24/2017 - 20:47:47: [basecommands.smx] "Mr. X.<25><[U:1:27106968]><>" console command (cmdline "emp_allowspectators 1")
+L 08/24/2017 - 20:47:47: [basecommands.smx] "Mr. X.<25><[U:1:27106968]><>" console command (cmdline "emp_allowspectators 0")
+L 08/24/2017 - 20:47:50: [security_entity_limit.smx] [SEL] 168 entities have been protected from deleting.This map contain 1880 free entity slot!
+L 08/24/2017 - 21:35:30: [SM] Changed map to "emp_drygulch_a6"
+L 08/24/2017 - 21:35:31: -------- Mapchange to emp_drygulch_a6 --------
+L 08/24/2017 - 21:35:46: [security_entity_limit.smx] [SEL] 189 entities have been protected from deleting.This map contain 1859 free entity slot!
+L 08/24/2017 - 21:39:56: [basecommands.smx] "Mr. X.<25><[U:1:27106968]><>" console command (cmdline "emp_allowspectators 1")
+L 08/24/2017 - 21:39:56: [basecommands.smx] "Mr. X.<25><[U:1:27106968]><>" console command (cmdline "emp_allowspectators 0")
+L 08/24/2017 - 22:40:40: [SM] Changed map to "emp_nuclear_b8u_xfix"
+L 08/24/2017 - 22:40:40: -------- Mapchange to emp_nuclear_b8u_xfix --------
+L 08/24/2017 - 22:40:53: [security_entity_limit.smx] [SEL] 997 entities have been protected from deleting.This map contain 1051 free entity slot!
+L 08/24/2017 - 22:52:49: [basecommands.smx] "Mr. X.<25><[U:1:27106968]><>" kicked "SlothMan1<6><[U:1:454830119]><>" (reason "griefing")
+L 08/24/2017 - 22:59:56: [playercommands.smx] "Mr. X.<25><[U:1:27106968]><>" slapped "BK Cheetos Chicken Fries<49><[U:1:152722677]><>" (damage "5")
+L 08/24/2017 - 23:00:00: [basechat.smx] "Mr. X.<25><[U:1:27106968]><>" triggered sm_say (text don't close the door)
+L 08/24/2017 - 23:01:36: [SM] Changed map to "emp_beachfront_b2"
+L 08/24/2017 - 23:01:36: -------- Mapchange to emp_beachfront_b2 --------
+L 08/24/2017 - 23:01:48: [security_entity_limit.smx] [SEL] 171 entities have been protected from deleting.This map contain 1877 free entity slot!
+L 08/24/2017 - 23:46:04: [SM] Changed map to "con_urbanchaos_fix"
+L 08/24/2017 - 23:46:05: -------- Mapchange to con_urbanchaos_fix --------
+L 08/24/2017 - 23:46:17: [security_entity_limit.smx] [SEL] 657 entities have been protected from deleting.This map contain 1391 free entity slot!

@@ -1,0 +1,26 @@
+L 12/07/2017 - 18:34:31: SourceMod log file session started (file "L20171207.log") (Version "1.8.0.5912")
+L 12/07/2017 - 18:34:31: -------- Mapchange to con_district402 --------
+L 12/07/2017 - 18:34:31: [saysounds.smx] [Say Sounds] No specific game detected
+L 12/07/2017 - 18:34:31: [security_entity_limit.smx] Security Entity Limit [SEL] Activate!
+L 12/07/2017 - 18:34:31: [security_entity_limit.smx] [SEL]Current version: 0.5.4
+Plugin made by Benoist3012!
+L 12/07/2017 - 18:34:43: [security_entity_limit.smx] [SEL] 432 entities have been protected from deleting.This map contain 1616 free entity slot!
+L 12/07/2017 - 18:36:43: [basecommands.smx] "Smithy<2><[U:1:30491919]><>" changed map to "emp_cyclopean"
+L 12/07/2017 - 18:36:46: [SM] Changed map to "emp_cyclopean"
+L 12/07/2017 - 18:36:47: -------- Mapchange to emp_cyclopean --------
+L 12/07/2017 - 18:36:58: [security_entity_limit.smx] [SEL] 472 entities have been protected from deleting.This map contain 1576 free entity slot!
+L 12/07/2017 - 18:37:37: [basecommands.smx] "Smithy<2><[U:1:30491919]><>" console command (cmdline "exec testing")
+L 12/07/2017 - 18:37:37: [saysounds.smx] [Say Sounds] Disabled, Unhooking Events
+L 12/07/2017 - 18:38:02: [basecommands.smx] "Smithy<2><[U:1:30491919]><>" console command (cmdline "sv_password temppass")
+L 12/07/2017 - 18:38:08: [basecommands.smx] "Smithy<2><[U:1:30491919]><>" console command (cmdline "sv_cheats 1")
+L 12/07/2017 - 18:38:24: [basecommands.smx] "Mr. X.<3><[U:1:27106968]><>" console command (cmdline "mp_autoteambalance 0")
+L 12/07/2017 - 18:39:06: [basecommands.smx] "Smithy<2><[U:1:30491919]><>" console command (cmdline "sv_showimpacts 1")
+L 12/07/2017 - 18:40:16: [basecommands.smx] "Smithy<2><[U:1:30491919]><>" console command (cmdline "sv_showhitboxes 1")
+L 12/07/2017 - 18:41:10: [basecommands.smx] "Smithy<2><[U:1:30491919]><>" console command (cmdline "sv_alltalk 1")
+L 12/07/2017 - 18:59:14: [basecommands.smx] "Mr. X.<3><[U:1:27106968]><>" changed map to "emp_crossroads"
+L 12/07/2017 - 18:59:17: [SM] Changed map to "emp_crossroads"
+L 12/07/2017 - 18:59:19: -------- Mapchange to emp_crossroads --------
+L 12/07/2017 - 18:59:19: [saysounds.smx] [Say Sounds] Enabled, Hooking Events
+L 12/07/2017 - 18:59:19: [saysounds.smx] [Say Sounds] No specific game detected
+L 12/07/2017 - 18:59:29: [security_entity_limit.smx] [SEL] 581 entities have been protected from deleting.This map contain 1467 free entity slot!
+L 12/07/2017 - 18:59:46: [basecommands.smx] "Mr. X.<3><[U:1:27106968]><>" console command (cmdline "sv_password """)

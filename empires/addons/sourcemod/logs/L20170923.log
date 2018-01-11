@@ -1,0 +1,71 @@
+L 09/23/2017 - 00:17:42: SourceMod log file session started (file "L20170923.log") (Version "1.8.0.5912")
+L 09/23/2017 - 00:17:42: [SM] Changed map to "con_urbanchaos_fix"
+L 09/23/2017 - 00:17:43: -------- Mapchange to con_urbanchaos_fix --------
+L 09/23/2017 - 00:17:43: [saysounds.smx] [Say Sounds] Enabled, Hooking Events
+L 09/23/2017 - 00:17:43: [saysounds.smx] [Say Sounds] No specific game detected
+L 09/23/2017 - 00:17:53: [security_entity_limit.smx] [SEL] 657 entities have been protected from deleting.This map contain 1391 free entity slot!
+L 09/23/2017 - 14:06:51: [basecommands.smx] "Mr. X.<41><[U:1:27106968]><>" changed map to "emp_canyon"
+L 09/23/2017 - 14:06:54: [SM] Changed map to "emp_canyon"
+L 09/23/2017 - 14:06:54: -------- Mapchange to emp_canyon --------
+L 09/23/2017 - 14:07:05: [security_entity_limit.smx] [SEL] 258 entities have been protected from deleting.This map contain 1790 free entity slot!
+L 09/23/2017 - 14:10:16: [basecommands.smx] "Mr. X.<42><[U:1:27106968]><>" console command (cmdline "hostname "test"")
+L 09/23/2017 - 14:12:34: [basecommands.smx] "Mr. X.<42><[U:1:27106968]><>" changed map to "emp_isle"
+L 09/23/2017 - 14:12:37: [SM] Changed map to "emp_isle"
+L 09/23/2017 - 14:12:37: -------- Mapchange to emp_isle --------
+L 09/23/2017 - 14:12:37: [saysounds.smx] [Say Sounds] No specific game detected
+L 09/23/2017 - 14:12:47: [security_entity_limit.smx] [SEL] 205 entities have been protected from deleting.This map contain 1843 free entity slot!
+L 09/23/2017 - 17:57:56: [saysounds.smx] [Say Sounds] Disabled, Unhooking Events
+L 09/23/2017 - 18:56:22: [SM] Changed map to "emp_crossroads"
+L 09/23/2017 - 18:56:23: -------- Mapchange to emp_crossroads --------
+L 09/23/2017 - 18:56:23: [saysounds.smx] [Say Sounds] Enabled, Hooking Events
+L 09/23/2017 - 18:56:23: [saysounds.smx] [Say Sounds] No specific game detected
+L 09/23/2017 - 18:56:33: [security_entity_limit.smx] [SEL] 595 entities have been protected from deleting.This map contain 1453 free entity slot!
+L 09/23/2017 - 18:58:56: [saysounds.smx] [Say Sounds] Disabled, Unhooking Events
+L 09/23/2017 - 19:30:39: [playercommands.smx] "Mr. X.<44><[U:1:27106968]><>" slayed "slyeer13311<62><[U:1:324142461]><>"
+L 09/23/2017 - 19:41:28: [SM] Changed map to "emp_drygulch_a6"
+L 09/23/2017 - 19:41:28: -------- Mapchange to emp_drygulch_a6 --------
+L 09/23/2017 - 19:41:28: [saysounds.smx] [Say Sounds] Enabled, Hooking Events
+L 09/23/2017 - 19:41:28: [saysounds.smx] [Say Sounds] No specific game detected
+L 09/23/2017 - 19:41:38: [basecommands.smx] "Mr. X.<44><[U:1:27106968]><>" console command (cmdline "emp_allowspectators 1")
+L 09/23/2017 - 19:41:38: [basecommands.smx] "Mr. X.<44><[U:1:27106968]><>" console command (cmdline "emp_allowspectators 0")
+L 09/23/2017 - 19:41:39: [security_entity_limit.smx] [SEL] 197 entities have been protected from deleting.This map contain 1851 free entity slot!
+L 09/23/2017 - 19:43:30: [saysounds.smx] [Say Sounds] Disabled, Unhooking Events
+L 09/23/2017 - 20:39:43: [basechat.smx] "Mr. X.<44><[U:1:27106968]><>" triggered sm_say (text let's play oktay's map for warmup)
+L 09/23/2017 - 20:40:09: [basecommands.smx] "Mr. X.<44><[U:1:27106968]><>" changed map to "con_coastbridge_o1"
+L 09/23/2017 - 20:40:12: [SM] Changed map to "con_coastbridge_o1"
+L 09/23/2017 - 20:40:12: -------- Mapchange to con_coastbridge_o1 --------
+L 09/23/2017 - 20:40:12: [saysounds.smx] [Say Sounds] Enabled, Hooking Events
+L 09/23/2017 - 20:40:12: [saysounds.smx] [Say Sounds] No specific game detected
+L 09/23/2017 - 20:40:22: [security_entity_limit.smx] [SEL] 231 entities have been protected from deleting.This map contain 1817 free entity slot!
+L 09/23/2017 - 20:40:35: [basecommands.smx] "Mr. X.<44><[U:1:27106968]><>" console command (cmdline "nc_lockspec 0")
+L 09/23/2017 - 20:41:21: [basechat.smx] "Mr. X.<44><[U:1:27106968]><>" triggered sm_say (text it's oktay's map)
+L 09/23/2017 - 20:58:42: [SM] Changed map to "emp_mvalley"
+L 09/23/2017 - 20:58:42: -------- Mapchange to emp_mvalley --------
+L 09/23/2017 - 20:58:53: [security_entity_limit.smx] [SEL] 351 entities have been protected from deleting.This map contain 1697 free entity slot!
+L 09/23/2017 - 21:01:24: [basechat.smx] "Oktay<78><[U:1:116496292]><>" triggered sm_say (text guys can i get some feedback from the last map ?)
+L 09/23/2017 - 21:01:28: [basechat.smx] "Mr. X.<44><[U:1:27106968]><>" triggered sm_say (text squad limit is based on the amount of players)
+L 09/23/2017 - 21:01:35: [basechat.smx] "Mr. X.<44><[U:1:27106968]><>" triggered sm_say (text so it's actually balancable)
+L 09/23/2017 - 21:14:14: [playercommands.smx] "Mr. X.<44><[U:1:27106968]><>" slayed "[SNS] Guest3444306 2<82><[U:1:163088451]><>"
+L 09/23/2017 - 21:46:31: [SM] Changed map to "emp_coast"
+L 09/23/2017 - 21:46:32: -------- Mapchange to emp_coast --------
+L 09/23/2017 - 21:46:32: [saysounds.smx] [Say Sounds] Enabled, Hooking Events
+L 09/23/2017 - 21:46:32: [saysounds.smx] [Say Sounds] No specific game detected
+L 09/23/2017 - 21:46:42: [security_entity_limit.smx] [SEL] 465 entities have been protected from deleting.This map contain 1583 free entity slot!
+L 09/23/2017 - 21:48:25: [sbpp_comms.smx] "Mr. X.<44><[U:1:27106968]><>" muted "JK<99><[U:1:17292082]><>" (minutes "1") (reason "")
+L 09/23/2017 - 21:49:40: [sbpp_comms.smx] "Mr. X.<44><[U:1:27106968]><>" muted "JK<99><[U:1:17292082]><>" (minutes "2") (reason "")
+L 09/23/2017 - 21:50:00: [basechat.smx] "Mr. X.<44><[U:1:27106968]><>" triggered sm_say (text don't enter the commander vote if you're new)
+L 09/23/2017 - 21:59:58: [sbpp_comms.smx] "Mr. X.<44><[U:1:27106968]><>" muted "JustGoFly<83><[U:1:44099803]><>" (minutes "30") (reason "")
+L 09/23/2017 - 22:22:23: [basechat.smx] "Mr. X.<44><[U:1:27106968]><>" triggered sm_say (text JK do you want yet another mute?)
+L 09/23/2017 - 22:22:43: [basechat.smx] "Mr. X.<44><[U:1:27106968]><>" triggered sm_say (text trolling)
+L 09/23/2017 - 22:22:45: [SM] Changed map to "emp_cyclopean"
+L 09/23/2017 - 22:22:47: -------- Mapchange to emp_cyclopean --------
+L 09/23/2017 - 22:22:47: [saysounds.smx] [Say Sounds] Enabled, Hooking Events
+L 09/23/2017 - 22:22:47: [saysounds.smx] [Say Sounds] No specific game detected
+L 09/23/2017 - 22:22:57: [security_entity_limit.smx] [SEL] 533 entities have been protected from deleting.This map contain 1515 free entity slot!
+L 09/23/2017 - 23:23:02: [SM] Changed map to "emp_homeland_b9"
+L 09/23/2017 - 23:23:02: -------- Mapchange to emp_homeland_b9 --------
+L 09/23/2017 - 23:23:03: [saysounds.smx] [Say Sounds] Enabled, Hooking Events
+L 09/23/2017 - 23:23:03: [saysounds.smx] [Say Sounds] No specific game detected
+L 09/23/2017 - 23:23:13: [security_entity_limit.smx] [SEL] 996 entities have been protected from deleting.This map contain 1052 free entity slot!
+L 09/23/2017 - 23:23:15: [basecommands.smx] "Mr. X.<44><[U:1:27106968]><>" console command (cmdline "emp_allowspectators 1")
+L 09/23/2017 - 23:23:15: [basecommands.smx] "Mr. X.<44><[U:1:27106968]><>" console command (cmdline "emp_allowspectators 0")

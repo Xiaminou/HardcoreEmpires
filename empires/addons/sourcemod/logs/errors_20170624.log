@@ -1,0 +1,517 @@
+L 06/24/2017 - 00:14:45: SourceMod error session started
+L 06/24/2017 - 00:14:45: Info (map "emp_fogtown_cl2_fix") (file "errors_20170624.log")
+L 06/24/2017 - 00:14:45: [SM] Exception reported: Invalid timer handle b2e302c5 (error 1)
+L 06/24/2017 - 00:14:45: [SM] Blaming: umc-emp-mapvote.smx()
+L 06/24/2017 - 00:14:45: [SM] Call stack trace:
+L 06/24/2017 - 00:14:45: [SM]   [0] KillTimer
+L 06/24/2017 - 00:14:45: [SM]   [1] Line 686, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-emp-mapvote.sp::UMC_OnNextmapSet()
+L 06/24/2017 - 00:14:45: [SM]   [3] Call_Finish
+L 06/24/2017 - 00:14:45: [SM]   [4] Line 4834, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::DoMapChange()
+L 06/24/2017 - 00:14:45: [SM]   [5] Line 4267, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteWinner()
+L 06/24/2017 - 00:14:45: [SM]   [6] Line 3819, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteWinner()
+L 06/24/2017 - 00:14:45: [SM]   [7] Line 3795, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteResults()
+L 06/24/2017 - 00:14:45: [SM]   [8] Line 1277, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Native_UMCVoteManagerComplete()
+L 06/24/2017 - 00:14:45: [SM]   [10] UMC_VoteManagerVoteCompleted
+L 06/24/2017 - 00:14:45: [SM]   [11] Line 2309, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteResults()
+L 06/24/2017 - 00:14:51: Error log file session closed.
+L 06/24/2017 - 09:08:09: SourceMod error session started
+L 06/24/2017 - 09:08:09: Info (map "emp_crossroads") (file "errors_20170624.log")
+L 06/24/2017 - 09:08:09: [SM] Exception reported: Invalid timer handle cd1c0366 (error 3)
+L 06/24/2017 - 09:08:09: [SM] Blaming: umc-emp-mapvote.smx()
+L 06/24/2017 - 09:08:09: [SM] Call stack trace:
+L 06/24/2017 - 09:08:09: [SM]   [0] KillTimer
+L 06/24/2017 - 09:08:09: [SM]   [1] Line 686, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-emp-mapvote.sp::UMC_OnNextmapSet()
+L 06/24/2017 - 09:08:09: [SM]   [3] Call_Finish
+L 06/24/2017 - 09:08:09: [SM]   [4] Line 4834, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::DoMapChange()
+L 06/24/2017 - 09:08:09: [SM]   [5] Line 1767, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Native_UMCSetNextMap()
+L 06/24/2017 - 09:08:09: [SM]   [7] UMC_SetNextMap
+L 06/24/2017 - 09:08:09: [SM]   [8] Line 621, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-emp-mapvote.sp::DoRandomNextMap()
+L 06/24/2017 - 09:08:09: [SM]   [9] Line 606, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-emp-mapvote.sp::DoMapChangeFailSafe()
+L 06/24/2017 - 09:08:09: [SM]   [10] Line 722, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-emp-mapvote.sp::UMC_OnVoteFailed()
+L 06/24/2017 - 09:08:09: [SM]   [12] Call_Finish
+L 06/24/2017 - 09:08:09: [SM]   [13] Line 4796, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::VoteFailed()
+L 06/24/2017 - 09:08:09: [SM]   [14] Line 3507, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::VoteCancelled()
+L 06/24/2017 - 09:08:09: [SM]   [15] Line 1177, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Native_UMCVoteManagerCancel()
+L 06/24/2017 - 09:08:09: [SM]   [17] UMC_VoteManagerVoteCancelled
+L 06/24/2017 - 09:08:09: [SM]   [18] Line 2276, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_VoteMenu()
+L 06/24/2017 - 09:08:15: Error log file session closed.
+L 06/24/2017 - 14:01:09: SourceMod error session started
+L 06/24/2017 - 14:01:09: Info (map "emp_drygulch_a6") (file "errors_20170624.log")
+L 06/24/2017 - 14:01:09: [SM] Exception reported: Invalid timer handle cd1c0366 (error 1)
+L 06/24/2017 - 14:01:09: [SM] Blaming: umc-emp-mapvote.smx()
+L 06/24/2017 - 14:01:09: [SM] Call stack trace:
+L 06/24/2017 - 14:01:09: [SM]   [0] KillTimer
+L 06/24/2017 - 14:01:09: [SM]   [1] Line 686, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-emp-mapvote.sp::UMC_OnNextmapSet()
+L 06/24/2017 - 14:01:09: [SM]   [3] Call_Finish
+L 06/24/2017 - 14:01:09: [SM]   [4] Line 4834, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::DoMapChange()
+L 06/24/2017 - 14:01:09: [SM]   [5] Line 4267, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteWinner()
+L 06/24/2017 - 14:01:09: [SM]   [6] Line 3819, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteWinner()
+L 06/24/2017 - 14:01:09: [SM]   [7] Line 3795, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteResults()
+L 06/24/2017 - 14:01:09: [SM]   [8] Line 1277, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Native_UMCVoteManagerComplete()
+L 06/24/2017 - 14:01:09: [SM]   [10] UMC_VoteManagerVoteCompleted
+L 06/24/2017 - 14:01:09: [SM]   [11] Line 2309, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteResults()
+L 06/24/2017 - 14:01:15: Error log file session closed.
+L 06/24/2017 - 15:04:21: SourceMod error session started
+L 06/24/2017 - 15:04:21: Info (map "con_district402") (file "errors_20170624.log")
+L 06/24/2017 - 15:04:21: [SDKTOOLS] Invalid detour address passed - Disabling detour to prevent crashes
+L 06/24/2017 - 15:04:21: [SDKTOOLS] Failed to find PlayerRunCmd offset - OnPlayerRunCmd forward disabled.
+L 06/24/2017 - 15:07:04: SourceMod error session started
+L 06/24/2017 - 15:07:04: Info (map "con_district402") (file "errors_20170624.log")
+L 06/24/2017 - 15:07:04: [SDKTOOLS] Invalid detour address passed - Disabling detour to prevent crashes
+L 06/24/2017 - 15:07:04: [SDKTOOLS] Failed to find PlayerRunCmd offset - OnPlayerRunCmd forward disabled.
+L 06/24/2017 - 15:08:23: Error log file session closed.
+L 06/24/2017 - 17:07:05: SourceMod error session started
+L 06/24/2017 - 17:07:05: Info (map "emp_canyon") (file "errors_20170624.log")
+L 06/24/2017 - 17:07:05: [SM] Exception reported: Invalid timer handle 100c02cd (error 1)
+L 06/24/2017 - 17:07:05: [SM] Blaming: umc-emp-mapvote.smx()
+L 06/24/2017 - 17:07:05: [SM] Call stack trace:
+L 06/24/2017 - 17:07:05: [SM]   [0] KillTimer
+L 06/24/2017 - 17:07:05: [SM]   [1] Line 686, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-emp-mapvote.sp::UMC_OnNextmapSet()
+L 06/24/2017 - 17:07:05: [SM]   [3] Call_Finish
+L 06/24/2017 - 17:07:05: [SM]   [4] Line 4834, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::DoMapChange()
+L 06/24/2017 - 17:07:05: [SM]   [5] Line 4267, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteWinner()
+L 06/24/2017 - 17:07:05: [SM]   [6] Line 3819, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteWinner()
+L 06/24/2017 - 17:07:05: [SM]   [7] Line 3795, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteResults()
+L 06/24/2017 - 17:07:05: [SM]   [8] Line 1277, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Native_UMCVoteManagerComplete()
+L 06/24/2017 - 17:07:05: [SM]   [10] UMC_VoteManagerVoteCompleted
+L 06/24/2017 - 17:07:05: [SM]   [11] Line 2309, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteResults()
+L 06/24/2017 - 17:07:11: Error log file session closed.
+L 06/24/2017 - 18:17:18: SourceMod error session started
+L 06/24/2017 - 18:17:18: Info (map "con_urbanchaos_fix") (file "errors_20170624.log")
+L 06/24/2017 - 18:17:18: [SM] Exception reported: Invalid timer handle 26810313 (error 1)
+L 06/24/2017 - 18:17:18: [SM] Blaming: umc-emp-mapvote.smx()
+L 06/24/2017 - 18:17:18: [SM] Call stack trace:
+L 06/24/2017 - 18:17:18: [SM]   [0] KillTimer
+L 06/24/2017 - 18:17:18: [SM]   [1] Line 686, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-emp-mapvote.sp::UMC_OnNextmapSet()
+L 06/24/2017 - 18:17:18: [SM]   [3] Call_Finish
+L 06/24/2017 - 18:17:18: [SM]   [4] Line 4834, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::DoMapChange()
+L 06/24/2017 - 18:17:18: [SM]   [5] Line 4267, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteWinner()
+L 06/24/2017 - 18:17:18: [SM]   [6] Line 3819, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteWinner()
+L 06/24/2017 - 18:17:18: [SM]   [7] Line 3795, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteResults()
+L 06/24/2017 - 18:17:18: [SM]   [8] Line 1277, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Native_UMCVoteManagerComplete()
+L 06/24/2017 - 18:17:18: [SM]   [10] UMC_VoteManagerVoteCompleted
+L 06/24/2017 - 18:17:18: [SM]   [11] Line 2309, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteResults()
+L 06/24/2017 - 18:17:25: Error log file session closed.
+L 06/24/2017 - 18:36:54: SourceMod error session started
+L 06/24/2017 - 18:36:54: Info (map "con_glycencity") (file "errors_20170624.log")
+L 06/24/2017 - 18:36:54: [SM] Exception reported: Invalid timer handle 34560349 (error 1)
+L 06/24/2017 - 18:36:54: [SM] Blaming: umc-emp-mapvote.smx()
+L 06/24/2017 - 18:36:54: [SM] Call stack trace:
+L 06/24/2017 - 18:36:54: [SM]   [0] KillTimer
+L 06/24/2017 - 18:36:54: [SM]   [1] Line 686, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-emp-mapvote.sp::UMC_OnNextmapSet()
+L 06/24/2017 - 18:36:54: [SM]   [3] Call_Finish
+L 06/24/2017 - 18:36:54: [SM]   [4] Line 4834, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::DoMapChange()
+L 06/24/2017 - 18:36:54: [SM]   [5] Line 4267, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteWinner()
+L 06/24/2017 - 18:36:54: [SM]   [6] Line 3819, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteWinner()
+L 06/24/2017 - 18:36:54: [SM]   [7] Line 3795, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteResults()
+L 06/24/2017 - 18:36:54: [SM]   [8] Line 1277, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Native_UMCVoteManagerComplete()
+L 06/24/2017 - 18:36:54: [SM]   [10] UMC_VoteManagerVoteCompleted
+L 06/24/2017 - 18:36:54: [SM]   [11] Line 2309, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteResults()
+L 06/24/2017 - 18:36:59: Error log file session closed.
+L 06/24/2017 - 19:16:01: SourceMod error session started
+L 06/24/2017 - 19:16:01: Info (map "emp_nuclear_b8u_xfix") (file "errors_20170624.log")
+L 06/24/2017 - 19:16:01: [SM] Exception reported: Invalid timer handle 4f24034f (error 1)
+L 06/24/2017 - 19:16:01: [SM] Blaming: umc-emp-mapvote.smx()
+L 06/24/2017 - 19:16:01: [SM] Call stack trace:
+L 06/24/2017 - 19:16:01: [SM]   [0] KillTimer
+L 06/24/2017 - 19:16:01: [SM]   [1] Line 686, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-emp-mapvote.sp::UMC_OnNextmapSet()
+L 06/24/2017 - 19:16:01: [SM]   [3] Call_Finish
+L 06/24/2017 - 19:16:01: [SM]   [4] Line 4834, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::DoMapChange()
+L 06/24/2017 - 19:16:01: [SM]   [5] Line 4267, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteWinner()
+L 06/24/2017 - 19:16:01: [SM]   [6] Line 3819, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteWinner()
+L 06/24/2017 - 19:16:01: [SM]   [7] Line 3795, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteResults()
+L 06/24/2017 - 19:16:01: [SM]   [8] Line 1277, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Native_UMCVoteManagerComplete()
+L 06/24/2017 - 19:16:01: [SM]   [10] UMC_VoteManagerVoteCompleted
+L 06/24/2017 - 19:16:01: [SM]   [11] Line 2309, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteResults()
+L 06/24/2017 - 19:16:07: Error log file session closed.
+L 06/24/2017 - 19:20:34: SourceMod error session started
+L 06/24/2017 - 19:20:34: Info (map "emp_crossroads") (file "errors_20170624.log")
+L 06/24/2017 - 19:20:34: [SM] Exception reported: Array index is out of bounds
+L 06/24/2017 - 19:20:34: [SM] Blaming: squadcontrol.smx()
+L 06/24/2017 - 19:20:34: [SM] Call stack trace:
+L 06/24/2017 - 19:20:34: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 06/24/2017 - 19:27:41: [SM] Exception reported: Invalid timer handle 4f24034f (error 3)
+L 06/24/2017 - 19:27:41: [SM] Blaming: umc-emp-mapvote.smx()
+L 06/24/2017 - 19:27:41: [SM] Call stack trace:
+L 06/24/2017 - 19:27:41: [SM]   [0] KillTimer
+L 06/24/2017 - 19:27:41: [SM]   [1] Line 686, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-emp-mapvote.sp::UMC_OnNextmapSet()
+L 06/24/2017 - 19:27:41: [SM]   [3] Call_Finish
+L 06/24/2017 - 19:27:41: [SM]   [4] Line 4834, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::DoMapChange()
+L 06/24/2017 - 19:27:41: [SM]   [5] Line 4267, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteWinner()
+L 06/24/2017 - 19:27:41: [SM]   [6] Line 3819, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteWinner()
+L 06/24/2017 - 19:27:41: [SM]   [7] Line 3795, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteResults()
+L 06/24/2017 - 19:27:41: [SM]   [8] Line 1277, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Native_UMCVoteManagerComplete()
+L 06/24/2017 - 19:27:41: [SM]   [10] UMC_VoteManagerVoteCompleted
+L 06/24/2017 - 19:27:41: [SM]   [11] Line 2309, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteResults()
+L 06/24/2017 - 19:27:47: Error log file session closed.
+L 06/24/2017 - 19:38:16: SourceMod error session started
+L 06/24/2017 - 19:38:16: Info (map "emp_downfall") (file "errors_20170624.log")
+L 06/24/2017 - 19:38:16: [SM] Exception reported: Array index is out of bounds
+L 06/24/2017 - 19:38:16: [SM] Blaming: squadcontrol.smx()
+L 06/24/2017 - 19:38:16: [SM] Call stack trace:
+L 06/24/2017 - 19:38:16: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 06/24/2017 - 19:38:18: [SM] Exception reported: Array index is out of bounds
+L 06/24/2017 - 19:38:18: [SM] Blaming: squadcontrol.smx()
+L 06/24/2017 - 19:38:18: [SM] Call stack trace:
+L 06/24/2017 - 19:38:18: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 06/24/2017 - 19:39:41: [SM] Exception reported: Array index is out of bounds
+L 06/24/2017 - 19:39:41: [SM] Blaming: squadcontrol.smx()
+L 06/24/2017 - 19:39:41: [SM] Call stack trace:
+L 06/24/2017 - 19:39:41: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 06/24/2017 - 19:40:06: [SM] Exception reported: Array index is out of bounds
+L 06/24/2017 - 19:40:06: [SM] Blaming: squadcontrol.smx()
+L 06/24/2017 - 19:40:06: [SM] Call stack trace:
+L 06/24/2017 - 19:40:06: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 06/24/2017 - 19:40:21: [SM] Exception reported: Array index is out of bounds
+L 06/24/2017 - 19:40:21: [SM] Blaming: squadcontrol.smx()
+L 06/24/2017 - 19:40:21: [SM] Call stack trace:
+L 06/24/2017 - 19:40:21: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 06/24/2017 - 19:40:22: [SM] Exception reported: Array index is out of bounds
+L 06/24/2017 - 19:40:22: [SM] Blaming: squadcontrol.smx()
+L 06/24/2017 - 19:40:22: [SM] Call stack trace:
+L 06/24/2017 - 19:40:22: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 06/24/2017 - 19:44:59: [SM] Exception reported: Array index is out of bounds
+L 06/24/2017 - 19:44:59: [SM] Blaming: squadcontrol.smx()
+L 06/24/2017 - 19:44:59: [SM] Call stack trace:
+L 06/24/2017 - 19:44:59: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 06/24/2017 - 19:59:30: [SM] Exception reported: Array index is out of bounds
+L 06/24/2017 - 19:59:30: [SM] Blaming: squadcontrol.smx()
+L 06/24/2017 - 19:59:30: [SM] Call stack trace:
+L 06/24/2017 - 19:59:30: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 06/24/2017 - 19:59:47: [SM] Exception reported: Array index is out of bounds
+L 06/24/2017 - 19:59:47: [SM] Blaming: squadcontrol.smx()
+L 06/24/2017 - 19:59:47: [SM] Call stack trace:
+L 06/24/2017 - 19:59:47: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 06/24/2017 - 19:59:54: [SM] Exception reported: Array index is out of bounds
+L 06/24/2017 - 19:59:54: [SM] Blaming: squadcontrol.smx()
+L 06/24/2017 - 19:59:54: [SM] Call stack trace:
+L 06/24/2017 - 19:59:54: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 06/24/2017 - 20:00:00: [SM] Exception reported: Array index is out of bounds
+L 06/24/2017 - 20:00:00: [SM] Blaming: squadcontrol.smx()
+L 06/24/2017 - 20:00:00: [SM] Call stack trace:
+L 06/24/2017 - 20:00:00: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 06/24/2017 - 20:00:02: [SM] Exception reported: Array index is out of bounds
+L 06/24/2017 - 20:00:02: [SM] Blaming: squadcontrol.smx()
+L 06/24/2017 - 20:00:02: [SM] Call stack trace:
+L 06/24/2017 - 20:00:02: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 06/24/2017 - 20:00:11: [SM] Exception reported: Array index is out of bounds
+L 06/24/2017 - 20:00:11: [SM] Blaming: squadcontrol.smx()
+L 06/24/2017 - 20:00:11: [SM] Call stack trace:
+L 06/24/2017 - 20:00:11: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 06/24/2017 - 20:00:14: [SM] Exception reported: Array index is out of bounds
+L 06/24/2017 - 20:00:14: [SM] Blaming: squadcontrol.smx()
+L 06/24/2017 - 20:00:14: [SM] Call stack trace:
+L 06/24/2017 - 20:00:14: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 06/24/2017 - 20:02:38: [SM] Exception reported: Array index is out of bounds
+L 06/24/2017 - 20:02:38: [SM] Blaming: squadcontrol.smx()
+L 06/24/2017 - 20:02:38: [SM] Call stack trace:
+L 06/24/2017 - 20:02:38: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 06/24/2017 - 20:06:16: [SM] Exception reported: Array index is out of bounds
+L 06/24/2017 - 20:06:16: [SM] Blaming: squadcontrol.smx()
+L 06/24/2017 - 20:06:16: [SM] Call stack trace:
+L 06/24/2017 - 20:06:16: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 06/24/2017 - 20:06:17: [SM] Exception reported: Array index is out of bounds
+L 06/24/2017 - 20:06:17: [SM] Blaming: squadcontrol.smx()
+L 06/24/2017 - 20:06:17: [SM] Call stack trace:
+L 06/24/2017 - 20:06:17: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 06/24/2017 - 20:06:19: [SM] Exception reported: Array index is out of bounds
+L 06/24/2017 - 20:06:19: [SM] Blaming: squadcontrol.smx()
+L 06/24/2017 - 20:06:19: [SM] Call stack trace:
+L 06/24/2017 - 20:06:19: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 06/24/2017 - 20:07:36: [SM] Exception reported: Array index is out of bounds
+L 06/24/2017 - 20:07:36: [SM] Blaming: squadcontrol.smx()
+L 06/24/2017 - 20:07:36: [SM] Call stack trace:
+L 06/24/2017 - 20:07:36: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 06/24/2017 - 20:08:14: [SM] Exception reported: Array index is out of bounds
+L 06/24/2017 - 20:08:14: [SM] Blaming: squadcontrol.smx()
+L 06/24/2017 - 20:08:14: [SM] Call stack trace:
+L 06/24/2017 - 20:08:14: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 06/24/2017 - 20:11:32: [SM] Exception reported: Invalid timer handle 6fbf034b (error 1)
+L 06/24/2017 - 20:11:32: [SM] Blaming: umc-emp-mapvote.smx()
+L 06/24/2017 - 20:11:32: [SM] Call stack trace:
+L 06/24/2017 - 20:11:32: [SM]   [0] KillTimer
+L 06/24/2017 - 20:11:32: [SM]   [1] Line 686, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-emp-mapvote.sp::UMC_OnNextmapSet()
+L 06/24/2017 - 20:11:32: [SM]   [3] Call_Finish
+L 06/24/2017 - 20:11:32: [SM]   [4] Line 4834, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::DoMapChange()
+L 06/24/2017 - 20:11:32: [SM]   [5] Line 4267, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteWinner()
+L 06/24/2017 - 20:11:32: [SM]   [6] Line 3819, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteWinner()
+L 06/24/2017 - 20:11:32: [SM]   [7] Line 3795, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteResults()
+L 06/24/2017 - 20:11:32: [SM]   [8] Line 1277, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Native_UMCVoteManagerComplete()
+L 06/24/2017 - 20:11:32: [SM]   [10] UMC_VoteManagerVoteCompleted
+L 06/24/2017 - 20:11:32: [SM]   [11] Line 2309, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteResults()
+L 06/24/2017 - 20:11:38: Error log file session closed.
+L 06/24/2017 - 20:14:13: SourceMod error session started
+L 06/24/2017 - 20:14:13: Info (map "emp_drygulch_a6") (file "errors_20170624.log")
+L 06/24/2017 - 20:14:13: [SM] Exception reported: Array index is out of bounds
+L 06/24/2017 - 20:14:13: [SM] Blaming: squadcontrol.smx()
+L 06/24/2017 - 20:14:13: [SM] Call stack trace:
+L 06/24/2017 - 20:14:13: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 06/24/2017 - 20:14:17: [SM] Exception reported: Array index is out of bounds
+L 06/24/2017 - 20:14:17: [SM] Blaming: squadcontrol.smx()
+L 06/24/2017 - 20:14:17: [SM] Call stack trace:
+L 06/24/2017 - 20:14:17: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 06/24/2017 - 20:15:00: [SM] Exception reported: Array index is out of bounds
+L 06/24/2017 - 20:15:00: [SM] Blaming: squadcontrol.smx()
+L 06/24/2017 - 20:15:00: [SM] Call stack trace:
+L 06/24/2017 - 20:15:00: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 06/24/2017 - 20:20:18: [SM] Exception reported: Array index is out of bounds
+L 06/24/2017 - 20:20:18: [SM] Blaming: squadcontrol.smx()
+L 06/24/2017 - 20:20:18: [SM] Call stack trace:
+L 06/24/2017 - 20:20:18: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 06/24/2017 - 20:20:19: [SM] Exception reported: Array index is out of bounds
+L 06/24/2017 - 20:20:19: [SM] Blaming: squadcontrol.smx()
+L 06/24/2017 - 20:20:19: [SM] Call stack trace:
+L 06/24/2017 - 20:20:19: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 06/24/2017 - 20:23:29: [SM] Exception reported: Array index is out of bounds
+L 06/24/2017 - 20:23:29: [SM] Blaming: squadcontrol.smx()
+L 06/24/2017 - 20:23:29: [SM] Call stack trace:
+L 06/24/2017 - 20:23:29: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 06/24/2017 - 20:23:30: [SM] Exception reported: Array index is out of bounds
+L 06/24/2017 - 20:23:30: [SM] Blaming: squadcontrol.smx()
+L 06/24/2017 - 20:23:30: [SM] Call stack trace:
+L 06/24/2017 - 20:23:30: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 06/24/2017 - 20:25:13: [SM] Exception reported: Array index is out of bounds
+L 06/24/2017 - 20:25:13: [SM] Blaming: squadcontrol.smx()
+L 06/24/2017 - 20:25:13: [SM] Call stack trace:
+L 06/24/2017 - 20:25:13: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 06/24/2017 - 20:25:28: [SM] Exception reported: Array index is out of bounds
+L 06/24/2017 - 20:25:28: [SM] Blaming: squadcontrol.smx()
+L 06/24/2017 - 20:25:28: [SM] Call stack trace:
+L 06/24/2017 - 20:25:28: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 06/24/2017 - 20:25:44: [SM] Exception reported: Array index is out of bounds
+L 06/24/2017 - 20:25:44: [SM] Blaming: squadcontrol.smx()
+L 06/24/2017 - 20:25:44: [SM] Call stack trace:
+L 06/24/2017 - 20:25:44: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 06/24/2017 - 20:25:48: [SM] Exception reported: Array index is out of bounds
+L 06/24/2017 - 20:25:48: [SM] Blaming: squadcontrol.smx()
+L 06/24/2017 - 20:25:48: [SM] Call stack trace:
+L 06/24/2017 - 20:25:48: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 06/24/2017 - 20:25:56: [SM] Exception reported: Array index is out of bounds
+L 06/24/2017 - 20:25:56: [SM] Blaming: squadcontrol.smx()
+L 06/24/2017 - 20:25:56: [SM] Call stack trace:
+L 06/24/2017 - 20:25:56: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 06/24/2017 - 20:26:10: [SM] Exception reported: Array index is out of bounds
+L 06/24/2017 - 20:26:10: [SM] Blaming: squadcontrol.smx()
+L 06/24/2017 - 20:26:10: [SM] Call stack trace:
+L 06/24/2017 - 20:26:10: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 06/24/2017 - 20:26:14: [SM] Exception reported: Array index is out of bounds
+L 06/24/2017 - 20:26:14: [SM] Blaming: squadcontrol.smx()
+L 06/24/2017 - 20:26:14: [SM] Call stack trace:
+L 06/24/2017 - 20:26:14: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 06/24/2017 - 20:26:23: [SM] Exception reported: Array index is out of bounds
+L 06/24/2017 - 20:26:23: [SM] Blaming: squadcontrol.smx()
+L 06/24/2017 - 20:26:23: [SM] Call stack trace:
+L 06/24/2017 - 20:26:23: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 06/24/2017 - 20:28:12: [SM] Exception reported: Invalid timer handle 79ec0366 (error 1)
+L 06/24/2017 - 20:28:12: [SM] Blaming: umc-emp-mapvote.smx()
+L 06/24/2017 - 20:28:12: [SM] Call stack trace:
+L 06/24/2017 - 20:28:12: [SM]   [0] KillTimer
+L 06/24/2017 - 20:28:12: [SM]   [1] Line 686, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-emp-mapvote.sp::UMC_OnNextmapSet()
+L 06/24/2017 - 20:28:12: [SM]   [3] Call_Finish
+L 06/24/2017 - 20:28:12: [SM]   [4] Line 4834, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::DoMapChange()
+L 06/24/2017 - 20:28:12: [SM]   [5] Line 4267, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteWinner()
+L 06/24/2017 - 20:28:12: [SM]   [6] Line 3819, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteWinner()
+L 06/24/2017 - 20:28:12: [SM]   [7] Line 3795, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteResults()
+L 06/24/2017 - 20:28:12: [SM]   [8] Line 1277, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Native_UMCVoteManagerComplete()
+L 06/24/2017 - 20:28:12: [SM]   [10] UMC_VoteManagerVoteCompleted
+L 06/24/2017 - 20:28:12: [SM]   [11] Line 2309, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteResults()
+L 06/24/2017 - 20:28:18: Error log file session closed.
+L 06/24/2017 - 20:37:03: SourceMod error session started
+L 06/24/2017 - 20:37:03: Info (map "emp_canyon") (file "errors_20170624.log")
+L 06/24/2017 - 20:37:03: [SM] Exception reported: Array index is out of bounds
+L 06/24/2017 - 20:37:03: [SM] Blaming: squadcontrol.smx()
+L 06/24/2017 - 20:37:03: [SM] Call stack trace:
+L 06/24/2017 - 20:37:03: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 06/24/2017 - 20:39:21: [SM] Exception reported: Array index is out of bounds
+L 06/24/2017 - 20:39:21: [SM] Blaming: squadcontrol.smx()
+L 06/24/2017 - 20:39:21: [SM] Call stack trace:
+L 06/24/2017 - 20:39:21: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 06/24/2017 - 20:40:29: [SM] Exception reported: Array index is out of bounds
+L 06/24/2017 - 20:40:29: [SM] Blaming: squadcontrol.smx()
+L 06/24/2017 - 20:40:29: [SM] Call stack trace:
+L 06/24/2017 - 20:40:29: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 06/24/2017 - 20:41:07: [SM] Exception reported: Array index is out of bounds
+L 06/24/2017 - 20:41:07: [SM] Blaming: squadcontrol.smx()
+L 06/24/2017 - 20:41:07: [SM] Call stack trace:
+L 06/24/2017 - 20:41:07: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 06/24/2017 - 20:41:22: [SM] Exception reported: Array index is out of bounds
+L 06/24/2017 - 20:41:22: [SM] Blaming: squadcontrol.smx()
+L 06/24/2017 - 20:41:22: [SM] Call stack trace:
+L 06/24/2017 - 20:41:22: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 06/24/2017 - 20:42:56: [SM] Exception reported: Array index is out of bounds
+L 06/24/2017 - 20:42:56: [SM] Blaming: squadcontrol.smx()
+L 06/24/2017 - 20:42:56: [SM] Call stack trace:
+L 06/24/2017 - 20:42:56: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 06/24/2017 - 20:45:14: [SM] Exception reported: Array index is out of bounds
+L 06/24/2017 - 20:45:14: [SM] Blaming: squadcontrol.smx()
+L 06/24/2017 - 20:45:14: [SM] Call stack trace:
+L 06/24/2017 - 20:45:14: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 06/24/2017 - 20:45:44: [SM] Exception reported: Array index is out of bounds
+L 06/24/2017 - 20:45:44: [SM] Blaming: squadcontrol.smx()
+L 06/24/2017 - 20:45:44: [SM] Call stack trace:
+L 06/24/2017 - 20:45:44: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 06/24/2017 - 20:45:52: [SM] Exception reported: Array index is out of bounds
+L 06/24/2017 - 20:45:52: [SM] Blaming: squadcontrol.smx()
+L 06/24/2017 - 20:45:52: [SM] Call stack trace:
+L 06/24/2017 - 20:45:52: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 06/24/2017 - 20:46:40: [SM] Exception reported: Array index is out of bounds
+L 06/24/2017 - 20:46:40: [SM] Blaming: squadcontrol.smx()
+L 06/24/2017 - 20:46:40: [SM] Call stack trace:
+L 06/24/2017 - 20:46:40: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 06/24/2017 - 20:46:42: [SM] Exception reported: Array index is out of bounds
+L 06/24/2017 - 20:46:42: [SM] Blaming: squadcontrol.smx()
+L 06/24/2017 - 20:46:42: [SM] Call stack trace:
+L 06/24/2017 - 20:46:42: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 06/24/2017 - 20:46:58: [SM] Exception reported: Array index is out of bounds
+L 06/24/2017 - 20:46:58: [SM] Blaming: squadcontrol.smx()
+L 06/24/2017 - 20:46:58: [SM] Call stack trace:
+L 06/24/2017 - 20:46:58: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 06/24/2017 - 20:47:09: [SM] Exception reported: Array index is out of bounds
+L 06/24/2017 - 20:47:09: [SM] Blaming: squadcontrol.smx()
+L 06/24/2017 - 20:47:09: [SM] Call stack trace:
+L 06/24/2017 - 20:47:09: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 06/24/2017 - 20:47:10: [SM] Exception reported: Array index is out of bounds
+L 06/24/2017 - 20:47:10: [SM] Blaming: squadcontrol.smx()
+L 06/24/2017 - 20:47:10: [SM] Call stack trace:
+L 06/24/2017 - 20:47:10: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 06/24/2017 - 20:48:24: [SM] Exception reported: Array index is out of bounds
+L 06/24/2017 - 20:48:24: [SM] Blaming: squadcontrol.smx()
+L 06/24/2017 - 20:48:24: [SM] Call stack trace:
+L 06/24/2017 - 20:48:24: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 06/24/2017 - 20:50:21: [SM] Exception reported: Array index is out of bounds
+L 06/24/2017 - 20:50:21: [SM] Blaming: squadcontrol.smx()
+L 06/24/2017 - 20:50:21: [SM] Call stack trace:
+L 06/24/2017 - 20:50:21: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 06/24/2017 - 20:51:58: [SM] Exception reported: Array index is out of bounds
+L 06/24/2017 - 20:51:58: [SM] Blaming: squadcontrol.smx()
+L 06/24/2017 - 20:51:58: [SM] Call stack trace:
+L 06/24/2017 - 20:51:58: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 06/24/2017 - 20:52:14: [SM] Exception reported: Array index is out of bounds
+L 06/24/2017 - 20:52:14: [SM] Blaming: squadcontrol.smx()
+L 06/24/2017 - 20:52:14: [SM] Call stack trace:
+L 06/24/2017 - 20:52:14: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 06/24/2017 - 20:57:55: [SM] Exception reported: Array index is out of bounds
+L 06/24/2017 - 20:57:55: [SM] Blaming: squadcontrol.smx()
+L 06/24/2017 - 20:57:55: [SM] Call stack trace:
+L 06/24/2017 - 20:57:55: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 06/24/2017 - 20:57:58: [SM] Exception reported: Array index is out of bounds
+L 06/24/2017 - 20:57:58: [SM] Blaming: squadcontrol.smx()
+L 06/24/2017 - 20:57:58: [SM] Call stack trace:
+L 06/24/2017 - 20:57:58: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 06/24/2017 - 20:58:02: [SM] Exception reported: Array index is out of bounds
+L 06/24/2017 - 20:58:02: [SM] Blaming: squadcontrol.smx()
+L 06/24/2017 - 20:58:02: [SM] Call stack trace:
+L 06/24/2017 - 20:58:02: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 06/24/2017 - 20:58:13: [SM] Exception reported: Array index is out of bounds
+L 06/24/2017 - 20:58:13: [SM] Blaming: squadcontrol.smx()
+L 06/24/2017 - 20:58:13: [SM] Call stack trace:
+L 06/24/2017 - 20:58:13: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 06/24/2017 - 20:58:37: [SM] Exception reported: Array index is out of bounds
+L 06/24/2017 - 20:58:37: [SM] Blaming: squadcontrol.smx()
+L 06/24/2017 - 20:58:37: [SM] Call stack trace:
+L 06/24/2017 - 20:58:37: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 06/24/2017 - 20:59:46: [SM] Exception reported: Array index is out of bounds
+L 06/24/2017 - 20:59:46: [SM] Blaming: squadcontrol.smx()
+L 06/24/2017 - 20:59:46: [SM] Call stack trace:
+L 06/24/2017 - 20:59:46: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 06/24/2017 - 20:59:47: [SM] Exception reported: Array index is out of bounds
+L 06/24/2017 - 20:59:47: [SM] Blaming: squadcontrol.smx()
+L 06/24/2017 - 20:59:47: [SM] Call stack trace:
+L 06/24/2017 - 20:59:47: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 06/24/2017 - 20:59:48: [SM] Exception reported: Array index is out of bounds
+L 06/24/2017 - 20:59:48: [SM] Blaming: squadcontrol.smx()
+L 06/24/2017 - 20:59:48: [SM] Call stack trace:
+L 06/24/2017 - 20:59:48: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 06/24/2017 - 21:01:06: [SM] Exception reported: Array index is out of bounds
+L 06/24/2017 - 21:01:06: [SM] Blaming: squadcontrol.smx()
+L 06/24/2017 - 21:01:06: [SM] Call stack trace:
+L 06/24/2017 - 21:01:06: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 06/24/2017 - 21:02:18: [SM] Exception reported: Array index is out of bounds
+L 06/24/2017 - 21:02:18: [SM] Blaming: squadcontrol.smx()
+L 06/24/2017 - 21:02:18: [SM] Call stack trace:
+L 06/24/2017 - 21:02:18: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 06/24/2017 - 21:07:59: [SM] Exception reported: Invalid timer handle 910c031e (error 1)
+L 06/24/2017 - 21:07:59: [SM] Blaming: umc-emp-mapvote.smx()
+L 06/24/2017 - 21:07:59: [SM] Call stack trace:
+L 06/24/2017 - 21:07:59: [SM]   [0] KillTimer
+L 06/24/2017 - 21:07:59: [SM]   [1] Line 686, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-emp-mapvote.sp::UMC_OnNextmapSet()
+L 06/24/2017 - 21:07:59: [SM]   [3] Call_Finish
+L 06/24/2017 - 21:07:59: [SM]   [4] Line 4834, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::DoMapChange()
+L 06/24/2017 - 21:07:59: [SM]   [5] Line 4267, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteWinner()
+L 06/24/2017 - 21:07:59: [SM]   [6] Line 3819, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteWinner()
+L 06/24/2017 - 21:07:59: [SM]   [7] Line 3795, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteResults()
+L 06/24/2017 - 21:07:59: [SM]   [8] Line 1277, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Native_UMCVoteManagerComplete()
+L 06/24/2017 - 21:07:59: [SM]   [10] UMC_VoteManagerVoteCompleted
+L 06/24/2017 - 21:07:59: [SM]   [11] Line 2309, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteResults()
+L 06/24/2017 - 21:08:04: Error log file session closed.
+L 06/24/2017 - 22:55:42: SourceMod error session started
+L 06/24/2017 - 22:55:42: Info (map "emp_beachfront_b2") (file "errors_20170624.log")
+L 06/24/2017 - 22:55:42: [umc-core.smx] VOTING: Not enough options to run a vote. 1 options available.
+L 06/24/2017 - 22:55:42: [umc-core.smx] Could not start core vote.
+L 06/24/2017 - 22:55:47: Error log file session closed.
+L 06/24/2017 - 23:05:19: SourceMod error session started
+L 06/24/2017 - 23:05:19: Info (map "con_urbanchaos_fix") (file "errors_20170624.log")
+L 06/24/2017 - 23:05:19: [SM] Exception reported: Invalid timer handle 9ec7031c (error 1)
+L 06/24/2017 - 23:05:19: [SM] Blaming: umc-emp-mapvote.smx()
+L 06/24/2017 - 23:05:19: [SM] Call stack trace:
+L 06/24/2017 - 23:05:19: [SM]   [0] KillTimer
+L 06/24/2017 - 23:05:19: [SM]   [1] Line 686, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-emp-mapvote.sp::UMC_OnNextmapSet()
+L 06/24/2017 - 23:05:19: [SM]   [3] Call_Finish
+L 06/24/2017 - 23:05:19: [SM]   [4] Line 4834, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::DoMapChange()
+L 06/24/2017 - 23:05:19: [SM]   [5] Line 4267, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteWinner()
+L 06/24/2017 - 23:05:19: [SM]   [6] Line 3819, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteWinner()
+L 06/24/2017 - 23:05:19: [SM]   [7] Line 3795, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteResults()
+L 06/24/2017 - 23:05:19: [SM]   [8] Line 1277, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Native_UMCVoteManagerComplete()
+L 06/24/2017 - 23:05:19: [SM]   [10] UMC_VoteManagerVoteCompleted
+L 06/24/2017 - 23:05:19: [SM]   [11] Line 2309, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteResults()
+L 06/24/2017 - 23:05:24: Error log file session closed.
+L 06/24/2017 - 23:24:09: SourceMod error session started
+L 06/24/2017 - 23:24:09: Info (map "emp_crossroads") (file "errors_20170624.log")
+L 06/24/2017 - 23:24:09: [SM] Exception reported: Array index is out of bounds
+L 06/24/2017 - 23:24:09: [SM] Blaming: squadcontrol.smx()
+L 06/24/2017 - 23:24:09: [SM] Call stack trace:
+L 06/24/2017 - 23:24:09: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 06/24/2017 - 23:24:34: [SM] Exception reported: Array index is out of bounds
+L 06/24/2017 - 23:24:34: [SM] Blaming: squadcontrol.smx()
+L 06/24/2017 - 23:24:34: [SM] Call stack trace:
+L 06/24/2017 - 23:24:34: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 06/24/2017 - 23:26:31: [SM] Exception reported: Array index is out of bounds
+L 06/24/2017 - 23:26:31: [SM] Blaming: squadcontrol.smx()
+L 06/24/2017 - 23:26:31: [SM] Call stack trace:
+L 06/24/2017 - 23:26:31: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 06/24/2017 - 23:38:10: [SM] Exception reported: Array index is out of bounds
+L 06/24/2017 - 23:38:10: [SM] Blaming: squadcontrol.smx()
+L 06/24/2017 - 23:38:10: [SM] Call stack trace:
+L 06/24/2017 - 23:38:10: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 06/24/2017 - 23:42:42: [SM] Exception reported: Array index is out of bounds
+L 06/24/2017 - 23:42:42: [SM] Blaming: squadcontrol.smx()
+L 06/24/2017 - 23:42:42: [SM] Call stack trace:
+L 06/24/2017 - 23:42:42: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 06/24/2017 - 23:42:49: [SM] Exception reported: Array index is out of bounds
+L 06/24/2017 - 23:42:49: [SM] Blaming: squadcontrol.smx()
+L 06/24/2017 - 23:42:49: [SM] Call stack trace:
+L 06/24/2017 - 23:42:49: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 06/24/2017 - 23:44:03: [SM] Exception reported: Array index is out of bounds
+L 06/24/2017 - 23:44:03: [SM] Blaming: squadcontrol.smx()
+L 06/24/2017 - 23:44:03: [SM] Call stack trace:
+L 06/24/2017 - 23:44:03: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 06/24/2017 - 23:47:20: [SM] Exception reported: Array index is out of bounds
+L 06/24/2017 - 23:47:20: [SM] Blaming: squadcontrol.smx()
+L 06/24/2017 - 23:47:20: [SM] Call stack trace:
+L 06/24/2017 - 23:47:20: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 06/24/2017 - 23:49:16: [SM] Exception reported: Array index is out of bounds
+L 06/24/2017 - 23:49:16: [SM] Blaming: squadcontrol.smx()
+L 06/24/2017 - 23:49:16: [SM] Call stack trace:
+L 06/24/2017 - 23:49:16: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 06/24/2017 - 23:55:16: [SM] Exception reported: Array index is out of bounds
+L 06/24/2017 - 23:55:16: [SM] Blaming: squadcontrol.smx()
+L 06/24/2017 - 23:55:16: [SM] Call stack trace:
+L 06/24/2017 - 23:55:16: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 06/24/2017 - 23:55:20: [SM] Exception reported: Array index is out of bounds
+L 06/24/2017 - 23:55:20: [SM] Blaming: squadcontrol.smx()
+L 06/24/2017 - 23:55:20: [SM] Call stack trace:
+L 06/24/2017 - 23:55:20: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 06/24/2017 - 23:55:24: [SM] Exception reported: Array index is out of bounds
+L 06/24/2017 - 23:55:24: [SM] Blaming: squadcontrol.smx()
+L 06/24/2017 - 23:55:24: [SM] Call stack trace:
+L 06/24/2017 - 23:55:24: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()

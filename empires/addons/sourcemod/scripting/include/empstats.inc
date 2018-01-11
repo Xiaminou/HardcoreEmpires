@@ -14,6 +14,10 @@ public void __pl_ircrelay_SetNTVOptional()
 {
 	MarkNativeAsOptional("ES_GetStats");
 	MarkNativeAsOptional("ES_GetStat");
+	MarkNativeAsOptional("ES_SetRanked");
+	MarkNativeAsOptional("ES_GetLeague");
+	MarkNativeAsOptional("ES_ClearRatedTeam");
+	MarkNativeAsOptional("ES_GetRecommendedTeam");
 }
 #endif
 
@@ -21,3 +25,7 @@ public void __pl_ircrelay_SetNTVOptional()
 
 native void ES_GetStats(char[] stat,any[] stats);
 native any ES_GetStat(int player,char[] stat);
+native void ES_GetLeague(int player,char[] league,int[] rgb);
+native void ES_SetRanked(bool isRanked);
+native void ES_ClearRatedTeam(int client);
+native int ES_GetRecommendedTeam(int client,bool ranked);

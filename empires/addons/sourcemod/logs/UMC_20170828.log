@@ -1,0 +1,54 @@
+L 08/28/2017 - 00:33:20: [umc-emp-mapvote.smx] Map vote will appear in 30 seconds.
+L 08/28/2017 - 00:33:50: [umc-emp-mapvote.smx] Starting a map vote.
+L 08/28/2017 - 00:33:50: [umc-core.smx] Initiating Vote Type: Map
+L 08/28/2017 - 00:34:29: [umc-core.smx] RUNOFF: Starting runoff vote.
+L 08/28/2017 - 00:34:29: [umc-core.smx] Initiating Vote Type: Map
+L 08/28/2017 - 00:35:00: [umc-core.smx] Setting nextmap to: emp_coast_fix
+L 08/28/2017 - 00:35:00: [umc-randomcycle.smx] Disabling random nextmap selection.
+L 08/28/2017 - 00:35:00: [umc-core.smx] umc-emp-mapvote.smx: Changing map to 'emp_coast_fix' in 5 seconds.
+L 08/28/2017 - 00:35:00: [umc-core.smx] MAPVOTE: Players voted for map 'emp_coast_fix' from group 'Commander Maps'
+L 08/28/2017 - 00:35:10: [umc-core.smx] ---------------------MAP CHANGE: emp_coast_fix---------------------
+L 08/28/2017 - 00:35:10: [umc-endvote-warnings.smx] Successfully parsed and set up 11 vote warnings.
+L 08/28/2017 - 00:35:10: [umc-playercountmonitor.smx] Min Players: 20, Max Players: 52
+L 08/28/2017 - 00:35:10: [umc-playercountmonitor.smx] Server will begin watching for inproper number of players in 240 seconds.
+L 08/28/2017 - 00:35:10: [umc-rockthevote.smx] RTV will be made available in 60 seconds.
+L 08/28/2017 - 00:36:11: [umc-rockthevote.smx] RTV is now available.
+L 08/28/2017 - 00:39:10: [umc-playercountmonitor.smx] Server is now watching for inproper number of players.
+L 08/28/2017 - 01:03:14: [umc-emp-mapvote.smx] Map vote will appear in 30 seconds.
+L 08/28/2017 - 01:03:44: [umc-emp-mapvote.smx] Starting a map vote.
+L 08/28/2017 - 01:03:44: [umc-core.smx] Initiating Vote Type: Map
+L 08/28/2017 - 01:04:14: [umc-core.smx] Setting nextmap to: emp_blah4
+L 08/28/2017 - 01:04:14: [umc-randomcycle.smx] Disabling random nextmap selection.
+L 08/28/2017 - 01:04:14: [umc-core.smx] umc-emp-mapvote.smx: Changing map to 'emp_blah4' in 5 seconds.
+L 08/28/2017 - 01:04:14: [umc-core.smx] MAPVOTE: Players voted for map 'emp_blah4' from group 'Commander Maps'
+L 08/28/2017 - 01:04:23: [umc-core.smx] ---------------------MAP CHANGE: emp_blah4---------------------
+L 08/28/2017 - 01:04:23: [umc-endvote-warnings.smx] Successfully parsed and set up 11 vote warnings.
+L 08/28/2017 - 01:04:23: [umc-playercountmonitor.smx] Min Players: 14, Max Players: 32
+L 08/28/2017 - 01:04:23: [umc-playercountmonitor.smx] Server will begin watching for inproper number of players in 240 seconds.
+L 08/28/2017 - 01:04:23: [umc-rockthevote.smx] RTV will be made available in 60 seconds.
+L 08/28/2017 - 01:05:24: [umc-rockthevote.smx] RTV is now available.
+L 08/28/2017 - 01:06:05: [umc-emp-mapvote.smx] Map vote will appear in 30 seconds.
+L 08/28/2017 - 01:06:35: [umc-emp-mapvote.smx] Starting a map vote.
+L 08/28/2017 - 01:06:35: [umc-core.smx] Initiating Vote Type: Map
+L 08/28/2017 - 01:07:05: [umc-core.smx] Setting nextmap to: emp_beachfront_b2
+L 08/28/2017 - 01:07:05: [umc-randomcycle.smx] Disabling random nextmap selection.
+L 08/28/2017 - 01:07:05: [umc-core.smx] umc-emp-mapvote.smx: Changing map to 'emp_beachfront_b2' in 5 seconds.
+L 08/28/2017 - 01:07:05: [umc-core.smx] MAPVOTE: Players voted for map 'emp_beachfront_b2' from group 'Commander Maps'
+L 08/28/2017 - 01:07:12: [umc-core.smx] ---------------------MAP CHANGE: emp_beachfront_b2---------------------
+L 08/28/2017 - 01:07:12: [umc-endvote-warnings.smx] Successfully parsed and set up 11 vote warnings.
+L 08/28/2017 - 01:07:12: [umc-playercountmonitor.smx] Min Players: 0, Max Players: 22
+L 08/28/2017 - 01:07:12: [umc-playercountmonitor.smx] Server will begin watching for inproper number of players in 240 seconds.
+L 08/28/2017 - 01:07:12: [umc-rockthevote.smx] RTV will be made available in 60 seconds.
+L 08/28/2017 - 01:08:13: [umc-rockthevote.smx] RTV is now available.
+L 08/28/2017 - 01:09:58: [umc-core.smx] ---------------------MAP CHANGE: con_district402---------------------
+L 08/28/2017 - 01:09:58: [umc-endvote-warnings.smx] Successfully parsed and set up 11 vote warnings.
+L 08/28/2017 - 01:09:58: [umc-playercountmonitor.smx] Current Map Group could not be determined. (Non-UMC mapchange or plugin just loaded.)
+L 08/28/2017 - 01:09:58: [umc-playercountmonitor.smx] Min Players: 0, Max Players: 64
+L 08/28/2017 - 01:09:58: [umc-rockthevote.smx] RTV will be made available in 60 seconds.
+L 08/28/2017 - 01:10:59: [umc-rockthevote.smx] RTV is now available.
+L 08/28/2017 - 12:52:13: [umc-core.smx] ---------------------MAP CHANGE: con_district402---------------------
+L 08/28/2017 - 12:52:13: [umc-endvote-warnings.smx] Successfully parsed and set up 11 vote warnings.
+L 08/28/2017 - 12:52:13: [umc-playercountmonitor.smx] Current Map Group could not be determined. (Non-UMC mapchange or plugin just loaded.)
+L 08/28/2017 - 12:52:13: [umc-playercountmonitor.smx] Min Players: 0, Max Players: 64
+L 08/28/2017 - 12:52:13: [umc-rockthevote.smx] RTV will be made available in 60 seconds.
+L 08/28/2017 - 12:53:14: [umc-rockthevote.smx] RTV is now available.

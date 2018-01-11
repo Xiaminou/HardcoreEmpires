@@ -1,0 +1,616 @@
+L 07/12/2017 - 00:40:50: SourceMod error session started
+L 07/12/2017 - 00:40:50: Info (map "emp_downfall") (file "errors_20170712.log")
+L 07/12/2017 - 00:40:50: Error log file session closed.
+L 07/12/2017 - 00:40:51: SourceMod error session started
+L 07/12/2017 - 00:40:51: Info (map "emp_downfall") (file "errors_20170712.log")
+L 07/12/2017 - 00:40:51: [nextmap.smx] FATAL: Cannot load map cycle. Nextmap not loaded.
+L 07/12/2017 - 00:40:51: [SM] Exception reported: Mapcycle Not Found
+L 07/12/2017 - 00:40:51: [SM] Blaming: nextmap.smx()
+L 07/12/2017 - 00:40:51: [SM] Call stack trace:
+L 07/12/2017 - 00:40:51: [SM]   [0] SetFailState
+L 07/12/2017 - 00:40:51: [SM]   [1] Line 139, D:\builds\build-sourcemod-msvc12\windows-1.8\build\plugins\nextmap.sp::FindAndSetNextMap()
+L 07/12/2017 - 00:40:51: [SM]   [2] Line 109, D:\builds\build-sourcemod-msvc12\windows-1.8\build\plugins\nextmap.sp::OnConfigsExecuted()
+L 07/12/2017 - 00:54:04: [SM] Exception reported: Invalid timer handle 1da8030a (error 1)
+L 07/12/2017 - 00:54:04: [SM] Blaming: umc-emp-mapvote.smx()
+L 07/12/2017 - 00:54:04: [SM] Call stack trace:
+L 07/12/2017 - 00:54:04: [SM]   [0] KillTimer
+L 07/12/2017 - 00:54:04: [SM]   [1] Line 686, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-emp-mapvote.sp::UMC_OnNextmapSet()
+L 07/12/2017 - 00:54:04: [SM]   [3] Call_Finish
+L 07/12/2017 - 00:54:04: [SM]   [4] Line 4834, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::DoMapChange()
+L 07/12/2017 - 00:54:04: [SM]   [5] Line 4267, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteWinner()
+L 07/12/2017 - 00:54:04: [SM]   [6] Line 3819, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteWinner()
+L 07/12/2017 - 00:54:04: [SM]   [7] Line 3795, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteResults()
+L 07/12/2017 - 00:54:04: [SM]   [8] Line 1277, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Native_UMCVoteManagerComplete()
+L 07/12/2017 - 00:54:04: [SM]   [10] UMC_VoteManagerVoteCompleted
+L 07/12/2017 - 00:54:04: [SM]   [11] Line 2309, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteResults()
+L 07/12/2017 - 00:54:10: Error log file session closed.
+L 07/12/2017 - 00:54:10: SourceMod error session started
+L 07/12/2017 - 00:54:10: Info (map "emp_drygulch_a6") (file "errors_20170712.log")
+L 07/12/2017 - 00:54:10: [nextmap.smx] FATAL: Cannot load map cycle. Nextmap not loaded.
+L 07/12/2017 - 00:54:10: [SM] Exception reported: Mapcycle Not Found
+L 07/12/2017 - 00:54:10: [SM] Blaming: nextmap.smx()
+L 07/12/2017 - 00:54:10: [SM] Call stack trace:
+L 07/12/2017 - 00:54:10: [SM]   [0] SetFailState
+L 07/12/2017 - 00:54:10: [SM]   [1] Line 139, D:\builds\build-sourcemod-msvc12\windows-1.8\build\plugins\nextmap.sp::FindAndSetNextMap()
+L 07/12/2017 - 00:54:10: [SM]   [2] Line 109, D:\builds\build-sourcemod-msvc12\windows-1.8\build\plugins\nextmap.sp::OnConfigsExecuted()
+L 07/12/2017 - 13:28:56: SourceMod error session started
+L 07/12/2017 - 13:28:56: Info (map "con_district402") (file "errors_20170712.log")
+L 07/12/2017 - 13:28:56: [SDKTOOLS] Invalid detour address passed - Disabling detour to prevent crashes
+L 07/12/2017 - 13:28:56: [SDKTOOLS] Failed to find PlayerRunCmd offset - OnPlayerRunCmd forward disabled.
+L 07/12/2017 - 13:28:58: [nextmap.smx] FATAL: Cannot load map cycle. Nextmap not loaded.
+L 07/12/2017 - 13:28:58: [SM] Exception reported: Mapcycle Not Found
+L 07/12/2017 - 13:28:58: [SM] Blaming: nextmap.smx()
+L 07/12/2017 - 13:28:58: [SM] Call stack trace:
+L 07/12/2017 - 13:28:58: [SM]   [0] SetFailState
+L 07/12/2017 - 13:28:58: [SM]   [1] Line 139, D:\builds\build-sourcemod-msvc12\windows-1.8\build\plugins\nextmap.sp::FindAndSetNextMap()
+L 07/12/2017 - 13:28:58: [SM]   [2] Line 109, D:\builds\build-sourcemod-msvc12\windows-1.8\build\plugins\nextmap.sp::OnConfigsExecuted()
+L 07/12/2017 - 14:06:24: [SM] Exception reported: Invalid timer handle 63f0137 (error 1)
+L 07/12/2017 - 14:06:24: [SM] Blaming: umc-emp-mapvote.smx()
+L 07/12/2017 - 14:06:24: [SM] Call stack trace:
+L 07/12/2017 - 14:06:24: [SM]   [0] KillTimer
+L 07/12/2017 - 14:06:24: [SM]   [1] Line 686, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-emp-mapvote.sp::UMC_OnNextmapSet()
+L 07/12/2017 - 14:06:24: [SM]   [3] Call_Finish
+L 07/12/2017 - 14:06:24: [SM]   [4] Line 4834, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::DoMapChange()
+L 07/12/2017 - 14:06:24: [SM]   [5] Line 4267, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteWinner()
+L 07/12/2017 - 14:06:24: [SM]   [6] Line 3819, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteWinner()
+L 07/12/2017 - 14:06:24: [SM]   [7] Line 3795, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteResults()
+L 07/12/2017 - 14:06:24: [SM]   [8] Line 1277, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Native_UMCVoteManagerComplete()
+L 07/12/2017 - 14:06:24: [SM]   [10] UMC_VoteManagerVoteCompleted
+L 07/12/2017 - 14:06:24: [SM]   [11] Line 2309, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteResults()
+L 07/12/2017 - 14:06:30: Error log file session closed.
+L 07/12/2017 - 14:06:31: SourceMod error session started
+L 07/12/2017 - 14:06:31: Info (map "con_urbanchaos_fix") (file "errors_20170712.log")
+L 07/12/2017 - 14:06:31: [nextmap.smx] FATAL: Cannot load map cycle. Nextmap not loaded.
+L 07/12/2017 - 14:06:31: [SM] Exception reported: Mapcycle Not Found
+L 07/12/2017 - 14:06:31: [SM] Blaming: nextmap.smx()
+L 07/12/2017 - 14:06:31: [SM] Call stack trace:
+L 07/12/2017 - 14:06:31: [SM]   [0] SetFailState
+L 07/12/2017 - 14:06:31: [SM]   [1] Line 139, D:\builds\build-sourcemod-msvc12\windows-1.8\build\plugins\nextmap.sp::FindAndSetNextMap()
+L 07/12/2017 - 14:06:31: [SM]   [2] Line 109, D:\builds\build-sourcemod-msvc12\windows-1.8\build\plugins\nextmap.sp::OnConfigsExecuted()
+L 07/12/2017 - 14:22:21: [SM] Exception reported: Invalid timer handle 87b02ed (error 1)
+L 07/12/2017 - 14:22:21: [SM] Blaming: umc-emp-mapvote.smx()
+L 07/12/2017 - 14:22:21: [SM] Call stack trace:
+L 07/12/2017 - 14:22:21: [SM]   [0] KillTimer
+L 07/12/2017 - 14:22:21: [SM]   [1] Line 686, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-emp-mapvote.sp::UMC_OnNextmapSet()
+L 07/12/2017 - 14:22:21: [SM]   [3] Call_Finish
+L 07/12/2017 - 14:22:21: [SM]   [4] Line 4834, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::DoMapChange()
+L 07/12/2017 - 14:22:21: [SM]   [5] Line 4267, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteWinner()
+L 07/12/2017 - 14:22:21: [SM]   [6] Line 3819, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteWinner()
+L 07/12/2017 - 14:22:21: [SM]   [7] Line 3795, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteResults()
+L 07/12/2017 - 14:22:21: [SM]   [8] Line 1277, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Native_UMCVoteManagerComplete()
+L 07/12/2017 - 14:22:21: [SM]   [10] UMC_VoteManagerVoteCompleted
+L 07/12/2017 - 14:22:21: [SM]   [11] Line 2309, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteResults()
+L 07/12/2017 - 14:22:27: Error log file session closed.
+L 07/12/2017 - 14:22:27: SourceMod error session started
+L 07/12/2017 - 14:22:27: Info (map "emp_drygulch_a6") (file "errors_20170712.log")
+L 07/12/2017 - 14:22:27: [nextmap.smx] FATAL: Cannot load map cycle. Nextmap not loaded.
+L 07/12/2017 - 14:22:27: [SM] Exception reported: Mapcycle Not Found
+L 07/12/2017 - 14:22:27: [SM] Blaming: nextmap.smx()
+L 07/12/2017 - 14:22:27: [SM] Call stack trace:
+L 07/12/2017 - 14:22:27: [SM]   [0] SetFailState
+L 07/12/2017 - 14:22:27: [SM]   [1] Line 139, D:\builds\build-sourcemod-msvc12\windows-1.8\build\plugins\nextmap.sp::FindAndSetNextMap()
+L 07/12/2017 - 14:22:27: [SM]   [2] Line 109, D:\builds\build-sourcemod-msvc12\windows-1.8\build\plugins\nextmap.sp::OnConfigsExecuted()
+L 07/12/2017 - 21:39:23: [SM] Exception reported: Invalid timer handle 1fc802f4 (error 1)
+L 07/12/2017 - 21:39:23: [SM] Blaming: umc-emp-mapvote.smx()
+L 07/12/2017 - 21:39:23: [SM] Call stack trace:
+L 07/12/2017 - 21:39:23: [SM]   [0] KillTimer
+L 07/12/2017 - 21:39:23: [SM]   [1] Line 686, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-emp-mapvote.sp::UMC_OnNextmapSet()
+L 07/12/2017 - 21:39:23: [SM]   [3] Call_Finish
+L 07/12/2017 - 21:39:23: [SM]   [4] Line 4834, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::DoMapChange()
+L 07/12/2017 - 21:39:23: [SM]   [5] Line 4267, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteWinner()
+L 07/12/2017 - 21:39:23: [SM]   [6] Line 3819, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteWinner()
+L 07/12/2017 - 21:39:23: [SM]   [7] Line 3795, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteResults()
+L 07/12/2017 - 21:39:23: [SM]   [8] Line 1277, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Native_UMCVoteManagerComplete()
+L 07/12/2017 - 21:39:23: [SM]   [10] UMC_VoteManagerVoteCompleted
+L 07/12/2017 - 21:39:23: [SM]   [11] Line 2309, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteResults()
+L 07/12/2017 - 21:39:29: Error log file session closed.
+L 07/12/2017 - 21:39:31: SourceMod error session started
+L 07/12/2017 - 21:39:31: Info (map "emp_nuclear_b8u_xfix") (file "errors_20170712.log")
+L 07/12/2017 - 21:39:31: [nextmap.smx] FATAL: Cannot load map cycle. Nextmap not loaded.
+L 07/12/2017 - 21:39:31: [SM] Exception reported: Mapcycle Not Found
+L 07/12/2017 - 21:39:31: [SM] Blaming: nextmap.smx()
+L 07/12/2017 - 21:39:31: [SM] Call stack trace:
+L 07/12/2017 - 21:39:31: [SM]   [0] SetFailState
+L 07/12/2017 - 21:39:31: [SM]   [1] Line 139, D:\builds\build-sourcemod-msvc12\windows-1.8\build\plugins\nextmap.sp::FindAndSetNextMap()
+L 07/12/2017 - 21:39:31: [SM]   [2] Line 109, D:\builds\build-sourcemod-msvc12\windows-1.8\build\plugins\nextmap.sp::OnConfigsExecuted()
+L 07/12/2017 - 22:16:47: [SM] Exception reported: Invalid timer handle 335c0310 (error 1)
+L 07/12/2017 - 22:16:47: [SM] Blaming: umc-emp-mapvote.smx()
+L 07/12/2017 - 22:16:47: [SM] Call stack trace:
+L 07/12/2017 - 22:16:47: [SM]   [0] KillTimer
+L 07/12/2017 - 22:16:47: [SM]   [1] Line 686, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-emp-mapvote.sp::UMC_OnNextmapSet()
+L 07/12/2017 - 22:16:47: [SM]   [3] Call_Finish
+L 07/12/2017 - 22:16:47: [SM]   [4] Line 4834, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::DoMapChange()
+L 07/12/2017 - 22:16:47: [SM]   [5] Line 4267, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteWinner()
+L 07/12/2017 - 22:16:47: [SM]   [6] Line 3819, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteWinner()
+L 07/12/2017 - 22:16:47: [SM]   [7] Line 3795, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteResults()
+L 07/12/2017 - 22:16:47: [SM]   [8] Line 1277, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Native_UMCVoteManagerComplete()
+L 07/12/2017 - 22:16:47: [SM]   [10] UMC_VoteManagerVoteCompleted
+L 07/12/2017 - 22:16:47: [SM]   [11] Line 2309, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteResults()
+L 07/12/2017 - 22:16:53: Error log file session closed.
+L 07/12/2017 - 22:16:57: SourceMod error session started
+L 07/12/2017 - 22:16:57: Info (map "emp_crossroads") (file "errors_20170712.log")
+L 07/12/2017 - 22:16:57: [nextmap.smx] FATAL: Cannot load map cycle. Nextmap not loaded.
+L 07/12/2017 - 22:16:57: [SM] Exception reported: Mapcycle Not Found
+L 07/12/2017 - 22:16:57: [SM] Blaming: nextmap.smx()
+L 07/12/2017 - 22:16:57: [SM] Call stack trace:
+L 07/12/2017 - 22:16:57: [SM]   [0] SetFailState
+L 07/12/2017 - 22:16:57: [SM]   [1] Line 139, D:\builds\build-sourcemod-msvc12\windows-1.8\build\plugins\nextmap.sp::FindAndSetNextMap()
+L 07/12/2017 - 22:16:57: [SM]   [2] Line 109, D:\builds\build-sourcemod-msvc12\windows-1.8\build\plugins\nextmap.sp::OnConfigsExecuted()
+L 07/12/2017 - 22:23:10: [SM] Exception reported: Array index is out of bounds
+L 07/12/2017 - 22:23:10: [SM] Blaming: squadcontrol.smx()
+L 07/12/2017 - 22:23:10: [SM] Call stack trace:
+L 07/12/2017 - 22:23:10: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 07/12/2017 - 22:23:34: [SM] Exception reported: Array index is out of bounds
+L 07/12/2017 - 22:23:34: [SM] Blaming: squadcontrol.smx()
+L 07/12/2017 - 22:23:34: [SM] Call stack trace:
+L 07/12/2017 - 22:23:34: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 07/12/2017 - 22:25:27: [SM] Exception reported: Array index is out of bounds
+L 07/12/2017 - 22:25:27: [SM] Blaming: squadcontrol.smx()
+L 07/12/2017 - 22:25:27: [SM] Call stack trace:
+L 07/12/2017 - 22:25:27: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 07/12/2017 - 22:25:36: [SM] Exception reported: Array index is out of bounds
+L 07/12/2017 - 22:25:36: [SM] Blaming: squadcontrol.smx()
+L 07/12/2017 - 22:25:36: [SM] Call stack trace:
+L 07/12/2017 - 22:25:36: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 07/12/2017 - 22:25:48: [SM] Exception reported: Array index is out of bounds
+L 07/12/2017 - 22:25:48: [SM] Blaming: squadcontrol.smx()
+L 07/12/2017 - 22:25:48: [SM] Call stack trace:
+L 07/12/2017 - 22:25:48: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 07/12/2017 - 22:25:57: [SM] Exception reported: Array index is out of bounds
+L 07/12/2017 - 22:25:57: [SM] Blaming: squadcontrol.smx()
+L 07/12/2017 - 22:25:57: [SM] Call stack trace:
+L 07/12/2017 - 22:25:57: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 07/12/2017 - 22:31:24: [SM] Exception reported: Array index is out of bounds
+L 07/12/2017 - 22:31:24: [SM] Blaming: squadcontrol.smx()
+L 07/12/2017 - 22:31:24: [SM] Call stack trace:
+L 07/12/2017 - 22:31:24: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 07/12/2017 - 22:32:59: [SM] Exception reported: Array index is out of bounds
+L 07/12/2017 - 22:32:59: [SM] Blaming: squadcontrol.smx()
+L 07/12/2017 - 22:32:59: [SM] Call stack trace:
+L 07/12/2017 - 22:32:59: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 07/12/2017 - 22:33:05: [SM] Exception reported: Array index is out of bounds
+L 07/12/2017 - 22:33:05: [SM] Blaming: squadcontrol.smx()
+L 07/12/2017 - 22:33:05: [SM] Call stack trace:
+L 07/12/2017 - 22:33:05: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 07/12/2017 - 22:33:37: [SM] Exception reported: Array index is out of bounds
+L 07/12/2017 - 22:33:37: [SM] Blaming: squadcontrol.smx()
+L 07/12/2017 - 22:33:37: [SM] Call stack trace:
+L 07/12/2017 - 22:33:37: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 07/12/2017 - 22:33:48: [SM] Exception reported: Array index is out of bounds
+L 07/12/2017 - 22:33:48: [SM] Blaming: squadcontrol.smx()
+L 07/12/2017 - 22:33:48: [SM] Call stack trace:
+L 07/12/2017 - 22:33:48: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 07/12/2017 - 22:34:31: [SM] Exception reported: Array index is out of bounds
+L 07/12/2017 - 22:34:31: [SM] Blaming: squadcontrol.smx()
+L 07/12/2017 - 22:34:31: [SM] Call stack trace:
+L 07/12/2017 - 22:34:31: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 07/12/2017 - 22:35:18: [SM] Exception reported: Array index is out of bounds
+L 07/12/2017 - 22:35:18: [SM] Blaming: squadcontrol.smx()
+L 07/12/2017 - 22:35:18: [SM] Call stack trace:
+L 07/12/2017 - 22:35:18: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 07/12/2017 - 22:37:16: [SM] Exception reported: Array index is out of bounds
+L 07/12/2017 - 22:37:16: [SM] Blaming: squadcontrol.smx()
+L 07/12/2017 - 22:37:16: [SM] Call stack trace:
+L 07/12/2017 - 22:37:16: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 07/12/2017 - 22:37:18: [SM] Exception reported: Array index is out of bounds
+L 07/12/2017 - 22:37:18: [SM] Blaming: squadcontrol.smx()
+L 07/12/2017 - 22:37:18: [SM] Call stack trace:
+L 07/12/2017 - 22:37:18: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 07/12/2017 - 22:37:32: [SM] Exception reported: Array index is out of bounds
+L 07/12/2017 - 22:37:32: [SM] Blaming: squadcontrol.smx()
+L 07/12/2017 - 22:37:32: [SM] Call stack trace:
+L 07/12/2017 - 22:37:32: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 07/12/2017 - 22:37:41: [SM] Exception reported: Array index is out of bounds
+L 07/12/2017 - 22:37:41: [SM] Blaming: squadcontrol.smx()
+L 07/12/2017 - 22:37:41: [SM] Call stack trace:
+L 07/12/2017 - 22:37:41: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 07/12/2017 - 22:38:19: [SM] Exception reported: Array index is out of bounds
+L 07/12/2017 - 22:38:19: [SM] Blaming: squadcontrol.smx()
+L 07/12/2017 - 22:38:19: [SM] Call stack trace:
+L 07/12/2017 - 22:38:19: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 07/12/2017 - 22:38:55: [SM] Exception reported: Array index is out of bounds
+L 07/12/2017 - 22:38:55: [SM] Blaming: squadcontrol.smx()
+L 07/12/2017 - 22:38:55: [SM] Call stack trace:
+L 07/12/2017 - 22:38:55: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 07/12/2017 - 22:39:00: [SM] Exception reported: Array index is out of bounds
+L 07/12/2017 - 22:39:00: [SM] Blaming: squadcontrol.smx()
+L 07/12/2017 - 22:39:00: [SM] Call stack trace:
+L 07/12/2017 - 22:39:00: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 07/12/2017 - 22:39:03: [SM] Exception reported: Array index is out of bounds
+L 07/12/2017 - 22:39:03: [SM] Blaming: squadcontrol.smx()
+L 07/12/2017 - 22:39:03: [SM] Call stack trace:
+L 07/12/2017 - 22:39:03: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 07/12/2017 - 22:40:01: [SM] Exception reported: Array index is out of bounds
+L 07/12/2017 - 22:40:01: [SM] Blaming: squadcontrol.smx()
+L 07/12/2017 - 22:40:01: [SM] Call stack trace:
+L 07/12/2017 - 22:40:01: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 07/12/2017 - 22:40:26: [SM] Exception reported: Array index is out of bounds
+L 07/12/2017 - 22:40:26: [SM] Blaming: squadcontrol.smx()
+L 07/12/2017 - 22:40:26: [SM] Call stack trace:
+L 07/12/2017 - 22:40:26: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 07/12/2017 - 22:40:27: [SM] Exception reported: Array index is out of bounds
+L 07/12/2017 - 22:40:27: [SM] Blaming: squadcontrol.smx()
+L 07/12/2017 - 22:40:27: [SM] Call stack trace:
+L 07/12/2017 - 22:40:27: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 07/12/2017 - 22:40:28: [SM] Exception reported: Array index is out of bounds
+L 07/12/2017 - 22:40:28: [SM] Blaming: squadcontrol.smx()
+L 07/12/2017 - 22:40:28: [SM] Call stack trace:
+L 07/12/2017 - 22:40:28: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 07/12/2017 - 22:41:01: [SM] Exception reported: Array index is out of bounds
+L 07/12/2017 - 22:41:01: [SM] Blaming: squadcontrol.smx()
+L 07/12/2017 - 22:41:01: [SM] Call stack trace:
+L 07/12/2017 - 22:41:01: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 07/12/2017 - 22:41:12: [SM] Exception reported: Array index is out of bounds
+L 07/12/2017 - 22:41:12: [SM] Blaming: squadcontrol.smx()
+L 07/12/2017 - 22:41:12: [SM] Call stack trace:
+L 07/12/2017 - 22:41:12: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 07/12/2017 - 22:42:02: [SM] Exception reported: Array index is out of bounds
+L 07/12/2017 - 22:42:02: [SM] Blaming: squadcontrol.smx()
+L 07/12/2017 - 22:42:02: [SM] Call stack trace:
+L 07/12/2017 - 22:42:02: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 07/12/2017 - 22:45:16: [SM] Exception reported: Array index is out of bounds
+L 07/12/2017 - 22:45:16: [SM] Blaming: squadcontrol.smx()
+L 07/12/2017 - 22:45:16: [SM] Call stack trace:
+L 07/12/2017 - 22:45:16: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 07/12/2017 - 22:45:33: [SM] Exception reported: Array index is out of bounds
+L 07/12/2017 - 22:45:33: [SM] Blaming: squadcontrol.smx()
+L 07/12/2017 - 22:45:33: [SM] Call stack trace:
+L 07/12/2017 - 22:45:33: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 07/12/2017 - 22:45:35: [SM] Exception reported: Array index is out of bounds
+L 07/12/2017 - 22:45:35: [SM] Blaming: squadcontrol.smx()
+L 07/12/2017 - 22:45:35: [SM] Call stack trace:
+L 07/12/2017 - 22:45:35: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 07/12/2017 - 22:45:49: [SM] Exception reported: Array index is out of bounds
+L 07/12/2017 - 22:45:49: [SM] Blaming: squadcontrol.smx()
+L 07/12/2017 - 22:45:49: [SM] Call stack trace:
+L 07/12/2017 - 22:45:49: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 07/12/2017 - 22:45:50: [SM] Exception reported: Array index is out of bounds
+L 07/12/2017 - 22:45:50: [SM] Blaming: squadcontrol.smx()
+L 07/12/2017 - 22:45:50: [SM] Call stack trace:
+L 07/12/2017 - 22:45:50: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 07/12/2017 - 22:46:34: [SM] Exception reported: Array index is out of bounds
+L 07/12/2017 - 22:46:34: [SM] Blaming: squadcontrol.smx()
+L 07/12/2017 - 22:46:34: [SM] Call stack trace:
+L 07/12/2017 - 22:46:34: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 07/12/2017 - 22:46:42: [SM] Exception reported: Array index is out of bounds
+L 07/12/2017 - 22:46:42: [SM] Blaming: squadcontrol.smx()
+L 07/12/2017 - 22:46:42: [SM] Call stack trace:
+L 07/12/2017 - 22:46:42: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 07/12/2017 - 22:46:43: [SM] Exception reported: Array index is out of bounds
+L 07/12/2017 - 22:46:43: [SM] Blaming: squadcontrol.smx()
+L 07/12/2017 - 22:46:43: [SM] Call stack trace:
+L 07/12/2017 - 22:46:43: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 07/12/2017 - 22:47:07: [SM] Exception reported: Array index is out of bounds
+L 07/12/2017 - 22:47:07: [SM] Blaming: squadcontrol.smx()
+L 07/12/2017 - 22:47:07: [SM] Call stack trace:
+L 07/12/2017 - 22:47:07: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 07/12/2017 - 22:47:10: [SM] Exception reported: Array index is out of bounds
+L 07/12/2017 - 22:47:10: [SM] Blaming: squadcontrol.smx()
+L 07/12/2017 - 22:47:10: [SM] Call stack trace:
+L 07/12/2017 - 22:47:10: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 07/12/2017 - 22:47:23: [SM] Exception reported: Array index is out of bounds
+L 07/12/2017 - 22:47:23: [SM] Blaming: squadcontrol.smx()
+L 07/12/2017 - 22:47:23: [SM] Call stack trace:
+L 07/12/2017 - 22:47:23: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 07/12/2017 - 22:47:23: [SM] Exception reported: Array index is out of bounds
+L 07/12/2017 - 22:47:23: [SM] Blaming: squadcontrol.smx()
+L 07/12/2017 - 22:47:23: [SM] Call stack trace:
+L 07/12/2017 - 22:47:23: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 07/12/2017 - 22:47:24: [SM] Exception reported: Array index is out of bounds
+L 07/12/2017 - 22:47:24: [SM] Blaming: squadcontrol.smx()
+L 07/12/2017 - 22:47:24: [SM] Call stack trace:
+L 07/12/2017 - 22:47:24: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 07/12/2017 - 22:48:03: [SM] Exception reported: Array index is out of bounds
+L 07/12/2017 - 22:48:03: [SM] Blaming: squadcontrol.smx()
+L 07/12/2017 - 22:48:03: [SM] Call stack trace:
+L 07/12/2017 - 22:48:03: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 07/12/2017 - 22:48:26: [SM] Exception reported: Array index is out of bounds
+L 07/12/2017 - 22:48:26: [SM] Blaming: squadcontrol.smx()
+L 07/12/2017 - 22:48:26: [SM] Call stack trace:
+L 07/12/2017 - 22:48:26: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 07/12/2017 - 22:48:37: [SM] Exception reported: Array index is out of bounds
+L 07/12/2017 - 22:48:37: [SM] Blaming: squadcontrol.smx()
+L 07/12/2017 - 22:48:37: [SM] Call stack trace:
+L 07/12/2017 - 22:48:37: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 07/12/2017 - 22:48:40: [SM] Exception reported: Array index is out of bounds
+L 07/12/2017 - 22:48:40: [SM] Blaming: squadcontrol.smx()
+L 07/12/2017 - 22:48:40: [SM] Call stack trace:
+L 07/12/2017 - 22:48:40: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 07/12/2017 - 22:48:47: [SM] Exception reported: Array index is out of bounds
+L 07/12/2017 - 22:48:47: [SM] Blaming: squadcontrol.smx()
+L 07/12/2017 - 22:48:47: [SM] Call stack trace:
+L 07/12/2017 - 22:48:47: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 07/12/2017 - 22:48:49: [SM] Exception reported: Array index is out of bounds
+L 07/12/2017 - 22:48:49: [SM] Blaming: squadcontrol.smx()
+L 07/12/2017 - 22:48:49: [SM] Call stack trace:
+L 07/12/2017 - 22:48:49: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 07/12/2017 - 22:48:49: [SM] Exception reported: Array index is out of bounds
+L 07/12/2017 - 22:48:49: [SM] Blaming: squadcontrol.smx()
+L 07/12/2017 - 22:48:49: [SM] Call stack trace:
+L 07/12/2017 - 22:48:49: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 07/12/2017 - 22:49:00: [SM] Exception reported: Array index is out of bounds
+L 07/12/2017 - 22:49:00: [SM] Blaming: squadcontrol.smx()
+L 07/12/2017 - 22:49:00: [SM] Call stack trace:
+L 07/12/2017 - 22:49:00: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 07/12/2017 - 22:49:02: [SM] Exception reported: Array index is out of bounds
+L 07/12/2017 - 22:49:02: [SM] Blaming: squadcontrol.smx()
+L 07/12/2017 - 22:49:02: [SM] Call stack trace:
+L 07/12/2017 - 22:49:02: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 07/12/2017 - 22:49:12: [SM] Exception reported: Array index is out of bounds
+L 07/12/2017 - 22:49:12: [SM] Blaming: squadcontrol.smx()
+L 07/12/2017 - 22:49:12: [SM] Call stack trace:
+L 07/12/2017 - 22:49:12: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 07/12/2017 - 22:49:13: [SM] Exception reported: Array index is out of bounds
+L 07/12/2017 - 22:49:13: [SM] Blaming: squadcontrol.smx()
+L 07/12/2017 - 22:49:13: [SM] Call stack trace:
+L 07/12/2017 - 22:49:13: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 07/12/2017 - 22:49:22: [SM] Exception reported: Array index is out of bounds
+L 07/12/2017 - 22:49:22: [SM] Blaming: squadcontrol.smx()
+L 07/12/2017 - 22:49:22: [SM] Call stack trace:
+L 07/12/2017 - 22:49:22: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 07/12/2017 - 22:49:55: [SM] Exception reported: Array index is out of bounds
+L 07/12/2017 - 22:49:55: [SM] Blaming: squadcontrol.smx()
+L 07/12/2017 - 22:49:55: [SM] Call stack trace:
+L 07/12/2017 - 22:49:55: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 07/12/2017 - 22:50:34: [SM] Exception reported: Array index is out of bounds
+L 07/12/2017 - 22:50:34: [SM] Blaming: squadcontrol.smx()
+L 07/12/2017 - 22:50:34: [SM] Call stack trace:
+L 07/12/2017 - 22:50:34: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 07/12/2017 - 22:50:35: [SM] Exception reported: Array index is out of bounds
+L 07/12/2017 - 22:50:35: [SM] Blaming: squadcontrol.smx()
+L 07/12/2017 - 22:50:35: [SM] Call stack trace:
+L 07/12/2017 - 22:50:35: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 07/12/2017 - 22:50:52: [SM] Exception reported: Array index is out of bounds
+L 07/12/2017 - 22:50:52: [SM] Blaming: squadcontrol.smx()
+L 07/12/2017 - 22:50:52: [SM] Call stack trace:
+L 07/12/2017 - 22:50:52: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 07/12/2017 - 22:51:06: [SM] Exception reported: Array index is out of bounds
+L 07/12/2017 - 22:51:06: [SM] Blaming: squadcontrol.smx()
+L 07/12/2017 - 22:51:06: [SM] Call stack trace:
+L 07/12/2017 - 22:51:06: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 07/12/2017 - 22:51:26: [SM] Exception reported: Array index is out of bounds
+L 07/12/2017 - 22:51:26: [SM] Blaming: squadcontrol.smx()
+L 07/12/2017 - 22:51:26: [SM] Call stack trace:
+L 07/12/2017 - 22:51:26: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 07/12/2017 - 22:51:47: [SM] Exception reported: Array index is out of bounds
+L 07/12/2017 - 22:51:47: [SM] Blaming: squadcontrol.smx()
+L 07/12/2017 - 22:51:47: [SM] Call stack trace:
+L 07/12/2017 - 22:51:47: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 07/12/2017 - 22:51:50: [SM] Exception reported: Array index is out of bounds
+L 07/12/2017 - 22:51:50: [SM] Blaming: squadcontrol.smx()
+L 07/12/2017 - 22:51:50: [SM] Call stack trace:
+L 07/12/2017 - 22:51:50: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 07/12/2017 - 22:52:12: [SM] Exception reported: Array index is out of bounds
+L 07/12/2017 - 22:52:12: [SM] Blaming: squadcontrol.smx()
+L 07/12/2017 - 22:52:12: [SM] Call stack trace:
+L 07/12/2017 - 22:52:12: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 07/12/2017 - 22:52:35: [SM] Exception reported: Array index is out of bounds
+L 07/12/2017 - 22:52:35: [SM] Blaming: squadcontrol.smx()
+L 07/12/2017 - 22:52:35: [SM] Call stack trace:
+L 07/12/2017 - 22:52:35: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 07/12/2017 - 22:54:10: [SM] Exception reported: Array index is out of bounds
+L 07/12/2017 - 22:54:10: [SM] Blaming: squadcontrol.smx()
+L 07/12/2017 - 22:54:10: [SM] Call stack trace:
+L 07/12/2017 - 22:54:10: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 07/12/2017 - 22:55:38: [SM] Exception reported: Array index is out of bounds
+L 07/12/2017 - 22:55:38: [SM] Blaming: squadcontrol.smx()
+L 07/12/2017 - 22:55:38: [SM] Call stack trace:
+L 07/12/2017 - 22:55:38: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 07/12/2017 - 22:55:45: [SM] Exception reported: Array index is out of bounds
+L 07/12/2017 - 22:55:45: [SM] Blaming: squadcontrol.smx()
+L 07/12/2017 - 22:55:45: [SM] Call stack trace:
+L 07/12/2017 - 22:55:45: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 07/12/2017 - 22:55:47: [SM] Exception reported: Array index is out of bounds
+L 07/12/2017 - 22:55:47: [SM] Blaming: squadcontrol.smx()
+L 07/12/2017 - 22:55:47: [SM] Call stack trace:
+L 07/12/2017 - 22:55:47: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 07/12/2017 - 22:55:55: [SM] Exception reported: Array index is out of bounds
+L 07/12/2017 - 22:55:55: [SM] Blaming: squadcontrol.smx()
+L 07/12/2017 - 22:55:55: [SM] Call stack trace:
+L 07/12/2017 - 22:55:55: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 07/12/2017 - 22:56:02: [SM] Exception reported: Array index is out of bounds
+L 07/12/2017 - 22:56:02: [SM] Blaming: squadcontrol.smx()
+L 07/12/2017 - 22:56:02: [SM] Call stack trace:
+L 07/12/2017 - 22:56:02: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 07/12/2017 - 22:56:04: [SM] Exception reported: Array index is out of bounds
+L 07/12/2017 - 22:56:04: [SM] Blaming: squadcontrol.smx()
+L 07/12/2017 - 22:56:04: [SM] Call stack trace:
+L 07/12/2017 - 22:56:04: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 07/12/2017 - 22:56:06: [SM] Exception reported: Array index is out of bounds
+L 07/12/2017 - 22:56:06: [SM] Blaming: squadcontrol.smx()
+L 07/12/2017 - 22:56:06: [SM] Call stack trace:
+L 07/12/2017 - 22:56:06: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 07/12/2017 - 22:56:42: [SM] Exception reported: Array index is out of bounds
+L 07/12/2017 - 22:56:42: [SM] Blaming: squadcontrol.smx()
+L 07/12/2017 - 22:56:42: [SM] Call stack trace:
+L 07/12/2017 - 22:56:42: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 07/12/2017 - 22:57:04: [SM] Exception reported: Array index is out of bounds
+L 07/12/2017 - 22:57:04: [SM] Blaming: squadcontrol.smx()
+L 07/12/2017 - 22:57:04: [SM] Call stack trace:
+L 07/12/2017 - 22:57:04: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 07/12/2017 - 22:57:40: [SM] Exception reported: Array index is out of bounds
+L 07/12/2017 - 22:57:40: [SM] Blaming: squadcontrol.smx()
+L 07/12/2017 - 22:57:40: [SM] Call stack trace:
+L 07/12/2017 - 22:57:40: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 07/12/2017 - 22:57:53: [SM] Exception reported: Array index is out of bounds
+L 07/12/2017 - 22:57:53: [SM] Blaming: squadcontrol.smx()
+L 07/12/2017 - 22:57:53: [SM] Call stack trace:
+L 07/12/2017 - 22:57:53: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 07/12/2017 - 22:57:58: [SM] Exception reported: Array index is out of bounds
+L 07/12/2017 - 22:57:58: [SM] Blaming: squadcontrol.smx()
+L 07/12/2017 - 22:57:58: [SM] Call stack trace:
+L 07/12/2017 - 22:57:58: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 07/12/2017 - 22:58:04: [SM] Exception reported: Array index is out of bounds
+L 07/12/2017 - 22:58:04: [SM] Blaming: squadcontrol.smx()
+L 07/12/2017 - 22:58:04: [SM] Call stack trace:
+L 07/12/2017 - 22:58:04: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 07/12/2017 - 22:58:19: [SM] Exception reported: Array index is out of bounds
+L 07/12/2017 - 22:58:19: [SM] Blaming: squadcontrol.smx()
+L 07/12/2017 - 22:58:19: [SM] Call stack trace:
+L 07/12/2017 - 22:58:19: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 07/12/2017 - 22:58:30: [SM] Exception reported: Array index is out of bounds
+L 07/12/2017 - 22:58:30: [SM] Blaming: squadcontrol.smx()
+L 07/12/2017 - 22:58:30: [SM] Call stack trace:
+L 07/12/2017 - 22:58:30: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 07/12/2017 - 22:59:11: [SM] Exception reported: Array index is out of bounds
+L 07/12/2017 - 22:59:11: [SM] Blaming: squadcontrol.smx()
+L 07/12/2017 - 22:59:11: [SM] Call stack trace:
+L 07/12/2017 - 22:59:11: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 07/12/2017 - 22:59:40: [SM] Exception reported: Array index is out of bounds
+L 07/12/2017 - 22:59:40: [SM] Blaming: squadcontrol.smx()
+L 07/12/2017 - 22:59:40: [SM] Call stack trace:
+L 07/12/2017 - 22:59:40: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 07/12/2017 - 22:59:43: [SM] Exception reported: Array index is out of bounds
+L 07/12/2017 - 22:59:43: [SM] Blaming: squadcontrol.smx()
+L 07/12/2017 - 22:59:43: [SM] Call stack trace:
+L 07/12/2017 - 22:59:43: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 07/12/2017 - 23:00:18: [SM] Exception reported: Array index is out of bounds
+L 07/12/2017 - 23:00:18: [SM] Blaming: squadcontrol.smx()
+L 07/12/2017 - 23:00:18: [SM] Call stack trace:
+L 07/12/2017 - 23:00:18: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 07/12/2017 - 23:00:29: [SM] Exception reported: Array index is out of bounds
+L 07/12/2017 - 23:00:29: [SM] Blaming: squadcontrol.smx()
+L 07/12/2017 - 23:00:29: [SM] Call stack trace:
+L 07/12/2017 - 23:00:29: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 07/12/2017 - 23:00:42: [SM] Exception reported: Array index is out of bounds
+L 07/12/2017 - 23:00:42: [SM] Blaming: squadcontrol.smx()
+L 07/12/2017 - 23:00:42: [SM] Call stack trace:
+L 07/12/2017 - 23:00:42: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 07/12/2017 - 23:00:45: [SM] Exception reported: Array index is out of bounds
+L 07/12/2017 - 23:00:45: [SM] Blaming: squadcontrol.smx()
+L 07/12/2017 - 23:00:45: [SM] Call stack trace:
+L 07/12/2017 - 23:00:45: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 07/12/2017 - 23:00:47: [SM] Exception reported: Array index is out of bounds
+L 07/12/2017 - 23:00:47: [SM] Blaming: squadcontrol.smx()
+L 07/12/2017 - 23:00:47: [SM] Call stack trace:
+L 07/12/2017 - 23:00:47: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 07/12/2017 - 23:00:54: [SM] Exception reported: Array index is out of bounds
+L 07/12/2017 - 23:00:54: [SM] Blaming: squadcontrol.smx()
+L 07/12/2017 - 23:00:54: [SM] Call stack trace:
+L 07/12/2017 - 23:00:54: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 07/12/2017 - 23:01:07: [SM] Exception reported: Array index is out of bounds
+L 07/12/2017 - 23:01:07: [SM] Blaming: squadcontrol.smx()
+L 07/12/2017 - 23:01:07: [SM] Call stack trace:
+L 07/12/2017 - 23:01:07: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 07/12/2017 - 23:01:52: [SM] Exception reported: Array index is out of bounds
+L 07/12/2017 - 23:01:52: [SM] Blaming: squadcontrol.smx()
+L 07/12/2017 - 23:01:52: [SM] Call stack trace:
+L 07/12/2017 - 23:01:52: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 07/12/2017 - 23:02:45: [SM] Exception reported: Array index is out of bounds
+L 07/12/2017 - 23:02:45: [SM] Blaming: squadcontrol.smx()
+L 07/12/2017 - 23:02:45: [SM] Call stack trace:
+L 07/12/2017 - 23:02:45: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 07/12/2017 - 23:02:45: [SM] Exception reported: Array index is out of bounds
+L 07/12/2017 - 23:02:45: [SM] Blaming: squadcontrol.smx()
+L 07/12/2017 - 23:02:45: [SM] Call stack trace:
+L 07/12/2017 - 23:02:45: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 07/12/2017 - 23:02:48: [SM] Exception reported: Array index is out of bounds
+L 07/12/2017 - 23:02:48: [SM] Blaming: squadcontrol.smx()
+L 07/12/2017 - 23:02:48: [SM] Call stack trace:
+L 07/12/2017 - 23:02:48: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 07/12/2017 - 23:02:50: [SM] Exception reported: Array index is out of bounds
+L 07/12/2017 - 23:02:50: [SM] Blaming: squadcontrol.smx()
+L 07/12/2017 - 23:02:50: [SM] Call stack trace:
+L 07/12/2017 - 23:02:50: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 07/12/2017 - 23:02:53: [SM] Exception reported: Array index is out of bounds
+L 07/12/2017 - 23:02:53: [SM] Blaming: squadcontrol.smx()
+L 07/12/2017 - 23:02:53: [SM] Call stack trace:
+L 07/12/2017 - 23:02:53: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 07/12/2017 - 23:03:01: [SM] Exception reported: Array index is out of bounds
+L 07/12/2017 - 23:03:01: [SM] Blaming: squadcontrol.smx()
+L 07/12/2017 - 23:03:01: [SM] Call stack trace:
+L 07/12/2017 - 23:03:01: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 07/12/2017 - 23:03:07: [SM] Exception reported: Array index is out of bounds
+L 07/12/2017 - 23:03:07: [SM] Blaming: squadcontrol.smx()
+L 07/12/2017 - 23:03:07: [SM] Call stack trace:
+L 07/12/2017 - 23:03:07: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 07/12/2017 - 23:03:10: [SM] Exception reported: Array index is out of bounds
+L 07/12/2017 - 23:03:10: [SM] Blaming: squadcontrol.smx()
+L 07/12/2017 - 23:03:10: [SM] Call stack trace:
+L 07/12/2017 - 23:03:10: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 07/12/2017 - 23:03:16: [SM] Exception reported: Array index is out of bounds
+L 07/12/2017 - 23:03:16: [SM] Blaming: squadcontrol.smx()
+L 07/12/2017 - 23:03:16: [SM] Call stack trace:
+L 07/12/2017 - 23:03:16: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 07/12/2017 - 23:05:07: [SM] Exception reported: Array index is out of bounds
+L 07/12/2017 - 23:05:07: [SM] Blaming: squadcontrol.smx()
+L 07/12/2017 - 23:05:07: [SM] Call stack trace:
+L 07/12/2017 - 23:05:07: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 07/12/2017 - 23:07:08: [SM] Exception reported: Array index is out of bounds
+L 07/12/2017 - 23:07:08: [SM] Blaming: squadcontrol.smx()
+L 07/12/2017 - 23:07:08: [SM] Call stack trace:
+L 07/12/2017 - 23:07:08: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 07/12/2017 - 23:07:29: [SM] Exception reported: Array index is out of bounds
+L 07/12/2017 - 23:07:29: [SM] Blaming: squadcontrol.smx()
+L 07/12/2017 - 23:07:29: [SM] Call stack trace:
+L 07/12/2017 - 23:07:29: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 07/12/2017 - 23:07:51: [SM] Exception reported: Array index is out of bounds
+L 07/12/2017 - 23:07:51: [SM] Blaming: squadcontrol.smx()
+L 07/12/2017 - 23:07:51: [SM] Call stack trace:
+L 07/12/2017 - 23:07:51: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 07/12/2017 - 23:08:14: [SM] Exception reported: Array index is out of bounds
+L 07/12/2017 - 23:08:14: [SM] Blaming: squadcontrol.smx()
+L 07/12/2017 - 23:08:14: [SM] Call stack trace:
+L 07/12/2017 - 23:08:14: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 07/12/2017 - 23:08:25: [SM] Exception reported: Array index is out of bounds
+L 07/12/2017 - 23:08:25: [SM] Blaming: squadcontrol.smx()
+L 07/12/2017 - 23:08:25: [SM] Call stack trace:
+L 07/12/2017 - 23:08:25: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 07/12/2017 - 23:21:50: [SM] Exception reported: Invalid timer handle 335c0310 (error 1)
+L 07/12/2017 - 23:21:50: [SM] Blaming: umc-emp-mapvote.smx()
+L 07/12/2017 - 23:21:50: [SM] Call stack trace:
+L 07/12/2017 - 23:21:50: [SM]   [0] KillTimer
+L 07/12/2017 - 23:21:50: [SM]   [1] Line 686, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-emp-mapvote.sp::UMC_OnNextmapSet()
+L 07/12/2017 - 23:21:50: [SM]   [3] Call_Finish
+L 07/12/2017 - 23:21:50: [SM]   [4] Line 4834, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::DoMapChange()
+L 07/12/2017 - 23:21:50: [SM]   [5] Line 4267, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteWinner()
+L 07/12/2017 - 23:21:50: [SM]   [6] Line 3819, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteWinner()
+L 07/12/2017 - 23:21:50: [SM]   [7] Line 3795, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteResults()
+L 07/12/2017 - 23:21:50: [SM]   [8] Line 1277, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Native_UMCVoteManagerComplete()
+L 07/12/2017 - 23:21:50: [SM]   [10] UMC_VoteManagerVoteCompleted
+L 07/12/2017 - 23:21:50: [SM]   [11] Line 2309, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteResults()
+L 07/12/2017 - 23:21:56: Error log file session closed.
+L 07/12/2017 - 23:21:59: SourceMod error session started
+L 07/12/2017 - 23:21:59: Info (map "emp_canyon") (file "errors_20170712.log")
+L 07/12/2017 - 23:21:59: [nextmap.smx] FATAL: Cannot load map cycle. Nextmap not loaded.
+L 07/12/2017 - 23:21:59: [SM] Exception reported: Mapcycle Not Found
+L 07/12/2017 - 23:21:59: [SM] Blaming: nextmap.smx()
+L 07/12/2017 - 23:21:59: [SM] Call stack trace:
+L 07/12/2017 - 23:21:59: [SM]   [0] SetFailState
+L 07/12/2017 - 23:21:59: [SM]   [1] Line 139, D:\builds\build-sourcemod-msvc12\windows-1.8\build\plugins\nextmap.sp::FindAndSetNextMap()
+L 07/12/2017 - 23:21:59: [SM]   [2] Line 109, D:\builds\build-sourcemod-msvc12\windows-1.8\build\plugins\nextmap.sp::OnConfigsExecuted()
+L 07/12/2017 - 23:34:43: [SM] Exception reported: Array index is out of bounds
+L 07/12/2017 - 23:34:43: [SM] Blaming: squadcontrol.smx()
+L 07/12/2017 - 23:34:43: [SM] Call stack trace:
+L 07/12/2017 - 23:34:43: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 07/12/2017 - 23:34:45: [SM] Exception reported: Array index is out of bounds
+L 07/12/2017 - 23:34:45: [SM] Blaming: squadcontrol.smx()
+L 07/12/2017 - 23:34:45: [SM] Call stack trace:
+L 07/12/2017 - 23:34:45: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 07/12/2017 - 23:35:50: [SM] Exception reported: Array index is out of bounds
+L 07/12/2017 - 23:35:50: [SM] Blaming: squadcontrol.smx()
+L 07/12/2017 - 23:35:50: [SM] Call stack trace:
+L 07/12/2017 - 23:35:50: [SM]   [1] Line 2144, squadcontrol.sp::Command_Unit_Order_List()
+L 07/12/2017 - 23:40:59: [SM] Exception reported: Invalid timer handle 537d031c (error 1)
+L 07/12/2017 - 23:40:59: [SM] Blaming: umc-emp-mapvote.smx()
+L 07/12/2017 - 23:40:59: [SM] Call stack trace:
+L 07/12/2017 - 23:40:59: [SM]   [0] KillTimer
+L 07/12/2017 - 23:40:59: [SM]   [1] Line 686, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-emp-mapvote.sp::UMC_OnNextmapSet()
+L 07/12/2017 - 23:40:59: [SM]   [3] Call_Finish
+L 07/12/2017 - 23:40:59: [SM]   [4] Line 4834, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::DoMapChange()
+L 07/12/2017 - 23:40:59: [SM]   [5] Line 4267, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteWinner()
+L 07/12/2017 - 23:40:59: [SM]   [6] Line 3819, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteWinner()
+L 07/12/2017 - 23:40:59: [SM]   [7] Line 3795, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteResults()
+L 07/12/2017 - 23:40:59: [SM]   [8] Line 1277, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Native_UMCVoteManagerComplete()
+L 07/12/2017 - 23:40:59: [SM]   [10] UMC_VoteManagerVoteCompleted
+L 07/12/2017 - 23:40:59: [SM]   [11] Line 2309, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteResults()
+L 07/12/2017 - 23:41:06: Error log file session closed.
+L 07/12/2017 - 23:41:09: SourceMod error session started
+L 07/12/2017 - 23:41:09: Info (map "emp_fogtown_cl2_fix") (file "errors_20170712.log")
+L 07/12/2017 - 23:41:09: [nextmap.smx] FATAL: Cannot load map cycle. Nextmap not loaded.
+L 07/12/2017 - 23:41:09: [SM] Exception reported: Mapcycle Not Found
+L 07/12/2017 - 23:41:09: [SM] Blaming: nextmap.smx()
+L 07/12/2017 - 23:41:09: [SM] Call stack trace:
+L 07/12/2017 - 23:41:09: [SM]   [0] SetFailState
+L 07/12/2017 - 23:41:09: [SM]   [1] Line 139, D:\builds\build-sourcemod-msvc12\windows-1.8\build\plugins\nextmap.sp::FindAndSetNextMap()
+L 07/12/2017 - 23:41:09: [SM]   [2] Line 109, D:\builds\build-sourcemod-msvc12\windows-1.8\build\plugins\nextmap.sp::OnConfigsExecuted()

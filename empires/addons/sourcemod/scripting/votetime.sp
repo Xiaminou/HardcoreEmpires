@@ -3,8 +3,11 @@
 #include <sourcemod>
 #include <sdktools>
 #include <sdkhooks>
+#include <emputils>
+#undef REQUIRE_PLUGIN
+#include <updater>
 
-#define PluginVersion "v0.3" 
+#define PluginVersion "v0.53" 
  
 public Plugin myinfo =
 {
@@ -15,34 +18,34 @@ public Plugin myinfo =
 	url = ""
 }
 
-ConVar vt_pause_notification_enabled,vt_votetime,vt_paused,vt_pause_notification_interval,vt_start_buffer,vt_player_multiplier,vt_min,vt_offset,vt_waittime;
+ConVar vt_pause_notification_enabled,vt_paused,vt_pause_notification_interval,vt_start_buffer,vt_player_multiplier,vt_min,vt_offset,vt_sound_count;
 
-// this can be either vote or wait. 
-ConVar time_cvar;
+ConVar vt_resume_sound, vt_pause_sound, vt_count_sound,vt_count_end_sound;
 
-int mapStartTime = 0;
-int voteStartTime = 0;
-int originalVoteTime = 0;
+char sound_resume[128],sound_pause[128],sound_count[128],sound_count_end[128];
+
 bool paused = false;
-bool gameStarted = false;
-bool timeEdited = false;
+int pauseHandle;
 new String:pauseNotifyMessage[128];
 new Handle:pauseNotifyHandle;
-bool commexists = false;
 
-int lastRepTime = 0;
+int endCount = 0;
 
+Handle HudTextHandle;
+
+#define UPDATE_URL    "https://sourcemod.docs.empiresmod.com/votetime/dist/updater.txt"
 
 public void OnPluginStart()
 {
 	
 	RegAdminCmd("sm_pausevote", Command_Pause, ADMFLAG_SLAY);
 	RegAdminCmd("sm_resumevote", Command_Resume, ADMFLAG_SLAY);
+	RegAdminCmd("sm_forceresumevote", Command_ForceResume, ADMFLAG_SLAY);
 	RegAdminCmd("sm_resettime", Command_Reset, ADMFLAG_SLAY);
 	RegAdminCmd("sm_votetime", Command_VoteTime, ADMFLAG_SLAY);
 	RegAdminCmd("sm_waittime", Command_VoteTime, ADMFLAG_SLAY);
 	RegAdminCmd("sm_endvote", Command_End, ADMFLAG_SLAY);
-	
+	AddCommandListener(Command_Plugin_Version, "vt_version");
 	//Cvars
 	vt_pause_notification_enabled = CreateConVar("vt_pause_notification_enabled", "1", "Should votetime show notifications when paused");
 	
@@ -57,14 +60,17 @@ public void OnPluginStart()
 	vt_player_multiplier = CreateConVar("vt_player_multiplier", "0.5", "A multiplier that adds time to the vote for each player");
 	vt_offset = CreateConVar("vt_offset", "-20", "An offset to apply to the comm vote");
 	//Find all console variables
-	vt_votetime = FindConVar("emp_sv_vote_commander_time");
-	vt_waittime = FindConVar("emp_sv_wait_phase_time");
 	
-	time_cvar = vt_votetime;
+	
+	vt_sound_count = CreateConVar("vt_sound_count",  "0","Use countdown sounds");
+	vt_resume_sound = CreateConVar("vt_resume_sound", "votetime/resumed.mp3" ,"");
+	vt_pause_sound = CreateConVar("vt_pause_sound",  "votetime/paused.mp3","");
+	vt_count_sound = CreateConVar("vt_count_sound",  "votetime/count.wav","");
+	vt_count_end_sound = CreateConVar("vt_count_end_sound",  "votetime/count_end.wav","");
+	
 
 	//Hook events
 	HookEvent("commander_vote_time", Event_CommVoteTime);
-	HookEvent("commander_elected_player", Event_Elected_Player);
 	
 	// just adds on the notify flag
 	new Handle:CVarHandle = FindConVar("emp_sv_vote_commander_time");
@@ -78,44 +84,65 @@ public void OnPluginStart()
 	}
 
 
+	if (LibraryExists("updater"))
+    {
+        Updater_AddPlugin(UPDATE_URL);
+    }	
+		
 }
-// must be used for natives
-public APLRes AskPluginLoad2(Handle myself, bool late, char[] error, int err_max)
+public void OnLibraryAdded(const char[] name)
 {
-   CreateNative("VT_SetVoteTime", Native_SetVoteTime);	
-   CreateNative("VT_GetOriginalVoteTime", Native_GetOriginalVoteTime);
-   CreateNative("VT_HasGameStarted", Native_HasGameStarted);		
-   return APLRes_Success;
+    if (StrEqual(name, "updater"))
+    {
+        Updater_AddPlugin(UPDATE_URL);
+    }
 }
+
 // everything happens in cvar change. 
 public void vt_paused_changed(ConVar convar, char[] oldValue, char[] newValue)
 {
-	if (StringToInt(newValue) == 1 && !paused && !gameStarted)
+	if (StringToInt(newValue) == 1 && !paused && !EU_HasGameStarted())
 	{
-			if(GetConVarBool(vt_pause_notification_enabled))
-			{
-				pauseNotifyHandle = CreateTimer(GetConVarFloat(vt_pause_notification_interval), Timer_NotifyPaused, _, TIMER_REPEAT);
-			} 
-			paused = true;
+		if(GetConVarBool(vt_pause_notification_enabled))
+		{
+			pauseNotifyHandle = CreateTimer(GetConVarFloat(vt_pause_notification_interval), Timer_NotifyPaused, _, TIMER_REPEAT);
+		} 
+		
+		
+		paused = true;
+		PlaySound(sound_pause,SNDLEVEL_NORMAL);
+		EnablePauseText();
+		pauseHandle = EU_PauseTimer();
+		
 	
 	}
 	else if(paused)
 	{
-		paused = false;
+		EU_ResumeTimer(pauseHandle);
+		pauseHandle = -1;
+		
 		if (pauseNotifyHandle != INVALID_HANDLE)
 		{
 			KillTimer(pauseNotifyHandle);
-			pauseNotifyHandle = null;
+			pauseNotifyHandle = INVALID_HANDLE;
 		}
+		
+		DisablePauseText();
+		ShowText("Timer Resumed",4,-1.0,0.45,1.0);
+	
 		pauseNotifyMessage = "";
+		PlaySound(sound_resume,SNDLEVEL_NORMAL);
+		paused = false;
+		
 	}
 	
 }
 
 
+
 public Action Command_Pause(int client, int args)
 {
-	if(gameStarted)
+	if(EU_HasGameStarted())
 	{
 		PrintToChat(client, "The game has already begun");
 		return Plugin_Handled;
@@ -131,15 +158,23 @@ public Action Command_Pause(int client, int args)
 		{
 			PrintToChatAll("\x04[VT] \x07ff6600%s \x01paused the Commander Vote. %s " , nick,pauseNotifyMessage); 
 		}
+	
+		
+		
+		return Plugin_Handled;
+
 	}	
 	return Plugin_Handled;
 }
 public Action Command_Resume(int client, int args)
 {
 	
-	if(gameStarted)
+	if(EU_HasGameStarted())
 	{
 		PrintToChat(client, "The game has already begun");
+		// make sure it is resumed anyway. Sometimes can get stuck. 
+		if(paused)
+			vt_paused.IntValue = 0;
 		return Plugin_Handled;
 	}
 	if(paused)
@@ -150,22 +185,28 @@ public Action Command_Resume(int client, int args)
 		{
 			PrintToChatAll("\x04[VT] \x07ff6600%s \x01resumed the Commander Vote.", nick); 
 		}
+		
 	}
+	return Plugin_Handled;
+}
+public Action Command_ForceResume(int client, int args)
+{
+	EU_ForceResumeTimer();
 	return Plugin_Handled;
 }
 public Action Command_Reset(int client, int args)
 {
-	if(gameStarted)
+	if(EU_HasGameStarted())
 	{
 		PrintToChat(client, "The game has already begun");
 		return Plugin_Handled;
 	}
-	SetVoteTime(originalVoteTime);
+	EU_ResetWaitTime();
 	return Plugin_Handled;
 }
 public Action Command_End(int client, int args)
 {
-	SetVoteTime(0);
+	EU_SetWaitTime(0);
 	if(paused)
 	{
 		vt_paused.IntValue = 0;
@@ -195,7 +236,7 @@ public Action Timer_NotifyPaused(Handle timer)
 public Action Command_VoteTime(int client, int args)
 {
 	char arg[32];
-	if(gameStarted)
+	if(EU_HasGameStarted())
 	{
 		PrintToChat(client, "The game has already begun");
 		return Plugin_Handled;
@@ -215,8 +256,7 @@ public Action Command_VoteTime(int client, int args)
 		newVoteTime = vt_min.IntValue;
 	}
 	
-	SetVoteTime(newVoteTime);
-	
+	EU_SetWaitTime(newVoteTime);
 	decl String:nick[64];
 	if(GetClientName(client, nick, sizeof(nick))) 
 	{
@@ -226,133 +266,171 @@ public Action Command_VoteTime(int client, int args)
 	
 }
 
-// in some maps the cv is spawned in after map start e.g. emp_bush
-public Action RefreshTimeCvar(Handle timer)
+
+
+public OnConfigsExecuted()
 {
-	int paramEntity = FindEntityByClassname(-1, "emp_info_params");
-	commexists = GetEntProp(paramEntity, Prop_Send, "m_bCommanderExists") == 1;
+	vt_pause_sound.GetString(sound_pause,128);
+	vt_resume_sound.GetString(sound_resume,128);
+	vt_count_sound.GetString(sound_count,128);
+	vt_count_end_sound.GetString(sound_count_end,128);
+	LoadSound(sound_pause);
+	LoadSound(sound_resume);
+	LoadSound(sound_count);
+	LoadSound(sound_count_end);
+}
 
-	
-	if(commexists)
+void LoadSound(char[] sound)
+{
+	if(strlen(sound) == 0)
+		return;
+		
+	PrecacheSound(sound);	
+	char downloadbuffer[128];
+	Format(downloadbuffer,sizeof(downloadbuffer),"sound/%s",sound);
+	AddFileToDownloadsTable(downloadbuffer);
+}
+void PlaySound(char[] sound,int level)
+{
+	if(strlen(sound) == 0)
+		return;
+	for(int i = 1;i<MaxClients;i++)
 	{
-		if(time_cvar != vt_votetime)
+		if(IsClientInGame(i))
 		{
-			time_cvar = vt_votetime;
-			originalVoteTime = time_cvar.IntValue;
-			if(timeEdited)
-			{
-				// correct for when we had the wrong time initially
-				time_cvar.IntValue = vt_waittime.IntValue;
-			}
+			EmitSoundToClient(i,sound,_,_,level);
 		}
 	}
-	else
-	{
-		if(time_cvar != vt_waittime)
-		{
-			time_cvar = vt_waittime;
-			originalVoteTime = time_cvar.IntValue;
-		}
-	}
-
 	
 }
 
+
 public OnMapStart()
 {
-	timeEdited = false;
-	voteStartTime = 0;
-	mapStartTime = GetTime();
-	
-	
-	int paramEntity = FindEntityByClassname(-1, "emp_info_params");
-	float startTime = GetEntPropFloat(paramEntity, Prop_Send, "m_flGameStartTime");
-	gameStarted = startTime > 1.0;
-	
+
 	AutoExecConfig(true, "votetime");
 	
 	if(vt_paused.IntValue == 1)
 	{
-		vt_paused_changed(vt_paused,"1","0");
+		vt_paused.IntValue = 0;
 	}
-	
-	RefreshTimeCvar(null);
-	CreateTimer(2.0,RefreshTimeCvar);
+}
+
+public void OnWaitStart(bool commExists,int startingVoteTime, int mapStartTime,bool timeEdited)
+{
+	if(commExists  && !timeEdited)
+	{
+		int elapsedTime = startingVoteTime - mapStartTime;
+		int additionalTime = vt_start_buffer.IntValue - elapsedTime;
+		if(elapsedTime < 0)
+		{
+			additionalTime = 0;
+		}
+		
+		EU_EditWaitTime(RoundToFloor(GetConVarFloat(vt_player_multiplier) * GetClientCount()) + additionalTime + vt_offset.IntValue); 
+	}
 }
 
 
-
-public Event_CommVoteTime(Handle:event, const char[] name, bool dontBroadcast)	
+public Action Event_CommVoteTime(Handle:event, const char[] name, bool dontBroadcast)	
 {
-	int commExists = GetEventInt(event, "commander_exists");
+	
 	int currentVoteTime = GetEventInt(event, "time");
 	
-	if(voteStartTime == 0)
+	if (currentVoteTime < 3)
 	{
-		// check this in case we get reloaded in the middle of a vote
-
-		voteStartTime = GetTime() - 1 - (time_cvar.IntValue - currentVoteTime);
-		if(commExists == 1 && !timeEdited)
+		if(currentVoteTime == 0)
 		{
-			int elapsedTime = voteStartTime - mapStartTime;
-			int additionalTime = vt_start_buffer.IntValue - elapsedTime;
-			if(elapsedTime < 0)
+			if(endCount == 1)
 			{
-				additionalTime = 0;
+				if(vt_sound_count.IntValue == 1)
+				{
+					PlaySound(sound_count_end,SNDLEVEL_HOME);
+				}
+					
 			}
-			time_cvar.IntValue += RoundToFloor(GetConVarFloat(vt_player_multiplier) * GetClientCount()) + additionalTime + vt_offset.IntValue; 
+			else if(endCount == 0)
+			{
+				if(vt_sound_count.IntValue == 1)	
+					PlaySound(sound_count,SNDLEVEL_HOME);
+			}
+			endCount++;
+		}
+		else
+		{
+			if(vt_sound_count.IntValue == 1)
+				PlaySound(sound_count,SNDLEVEL_HOME);
+			endCount = 0;
 		}
 		
 	}
-	else if(currentVoteTime == 0 && lastRepTime == 0)
-	{
-		// two 0's means game has started, on infantry maps as well. 
-		gameStarted = true;
-	}
-	if (paused)
-	{
-		time_cvar.IntValue +=  1;
-	}
-	lastRepTime = currentVoteTime;
+	
 	
 	
 	
 }
-public Event_Elected_Player(Handle:event, const char[] name, bool dontBroadcast)
-{	
-	gameStarted = true;
+
+
+
+// maybe use timer here to check it worked later idk. 
+public Action Command_Plugin_Version(client, const String:command[], args)
+{
+	if(!IsClientInGame(client))
+		return Plugin_Continue;
+	
+	PrintToConsole(client,"%s ",PluginVersion);
+	
+
+	return Plugin_Handled;
+}
+
+EnablePauseText()
+{
+	DisablePauseText();
+	ShowPauseText();
+	HudTextHandle = CreateTimer(10.0, Timer_RepeatPause, _, TIMER_REPEAT);
+}
+DisablePauseText()
+{
+	if(HudTextHandle != INVALID_HANDLE)
+	{
+		KillTimer(HudTextHandle);	
+		HudTextHandle = INVALID_HANDLE;
+	}
+	HideText(4);
+}
+
+
+void ShowPauseText()
+{
+	ShowText("Timer Paused",4,-1.0,0.45,11.0);
+}
+public Action Timer_RepeatPause(Handle timer)
+{
+	ShowPauseText();
+}
+
+void ShowText(char[] text,int channel,float xPos,float yPos,float duration)
+{
+	SetHudTextParams(xPos, yPos, duration, 255, 110, 50, 255,0);
+	for(int i = 1;i<MaxClients;i++)
+	{
+		if(IsClientInGame(i))
+		{
+			ShowHudText(i, channel, text);
+		}
+	}
+}
+void HideText(int channel)
+{
+	ShowText("",channel,0.0,0.0,0.0);
+}
+
+public void OnGameStart()
+{
 	vt_paused.IntValue = 0;
-	
-}
-
-SetVoteTime(int voteTime)
-{
-	if(voteStartTime != 0)
-	{
-		voteTime += GetExpiredTime();
-	}
-	timeEdited = true;
-	time_cvar.IntValue = voteTime;
-}
-public int Native_SetVoteTime(Handle plugin, int numParams)
-{
-	SetVoteTime(GetNativeCell(1));
-}
-public int Native_GetOriginalVoteTime(Handle plugin, int numParams)
-{
-	return originalVoteTime;
-}
-public int Native_HasGameStarted(Handle plugin, int numParams)
-{
-	return gameStarted;
 }
 
 
-
-
-int GetExpiredTime()
-{
-	return GetTime() - voteStartTime;
-}
 
 

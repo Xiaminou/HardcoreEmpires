@@ -1,0 +1,11 @@
+L 07/30/2017 - 18:14:34: SourceMod error session started
+L 07/30/2017 - 18:14:34: Info (map "con_district402") (file "errors_20170730.log")
+L 07/30/2017 - 18:14:34: [SDKTOOLS] Invalid detour address passed - Disabling detour to prevent crashes
+L 07/30/2017 - 18:14:34: [SDKTOOLS] Failed to find PlayerRunCmd offset - OnPlayerRunCmd forward disabled.
+L 07/30/2017 - 18:14:36: [nextmap.smx] FATAL: Cannot load map cycle. Nextmap not loaded.
+L 07/30/2017 - 18:14:36: [SM] Exception reported: Mapcycle Not Found
+L 07/30/2017 - 18:14:36: [SM] Blaming: nextmap.smx()
+L 07/30/2017 - 18:14:36: [SM] Call stack trace:
+L 07/30/2017 - 18:14:36: [SM]   [0] SetFailState
+L 07/30/2017 - 18:14:36: [SM]   [1] Line 139, D:\builds\build-sourcemod-msvc12\windows-1.8\build\plugins\nextmap.sp::FindAndSetNextMap()
+L 07/30/2017 - 18:14:36: [SM]   [2] Line 109, D:\builds\build-sourcemod-msvc12\windows-1.8\build\plugins\nextmap.sp::OnConfigsExecuted()

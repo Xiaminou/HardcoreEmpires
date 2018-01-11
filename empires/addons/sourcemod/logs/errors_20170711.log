@@ -1,0 +1,23 @@
+L 07/11/2017 - 01:17:12: SourceMod error session started
+L 07/11/2017 - 01:17:12: Info (map "emp_vehicletraining_2013") (file "errors_20170711.log")
+L 07/11/2017 - 01:17:12: Error log file session closed.
+L 07/11/2017 - 01:17:12: SourceMod error session started
+L 07/11/2017 - 01:17:12: Info (map "emp_vehicletraining_2013") (file "errors_20170711.log")
+L 07/11/2017 - 01:17:12: [nextmap.smx] FATAL: Cannot load map cycle. Nextmap not loaded.
+L 07/11/2017 - 01:17:12: [SM] Exception reported: Mapcycle Not Found
+L 07/11/2017 - 01:17:12: [SM] Blaming: nextmap.smx()
+L 07/11/2017 - 01:17:12: [SM] Call stack trace:
+L 07/11/2017 - 01:17:12: [SM]   [0] SetFailState
+L 07/11/2017 - 01:17:12: [SM]   [1] Line 139, D:\builds\build-sourcemod-msvc12\windows-1.8\build\plugins\nextmap.sp::FindAndSetNextMap()
+L 07/11/2017 - 01:17:12: [SM]   [2] Line 109, D:\builds\build-sourcemod-msvc12\windows-1.8\build\plugins\nextmap.sp::OnConfigsExecuted()
+L 07/11/2017 - 15:04:00: SourceMod error session started
+L 07/11/2017 - 15:04:00: Info (map "con_district402") (file "errors_20170711.log")
+L 07/11/2017 - 15:04:00: [SDKTOOLS] Invalid detour address passed - Disabling detour to prevent crashes
+L 07/11/2017 - 15:04:01: [SDKTOOLS] Failed to find PlayerRunCmd offset - OnPlayerRunCmd forward disabled.
+L 07/11/2017 - 15:04:03: [nextmap.smx] FATAL: Cannot load map cycle. Nextmap not loaded.
+L 07/11/2017 - 15:04:03: [SM] Exception reported: Mapcycle Not Found
+L 07/11/2017 - 15:04:03: [SM] Blaming: nextmap.smx()
+L 07/11/2017 - 15:04:03: [SM] Call stack trace:
+L 07/11/2017 - 15:04:03: [SM]   [0] SetFailState
+L 07/11/2017 - 15:04:03: [SM]   [1] Line 139, D:\builds\build-sourcemod-msvc12\windows-1.8\build\plugins\nextmap.sp::FindAndSetNextMap()
+L 07/11/2017 - 15:04:03: [SM]   [2] Line 109, D:\builds\build-sourcemod-msvc12\windows-1.8\build\plugins\nextmap.sp::OnConfigsExecuted()

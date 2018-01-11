@@ -1,0 +1,23 @@
+L 09/29/2017 - 14:37:58: [umc-core.smx] ---------------------MAP CHANGE: con_district402---------------------
+L 09/29/2017 - 14:37:58: [umc-endvote-warnings.smx] Successfully parsed and set up 11 vote warnings.
+L 09/29/2017 - 14:37:58: [umc-playercountmonitor.smx] Min Players: 0, Max Players: 20
+L 09/29/2017 - 14:37:58: [umc-playercountmonitor.smx] Server will begin watching for inproper number of players in 240 seconds.
+L 09/29/2017 - 14:37:58: [umc-rockthevote.smx] RTV will be made available in 60 seconds.
+L 09/29/2017 - 14:38:59: [umc-rockthevote.smx] RTV is now available.
+L 09/29/2017 - 14:41:58: [umc-playercountmonitor.smx] Server is now watching for inproper number of players.
+L 09/29/2017 - 22:50:23: [umc-emp-mapvote.smx] Map vote will appear in 30 seconds.
+L 09/29/2017 - 22:50:53: [umc-emp-mapvote.smx] Starting a map vote.
+L 09/29/2017 - 22:50:53: [umc-core.smx] Initiating Vote Type: Map
+L 09/29/2017 - 22:50:53: [umc-core.smx] Could not start core vote, no players to display vote to!
+L 09/29/2017 - 22:50:53: [umc-emp-mapvote.smx] Could not start UMC vote.
+L 09/29/2017 - 22:50:53: [umc-emp-mapvote.smx] WARNING: Map Voting failure. Initiating random map fail-safe.
+L 09/29/2017 - 22:50:53: [umc-core.smx] Setting nextmap to: emp_fogtown_cl2_fix
+L 09/29/2017 - 22:50:53: [umc-randomcycle.smx] Disabling random nextmap selection.
+L 09/29/2017 - 22:50:53: [umc-core.smx] umc-emp-mapvote.smx: Changing map to 'emp_fogtown_cl2_fix' in 5 seconds.
+L 09/29/2017 - 22:50:59: [umc-core.smx] ---------------------MAP CHANGE: emp_fogtown_cl2_fix---------------------
+L 09/29/2017 - 22:50:59: [umc-endvote-warnings.smx] Successfully parsed and set up 11 vote warnings.
+L 09/29/2017 - 22:50:59: [umc-playercountmonitor.smx] Min Players: 0, Max Players: 20
+L 09/29/2017 - 22:50:59: [umc-playercountmonitor.smx] Server will begin watching for inproper number of players in 240 seconds.
+L 09/29/2017 - 22:50:59: [umc-rockthevote.smx] RTV will be made available in 60 seconds.
+L 09/29/2017 - 22:52:00: [umc-rockthevote.smx] RTV is now available.
+L 09/29/2017 - 22:54:59: [umc-playercountmonitor.smx] Server is now watching for inproper number of players.

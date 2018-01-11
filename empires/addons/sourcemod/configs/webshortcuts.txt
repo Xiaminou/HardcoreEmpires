@@ -44,7 +44,7 @@
 	"Hook"		"!sourcebans"
 	"Hook"		"/sourcebans"
 	"Silent"	"0"
-	"Url"		"http://86.208.208.243/sourcebans/index.php"
+	"Url"		"http://xiaminou.ddns.net/sourcebans/index.php"
 }
 "Report"
 {
@@ -52,21 +52,40 @@
 	"Hook"		"!report"
 	"Hook"		"/report"
 	"Silent"	"0"
-	"Url"		"http://86.208.208.243/sourcebans/index.php?p=submit"
+	"Url"		"http://xiaminou.ddns.net/sourcebans/index.php?p=submit"
 }
 "Appeal"
 {
-	"Title"		"Report"
+	"Title"		"Appeal"
 	"Hook"		"!appeal"
 	"Hook"		"/appeal"
 	"Silent"	"0"
-	"Url"		"http://86.208.208.243/sourcebans/index.php?p=submit"
+	"Url"		"http://xiaminou.ddns.net/sourcebans/index.php?p=submit"
 }
-"League"
+"2.14"
 {
-	"Title"		"Report"
-	"Hook"		"!league"
-	"Hook"		"/league"
+	"Title"		"2.14"
+	"Hook"		"!2.14"
+	"Hook"		"/2.14"
 	"Silent"	"0"
-	"Url"		"https://forums.empiresmod.com/index.php?threads/empires-league-2017-sign-up-and-information-thread.20916/"
+	"Url"		"https://forums.empiresmod.com/index.php?threads/2-14-released.21061/#post-545863"
+}
+"maplist"
+{
+	"Title"		"maplist"
+	"Hook"		"!maplist"
+	"Hook"		"/maplist"
+	"Silent"	"0"
+	"Url"		"https://docs.google.com/spreadsheets/d/1-sbanVK8hyhrwoRQU59XP6JsDpTIxRvHsB7lQufiW_8/edit#gid=1072128516"
+}
+"EmpiresYT"
+{
+	"Title"		"EmpiresYT"
+	"Hook"		"!EmpiresYT"
+	"Hook"		"!empiresYT"
+	"Hook"		"!empiresyt"
+	"Hook"		"!Empiresyt"
+	"Hook"		"/EmpiresYT"
+	"Silent"	"0"
+	"Url"		"http://steamcommunity.com/groups/EmpiresYT"
 }

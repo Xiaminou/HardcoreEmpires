@@ -1,0 +1,12 @@
+L 07/19/2017 - 03:14:25: SourceMod error session started
+L 07/19/2017 - 03:14:25: Info (map "emp_blast_ob1") (file "errors_20170719.log")
+L 07/19/2017 - 03:14:25: Error log file session closed.
+L 07/19/2017 - 03:14:25: SourceMod error session started
+L 07/19/2017 - 03:14:25: Info (map "emp_blast_ob1") (file "errors_20170719.log")
+L 07/19/2017 - 03:14:25: [nextmap.smx] FATAL: Cannot load map cycle. Nextmap not loaded.
+L 07/19/2017 - 03:14:25: [SM] Exception reported: Mapcycle Not Found
+L 07/19/2017 - 03:14:25: [SM] Blaming: nextmap.smx()
+L 07/19/2017 - 03:14:25: [SM] Call stack trace:
+L 07/19/2017 - 03:14:25: [SM]   [0] SetFailState
+L 07/19/2017 - 03:14:25: [SM]   [1] Line 139, D:\builds\build-sourcemod-msvc12\windows-1.8\build\plugins\nextmap.sp::FindAndSetNextMap()
+L 07/19/2017 - 03:14:25: [SM]   [2] Line 109, D:\builds\build-sourcemod-msvc12\windows-1.8\build\plugins\nextmap.sp::OnConfigsExecuted()

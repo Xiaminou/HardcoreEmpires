@@ -1,0 +1,93 @@
+L 12/08/2017 - 15:39:06: [umc-core.smx] ---------------------MAP CHANGE: con_district402---------------------
+L 12/08/2017 - 15:39:06: [umc-endvote-warnings.smx] Successfully parsed and set up 11 vote warnings.
+L 12/08/2017 - 15:39:06: [umc-rockthevote.smx] RTV will be made available in 60 seconds.
+L 12/08/2017 - 15:40:07: [umc-rockthevote.smx] RTV is now available.
+L 12/08/2017 - 16:19:59: [umc-emp-mapvote.smx] Map vote will appear in 30 seconds.
+L 12/08/2017 - 16:20:29: [umc-nominate.smx] Mr. X. wants to nominate a map.
+L 12/08/2017 - 16:20:29: [umc-emp-mapvote.smx] Starting a map vote.
+L 12/08/2017 - 16:20:29: [umc-core.smx] Initiating Vote Type: Map
+L 12/08/2017 - 16:21:08: [umc-core.smx] RUNOFF: Starting runoff vote.
+L 12/08/2017 - 16:21:08: [umc-core.smx] Initiating Vote Type: Map
+L 12/08/2017 - 16:21:38: [umc-core.smx] Setting nextmap to: emp_drygulch_a6
+L 12/08/2017 - 16:21:38: [umc-randomcycle.smx] Disabling random nextmap selection.
+L 12/08/2017 - 16:21:38: [umc-core.smx] umc-emp-mapvote.smx: Changing map to 'emp_drygulch_a6' in 5 seconds.
+L 12/08/2017 - 16:21:38: [umc-core.smx] MAPVOTE: Players voted for map 'emp_drygulch_a6' from group 'Commander Maps'
+L 12/08/2017 - 16:21:45: [umc-core.smx] ---------------------MAP CHANGE: emp_drygulch_a6---------------------
+L 12/08/2017 - 16:21:45: [umc-endvote-warnings.smx] Successfully parsed and set up 11 vote warnings.
+L 12/08/2017 - 16:21:45: [umc-rockthevote.smx] RTV will be made available in 60 seconds.
+L 12/08/2017 - 16:22:46: [umc-rockthevote.smx] RTV is now available.
+L 12/08/2017 - 16:31:46: [umc-emp-mapvote.smx] Map vote will appear in 30 seconds.
+L 12/08/2017 - 16:32:16: [umc-emp-mapvote.smx] Starting a map vote.
+L 12/08/2017 - 16:32:16: [umc-core.smx] Initiating Vote Type: Map
+L 12/08/2017 - 16:32:47: [umc-core.smx] Setting nextmap to: emp_beachfront_b2
+L 12/08/2017 - 16:32:47: [umc-randomcycle.smx] Disabling random nextmap selection.
+L 12/08/2017 - 16:32:47: [umc-core.smx] umc-emp-mapvote.smx: Changing map to 'emp_beachfront_b2' in 5 seconds.
+L 12/08/2017 - 16:32:47: [umc-core.smx] MAPVOTE: Players voted for map 'emp_beachfront_b2' from group 'Commander Maps'
+L 12/08/2017 - 16:32:53: [umc-core.smx] ---------------------MAP CHANGE: emp_beachfront_b2---------------------
+L 12/08/2017 - 16:32:53: [umc-endvote-warnings.smx] Successfully parsed and set up 11 vote warnings.
+L 12/08/2017 - 16:32:53: [umc-rockthevote.smx] RTV will be made available in 60 seconds.
+L 12/08/2017 - 16:33:55: [umc-rockthevote.smx] RTV is now available.
+L 12/08/2017 - 18:23:26: [umc-emp-mapvote.smx] Map vote will appear in 30 seconds.
+L 12/08/2017 - 18:23:56: [umc-emp-mapvote.smx] Starting a map vote.
+L 12/08/2017 - 18:23:56: [umc-core.smx] Initiating Vote Type: Map
+L 12/08/2017 - 18:24:27: [umc-emp-mapvote.smx] WARNING: Map Voting failure. Initiating random map fail-safe.
+L 12/08/2017 - 18:24:27: [umc-core.smx] Setting nextmap to: emp_downfall
+L 12/08/2017 - 18:24:27: [umc-randomcycle.smx] Disabling random nextmap selection.
+L 12/08/2017 - 18:24:27: [umc-core.smx] umc-emp-mapvote.smx: Changing map to 'emp_downfall' in 5 seconds.
+L 12/08/2017 - 18:24:32: [umc-core.smx] ---------------------MAP CHANGE: emp_downfall---------------------
+L 12/08/2017 - 18:24:32: [umc-endvote-warnings.smx] Successfully parsed and set up 11 vote warnings.
+L 12/08/2017 - 18:24:32: [umc-rockthevote.smx] RTV will be made available in 60 seconds.
+L 12/08/2017 - 18:25:33: [umc-rockthevote.smx] RTV is now available.
+L 12/08/2017 - 18:39:33: [umc-emp-mapvote.smx] Map vote will appear in 30 seconds.
+L 12/08/2017 - 18:40:03: [umc-emp-mapvote.smx] Starting a map vote.
+L 12/08/2017 - 18:40:03: [umc-core.smx] Initiating Vote Type: Map
+L 12/08/2017 - 18:40:33: [umc-core.smx] Setting nextmap to: emp_flat_fix
+L 12/08/2017 - 18:40:33: [umc-randomcycle.smx] Disabling random nextmap selection.
+L 12/08/2017 - 18:40:33: [umc-core.smx] umc-emp-mapvote.smx: Changing map to 'emp_flat_fix' in 5 seconds.
+L 12/08/2017 - 18:40:33: [umc-core.smx] MAPVOTE: Players voted for map 'emp_flat_fix' from group 'Commander Maps'
+L 12/08/2017 - 18:40:39: [umc-core.smx] ---------------------MAP CHANGE: emp_flat_fix---------------------
+L 12/08/2017 - 18:40:39: [umc-endvote-warnings.smx] Successfully parsed and set up 11 vote warnings.
+L 12/08/2017 - 18:40:39: [umc-rockthevote.smx] RTV will be made available in 60 seconds.
+L 12/08/2017 - 18:41:40: [umc-rockthevote.smx] RTV is now available.
+L 12/08/2017 - 19:53:01: [umc-emp-mapvote.smx] Map vote will appear in 30 seconds.
+L 12/08/2017 - 19:53:31: [umc-emp-mapvote.smx] Starting a map vote.
+L 12/08/2017 - 19:53:31: [umc-core.smx] Initiating Vote Type: Map
+L 12/08/2017 - 19:54:01: [umc-emp-mapvote.smx] WARNING: Map Voting failure. Initiating random map fail-safe.
+L 12/08/2017 - 19:54:01: [umc-core.smx] Setting nextmap to: emp_crossroads
+L 12/08/2017 - 19:54:01: [umc-randomcycle.smx] Disabling random nextmap selection.
+L 12/08/2017 - 19:54:01: [umc-core.smx] umc-emp-mapvote.smx: Changing map to 'emp_crossroads' in 5 seconds.
+L 12/08/2017 - 19:54:08: [umc-core.smx] ---------------------MAP CHANGE: emp_crossroads---------------------
+L 12/08/2017 - 19:54:08: [umc-endvote-warnings.smx] Successfully parsed and set up 11 vote warnings.
+L 12/08/2017 - 19:54:08: [umc-rockthevote.smx] RTV will be made available in 60 seconds.
+L 12/08/2017 - 19:55:09: [umc-rockthevote.smx] RTV is now available.
+L 12/08/2017 - 21:29:24: [umc-emp-mapvote.smx] Map vote will appear in 30 seconds.
+L 12/08/2017 - 21:29:54: [umc-emp-mapvote.smx] Starting a map vote.
+L 12/08/2017 - 21:29:54: [umc-core.smx] Initiating Vote Type: Map
+L 12/08/2017 - 21:30:25: [umc-emp-mapvote.smx] WARNING: Map Voting failure. Initiating random map fail-safe.
+L 12/08/2017 - 21:30:25: [umc-core.smx] Setting nextmap to: emp_havoc_b1_fix
+L 12/08/2017 - 21:30:25: [umc-randomcycle.smx] Disabling random nextmap selection.
+L 12/08/2017 - 21:30:25: [umc-core.smx] umc-emp-mapvote.smx: Changing map to 'emp_havoc_b1_fix' in 5 seconds.
+L 12/08/2017 - 21:30:31: [umc-core.smx] ---------------------MAP CHANGE: emp_havoc_b1_fix---------------------
+L 12/08/2017 - 21:30:31: [umc-endvote-warnings.smx] Successfully parsed and set up 11 vote warnings.
+L 12/08/2017 - 21:30:31: [umc-rockthevote.smx] RTV will be made available in 60 seconds.
+L 12/08/2017 - 21:31:34: [umc-rockthevote.smx] RTV is now available.
+L 12/08/2017 - 22:01:02: [umc-core.smx] Setting nextmap to: con_district402
+L 12/08/2017 - 22:01:02: [umc-randomcycle.smx] Disabling random nextmap selection.
+L 12/08/2017 - 22:01:02: [umc-core.smx] umc-adminmenu.smx: Changing map to 'con_district402' in 5 seconds.
+L 12/08/2017 - 22:01:02: [umc-adminmenu.smx] Oktay<25><[U:1:116496292]><> set the next map to con_district402 from group Infantry Maps.
+L 12/08/2017 - 22:01:08: [umc-core.smx] ---------------------MAP CHANGE: con_district402---------------------
+L 12/08/2017 - 22:01:08: [umc-endvote-warnings.smx] Successfully parsed and set up 11 vote warnings.
+L 12/08/2017 - 22:01:08: [umc-rockthevote.smx] RTV will be made available in 60 seconds.
+L 12/08/2017 - 22:02:09: [umc-rockthevote.smx] RTV is now available.
+L 12/08/2017 - 22:21:31: [umc-core.smx] ---------------------MAP CHANGE: con_urbanchaos_comm_b2---------------------
+L 12/08/2017 - 22:21:31: [umc-endvote-warnings.smx] Successfully parsed and set up 11 vote warnings.
+L 12/08/2017 - 22:21:31: [umc-rockthevote.smx] RTV will be made available in 60 seconds.
+L 12/08/2017 - 22:22:32: [umc-rockthevote.smx] RTV is now available.
+L 12/08/2017 - 22:38:52: [umc-core.smx] ---------------------MAP CHANGE: emp_crossroads_towerless---------------------
+L 12/08/2017 - 22:38:52: [umc-endvote-warnings.smx] Successfully parsed and set up 11 vote warnings.
+L 12/08/2017 - 22:38:52: [umc-rockthevote.smx] RTV will be made available in 60 seconds.
+L 12/08/2017 - 22:39:53: [umc-rockthevote.smx] RTV is now available.
+L 12/08/2017 - 22:53:10: [umc-core.smx] ---------------------MAP CHANGE: emp_crossroads_towerless---------------------
+L 12/08/2017 - 22:53:10: [umc-endvote-warnings.smx] Successfully parsed and set up 11 vote warnings.
+L 12/08/2017 - 22:53:10: [umc-rockthevote.smx] RTV will be made available in 60 seconds.
+L 12/08/2017 - 22:54:11: [umc-rockthevote.smx] RTV is now available.
