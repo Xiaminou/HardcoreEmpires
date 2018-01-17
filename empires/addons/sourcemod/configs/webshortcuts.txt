@@ -17,10 +17,18 @@
 "Empires Wiki"
 {
 	"Title"		"Empires Wiki"
+	"Hook"		"!empireswiki"
+	"Hook"		"/empireswiki"
+	"Silent"	"0"
+	"Url"		"https://wiki.empiresmod.com/Main_Page"
+}
+"Wiki"
+{
+	"Title"		"Wiki"
 	"Hook"		"!wiki"
 	"Hook"		"/wiki"
 	"Silent"	"0"
-	"Url"		"https://wiki.empiresmod.com/Main_Page"
+	"Url"		"https://github.com/Xiaminou/HardcoreEmpires/wiki"
 }
 "Command List"
 {
@@ -28,7 +36,7 @@
 	"Hook"		"!commandlist"
 	"Hook"		"/commandlist"
 	"Silent"	"0"
-	"Url"		"https://github.com/Xiaminou/Empires-Server-Config/blob/master/commandlist.txt"
+	"Url"		"https://github.com/Xiaminou/HardcoreEmpires/wiki"
 }
 "Feedback"
 {
@@ -70,6 +78,14 @@
 	"Silent"	"0"
 	"Url"		"https://forums.empiresmod.com/index.php?threads/2-14-released.21061/#post-545863"
 }
+"2.15"
+{
+	"Title"		"2.15"
+	"Hook"		"!2.15"
+	"Hook"		"/2.15"
+	"Silent"	"0"
+	"Url"		"https://forums.empiresmod.com/index.php?threads/2-15-testing-thread-changelog-inside.21114/"
+}
 "maplist"
 {
 	"Title"		"maplist"
@@ -78,14 +94,20 @@
 	"Silent"	"0"
 	"Url"		"https://docs.google.com/spreadsheets/d/1-sbanVK8hyhrwoRQU59XP6JsDpTIxRvHsB7lQufiW_8/edit#gid=1072128516"
 }
-"EmpiresYT"
+"discord"
 {
-	"Title"		"EmpiresYT"
-	"Hook"		"!EmpiresYT"
-	"Hook"		"!empiresYT"
-	"Hook"		"!empiresyt"
-	"Hook"		"!Empiresyt"
-	"Hook"		"/EmpiresYT"
+	"Title"		"discord"
+	"Hook"		"!discord"
+	"Hook"		"/discord"
 	"Silent"	"0"
-	"Url"		"http://steamcommunity.com/groups/EmpiresYT"
+	"Url"		"https://discordapp.com/invite/dCtKTVf"
 }
+"steamgroup"
+{
+	"Title"		"steamgroup"
+	"Hook"		"!steamgroup"
+	"Hook"		"/steamgroup"
+	"Silent"	"0"
+	"Url"		"http://steamcommunity.com/groups/hardcoreempires"
+}
+
