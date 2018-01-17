@@ -41,7 +41,7 @@ WeaponData
 
 	"MeleeWeapon"			"0"
 	"MeleeDamage"			"40"	// damage per melee hit
-	"MeleeCycleTime"		"0.5"	// time between melee attacks
+	"MeleeCycleTime"		"0.4"	// time between melee attacks
 
 //Weapon Spread
 	//When at rest
