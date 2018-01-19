@@ -1,4 +1,4 @@
-// Mapcycle definition for Ultimate Mapchooser v3.1 by Steell
+//Mapcycle definition for Ultimate Mapchooser v3.1 by Steell
 
 "umc_mapcycle"
 {
@@ -6,28 +6,32 @@
     {
         "maps_invote"   "6"
 		
-		"emp_arid"
+		"emp_arid_fix"
 		{
 			"min_players"	"20"
 			"max_players"	"42"
+			"display"		"emp_arid"
 		}
 		
 		"emp_beachfront_b2"
 		{
 			"min_players"	"0"
 			"max_players"	"22"
+			"display"		"emp_beachfront"
 		}
 		
-		"emp_blackmountain"
+		"emp_blackmountain_fix"
 		{
 			"min_players"	"40"
 			"max_players"	"64"
+			"display"		"emp_blackmountain"
 		}
 		
-		"emp_blah4"
+		"emp_blah4_fix"
 		{
 			"min_players"	"14"
 			"max_players"	"32"
+			"display"		"emp_blah4"
 		}
 		
 		"emp_bush"
@@ -48,16 +52,17 @@
 			"max_players"	"64"
 		}
 		
-		"emp_coast_fix"
+		"emp_coast"
 		{
 			"min_players"	"20"
-			"max_players"	"52"
+			"max_players"	"42"
 		}
 		
-		"emp_crossroads"
+		"emp_crossroads_towerless"
 		{
 			"min_players"	"0"
 			"max_players"	"22"
+			"display"		"emp_crossroads"
 		}
 		
 		"emp_cyclopean"
@@ -76,199 +81,239 @@
 		{
 			"min_players"	"0"
 			"max_players"	"22"
+			"display"		"emp_drygulch"
 		}
 		
 		"emp_dune_ob1"
 		{
 			"min_players"	"20"
-			"max_players"	"52"
+			"max_players"	"42"
+			"display"		"emp_dune"
 		}
 		
-		"emp_duststorm"
+		"emp_duststorm_fix2"
 		{
 			"min_players"	"20"
 			"max_players"	"52"
+			"display"		"emp_duststorm"
 		}
 		
 		"emp_flat_fix"
 		{
-			"min_players"	"14"
+			"min_players"	"0"
 			"max_players"	"32"
+			"display"		"emp_flat"
 		}
 		
-		"emp_forest_ob_2013"
+		"emp_forest_ob_2013_fix"
 		{
 			"min_players"	"26"
 			"max_players"	"52"
+			"display"		"emp_forest"
 		}
 		
-		"emp_frozensummit_b2_2013_fix"
+		"emp_frozensummit_b2_2013_fix2"
 		{
-			"min_players"	"32"
-			"max_players"	"64"
+			"min_players"	"26"
+			"max_players"	"52"
+			"display"		"emp_frozensummit"
 		}
 		
 		"emp_fuel_a3_2013_fix"
 		{
 			"min_players"	"32"
 			"max_players"	"64"
+			"display"		"emp_fuel"
 		}
 		
 		"emp_fury_rc1"
 		{
 			"min_players"	"26"
 			"max_players"	"52"
+			"display"		"emp_fury"
 		}
 		
 		"emp_glacial_b2"
 		{
 			"min_players"	"20"
 			"max_players"	"42"
+			"display"		"emp_glacial"
 		}
 		
 		"emp_hazard_rc6"
 		{
-			"min_players"	"20"
+			"min_players"	"14"
 			"max_players"	"32"
+			"display"		"emp_hazard"
 		}
 		
 		"emp_homeland_b9"
 		{
 			"min_players"	"22"
 			"max_players"	"42"
+			"display"		"emp_homeland"
 		}
 		
-//		"emp_insurrection_rc4"
-//		{
-//			"min_players"	"32"
-//			"max_players"	"64"
-//		}
+		"emp_insurrection_rc4"
+		{
+			"min_players"	"32"
+			"max_players"	"64"
+			"display"		"emp_insurrection"
+		}
 		
 		"emp_isle"
 		{
-			"min_players"	"26"
-			"max_players"	"64"
+			"min_players"	"20"
+			"max_players"	"42"
 		}
 		
 		"emp_king_r5_nosplt"
 		{
 			"min_players"	"40"
 			"max_players"	"64"
+			"display"		"emp_king"
 		}
 		
 		"emp_massacred_rc1"
 		{
 			"min_players"	"14"
 			"max_players"	"42"
+			"display"		"emp_massacred"
 		}
 		
 		"emp_mesa_d6"
 		{
-			"min_players"	"26"
-			"max_players"	"52"
+			"min_players"	"20"
+			"max_players"	"42"
+			"display"		"emp_mesa"
 		}
 		
-//		"emp_midbridge"
-//		{
-//			"min_players"	"40"
-//			"max_players"	"64"
-//		}
-		
-		"emp_mvalley"
+		"emp_midbridge"
 		{
-			"min_players"	"20"
+			"min_players"	"32"
 			"max_players"	"64"
+		}
+		
+		"emp_mvalley_fix"
+		{
+			"min_players"	"26"
+			"max_players"	"52"
+			"display"		"emp_mvalley"
 		}
 		
 		"emp_palmbay_fix"
 		{
-			"min_players"	"20"
+			"min_players"	"14"
 			"max_players"	"32"
+			"display"		"emp_palmbay"
 		}
 		
 		"emp_plunge_ob2_2013"
 		{
-			"min_players"	"20"
-			"max_players"	"42"
+			"min_players"	"14"
+			"max_players"	"32"
+			"display"		"emp_plunge"
 		}
 		
 		"emp_raiders_b1"
 		{
 			"min_players"	"32"
 			"max_players"	"64"
+			"display"		"emp_raiders"
 		}
 		
 		"emp_research_1_2_2013"
 		{
-			"min_players"	"20"
+			"min_players"	"14"
 			"max_players"	"32"
+			"display"		"emp_research"
 		}
 		
-//		"emp_silo_rc5"
-//		{
-//			"min_players"	"20"
-//			"max_players"	"42"
-//		}
+		"emp_silo_rc5_fix"
+		{
+			"min_players"	"20"
+			"max_players"	"42"
+			"display"		"emp_silo"
+		}
+		
 		
 		"emp_snowbound_cl6"
 		{
 			"min_players"	"20"
 			"max_players"	"42"
+			"display"		"emp_snowbound"
 		}
 		
 		"emp_snowstorm_rc6"
 		{
 			"min_players"	"14"
 			"max_players"	"32"
+			"display"		"emp_snowstorm"
 		}
 		
-		"emp_temple_b3a"
+		"emp_streetsoffire_fix"
 		{
 			"min_players"	"14"
 			"max_players"	"32"
+			"display"		"emp_streetsoffire"
+		}
+		
+		"emp_temple_b3f"
+		{
+			"min_players"	"14"
+			"max_players"	"32"
+			"display"		"emp_temple"
 		}
 		
 		"emp_traders_a8"
 		{
-			"min_players"	"20"
+			"min_players"	"14"
 			"max_players"	"32"
+			"display"		"emp_traders"
 		}
 		
-//		"emp_tropicvendetta_rc4"
-//		{
-//			"min_players"	"32"
-//			"max_players"	"52"
-//		}
+		"emp_tropicvendetta_rc4"
+		{
+			"min_players"	"32"
+			"max_players"	"52"
+			"display"		"emp_tropicvendetta"
+		}
 		
 		"emp_ward_rc2"
 		{
 			"min_players"	"20"
 			"max_players"	"52"
+			"display"		"emp_ward"
 		}
     }
     "Infantry Maps"
     {
         "maps_invote"   "1"
 		
+		"min_players"	"0"
+		"max_players"	"20"
+		
 		"emp_atomic_rc6"
 		{
 			"min_players"	"32"
 			"max_players"	"64"
+			"display"		"con_atomic"
 		}
 		
-		"emp_blast_ob1"
+		"con_blast_ob2"
 		{
 			"max_players"	"20"
+			"display"		"con_blast"
 		}
 		
-//		"con_district402"
-//		{
-//			"max_players"	"20"
-//		}
-		
+		"con_district402"
+		{
+			"max_players"	"20"
+		}	
 		"emp_fogtown_cl2_fix"
 		{
 			"max_players"	"20"
+			"display"		"con_fogtown"
 		}
 		
 		"con_glycencity"
@@ -279,27 +324,43 @@
 		"emp_havoc_b1_fix"
 		{
 			"max_players"	"20"
+			"display"		"con_havoc"
 		}
 		
 		"emp_shadows_attacks_fix"
 		{
 			"max_players"	"20"
+			"display"		"con_shadows_attacks"
 		}
 		
 		"emp_nuclear_b8u_xfix"
 		{
 			"min_players"	"4"
 			"max_players"	"20"
+			"display"		"as_nuclear"
 		}
 		
-		"con_urbanchaos_fix"
+		"con_urbanchaos_comm_b2"
 		{
 			"max_players"	"20"
+			"display"		"con_urbanchaos"
 		}
 		
 		"emp_vehicletraining_2013"
 		{
 			"max_players"	"20"
+			"display"		"con_vehicletraining"
+		}
+	}
+	"Cooldown Maps"
+	{
+		"maps_invote"	"1"
+		
+		"min_players"	"0"
+		"max_players"	"64"
+		
+		"fun_ricochet_a4"
+		{
 		}
 	}
 }
