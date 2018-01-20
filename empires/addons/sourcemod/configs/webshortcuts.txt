@@ -120,4 +120,19 @@
 	"Silent"	"0"
 	"Url"		"https://github.com/Xiaminou/Empires-Server-Config/wiki/Squadcontrol"
 }
-
+"guide"
+{
+	"Title"		"guide"
+	"Hook"		"!guide"
+	"Hook"		"/guide"
+	"Silent"	"0"
+	"Url"		"https://www.empiresmod.com/docs/index.htm"
+}
+"tutorial"
+{
+	"Title"		"tutorial"
+	"Hook"		"!tutorial"
+	"Hook"		"/tutorial"
+	"Silent"	"0"
+	"Url"		"https://www.youtube.com/playlist?list=PLmWyPcs9Lxap31kU04JwkVEB3dBWp38jQ"
+}
