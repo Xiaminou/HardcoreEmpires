@@ -27,6 +27,8 @@
 	"Title"		"Wiki"
 	"Hook"		"!wiki"
 	"Hook"		"/wiki"
+	"Hook"		"!help"
+	"Hook"		"/help"
 	"Silent"	"0"
 	"Url"		"https://github.com/Xiaminou/HardcoreEmpires/wiki"
 }
@@ -109,5 +111,13 @@
 	"Hook"		"/steamgroup"
 	"Silent"	"0"
 	"Url"		"http://steamcommunity.com/groups/hardcoreempires"
+}
+"squadcontrol"
+{
+	"Title"		"squadcontrol"
+	"Hook"		"!squadcontrol"
+	"Hook"		"/squadcontrol"
+	"Silent"	"0"
+	"Url"		"https://github.com/Xiaminou/Empires-Server-Config/wiki/Squadcontrol"
 }
 
