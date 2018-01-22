@@ -39,9 +39,48 @@
 				"15"		"10000"
 			}
 		}
-		"Remove Player From Commander Vote"  //Requires Client Exec: https://forums.alliedmods.net/showthread.php?t=58982
+		"Remove Player From Commander Vote"  //Requires fexec
 		{
 			"cmd"			"sm_fexec #1 emp_commander_vote_drop_out"
+			"admin"			"sm_ban"
+			"execute"		"server"
+			
+			"1"
+			{
+				"type" 		"player"
+				"method"	"name"
+				"title"		"Players"
+			} 
+		}
+		"Add Player From Commander Vote"  //Requires fexec
+		{
+			"cmd"			"sm_fexec #1 emp_commander_vote_add_in"
+			"admin"			"sm_ban"
+			"execute"		"server"
+			
+			"1"
+			{
+				"type" 		"player"
+				"method"	"name"
+				"title"		"Players"
+			} 
+		}
+		"Profile"
+		{
+			"cmd"			"sm_profile #1"
+			"admin"			"sm_ban"
+			"execute"		"server"
+			
+			"1"
+			{
+				"type" 		"player"
+				"method"	"name"
+				"title"		"Players"
+			} 
+		}
+		"ID"
+		{
+			"cmd"			"sm_id #1"
 			"admin"			"sm_ban"
 			"execute"		"server"
 			
