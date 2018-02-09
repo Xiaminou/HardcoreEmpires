@@ -23,7 +23,7 @@ research_items
 		"Icon"			"comm/hex_cat_physics"			//icon drawn on research tree
 		"Unresearched Icon"	"comm/hex_cat_physics_off"		//icon drawn in the GUI
 		"Type"			"0"		//nothing
-		"Cost"			"0"		//cost of this research item
+		"Cost"			"240"		//cost of this research item
 		"Time"			"60"		//time to research this item in seconds
 		"Team"			""		//which team can research this
 		"XPos"			"50"
@@ -38,7 +38,7 @@ research_items
 			"Icon"			"comm/hex_multi"			//icon drawn on research tree
 			"Unresearched Icon"	"comm/hex_multi_empty"		//icon drawn in the GUI
 			"Type"			"0"		//nothing
-			"Cost"			"0"		//cost of this research item
+			"Cost"			"240"		//cost of this research item
 			"Time"			"60"		//time to research this item in seconds
 			"Team"			""		//which team can research this
 			"XPos"			"20"
@@ -52,7 +52,7 @@ research_items
 				"Icon"			"comm/hex_cn"			//icon drawn on research tree
 				"Unresearched Icon"	"comm/hex_cn_empty"		//icon drawn in the GUI
 				"Type"			"0"		//nothing
-				"Cost"			"0"		//cost of this research item
+				"Cost"			"240"		//cost of this research item
 				"Time"			"60"		//time to research this item in seconds
 				"Team"			""		//which team can research this
 				"XPos"			"0"
@@ -66,7 +66,7 @@ research_items
 				"Icon"			"comm/hex_multi"			//icon drawn on research tree
 				"Unresearched Icon"	"comm/hex_multi_empty"		//icon drawn in the GUI
 				"Type"			"0"		//nothing
-				"Cost"			"0"		//cost of this research item
+				"Cost"			"120"		//cost of this research item
 				"Time"			"30"		//time to research this item in seconds
 				"Team"			""		//which team can research this
 				"XPos"			"30"
@@ -80,7 +80,7 @@ research_items
 					"Icon"			"comm/hex_cn"			//icon drawn on research tree
 					"Unresearched Icon"	"comm/hex_cn_empty"		//icon drawn in the GUI
 					"Type"			"0"		//nothing
-					"Cost"			"0"		//cost of this research item
+					"Cost"			"240"		//cost of this research item
 					"Time"			"60"		//time to research this item in seconds
 					"Team"			""		//which team can research this
 					"XPos"			"30"
@@ -94,7 +94,7 @@ research_items
 				"Icon"			"comm/hex_mg"			//icon drawn on research tree
 				"Unresearched Icon"	"comm/hex_mg_empty"		//icon drawn in the GUI
 				"Type"			"0"		//nothing
-				"Cost"			"0"		//cost of this research item
+				"Cost"			"240"		//cost of this research item
 				"Time"			"60"		//time to research this item in seconds
 				"Team"			""		//which team can research this
 				"XPos"			"20"
@@ -108,7 +108,7 @@ research_items
 			"Icon"			"comm/hex_multi"			//icon drawn on research tree
 			"Unresearched Icon"	"comm/hex_multi_empty"		//icon drawn in the GUI
 			"Type"			"0"		//nothing
-			"Cost"			"0"		//cost of this research item
+			"Cost"			"240"		//cost of this research item
 			"Time"			"60"		//time to research this item in seconds
 			"Team"			""		//which team can research this
 			"XPos"			"50"
@@ -122,7 +122,7 @@ research_items
 				"Icon"			"comm/hex_cn"			//icon drawn on research tree
 				"Unresearched Icon"	"comm/hex_cn_empty"		//icon drawn in the GUI
 				"Type"			"0"		//nothing
-				"Cost"			"0"		//cost of this research item
+				"Cost"			"240"		//cost of this research item
 				"Time"			"60"		//time to research this item in seconds
 				"Team"			""		//which team can research this
 				"XPos"			"30"
@@ -136,7 +136,7 @@ research_items
 				"Icon"			"comm/hex_multi"			//icon drawn on research tree
 				"Unresearched Icon"	"comm/hex_multi_empty"		//icon drawn in the GUI
 				"Type"			"0"		//nothing
-				"Cost"			"0"		//cost of this research item
+				"Cost"			"180"		//cost of this research item
 				"Time"			"45"		//time to research this item in seconds
 				"Team"			""		//which team can research this
 				"XPos"			"60"
@@ -150,7 +150,7 @@ research_items
 					"Icon"			"comm/hex_cn"			//icon drawn on research tree
 					"Unresearched Icon"	"comm/hex_cn_empty"		//icon drawn in the GUI
 					"Type"			"0"		//nothing
-					"Cost"			"0"		//cost of this research item
+					"Cost"			"240"		//cost of this research item
 					"Time"			"60"		//time to research this item in seconds
 					"Team"			""		//which team can research this
 					"XPos"			"60"
@@ -164,7 +164,7 @@ research_items
 				"Icon"			"comm/hex_mg"			//icon drawn on research tree
 				"Unresearched Icon"	"comm/hex_mg_empty"		//icon drawn in the GUI
 				"Type"			"0"		//nothing
-				"Cost"			"0"		//cost of this research item
+				"Cost"			"360"		//cost of this research item
 				"Time"			"90"		//time to research this item in seconds
 				"Team"			""		//which team can research this
 				"XPos"			"70"
@@ -178,7 +178,7 @@ research_items
 			"Icon"			"comm/hex_multi"			//icon drawn on research tree
 			"Unresearched Icon"	"comm/hex_multi_empty"		//icon drawn in the GUI
 			"Type"			"0"		//nothing
-			"Cost"			"0"		//cost of this research item
+			"Cost"			"240"		//cost of this research item
 			"Time"			"60"		//time to research this item in seconds
 			"Team"			""		//which team can research this
 			"XPos"			"85"
@@ -192,7 +192,7 @@ research_items
 				"Icon"			"comm/hex_engine"			//icon drawn on research tree
 				"Unresearched Icon"	"comm/hex_engine_empty"		//icon drawn in the GUI
 				"Type"			"0"		//nothing
-				"Cost"			"0"		//cost of this research item
+				"Cost"			"240"		//cost of this research item
 				"Time"			"60"		//time to research this item in seconds
 				"Team"			""		//which team can research this
 				"XPos"			"85"
@@ -206,7 +206,7 @@ research_items
 				"Icon"			"comm/hex_ml"			//icon drawn on research tree
 				"Unresearched Icon"	"comm/hex_ml_empty"		//icon drawn in the GUI
 				"Type"			"0"		//nothing
-				"Cost"			"0"		//cost of this research item
+				"Cost"			"720"		//cost of this research item
 				"Time"			"180"		//time to research this item in seconds
 				"Team"			""		//which team can research this
 				"XPos"			"105"
@@ -220,7 +220,7 @@ research_items
 			"Icon"			"comm/hex_armor"			//icon drawn on research tree
 			"Unresearched Icon"	"comm/hex_armor_empty"		//icon drawn in the GUI
 			"Type"			"0"		//nothing
-			"Cost"			"0"		//cost of this research item
+			"Cost"			"360"		//cost of this research item
 			"Time"			"90"		//time to research this item in seconds
 			"Team"			""		//which team can research this
 			"XPos"			"50"
@@ -237,7 +237,7 @@ research_items
 		"Icon"			"comm/hex_cat_chem"			//icon drawn on research tree
 		"Unresearched Icon"	"comm/hex_cat_chem_off"		//icon drawn in the GUI
 		"Type"			"0"		//nothing
-		"Cost"			"0"		//cost of this research item
+		"Cost"			"240"		//cost of this research item
 		"Time"			"60"		//time to research this item in seconds
 		"Team"			""		//which team can research this
 		"XPos"			"175"
@@ -251,7 +251,7 @@ research_items
 			"Icon"			"comm/hex_multi"			//icon drawn on research tree
 			"Unresearched Icon"	"comm/hex_multi_empty"		//icon drawn in the GUI
 			"Type"			"0"		//nothing
-			"Cost"			"0"		//cost of this research item
+			"Cost"			"240"		//cost of this research item
 			"Time"			"60"		//time to research this item in seconds
 			"Team"			""		//which team can research this
 			"XPos"			"135"
@@ -265,7 +265,7 @@ research_items
 				"Icon"			"comm/hex_mg"			//icon drawn on research tree
 				"Unresearched Icon"	"comm/hex_mg_empty"		//icon drawn in the GUI
 				"Type"			"0"		//nothing
-				"Cost"			"0"		//cost of this research item
+				"Cost"			"240"		//cost of this research item
 				"Time"			"60"		//time to research this item in seconds
 				"Team"			""		//which team can research this
 				"XPos"			"135"
@@ -279,7 +279,7 @@ research_items
 			"Icon"			"comm/hex_multi"			//icon drawn on research tree
 			"Unresearched Icon"	"comm/hex_multi_empty"		//icon drawn in the GUI
 			"Type"			"0"		//nothing
-			"Cost"			"0"		//cost of this research item
+			"Cost"			"240"		//cost of this research item
 			"Time"			"60"		//time to research this item in seconds
 			"Team"			""		//which team can research this
 			"XPos"			"155"
@@ -293,7 +293,7 @@ research_items
 				"Icon"			"comm/hex_gl"			//icon drawn on research tree
 				"Unresearched Icon"	"comm/hex_gl_empty"		//icon drawn in the GUI
 				"Type"			"0"		//nothing
-				"Cost"			"0"		//cost of this research item
+				"Cost"			"120"		//cost of this research item
 				"Time"			"30"		//time to research this item in seconds
 				"Team"			""		//which team can research this
 				"XPos"			"175"
@@ -307,7 +307,7 @@ research_items
 				"Icon"			"comm/hex_cn"			//icon drawn on research tree
 				"Unresearched Icon"	"comm/hex_cn_empty"		//icon drawn in the GUI
 				"Type"			"0"		//nothing
-				"Cost"			"0"		//cost of this research item
+				"Cost"			"240"		//cost of this research item
 				"Time"			"60"		//time to research this item in seconds
 				"Team"			""		//which team can research this
 				"XPos"			"155"
@@ -321,7 +321,7 @@ research_items
 				"Icon"			"comm/hex_multi"			//icon drawn on research tree
 				"Unresearched Icon"	"comm/hex_multi_empty"		//icon drawn in the GUI
 				"Type"			"0"		//nothing
-				"Cost"			"0"		//cost of this research item
+				"Cost"			"180"		//cost of this research item
 				"Time"			"45"		//time to research this item in seconds
 				"Team"			""		//which team can research this
 				"XPos"			"195"
@@ -335,7 +335,7 @@ research_items
 					"Icon"			"comm/hex_cn"			//icon drawn on research tree
 					"Unresearched Icon"	"comm/hex_cn_empty"		//icon drawn in the GUI
 					"Type"			"0"		//nothing
-					"Cost"			"0"		//cost of this research item
+					"Cost"			"240"		//cost of this research item
 					"Time"			"60"		//time to research this item in seconds
 					"Team"			""		//which team can research this
 					"XPos"			"195"
@@ -350,7 +350,7 @@ research_items
 			"Icon"			"comm/hex_multi"			//icon drawn on research tree
 			"Unresearched Icon"	"comm/hex_multi_empty"		//icon drawn in the GUI
 			"Type"			"0"		//nothing
-			"Cost"			"0"		//cost of this research item
+			"Cost"			"240"		//cost of this research item
 			"Time"			"60"		//time to research this item in seconds
 			"Team"			""		//which team can research this
 			"XPos"			"215"
@@ -364,7 +364,7 @@ research_items
 				"Icon"			"comm/hex_ml"			//icon drawn on research tree
 				"Unresearched Icon"	"comm/hex_ml_empty"		//icon drawn in the GUI
 				"Type"			"0"		//nothing
-				"Cost"			"0"		//cost of this research item
+				"Cost"			"360"		//cost of this research item
 				"Time"			"90"		//time to research this item in seconds
 				"Team"			""		//which team can research this
 				"XPos"			"215"
@@ -378,7 +378,7 @@ research_items
 				"Icon"			"comm/hex_multi"			//icon drawn on research tree
 				"Unresearched Icon"	"comm/hex_multi_empty"		//icon drawn in the GUI
 				"Type"			"0"		//nothing
-				"Cost"			"0"		//cost of this research item
+				"Cost"			"240"		//cost of this research item
 				"Time"			"60"		//time to research this item in seconds
 				"Team"			""		//which team can research this
 				"XPos"			"255"
@@ -392,7 +392,7 @@ research_items
 					"Icon"			"comm/hex_ml"			//icon drawn on research tree
 					"Unresearched Icon"	"comm/hex_ml_empty"		//icon drawn in the GUI
 					"Type"			"0"		//nothing
-					"Cost"			"0"		//cost of this research item
+					"Cost"			"240"		//cost of this research item
 					"Time"			"60"		//time to research this item in seconds
 					"Team"			""		//which team can research this
 					"XPos"			"255"
@@ -408,7 +408,7 @@ research_items
 			"Icon"			"comm/hex_multi"			//icon drawn on research tree
 			"Unresearched Icon"	"comm/hex_multi_empty"		//icon drawn in the GUI
 			"Type"			"0"		//nothing
-			"Cost"			"0"		//cost of this research item
+			"Cost"			"240"		//cost of this research item
 			"Time"			"60"		//time to research this item in seconds
 			"Team"			""		//which team can research this
 			"XPos"			"195"
@@ -422,7 +422,7 @@ research_items
 				"Icon"			"comm/hex_engine"			//icon drawn on research tree
 				"Unresearched Icon"	"comm/hex_engine_empty"		//icon drawn in the GUI
 				"Type"			"0"		//nothing
-				"Cost"			"0"		//cost of this research item
+				"Cost"			"240"		//cost of this research item
 				"Time"			"60"		//time to research this item in seconds
 				"Team"			""		//which team can research this
 				"XPos"			"195"
@@ -449,7 +449,7 @@ research_items
 				"Icon"			"comm/hex_armor"			//icon drawn on research tree
 				"Unresearched Icon"	"comm/hex_armor_empty"		//icon drawn in the GUI
 				"Type"			"0"		//nothing
-				"Cost"			"0"		//cost of this research item
+				"Cost"			"360"		//cost of this research item
 				"Time"			"90"		//time to research this item in seconds
 				"Team"			""		//which team can research this
 				"XPos"			"175"
@@ -465,7 +465,7 @@ research_items
 		"Icon"			"comm/hex_cat_mech"			//icon drawn on research tree
 		"Unresearched Icon"	"comm/hex_cat_mech_off"		//icon drawn in the GUI
 		"Type"			"0"		//nothing
-		"Cost"			"0"		//cost of this research item
+		"Cost"			"240"		//cost of this research item
 		"Time"			"60"		//time to research this item in seconds
 		"Team"			""		//which team can research this
 		"XPos"			"257"
@@ -479,7 +479,7 @@ research_items
 			"Icon"			"comm/hex_multi"			//icon drawn on research tree
 			"Unresearched Icon"	"comm/hex_multi_empty"		//icon drawn in the GUI
 			"Type"			"0"		//nothing
-			"Cost"			"0"		//cost of this research item
+			"Cost"			"480"		//cost of this research item
 			"Time"			"120"		//time to research this item in seconds
 			"Team"			""		//which team can research this
 			"XPos"			"257"
@@ -493,7 +493,7 @@ research_items
 				"Icon"			"comm/hex_tank"			//icon drawn on research tree
 				"Unresearched Icon"	"comm/hex_tank_empty"		//icon drawn in the GUI
 				"Type"			"0"		//nothing
-				"Cost"			"0"		//cost of this research item
+				"Cost"			"360"		//cost of this research item
 				"Time"			"90"		//time to research this item in seconds
 				"Team"			""		//which team can research this
 				"XPos"			"237"
@@ -507,7 +507,7 @@ research_items
 				"Icon"			"comm/hex_tank"			//icon drawn on research tree
 				"Unresearched Icon"	"comm/hex_tank_empty"		//icon drawn in the GUI
 				"Type"			"0"		//nothing
-				"Cost"			"0"		//cost of this research item
+				"Cost"			"480"		//cost of this research item
 				"Time"			"120"		//time to research this item in seconds
 				"Team"			""		//which team can research this
 				"XPos"			"277"
@@ -537,8 +537,8 @@ research_items
 				"Icon"			"comm/hex_multi"			//icon drawn on research tree
 				"Unresearched Icon"	"comm/hex_multi_empty"		//icon drawn in the GUI
 				"Type"			"0"		//nothing
-				"Cost"			"0"		//cost of this research item
-				"Time"			"200"		//time to research this item in seconds
+				"Cost"			"720"		//cost of this research item
+				"Time"			"180"		//time to research this item in seconds
 				"Team"			""		//which team can research this
 				"XPos"			"257"
 				"YPos"			"72"
@@ -567,8 +567,8 @@ research_items
 					"Icon"			"comm/hex_tank"			//icon drawn on research tree
 					"Unresearched Icon"	"comm/hex_tank_empty"		//icon drawn in the GUI
 					"Type"			"0"		//nothing
-					"Cost"			"0"		//cost of this research item
-					"Time"			"240"		//time to research this item in seconds
+					"Cost"			"720"		//cost of this research item
+					"Time"			"180"		//time to research this item in seconds
 					"Team"			""		//which team can research this
 					"XPos"			"257"
 					"YPos"			"96"
@@ -584,7 +584,7 @@ research_items
 			"Icon"			"comm/hex_multi"			//icon drawn on research tree
 			"Unresearched Icon"	"comm/hex_multi_empty"		//icon drawn in the GUI
 			"Type"			"0"		//nothing
-			"Cost"			"0"		//cost of this research item
+			"Cost"			"240"		//cost of this research item
 			"Time"			"60"		//time to research this item in seconds
 			"Team"			""		//which team can research this
 			"XPos"			"277"
@@ -599,7 +599,7 @@ research_items
 				"Icon"			"comm/hex_armor"			//icon drawn on research tree
 				"Unresearched Icon"	"comm/hex_armor_empty"		//icon drawn in the GUI
 				"Type"			"0"		//nothing
-				"Cost"			"0"		//cost of this research item
+				"Cost"			"360"		//cost of this research item
 				"Time"			"90"		//time to research this item in seconds
 				"Team"			""		//which team can research this
 				"XPos"			"297"
@@ -614,7 +614,7 @@ research_items
 				"Icon"			"comm/hex_engine"			//icon drawn on research tree
 				"Unresearched Icon"	"comm/hex_engine_empty"		//icon drawn in the GUI
 				"Type"			"0"		//nothing
-				"Cost"			"0"		//cost of this research item
+				"Cost"			"240"		//cost of this research item
 				"Time"			"60"		//time to research this item in seconds
 				"Team"			""		//which team can research this
 				"XPos"			"277"
@@ -629,7 +629,7 @@ research_items
 		"Icon"			"comm/hex_cat_elec"			//icon drawn on research tree
 		"Unresearched Icon"	"comm/hex_cat_elec_off"		//icon drawn in the GUI
 		"Type"			"0"		//nothing
-		"Cost"			"0"		//cost of this research item
+		"Cost"			"240"		//cost of this research item
 		"Time"			"60"		//time to research this item in seconds
 		"Team"			""		//which team can research this
 		"XPos"			"360"
@@ -643,7 +643,7 @@ research_items
 			"Icon"			"comm/hex_multi"			//icon drawn on research tree
 			"Unresearched Icon"	"comm/hex_multi_empty"		//icon drawn in the GUI
 			"Type"			"0"		//nothing
-			"Cost"			"0"		//cost of this research item
+			"Cost"			"240"		//cost of this research item
 			"Time"			"60"		//time to research this item in seconds
 			"Team"			""		//which team can research this
 			"XPos"			"360"
@@ -657,7 +657,7 @@ research_items
 				"Icon"			"comm/hex_cn"			//icon drawn on research tree
 				"Unresearched Icon"	"comm/hex_cn_empty"		//icon drawn in the GUI
 				"Type"			"0"		//nothing
-				"Cost"			"0"		//cost of this research item
+				"Cost"			"360"		//cost of this research item
 				"Time"			"90"		//time to research this item in seconds
 				"Team"			""		//which team can research this
 				"XPos"			"340"
@@ -671,7 +671,7 @@ research_items
 				"Icon"			"comm/hex_multi"			//icon drawn on research tree
 				"Unresearched Icon"	"comm/hex_multi_empty"		//icon drawn in the GUI
 				"Type"			"0"		//nothing
-				"Cost"			"0"		//cost of this research item
+				"Cost"			"180"		//cost of this research item
 				"Time"			"45"		//time to research this item in seconds
 				"Team"			""		//which team can research this
 				"XPos"			"380"
@@ -685,7 +685,7 @@ research_items
 					"Icon"			"comm/hex_cn"			//icon drawn on research tree
 					"Unresearched Icon"	"comm/hex_cn_empty"		//icon drawn in the GUI
 					"Type"			"0"		//nothing
-					"Cost"			"0"		//cost of this research item
+					"Cost"			"180"		//cost of this research item
 					"Time"			"45"		//time to research this item in seconds
 					"Team"			""		//which team can research this
 					"XPos"			"380"
@@ -699,7 +699,7 @@ research_items
 				"Icon"			"comm/hex_engine"			//icon drawn on research tree
 				"Unresearched Icon"	"comm/hex_engine_empty"		//icon drawn in the GUI
 				"Type"			"0"		//nothing
-				"Cost"			"0"		//cost of this research item
+				"Cost"			"240"		//cost of this research item
 				"Time"			"60"		//time to research this item in seconds
 				"Team"			""		//which team can research this
 				"XPos"			"360"
@@ -714,7 +714,7 @@ research_items
 			"Icon"			"comm/hex_armor"			//icon drawn on research tree
 			"Unresearched Icon"	"comm/hex_armor_empty"		//icon drawn in the GUI
 			"Type"			"0"		//nothing
-			"Cost"			"0"		//cost of this research item
+			"Cost"			"360"		//cost of this research item
 			"Time"			"90"		//time to research this item in seconds
 			"Team"			""		//which team can research this
 			"XPos"			"380"
@@ -728,7 +728,7 @@ research_items
 			"Icon"			"comm/hex_armor"			//icon drawn on research tree
 			"Unresearched Icon"	"comm/hex_armor_empty"		//icon drawn in the GUI
 			"Type"			"0"		//nothing
-			"Cost"			"0"		//cost of this research item
+			"Cost"			"360"		//cost of this research item
 			"Time"			"90"		//time to research this item in seconds
 			"Team"			""		//which team can research this
 			"XPos"			"340"
@@ -742,7 +742,7 @@ research_items
 			"Icon"			"comm/hex_multi"			//icon drawn on research tree
 			"Unresearched Icon"	"comm/hex_multi_empty"		//icon drawn in the GUI
 			"Type"			"0"		//nothing
-			"Cost"			"0"		//cost of this research item
+			"Cost"			"240"		//cost of this research item
 			"Time"			"60"		//time to research this item in seconds
 			"Team"			""		//which team can research this
 			"XPos"			"380"
@@ -756,7 +756,7 @@ research_items
 				"Icon"			"comm/hex_ml"			//icon drawn on research tree
 				"Unresearched Icon"	"comm/hex_ml_empty"		//icon drawn in the GUI
 				"Type"			"0"		//nothing
-				"Cost"			"0"		//cost of this research item
+				"Cost"			"360"		//cost of this research item
 				"Time"			"90"		//time to research this item in seconds
 				"Team"			""		//which team can research this
 				"XPos"			"380"
@@ -770,7 +770,7 @@ research_items
 				"Icon"			"comm/hex_multi"			//icon drawn on research tree
 				"Unresearched Icon"	"comm/hex_multi_empty"		//icon drawn in the GUI
 				"Type"			"0"		//nothing
-				"Cost"			"0"		//cost of this research item
+				"Cost"			"180"		//cost of this research item
 				"Time"			"45"		//time to research this item in seconds
 				"Team"			""		//which team can research this
 				"XPos"			"420"
@@ -784,7 +784,7 @@ research_items
 					"Icon"			"comm/hex_ml"			//icon drawn on research tree
 					"Unresearched Icon"	"comm/hex_ml_empty"		//icon drawn in the GUI
 					"Type"			"0"		//nothing
-					"Cost"			"0"		//cost of this research item
+					"Cost"			"180"		//cost of this research item
 					"Time"			"45"		//time to research this item in seconds
 					"Team"			""		//which team can research this
 					"XPos"			"420"
@@ -798,7 +798,7 @@ research_items
 				"Icon"			"comm/hex_ml"			//icon drawn on research tree
 				"Unresearched Icon"	"comm/hex_ml_empty"		//icon drawn in the GUI
 				"Type"			"0"		//nothing
-				"Cost"			"0"		//cost of this research item
+				"Cost"			"360"		//cost of this research item
 				"Time"			"90"		//time to research this item in seconds
 				"Team"			""		//which team can research this
 				"XPos"			"480"
@@ -812,7 +812,7 @@ research_items
 				"Icon"			"comm/hex_multi"			//icon drawn on research tree
 				"Unresearched Icon"	"comm/hex_multi_empty"		//icon drawn in the GUI
 				"Type"			"0"		//nothing
-				"Cost"			"0"		//cost of this research item
+				"Cost"			"240"		//cost of this research item
 				"Time"			"60"		//time to research this item in seconds
 				"Team"			""		//which team can research this
 				"XPos"			"520"
@@ -826,7 +826,7 @@ research_items
 					"Icon"			"comm/hex_ml"			//icon drawn on research tree
 					"Unresearched Icon"	"comm/hex_ml_empty"		//icon drawn in the GUI
 					"Type"			"0"		//nothing
-					"Cost"			"0"		//cost of this research item
+					"Cost"			"240"		//cost of this research item
 					"Time"			"60"		//time to research this item in seconds
 					"Team"			""		//which team can research this
 					"XPos"			"520"
@@ -840,7 +840,7 @@ research_items
 			"Icon"			"comm/hex_multi"			//icon drawn on research tree
 			"Unresearched Icon"	"comm/hex_multi_empty"		//icon drawn in the GUI
 			"Type"			"0"		//nothing
-			"Cost"			"0"		//cost of this research item
+			"Cost"			"480"		//cost of this research item
 			"Time"			"120"		//time to research this item in seconds
 			"Team"			""		//which team can research this
 			"XPos"			"320"
@@ -854,7 +854,7 @@ research_items
 				"Icon"			"comm/hex_cube"			//icon drawn on research tree
 				"Unresearched Icon"	"comm/hex_cube_empty"		//icon drawn in the GUI
 				"Type"			"0"		//nothing
-				"Cost"			"0"		//cost of this research item
+				"Cost"			"600"		//cost of this research item
 				"Time"			"150"		//time to research this item in seconds
 				"Team"			""		//which team can research this
 				"XPos"			"320"
@@ -883,7 +883,7 @@ research_items
 		"Icon"			"comm/hex_cat_bio"			//icon drawn on research tree
 		"Unresearched Icon"	"comm/hex_cat_bio_off"		//icon drawn in the GUI
 		"Type"			"0"		//nothing
-		"Cost"			"0"		//cost of this research item
+		"Cost"			"240"		//cost of this research item
 		"Time"			"60"		//time to research this item in seconds
 		"Team"			""		//which team can research this
 		"XPos"			"445"
@@ -897,7 +897,7 @@ research_items
 			"Icon"			"comm/hex_armor"			//icon drawn on research tree
 			"Unresearched Icon"	"comm/hex_armor_empty"		//icon drawn in the GUI
 			"Type"			"0"		//nothing
-			"Cost"			"0"		//cost of this research item
+			"Cost"			"360"		//cost of this research item
 			"Time"			"90"		//time to research this item in seconds
 			"Team"			""		//which team can research this
 			"XPos"			"465"
@@ -911,7 +911,7 @@ research_items
 			"Icon"			"comm/hex_engine"			//icon drawn on research tree
 			"Unresearched Icon"	"comm/hex_engine_empty"		//icon drawn in the GUI
 			"Type"			"0"		//nothing
-			"Cost"			"0"		//cost of this research item
+			"Cost"			"240"		//cost of this research item
 			"Time"			"60"		//time to research this item in seconds
 			"Team"			""		//which team can research this
 			"XPos"			"425"
@@ -925,7 +925,7 @@ research_items
 			"Icon"			"comm/hex_multi"			//icon drawn on research tree
 			"Unresearched Icon"	"comm/hex_multi_empty"		//icon drawn in the GUI
 			"Type"			"0"		//nothing
-			"Cost"			"0"		//cost of this research item
+			"Cost"			"240"		//cost of this research item
 			"Time"			"60"		//time to research this item in seconds
 			"Team"			""		//which team can research this
 			"XPos"			"445"
@@ -939,7 +939,7 @@ research_items
 				"Icon"			"comm/hex_ml"			//icon drawn on research tree
 				"Unresearched Icon"	"comm/hex_ml_empty"		//icon drawn in the GUI
 				"Type"			"0"		//nothing
-				"Cost"			"0"		//cost of this research item
+				"Cost"			"360"		//cost of this research item
 				"Time"			"90"		//time to research this item in seconds
 				"Team"			""		//which team can research this
 				"XPos"			"465"
@@ -953,7 +953,7 @@ research_items
 				"Icon"			"comm/hex_multi"			//icon drawn on research tree
 				"Unresearched Icon"	"comm/hex_multi_empty"		//icon drawn in the GUI
 				"Type"			"0"		//nothing
-				"Cost"			"0"		//cost of this research item
+				"Cost"			"120"		//cost of this research item
 				"Time"			"30"		//time to research this item in seconds
 				"Team"			""		//which team can research this
 				"XPos"			"465"
@@ -967,7 +967,7 @@ research_items
 					"Icon"			"comm/hex_ml"			//icon drawn on research tree
 					"Unresearched Icon"	"comm/hex_ml_empty"		//icon drawn in the GUI
 					"Type"			"0"		//nothing
-					"Cost"			"0"		//cost of this research item
+					"Cost"			"180"		//cost of this research item
 					"Time"			"45"		//time to research this item in seconds
 					"Team"			""		//which team can research this
 					"XPos"			"465"
@@ -982,7 +982,7 @@ research_items
 				"Icon"			"comm/hex_mg"			//icon drawn on research tree
 				"Unresearched Icon"	"comm/hex_mg_empty"		//icon drawn in the GUI
 				"Type"			"0"		//nothing
-				"Cost"			"0"		//cost of this research item
+				"Cost"			"360"		//cost of this research item
 				"Time"			"90"		//time to research this item in seconds
 				"Team"			""		//which team can research this
 				"XPos"			"445"
@@ -997,7 +997,7 @@ research_items
 				"Icon"			"comm/hex_cn"			//icon drawn on research tree
 				"Unresearched Icon"	"comm/hex_cn_empty"		//icon drawn in the GUI
 				"Type"			"0"		//nothing
-				"Cost"			"0"		//cost of this research item
+				"Cost"			"360"		//cost of this research item
 				"Time"			"90"		//time to research this item in seconds
 				"Team"			""		//which team can research this
 				"XPos"			"425"
@@ -1011,7 +1011,7 @@ research_items
 				"Icon"			"comm/hex_multi"			//icon drawn on research tree
 				"Unresearched Icon"	"comm/hex_multi_empty"		//icon drawn in the GUI
 				"Type"			"0"		//nothing
-				"Cost"			"0"		//cost of this research item
+				"Cost"			"120"		//cost of this research item
 				"Time"			"30"		//time to research this item in seconds
 				"Team"			""		//which team can research this
 				"XPos"			"455"
@@ -1025,7 +1025,7 @@ research_items
 					"Icon"			"comm/hex_cn"			//icon drawn on research tree
 					"Unresearched Icon"	"comm/hex_cn_empty"		//icon drawn in the GUI
 					"Type"			"0"		//nothing
-					"Cost"			"0"		//cost of this research item
+					"Cost"			"240"		//cost of this research item
 					"Time"			"60"		//time to research this item in seconds
 					"Team"			""		//which team can research this
 					"XPos"			"455"
