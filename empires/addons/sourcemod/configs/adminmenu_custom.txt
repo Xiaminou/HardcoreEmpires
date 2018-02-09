@@ -78,6 +78,18 @@
 				"title"		"Players"
 			} 
 		}
+		"Normal Mapcycle"
+		{
+			"cmd"			"sm_umc_am_cyclefile umc_mapcycle.txt;sm_umc_emp_mapvote_cyclefile umc_mapcycle.txt;sm_umc_endvote_cyclefile umc_mapcycle.txt;sm_umc_nominate_cyclefile umc_mapcycle.txt;sm_umc_playerlimit_cyclefile umc_mapcycle.txt;sm_umc_randcycle_cyclefile umc_mapcycle.txt;sm_umc_rtv_cyclefile umc_mapcycle.txt;sm_umc_vc_cyclefile umc_mapcycle.txt; sm_umc_reload_mapcycles"
+			"admin"			"sm_cvar"
+			"execute"		"server"
+		}
+		"Special Mapcycle"
+		{
+			"cmd"			"sm_umc_am_cyclefile sunday_mapcycle.txt;sm_umc_emp_mapvote_cyclefile sunday_mapcycle.txt;sm_umc_endvote_cyclefile sunday_mapcycle.txt;sm_umc_nominate_cyclefile sunday_mapcycle.txt;sm_umc_playerlimit_cyclefile sunday_mapcycle.txt;sm_umc_randcycle_cyclefile sunday_mapcycle.txt;sm_umc_rtv_cyclefile sunday_mapcycle.txt;sm_umc_vc_cyclefile sunday_mapcycle.txt; sm_umc_reload_mapcycles"
+			"admin"			"sm_cvar"
+			"execute"		"server"
+		}
 		"ID"
 		{
 			"cmd"			"sm_id #1"

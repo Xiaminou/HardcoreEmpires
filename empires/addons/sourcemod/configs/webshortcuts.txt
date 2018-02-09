@@ -142,3 +142,19 @@
 	"Silent"	"0"
 	"Url"		"https://github.com/Xiaminou/HardcoreEmpires/wiki/help"
 }
+"Drafts"
+{
+	"Title"		"Drafts"
+	"Hook"		"!Drafts"
+	"Hook"		"/Drafts"
+	"Silent"	"0"
+	"Url"		"https://github.com/Xiaminou/HardcoreEmpires/wiki/Drafts"
+}
+"MMR"
+{
+	"Title"		"MMR"
+	"Hook"		"!MMR"
+	"Hook"		"/MMR"
+	"Silent"	"0"
+	"Url"		"https://github.com/Xiaminou/HardcoreEmpires/wiki/MMR"
+}
