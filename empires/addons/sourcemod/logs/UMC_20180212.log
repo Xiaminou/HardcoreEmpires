@@ -1,0 +1,59 @@
+L 02/12/2018 - 00:04:33: [umc-nominate.smx] Oktay wants to nominate a map.
+L 02/12/2018 - 00:04:43: [umc-nominate.smx] Oktay has nominated 'emp_silo_rc5_fix' from group 'Commander Maps'
+L 02/12/2018 - 00:08:40: [umc-emp-mapvote.smx] Map vote will appear in 30 seconds.
+L 02/12/2018 - 00:09:10: [umc-emp-mapvote.smx] Starting a map vote.
+L 02/12/2018 - 00:09:10: [umc-core.smx] Initiating Vote Type: Map
+L 02/12/2018 - 00:09:43: [umc-emp-mapvote.smx] WARNING: Map Voting failure. Initiating random map fail-safe.
+L 02/12/2018 - 00:09:43: [umc-core.smx] Setting nextmap to: con_district402
+L 02/12/2018 - 00:09:43: [umc-randomcycle.smx] Disabling random nextmap selection.
+L 02/12/2018 - 00:09:43: [umc-core.smx] umc-emp-mapvote.smx: Changing map to 'con_district402' in 5 seconds.
+L 02/12/2018 - 00:09:43: [umc-core.smx] ---------------------MAP CHANGE: fun_ricochet_a4---------------------
+L 02/12/2018 - 00:09:43: [umc-endvote-warnings.smx] Successfully parsed and set up 11 vote warnings.
+L 02/12/2018 - 00:09:43: [umc-rockthevote.smx] RTV will be made available in 60 seconds.
+L 02/12/2018 - 00:10:44: [umc-rockthevote.smx] RTV is now available.
+L 02/12/2018 - 00:11:39: [umc-nominate.smx] .|Ϟ|. Quigon wants to nominate a map.
+L 02/12/2018 - 00:11:45: [umc-nominate.smx] .|Ϟ|. Spike wants to nominate a map.
+L 02/12/2018 - 00:11:59: [umc-nominate.smx] .|Ϟ|. Quigon has nominated 'emp_plunge_ob2_2013' from group 'Commander Maps'
+L 02/12/2018 - 00:12:13: [umc-nominate.smx] .|Ϟ|. Spike wants to nominate a map.
+L 02/12/2018 - 00:14:19: [umc-emp-mapvote.smx] Map vote will appear in 30 seconds.
+L 02/12/2018 - 00:14:26: [umc-nominate.smx] Mr. X. wants to nominate a map.
+L 02/12/2018 - 00:14:27: [umc-nominate.smx] Delta 62 wants to nominate a map.
+L 02/12/2018 - 00:14:28: [umc-nominate.smx] ScardyBob wants to nominate a map.
+L 02/12/2018 - 00:14:30: [umc-nominate.smx] Mr. X. has nominated 'emp_mesa_d6' from group 'Commander Maps'
+L 02/12/2018 - 00:14:33: [umc-nominate.smx] ScardyBob has nominated 'emp_hazard_rc6' from group 'Commander Maps'
+L 02/12/2018 - 00:14:38: [umc-nominate.smx] ava wants to nominate a map.
+L 02/12/2018 - 00:14:42: [umc-nominate.smx] ava has nominated 'emp_crossroads_towerless' from group 'Commander Maps'
+L 02/12/2018 - 00:14:49: [umc-emp-mapvote.smx] Starting a map vote.
+L 02/12/2018 - 00:14:49: [umc-core.smx] Initiating Vote Type: Map
+L 02/12/2018 - 00:15:19: [umc-core.smx] Setting nextmap to: emp_crossroads_towerless
+L 02/12/2018 - 00:15:19: [umc-randomcycle.smx] Disabling random nextmap selection.
+L 02/12/2018 - 00:15:19: [umc-core.smx] umc-emp-mapvote.smx: Changing map to 'emp_crossroads_towerless' in 5 seconds.
+L 02/12/2018 - 00:15:19: [umc-core.smx] MAPVOTE: Players voted for map 'emp_crossroads_towerless' from group 'Commander Maps'
+L 02/12/2018 - 00:15:25: [umc-core.smx] ---------------------MAP CHANGE: emp_crossroads_towerless---------------------
+L 02/12/2018 - 00:15:25: [umc-endvote-warnings.smx] Successfully parsed and set up 11 vote warnings.
+L 02/12/2018 - 00:15:25: [umc-rockthevote.smx] RTV will be made available in 60 seconds.
+L 02/12/2018 - 00:16:26: [umc-rockthevote.smx] RTV is now available.
+L 02/12/2018 - 01:29:43: [umc-emp-mapvote.smx] Map vote will appear in 30 seconds.
+L 02/12/2018 - 01:30:13: [umc-emp-mapvote.smx] Starting a map vote.
+L 02/12/2018 - 01:30:13: [umc-core.smx] Initiating Vote Type: Map
+L 02/12/2018 - 01:30:44: [umc-core.smx] Setting nextmap to: emp_downfall
+L 02/12/2018 - 01:30:44: [umc-randomcycle.smx] Disabling random nextmap selection.
+L 02/12/2018 - 01:30:44: [umc-core.smx] umc-emp-mapvote.smx: Changing map to 'emp_downfall' in 5 seconds.
+L 02/12/2018 - 01:30:44: [umc-core.smx] MAPVOTE: Players voted for map 'emp_downfall' from group 'Commander Maps'
+L 02/12/2018 - 01:30:50: [umc-core.smx] ---------------------MAP CHANGE: emp_downfall---------------------
+L 02/12/2018 - 01:30:50: [umc-endvote-warnings.smx] Successfully parsed and set up 11 vote warnings.
+L 02/12/2018 - 01:30:50: [umc-rockthevote.smx] RTV will be made available in 60 seconds.
+L 02/12/2018 - 01:31:51: [umc-rockthevote.smx] RTV is now available.
+L 02/12/2018 - 02:04:44: [umc-emp-mapvote.smx] Map vote will appear in 30 seconds.
+L 02/12/2018 - 02:05:14: [umc-emp-mapvote.smx] Starting a map vote.
+L 02/12/2018 - 02:05:14: [umc-core.smx] Initiating Vote Type: Map
+L 02/12/2018 - 02:05:14: [umc-core.smx] Could not start core vote, no players to display vote to!
+L 02/12/2018 - 02:05:14: [umc-emp-mapvote.smx] Could not start UMC vote.
+L 02/12/2018 - 02:05:14: [umc-emp-mapvote.smx] WARNING: Map Voting failure. Initiating random map fail-safe.
+L 02/12/2018 - 02:05:14: [umc-core.smx] Setting nextmap to: emp_fogtown_cl2_fix
+L 02/12/2018 - 02:05:14: [umc-randomcycle.smx] Disabling random nextmap selection.
+L 02/12/2018 - 02:05:14: [umc-core.smx] umc-emp-mapvote.smx: Changing map to 'emp_fogtown_cl2_fix' in 5 seconds.
+L 02/12/2018 - 02:05:21: [umc-core.smx] ---------------------MAP CHANGE: emp_fogtown_cl2_fix---------------------
+L 02/12/2018 - 02:05:21: [umc-endvote-warnings.smx] Successfully parsed and set up 11 vote warnings.
+L 02/12/2018 - 02:05:21: [umc-rockthevote.smx] RTV will be made available in 60 seconds.
+L 02/12/2018 - 02:06:22: [umc-rockthevote.smx] RTV is now available.
