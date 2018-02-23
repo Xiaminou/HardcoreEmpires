@@ -13,7 +13,7 @@
 			"display"		"emp_arid"
 		}
 		
-		"emp_beachfront_b2"
+		"emp_beachfront_b2_hce"
 		{
 			"min_players"	"0"
 			"max_players"	"22"
@@ -58,7 +58,7 @@
 			"max_players"	"42"
 		}
 		
-		"emp_crossroads_towerless"
+		"emp_crossroads_towerless_hce"
 		{
 			"min_players"	"0"
 			"max_players"	"22"
@@ -71,7 +71,7 @@
 			"max_players"	"64"
 		}
 		
-		"emp_downfall"
+		"emp_downfall_hce"
 		{
 			"min_players"	"0"
 			"max_players"	"22"
@@ -98,7 +98,7 @@
 			"display"		"emp_duststorm"
 		}
 		
-		"emp_flat_fix"
+		"emp_flat_hce"
 		{
 			"min_players"	"0"
 			"max_players"	"32"
@@ -244,7 +244,7 @@
 			"display"		"emp_snowbound"
 		}
 		
-		"emp_snowstorm_rc6"
+		"emp_snowstorm_rc6_hce"
 		{
 			"min_players"	"14"
 			"max_players"	"32"
