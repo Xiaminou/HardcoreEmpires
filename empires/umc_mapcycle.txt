@@ -38,24 +38,28 @@
 		{
 			"min_players"	"26"
 			"max_players"	"52"
+			"display"		"emp_bush"
 		}
 		
 		"emp_canyon"
 		{
 			"min_players"	"14"
 			"max_players"	"32"
+			"display"		"emp_canyon"
 		}
 		
 		"emp_chain"
 		{
 			"min_players"	"40"
 			"max_players"	"64"
+			"display"		"emp_chain"
 		}
 		
 		"emp_coast"
 		{
 			"min_players"	"20"
 			"max_players"	"42"
+			"display"		"emp_coast"
 		}
 		
 		"emp_crossroads_towerless_hce"
@@ -69,12 +73,14 @@
 		{
 			"min_players"	"32"
 			"max_players"	"64"
+			"display"		"emp_cyclopean"
 		}
 		
 		"emp_downfall_hce"
 		{
 			"min_players"	"0"
 			"max_players"	"22"
+			"display"		"emp_downfall"
 		}
 		
 		"emp_drygulch_a6"
@@ -165,6 +171,7 @@
 		{
 			"min_players"	"20"
 			"max_players"	"42"
+			"display"		"emp_isle"
 		}
 		
 		"emp_king_r5_nosplt"
@@ -192,6 +199,7 @@
 		{
 			"min_players"	"32"
 			"max_players"	"64"
+			"display"		"emp_midbridge"
 		}
 		
 		"emp_mvalley_fix"
