@@ -6,7 +6,7 @@
     {
         "maps_invote"   "6"
 		
-		"emp_arid_fix"
+		"emp_arid_hce"
 		{
 			"min_players"	"20"
 			"max_players"	"42"
@@ -36,8 +36,8 @@
 		
 		"emp_bush"
 		{
-			"min_players"	"26"
-			"max_players"	"52"
+			"min_players"	"20"
+			"max_players"	"42"
 			"display"		"emp_bush"
 		}
 		
@@ -100,13 +100,13 @@
 		"emp_duststorm_fix2"
 		{
 			"min_players"	"20"
-			"max_players"	"52"
+			"max_players"	"42"
 			"display"		"emp_duststorm"
 		}
 		
 		"emp_flat_hce"
 		{
-			"min_players"	"0"
+			"min_players"	"14"
 			"max_players"	"32"
 			"display"		"emp_flat"
 		}
@@ -127,14 +127,14 @@
 		
 		"emp_fuel_a3_2013_fix"
 		{
-			"min_players"	"32"
-			"max_players"	"64"
+			"min_players"	"26"
+			"max_players"	"52"
 			"display"		"emp_fuel"
 		}
 		
 		"emp_fury_rc1"
 		{
-			"min_players"	"26"
+			"min_players"	"32"
 			"max_players"	"52"
 			"display"		"emp_fury"
 		}
@@ -188,7 +188,7 @@
 			"display"		"emp_massacred"
 		}
 		
-		"emp_mesa_d6"
+		"emp_mesa_d6_hce"
 		{
 			"min_players"	"20"
 			"max_players"	"42"
@@ -216,7 +216,7 @@
 			"display"		"emp_palmbay"
 		}
 		
-		"emp_plunge_ob2_2013"
+		"emp_plunge_ob2_2013_hce"
 		{
 			"min_players"	"14"
 			"max_players"	"32"
@@ -226,7 +226,7 @@
 		"emp_raiders_b1"
 		{
 			"min_players"	"32"
-			"max_players"	"64"
+			"max_players"	"52"
 			"display"		"emp_raiders"
 		}
 		
@@ -245,7 +245,7 @@
 		}
 		
 		
-		"emp_snowbound_cl6"
+		"emp_snowbound_cl6_hce"
 		{
 			"min_players"	"20"
 			"max_players"	"42"
@@ -290,7 +290,7 @@
 		"emp_ward_rc2"
 		{
 			"min_players"	"20"
-			"max_players"	"52"
+			"max_players"	"42"
 			"display"		"emp_ward"
 		}
     }
