@@ -169,8 +169,8 @@
 		
 		"emp_isle"
 		{
-			"min_players"	"20"
-			"max_players"	"42"
+			"min_players"	"14"
+			"max_players"	"32"
 			"display"		"emp_isle"
 		}
 		
@@ -181,10 +181,10 @@
 			"display"		"emp_king"
 		}
 		
-		"emp_massacred_rc1"
+		"emp_massacred_rc1_hce"
 		{
 			"min_players"	"14"
-			"max_players"	"42"
+			"max_players"	"32"
 			"display"		"emp_massacred"
 		}
 		
@@ -301,7 +301,7 @@
 		"min_players"	"0"
 		"max_players"	"20"
 		
-		"emp_atomic_rc6"
+		"con_atomic_rc6_fix"
 		{
 			"min_players"	"32"
 			"max_players"	"64"
