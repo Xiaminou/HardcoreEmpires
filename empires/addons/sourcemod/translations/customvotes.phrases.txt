@@ -1,0 +1,100 @@
+﻿"Phrases"
+{
+	"Plugin configuration error"
+	{
+		"en"	"Errors were encountered while loading configuration. The plugin may not work as expected."
+		"de"  "Es traten Fehler beim Ladevorgang der Konfiguration auf. Das Plugin könnte fehlerhaft arbeiten"
+	}
+	"Directory does not exist"
+	{
+		"en"	"Directory does not exist."
+		"de"  "Verzeichnis existiert nicht."
+	}
+	"On"
+	{
+		"en"	"On"
+		"de"  "An"
+	}
+	"Off"
+	{
+		"en"	"Off"
+		"de"  "Aus"
+	}
+	"Vote Requires Parameters"
+	{
+		"#format"	"{1:d}"
+		"en"		"This vote requires {1} parameters."
+		"de"    "Diese Abstimmung braucht {1} Parameter"
+	}
+	"Initiated a vote"
+	{
+		"en"	"Initiated a vote."
+		"de"  "Hat eine Abstimmung gestartet."
+	}
+	"Vote Select Anonymous"
+	{
+		"#format"	"{1:s}"
+		"en"		"Vote cast for {1}."
+		"de"    "Stimme abgegeben für {1}."
+	}
+	"Results"
+	{
+		"en"		"Results"
+		"de"    "Ergebnisse"
+	}
+	"Not Enough Votes"
+	{
+		"#format"	"{1:d},{2:d}"
+		"en"		"No option won the vote ({1} votes required, {2} received)"
+		"de"    "Keine Auswahlmöglichkeit hat die Abstimmung für sich entschieden ({1} Stimmen benötigt, {2} erhalten)"
+	}
+	"Not Enough Vote Percentage"
+	{
+		"#format"	"{1:d},{2:d}"
+		"en"		"No option won the vote ({1}% required, {2}% received)"
+		"de"    "Keine Auswahlmöglichkeit hat die Abstimmung für sich entschieden ({1}% benötigt, {2}% erhalten)"
+	}
+	"Option Won The Vote"
+	{
+		"#format"	"{1:s},{2:d},{3:d}"
+		"en"		"\"{1}\" won with {2}%% of the vote ({3} votes)"
+		"de"    "\"{1}\" hat gewonnen mit {2}%% der Stimmen ({3} abgegebene Stimmen)"
+	}
+	"Won The Vote"
+	{
+		"#format"	"{1:d},{2:d}"
+		"en"		"Vote succeeded with {1}%% of the vote ({2} votes)"
+		"de"    "Abstimmung erfolgreich mit {1}%% der Stimmen ({2} abgegebene Stimmen)"
+	}
+	"No Admins Found To Approve Vote"
+	{
+		"en"		"No admins found to approve the vote."
+		"de"    "Keinen Administrator gefunden der das Ergeniss akzeptieren könnte"
+	}
+	"Accept Vote Result"
+	{
+		"#format"	"{1:s}"
+		"en"		"Accept vote result \"{1}\"?"
+		"de"    "Abstimmungsergenis akzeptieren \"{1}\"?"
+	}
+	"No Admins Approved Vote"
+	{
+		"en"		"No admins approved the vote result."
+		"de"    "Kein Administrator akzeptierte das Abstimmungsergebnis"
+	}
+	"Vote Rejected"
+	{
+		"en"		"Vote rejected."
+		"de"    "Abstimmung abgewiesen"
+	}
+	"Vote Accepted"
+	{
+		"en"		"Vote accepted."
+		"de"    "Abstimmung akzeptiert"
+	}
+	"Available Votes"
+	{
+		"en"		"Available votes"
+		"de"    "Verfügbare Abstimmungsmöglichkeiten"
+	}
+}

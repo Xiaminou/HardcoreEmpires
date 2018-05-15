@@ -1,0 +1,85 @@
+L 04/29/2018 - 16:58:02: SourceMod log file session started (file "L20180429.log") (Version "1.8.0.5912")
+L 04/29/2018 - 16:58:02: -------- Mapchange to con_district402 --------
+L 04/29/2018 - 16:58:02: [saysounds.smx] [Say Sounds] No specific game detected
+L 04/29/2018 - 16:58:02: [security_entity_limit.smx] Security Entity Limit [SEL] Activate!
+L 04/29/2018 - 16:58:02: [security_entity_limit.smx] [SEL]Current version: 0.5.4
+Plugin made by Benoist3012!
+L 04/29/2018 - 16:58:14: [security_entity_limit.smx] [SEL] 434 entities have been protected from deleting.This map contain 1614 free entity slot!
+L 04/29/2018 - 17:46:59: [autorecorder.smx] Recording to auto-20180429-174659-con_district402.dem
+L 04/29/2018 - 17:48:12: [saysounds.smx] [Say Sounds] Disabled, Unhooking Events
+L 04/29/2018 - 18:20:28: [saysounds.smx] [Say Sounds] Enabled, Hooking Events
+L 04/29/2018 - 18:20:28: [saysounds.smx] [Say Sounds] No specific game detected
+L 04/29/2018 - 18:21:33: [SM] Changed map to "emp_downfall_hce"
+L 04/29/2018 - 18:21:34: -------- Mapchange to emp_downfall_hce --------
+L 04/29/2018 - 18:21:40: [autorecorder.smx] Recording to auto-20180429-182140-emp_downfall_hce.dem
+L 04/29/2018 - 18:21:45: [security_entity_limit.smx] [SEL] 162 entities have been protected from deleting.This map contain 1886 free entity slot!
+L 04/29/2018 - 18:24:21: [saysounds.smx] [Say Sounds] Disabled, Unhooking Events
+L 04/29/2018 - 18:32:59: [SM] Changed map to "emp_vehicletraining_2013"
+L 04/29/2018 - 18:33:00: -------- Mapchange to emp_vehicletraining_2013 --------
+L 04/29/2018 - 18:33:00: [saysounds.smx] [Say Sounds] Enabled, Hooking Events
+L 04/29/2018 - 18:33:00: [saysounds.smx] [Say Sounds] No specific game detected
+L 04/29/2018 - 18:33:10: [security_entity_limit.smx] [SEL] 342 entities have been protected from deleting.This map contain 1706 free entity slot!
+L 04/29/2018 - 18:34:24: [saysounds.smx] [Say Sounds] Disabled, Unhooking Events
+L 04/29/2018 - 18:34:24: [autorecorder.smx] Recording to auto-20180429-183424-emp_vehicletraining_2013.dem
+L 04/29/2018 - 19:09:48: [saysounds.smx] [Say Sounds] Enabled, Hooking Events
+L 04/29/2018 - 19:09:48: [saysounds.smx] [Say Sounds] No specific game detected
+L 04/29/2018 - 19:10:53: [SM] Changed map to "emp_fogtown_cl2_fix"
+L 04/29/2018 - 19:10:55: -------- Mapchange to emp_fogtown_cl2_fix --------
+L 04/29/2018 - 19:11:05: [security_entity_limit.smx] [SEL] 953 entities have been protected from deleting.This map contain 1095 free entity slot!
+L 04/29/2018 - 19:16:01: [saysounds.smx] [Say Sounds] Disabled, Unhooking Events
+L 04/29/2018 - 19:16:01: [autorecorder.smx] Recording to auto-20180429-191601-emp_fogtown_cl2_fix.dem
+L 04/29/2018 - 19:57:34: [saysounds.smx] [Say Sounds] Enabled, Hooking Events
+L 04/29/2018 - 19:57:34: [saysounds.smx] [Say Sounds] No specific game detected
+L 04/29/2018 - 19:58:40: [SM] Changed map to "con_urbanchaos_comm_b2"
+L 04/29/2018 - 19:58:41: -------- Mapchange to con_urbanchaos_comm_b2 --------
+L 04/29/2018 - 19:58:47: [autorecorder.smx] Recording to auto-20180429-195847-con_urbanchaos_comm_b2.dem
+L 04/29/2018 - 19:58:51: [security_entity_limit.smx] [SEL] 659 entities have been protected from deleting.This map contain 1389 free entity slot!
+L 04/29/2018 - 20:01:20: [saysounds.smx] [Say Sounds] Disabled, Unhooking Events
+L 04/29/2018 - 20:06:39: [saysounds.smx] [Say Sounds] Enabled, Hooking Events
+L 04/29/2018 - 20:06:39: [saysounds.smx] [Say Sounds] No specific game detected
+L 04/29/2018 - 20:07:45: [SM] Changed map to "emp_drygulch_a6"
+L 04/29/2018 - 20:07:46: -------- Mapchange to emp_drygulch_a6 --------
+L 04/29/2018 - 20:07:49: [autorecorder.smx] Recording to auto-20180429-200749-emp_drygulch_a6.dem
+L 04/29/2018 - 20:07:56: [security_entity_limit.smx] [SEL] 197 entities have been protected from deleting.This map contain 1851 free entity slot!
+L 04/29/2018 - 20:11:20: [basecommands.smx] "Mr. X.<5><[U:1:27106968]><>" console command (cmdline "emp_allowspectators 1")
+L 04/29/2018 - 20:11:20: [basecommands.smx] "Mr. X.<5><[U:1:27106968]><>" console command (cmdline "emp_allowspectators 0")
+L 04/29/2018 - 20:11:36: [saysounds.smx] [Say Sounds] Disabled, Unhooking Events
+L 04/29/2018 - 20:11:40: [basechat.smx] "Mr. X.<5><[U:1:27106968]><>" triggered sm_say (text read the fucking manual before you try to command)
+L 04/29/2018 - 20:11:43: [basechat.smx] "Mr. X.<5><[U:1:27106968]><>" triggered sm_say (text type !help)
+L 04/29/2018 - 20:11:46: [basechat.smx] "Mr. X.<5><[U:1:27106968]><>" triggered sm_say (text go practice alone)
+L 04/29/2018 - 20:11:51: [basechat.smx] "Mr. X.<5><[U:1:27106968]><>" triggered sm_say (text then command.)
+L 04/29/2018 - 21:49:30: [playercommands.smx] "Mr. X.<5><[U:1:27106968]><>" slapped "HashtagDown<35><[U:1:258009536]><>" (damage "0")
+L 04/29/2018 - 21:50:06: [basechat.smx] "Mr. X.<5><[U:1:27106968]><>" triggered sm_say (text time to change map)
+L 04/29/2018 - 21:50:09: [basechat.smx] "Mr. X.<5><[U:1:27106968]><>" triggered sm_say (text rtv)
+L 04/29/2018 - 21:50:34: [basechat.smx] "Mr. X.<5><[U:1:27106968]><>" triggered sm_say (text come on guys)
+L 04/29/2018 - 22:01:58: [playercommands.smx] "Hyperbolic Hubris<26><[U:1:15813678]><>" slayed "rauer<24><[U:1:2546402]><>"
+L 04/29/2018 - 22:04:34: [saysounds.smx] [Say Sounds] Enabled, Hooking Events
+L 04/29/2018 - 22:04:34: [saysounds.smx] [Say Sounds] No specific game detected
+L 04/29/2018 - 22:06:18: [SM] Changed map to "emp_plunge_ob2_2013_hce"
+L 04/29/2018 - 22:06:20: -------- Mapchange to emp_plunge_ob2_2013_hce --------
+L 04/29/2018 - 22:06:22: [autorecorder.smx] Recording to auto-20180429-220622-emp_plunge_ob2_2013_hce.dem
+L 04/29/2018 - 22:06:30: [security_entity_limit.smx] [SEL] 230 entities have been protected from deleting.This map contain 1818 free entity slot!
+L 04/29/2018 - 22:08:30: [basechat.smx] "Mr. X.<5><[U:1:27106968]><>" triggered sm_say (text so what do you guys think about having the top10 upvoted commanders be given access to SLAY and UNGRIEF commands?)
+L 04/29/2018 - 22:09:35: [basechat.smx] "Mr. X.<5><[U:1:27106968]><>" triggered sm_say (text anyone who abuse that power would be banned for a month, but I get your point)
+L 04/29/2018 - 22:11:45: [saysounds.smx] [Say Sounds] Disabled, Unhooking Events
+L 04/29/2018 - 22:49:22: [saysounds.smx] [Say Sounds] Enabled, Hooking Events
+L 04/29/2018 - 22:49:22: [saysounds.smx] [Say Sounds] No specific game detected
+L 04/29/2018 - 22:50:28: [SM] Changed map to "emp_cyclopean"
+L 04/29/2018 - 22:50:29: -------- Mapchange to emp_cyclopean --------
+L 04/29/2018 - 22:50:30: [autorecorder.smx] Recording to auto-20180429-225030-emp_cyclopean.dem
+L 04/29/2018 - 22:50:39: [security_entity_limit.smx] [SEL] 518 entities have been protected from deleting.This map contain 1530 free entity slot!
+L 04/29/2018 - 22:55:36: [saysounds.smx] [Say Sounds] Disabled, Unhooking Events
+L 04/29/2018 - 23:15:42: [playercommands.smx] "Mikleo<31><[U:1:376259319]><>" slapped "Grave<14><[U:1:34977414]><>" (damage "0")
+L 04/29/2018 - 23:22:29: [saysounds.smx] [Say Sounds] Enabled, Hooking Events
+L 04/29/2018 - 23:22:29: [saysounds.smx] [Say Sounds] No specific game detected
+L 04/29/2018 - 23:24:13: [SM] Changed map to "emp_silo_rc5_fix"
+L 04/29/2018 - 23:24:14: -------- Mapchange to emp_silo_rc5_fix --------
+L 04/29/2018 - 23:24:15: [autorecorder.smx] Recording to auto-20180429-232415-emp_silo_rc5_fix.dem
+L 04/29/2018 - 23:24:24: [security_entity_limit.smx] [SEL] 549 entities have been protected from deleting.This map contain 1499 free entity slot!
+L 04/29/2018 - 23:30:09: [saysounds.smx] [Say Sounds] Disabled, Unhooking Events
+L 04/29/2018 - 23:52:28: [saysounds.smx] [Say Sounds] Enabled, Hooking Events
+L 04/29/2018 - 23:52:28: [saysounds.smx] [Say Sounds] No specific game detected
+L 04/29/2018 - 23:54:13: [SM] Changed map to "emp_palmbay_fix"
+L 04/29/2018 - 23:54:14: -------- Mapchange to emp_palmbay_fix --------
+L 04/29/2018 - 23:54:15: [autorecorder.smx] Recording to auto-20180429-235415-emp_palmbay_fix.dem
+L 04/29/2018 - 23:54:24: [security_entity_limit.smx] [SEL] 241 entities have been protected from deleting.This map contain 1807 free entity slot!

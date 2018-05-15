@@ -1,0 +1,315 @@
+L 05/04/2018 - 13:56:02: [umc-core.smx] ---------------------MAP CHANGE: con_district402---------------------
+L 05/04/2018 - 13:56:02: [umc-endvote-warnings.smx] Successfully parsed and set up 11 vote warnings.
+L 05/04/2018 - 13:56:02: [umc-rockthevote.smx] RTV will be made available in 60 seconds.
+L 05/04/2018 - 13:57:03: [umc-rockthevote.smx] RTV is now available.
+L 05/04/2018 - 14:47:08: [umc-emp-mapvote.smx] Map vote will appear in 30 seconds.
+L 05/04/2018 - 14:47:38: [umc-emp-mapvote.smx] Starting a map vote.
+L 05/04/2018 - 14:47:38: [umc-core.smx] VOTE MENU: (Verbose) Fetching 6 maps from group 'Commander Maps'
+L 05/04/2018 - 14:47:38: [umc-core.smx] VOTE MENU: (Verbose) Finished parsing nominations for map group 'Commander Maps'
+L 05/04/2018 - 14:47:38: [umc-core.smx] VOTE MENU: (Verbose) Still need to fetch 6 maps from the group.
+L 05/04/2018 - 14:47:38: [umc-core.smx] VOTE MENU: (Verbose) Selected map 'emp_beachfront_b2_hce' from group 'Commander Maps' was added to the vote.
+L 05/04/2018 - 14:47:38: [umc-core.smx] VOTE MENU: (Verbose) Selected map 'emp_drygulch_a6' from group 'Commander Maps' was added to the vote.
+L 05/04/2018 - 14:47:38: [umc-core.smx] VOTE MENU: (Verbose) Selected map 'emp_crossroads_towerless_hce' from group 'Commander Maps' was added to the vote.
+L 05/04/2018 - 14:47:38: [umc-core.smx] VOTE MENU: (Verbose) Selected map 'emp_downfall_hce' from group 'Commander Maps' was added to the vote.
+L 05/04/2018 - 14:47:38: [umc-core.smx] VOTE MENU: (Verbose) No more maps in map group 'Commander Maps'
+L 05/04/2018 - 14:47:38: [umc-core.smx] VOTE MENU: (Verbose) Fetching 1 maps from group 'Infantry Maps'
+L 05/04/2018 - 14:47:38: [umc-core.smx] VOTE MENU: (Verbose) Finished parsing nominations for map group 'Infantry Maps'
+L 05/04/2018 - 14:47:38: [umc-core.smx] VOTE MENU: (Verbose) Still need to fetch 1 maps from the group.
+L 05/04/2018 - 14:47:38: [umc-core.smx] VOTE MENU: (Verbose) Selected map 'emp_havoc_b1_fix' from group 'Infantry Maps' was added to the vote.
+L 05/04/2018 - 14:47:38: [umc-core.smx] VOTE MENU: (Verbose) Fetching 1 maps from group 'Cooldown Maps'
+L 05/04/2018 - 14:47:38: [umc-core.smx] VOTE MENU: (Verbose) Finished parsing nominations for map group 'Cooldown Maps'
+L 05/04/2018 - 14:47:38: [umc-core.smx] VOTE MENU: (Verbose) Still need to fetch 1 maps from the group.
+L 05/04/2018 - 14:47:38: [umc-core.smx] VOTE MENU: (Verbose) Selected map 'fun_ricochet_a4' from group 'Cooldown Maps' was added to the vote.
+L 05/04/2018 - 14:47:38: [umc-core.smx] Initiating Vote Type: Map
+L 05/04/2018 - 14:47:38: [umc-core.smx] Adding Clients to Vote:
+L 05/04/2018 - 14:47:38: [umc-core.smx] Could not start core vote, no players to display vote to!
+L 05/04/2018 - 14:47:38: [umc-emp-mapvote.smx] Could not start UMC vote.
+L 05/04/2018 - 14:47:38: [umc-emp-mapvote.smx] WARNING: Map Voting failure. Initiating random map fail-safe.
+L 05/04/2018 - 14:47:38: [umc-core.smx] Setting nextmap to: fun_ricochet_a4
+L 05/04/2018 - 14:47:38: [umc-randomcycle.smx] Disabling random nextmap selection.
+L 05/04/2018 - 14:47:38: [umc-core.smx] umc-emp-mapvote.smx: Changing map to 'fun_ricochet_a4' in 5 seconds.
+L 05/04/2018 - 14:47:44: [umc-core.smx] ---------------------MAP CHANGE: fun_ricochet_a4---------------------
+L 05/04/2018 - 14:47:44: [umc-endvote-warnings.smx] Successfully parsed and set up 11 vote warnings.
+L 05/04/2018 - 14:47:44: [umc-rockthevote.smx] RTV will be made available in 60 seconds.
+L 05/04/2018 - 14:48:45: [umc-rockthevote.smx] RTV is now available.
+L 05/04/2018 - 18:36:46: [umc-emp-mapvote.smx] Map vote will appear in 30 seconds.
+L 05/04/2018 - 18:37:17: [umc-emp-mapvote.smx] Starting a map vote.
+L 05/04/2018 - 18:37:17: [umc-core.smx] VOTE MENU: (Verbose) Fetching 6 maps from group 'Commander Maps'
+L 05/04/2018 - 18:37:17: [umc-core.smx] VOTE MENU: (Verbose) Finished parsing nominations for map group 'Commander Maps'
+L 05/04/2018 - 18:37:17: [umc-core.smx] VOTE MENU: (Verbose) Still need to fetch 6 maps from the group.
+L 05/04/2018 - 18:37:17: [umc-core.smx] VOTE MENU: (Verbose) Selected map 'emp_crossroads_towerless_hce' from group 'Commander Maps' was added to the vote.
+L 05/04/2018 - 18:37:17: [umc-core.smx] VOTE MENU: (Verbose) Selected map 'emp_drygulch_a6' from group 'Commander Maps' was added to the vote.
+L 05/04/2018 - 18:37:17: [umc-core.smx] VOTE MENU: (Verbose) Selected map 'emp_downfall_hce' from group 'Commander Maps' was added to the vote.
+L 05/04/2018 - 18:37:17: [umc-core.smx] VOTE MENU: (Verbose) Selected map 'emp_beachfront_b2_hce' from group 'Commander Maps' was added to the vote.
+L 05/04/2018 - 18:37:17: [umc-core.smx] VOTE MENU: (Verbose) No more maps in map group 'Commander Maps'
+L 05/04/2018 - 18:37:17: [umc-core.smx] VOTE MENU: (Verbose) Fetching 1 maps from group 'Infantry Maps'
+L 05/04/2018 - 18:37:17: [umc-core.smx] VOTE MENU: (Verbose) Finished parsing nominations for map group 'Infantry Maps'
+L 05/04/2018 - 18:37:17: [umc-core.smx] VOTE MENU: (Verbose) Still need to fetch 1 maps from the group.
+L 05/04/2018 - 18:37:17: [umc-core.smx] VOTE MENU: (Verbose) Selected map 'emp_havoc_b1_fix' from group 'Infantry Maps' was added to the vote.
+L 05/04/2018 - 18:37:17: [umc-core.smx] VOTE MENU: (Verbose) Fetching 1 maps from group 'Cooldown Maps'
+L 05/04/2018 - 18:37:17: [umc-core.smx] VOTE MENU: (Verbose) Finished parsing nominations for map group 'Cooldown Maps'
+L 05/04/2018 - 18:37:17: [umc-core.smx] VOTE MENU: (Verbose) Still need to fetch 1 maps from the group.
+L 05/04/2018 - 18:37:17: [umc-core.smx] VOTE MENU: (Verbose) No more maps in map group 'Cooldown Maps'
+L 05/04/2018 - 18:37:17: [umc-core.smx] Initiating Vote Type: Map
+L 05/04/2018 - 18:37:17: [umc-core.smx] Adding Clients to Vote:
+L 05/04/2018 - 18:37:17: [umc-core.smx] 0: Mr. X. (2)
+L 05/04/2018 - 18:37:17: [umc-core.smx] VOTE MENU:
+L 05/04/2018 - 18:37:17: [umc-core.smx] 2: emp_crossroads (0)
+L 05/04/2018 - 18:37:17: [umc-core.smx] 3: emp_downfall (1)
+L 05/04/2018 - 18:37:17: [umc-core.smx] 4: con_havoc (2)
+L 05/04/2018 - 18:37:17: [umc-core.smx] 5: emp_beachfront (3)
+L 05/04/2018 - 18:37:17: [umc-core.smx] 6: emp_drygulch (4)
+L 05/04/2018 - 18:37:47: [umc-emp-mapvote.smx] WARNING: Map Voting failure. Initiating random map fail-safe.
+L 05/04/2018 - 18:37:47: [umc-core.smx] Setting nextmap to: emp_vehicletraining_2013
+L 05/04/2018 - 18:37:47: [umc-randomcycle.smx] Disabling random nextmap selection.
+L 05/04/2018 - 18:37:47: [umc-core.smx] umc-emp-mapvote.smx: Changing map to 'emp_vehicletraining_2013' in 5 seconds.
+L 05/04/2018 - 18:37:47: [umc-core.smx] Vote has concluded.
+L 05/04/2018 - 18:37:53: [umc-core.smx] ---------------------MAP CHANGE: emp_vehicletraining_2013---------------------
+L 05/04/2018 - 18:37:53: [umc-endvote-warnings.smx] Successfully parsed and set up 11 vote warnings.
+L 05/04/2018 - 18:37:53: [umc-rockthevote.smx] RTV will be made available in 60 seconds.
+L 05/04/2018 - 18:38:54: [umc-rockthevote.smx] RTV is now available.
+L 05/04/2018 - 19:53:47: [umc-emp-mapvote.smx] Map vote will appear in 30 seconds.
+L 05/04/2018 - 19:54:17: [umc-emp-mapvote.smx] Starting a map vote.
+L 05/04/2018 - 19:54:17: [umc-core.smx] VOTE MENU: (Verbose) Fetching 6 maps from group 'Commander Maps'
+L 05/04/2018 - 19:54:17: [umc-core.smx] VOTE MENU: (Verbose) Finished parsing nominations for map group 'Commander Maps'
+L 05/04/2018 - 19:54:17: [umc-core.smx] VOTE MENU: (Verbose) Still need to fetch 6 maps from the group.
+L 05/04/2018 - 19:54:17: [umc-core.smx] VOTE MENU: (Verbose) Selected map 'emp_downfall_hce' from group 'Commander Maps' was added to the vote.
+L 05/04/2018 - 19:54:17: [umc-core.smx] VOTE MENU: (Verbose) Selected map 'emp_beachfront_b2_hce' from group 'Commander Maps' was added to the vote.
+L 05/04/2018 - 19:54:17: [umc-core.smx] VOTE MENU: (Verbose) Selected map 'emp_crossroads_towerless_hce' from group 'Commander Maps' was added to the vote.
+L 05/04/2018 - 19:54:17: [umc-core.smx] VOTE MENU: (Verbose) Selected map 'emp_drygulch_a6' from group 'Commander Maps' was added to the vote.
+L 05/04/2018 - 19:54:17: [umc-core.smx] VOTE MENU: (Verbose) No more maps in map group 'Commander Maps'
+L 05/04/2018 - 19:54:17: [umc-core.smx] VOTE MENU: (Verbose) Fetching 1 maps from group 'Infantry Maps'
+L 05/04/2018 - 19:54:17: [umc-core.smx] VOTE MENU: (Verbose) Finished parsing nominations for map group 'Infantry Maps'
+L 05/04/2018 - 19:54:17: [umc-core.smx] VOTE MENU: (Verbose) Still need to fetch 1 maps from the group.
+L 05/04/2018 - 19:54:17: [umc-core.smx] VOTE MENU: (Verbose) Selected map 'emp_fogtown_cl2_fix' from group 'Infantry Maps' was added to the vote.
+L 05/04/2018 - 19:54:17: [umc-core.smx] VOTE MENU: (Verbose) Fetching 1 maps from group 'Cooldown Maps'
+L 05/04/2018 - 19:54:17: [umc-core.smx] VOTE MENU: (Verbose) Finished parsing nominations for map group 'Cooldown Maps'
+L 05/04/2018 - 19:54:17: [umc-core.smx] VOTE MENU: (Verbose) Still need to fetch 1 maps from the group.
+L 05/04/2018 - 19:54:17: [umc-core.smx] VOTE MENU: (Verbose) No more maps in map group 'Cooldown Maps'
+L 05/04/2018 - 19:54:17: [umc-core.smx] Initiating Vote Type: Map
+L 05/04/2018 - 19:54:17: [umc-core.smx] Adding Clients to Vote:
+L 05/04/2018 - 19:54:17: [umc-core.smx] 0: Mr. X. (2)
+L 05/04/2018 - 19:54:17: [umc-core.smx] VOTE MENU:
+L 05/04/2018 - 19:54:17: [umc-core.smx] 2: con_fogtown (0)
+L 05/04/2018 - 19:54:17: [umc-core.smx] 3: emp_crossroads (1)
+L 05/04/2018 - 19:54:17: [umc-core.smx] 4: emp_downfall (2)
+L 05/04/2018 - 19:54:17: [umc-core.smx] 5: emp_beachfront (3)
+L 05/04/2018 - 19:54:17: [umc-core.smx] 6: emp_drygulch (4)
+L 05/04/2018 - 19:54:47: [umc-emp-mapvote.smx] WARNING: Map Voting failure. Initiating random map fail-safe.
+L 05/04/2018 - 19:54:47: [umc-core.smx] Setting nextmap to: emp_fogtown_cl2_fix
+L 05/04/2018 - 19:54:47: [umc-randomcycle.smx] Disabling random nextmap selection.
+L 05/04/2018 - 19:54:47: [umc-core.smx] umc-emp-mapvote.smx: Changing map to 'emp_fogtown_cl2_fix' in 5 seconds.
+L 05/04/2018 - 19:54:47: [umc-core.smx] Vote has concluded.
+L 05/04/2018 - 19:54:54: [umc-core.smx] ---------------------MAP CHANGE: emp_fogtown_cl2_fix---------------------
+L 05/04/2018 - 19:54:54: [umc-endvote-warnings.smx] Successfully parsed and set up 11 vote warnings.
+L 05/04/2018 - 19:54:54: [umc-rockthevote.smx] RTV will be made available in 60 seconds.
+L 05/04/2018 - 19:55:55: [umc-rockthevote.smx] RTV is now available.
+L 05/04/2018 - 21:20:08: [umc-nominate.smx] Grave wants to nominate a map.
+L 05/04/2018 - 21:20:11: [umc-nominate.smx] Grave has nominated 'emp_havoc_b1_fix' from group 'Infantry Maps'
+L 05/04/2018 - 21:43:49: [umc-rockthevote.smx] Starting RTV.
+L 05/04/2018 - 21:43:49: [umc-core.smx] VOTE MENU: (Verbose) Fetching 6 maps from group 'Commander Maps'
+L 05/04/2018 - 21:43:49: [umc-core.smx] VOTE MENU: (Verbose) Finished parsing nominations for map group 'Commander Maps'
+L 05/04/2018 - 21:43:49: [umc-core.smx] VOTE MENU: (Verbose) Still need to fetch 6 maps from the group.
+L 05/04/2018 - 21:43:49: [umc-core.smx] VOTE MENU: (Verbose) Selected map 'emp_downfall_hce' from group 'Commander Maps' was added to the vote.
+L 05/04/2018 - 21:43:49: [umc-core.smx] VOTE MENU: (Verbose) Selected map 'emp_drygulch_a6' from group 'Commander Maps' was added to the vote.
+L 05/04/2018 - 21:43:49: [umc-core.smx] VOTE MENU: (Verbose) Selected map 'emp_beachfront_b2_hce' from group 'Commander Maps' was added to the vote.
+L 05/04/2018 - 21:43:49: [umc-core.smx] VOTE MENU: (Verbose) Selected map 'emp_crossroads_towerless_hce' from group 'Commander Maps' was added to the vote.
+L 05/04/2018 - 21:43:49: [umc-core.smx] VOTE MENU: (Verbose) No more maps in map group 'Commander Maps'
+L 05/04/2018 - 21:43:49: [umc-core.smx] VOTE MENU: (Verbose) Fetching 1 maps from group 'Infantry Maps'
+L 05/04/2018 - 21:43:49: [umc-core.smx] VOTE MENU: (Verbose) Nominated map 'emp_havoc_b1_fix' from group 'Infantry Maps' was added to the vote.
+L 05/04/2018 - 21:43:49: [umc-core.smx] VOTE MENU: (Verbose) Finished parsing nominations for map group 'Infantry Maps'
+L 05/04/2018 - 21:43:49: [umc-core.smx] VOTE MENU: (Verbose) Fetching 1 maps from group 'Cooldown Maps'
+L 05/04/2018 - 21:43:49: [umc-core.smx] VOTE MENU: (Verbose) Finished parsing nominations for map group 'Cooldown Maps'
+L 05/04/2018 - 21:43:49: [umc-core.smx] VOTE MENU: (Verbose) Still need to fetch 1 maps from the group.
+L 05/04/2018 - 21:43:49: [umc-core.smx] VOTE MENU: (Verbose) No more maps in map group 'Cooldown Maps'
+L 05/04/2018 - 21:43:49: [umc-core.smx] Initiating Vote Type: Map
+L 05/04/2018 - 21:43:49: [umc-core.smx] Adding Clients to Vote:
+L 05/04/2018 - 21:43:49: [umc-core.smx] 0: Mr. X. (2)
+L 05/04/2018 - 21:43:49: [umc-core.smx] 1: Spyer (3)
+L 05/04/2018 - 21:43:49: [umc-core.smx] 2: Grave (4)
+L 05/04/2018 - 21:43:49: [umc-core.smx] 3: .|Ϟ|. Spike (5)
+L 05/04/2018 - 21:43:49: [umc-core.smx] 4: Dagron (6)
+L 05/04/2018 - 21:43:49: [umc-core.smx] 5: Sir.DieALot (8)
+L 05/04/2018 - 21:43:49: [umc-core.smx] VOTE MENU:
+L 05/04/2018 - 21:43:49: [umc-core.smx] 2: emp_beachfront (0)
+L 05/04/2018 - 21:43:49: [umc-core.smx] 3: emp_crossroads (1)
+L 05/04/2018 - 21:43:49: [umc-core.smx] 4: emp_downfall (2)
+L 05/04/2018 - 21:43:49: [umc-core.smx] 5: con_havoc (3)
+L 05/04/2018 - 21:43:49: [umc-core.smx] 6: emp_drygulch (4)
+L 05/04/2018 - 21:43:52: [umc-core.smx] Grave<9><[U:1:34977414]><> selected menu item 4
+L 05/04/2018 - 21:43:52: [umc-core.smx] Spyer<8><[U:1:34143605]><> selected menu item 4
+L 05/04/2018 - 21:43:52: [umc-core.smx] Dagron<11><[U:1:86517307]><> selected menu item 1
+L 05/04/2018 - 21:43:53: [umc-core.smx] Sir.DieALot<13><[U:1:249217]><> selected menu item 2
+L 05/04/2018 - 21:44:11: [umc-core.smx] .|Ϟ|. Spike<17><[U:1:39029790]><> selected menu item 2
+L 05/04/2018 - 21:44:50: [umc-core.smx] RUNOFF MENU: (Verbose) Building runoff vote menu.
+L 05/04/2018 - 21:44:50: [umc-core.smx] RUNOFF MENU: (Verbose) 'emp_beachfront' was removed from the vote. It had 1 votes (20 of total)
+L 05/04/2018 - 21:44:50: [umc-core.smx] RUNOFF MENU: (Verbose) Stopped removing options from the vote. Maximum possible winning vote percentage is 60%
+L 05/04/2018 - 21:44:50: [umc-core.smx] Vote has concluded.
+L 05/04/2018 - 21:44:58: [umc-core.smx] RUNOFF: Starting runoff vote.
+L 05/04/2018 - 21:44:58: [umc-core.smx] Initiating Vote Type: Map
+L 05/04/2018 - 21:44:58: [umc-core.smx] Adding Clients to Vote:
+L 05/04/2018 - 21:44:58: [umc-core.smx] 0: Mr. X. (2)
+L 05/04/2018 - 21:44:58: [umc-core.smx] 1: Spyer (3)
+L 05/04/2018 - 21:44:58: [umc-core.smx] 2: Grave (4)
+L 05/04/2018 - 21:44:58: [umc-core.smx] 3: .|Ϟ|. Spike (5)
+L 05/04/2018 - 21:44:58: [umc-core.smx] 4: Dagron (6)
+L 05/04/2018 - 21:44:58: [umc-core.smx] 5: Sir.DieALot (8)
+L 05/04/2018 - 21:44:58: [umc-core.smx] VOTE MENU:
+L 05/04/2018 - 21:44:58: [umc-core.smx] 2: con_havoc (3)
+L 05/04/2018 - 21:44:58: [umc-core.smx] 3: emp_crossroads (1)
+L 05/04/2018 - 21:45:00: [umc-core.smx] Spyer<8><[U:1:34143605]><> selected menu item 1
+L 05/04/2018 - 21:45:00: [umc-core.smx] Grave<9><[U:1:34977414]><> selected menu item 1
+L 05/04/2018 - 21:45:00: [umc-core.smx] .|Ϟ|. Spike<17><[U:1:39029790]><> selected menu item 2
+L 05/04/2018 - 21:45:00: [umc-core.smx] Sir.DieALot<13><[U:1:249217]><> selected menu item 2
+L 05/04/2018 - 21:45:31: [umc-core.smx] Dagron<11><[U:1:86517307]><> selected menu item 1
+L 05/04/2018 - 21:45:58: [umc-core.smx] Setting nextmap to: emp_havoc_b1_fix
+L 05/04/2018 - 21:45:58: [umc-randomcycle.smx] Disabling random nextmap selection.
+L 05/04/2018 - 21:45:58: [umc-core.smx] umc-rockthevote.smx: Changing map to 'emp_havoc_b1_fix' in 5 seconds.
+L 05/04/2018 - 21:45:58: [umc-core.smx] MAPVOTE: Players voted for map 'emp_havoc_b1_fix' from group 'Infantry Maps'
+L 05/04/2018 - 21:45:58: [umc-core.smx] Vote has concluded.
+L 05/04/2018 - 21:46:04: [umc-core.smx] ---------------------MAP CHANGE: emp_havoc_b1_fix---------------------
+L 05/04/2018 - 21:46:04: [umc-endvote-warnings.smx] Successfully parsed and set up 11 vote warnings.
+L 05/04/2018 - 21:46:04: [umc-rockthevote.smx] RTV will be made available in 60 seconds.
+L 05/04/2018 - 21:47:05: [umc-rockthevote.smx] RTV is now available.
+L 05/04/2018 - 22:37:33: [umc-nominate.smx] rauer wants to nominate a map.
+L 05/04/2018 - 22:37:37: [umc-nominate.smx] rauer has nominated 'emp_beachfront_b2_hce' from group 'Commander Maps'
+L 05/04/2018 - 22:37:54: [umc-emp-mapvote.smx] Map vote will appear in 30 seconds.
+L 05/04/2018 - 22:38:24: [umc-emp-mapvote.smx] Starting a map vote.
+L 05/04/2018 - 22:38:24: [umc-core.smx] VOTE MENU: (Verbose) Fetching 6 maps from group 'Commander Maps'
+L 05/04/2018 - 22:38:24: [umc-core.smx] VOTE MENU: (Verbose) Nominated map 'emp_beachfront_b2_hce' from group 'Commander Maps' was added to the vote.
+L 05/04/2018 - 22:38:24: [umc-core.smx] VOTE MENU: (Verbose) Finished parsing nominations for map group 'Commander Maps'
+L 05/04/2018 - 22:38:24: [umc-core.smx] VOTE MENU: (Verbose) Still need to fetch 5 maps from the group.
+L 05/04/2018 - 22:38:24: [umc-core.smx] VOTE MENU: (Verbose) Selected map 'emp_crossroads_towerless_hce' from group 'Commander Maps' was added to the vote.
+L 05/04/2018 - 22:38:24: [umc-core.smx] VOTE MENU: (Verbose) Selected map 'emp_downfall_hce' from group 'Commander Maps' was added to the vote.
+L 05/04/2018 - 22:38:24: [umc-core.smx] VOTE MENU: (Verbose) Selected map 'emp_drygulch_a6' from group 'Commander Maps' was added to the vote.
+L 05/04/2018 - 22:38:24: [umc-core.smx] VOTE MENU: (Verbose) No more maps in map group 'Commander Maps'
+L 05/04/2018 - 22:38:24: [umc-core.smx] VOTE MENU: (Verbose) Fetching 1 maps from group 'Infantry Maps'
+L 05/04/2018 - 22:38:24: [umc-core.smx] VOTE MENU: (Verbose) Finished parsing nominations for map group 'Infantry Maps'
+L 05/04/2018 - 22:38:24: [umc-core.smx] VOTE MENU: (Verbose) Still need to fetch 1 maps from the group.
+L 05/04/2018 - 22:38:24: [umc-core.smx] VOTE MENU: (Verbose) Selected map 'con_blast_ob2' from group 'Infantry Maps' was added to the vote.
+L 05/04/2018 - 22:38:24: [umc-core.smx] VOTE MENU: (Verbose) Fetching 1 maps from group 'Cooldown Maps'
+L 05/04/2018 - 22:38:24: [umc-core.smx] VOTE MENU: (Verbose) Finished parsing nominations for map group 'Cooldown Maps'
+L 05/04/2018 - 22:38:24: [umc-core.smx] VOTE MENU: (Verbose) Still need to fetch 1 maps from the group.
+L 05/04/2018 - 22:38:24: [umc-core.smx] VOTE MENU: (Verbose) No more maps in map group 'Cooldown Maps'
+L 05/04/2018 - 22:38:24: [umc-core.smx] Initiating Vote Type: Map
+L 05/04/2018 - 22:38:24: [umc-core.smx] Adding Clients to Vote:
+L 05/04/2018 - 22:38:24: [umc-core.smx] 0: rauer (2)
+L 05/04/2018 - 22:38:24: [umc-core.smx] VOTE MENU:
+L 05/04/2018 - 22:38:24: [umc-core.smx] 2: emp_downfall (0)
+L 05/04/2018 - 22:38:24: [umc-core.smx] 3: con_blast (1)
+L 05/04/2018 - 22:38:24: [umc-core.smx] 4: emp_drygulch (2)
+L 05/04/2018 - 22:38:24: [umc-core.smx] 5: emp_beachfront (3)
+L 05/04/2018 - 22:38:24: [umc-core.smx] 6: emp_crossroads (4)
+L 05/04/2018 - 22:38:28: [umc-core.smx] rauer<21><[U:1:2546402]><> selected menu item 4
+L 05/04/2018 - 22:38:28: [umc-core.smx] Setting nextmap to: emp_beachfront_b2_hce
+L 05/04/2018 - 22:38:28: [umc-randomcycle.smx] Disabling random nextmap selection.
+L 05/04/2018 - 22:38:28: [umc-core.smx] umc-emp-mapvote.smx: Changing map to 'emp_beachfront_b2_hce' in 5 seconds.
+L 05/04/2018 - 22:38:28: [umc-core.smx] MAPVOTE: Players voted for map 'emp_beachfront_b2_hce' from group 'Commander Maps'
+L 05/04/2018 - 22:38:28: [umc-core.smx] Vote has concluded.
+L 05/04/2018 - 22:38:34: [umc-core.smx] ---------------------MAP CHANGE: emp_beachfront_b2_hce---------------------
+L 05/04/2018 - 22:38:34: [umc-endvote-warnings.smx] Successfully parsed and set up 11 vote warnings.
+L 05/04/2018 - 22:38:34: [umc-rockthevote.smx] RTV will be made available in 60 seconds.
+L 05/04/2018 - 22:39:35: [umc-rockthevote.smx] RTV is now available.
+L 05/04/2018 - 22:40:48: [umc-emp-mapvote.smx] Map vote will appear in 30 seconds.
+L 05/04/2018 - 22:41:02: [umc-nominate.smx] rauer wants to nominate a map.
+L 05/04/2018 - 22:41:07: [umc-nominate.smx] rauer has nominated 'emp_drygulch_a6' from group 'Commander Maps'
+L 05/04/2018 - 22:41:18: [umc-emp-mapvote.smx] Starting a map vote.
+L 05/04/2018 - 22:41:18: [umc-core.smx] VOTE MENU: (Verbose) Fetching 6 maps from group 'Commander Maps'
+L 05/04/2018 - 22:41:18: [umc-core.smx] VOTE MENU: (Verbose) Nominated map 'emp_drygulch_a6' from group 'Commander Maps' was added to the vote.
+L 05/04/2018 - 22:41:18: [umc-core.smx] VOTE MENU: (Verbose) Finished parsing nominations for map group 'Commander Maps'
+L 05/04/2018 - 22:41:18: [umc-core.smx] VOTE MENU: (Verbose) Still need to fetch 5 maps from the group.
+L 05/04/2018 - 22:41:18: [umc-core.smx] VOTE MENU: (Verbose) Selected map 'emp_crossroads_towerless_hce' from group 'Commander Maps' was added to the vote.
+L 05/04/2018 - 22:41:18: [umc-core.smx] VOTE MENU: (Verbose) Selected map 'emp_downfall_hce' from group 'Commander Maps' was added to the vote.
+L 05/04/2018 - 22:41:18: [umc-core.smx] VOTE MENU: (Verbose) No more maps in map group 'Commander Maps'
+L 05/04/2018 - 22:41:18: [umc-core.smx] VOTE MENU: (Verbose) Fetching 1 maps from group 'Infantry Maps'
+L 05/04/2018 - 22:41:18: [umc-core.smx] VOTE MENU: (Verbose) Finished parsing nominations for map group 'Infantry Maps'
+L 05/04/2018 - 22:41:18: [umc-core.smx] VOTE MENU: (Verbose) Still need to fetch 1 maps from the group.
+L 05/04/2018 - 22:41:18: [umc-core.smx] VOTE MENU: (Verbose) Selected map 'con_urbanchaos_comm_b2' from group 'Infantry Maps' was added to the vote.
+L 05/04/2018 - 22:41:18: [umc-core.smx] VOTE MENU: (Verbose) Fetching 1 maps from group 'Cooldown Maps'
+L 05/04/2018 - 22:41:18: [umc-core.smx] VOTE MENU: (Verbose) Finished parsing nominations for map group 'Cooldown Maps'
+L 05/04/2018 - 22:41:18: [umc-core.smx] VOTE MENU: (Verbose) Still need to fetch 1 maps from the group.
+L 05/04/2018 - 22:41:18: [umc-core.smx] VOTE MENU: (Verbose) No more maps in map group 'Cooldown Maps'
+L 05/04/2018 - 22:41:18: [umc-core.smx] Initiating Vote Type: Map
+L 05/04/2018 - 22:41:18: [umc-core.smx] Adding Clients to Vote:
+L 05/04/2018 - 22:41:18: [umc-core.smx] 0: rauer (2)
+L 05/04/2018 - 22:41:18: [umc-core.smx] VOTE MENU:
+L 05/04/2018 - 22:41:18: [umc-core.smx] 2: emp_downfall (0)
+L 05/04/2018 - 22:41:18: [umc-core.smx] 3: con_urbanchaos (1)
+L 05/04/2018 - 22:41:18: [umc-core.smx] 4: emp_drygulch (2)
+L 05/04/2018 - 22:41:18: [umc-core.smx] 5: emp_crossroads (3)
+L 05/04/2018 - 22:41:22: [umc-core.smx] rauer<21><[U:1:2546402]><> selected menu item 1
+L 05/04/2018 - 22:41:22: [umc-core.smx] Setting nextmap to: emp_downfall_hce
+L 05/04/2018 - 22:41:22: [umc-randomcycle.smx] Disabling random nextmap selection.
+L 05/04/2018 - 22:41:22: [umc-core.smx] umc-emp-mapvote.smx: Changing map to 'emp_downfall_hce' in 5 seconds.
+L 05/04/2018 - 22:41:22: [umc-core.smx] MAPVOTE: Players voted for map 'emp_downfall_hce' from group 'Commander Maps'
+L 05/04/2018 - 22:41:22: [umc-core.smx] Vote has concluded.
+L 05/04/2018 - 22:41:23: [umc-rockthevote.smx] Starting RTV.
+L 05/04/2018 - 22:41:28: [umc-core.smx] ---------------------MAP CHANGE: emp_downfall_hce---------------------
+L 05/04/2018 - 22:41:28: [umc-endvote-warnings.smx] Successfully parsed and set up 11 vote warnings.
+L 05/04/2018 - 22:41:28: [umc-rockthevote.smx] RTV will be made available in 60 seconds.
+L 05/04/2018 - 22:42:29: [umc-rockthevote.smx] RTV is now available.
+L 05/04/2018 - 22:43:59: [umc-emp-mapvote.smx] Map vote will appear in 30 seconds.
+L 05/04/2018 - 22:44:08: [umc-rockthevote.smx] Starting RTV.
+L 05/04/2018 - 22:44:08: [umc-core.smx] VOTE MENU: (Verbose) Fetching 6 maps from group 'Commander Maps'
+L 05/04/2018 - 22:44:08: [umc-core.smx] VOTE MENU: (Verbose) Finished parsing nominations for map group 'Commander Maps'
+L 05/04/2018 - 22:44:08: [umc-core.smx] VOTE MENU: (Verbose) Still need to fetch 6 maps from the group.
+L 05/04/2018 - 22:44:08: [umc-core.smx] VOTE MENU: (Verbose) Selected map 'emp_drygulch_a6' from group 'Commander Maps' was added to the vote.
+L 05/04/2018 - 22:44:08: [umc-core.smx] VOTE MENU: (Verbose) Selected map 'emp_crossroads_towerless_hce' from group 'Commander Maps' was added to the vote.
+L 05/04/2018 - 22:44:08: [umc-core.smx] VOTE MENU: (Verbose) No more maps in map group 'Commander Maps'
+L 05/04/2018 - 22:44:08: [umc-core.smx] VOTE MENU: (Verbose) Fetching 1 maps from group 'Infantry Maps'
+L 05/04/2018 - 22:44:08: [umc-core.smx] VOTE MENU: (Verbose) Finished parsing nominations for map group 'Infantry Maps'
+L 05/04/2018 - 22:44:08: [umc-core.smx] VOTE MENU: (Verbose) Still need to fetch 1 maps from the group.
+L 05/04/2018 - 22:44:08: [umc-core.smx] VOTE MENU: (Verbose) Selected map 'con_glycencity' from group 'Infantry Maps' was added to the vote.
+L 05/04/2018 - 22:44:08: [umc-core.smx] VOTE MENU: (Verbose) Fetching 1 maps from group 'Cooldown Maps'
+L 05/04/2018 - 22:44:08: [umc-core.smx] VOTE MENU: (Verbose) Finished parsing nominations for map group 'Cooldown Maps'
+L 05/04/2018 - 22:44:08: [umc-core.smx] VOTE MENU: (Verbose) Still need to fetch 1 maps from the group.
+L 05/04/2018 - 22:44:08: [umc-core.smx] VOTE MENU: (Verbose) No more maps in map group 'Cooldown Maps'
+L 05/04/2018 - 22:44:08: [umc-core.smx] Initiating Vote Type: Map
+L 05/04/2018 - 22:44:08: [umc-core.smx] Adding Clients to Vote:
+L 05/04/2018 - 22:44:08: [umc-core.smx] 0: rauer (2)
+L 05/04/2018 - 22:44:08: [umc-core.smx] VOTE MENU:
+L 05/04/2018 - 22:44:08: [umc-core.smx] 2: emp_crossroads (0)
+L 05/04/2018 - 22:44:08: [umc-core.smx] 3: con_glycencity (1)
+L 05/04/2018 - 22:44:08: [umc-core.smx] 4: emp_drygulch (2)
+L 05/04/2018 - 22:44:13: [umc-core.smx] rauer<21><[U:1:2546402]><> selected menu item 3
+L 05/04/2018 - 22:44:13: [umc-core.smx] Setting nextmap to: emp_drygulch_a6
+L 05/04/2018 - 22:44:13: [umc-randomcycle.smx] Disabling random nextmap selection.
+L 05/04/2018 - 22:44:13: [umc-core.smx] umc-rockthevote.smx: Changing map to 'emp_drygulch_a6' in 5 seconds.
+L 05/04/2018 - 22:44:13: [umc-core.smx] MAPVOTE: Players voted for map 'emp_drygulch_a6' from group 'Commander Maps'
+L 05/04/2018 - 22:44:13: [umc-core.smx] Vote has concluded.
+L 05/04/2018 - 22:44:19: [umc-core.smx] ---------------------MAP CHANGE: emp_drygulch_a6---------------------
+L 05/04/2018 - 22:44:19: [umc-endvote-warnings.smx] Successfully parsed and set up 11 vote warnings.
+L 05/04/2018 - 22:44:19: [umc-rockthevote.smx] RTV will be made available in 60 seconds.
+L 05/04/2018 - 22:45:20: [umc-rockthevote.smx] RTV is now available.
+L 05/04/2018 - 22:46:53: [umc-emp-mapvote.smx] Map vote will appear in 30 seconds.
+L 05/04/2018 - 22:47:23: [umc-emp-mapvote.smx] Starting a map vote.
+L 05/04/2018 - 22:47:23: [umc-core.smx] VOTE MENU: (Verbose) Fetching 6 maps from group 'Commander Maps'
+L 05/04/2018 - 22:47:23: [umc-core.smx] VOTE MENU: (Verbose) Finished parsing nominations for map group 'Commander Maps'
+L 05/04/2018 - 22:47:23: [umc-core.smx] VOTE MENU: (Verbose) Still need to fetch 6 maps from the group.
+L 05/04/2018 - 22:47:23: [umc-core.smx] VOTE MENU: (Verbose) Selected map 'emp_crossroads_towerless_hce' from group 'Commander Maps' was added to the vote.
+L 05/04/2018 - 22:47:23: [umc-core.smx] VOTE MENU: (Verbose) No more maps in map group 'Commander Maps'
+L 05/04/2018 - 22:47:23: [umc-core.smx] VOTE MENU: (Verbose) Fetching 1 maps from group 'Infantry Maps'
+L 05/04/2018 - 22:47:23: [umc-core.smx] VOTE MENU: (Verbose) Finished parsing nominations for map group 'Infantry Maps'
+L 05/04/2018 - 22:47:23: [umc-core.smx] VOTE MENU: (Verbose) Still need to fetch 1 maps from the group.
+L 05/04/2018 - 22:47:23: [umc-core.smx] VOTE MENU: (Verbose) Selected map 'emp_shadows_attacks_fix' from group 'Infantry Maps' was added to the vote.
+L 05/04/2018 - 22:47:23: [umc-core.smx] VOTE MENU: (Verbose) Fetching 1 maps from group 'Cooldown Maps'
+L 05/04/2018 - 22:47:23: [umc-core.smx] VOTE MENU: (Verbose) Finished parsing nominations for map group 'Cooldown Maps'
+L 05/04/2018 - 22:47:23: [umc-core.smx] VOTE MENU: (Verbose) Still need to fetch 1 maps from the group.
+L 05/04/2018 - 22:47:23: [umc-core.smx] VOTE MENU: (Verbose) Selected map 'fun_ricochet_a4' from group 'Cooldown Maps' was added to the vote.
+L 05/04/2018 - 22:47:23: [umc-core.smx] Initiating Vote Type: Map
+L 05/04/2018 - 22:47:23: [umc-core.smx] Adding Clients to Vote:
+L 05/04/2018 - 22:47:23: [umc-core.smx] 0: rauer (2)
+L 05/04/2018 - 22:47:23: [umc-core.smx] VOTE MENU:
+L 05/04/2018 - 22:47:23: [umc-core.smx] 2: con_shadows_attacks (0)
+L 05/04/2018 - 22:47:23: [umc-core.smx] 3: emp_crossroads (1)
+L 05/04/2018 - 22:47:23: [umc-core.smx] 4: fun_ricochet_a4 (2)
+L 05/04/2018 - 22:47:28: [umc-core.smx] rauer<21><[U:1:2546402]><> selected menu item 2
+L 05/04/2018 - 22:47:28: [umc-core.smx] Setting nextmap to: emp_crossroads_towerless_hce
+L 05/04/2018 - 22:47:28: [umc-randomcycle.smx] Disabling random nextmap selection.
+L 05/04/2018 - 22:47:28: [umc-core.smx] umc-emp-mapvote.smx: Changing map to 'emp_crossroads_towerless_hce' in 5 seconds.
+L 05/04/2018 - 22:47:28: [umc-core.smx] MAPVOTE: Players voted for map 'emp_crossroads_towerless_hce' from group 'Commander Maps'
+L 05/04/2018 - 22:47:28: [umc-core.smx] Vote has concluded.
+L 05/04/2018 - 22:47:35: [umc-core.smx] ---------------------MAP CHANGE: emp_crossroads_towerless_hce---------------------
+L 05/04/2018 - 22:47:35: [umc-endvote-warnings.smx] Successfully parsed and set up 11 vote warnings.
+L 05/04/2018 - 22:47:35: [umc-rockthevote.smx] RTV will be made available in 60 seconds.
+L 05/04/2018 - 22:48:36: [umc-rockthevote.smx] RTV is now available.

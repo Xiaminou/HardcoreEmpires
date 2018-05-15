@@ -155,8 +155,6 @@
 	"clients:62"		"0:playercount/62.cfg"
 	"clients:63"		"0:playercount/63.cfg"
 	"clients:64"		"0:playercount/64.cfg"
-	"event:commander_elected_player"	"0:playercount/roundstart.cfg"
-	"round:1"							"0:playercount/roundstart.cfg"
 	}
 }
 

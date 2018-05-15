@@ -4,18 +4,22 @@
 	{
 		"Version"
 		{
-			"Latest"	"v0.54"
+			"Latest"	"v0.88"
 		}
 	}
 	
 	"Files"
 	{
-		"Plugin"	"Path_Mod/addons/sourcemod/plugins/votetime.smx"
-		"Plugin"	"Path_Mod/sound/votetime/count.wav"
-		"Plugin"	"Path_Mod/sound/votetime/count_end.wav"
-		"Plugin"	"Path_Mod/sound/votetime/paused.mp3"
-		"Plugin"	"Path_Mod/sound/votetime/resumed.mp3"
+		"Plugin"	"Path_Mod/addons/sourcemod/plugins/squadcontrol.smx"
+		"Plugin"	"Path_Mod/sound/squadcontrol/commchat_alert2.wav"
+		"Plugin"	"Path_Mod/sound/squadcontrol/commvoice_end.wav"
+		"Plugin"	"Path_Mod/sound/squadcontrol/commvoice_start.wav"
+		"Plugin"	"Path_Mod/sound/squadcontrol/squadchat_alert2.wav"
+		"Plugin"	"Path_Mod/sound/squadcontrol/squadleader_alert.wav"
+		"Plugin"	"Path_Mod/sound/squadcontrol/squadvoice_end.wav"
+		"Plugin"	"Path_Mod/sound/squadcontrol/squadvoice_start.wav"
 		
-		"Source"	"Path_Mod/addons/sourcemod/scripting/votetime.sp"
+		
+		"Source"	"Path_Mod/addons/sourcemod/scripting/squadcontrol.sp"
 	}
 }

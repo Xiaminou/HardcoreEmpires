@@ -26,6 +26,18 @@
 		{
 			"text" "Make sure your team knows where each squad should go"
 		}
+		"7"	
+		{
+			"text" "Researches cost resources, type !research to know more"
+		}
+		"8"	
+		{
+			"text" "Use /restrict [chassis] [level] to restrict chassis"
+		}
+		"9"	
+		{
+			"text" "Use /pl [player] [level] to give privilege levels"
+		}
 				
 	}
 	"SquadLeader"

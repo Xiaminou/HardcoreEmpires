@@ -1,0 +1,69 @@
+L 05/07/2018 - 00:35:36: SourceMod error session started
+L 05/07/2018 - 00:35:36: Info (map "emp_mvalley_fix") (file "errors_20180507.log")
+L 05/07/2018 - 00:35:36: [SM] Exception reported: Invalid timer handle 9e0d03a6 (error 1)
+L 05/07/2018 - 00:35:36: [SM] Blaming: umc-emp-mapvote.smx()
+L 05/07/2018 - 00:35:36: [SM] Call stack trace:
+L 05/07/2018 - 00:35:36: [SM]   [0] KillTimer
+L 05/07/2018 - 00:35:36: [SM]   [1] Line 686, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-emp-mapvote.sp::UMC_OnNextmapSet()
+L 05/07/2018 - 00:35:36: [SM]   [3] Call_Finish
+L 05/07/2018 - 00:35:36: [SM]   [4] Line 4834, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::DoMapChange()
+L 05/07/2018 - 00:35:36: [SM]   [5] Line 4267, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteWinner()
+L 05/07/2018 - 00:35:36: [SM]   [6] Line 3819, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteWinner()
+L 05/07/2018 - 00:35:36: [SM]   [7] Line 3795, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteResults()
+L 05/07/2018 - 00:35:36: [SM]   [8] Line 1277, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Native_UMCVoteManagerComplete()
+L 05/07/2018 - 00:35:36: [SM]   [10] UMC_VoteManagerVoteCompleted
+L 05/07/2018 - 00:35:36: [SM]   [11] Line 2309, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteResults()
+L 05/07/2018 - 00:35:42: Error log file session closed.
+L 05/07/2018 - 00:57:31: SourceMod error session started
+L 05/07/2018 - 00:57:31: Info (map "emp_snowstorm_rc6_hce") (file "errors_20180507.log")
+L 05/07/2018 - 00:57:31: [SM] Exception reported: Invalid timer handle ad20015b (error 1)
+L 05/07/2018 - 00:57:31: [SM] Blaming: umc-emp-mapvote.smx()
+L 05/07/2018 - 00:57:31: [SM] Call stack trace:
+L 05/07/2018 - 00:57:31: [SM]   [0] KillTimer
+L 05/07/2018 - 00:57:31: [SM]   [1] Line 686, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-emp-mapvote.sp::UMC_OnNextmapSet()
+L 05/07/2018 - 00:57:31: [SM]   [3] Call_Finish
+L 05/07/2018 - 00:57:31: [SM]   [4] Line 4834, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::DoMapChange()
+L 05/07/2018 - 00:57:31: [SM]   [5] Line 4267, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteWinner()
+L 05/07/2018 - 00:57:31: [SM]   [6] Line 3819, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteWinner()
+L 05/07/2018 - 00:57:31: [SM]   [7] Line 3795, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteResults()
+L 05/07/2018 - 00:57:31: [SM]   [8] Line 1277, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Native_UMCVoteManagerComplete()
+L 05/07/2018 - 00:57:31: [SM]   [10] UMC_VoteManagerVoteCompleted
+L 05/07/2018 - 00:57:31: [SM]   [11] Line 2309, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteResults()
+L 05/07/2018 - 00:57:36: Error log file session closed.
+L 05/07/2018 - 01:23:20: SourceMod error session started
+L 05/07/2018 - 01:23:20: Info (map "emp_downfall_hce") (file "errors_20180507.log")
+L 05/07/2018 - 01:23:20: [SM] Exception reported: Invalid timer handle bdc1038b (error 1)
+L 05/07/2018 - 01:23:20: [SM] Blaming: umc-emp-mapvote.smx()
+L 05/07/2018 - 01:23:20: [SM] Call stack trace:
+L 05/07/2018 - 01:23:20: [SM]   [0] KillTimer
+L 05/07/2018 - 01:23:20: [SM]   [1] Line 686, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-emp-mapvote.sp::UMC_OnNextmapSet()
+L 05/07/2018 - 01:23:20: [SM]   [3] Call_Finish
+L 05/07/2018 - 01:23:20: [SM]   [4] Line 4834, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::DoMapChange()
+L 05/07/2018 - 01:23:20: [SM]   [5] Line 4267, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteWinner()
+L 05/07/2018 - 01:23:20: [SM]   [6] Line 3819, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteWinner()
+L 05/07/2018 - 01:23:20: [SM]   [7] Line 3795, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteResults()
+L 05/07/2018 - 01:23:20: [SM]   [8] Line 1277, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Native_UMCVoteManagerComplete()
+L 05/07/2018 - 01:23:20: [SM]   [10] UMC_VoteManagerVoteCompleted
+L 05/07/2018 - 01:23:20: [SM]   [11] Line 2309, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteResults()
+L 05/07/2018 - 01:23:26: Error log file session closed.
+L 05/07/2018 - 01:29:54: SourceMod error session started
+L 05/07/2018 - 01:29:54: Info (map "emp_fogtown_cl2_fix") (file "errors_20180507.log")
+L 05/07/2018 - 01:29:54: [SM] Exception reported: Game event "player_disconnect" has no active hook
+L 05/07/2018 - 01:29:54: [SM] Blaming: empstats.smx()
+L 05/07/2018 - 01:29:54: [SM] Call stack trace:
+L 05/07/2018 - 01:29:54: [SM]   [0] UnhookEvent
+L 05/07/2018 - 01:29:54: [SM]   [1] Line 338, dist\addons\sourcemod\scripting\empstats.sp::Deactivate()
+L 05/07/2018 - 01:29:54: [SM]   [2] Line 290, dist\addons\sourcemod\scripting\empstats.sp::CheckActivate()
+L 05/07/2018 - 01:29:54: [SM]   [3] Line 1014, dist\addons\sourcemod\scripting\empstats.sp::OnClientDisconnect_Post()
+L 05/07/2018 - 01:30:54: [SM] Exception reported: Game event "player_disconnect" has no active hook
+L 05/07/2018 - 01:30:54: [SM] Blaming: empstats.smx()
+L 05/07/2018 - 01:30:54: [SM] Call stack trace:
+L 05/07/2018 - 01:30:54: [SM]   [0] UnhookEvent
+L 05/07/2018 - 01:30:54: [SM]   [1] Line 338, dist\addons\sourcemod\scripting\empstats.sp::Deactivate()
+L 05/07/2018 - 01:30:54: [SM]   [2] Line 290, dist\addons\sourcemod\scripting\empstats.sp::CheckActivate()
+L 05/07/2018 - 01:30:54: [SM]   [3] Line 1014, dist\addons\sourcemod\scripting\empstats.sp::OnClientDisconnect_Post()
+L 05/07/2018 - 15:58:40: SourceMod error session started
+L 05/07/2018 - 15:58:40: Info (map "con_district402") (file "errors_20180507.log")
+L 05/07/2018 - 15:58:40: [SDKTOOLS] Invalid detour address passed - Disabling detour to prevent crashes
+L 05/07/2018 - 15:58:40: [SDKTOOLS] Failed to find PlayerRunCmd offset - OnPlayerRunCmd forward disabled.
+L 05/07/2018 - 22:40:17: Error log file session closed.

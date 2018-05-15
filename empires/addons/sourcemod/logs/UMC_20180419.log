@@ -1,0 +1,43 @@
+L 04/19/2018 - 16:59:55: [umc-core.smx] ---------------------MAP CHANGE: con_district402---------------------
+L 04/19/2018 - 16:59:55: [umc-endvote-warnings.smx] Successfully parsed and set up 11 vote warnings.
+L 04/19/2018 - 16:59:55: [umc-rockthevote.smx] RTV will be made available in 60 seconds.
+L 04/19/2018 - 17:00:56: [umc-rockthevote.smx] RTV is now available.
+L 04/19/2018 - 21:30:21: [umc-emp-mapvote.smx] Map vote will appear in 30 seconds.
+L 04/19/2018 - 21:30:51: [umc-emp-mapvote.smx] Starting a map vote.
+L 04/19/2018 - 21:30:51: [umc-core.smx] VOTE MENU: (Verbose) Fetching 6 maps from group 'Commander Maps'
+L 04/19/2018 - 21:30:51: [umc-core.smx] VOTE MENU: (Verbose) Finished parsing nominations for map group 'Commander Maps'
+L 04/19/2018 - 21:30:51: [umc-core.smx] VOTE MENU: (Verbose) Still need to fetch 6 maps from the group.
+L 04/19/2018 - 21:30:51: [umc-core.smx] VOTE MENU: (Verbose) Selected map 'emp_beachfront_b2_hce' from group 'Commander Maps' was added to the vote.
+L 04/19/2018 - 21:30:51: [umc-core.smx] VOTE MENU: (Verbose) Selected map 'emp_downfall_hce' from group 'Commander Maps' was added to the vote.
+L 04/19/2018 - 21:30:51: [umc-core.smx] VOTE MENU: (Verbose) Selected map 'emp_drygulch_a6' from group 'Commander Maps' was added to the vote.
+L 04/19/2018 - 21:30:51: [umc-core.smx] VOTE MENU: (Verbose) Selected map 'emp_crossroads_towerless_hce' from group 'Commander Maps' was added to the vote.
+L 04/19/2018 - 21:30:51: [umc-core.smx] VOTE MENU: (Verbose) No more maps in map group 'Commander Maps'
+L 04/19/2018 - 21:30:51: [umc-core.smx] VOTE MENU: (Verbose) Fetching 1 maps from group 'Infantry Maps'
+L 04/19/2018 - 21:30:51: [umc-core.smx] VOTE MENU: (Verbose) Finished parsing nominations for map group 'Infantry Maps'
+L 04/19/2018 - 21:30:51: [umc-core.smx] VOTE MENU: (Verbose) Still need to fetch 1 maps from the group.
+L 04/19/2018 - 21:30:51: [umc-core.smx] VOTE MENU: (Verbose) Selected map 'emp_fogtown_cl2_fix' from group 'Infantry Maps' was added to the vote.
+L 04/19/2018 - 21:30:51: [umc-core.smx] VOTE MENU: (Verbose) Fetching 1 maps from group 'Cooldown Maps'
+L 04/19/2018 - 21:30:51: [umc-core.smx] VOTE MENU: (Verbose) Finished parsing nominations for map group 'Cooldown Maps'
+L 04/19/2018 - 21:30:51: [umc-core.smx] VOTE MENU: (Verbose) Still need to fetch 1 maps from the group.
+L 04/19/2018 - 21:30:51: [umc-core.smx] VOTE MENU: (Verbose) Selected map 'fun_ricochet_a4' from group 'Cooldown Maps' was added to the vote.
+L 04/19/2018 - 21:30:51: [umc-core.smx] Initiating Vote Type: Map
+L 04/19/2018 - 21:30:51: [umc-core.smx] Adding Clients to Vote:
+L 04/19/2018 - 21:30:51: [umc-core.smx] 0: Spyer (2)
+L 04/19/2018 - 21:30:51: [umc-core.smx] VOTE MENU:
+L 04/19/2018 - 21:30:51: [umc-core.smx] 2: emp_crossroads (0)
+L 04/19/2018 - 21:30:51: [umc-core.smx] 3: fun_ricochet_a4 (1)
+L 04/19/2018 - 21:30:51: [umc-core.smx] 4: emp_downfall (2)
+L 04/19/2018 - 21:30:51: [umc-core.smx] 5: emp_beachfront (3)
+L 04/19/2018 - 21:30:51: [umc-core.smx] 6: con_fogtown (4)
+L 04/19/2018 - 21:30:51: [umc-core.smx] 7: emp_drygulch (5)
+L 04/19/2018 - 21:31:22: [umc-emp-mapvote.smx] WARNING: Map Voting failure. Initiating random map fail-safe.
+L 04/19/2018 - 21:31:22: [umc-core.smx] Setting nextmap to: emp_downfall_hce
+L 04/19/2018 - 21:31:22: [umc-randomcycle.smx] Disabling random nextmap selection.
+L 04/19/2018 - 21:31:22: [umc-core.smx] umc-emp-mapvote.smx: Changing map to 'emp_downfall_hce' in 5 seconds.
+L 04/19/2018 - 21:31:22: [umc-core.smx] Vote has concluded.
+L 04/19/2018 - 21:31:28: [umc-core.smx] ---------------------MAP CHANGE: emp_downfall_hce---------------------
+L 04/19/2018 - 21:31:28: [umc-endvote-warnings.smx] Successfully parsed and set up 11 vote warnings.
+L 04/19/2018 - 21:31:28: [umc-rockthevote.smx] RTV will be made available in 60 seconds.
+L 04/19/2018 - 21:32:29: [umc-rockthevote.smx] RTV is now available.
+L 04/19/2018 - 22:54:24: [umc-nominate.smx] .|Ϟ|. SelectFilly wants to nominate a map.
+L 04/19/2018 - 22:54:38: [umc-nominate.smx] .|Ϟ|. SelectFilly has nominated 'emp_vehicletraining_2013' from group 'Infantry Maps'
