@@ -153,9 +153,9 @@
 			"display"		"emp_hazard"
 		}
 		
-		"emp_homeland_b9"
+		"emp_homeland_b9_hce"
 		{
-			"min_players"	"22"
+			"min_players"	"20"
 			"max_players"	"42"
 			"display"		"emp_homeland"
 		}
@@ -195,7 +195,7 @@
 			"display"		"emp_mesa"
 		}
 		
-		"emp_midbridge"
+		"emp_midbridge_hce"
 		{
 			"min_players"	"32"
 			"max_players"	"64"
