@@ -27,9 +27,9 @@
 #pragma semicolon 1
 #include <sourcemod>
 #undef REQUIRE_PLUGIN
-#include <sourcebans>
+#include <sourcebanspp>
 
-#define PLUGIN_VERSION "1.6.0"
+#define PLUGIN_VERSION "1.6.3"
 
 #define LENGTH_ORIGINAL 1
 #define LENGTH_CUSTOM 2
@@ -47,6 +47,8 @@ ConVar g_cVar_sbprefix;
 ConVar g_cVar_bansAllowed;
 ConVar g_cVar_bantype;
 ConVar g_cVar_bypass;
+ConVar g_cVar_excludeOld;
+ConVar g_cVar_excludeTime;
 
 //- Bools -//
 new bool:CanUseSourcebans = false;
@@ -57,7 +59,7 @@ public Plugin:myinfo =
 	author = "ecca, SourceBans++ Dev Team",
 	description = "Useful for TF2 servers. Plugin will check for banned ips and ban the player.",
 	version = PLUGIN_VERSION,
-	url = "https://sbpp.sarabveer.me/"
+	url = "https://sbpp.github.io"
 };
 
 public OnPluginStart()
@@ -72,6 +74,8 @@ public OnPluginStart()
 	g_cVar_bansAllowed = CreateConVar("sm_sleuth_bansallowed", "0", "How many active bans are allowed before we act", 0);
 	g_cVar_bantype = CreateConVar("sm_sleuth_bantype", "0", "0 - ban all type of lengths, 1 - ban only permanent bans", 0, true, 0.0, true, 1.0);
 	g_cVar_bypass = CreateConVar("sm_sleuth_adminbypass", "0", "0 - Inactivated, 1 - Allow all admins with ban flag to pass the check", 0, true, 0.0, true, 1.0);
+	g_cVar_excludeOld = CreateConVar("sm_sleuth_excludeold", "0", "0 - Inactivated, 1 - Allow old bans to be excluded from ban check", 0, true, 0.0, true, 1.0);
+	g_cVar_excludeTime = CreateConVar("sm_sleuth_excludetime", "31536000", "Amount of time in seconds to allow old bans to be excluded from ban check", 0, true, 1.0, false);
 
 	g_hAllowedArray = CreateArray(256);
 
@@ -154,7 +158,7 @@ public OnClientPostAdminCheck(client)
 
 			new String:query[1024];
 
-			FormatEx(query, sizeof(query), "SELECT * FROM %s_bans WHERE ip='%s' AND RemoveType IS NULL AND (ends > %d OR length = 0)", Prefix, IP, g_cVar_bantype.IntValue == 0 ? GetTime() : 0);
+			FormatEx(query, sizeof(query), "SELECT * FROM %s_bans WHERE ip='%s' AND RemoveType IS NULL AND (ends > %d OR ((1 = %d AND length = 0 AND ends > %d) OR (0 = %d AND length = 0)))", Prefix, IP, g_cVar_bantype.IntValue == 0 ? GetTime() : 0, g_cVar_excludeOld.IntValue, GetTime() - g_cVar_excludeTime.IntValue, g_cVar_excludeOld.IntValue);
 
 			new Handle:datapack = CreateDataPack();
 
@@ -173,13 +177,10 @@ public SQL_CheckHim(Handle:owner, Handle:hndl, const String:error[], any:datapac
 	new client;
 	decl String:steamid[32], String:IP[32];
 
-	if (datapack != INVALID_HANDLE)
-	{
-		client = GetClientOfUserId(ReadPackCell(datapack));
-		ReadPackString(datapack, steamid, sizeof(steamid));
-		ReadPackString(datapack, IP, sizeof(IP));
-		CloseHandle(datapack);
-	}
+	client = GetClientOfUserId(ReadPackCell(datapack));
+	ReadPackString(datapack, steamid, sizeof(steamid));
+	ReadPackString(datapack, IP, sizeof(IP));
+	CloseHandle(datapack);
 
 	if (hndl == INVALID_HANDLE)
 	{
@@ -233,8 +234,8 @@ public SQL_CheckHim(Handle:owner, Handle:hndl, const String:error[], any:datapac
 stock BanPlayer(client, time)
 {
 	decl String:Reason[255];
-	Format(Reason, sizeof(Reason), "[SourceSleuth] %t", "sourcesleuth_banreason");
-	SourceBans_BanPlayer(0, client, time, Reason);
+	Format(Reason, sizeof(Reason), "[SourceSleuth] %T", "sourcesleuth_banreason", client);
+	SBPP_BanPlayer(0, client, time, Reason);
 }
 
 PrintToAdmins(const String:format[], any:...)
@@ -243,8 +244,10 @@ PrintToAdmins(const String:format[], any:...)
 
 	for (new i = 1; i <= MaxClients; i++)
 	{
-		if (CheckCommandAccess(i, "sm_sourcesleuth_printtoadmins", ADMFLAG_BAN) && IsClientInGame(i))
+		if (IsClientInGame(i) && CheckCommandAccess(i, "sm_sourcesleuth_printtoadmins", ADMFLAG_BAN))
 		{
+			SetGlobalTransTarget(i);
+
 			VFormat(g_Buffer, sizeof(g_Buffer), format, 2);
 
 			PrintToChat(i, "%s", g_Buffer);
@@ -256,14 +259,14 @@ public LoadWhiteList()
 {
 	decl String:path[PLATFORM_MAX_PATH], String:line[256];
 
-	BuildPath(Path_SM, path, PLATFORM_MAX_PATH, "configs/sourcesleuth_whitelist.cfg");
+	BuildPath(Path_SM, path, PLATFORM_MAX_PATH, "configs/sourcebans/sourcesleuth_whitelist.cfg");
 
 	new Handle:fileHandle = OpenFile(path, "r");
-	
+
 	if (fileHandle == INVALID_HANDLE)
 	{
-		LogError("Could not find the config file (addons/sourcemod/configs/sourcesleuth_whitelist.cfg)");
-		
+		LogError("Could not find the config file (%s)", path);
+
 		return;
 	}
 

@@ -42,7 +42,7 @@
 // Do not edit below this line //
 //-----------------------------//
 
-#define PLUGIN_VERSION "1.6.0"
+#define PLUGIN_VERSION "1.6.3"
 #define PREFIX "\x04[SourceComms++]\x01 "
 
 #define MAX_TIME_MULTI 30 // maximum mass-target punishment length
@@ -161,7 +161,7 @@ public Plugin:myinfo =
 	author = "Alex, SourceBans++ Dev Team",
 	description = "Advanced punishments management for the Source engine in SourceBans style",
 	version = PLUGIN_VERSION,
-	url = "https://sbpp.sarabveer.me/"
+	url = "https://sbpp.github.io"
 };
 
 public APLRes:AskPluginLoad2(Handle:myself, bool:late, String:error[], err_max)
@@ -174,7 +174,7 @@ public APLRes:AskPluginLoad2(Handle:myself, bool:late, String:error[], err_max)
 	g_hFwd_OnPlayerPunished = CreateGlobalForward("SourceComms_OnBlockAdded", ET_Ignore, Param_Cell, Param_Cell, Param_Cell, Param_Cell, Param_String);
 
 	MarkNativeAsOptional("SQL_SetCharset");
-	RegPluginLibrary("sourcecomms");
+	RegPluginLibrary("sourcecomms++");
 	return APLRes_Success;
 }
 
@@ -1241,25 +1241,22 @@ public Query_AddBlockInsert(Handle:owner, Handle:hndl, const String:error[], any
 
 	decl String:reason[256];
 
-	new iAdmin			= ReadPackCell(data);
-	if (iAdmin) {
-		iAdmin = GetClientOfUserId(iAdmin);
-		if (!iAdmin) {
-			iAdmin = -1;
-		}
+	new iAdminUserId = ReadPackCell(data);
+	new iAdmin = 0;
+
+	if(iAdminUserId > 0) {
+		iAdmin = GetClientOfUserId(iAdminUserId);
 	}
-	
-	new iTarget			= GetClientOfUserId(ReadPackCell(data));
+
+	new iTarget = GetClientOfUserId(ReadPackCell(data));
+
 	if (!iTarget) {
 		iTarget = -1;
 	}
 
-	new Handle:hFData	= Handle:ReadPackCell(data);
-
-	ResetPack(hFData);
-	new length			= ReadPackCell(hFData);
-	new type			= ReadPackCell(hFData);
-	ReadPackString(hFData, reason, sizeof(reason));
+	new length = ReadPackCell(data);
+	new type = ReadPackCell(data);
+	ReadPackString(data, reason, sizeof(reason));
 
 	// Fire forward
 	Call_StartForward(g_hFwd_OnPlayerPunished);
@@ -1275,15 +1272,14 @@ public Query_AddBlockInsert(Handle:owner, Handle:hndl, const String:error[], any
 		LogError("Query_AddBlockInsert failed: %s", error);
 
 		decl String:name[MAX_NAME_LENGTH], String:auth[64], String:adminAuth[32], String:adminIp[20];
-		ReadPackString(hFData, name, sizeof(name));
-		ReadPackString(hFData, auth, sizeof(auth));
-		ReadPackString(hFData, adminAuth, sizeof(adminAuth));
-		ReadPackString(hFData, adminIp, sizeof(adminIp));
+		ReadPackString(data, name, sizeof(name));
+		ReadPackString(data, auth, sizeof(auth));
+		ReadPackString(data, adminAuth, sizeof(adminAuth));
+		ReadPackString(data, adminIp, sizeof(adminIp));
 
 		InsertTempBlock(length, type, name, auth, reason, adminAuth, adminIp);
 	}
 	CloseHandle(data);
-	CloseHandle(hFData);
 }
 
 public Query_UnBlockSelect(Handle:owner, Handle:hndl, const String:error[], any:data)
@@ -1469,13 +1465,13 @@ public Query_UnBlockSelect(Handle:owner, Handle:hndl, const String:error[], any:
 			if (type == TYPE_UNSILENCE)
 			{
 				// check result for possible combination with temp and time punishments (temp was skipped in code above)
-				
+
 				#if SOURCEMOD_V_MAJOR >= 1 && SOURCEMOD_V_MINOR >= 8
 					SetPackPosition(data, view_as<DataPackPos>(16));
 				#else
 					SetPackPosition(data, 16);
 				#endif
-				
+
 				if (g_MuteType[target] > bNot)
 				{
 					WritePackCell(data, TYPE_UNMUTE);
@@ -1693,7 +1689,20 @@ public Query_VerifyBlock(Handle:owner, Handle:hndl, const String:error[], any:us
 			{
 				case TYPE_MUTE:
 				{
-					if (g_MuteType[client] < bTime)
+					//Set mute type based on length
+					if (length > 0)
+						g_MuteType[client] = bTime;
+					else if (length == 0)
+						g_MuteType[client] = bPerm;
+					else
+						g_MuteType[client] = bSess;
+
+					//Perform mute/unmute
+					if (g_MuteType[client] == bSess)
+					{
+						PerformUnMute(client);
+					}
+					else if (g_MuteType[client] > bSess)
 					{
 						PerformMute(client, time, length / 60, sAdmName, sAdmAuth, immunity, sReason, remaining_time);
 						PrintToChat(client, "%s%t", PREFIX, "Muted on connect");
@@ -1701,7 +1710,20 @@ public Query_VerifyBlock(Handle:owner, Handle:hndl, const String:error[], any:us
 				}
 				case TYPE_GAG:
 				{
-					if (g_GagType[client] < bTime)
+					//Set gag type based on length
+					if (length > 0)
+						g_GagType[client] = bTime;
+					else if (length == 0)
+						g_GagType[client] = bPerm;
+					else
+						g_GagType[client] = bSess;
+
+					//Perform gag/ungag
+					if (g_GagType[client] == bSess)
+					{
+						PerformUnGag(client);
+					}
+					else if (g_GagType[client] > bSess)
 					{
 						PerformGag(client, time, length / 60, sAdmName, sAdmAuth, immunity, sReason, remaining_time);
 						PrintToChat(client, "%s%t", PREFIX, "Gagged on connect");
@@ -1733,9 +1755,12 @@ public Action:ClientRecheck(Handle:timer, any:userid)
 	g_hPlayerRecheck[client] = INVALID_HANDLE;
 }
 
-public Action:Timer_MuteExpire(Handle:timer, any:userid)
+public Action:Timer_MuteExpire(Handle:timer, Handle:hPack)
 {
-	new client = GetClientOfUserId(userid);
+	ResetPack(hPack);
+	g_hMuteExpireTimer[ReadPackCell(hPack)] = INVALID_HANDLE;
+
+	new client = GetClientOfUserId(ReadPackCell(hPack));
 	if (!client)
 		return;
 
@@ -1747,15 +1772,17 @@ public Action:Timer_MuteExpire(Handle:timer, any:userid)
 
 	PrintToChat(client, "%s%t", PREFIX, "Mute expired");
 
-	g_hMuteExpireTimer[client] = INVALID_HANDLE;
 	MarkClientAsUnMuted(client);
 	if (IsClientInGame(client))
 		BaseComm_SetClientMute(client, false);
 }
 
-public Action:Timer_GagExpire(Handle:timer, any:userid)
+public Action:Timer_GagExpire(Handle:timer, Handle:hPack)
 {
-	new client = GetClientOfUserId(userid);
+	ResetPack(hPack);
+	g_hGagExpireTimer[ReadPackCell(hPack)] = INVALID_HANDLE;
+
+	new client = GetClientOfUserId(ReadPackCell(hPack));
 	if (!client)
 		return;
 
@@ -1767,7 +1794,6 @@ public Action:Timer_GagExpire(Handle:timer, any:userid)
 
 	PrintToChat(client, "%s%t", PREFIX, "Gag expired");
 
-	g_hGagExpireTimer[client] = INVALID_HANDLE;
 	MarkClientAsUnGagged(client);
 	if (IsClientInGame(client))
 		BaseComm_SetClientGag(client, false);
@@ -2847,10 +2873,15 @@ stock CreateMuteExpireTimer(target, remainingTime = 0)
 {
 	if (g_iMuteLength[target] > 0)
 	{
+		new Handle:hPack;
+
 		if (remainingTime)
-			g_hMuteExpireTimer[target] = CreateTimer(float(remainingTime), Timer_MuteExpire, GetClientUserId(target), TIMER_FLAG_NO_MAPCHANGE);
+			g_hMuteExpireTimer[target] = CreateDataTimer(float(remainingTime), Timer_MuteExpire, hPack, TIMER_FLAG_NO_MAPCHANGE);
 		else
-			g_hMuteExpireTimer[target] = CreateTimer(float(g_iMuteLength[target] * 60), Timer_MuteExpire, GetClientUserId(target), TIMER_FLAG_NO_MAPCHANGE);
+			g_hMuteExpireTimer[target] = CreateDataTimer(float(g_iMuteLength[target] * 60), Timer_MuteExpire, hPack, TIMER_FLAG_NO_MAPCHANGE);
+
+		WritePackCell(hPack, target);
+		WritePackCell(hPack, GetClientUserId(target));
 	}
 }
 
@@ -2858,10 +2889,15 @@ stock CreateGagExpireTimer(target, remainingTime = 0)
 {
 	if (g_iGagLength[target] > 0)
 	{
+		new Handle:hPack;
+
 		if (remainingTime)
-			g_hGagExpireTimer[target] = CreateTimer(float(remainingTime), Timer_GagExpire, GetClientUserId(target), TIMER_FLAG_NO_MAPCHANGE);
+			g_hGagExpireTimer[target] = CreateDataTimer(float(remainingTime), Timer_GagExpire, hPack, TIMER_FLAG_NO_MAPCHANGE);
 		else
-			g_hGagExpireTimer[target] = CreateTimer(float(g_iGagLength[target] * 60), Timer_GagExpire, GetClientUserId(target), TIMER_FLAG_NO_MAPCHANGE);
+			g_hGagExpireTimer[target] = CreateDataTimer(float(g_iGagLength[target] * 60), Timer_GagExpire, hPack, TIMER_FLAG_NO_MAPCHANGE);
+
+		WritePackCell(hPack, target);
+		WritePackCell(hPack, GetClientUserId(target));
 	}
 }
 
@@ -2987,11 +3023,9 @@ stock SavePunishment(admin = 0, target, type, length = -1, const String:reason[]
 		#endif
 
 		// all data cached before calling asynchronous functions
-		new Handle:dataPackFwd	= CreateDataPack();
-		new Handle:dataPack		= CreateDataPack();
-		WritePackCell(dataPackFwd, admin);
-		WritePackCell(dataPackFwd, target);
-		WritePackCell(dataPackFwd, _:dataPack);
+		new Handle:dataPack = CreateDataPack();
+		WritePackCell(dataPack, admin > 0 ? GetClientUserId(admin) : 0);
+		WritePackCell(dataPack, GetClientUserId(target));
 		WritePackCell(dataPack, length);
 		WritePackCell(dataPack, type);
 		WritePackString(dataPack, reason);
@@ -3000,7 +3034,7 @@ stock SavePunishment(admin = 0, target, type, length = -1, const String:reason[]
 		WritePackString(dataPack, adminAuth);
 		WritePackString(dataPack, adminIp);
 
-		SQL_TQuery(g_hDatabase, Query_AddBlockInsert, sQuery, dataPackFwd, DBPrio_High);
+		SQL_TQuery(g_hDatabase, Query_AddBlockInsert, sQuery, dataPack, DBPrio_High);
 	}
 	else
 		InsertTempBlock(length, type, sName, targetAuth, reason, adminAuth, adminIp);
@@ -3099,58 +3133,62 @@ stock ShowActivityToServer(admin, type, length = 0, String:reason[] = "", String
 }
 
 // Natives //
-public Native_SetClientMute(Handle:hPlugin, numParams)
+public Native_SetClientMute(Handle hPlugin, int numParams)
 {
-	new target = GetNativeCell(1);
-	if (target < 1 || target > MaxClients)
-	{
-		return ThrowNativeError(SP_ERROR_NATIVE, "Invalid client index %d", target);
-	}
+    int target = GetNativeCell(1);
+    if (target < 1 || target > MaxClients)
+    {
+        ThrowNativeError(SP_ERROR_NATIVE, "Invalid client index %d", target);
+        return false;
+    }
 
-	if (!IsClientInGame(target))
-	{
-		return ThrowNativeError(SP_ERROR_NATIVE, "Client %d is not in game", target);
-	}
+    if (!IsClientInGame(target))
+    {
+        ThrowNativeError(SP_ERROR_NATIVE, "Client %d is not in game", target);
+        return false;
+    }
 
-	new bool:muteState = GetNativeCell(2);
-	new muteLength = GetNativeCell(3);
-	if (muteState && muteLength == 0)
-	{
-		return ThrowNativeError(SP_ERROR_NATIVE, "Permanent mute is not allowed!");
-	}
+    bool muteState = bool:GetNativeCell(2);
+    int muteLength = GetNativeCell(3);
 
-	new bool:bSaveToDB = GetNativeCell(4);
-	if (!muteState && bSaveToDB)
-	{
-		return ThrowNativeError(SP_ERROR_NATIVE, "Removing punishments from DB is not allowed!");
-	}
+    if (muteState && muteLength == 0)
+    {
+        ThrowNativeError(SP_ERROR_NATIVE, "Permanent mute is not allowed!");
+        return false;
+    }
 
-	new String:sReason[256];
-	GetNativeString(5, sReason, sizeof(sReason));
+    bool bSaveToDB = bool:GetNativeCell(4);
+    if (!muteState && bSaveToDB)
+    {
+        ThrowNativeError(SP_ERROR_NATIVE, "Removing punishments from DB is not allowed!");
+        return false;
+    }
 
-	if (muteState)
-	{
-		if (g_MuteType[target] > bNot)
-		{
-			return false;
-		}
+    char sReason[256];
+    GetNativeString(5, sReason, sizeof(sReason));
 
-		PerformMute(target, _, muteLength, _, _, _, sReason);
+    if (muteState)
+    {
+        if (g_MuteType[target] > bNot)
+        {
+            return false;
+        }
 
-		if (bSaveToDB)
-			SavePunishment(_, target, TYPE_MUTE, muteLength, sReason);
-	}
-	else
-	{
-		if (g_MuteType[target] == bNot)
-		{
-			return false;
-		}
+        PerformMute(target, _, muteLength, _, _, _, sReason);
+        if (bSaveToDB)
+            SavePunishment(_, target, TYPE_MUTE, muteLength, sReason);
+    }
+    else
+    {
+        if (g_MuteType[target] == bNot)
+        {
+            return false;
+        }
 
-		PerformUnMute(target);
-	}
+        PerformUnMute(target);
+    }
 
-	return true;
+    return true;
 }
 
 public Native_SetClientGag(Handle:hPlugin, numParams)

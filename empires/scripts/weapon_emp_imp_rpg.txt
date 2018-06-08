@@ -6,7 +6,7 @@ WeaponData
 	"CycleTime"			"3"		// time between shoots
 
 	//Explosive-specific values
-	"Velocity"			"1500"		// Rocket velocity
+	"Velocity"				"1800"		// Rocket velocity
 	"Turning Speed"			"1.5"		// Turning speed (0-1)
 	"Explosion Force"		"100"		// Explosion push force
 	"Explosion Radius"		"50"		// Explosion radius

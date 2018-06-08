@@ -54,14 +54,14 @@
 	"Silent"	"0"
 	"Url"		"http://xiaminou.ddns.net/sourcebans/index.php"
 }
-"Report"
-{
-	"Title"		"Report"
-	"Hook"		"!report"
-	"Hook"		"/report"
-	"Silent"	"0"
-	"Url"		"http://xiaminou.ddns.net/sourcebans/index.php?p=submit"
-}
+//"Report"
+//{
+//	"Title"		"Report"
+//	"Hook"		"!report"
+//	"Hook"		"/report"
+//	"Silent"	"0"
+//	"Url"		"http://xiaminou.ddns.net/sourcebans/index.php?p=submit"
+//}
 "Appeal"
 {
 	"Title"		"Appeal"
@@ -173,4 +173,12 @@
 	"Hook"		"/changelog"
 	"Silent"	"0"
 	"Url"		"https://github.com/Xiaminou/HardcoreEmpires/wiki/changelog"
+}
+"Mappack"
+{
+	"Title"		"mappack"
+	"Hook"		"!mappack"
+	"Hook"		"/mappack"
+	"Silent"	"0"
+	"Url"		"http://xiaminou.ddns.net/empires.rar"
 }

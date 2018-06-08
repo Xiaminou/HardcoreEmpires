@@ -1,6 +1,6 @@
 #include <sourcemod>
 #include <calladmin>
-#include <discord>
+#include "include/discord.inc"
 
 #define PLUGIN_VERSION "1.1"
 
@@ -102,10 +102,12 @@ public Action Cmd_Claim(int client, int args)
 	
 	char sRemove[32];
 	g_cRemove.GetString(sRemove, sizeof(sRemove));
-	ReplaceString(g_sServerName, sizeof(g_sServerName), sRemove, "");
+	if (!StrEqual(sRemove, ""))
+		ReplaceString(g_sServerName, sizeof(g_sServerName), sRemove, "");
 	
 	g_cRemove2.GetString(sRemove, sizeof(sRemove));
-	ReplaceString(g_sServerName, sizeof(g_sServerName), sRemove, "");
+	if (!StrEqual(sRemove, ""))
+		ReplaceString(g_sServerName, sizeof(g_sServerName), sRemove, "");
 	
 	Discord_EscapeString(g_sServerName, sizeof(g_sServerName));
 	

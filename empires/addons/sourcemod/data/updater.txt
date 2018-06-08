@@ -4,7 +4,7 @@
 	{
 		"Version"
 		{
-			"Latest"	"v0.88"
+			"Latest"	"v0.95"
 		}
 	}
 	
@@ -18,7 +18,16 @@
 		"Plugin"	"Path_Mod/sound/squadcontrol/squadleader_alert.wav"
 		"Plugin"	"Path_Mod/sound/squadcontrol/squadvoice_end.wav"
 		"Plugin"	"Path_Mod/sound/squadcontrol/squadvoice_start.wav"
-		
+		"Plugin"	"Path_Mod/sound/squadcontrol/requests/targets.mp3"
+		"Plugin"	"Path_Mod/sound/squadcontrol/requests/squadlead.mp3"
+		"Plugin"	"Path_Mod/sound/squadcontrol/requests/refinery.mp3"
+		"Plugin"	"Path_Mod/sound/squadcontrol/requests/barracks.mp3"
+		"Plugin"	"Path_Mod/sound/squadcontrol/requests/armory.mp3"
+		"Plugin"	"Path_Mod/sound/squadcontrol/requests/vehiclefactory.mp3"
+		"Plugin"	"Path_Mod/sound/squadcontrol/requests/repairstation.mp3"
+		"Plugin"	"Path_Mod/sound/squadcontrol/requests/turrets.mp3"
+		"Plugin"	"Path_Mod/sound/squadcontrol/requests/walls.mp3"
+		"Plugin"	"Path_Mod/sound/squadcontrol/requests/radar.mp3"
 		
 		"Source"	"Path_Mod/addons/sourcemod/scripting/squadcontrol.sp"
 	}

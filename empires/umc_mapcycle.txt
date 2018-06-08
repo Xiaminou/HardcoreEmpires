@@ -4,7 +4,7 @@
 {
     "Commander Maps"
     {
-        "maps_invote"   "6"
+        "maps_invote"   "7"
 		
 		"emp_arid_hce"
 		{
@@ -27,7 +27,7 @@
 			"display"		"emp_blackmountain"
 		}
 		
-		"emp_blah4_fix"
+		"emp_blah4_hce"
 		{
 			"min_players"	"14"
 			"max_players"	"32"
@@ -83,7 +83,7 @@
 			"display"		"emp_downfall"
 		}
 		
-		"emp_drygulch_a6"
+		"emp_drygulch_a7"
 		{
 			"min_players"	"0"
 			"max_players"	"22"
@@ -111,7 +111,7 @@
 			"display"		"emp_flat"
 		}
 		
-		"emp_forest_ob_2013_fix"
+		"emp_forest_ob_2013_hce"
 		{
 			"min_players"	"26"
 			"max_players"	"52"
@@ -125,7 +125,7 @@
 			"display"		"emp_frozensummit"
 		}
 		
-		"emp_fuel_a3_2013_fix"
+		"emp_fuel_a3_2013_hce"
 		{
 			"min_players"	"26"
 			"max_players"	"52"
@@ -155,8 +155,8 @@
 		
 		"emp_homeland_b9_hce"
 		{
-			"min_players"	"20"
-			"max_players"	"42"
+			"min_players"	"14"
+			"max_players"	"32"
 			"display"		"emp_homeland"
 		}
 		
@@ -167,12 +167,12 @@
 			"display"		"emp_insurrection"
 		}
 		
-		"emp_isle"
-		{
-			"min_players"	"14"
-			"max_players"	"32"
-			"display"		"emp_isle"
-		}
+//		"emp_isle"
+//		{
+//			"min_players"	"14"
+//			"max_players"	"32"
+//			"display"		"emp_isle"
+//		}
 		
 		"emp_king_r5_nosplt"
 		{
@@ -216,10 +216,10 @@
 			"display"		"emp_palmbay"
 		}
 		
-		"emp_plunge_ob2_2013_hce"
+		"emp_plunge_ob2_2013_hce2"
 		{
-			"min_players"	"14"
-			"max_players"	"32"
+			"min_players"	"20"
+			"max_players"	"42"
 			"display"		"emp_plunge"
 		}
 		
@@ -237,13 +237,19 @@
 			"display"		"emp_research"
 		}
 		
-		"emp_silo_rc5_fix"
+		"emp_silo_rc5_hce"
 		{
 			"min_players"	"20"
 			"max_players"	"42"
 			"display"		"emp_silo"
 		}
 		
+		"emp_smokies_rc2_hce"
+		{
+			"min_players"	"20"
+			"max_players"	"42"
+			"display"		"emp_smokies"
+		}
 		
 //		"emp_snowbound_cl6_hce"
 //		{
@@ -252,7 +258,7 @@
 //			"display"		"emp_snowbound"
 //		}
 		
-		"emp_snowstorm_rc6_hce"
+		"emp_snowstorm_rc6"
 		{
 			"min_players"	"14"
 			"max_players"	"32"
@@ -318,8 +324,10 @@
 		{
 			"max_players"	"20"
 		}	
+		
 		"emp_fogtown_cl2_fix"
 		{
+			"min_players"	"10"
 			"max_players"	"20"
 			"display"		"con_fogtown"
 		}
@@ -327,16 +335,19 @@
 		"con_glycencity"
 		{
 			"max_players"	"20"
+			"display"		"con_glycencity"
 		}
 		
 		"emp_havoc_b1_fix"
 		{
+			"min_players"	"6"
 			"max_players"	"20"
 			"display"		"con_havoc"
 		}
 		
 		"emp_shadows_attacks_fix"
 		{
+			"min_players"	"4"
 			"max_players"	"20"
 			"display"		"con_shadows_attacks"
 		}
@@ -362,7 +373,7 @@
 	}
 	"Cooldown Maps"
 	{
-		"maps_invote"	"1"
+		"maps_invote"	"0"
 		
 		"min_players"	"0"
 		"max_players"	"64"
