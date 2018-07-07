@@ -550,27 +550,6 @@
 		//"border" "DebugBorder"
 		//"paintborder" 1
 	}
-
-	HudVehicleCrosshair
-	{
-		// Element type settings
-		"fieldName" "HudVehicleCrosshair"
-		"type" "javascript"
-		"res" "resource/ui/emp_hud_vehicle_crosshair.res"
-		"src" "resource/ui/emp_hud_vehicle_crosshair.js"
-		"paintbackground" 0
-		"paintborder" 0
-		
-		"xpos" "c-50"
-		"ypos" "c-50"
-		"wide"	"100"
-		"tall"	"100"
-		"autoResize" "0"
-
-		// debug border
-		//"border" "DebugBorder"
-		//"paintborder" 1
-	}
 	
 	EmpCommWarnHud
 	{
