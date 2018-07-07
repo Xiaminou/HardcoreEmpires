@@ -1365,7 +1365,7 @@ Vehicle_Weapons
 		"Damage Type"		"Missile"
 		"Ammo Type"		"0"		//for mguns only, 0 = nonarmor penetrating (no effect on armored vehicles), 1 = armor penetrating (hurts armored vehicles)
 		"Damage"		"40"		//damage done by projectile
-		"Speed"			"1600"		//speed of projectile
+		"Speed"			"2300"		//speed of projectile
 		"Gravity"		"0"		//effects of gravity on the projectile, only for projectiles
 		"Heat"			"6"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status).
 		"Weight"		"30"		//weight in terms of effects on engine and weight restrictions for chassis
@@ -1408,7 +1408,7 @@ Vehicle_Weapons
 		"Damage Type"		"Missile"
 		"Ammo Type"		"0"		//for mguns only, 0 = nonarmor penetrating (no effect on armored vehicles), 1 = armor penetrating (hurts armored vehicles)
 		"Damage"		"60"		//damage done by projectile
-		"Speed"			"2500"		//speed of projectile
+		"Speed"			"2800"		//speed of projectile
 		"Gravity"		"0"		//effects of gravity on the projectile, only for projectiles
 		"Heat"			"8"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status).
 		"Weight"		"70"		//weight in terms of effects on engine and weight restrictions for chassis
@@ -1460,7 +1460,7 @@ Vehicle_Weapons
 		"Damage Type"		"Missile"
 		"Ammo Type"		"0"		//for mguns only, 0 = nonarmor penetrating (no effect on armored vehicles), 1 = armor penetrating (hurts armored vehicles)
 		"Damage"		"66"		//damage done by projectile
-		"Speed"			"2650"		//speed of projectile
+		"Speed"			"3000"		//speed of projectile
 		"Gravity"		"0"		//effects of gravity on the projectile, only for projectiles
 		"Heat"			"8.5"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status).
 		"Weight"		"80"		//weight in terms of effects on engine and weight restrictions for chassis
@@ -1512,7 +1512,7 @@ Vehicle_Weapons
 		"Damage Type"		"Missile"
 		"Ammo Type"		"0"		//for mguns only, 0 = nonarmor penetrating (no effect on armored vehicles), 1 = armor penetrating (hurts armored vehicles)
 		"Damage"		"50"		//damage done by projectile
-		"Speed"			"1800"		//speed of projectile
+		"Speed"			"2400"		//speed of projectile
 		"Gravity"		"0"		//effects of gravity on the projectile, only for projectiles
 		"Heat"			"6"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status).
 		"Weight"		"70"		//weight in terms of effects on engine and weight restrictions for chassis
@@ -1567,7 +1567,7 @@ Vehicle_Weapons
 		"Damage Type"		"Missile"
 		"Ammo Type"		"0"		//for mguns only, 0 = nonarmor penetrating (no effect on armored vehicles), 1 = armor penetrating (hurts armored vehicles)
 		"Damage"		"53"		//damage done by projectile
-		"Speed"			"1850"		//speed of projectile
+		"Speed"			"2500"		//speed of projectile
 		"Gravity"		"0"		//effects of gravity on the projectile, only for projectiles
 		"Heat"			"8"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status).
 		"Weight"		"80"		//weight in terms of effects on engine and weight restrictions for chassis
@@ -1622,7 +1622,7 @@ Vehicle_Weapons
 		"Damage Type"		"MissileExplosive"
 		"Ammo Type"		"0"		//for mguns only, 0 = nonarmor penetrating (no effect on armored vehicles), 1 = armor penetrating (hurts armored vehicles)
 		"Damage"		"300"		//damage done by projectile
-		"Speed"			"1000"		//speed of projectile
+		"Speed"			"1100"		//speed of projectile
 		"Gravity"		"0"		//effects of gravity on the projectile, only for projectiles
 		"Heat"			"75"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status).
 		"Weight"		"150"		//weight in terms of effects on engine and weight restrictions for chassis
@@ -1669,7 +1669,7 @@ Vehicle_Weapons
 		"Damage Type"		"Missile"
 		"Ammo Type"		"0"		//for mguns only, 0 = nonarmor penetrating (no effect on armored vehicles), 1 = armor penetrating (hurts armored vehicles)
 		"Damage"		"35"		//damage done by projectile
-		"Speed"			"1800"		//speed of projectile
+		"Speed"			"2100"		//speed of projectile
 		"Gravity"		"0"		//effects of gravity on the projectile, only for projectiles
 		"Heat"			"4"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status).
 		"Weight"		"60"		//weight in terms of effects on engine and weight restrictions for chassis
@@ -1712,7 +1712,7 @@ Vehicle_Weapons
 		"Damage Type"		"Missile"
 		"Ammo Type"		"0"		//for mguns only, 0 = nonarmor penetrating (no effect on armored vehicles), 1 = armor penetrating (hurts armored vehicles)
 		"Damage"		"34"		//damage done by projectile
-		"Speed"			"1800"		//speed of projectile
+		"Speed"			"2200"		//speed of projectile
 		"Gravity"		"0"		//effects of gravity on the projectile, only for projectiles
 		"Heat"			"3.75"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status).
 		"Weight"		"80"		//weight in terms of effects on engine and weight restrictions for chassis
@@ -1755,7 +1755,7 @@ Vehicle_Weapons
 		"Damage Type"		"Missile"
 		"Ammo Type"		"0"		//for mguns only, 0 = nonarmor penetrating (no effect on armored vehicles), 1 = armor penetrating (hurts armored vehicles)
 		"Damage"		"70"		//damage done by projectile
-		"Speed"			"1400"		//speed of projectile
+		"Speed"			"2000"		//speed of projectile
 		"Gravity"		"0"		//effects of gravity on the projectile, only for projectiles
 		"Heat"			"7.5"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status).
 		"Weight"		"70"		//weight in terms of effects on engine and weight restrictions for chassis
@@ -1799,7 +1799,7 @@ Vehicle_Weapons
 		"Damage Type"		"Missile"
 		"Ammo Type"		"0"		//for mguns only, 0 = nonarmor penetrating (no effect on armored vehicles), 1 = armor penetrating (hurts armored vehicles)
 		"Damage"		"75"		//damage done by projectile
-		"Speed"			"1550"		//speed of projectile
+		"Speed"			"2100"		//speed of projectile
 		"Gravity"		"0"		//effects of gravity on the projectile, only for projectiles
 		"Heat"			"8.5"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status).
 		"Weight"		"80"		//weight in terms of effects on engine and weight restrictions for chassis
@@ -1935,7 +1935,7 @@ Vehicle_Weapons
 		"Damage Type"		"Missile"
 		"Ammo Type"		"0"		//for mguns only, 0 = nonarmor penetrating (no effect on armored vehicles), 1 = armor penetrating (hurts armored vehicles)
 		"Damage"		"40"		//damage done by projectile
-		"Speed"			"1400"		//speed of projectile
+		"Speed"			"2300"		//speed of projectile
 		"Gravity"		"0"		//effects of gravity on the projectile, only for projectiles
 		"Heat"			"4"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status).
 		"Weight"		"100"		//weight in terms of effects on engine and weight restrictions for chassis
