@@ -1000,7 +1000,7 @@ Vehicle_Weapons
 		"Heat"			"6"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status).
 		"Weight"		"60"		//weight in terms of effects on engine and weight restrictions for chassis
 		"Cycle Time"		"1"		//time between shots (all weapons other than MGs have limits of 0.1 as lowest)
-		"Clip Size"		"35"		//ammo loaded per reloads
+		"Clip Size"		"50"		//ammo loaded per reloads
 		"Total Ammo Clips"	"0"		//max ammo clips carried (0 is the same as not using clips)
 		"Unlimited Ammo"	"0"
 		"Reload Time"		"0"		//time to load one clip
@@ -1044,7 +1044,7 @@ Vehicle_Weapons
 		"Heat"			"7"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status).
 		"Weight"		"80"		//weight in terms of effects on engine and weight restrictions for chassis
 		"Cycle Time"		"1"		//time between shots (all weapons other than MGs have limits of 0.1 as lowest)
-		"Clip Size"		"35"		//ammo loaded per reloads
+		"Clip Size"		"50"		//ammo loaded per reloads
 		"Total Ammo Clips"	"0"		//max ammo clips carried (0 is the same as not using clips)
 		"Unlimited Ammo"	"0"
 		"Reload Time"		"0"		//time to load one clip
