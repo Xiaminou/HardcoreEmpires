@@ -125,19 +125,20 @@
 			"display"		"emp_frozensummit"
 		}
 		
-		"emp_fuel_a3_2013_hce"
+		"emp_fuel_a3_2013_hce2"
 		{
 			"min_players"	"26"
 			"max_players"	"52"
 			"display"		"emp_fuel"
 		}
-		
-		"emp_fury_rc1"
-		{
-			"min_players"	"32"
-			"max_players"	"52"
-			"display"		"emp_fury"
-		}
+
+//		Disabled: Quicksand
+//		"emp_fury_rc1"
+//		{
+//			"min_players"	"32"
+//			"max_players"	"52"
+//			"display"		"emp_fury"
+//		}
 		
 		"emp_glacial_b2"
 		{
@@ -167,12 +168,12 @@
 			"display"		"emp_insurrection"
 		}
 		
-//		"emp_isle"
-//		{
-//			"min_players"	"14"
-//			"max_players"	"32"
-//			"display"		"emp_isle"
-//		}
+		"emp_isle_hce"
+		{
+			"min_players"	"26"
+			"max_players"	"52"
+			"display"		"emp_isle"
+		}
 		
 		"emp_king_r5_nosplt"
 		{
@@ -216,16 +217,16 @@
 			"display"		"emp_palmbay"
 		}
 		
-		"emp_plunge_ob2_2013_hce2"
-		{
-			"min_players"	"20"
-			"max_players"	"42"
-			"display"		"emp_plunge"
-		}
+//		"emp_plunge_ob2_2013_hce2"			//Disabled: Too Many Bad Displacements
+//		{
+//			"min_players"	"20"
+//			"max_players"	"42"
+//			"display"		"emp_plunge"
+//		}
 		
 		"emp_raiders_b1"
 		{
-			"min_players"	"32"
+			"min_players"	"26"
 			"max_players"	"52"
 			"display"		"emp_raiders"
 		}
@@ -250,7 +251,8 @@
 			"max_players"	"42"
 			"display"		"emp_smokies"
 		}
-		
+
+//		Disabled: Missing Textures
 //		"emp_snowbound_cl6_hce"
 //		{
 //			"min_players"	"20"
@@ -359,7 +361,7 @@
 			"display"		"as_nuclear"
 		}
 		
-		"con_urbanchaos"
+		"con_urbanchaos_fix"
 		{
 			"max_players"	"20"
 			"display"		"con_urbanchaos"
