@@ -39,8 +39,8 @@ WeaponData
 	"AllowFlipping"			"1" 
 
 	"MeleeWeapon"			"0"
-	"MeleeDamage"			"70"	// damage per melee hit
-	"MeleeCycleTime"		"0.5"	// time between melee attacks
+	"MeleeDamage"			"40"	// damage per melee hit
+	"MeleeCycleTime"		"0.4"	// time between melee attacks
 
 	//Accuracy Upgrade Modifier. Default is 0.75. The lower the better.
 	"AccuracyUpgradeModifier"	"0.90"
