@@ -1754,7 +1754,7 @@ Vehicle_Weapons
 
 		"Damage Type"		"Missile"
 		"Ammo Type"		"0"		//for mguns only, 0 = nonarmor penetrating (no effect on armored vehicles), 1 = armor penetrating (hurts armored vehicles)
-		"Damage"		"70"		//damage done by projectile
+		"Damage"		"66"		//damage done by projectile
 		"Speed"			"2000"		//speed of projectile
 		"Gravity"		"0"		//effects of gravity on the projectile, only for projectiles
 		"Heat"			"7.5"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status).
@@ -1798,7 +1798,7 @@ Vehicle_Weapons
 
 		"Damage Type"		"Missile"
 		"Ammo Type"		"0"		//for mguns only, 0 = nonarmor penetrating (no effect on armored vehicles), 1 = armor penetrating (hurts armored vehicles)
-		"Damage"		"75"		//damage done by projectile
+		"Damage"		"70"		//damage done by projectile
 		"Speed"			"2100"		//speed of projectile
 		"Gravity"		"0"		//effects of gravity on the projectile, only for projectiles
 		"Heat"			"8.5"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status).
@@ -1847,7 +1847,7 @@ Vehicle_Weapons
 		"Gravity"		"0"		//effects of gravity on the projectile, only for projectiles
 		"Heat"			"10"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status).
 		"Weight"		"70"		//weight in terms of effects on engine and weight restrictions for chassis
-		"Cycle Time"		"1.0"		//time between shots
+		"Cycle Time"		"1.1"		//time between shots
 		"Clip Size"		"7"		//ammo loaded per reloads
 		"Total Ammo Clips"	"6"		//max ammo clips carried (0 is the same as not using clips)
 		"Unlimited Ammo"	"0"
@@ -1864,7 +1864,7 @@ Vehicle_Weapons
 		"Homing Missile"	"1"		//'1' if missile flies towards locked on target
 		"Guided Missile"	"0"		//'1' if missile follows crosshairs after launch
 		"Missile Range"		"5000"		//max range in HL2 units (1 inch = 1) that the player can lock onto a target with a homing missile, or range from vehicle being fired from when a guided missile stops following the player's crosshairs
-		"Lock On Time"		"0.55"		//time it takes for a homing missile to lock onto the target under the player crosshairs
+		"Lock On Time"		"0.4"		//time it takes for a homing missile to lock onto the target under the player crosshairs
 		"Lock On Radius"	"0.4"		//this is an approximation that determines how close a target must be to your crosshair (screen position) before it can begin locking onto (ie a bigger number means that the crosshair doesn't need to be directly over or as close to the target); it defines a box around the crosshair, and a target must be within this box to be homed on and its size decreases with range
 		"Lock Range Modifier"	"0.000300"		//modifies lock on time based on range (as range increases, lock on time increases based on the modifier: modifier * range to target + lock on time = total lock on time)
 		"Countermeasure Effectiveness"	"0.5"		//a percentage (1 = 100%) which determines how likely the missile will lock onto a flare or chaff rather than the actual target when countermeasures are inbetween it and its target. When a flare or chaff is detected in front of the missile, a number between 0.000 and 1.000 is generated.  If the number is less than the effectiveness number, the missile will target the flare/chaff.
@@ -1893,7 +1893,7 @@ Vehicle_Weapons
 		"Gravity"		"0"		//effects of gravity on the projectile, only for projectiles
 		"Heat"			"10"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status).
 		"Weight"		"80"		//weight in terms of effects on engine and weight restrictions for chassis
-		"Cycle Time"		"1.0"		//time between shots
+		"Cycle Time"		"1.1"		//time between shots
 		"Clip Size"		"7"		//ammo loaded per reloads
 		"Total Ammo Clips"	"6"		//max ammo clips carried (0 is the same as not using clips)
 		"Unlimited Ammo"	"0"
