@@ -26,13 +26,14 @@
 			"max_players"	"64"
 			"display"		"emp_blackmountain"
 		}
-		
-		"emp_blah4_hce"
-		{
-			"min_players"	"14"
-			"max_players"	"32"
-			"display"		"emp_blah4"
-		}
+	
+//		Disabled: Too Much Resources	
+//		"emp_blah4_hce"
+//		{
+//			"min_players"	"14"
+//			"max_players"	"32"
+//			"display"		"emp_blah4"
+//		}
 		
 		"emp_bush"
 		{
@@ -55,7 +56,7 @@
 			"display"		"emp_chain"
 		}
 		
-		"emp_coast"
+		"emp_coast_hce"
 		{
 			"min_players"	"20"
 			"max_players"	"42"
@@ -111,7 +112,7 @@
 			"display"		"emp_flat"
 		}
 		
-		"emp_forest_ob_2013_hce"
+		"emp_forest_ob_2013_hce2"
 		{
 			"min_players"	"26"
 			"max_players"	"52"
@@ -154,7 +155,7 @@
 			"display"		"emp_hazard"
 		}
 		
-		"emp_homeland_b9_hce"
+		"emp_homeland_b9_hce2"
 		{
 			"min_players"	"14"
 			"max_players"	"32"
@@ -238,7 +239,7 @@
 			"display"		"emp_research"
 		}
 		
-		"emp_silo_rc5_hce"
+		"emp_silo_rc5_hce2"
 		{
 			"min_players"	"20"
 			"max_players"	"42"
@@ -267,7 +268,7 @@
 			"display"		"emp_snowstorm"
 		}
 		
-		"emp_streetsoffire_fix"
+		"emp_streetsoffire_215"
 		{
 			"min_players"	"14"
 			"max_players"	"32"
@@ -318,13 +319,14 @@
 		
 		"con_blast_ob2"
 		{
-			"max_players"	"20"
+			"max_players"	"10"
 			"display"		"con_blast"
 		}
 		
 		"con_district402"
 		{
-			"max_players"	"20"
+			"max_players"	"10"
+			"display"		"con_district402"
 		}	
 		
 		"emp_fogtown_cl2_fix"
@@ -336,33 +338,35 @@
 		
 		"con_glycencity"
 		{
+			"min_players"	"10"
 			"max_players"	"20"
 			"display"		"con_glycencity"
 		}
 		
 		"emp_havoc_b1_fix"
 		{
-			"min_players"	"6"
+			"min_players"	"10"
 			"max_players"	"20"
 			"display"		"con_havoc"
 		}
 		
 		"emp_shadows_attacks_fix"
 		{
-			"min_players"	"4"
+			"min_players"	"10"
 			"max_players"	"20"
 			"display"		"con_shadows_attacks"
 		}
 		
-		"emp_nuclear_b8u_xfix"
-		{
-			"min_players"	"4"
-			"max_players"	"20"
-			"display"		"as_nuclear"
-		}
+//		"emp_nuclear_b8u_xfix"
+//		{
+//			"min_players"	"4"
+//			"max_players"	"20"
+//			"display"		"as_nuclear"
+//		}
 		
 		"con_urbanchaos_fix"
 		{
+			"min_players"	"10"
 			"max_players"	"20"
 			"display"		"con_urbanchaos"
 		}
@@ -380,8 +384,8 @@
 		"min_players"	"0"
 		"max_players"	"64"
 		
-		"fun_ricochet_a4"
-		{
-		}
+//		"fun_ricochet_a4"
+//		{
+//		}
 	}
 }
