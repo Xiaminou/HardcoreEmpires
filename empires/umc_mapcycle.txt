@@ -245,13 +245,14 @@
 			"max_players"	"42"
 			"display"		"emp_silo"
 		}
-		
-		"emp_smokies_rc2_hce"
-		{
-			"min_players"	"20"
-			"max_players"	"42"
-			"display"		"emp_smokies"
-		}
+
+//		Disabled: Bad Performance, Missing Textures, Boring...		
+//		"emp_smokies_rc2_hce"
+//		{
+//			"min_players"	"20"
+//			"max_players"	"42"
+//			"display"		"emp_smokies"
+//		}
 
 //		Disabled: Missing Textures
 //		"emp_snowbound_cl6_hce"
@@ -327,7 +328,14 @@
 		{
 			"max_players"	"10"
 			"display"		"con_district402"
-		}	
+		}
+
+		"as_escort"
+		{
+			"min_players"	"10"
+			"max_players"	"20"
+			"display"		"as_escort"
+		}			
 		
 		"emp_fogtown_cl2_fix"
 		{
@@ -364,7 +372,7 @@
 //			"display"		"as_nuclear"
 //		}
 		
-		"con_urbanchaos_fix"
+		"con_urbanchaos"
 		{
 			"min_players"	"10"
 			"max_players"	"20"
