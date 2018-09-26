@@ -39,7 +39,7 @@ Vehicle_NF_Med_Tank
 		"Base Weight"		"632"           // was 500
 		"Cost"			"170"		//cost of just the chassis in resources
 		
-		"Recycling Max CarcassHealth" "160"
+		"Recycling Max CarcassHealth" "150"
 		"Friendly Recycling Percentage"	"0.5"	//The percentage of the cost of a friendly vehicle that is reimbursed when recycling a dead vehicle carcass.
 		"Enemy Recycling Percentage"	"0.5"	//The percentage of the cost of an enemy vehicle that is reimbursed when recycling a dead vehicle carcass.
 

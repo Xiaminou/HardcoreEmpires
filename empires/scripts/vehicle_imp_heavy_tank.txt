@@ -39,7 +39,7 @@ Vehicle_ImpTankHeavy
 		"Base Weight"		"867"           // was 600
 		"Cost"			"850"		//cost of just the chassis in resources
 		
-		"Recycling Max CarcassHealth" "240"
+		"Recycling Max CarcassHealth" "200"
 		"Friendly Recycling Percentage"	"0.4"	//The percentage of the cost of a friendly vehicle that is reimbursed when recycling a dead vehicle carcass.
 		"Enemy Recycling Percentage"	"0.4"	//The percentage of the cost of an enemy vehicle that is reimbursed when recycling a dead vehicle carcass.
 
