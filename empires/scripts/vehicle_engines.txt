@@ -1,4 +1,12 @@
 // Vehicle Engines 
+// FORMULAS
+// "Heat Output At Idle"		-	Heat = "Heat Dissipation" - "Heat Output At Idle"
+// "Heat Output At Max"			-	Heat = "Heat Dissipation" - "Heat Output At Idle" - "Heat Output At Max"
+// "Horsepower Health Modifier"	-	Total Horsepower = "Horsepower" - (( "Health" - "Current Health" ) / "Health" * "Horsepower Health Modifier" * "Horsepower"
+// "Horsepower Armor Modifier"	-	Total Horsepower = "Horsepower" - (( "Health" - "Current Health" ) / "Health" * "Horsepower Health Modifier" * "Horsepower"
+// "Stall On Heat" 				-	Stall Threshold = "Heat Capacity" * "Stall On Heat"
+// "Heat Stall Penalty"			-	Stalled Horsepower = "Horsepower" * "Heat Stall Penalty"
+
 Vehicle_Engines
 {
 	//JEEP ENGINES
@@ -21,12 +29,12 @@ Vehicle_Engines
 		"Shift Down RPM"				"800"
 		"Horsepower"					"700"
 		"Horsepower Weight Penalty"		"0.0"	//amount of max throttle reduction as vehicle weight exceeds Max Weight
-		"Horsepower Health Modifier"	"0.0"	//amount of max throttle reduction as health is destroyed
+		"Horsepower Health Modifier"	"0.25"	//amount of max throttle reduction as health is destroyed
 		"Horsepower Armor Modifier"		"0.0"	//amount of max throttle reduction as armor is destroyed
-		"Heat Output At Max"			"3"		//how much heat is output when the vehicle is at full throttle
-		"Heat Output At Idle"			"1"		//how much heat is output when a player is in the driver seat
-		"Stall On Armor Damage"			"100"	//stall the engine when this amount of damage to armor is received
-		"Stall On Health Damage"		"60"	//stall the engine when this amount of damage to hull health is received
+		"Heat Output At Max"			"3"		//how much heat is output when the vehicle is at full throttle (Heat = "Heat Dissipation" - "Heat Output At Idle" - "Heat Output At Max")
+		"Heat Output At Idle"			"1"		//how much heat is output when a driver is in the vehicle (Heat = "Heat Dissipation" - "Heat Output At Idle")
+		"Stall On Armor Damage"			"100"	//temporarily stall the engine when this amount of damage to armor is received
+		"Stall On Health Damage"		"60"	//temporarily stall the engine when this amount of damage to hull health is received
 		"Stall On Heat"					"0.8"	//the percentage of heat to begin stalling the engine and also the throttle modifier such that ((heat%-stall%)/(1-stall%))^2 equals throttle before the stall% is met.
 		"Heat Capacity"					"100.0"
 		"Heat Stall Penalty"			"0.0" 	//how much max throttle is limited to when overheating is occurring
@@ -50,7 +58,7 @@ Vehicle_Engines
 		"Shift Down RPM"		"800"
 		"Horsepower"			"700"
 		"Horsepower Weight Penalty"	"0.0"
-		"Horsepower Health Modifier"	"0.0"
+		"Horsepower Health Modifier"	"0.25"
 		"Horsepower Armor Modifier"	"0.0"
 		"Heat Output At Max"		"3"
 		"Heat Output At Idle"		"2"
@@ -79,7 +87,7 @@ Vehicle_Engines
 		"Shift Down RPM"		"800"
 		"Horsepower"			"525"
 		"Horsepower Weight Penalty"	"0.0"
-		"Horsepower Health Modifier"	"0.0"
+		"Horsepower Health Modifier"	"0.25"
 		"Horsepower Armor Modifier"	"0.0"
 		"Heat Output At Max"		"3"
 		"Heat Output At Idle"		"1"
@@ -108,7 +116,7 @@ Vehicle_Engines
 		"Shift Down RPM"		"800"
 		"Horsepower"			"595"
 		"Horsepower Weight Penalty"	"0.0"
-		"Horsepower Health Modifier"	"0.0"
+		"Horsepower Health Modifier"	"0.25"
 		"Horsepower Armor Modifier"	"0.0"
 		"Heat Output At Max"		"-8"
 		"Heat Output At Idle"		"6"
@@ -137,7 +145,7 @@ Vehicle_Engines
 		"Shift Down RPM"		"800"
 		"Horsepower"			"455"
 		"Horsepower Weight Penalty"	"0.0"
-		"Horsepower Health Modifier"	"0.0"
+		"Horsepower Health Modifier"	"0.25"
 		"Horsepower Armor Modifier"	"0.0"
 		"Heat Output At Max"		"2"
 		"Heat Output At Idle"		"1"
@@ -166,7 +174,7 @@ Vehicle_Engines
 		"Shift Down RPM"		"800"
 		"Horsepower"			"420"
 		"Horsepower Weight Penalty"	"0.0"
-		"Horsepower Health Modifier"	"0.0"
+		"Horsepower Health Modifier"	"0.25"
 		"Horsepower Armor Modifier"	"0.0"
 		"Heat Output At Max"		"8"
 		"Heat Output At Idle"		"0"
@@ -188,23 +196,28 @@ Vehicle_Engines
 		"Cost"							"10"
 		"Weight"						"10"
 		"Research"						""
-		"Max Weight"					"5000"
-		"Max Speed"						"35"
-		"Max Reverse Speed"				"30"
-		"Shift Up RPM"					"1600"
-		"Shift Down RPM"				"800"
-		"Horsepower"					"1000"
-		"Horsepower Weight Penalty"		"0.0"	//amount of max throttle reduction as vehicle weight exceeds Max Weight
-		"Horsepower Health Modifier"	"0.0"	//amount of max throttle reduction as health is destroyed
-		"Horsepower Armor Modifier"		"0.0"	//amount of max throttle reduction as armor is destroyed
-		"Heat Output At Max"			"2"		//how much heat is output when the vehicle is at full throttle
-		"Heat Output At Idle"			"1"		//how much heat is output when a driver is in the vehicle and throttle is zero
-		"Stall On Armor Damage"			"100"	//stall the engine when this amount of damage to armor is received
-		"Stall On Health Damage"		"60"	//stall the engine when this amount of damage to hull health is received
-		"Stall On Heat"					"0.8"	//the percentage of heat to begin stalling the engine
-		"Heat Capacity"					"100.0"
-		"Heat Stall Penalty"			"0.0" 	//how much max throttle is limited to when overheating is occurring
-		"Heat Dissipation"				"5"		//amount of heat removed per second
+		//WEIGHT
+		"Max Weight"					"5000"	//don't touch
+		//SPEED
+		"Horsepower"					"1000"	//horsepower (also increases torque)
+		"Max Speed"						"35"	//maximum forward speed
+		"Max Reverse Speed"				"30"	//maximum reverse speed
+		"Shift Up RPM"					"1600"	//don't touch
+		"Shift Down RPM"				"800"	//don't touch
+		//HEAT
+		"Heat Capacity"					"100.0"	//maximum heat capacity
+		"Heat Dissipation"				"5"		//amount of heat removed per second 
+		"Heat Output At Idle"			"1"		//how much heat is added per second when a driver is in the vehicle 						(Heat = "Heat Dissipation" - "Heat Output At Idle")
+		"Heat Output At Max"			"2"		//how much heat is added per seocnd when the vehicle is at full throttle 					(Heat = "Heat Dissipation" - "Heat Output At Idle" - "Heat Output At Max")
+		//PENATLY
+		"Horsepower Weight Penalty"		"0.0"	//disabled: amount of max throttle reduction as vehicle weight exceeds Max Weight
+		"Horsepower Health Modifier"	"0.25"	//amount of max throttle reduction as health (hull) is destroyed							(Total Horsepower = "Horsepower" - (( "Health" - "Current Health" ) / "Health" * "Horsepower Health Modifier" * "Horsepower")
+		"Horsepower Armor Modifier"		"0.0"	//amount of max throttle reduction as armor is destroyed									(Total Horsepower = "Horsepower" - (( "Health" - "Current Health" ) / "Health" * "Horsepower Health Modifier" * "Horsepower")
+		"Stall On Armor Damage"			"100"	//temporarily (0.5s) stall the engine when this amount of damage to armor is received
+		"Stall On Health Damage"		"60"	//temporarily (0.5s) stall the engine when this amount of damage to hull health is received
+		"Stall On Heat"					"0.8"	//the percentage of heat capacity to begin stalling the engine 								(Stall Threshold = "Heat Capacity" * "Stall On Heat")
+		"Heat Stall Penalty"			"0.0" 	//how much horsepower is limited to when overheating is occurring 							(Stalled Horsepower = "Horsepower" * "Heat Stall Penalty")
+		
 	}
 	"Mechanical Eng 1"
 	{
@@ -223,8 +236,8 @@ Vehicle_Engines
 		"Shift Down RPM"				"800"
 		"Horsepower"					"1250"
 		"Horsepower Weight Penalty"		"0.0"
-		"Horsepower Health Modifier"	"-0.25"
-		"Horsepower Armor Modifier"		"-0.75"
+		"Horsepower Health Modifier"	"0"
+		"Horsepower Armor Modifier"		"0"
 		"Heat Output At Max"			"3"
 		"Heat Output At Idle"			"2"
 		"Stall On Armor Damage"			"100"
@@ -252,7 +265,7 @@ Vehicle_Engines
 		"Shift Down RPM"		"800"
 		"Horsepower"			"1250"
 		"Horsepower Weight Penalty"	"0.0"
-		"Horsepower Health Modifier"	"0.0"
+		"Horsepower Health Modifier"	"0.5"
 		"Horsepower Armor Modifier"	"0.0"
 		"Heat Output At Max"		"3"
 		"Heat Output At Idle"		"1"
@@ -270,7 +283,7 @@ Vehicle_Engines
 		"Icon"				"vehicles/gui/engine/fission_sml"		
 		"Size"				"1"
 		"Type"				"9"
-		"Cost"				"10"
+		"Cost"				"20"
 		"Weight"			"10"
 		"Research"			"Fission Reactor"
 
@@ -281,7 +294,7 @@ Vehicle_Engines
 		"Shift Down RPM"		"800"
 		"Horsepower"			"1350"
 		"Horsepower Weight Penalty"	"0.0"
-		"Horsepower Health Modifier"	"0.0"
+		"Horsepower Health Modifier"	"0.25"
 		"Horsepower Armor Modifier"	"0.0"
 		"Heat Output At Max"		"0"
 		"Heat Output At Idle"		"1"
@@ -310,7 +323,7 @@ Vehicle_Engines
 		"Shift Down RPM"		"800"
 		"Horsepower"			"1150"
 		"Horsepower Weight Penalty"	"0.0"
-		"Horsepower Health Modifier"	"0.0"
+		"Horsepower Health Modifier"	"0.25"
 		"Horsepower Armor Modifier"	"0.0"
 		"Heat Output At Max"		"2"
 		"Heat Output At Idle"		"2"
@@ -339,7 +352,7 @@ Vehicle_Engines
 		"Shift Down RPM"		"800"
 		"Horsepower"			"1100"
 		"Horsepower Weight Penalty"	"0.0"
-		"Horsepower Health Modifier"	"0.0"
+		"Horsepower Health Modifier"	"0.25"
 		"Horsepower Armor Modifier"	"0.0"
 		"Heat Output At Max"		"5"
 		"Heat Output At Idle"		"0"
@@ -369,12 +382,12 @@ Vehicle_Engines
 		"Shift Down RPM"		"800"
 		"Horsepower"			"2000"
 		"Horsepower Weight Penalty"	"0.0"	//amount of max throttle reduction as vehicle weight exceeds Max Weight
-		"Horsepower Health Modifier"	"0.0"	//amount of max throttle reduction as health is destroyed
+		"Horsepower Health Modifier"	"0.25"	//amount of max throttle reduction as health is destroyed
 		"Horsepower Armor Modifier"	"0.0"	//amount of max throttle reduction as armor is destroyed
-		"Heat Output At Max"		"2"	//how much heat is output when the vehicle is at full throttle
-		"Heat Output At Idle"		"1"	//how much heat is output when a driver is in the vehicle and throttle is zero
-		"Stall On Armor Damage"		"100"	//stall the engine when this amount of damage to armor is received
-		"Stall On Health Damage"	"60"	//stall the engine when this amount of damage to hull health is received
+		"Heat Output At Max"		"2"	//how much heat is output when the vehicle is at full throttle (Heat = "Heat Dissipation" - "Heat Output At Idle" - "Heat Output At Max")
+		"Heat Output At Idle"		"1"	//how much heat is output when a driver is in the vehicle (Heat = "Heat Dissipation" - "Heat Output At Idle")
+		"Stall On Armor Damage"		"100"	//temporarily stall the engine when this amount of damage to armor is received
+		"Stall On Health Damage"	"60"	//temporarily stall the engine when this amount of damage to hull health is received
 		"Stall On Heat"			"0.8"	//the percentage of heat to begin stalling the engine
 		"Heat Capacity"			"100.0"
 		"Heat Stall Penalty"		"0.0" 	//how much max throttle is limited to when overheating is occurring
@@ -398,8 +411,8 @@ Vehicle_Engines
 		"Shift Down RPM"		"800"
 		"Horsepower"			"2500"
 		"Horsepower Weight Penalty"	"0.0"
-		"Horsepower Health Modifier"	"-0.25"
-		"Horsepower Armor Modifier"	"-0.75"
+		"Horsepower Health Modifier"	"0"
+		"Horsepower Armor Modifier"		"0"
 		"Heat Output At Max"		"3"
 		"Heat Output At Idle"		"2"
 		"Stall On Armor Damage"		"100"
@@ -427,7 +440,7 @@ Vehicle_Engines
 		"Shift Down RPM"		"800"
 		"Horsepower"			"2500"
 		"Horsepower Weight Penalty"	"0.0"
-		"Horsepower Health Modifier"	"0.0"
+		"Horsepower Health Modifier"	"0.5"
 		"Horsepower Armor Modifier"	"0.0"
 		"Heat Output At Max"		"3"
 		"Heat Output At Idle"		"1"
@@ -456,7 +469,7 @@ Vehicle_Engines
 		"Shift Down RPM"		"800"
 		"Horsepower"			"2700"
 		"Horsepower Weight Penalty"	"0.0"
-		"Horsepower Health Modifier"	"0.0"
+		"Horsepower Health Modifier"	"0.25"
 		"Horsepower Armor Modifier"	"0.0"
 		"Heat Output At Max"		"0"
 		"Heat Output At Idle"		"1"
@@ -485,7 +498,7 @@ Vehicle_Engines
 		"Shift Down RPM"		"800"
 		"Horsepower"			"2300"
 		"Horsepower Weight Penalty"	"0.0"
-		"Horsepower Health Modifier"	"0.0"
+		"Horsepower Health Modifier"	"0.25"
 		"Horsepower Armor Modifier"	"0.0"
 		"Heat Output At Max"		"2"
 		"Heat Output At Idle"		"2"
@@ -514,7 +527,7 @@ Vehicle_Engines
 		"Shift Down RPM"		"800"
 		"Horsepower"			"2200"
 		"Horsepower Weight Penalty"	"0.0"
-		"Horsepower Health Modifier"	"0.0"
+		"Horsepower Health Modifier"	"0.25"
 		"Horsepower Armor Modifier"	"0.0"
 		"Heat Output At Max"		"5"
 		"Heat Output At Idle"		"0"
@@ -544,12 +557,12 @@ Vehicle_Engines
 		"Shift Down RPM"		"800"
 		"Horsepower"			"2000"
 		"Horsepower Weight Penalty"	"0.0"	//amount of max throttle reduction as vehicle weight exceeds Max Weight
-		"Horsepower Health Modifier"	"0.0"	//amount of max throttle reduction as health is destroyed
+		"Horsepower Health Modifier"	"0.25"	//amount of max throttle reduction as health is destroyed
 		"Horsepower Armor Modifier"	"0.0"	//amount of max throttle reduction as armor is destroyed
-		"Heat Output At Max"		"2"	//how much heat is output when the vehicle is at full throttle
-		"Heat Output At Idle"		"1"	//how much heat is output when a driver is in the vehicle and throttle is zero
-		"Stall On Armor Damage"		"100"	//stall the engine when this amount of damage to armor is received
-		"Stall On Health Damage"	"60"	//stall the engine when this amount of damage to hull health is received
+		"Heat Output At Max"		"2"	//how much heat is output when the vehicle is at full throttle (Heat = "Heat Dissipation" - "Heat Output At Idle" - "Heat Output At Max")
+		"Heat Output At Idle"		"1"	//how much heat is output when a driver is in the vehicle (Heat = "Heat Dissipation" - "Heat Output At Idle")
+		"Stall On Armor Damage"		"100"	//temporarily stall the engine when this amount of damage to armor is received
+		"Stall On Health Damage"	"60"	//temporarily stall the engine when this amount of damage to hull health is received
 		"Stall On Heat"			"0.8"	//the percentage of heat to begin stalling the engine
 		"Heat Capacity"			"100.0"
 		"Heat Stall Penalty"		"0.0" 	//how much max throttle is limited to when overheating is occurring
@@ -573,8 +586,8 @@ Vehicle_Engines
 		"Shift Down RPM"		"800"
 		"Horsepower"			"2500"
 		"Horsepower Weight Penalty"	"0.0"
-		"Horsepower Health Modifier"	"-0.25"
-		"Horsepower Armor Modifier"	"-0.75"
+		"Horsepower Health Modifier"	"0"
+		"Horsepower Armor Modifier"		"0"
 		"Heat Output At Max"		"3"
 		"Heat Output At Idle"		"2"
 		"Stall On Armor Damage"		"100"
@@ -602,7 +615,7 @@ Vehicle_Engines
 		"Shift Down RPM"		"800"
 		"Horsepower"			"2500"
 		"Horsepower Weight Penalty"	"0.0"
-		"Horsepower Health Modifier"	"0.0"
+		"Horsepower Health Modifier"	"0.5"
 		"Horsepower Armor Modifier"	"0.0"
 		"Heat Output At Max"		"3"
 		"Heat Output At Idle"		"1"
@@ -631,7 +644,7 @@ Vehicle_Engines
 		"Shift Down RPM"		"800"
 		"Horsepower"			"2700"
 		"Horsepower Weight Penalty"	"0.0"
-		"Horsepower Health Modifier"	"0.0"
+		"Horsepower Health Modifier"	"0.25"
 		"Horsepower Armor Modifier"	"0.0"
 		"Heat Output At Max"		"0"
 		"Heat Output At Idle"		"1"
@@ -660,7 +673,7 @@ Vehicle_Engines
 		"Shift Down RPM"		"800"
 		"Horsepower"			"2300"
 		"Horsepower Weight Penalty"	"0.0"
-		"Horsepower Health Modifier"	"0.0"
+		"Horsepower Health Modifier"	"0.25"
 		"Horsepower Armor Modifier"	"0.0"
 		"Heat Output At Max"		"2"
 		"Heat Output At Idle"		"2"
@@ -689,7 +702,7 @@ Vehicle_Engines
 		"Shift Down RPM"		"800"
 		"Horsepower"			"2200"
 		"Horsepower Weight Penalty"	"0.0"
-		"Horsepower Health Modifier"	"0.0"
+		"Horsepower Health Modifier"	"0.25"
 		"Horsepower Armor Modifier"	"0.0"
 		"Heat Output At Max"		"5"
 		"Heat Output At Idle"		"0"
@@ -719,12 +732,12 @@ Vehicle_Engines
 		"Shift Down RPM"		"800"
 		"Horsepower"			"2000"
 		"Horsepower Weight Penalty"	"0.0"	//amount of max throttle reduction as vehicle weight exceeds Max Weight
-		"Horsepower Health Modifier"	"0.0"	//amount of max throttle reduction as health is destroyed
+		"Horsepower Health Modifier"	"0.25"	//amount of max throttle reduction as health is destroyed
 		"Horsepower Armor Modifier"	"0.0"	//amount of max throttle reduction as armor is destroyed
-		"Heat Output At Max"		"2"	//how much heat is output when the vehicle is at full throttle
-		"Heat Output At Idle"		"1"	//how much heat is output when a driver is in the vehicle and throttle is zero
-		"Stall On Armor Damage"		"100"	//stall the engine when this amount of damage to armor is received
-		"Stall On Health Damage"	"60"	//stall the engine when this amount of damage to hull health is received
+		"Heat Output At Max"		"2"	//how much heat is output when the vehicle is at full throttle (Heat = "Heat Dissipation" - "Heat Output At Idle" - "Heat Output At Max")
+		"Heat Output At Idle"		"1"	//how much heat is output when a driver is in the vehicle (Heat = "Heat Dissipation" - "Heat Output At Idle")
+		"Stall On Armor Damage"		"100"	//temporarily stall the engine when this amount of damage to armor is received
+		"Stall On Health Damage"	"60"	//temporarily stall the engine when this amount of damage to hull health is received
 		"Stall On Heat"			"0.8"	//the percentage of heat to begin stalling the engine
 		"Heat Capacity"			"100.0"
 		"Heat Stall Penalty"		"0.0" 	//how much max throttle is limited to when overheating is occurring
@@ -748,8 +761,8 @@ Vehicle_Engines
 		"Shift Down RPM"		"800"
 		"Horsepower"			"2500"
 		"Horsepower Weight Penalty"	"0.0"
-		"Horsepower Health Modifier"	"-0.25"
-		"Horsepower Armor Modifier"	"-0.75"
+		"Horsepower Health Modifier"	"0"
+		"Horsepower Armor Modifier"		"0"
 		"Heat Output At Max"		"3"
 		"Heat Output At Idle"		"2"
 		"Stall On Armor Damage"		"100"
@@ -777,7 +790,7 @@ Vehicle_Engines
 		"Shift Down RPM"		"800"
 		"Horsepower"			"2500"
 		"Horsepower Weight Penalty"	"0.0"
-		"Horsepower Health Modifier"	"0.0"
+		"Horsepower Health Modifier"	"0.5"
 		"Horsepower Armor Modifier"	"0.00"
 		"Heat Output At Max"		"3"
 		"Heat Output At Idle"		"1"
@@ -806,7 +819,7 @@ Vehicle_Engines
 		"Shift Down RPM"		"800"
 		"Horsepower"			"2700"
 		"Horsepower Weight Penalty"	"0.0"
-		"Horsepower Health Modifier"	"0.0"
+		"Horsepower Health Modifier"	"0.25"
 		"Horsepower Armor Modifier"	"0.0"
 		"Heat Output At Max"		"0"
 		"Heat Output At Idle"		"1"
@@ -835,7 +848,7 @@ Vehicle_Engines
 		"Shift Down RPM"		"800"
 		"Horsepower"			"2300"
 		"Horsepower Weight Penalty"	"0.0"
-		"Horsepower Health Modifier"	"0.0"
+		"Horsepower Health Modifier"	"0.25"
 		"Horsepower Armor Modifier"	"0.00"
 		"Heat Output At Max"		"2"
 		"Heat Output At Idle"		"2"
@@ -864,7 +877,7 @@ Vehicle_Engines
 		"Shift Down RPM"		"800"
 		"Horsepower"			"2200"
 		"Horsepower Weight Penalty"	"0.0"
-		"Horsepower Health Modifier"	"0.0"
+		"Horsepower Health Modifier"	"0.25"
 		"Horsepower Armor Modifier"	"0.0"
 		"Heat Output At Max"		"5"
 		"Heat Output At Idle"		"0"
@@ -894,7 +907,7 @@ Vehicle_Engines
 		"Shift Down RPM"		"800"
 		"Horsepower"			"2000"
 		"Horsepower Weight Penalty"	"0.0"
-		"Horsepower Health Modifier"	"0.0"
+		"Horsepower Health Modifier"	"0.25"
 		"Horsepower Armor Modifier"	"0.0"
 		"Heat Output At Max"		"2"
 		"Heat Output At Idle"		"1"
@@ -923,8 +936,8 @@ Vehicle_Engines
 		"Shift Down RPM"		"800"
 		"Horsepower"			"2500"
 		"Horsepower Weight Penalty"	"0.0"
-		"Horsepower Health Modifier"	"-0.25"
-		"Horsepower Armor Modifier"	"-0.75"
+		"Horsepower Health Modifier"	"0"
+		"Horsepower Armor Modifier"		"0"
 		"Heat Output At Max"		"3"
 		"Heat Output At Idle"		"2"
 		"Stall On Armor Damage"		"100"
@@ -952,7 +965,7 @@ Vehicle_Engines
 		"Shift Down RPM"		"800"
 		"Horsepower"			"2500"
 		"Horsepower Weight Penalty"	"0.0"
-		"Horsepower Health Modifier"	"0.0"
+		"Horsepower Health Modifier"	"0.5"
 		"Horsepower Armor Modifier"	"0.00"
 		"Heat Output At Max"		"3"
 		"Heat Output At Idle"		"1"
@@ -981,7 +994,7 @@ Vehicle_Engines
 		"Shift Down RPM"		"800"
 		"Horsepower"			"2700"
 		"Horsepower Weight Penalty"	"0.0"
-		"Horsepower Health Modifier"	"0.0"
+		"Horsepower Health Modifier"	"0.25"
 		"Horsepower Armor Modifier"	"0.0"
 		"Heat Output At Max"		"0"
 		"Heat Output At Idle"		"1"
@@ -1010,7 +1023,7 @@ Vehicle_Engines
 		"Shift Down RPM"		"800"
 		"Horsepower"			"2300"
 		"Horsepower Weight Penalty"	"0.0"
-		"Horsepower Health Modifier"	"0.0"
+		"Horsepower Health Modifier"	"0.25"
 		"Horsepower Armor Modifier"	"0.00"
 		"Heat Output At Max"		"2"
 		"Heat Output At Idle"		"2"
@@ -1039,7 +1052,7 @@ Vehicle_Engines
 		"Shift Down RPM"		"800"
 		"Horsepower"			"2200"
 		"Horsepower Weight Penalty"	"0.0"
-		"Horsepower Health Modifier"	"0.0"
+		"Horsepower Health Modifier"	"0.25"
 		"Horsepower Armor Modifier"	"0.0"
 		"Heat Output At Max"		"5"
 		"Heat Output At Idle"		"0"
@@ -1073,10 +1086,10 @@ Vehicle_Engines
 		"Horsepower Weight Penalty"	"0.1"	//amount of max throttle reduction as vehicle weight exceeds Max Weight
 		"Horsepower Health Modifier"	"0.6"	//amount of max throttle reduction as health is destroyed
 		"Horsepower Armor Modifier"	"0.05"	//amount of max throttle reduction as armor is destroyed
-		"Heat Output At Max"		"2"	//how much heat is output when the vehicle is at full throttle
-		"Heat Output At Idle"		"1"	//how much heat is output when a driver is in the vehicle and throttle is zero
-		"Stall On Armor Damage"		"100"	//stall the engine when this amount of damage to armor is received
-		"Stall On Health Damage"	"60"	//stall the engine when this amount of damage to hull health is received
+		"Heat Output At Max"		"2"	//how much heat is output when the vehicle is at full throttle (Heat = "Heat Dissipation" - "Heat Output At Idle" - "Heat Output At Max")
+		"Heat Output At Idle"		"1"	//how much heat is output when a driver is in the vehicle (Heat = "Heat Dissipation" - "Heat Output At Idle")
+		"Stall On Armor Damage"		"100"	//temporarily stall the engine when this amount of damage to armor is received
+		"Stall On Health Damage"	"60"	//temporarily stall the engine when this amount of damage to hull health is received
 		"Stall On Heat"			"0.8"	//the percentage of heat to begin stalling the engine
 		"Heat Capacity"			"100.0"
 		"Heat Stall Penalty"		"0.0" 	//how much max throttle is limited to when overheating is occurring
@@ -1107,10 +1120,10 @@ Vehicle_Engines
 		"Horsepower Weight Penalty"	"0.1"	//amount of max throttle reduction as vehicle weight exceeds Max Weight
 		"Horsepower Health Modifier"	"0.6"	//amount of max throttle reduction as health is destroyed
 		"Horsepower Armor Modifier"	"0.05"	//amount of max throttle reduction as armor is destroyed
-		"Heat Output At Max"		"4"	//how much heat is output when the vehicle is at full throttle
-		"Heat Output At Idle"		"0"	//how much heat is output when a driver is in the vehicle and throttle is zero
-		"Stall On Armor Damage"		"100"	//stall the engine when this amount of damage to armor is received
-		"Stall On Health Damage"	"60"	//stall the engine when this amount of damage to hull health is received
+		"Heat Output At Max"		"4"	//how much heat is output when the vehicle is at full throttle (Heat = "Heat Dissipation" - "Heat Output At Idle" - "Heat Output At Max")
+		"Heat Output At Idle"		"0"	//how much heat is output when a driver is in the vehicle (Heat = "Heat Dissipation" - "Heat Output At Idle")
+		"Stall On Armor Damage"		"100"	//temporarily stall the engine when this amount of damage to armor is received
+		"Stall On Health Damage"	"60"	//temporarily stall the engine when this amount of damage to hull health is received
 		"Stall On Heat"			"0.8"	//the percentage of heat to begin stalling the engine
 		"Heat Capacity"			"100.0"
 		"Heat Stall Penalty"		"0.0" 	//how much max throttle is limited to when overheating is occurring
@@ -1140,10 +1153,10 @@ Vehicle_Engines
 		"Horsepower Weight Penalty"	"0.1"	//amount of max throttle reduction as vehicle weight exceeds Max Weight
 		"Horsepower Health Modifier"	"0.6"	//amount of max throttle reduction as health is destroyed
 		"Horsepower Armor Modifier"	"0.05"	//amount of max throttle reduction as armor is destroyed
-		"Heat Output At Max"		"4"	//how much heat is output when the vehicle is at full throttle
-		"Heat Output At Idle"		"0"	//how much heat is output when a driver is in the vehicle and throttle is zero
-		"Stall On Armor Damage"		"100"	//stall the engine when this amount of damage to armor is received
-		"Stall On Health Damage"	"60"	//stall the engine when this amount of damage to hull health is received
+		"Heat Output At Max"		"4"	//how much heat is output when the vehicle is at full throttle (Heat = "Heat Dissipation" - "Heat Output At Idle" - "Heat Output At Max")
+		"Heat Output At Idle"		"0"	//how much heat is output when a driver is in the vehicle (Heat = "Heat Dissipation" - "Heat Output At Idle")
+		"Stall On Armor Damage"		"100"	//temporarily stall the engine when this amount of damage to armor is received
+		"Stall On Health Damage"	"60"	//temporarily stall the engine when this amount of damage to hull health is received
 		"Stall On Heat"			"0.8"	//the percentage of heat to begin stalling the engine
 		"Heat Capacity"			"100.0"
 		"Heat Stall Penalty"		"0.0" 	//how much max throttle is limited to when overheating is occurring
