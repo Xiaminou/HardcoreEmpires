@@ -63,7 +63,7 @@
 			"display"		"emp_coast"
 		}
 		
-		"emp_crossroads_towerless_hce"
+		"emp_crossroads_towerless_hce2"
 		{
 			"min_players"	"0"
 			"max_players"	"22"
@@ -204,7 +204,7 @@
 			"display"		"emp_midbridge"
 		}
 		
-		"emp_mvalley_fix"
+		"emp_mvalley"
 		{
 			"min_players"	"26"
 			"max_players"	"52"
@@ -254,13 +254,13 @@
 //			"display"		"emp_smokies"
 //		}
 
-//		Disabled: Missing Textures
-//		"emp_snowbound_cl6_hce"
-//		{
-//			"min_players"	"20"
-//			"max_players"	"42"
-//			"display"		"emp_snowbound"
-//		}
+//		Fixed?
+		"emp_snowbound_cl6_hce"
+		{
+			"min_players"	"20"
+			"max_players"	"42"
+			"display"		"emp_snowbound"
+		}
 		
 		"emp_snowstorm_rc6"
 		{
@@ -269,7 +269,7 @@
 			"display"		"emp_snowstorm"
 		}
 		
-		"emp_streetsoffire_215"
+		"emp_streetsoffire"
 		{
 			"min_players"	"14"
 			"max_players"	"32"
@@ -374,7 +374,7 @@
 		
 		"con_urbanchaos"
 		{
-			"min_players"	"10"
+			"min_players"	"6"
 			"max_players"	"20"
 			"display"		"con_urbanchaos"
 		}
