@@ -1,4 +1,4 @@
-Vehicle_ImpTankHeavy
+"Imperial Heavy Tank"
 {
 	"properties"
 	{
@@ -8,10 +8,10 @@ Vehicle_ImpTankHeavy
 		"Cannon Model"		"models/imperial/vehicles/ground/tankheavy/cannon.mdl"
 		"horn" "Vehicle.horn_deep" //sound to use when blasting the horn
 
-		"Name"			"Imperial Heavy Tank"						//name given when chassis
-		"Spotted Name"		"Heavy Tank"							//name given when spotted by an enemy
-		"Description"		"This behemoth surpasses all other vehicles with its firepower but is heavy and slow."	//description given in creation GUI
-		"Hint" "Heavy tanks have excellent firepower and armor, but are expensive and slow. Press %use% to get in."
+		"Name"			"#emp_vehicle_imp_heavy_tank_name"						//name given when chassis
+		"Spotted Name"		"#emp_vehicle_imp_heavy_tank_spotted_name"							//name given when spotted by an enemy
+		"Description"		"#emp_vehicle_imp_heavy_tank_description"	//description given in creation GUI
+		"Hint" "#emp_hint_vehicle_imp_heavy_tank"
 		"Team"			"IMP" 							//team able to purchase, 'IMP', 'NF', or 'ALL'
 		"Chassis Pic"		"vehicles/gui/bg/imp_heavy"		//picture shown when selecting chassis, path is preceded by 'vgui/'
 		"Side Pic"		"vehicles/gui/imp_heavy_side"		//picture shown from the side for loadouts, path is preceded by 'vgui/'
@@ -39,7 +39,7 @@ Vehicle_ImpTankHeavy
 		"Base Weight"		"867"           // was 600
 		"Cost"			"850"		//cost of just the chassis in resources
 		
-		"Recycling Max CarcassHealth" "240"
+		"Recycling Max CarcassHealth" "200"
 		"Friendly Recycling Percentage"	"0.4"	//The percentage of the cost of a friendly vehicle that is reimbursed when recycling a dead vehicle carcass.
 		"Enemy Recycling Percentage"	"0.4"	//The percentage of the cost of an enemy vehicle that is reimbursed when recycling a dead vehicle carcass.
 

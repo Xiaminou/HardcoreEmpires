@@ -1,4 +1,5 @@
 //Infantry Resistances
+
 InfantryParse
 {
 	"Scout"
@@ -10,28 +11,28 @@ InfantryParse
 		"GeneralElectricResist"  	"0.0"	//General Electric Tree Damage
 		"GeneralBiologicalResist"	"0.0" 	//General Biological Tree Damage
 
-		"KineticResist" 			"0.0" 	//Railguns, Standard Cannons, Anything that is just force
-		"ExplosiveResist" 			"0.1"	//HE, Nukes, anything that explodes
-		"BioResist" 				"0.0"	//Has the bio effect
+		"KineticResist" 		"0.0" 	//Railguns, Standard Cannons, Anything that is just force
+		"ExplosiveResist" 		"0.1"	//HE, Nukes, anything that explodes
+		"BioResist" 			"0.0"	//Has the bio effect
 
-		"BulletResist" 				"0.35"	//Non Armor damaging
-		"APBulletResist" 			"0.7" 	// Armor Damaging
+		"BulletResist" 			"0.35"	//Non Armor damaging
+		"APBulletResist" 		"0.7" 	// Armor Damaging
 		"BulletExplosiveResist" 	"0.0"   //Bullets that Explode
 
-		"MissileResist" 			"0.0"	//Generic Missle type of damage
+		"MissileResist" 		"0.0"	//Generic Missle type of damage
 		"MissileExplosiveResist" 	"0.55" 	//Explosive type.
-		"MissileBioResist" 			"0.0"	//Bio Missiles.  Different then Bio?
+		"MissileBioResist" 		"0.0"	//Bio Missiles.  Different then Bio?
 
-		"KineticArtResist" 			"0.1" 	//Kinetic Artillery
-		"ExplosiveArtResist" 		"0.15" 	//Explosive Artillery
-		"BioArtResist" 				"0.0"   //Bio Artillery
+		"KineticArtResist" 		"0.1" 	//Kinetic Artillery
+		"ExplosiveArtResist" 		"0.15" 	// Explosive Artillery
+		"BioArtResist" 			"0.0"   //Bio Artillery
 
-		"AircraftMissileResist" 		"0.0" 	// Aircraft Missiles
+		"AircraftMissileResist" 	"0.0" 	// Aircraft Missiles
 		"AircraftGroundMissleResist" 	"0.0" 	// Aircraft Missiles to hit ground targets
-		"AircraftBulletResist" 			"0.0"   //Aircraft to Aircraft bullets
-		"AircraftAPBulletResist" 		"0.0"  	//Aircraft Bullets to hit ground targets
-		"AircraftBombResist" 			"0.0"    //Bombs
-		"AircraftBombBioResist" 		"0.0"  	//Bio Bombs?
+		"AircraftBulletResist" 		"0.0"   //Aircraft to Aircraft bullets
+		"AircraftAPBulletResist" 	"0.0"  	//Aircraft Bullets to hit ground targets
+		"AircraftBombResist" 		"0.0"    //Bombs
+		"AircraftBombBioResist" 	"0.0"  	//Bio Bombs?
 		
 		"InfantryGrenadeResist" 	"0.2" 	//Player Thrown Grenades
 		"InfantryMineResist" 		"0.3"	//Player Tossed Mines
@@ -46,7 +47,9 @@ InfantryParse
 		"ExtraType2Resist" 		"0.95" 	//Again
 		"ExtraType3Resist" 		"0.95" 	//and a third
 
-	}	
+	}
+
+	
 	"Rifleman"
 	{
 	
@@ -56,28 +59,28 @@ InfantryParse
 		"GeneralElectricResist"  	"0.1"	//General Electric Tree Damage
 		"GeneralBiologicalResist"	"0.1" 	//General Biological Tree Damage
 
-		"KineticResist" 			"0.1" 	//Railguns, Standard Cannons, Anything that is just force
-		"ExplosiveResist" 			"0.1"	//HE, Nukes, anything that explodes
-		"BioResist" 				"0.1"	//Has the bio effect
+		"KineticResist" 		"0.1" 	//Railguns, Standard Cannons, Anything that is just force
+		"ExplosiveResist" 		"0.1"	//HE, Nukes, anything that explodes
+		"BioResist" 			"0.1"	//Has the bio effect
 
-		"BulletResist" 				"0.0"	//Non Armor damaging
-		"APBulletResist" 			"0.7" 	//Armor Damaging
+		"BulletResist" 			"0.0"	//Non Armor damaging
+		"APBulletResist" 		"0.7" 	// Armor Damaging
 		"BulletExplosiveResist" 	"0.1"   //Bullets that Explode
 
-		"MissileResist" 			"0.1"	//Generic Missle type of damage
+		"MissileResist" 		"0.1"	//Generic Missle type of damage
 		"MissileExplosiveResist" 	"0.55" 	//Explosive type.
-		"MissileBioResist" 			"0.1"	//Bio Missiles.  Different then Bio?
+		"MissileBioResist" 		"0.1"	//Bio Missiles.  Different then Bio?
 
-		"KineticArtResist" 			"0.1" 	//Kinetic Artillery
+		"KineticArtResist" 		"0.1" 	//Kinetic Artillery
 		"ExplosiveArtResist" 		"0.15" 	// Explosive Artillery
-		"BioArtResist" 				"0.1"   //Bio Artillery
+		"BioArtResist" 			"0.1"   //Bio Artillery
 
-		"AircraftMissileResist" 		"0.0" 	// Aircraft Missiles
+		"AircraftMissileResist" 	"0.0" 	// Aircraft Missiles
 		"AircraftGroundMissleResist" 	"0.0" 	// Aircraft Missiles to hit ground targets
-		"AircraftBulletResist" 			"0.0"   //Aircraft to Aircraft bullets
-		"AircraftAPBulletResist" 		"0.0"  	//Aircraft Bullets to hit ground targets
-		"AircraftBombResist" 			"0.0"    //Bombs
-		"AircraftBombBioResist" 		"0.0"  	//Bio Bombs?
+		"AircraftBulletResist" 		"0.0"   //Aircraft to Aircraft bullets
+		"AircraftAPBulletResist" 	"0.0"  	//Aircraft Bullets to hit ground targets
+		"AircraftBombResist" 		"0.0"    //Bombs
+		"AircraftBombBioResist" 	"0.0"  	//Bio Bombs?
 		
 		"InfantryGrenadeResist" 	"0.0" 	//Player Thrown Grenades
 		"InfantryMineResist" 		"0.25"	//Player Tossed Mines
@@ -93,6 +96,8 @@ InfantryParse
 		"ExtraType3Resist" 		"0.95" 	//and a third
 
 	}
+
+
 	"Grenadier"
 	{
 	
@@ -102,28 +107,29 @@ InfantryParse
 		"GeneralElectricResist"  	"0.3"	//General Electric Tree Damage
 		"GeneralBiologicalResist"	"0.3" 	//General Biological Tree Damage
 
-		"KineticResist" 			"0.3" 	//Railguns, Standard Cannons, Anything that is just force
-		"ExplosiveResist" 			"0.4"	//HE, Nukes, anything that explodes
-		"BioResist" 				"0.3"	//Has the bio effect
+		"KineticResist" 		"0.3" 	//Railguns, Standard Cannons, Anything that is just force
+		"ExplosiveResist" 		"0.4"	//HE, Nukes, anything that explodes
 
-		"BulletResist" 				"0.1"	//Non Armor damaging
-		"APBulletResist" 			"0.7" 	// Armor Damaging
+		"BioResist" 			"0.3"	//Has the bio effect
+
+		"BulletResist" 			"0.1"	//Non Armor damaging
+		"APBulletResist" 		"0.7" 	// Armor Damaging
 		"BulletExplosiveResist" 	"0.3"   //Bullets that Explode
 
-		"MissileResist" 			"0.3"	//Generic Missle type of damage
+		"MissileResist" 		"0.3"	//Generic Missle type of damage
 		"MissileExplosiveResist" 	"0.55" 	//Explosive type.
-		"MissileBioResist" 			"0.3"	//Bio Missiles.  Different then Bio?
+		"MissileBioResist" 		"0.3"	//Bio Missiles.  Different then Bio?
 
-		"KineticArtResist" 			"0.3" 	//Kinetic Artillery
+		"KineticArtResist" 		"0.3" 	//Kinetic Artillery
 		"ExplosiveArtResist" 		"0.4" 	// Explosive Artillery
-		"BioArtResist" 				"0.3"   //Bio Artillery
+		"BioArtResist" 			"0.3"   //Bio Artillery
 
-		"AircraftMissileResist" 		"0.0" 	// Aircraft Missiles
+		"AircraftMissileResist" 	"0.0" 	// Aircraft Missiles
 		"AircraftGroundMissleResist" 	"0.0" 	// Aircraft Missiles to hit ground targets
-		"AircraftBulletResist" 			"0.0"   //Aircraft to Aircraft bullets
-		"AircraftAPBulletResist" 		"0.0"  	//Aircraft Bullets to hit ground targets
-		"AircraftBombResist" 			"0.0"    //Bombs
-		"AircraftBombBioResist" 		"0.0"  	//Bio Bombs?
+		"AircraftBulletResist" 		"0.0"   //Aircraft to Aircraft bullets
+		"AircraftAPBulletResist" 	"0.0"  	//Aircraft Bullets to hit ground targets
+		"AircraftBombResist" 		"0.0"    //Bombs
+		"AircraftBombBioResist" 	"0.0"  	//Bio Bombs?
 			
 		"InfantryGrenadeResist" 	"0.0" 	//Player Thrown Grenades
 		"InfantryMineResist" 		"0.3"	//Player Tossed Mines
@@ -139,6 +145,9 @@ InfantryParse
 		"ExtraType3Resist" 		"0.95" 	//and a third
 
 	}
+
+
+
 	"Engineer"
 	{
 	
@@ -148,28 +157,28 @@ InfantryParse
 		"GeneralElectricResist"  	"0.0"	//General Electric Tree Damage
 		"GeneralBiologicalResist"	"0.0" 	//General Biological Tree Damage
 
-		"KineticResist" 			"0.0" 	//Railguns, Standard Cannons, Anything that is just force
-		"ExplosiveResist" 			"0.1"	//HE, Nukes, anything that explodes
-		"BioResist" 				"0.0"	//Has the bio effect
+		"KineticResist" 		"0.0" 	//Railguns, Standard Cannons, Anything that is just force
+		"ExplosiveResist" 		"0.1"	//HE, Nukes, anything that explodes
+		"BioResist" 			"0.0"	//Has the bio effect
 
-		"BulletResist" 				"0.1"	//Non Armor damaging
-		"APBulletResist" 			"0.7" 	// Armor Damaging
+		"BulletResist" 			"0.1"	//Non Armor damaging
+		"APBulletResist" 		"0.7" 	// Armor Damaging
 		"BulletExplosiveResist" 	"0.0"   //Bullets that Explode
 
-		"MissileResist" 			"0.0"	//Generic Missle type of damage
+		"MissileResist" 		"0.0"	//Generic Missle type of damage
 		"MissileExplosiveResist" 	"0.55" 	//Explosive type.
-		"MissileBioResist" 			"0.0"	//Bio Missiles.  Different then Bio?
+		"MissileBioResist" 		"0.0"	//Bio Missiles.  Different then Bio?
 
-		"KineticArtResist" 			"0.1" 	//Kinetic Artillery
+		"KineticArtResist" 		"0.1" 	//Kinetic Artillery
 		"ExplosiveArtResist" 		"0.15" 	// Explosive Artillery
-		"BioArtResist" 				"0.0"   //Bio Artillery
+		"BioArtResist" 			"0.0"   //Bio Artillery
 
-		"AircraftMissileResist" 		"0.0" 	// Aircraft Missiles
+		"AircraftMissileResist" 	"0.0" 	// Aircraft Missiles
 		"AircraftGroundMissleResist" 	"0.0" 	// Aircraft Missiles to hit ground targets
-		"AircraftBulletResist" 			"0.0"   //Aircraft to Aircraft bullets
-		"AircraftAPBulletResist" 		"0.0"  	//Aircraft Bullets to hit ground targets
-		"AircraftBombResist" 			"0.0"    //Bombs
-		"AircraftBombBioResist" 		"0.0"  	//Bio Bombs?
+		"AircraftBulletResist" 		"0.0"   //Aircraft to Aircraft bullets
+		"AircraftAPBulletResist" 	"0.0"  	//Aircraft Bullets to hit ground targets
+		"AircraftBombResist" 		"0.0"    //Bombs
+		"AircraftBombBioResist" 	"0.0"  	//Bio Bombs?
 		
 		"InfantryGrenadeResist" 	"0.0" 	//Player Thrown Grenades
 		"InfantryMineResist" 		"0.2"	//Player Tossed Mines
@@ -185,4 +194,7 @@ InfantryParse
 		"ExtraType3Resist" 		"0.95" 	//and a third
 
 	}
+
+
+
 }  //EOF

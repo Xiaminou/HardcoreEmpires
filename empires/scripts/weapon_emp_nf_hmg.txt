@@ -4,8 +4,8 @@ WeaponData
 	"Damage"			"19"		// damage per bullet
 	"Bullets"			"1"		// bullets per shoot
 	"CycleTime"			"0.08"		// time between shoots
-	"Falloffbase"			"0.75"		// Falloff Base default 0.85
-	"Falloff"			"3000"		// distance at which bullet strength has dropped to 85% (damage decreases linearly)	
+	"FalloffStart"			"0"		// Distance at which bullet falloff starts - (Max bullet distance 10000 units) - Default 5000
+	"FalloffEnd"			"2500"		// Distance at which bullet falloff ends - (Distance that damage is at MinimalDamage) - Default 10000	
 	"MinimalDamage"			"15"		// bullet will always deal this amount of damage even after damage decrease
 
 	"Damage Head Modifier"		"3.0"

@@ -22,7 +22,7 @@ BuildingParse
 	 "carcass removal time" "30"								// Time it takes for a destroyed building carcass to be removed				
 	 "touchmessageid" "2"
 
-	"hint"			"This is the Brenodi Empire Armory. Press %+use% while aiming at either of the boxes to fill ammo and health. You can also change class in this building by pressing %chooseclass%."
+	 "hint"			"#emp_building_ImpArmory_hint"
 													
 	 "GeneralPhysicsResist"		0.85					//General Physics Tree Damage 					
 	 "GeneralChemistryResist"  	0.85				//General Chemistry Tree Damage							
@@ -97,7 +97,7 @@ BuildingParse
 	 "carcass removal time" "30"								// Time it takes for a destroyed building carcass to be removed				
 	 "touchmessageid" "3"
 
-	"hint"			"This is the Northern Faction Armory. Press %+use% while aiming at either of the boxes to fill ammo and health. You can also change class in this building by pressing %chooseclass%."
+	 "hint"			"#emp_building_NFArmory_hint"
 													
 	 "GeneralPhysicsResist"		0.85					//General Physics Tree Damage 					
 	 "GeneralChemistryResist"  	0.85				//General Chemistry Tree Damage							
@@ -177,7 +177,7 @@ BuildingParse
 	 "carcass removal time" "30"								// Time it takes for a destroyed building carcass to be removed				
 	 "touchmessageid" "4"
 
-	"hint"			"This is the Brenodi Empire Barracks. This building acts as a spawnpoint. You can choose a different spawnpoint by pressing %emp_map_spawn%. You can change class here by pressing %chooseclass%."
+	 "hint"			"#emp_building_ImpBarracks_hint"
 													
 	 "GeneralPhysicsResist"		0.85					//General Physics Tree Damage 					
 	 "GeneralChemistryResist"  	0.85				//General Chemistry Tree Damage							
@@ -251,7 +251,7 @@ BuildingParse
 	 "carcass removal time" "30"								// Time it takes for a destroyed building carcass to be removed				
 	 "touchmessageid" "5"
 
-	"hint"			"This is the Northern Faction Barracks. This building acts as a spawnpoint. You can choose a different spawnpoint by pressing %emp_map_spawn%. You can change class here by pressing %chooseclass%."
+	 "hint"			"#emp_building_NFBarracks_hint"
 													
 	 //RESISTANCES												
 													
@@ -327,7 +327,7 @@ BuildingParse
 	 "carcass removal time" "30"								// Time it takes for a destroyed building carcass to be removed				
 	 "touchmessageid" "6"
 
-	"hint"			"This is the Brenodi Empire Radar. This building is needed to conduct research (your team's research status is on the top left of the screen). It also shows enemy vehicles and buildings within a certain radius on the minimap."
+	 "hint"			"#emp_building_ImpRadar_hint"
 													
 	 //RESISTANCES												
 													
@@ -403,7 +403,7 @@ BuildingParse
 	 "carcass removal time" "30"								// Time it takes for a destroyed building carcass to be removed				
 	 "touchmessageid" "7"
 
-	"hint"			"This is the Northern Faction Radar. This building is needed to conduct research (your team's research status is on the top left of the screen). It also shows enemy vehicles and buildings within a certain radius on the minimap."
+	 "hint"			"#emp_building_NFRadar_hint"
 													
 	 //RESISTANCES												
 													
@@ -479,7 +479,7 @@ BuildingParse
 	 "carcass removal time" "10"								// Time it takes for a destroyed building carcass to be removed				
 	 "touchmessageid" "8"
 
-	"hint"			"This is the Brenodi Empire Refinery. It continually generates resources, to be spent on vehicles and buildings. These can only be placed on refinery spots; vertical rocks with smoke rising from them."
+	 "hint"			"#emp_building_ImpRefinery_hint"
 													
 	 //RESISTANCES												
 													
@@ -552,7 +552,7 @@ BuildingParse
 	 "carcass removal time" "10"								// Time it takes for a destroyed building carcass to be removed				
 	 "touchmessageid" "9"
 
-	"hint"			"This is the Northern Faction Refinery. It continually generates resources, to be spent on vehicles and buildings. These can only be placed on refinery spots; vertical rocks with smoke rising from them."
+	 "hint"			"#emp_building_NFRefinery_hint"
 													
 	 //RESISTANCES												
 													
@@ -625,7 +625,7 @@ BuildingParse
 	 "carcass removal time" "30"								// Time it takes for a destroyed building carcass to be removed				
 	 "touchmessageid" "10"
 
-	"hint"			"This is the Brenodi Empire Repair Pad. Vehicles parked on top of it are automatically repaired, unless they take new damage (repair starts 10 seconds after last damage). You can also press %emp_show_vehicle_customization% to change the loadout of your vehicle without getting a new one."
+	 "hint"			"#emp_building_ImpRepair_hint"
 													
 	 //RESISTANCES												
 													
@@ -701,7 +701,7 @@ BuildingParse
 	 "carcass removal time" "30"								// Time it takes for a destroyed building carcass to be removed				
 	 "touchmessageid" "11"
 
-	"hint"			"This is the Northern Faction Repair Pad. Vehicles parked on top of it are automatically repaired, unless they take new damage (repair starts 10 seconds after last damage). You can also press %emp_show_vehicle_customization% to change the loadout of your vehicle without getting a new one."
+	 "hint"			"#emp_building_NFRepair_hint"
 													
 	 //RESISTANCES												
 													
@@ -785,7 +785,7 @@ BuildingParse
 	 "carcass removal time" "1"								// Time it takes for a destroyed building carcass to be removed				
 	 "touchmessageid" "12"
 
-	"hint"			"This is a Brenodi Empire Machine Gun Turret, which can be placed by the commander as well as engineers. Sitting on top of enemy MG turrets is safe."
+	 "hint"			"#emp_building_ImpMGTurret_lvl1_hint"
 									
 		 //RESISTANCES							
 									
@@ -860,15 +860,15 @@ BuildingParse
      "turret turn speed"    "200"
 	 "turret damage"		"3"
 
-	"hint"			"This is a Brenodi Empire Machine Gun Turret, which can be placed by the commander as well as engineers. Sitting on top of enemy MG turrets is safe."
-
-	//BOUNDARY VECTORS								
+	 "hint"			"#emp_building_ImpMGTurret_lvl1_hint"
+	 
+	 //BOUNDARY VECTORS								
 
 	 "CollisionRadius" "60"
 	 "CollisionHeight" "20"
 	 "CollisionOffsetX" "0"
 	 "CollisionOffsetY" "0"
-	 "CollisionOffsetZ" "0"	
+	 "CollisionOffsetZ" "0"
 	}
 	
 	//15									
@@ -890,15 +890,15 @@ BuildingParse
      "turret turn speed"    "200"
 	 "turret damage"		"3"
 
-	"hint"			"This is a Brenodi Empire Machine Gun Turret, which can be placed by the commander as well as engineers. Sitting on top of enemy MG turrets is safe."
-
-	//BOUNDARY VECTORS								
+	 "hint"			"#emp_building_ImpMGTurret_lvl1_hint"
+	 
+	 //BOUNDARY VECTORS								
 
 	 "CollisionRadius" "60"
 	 "CollisionHeight" "20"
 	 "CollisionOffsetX" "0"
 	 "CollisionOffsetY" "0"
-	 "CollisionOffsetZ" "0"	
+	 "CollisionOffsetZ" "0"
 	}
 									
 	//14								
@@ -928,7 +928,7 @@ BuildingParse
 	 "recycle time"		5								// Recycle time for the building
 	 "carcass removal time" "1"								// Time it takes for a destroyed building carcass to be removed				
 	 "touchmessageid" "13"
-	"hint"			"This is the Northern Faction Machine Gun Turret, which can be placed by the commander as well as engineers. Sitting on top of enemy MG turrets is safe."
+	 "hint"			"#emp_building_NFMGTurret_lvl1_hint"
 									
 		 //RESISTANCES							
 									
@@ -975,7 +975,7 @@ BuildingParse
 	 "ExtraType2Resist" 		0.6					//Again	
 	 "ExtraType3Resist" 		0.6					//and a third	
 									
-	//BOUNDARY VECTORS								
+	 //BOUNDARY VECTORS								
 
 	 "CollisionRadius" "60"
 	 "CollisionHeight" "20"
@@ -1002,15 +1002,15 @@ BuildingParse
      "turret turn speed"    "200"
 	 "turret damage"		"3"
 
-	"hint"			"This is the Northern Faction Machine Gun Turret, which can be placed by the commander as well as engineers. Sitting on top of enemy MG turrets is safe."
-
-	//BOUNDARY VECTORS								
+	 "hint"			"#emp_building_NFMGTurret_lvl1_hint"
+	 
+	 //BOUNDARY VECTORS								
 
 	 "CollisionRadius" "60"
 	 "CollisionHeight" "20"
 	 "CollisionOffsetX" "0"
 	 "CollisionOffsetY" "0"
-	 "CollisionOffsetZ" "0"	
+	 "CollisionOffsetZ" "0"
 	}
 	
 	//18									
@@ -1032,15 +1032,15 @@ BuildingParse
      "turret turn speed"    "200"
 	 "turret damage"		"3"
 
-	"hint"			"This is the Northern Faction Machine Gun Turret, which can be placed by the commander as well as engineers. Sitting on top of enemy MG turrets is safe."
-
-	//BOUNDARY VECTORS								
+	 "hint"			"#emp_building_NFMGTurret_lvl1_hint"
+	 
+	 //BOUNDARY VECTORS								
 
 	 "CollisionRadius" "60"
 	 "CollisionHeight" "20"
 	 "CollisionOffsetX" "0"
 	 "CollisionOffsetY" "0"
-	 "CollisionOffsetZ" "0"	
+	 "CollisionOffsetZ" "0"
 	}	
 									
 	//15								
@@ -1077,7 +1077,7 @@ BuildingParse
 	 "carcass removal time" "1"								// Time it takes for a destroyed building carcass to be removed				
 	 "touchmessageid" "14"
 
-	"hint"			"This is the Brenodi Empire Missile Launcher Turret. These can be upgraded by research, in Electrical Engineering, or using the skill, for the engineer's own turret."
+	 "hint"			"#emp_building_ImpMLTurret_lvl1_hint"
 									
 		 //RESISTANCES							
 									
@@ -1124,7 +1124,7 @@ BuildingParse
 	 "ExtraType2Resist" 		0.6					//Again	
 	 "ExtraType3Resist" 		0.6					//and a third
 	 
-	//BOUNDARY VECTORS								
+	 //BOUNDARY VECTORS								
 
 	 "CollisionRadius" "60"
 	 "CollisionHeight" "20"
@@ -1154,15 +1154,15 @@ BuildingParse
 	 "turret damage"		"40"
 	 "turret missile speed"	"2300"
 
-	"hint"			"This is the Brenodi Empire Missile Launcher Turret. These can be upgraded by research, in Electrical Engineering, or using the skill, for the engineer's own turret."
-
-	//BOUNDARY VECTORS								
+	 "hint"			"#emp_building_ImpMLTurret_lvl1_hint"
+	 
+	 //BOUNDARY VECTORS								
 
 	 "CollisionRadius" "60"
 	 "CollisionHeight" "20"
 	 "CollisionOffsetX" "0"
 	 "CollisionOffsetY" "0"
-	 "CollisionOffsetZ" "0"	
+	 "CollisionOffsetZ" "0"
 	}
 	
 	//21								
@@ -1187,15 +1187,15 @@ BuildingParse
 	 "turret damage"		"40"
 	 "turret missile speed"	"2300"
 
-	"hint"			"This is the Brenodi Empire Missile Launcher Turret. These can be upgraded by research, in Electrical Engineering, or using the skill, for the engineer's own turret."
-
-	//BOUNDARY VECTORS								
+	 "hint"			"#emp_building_ImpMLTurret_lvl1_hint"
+	 
+	 //BOUNDARY VECTORS								
 
 	 "CollisionRadius" "60"
 	 "CollisionHeight" "20"
 	 "CollisionOffsetX" "0"
 	 "CollisionOffsetY" "0"
-	 "CollisionOffsetZ" "0"	
+	 "CollisionOffsetZ" "0"
 	}
 	
 	//16								
@@ -1234,7 +1234,7 @@ BuildingParse
 	 "carcass removal time" "1"								// Time it takes for a destroyed building carcass to be removed				
 	 "touchmessageid" "15"
 
-	"hint"				"This is the Northern Faction Missile Launcher Turret. These can be upgraded by research, in Electrical Engineering, or using the skill, for the engineer's own turret."
+	 "hint"			"#emp_building_NFMLTurret_hint"
 									
 		 //RESISTANCES							
 									
@@ -1310,9 +1310,9 @@ BuildingParse
 	 "turret damage"		"40"
 	 "turret missile speed"	"2300"
 
-	"hint"				"This is the Northern Faction Missile Launcher Turret. These can be upgraded by research, in Electrical Engineering, or using the skill, for the engineer's own turret."
-	
-	//BOUNDARY VECTORS								
+	 "hint"			"#emp_building_NFMLTurret_hint"
+	 
+	 //BOUNDARY VECTORS								
 
 	 "CollisionRadius" "60"
 	 "CollisionHeight" "20"
@@ -1342,9 +1342,9 @@ BuildingParse
 	 "turret damage"		"40"
 	 "turret missile speed"	"2300"
 
-	"hint"				"This is the Northern Faction Missile Launcher Turret. These can be upgraded by research, in Electrical Engineering, or using the skill, for the engineer's own turret."
-	
-	//BOUNDARY VECTORS								
+	 "hint"			"#emp_building_NFMLTurret_hint"
+	 
+	 //BOUNDARY VECTORS								
 
 	 "CollisionRadius" "60"
 	 "CollisionHeight" "20"
@@ -1374,7 +1374,7 @@ BuildingParse
 	 "carcass removal time" "0.5"								// Time it takes for a destroyed building carcass to be removed				
 	 "touchmessageid" "16"
 
-	"hint"			"This is a Brenodi Empire engineer-placed camera. It detects uncloaked enemy infantry within a small radius and marks them for all friendly players. They also show up on the minimap as arrows."
+	 "hint"			"#emp_building_ImpEngyCamera_hint"
 													
 		 //RESISTANCES											
 													
@@ -1448,7 +1448,7 @@ BuildingParse
 	 "carcass removal time" "0.5"								// Time it takes for a destroyed building carcass to be removed				
 	 "touchmessageid" "17"
 
-	"hint"			"This is a Northern Faction engineer-placed camera. It detects uncloaked enemy infantry within a small radius and marks them for all friendly players. They also show up on the minimap as arrows."
+	 "hint"			"#emp_building_NFEngyCamera_hint"
 													
 	//RESISTANCES												
 													
@@ -1520,7 +1520,7 @@ BuildingParse
 	 "carcass removal time" "0.5"								// Time it takes for a destroyed building carcass to be removed				
 	 "touchmessageid" "18"
 
-	"hint"			"This is a Brenodi Empire engineer-placed radar. It spots enemy vehicles within a small radius and marks them for friendly players."
+	 "hint"			"#emp_building_ImpEngyRadar_hint"
 													
 	 	//RESISTANCES											
 													
@@ -1592,7 +1592,7 @@ BuildingParse
 	 "carcass removal time" "0.5"								// Time it takes for a destroyed building carcass to be removed				
 	 "touchmessageid" "19"
 
-	"hint"			"This is a Northern Faction engineer-placed radar. It spots enemy vehicles within a small radius and marks them for friendly players."
+	 "hint"			"#emp_building_NFEngyRadar_hint"
 													
 	 	//RESISTANCES											
 													
@@ -1665,7 +1665,7 @@ BuildingParse
 	 
 	 "touchmessageid" "20"
 
-	"hint"			"This is a Brenodi Empire Wall. Keep in mind that walls are sometimes better left unbuilt so that you can shoot over them. If you're stuck or blocked by a friendly wall, ask your commander to recycle it."
+	 "hint"			"#emp_building_ImpWall_hint"
 													
 	 	//RESISTANCES											
 													
@@ -1752,7 +1752,7 @@ BuildingParse
 	 "carcass removal time" "30"								// Time it takes for a destroyed building carcass to be removed				
 	 "touchmessageid" "21"
 
-	"hint"			"This is a Northern Faction Wall. Keep in mind that walls are sometimes better left unbuilt so that you can shoot over them. If you're stuck or blocked by a friendly wall, ask your commander to recycle it."
+	 "hint"			"#emp_building_NFWall_hint"
 													
 	 	//RESISTANCES											
 													
@@ -1836,7 +1836,8 @@ BuildingParse
 
 	 "touchmessageid" "22"
 
-	"hint"			"This is the Brenodi Empire Vehicle Factory. Press %emp_show_vehicle_customization% while inside to start building and customizing your vehicle. Alternatively you can press %+use% on the control panel within the vehicle factory."
+
+	 "hint"			"#emp_building_ImpVehicleFactory_hint"
 													
 	 	//RESISTANCES											
 													
@@ -1912,7 +1913,8 @@ BuildingParse
 	 "carcass removal time" "30"								// Time it takes for a destroyed building carcass to be removed				
 	 "touchmessageid" "23"
 
-	"hint"			"This is the Northern Faction Vehicle Factory. Press %emp_show_vehicle_customization% while inside to start building and customizing your vehicle. Alternatively you can press %+use% on the control panel within the vehicle factory."
+
+	 "hint"			"#emp_building_NFVehicleFactory_hint"
 													
 	 	//RESISTANCES											
 													

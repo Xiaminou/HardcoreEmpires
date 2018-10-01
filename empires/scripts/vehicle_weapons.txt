@@ -2,9 +2,9 @@ Vehicle_Weapons
 {
 	"Standard Machine Gun"
 	{
-		"Name"			"Standard Machine Gun"		//name given when selecting weapons
-		"HUD Name"		"Std MG"			//name displayed in the weapon area of the vehicle HUD
-		"Description"		"A small machine gun that fires anti-infantry rounds."		//description given when selecting weapons
+		"Name"			"#emp_vehicle_weapons_Standard_Machine_Gun_name"		//name given when selecting weapons
+		"HUD Name"		"#emp_vehicle_weapons_Standard_Machine_Gun_HUD_name"			//name displayed in the weapon area of the vehicle HUD
+		"Description"		"#emp_vehicle_weapons_Standard_Machine_Gun_description"		//description given when selecting weapons
 		"Icon"			"vehicles/gui/weapons/mg_std_sml"		//icon drawn in the GUI
 		"HUD Icon"		"vehicles/gui/weapons/mg"
 		"Size"			"1"		//number of slots required when selecting weapons
@@ -59,15 +59,15 @@ Vehicle_Weapons
 
 
 		//Falloff
-		"Falloff"			"2000"		
-		"Falloffbase"			"0.8"		
+		"FalloffStart"			"0" 		//Distance that we start reducing damage - Default 5000
+		"FalloffEnd"			"3000"		//Distance that we start dealing MinimalDamage value - (Max bullet distance 10000 units) - Default 10000
 		"MinimalDamage"			"13"		
 	}
 	"Bio Machine Gun"
 	{
-		"Name"			"Bio Machine Gun"		//name given when selecting weapons
-		"HUD Name"		"Bio MG"			//name displayed in the weapon area of the vehicle HUD
-		"Description"		"A small machine gun that fires bullets containing infectious material to do continual damage to a target."		//description given when selecting weapons
+		"Name"			"#emp_vehicle_weapons_Bio_Machine_Gun_name"		//name given when selecting weapons
+		"HUD Name"		"#emp_vehicle_weapons_Bio_Machine_Gun_HUD_name"			//name displayed in the weapon area of the vehicle HUD
+		"Description"		"#emp_vehicle_weapons_Bio_Machine_Gun_description"		//description given when selecting weapons
 		"Icon"			"vehicles/gui/weapons/mg_bio_med"		//icon drawn in the GUI
 		"HUD Icon"		"vehicles/gui/weapons/mg"
 		"Size"			"2"		//number of slots required when selecting weapons
@@ -124,16 +124,16 @@ Vehicle_Weapons
 		"Muzzle Flash"		"tracer_bio_muzzle"
 		
 		//Falloff
-		"Falloff"			"2500"		
-		"Falloffbase"			"0.8"		
+		"FalloffStart"			"0"		//Distance that we start reducing damage - Default 5000
+		"FalloffEnd"			"8000"		//Distance that we start dealing MinimalDamage value - (Max bullet distance 10000 units) - Default 10000
 		"MinimalDamage"			"4"	
 	}
 
-	".50 Caliber Medium Machine Gun"
+	".50 Cal Medium MG"
 	{
-		"Name"			".50 Cal Medium MG"		//name given when selecting weapons
-		"HUD Name"		".50 MG"			//name displayed in the weapon area of the vehicle HUD
-		"Description"		"A heavier .50 caliber firing medium machine gun."		//description given when selecting weapons
+		"Name"			"#emp_vehicle_weapons_.50_Caliber_Medium_Machine_Gun_name"		//name given when selecting weapons
+		"HUD Name"		"#emp_vehicle_weapons_.50_Caliber_Medium_Machine_Gun_HUD_name"			//name displayed in the weapon area of the vehicle HUD
+		"Description"		"#emp_vehicle_weapons_.50_Caliber_Medium_Machine_Gun_description"		//description given when selecting weapons
 		"Icon"			"vehicles/gui/weapons/mg_50cal_med"		//icon drawn in the GUI
 		"HUD Icon"		"vehicles/gui/weapons/mg"
 		"Size"			"2"		//number of slots required when selecting weapons
@@ -176,17 +176,18 @@ Vehicle_Weapons
 		//effects
 		"Tracer Type"			"tracer_vehiclemg" //Tracer effect, tracer names are logical, a list: tracer_du, tracer_bio, tracer_he, tracer_rifle, tracer_smg, tracer_vehiclemg, tracer_cg, tracer_plasma
 		"Muzzle Flash"			"tracer_vehiclemg_muzzle"
+		
 		//Falloff 
-		"Falloff"			"2500"		
-		"Falloffbase"			"0.9"		
+		"FalloffStart"			"0"		//Distance that we start reducing damage - Default 5000
+		"FalloffEnd"			"5500"		//Distance that we start dealing MinimalDamage value - (Max bullet distance 10000 units) - Default 10000
 		"MinimalDamage"			"16"	
 	
 	}
-	".50 Caliber Heavy Machine Gun"
+	".50 Cal Heavy MG"
 	{
-		"Name"			".50 Cal Heavy MG"		//name given when selecting weapons
-		"HUD Name"		".50 HMG"			//name displayed in the weapon area of the vehicle HUD
-		"Description"		"A heavier .50 caliber firing heavy machine gun."		//description given when selecting weapons
+		"Name"			"#emp_vehicle_weapons_.50_Caliber_Heavy_Machine_Gun_name"		//name given when selecting weapons
+		"HUD Name"		"#emp_vehicle_weapons_.50_Caliber_Heavy_Machine_Gun_HUD_name"			//name displayed in the weapon area of the vehicle HUD
+		"Description"		"#emp_vehicle_weapons_.50_Caliber_Heavy_Machine_Gun_description"		//description given when selecting weapons
 		"Icon"			"vehicles/gui/weapons/mg_50cal_hvy"		//icon drawn in the GUI
 		"HUD Icon"		"vehicles/gui/weapons/mg"
 		"Size"			"3"		//number of slots required when selecting weapons
@@ -230,17 +231,17 @@ Vehicle_Weapons
 		"Tracer Type"			"tracer_vehiclemg" //Tracer effect, tracer names are logical, a list: tracer_du, tracer_bio, tracer_he, tracer_rifle, tracer_smg, tracer_vehiclemg, tracer_cg, tracer_plasma
 		"Muzzle Flash"			"tracer_vehiclemg_muzzle"
 
-			//Falloff
-		"Falloff"			"2500"		
-		"Falloffbase"			"0.9"		
+		//Falloff
+		"FalloffStart"			"0"		//Distance that we start reducing damage - Default 5000
+		"FalloffEnd"			"5500"		//Distance that we start dealing MinimalDamage value - (Max bullet distance 10000 units) - Default 10000
 		"MinimalDamage"			"19"	
 	
 	}
-	"Anti-Tank Machine Gun"
+	"Depleted Uranium MG"
 	{
-		"Name"			"Depleted Uranium MG"		//name given when selecting weapons
-		"HUD Name"		"DU MG"			//name displayed in the weapon area of the vehicle HUD
-		"Description"		"This machine gun fires ammunition which can damage vehicle armor."		//description given when selecting weapons
+		"Name"			"#emp_vehicle_weapons_Anti-Tank_Machine_Gun_name"		//name given when selecting weapons
+		"HUD Name"		"#emp_vehicle_weapons_Anti-Tank_Machine_Gun_HUD_name"			//name displayed in the weapon area of the vehicle HUD
+		"Description"		"#emp_vehicle_weapons_Anti-Tank_Machine_Gun_description"		//description given when selecting weapons
 		"Icon"			"vehicles/gui/weapons/mg_du_med"		//icon drawn in the GUI
 		"HUD Icon"		"vehicles/gui/weapons/mg"
 		"Size"			"2"		//number of slots required when selecting weapons
@@ -285,16 +286,16 @@ Vehicle_Weapons
 		"Muzzle Flash"			"tracer_du_muzzle"
 
 		//Falloff
-		"Falloff"			"3000"		
-		"Falloffbase"			"0.8"		
+		"FalloffStart"			"0"		//Distance that we start reducing damage - Default 5000
+		"FalloffEnd"			"6500"		//Distance that we start dealing MinimalDamage value - (Max bullet distance 10000 units) - Default 10000
 		"MinimalDamage"			"3"	
 	
 	}
-	"Anti-Tank Heavy Machine Gun"
+	"Depleted Uranium HMG"
 	{
-		"Name"			"Depleted Uranium HMG"		//name given when selecting weapons
-		"HUD Name"		"DU HMG"			//name displayed in the weapon area of the vehicle HUD
-		"Description"		"This machine gun fires ammunition which can damage vehicle armor.  It is more damaging than the standard version."		//description given when selecting weapons
+		"Name"			"#emp_vehicle_weapons_Anti-Tank_Heavy_Machine_Gun_name"		//name given when selecting weapons
+		"HUD Name"		"#emp_vehicle_weapons_Anti-Tank_Heavy_Machine_Gun_HUD_name"			//name displayed in the weapon area of the vehicle HUD
+		"Description"		"#emp_vehicle_weapons_Anti-Tank_Heavy_Machine_Gun_description"		//description given when selecting weapons
 		"Icon"			"vehicles/gui/weapons/mg_du_hvy"		//icon drawn in the GUI
 		"HUD Icon"		"vehicles/gui/weapons/mg"
 		"Size"			"3"		//number of slots required when selecting weapons
@@ -338,17 +339,17 @@ Vehicle_Weapons
 		"Tracer Type"			"tracer_du" //Tracer effect, tracer names are logical, a list: tracer_du, tracer_bio, tracer_he, tracer_rifle, tracer_smg, tracer_vehiclemg, tracer_cg, tracer_plasma
 		"Muzzle Flash"			"tracer_du_muzzle"
 
-			//Falloff
-		"Falloff"			"3000"		
-		"Falloffbase"			"0.8"		
+		//Falloff
+		"FalloffStart"			"0"		//Distance that we start reducing damage - Default 5000
+		"FalloffEnd"			"6500"		//Distance that we start dealing MinimalDamage value - (Max bullet distance 10000 units) - Default 10000
 		"MinimalDamage"			"5"	
 	
 	}
 	"Chain Gun"
 	{
-		"Name"			"Chain Gun"		//name given when selecting weapons
-		"HUD Name"		"CG"			//name displayed in the weapon area of the vehicle HUD
-		"Description"		"This chain gun fires at a very fast rate."		//description given when selecting weapons
+		"Name"			"#emp_vehicle_weapons_Chain_Gun_name"		//name given when selecting weapons
+		"HUD Name"		"#emp_vehicle_weapons_Chain_Gun_HUD_name"			//name displayed in the weapon area of the vehicle HUD
+		"Description"		"#emp_vehicle_weapons_Chain_Gun_description"		//description given when selecting weapons
 		"Icon"			"vehicles/gui/weapons/mg_chain_sml"		//icon drawn in the GUI
 		"HUD Icon"		"vehicles/gui/weapons/mg"
 		"Size"			"1"		//number of slots required when selecting weapons
@@ -392,17 +393,17 @@ Vehicle_Weapons
 		"Tracer Type"			"tracer_cg" //Tracer effect, tracer names are logical, a list: tracer_du, tracer_bio, tracer_he, tracer_rifle, tracer_smg, tracer_vehiclemg, tracer_cg, tracer_plasma
 		"Muzzle Flash"			"tracer_cg_muzzle"
 
-			//Falloff
-		"Falloff"			"1500"		
-		"Falloffbase"			"0.75"		
+		//Falloff
+		"FalloffStart"			"0"		//Distance that we start reducing damage - Default 5000
+		"FalloffEnd"			"1250"		//Distance that we start dealing MinimalDamage value - (Max bullet distance 10000 units) - Default 10000
 		"MinimalDamage"			"11"	
 
 	}
 	"Medium Chain Gun"
 	{
-		"Name"			"Medium Chain Gun"		//name given when selecting weapons
-		"HUD Name"		"Med CG"			//name displayed in the weapon area of the vehicle HUD
-		"Description"		"This machine gun fires at a very fast rate.  Its damage is greater than the smaller version."		//description given when selecting weapons
+		"Name"			"#emp_vehicle_weapons_Medium_Chain_Gun_name"		//name given when selecting weapons
+		"HUD Name"		"#emp_vehicle_weapons_Medium_Chain_Gun_HUD_name"			//name displayed in the weapon area of the vehicle HUD
+		"Description"		"#emp_vehicle_weapons_Medium_Chain_Gun_description"		//description given when selecting weapons
 		"Icon"			"vehicles/gui/weapons/mg_chain_med"		//icon drawn in the GUI
 		"HUD Icon"		"vehicles/gui/weapons/mg"
 		"Size"			"2"		//number of slots required when selecting weapons
@@ -445,18 +446,17 @@ Vehicle_Weapons
 		//effects
 		"Tracer Type"			"tracer_cg" //Tracer effect, tracer names are logical, a list: tracer_du, tracer_bio, tracer_he, tracer_rifle, tracer_smg, tracer_vehiclemg, tracer_cg, tracer_plasma
 		"Muzzle Flash"			"tracer_cg_muzzle"
-
-		"Falloff"			"1500"		
-		"Falloffbase"			"0.75"		
+		
+		//Falloff
+		"FalloffStart"			"0"		//Distance that we start reducing damage - Default 5000
+		"FalloffEnd"			"1250"		//Distance that we start dealing MinimalDamage value - (Max bullet distance 10000 units) - Default 10000
 		"MinimalDamage"			"12"	
-
-
 	}
-	"Plasma Machine Gun"
+	"Plasma MG"
 	{
-		"Name"			"Plasma MG"		//name given when selecting weapons
-		"HUD Name"		"Plasma MG"			//name displayed in the weapon area of the vehicle HUD
-		"Description"		"This machine gun fires superheated rounds which are designed to overheat the target vehicle."		//description given when selecting weapons
+		"Name"			"#emp_vehicle_weapons_Plasma_Machine_Gun_name"		//name given when selecting weapons
+		"HUD Name"		"#emp_vehicle_weapons_Plasma_Machine_Gun_HUD_name"			//name displayed in the weapon area of the vehicle HUD
+		"Description"		"#emp_vehicle_weapons_Plasma_Machine_Gun_description"		//description given when selecting weapons
 		"Icon"			"vehicles/gui/weapons/mg_plasma_med"		//icon drawn in the GUI
 		"HUD Icon"		"vehicles/gui/weapons/mg"
 		"Size"			"2"		//number of slots required when selecting weapons
@@ -503,12 +503,17 @@ Vehicle_Weapons
 		//effects
 		"Tracer Type"			"tracer_plasma" //Tracer effect, tracer names are logical, a list: tracer_du, tracer_bio, tracer_he, tracer_rifle, tracer_smg, tracer_vehiclemg, tracer_cg, tracer_plasma
 		"Muzzle Flash"			"tracer_plasma_muzzle"
+		
+		//Falloff
+		"FalloffStart"			"5000" 		//Distance that we start reducing damage - Default 5000
+		"FalloffEnd"			"10000"		//Distance that we start dealing MinimalDamage value - (Max bullet distance 10000 units) - Default 10000
+		"MinimalDamage"			"3"
 	}
 	"High Energy Plasma MG"
 	{
-		"Name"			"High Energy Plasma MG"		//name given when selecting weapons
-		"HUD Name"		"H-Plasma MG"			//name displayed in the weapon area of the vehicle HUD
-		"Description"		"This APC-designated heavy machine gun fires superheated rounds which are designed to overheat the target vehicle."		//description given when selecting weapons
+		"Name"			"#emp_vehicle_weapons_High_Energy_Plasma_MG_name"		//name given when selecting weapons
+		"HUD Name"		"#emp_vehicle_weapons_High_Energy_Plasma_MG_HUD_name"			//name displayed in the weapon area of the vehicle HUD
+		"Description"		"#emp_vehicle_weapons_High_Energy_Plasma_MG_description"		//description given when selecting weapons
 		"Icon"			"vehicles/gui/weapons/mg_plasma_hvy"		//icon drawn in the GUI
 		"HUD Icon"		"vehicles/gui/weapons/mg"
 		"Size"			"3"		//number of slots required when selecting weapons
@@ -555,14 +560,19 @@ Vehicle_Weapons
 		//effects
 		"Tracer Type"			"tracer_plasma" //Tracer effect, tracer names are logical, a list: tracer_du, tracer_bio, tracer_he, tracer_rifle, tracer_smg, tracer_vehiclemg, tracer_cg, tracer_plasma
 		"Muzzle Flash"			"tracer_plasma_muzzle"
+		
+		//Falloff
+		"FalloffStart"			"5000" 		//Distance that we start reducing damage - Default 5000
+		"FalloffEnd"			"10000"		//Distance that we start dealing MinimalDamage value - (Max bullet distance 10000 units) - Default 10000
+		"MinimalDamage"			"4"
 	}
 	//NOTATION!
 	//AMMO TYPE OF HEMG HAS TEMPORARELY CHANGED TO 1 (ARMOR PIERCING) FROM 2 (EXPLOSIVE) REQUESTED BY EMPTY
 	"HE MG"
 	{
-		"HUD Name"		"HE MG"			//name displayed in the weapon area of the vehicle HUD
-		"Name"			"High Explosive MG"		//name given when selecting weapons
-		"Description"		"This machine gun fires rounds which explode upon impact.  It is very effective against vehicles."		//description given when selecting weapons
+		"Name"			"#emp_vehicle_weapons_HE_MG_name"		//name given when selecting weapons
+		"HUD Name"		"#emp_vehicle_weapons_HE_MG_HUD_name"			//name displayed in the weapon area of the vehicle HUD
+		"Description"		"#emp_vehicle_weapons_HE_MG_description"		//description given when selecting weapons
 		"Icon"			"vehicles/gui/weapons/mg_he_med"		//icon drawn in the GUI
 		"HUD Icon"		"vehicles/gui/weapons/mg"
 		"Size"			"2"		//number of slots required when selecting weapons
@@ -605,12 +615,17 @@ Vehicle_Weapons
 		//effects
 		"Tracer Type"			"tracer_he" //Tracer effect, tracer names are logical, a list: tracer_du, tracer_bio, tracer_he, tracer_rifle, tracer_smg, tracer_vehiclemg, tracer_cg, tracer_plasma
 		"Muzzle Flash"			"tracer_he_muzzle"
+		
+		//Falloff
+		"FalloffStart"			"5000" 		//Distance that we start reducing damage - Default 5000
+		"FalloffEnd"			"10000"		//Distance that we start dealing MinimalDamage value - (Max bullet distance 10000 units) - Default 10000
+		"MinimalDamage"			"8"
 	}
 	"HE HMG"
 	{
-		"HUD Name"		"HE HMG"			//name displayed in the weapon area of the vehicle HUD
-		"Name"			"High Explosive HMG"		//name given when selecting weapons
-		"Description"		"This machine gun fires high caliber rounds which explode upon impact.  It is very effective against vehicles."		//description given when selecting weapons
+		"Name"			"#emp_vehicle_weapons_HE_HMG_name"		//name given when selecting weapons
+		"HUD Name"		"#emp_vehicle_weapons_HE_HMG_HUD_name"			//name displayed in the weapon area of the vehicle HUD
+		"Description"		"#emp_vehicle_weapons_HE_HMG_description"		//description given when selecting weapons
 		"Icon"			"vehicles/gui/weapons/mg_he_hvy"		//icon drawn in the GUI
 		"HUD Icon"		"vehicles/gui/weapons/mg"
 		"Size"			"3"		//number of slots required when selecting weapons
@@ -653,12 +668,17 @@ Vehicle_Weapons
 		//effects
 		"Tracer Type"			"tracer_he" //Tracer effect, tracer names are logical, a list: tracer_du, tracer_bio, tracer_he, tracer_rifle, tracer_smg, tracer_vehiclemg, tracer_cg, tracer_plasma
 		"Muzzle Flash"			"tracer_he_muzzle"
+		
+		//Falloff
+		"FalloffStart"			"5000" 		//Distance that we start reducing damage - Default 5000
+		"FalloffEnd"			"10000"		//Distance that we start dealing MinimalDamage value - (Max bullet distance 10000 units) - Default 10000
+		"MinimalDamage"			"10"
 	}
 	"Standard Cannon"
 	{
-		"Name"			"Standard Cannon"		//name given when selecting weapons
-		"HUD Name"		"Std CN"			//name displayed in the weapon area of the vehicle HUD
-		"Description"		"A small caliber cannon that fires tank shells."		//description given when selecting weapons
+		"Name"			"#emp_vehicle_weapons_Standard_Cannon_name"		//name given when selecting weapons
+		"HUD Name"		"#emp_vehicle_weapons_Standard_Cannon_HUD_name"		//name displayed in the weapon area of the vehicle HUD
+		"Description"		"#emp_vehicle_weapons_Standard_Cannon_description"		//description given when selecting weapons
 		"Icon"			"vehicles/gui/weapons/cn_std_sml"		//icon drawn in the GUI
 		"HUD Icon"		"vehicles/gui/weapons/cn"
 		"Size"			"1"		//number of slots required when selecting weapons
@@ -702,9 +722,9 @@ Vehicle_Weapons
 
 	"Ranged Cannon"
 	{
-		"Name"			"Ranged Cannon"		//name given when selecting weapons
-		"HUD Name"		"Ranged CN"			//name displayed in the weapon area of the vehicle HUD
-		"Description"		"A medium caliber cannon that fires tank shells. Its barrel is enhanced for longer ranges."		//description given when selecting weapons
+		"Name"			"#emp_vehicle_weapons_Ranged_Cannon_name"		//name given when selecting weapons
+		"HUD Name"		"#emp_vehicle_weapons_Ranged_Cannon_HUD_name"			//name displayed in the weapon area of the vehicle HUD
+		"Description"		"#emp_vehicle_weapons_Ranged_Cannon_description"		//description given when selecting weapons
 		"Icon"			"vehicles/gui/weapons/cn_ranged_med"		//icon drawn in the GUI
 		"HUD Icon"		"vehicles/gui/weapons/cn"
 		"Size"			"2"		//number of slots required when selecting weapons
@@ -744,11 +764,11 @@ Vehicle_Weapons
 		"Lock On Time"		"0"		//time it takes for a homing missile to lock onto the target under the player crosshairs
 		"Lock Range Modifier"	"0"		//modifies lock on time based on range (as range increases, lock on time increases based on the modifier: modifier * range to target + lock on time = total lock on time)
 	}
-	"Heavy-duty Ranged Cannon"
+	"Heavy-duty Ranged Cn."
 	{
-		"Name"			"Heavy-duty Ranged Cn."		//name given when selecting weapons
-		"HUD Name"		"H/Ranged CN"			//name displayed in the weapon area of the vehicle HUD
-		"Description"		"A large caliber cannon that fires tank shells. Its barrel is enhanced for longer ranges."		//description given when selecting weapons
+		"Name"			"#emp_vehicle_weapons_Heavy-Duty_Ranged_Cannon_name"		//name given when selecting weapons
+		"HUD Name"		"#emp_vehicle_weapons_Heavy-Duty_Ranged_Cannon_HUD_name"			//name displayed in the weapon area of the vehicle HUD
+		"Description"		"#emp_vehicle_weapons_Heavy-Duty_Ranged_Cannon_HUD_description"		//description given when selecting weapons
 		"Icon"			"vehicles/gui/weapons/cn_ranged_hvy"		//icon drawn in the GUI
 		"HUD Icon"		"vehicles/gui/weapons/cn"
 		"Size"			"3"		//number of slots required when selecting weapons
@@ -790,9 +810,9 @@ Vehicle_Weapons
 	}
 	"High-Explosive Cannon"
 	{
-		"Name"			"High-Explosive Cannon"		//name given when selecting weapons
-		"HUD Name"		"HE CN"			//name displayed in the weapon area of the vehicle HUD
-		"Description"		"This cannon has its explosive compound upgraded for a stronger explosion upon impact."		//description given when selecting weapons
+		"Name"			"#emp_vehicle_weapons_High_Explosive_Cannon_name"		//name given when selecting weapons
+		"HUD Name"		"#emp_vehicle_weapons_High_Explosive_Cannon_HUD_name"			//name displayed in the weapon area of the vehicle HUD
+		"Description"		"#emp_vehicle_weapons_High_Explosive_Cannon_description"		//description given when selecting weapons
 		"Icon"			"vehicles/gui/weapons/cn_he_med"		//icon drawn in the GUI
 		"HUD Icon"		"vehicles/gui/weapons/cn"
 		"Size"			"2"		//number of slots required when selecting weapons
@@ -837,9 +857,9 @@ Vehicle_Weapons
 	}
 	"Thermobaric Cannon"
 	{
-		"Name"			"Thermobaric Cannon"		//name given when selecting weapons
-		"HUD Name"		"Thermo. CN"			//name displayed in the weapon area of the vehicle HUD
-		"Description"	"This cannon utilizes oxygen from the surrounding air to generate an intense, high-temperature explosion."		//description given when selecting weapons
+		"Name"			"#emp_vehicle_weapons_Thermobaric_Cannon_name"		//name given when selecting weapons
+		"HUD Name"		"#emp_vehicle_weapons_Thermobaric_Cannon_HUD_name"			//name displayed in the weapon area of the vehicle HUD
+		"Description"	"#emp_vehicle_weapons_Thermobaric_Cannon_description"		//description given when selecting weapons
 		"Icon"			"vehicles/gui/weapons/cn_he_hvy"		//icon drawn in the GUI
 		"HUD Icon"		"vehicles/gui/weapons/cn"
 		"Size"			"3"		//number of slots required when selecting weapons
@@ -882,11 +902,11 @@ Vehicle_Weapons
 		//explosion effects
 		"Explosion Speed"	"10"	//how fast the explosion sprite fades (15 is default fps)
 	}
-	"Plasma Cannon Prototype"
+	"Plasma Cannon Prot."
 	{
-		"Name"			"Plasma Cannon Prot."		//name given when selecting weapons
-		"HUD Name"		"Plasma CN P."			//name displayed in the weapon area of the vehicle HUD
-		"Description"		"This cannon fires a superheated shell able to transfer a large amount of heat into the target and put it into an overheated shutdown."		//description given when selecting weapons
+		"Name"			"#emp_vehicle_weapons_Plasma_Cannon_Prototype_name"		//name given when selecting weapons
+		"HUD Name"		"#emp_vehicle_weapons_Plasma_Cannon_Prototype_HUD_name"			//name displayed in the weapon area of the vehicle HUD
+		"Description"		"#emp_vehicle_weapons_Plasma_Cannon_Prototype_description"		//description given when selecting weapons
 		"Icon"			"vehicles/gui/weapons/cn_plasma_med"		//icon drawn in the GUI
 		"HUD Icon"		"vehicles/gui/weapons/cn"
 		"Size"			"2"		//number of slots required when selecting weapons
@@ -931,9 +951,9 @@ Vehicle_Weapons
 	}
 	"Plasma Cannon"
 	{
-		"Name"			"Plasma Cannon"		//name given when selecting weapons
-		"HUD Name"		"Plasma CN"			//name displayed in the weapon area of the vehicle HUD
-		"Description"		"This cannon fires a superheated shell able to transfer a large amount of heat into the target and put it into an overheated shutdown."		//description given when selecting weapons
+		"Name"			"#emp_vehicle_weapons_Plasma_Cannon_name"		//name given when selecting weapons
+		"HUD Name"		"#emp_vehicle_weapons_Plasma_Cannon_HUD_name"			//name displayed in the weapon area of the vehicle HUD
+		"Description"		"#emp_vehicle_weapons_Plasma_Cannon_description"		//description given when selecting weapons
 		"Icon"			"vehicles/gui/weapons/cn_plasma_hvy"		//icon drawn in the GUI
 		"HUD Icon"		"vehicles/gui/weapons/cn"
 		"Size"			"3"		//number of slots required when selecting weapons
@@ -978,16 +998,16 @@ Vehicle_Weapons
 	}
 	"Railgun"
 	{
-		"Name"			"Railgun"		//name given when selecting weapons
-		"HUD Name"		"Railgun"			//name displayed in the weapon area of the vehicle HUD
-		"Description"		"This cannon uses magnetic coils to accelerate the shell.  It produces less heat and can fire faster."		//description given when selecting weapons
+		"Name"			"#emp_vehicle_weapons_Rail_Gun_name"		//name given when selecting weapons
+		"HUD Name"		"#emp_vehicle_weapons_Rail_Gun_HUD_name"			//name displayed in the weapon area of the vehicle HUD
+		"Description"		"#emp_vehicle_weapons_Rail_Gun_description"		//description given when selecting weapons
 		"Icon"			"vehicles/gui/weapons/cn_rail_med"		//icon drawn in the GUI
 		"HUD Icon"		"vehicles/gui/weapons/cn"
 		"Size"			"2"		//number of slots required when selecting weapons
 		"Type"			"1"		//0=machine gun, 1=tank cannon, 2=artillery cannon, 3=missile launcher, 4=grenade launcher, 5=aircraft bomb bay
 		"Cost"			"80"
 		"Team"			"ALL"		//team that can use this "NF" or "IMP"
-		"Research"		"Experimental Railgun"		//name of research item that must be researched before using
+		"Research"		"Experimental_Rail_Gun"		//name of research item that must be researched before using
 		"Sound Firing"		"Vehicle_RG.Fire"
 		"Sound Impact"		"Vehicle_RG.Impact"
 		"Sound Reloading"	""
@@ -1000,7 +1020,7 @@ Vehicle_Weapons
 		"Heat"			"6"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status).
 		"Weight"		"60"		//weight in terms of effects on engine and weight restrictions for chassis
 		"Cycle Time"		"1"		//time between shots (all weapons other than MGs have limits of 0.1 as lowest)
-		"Clip Size"		"50"		//ammo loaded per reloads
+		"Clip Size"		"35"		//ammo loaded per reloads
 		"Total Ammo Clips"	"0"		//max ammo clips carried (0 is the same as not using clips)
 		"Unlimited Ammo"	"0"
 		"Reload Time"		"0"		//time to load one clip
@@ -1022,9 +1042,9 @@ Vehicle_Weapons
 	}
 	"Overcharged Railgun"
 	{
-		"Name"			"Overcharged Railgun"		//name given when selecting weapons
-		"HUD Name"		"OC Railgun"			//name displayed in the weapon area of the vehicle HUD
-		"Description"		"This version of a rail gun uses improved magnetic coils to accelerate the shell.  It produces higher damage and travels faster."		//description given when selecting weapons
+		"Name"			"#emp_vehicle_weapons_Overcharged_Rail_Gun_name"		//name given when selecting weapons
+		"HUD Name"		"#emp_vehicle_weapons_Overcharged_Rail_Gun_HUD_name"			//name displayed in the weapon area of the vehicle HUD
+		"Description"		"#emp_vehicle_weapons_Overcharged_Rail_Gun_description"		//description given when selecting weapons
 		"Icon"			"vehicles/gui/weapons/cn_rail_hvy"		//icon drawn in the GUI
 		"HUD Icon"		"vehicles/gui/weapons/cn"
 		"Size"			"3"		//number of slots required when selecting weapons
@@ -1044,7 +1064,7 @@ Vehicle_Weapons
 		"Heat"			"7"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status).
 		"Weight"		"80"		//weight in terms of effects on engine and weight restrictions for chassis
 		"Cycle Time"		"1"		//time between shots (all weapons other than MGs have limits of 0.1 as lowest)
-		"Clip Size"		"50"		//ammo loaded per reloads
+		"Clip Size"		"35"		//ammo loaded per reloads
 		"Total Ammo Clips"	"0"		//max ammo clips carried (0 is the same as not using clips)
 		"Unlimited Ammo"	"0"
 		"Reload Time"		"0"		//time to load one clip
@@ -1066,9 +1086,9 @@ Vehicle_Weapons
 	}
 	"Biological Cannon"
 	{
-		"Name"			"Biological Cannon"		//name given when selecting weapons
-		"HUD Name"		"Bio CN"			//name displayed in the weapon area of the vehicle HUD
-		"Description"		"This cannon contains a biological agent.  Infantry and vehicles hit by the explosion will suffer from continuous damage for a short period of time."		//description given when selecting weapons
+		"Name"			"#emp_vehicle_weapons_Biological_Cannon_name"		//name given when selecting weapons
+		"HUD Name"		"#emp_vehicle_weapons_Biological_Cannon_HUD_name"			//name displayed in the weapon area of the vehicle HUD
+		"Description"		"#emp_vehicle_weapons_Biological_Cannon_description"		//description given when selecting weapons
 		"Icon"			"vehicles/gui/weapons/cn_bio_med"		//icon drawn in the GUI
 		"HUD Icon"		"vehicles/gui/weapons/cn"
 		"Size"			"2"		//number of slots required when selecting weapons
@@ -1119,9 +1139,9 @@ Vehicle_Weapons
 	}
 	"Virulent Cannon"
 	{
-		"Name"			"Virulent Cannon"		//name given when selecting weapons
-		"HUD Name"		"Vir. CN"			//name displayed in the weapon area of the vehicle HUD
-		"Description"		"This cannon contains a very large biological agent.  Players and vehicles hit by the explosion will suffer from continuous damage for a short period of time."		//description given when selecting weapons
+		"Name"			"#emp_vehicle_weapons_Virulent_Cannon_name"		//name given when selecting weapons
+		"HUD Name"		"#emp_vehicle_weapons_Virulent_Cannon_HUD_name"			//name displayed in the weapon area of the vehicle HUD
+		"Description"		"#emp_vehicle_weapons_Virulent_Cannon_description"		//description given when selecting weapons
 		"Icon"			"vehicles/gui/weapons/cn_bio_hvy"		//icon drawn in the GUI
 		"HUD Icon"		"vehicles/gui/weapons/cn"
 		"Size"			"3"		//number of slots required when selecting weapons
@@ -1170,11 +1190,11 @@ Vehicle_Weapons
 		"Vehicle Bio Time"	"4"	//total time to inflict damage to vehicles
 		"Vehicle Bio Interval"	"0.4"	//time inbetween each infliction of damage to vehicles
 	}
-	"smallArtilleryCannon"
+	"180mm Artillery Cannon"
 	{
-		"Name"			"180mm Artillery Cannon"		//name given when selecting weapons
-		"HUD Name"		"180mm AC"			//name displayed in the weapon area of the vehicle HUD
-		"Description"		"An artillery cannon with high damage, medium reload time and medium-short range. It has a slightly longer range than the 203mm cannon."		//description given when selecting weapons
+		"Name"			"#emp_vehicle_weapons_smallArtilleryCannon_name"		//name given when selecting weapons
+		"HUD Name"		"#emp_vehicle_weapons_smallArtilleryCannon_HUD_name"			//name displayed in the weapon area of the vehicle HUD
+		"Description"		"#emp_vehicle_weapons_smallArtilleryCannon_description"		//description given when selecting weapons
 		"Icon"			"vehicles/gui/weapons/ac_std_med"		//icon drawn in the GUI
 		"HUD Icon"		"vehicles/gui/weapons/ac"
 		"Size"			"2"		//number of slots required when selecting weapons
@@ -1213,11 +1233,11 @@ Vehicle_Weapons
 		"Lock On Time"		"0"		//time it takes for a homing missile to lock onto the target under the player crosshairs
 		"Lock Range Modifier"	"0"		//modifies lock on time based on range (as range increases, lock on time increases based on the modifier: modifier * range to target + lock on time = total lock on time)
 	}
-	"medArtilleryCannon"
+	"203mm Artillery Cannon"
 	{
-		"Name"			"203mm Artillery Cannon"		//name given when selecting weapons
-		"HUD Name"		"203mm AC"			//name displayed in the weapon area of the vehicle HUD
-		"Description"		"An artillery cannon with extremely high damage, slow reload time and short range. It has a slightly shorter range than the 180mm cannon."		//description given when selecting weapons
+		"Name"			"#emp_vehicle_weapons_medArtilleryCannon_name"		//name given when selecting weapons
+		"HUD Name"		"#emp_vehicle_weapons_medArtilleryCannon_HUD_name"			//name displayed in the weapon area of the vehicle HUD
+		"Description"		"#emp_vehicle_weapons_medArtilleryCannon_description"		//description given when selecting weapons
 		"Icon"			"vehicles/gui/weapons/ac_std_med"		//icon drawn in the GUI
 		"HUD Icon"		"vehicles/gui/weapons/ac"
 		"Size"			"2"		//number of slots required when selecting weapons
@@ -1258,9 +1278,9 @@ Vehicle_Weapons
 	}
 	"High Explosive Artillery"
 	{
-		"Name"			"High Explosive Artillery"		//name given when selecting weapons
-		"HUD Name"		"HE AC"			//name displayed in the weapon area of the vehicle HUD
-		"Description"		"An artillery cannon with the largest explosion radius, medium damage and medium range."		//description given when selecting weapons
+		"Name"			"#emp_vehicle_weapons_High_Explosive_Artillery_name"		//name given when selecting weapons
+		"HUD Name"		"#emp_vehicle_weapons_High_Explosive_Artillery_HUD_name"			//name displayed in the weapon area of the vehicle HUD
+		"Description"		"#emp_vehicle_weapons_High_Explosive_Artillery_description"		//description given when selecting weapons
 		"Icon"			"vehicles/gui/weapons/ac_he_med"		//icon drawn in the GUI
 		"HUD Icon"		"vehicles/gui/weapons/ac"
 		"Size"			"2"		//number of slots required when selecting weapons
@@ -1304,9 +1324,9 @@ Vehicle_Weapons
 	}
 	"Ranged Artillery Cannon"
 	{
-		"Name"			"Ranged Artillery Cannon"		//name given when selecting weapons
-		"HUD Name"		"Ranged AC"			//name displayed in the weapon area of the vehicle HUD
-		"Description"		"An artillery cannon with low damage but fairly large explosion radius. It has the furthest range of all artillery cannons."	//description given when selecting weapons
+		"Name"			"#emp_vehicle_weapons_Ranged_Artillery_Cannon_name"		//name given when selecting weapons
+		"HUD Name"		"#emp_vehicle_weapons_Ranged_Artillery_Cannon_HUD_name"			//name displayed in the weapon area of the vehicle HUD
+		"Description"		"#emp_vehicle_weapons_Ranged_Artillery_Cannon_description"	//description given when selecting weapons
 		"Icon"			"vehicles/gui/weapons/ac_ranged_med"		//icon drawn in the GUI
 		"HUD Icon"		"vehicles/gui/weapons/ac"
 		"Size"			"2"		//number of slots required when selecting weapons
@@ -1346,11 +1366,11 @@ Vehicle_Weapons
 		"Lock Range Modifier"	"0"		//modifies lock on time based on range (as range increases, lock on time increases based on the modifier: modifier * range to target + lock on time = total lock on time)
 	}
 
-	"singleMissileLauncher"
+	"Standard ML"
 	{
-		"Name"			"Standard ML"		//name given when selecting weapons
-		"HUD Name"		"ML"				//name displayed in the weapon area of the vehicle HUD
-		"Description"		"A dumb fire missile launcher with no homing capabilities."		//description given when selecting weapons
+		"Name"			"#emp_vehicle_weapons_singleMissileLauncher_name"		//name given when selecting weapons
+		"HUD Name"		"#emp_vehicle_weapons_singleMissileLauncher_HUD_name"				//name displayed in the weapon area of the vehicle HUD
+		"Description"		"#emp_vehicle_weapons_singleMissileLauncher_description"		//description given when selecting weapons
 		"Icon"			"vehicles/gui/weapons/ml_std_sml"		//icon drawn in the GUI
 		"HUD Icon"		"vehicles/gui/weapons/ml"
 		"Size"			"1"		//number of slots required when selecting weapons
@@ -1389,11 +1409,11 @@ Vehicle_Weapons
 		"Lock On Time"		"0"		//time it takes for a homing missile to lock onto the target under the player crosshairs
 		"Lock Range Modifier"	"0"		//modifies lock on time based on range (as range increases, lock on time increases based on the modifier: modifier * range to target + lock on time = total lock on time)
 	}
-	"Upgraded Missile Launcher"
+	"Upgraded ML"
 	{
-		"Name"			"Upgraded ML"		//name given when selecting weapons
-		"HUD Name"		"U/ML"				//name displayed in the weapon area of the vehicle HUD
-		"Description"		"A dumb fire missile launcher with no homing capabilities but greater speed and damage than the standard version."		//description given when selecting weapons
+		"Name"			"#emp_vehicle_weapons_Upgraded_Missile_Launcher_name"		//name given when selecting weapons
+		"HUD Name"		"#emp_vehicle_weapons_Upgraded_Missile_Launcher_HUD_name"				//name displayed in the weapon area of the vehicle HUD
+		"Description"		"#emp_vehicle_weapons_Upgraded_Missile_Launcher_description"		//description given when selecting weapons
 		"Icon"			"vehicles/gui/weapons/ml_upgraded_med"		//icon drawn in the GUI
 		"HUD Icon"		"vehicles/gui/weapons/ml"
 		"Size"			"2"		//number of slots required when selecting weapons
@@ -1407,7 +1427,7 @@ Vehicle_Weapons
 
 		"Damage Type"		"Missile"
 		"Ammo Type"		"0"		//for mguns only, 0 = nonarmor penetrating (no effect on armored vehicles), 1 = armor penetrating (hurts armored vehicles)
-		"Damage"		"60"		//damage done by projectile
+		"Damage"		"62"		//damage done by projectile
 		"Speed"			"2800"		//speed of projectile
 		"Gravity"		"0"		//effects of gravity on the projectile, only for projectiles
 		"Heat"			"8"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status).
@@ -1441,11 +1461,11 @@ Vehicle_Weapons
 		"Vehicle Bio Time"	"0"	//total time to inflict damage to vehicles
 		"Vehicle Bio Interval"	"0"	//time inbetween each infliction of damage to vehicles
 	}
-	"Heavy-duty Missile Launcher"
+	"Heavy-duty ML"
 	{
-		"Name"			"Heavy-duty ML"		//name given when selecting weapons
-		"HUD Name"		"Hvy-duty ML"				//name displayed in the weapon area of the vehicle HUD
-		"Description"		"A Heavy-duty dumb fire missile launcher with no homing capabilities but much greater speed and damage than standard version."		//description given when selecting weapons
+		"Name"			"#emp_vehicle_weapons_Heavy-Duty_Missile_Launcher_name"		//name given when selecting weapons
+		"HUD Name"		"#emp_vehicle_weapons_Heavy-Duty_Missile_Launcher_HUD_name"				//name displayed in the weapon area of the vehicle HUD
+		"Description"		"#emp_vehicle_weapons_Heavy-Duty_Missile_Launcher_description"		//description given when selecting weapons
 		"Icon"			"vehicles/gui/weapons/ml_upgraded_hvy"		//icon drawn in the GUI
 		"HUD Icon"		"vehicles/gui/weapons/ml"
 		"Size"			"3"		//number of slots required when selecting weapons
@@ -1459,7 +1479,7 @@ Vehicle_Weapons
 
 		"Damage Type"		"Missile"
 		"Ammo Type"		"0"		//for mguns only, 0 = nonarmor penetrating (no effect on armored vehicles), 1 = armor penetrating (hurts armored vehicles)
-		"Damage"		"66"		//damage done by projectile
+		"Damage"		"68"		//damage done by projectile
 		"Speed"			"3000"		//speed of projectile
 		"Gravity"		"0"		//effects of gravity on the projectile, only for projectiles
 		"Heat"			"8.5"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status).
@@ -1495,9 +1515,9 @@ Vehicle_Weapons
 	}
 	"Biological Warhead"
 	{
-		"Name"			"Biological Warhead"		//name given when selecting weapons
-		"HUD Name"		"Bio ML"				//name displayed in the weapon area of the vehicle HUD
-		"Description"		"A dumb fire missile launcher which contains a biological agent in its warhead.  Players and vehicles hit by the explosion will continuously suffer damage for a few seconds after being hit."		//description given when selecting weapons
+		"Name"			"#emp_vehicle_weapons_Biological_Warhead_name"		//name given when selecting weapons
+		"HUD Name"		"#emp_vehicle_weapons_Biological_Warhead_HUD_name"				//name displayed in the weapon area of the vehicle HUD
+		"Description"		"#emp_vehicle_weapons_Biological_Warhead_description"		//description given when selecting weapons
 		"Icon"			"vehicles/gui/weapons/ml_bio_med"		//icon drawn in the GUI
 		"HUD Icon"		"vehicles/gui/weapons/ml"
 		"Size"			"2"		//number of slots required when selecting weapons
@@ -1550,9 +1570,9 @@ Vehicle_Weapons
 	}
 	"Virulent Warhead"
 	{
-		"Name"			"Virulent Warhead"		//name given when selecting weapons
-		"HUD Name"		"Vir. ML"				//name displayed in the weapon area of the vehicle HUD
-		"Description"		"A dumb fire heavy missile launcher which contains a biological agent in its warhead. Players and vehicles hit by the explosion will suffer large amount of damage for a few seconds after being hit."		//description given when selecting weapons
+		"Name"			"#emp_vehicle_weapons_Virulent_Warhead_name"		//name given when selecting weapons
+		"HUD Name"		"#emp_vehicle_weapons_Virulent_Warhead_HUD_name"				//name displayed in the weapon area of the vehicle HUD
+		"Description"		"#emp_vehicle_weapons_Virulent_Warhead_description"		//description given when selecting weapons
 		"Icon"			"vehicles/gui/weapons/ml_bio_hvy"		//icon drawn in the GUI
 		"HUD Icon"		"vehicles/gui/weapons/ml"
 		"Size"			"3"		//number of slots required when selecting weapons
@@ -1605,9 +1625,9 @@ Vehicle_Weapons
 	}
 	"Nuclear Missile"
 	{
-		"Name"			"Nuclear Missile"		//name given when selecting weapons
-		"HUD Name"		"Nuke"				//name displayed in the weapon area of the vehicle HUD
-		"Description"		"Nukes are hot, slow & heavy, but powerful against buildings."		//description given when selecting weapons
+		"Name"			"#emp_vehicle_weapons_Nuclear_Missile_name"		//name given when selecting weapons
+		"HUD Name"		"#emp_vehicle_weapons_Nuclear_Missile_HUD_name"				//name displayed in the weapon area of the vehicle HUD
+		"Description"		"#emp_vehicle_weapons_Nuclear_Missile_description"		//description given when selecting weapons
 		"Icon"			"vehicles/gui/weapons/ml_nuke_hvy"		//icon drawn in the GUI
 		"HUD Icon"		"vehicles/gui/weapons/ml"
 		"Size"			"3"		//number of slots required when selecting weapons
@@ -1650,11 +1670,11 @@ Vehicle_Weapons
 		//explosion effects
 		"Explosion Speed"	"2"	//how fast the explosion sprite fades (15 is default fps)
 	}
-	"salvoMissileLauncher"
+	"Salvo ML"
 	{
-		"Name"			"Salvo ML"		//name given when selecting weapons
-		"HUD Name"		"S/ML"			//name displayed in the weapon area of the vehicle HUD
-		"Description"		"A missile launcher with no homing capabilities but it can fire its payload of four missiles in one quick burst."		//description given when selecting weapons
+		"Name"			"#emp_vehicle_weapons_SalvoMissileLauncher_name"		//name given when selecting weapons
+		"HUD Name"		"#emp_vehicle_weapons_SalvoMissileLauncher_HUD_name"			//name displayed in the weapon area of the vehicle HUD
+		"Description"		"#emp_vehicle_weapons_SalvoMissileLauncher_description"		//description given when selecting weapons
 		"Icon"			"vehicles/gui/weapons/ml_salvo_med"		//icon drawn in the GUI
 		"HUD Icon"		"vehicles/gui/weapons/ml"
 		"Size"			"2"		//number of slots required when selecting weapons
@@ -1693,11 +1713,11 @@ Vehicle_Weapons
 		"Lock On Time"		"0"		//time it takes for a homing missile to lock onto the target under the player crosshairs
 		"Lock Range Modifier"	"0"		//modifies lock on time based on range (as range increases, lock on time increases based on the modifier: modifier * range to target + lock on time = total lock on time)
 	}
-	"advancedSalvoMissileLauncher"
+	"Advanced Salvo ML"
 	{
-		"Name"			"Advanced Salvo ML"		//name given when selecting weapons
-		"HUD Name"		"A-S/ML"			//name displayed in the weapon area of the vehicle HUD
-		"Description"		"A larger variant of the Salvo Missile Launcher that fires six stronger missiles in a single rapid burst."		//description given when selecting weapons
+		"Name"			"#emp_vehicle_weapons_AdvancedSalvoMissileLauncher_name"		//name given when selecting weapons
+		"HUD Name"		"#emp_vehicle_weapons_AdvancedSalvoMissileLauncher_HUD_name"			//name displayed in the weapon area of the vehicle HUD
+		"Description"		"#emp_vehicle_weapons_AdvancedSalvoMissileLauncher_description"		//description given when selecting weapons
 		"Icon"			"vehicles/gui/weapons/ml_salvo_hvy"		//icon drawn in the GUI
 		"HUD Icon"		"vehicles/gui/weapons/ml"
 		"Size"			"3"		//number of slots required when selecting weapons
@@ -1736,11 +1756,11 @@ Vehicle_Weapons
 		"Lock On Time"		"0"		//time it takes for a homing missile to lock onto the target under the player crosshairs
 		"Lock Range Modifier"	"0"		//modifies lock on time based on range (as range increases, lock on time increases based on the modifier: modifier * range to target + lock on time = total lock on time)
 	}
-	"guidedMissileLauncher"
+	"Guided ML"
 	{
-		"Name"			"Guided ML"		//name given when selecting weapons
-		"HUD Name"		"G/ML"			//name displayed in the weapon area of the vehicle HUD
-		"Description"		"A missile launcher which fires missiles that follow the crosshairs after launch."		//description given when selecting weapons
+		"Name"			"#emp_vehicle_weapons_guidedMissileLauncher_name"		//name given when selecting weapons
+		"HUD Name"		"#emp_vehicle_weapons_guidedMissileLauncher_HUD_name"			//name displayed in the weapon area of the vehicle HUD
+		"Description"		"#emp_vehicle_weapons_guidedMissileLauncher_description"		//description given when selecting weapons
 		"Icon"			"vehicles/gui/weapons/ml_guided_med"		//icon drawn in the GUI
 		"HUD Icon"		"vehicles/gui/weapons/ml"
 		"Size"			"2"		//number of slots required when selecting weapons
@@ -1754,14 +1774,14 @@ Vehicle_Weapons
 
 		"Damage Type"		"Missile"
 		"Ammo Type"		"0"		//for mguns only, 0 = nonarmor penetrating (no effect on armored vehicles), 1 = armor penetrating (hurts armored vehicles)
-		"Damage"		"66"		//damage done by projectile
+		"Damage"		"70"		//damage done by projectile
 		"Speed"			"2000"		//speed of projectile
 		"Gravity"		"0"		//effects of gravity on the projectile, only for projectiles
 		"Heat"			"7.5"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status).
 		"Weight"		"70"		//weight in terms of effects on engine and weight restrictions for chassis
 		"Cycle Time"		"1.25"		//time between shots
 		"Clip Size"		"4"		//ammo loaded per reloads
-		"Total Ammo Clips"	"8"		//max ammo clips carried (0 is the same as not using clips)
+		"Total Ammo Clips"	"6"		//max ammo clips carried (0 is the same as not using clips)
 		"Unlimited Ammo"	"0"
 		"Reload Time"		"5"		//time to load one clip
 		"Projectile Spread"	"1"		//only applicable to machine guns at the moment
@@ -1780,11 +1800,11 @@ Vehicle_Weapons
 		"Lock Range Modifier"	"0"		//modifies lock on time based on range (as range increases, lock on time increases based on the modifier: modifier * range to target + lock on time = total lock on time)
 		"Turning Ability"	"1.8"		//determines how effective the missile can turn to home in on its target or guide itself to the crosshair for a guided missile; 1.0 means the missile can turn instantly towards its target, 0.0 and the missile doesn't turn at all
 	}
-	"TOWguidedMissileLauncher"
+	"TOW Guided ML"
 	{
-		"Name"			"TOW Guided ML"		//name given when selecting weapons
-		"HUD Name"		"TOW-G/ML"			//name displayed in the weapon area of the vehicle HUD
-		"Description"		"A missile launcher which fires TOW missiles that follow the crosshairs after launch.  It is more maneuverable and damaging than the basic variant."		//description given when selecting weapons
+		"Name"			"#emp_vehicle_weapons_TOWguidedMissileLauncher_name"		//name given when selecting weapons
+		"HUD Name"		"#emp_vehicle_weapons_TOWguidedMissileLauncher_HUD_name"			//name displayed in the weapon area of the vehicle HUD
+		"Description"		"#emp_vehicle_weapons_TOWguidedMissileLauncher_description"		//description given when selecting weapons
 		"Icon"			"vehicles/gui/weapons/ml_guided_hvy"		//icon drawn in the GUI
 		"HUD Icon"		"vehicles/gui/weapons/ml"
 		"Size"			"3"		//number of slots required when selecting weapons
@@ -1798,14 +1818,14 @@ Vehicle_Weapons
 
 		"Damage Type"		"Missile"
 		"Ammo Type"		"0"		//for mguns only, 0 = nonarmor penetrating (no effect on armored vehicles), 1 = armor penetrating (hurts armored vehicles)
-		"Damage"		"70"		//damage done by projectile
+		"Damage"		"75"		//damage done by projectile
 		"Speed"			"2100"		//speed of projectile
 		"Gravity"		"0"		//effects of gravity on the projectile, only for projectiles
 		"Heat"			"8.5"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status).
 		"Weight"		"80"		//weight in terms of effects on engine and weight restrictions for chassis
 		"Cycle Time"		"1.3"		//time between shots
 		"Clip Size"		"5"		//ammo loaded per reloads
-		"Total Ammo Clips"	"8"		//max ammo clips carried (0 is the same as not using clips)
+		"Total Ammo Clips"	"6"		//max ammo clips carried (0 is the same as not using clips)
 		"Unlimited Ammo"	"0"
 		"Reload Time"		"5.5"		//time to load one clip
 		"Projectile Spread"	"1"		//only applicable to machine guns at the moment
@@ -1824,11 +1844,11 @@ Vehicle_Weapons
 		"Lock Range Modifier"	"0"		//modifies lock on time based on range (as range increases, lock on time increases based on the modifier: modifier * range to target + lock on time = total lock on time)
 		"Turning Ability"	"1.85"		//determines how effective the missile can turn to home in on its target or guide itself to the crosshair for a guided missile; 1.0 means the missile can turn instantly towards its target, 0.0 and the missile doesn't turn at all
 	}
-	"homingMissileLauncher"
+	"Homing Missile Launcher"
 	{
-		"Name"			"Homing Missile Launcher"		//name given when selecting weapons
-		"HUD Name"		"H/ML"			//name displayed in the weapon area of the vehicle HUD
-		"Description"		"A missile launcher which fires a single missile that homes in on the locked on target."		//description given when selecting weapons
+		"Name"			"#emp_vehicle_weapons_homingMissileLauncher_name"		//name given when selecting weapons
+		"HUD Name"		"#emp_vehicle_weapons_homingMissileLauncher_HUD_name"			//name displayed in the weapon area of the vehicle HUD
+		"Description"		"#emp_vehicle_weapons_homingMissileLauncher_description"		//description given when selecting weapons
 		"Icon"			"vehicles/gui/weapons/ml_homing_med"		//icon drawn in the GUI
 		"HUD Icon"		"vehicles/gui/weapons/ml"
 		"Size"			"2"		//number of slots required when selecting weapons
@@ -1847,7 +1867,7 @@ Vehicle_Weapons
 		"Gravity"		"0"		//effects of gravity on the projectile, only for projectiles
 		"Heat"			"10"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status).
 		"Weight"		"70"		//weight in terms of effects on engine and weight restrictions for chassis
-		"Cycle Time"		"1.1"		//time between shots
+		"Cycle Time"		"1.0"		//time between shots
 		"Clip Size"		"7"		//ammo loaded per reloads
 		"Total Ammo Clips"	"6"		//max ammo clips carried (0 is the same as not using clips)
 		"Unlimited Ammo"	"0"
@@ -1864,17 +1884,17 @@ Vehicle_Weapons
 		"Homing Missile"	"1"		//'1' if missile flies towards locked on target
 		"Guided Missile"	"0"		//'1' if missile follows crosshairs after launch
 		"Missile Range"		"5000"		//max range in HL2 units (1 inch = 1) that the player can lock onto a target with a homing missile, or range from vehicle being fired from when a guided missile stops following the player's crosshairs
-		"Lock On Time"		"0.4"		//time it takes for a homing missile to lock onto the target under the player crosshairs
+		"Lock On Time"		"0.55"		//time it takes for a homing missile to lock onto the target under the player crosshairs
 		"Lock On Radius"	"0.4"		//this is an approximation that determines how close a target must be to your crosshair (screen position) before it can begin locking onto (ie a bigger number means that the crosshair doesn't need to be directly over or as close to the target); it defines a box around the crosshair, and a target must be within this box to be homed on and its size decreases with range
 		"Lock Range Modifier"	"0.000300"		//modifies lock on time based on range (as range increases, lock on time increases based on the modifier: modifier * range to target + lock on time = total lock on time)
 		"Countermeasure Effectiveness"	"0.5"		//a percentage (1 = 100%) which determines how likely the missile will lock onto a flare or chaff rather than the actual target when countermeasures are inbetween it and its target. When a flare or chaff is detected in front of the missile, a number between 0.000 and 1.000 is generated.  If the number is less than the effectiveness number, the missile will target the flare/chaff.
 		"Turning Ability"		"3.0"		//determines how effective the missile can turn to home in on its target or guide itself to the crosshair for a guided missile; 1.0 means the missile can turn instantly towards its target, 0.0 and the missile doesn't turn at all
 	}
-	"improvedHomingMissileLauncher"
+	"Improved Homing ML"
 	{					
-		"Name"			"Improved Homing ML"		//name given when selecting weapons
-		"HUD Name"		"IH/ML"			//name displayed in the weapon area of the vehicle HUD
-		"Description"		"This upgraded missile launcher is designed for heavy tanks. It offer slightly higher damage and better missile turning than the basic variant."		//description given when selecting weapons
+		"Name"			"#emp_vehicle_weapons_improvedHomingMissileLauncher_name"		//name given when selecting weapons
+		"HUD Name"		"#emp_vehicle_weapons_improvedHomingMissileLauncher_HUD_name"			//name displayed in the weapon area of the vehicle HUD
+		"Description"		"#emp_vehicle_weapons_improvedHomingMissileLauncher_description"		//description given when selecting weapons
 		"Icon"			"vehicles/gui/weapons/ml_homing_hvy"		//icon drawn in the GUI
 		"HUD Icon"		"vehicles/gui/weapons/ml"
 		"Size"			"3"		//number of slots required when selecting weapons
@@ -1893,7 +1913,7 @@ Vehicle_Weapons
 		"Gravity"		"0"		//effects of gravity on the projectile, only for projectiles
 		"Heat"			"10"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status).
 		"Weight"		"80"		//weight in terms of effects on engine and weight restrictions for chassis
-		"Cycle Time"		"1.1"		//time between shots
+		"Cycle Time"		"1.0"		//time between shots
 		"Clip Size"		"7"		//ammo loaded per reloads
 		"Total Ammo Clips"	"6"		//max ammo clips carried (0 is the same as not using clips)
 		"Unlimited Ammo"	"0"
@@ -1916,11 +1936,11 @@ Vehicle_Weapons
 		"Countermeasure Effectiveness"	"0.5"		//a percentage (1 = 100%) which determines how likely the missile will lock onto a flare or chaff rather than the actual target when countermeasures are inbetween it and its target. When a flare or chaff is detected in front of the missile, a number between 0.000 and 1.000 is generated.  If the number is less than the effectiveness number, the missile will target the flare/chaff.
 		"Turning Ability"		"3.15"		//determines how effective the missile can turn to home in on its target or guide itself to the crosshair for a guided missile; 1.0 means the missile can turn instantly towards its target, 0.0 and the missile doesn't turn at all
 	}
-	"salvoHomingMissileLauncher"
+	"Salvo Homing ML"
 	{
-		"Name"			"Salvo Homing ML"		//name given when selecting weapons
-		"HUD Name"		"SH/ML"			//name displayed in the weapon area of the vehicle HUD
-		"Description"		"A missile launcher that fires a salvo of missiles at once which home in on the locked on target."		//description given when selecting weapons
+		"Name"			"#emp_vehicle_weapons_salvoHomingMissileLauncher_name"		//name given when selecting weapons
+		"HUD Name"		"#emp_vehicle_weapons_salvoHomingMissileLauncher_HUD_name"			//name displayed in the weapon area of the vehicle HUD
+		"Description"		"#emp_vehicle_weapons_salvoHomingMissileLauncher_description"		//description given when selecting weapons
 		"Icon"			"vehicles/gui/weapons/ml_salvo_homing_hvy"		//icon drawn in the GUI
 		"HUD Icon"		"vehicles/gui/weapons/ml"
 		"Size"			"3"		//number of slots required when selecting weapons
@@ -1962,11 +1982,11 @@ Vehicle_Weapons
 		"Countermeasure Effectiveness"	"0.9"		//a percentage (1 = 100%) which determines how likely the missile will lock onto a flare or chaff rather than the actual target when flares or chaff is inbetween it and its target. When a flare or chaff is detected in front of the missile, a number between 0.000 and 1.000 is generated.  If the number is less than the effectiveness number, the missile will target the flare/chaff.
 		"Turning Ability"		"3.0"		//determines how effective the missile can turn to home in on its target or guide itself to the crosshair for a guided missile; 1.0 means the missile can turn instantly towards its target, 0.0 and the missile doesn't turn at all
 	}
-	"grenadeLauncher"
+	"Grenade Launcher"
 	{
-		"Name"			"Grenade Launcher"		//name given when selecting weapons
-		"HUD Name"		"GL"			//name displayed in the weapon area of the vehicle HUD
-		"Description"		"A grenade launcher suited for urban combat with its ability of clearing out tight spaces."		//description given when selecting weapons
+		"Name"			"#emp_vehicle_weapons_grenadeLauncher_name"		//name given when selecting weapons
+		"HUD Name"		"#emp_vehicle_weapons_grenadeLauncher_HUD_name"			//name displayed in the weapon area of the vehicle HUD
+		"Description"		"#emp_vehicle_weapons_grenadeLauncher_description"		//description given when selecting weapons
 		"Icon"			"vehicles/gui/weapons/gl_std_sml"		//icon drawn in the GUI
 		"HUD Icon"		"vehicles/gui/weapons/gl"
 		"Size"			"1"		//number of slots required when selecting weapons
@@ -2008,9 +2028,9 @@ Vehicle_Weapons
 
 	"HE Grenade Launcher"
 	{
-		"Name"			"HE Grenade Launcher"		//name given when selecting weapons
-		"HUD Name"		"HE/GL"			//name displayed in the weapon area of the vehicle HUD
-		"Description"		"A grenade launcher suited for urban combat with its ability of clearing out tight spaces.  It is upgraded for more damage and longer range."		//description given when selecting weapons
+		"Name"			"#emp_vehicle_weapons_HE_Grenade_Launcher_name"		//name given when selecting weapons
+		"HUD Name"		"#emp_vehicle_weapons_HE_Grenade_Launcher_HUD_name"			//name displayed in the weapon area of the vehicle HUD
+		"Description"		"#emp_vehicle_weapons_HE_Grenade_Launcher_description"		//description given when selecting weapons
 		"Icon"			"vehicles/gui/weapons/gl_upgraded_med"		//icon drawn in the GUI
 		"HUD Icon"		"vehicles/gui/weapons/gl"
 		"Size"			"2"		//number of slots required when selecting weapons
@@ -2050,11 +2070,11 @@ Vehicle_Weapons
 		"Lock Range Modifier"	"0"		//modifies lock on time based on range (as range increases, lock on time increases based on the modifier: modifier * range to target + lock on time = total lock on time)
 	}
 	
-//	"Toxic Gas Grenade"
+//	"Toxic Gas Grenade Launcher"
 //	{
-//		"Name"			"Toxic Gas Grenade"		//name given when selecting weapons
-//		"HUD Name"		"Gas/GL"			//name displayed in the weapon area of the vehicle HUD
-//		"Description"		"A grenade which produces a damaging gas cloud in the area of explosion."		//description given when selecting weapons
+//		"Name"			"#emp_vehicle_weapons_Toxic_Gas_Grenade_Launcher_name"		//name given when selecting weapons
+//		"HUD Name"		"#emp_vehicle_weapons_Toxic_Gas_Grenade_Launcher_HUD_name"			//name displayed in the weapon area of the vehicle HUD
+//		"Description"		"#emp_vehicle_weapons_Toxic_Gas_Grenade_Launcher_description"		//description given when selecting weapons
 //		"Icon"			"vehicles/gui/weapons/gl_bio_med"		//icon drawn in the GUI
 //		"HUD Icon"		"vehicles/gui/weapons/gl"
 //		"Size"			"2"		//number of slots required when selecting weapons
@@ -2096,11 +2116,11 @@ Vehicle_Weapons
 //		"Lock On Time"		"0"		//time it takes for a homing missile to lock onto the target under the player crosshairs
 //		"Lock Range Modifier"	"0"		//modifies lock on time based on range (as range increases, lock on time increases based on the modifier: modifier * range to target + lock on time = total lock on time)
 //	}
-//	"Static Grenade"
+//	"Static Grenade Launcher"
 //	{
-//		"Name"			"Static Grenade"		//name given when selecting weapons
-//		"HUD Name"		"Static/GL"			//name displayed in the weapon area of the vehicle HUD
-//		"Description"		"A multi-explosion static grenade with a high rate of fire."		//description given when selecting weapons
+//		"Name"			"#emp_vehicle_weapons_Static_Grenade_Launcher_name"		//name given when selecting weapons
+//		"HUD Name"		"#emp_vehicle_weapons_Static_Grenade_Launcher_HUD_name"			//name displayed in the weapon area of the vehicle HUD
+//		"Description"		"#emp_vehicle_weapons_Static_Grenade_Launcher_description"		//description given when selecting weapons
 //		"Icon"			"vehicles/gui/weapons/gl_elec_med"		//icon drawn in the GUI
 //		"HUD Icon"		"vehicles/gui/weapons/gl"
 //		"Size"			"2"		//number of slots required when selecting weapons
@@ -2144,9 +2164,9 @@ Vehicle_Weapons
 //	}
 //	"Tesla Bolt"
 //	{
-//		"Name"			"Tesla Bolt"		//name given when selecting weapons
-//		"HUD Name"		"Tesla Bolt"			//name displayed in the weapon area of the vehicle HUD
-//		"Description"		"A short range Lightning bolt, dealing damage as long as it's on target"		//description given when selecting weapons
+//		"Name"			"#emp_vehicle_weapons_Tesla_Bolt_name"		//name given when selecting weapons
+//		"HUD Name"		"#emp_vehicle_weapons_Tesla_Bolt_HUD_name"			//name displayed in the weapon area of the vehicle HUD
+//		"Description"		"#emp_vehicle_weapons_Tesla_Bolt_description"		//description given when selecting weapons
 //		"Icon"			"vehicles/gui/weapons/mg_tesla_sml"		//icon drawn in the GUI
 //		"HUD Icon"		"vehicles/gui/weapons/mg"
 //		"Size"			"1"		//number of slots required when selecting weapons
@@ -2190,12 +2210,12 @@ Vehicle_Weapons
 //		"Tracer Type"			"tracer_tesla_beam" //Tracer effect, tracer names are logical, a list: tracer_du, tracer_bio, tracer_he, tracer_rifle, tracer_smg, tracer_vehiclemg, tracer_cg, tracer_plasma
 //		"Muzzle Flash"			"tracer_tesla_beam_muzzle"
 		//Falloff 
-//		"Falloff"			"2000"		
-//		"Falloffbase"			"0.19"		
+//		"FalloffStart"			"0"		//Distance that we start reducing damage - Default 5000
+//		"FalloffEnd"			"250"		//Distance that we start dealing MinimalDamage value - (Max bullet distance 10000 units) - Default 10000
 //		"MinimalDamage"			"0"	
 	
 //	}
-	"smallBombBay"
+	"Small Bomb Bay"
 	{
 		"Name"			"Small Bomb Bay"		//name given when selecting weapons
 		"HUD Name"		"Small BB"			//name displayed in the weapon area of the vehicle HUD
@@ -2324,4 +2344,4 @@ Vehicle_Weapons
 		"Lock On Time"		"0"		//time it takes for a homing missile to lock onto the target under the player crosshairs
 		"Lock Range Modifier"	"0"		//modifies lock on time based on range (as range increases, lock on time increases based on the modifier: modifier * range to target + lock on time = total lock on time)
 	}
-}
+}

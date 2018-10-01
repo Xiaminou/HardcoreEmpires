@@ -8,7 +8,7 @@ SkillDescriptionData
 		"SkillName"		"SKILL_WAIT_RESPAWN"
 		"SkillCode"		"-1"							//Number which references the skill in the code.
 		"SkillText"		"Update on respawn"				//Short name for the skill.
-		"SkillDescription"	"Update on respawn"
+		"SkillDescription"	"#emp_skills_Skill_Wait_Respawn_skilldescription"
 		//Long description for the weapon.
 		"SkillBackground"	"skills/wait_respawn"			//Skill image.
 	}
@@ -18,7 +18,7 @@ SkillDescriptionData
 		"SkillName"		"SKILL_UNSELECTED"
 		"SkillCode"		"0"							//Number which references the skill in the code.
 		"SkillText"		"*Choose Skill"				//Short name for the skill.
-		"SkillDescription"	"Select a skill."
+		"SkillDescription"	"#emp_skills_Skill_Unselected_skilldescription"
 		//Long description for the weapon.
 		"SkillBackground"	"skills/unlock"			//Skill image.
 	}
@@ -28,7 +28,7 @@ SkillDescriptionData
 		"SkillName"		"SKILL_1"
 		"SkillCode"		"1"							//Number which references the skill in the code.
 		"SkillText"		"Skill 1"					//Short name for the skill.
-		"SkillDescription"	"Skill 1 Enhancement"
+		"SkillDescription"	"#emp_skills_Skill_1_skilldescription"
 		//Long description for the weapon.
 		"SkillBackground"	"locke1"				//Skill image.
 	}
@@ -38,7 +38,7 @@ SkillDescriptionData
 		"SkillName"		"SKILL_2"
 		"SkillCode"		"2"							//Number which references the skill in the code.
 		"SkillText"		"Skill 2"					//Short name for the skill.
-		"SkillDescription"	"Skill 2 Enhancement"
+		"SkillDescription"	"#emp_skills_Skill_2_skilldescription"
 		//Long description for the weapon.
 		"SkillBackground"	"locke2"				//Skill image.
 	}
@@ -48,7 +48,7 @@ SkillDescriptionData
 		"SkillName"		"SKILL_3"
 		"SkillCode"		"4"							//Number which references the skill in the code.
 		"SkillText"		"Skill 3"					//Short name for the skill.
-		"SkillDescription"	"Skill 3 Enhancement"
+		"SkillDescription"	"#emp_skills_Skill_3_skilldescription"
 		//Long description for the weapon.
 		"SkillBackground"	"locke3"				//Skill image.
 	}
@@ -58,7 +58,7 @@ SkillDescriptionData
 		"SkillName"		"SKILL_4"
 		"SkillCode"		"8"							//Number which references the skill in the code.
 		"SkillText"		"Skill 4"					//Short name for the skill.
-		"SkillDescription"	"Skill 4 Enhancement"
+		"SkillDescription"	"#emp_skills_Skill_4_skilldescription"
 		//Long description for the weapon.
 		"SkillBackground"	"locke4"				//Skill image.
 	}
@@ -67,8 +67,8 @@ SkillDescriptionData
         {
                 "SkillName"             "SKILL_SILENCER"
                 "SkillCode"             "16"                                                   //Number which references the skill in the code.
-                "SkillText"             "Weapon Silencer"                       //Short name for the skill.
-                "SkillDescription"      "Reduce the noise from your weapon by 50% and hide all of your kill/death messages from the enemy."
+                "SkillText"             "#emp_skills_Scout_Weapon_Silencer_skilltext"                       //Short name for the skill.
+                "SkillDescription"      "#emp_skills_Scout_Weapon_Silencer_skilldescription"
                 //Long description for the weapon.
                 "SkillBackground"       "skills/silencer"               //Skill image.
         }
@@ -77,8 +77,8 @@ SkillDescriptionData
         {
                 "SkillName"             "SKILL_ENHANCEDSENSES"
                 "SkillCode"             "32"                                                    //Number which references the skill in the code.
-                "SkillText"             "Enhanced Senses"                       //Short name for the skill.
-                "SkillDescription"      "Nearby enemies are detected and displayed on the minimap."
+                "SkillText"             "#emp_skills_Scout_Enhanced_Senses_skilltext"                       //Short name for the skill.
+                "SkillDescription"      "#emp_skills_Scout_Enhanced_Senses_skilldescription"
                 //Long description for the weapon.
                 "SkillBackground"       "skills/senses"                 //Skill image.
         }
@@ -87,8 +87,8 @@ SkillDescriptionData
         {
                 "SkillName"             "SKILL_RADAR"
                 "SkillCode"             "64"                                                    //Number which references the skill in the code.
-                "SkillText"             "Radar Stealth"                         //Short name for the skill.
-                "SkillDescription"      "As a vehicle driver, radars will have great difficulty in detecting your vehicle."
+                "SkillText"             "#emp_skills_Scout_Radar_skilltext"                         //Short name for the skill.
+                "SkillDescription"      "#emp_skills_Scout_Radar_skilldescription"
                 //Long description for the weapon.
                 "SkillBackground"       "skills/radar"                  //Skill image.
         }
@@ -97,8 +97,8 @@ SkillDescriptionData
         {
                 "SkillName"             "SKILL_HIDE"
                 "SkillCode"             "128"                                                    //Number which references the skill in the code.
-                "SkillText"             "Hide"                                          //Short name for the skill.
-                "SkillDescription"      "Allows you to be hidden from enemy view when crouching for at least five seconds and touching an object."
+                "SkillText"             "#emp_skills_Scout_Hide_skilltext"                                          //Short name for the skill.
+                "SkillDescription"      "#emp_skills_Scout_Hide_skilldescription"
                 //Long description for the weapon.
                 "SkillBackground"       "skills/hide"                   //Skill image.
         }
@@ -107,8 +107,8 @@ SkillDescriptionData
         {
                 "SkillName"             "SKILL_VEHICLESPEED"
                 "SkillCode"             "256"                                                   //Number which references the skill in the code.
-                "SkillText"             "Vehicle Speed"                         //Short name for the skill.
-                "SkillDescription"      "Increase vehicle speed by 25% when you are the driver."
+                "SkillText"             "#emp_skills_Scout_Vehicle_Speed_skilltext"                         //Short name for the skill.
+                "SkillDescription"      "#emp_skills_Scout_Vehicle_Speed_skilldescription"
                 //Long description for the weapon.
                 "SkillBackground"       "skills/vehicle_speed"  //Skill image.
         }
@@ -117,8 +117,8 @@ SkillDescriptionData
 	{
 		"SkillName"		"SKILL_DIGIN"
 		"SkillCode"		"512"						//Number which references the skill in the code.
-		"SkillText"		"Dig In"					//Short name for the skill.
-		"SkillDescription"	"Crouching causes one quarter of all damage to be absorbed by the stamina bar rather than from player health as long as there is stamina available."
+		"SkillText"		"#emp_skills_Rifleman_Dig_In_skilltext"					//Short name for the skill.
+		"SkillDescription"	"#emp_skills_Rifleman_Dig_In_skilldescription"
 		//Long description for the weapon.
 		"SkillBackground"	"skills/dig_in"			//Skill image.
 	}
@@ -127,8 +127,8 @@ SkillDescriptionData
 	{
 		"SkillName"		"SKILL_DAMAGEINCREASE"
 		"SkillCode"		"1024"						//Number which references the skill in the code.
-		"SkillText"		"Damage Increase"			//Short name for the skill.
-		"SkillDescription"	"Gives a 10% improvement in pistol and rifle weapon damage."
+		"SkillText"		"#emp_skills_Rifleman_Damage_Increase_skilltext"			//Short name for the skill.
+		"SkillDescription"	"#emp_skills_Rifleman_Damage_Increase_skilldescription"
 		//Long description for the weapon.
 		"SkillBackground"	"skills/damage"			//Skill image.
 	}
@@ -137,8 +137,8 @@ SkillDescriptionData
 	{
 		"SkillName"		"SKILL_VEHICLEDAMAGE"
 		"SkillCode"		"2048"						//Number which references the skill in the code.
-		"SkillText"		"Vehicle Damage"			//Short name for the skill.
-		"SkillDescription"	"Gives a 25% improvement in vehicle weapon damage."
+		"SkillText"		"#emp_skills_Rifleman_Vehicle_Damage_skilltext"			//Short name for the skill.
+		"SkillDescription"	"#emp_skills_Rifleman_Vehicle_Damage_skilldescription"
 		//Long description for the weapon.
 		"SkillBackground"	"skills/vehicle_damage"	//Skill image.
 	}
@@ -147,8 +147,8 @@ SkillDescriptionData
 	{
 		"SkillName"		"SKILL_DEFUSAL"
 		"SkillCode"		"4096"						//Number which references the skill in the code.
-		"SkillText"		"Defusal"					//Short name for the skill.
-		"SkillDescription"	"Mines cannot detect you for detonation, and you can disable mines by crouching on top of one, looking at it, and holding the 'use' key."
+		"SkillText"		"#emp_skills_Grenadier_Defusal_skilltext"					//Short name for the skill.
+		"SkillDescription"	"#emp_skills_Grenadier_Defusal_skilldescription"
 		//Long description for the weapon.
 		"SkillBackground"	"skills/defuse"			//Skill image.
 	}
@@ -157,8 +157,8 @@ SkillDescriptionData
 	{
 		"SkillName"		"SKILL_ARMORDETECTION"
 		"SkillCode"		"8192"						//Number which references the skill in the code.
-		"SkillText"		"Armor Detection"			//Short name for the skill.
-		"SkillDescription"	"Provides an indicator of the amount of armor a targeted vehicle has."
+		"SkillText"		"#emp_skills_Grenadier_Armor_Detection_skilltext"			//Short name for the skill.
+		"SkillDescription"	"#emp_skills_Grenadier_Armor_Detection_skilldescription"
 		//Long description for the weapon.
 		"SkillBackground"	"skills/armor_detect"	//Skill image.
 	}
@@ -167,8 +167,8 @@ SkillDescriptionData
 	{
 		"SkillName"		"SKILL_ARTILLERYFEEDBACK"
 		"SkillCode"		"16384"						//Number which references the skill in the code.
-		"SkillText"		"Artillery Feedback"		//Short name for the skill.
-		"SkillDescription"	"Gives a visual indication on the minimap of impact from all shells fired by the RPG, mortar, or a vehicle weapon.  No selected artillery target is required."
+		"SkillText"		"#emp_skills_Grenadier_Artillery_Feedback_skilltext"		//Short name for the skill.
+		"SkillDescription"	"#emp_skills_Grenadier_Artillery_Feedback_skilldescription"
 		//Long description for the weapon.
 		"SkillBackground"	"skills/artillery_detect"//Skill image.
 	}
@@ -177,8 +177,8 @@ SkillDescriptionData
 	{
 		"SkillName"		"SKILL_INCREASEDARMOR"
 		"SkillCode"		"32768"						//Number which references the skill in the code.
-		"SkillText"		"Increased Armor"			//Short name for the skill.
-		"SkillDescription"	"Reduces damage done to your vehicle by 25% when you're the driver."
+		"SkillText"		"#emp_skills_Grenadier_Increased_Armor_skilltext"			//Short name for the skill.
+		"SkillDescription"	"#emp_skills_Grenadier_Increased_Armor_skilldescription"
 		//Long description for the weapon.
 		"SkillBackground"	"skills/vehicle_armor"	//Skill image.
 	}
@@ -187,8 +187,8 @@ SkillDescriptionData
 	{
 		"SkillName"		"SKILL_HEALINGUPGRADE"
 		"SkillCode"		"65536"						//Number which references the skill in the code.
-		"SkillText"		"Healing Upgrade"			//Short name for the skill.
-		"SkillDescription"	"Improves the amount of health given per energy round from the repair kit."
+		"SkillText"		"#emp_skills_Engineer_Healing_Upgrade_skilltext"			//Short name for the skill.
+		"SkillDescription"	"#emp_skills_Engineer_Healing_Upgrade_skilldescription"
 		//Long description for the weapon.
 		"SkillBackground"	"skills/heal"			//Skill image.
 	}
@@ -197,8 +197,8 @@ SkillDescriptionData
 	{
 		"SkillName"		"SKILL_REPAIRUPGRADE"
 		"SkillCode"		"131072"						//Number which references the skill in the code.
-		"SkillText"		"Repair Upgrade"			//Short name for the skill.
-		"SkillDescription"	"Improves the amount repaired per energy round from the repair kit."
+		"SkillText"		"#emp_skills_Engineer_Repair_Upgrade_skilltext"			//Short name for the skill.
+		"SkillDescription"	"#emp_skills_Engineer_Repair_Upgrade_skilldescription"
 		//Long description for the weapon.
 		"SkillBackground"	"skills/repair"			//Skill image.
 	}
@@ -207,8 +207,8 @@ SkillDescriptionData
 	{
 		"SkillName"		"SKILL_REVIVE"
 		"SkillCode"		"262144"						//Number which references the skill in the code.
-		"SkillText"		"Revive"					//Short name for the skill.
-		"SkillDescription"	"Upgrades your repair kit with the ability to bring fallen teammates back to life."
+		"SkillText"		"#emp_skills_Engineer_Revive_skilltext"					//Short name for the skill.
+		"SkillDescription"	"#emp_skills_Engineer_Revive_skilldescription"
 		//Long description for the weapon.
 		"SkillBackground"	"skills/revive"			//Skill image.
 	}
@@ -217,8 +217,8 @@ SkillDescriptionData
 	{
 		"SkillName"		"SKILL_TURRETUPGRADE"
 		"SkillCode"		"524288"						//Number which references the skill in the code.
-		"SkillText"		"Turret Upgrade"			//Short name for the skill.
-		"SkillDescription"	"Allows you to upgrade your turret to level 2 and 3."
+		"SkillText"		"#emp_skills_Engineer_Turret_Upgrade_skilltext"			//Short name for the skill.
+		"SkillDescription"	"#emp_skills_Engineer_Turret_Upgrade_skilldescription"
 		//Long description for the weapon.
 		"SkillBackground"	"skills/turret"			//Skill image.
 	}
@@ -227,8 +227,8 @@ SkillDescriptionData
 	{
 		"SkillName"		"SKILL_VEHICLECOOLING"
 		"SkillCode"		"1048576"						//Number which references the skill in the code.
-		"SkillText"		"Vehicle Cooling"			//Short name for the skill.
-		"SkillDescription"	"Heat dissipation when driving a vehicle increases by 15%."
+		"SkillText"		"#emp_skills_Engineer_Vehicle_Cooling_skilltext"			//Short name for the skill.
+		"SkillDescription"	"#emp_skills_Engineer_Vehicle_Cooling_skilldescription"
 		//Long description for the weapon.
 		"SkillBackground"	"skills/vehicle_cooling"//Skill image.
 	}
@@ -237,8 +237,8 @@ SkillDescriptionData
 	{
 		"SkillName"		"SKILL_HEALTHUPGRADE"
 		"SkillCode"		"2097152"						//Number which references the skill in the code.
-		"SkillText"		"Health Upgrade"			//Short name for the skill.
-		"SkillDescription"	"Increases your maximum amount of health by 30%."
+		"SkillText"		"#emp_skills_General_Health_Upgrade_skilltext"			//Short name for the skill.
+		"SkillDescription"	"#emp_skills_General_Health_Upgrade_skilldescription"
 		//Long description for the weapon.
 		"SkillBackground"	"skills/health"			//Skill image.
 		"GeneralSkill"		"1"
@@ -248,8 +248,8 @@ SkillDescriptionData
 	{
 		"SkillName"		"SKILL_HEALTHREGEN"
 		"SkillCode"		"4194304"						//Number which references the skill in the code.
-		"SkillText"		"Health Regeneration"		//Short name for the skill.
-		"SkillDescription"	"Regenerates 1 health per second."
+		"SkillText"		"#emp_skills_General_Health_Regeneration_skilltext"		//Short name for the skill.
+		"SkillDescription"	"#emp_skills_General_Health_Regeneration_skilldescription"
 		//Long description for the weapon.
 		"SkillBackground"	"skills/health_regen"	//Skill image.
 		"GeneralSkill"		"1"
@@ -259,8 +259,8 @@ SkillDescriptionData
 	{
 		"SkillName"		"SKILL_AMMOINCREASE"
 		"SkillCode"		"8388608"						//Number which references the skill in the code.
-		"SkillText"		"Ammo Increase"				//Short name for the skill.
-		"SkillDescription"	"Doubles the total amount of ammo you can carry."
+		"SkillText"		"#emp_skills_General_Ammo_Increase_skilltext"				//Short name for the skill.
+		"SkillDescription"	"#emp_skills_General_Ammo_Increase_skilldescription"
 		//Long description for the weapon.
 		"SkillBackground"	"skills/ammo"			//Skill image.
 		"GeneralSkill"		"1"
@@ -270,8 +270,8 @@ SkillDescriptionData
 	{
 		"SkillName"		"SKILL_STAMINAINCREASE"
 		"SkillCode"		"16777216"						//Number which references the skill in the code.
-		"SkillText"		"Stamina Increase"			//Short name for the skill.
-		"SkillDescription"	"Increases stamina recharge rate to be twice as fast."
+		"SkillText"		"#emp_skills_General_Stamina_Increase_skilltext"			//Short name for the skill.
+		"SkillDescription"	"#emp_skills_General_Stamina_Increase_skilldescription"
 		//Long description for the weapon.
 		"SkillBackground"	"skills/stamina"		//Skill image.
 		"GeneralSkill"		"1"
@@ -281,8 +281,8 @@ SkillDescriptionData
 	{
 		"SkillName"		"SKILL_SPEEDUPGRADE"
 		"SkillCode"		"33554432"						//Number which references the skill in the code.
-		"SkillText"		"Speed Upgrade"				//Short name for the skill.
-		"SkillDescription"	"Increases your normal movement speed by 15%."
+		"SkillText"		"#emp_skills_General_Speed_Upgrade_skilltext"				//Short name for the skill.
+		"SkillDescription"	"#emp_skills_General_Speed_Upgrade_skilldescription"
 		//Long description for the weapon.
 		"SkillBackground"	"skills/speed"			//Skill image.
 		"GeneralSkill"		"1"
@@ -292,8 +292,8 @@ SkillDescriptionData
 	{
 		"SkillName"		"SKILL_ACCURACYUPGRADE"
 		"SkillCode"		"67108864"						//Number which references the skill in the code.
-		"SkillText"		"Accuracy Upgrade"			//Short name for the skill.
-		"SkillDescription"	"Increases your weapon accuracy and decreases the negative effects on weapon accuracy from movement and firing."
+		"SkillText"		"#emp_skills_General_Accuracy_Upgrade_skilltext"			//Short name for the skill.
+		"SkillDescription"	"#emp_skills_General_Accuracy_Upgrade_skilldescription"
 		//Long description for the weapon.
 		"SkillBackground"	"skills/accuracy"		//Skill image.
 		"GeneralSkill"		"1"
@@ -303,8 +303,8 @@ SkillDescriptionData
 	{
 		"SkillName"		"SKILL_MELEEUPGRADE"
 		"SkillCode"		"134217728"						//Number which references the skill in the code.
-		"SkillText"		"Melee Upgrade"				//Short name for the skill.
-		"SkillDescription"	"Increases damage done per melee hit to near fatal levels and increases the area and range covered by each swing."
+		"SkillText"		"#emp_skills_General_Melee_Upgrade_skilltext"				//Short name for the skill.
+		"SkillDescription"	"#emp_skills_General_Melee_Upgrade_skilldescription"
 		//Long description for the weapon.
 		"SkillBackground"	"skills/melee"			//Skill image.
 		"GeneralSkill"		"1"

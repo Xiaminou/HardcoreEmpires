@@ -540,10 +540,53 @@
 		"paintborder" 0
 
 		// Position and size
-		"xpos" "r167"
-		"ypos" "r53"
-		"wide" "172"
-		"tall" "62"
+		"xpos" "r125"
+		"ypos" "r39"
+		"wide" "129"
+		"tall" "46"
+		"autoResize" "0"
+
+		// debug border
+		//"border" "DebugBorder"
+		//"paintborder" 1
+	}
+
+	EmpHudHealth
+	{
+		// Element type settings
+		"fieldName" "EmpHudHealth"
+		"type" "javascript"
+		"res" "resource/ui/emp_hud_health.res"
+		"src" "resource/ui/emp_hud_health.js"
+		"paintbackground" 0
+		"paintborder" 0
+
+		// Position and size
+		"xpos" "-4"
+		"ypos" "r39"
+		"wide" "225"
+		"tall" "46"
+
+		// debug border
+		//"border" "DebugBorder"
+		//"paintborder" 1
+	}
+
+
+	HudVehicleCrosshair
+	{
+		// Element type settings
+		"fieldName" "HudVehicleCrosshair"
+		"type" "javascript"
+		"res" "resource/ui/emp_hud_vehicle_crosshair.res"
+		"src" "resource/ui/emp_hud_vehicle_crosshair.js"
+		"paintbackground" 0
+		"paintborder" 0
+		
+		"xpos" "c-50"
+		"ypos" "c-50"
+		"wide"	"100"
+		"tall"	"100"
 		"autoResize" "0"
 
 		// debug border
