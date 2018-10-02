@@ -1,12 +1,12 @@
 WeaponData
 {
 	// Weapon characteristics:
-	"Damage"			"21"		// damage per bullet
-	"Bullets"			"1"		// bullets per shoot
-	"CycleTime"			"0.08"		// time between shoots
-	"FalloffStart"			"0"		// Distance at which bullet falloff starts - (Max bullet distance 10000 units) - Default 5000
-	"FalloffEnd"			"4000"		// Distance at which bullet falloff ends - (Distance that damage is at MinimalDamage) - Default 10000	
-	"MinimalDamage"			"16"		// bullet will always deal this amount of damage even after damage decrease
+	"Damage"				"23"		// damage per bullet
+	"Bullets"				"1"			// bullets per shoot
+	"CycleTime"				"0.08"		// time between shoots
+	"FalloffStart"			"0"			// Distance at which bullet falloff starts - (Max bullet distance 10000 units) - Default 5000
+	"FalloffEnd"			"5000"		// Distance at which bullet falloff ends - (Distance that damage is at MinimalDamage) - Default 10000	
+	"MinimalDamage"			"17"		// bullet will always deal this amount of damage even after damage decrease
 
 	"Damage Head Modifier"		"3.0"
 	"Damage Chest Modifier"		"1"
@@ -43,13 +43,13 @@ WeaponData
 	"MeleeCycleTime"		"1.0"	// time between melee attacks
 
 	//Accuracy Upgrade Modifier. Default is 0.75. The lower the better.
-	"AccuracyUpgradeModifier"	"0.90"
+	"AccuracyUpgradeModifier"	"0.85"
 //Weapon Spread
 	//When at rest
 	"JumpingSpread"			"0.05"
 	"StandingSpread"		"0.01"
 	"DuckingSpread"			"0.005"
-	"ProneSpread"			"0.002"
+	"ProneSpread"			"0.004"
 
 	//When moving at full speed (sv_maxspeed)
 	"JumpingSpreadModifier"		"0.1"
