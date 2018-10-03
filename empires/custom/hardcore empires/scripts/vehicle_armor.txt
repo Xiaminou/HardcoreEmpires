@@ -1,134 +1,132 @@
 Vehicle_armor
 {
-	// GENERIC ARMORS
 	"Plain Armor"
 	{
-		"Name"			"#emp_vehicle_armor_Plain_Armor_name"		//name given when selecting weapons
-		"Description"		"#emp_vehicle_armor_Plain_Armor_description"		//description given when selecting weapons
-		"Icon"			"vehicles/gui/armor/armor_small"		//icon drawn in the GUI
+		"Name"			"#emp_vehicle_armor_Plain_Armor_name"			//name given when selecting weapons
+		"Description"	"#emp_vehicle_armor_Plain_Armor_description"	//description given when selecting weapons
+		"Icon"			"vehicles/gui/armor/armor_small"				//icon drawn in the GUI
 		"HUD Icon"		""
-		"Size"			"1"		//number of slots required when selecting weapons
-		"Type"			"0"		//which vehicle can use this armor
-							// 0=all, 1=ground, 2=aircraft, 3=ship, 4=jeep, 5=light tank/afv, 6=med tank, 7=heavy tank,
-							// 8=artillery tank, 9=apc, 10=all tanks:light, medium, heavy and artillery
-		"Weight"		"15"            //** weight was 5
-		"Cost"			"5"	//cost of an inch of armor in resources, added onto the final vehicle cost
+		"Type"			"0"		//which vehicle can use this armor 0=all, 1=ground, 2=aircraft, 3=ship, 4=jeep, 5=light tank/afv, 6=med tank, 7=heavy tank, 8=artillery tank, 9=apc, 10=all tanks:light, medium, heavy and artillery
+		"Size"			"1"		//number of slots required
 		"Research"		""
 
-		"Health"			"40"	//amount of health per every inch of armor
-		"Regeneration"			"0"	//amount of health this armor regenerates per second
-		"Angle Modifier"		"0.0"	// was 0
-		"Speed To Damage Modifier"	"0"	
-		"Damage Modifier"		"1"	//modifier to damage (0.9 reduces damage by 10%; damage*0.9=damage taken)
+		//Stats
+		"Cost"						"5"		//cost of a plate in resources
+		"Weight"					"15"	//weight of a plate
+		"Health"					"40"	//health per plate
+		"Regeneration"				"0"		//plates regenerated per second.
+		"Angle Modifier"			"0.0"	//damage reduction based on angle of impact
+		"Speed To Damage Modifier"	"0"		//increased damage based on speed of projectile
+		"Damage Modifier"			"1"		//modifier to damage (0.9 reduces damage by 10%; damage*0.9=damage taken)
 		"Damage To Heat Absorbed"	"0.0"	//percentage of damage received which is added as heat (0.2: damage*0.2=heat added
-		"Bioweapon Damage Modifier"	"1"	// was 1  //scale damage from biological weapons by this amount (bioweapon damage per interval * modifier = damage taken per interval)
+		"Bioweapon Damage Modifier"	"1"		//scale damage from biological weapons by this amount (bioweapon damage per interval * modifier = damage taken per interval)
 
-		"Sound Impact"			""
-		"Sound Repair"			""
+		//Sounds
+		"Sound Impact"				""
+		"Sound Repair"				""
 
-	//Boilerplate Resistances
-		"BulletResist" 			"1"		//Non Armor damaging
-		"InfantrySeismicResist" 	"0.95"		//Siesmic Grenades
-		"InfantryBulletResist" 		"1"		//Just In Case
-		"ExtraType1Resist" 		"0.95" 		//Building Damage
-		"InfantryMeleeResist"		"1.0"					//Infantry melee
+		//Resistances
+		"BulletResist" 				"1"		//Vehicle Anti-Infantry Machine-Guns
+		"InfantrySeismicResist" 	"0.95"	//Seismic Grenades
+		"InfantryBulletResist" 		"1"		//Infantry Guns
+		"ExtraType1Resist" 			"0.95" 	//Building Damage
+		"InfantryMeleeResist"		"1.0"	//Infantry Melee
 	}
-
 	"Composite"
 	{
 		"Name"			"#emp_vehicle_armor_Composite_name"
-		"Description"		"#emp_vehicle_armor_Composite_description"
+		"Description"	"#emp_vehicle_armor_Composite_description"
 		"Icon"			"vehicles/gui/armor/composite_sml"
 		"HUD Icon"		""
-		"Size"			"1"
 		"Type"			"0"
-		"Weight"		"15"               // was 10   (5 light 10 medium 15 heavy)
-		"Cost"			"20"               // was 40
+		"Size"			"1"
 		"Research"		"Composite Armor"
-
-		"Health"			"80"    //
-		"Regeneration"			"0.019"
-		"Angle Modifier"		"0.25"     // was 0
+		
+		//Stats
+		"Weight"					"15"
+		"Cost"						"18"
+		"Health"					"80"
+		"Regeneration"				"0.019"
+		"Angle Modifier"			"0.25"
 		"Speed To Damage Modifier"	"-0.00005"
-		"Damage Modifier"		"1"        
-		"Damage To Heat Absorbed"	"-0.05"    
-		"Bioweapon Damage Modifier"	"1"        
+		"Damage Modifier"			"1"
+		"Damage To Heat Absorbed"	"-0.05"
+		"Bioweapon Damage Modifier"	"1"
 
-		"Sound Impact"			""
-		"Sound Repair"			""
+		//Sounds
+		"Sound Impact"				""
+		"Sound Repair"				""
 
-	//Boilerplate Resistances
-		"BulletResist" 			"1"		//Non Armor damaging
-		"InfantrySeismicResist" 	"0.95"		//Siesmic Grenades
-		"InfantryBulletResist" 		"1"		//Just In Case
-		"ExtraType1Resist" 		"0.95" 		//Building Damage
-		"InfantryMeleeResist"		"1.0"					//Infantry melee
+		//Resistances
+		"BulletResist" 				"1"
+		"InfantrySeismicResist" 	"0.95"
+		"InfantryBulletResist" 		"1"
+		"ExtraType1Resist" 			"0.95"
+		"InfantryMeleeResist"		"1.0"
 	}
-
-
 	"Reactive"
 	{
 		"Name"			"#emp_vehicle_armor_Reactive_name"
-		"Description"		"#emp_vehicle_armor_Reactive_description"
+		"Description"	"#emp_vehicle_armor_Reactive_description"
 		"Icon"			"vehicles/gui/armor/reactive_sml"
 		"HUD Icon"		""
-		"Size"			"1"
 		"Type"			"0"
-		"Weight"		"18"                  // was 10
-		"Cost"			"15"                  // 50
-		"Research"		"Reactive Armor"      //
-                                                               
-		"Health"			"120"          // was 40
-		"Regeneration"			"0"           //
-		"Angle Modifier"		"0.0"         //
-		"Speed To Damage Modifier"	"0"      // was "0.001"
-		"Damage Modifier"		"1"         // was 0.3 is now 1
-		"Damage To Heat Absorbed"	"0.0"       //
-		"Bioweapon Damage Modifier"	"1"         //
+		"Size"			"1"
+		"Research"		"Reactive Armor"
 
-		"Sound Impact"			""
-		"Sound Repair"			""
+		//Stats
+		"Weight"					"18"
+		"Cost"						"18"
+		"Health"					"120"
+		"Regeneration"				"0"
+		"Angle Modifier"			"0.0"
+		"Speed To Damage Modifier"	"0"
+		"Damage Modifier"			"1"
+		"Damage To Heat Absorbed"	"0.0"
+		"Bioweapon Damage Modifier"	"1"
 
-	//	"InfantryMissileResist" 	"-0.2" 	//Gren Missles
+		//Sounds
+		"Sound Impact"				""
+		"Sound Repair"				""
 
-	//Boilerplate Resistances
-		"BulletResist" 			"1"		//Non Armor damaging
-		"InfantrySeismicResist" 	"0.95"		//Siesmic Grenades
-		"InfantryBulletResist" 		"1"		//Just In Case
-		"ExtraType1Resist" 		"0.95" 		//Building Damage
-		"InfantryMeleeResist"		"1.0"					//Infantry melee
+		//Resistances
+		"BulletResist" 				"1"
+		"InfantrySeismicResist" 	"0.95"
+		"InfantryBulletResist" 		"1"
+		"ExtraType1Resist" 			"0.95"
+		"InfantryMeleeResist"		"1.0"
 	}
-
-
 	"Deflective"
 	{
 		"Name"			"#emp_vehicle_armor_Deflective_name"
-		"Description"		"#emp_vehicle_armor_Deflective_description"
+		"Description"	"#emp_vehicle_armor_Deflective_description"
 		"Icon"			"vehicles/gui/armor/reflective_sml"
 		"HUD Icon"		""
-		"Size"			"1"
 		"Type"			"0"
-		"Weight"		"15"                    // was 10
-		"Cost"			"18"                    //
+		"Size"			"1"
 		"Research"		"Deflective Armor"
 
-		"Health"			"75"            // was 50
-		"Regeneration"			"0"             //
-		"Angle Modifier"		"0.88"           //  was 0.5
-		"Speed To Damage Modifier"	"0"         //
-		"Damage Modifier"		"1"             //
-		"Damage To Heat Absorbed"	"0.0"         //
-		"Bioweapon Damage Modifier"	"0.85"           //
+		//Stats
+		"Weight"					"15"
+		"Cost"						"16"
+		"Health"					"75"
+		"Regeneration"				"0"
+		"Angle Modifier"			"0.88"
+		"Speed To Damage Modifier"	"0"
+		"Damage Modifier"			"1"
+		"Damage To Heat Absorbed"	"0.0"
+		"Bioweapon Damage Modifier"	"0.85"
 
-		"Sound Impact"			""
-		"Sound Repair"			""
+		//Sounds
+		"Sound Impact"				""
+		"Sound Repair"				""
 
-	//Boilerplate Resistances
-		"BulletResist" 				"1"		//Non Armor damaging
-		"InfantrySeismicResist" 	"0.95"		//Siesmic Grenades
-		"InfantryBulletResist" 		"1"		//Just In Case
-		"ExtraType1Resist" 			"0.95" 		//Building Damage
-		"InfantryMeleeResist"		"1.0"					//Infantry melee
+		//Resistances
+		"BulletResist" 				"1"
+		"InfantrySeismicResist" 	"0.95"
+		"InfantryBulletResist" 		"1"
+		"ExtraType1Resist" 			"0.95"
+		"InfantryMeleeResist"		"1.0"
 		"MissileResist"				"0.1"
 		"MissileExplosiveResist" 	"0.1"
 		"KineticResist"				"0.1"
@@ -137,112 +135,112 @@ Vehicle_armor
 		"APBulletResist" 			"0.1"
 		"BulletExplosiveResist"		"0.1"
 		"GeneralChemistryResist"	"0.1"
-		"GeneralMechanicalResist"		"0.1"
+		"GeneralMechanicalResist"	"0.1"
 		"GeneralElectricResist"		"0.1"
 	}
-
 	"Regenerative"
 	{
 		"Name"			"#emp_vehicle_armor_Regenerative_name"
-		"Description"		"#emp_vehicle_armor_Regenerative_description"
+		"Description"	"#emp_vehicle_armor_Regenerative_description"
 		"Icon"			"vehicles/gui/armor/regen_sml"
 		"HUD Icon"		""
-		"Size"			"1"
 		"Type"			"0"
-		"Weight"		"15"                     // was 10   
-		"Cost"			"15"
+		"Size"			"1"
 		"Research"		"Regenerative Armor"
 
-		"Health"			"72"             // was 60
-		"Regeneration"			"0.07"
-		"Angle Modifier"		"0.0"
+		//Stats
+		"Weight"					"15"
+		"Cost"						"12"
+		"Health"					"72"
+		"Regeneration"				"0.07"
+		"Angle Modifier"			"0.0"
 		"Speed To Damage Modifier"	"0"
-		"Damage Modifier"		"1"              // was 0.9 is now 1
-		"Damage To Heat Absorbed"	"0.0"          // was 0.025
-		"Bioweapon Damage Modifier"	"1"            // was 0.1 is now 2.0 would make sense if bio weapons had the easiest time against bio armor
+		"Damage Modifier"			"1"
+		"Damage To Heat Absorbed"	"0.0"
+		"Bioweapon Damage Modifier"	"1"
 
-		"Sound Impact"			""
-		"Sound Repair"			""
+		//Sounds
+		"Sound Impact"				""
+		"Sound Repair"				""
 
-
-	//Boilerplate Resistances
-		"BulletResist" 			"1"		//Non Armor damaging
-		"InfantrySeismicResist" 	"0.95"		//Siesmic Grenades
-		"InfantryBulletResist" 		"1"		//Just In Case
-		"ExtraType1Resist" 		"0.95" 		//Building Damage
-		"InfantryMeleeResist"		"1.0"					//Infantry melee
+		//Resistances
+		"BulletResist" 				"1"
+		"InfantrySeismicResist" 	"0.95"
+		"InfantryBulletResist" 		"1"
+		"ExtraType1Resist" 			"0.95"
+		"InfantryMeleeResist"		"1.0"
 	}
-
 	"Absorbant"
 	{
 		"Name"			"#emp_vehicle_armor_Absorbant_name"
 		"Description"		"#emp_vehicle_armor_Absorbant_description"
 		"Icon"			"vehicles/gui/armor/absorbant_sml"
 		"HUD Icon"		""
-		"Size"			"1"
 		"Type"			"0"
-		"Weight"		"12"               // was 10
-		"Cost"			"4"
+		"Size"			"1"
 		"Research"		"Absorbant Armor"
 
-		"Health"			"67"
-		"Regeneration"			"0"
-		"Angle Modifier"		"0.0"        /// was 0.1 
+		//Stats
+		"Weight"					"12"
+		"Cost"						"10"
+		"Health"					"67"
+		"Regeneration"				"0"
+		"Angle Modifier"			"0.0" 
 		"Speed To Damage Modifier"	"-0.000112"
-		"Damage Modifier"		"1"        // was 0.5 is now 1
-		"Damage To Heat Absorbed"	"-0.3"    // was "0.025"
+		"Damage Modifier"			"1"
+		"Damage To Heat Absorbed"	"-0.3"
 		"Bioweapon Damage Modifier"	"0.5"
 
-		"Sound Impact"			""
-		"Sound Repair"			""
+		//Sounds
+		"Sound Impact"				""
+		"Sound Repair"				""
 
-	//Boilerplate Resistances
-		"BulletResist" 			"1"		//Non Armor damaging
-		"InfantrySeismicResist" 	"0.95"		//Siesmic Grenades
-		"InfantryBulletResist" 		"1"		//Just In Case
-		"ExtraType1Resist" 		"0.95" 		//Building Damage
-		"InfantryMeleeResist"		"1.0"					//Infantry melee
+		//Resistances
+		"BulletResist" 				"1"
+		"InfantrySeismicResist" 	"0.95"
+		"InfantryBulletResist" 		"1"
+		"ExtraType1Resist" 			"0.95"
+		"InfantryMeleeResist"		"1.0"
 		"APBulletResist"			"0.15"
 		"BulletExplosive"			"0.15"
 		
 	}
-
-	// Commander armor
-	
+	//COMMANDER
 	"Command Vehicle"
 	{
 		"Name"			"#emp_vehicle_armor_Command_Vehicle_Armor_name"
-		"Description"		"#emp_vehicle_armor_Command_vehicle_Armor_description"
+		"Description"	"#emp_vehicle_armor_Command_vehicle_Armor_description"
 		"Icon"			"vehicles/gui/armor/armor_small"
 		"HUD Icon"		""
-		"Size"			"1"
 		"Type"			"11"
-		"Weight"		"10"               // was 10   (5 light 10 medium 15 heavy)
-		"Cost"			"40"               // was 40
+		"Size"			"1"
 		"Research"		""
 
-		"Commander"	"1"
-		"Health"			"250"      // was 70 after observing reactive with its 0.3 modifier giving it effectivly 120+ HP, an armor should be like this in the game.
-		"Regeneration"			"0.004"        //
-		"Angle Modifier"		"0.0"      // was 0
-		"Speed To Damage Modifier"	"0"    //
-		"Damage Modifier"		"1"        //
-		"Damage To Heat Absorbed"	"0.0"    //
-		"Bioweapon Damage Modifier"	"1"        //
+		//Stats
+		"Weight"					"10"
+		"Cost"						"40"
+		"Commander"					"1"
+		"Health"					"250"
+		"Regeneration"				"0.004"
+		"Angle Modifier"			"0.0"
+		"Speed To Damage Modifier"	"0"
+		"Damage Modifier"			"1"
+		"Damage To Heat Absorbed"	"0.0"
+		"Bioweapon Damage Modifier"	"1"
 
-		"Sound Impact"			""
-		"Sound Repair"			""
+		//Sounds
+		"Sound Impact"				""
+		"Sound Repair"				""
 
-		//Resists
-		"BulletResist" 			"1"		//Non Armor damaging
-		"InfantrySeismicResist" 	"0.95"		//Siesmic Grenades
-		"InfantryBulletResist" 		"1"		//Just In Case
-		"ExtraType1Resist" 		"0.95" 		//Building Damage
-		"InfantryMeleeResist"		"1.0"					//Infantry melee
-		"InfantryStickyResist"     "0.25"
+		//Resistances
+		"BulletResist" 				"1"
+		"InfantrySeismicResist" 	"0.95"
+		"InfantryBulletResist" 		"1"
+		"ExtraType1Resist" 			"0.95"
+		"InfantryMeleeResist"		"1.0"
+		"InfantryStickyResist"		"0.25"
 	}
-
-	// Aircraft armors
+	//AIRCRAFT
 	"plainArmor"
 	{
 		"Name"			"Plain Armor"		//name given when selecting weapons
@@ -275,36 +273,37 @@ Vehicle_armor
 		"ExtraType1Resist" 		"0.95" 		//Building Damage
 		"InfantryMeleeResist"		"1.0"					//Infantry melee
 	}
-
-
+	//VEHICLE
 	"Capacitive"
 	{
 		"Name"			"#emp_vehicle_armor_Capacitive_name"
-		"Description"		"#emp_vehicle_armor_Capacitive_description"
+		"Description"	"#emp_vehicle_armor_Capacitive_description"
 		"Icon"			"vehicles/gui/armor/capacitive_sml_alt"
 		"HUD Icon"		""
-		"Size"			"1"
 		"Type"			"0"
-		"Weight"		"18"               
-		"Cost"			"18"
+		"Size"			"1"
 		"Research"		"Capacitive Armor"
 
-		"Health"			"160"
-		"Regeneration"			"0.0"		//such broken, many sad, please fix?
-		"Angle Modifier"		"-0.1"     
-		"Speed To Damage Modifier"	"0.0001"   
-		"Damage Modifier"		"1"        
-		"Damage To Heat Absorbed"	"0.02"    
+		//Stats
+		"Weight"					"18"
+		"Cost"						"15"
+		"Health"					"160"
+		"Regeneration"				"0.0"
+		"Angle Modifier"			"-0.1"
+		"Speed To Damage Modifier"	"0.0001"
+		"Damage Modifier"			"1"
+		"Damage To Heat Absorbed"	"0.02"
 		"Bioweapon Damage Modifier"	"1.2"
 
-		"Sound Impact"			""
-		"Sound Repair"			""
+		//Sounds
+		"Sound Impact"				""
+		"Sound Repair"				""
 
-	//Boilerplate Resistances
-		"BulletResist" 			"1"		//Non Armor damaging
-		"InfantrySeismicResist" 	"0.95"		//Siesmic Grenades
-		"InfantryBulletResist" 		"1"		//Just In Case
-		"ExtraType1Resist" 		"0.95" 		//Building Damage
-		"InfantryMeleeResist"		"1.0"					//Infantry melee
+		//Resistances
+		"BulletResist" 				"1"
+		"InfantrySeismicResist" 	"0.95"
+		"InfantryBulletResist" 		"1"
+		"ExtraType1Resist" 			"0.95"
+		"InfantryMeleeResist"		"1.0"
 	}
-}
+}
