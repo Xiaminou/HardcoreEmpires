@@ -94,18 +94,8 @@ Vehicle_Weapons
 		"Reload Time"		"4"		//time to load one clip, if total ammo clips is '0', time to reload one unit of ammo (as one unit of ammo is reloaded per time and not a full clip)
 		"Projectile Spread"	"0.025"		//only applicable to machine guns at the moment
 		"Heat to Target"	"0"		//heat added to target on hit (a small amount of heat is also added to the target based on damage, this is defined within the armor script)
-		"on Radius"	"0"		//radius of damage sphere to hurt surrounding entities
+		"on Radius"		"0"		//radius of damage sphere to hurt surrounding entities
 		"Explosion Force"	"0"		//force of explosion
-
-		//only for missile launchers
-		"Dumb Missile"			"0"		//'1' if missile flies straight ahead
-		"Homing Missile"		"0"		//'1' if missile flies towards locked on target
-		"Guided Missile"		"0"		//'1' if missile follows crosshairs after launch
-		"Missile Range"			"0"		//max range in HL2 units (1 inch = 1) that the player can lock onto a target with a homing missile, or range from vehicle being fired from when a guided missile stops following the player's crosshairs
-		"Lock On Time"			"0"		//time it takes for a homing missile to lock onto the target under the player crosshairs
-		"Lock Range Modifier"		"0"		//modifies lock on time based on range (as range increases, lock on time increases based on the modifier: modifier * range to target + lock on time = total lock on time)
-		"Countermeasure Effectiveness"	"0.9"		//a percentage (1 = 100%) which determines how likely the missile will lock onto a flare or chaff rather than the actual target when flares or chaff is inbetween it and its target. When a flare or chaff is detected in front of the missile, a number between 0.000 and 1.000 is generated.  If the number is less than the effectiveness number, the missile will target the flare/chaff.
-		"Turning Ability"		"0.2"		//determines how effective the missile can turn to home in on its target or guide itself to the crosshair for a guided missile; 1.0 means the missile can turn instantly towards its target, 0.0 and the missile doesn't turn at all
 
 		//for biological weapons: when a player or vehicle is hit, the damage (Damage) is inflicted every specified amount of seconds (Interval) over a total amount of time period (Time)
 		//all weapons can use these, explosions will infect all players and vehicles the explosion touches, not just the direct hit target
@@ -113,7 +103,7 @@ Vehicle_Weapons
 		"Player Bio Time"	"5"	//total time to inflict damage to players
 		"Player Bio Interval"	"1"	//time inbetween each infliction of damage to players
 		"Vehicle Bio Damage"	"4"	//damage inflicted to vehicles every interval
-		"Vehicle Bio Time"	"2.8"	//total time to inflict damage to vehicles
+		"Vehicle Bio Time"	"1"	//total time to inflict damage to vehicles
 		"Vehicle Bio Interval"	"0.2"	//time inbetween each infliction of damage to vehicles
 
 		//explosion effects
