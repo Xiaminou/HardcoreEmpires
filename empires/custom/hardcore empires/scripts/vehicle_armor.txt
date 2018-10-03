@@ -15,10 +15,10 @@ Vehicle_armor
 		"Weight"					"15"	//weight of a plate
 		"Health"					"40"	//health per plate
 		"Regeneration"				"0"		//plates regenerated per second.
-		"Angle Modifier"			"0.0"	//damage reduction based on angle of impact
+		"Angle Modifier"			"0.10"	//damage reduction based on angle of impact
 		"Speed To Damage Modifier"	"0"		//increased damage based on speed of projectile
 		"Damage Modifier"			"1"		//modifier to damage (0.9 reduces damage by 10%; damage*0.9=damage taken)
-		"Damage To Heat Absorbed"	"0.0"	//percentage of damage received which is added as heat (0.2: damage*0.2=heat added
+		"Damage To Heat Absorbed"	"0.02"	//percentage of damage received which is added as heat (0.2: damage*0.2=heat added
 		"Bioweapon Damage Modifier"	"1"		//scale damage from biological weapons by this amount (bioweapon damage per interval * modifier = damage taken per interval)
 
 		//Sounds
@@ -47,10 +47,10 @@ Vehicle_armor
 		"Cost"						"18"
 		"Health"					"80"
 		"Regeneration"				"0.019"
-		"Angle Modifier"			"0.25"
+		"Angle Modifier"			"0.35"
 		"Speed To Damage Modifier"	"-0.00005"
 		"Damage Modifier"			"1"
-		"Damage To Heat Absorbed"	"-0.05"
+		"Damage To Heat Absorbed"	"-0.03"
 		"Bioweapon Damage Modifier"	"1"
 
 		//Sounds
@@ -79,10 +79,10 @@ Vehicle_armor
 		"Cost"						"18"
 		"Health"					"120"
 		"Regeneration"				"0"
-		"Angle Modifier"			"0.0"
+		"Angle Modifier"			"0.10"
 		"Speed To Damage Modifier"	"0"
 		"Damage Modifier"			"1"
-		"Damage To Heat Absorbed"	"0.0"
+		"Damage To Heat Absorbed"	"0.02"
 		"Bioweapon Damage Modifier"	"1"
 
 		//Sounds
@@ -111,10 +111,10 @@ Vehicle_armor
 		"Cost"						"16"
 		"Health"					"75"
 		"Regeneration"				"0"
-		"Angle Modifier"			"0.88"
+		"Angle Modifier"			"1"
 		"Speed To Damage Modifier"	"0"
 		"Damage Modifier"			"1"
-		"Damage To Heat Absorbed"	"0.0"
+		"Damage To Heat Absorbed"	"0.02"
 		"Bioweapon Damage Modifier"	"0.85"
 
 		//Sounds
@@ -153,10 +153,10 @@ Vehicle_armor
 		"Cost"						"12"
 		"Health"					"72"
 		"Regeneration"				"0.07"
-		"Angle Modifier"			"0.0"
+		"Angle Modifier"			"0.10"
 		"Speed To Damage Modifier"	"0"
 		"Damage Modifier"			"1"
-		"Damage To Heat Absorbed"	"0.0"
+		"Damage To Heat Absorbed"	"0.02"
 		"Bioweapon Damage Modifier"	"1"
 
 		//Sounds
@@ -185,10 +185,10 @@ Vehicle_armor
 		"Cost"						"10"
 		"Health"					"67"
 		"Regeneration"				"0"
-		"Angle Modifier"			"0.0" 
+		"Angle Modifier"			"0.10" 
 		"Speed To Damage Modifier"	"-0.000112"
 		"Damage Modifier"			"1"
-		"Damage To Heat Absorbed"	"-0.3"
+		"Damage To Heat Absorbed"	"-0.28"
 		"Bioweapon Damage Modifier"	"0.5"
 
 		//Sounds
@@ -222,10 +222,10 @@ Vehicle_armor
 		"Commander"					"1"
 		"Health"					"250"
 		"Regeneration"				"0.004"
-		"Angle Modifier"			"0.0"
+		"Angle Modifier"			"0.20"
 		"Speed To Damage Modifier"	"0"
 		"Damage Modifier"			"1"
-		"Damage To Heat Absorbed"	"0.0"
+		"Damage To Heat Absorbed"	"0.06"
 		"Bioweapon Damage Modifier"	"1"
 
 		//Sounds
@@ -289,10 +289,10 @@ Vehicle_armor
 		"Cost"						"15"
 		"Health"					"160"
 		"Regeneration"				"0.0"
-		"Angle Modifier"			"-0.1"
+		"Angle Modifier"			"0.08"
 		"Speed To Damage Modifier"	"0.0001"
 		"Damage Modifier"			"1"
-		"Damage To Heat Absorbed"	"0.02"
+		"Damage To Heat Absorbed"	"0.04"
 		"Bioweapon Damage Modifier"	"1.2"
 
 		//Sounds
