@@ -1,10 +1,10 @@
 WeaponData
 {
 	// Weapon characteristics:
-	"Damage"				"25"		// damage per bullet
-	"Bullets"				"1"			// bullets per shoot
-	"CycleTime"				"0.095"		// time between shoots
-	"FalloffStart"			"0"			// Distance at which bullet falloff starts - (Max bullet distance 10000 units) - Default 5000
+	"Damage"			"25"		// damage per bullet
+	"Bullets"			"1"		// bullets per shoot
+	"CycleTime"			"0.095"		// time between shoots
+	"FalloffStart"			"0"		// Distance at which bullet falloff starts - (Max bullet distance 10000 units) - Default 5000
 	"FalloffEnd"			"6000"		// Distance at which bullet falloff ends - (Distance that damage is at MinimalDamage) - Default 10000	
 	"MinimalDamage"			"19"		// bullet will always deal this amount of damage even after damage decrease
 
@@ -48,7 +48,8 @@ WeaponData
 
 	//Accuracy Upgrade Modifier. Default is 0.75. The lower the better.
 	"AccuracyUpgradeModifier"	"0.85"
-//Weapon Spread
+	
+	//Weapon Spread
 	//When at rest
 	"JumpingSpread"			"0.05"
 	"StandingSpread"		"0.01"
@@ -62,10 +63,10 @@ WeaponData
 	"ProneSpreadModifier"		"0.005"
 
 	//Maximum the spread can become due to spread increment per shot below
-	"JumpingSpreadMax"	"0.7"
-	"StandingSpreadMax"	"0.3"
-	"DuckingSpreadMax"	"0.2"
-	"ProneSpreadMax"	"0.1"
+	"JumpingSpreadMax"		"0.7"
+	"StandingSpreadMax"		"0.3"
+	"DuckingSpreadMax"		"0.2"
+	"ProneSpreadMax"		"0.1"
 
 	//Increment spread by this amount for every shot fired to maximum of moving at full speed spread
 	"JumpingSpreadIncrement"	"0.01"

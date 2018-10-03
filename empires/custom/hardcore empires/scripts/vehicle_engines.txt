@@ -2,9 +2,9 @@
 // FORMULAS
 // "Heat Output At Idle"		-	Heat = "Heat Dissipation" - "Heat Output At Idle"
 // "Heat Output At Max"			-	Heat = "Heat Dissipation" - "Heat Output At Idle" - "Heat Output At Max"
-// "Horsepower Health Modifier"	-	Total Horsepower = "Horsepower" - (( "Health" - "Current Health" ) / "Health" * "Horsepower Health Modifier" * "Horsepower"
-// "Horsepower Armor Modifier"	-	Total Horsepower = "Horsepower" - (( "Health" - "Current Health" ) / "Health" * "Horsepower Health Modifier" * "Horsepower"
-// "Stall On Heat" 				-	Stall Threshold = "Heat Capacity" * "Stall On Heat"
+// "Horsepower Health Modifier"		-	Total Horsepower = "Horsepower" - (( "Health" - "Current Health" ) / "Health" * "Horsepower Health Modifier" * "Horsepower"
+// "Horsepower Armor Modifier"		-	Total Horsepower = "Horsepower" - (( "Health" - "Current Health" ) / "Health" * "Horsepower Health Modifier" * "Horsepower"
+// "Stall On Heat" 			-	Stall Threshold = "Heat Capacity" * "Stall On Heat"
 // "Heat Stall Penalty"			-	Stalled Horsepower = "Horsepower" * "Heat Stall Penalty"
 
 Vehicle_Engines
@@ -1110,7 +1110,7 @@ Vehicle_Engines
 		"Heat Stall Penalty"		"0.0" 	//how much max throttle is limited to when overheating is occurring
 		"Heat Dissipation"		"6"	//amount of heat removed per second
 	}
-"BE Commander Engine"
+	"BE Commander Engine"
 	{
 		"Commander"			"1"
 		"Team"				"IMP"
@@ -1143,7 +1143,7 @@ Vehicle_Engines
 		"Heat Stall Penalty"		"0.0" 	//how much max throttle is limited to when overheating is occurring
 		"Heat Dissipation"		"5"	//amount of heat removed per second
 	}
-"NF Commander Engine"
+	"NF Commander Engine"
 	{
 		"Commander"			"1"
 		"Team"				"NF"

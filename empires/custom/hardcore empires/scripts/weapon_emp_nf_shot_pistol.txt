@@ -43,7 +43,7 @@ WeaponData
 	"MeleeDamage"			"40"	// damage per melee hit
 	"MeleeCycleTime"		"0.4"	// time between melee attacks
 
-//Weapon Spread
+	//Weapon Spread
 	//When at rest
 	"JumpingSpread"			"0.2"
 	"StandingSpread"		"0.07"

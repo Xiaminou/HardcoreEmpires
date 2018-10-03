@@ -1,10 +1,10 @@
 WeaponData
 {
 	// Weapon characteristics:
-	"Damage"				"26"		// damage per bullet
-	"Bullets"				"1"			// bullets per shoot
-	"CycleTime"				"0.090"		// time between shoots
-	"FalloffStart"			"0"			// Distance at which bullet falloff starts - (Max bullet distance 10000 units) - Default 5000
+	"Damage"			"26"		// damage per bullet
+	"Bullets"			"1"		// bullets per shoot
+	"CycleTime"			"0.090"		// time between shoots
+	"FalloffStart"			"0"		// Distance at which bullet falloff starts - (Max bullet distance 10000 units) - Default 5000
 	"FalloffEnd"			"6000"		// Distance at which bullet falloff ends - (Distance that damage is at MinimalDamage) - Default 10000	
 	"MinimalDamage"			"18"		// bullet will always deal this amount of damage even after damage decrease
 
