@@ -18,7 +18,7 @@ Vehicle_armor
 		"Angle Modifier"		"0.10"	//damage reduction based on angle of impact
 		"Speed To Damage Modifier"	"0"	//increased damage based on speed of projectile
 		"Damage Modifier"		"1"	//modifier to damage (0.9 reduces damage by 10%; damage*0.9=damage taken)
-		"Damage To Heat Absorbed"	"0.02"	//percentage of damage received which is added as heat (0.2: damage*0.2=heat added
+		"Damage To Heat Absorbed"	"0.01"	//percentage of damage received which is added as heat (0.2: damage*0.2=heat added
 		"Bioweapon Damage Modifier"	"1"	//scale damage from biological weapons by this amount (bioweapon damage per interval * modifier = damage taken per interval)
 
 		//Sounds
@@ -50,7 +50,7 @@ Vehicle_armor
 		"Angle Modifier"		"0.35"
 		"Speed To Damage Modifier"	"-0.00005"
 		"Damage Modifier"		"1"
-		"Damage To Heat Absorbed"	"-0.03"
+		"Damage To Heat Absorbed"	"-0.04"
 		"Bioweapon Damage Modifier"	"1"
 
 		//Sounds
@@ -82,7 +82,7 @@ Vehicle_armor
 		"Angle Modifier"		"0.10"
 		"Speed To Damage Modifier"	"0"
 		"Damage Modifier"		"1"
-		"Damage To Heat Absorbed"	"0.02"
+		"Damage To Heat Absorbed"	"0.01"
 		"Bioweapon Damage Modifier"	"1"
 
 		//Sounds
@@ -114,7 +114,7 @@ Vehicle_armor
 		"Angle Modifier"		"1"
 		"Speed To Damage Modifier"	"0"
 		"Damage Modifier"		"1"
-		"Damage To Heat Absorbed"	"0.02"
+		"Damage To Heat Absorbed"	"0.01"
 		"Bioweapon Damage Modifier"	"0.85"
 
 		//Sounds
@@ -156,7 +156,7 @@ Vehicle_armor
 		"Angle Modifier"		"0.10"
 		"Speed To Damage Modifier"	"0"
 		"Damage Modifier"		"1"
-		"Damage To Heat Absorbed"	"0.02"
+		"Damage To Heat Absorbed"	"0.01"
 		"Bioweapon Damage Modifier"	"1"
 
 		//Sounds
@@ -188,7 +188,7 @@ Vehicle_armor
 		"Angle Modifier"		"0.10" 
 		"Speed To Damage Modifier"	"-0.000112"
 		"Damage Modifier"		"1"
-		"Damage To Heat Absorbed"	"-0.28"
+		"Damage To Heat Absorbed"	"-0.15"
 		"Bioweapon Damage Modifier"	"0.5"
 
 		//Sounds
@@ -225,7 +225,7 @@ Vehicle_armor
 		"Angle Modifier"		"0.20"
 		"Speed To Damage Modifier"	"0"
 		"Damage Modifier"		"1"
-		"Damage To Heat Absorbed"	"0.06"
+		"Damage To Heat Absorbed"	"0.03"
 		"Bioweapon Damage Modifier"	"1"
 
 		//Sounds
@@ -292,7 +292,7 @@ Vehicle_armor
 		"Angle Modifier"		"0.08"
 		"Speed To Damage Modifier"	"0.0001"
 		"Damage Modifier"		"1"
-		"Damage To Heat Absorbed"	"0.04"
+		"Damage To Heat Absorbed"	"0.02"
 		"Bioweapon Damage Modifier"	"1.2"
 
 		//Sounds
