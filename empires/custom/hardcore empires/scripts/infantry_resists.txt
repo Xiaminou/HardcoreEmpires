@@ -4,39 +4,33 @@ InfantryParse
 	"Scout"
 	{
 		//Research Tree
-		"GeneralPhysicsResist"		"0.0"	//General Physics Tree Damage 
-		"GeneralChemistryResist	"  	"0.0" 	//General Chemistry Tree Damage
-		"GeneralMechanicalResist" 	"0.0"	//General Mechanic Tree Damage
-		"GeneralElectricResist"  	"0.0"	//General Electric Tree Damage
-		"GeneralBiologicalResist"	"0.0" 	//General Biological Tree Damage
+		"GeneralPhysicsResist"		"0.0"	//Plasma MG, Plasma CNs
+		"GeneralChemistryResist	"  	"0.0" 	//
+		"GeneralMechanicalResist" 	"0.0"	//
+		"GeneralElectricResist"  	"0.0"	//
+		"GeneralBiologicalResist"	"0.0" 	//
 
 		//Vehicle: Cannons
-		"KineticResist" 		"0.0" 	//Railguns, Standard Cannons, Anything that is just force
-		"ExplosiveResist" 		"0.1"	//Explosive Cannons: HE etc...
-		"BioResist" 			"0.0"	//Biological Cannons
+		"KineticResist" 		"0.0" 	//Standard Cannon, Railguns, Ranged Cannons
+		"ExplosiveResist" 		"0.1"	//High Explosive Cannons, Grenade Launchers
+		"BioArtResist" 			"0.0"   //Biological Cannons
+		
+		//Biological
+		"BioResist" 			"0.0"	//Biological DoT?
 
 		//Vehicle: Machine Guns
-		"BulletResist" 			"0.35"	//Non Armor damaging
-		"APBulletResist" 		"0.7" 	//Armor Damaging
-		"BulletExplosiveResist" 	"0.0"   //Bullets that Explode
+		"BulletResist" 			"0.35"	//Standard MG, .50cal MG, Chain Guns
+		"APBulletResist" 		"0.3" 	//Biological Machine Gun, Depleted Uranium MG, Depleted Uranium HMG
+		"BulletExplosiveResist" 	"0.4"	//HE MG, HE HMG
 
 		//Vehicle: Missiles
-		"MissileResist" 		"0.0"	//Generic Missle type of damage
-		"MissileExplosiveResist" 	"0.55" 	//Explosive type.
-		"MissileBioResist" 		"0.0"	//Bio Missiles.  Different then Bio?
+		"MissileResist" 		"0.0"	//Standard ML, Upgraded ML, Heavy-Duty ML, Biological Warhead, Virulent Warhead, Salvo ML, Advanced Salvo ML, Guided ML, TOW Guided ML, Homing Missile Launcher, Improved Homing ML, Salvo Homing ML, ML Turrets
+		"MissileExplosiveResist" 	"0.55" 	//Nuclear Missile
+		"MissileBioResist" 		"0.0"	//
 
 		//Vehicle: Artillery
-		"KineticArtResist" 		"0.1" 	//Kinetic
-		"ExplosiveArtResist" 		"0.15" 	//Explosive
-		"BioArtResist" 			"0.0"   //Biological, Biological Cannon
-
-		//Aircraft
-		"AircraftMissileResist" 	"0.0" 	//Aircraft Missiles
-		"AircraftGroundMissleResist" 	"0.0" 	//Aircraft Missiles to hit ground targets
-		"AircraftBulletResist" 		"0.0"   //Aircraft to Aircraft bullets
-		"AircraftAPBulletResist" 	"0.0"  	//Aircraft Bullets to hit ground targets
-		"AircraftBombResist" 		"0.0"   //Bombs
-		"AircraftBombBioResist" 	"0.0"  	//Bio Bombs?
+		"KineticArtResist" 		"0.1" 	//Ranged Artillery Cannon
+		"ExplosiveArtResist" 		"0.15" 	//180mm Artillery Cannon, 203mm Artillery Cannon, High Explosive Artillery
 		
 		//Infantry
 		"InfantryGrenadeResist" 	"0.2" 	//HE Grenades
@@ -48,10 +42,10 @@ InfantryParse
 		"InfantryBulletResist" 		"0.2"	//Infantry Guns
 		"InfantryUtilityResist"		"1.0"	//Utility Grenades, Like smoke and concussion
 
-	??
-		"ExtraType1Resist" 		"0.95" 	//Yea
-		"ExtraType2Resist" 		"0.95" 	//Again
-		"ExtraType3Resist" 		"0.95" 	//and a third
+		//Extra
+		"ExtraType1Resist" 		"0.95" 	//?
+		"ExtraType2Resist" 		"0.95" 	//?
+		"ExtraType3Resist" 		"0.95" 	//?
 	}
 	"Rifleman"
 	{
@@ -68,8 +62,8 @@ InfantryParse
 
 		//Vehicle: Machine Guns
 		"BulletResist" 			"0.0"	//Vehicle's Anti-Infantry Machine Guns
-		"APBulletResist" 		"0.7" 	//Armor Damaging
-		"BulletExplosiveResist" 	"0.1"   //Bullets that Explode
+		"APBulletResist" 		"0.3" 	//Armor Damaging
+		"BulletExplosiveResist" 	"0.5"  //Bullets that Explode
 
 		//Vehicle: Missiles
 		"MissileResist" 		"0.1"	//Generic Missle type of damage
@@ -115,8 +109,8 @@ InfantryParse
 		"BioResist" 			"0.3"	//Has the bio effect
 
 		"BulletResist" 			"0.1"	//Non Armor damaging
-		"APBulletResist" 		"0.7" 	// Armor Damaging
-		"BulletExplosiveResist" 	"0.3"   //Bullets that Explode
+		"APBulletResist" 		"0.3" 	// Armor Damaging
+		"BulletExplosiveResist" 	"0.7"   //Bullets that Explode
 
 		"MissileResist" 		"0.3"	//Generic Missle type of damage
 		"MissileExplosiveResist" 	"0.55" 	//Explosive type.
@@ -161,8 +155,8 @@ InfantryParse
 		"BioResist" 			"0.0"	//Has the bio effect
 
 		"BulletResist" 			"0.1"	//Non Armor damaging
-		"APBulletResist" 		"0.7" 	// Armor Damaging
-		"BulletExplosiveResist" 	"0.0"   //Bullets that Explode
+		"APBulletResist" 		"0.3" 	//Armor Damaging
+		"BulletExplosiveResist" 	"0.4"   //Bullets that Explode
 
 		"MissileResist" 		"0.0"	//Generic Missle type of damage
 		"MissileExplosiveResist" 	"0.55" 	//Explosive type.
