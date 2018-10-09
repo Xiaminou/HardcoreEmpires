@@ -92,16 +92,16 @@ Vehicle_Weapons
 		"Total Ammo Clips"	"5"		//max ammo clips carried (0 is the same as not using clips)
 		"Unlimited Ammo"	"0"
 		"Reload Time"		"4"		//time to load one clip, if total ammo clips is '0', time to reload one unit of ammo (as one unit of ammo is reloaded per time and not a full clip)
-		"Projectile Spread"	"0.025"		//only applicable to machine guns at the moment
+		"Projectile Spread"	"0.022"		//only applicable to machine guns at the moment
 		"Heat to Target"	"0"		//heat added to target on hit (a small amount of heat is also added to the target based on damage, this is defined within the armor script)
 		"on Radius"		"0"		//radius of damage sphere to hurt surrounding entities
 		"Explosion Force"	"0"		//force of explosion
 
 		//for biological weapons: when a player or vehicle is hit, the damage (Damage) is inflicted every specified amount of seconds (Interval) over a total amount of time period (Time)
 		//all weapons can use these, explosions will infect all players and vehicles the explosion touches, not just the direct hit target
-		"Player Bio Damage"	"5"	//damage inflicted to players every interval
-		"Player Bio Time"	"5"	//total time to inflict damage to players
-		"Player Bio Interval"	"1"	//time inbetween each infliction of damage to players
+		"Player Bio Damage"	"2"	//damage inflicted to players every interval
+		"Player Bio Time"	"1"	//total time to inflict damage to players
+		"Player Bio Interval"	"0.2"	//time inbetween each infliction of damage to players
 		"Vehicle Bio Damage"	"4"	//damage inflicted to vehicles every interval
 		"Vehicle Bio Time"	"1"	//total time to inflict damage to vehicles
 		"Vehicle Bio Interval"	"0.2"	//time inbetween each infliction of damage to vehicles
@@ -152,17 +152,6 @@ Vehicle_Weapons
 		"Explosion Radius"	"0"		//radius of damage sphere to hurt surrounding entities
 		"Explosion Force"	"0"		//force of explosion
 
-
-			//only for missile launchers
-		"Dumb Missile"			"0"		//'1' if missile flies straight ahead
-		"Homing Missile"		"0"		//'1' if missile flies towards locked on target
-		"Guided Missile"		"0"		//'1' if missile follows crosshairs after launch
-		"Missile Range"			"0"		//max range in HL2 units (1 inch = 1) that the player can lock onto a target with a homing missile, or range from vehicle being fired from when a guided missile stops following the player's crosshairs
-		"Lock On Time"			"0"		//time it takes for a homing missile to lock onto the target under the player crosshairs
-		"Lock Range Modifier"		"0"		//modifies lock on time based on range (as range increases, lock on time increases based on the modifier: modifier * range to target + lock on time = total lock on time)
-		"Countermeasure Effectiveness"	"0.9"		//a percentage (1 = 100%) which determines how likely the missile will lock onto a flare or chaff rather than the actual target when flares or chaff is inbetween it and its target. When a flare or chaff is detected in front of the missile, a number between 0.000 and 1.000 is generated.  If the number is less than the effectiveness number, the missile will target the flare/chaff.
-		"Turning Ability"		"0.2"		//determines how effective the missile can turn to home in on its target or guide itself to the crosshair for a guided missile; 1.0 means the missile can turn instantly towards its target, 0.0 and the missile doesn't turn at all
-	
 		//effects
 		"Tracer Type"			"tracer_vehiclemg" //Tracer effect, tracer names are logical, a list: tracer_du, tracer_bio, tracer_he, tracer_rifle, tracer_smg, tracer_vehiclemg, tracer_cg, tracer_plasma
 		"Muzzle Flash"			"tracer_vehiclemg_muzzle"
@@ -171,7 +160,6 @@ Vehicle_Weapons
 		"FalloffStart"			"0"		//Distance that we start reducing damage - Default 5000
 		"FalloffEnd"			"5500"		//Distance that we start dealing MinimalDamage value - (Max bullet distance 10000 units) - Default 10000
 		"MinimalDamage"			"16"	
-	
 	}
 	".50 Cal Heavy MG"
 	{
@@ -206,17 +194,6 @@ Vehicle_Weapons
 		"Explosion Radius"	"0"		//radius of damage sphere to hurt surrounding entities
 		"Explosion Force"	"0"		//force of explosion
 
-
-			//only for missile launchers
-		"Dumb Missile"			"0"		//'1' if missile flies straight ahead
-		"Homing Missile"		"0"		//'1' if missile flies towards locked on target
-		"Guided Missile"		"0"		//'1' if missile follows crosshairs after launch
-		"Missile Range"			"0"		//max range in HL2 units (1 inch = 1) that the player can lock onto a target with a homing missile, or range from vehicle being fired from when a guided missile stops following the player's crosshairs
-		"Lock On Time"			"0"		//time it takes for a homing missile to lock onto the target under the player crosshairs
-		"Lock Range Modifier"		"0"		//modifies lock on time based on range (as range increases, lock on time increases based on the modifier: modifier * range to target + lock on time = total lock on time)
-		"Countermeasure Effectiveness"	"0.9"		//a percentage (1 = 100%) which determines how likely the missile will lock onto a flare or chaff rather than the actual target when flares or chaff is inbetween it and its target. When a flare or chaff is detected in front of the missile, a number between 0.000 and 1.000 is generated.  If the number is less than the effectiveness number, the missile will target the flare/chaff.
-		"Turning Ability"		"0.2"		//determines how effective the missile can turn to home in on its target or guide itself to the crosshair for a guided missile; 1.0 means the missile can turn instantly towards its target, 0.0 and the missile doesn't turn at all
-	
 		//effects
 		"Tracer Type"			"tracer_vehiclemg" //Tracer effect, tracer names are logical, a list: tracer_du, tracer_bio, tracer_he, tracer_rifle, tracer_smg, tracer_vehiclemg, tracer_cg, tracer_plasma
 		"Muzzle Flash"			"tracer_vehiclemg_muzzle"
@@ -224,8 +201,7 @@ Vehicle_Weapons
 		//Falloff
 		"FalloffStart"			"0"		//Distance that we start reducing damage - Default 5000
 		"FalloffEnd"			"5500"		//Distance that we start dealing MinimalDamage value - (Max bullet distance 10000 units) - Default 10000
-		"MinimalDamage"			"19"	
-	
+		"MinimalDamage"			"19"		
 	}
 	"Depleted Uranium MG"
 	{
@@ -255,22 +231,11 @@ Vehicle_Weapons
 		"Total Ammo Clips"	"6"		//max ammo clips carried (0 is the same as not using clips)
 		"Unlimited Ammo"	"0"
 		"Reload Time"		"2.0"		//time to load one clip, if total ammo clips is '0', time to reload one unit of ammo (as one unit of ammo is reloaded per time and not a full clip)
-		"Projectile Spread"	"0.018"		//only applicable to machine guns at the moment
+		"Projectile Spread"	"0.015"		//only applicable to machine guns at the moment
 		"Heat to Target"	"0"		//heat added to target on hit (a small amount of heat is also added to the target based on damage, this is defined within the armor script)
 		"Explosion Radius"	"50"		//radius of damage sphere to hurt surrounding entities
 		"Explosion Force"	"30"		//force of explosion
 
-
-			//only for missile launchers
-		"Dumb Missile"			"0"		//'1' if missile flies straight ahead
-		"Homing Missile"		"0"		//'1' if missile flies towards locked on target
-		"Guided Missile"		"0"		//'1' if missile follows crosshairs after launch
-		"Missile Range"			"0"		//max range in HL2 units (1 inch = 1) that the player can lock onto a target with a homing missile, or range from vehicle being fired from when a guided missile stops following the player's crosshairs
-		"Lock On Time"			"0"		//time it takes for a homing missile to lock onto the target under the player crosshairs
-		"Lock Range Modifier"		"0"		//modifies lock on time based on range (as range increases, lock on time increases based on the modifier: modifier * range to target + lock on time = total lock on time)
-		"Countermeasure Effectiveness"	"0.9"		//a percentage (1 = 100%) which determines how likely the missile will lock onto a flare or chaff rather than the actual target when flares or chaff is inbetween it and its target. When a flare or chaff is detected in front of the missile, a number between 0.000 and 1.000 is generated.  If the number is less than the effectiveness number, the missile will target the flare/chaff.
-		"Turning Ability"		"0.2"		//determines how effective the missile can turn to home in on its target or guide itself to the crosshair for a guided missile; 1.0 means the missile can turn instantly towards its target, 0.0 and the missile doesn't turn at all
-	
 		//effects
 		"Tracer Type"			"tracer_du" //Tracer effect, tracer names are logical, a list: tracer_du, tracer_bio, tracer_he, tracer_rifle, tracer_smg, tracer_vehiclemg, tracer_cg, tracer_plasma
 		"Muzzle Flash"			"tracer_du_muzzle"
@@ -278,8 +243,7 @@ Vehicle_Weapons
 		//Falloff
 		"FalloffStart"			"0"		//Distance that we start reducing damage - Default 5000
 		"FalloffEnd"			"6500"		//Distance that we start dealing MinimalDamage value - (Max bullet distance 10000 units) - Default 10000
-		"MinimalDamage"			"3"	
-	
+		"MinimalDamage"			"3"		
 	}
 	"Depleted Uranium HMG"
 	{
@@ -309,22 +273,11 @@ Vehicle_Weapons
 		"Total Ammo Clips"	"6"		//max ammo clips carried (0 is the same as not using clips)
 		"Unlimited Ammo"	"0"
 		"Reload Time"		"3.0"		//time to load one clip, if total ammo clips is '0', time to reload one unit of ammo (as one unit of ammo is reloaded per time and not a full clip)
-		"Projectile Spread"	"0.018"		//only applicable to machine guns at the moment
+		"Projectile Spread"	"0.014"		//only applicable to machine guns at the moment
 		"Heat to Target"	"0"		//heat added to target on hit (a small amount of heat is also added to the target based on damage, this is defined within the armor script)
 		"Explosion Radius"	"50"		//radius of damage sphere to hurt surrounding entities
 		"Explosion Force"	"30"		//force of explosion
 
-
-			//only for missile launchers
-		"Dumb Missile"			"0"		//'1' if missile flies straight ahead
-		"Homing Missile"		"0"		//'1' if missile flies towards locked on target
-		"Guided Missile"		"0"		//'1' if missile follows crosshairs after launch
-		"Missile Range"			"0"		//max range in HL2 units (1 inch = 1) that the player can lock onto a target with a homing missile, or range from vehicle being fired from when a guided missile stops following the player's crosshairs
-		"Lock On Time"			"0"		//time it takes for a homing missile to lock onto the target under the player crosshairs
-		"Lock Range Modifier"		"0"		//modifies lock on time based on range (as range increases, lock on time increases based on the modifier: modifier * range to target + lock on time = total lock on time)
-		"Countermeasure Effectiveness"	"0.9"		//a percentage (1 = 100%) which determines how likely the missile will lock onto a flare or chaff rather than the actual target when flares or chaff is inbetween it and its target. When a flare or chaff is detected in front of the missile, a number between 0.000 and 1.000 is generated.  If the number is less than the effectiveness number, the missile will target the flare/chaff.
-		"Turning Ability"		"0.2"		//determines how effective the missile can turn to home in on its target or guide itself to the crosshair for a guided missile; 1.0 means the missile can turn instantly towards its target, 0.0 and the missile doesn't turn at all
-	
 		//effects
 		"Tracer Type"			"tracer_du" //Tracer effect, tracer names are logical, a list: tracer_du, tracer_bio, tracer_he, tracer_rifle, tracer_smg, tracer_vehiclemg, tracer_cg, tracer_plasma
 		"Muzzle Flash"			"tracer_du_muzzle"
@@ -332,8 +285,7 @@ Vehicle_Weapons
 		//Falloff
 		"FalloffStart"			"0"		//Distance that we start reducing damage - Default 5000
 		"FalloffEnd"			"6500"		//Distance that we start dealing MinimalDamage value - (Max bullet distance 10000 units) - Default 10000
-		"MinimalDamage"			"5"	
-	
+		"MinimalDamage"			"5"		
 	}
 	"Chain Gun"
 	{
@@ -368,17 +320,6 @@ Vehicle_Weapons
 		"Explosion Radius"	"0"		//radius of damage sphere to hurt surrounding entities
 		"Explosion Force"	"0"		//force of explosion
 
-
-			//only for missile launchers
-		"Dumb Missile"			"0"		//'1' if missile flies straight ahead
-		"Homing Missile"		"0"		//'1' if missile flies towards locked on target
-		"Guided Missile"		"0"		//'1' if missile follows crosshairs after launch
-		"Missile Range"			"0"		//max range in HL2 units (1 inch = 1) that the player can lock onto a target with a homing missile, or range from vehicle being fired from when a guided missile stops following the player's crosshairs
-		"Lock On Time"			"0"		//time it takes for a homing missile to lock onto the target under the player crosshairs
-		"Lock Range Modifier"		"0"		//modifies lock on time based on range (as range increases, lock on time increases based on the modifier: modifier * range to target + lock on time = total lock on time)
-		"Countermeasure Effectiveness"	"0.9"		//a percentage (1 = 100%) which determines how likely the missile will lock onto a flare or chaff rather than the actual target when flares or chaff is inbetween it and its target. When a flare or chaff is detected in front of the missile, a number between 0.000 and 1.000 is generated.  If the number is less than the effectiveness number, the missile will target the flare/chaff.
-		"Turning Ability"		"0.2"		//determines how effective the missile can turn to home in on its target or guide itself to the crosshair for a guided missile; 1.0 means the missile can turn instantly towards its target, 0.0 and the missile doesn't turn at all
-		
 		//effects
 		"Tracer Type"			"tracer_cg" //Tracer effect, tracer names are logical, a list: tracer_du, tracer_bio, tracer_he, tracer_rifle, tracer_smg, tracer_vehiclemg, tracer_cg, tracer_plasma
 		"Muzzle Flash"			"tracer_cg_muzzle"
@@ -387,7 +328,6 @@ Vehicle_Weapons
 		"FalloffStart"			"0"		//Distance that we start reducing damage - Default 5000
 		"FalloffEnd"			"1250"		//Distance that we start dealing MinimalDamage value - (Max bullet distance 10000 units) - Default 10000
 		"MinimalDamage"			"11"	
-
 	}
 	"Medium Chain Gun"
 	{
@@ -422,17 +362,6 @@ Vehicle_Weapons
 		"Explosion Radius"	"0"		//radius of damage sphere to hurt surrounding entities
 		"Explosion Force"	"0"		//force of explosion
 
-
-			//only for missile launchers
-		"Dumb Missile"			"0"		//'1' if missile flies straight ahead
-		"Homing Missile"		"0"		//'1' if missile flies towards locked on target
-		"Guided Missile"		"0"		//'1' if missile follows crosshairs after launch
-		"Missile Range"			"0"		//max range in HL2 units (1 inch = 1) that the player can lock onto a target with a homing missile, or range from vehicle being fired from when a guided missile stops following the player's crosshairs
-		"Lock On Time"			"0"		//time it takes for a homing missile to lock onto the target under the player crosshairs
-		"Lock Range Modifier"		"0"		//modifies lock on time based on range (as range increases, lock on time increases based on the modifier: modifier * range to target + lock on time = total lock on time)
-		"Countermeasure Effectiveness"	"0.9"		//a percentage (1 = 100%) which determines how likely the missile will lock onto a flare or chaff rather than the actual target when flares or chaff is inbetween it and its target. When a flare or chaff is detected in front of the missile, a number between 0.000 and 1.000 is generated.  If the number is less than the effectiveness number, the missile will target the flare/chaff.
-		"Turning Ability"		"0.2"		//determines how effective the missile can turn to home in on its target or guide itself to the crosshair for a guided missile; 1.0 means the missile can turn instantly towards its target, 0.0 and the missile doesn't turn at all
-	
 		//effects
 		"Tracer Type"			"tracer_cg" //Tracer effect, tracer names are logical, a list: tracer_du, tracer_bio, tracer_he, tracer_rifle, tracer_smg, tracer_vehiclemg, tracer_cg, tracer_plasma
 		"Muzzle Flash"			"tracer_cg_muzzle"
@@ -470,21 +399,10 @@ Vehicle_Weapons
 		"Total Ammo Clips"	"7"		//max ammo clips carried (0 is the same as not using clips)
 		"Unlimited Ammo"	"0"
 		"Reload Time"		"4.0"		//time to load one clip, if total ammo clips is '0', time to reload one unit of ammo (as one unit of ammo is reloaded per time and not a full clip)
-		"Projectile Spread"	"0.02"		//only applicable to machine guns at the moment
+		"Projectile Spread"	"0.015"		//only applicable to machine guns at the moment
 		"Heat to Target"	"2"		//heat added to target on hit (a small amount of heat is also added to the target based on damage, this is defined within the armor script)
 		"Explosion Radius"	"10"		//radius of damage sphere to hurt surrounding entities
 		"Explosion Force"	"10"		//force of explosion
-
-
-			//only for missile launchers
-		"Dumb Missile"			"0"		//'1' if missile flies straight ahead
-		"Homing Missile"		"0"		//'1' if missile flies towards locked on target
-		"Guided Missile"		"0"		//'1' if missile follows crosshairs after launch
-		"Missile Range"			"0"		//max range in HL2 units (1 inch = 1) that the player can lock onto a target with a homing missile, or range from vehicle being fired from when a guided missile stops following the player's crosshairs
-		"Lock On Time"			"0"		//time it takes for a homing missile to lock onto the target under the player crosshairs
-		"Lock Range Modifier"		"0"		//modifies lock on time based on range (as range increases, lock on time increases based on the modifier: modifier * range to target + lock on time = total lock on time)
-		"Countermeasure Effectiveness"	"0.9"		//a percentage (1 = 100%) which determines how likely the missile will lock onto a flare or chaff rather than the actual target when flares or chaff is inbetween it and its target. When a flare or chaff is detected in front of the missile, a number between 0.000 and 1.000 is generated.  If the number is less than the effectiveness number, the missile will target the flare/chaff.
-		"Turning Ability"		"0.2"		//determines how effective the missile can turn to home in on its target or guide itself to the crosshair for a guided missile; 1.0 means the missile can turn instantly towards its target, 0.0 and the missile doesn't turn at all
 
 		//explosion effects
 		"Explosion Speed"	"2"	//how fast the explosion sprite fades (15 is default fps)
@@ -527,21 +445,10 @@ Vehicle_Weapons
 		"Total Ammo Clips"	"7"		//max ammo clips carried (0 is the same as not using clips)
 		"Unlimited Ammo"	"0"
 		"Reload Time"		"3.5"		//time to load one clip, if total ammo clips is '0', time to reload one unit of ammo (as one unit of ammo is reloaded per time and not a full clip)
-		"Projectile Spread"	"0.015"		//only applicable to machine guns at the moment
+		"Projectile Spread"	"0.013"		//only applicable to machine guns at the moment
 		"Heat to Target"	"2.3"		//heat added to target on hit (a small amount of heat is also added to the target based on damage, this is defined within the armor script)
 		"Explosion Radius"	"10"		//radius of damage sphere to hurt surrounding entities
 		"Explosion Force"	"10"		//force of explosion
-
-
-			//only for missile launchers
-		"Dumb Missile"			"0"		//'1' if missile flies straight ahead
-		"Homing Missile"		"0"		//'1' if missile flies towards locked on target
-		"Guided Missile"		"0"		//'1' if missile follows crosshairs after launch
-		"Missile Range"			"0"		//max range in HL2 units (1 inch = 1) that the player can lock onto a target with a homing missile, or range from vehicle being fired from when a guided missile stops following the player's crosshairs
-		"Lock On Time"			"0"		//time it takes for a homing missile to lock onto the target under the player crosshairs
-		"Lock Range Modifier"		"0"		//modifies lock on time based on range (as range increases, lock on time increases based on the modifier: modifier * range to target + lock on time = total lock on time)
-		"Countermeasure Effectiveness"	"0.9"		//a percentage (1 = 100%) which determines how likely the missile will lock onto a flare or chaff rather than the actual target when flares or chaff is inbetween it and its target. When a flare or chaff is detected in front of the missile, a number between 0.000 and 1.000 is generated.  If the number is less than the effectiveness number, the missile will target the flare/chaff.
-		"Turning Ability"		"0.2"		//determines how effective the missile can turn to home in on its target or guide itself to the crosshair for a guided missile; 1.0 means the missile can turn instantly towards its target, 0.0 and the missile doesn't turn at all
 
 		//explosion effects
 		"Explosion Speed"	"2"	//how fast the explosion sprite fades (15 is default fps)
@@ -584,22 +491,11 @@ Vehicle_Weapons
 		"Total Ammo Clips"	"6"		//max ammo clips carried (0 is the same as not using clips)
 		"Unlimited Ammo"	"0"
 		"Reload Time"		"4"		//time to load one clip, if total ammo clips is '0', time to reload one unit of ammo (as one unit of ammo is reloaded per time and not a full clip)
-		"Projectile Spread"	"0.025"		//only applicable to machine guns at the moment
+		"Projectile Spread"	"0.022"		//only applicable to machine guns at the moment
 		"Heat to Target"	"0"		//heat added to target on hit (a small amount of heat is also added to the target based on damage, this is defined within the armor script)
 		"Explosion Radius"	"200"		//radius of damage sphere to hurt surrounding entities
 		"Explosion Force"	"100"		//force of explosion
 
-
-			//only for missile launchers
-		"Dumb Missile"			"0"		//'1' if missile flies straight ahead
-		"Homing Missile"		"0"		//'1' if missile flies towards locked on target
-		"Guided Missile"		"0"		//'1' if missile follows crosshairs after launch
-		"Missile Range"			"0"		//max range in HL2 units (1 inch = 1) that the player can lock onto a target with a homing missile, or range from vehicle being fired from when a guided missile stops following the player's crosshairs
-		"Lock On Time"			"0"		//time it takes for a homing missile to lock onto the target under the player crosshairs
-		"Lock Range Modifier"		"0"		//modifies lock on time based on range (as range increases, lock on time increases based on the modifier: modifier * range to target + lock on time = total lock on time)
-		"Countermeasure Effectiveness"	"0.9"		//a percentage (1 = 100%) which determines how likely the missile will lock onto a flare or chaff rather than the actual target when flares or chaff is inbetween it and its target. When a flare or chaff is detected in front of the missile, a number between 0.000 and 1.000 is generated.  If the number is less than the effectiveness number, the missile will target the flare/chaff.
-		"Turning Ability"		"0.2"		//determines how effective the missile can turn to home in on its target or guide itself to the crosshair for a guided missile; 1.0 means the missile can turn instantly towards its target, 0.0 and the missile doesn't turn at all
-	
 		//effects
 		"Tracer Type"			"tracer_he" //Tracer effect, tracer names are logical, a list: tracer_du, tracer_bio, tracer_he, tracer_rifle, tracer_smg, tracer_vehiclemg, tracer_cg, tracer_plasma
 		"Muzzle Flash"			"tracer_he_muzzle"
@@ -607,7 +503,7 @@ Vehicle_Weapons
 		//Falloff
 		"FalloffStart"			"5000" 		//Distance that we start reducing damage - Default 5000
 		"FalloffEnd"			"10000"		//Distance that we start dealing MinimalDamage value - (Max bullet distance 10000 units) - Default 10000
-		"MinimalDamage"			"8"
+		"MinimalDamage"			"10"
 	}
 	"HE HMG"
 	{
@@ -637,22 +533,11 @@ Vehicle_Weapons
 		"Total Ammo Clips"	"6"		//max ammo clips carried (0 is the same as not using clips)
 		"Unlimited Ammo"	"0"
 		"Reload Time"		"4"		//time to load one clip, if total ammo clips is '0', time to reload one unit of ammo (as one unit of ammo is reloaded per time and not a full clip)
-		"Projectile Spread"	"0.025"		//only applicable to machine guns at the moment
+		"Projectile Spread"	"0.021"		//only applicable to machine guns at the moment
 		"Heat to Target"	"0"		//heat added to target on hit (a small amount of heat is also added to the target based on damage, this is defined within the armor script)
 		"Explosion Radius"	"200"		//radius of damage sphere to hurt surrounding entities
 		"Explosion Force"	"100"		//force of explosion
 
-
-			//only for missile launchers
-		"Dumb Missile"			"0"		//'1' if missile flies straight ahead
-		"Homing Missile"		"0"		//'1' if missile flies towards locked on target
-		"Guided Missile"		"0"		//'1' if missile follows crosshairs after launch
-		"Missile Range"			"0"		//max range in HL2 units (1 inch = 1) that the player can lock onto a target with a homing missile, or range from vehicle being fired from when a guided missile stops following the player's crosshairs
-		"Lock On Time"			"0"		//time it takes for a homing missile to lock onto the target under the player crosshairs
-		"Lock Range Modifier"		"0"		//modifies lock on time based on range (as range increases, lock on time increases based on the modifier: modifier * range to target + lock on time = total lock on time)
-		"Countermeasure Effectiveness"	"0.9"		//a percentage (1 = 100%) which determines how likely the missile will lock onto a flare or chaff rather than the actual target when flares or chaff is inbetween it and its target. When a flare or chaff is detected in front of the missile, a number between 0.000 and 1.000 is generated.  If the number is less than the effectiveness number, the missile will target the flare/chaff.
-		"Turning Ability"		"0.2"		//determines how effective the missile can turn to home in on its target or guide itself to the crosshair for a guided missile; 1.0 means the missile can turn instantly towards its target, 0.0 and the missile doesn't turn at all
-	
 		//effects
 		"Tracer Type"			"tracer_he" //Tracer effect, tracer names are logical, a list: tracer_du, tracer_bio, tracer_he, tracer_rifle, tracer_smg, tracer_vehiclemg, tracer_cg, tracer_plasma
 		"Muzzle Flash"			"tracer_he_muzzle"
@@ -660,7 +545,7 @@ Vehicle_Weapons
 		//Falloff
 		"FalloffStart"			"5000" 		//Distance that we start reducing damage - Default 5000
 		"FalloffEnd"			"10000"		//Distance that we start dealing MinimalDamage value - (Max bullet distance 10000 units) - Default 10000
-		"MinimalDamage"			"10"
+		"MinimalDamage"			"13"
 	}
 	//CANNONS
 	"Standard Cannon"
@@ -1008,7 +893,7 @@ Vehicle_Weapons
 		"Heat"			"6"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status).
 		"Weight"		"60"		//weight in terms of effects on engine and weight restrictions for chassis
 		"Cycle Time"		"1"		//time between shots (all weapons other than MGs have limits of 0.1 as lowest)
-		"Clip Size"		"35"		//ammo loaded per reloads
+		"Clip Size"		"50"		//ammo loaded per reloads
 		"Total Ammo Clips"	"0"		//max ammo clips carried (0 is the same as not using clips)
 		"Unlimited Ammo"	"0"
 		"Reload Time"		"0"		//time to load one clip
@@ -1052,7 +937,7 @@ Vehicle_Weapons
 		"Heat"			"7"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status).
 		"Weight"		"80"		//weight in terms of effects on engine and weight restrictions for chassis
 		"Cycle Time"		"1"		//time between shots (all weapons other than MGs have limits of 0.1 as lowest)
-		"Clip Size"		"35"		//ammo loaded per reloads
+		"Clip Size"		"50"		//ammo loaded per reloads
 		"Total Ammo Clips"	"0"		//max ammo clips carried (0 is the same as not using clips)
 		"Unlimited Ammo"	"0"
 		"Reload Time"		"0"		//time to load one clip
@@ -1642,7 +1527,7 @@ Vehicle_Weapons
 		"Reload Time"		"0"		//time to load one clip
 		"Reload Amount"		"2"
 		"Projectile Spread"	"1.25"		//only applicable to machine guns at the moment
-		"Heat to Target"	"0"		//heat added to target on hit (a small amount of heat is also added to the target based on damage, this is defined within the armor script)
+		"Heat to Target"	"10"		//heat added to target on hit (a small amount of heat is also added to the target based on damage, this is defined within the armor script)
 		"Explosion Radius"	"1550"		//radius of damage sphere to hurt surrounding entities
 		"Explosion Force"	"70000"		//force of explosion
 		"Explosion Sprite"	"11"
