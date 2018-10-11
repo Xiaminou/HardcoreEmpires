@@ -63,7 +63,7 @@ InfantryParse
 		//Vehicle: Machine Guns
 		"BulletResist" 			"0.0"	//Vehicle's Anti-Infantry Machine Guns
 		"APBulletResist" 		"0.3" 	//Armor Damaging
-		"BulletExplosiveResist" 	"0.5"  //Bullets that Explode
+		"BulletExplosiveResist" 	"0.5"	//Bullets that Explode
 
 		//Vehicle: Missiles
 		"MissileResist" 		"0.1"	//Generic Missle type of damage

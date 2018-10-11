@@ -35,33 +35,31 @@ Vehicle_Weapons
 		"Explosion Force"	"0"		//force of explosion
 
 		//only for missile launchers
-		"Dumb Missile"			"0"		//'1' if missile flies straight ahead
-		"Homing Missile"		"0"		//'1' if missile flies towards locked on target
-		"Guided Missile"		"0"		//'1' if missile follows crosshairs after launch
-		"Missile Range"			"0"		//max range in HL2 units (1 inch = 1) that the player can lock onto a target with a homing missile, or range from vehicle being fired from when a guided missile stops following the player's crosshairs
-		"Lock On Time"			"0"		//time it takes for a homing missile to lock onto the target under the player crosshairs
-		"Lock Range Modifier"		"0"		//modifies lock on time based on range (as range increases, lock on time increases based on the modifier: modifier * range to target + lock on time = total lock on time)
-		"Countermeasure Effectiveness"	"0.9"		//a percentage (1 = 100%) which determines how likely the missile will lock onto a flare or chaff rather than the actual target when flares or chaff is inbetween it and its target. When a flare or chaff is detected in front of the missile, a number between 0.000 and 1.000 is generated.  If the number is less than the effectiveness number, the missile will target the flare/chaff.
-		"Turning Ability"		"0.2"		//determines how effective the missile can turn to home in on its target or guide itself to the crosshair for a guided missile; 1.0 means the missile can turn instantly towards its target, 0.0 and the missile doesn't turn at all
+		"Dumb Missile"			"0"	//'1' if missile flies straight ahead
+		"Homing Missile"		"0"	//'1' if missile flies towards locked on target
+		"Guided Missile"		"0"	//'1' if missile follows crosshairs after launch
+		"Missile Range"			"0"	//max range in HL2 units (1 inch = 1) that the player can lock onto a target with a homing missile, or range from vehicle being fired from when a guided missile stops following the player's crosshairs
+		"Lock On Time"			"0"	//time it takes for a homing missile to lock onto the target under the player crosshairs
+		"Lock Range Modifier"		"0"	//modifies lock on time based on range (as range increases, lock on time increases based on the modifier: modifier * range to target + lock on time = total lock on time)
+		"Countermeasure Effectiveness"	"0.9"	//a percentage (1 = 100%) which determines how likely the missile will lock onto a flare or chaff rather than the actual target when flares or chaff is inbetween it and its target. When a flare or chaff is detected in front of the missile, a number between 0.000 and 1.000 is generated.  If the number is less than the effectiveness number, the missile will target the flare/chaff.
+		"Turning Ability"		"0.2"	//determines how effective the missile can turn to home in on its target or guide itself to the crosshair for a guided missile; 1.0 means the missile can turn instantly towards its target, 0.0 and the missile doesn't turn at all
 
 		//for biological weapons: when a player or vehicle is hit, the damage (Damage) is inflicted every specified amount of seconds (Interval) over a total amount of time period (Time)
 		//all weapons can use these, explosions will infect all players and vehicles the explosion touches, not just the direct hit target
-		"Player Bio Damage"	"0"	//damage inflicted to players every interval
-		"Player Bio Time"	"0"	//total time to inflict damage to players
-		"Player Bio Interval"	"0"	//time inbetween each infliction of damage to players
-		"Vehicle Bio Damage"	"0"	//damage inflicted to vehicles every interval
-		"Vehicle Bio Time"	"0"	//total time to inflict damage to vehicles
-		"Vehicle Bio Interval"	"0"	//time inbetween each infliction of damage to vehicles
+		"Player Bio Damage"	"0"		//damage inflicted to players every interval
+		"Player Bio Time"	"0"		//total time to inflict damage to players
+		"Player Bio Interval"	"0"		//time inbetween each infliction of damage to players
+		"Vehicle Bio Damage"	"0"		//damage inflicted to vehicles every interval
+		"Vehicle Bio Time"	"0"		//total time to inflict damage to vehicles
+		"Vehicle Bio Interval"	"0"		//time inbetween each infliction of damage to vehicles
 		
 		//effects
 		"Tracer Type"		"tracer_vehiclemg" //Tracer effect, tracer names are logical, a list: tracer_du, tracer_bio, tracer_he, tracer_rifle, tracer_smg, tracer_vehiclemg, tracer_cg, tracer_plasma
 		"Muzzle Flash"		"tracer_vehiclemg_muzzle"
 
-
-
 		//Falloff
-		"FalloffStart"			"0" 		//Distance that we start reducing damage - Default 5000
-		"FalloffEnd"			"3000"		//Distance that we start dealing MinimalDamage value - (Max bullet distance 10000 units) - Default 10000
+		"FalloffStart"			"0" 	//Distance that we start reducing damage - Default 5000
+		"FalloffEnd"			"3000"	//Distance that we start dealing MinimalDamage value - (Max bullet distance 10000 units) - Default 10000
 		"MinimalDamage"			"13"		
 	}
 	"Bio Machine Gun"
@@ -83,8 +81,6 @@ Vehicle_Weapons
 		"Damage Type"		"APBullet"
 		"Ammo Type"		"1"		//for mguns only, 0 = nonarmor penetrating (no effect on armored vehicles), 1 = armor penetrating (hurts armored vehicles), 2 = explosive (hurts vehicles and has a radius damage around it based on 'explosion radius'"
 		"Damage"		"8"		//damage done by projectile
-		"Speed"			"1000"		//speed of projectile
-		"Gravity"		"0"		//effects of gravity on the projectile, only for projectiles
 		"Heat"			"1"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status).
 		"Weight"		"40"		//weight in terms of effects on engine and weight restrictions for chassis
 		"Cycle Time"		"0.43"		//time between shots
@@ -94,7 +90,7 @@ Vehicle_Weapons
 		"Reload Time"		"4"		//time to load one clip, if total ammo clips is '0', time to reload one unit of ammo (as one unit of ammo is reloaded per time and not a full clip)
 		"Projectile Spread"	"0.022"		//only applicable to machine guns at the moment
 		"Heat to Target"	"0"		//heat added to target on hit (a small amount of heat is also added to the target based on damage, this is defined within the armor script)
-		"on Radius"		"0"		//radius of damage sphere to hurt surrounding entities
+		"Explosion Radius"	"0"		//radius of damage sphere to hurt surrounding entities
 		"Explosion Force"	"0"		//force of explosion
 
 		//for biological weapons: when a player or vehicle is hit, the damage (Damage) is inflicted every specified amount of seconds (Interval) over a total amount of time period (Time)
@@ -138,14 +134,11 @@ Vehicle_Weapons
 		"Damage Type"		"Bullet"
 		"Ammo Type"		"0"		//for mguns only, 0 = nonarmor penetrating (no effect on armored vehicles), 1 = armor penetrating (hurts armored vehicles)
 		"Damage"		"20"		//damage done by projectile
-		"Speed"			"1000"		//speed of projectile
-		"Gravity"		"0"		//effects of gravity on the projectile, only for projectiles
 		"Heat"			"0.8"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status).
 		"Weight"		"50"		//weight in terms of effects on engine and weight restrictions for chassis
 		"Cycle Time"		"0.06"		//time between shots
 		"Clip Size"		"70"		//ammo loaded per reloads
 		"Total Ammo Clips"	"4"		//max ammo clips carried (0 is the same as not using clips)
-		"Unlimited Ammo"	"0"
 		"Reload Time"		"6.8"		//time to load one clip, if total ammo clips is '0', time to reload one unit of ammo (as one unit of ammo is reloaded per time and not a full clip)
 		"Projectile Spread"	"0.013"		//only applicable to machine guns at the moment
 		"Heat to Target"	"0"		//heat added to target on hit (a small amount of heat is also added to the target based on damage, this is defined within the armor script)
@@ -180,14 +173,11 @@ Vehicle_Weapons
 		"Damage Type"		"Bullet"
 		"Ammo Type"		"0"		//for mguns only, 0 = nonarmor penetrating (no effect on armored vehicles), 1 = armor penetrating (hurts armored vehicles)
 		"Damage"		"23"		//damage done by projectile
-		"Speed"			"1000"		//speed of projectile
-		"Gravity"		"0"		//effects of gravity on the projectile, only for projectiles
 		"Heat"			"0.9"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status).
 		"Weight"		"60"		//weight in terms of effects on engine and weight restrictions for chassis
 		"Cycle Time"		"0.06"		//time between shots
 		"Clip Size"		"110"		//ammo loaded per reloads
 		"Total Ammo Clips"	"4"		//max ammo clips carried (0 is the same as not using clips)
-		"Unlimited Ammo"	"0"
 		"Reload Time"		"7.5"		//time to load one clip, if total ammo clips is '0', time to reload one unit of ammo (as one unit of ammo is reloaded per time and not a full clip)
 		"Projectile Spread"	"0.013"		//only applicable to machine guns at the moment
 		"Heat to Target"	"0"		//heat added to target on hit (a small amount of heat is also added to the target based on damage, this is defined within the armor script)
@@ -222,14 +212,11 @@ Vehicle_Weapons
 		"Damage Type"		"APBullet"
 		"Ammo Type"		"1"		//for mguns only, 0 = nonarmor penetrating (no effect on armored vehicles), 1 = armor penetrating (hurts armored vehicles)
 		"Damage"		"5"		//damage done by projectile
-		"Speed"			"1000"		//speed of projectile
-		"Gravity"		"0"		//effects of gravity on the projectile, only for projectiles
 		"Heat"			"0.5"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status).
 		"Weight"		"40"		//weight in terms of effects on engine and weight restrictions for chassis
 		"Cycle Time"		"0.1"		//time between shots
 		"Clip Size"		"80"		//ammo loaded per reloads
 		"Total Ammo Clips"	"6"		//max ammo clips carried (0 is the same as not using clips)
-		"Unlimited Ammo"	"0"
 		"Reload Time"		"2.0"		//time to load one clip, if total ammo clips is '0', time to reload one unit of ammo (as one unit of ammo is reloaded per time and not a full clip)
 		"Projectile Spread"	"0.015"		//only applicable to machine guns at the moment
 		"Heat to Target"	"0"		//heat added to target on hit (a small amount of heat is also added to the target based on damage, this is defined within the armor script)
@@ -264,14 +251,11 @@ Vehicle_Weapons
 		"Damage Type"		"APBullet"
 		"Ammo Type"		"1"		//for mguns only, 0 = nonarmor penetrating (no effect on armored vehicles), 1 = armor penetrating (hurts armored vehicles)
 		"Damage"		"8"		//damage done by projectile
-		"Speed"			"1000"		//speed of projectile
-		"Gravity"		"0"		//effects of gravity on the projectile, only for projectiles
 		"Heat"			"0.5"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status).
 		"Weight"		"60"		//weight in terms of effects on engine and weight restrictions for chassis
 		"Cycle Time"		"0.1"		//time between shots
 		"Clip Size"		"120"		//ammo loaded per reloads
 		"Total Ammo Clips"	"6"		//max ammo clips carried (0 is the same as not using clips)
-		"Unlimited Ammo"	"0"
 		"Reload Time"		"3.0"		//time to load one clip, if total ammo clips is '0', time to reload one unit of ammo (as one unit of ammo is reloaded per time and not a full clip)
 		"Projectile Spread"	"0.014"		//only applicable to machine guns at the moment
 		"Heat to Target"	"0"		//heat added to target on hit (a small amount of heat is also added to the target based on damage, this is defined within the armor script)
@@ -306,14 +290,11 @@ Vehicle_Weapons
 		"Damage Type"		"Bullet"
 		"Ammo Type"		"0"		//for mguns only, 0 = nonarmor penetrating (no effect on armored vehicles), 1 = armor penetrating (hurts armored vehicles)
 		"Damage"		"14"		//damage done by projectile
-		"Speed"			"1000"		//speed of projectile
-		"Gravity"		"0"		//effects of gravity on the projectile, only for projectiles
 		"Heat"			"0.35"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status).
 		"Weight"		"50"		//weight in terms of effects on engine and weight restrictions for chassis
 		"Cycle Time"		"0.04"		//time between shots
 		"Clip Size"		"125"		//ammo loaded per reloads
 		"Total Ammo Clips"	"3"		//max ammo clips carried (0 is the same as not using clips)
-		"Unlimited Ammo"	"0"
 		"Reload Time"		"6.0"		//time to load one clip, if total ammo clips is '0', time to reload one unit of ammo (as one unit of ammo is reloaded per time and not a full clip)
 		"Projectile Spread"	"0.03"		//only applicable to machine guns at the moment
 		"Heat to Target"	"0"		//heat added to target on hit (a small amount of heat is also added to the target based on damage, this is defined within the armor script)
@@ -348,14 +329,11 @@ Vehicle_Weapons
 		"Damage Type"		"Bullet"
 		"Ammo Type"		"0"		//for mguns only, 0 = nonarmor penetrating (no effect on armored vehicles), 1 = armor penetrating (hurts armored vehicles)
 		"Damage"		"17"		//damage done by projectile
-		"Speed"			"1000"		//speed of projectile
-		"Gravity"		"0"		//effects of gravity on the projectile, only for projectiles
 		"Heat"			"0.45"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status).
 		"Weight"		"65"		//weight in terms of effects on engine and weight restrictions for chassis
 		"Cycle Time"		"0.035"		//time between shots
 		"Clip Size"		"175"		//ammo loaded per reloads
 		"Total Ammo Clips"	"3"		//max ammo clips carried (0 is the same as not using clips)
-		"Unlimited Ammo"	"0"
 		"Reload Time"		"6.0"		//time to load one clip, if total ammo clips is '0', time to reload one unit of ammo (as one unit of ammo is reloaded per time and not a full clip)
 		"Projectile Spread"	"0.03"		//only applicable to machine guns at the moment
 		"Heat to Target"	"0"		//heat added to target on hit (a small amount of heat is also added to the target based on damage, this is defined within the armor script)
@@ -390,14 +368,11 @@ Vehicle_Weapons
 		"Damage Type"		"GeneralPhysics"
 		"Ammo Type"		"1"		//for mguns only, 0 = nonarmor penetrating (no effect on armored vehicles), 1 = armor penetrating (hurts armored vehicles)
 		"Damage"		"5"		//damage done by projectile
-		"Speed"			"1000"		//speed of projectile
-		"Gravity"		"0"		//effects of gravity on the projectile, only for projectiles
 		"Heat"			"1"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status).
 		"Weight"		"40"		//weight in terms of effects on engine and weight restrictions for chassis
 		"Cycle Time"		"0.35"		//time between shots
 		"Clip Size"		"30"		//ammo loaded per reloads
 		"Total Ammo Clips"	"7"		//max ammo clips carried (0 is the same as not using clips)
-		"Unlimited Ammo"	"0"
 		"Reload Time"		"4.0"		//time to load one clip, if total ammo clips is '0', time to reload one unit of ammo (as one unit of ammo is reloaded per time and not a full clip)
 		"Projectile Spread"	"0.015"		//only applicable to machine guns at the moment
 		"Heat to Target"	"2"		//heat added to target on hit (a small amount of heat is also added to the target based on damage, this is defined within the armor script)
@@ -436,14 +411,11 @@ Vehicle_Weapons
 		"Damage Type"		"GeneralPhysics"
 		"Ammo Type"		"1"		//for mguns only, 0 = nonarmor penetrating (no effect on armored vehicles), 1 = armor penetrating (hurts armored vehicles)
 		"Damage"		"6"		//damage done by projectile
-		"Speed"			"1000"		//speed of projectile
-		"Gravity"		"0"		//effects of gravity on the projectile, only for projectiles
 		"Heat"			"1.4"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status).
 		"Weight"		"55"		//weight in terms of effects on engine and weight restrictions for chassis
 		"Cycle Time"		"0.28"		//time between shots
 		"Clip Size"		"30"		//ammo loaded per reloads
 		"Total Ammo Clips"	"7"		//max ammo clips carried (0 is the same as not using clips)
-		"Unlimited Ammo"	"0"
 		"Reload Time"		"3.5"		//time to load one clip, if total ammo clips is '0', time to reload one unit of ammo (as one unit of ammo is reloaded per time and not a full clip)
 		"Projectile Spread"	"0.013"		//only applicable to machine guns at the moment
 		"Heat to Target"	"2.3"		//heat added to target on hit (a small amount of heat is also added to the target based on damage, this is defined within the armor script)
@@ -481,15 +453,12 @@ Vehicle_Weapons
 
 		"Damage Type"		"BulletExplosive"
 		"Ammo Type"		"2"		//for mguns only, 0 = nonarmor penetrating (no effect on armored vehicles), 1 = armor penetrating (hurts armored vehicles)
-		"Damage"		"10"		//damage done by projectile
-		"Speed"			"1000"		//speed of projectile
 		"Gravity"		"0"		//effects of gravity on the projectile, only for projectiles
 		"Heat"			"1.5"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status).
 		"Weight"		"40"		//weight in terms of effects on engine and weight restrictions for chassis
 		"Cycle Time"		"0.4"		//time between shots
 		"Clip Size"		"25"		//ammo loaded per reloads
 		"Total Ammo Clips"	"6"		//max ammo clips carried (0 is the same as not using clips)
-		"Unlimited Ammo"	"0"
 		"Reload Time"		"4"		//time to load one clip, if total ammo clips is '0', time to reload one unit of ammo (as one unit of ammo is reloaded per time and not a full clip)
 		"Projectile Spread"	"0.022"		//only applicable to machine guns at the moment
 		"Heat to Target"	"0"		//heat added to target on hit (a small amount of heat is also added to the target based on damage, this is defined within the armor script)
@@ -524,14 +493,11 @@ Vehicle_Weapons
 		"Damage Type"		"BulletExplosive"
 		"Ammo Type"		"2"		//for mguns only, 0 = nonarmor penetrating (no effect on armored vehicles), 1 = armor penetrating (hurts armored vehicles)
 		"Damage"		"13"		//damage done by projectile
-		"Speed"			"1000"		//speed of projectile
-		"Gravity"		"0"		//effects of gravity on the projectile, only for projectiles
 		"Heat"			"3"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status).
 		"Weight"		"55"		//weight in terms of effects on engine and weight restrictions for chassis
 		"Cycle Time"		"0.4"		//time between shots
 		"Clip Size"		"25"		//ammo loaded per reloads
 		"Total Ammo Clips"	"6"		//max ammo clips carried (0 is the same as not using clips)
-		"Unlimited Ammo"	"0"
 		"Reload Time"		"4"		//time to load one clip, if total ammo clips is '0', time to reload one unit of ammo (as one unit of ammo is reloaded per time and not a full clip)
 		"Projectile Spread"	"0.021"		//only applicable to machine guns at the moment
 		"Heat to Target"	"0"		//heat added to target on hit (a small amount of heat is also added to the target based on damage, this is defined within the armor script)
@@ -565,8 +531,6 @@ Vehicle_Weapons
 		"Sound Reloading"	""
 
 		"Damage Type"		"Kinetic"
-		"Ammo Type"		"0"		//for mguns only, 0 = nonarmor penetrating (no effect on armored vehicles), 1 = armor penetrating (hurts armored vehicles)
-		
 		"Damage"		"50"		//damage done by projectile
 		"Speed"			"3300"		//speed of projectile
 		"Gravity"		"0.5"		//effects of gravity on the projectile, only for projectiles
@@ -575,23 +539,14 @@ Vehicle_Weapons
 		"Cycle Time"		"1.4"		//time between shots (all weapons other than MGs have limits of 0.1 as lowest)
 		"Clip Size"		"40"		//ammo loaded per reloads
 		"Total Ammo Clips"	"0"		//max ammo clips carried (0 is the same as not using clips)
-		"Unlimited Ammo"	"0"
 		"Reload Time"		"0"		//time to load one clip
-		"Reload Amount"		"5" 	//number of projectiles gained per reload "tick" if not using clips
+		"Reload Amount"		"5" 		//number of projectiles gained per reload "tick" if not using clips
 		"Projectile Spread"	"1"		//only applicable to machine guns at the moment
 		"Heat to Target"	"0"		//heat added to target on hit (a small amount of heat is also added to the target based on damage, this is defined within the armor script)
 		"Explosion Radius"	"275"		//radius of damage sphere to hurt surrounding entities
 		"Explosion Force"	"100"		//force of explosion
 		"Explosion Sprite"	"1"
 		"Muzzle Flash"		"muzzle_std_cn"
-
-			//only for missile launchers
-		"Dumb Missile"		"0"		//'1' if missile flies straight ahead
-		"Homing Missile"	"0"		//'1' if missile flies towards locked on target
-		"Guided Missile"	"0"		//'1' if missile follows crosshairs after launch
-		"Missile Range"		"0"		//max range in HL2 units (1 inch = 1) that the player can lock onto a target with a homing missile, or range from vehicle being fired from when a guided missile stops following the player's crosshairs
-		"Lock On Time"		"0"		//time it takes for a homing missile to lock onto the target under the player crosshairs
-		"Lock Range Modifier"	"0"		//modifies lock on time based on range (as range increases, lock on time increases based on the modifier: modifier * range to target + lock on time = total lock on time)
 	}
 	"Ranged Cannon"
 	{
@@ -610,7 +565,6 @@ Vehicle_Weapons
 		"Sound Reloading"	""
 
 		"Damage Type"		"Kinetic"
-		"Ammo Type"		"0"		//for mguns only, 0 = nonarmor penetrating (no effect on armored vehicles), 1 = armor penetrating (hurts armored vehicles)
 		"Damage"		"60"		//damage done by projectile
 		"Speed"			"3600"		//speed of projectile
 		"Gravity"		"0.1"		//effects of gravity on the projectile, only for projectiles
@@ -619,23 +573,14 @@ Vehicle_Weapons
 		"Cycle Time"		"1.5"		//time between shots (all weapons other than MGs have limits of 0.1 as lowest)
 		"Clip Size"		"40"		//ammo loaded per reloads
 		"Total Ammo Clips"	"0"		//max ammo clips carried (0 is the same as not using clips)
-		"Unlimited Ammo"	"0"
 		"Reload Time"		"0"		//time to load one clip
-		"Reload Amount"		"5" 	//number of projectiles gained per reload "tick" if not using clips
+		"Reload Amount"		"5" 		//number of projectiles gained per reload "tick" if not using clips
 		"Projectile Spread"	"0"		//only applicable to machine guns at the moment
 		"Heat to Target"	"0"		//heat added to target on hit (a small amount of heat is also added to the target based on damage, this is defined within the armor script)
 		"Explosion Radius"	"150"		//radius of damage sphere to hurt surrounding entities
 		"Explosion Force"	"100"		//force of explosion
 		"Explosion Sprite"	"7"
 		"Muzzle Flash"		"muzzle_lr_cn"
-
-			//only for missile launchers
-		"Dumb Missile"		"0"		//'1' if missile flies straight ahead
-		"Homing Missile"	"0"		//'1' if missile flies towards locked on target
-		"Guided Missile"	"0"		//'1' if missile follows crosshairs after launch
-		"Missile Range"		"0"		//max range in HL2 units (1 inch = 1) that the player can lock onto a target with a homing missile, or range from vehicle being fired from when a guided missile stops following the player's crosshairs
-		"Lock On Time"		"0"		//time it takes for a homing missile to lock onto the target under the player crosshairs
-		"Lock Range Modifier"	"0"		//modifies lock on time based on range (as range increases, lock on time increases based on the modifier: modifier * range to target + lock on time = total lock on time)
 	}
 	"Heavy-duty Ranged Cn."
 	{
@@ -654,7 +599,6 @@ Vehicle_Weapons
 		"Sound Reloading"	""
 
 		"Damage Type"		"Kinetic"
-		"Ammo Type"		"0"		//for mguns only, 0 = nonarmor penetrating (no effect on armored vehicles), 1 = armor penetrating (hurts armored vehicles)
 		"Damage"		"67"		//damage done by projectile
 		"Speed"			"3650"		//speed of projectile
 		"Gravity"		"0.08"		//effects of gravity on the projectile, only for projectiles
@@ -663,23 +607,14 @@ Vehicle_Weapons
 		"Cycle Time"		"1.5"		//time between shots (all weapons other than MGs have limits of 0.1 as lowest)
 		"Clip Size"		"40"		//ammo loaded per reloads
 		"Total Ammo Clips"	"0"		//max ammo clips carried (0 is the same as not using clips)
-		"Unlimited Ammo"	"0"
 		"Reload Time"		"0"		//time to load one clip
-		"Reload Amount"		"5" 	//number of projectiles gained per reload "tick" if not using clips
+		"Reload Amount"		"5" 		//number of projectiles gained per reload "tick" if not using clips
 		"Projectile Spread"	"0"		//only applicable to machine guns at the moment
 		"Heat to Target"	"0"		//heat added to target on hit (a small amount of heat is also added to the target based on damage, this is defined within the armor script)
 		"Explosion Radius"	"150"		//radius of damage sphere to hurt surrounding entities
 		"Explosion Force"	"100"		//force of explosion
 		"Explosion Sprite"	"7"
 		"Muzzle Flash"		"muzzle_lr_cn"
-
-			//only for missile launchers
-		"Dumb Missile"		"0"		//'1' if missile flies straight ahead
-		"Homing Missile"	"0"		//'1' if missile flies towards locked on target
-		"Guided Missile"	"0"		//'1' if missile follows crosshairs after launch
-		"Missile Range"		"0"		//max range in HL2 units (1 inch = 1) that the player can lock onto a target with a homing missile, or range from vehicle being fired from when a guided missile stops following the player's crosshairs
-		"Lock On Time"		"0"		//time it takes for a homing missile to lock onto the target under the player crosshairs
-		"Lock Range Modifier"	"0"		//modifies lock on time based on range (as range increases, lock on time increases based on the modifier: modifier * range to target + lock on time = total lock on time)
 	}
 	"High-Explosive Cannon"
 	{
@@ -698,7 +633,6 @@ Vehicle_Weapons
 		"Sound Reloading"	""
 
 		"Damage Type"		"Explosive"
-		"Ammo Type"		"0"		//for mguns only, 0 = nonarmor penetrating (no effect on armored vehicles), 1 = armor penetrating (hurts armored vehicles)
 		"Damage"		"70"		//damage done by projectile
 		"Speed"			"3000"		//speed of projectile
 		"Gravity"		"0.4125"		//effects of gravity on the projectile, only for projectiles
@@ -707,7 +641,6 @@ Vehicle_Weapons
 		"Cycle Time"		"2.0"		//time between shots (all weapons other than MGs have limits of 0.1 as lowest)
 		"Clip Size"		"30"		//ammo loaded per reloads
 		"Total Ammo Clips"	"0"		//max ammo clips carried (0 is the same as not using clips)
-		"Unlimited Ammo"	"0"
 		"Reload Time"		"0"		//time to load one clip
 		"Reload Amount"		"5" 	//number of projectiles gained per reload "tick" if not using clips
 		"Projectile Spread"	"1"		//only applicable to machine guns at the moment
@@ -716,14 +649,6 @@ Vehicle_Weapons
 		"Explosion Force"	"300"		//force of explosion
 		"Explosion Sprite"	"17"
 		"Muzzle Flash"		"muzzle_he_cn"
-
-			//only for missile launchers
-		"Dumb Missile"		"0"		//'1' if missile flies straight ahead
-		"Homing Missile"	"0"		//'1' if missile flies towards locked on target
-		"Guided Missile"	"0"		//'1' if missile follows crosshairs after launch
-		"Missile Range"		"0"		//max range in HL2 units (1 inch = 1) that the player can lock onto a target with a homing missile, or range from vehicle being fired from when a guided missile stops following the player's crosshairs
-		"Lock On Time"		"0"		//time it takes for a homing missile to lock onto the target under the player crosshairs
-		"Lock Range Modifier"	"0"		//modifies lock on time based on range (as range increases, lock on time increases based on the modifier: modifier * range to target + lock on time = total lock on time)
 
 		//explosion effects
 		"Explosion Speed"	"10"	//how fast the explosion sprite fades (15 is default fps)
@@ -745,7 +670,6 @@ Vehicle_Weapons
 		"Sound Reloading"	""
 
 		"Damage Type"		"Explosive"
-		"Ammo Type"		"0"		//for mguns only, 0 = nonarmor penetrating (no effect on armored vehicles), 1 = armor penetrating (hurts armored vehicles)
 		"Damage"		"77"		//damage done by projectile
 		"Speed"			"3000"		//speed of projectile
 		"Gravity"		"0.4"		//effects of gravity on the projectile, only for projectiles
@@ -754,7 +678,6 @@ Vehicle_Weapons
 		"Cycle Time"		"2.0"		//time between shots (all weapons other than MGs have limits of 0.1 as lowest)
 		"Clip Size"		"30"		//ammo loaded per reloads
 		"Total Ammo Clips"	"0"		//max ammo clips carried (0 is the same as not using clips)
-		"Unlimited Ammo"	"0"
 		"Reload Time"		"0"		//time to load one clip
 		"Reload Amount"		"5" 	//number of projectiles gained per reload "tick" if not using clips
 		"Projectile Spread"	"1"		//only applicable to machine guns at the moment
@@ -763,14 +686,6 @@ Vehicle_Weapons
 		"Explosion Force"	"600"		//force of explosion
 		"Explosion Sprite"	"17"
 		"Muzzle Flash"		"muzzle_he_cn"
-
-			//only for missile launchers
-		"Dumb Missile"		"0"		//'1' if missile flies straight ahead
-		"Homing Missile"	"0"		//'1' if missile flies towards locked on target
-		"Guided Missile"	"0"		//'1' if missile follows crosshairs after launch
-		"Missile Range"		"0"		//max range in HL2 units (1 inch = 1) that the player can lock onto a target with a homing missile, or range from vehicle being fired from when a guided missile stops following the player's crosshairs
-		"Lock On Time"		"0"		//time it takes for a homing missile to lock onto the target under the player crosshairs
-		"Lock Range Modifier"	"0"		//modifies lock on time based on range (as range increases, lock on time increases based on the modifier: modifier * range to target + lock on time = total lock on time)
 
 		//explosion effects
 		"Explosion Speed"	"10"	//how fast the explosion sprite fades (15 is default fps)
@@ -792,32 +707,22 @@ Vehicle_Weapons
 		"Sound Reloading"	""
 
 		"Damage Type"		"GeneralPhysics"
-		"Ammo Type"		"0"		//for mguns only, 0 = nonarmor penetrating (no effect on armored vehicles), 1 = armor penetrating (hurts armored vehicles)
 		"Damage"		"72"		//damage done by projectile
 		"Speed"			"3000"		//speed of projectile
-		"Gravity"		"0.4125"		//effects of gravity on the projectile, only for projectiles
+		"Gravity"		"0.4125"	//effects of gravity on the projectile, only for projectiles
 		"Heat"			"13.5"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status).
 		"Weight"		"70"		//weight in terms of effects on engine and weight restrictions for chassis
 		"Cycle Time"		"2"		//time between shots (all weapons other than MGs have limits of 0.1 as lowest)
 		"Clip Size"		"30"		//ammo loaded per reloads
 		"Total Ammo Clips"	"0"		//max ammo clips carried (0 is the same as not using clips)
-		"Unlimited Ammo"	"0"
 		"Reload Time"		"0"		//time to load one clip
-		"Reload Amount"		"5" 	//number of projectiles gained per reload "tick" if not using clips
+		"Reload Amount"		"5" 		//number of projectiles gained per reload "tick" if not using clips
 		"Projectile Spread"	"1"		//only applicable to machine guns at the moment
 		"Heat to Target"	"7"		//heat added to target on hit (a small amount of heat is also added to the target based on damage, this is defined within the armor script)
 		"Explosion Radius"	"240"		//radius of damage sphere to hurt surrounding entities
 		"Explosion Force"	"100"		//force of explosion
 		"Explosion Sprite"	"23"
 		"Muzzle Flash"		"muzzle_plasma_cn"
-
-			//only for missile launchers
-		"Dumb Missile"		"0"		//'1' if missile flies straight ahead
-		"Homing Missile"	"0"		//'1' if missile flies towards locked on target
-		"Guided Missile"	"0"		//'1' if missile follows crosshairs after launch
-		"Missile Range"		"0"		//max range in HL2 units (1 inch = 1) that the player can lock onto a target with a homing missile, or range from vehicle being fired from when a guided missile stops following the player's crosshairs
-		"Lock On Time"		"0"		//time it takes for a homing missile to lock onto the target under the player crosshairs
-		"Lock Range Modifier"	"0"		//modifies lock on time based on range (as range increases, lock on time increases based on the modifier: modifier * range to target + lock on time = total lock on time)
 
 		//explosion effects
 		"Explosion Speed"	"10"	//how fast the explosion sprite fades (15 is default fps)
@@ -839,7 +744,6 @@ Vehicle_Weapons
 		"Sound Reloading"	""
 
 		"Damage Type"		"GeneralPhysics"
-		"Ammo Type"		"0"		//for mguns only, 0 = nonarmor penetrating (no effect on armored vehicles), 1 = armor penetrating (hurts armored vehicles)
 		"Damage"		"84"		//damage done by projectile
 		"Speed"			"3100"		//speed of projectile
 		"Gravity"		"0.4"		//effects of gravity on the projectile, only for projectiles
@@ -848,23 +752,14 @@ Vehicle_Weapons
 		"Cycle Time"		"2"		//time between shots (all weapons other than MGs have limits of 0.1 as lowest)
 		"Clip Size"		"30"		//ammo loaded per reloads
 		"Total Ammo Clips"	"0"		//max ammo clips carried (0 is the same as not using clips)
-		"Unlimited Ammo"	"0"
 		"Reload Time"		"0"		//time to load one clip
-		"Reload Amount"		"5" 	//number of projectiles gained per reload "tick" if not using clips
+		"Reload Amount"		"5" 		//number of projectiles gained per reload "tick" if not using clips
 		"Projectile Spread"	"1"		//only applicable to machine guns at the moment
 		"Heat to Target"	"8"		//heat added to target on hit (a small amount of heat is also added to the target based on damage, this is defined within the armor script)
 		"Explosion Radius"	"270"		//radius of damage sphere to hurt surrounding entities
 		"Explosion Force"	"100"		//force of explosion
 		"Explosion Sprite"	"5"
 		"Muzzle Flash"		"muzzle_plasma_cn"
-
-			//only for missile launchers
-		"Dumb Missile"		"0"		//'1' if missile flies straight ahead
-		"Homing Missile"	"0"		//'1' if missile flies towards locked on target
-		"Guided Missile"	"0"		//'1' if missile follows crosshairs after launch
-		"Missile Range"		"0"		//max range in HL2 units (1 inch = 1) that the player can lock onto a target with a homing missile, or range from vehicle being fired from when a guided missile stops following the player's crosshairs
-		"Lock On Time"		"0"		//time it takes for a homing missile to lock onto the target under the player crosshairs
-		"Lock Range Modifier"	"0"		//modifies lock on time based on range (as range increases, lock on time increases based on the modifier: modifier * range to target + lock on time = total lock on time)
 
 		//explosion effects
 		"Explosion Speed"	"10"	//how fast the explosion sprite fades (15 is default fps)
@@ -886,7 +781,6 @@ Vehicle_Weapons
 		"Sound Reloading"	""
 
 		"Damage Type"		"Kinetic"
-		"Ammo Type"		"0"		//for mguns only, 0 = nonarmor penetrating (no effect on armored vehicles), 1 = armor penetrating (hurts armored vehicles)
 		"Damage"		"45"		//damage done by projectile
 		"Speed"			"3700"		//speed of projectile
 		"Gravity"		"0.32"		//effects of gravity on the projectile, only for projectiles
@@ -895,23 +789,14 @@ Vehicle_Weapons
 		"Cycle Time"		"1"		//time between shots (all weapons other than MGs have limits of 0.1 as lowest)
 		"Clip Size"		"50"		//ammo loaded per reloads
 		"Total Ammo Clips"	"0"		//max ammo clips carried (0 is the same as not using clips)
-		"Unlimited Ammo"	"0"
 		"Reload Time"		"0"		//time to load one clip
-		"Reload Amount"		"5" 	//number of projectiles gained per reload "tick" if not using clips
+		"Reload Amount"		"5" 		//number of projectiles gained per reload "tick" if not using clips
 		"Projectile Spread"	"0.1"		//only applicable to machine guns at the moment
 		"Heat to Target"	"0"		//heat added to target on hit (a small amount of heat is also added to the target based on damage, this is defined within the armor script)
 		"Explosion Radius"	"100"		//radius of damage sphere to hurt surrounding entities
 		"Explosion Force"	"50"		//force of explosion
 		"Explosion Sprite"	"6"
 		"Muzzle Flash"		"muzzle_rail_cn"
-
-			//only for missile launchers
-		"Dumb Missile"		"0"		//'1' if missile flies straight ahead
-		"Homing Missile"	"0"		//'1' if missile flies towards locked on target
-		"Guided Missile"	"0"		//'1' if missile follows crosshairs after launch
-		"Missile Range"		"0"		//max range in HL2 units (1 inch = 1) that the player can lock onto a target with a homing missile, or range from vehicle being fired from when a guided missile stops following the player's crosshairs
-		"Lock On Time"		"0"		//time it takes for a homing missile to lock onto the target under the player crosshairs
-		"Lock Range Modifier"	"0"		//modifies lock on time based on range (as range increases, lock on time increases based on the modifier: modifier * range to target + lock on time = total lock on time)
 	}
 	"Overcharged Railgun"
 	{
@@ -930,7 +815,6 @@ Vehicle_Weapons
 		"Sound Reloading"	""
 
 		"Damage Type"		"Kinetic"
-		"Ammo Type"		"0"		//for mguns only, 0 = nonarmor penetrating (no effect on armored vehicles), 1 = armor penetrating (hurts armored vehicles)
 		"Damage"		"53"		//damage done by projectile
 		"Speed"			"3800"		//speed of projectile
 		"Gravity"		"0.3"		//effects of gravity on the projectile, only for projectiles
@@ -939,23 +823,14 @@ Vehicle_Weapons
 		"Cycle Time"		"1"		//time between shots (all weapons other than MGs have limits of 0.1 as lowest)
 		"Clip Size"		"50"		//ammo loaded per reloads
 		"Total Ammo Clips"	"0"		//max ammo clips carried (0 is the same as not using clips)
-		"Unlimited Ammo"	"0"
 		"Reload Time"		"0"		//time to load one clip
-		"Reload Amount"		"5" 	//number of projectiles gained per reload "tick" if not using clips
+		"Reload Amount"		"5" 		//number of projectiles gained per reload "tick" if not using clips
 		"Projectile Spread"	"0.1"		//only applicable to machine guns at the moment
 		"Heat to Target"	"0"		//heat added to target on hit (a small amount of heat is also added to the target based on damage, this is defined within the armor script)
 		"Explosion Radius"	"100"		//radius of damage sphere to hurt surrounding entities
 		"Explosion Force"	"50"		//force of explosion
 		"Explosion Sprite"	"6"
 		"Muzzle Flash"		"muzzle_rail_cn"
-
-			//only for missile launchers
-		"Dumb Missile"		"0"		//'1' if missile flies straight ahead
-		"Homing Missile"	"0"		//'1' if missile flies towards locked on target
-		"Guided Missile"	"0"		//'1' if missile follows crosshairs after launch
-		"Missile Range"		"0"		//max range in HL2 units (1 inch = 1) that the player can lock onto a target with a homing missile, or range from vehicle being fired from when a guided missile stops following the player's crosshairs
-		"Lock On Time"		"0"		//time it takes for a homing missile to lock onto the target under the player crosshairs
-		"Lock Range Modifier"	"0"		//modifies lock on time based on range (as range increases, lock on time increases based on the modifier: modifier * range to target + lock on time = total lock on time)
 	}
 	"Biological Cannon"
 	{
@@ -974,7 +849,6 @@ Vehicle_Weapons
 		"Sound Reloading"	""
 
 		"Damage Type"		"BioArt"
-		"Ammo Type"		"0"		//for mguns only, 0 = nonarmor penetrating (no effect on armored vehicles), 1 = armor penetrating (hurts armored vehicles)
 		"Damage"		"65"		//damage done by projectile
 		"Speed"			"3000"		//speed of projectile
 		"Gravity"		"0.4"		//effects of gravity on the projectile, only for projectiles
@@ -983,26 +857,16 @@ Vehicle_Weapons
 		"Cycle Time"		"2.25"		//time between shots (all weapons other than MGs have limits of 0.1 as lowest)
 		"Clip Size"		"30"		//ammo loaded per reloads
 		"Total Ammo Clips"	"0"		//max ammo clips carried (0 is the same as not using clips)
-		"Unlimited Ammo"	"0"
 		"Reload Time"		"0"		//time to load one clip
-		"Reload Amount"		"5" 	//number of projectiles gained per reload "tick" if not using clips
+		"Reload Amount"		"5" 		//number of projectiles gained per reload "tick" if not using clips
 		"Projectile Spread"	"0.1"		//only applicable to machine guns at the moment
 		"Heat to Target"	"0"		//heat added to target on hit (a small amount of heat is also added to the target based on damage, this is defined within the armor script)
 		"Explosion Radius"	"250"		//radius of damage sphere to hurt surrounding entities
 		"Explosion Force"	"100"		//force of explosion
 		"Explosion Sprite"	"22"
 		"Muzzle Flash"		"muzzle_bio_ml"
-
-			//only for missile launchers
-		"Dumb Missile"		"0"		//'1' if missile flies straight ahead
-		"Homing Missile"	"0"		//'1' if missile flies towards locked on target
-		"Guided Missile"	"0"		//'1' if missile follows crosshairs after launch
-		"Missile Range"		"0"		//max range in HL2 units (1 inch = 1) that the player can lock onto a target with a homing missile, or range from vehicle being fired from when a guided missile stops following the player's crosshairs
-		"Lock On Time"		"0"		//time it takes for a homing missile to lock onto the target under the player crosshairs
-		"Lock Range Modifier"	"0"		//modifies lock on time based on range (as range increases, lock on time increases based on the modifier: modifier * range to target + lock on time = total lock on time)
-			
-		//for biological weapons: when a player or vehicle is hit, the damage (Damage) is inflicted every specified amount of seconds (Interval) over a total amount of time period (Time)
-		//all weapons can use these, explosions will infect all players and vehicles the explosion touches, not just the direct hit target
+	
+		//biological
 		"Player Bio Damage"	"3"	//damage inflicted to players every interval
 		"Player Bio Time"	"7"	//total time to inflict damage to players
 		"Player Bio Interval"	"1"	//time inbetween each infliction of damage to players
@@ -1027,7 +891,6 @@ Vehicle_Weapons
 		"Sound Reloading"	""
 
 		"Damage Type"		"BioArt"
-		"Ammo Type"		"0"		//for mguns only, 0 = nonarmor penetrating (no effect on armored vehicles), 1 = armor penetrating (hurts armored vehicles)
 		"Damage"		"70"		//damage done by projectile
 		"Speed"			"3000"		//speed of projectile
 		"Gravity"		"0.37"		//effects of gravity on the projectile, only for projectiles
@@ -1036,26 +899,16 @@ Vehicle_Weapons
 		"Cycle Time"		"2.25"		//time between shots (all weapons other than MGs have limits of 0.1 as lowest)
 		"Clip Size"		"30"		//ammo loaded per reloads
 		"Total Ammo Clips"	"0"		//max ammo clips carried (0 is the same as not using clips)
-		"Unlimited Ammo"	"0"
 		"Reload Time"		"0"		//time to load one clip
-		"Reload Amount"		"5" 	//number of projectiles gained per reload "tick" if not using clips
+		"Reload Amount"		"5" 		//number of projectiles gained per reload "tick" if not using clips
 		"Projectile Spread"	"0.1"		//only applicable to machine guns at the moment
 		"Heat to Target"	"0"		//heat added to target on hit (a small amount of heat is also added to the target based on damage, this is defined within the armor script)
 		"Explosion Radius"	"250"		//radius of damage sphere to hurt surrounding entities
 		"Explosion Force"	"170"		//force of explosion
 		"Explosion Sprite"	"22"
 		"Muzzle Flash"		"muzzle_bio_ml"
-
-			//only for missile launchers
-		"Dumb Missile"		"0"		//'1' if missile flies straight ahead
-		"Homing Missile"	"0"		//'1' if missile flies towards locked on target
-		"Guided Missile"	"0"		//'1' if missile follows crosshairs after launch
-		"Missile Range"		"0"		//max range in HL2 units (1 inch = 1) that the player can lock onto a target with a homing missile, or range from vehicle being fired from when a guided missile stops following the player's crosshairs
-		"Lock On Time"		"0"		//time it takes for a homing missile to lock onto the target under the player crosshairs
-		"Lock Range Modifier"	"0"		//modifies lock on time based on range (as range increases, lock on time increases based on the modifier: modifier * range to target + lock on time = total lock on time)
-			
-		//for biological weapons: when a player or vehicle is hit, the damage (Damage) is inflicted every specified amount of seconds (Interval) over a total amount of time period (Time)
-		//all weapons can use these, explosions will infect all players and vehicles the explosion touches, not just the direct hit target
+	
+		//biological
 		"Player Bio Damage"	"3"	//damage inflicted to players every interval
 		"Player Bio Time"	"7"	//total time to inflict damage to players
 		"Player Bio Interval"	"1"	//time inbetween each infliction of damage to players
@@ -1081,7 +934,6 @@ Vehicle_Weapons
 		"Sound Reloading"	"Vehicle_Weapon.Reload"
 
 		"Damage Type"		"ExplosiveArt"
-		"Ammo Type"		"0"		//for mguns only, 0 = nonarmor penetrating (no effect on armored vehicles), 1 = armor penetrating (hurts armored vehicles)
 		"Damage"		"265"		//damage done by projectile
 		"Speed"			"2000"		//speed of projectile
 		"Gravity"		"0.55"		//effects of gravity on the projectile, only for projectiles
@@ -1090,7 +942,6 @@ Vehicle_Weapons
 		"Cycle Time"		"2.5"		//time between shots
 		"Clip Size"		"10"		//ammo loaded per reloads
 		"Total Ammo Clips"	"4"		//max ammo clips carried (0 is the same as not using clips)
-		"Unlimited Ammo"	"0"
 		"Reload Time"		"4.5"		//time to load one clip
 		"Projectile Spread"	"0.001"		//only applicable to machine guns at the moment
 		"Heat to Target"	"0"		//heat added to target on hit (a small amount of heat is also added to the target based on damage, this is defined within the armor script)
@@ -1098,14 +949,6 @@ Vehicle_Weapons
 		"Explosion Force"	"6000"		//force of explosion
 		"Explosion Sprite"	"13"
 		"Muzzle Flash"		"muzzle_default_arty"
-
-			//only for missile launchers
-		"Dumb Missile"		"0"		//'1' if missile flies straight ahead
-		"Homing Missile"	"0"		//'1' if missile flies towards locked on target
-		"Guided Missile"	"0"		//'1' if missile follows crosshairs after launch
-		"Missile Range"		"0"		//max range in HL2 units (1 inch = 1) that the player can lock onto a target with a homing missile, or range from vehicle being fired from when a guided missile stops following the player's crosshairs
-		"Lock On Time"		"0"		//time it takes for a homing missile to lock onto the target under the player crosshairs
-		"Lock Range Modifier"	"0"		//modifies lock on time based on range (as range increases, lock on time increases based on the modifier: modifier * range to target + lock on time = total lock on time)
 	}
 	"203mm Artillery Cannon"
 	{
@@ -1124,7 +967,6 @@ Vehicle_Weapons
 		"Sound Reloading"	"Vehicle_Weapon.Reload"
 
 		"Damage Type"		"ExplosiveArt"
-		"Ammo Type"		"0"		//for mguns only, 0 = nonarmor penetrating (no effect on armored vehicles), 1 = armor penetrating (hurts armored vehicles)
 		"Damage"		"375"		//damage done by projectile
 		"Speed"			"1900"		//speed of projectile
 		"Gravity"		"0.57"		//effects of gravity on the projectile, only for projectiles
@@ -1133,7 +975,6 @@ Vehicle_Weapons
 		"Cycle Time"		"4.75"		//time between shots
 		"Clip Size"		"10"		//ammo loaded per reloads
 		"Total Ammo Clips"	"3"		//max ammo clips carried (0 is the same as not using clips)
-		"Unlimited Ammo"	"0"
 		"Reload Time"		"8.0"		//time to load one clip
 		"Projectile Spread"	"0.001"		//only applicable to machine guns at the moment
 		"Heat to Target"	"0"		//heat added to target on hit (a small amount of heat is also added to the target based on damage, this is defined within the armor script)
@@ -1141,14 +982,6 @@ Vehicle_Weapons
 		"Explosion Force"	"7500"		//force of explosion
 		"Explosion Sprite"	"13"
 		"Muzzle Flash"		"muzzle_default_arty"
-
-			//only for missile launchers
-		"Dumb Missile"		"0"		//'1' if missile flies straight ahead
-		"Homing Missile"	"0"		//'1' if missile flies towards locked on target
-		"Guided Missile"	"0"		//'1' if missile follows crosshairs after launch
-		"Missile Range"		"0"		//max range in HL2 units (1 inch = 1) that the player can lock onto a target with a homing missile, or range from vehicle being fired from when a guided missile stops following the player's crosshairs
-		"Lock On Time"		"0"		//time it takes for a homing missile to lock onto the target under the player crosshairs
-		"Lock Range Modifier"	"0"		//modifies lock on time based on range (as range increases, lock on time increases based on the modifier: modifier * range to target + lock on time = total lock on time)
 	}
 	"High Explosive Artillery"
 	{
@@ -1167,7 +1000,6 @@ Vehicle_Weapons
 		"Sound Reloading"	"Vehicle_Weapon.Reload"
 
 		"Damage Type"		"ExplosiveArt"
-		"Ammo Type"		"0"		//for mguns only, 0 = nonarmor penetrating (no effect on armored vehicles), 1 = armor penetrating (hurts armored vehicles)
 		"Damage"		"200"		//damage done by projectile
 		"Speed"			"1800"		//speed of projectile
 		"Gravity"		"0.4"		//effects of gravity on the projectile, only for projectiles
@@ -1176,7 +1008,6 @@ Vehicle_Weapons
 		"Cycle Time"		"3.5"		//time between shots
 		"Clip Size"		"10"		//ammo loaded per reloads
 		"Total Ammo Clips"	"3"		//max ammo clips carried (0 is the same as not using clips)
-		"Unlimited Ammo"	"0"
 		"Reload Time"		"7.0"		//time to load one clip
 		"Projectile Spread"	"0.001"		//only applicable to machine guns at the moment
 		"Heat to Target"	"0"		//heat added to target on hit (a small amount of heat is also added to the target based on damage, this is defined within the armor script)
@@ -1184,14 +1015,6 @@ Vehicle_Weapons
 		"Explosion Force"	"5000"		//force of explosion
 		"Explosion Sprite"	"13"
 		"Muzzle Flash"		"muzzle_he_arty"
-
-			//only for missile launchers
-		"Dumb Missile"		"0"		//'1' if missile flies straight ahead
-		"Homing Missile"	"0"		//'1' if missile flies towards locked on target
-		"Guided Missile"	"0"		//'1' if missile follows crosshairs after launch
-		"Missile Range"		"0"		//max range in HL2 units (1 inch = 1) that the player can lock onto a target with a homing missile, or range from vehicle being fired from when a guided missile stops following the player's crosshairs
-		"Lock On Time"		"0"		//time it takes for a homing missile to lock onto the target under the player crosshairs
-		"Lock Range Modifier"	"0"		//modifies lock on time based on range (as range increases, lock on time increases based on the modifier: modifier * range to target + lock on time = total lock on time)
 
 		//explosion effects
 		"Explosion Speed"	"10"	//how fast the explosion sprite fades (15 is default fps)
@@ -1213,7 +1036,6 @@ Vehicle_Weapons
 		"Sound Reloading"	"Vehicle_Weapon.Reload"
 
 		"Damage Type"		"KineticArt"
-		"Ammo Type"		"0"		//for mguns only, 0 = nonarmor penetrating (no effect on armored vehicles), 1 = armor penetrating (hurts armored vehicles)
 		"Damage"		"150"		//damage done by projectile
 		"Speed"			"2800"		//speed of projectile
 		"Gravity"		"0.6"		//effects of gravity on the projectile, only for projectiles
@@ -1222,7 +1044,6 @@ Vehicle_Weapons
 		"Cycle Time"		"2.5"		//time between shots
 		"Clip Size"		"10"		//ammo loaded per reloads
 		"Total Ammo Clips"	"3"		//max ammo clips carried (0 is the same as not using clips)
-		"Unlimited Ammo"	"0"
 		"Reload Time"		"8.0"		//time to load one clip
 		"Projectile Spread"	"0.001"		//only applicable to machine guns at the moment
 		"Heat to Target"	"0"		//heat added to target on hit (a small amount of heat is also added to the target based on damage, this is defined within the armor script)
@@ -1230,14 +1051,6 @@ Vehicle_Weapons
 		"Explosion Force"	"4500"		//force of explosion
 		"Explosion Sprite"	"13"
 		"Muzzle Flash"		"muzzle_lr_arty"
-
-			//only for missile launchers
-		"Dumb Missile"		"0"		//'1' if missile flies straight ahead
-		"Homing Missile"	"0"		//'1' if missile flies towards locked on target
-		"Guided Missile"	"0"		//'1' if missile follows crosshairs after launch
-		"Missile Range"		"0"		//max range in HL2 units (1 inch = 1) that the player can lock onto a target with a homing missile, or range from vehicle being fired from when a guided missile stops following the player's crosshairs
-		"Lock On Time"		"0"		//time it takes for a homing missile to lock onto the target under the player crosshairs
-		"Lock Range Modifier"	"0"		//modifies lock on time based on range (as range increases, lock on time increases based on the modifier: modifier * range to target + lock on time = total lock on time)
 	}
 	//MISSILES
 	"Standard ML"
@@ -1257,16 +1070,13 @@ Vehicle_Weapons
 		"Sound Reloading"	"Vehicle_stdml.Reload"
 
 		"Damage Type"		"Missile"
-		"Ammo Type"		"0"		//for mguns only, 0 = nonarmor penetrating (no effect on armored vehicles), 1 = armor penetrating (hurts armored vehicles)
 		"Damage"		"40"		//damage done by projectile
 		"Speed"			"2300"		//speed of projectile
-		"Gravity"		"0"		//effects of gravity on the projectile, only for projectiles
 		"Heat"			"6"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status).
 		"Weight"		"30"		//weight in terms of effects on engine and weight restrictions for chassis
 		"Cycle Time"		"1.2"		//time between shots
 		"Clip Size"		"4"		//ammo loaded per reloads
 		"Total Ammo Clips"	"6"		//max ammo clips carried (0 is the same as not using clips)
-		"Unlimited Ammo"	"0"
 		"Reload Time"		"3.0"		//time to load one clip
 		"Projectile Spread"	"1.5"		//only applicable to machine guns at the moment
 		"Heat to Target"	"0"		//heat added to target on hit (a small amount of heat is also added to the target based on damage, this is defined within the armor script)
@@ -1275,13 +1085,8 @@ Vehicle_Weapons
 		"Explosion Sprite"	"10"
 		"Muzzle Flash"		"muzzle_default_ml"
 
-			//only for missile launchers
+		//only for missile launchers
 		"Dumb Missile"		"1"		//'1' if missile flies straight ahead
-		"Homing Missile"	"0"		//'1' if missile flies towards locked on target
-		"Guided Missile"	"0"		//'1' if missile follows crosshairs after launch
-		"Missile Range"		"0"		//max range in HL2 units (1 inch = 1) that the player can lock onto a target with a homing missile, or range from vehicle being fired from when a guided missile stops following the player's crosshairs
-		"Lock On Time"		"0"		//time it takes for a homing missile to lock onto the target under the player crosshairs
-		"Lock Range Modifier"	"0"		//modifies lock on time based on range (as range increases, lock on time increases based on the modifier: modifier * range to target + lock on time = total lock on time)
 	}
 	"Upgraded ML"
 	{
@@ -1300,16 +1105,13 @@ Vehicle_Weapons
 		"Sound Reloading"	"Vehicle_uml.Reload"
 
 		"Damage Type"		"Missile"
-		"Ammo Type"		"0"		//for mguns only, 0 = nonarmor penetrating (no effect on armored vehicles), 1 = armor penetrating (hurts armored vehicles)
 		"Damage"		"62"		//damage done by projectile
 		"Speed"			"2800"		//speed of projectile
-		"Gravity"		"0"		//effects of gravity on the projectile, only for projectiles
 		"Heat"			"8"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status).
 		"Weight"		"70"		//weight in terms of effects on engine and weight restrictions for chassis
 		"Cycle Time"		"1.0"		//time between shots
 		"Clip Size"		"7"		//ammo loaded per reloads
 		"Total Ammo Clips"	"7"		//max ammo clips carried (0 is the same as not using clips)
-		"Unlimited Ammo"	"0"
 		"Reload Time"		"3.8"		//time to load one clip
 		"Projectile Spread"	"0.5"		//only applicable to machine guns at the moment
 		"Heat to Target"	"0"		//heat added to target on hit (a small amount of heat is also added to the target based on damage, this is defined within the armor script)
@@ -1318,22 +1120,8 @@ Vehicle_Weapons
 		"Explosion Sprite"	"8"
 		"Muzzle Flash"		"muzzle_default_ml"
 
-			//only for missile launchers
+		//only for missile launchers
 		"Dumb Missile"		"1"		//'1' if missile flies straight ahead
-		"Homing Missile"	"0"		//'1' if missile flies towards locked on target
-		"Guided Missile"	"0"		//'1' if missile follows crosshairs after launch
-		"Missile Range"		"0"		//max range in HL2 units (1 inch = 1) that the player can lock onto a target with a homing missile, or range from vehicle being fired from when a guided missile stops following the player's crosshairs
-		"Lock On Time"		"0"		//time it takes for a homing missile to lock onto the target under the player crosshairs
-		"Lock Range Modifier"	"0"		//modifies lock on time based on range (as range increases, lock on time increases based on the modifier: modifier * range to target + lock on time = total lock on time)
-
-		//for biological weapons: when a player or vehicle is hit, the damage (Damage) is inflicted every specified amount of seconds (Interval) over a total amount of time period (Time)
-		//all weapons can use these, explosions will infect all players and vehicles the explosion touches, not just the direct hit target
-		"Player Bio Damage"	"0"	//damage inflicted to players every interval
-		"Player Bio Time"	"0"	//total time to inflict damage to players
-		"Player Bio Interval"	"0"	//time inbetween each infliction of damage to players
-		"Vehicle Bio Damage"	"0"	//damage inflicted to vehicles every interval
-		"Vehicle Bio Time"	"0"	//total time to inflict damage to vehicles
-		"Vehicle Bio Interval"	"0"	//time inbetween each infliction of damage to vehicles
 	}
 	"Heavy-duty ML"
 	{
@@ -1352,16 +1140,13 @@ Vehicle_Weapons
 		"Sound Reloading"	"Vehicle_uml.Reload"
 
 		"Damage Type"		"Missile"
-		"Ammo Type"		"0"		//for mguns only, 0 = nonarmor penetrating (no effect on armored vehicles), 1 = armor penetrating (hurts armored vehicles)
 		"Damage"		"68"		//damage done by projectile
 		"Speed"			"3000"		//speed of projectile
-		"Gravity"		"0"		//effects of gravity on the projectile, only for projectiles
 		"Heat"			"8.5"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status).
 		"Weight"		"80"		//weight in terms of effects on engine and weight restrictions for chassis
 		"Cycle Time"		"1.05"		//time between shots
 		"Clip Size"		"7"		//ammo loaded per reloads
 		"Total Ammo Clips"	"7"		//max ammo clips carried (0 is the same as not using clips)
-		"Unlimited Ammo"	"0"
 		"Reload Time"		"4"		//time to load one clip
 		"Projectile Spread"	"0.35"		//only applicable to machine guns at the moment
 		"Heat to Target"	"0"		//heat added to target on hit (a small amount of heat is also added to the target based on damage, this is defined within the armor script)
@@ -1372,20 +1157,6 @@ Vehicle_Weapons
 
 			//only for missile launchers
 		"Dumb Missile"		"1"		//'1' if missile flies straight ahead
-		"Homing Missile"	"0"		//'1' if missile flies towards locked on target
-		"Guided Missile"	"0"		//'1' if missile follows crosshairs after launch
-		"Missile Range"		"0"		//max range in HL2 units (1 inch = 1) that the player can lock onto a target with a homing missile, or range from vehicle being fired from when a guided missile stops following the player's crosshairs
-		"Lock On Time"		"0"		//time it takes for a homing missile to lock onto the target under the player crosshairs
-		"Lock Range Modifier"	"0"		//modifies lock on time based on range (as range increases, lock on time increases based on the modifier: modifier * range to target + lock on time = total lock on time)
-
-		//for biological weapons: when a player or vehicle is hit, the damage (Damage) is inflicted every specified amount of seconds (Interval) over a total amount of time period (Time)
-		//all weapons can use these, explosions will infect all players and vehicles the explosion touches, not just the direct hit target
-		"Player Bio Damage"	"0"	//damage inflicted to players every interval
-		"Player Bio Time"	"0"	//total time to inflict damage to players
-		"Player Bio Interval"	"0"	//time inbetween each infliction of damage to players
-		"Vehicle Bio Damage"	"0"	//damage inflicted to vehicles every interval
-		"Vehicle Bio Time"	"0"	//total time to inflict damage to vehicles
-		"Vehicle Bio Interval"	"0"	//time inbetween each infliction of damage to vehicles
 	}
 	"Biological Warhead"
 	{
@@ -1404,16 +1175,13 @@ Vehicle_Weapons
 		"Sound Reloading"	"Vehicle_bioml.Reload"
 
 		"Damage Type"		"Missile"
-		"Ammo Type"		"0"		//for mguns only, 0 = nonarmor penetrating (no effect on armored vehicles), 1 = armor penetrating (hurts armored vehicles)
 		"Damage"		"50"		//damage done by projectile
 		"Speed"			"2400"		//speed of projectile
-		"Gravity"		"0"		//effects of gravity on the projectile, only for projectiles
 		"Heat"			"6"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status).
 		"Weight"		"70"		//weight in terms of effects on engine and weight restrictions for chassis
 		"Cycle Time"		"3.0"		//time between shots
 		"Clip Size"		"5"		//ammo loaded per reloads
 		"Total Ammo Clips"	"3"		//max ammo clips carried (0 is the same as not using clips)
-		"Unlimited Ammo"	"0"
 		"Reload Time"		"6.0"		//time to load one clip
 		"Projectile Spread"	"0.5"		//only applicable to machine guns at the moment
 		"Heat to Target"	"0"		//heat added to target on hit (a small amount of heat is also added to the target based on damage, this is defined within the armor script)
@@ -1422,25 +1190,19 @@ Vehicle_Weapons
 		"Explosion Sprite"	"3"
 		"Muzzle Flash"		"muzzle_bio_ml"
 
-			//only for missile launchers
+		//only for missile launchers
 		"Dumb Missile"		"1"		//'1' if missile flies straight ahead
-		"Homing Missile"	"0"		//'1' if missile flies towards locked on target
-		"Guided Missile"	"0"		//'1' if missile follows crosshairs after launch
-		"Missile Range"		"0"		//max range in HL2 units (1 inch = 1) that the player can lock onto a target with a homing missile, or range from vehicle being fired from when a guided missile stops following the player's crosshairs
-		"Lock On Time"		"0"		//time it takes for a homing missile to lock onto the target under the player crosshairs
-		"Lock Range Modifier"	"0"		//modifies lock on time based on range (as range increases, lock on time increases based on the modifier: modifier * range to target + lock on time = total lock on time)
 
-		//for biological weapons: when a player or vehicle is hit, the damage (Damage) is inflicted every specified amount of seconds (Interval) over a total amount of time period (Time)
-		//all weapons can use these, explosions will infect all players and vehicles the explosion touches, not just the direct hit target
-		"Player Bio Damage"	"5"	//damage inflicted to players every interval
-		"Player Bio Time"	"10"	//total time to inflict damage to players
-		"Player Bio Interval"	"1"	//time inbetween each infliction of damage to players
-		"Vehicle Bio Damage"	"7"	//damage inflicted to vehicles every interval
-		"Vehicle Bio Time"	"10"	//total time to inflict damage to vehicles
-		"Vehicle Bio Interval"	"0.5"	//time inbetween each infliction of damage to vehicles
+		//biological
+		"Player Bio Damage"	"5"		//damage inflicted to players every interval
+		"Player Bio Time"	"10"		//total time to inflict damage to players
+		"Player Bio Interval"	"1"		//time inbetween each infliction of damage to players
+		"Vehicle Bio Damage"	"7"		//damage inflicted to vehicles every interval
+		"Vehicle Bio Time"	"10"		//total time to inflict damage to vehicles
+		"Vehicle Bio Interval"	"0.5"		//time inbetween each infliction of damage to vehicles
 
 		//explosion effects
-		"Explosion Speed"	"10"	//how fast the explosion sprite fades (15 is default fps)
+		"Explosion Speed"	"10"		//how fast the explosion sprite fades (15 is default fps)
 	}
 	"Virulent Warhead"
 	{
@@ -1459,16 +1221,13 @@ Vehicle_Weapons
 		"Sound Reloading"	"Vehicle_bioml.Reload"
 
 		"Damage Type"		"Missile"
-		"Ammo Type"		"0"		//for mguns only, 0 = nonarmor penetrating (no effect on armored vehicles), 1 = armor penetrating (hurts armored vehicles)
 		"Damage"		"53"		//damage done by projectile
 		"Speed"			"2500"		//speed of projectile
-		"Gravity"		"0"		//effects of gravity on the projectile, only for projectiles
 		"Heat"			"8"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status).
 		"Weight"		"80"		//weight in terms of effects on engine and weight restrictions for chassis
 		"Cycle Time"		"3.0"		//time between shots
 		"Clip Size"		"4"		//ammo loaded per reloads
 		"Total Ammo Clips"	"4"		//max ammo clips carried (0 is the same as not using clips)
-		"Unlimited Ammo"	"0"
 		"Reload Time"		"6.0"		//time to load one clip
 		"Projectile Spread"	"0.5"		//only applicable to machine guns at the moment
 		"Heat to Target"	"0"		//heat added to target on hit (a small amount of heat is also added to the target based on damage, this is defined within the armor script)
@@ -1477,25 +1236,19 @@ Vehicle_Weapons
 		"Explosion Sprite"	"3"
 		"Muzzle Flash"		"muzzle_bio_ml"
 
-			//only for missile launchers
+		//only for missile launchers
 		"Dumb Missile"		"1"		//'1' if missile flies straight ahead
-		"Homing Missile"	"0"		//'1' if missile flies towards locked on target
-		"Guided Missile"	"0"		//'1' if missile follows crosshairs after launch
-		"Missile Range"		"0"		//max range in HL2 units (1 inch = 1) that the player can lock onto a target with a homing missile, or range from vehicle being fired from when a guided missile stops following the player's crosshairs
-		"Lock On Time"		"0"		//time it takes for a homing missile to lock onto the target under the player crosshairs
-		"Lock Range Modifier"	"0"		//modifies lock on time based on range (as range increases, lock on time increases based on the modifier: modifier * range to target + lock on time = total lock on time)
 
-		//for biological weapons: when a player or vehicle is hit, the damage (Damage) is inflicted every specified amount of seconds (Interval) over a total amount of time period (Time)
-		//all weapons can use these, explosions will infect all players and vehicles the explosion touches, not just the direct hit target
-		"Player Bio Damage"	"5"	//damage inflicted to players every interval
-		"Player Bio Time"	"10"	//total time to inflict damage to players
-		"Player Bio Interval"	"1"	//time inbetween each infliction of damage to players
-		"Vehicle Bio Damage"	"8"	//damage inflicted to vehicles every interval
-		"Vehicle Bio Time"	"10"	//total time to inflict damage to vehicles
-		"Vehicle Bio Interval"	"0.5"	//time inbetween each infliction of damage to vehicles
+		//biological
+		"Player Bio Damage"	"5"		//damage inflicted to players every interval
+		"Player Bio Time"	"10"		//total time to inflict damage to players
+		"Player Bio Interval"	"1"		//time inbetween each infliction of damage to players
+		"Vehicle Bio Damage"	"8"		//damage inflicted to vehicles every interval
+		"Vehicle Bio Time"	"10"		//total time to inflict damage to vehicles
+		"Vehicle Bio Interval"	"0.5"		//time inbetween each infliction of damage to vehicles
 
 		//explosion effects
-		"Explosion Speed"	"10"	//how fast the explosion sprite fades (15 is default fps)
+		"Explosion Speed"	"10"		//how fast the explosion sprite fades (15 is default fps)
 	}
 	"Nuclear Missile"
 	{
@@ -1514,16 +1267,13 @@ Vehicle_Weapons
 		"Sound Reloading"	"Vehicle_Weapon.Reload"
 
 		"Damage Type"		"MissileExplosive"
-		"Ammo Type"		"0"		//for mguns only, 0 = nonarmor penetrating (no effect on armored vehicles), 1 = armor penetrating (hurts armored vehicles)
 		"Damage"		"300"		//damage done by projectile
 		"Speed"			"1100"		//speed of projectile
-		"Gravity"		"0"		//effects of gravity on the projectile, only for projectiles
 		"Heat"			"75"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status).
 		"Weight"		"150"		//weight in terms of effects on engine and weight restrictions for chassis
 		"Cycle Time"		"10.0"		//time between shots
 		"Clip Size"		"10"		//ammo loaded per reloads
 		"Total Ammo Clips"	"0"		//max ammo clips carried (0 is the same as not using clips)
-		"Unlimited Ammo"	"0"
 		"Reload Time"		"0"		//time to load one clip
 		"Reload Amount"		"2"
 		"Projectile Spread"	"1.25"		//only applicable to machine guns at the moment
@@ -1533,13 +1283,8 @@ Vehicle_Weapons
 		"Explosion Sprite"	"11"
 		"Muzzle Flash"		"muzzle_nuke_ml"
 
-			//only for missile launchers
+		//only for missile launchers
 		"Dumb Missile"		"1"		//'1' if missile flies straight ahead
-		"Homing Missile"	"0"		//'1' if missile flies towards locked on target
-		"Guided Missile"	"0"		//'1' if missile follows crosshairs after launch
-		"Missile Range"		"0"		//max range in HL2 units (1 inch = 1) that the player can lock onto a target with a homing missile, or range from vehicle being fired from when a guided missile stops following the player's crosshairs
-		"Lock On Time"		"0"		//time it takes for a homing missile to lock onto the target under the player crosshairs
-		"Lock Range Modifier"	"0"		//modifies lock on time based on range (as range increases, lock on time increases based on the modifier: modifier * range to target + lock on time = total lock on time)
 
 		//explosion effects
 		"Explosion Speed"	"2"	//how fast the explosion sprite fades (15 is default fps)
@@ -1579,13 +1324,8 @@ Vehicle_Weapons
 		"Explosion Sprite"	"14"
 		"Muzzle Flash"		"muzzle_salvo_ml"
 
-			//only for missile launchers
+		//only for missile launchers
 		"Dumb Missile"		"1"		//'1' if missile flies straight ahead
-		"Homing Missile"	"0"		//'1' if missile flies towards locked on target
-		"Guided Missile"	"0"		//'1' if missile follows crosshairs after launch
-		"Missile Range"		"0"		//max range in HL2 units (1 inch = 1) that the player can lock onto a target with a homing missile, or range from vehicle being fired from when a guided missile stops following the player's crosshairs
-		"Lock On Time"		"0"		//time it takes for a homing missile to lock onto the target under the player crosshairs
-		"Lock Range Modifier"	"0"		//modifies lock on time based on range (as range increases, lock on time increases based on the modifier: modifier * range to target + lock on time = total lock on time)
 	}
 	"Advanced Salvo ML"
 	{
@@ -1604,16 +1344,13 @@ Vehicle_Weapons
 		"Sound Reloading"	"Vehicle_uml.Reload"
 
 		"Damage Type"		"Missile"
-		"Ammo Type"		"0"		//for mguns only, 0 = nonarmor penetrating (no effect on armored vehicles), 1 = armor penetrating (hurts armored vehicles)
 		"Damage"		"34"		//damage done by projectile
 		"Speed"			"2200"		//speed of projectile
-		"Gravity"		"0"		//effects of gravity on the projectile, only for projectiles
 		"Heat"			"3.75"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status).
 		"Weight"		"80"		//weight in terms of effects on engine and weight restrictions for chassis
 		"Cycle Time"		"-0.13"		//time between shots; a negative number unloads the whole clip in rapid succession with one press of the fire button but still uses the rest of the number to still determine time between actual shot creation
 		"Clip Size"		"6"		//ammo loaded per reloads
 		"Total Ammo Clips"	"10"		//max ammo clips carried (0 is the same as not using clips)
-		"Unlimited Ammo"	"0"
 		"Reload Time"		"2.85"		//time to load one clip
 		"Projectile Spread"	"1.75"		//only applicable to machine guns at the moment
 		"Heat to Target"	"0"		//heat added to target on hit (a small amount of heat is also added to the target based on damage, this is defined within the armor script)
@@ -1622,13 +1359,8 @@ Vehicle_Weapons
 		"Explosion Sprite"	"14"
 		"Muzzle Flash"		"muzzle_salvo_ml"
 
-			//only for missile launchers
+		//only for missile launchers
 		"Dumb Missile"		"1"		//'1' if missile flies straight ahead
-		"Homing Missile"	"0"		//'1' if missile flies towards locked on target
-		"Guided Missile"	"0"		//'1' if missile follows crosshairs after launch
-		"Missile Range"		"0"		//max range in HL2 units (1 inch = 1) that the player can lock onto a target with a homing missile, or range from vehicle being fired from when a guided missile stops following the player's crosshairs
-		"Lock On Time"		"0"		//time it takes for a homing missile to lock onto the target under the player crosshairs
-		"Lock Range Modifier"	"0"		//modifies lock on time based on range (as range increases, lock on time increases based on the modifier: modifier * range to target + lock on time = total lock on time)
 	}
 	"Guided ML"
 	{
@@ -1647,16 +1379,13 @@ Vehicle_Weapons
 		"Sound Reloading"	"Vehicle_guided.Reload"
 
 		"Damage Type"		"Missile"
-		"Ammo Type"		"0"		//for mguns only, 0 = nonarmor penetrating (no effect on armored vehicles), 1 = armor penetrating (hurts armored vehicles)
 		"Damage"		"66"		//damage done by projectile
 		"Speed"			"2000"		//speed of projectile
-		"Gravity"		"0"		//effects of gravity on the projectile, only for projectiles
 		"Heat"			"7.5"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status).
 		"Weight"		"70"		//weight in terms of effects on engine and weight restrictions for chassis
 		"Cycle Time"		"1.25"		//time between shots
 		"Clip Size"		"4"		//ammo loaded per reloads
-		"Total Ammo Clips"	"6"		//max ammo clips carried (0 is the same as not using clips)
-		"Unlimited Ammo"	"0"
+		"Total Ammo Clips"	"8"		//max ammo clips carried (0 is the same as not using clips)
 		"Reload Time"		"5"		//time to load one clip
 		"Projectile Spread"	"1"		//only applicable to machine guns at the moment
 		"Heat to Target"	"0"		//heat added to target on hit (a small amount of heat is also added to the target based on damage, this is defined within the armor script)
@@ -1665,13 +1394,9 @@ Vehicle_Weapons
 		"Explosion Sprite"	"19"
 		"Muzzle Flash"		"muzzle_default_ml"
 
-			//only for missile launchers
-		"Dumb Missile"		"0"		//'1' if missile flies straight ahead
-		"Homing Missile"	"0"		//'1' if missile flies towards locked on target
+		//only for missile launchers
 		"Guided Missile"	"1"		//'1' if missile follows crosshairs after launch
 		"Missile Range"		"5500"		//max range in HL2 units (1 inch = 1) that the player can lock onto a target with a homing missile, or range from vehicle being fired from when a guided missile stops following the player's crosshairs
-		"Lock On Time"		"0"		//time it takes for a homing missile to lock onto the target under the player crosshairs
-		"Lock Range Modifier"	"0"		//modifies lock on time based on range (as range increases, lock on time increases based on the modifier: modifier * range to target + lock on time = total lock on time)
 		"Turning Ability"	"1.8"		//determines how effective the missile can turn to home in on its target or guide itself to the crosshair for a guided missile; 1.0 means the missile can turn instantly towards its target, 0.0 and the missile doesn't turn at all
 	}
 	"TOW Guided ML"
@@ -1691,16 +1416,13 @@ Vehicle_Weapons
 		"Sound Reloading"	"Vehicle_guided.Reload"
 
 		"Damage Type"		"Missile"
-		"Ammo Type"		"0"		//for mguns only, 0 = nonarmor penetrating (no effect on armored vehicles), 1 = armor penetrating (hurts armored vehicles)
 		"Damage"		"70"		//damage done by projectile
 		"Speed"			"2100"		//speed of projectile
-		"Gravity"		"0"		//effects of gravity on the projectile, only for projectiles
 		"Heat"			"8.5"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status).
 		"Weight"		"80"		//weight in terms of effects on engine and weight restrictions for chassis
 		"Cycle Time"		"1.3"		//time between shots
 		"Clip Size"		"5"		//ammo loaded per reloads
-		"Total Ammo Clips"	"6"		//max ammo clips carried (0 is the same as not using clips)
-		"Unlimited Ammo"	"0"
+		"Total Ammo Clips"	"8"		//max ammo clips carried (0 is the same as not using clips)
 		"Reload Time"		"5.5"		//time to load one clip
 		"Projectile Spread"	"1"		//only applicable to machine guns at the moment
 		"Heat to Target"	"0"		//heat added to target on hit (a small amount of heat is also added to the target based on damage, this is defined within the armor script)
@@ -1709,13 +1431,9 @@ Vehicle_Weapons
 		"Explosion Sprite"	"19"
 		"Muzzle Flash"		"muzzle_default_ml"
 
-			//only for missile launchers
-		"Dumb Missile"		"0"		//'1' if missile flies straight ahead
-		"Homing Missile"	"0"		//'1' if missile flies towards locked on target
+		//only for missile launchers
 		"Guided Missile"	"1"		//'1' if missile follows crosshairs after launch
 		"Missile Range"		"6500"		//max range in HL2 units (1 inch = 1) that the player can lock onto a target with a homing missile, or range from vehicle being fired from when a guided missile stops following the player's crosshairs
-		"Lock On Time"		"0"		//time it takes for a homing missile to lock onto the target under the player crosshairs
-		"Lock Range Modifier"	"0"		//modifies lock on time based on range (as range increases, lock on time increases based on the modifier: modifier * range to target + lock on time = total lock on time)
 		"Turning Ability"	"1.85"		//determines how effective the missile can turn to home in on its target or guide itself to the crosshair for a guided missile; 1.0 means the missile can turn instantly towards its target, 0.0 and the missile doesn't turn at all
 	}
 	"Homing Missile Launcher"
@@ -1735,16 +1453,13 @@ Vehicle_Weapons
 		"Sound Reloading"	"Vehicle_homing.Reload"
 
 		"Damage Type"		"Missile"
-		"Ammo Type"		"0"		//for mguns only, 0 = nonarmor penetrating (no effect on armored vehicles), 1 = armor penetrating (hurts armored vehicles)
 		"Damage"		"52"		//damage done by projectile
 		"Speed"			"2500"		//speed of projectile
-		"Gravity"		"0"		//effects of gravity on the projectile, only for projectiles
 		"Heat"			"10"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status).
 		"Weight"		"70"		//weight in terms of effects on engine and weight restrictions for chassis
 		"Cycle Time"		"1.1"		//time between shots
 		"Clip Size"		"7"		//ammo loaded per reloads
 		"Total Ammo Clips"	"6"		//max ammo clips carried (0 is the same as not using clips)
-		"Unlimited Ammo"	"0"
 		"Reload Time"		"5.0"		//time to load one clip
 		"Projectile Spread"	"1"		//only applicable to machine guns at the moment
 		"Heat to Target"	"0"		//heat added to target on hit (a small amount of heat is also added to the target based on damage, this is defined within the armor script)
@@ -1753,16 +1468,13 @@ Vehicle_Weapons
 		"Explosion Sprite"	"18"
 		"Muzzle Flash"		"muzzle_default_ml"
 
-			//only for missile launchers
-		"Dumb Missile"		"0"		//'1' if missile flies straight ahead
+		//only for missile launchers
 		"Homing Missile"	"1"		//'1' if missile flies towards locked on target
-		"Guided Missile"	"0"		//'1' if missile follows crosshairs after launch
 		"Missile Range"		"5000"		//max range in HL2 units (1 inch = 1) that the player can lock onto a target with a homing missile, or range from vehicle being fired from when a guided missile stops following the player's crosshairs
 		"Lock On Time"		"0.4"		//time it takes for a homing missile to lock onto the target under the player crosshairs
 		"Lock On Radius"	"0.4"		//this is an approximation that determines how close a target must be to your crosshair (screen position) before it can begin locking onto (ie a bigger number means that the crosshair doesn't need to be directly over or as close to the target); it defines a box around the crosshair, and a target must be within this box to be homed on and its size decreases with range
-		"Lock Range Modifier"	"0.000300"		//modifies lock on time based on range (as range increases, lock on time increases based on the modifier: modifier * range to target + lock on time = total lock on time)
-		"Countermeasure Effectiveness"	"0.5"		//a percentage (1 = 100%) which determines how likely the missile will lock onto a flare or chaff rather than the actual target when countermeasures are inbetween it and its target. When a flare or chaff is detected in front of the missile, a number between 0.000 and 1.000 is generated.  If the number is less than the effectiveness number, the missile will target the flare/chaff.
-		"Turning Ability"		"3.0"		//determines how effective the missile can turn to home in on its target or guide itself to the crosshair for a guided missile; 1.0 means the missile can turn instantly towards its target, 0.0 and the missile doesn't turn at all
+		"Lock Range Modifier"	"0.000300"	//modifies lock on time based on range (as range increases, lock on time increases based on the modifier: modifier * range to target + lock on time = total lock on time)
+		"Turning Ability"	"3.0"		//determines how effective the missile can turn to home in on its target or guide itself to the crosshair for a guided missile; 1.0 means the missile can turn instantly towards its target, 0.0 and the missile doesn't turn at all
 	}
 	"Improved Homing ML"
 	{					
@@ -1781,16 +1493,13 @@ Vehicle_Weapons
 		"Sound Reloading"	"Vehicle_homing.Reload"
 
 		"Damage Type"		"Missile"
-		"Ammo Type"		"0"		//for mguns only, 0 = nonarmor penetrating (no effect on armored vehicles), 1 = armor penetrating (hurts armored vehicles)
 		"Damage"		"55"		//damage done by projectile
 		"Speed"			"2500"		//speed of projectile
-		"Gravity"		"0"		//effects of gravity on the projectile, only for projectiles
 		"Heat"			"10"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status).
 		"Weight"		"80"		//weight in terms of effects on engine and weight restrictions for chassis
 		"Cycle Time"		"1.1"		//time between shots
 		"Clip Size"		"7"		//ammo loaded per reloads
 		"Total Ammo Clips"	"6"		//max ammo clips carried (0 is the same as not using clips)
-		"Unlimited Ammo"	"0"
 		"Reload Time"		"5.0"		//time to load one clip
 		"Projectile Spread"	"1"		//only applicable to machine guns at the moment
 		"Heat to Target"	"0"		//heat added to target on hit (a small amount of heat is also added to the target based on damage, this is defined within the armor script)
@@ -1799,16 +1508,13 @@ Vehicle_Weapons
 		"Explosion Sprite"	"18"
 		"Muzzle Flash"		"muzzle_default_ml"
 
-			//only for missile launchers
-		"Dumb Missile"		"0"		//'1' if missile flies straight ahead
+		//only for missile launchers
 		"Homing Missile"	"1"		//'1' if missile flies towards locked on target
-		"Guided Missile"	"0"		//'1' if missile follows crosshairs after launch
 		"Missile Range"		"6000"		//max range in HL2 units (1 inch = 1) that the player can lock onto a target with a homing missile, or range from vehicle being fired from when a guided missile stops following the player's crosshairs
 		"Lock On Time"		"0.3"		//time it takes for a homing missile to lock onto the target under the player crosshairs
 		"Lock On Radius"	"0.42"		//this is an approximation that determines how close a target must be to your crosshair (screen position) before it can begin locking onto (ie a bigger number means that the crosshair doesn't need to be directly over or as close to the target); it defines a box around the crosshair, and a target must be within this box to be homed on and its size decreases with range
-		"Lock Range Modifier"	"0.000290"		//modifies lock on time based on range (as range increases, lock on time increases based on the modifier: modifier * range to target + lock on time = total lock on time)
-		"Countermeasure Effectiveness"	"0.5"		//a percentage (1 = 100%) which determines how likely the missile will lock onto a flare or chaff rather than the actual target when countermeasures are inbetween it and its target. When a flare or chaff is detected in front of the missile, a number between 0.000 and 1.000 is generated.  If the number is less than the effectiveness number, the missile will target the flare/chaff.
-		"Turning Ability"		"3.15"		//determines how effective the missile can turn to home in on its target or guide itself to the crosshair for a guided missile; 1.0 means the missile can turn instantly towards its target, 0.0 and the missile doesn't turn at all
+		"Lock Range Modifier"	"0.000290"	//modifies lock on time based on range (as range increases, lock on time increases based on the modifier: modifier * range to target + lock on time = total lock on time)
+		"Turning Ability"	"3.15"		//determines how effective the missile can turn to home in on its target or guide itself to the crosshair for a guided missile; 1.0 means the missile can turn instantly towards its target, 0.0 and the missile doesn't turn at all
 	}
 	"Salvo Homing ML"
 	{
@@ -1827,16 +1533,13 @@ Vehicle_Weapons
 		"Sound Reloading"	"Vehicle_homing.Reload"
 
 		"Damage Type"		"Missile"
-		"Ammo Type"		"0"		//for mguns only, 0 = nonarmor penetrating (no effect on armored vehicles), 1 = armor penetrating (hurts armored vehicles)
 		"Damage"		"40"		//damage done by projectile
 		"Speed"			"2300"		//speed of projectile
-		"Gravity"		"0"		//effects of gravity on the projectile, only for projectiles
 		"Heat"			"4"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status).
 		"Weight"		"100"		//weight in terms of effects on engine and weight restrictions for chassis
 		"Cycle Time"		"-0.14"		//time between shots
 		"Clip Size"		"4"		//ammo loaded per reloads
 		"Total Ammo Clips"	"8"		//max ammo clips carried (0 is the same as not using clips)
-		"Unlimited Ammo"	"0"
 		"Reload Time"		"3.75"		//time to load one clip
 		"Projectile Spread"	"1"		//only applicable to machine guns at the moment
 		"Heat to Target"	"0"		//heat added to target on hit (a small amount of heat is also added to the target based on damage, this is defined within the armor script)
@@ -1845,17 +1548,15 @@ Vehicle_Weapons
 		"Explosion Sprite"	"14"
 		"Muzzle Flash"		"muzzle_salvo_ml"
 
-			//only for missile launchers
-		"Dumb Missile"		"0"		//'1' if missile flies straight ahead
+		//only for missile launchers
 		"Homing Missile"	"1"		//'1' if missile flies towards locked on target
-		"Guided Missile"	"0"		//'1' if missile follows crosshairs after launch
 		"Missile Range"		"5000"		//max range in HL2 units (1 inch = 1) that the player can lock onto a target with a homing missile, or range from vehicle being fired from when a guided missile stops following the player's crosshairs
 		"Lock On Time"		"0.6"		//time it takes for a homing missile to lock onto the target under the player crosshairs
 		"Lock On Radius"	"0.35"		//this is an approximation that determines how close a target must be to your crosshair (screen position) before it can begin locking onto (ie a bigger number means that the crosshair doesn't need to be directly over or as close to the target); it defines a box around the crosshair, and a target must be within this box to be homed on and its size decreases with range
-		"Lock Range Modifier"	"0.000400"		//modifies lock on time based on range (as range increases, lock on time increases based on the modifier: modifier * range to target + lock on time = total lock on time)
-		"Countermeasure Effectiveness"	"0.9"		//a percentage (1 = 100%) which determines how likely the missile will lock onto a flare or chaff rather than the actual target when flares or chaff is inbetween it and its target. When a flare or chaff is detected in front of the missile, a number between 0.000 and 1.000 is generated.  If the number is less than the effectiveness number, the missile will target the flare/chaff.
-		"Turning Ability"		"3.0"		//determines how effective the missile can turn to home in on its target or guide itself to the crosshair for a guided missile; 1.0 means the missile can turn instantly towards its target, 0.0 and the missile doesn't turn at all
+		"Lock Range Modifier"	"0.000400"	//modifies lock on time based on range (as range increases, lock on time increases based on the modifier: modifier * range to target + lock on time = total lock on time)
+		"Turning Ability"	"3.0"		//determines how effective the missile can turn to home in on its target or guide itself to the crosshair for a guided missile; 1.0 means the missile can turn instantly towards its target, 0.0 and the missile doesn't turn at all
 	}
+	//GRENADE LAUNCHERS
 	"Grenade Launcher"
 	{
 		"Name"			"#emp_vehicle_weapons_grenadeLauncher_name"		//name given when selecting weapons
@@ -1873,31 +1574,21 @@ Vehicle_Weapons
 		"Sound Reloading"	"Vehicle_Weapon.Reload"
 
 		"Damage Type"		"Explosive"
-		"Ammo Type"		"0"		//for mguns only, 0 = nonarmor penetrating (no effect on armored vehicles), 1 = armor penetrating (hurts armored vehicles)
 		"Damage"		"80"		//damage done by projectile
 		"Speed"			"800"		//speed of projectile
 		"Gravity"		"0.92"		//effects of gravity on the projectile, only for projectiles
 		"Heat"			"8"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status).
-		"Weight"		"40"		//weight in terms of effects on engine and weight restrictions for chassis
-		"Cycle Time"		"2.5"		//time between shots
+		"Weight"		"30"		//weight in terms of effects on engine and weight restrictions for chassis
+		"Cycle Time"		"2"		//time between shots
 		"Clip Size"		"8"		//ammo loaded per reloads
 		"Total Ammo Clips"	"4"		//max ammo clips carried (0 is the same as not using clips)
-		"Unlimited Ammo"	"0"
-		"Reload Time"		"6.0"		//time to load one clip
+		"Reload Time"		"5.0"		//time to load one clip
 		"Projectile Spread"	"0.001"		//only applicable to machine guns at the moment
 		"Heat to Target"	"0"		//heat added to target on hit (a small amount of heat is also added to the target based on damage, this is defined within the armor script)
-		"Explosion Radius"	"250"		//radius of damage sphere to hurt surrounding entities
+		"Explosion Radius"	"300"		//radius of damage sphere to hurt surrounding entities
 		"Explosion Force"	"100"		//force of explosion
 		"Explosion Sprite"	"1"
 		"Muzzle Flash"		"muzzle_std_cn"
-
-			//only for missile launchers
-		"Dumb Missile"		"0"		//'1' if missile flies straight ahead
-		"Homing Missile"	"0"		//'1' if missile flies towards locked on target
-		"Guided Missile"	"0"		//'1' if missile follows crosshairs after launch
-		"Missile Range"		"0"		//max range in HL2 units (1 inch = 1) that the player can lock onto a target with a homing missile, or range from vehicle being fired from when a guided missile stops following the player's crosshairs
-		"Lock On Time"		"0"		//time it takes for a homing missile to lock onto the target under the player crosshairs
-		"Lock Range Modifier"	"0"		//modifies lock on time based on range (as range increases, lock on time increases based on the modifier: modifier * range to target + lock on time = total lock on time)
 	}
 	"HE Grenade Launcher"
 	{
@@ -1916,7 +1607,6 @@ Vehicle_Weapons
 		"Sound Reloading"	"Vehicle_Weapon.Reload"
 
 		"Damage Type"		"Explosive"
-		"Ammo Type"		"0"		//for mguns only, 0 = nonarmor penetrating (no effect on armored vehicles), 1 = armor penetrating (hurts armored vehicles)
 		"Damage"		"110"		//damage done by projectile
 		"Speed"			"900"		//speed of projectile
 		"Gravity"		"0.88"		//effects of gravity on the projectile, only for projectiles
@@ -1925,104 +1615,12 @@ Vehicle_Weapons
 		"Cycle Time"		"1.5"		//time between shots
 		"Clip Size"		"8"		//ammo loaded per reloads
 		"Total Ammo Clips"	"4"		//max ammo clips carried (0 is the same as not using clips)
-		"Unlimited Ammo"	"0"
-		"Reload Time"		"8.0"		//time to load one clip
+		"Reload Time"		"7.0"		//time to load one clip
 		"Projectile Spread"	"0.001"		//only applicable to machine guns at the moment
 		"Heat to Target"	"0"		//heat added to target on hit (a small amount of heat is also added to the target based on damage, this is defined within the armor script)
 		"Explosion Radius"	"450"		//radius of damage sphere to hurt surrounding entities
 		"Explosion Force"	"150"		//force of explosion
 		"Explosion Sprite"	"4"
 		"Muzzle Flash"		"muzzle_std_cn"
-
-			//only for missile launchers
-		"Dumb Missile"		"0"		//'1' if missile flies straight ahead
-		"Homing Missile"	"0"		//'1' if missile flies towards locked on target
-		"Guided Missile"	"0"		//'1' if missile follows crosshairs after launch
-		"Missile Range"		"0"		//max range in HL2 units (1 inch = 1) that the player can lock onto a target with a homing missile, or range from vehicle being fired from when a guided missile stops following the player's crosshairs
-		"Lock On Time"		"0"		//time it takes for a homing missile to lock onto the target under the player crosshairs
-		"Lock Range Modifier"	"0"		//modifies lock on time based on range (as range increases, lock on time increases based on the modifier: modifier * range to target + lock on time = total lock on time)
-	}
-	//AIRCRAFT
-	"Small Bomb Bay"
-	{
-		"Name"			"Small Bomb Bay"		//name given when selecting weapons
-		"HUD Name"		"Small BB"			//name displayed in the weapon area of the vehicle HUD
-		"Description"		"A small bomb bay with a low total ammo but quick reload time."		//description given when selecting weapons
-		"Icon"			"vehicles/gui/weapons/bb_med"		//icon drawn in the GUI
-		"HUD Icon"		"vehicles/gui/weapons/bb"
-		"Size"			"2"		//number of slots required when selecting weapons
-		"Type"			"5"		//0=machine gun, 1=tank cannon, 2=artillery cannon, 3=missile launcher, 4=grenade launcher, 5=aircraft bomb bay
-		"Cost"			"4"
-		"Team"			"ALL"		//team that can use this "NF" or "IMP"
-		"Research"		""		//name of research item that must be researched before using
-		"Sound Firing"		""
-		"Sound Impact"		"Vehicle_CN.Impact"
-		"Sound Reloading"	"Vehicle_Weapon.Reload"
-
-		"Damage Type"		"ExtraType1"
-		"Ammo Type"		"0"		//for mguns only, 0 = nonarmor penetrating (no effect on armored vehicles), 1 = armor penetrating (hurts armored vehicles)
-		"Damage"		"20"		//damage done by projectile
-		"Speed"			"0"		//speed of projectile
-		"Gravity"		"1.0"		//effects of gravity on the projectile, only for projectiles
-		"Heat"			"1"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status).
-		"Weight"		"100"		//weight in terms of effects on engine and weight restrictions for chassis
-		"Cycle Time"		"0.5"		//time between shots
-		"Clip Size"		"6"		//ammo loaded per reloads
-		"Total Ammo Clips"	"4"		//max ammo clips carried (0 is the same as not using clips)
-		"Reload Time"		"6.0"		//time to load one clip
-		"Projectile Spread"	"0.001"		//only applicable to machine guns at the moment
-		"Heat to Target"	"0"		//heat added to target on hit (a small amount of heat is also added to the target based on damage, this is defined within the armor script)
-		"Explosion Radius"	"0"		//radius of damage sphere to hurt surrounding entities
-		"Explosion Force"	"0"		//force of explosion
-
-
-			//only for missile launchers
-		"Dumb Missile"		"0"		//'1' if missile flies straight ahead
-		"Homing Missile"	"0"		//'1' if missile flies towards locked on target
-		"Guided Missile"	"0"		//'1' if missile follows crosshairs after launch
-		"Missile Range"		"0"		//max range in HL2 units (1 inch = 1) that the player can lock onto a target with a homing missile, or range from vehicle being fired from when a guided missile stops following the player's crosshairs
-		"Lock On Time"		"0"		//time it takes for a homing missile to lock onto the target under the player crosshairs
-		"Lock Range Modifier"	"0"		//modifies lock on time based on range (as range increases, lock on time increases based on the modifier: modifier * range to target + lock on time = total lock on time)
-	}
-	"largeBombBay"
-	{
-		"Name"			"Large Bomb Bay"		//name given when selecting weapons
-		"HUD Name"		"Large BB"			//name displayed in the weapon area of the vehicle HUD
-		"Description"		"A large bomb bay with a high total ammo but also high reload time."		//description given when selecting weapons
-		"Icon"			"vehicles/gui/weapons/bb_large"		//icon drawn in the GUI
-		"HUD Icon"		"vehicles/gui/weapons/bb"
-		"Size"			"3"		//number of slots required when selecting weapons
-		"Type"			"5"		//0=machine gun, 1=tank cannon, 2=artillery cannon, 3=missile launcher, 4=grenade launcher, 5=aircraft bomb bay
-		"Cost"			"4"
-		"Team"			"ALL"		//team that can use this "NF" or "IMP"
-		"Research"		""		//name of research item that must be researched before using
-		"Sound Firing"		""
-		"Sound Impact"		"Vehicle_CN.Impact"
-		"Sound Reloading"	"Vehicle_Weapon.Reload"
-
-		"Damage Type"		"ExtraType1"
-		"Ammo Type"		"0"		//for mguns only, 0 = nonarmor penetrating (no effect on armored vehicles), 1 = armor penetrating (hurts armored vehicles)
-		"Damage"		"40"		//damage done by projectile
-		"Speed"			"0"		//speed of projectile
-		"Gravity"		"1.0"		//effects of gravity on the projectile, only for projectiles
-		"Heat"			"2"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status).
-		"Weight"		"100"		//weight in terms of effects on engine and weight restrictions for chassis
-		"Cycle Time"		"0.6"		//time between shots
-		"Clip Size"		"12"		//ammo loaded per reloads
-		"Total Ammo Clips"	"6"		//max ammo clips carried (0 is the same as not using clips)
-		"Reload Time"		"14.0"		//time to load one clip
-		"Projectile Spread"	"0.001"		//only applicable to machine guns at the moment
-		"Heat to Target"	"0"		//heat added to target on hit (a small amount of heat is also added to the target based on damage, this is defined within the armor script)
-		"Explosion Radius"	"0"		//radius of damage sphere to hurt surrounding entities
-		"Explosion Force"	"0"		//force of explosion
-
-
-			//only for missile launchers
-		"Dumb Missile"		"0"		//'1' if missile flies straight ahead
-		"Homing Missile"	"0"		//'1' if missile flies towards locked on target
-		"Guided Missile"	"0"		//'1' if missile follows crosshairs after launch
-		"Missile Range"		"0"		//max range in HL2 units (1 inch = 1) that the player can lock onto a target with a homing missile, or range from vehicle being fired from when a guided missile stops following the player's crosshairs
-		"Lock On Time"		"0"		//time it takes for a homing missile to lock onto the target under the player crosshairs
-		"Lock Range Modifier"	"0"		//modifies lock on time based on range (as range increases, lock on time increases based on the modifier: modifier * range to target + lock on time = total lock on time)
 	}
 }
