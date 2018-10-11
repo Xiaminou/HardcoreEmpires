@@ -4,8 +4,8 @@ InfantryParse
 	"Scout"
 	{
 		//Research Tree
-		"GeneralPhysicsResist"		"0.0"	//Plasma MG, Plasma CNs
-		"GeneralChemistryResist	"  	"0.0" 	//
+		"GeneralPhysicsResist"		"0.0"	//Plasma MG, Plasma Cannon Prot., Plasma Cannon
+		"GeneralChemistryResist	"  	"0.1" 	//Grenade Launcher, High-Explosive Grenade Launcher
 		"GeneralMechanicalResist" 	"0.0"	//
 		"GeneralElectricResist"  	"0.0"	//
 		"GeneralBiologicalResist"	"0.0" 	//
@@ -49,11 +49,11 @@ InfantryParse
 	}
 	"Rifleman"
 	{
-		"GeneralPhysicsResist"		"0.1"	//General Physics Tree Damage 
-		"GeneralChemistryResist	"  	"0.1" 	//General Chemistry Tree Damage
-		"GeneralMechanicalResist" 	"0.1"	//General Mechanic Tree Damage
-		"GeneralElectricResist"  	"0.1"	//General Electric Tree Damage
-		"GeneralBiologicalResist"	"0.1" 	//General Biological Tree Damage
+		"GeneralPhysicsResist"		"0.1"	//Plasma MG, Plasma Cannon Prot., Plasma Cannon
+		"GeneralChemistryResist	"  	"0.1" 	//Grenade Launcher, High-Explosive Grenade Launcher
+		"GeneralMechanicalResist" 	"0.1"	//
+		"GeneralElectricResist"  	"0.1"	//
+		"GeneralBiologicalResist"	"0.1" 	//
 
 		//Vehicle: Cannons
 		"KineticResist" 		"0.1" 	//Kinetic CannonsRailguns, Standard Cannons, Anything that is just force
@@ -97,11 +97,11 @@ InfantryParse
 	"Grenadier"
 	{
 	
-		"GeneralPhysicsResist"		"0.3"	//General Physics Tree Damage 
-		"GeneralChemistryResist	"  	"0.3" 	//General Chemistry Tree Damage
-		"GeneralMechanicalResist" 	"0.3"	//General Mechanic Tree Damage
-		"GeneralElectricResist"  	"0.3"	//General Electric Tree Damage
-		"GeneralBiologicalResist"	"0.3" 	//General Biological Tree Damage
+		"GeneralPhysicsResist"		"0.3"	//Plasma MG, Plasma Cannon Prot., Plasma Cannon
+		"GeneralChemistryResist	"  	"0.4" 	//Grenade Launcher, High-Explosive Grenade Launcher
+		"GeneralMechanicalResist" 	"0.3"	//
+		"GeneralElectricResist"  	"0.3"	//
+		"GeneralBiologicalResist"	"0.3" 	//
 
 		"KineticResist" 		"0.3" 	//Railguns, Standard Cannons, Anything that is just force
 		"ExplosiveResist" 		"0.4"	//HE, Nukes, anything that explodes
@@ -144,11 +144,11 @@ InfantryParse
 	"Engineer"
 	{
 	
-		"GeneralPhysicsResist"		"0.0"	//General Physics Tree Damage 
-		"GeneralChemistryResist	"  	"0.0" 	//General Chemistry Tree Damage
-		"GeneralMechanicalResist" 	"0.0"	//General Mechanic Tree Damage
-		"GeneralElectricResist"  	"0.0"	//General Electric Tree Damage
-		"GeneralBiologicalResist"	"0.0" 	//General Biological Tree Damage
+		"GeneralPhysicsResist"		"0.0"	//Plasma MG, Plasma Cannon Prot., Plasma Cannon
+		"GeneralChemistryResist	"  	"0.1" 	//Grenade Launcher, High-Explosive Grenade Launcher
+		"GeneralMechanicalResist" 	"0.0"	//
+		"GeneralElectricResist"  	"0.0"	//
+		"GeneralBiologicalResist"	"0.0" 	//
 
 		"KineticResist" 		"0.0" 	//Railguns, Standard Cannons, Anything that is just force
 		"ExplosiveResist" 		"0.1"	//HE, Nukes, anything that explodes

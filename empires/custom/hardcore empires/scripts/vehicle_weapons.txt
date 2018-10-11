@@ -18,11 +18,6 @@ Vehicle_Weapons
 		"Cost"			"40"		//cost of this weapon added onto vehicle cost (default: 5)
 		"Weight"		"30"		//weight in terms of effects on engine and weight restrictions for chassis (default: 10)
 		
-		//sounds
-		"Sound Firing"		"Vehicle_MG.Fire"
-		"Sound Impact"		""
-		"Sound Reloading"	"Vehicle_Weapon.Reload"
-
 		//damage
 		"Damage Type"		"Bullet"	//Which damage type this weapon falls under, armor, structures and infantry dictate the resistance against the chosen damage type (default: "Undefined")
 		"Ammo Type"		"0"		//for mguns only, 0 = nonarmor penetrating (no effect on armored vehicles), 1 = armor penetrating (hurts armored vehicles), 2 = explosive (hurts vehicles and has a radius damage around it based on 'explosion radius'" (default: 0)
@@ -38,13 +33,13 @@ Vehicle_Weapons
 		"Total Ammo Clips"	"4"		//max ammo clips carried (0 is the same as not using clips) (default: 1)
 		"Reload Time"		"3.5"		//time to load one clip, if total ammo clips is '0', time to reload one unit of ammo (as one unit of ammo is reloaded per time and not a full clip) (default: 20)
 		
-		//projectile physics (requires "type" 1, 2 or 4)
-		"Speed"			"1000"		//speed of projectile (requires "type" 1, 2, 3 or 4)(default: 100)
-		"Gravity"		"0"		//effects of gravity on the projectile, only for projectiles (default: 1.0)
-		
 		//area of effect
 		"Explosion Radius"	"0"		//radius of damage sphere to hurt surrounding entities (default: 0)
 		"Explosion Force"	"0"		//force of explosion (default: 0)
+		
+		//projectile physics (requires "type" 1, 2, 3 or 4)
+		"Speed"			"1000"		//speed of projectile (requires "type" 1, 2, 3 or 4)(default: 100)
+		"Gravity"		"0"		//effects of gravity on the projectile, only for projectiles (requires "type" 1, 2 or 4)(default: 1.0)
 
 		//missile launchers (requires "type" 3)
 		"Dumb Missile"			"0"	//'1' if missile flies straight ahead
@@ -64,15 +59,20 @@ Vehicle_Weapons
 		"Vehicle Bio Damage"	"0"		//damage inflicted to vehicles every interval (default: 0)
 		"Vehicle Bio Time"	"0"		//total time to inflict damage to vehicles (default: 0)
 		"Vehicle Bio Interval"	"0"		//time inbetween each infliction of damage to vehicles (default: 0)
-		
-		//effects
-		"Tracer Type"		"tracer_vehiclemg" //Tracer effect, tracer names are logical, a list: tracer_du, tracer_bio, tracer_he, tracer_rifle, tracer_smg, tracer_vehiclemg, tracer_cg, tracer_plasma (requires "type" 0)
-		"Muzzle Flash"		"tracer_vehiclemg_muzzle"
 
 		//falloff (requires "type" 0)
 		"FalloffStart"		"0" 		//Distance that we start reducing damage - Default 5000
 		"FalloffEnd"		"3000"		//Distance that we start dealing MinimalDamage value - (Max bullet distance 10000 units) - Default 10000
-		"MinimalDamage"		"13"		
+		"MinimalDamage"		"13"	
+
+		//effects
+		"Tracer Type"		"tracer_vehiclemg" //Tracer effect, tracer names are logical, a list: tracer_du, tracer_bio, tracer_he, tracer_rifle, tracer_smg, tracer_vehiclemg, tracer_cg, tracer_plasma (requires "type" 0)
+		"Muzzle Flash"		"tracer_vehiclemg_muzzle"
+
+		//sounds
+		"Sound Firing"		"Vehicle_MG.Fire"
+		"Sound Impact"		""
+		"Sound Reloading"	"Vehicle_Weapon.Reload"
 	}
 	"Bio Machine Gun"
 	{
@@ -564,7 +564,7 @@ Vehicle_Weapons
 		"Damage Type"		"Kinetic"
 		"Damage"		"50"		//damage done by projectile (default: 50)
 		"Speed"			"3300"		//speed of projectile (requires "type" 1, 2, 3 or 4)(default: 100)
-		"Gravity"		"0.5"		//effects of gravity on the projectile, only for projectiles (default: 1.0)
+		"Gravity"		"0.5"		//effects of gravity on the projectile, only for projectiles (requires "type" 1, 2 or 4)(default: 1.0)
 		"Heat"			"10"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status) (default: 0.1)
 		"Weight"		"50"		//weight in terms of effects on engine and weight restrictions for chassis (default: 10)
 		"Cycle Time"		"1.4"		//time between shots (default 0.1) (all weapons other than MGs have limits of 0.1 as lowest)
@@ -602,7 +602,7 @@ Vehicle_Weapons
 		"Damage Type"		"Kinetic"
 		"Damage"		"60"		//damage done by projectile (default: 50)
 		"Speed"			"3600"		//speed of projectile (requires "type" 1, 2, 3 or 4)(default: 100)
-		"Gravity"		"0.1"		//effects of gravity on the projectile, only for projectiles (default: 1.0)
+		"Gravity"		"0.1"		//effects of gravity on the projectile, only for projectiles (requires "type" 1, 2 or 4)(default: 1.0)
 		"Heat"			"8"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status) (default: 0.1)
 		"Weight"		"70"		//weight in terms of effects on engine and weight restrictions for chassis (default: 10)
 		"Cycle Time"		"1.5"		//time between shots (default 0.1) (all weapons other than MGs have limits of 0.1 as lowest)
@@ -639,7 +639,7 @@ Vehicle_Weapons
 		"Damage Type"		"Kinetic"
 		"Damage"		"67"		//damage done by projectile (default: 50)
 		"Speed"			"3650"		//speed of projectile (requires "type" 1, 2, 3 or 4)(default: 100)
-		"Gravity"		"0.08"		//effects of gravity on the projectile, only for projectiles (default: 1.0)
+		"Gravity"		"0.08"		//effects of gravity on the projectile, only for projectiles (requires "type" 1, 2 or 4)(default: 1.0)
 		"Heat"			"8.5"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status) (default: 0.1)
 		"Weight"		"75"		//weight in terms of effects on engine and weight restrictions for chassis (default: 10)
 		"Cycle Time"		"1.5"		//time between shots (default 0.1) (all weapons other than MGs have limits of 0.1 as lowest)
@@ -676,7 +676,7 @@ Vehicle_Weapons
 		"Damage Type"		"Explosive"
 		"Damage"		"70"		//damage done by projectile (default: 50)
 		"Speed"			"3000"		//speed of projectile (requires "type" 1, 2, 3 or 4)(default: 100)
-		"Gravity"		"0.4125"		//effects of gravity on the projectile, only for projectiles (default: 1.0)
+		"Gravity"		"0.4125"		//effects of gravity on the projectile, only for projectiles (requires "type" 1, 2 or 4)(default: 1.0)
 		"Heat"			"12"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status) (default: 0.1)
 		"Weight"		"60"		//weight in terms of effects on engine and weight restrictions for chassis (default: 10)
 		"Cycle Time"		"2.0"		//time between shots (default 0.1) (all weapons other than MGs have limits of 0.1 as lowest)
@@ -716,7 +716,7 @@ Vehicle_Weapons
 		"Damage Type"		"Explosive"
 		"Damage"		"77"		//damage done by projectile (default: 50)
 		"Speed"			"3000"		//speed of projectile (requires "type" 1, 2, 3 or 4)(default: 100)
-		"Gravity"		"0.4"		//effects of gravity on the projectile, only for projectiles (default: 1.0)
+		"Gravity"		"0.4"		//effects of gravity on the projectile, only for projectiles (requires "type" 1, 2 or 4)(default: 1.0)
 		"Heat"			"13"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status) (default: 0.1)
 		"Weight"		"70"		//weight in terms of effects on engine and weight restrictions for chassis (default: 10)
 		"Cycle Time"		"2.0"		//time between shots (default 0.1) (all weapons other than MGs have limits of 0.1 as lowest)
@@ -756,7 +756,7 @@ Vehicle_Weapons
 		"Damage Type"		"GeneralPhysics"
 		"Damage"		"72"		//damage done by projectile (default: 50)
 		"Speed"			"3000"		//speed of projectile (requires "type" 1, 2, 3 or 4)(default: 100)
-		"Gravity"		"0.4125"	//effects of gravity on the projectile, only for projectiles (default: 1.0)
+		"Gravity"		"0.4125"	//effects of gravity on the projectile, only for projectiles (requires "type" 1, 2 or 4)(default: 1.0)
 		"Heat"			"13.5"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status) (default: 0.1)
 		"Weight"		"70"		//weight in terms of effects on engine and weight restrictions for chassis (default: 10)
 		"Cycle Time"		"2"		//time between shots (default 0.1) (all weapons other than MGs have limits of 0.1 as lowest)
@@ -796,7 +796,7 @@ Vehicle_Weapons
 		"Damage Type"		"GeneralPhysics"
 		"Damage"		"84"		//damage done by projectile (default: 50)
 		"Speed"			"3100"		//speed of projectile (requires "type" 1, 2, 3 or 4)(default: 100)
-		"Gravity"		"0.4"		//effects of gravity on the projectile, only for projectiles (default: 1.0)
+		"Gravity"		"0.4"		//effects of gravity on the projectile, only for projectiles (requires "type" 1, 2 or 4)(default: 1.0)
 		"Heat"			"15"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status) (default: 0.1)
 		"Weight"		"80"		//weight in terms of effects on engine and weight restrictions for chassis (default: 10)
 		"Cycle Time"		"2"		//time between shots (default 0.1) (all weapons other than MGs have limits of 0.1 as lowest)
@@ -836,7 +836,7 @@ Vehicle_Weapons
 		"Damage Type"		"Kinetic"
 		"Damage"		"45"		//damage done by projectile (default: 50)
 		"Speed"			"3700"		//speed of projectile (requires "type" 1, 2, 3 or 4)(default: 100)
-		"Gravity"		"0.32"		//effects of gravity on the projectile, only for projectiles (default: 1.0)
+		"Gravity"		"0.32"		//effects of gravity on the projectile, only for projectiles (requires "type" 1, 2 or 4)(default: 1.0)
 		"Heat"			"6"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status) (default: 0.1)
 		"Weight"		"60"		//weight in terms of effects on engine and weight restrictions for chassis (default: 10)
 		"Cycle Time"		"1"		//time between shots (default 0.1) (all weapons other than MGs have limits of 0.1 as lowest)
@@ -873,7 +873,7 @@ Vehicle_Weapons
 		"Damage Type"		"Kinetic"
 		"Damage"		"53"		//damage done by projectile (default: 50)
 		"Speed"			"3800"		//speed of projectile (requires "type" 1, 2, 3 or 4)(default: 100)
-		"Gravity"		"0.3"		//effects of gravity on the projectile, only for projectiles (default: 1.0)
+		"Gravity"		"0.3"		//effects of gravity on the projectile, only for projectiles (requires "type" 1, 2 or 4)(default: 1.0)
 		"Heat"			"7"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status) (default: 0.1)
 		"Weight"		"80"		//weight in terms of effects on engine and weight restrictions for chassis (default: 10)
 		"Cycle Time"		"1"		//time between shots (default 0.1) (all weapons other than MGs have limits of 0.1 as lowest)
@@ -910,7 +910,7 @@ Vehicle_Weapons
 		"Damage Type"		"BioArt"
 		"Damage"		"65"		//damage done by projectile (default: 50)
 		"Speed"			"3000"		//speed of projectile (requires "type" 1, 2, 3 or 4)(default: 100)
-		"Gravity"		"0.4"		//effects of gravity on the projectile, only for projectiles (default: 1.0)
+		"Gravity"		"0.4"		//effects of gravity on the projectile, only for projectiles (requires "type" 1, 2 or 4)(default: 1.0)
 		"Heat"			"13"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status) (default: 0.1)
 		"Weight"		"70"		//weight in terms of effects on engine and weight restrictions for chassis (default: 10)
 		"Cycle Time"		"2.25"		//time between shots (default 0.1) (all weapons other than MGs have limits of 0.1 as lowest)
@@ -955,7 +955,7 @@ Vehicle_Weapons
 		"Damage Type"		"BioArt"
 		"Damage"		"70"		//damage done by projectile (default: 50)
 		"Speed"			"3000"		//speed of projectile (requires "type" 1, 2, 3 or 4)(default: 100)
-		"Gravity"		"0.37"		//effects of gravity on the projectile, only for projectiles (default: 1.0)
+		"Gravity"		"0.37"		//effects of gravity on the projectile, only for projectiles (requires "type" 1, 2 or 4)(default: 1.0)
 		"Heat"			"15"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status) (default: 0.1)
 		"Weight"		"80"		//weight in terms of effects on engine and weight restrictions for chassis (default: 10)
 		"Cycle Time"		"2.25"		//time between shots (default 0.1) (all weapons other than MGs have limits of 0.1 as lowest)
@@ -1001,7 +1001,7 @@ Vehicle_Weapons
 		"Damage Type"		"ExplosiveArt"
 		"Damage"		"265"		//damage done by projectile (default: 50)
 		"Speed"			"2000"		//speed of projectile (requires "type" 1, 2, 3 or 4)(default: 100)
-		"Gravity"		"0.55"		//effects of gravity on the projectile, only for projectiles (default: 1.0)
+		"Gravity"		"0.55"		//effects of gravity on the projectile, only for projectiles (requires "type" 1, 2 or 4)(default: 1.0)
 		"Heat"			"15"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status) (default: 0.1)
 		"Weight"		"60"		//weight in terms of effects on engine and weight restrictions for chassis (default: 10)
 		"Cycle Time"		"2.5"		//time between shots (default 0.1)
@@ -1037,7 +1037,7 @@ Vehicle_Weapons
 		"Damage Type"		"ExplosiveArt"
 		"Damage"		"375"		//damage done by projectile (default: 50)
 		"Speed"			"1900"		//speed of projectile (requires "type" 1, 2, 3 or 4)(default: 100)
-		"Gravity"		"0.57"		//effects of gravity on the projectile, only for projectiles (default: 1.0)
+		"Gravity"		"0.57"		//effects of gravity on the projectile, only for projectiles (requires "type" 1, 2 or 4)(default: 1.0)
 		"Heat"			"25"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status) (default: 0.1)
 		"Weight"		"75"		//weight in terms of effects on engine and weight restrictions for chassis (default: 10)
 		"Cycle Time"		"4.75"		//time between shots (default 0.1)
@@ -1073,7 +1073,7 @@ Vehicle_Weapons
 		"Damage Type"		"ExplosiveArt"
 		"Damage"		"200"		//damage done by projectile (default: 50)
 		"Speed"			"1800"		//speed of projectile (requires "type" 1, 2, 3 or 4)(default: 100)
-		"Gravity"		"0.4"		//effects of gravity on the projectile, only for projectiles (default: 1.0)
+		"Gravity"		"0.4"		//effects of gravity on the projectile, only for projectiles (requires "type" 1, 2 or 4)(default: 1.0)
 		"Heat"			"15"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status) (default: 0.1)
 		"Weight"		"100"		//weight in terms of effects on engine and weight restrictions for chassis (default: 10)
 		"Cycle Time"		"3.5"		//time between shots (default 0.1)
@@ -1112,7 +1112,7 @@ Vehicle_Weapons
 		"Damage Type"		"KineticArt"
 		"Damage"		"150"		//damage done by projectile (default: 50)
 		"Speed"			"2800"		//speed of projectile (requires "type" 1, 2, 3 or 4)(default: 100)
-		"Gravity"		"0.6"		//effects of gravity on the projectile, only for projectiles (default: 1.0)
+		"Gravity"		"0.6"		//effects of gravity on the projectile, only for projectiles (requires "type" 1, 2 or 4)(default: 1.0)
 		"Heat"			"20"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status) (default: 0.1)
 		"Weight"		"100"		//weight in terms of effects on engine and weight restrictions for chassis (default: 10)
 		"Cycle Time"		"2.5"		//time between shots (default 0.1)
@@ -1404,7 +1404,7 @@ Vehicle_Weapons
 		"Ammo Type"		"0"		//for mguns only, 0 = nonarmor penetrating (no effect on armored vehicles), 1 = armor penetrating (hurts armored vehicles)
 		"Damage"		"35"		//damage done by projectile (default: 50)
 		"Speed"			"2100"		//speed of projectile (requires "type" 1, 2, 3 or 4)(default: 100)
-		"Gravity"		"0"		//effects of gravity on the projectile, only for projectiles (default: 1.0)
+		"Gravity"		"0"		//effects of gravity on the projectile, only for projectiles (requires "type" 1, 2 or 4)(default: 1.0)
 		"Heat"			"4"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status) (default: 0.1)
 		"Weight"		"60"		//weight in terms of effects on engine and weight restrictions for chassis (default: 10)
 		"Cycle Time"		"-0.14"		//time between shots (default 0.1); a negative number unloads the whole clip in rapid succession with one press of the fire button but still uses the rest of the number to still determine time between actual shot creation
@@ -1689,10 +1689,10 @@ Vehicle_Weapons
 		"Sound Impact"		"Vehicle_GL.Impact"
 		"Sound Reloading"	"Vehicle_Weapon.Reload"
 
-		"Damage Type"		"Explosive"
+		"Damage Type"		"GeneralChemistry"
 		"Damage"		"80"		//damage done by projectile (default: 50)
 		"Speed"			"800"		//speed of projectile (requires "type" 1, 2, 3 or 4)(default: 100)
-		"Gravity"		"0.92"		//effects of gravity on the projectile, only for projectiles (default: 1.0)
+		"Gravity"		"0.92"		//effects of gravity on the projectile, only for projectiles (requires "type" 1, 2 or 4)(default: 1.0)
 		"Heat"			"8"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status) (default: 0.1)
 		"Weight"		"30"		//weight in terms of effects on engine and weight restrictions for chassis (default: 10)
 		"Cycle Time"		"2"		//time between shots (default 0.1)
@@ -1725,10 +1725,10 @@ Vehicle_Weapons
 		"Sound Impact"		"Vehicle_GL.Impact"
 		"Sound Reloading"	"Vehicle_Weapon.Reload"
 
-		"Damage Type"		"Explosive"
+		"Damage Type"		"GeneralChemistry"
 		"Damage"		"110"		//damage done by projectile (default: 50)
 		"Speed"			"900"		//speed of projectile (requires "type" 1, 2, 3 or 4)(default: 100)
-		"Gravity"		"0.88"		//effects of gravity on the projectile, only for projectiles (default: 1.0)
+		"Gravity"		"0.88"		//effects of gravity on the projectile, only for projectiles (requires "type" 1, 2 or 4)(default: 1.0)
 		"Heat"			"12"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status) (default: 0.1)
 		"Weight"		"40"		//weight in terms of effects on engine and weight restrictions for chassis (default: 10)
 		"Cycle Time"		"1.5"		//time between shots (default 0.1)

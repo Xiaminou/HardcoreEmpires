@@ -25,7 +25,7 @@ BuildingParse
 	 "hint"			"#emp_building_ImpArmory_hint"
 													
 	 "GeneralPhysicsResist"		0.85					//General Physics Tree Damage 					
-	 "GeneralChemistryResist"  	0.85				//General Chemistry Tree Damage							
+	 "GeneralChemistryResist"  	0.81				//General Chemistry Tree Damage							
 	 "GeneralMechanicalResist" 	0.85					//General Mechanic Tree Damage						
 	 "GeneralElectricResist"  	0.85					//General Electric Tree Damage						
 	 "GeneralBiologicalResist"	0.85					//General Biological Tree Damage						
@@ -100,7 +100,7 @@ BuildingParse
 	 "hint"			"#emp_building_NFArmory_hint"
 													
 	 "GeneralPhysicsResist"		0.85					//General Physics Tree Damage 					
-	 "GeneralChemistryResist"  	0.85				//General Chemistry Tree Damage							
+	 "GeneralChemistryResist"  	0.81				//General Chemistry Tree Damage							
 	 "GeneralMechanicalResist" 	0.85					//General Mechanic Tree Damage						
 	 "GeneralElectricResist"  	0.85					//General Electric Tree Damage						
 	 "GeneralBiologicalResist"	0.85					//General Biological Tree Damage						
@@ -180,7 +180,7 @@ BuildingParse
 	 "hint"			"#emp_building_ImpBarracks_hint"
 													
 	 "GeneralPhysicsResist"		0.85					//General Physics Tree Damage 					
-	 "GeneralChemistryResist"  	0.85				//General Chemistry Tree Damage							
+	 "GeneralChemistryResist"  	0.81				//General Chemistry Tree Damage							
 	 "GeneralMechanicalResist" 	0.85					//General Mechanic Tree Damage						
 	 "GeneralElectricResist"  	0.85					//General Electric Tree Damage						
 	 "GeneralBiologicalResist"	0.85					//General Biological Tree Damage						
@@ -256,7 +256,7 @@ BuildingParse
 	 //RESISTANCES												
 													
 	 "GeneralPhysicsResist"		0.85					//General Physics Tree Damage 					
-	 "GeneralChemistryResist"  	0.85				//General Chemistry Tree Damage							
+	 "GeneralChemistryResist"  	0.81				//General Chemistry Tree Damage							
 	 "GeneralMechanicalResist" 	0.85					//General Mechanic Tree Damage						
 	 "GeneralElectricResist"  	0.85					//General Electric Tree Damage						
 	 "GeneralBiologicalResist"	0.85					//General Biological Tree Damage						
@@ -332,7 +332,7 @@ BuildingParse
 	 //RESISTANCES												
 													
 	 "GeneralPhysicsResist"		0.85					//General Physics Tree Damage 					
-	 "GeneralChemistryResist"  	0.85				//General Chemistry Tree Damage							
+	 "GeneralChemistryResist"  	0.81				//General Chemistry Tree Damage							
 	 "GeneralMechanicalResist" 	0.85					//General Mechanic Tree Damage						
 	 "GeneralElectricResist"  	0.85					//General Electric Tree Damage						
 	 "GeneralBiologicalResist"	0.85					//General Biological Tree Damage						
@@ -408,7 +408,7 @@ BuildingParse
 	 //RESISTANCES												
 													
 	 "GeneralPhysicsResist"		0.85					//General Physics Tree Damage 					
-	 "GeneralChemistryResist"  	0.85				//General Chemistry Tree Damage							
+	 "GeneralChemistryResist"  	0.81				//General Chemistry Tree Damage							
 	 "GeneralMechanicalResist" 	0.85					//General Mechanic Tree Damage						
 	 "GeneralElectricResist"  	0.85					//General Electric Tree Damage						
 	 "GeneralBiologicalResist"	0.85					//General Biological Tree Damage						
@@ -484,7 +484,7 @@ BuildingParse
 	 //RESISTANCES												
 													
 	 "GeneralPhysicsResist"		0.85					//General Physics Tree Damage 					
-	 "GeneralChemistryResist"  	0.85				//General Chemistry Tree Damage							
+	 "GeneralChemistryResist"  	0.81				//General Chemistry Tree Damage							
 	 "GeneralMechanicalResist" 	0.85					//General Mechanic Tree Damage						
 	 "GeneralElectricResist"  	0.85					//General Electric Tree Damage						
 	 "GeneralBiologicalResist"	0.85					//General Biological Tree Damage						
@@ -557,7 +557,7 @@ BuildingParse
 	 //RESISTANCES												
 													
 	 "GeneralPhysicsResist"		0.85					//General Physics Tree Damage 					
-	 "GeneralChemistryResist"  	0.85				//General Chemistry Tree Damage							
+	 "GeneralChemistryResist"  	0.81				//General Chemistry Tree Damage							
 	 "GeneralMechanicalResist" 	0.85					//General Mechanic Tree Damage						
 	 "GeneralElectricResist"  	0.85					//General Electric Tree Damage						
 	 "GeneralBiologicalResist"	0.85					//General Biological Tree Damage						
@@ -630,7 +630,7 @@ BuildingParse
 	 //RESISTANCES												
 													
 	 "GeneralPhysicsResist"		0.85					//General Physics Tree Damage 					
-	 "GeneralChemistryResist"  	0.85				//General Chemistry Tree Damage							
+	 "GeneralChemistryResist"  	0.81				//General Chemistry Tree Damage							
 	 "GeneralMechanicalResist" 	0.85					//General Mechanic Tree Damage						
 	 "GeneralElectricResist"  	0.85					//General Electric Tree Damage						
 	 "GeneralBiologicalResist"	0.85					//General Biological Tree Damage						
@@ -706,7 +706,7 @@ BuildingParse
 	 //RESISTANCES												
 													
 	 "GeneralPhysicsResist"		0.85					//General Physics Tree Damage 					
-	 "GeneralChemistryResist"  	0.85				//General Chemistry Tree Damage							
+	 "GeneralChemistryResist"  	0.81				//General Chemistry Tree Damage							
 	 "GeneralMechanicalResist" 	0.85					//General Mechanic Tree Damage						
 	 "GeneralElectricResist"  	0.85					//General Electric Tree Damage						
 	 "GeneralBiologicalResist"	0.85					//General Biological Tree Damage						
@@ -790,7 +790,7 @@ BuildingParse
 		 //RESISTANCES							
 									
 	 "GeneralPhysicsResist"		0.70					//General Physics Tree Damage 	
-	 "GeneralChemistryResist"  	0.70					//General Chemistry Tree Damage		
+	 "GeneralChemistryResist"  	0.68					//General Chemistry Tree Damage		
 	 "GeneralMechanicalResist" 	0.70					//General Mechanic Tree Damage		
 	 "GeneralElectricResist"  	0.70					//General Electric Tree Damage		
 	 "GeneralBiologicalResist"	0.70					//General Biological Tree Damage		
@@ -933,7 +933,7 @@ BuildingParse
 		 //RESISTANCES							
 									
 	 "GeneralPhysicsResist"		0.70					//General Physics Tree Damage 	
-	 "GeneralChemistryResist"  	0.70					//General Chemistry Tree Damage		
+	 "GeneralChemistryResist"  	0.68					//General Chemistry Tree Damage		
 	 "GeneralMechanicalResist" 	0.70					//General Mechanic Tree Damage		
 	 "GeneralElectricResist"  	0.70					//General Electric Tree Damage		
 	 "GeneralBiologicalResist"	0.70					//General Biological Tree Damage		
@@ -1082,7 +1082,7 @@ BuildingParse
 		 //RESISTANCES							
 									
 	 "GeneralPhysicsResist"		0.70					//General Physics Tree Damage 	
-	 "GeneralChemistryResist"  	0.70					//General Chemistry Tree Damage		
+	 "GeneralChemistryResist"  	0.68					//General Chemistry Tree Damage		
 	 "GeneralMechanicalResist" 	0.70					//General Mechanic Tree Damage		
 	 "GeneralElectricResist"  	0.70					//General Electric Tree Damage		
 	 "GeneralBiologicalResist"	0.70					//General Biological Tree Damage		
@@ -1239,7 +1239,7 @@ BuildingParse
 		 //RESISTANCES							
 									
 	 "GeneralPhysicsResist"		0.70					//General Physics Tree Damage 	
-	 "GeneralChemistryResist"  	0.70					//General Chemistry Tree Damage		
+	 "GeneralChemistryResist"  	0.68					//General Chemistry Tree Damage		
 	 "GeneralMechanicalResist" 	0.70					//General Mechanic Tree Damage		
 	 "GeneralElectricResist"  	0.70					//General Electric Tree Damage		
 	 "GeneralBiologicalResist"	0.70					//General Biological Tree Damage		
@@ -1842,7 +1842,7 @@ BuildingParse
 	 	//RESISTANCES											
 													
 	 "GeneralPhysicsResist"		0.85					//General Physics Tree Damage 					
-	 "GeneralChemistryResist"  	0.85				//General Chemistry Tree Damage							
+	 "GeneralChemistryResist"  	0.81				//General Chemistry Tree Damage							
 	 "GeneralMechanicalResist" 	0.85					//General Mechanic Tree Damage						
 	 "GeneralElectricResist"  	0.85					//General Electric Tree Damage						
 	 "GeneralBiologicalResist"	0.85					//General Biological Tree Damage						
@@ -1919,7 +1919,7 @@ BuildingParse
 	 	//RESISTANCES											
 													
 	 "GeneralPhysicsResist"		0.85					//General Physics Tree Damage 					
-	 "GeneralChemistryResist"  	0.85				//General Chemistry Tree Damage							
+	 "GeneralChemistryResist"  	0.81				//General Chemistry Tree Damage							
 	 "GeneralMechanicalResist" 	0.85					//General Mechanic Tree Damage						
 	 "GeneralElectricResist"  	0.85					//General Electric Tree Damage						
 	 "GeneralBiologicalResist"	0.85					//General Biological Tree Damage						
