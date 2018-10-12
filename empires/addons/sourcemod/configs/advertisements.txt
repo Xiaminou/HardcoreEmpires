@@ -22,237 +22,134 @@
 
 "Advertisements"
 {
-		"1"
+	"1"
 	{
 		"type"	"S"
-		"text"	"{GREEN}[TIPS]{DEFAULT} If you are stuck type {GREEN}!us{DEFAULT} or {GREEN}!unstuck{DEFAULT}."
+		"text"	"{GREEN}[TIPS]{DEFAULT} If you are stuck type {GREEN}/us{DEFAULT} or {GREEN}/unstuck{DEFAULT}."
 	}
 	
 	"2"
 	{
 		"type"	"S"
-		"text"	"{GREEN}[TIPS]{DEFAULT} To recycle your walls type {GREEN}!recwalls{DEFAULT}."
+		"text"	"{GREEN}[TIPS]{DEFAULT} To recycle your walls type {GREEN}/recwalls{DEFAULT}."
 	}
 	
 	"3"
 	{
 		"type"	"S"
-		"text"	"{GREEN}[TIPS]{DEFAULT} If your sound is bugged type {GREEN}!fixsound{DEFAULT}."
+		"text"	"{GREEN}[TIPS]{DEFAULT} If you don't want engineers to revive you type {GREEN}/forcekill{DEFAULT}."
 	}
 	
 	"4"
 	{
 		"type"	"S"
-		"text"	"{GREEN}[TIPS]{DEFAULT} If your commander tells you to killspawn press delete or type {GREEN}!kill{DEFAULT}."
+		"text"	"{GREEN}[TIPS]{DEFAULT} Commanders: To assign someone to a squad type {GREEN}/assign <player> <squad>{DEFAULT}."
 	}
 	
 	"5"
 	{
 		"type"	"S"
-		"text"	"{GREEN}[TIPS]{DEFAULT} Admins: To change the commander vote time use {GREEN}!votetime <time>{DEFAULT}."
-		"flags" ""
+		"text"	"{GREEN}[TIPS]{DEFAULT} To list each squad's members and points type {GREEN}/squadinfo{DEFAULT}."
 	}
 	
 	"6"
 	{
 		"type"	"S"
-		"text"	"{GREEN}[TIPS]{DEFAULT} Admins: To turn alltalk on or off use {GREEN}!alltalk <1|0>{DEFAULT}."
-		"flags" ""
+		"text"	"{GREEN}[TIPS]{DEFAULT} To vote for a new squadleader type {GREEN}/sl <player>{DEFAULT}."
 	}
 	
 	"7"
 	{
 		"type"	"S"
-		"text"	"{GREEN}[TIPS]{DEFAULT} Admins: To enable or disable spectators use {GREEN}!spec <1|0>{DEFAULT}."
-		"flags" ""
+		"text"	"{GREEN}[TIPS]{DEFAULT} If you want to check out Empires Forums type {GREEN}/empires{DEFAULT} and click on forums."
 	}
-	
+		
 	"8"
 	{
 		"type"	"S"
-		"text"	"{GREEN}[TIPS]{DEFAULT} If you don't want engineers to revive you type {GREEN}!forcekill{DEFAULT}."
+		"text"	"{GREEN}[TIPS]{DEFAULT} To consult the Hardcore Empires wiki type {GREEN}/wiki{DEFAULT}."
 	}
 	
 	"9"
 	{
 		"type"	"S"
-		"text"	"{GREEN}[TIPS]{DEFAULT} Admins: To pause the commander vote use {GREEN}!pausevote{DEFAULT}."
-		"flags" ""
+		"text"	"{GREEN}[TIPS]{DEFAULT} If you're new type {GREEN}/rtfm{DEFAULT} and read the Quick-Start Guide."
 	}
 	
 	"10"
 	{
 		"type"	"S"
-		"text"	"{GREEN}[TIPS]{DEFAULT} Admins: To resume the commander vote use {GREEN}!resumevote{DEFAULT}."
-		"flags" ""
+		"text"	"{GREEN}[TIPS]{DEFAULT} To see the (almost) full list of commands available type {GREEN}/commandlist{DEFAULT}."
 	}
 	
 	"11"
 	{
 		"type"	"S"
-		"text"	"{GREEN}[TIPS]{DEFAULT} Commanders: To assign someone to a squad type {GREEN}!assign <player> <squad>{DEFAULT}."
+		"text"	"{GREEN}[TIPS]{DEFAULT} To see what skills your squadmates are using type {GREEN}/skills{DEFAULT}."
 	}
 	
 	"12"
 	{
 		"type"	"S"
-		"text"	"{GREEN}[TIPS]{DEFAULT} To list each squad's members and points type {GREEN}!squadinfo{DEFAULT}."
+		"text"	"{GREEN}[TIPS]{DEFAULT} Is there something wrong with the server? Something you do not like? Type {GREEN}/feedback{DEFAULT} and open an issue, your voice will be heard."
 	}
 	
 	"13"
 	{
 		"type"	"S"
-		"text"	"{GREEN}[TIPS]{DEFAULT} To vote for a new squadleader type {GREEN}!sl <player>{DEFAULT}."
+		"text"	"{GREEN}[TIPS]{DEFAULT} To get notified of server events join our steam group by typing {GREEN}/steamgroup{DEFAULT}."
 	}
 	
 	"14"
 	{
 		"type"	"S"
-		"text"	"{GREEN}[TIPS]{DEFAULT} To communicate with your squad only {GREEN}open teamchat{DEFAULT} and type {GREEN};{DEFAULT} (semicolon) followed by your message."
+		"text"	"{GREEN}[TIPS]{DEFAULT} Join our discord! type {GREEN}/discord{DEFAULT}."
 	}
 	
 	"15"
 	{
 		"type"	"S"
-		"text"	"{GREEN}[TIPS]{DEFAULT} Spectators: To join a channel type {GREEN}!channel{DEFAULT} and a letter."
+		"text"	"{GREEN}[TIPS]{DEFAULT} Has someone been griefing? type {GREEN}/report{DEFAULT} to report them and fill up as many details as possible."
 	}
 	
 	"16"
 	{
 		"type"	"S"
-		"text"	"{GREEN}[TIPS]{DEFAULT} To access the request menu bind a key to {GREEN}sc_requestmenu{DEFAULT} in the console."
+		"text"	"{GREEN}[TIPS]{DEFAULT} Have you been muted or banned unfairly? {GREEN}/appeal{DEFAULT} to appeal for your bad behavior."
 	}
 	
 	"17"
 	{
 		"type"	"S"
-		"text"	"{GREEN}[TIPS]{DEFAULT} If you want to check out Empires Forums type {GREEN}!empires{DEFAULT} and click on forums."
+		"text"	"{GREEN}[TIPS]{DEFAULT} To make a request to be made Squad Leader to your Commander type {GREEN}/rsl{DEFAULT}."
 	}
-		
+	
+	"18"
+	{
+		"type"	"S"
+		"text"	"{GREEN}[TIPS]{DEFAULT} Type {GREEN}/empstats{DEFAULT} to see your stats."
+	}
+	
 	"19"
 	{
 		"type"	"S"
-		"text"	"{GREEN}[TIPS]{DEFAULT} To consult the Empires wiki type {GREEN}!wiki{DEFAULT}."
+		"text"	"{GREEN}[TIPS]{DEFAULT} Type {GREEN}/commstats{DEFAULT} to see your commander stats."
 	}
 	
 	"20"
 	{
 		"type"	"S"
-		"text"	"{GREEN}[TIPS]{DEFAULT} If you're new type {GREEN}!rtfm{DEFAULT} and read the Quick-Start Guide."
+		"text"	"{GREEN}[TIPS]{DEFAULT} Did you like your commander? Make sure to give him an upvote at the end of the round by entering {GREEN}/upc{DEFAULT}."
 	}
-	
+	"21"
+	{
+		"type"	"S"
+		"text"	"{GREEN}[TIPS]{DEFAULT} Commanders: to restrict vehicle chassis use {GREEN}/restrict <chassis> <level>{DEFAULT}."
+	}
 	"22"
 	{
 		"type"	"S"
-		"text"	"{GREEN}[TIPS]{DEFAULT} Admins: if you see a newbie doing bad force him to type !rtfm. Go in !admin menu, Force to Website, Force Player to Website, select his name, Empires Quick-Start Guide."
-		"flags"	""
-	}
-	
-	"23"
-	{
-		"type"	"S"
-		"text"	"{GREEN}[TIPS]{DEFAULT} Type {GREEN}!commander <be|nf>{DEFAULT} to see who was in the Command Vehicle last."
-	}
-	
-	"24"
-	{
-		"type"	"S"
-		"text"	"{GREEN}[TIPS]{DEFAULT} To see the (almost) full list of commands available type {GREEN}!commandlist{DEFAULT}."
-	}
-	
-	"26"
-	{
-		"type"	"S"
-		"text"	"{GREEN}[TIPS]{DEFAULT} To communicate with your Commander privately {GREEN}open teamchat{DEFAULT} and type {GREEN},{DEFAULT} (comma) followed by your message."
-	}
-	
-	"27"
-	{
-		"type"	"S"
-		"text"	"{GREEN}[TIPS]{DEFAULT} To communicate with your Commander publicly {GREEN}open teamchat{DEFAULT} and type {GREEN}.{DEFAULT} (dot) followed by your message."
-	}
-	
-	"28"
-	{
-		"type"	"S"
-		"text"	"{GREEN}[TIPS]{DEFAULT} To see what skills your squadmaters are using type {GREEN}!squadskills{DEFAULT}."
-	}
-	
-	"29"
-	{
-		"type"	"S"
-		"text"	"{GREEN}[TIPS]{DEFAULT} Is there something wrong with the server? Something you do not like? Type {GREEN}!feedback{DEFAULT} and open an issue, your voice will be heard."
-	}
-	
-	"30"
-	{
-		"type"	"S"
-		"text"	"{GREEN}[TIPS]{DEFAULT} To get notified of server events join our steam group by typing {GREEN}!steamgroup{DEFAULT}."
-	}
-	
-	"31"
-	{
-		"type"	"S"
-		"text"	"{GREEN}[TIPS]{DEFAULT} To access the Hardcore Empires' Wiki type {GREEN}!wiki{DEFAULT}."
-	}
-	
-	"32"
-	{
-		"type"	"S"
-		"text"	"{GREEN}[TIPS]{DEFAULT} Join our discord! type {GREEN}!discord{DEFAULT}."
-	}
-	
-	"33"
-	{
-		"type"	"S"
-		"text"	"{GREEN}[TIPS]{DEFAULT} Has someone been griefing? type {GREEN}!report{DEFAULT} to report them and fill up as many details as possible."
-	}
-	
-	"34"
-	{
-		"type"	"S"
-		"text"	"{GREEN}[TIPS]{DEFAULT} Have you been muted or banned unfairly? {GREEN}!appeal{DEFAULT} to appeal for your bad behavior."
-	}
-	
-	"35"
-	{
-		"type"	"S"
-		"text"	"{GREEN}[TIPS]{DEFAULT} Admins: If you ban someone make sure to go to {GREEN}!sourcebans{DEFAULT} and fill the report with as many details as possible."
-		"flags"	""
-	}
-	
-	"36"
-	{
-		"type"	"S"
-		"text"	"{GREEN}[TIPS]{DEFAULT} To request to be made Squad Leader to your Commander type {GREEN}!rsl{DEFAULT}."
-	}
-	
-	"37"
-	{
-		"type"	"S"
-		"text"	"{GREEN}[TIPS]{DEFAULT} Type {GREEN}!empstats{DEFAULT} to see your rank."
-	}
-	
-	"38"
-	{
-		"type"	"S"
-		"text"	"{GREEN}[TIPS]{DEFAULT} Type {GREEN}!commstats{DEFAULT} to see your commander stats."
-	}
-	
-	"39"
-	{
-		"type"	"S"
-		"text"	"{GREEN}[TIPS]{DEFAULT} Did you like your commander? Make sure to give him an upvote at the end of the turn by entering {GREEN}!upc{DEFAULT}."
-	}
-	"40"
-	{
-		"type"	"S"
-		"text"	"{GREEN}[TIPS]{DEFAULT} Commanders: restrict vehicle chassis use {GREEN}!restrict <chassis> <level>{DEFAULT}."
-	}
-	"41"
-	{
-		"type"	"S"
-		"text"	"{GREEN}[TIPS]{DEFAULT} Commanders: to give players access to a chassis use {GREEN}!pl <player> <level>{DEFAULT}."
+		"text"	"{GREEN}[TIPS]{DEFAULT} Commanders: to give players access to a chassis use {GREEN}/pl <player> <level>{DEFAULT}."
 	}
 	
 }
