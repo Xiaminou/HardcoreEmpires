@@ -478,6 +478,7 @@ Vehicle_Weapons
 		"Sound Reloading"	"Vehicle_Weapon.Reload"
 
 		"Damage Type"		"BulletExplosive"
+		"Damage"		"10"
 		"Ammo Type"		"2"		//for mguns only, 0 = nonarmor penetrating (no effect on armored vehicles), 1 = armor penetrating (hurts armored vehicles)
 		"Heat"			"1.5"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status) (default: 0.1)
 		"Weight"		"40"		//weight in terms of effects on engine and weight restrictions for chassis (default: 10)
@@ -999,19 +1000,19 @@ Vehicle_Weapons
 		"Sound Reloading"	"Vehicle_Weapon.Reload"
 
 		"Damage Type"		"ExplosiveArt"
-		"Damage"		"265"		//damage done by projectile (default: 50)
+		"Damage"		"100"		//damage done by projectile (default: 50)
 		"Speed"			"2000"		//speed of projectile (requires "type" 1, 2, 3 or 4)(default: 100)
 		"Gravity"		"0.55"		//effects of gravity on the projectile, only for projectiles (requires "type" 1, 2 or 4)(default: 1.0)
-		"Heat"			"15"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status) (default: 0.1)
+		"Heat"			"10"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status) (default: 0.1)
 		"Weight"		"60"		//weight in terms of effects on engine and weight restrictions for chassis (default: 10)
-		"Cycle Time"		"2.5"		//time between shots (default 0.1)
+		"Cycle Time"		"2"		//time between shots (default 0.1)
 		"Clip Size"		"10"		//ammo loaded per reloads (default: 10)
-		"Total Ammo Clips"	"4"		//max ammo clips carried (0 is the same as not using clips) (default: 1)
-		"Reload Time"		"4.5"		//time to load one clip
+		"Total Ammo Clips"	"3"		//max ammo clips carried (0 is the same as not using clips) (default: 1)
+		"Reload Time"		"6"		//time to load one clip
 		"Projectile Spread"	"0.001"		//spread (default: 0.001)
 		"Heat to Target"	"0"		//heat added to target on hit (default: 0.1)
 		"Explosion Radius"	"700"		//radius of damage sphere to hurt surrounding entities (default: 0)
-		"Explosion Force"	"6000"		//force of explosion (default: 0)
+		"Explosion Force"	"3000"		//force of explosion (default: 0)
 		"Explosion Sprite"	"13"
 		"Muzzle Flash"		"muzzle_default_arty"
 		
@@ -1035,19 +1036,19 @@ Vehicle_Weapons
 		"Sound Reloading"	"Vehicle_Weapon.Reload"
 
 		"Damage Type"		"ExplosiveArt"
-		"Damage"		"375"		//damage done by projectile (default: 50)
+		"Damage"		"175"		//damage done by projectile (default: 50)
 		"Speed"			"1900"		//speed of projectile (requires "type" 1, 2, 3 or 4)(default: 100)
 		"Gravity"		"0.57"		//effects of gravity on the projectile, only for projectiles (requires "type" 1, 2 or 4)(default: 1.0)
-		"Heat"			"25"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status) (default: 0.1)
+		"Heat"			"20"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status) (default: 0.1)
 		"Weight"		"75"		//weight in terms of effects on engine and weight restrictions for chassis (default: 10)
-		"Cycle Time"		"4.75"		//time between shots (default 0.1)
+		"Cycle Time"		"3"		//time between shots (default 0.1)
 		"Clip Size"		"10"		//ammo loaded per reloads (default: 10)
 		"Total Ammo Clips"	"3"		//max ammo clips carried (0 is the same as not using clips) (default: 1)
 		"Reload Time"		"8.0"		//time to load one clip
 		"Projectile Spread"	"0.001"		//spread (default: 0.001)
 		"Heat to Target"	"0"		//heat added to target on hit (default: 0.1)
 		"Explosion Radius"	"800"		//radius of damage sphere to hurt surrounding entities (default: 0)
-		"Explosion Force"	"7500"		//force of explosion (default: 0)
+		"Explosion Force"	"4000"		//force of explosion (default: 0)
 		"Explosion Sprite"	"13"
 		"Muzzle Flash"		"muzzle_default_arty"
 		
