@@ -1075,7 +1075,7 @@ Vehicle_Weapons
 		"Damage"		"200"		//damage done by projectile (default: 50)
 		"Speed"			"1800"		//speed of projectile (requires "type" 1, 2, 3 or 4)(default: 100)
 		"Gravity"		"0.4"		//effects of gravity on the projectile, only for projectiles (requires "type" 1, 2 or 4)(default: 1.0)
-		"Heat"			"15"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status) (default: 0.1)
+		"Heat"			"25"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status) (default: 0.1)
 		"Weight"		"100"		//weight in terms of effects on engine and weight restrictions for chassis (default: 10)
 		"Cycle Time"		"3.5"		//time between shots (default 0.1)
 		"Clip Size"		"10"		//ammo loaded per reloads (default: 10)
