@@ -39,7 +39,7 @@
 		"Base Weight"		"694"           // was 500
 		"Cost"			"220"		//cost of just the chassis in resources
 		
-		"Recycling Max CarcassHealth" "150"
+		"Recycling Max CarcassHealth"	"150"
 		"Friendly Recycling Percentage"	"0.5"	//The percentage of the cost of a friendly vehicle that is reimbursed when recycling a dead vehicle carcass.
 		"Enemy Recycling Percentage"	"0.5"	//The percentage of the cost of an enemy vehicle that is reimbursed when recycling a dead vehicle carcass.
 
@@ -56,11 +56,11 @@
 		"Seat_2_Ducking"		"1"
 		"Seat_2_Turret"			"0"
 
-//Turret properties
-"Seat 1 Min Pitch" "5" 
-"Seat 1 Max Pitch" "-30" 
-"Seat 1 Min Pitch Rear" "2" 
-"Seat 1 Max Pitch Rear" "-30" 
+		//Turret properties
+		"Seat 1 Min Pitch" "5" 
+		"Seat 1 Max Pitch" "-30" 
+		"Seat 1 Min Pitch Rear" "2" 
+		"Seat 1 Max Pitch Rear" "-30" 
 
 		"Turret Turn Rate"  "7000" // speed at which the turret turns
 		"Cannon Turn Rate"  "7000" // speed at which the cannon moves

@@ -56,11 +56,11 @@
 		"Seat_2_PersonalWeapons"	"1"
 		"Seat_2_Turret"			"0"
 
-//Turret properties
-"Seat 1 Min Pitch" "10" 
-"Seat 1 Max Pitch" "-30" 
-"Seat 1 Min Pitch Rear" "3" 
-"Seat 1 Max Pitch Rear" "-30" 
+		//Turret properties
+		"Seat 1 Min Pitch" "10" 
+		"Seat 1 Max Pitch" "-30" 
+		"Seat 1 Min Pitch Rear" "3" 
+		"Seat 1 Max Pitch Rear" "-30" 
 
 		"Turret Turn Rate"  "7000" // speed at which the turret turns
 		"Cannon Turn Rate"  "7000" // speed at which the cannon moves
