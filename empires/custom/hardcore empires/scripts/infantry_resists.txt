@@ -3,35 +3,6 @@ InfantryParse
 {
 	"Scout"
 	{
-		//Research Tree
-		"GeneralPhysicsResist"		"0.0"	//Plasma MG, Plasma Cannon Prot., Plasma Cannon
-		"GeneralChemistryResist	"  	"0.1" 	//Grenade Launcher, High-Explosive Grenade Launcher
-		"GeneralMechanicalResist" 	"0.0"	//
-		"GeneralElectricResist"  	"0.0"	//
-		"GeneralBiologicalResist"	"0.0" 	//
-
-		//Vehicle: Cannons
-		"KineticResist" 		"0.0" 	//Standard Cannon, Railguns, Ranged Cannons
-		"ExplosiveResist" 		"0.1"	//High Explosive Cannons, Grenade Launchers
-		"BioArtResist" 			"0.0"   //Biological Cannons
-		
-		//Biological
-		"BioResist" 			"0.0"	//Biological DoT?
-
-		//Vehicle: Machine Guns
-		"BulletResist" 			"0.35"	//Standard MG, .50cal MG, Chain Guns
-		"APBulletResist" 		"0.3" 	//Biological Machine Gun, Depleted Uranium MG, Depleted Uranium HMG
-		"BulletExplosiveResist" 	"0.4"	//HE MG, HE HMG
-
-		//Vehicle: Missiles
-		"MissileResist" 		"0.0"	//Standard ML, Upgraded ML, Heavy-Duty ML, Biological Warhead, Virulent Warhead, Salvo ML, Advanced Salvo ML, Guided ML, TOW Guided ML, Homing Missile Launcher, Improved Homing ML, Salvo Homing ML, ML Turrets
-		"MissileExplosiveResist" 	"0.55" 	//Nuclear Missile
-		"MissileBioResist" 		"0.0"	//
-
-		//Vehicle: Artillery
-		"KineticArtResist" 		"0.1" 	//Ranged Artillery Cannon
-		"ExplosiveArtResist" 		"0.15" 	//180mm Artillery Cannon, 203mm Artillery Cannon, High Explosive Artillery
-		
 		//Infantry
 		"InfantryGrenadeResist" 	"0.2" 	//HE Grenades
 		"InfantryMineResist" 		"0.3"	//Mines
@@ -41,22 +12,53 @@ InfantryParse
 		"InfantrySeismicResist" 	"0.9"	//Seismic Grenades
 		"InfantryBulletResist" 		"0.2"	//Infantry Guns
 		"InfantryUtilityResist"		"1.0"	//Utility Grenades, Like smoke and concussion
+		
+		//Biological
+		"BioResist" 			"0.0"	//Biological DoT?
+		
+		//Vehicle: Plasma
+		"GeneralPhysicsResist"		"0.0"	//Plasma MG, High Energy Plasma MG,  Plasma Cannon Prot., Plasma Cannon
+		
+		//Vehicle: Cannons
+		"KineticResist" 		"0.0" 	//Standard Cannon, Railgun, Overcharged Railgun, Ranged Cannon, Heavy-duty Ranged Cn.
+		"ExplosiveResist" 		"0.1"	//High-Explosive Cannon, Thermobaric Cannon
+		"BioArtResist" 			"0.0"   //Biological Cannon, Virulent Cannon
 
-		//Extra
+		//Vehicle: Machine Guns
+		"BulletResist" 			"0.35"	//Standard Machine Gun, .50 Cal Medium MG, .50 Cal Heavy MG, Chain Gun, Medium Chain Gun
+		"APBulletResist" 		"0.3" 	//Biological Machine Gun, Depleted Uranium MG, Depleted Uranium HMG
+		"BulletExplosiveResist" 	"0.4"	//HE MG, HE HMG
+
+		//Vehicle: Missiles
+		"MissileResist" 		"0.0"	//Standard ML, Upgraded ML, Heavy-Duty ML, Biological Warhead, Virulent Warhead, Salvo ML, Advanced Salvo ML, Guided ML, TOW Guided ML, Homing Missile Launcher, Improved Homing ML, Salvo Homing ML, ML Turrets
+		"MissileExplosiveResist" 	"0.55" 	//Nuclear Missile
+		
+		//Vehicle: Artillery
+		"KineticArtResist" 		"0.1" 	//Ranged Artillery Cannon
+		"ExplosiveArtResist" 		"0.15" 	//180mm Artillery Cannon, 203mm Artillery Cannon, High Explosive Artillery
+		
+		//Vehicle: Grenade Launchers
+		"GeneralChemistryResist	"  	"0.1" 	//Grenade Launcher, High-Explosive Grenade Launcher
+
+		//Unused
+		"GeneralMechanicalResist" 	"0.0"	//unused
+		"GeneralElectricResist"  	"0.0"	//
+		"GeneralBiologicalResist"	"0.0" 	//
+		"MissileBioResist" 		"0.0"	//
 		"ExtraType1Resist" 		"0.95" 	//?
 		"ExtraType2Resist" 		"0.95" 	//?
 		"ExtraType3Resist" 		"0.95" 	//?
 	}
 	"Rifleman"
 	{
-		"GeneralPhysicsResist"		"0.1"	//Plasma MG, Plasma Cannon Prot., Plasma Cannon
+		"GeneralPhysicsResist"		"0.1"	//Plasma MG, High Energy Plasma MG,  Plasma Cannon Prot., Plasma Cannon
 		"GeneralChemistryResist	"  	"0.1" 	//Grenade Launcher, High-Explosive Grenade Launcher
 		"GeneralMechanicalResist" 	"0.1"	//
 		"GeneralElectricResist"  	"0.1"	//
 		"GeneralBiologicalResist"	"0.1" 	//
 
 		//Vehicle: Cannons
-		"KineticResist" 		"0.1" 	//Kinetic CannonsRailguns, Standard Cannons, Anything that is just force
+		"KineticResist" 		"0.1" 	//Standard Cannon, Railgun, Overcharged Railgun, Ranged Cannon, Heavy-duty Ranged Cn.
 		"ExplosiveResist" 		"0.1"	//Explosive Cannons: HE etc...
 		"BioResist" 			"0.1"	//Bio Cannons
 
@@ -97,13 +99,13 @@ InfantryParse
 	"Grenadier"
 	{
 	
-		"GeneralPhysicsResist"		"0.3"	//Plasma MG, Plasma Cannon Prot., Plasma Cannon
+		"GeneralPhysicsResist"		"0.3"	//Plasma MG, High Energy Plasma MG,  Plasma Cannon Prot., Plasma Cannon
 		"GeneralChemistryResist	"  	"0.4" 	//Grenade Launcher, High-Explosive Grenade Launcher
 		"GeneralMechanicalResist" 	"0.3"	//
 		"GeneralElectricResist"  	"0.3"	//
 		"GeneralBiologicalResist"	"0.3" 	//
 
-		"KineticResist" 		"0.3" 	//Railguns, Standard Cannons, Anything that is just force
+		"KineticResist" 		"0.3" 	//Standard Cannon, Railgun, Overcharged Railgun, Ranged Cannon, Heavy-duty Ranged Cn.
 		"ExplosiveResist" 		"0.4"	//HE, Nukes, anything that explodes
 
 		"BioResist" 			"0.3"	//Has the bio effect
@@ -144,7 +146,7 @@ InfantryParse
 	"Engineer"
 	{
 	
-		"GeneralPhysicsResist"		"0.0"	//Plasma MG, Plasma Cannon Prot., Plasma Cannon
+		"GeneralPhysicsResist"		"0.0"	//Plasma MG, High Energy Plasma MG,  Plasma Cannon Prot., Plasma Cannon
 		"GeneralChemistryResist	"  	"0.1" 	//Grenade Launcher, High-Explosive Grenade Launcher
 		"GeneralMechanicalResist" 	"0.0"	//
 		"GeneralElectricResist"  	"0.0"	//
