@@ -6,7 +6,7 @@
 	"Silent"	"0"
 	"Url"		"https://www.empiresmod.com/docs/quickstart/quick_start.html"
 }
-"Empires"
+"!empires"
 {
 	"Title"		"Empires Home Page"
 	"Hook"		"!empires"
@@ -107,8 +107,10 @@
 	"Title"		"steamgroup"
 	"Hook"		"!steamgroup"
 	"Hook"		"/steamgroup"
+	"Hook"		"/motd"
+	"Hook"		"!motd"
 	"Silent"	"0"
-	"Url"		"http://steamcommunity.com/groups/hardcoreempires"
+	"Url"		"https://steamcommunity.com/groups/hardcoreempires"
 }
 "squadcontrol"
 {

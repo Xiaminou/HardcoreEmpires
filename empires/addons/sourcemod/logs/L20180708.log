@@ -1,0 +1,87 @@
+L 07/08/2018 - 00:00:20: SourceMod log file session started (file "L20180708.log") (Version "1.8.0.5912")
+L 07/08/2018 - 00:00:20: [SM] Changed map to "emp_streetsoffire_fix"
+L 07/08/2018 - 00:00:21: -------- Mapchange to emp_streetsoffire_fix --------
+L 07/08/2018 - 00:00:23: [autorecorder.smx] Recording to auto-20180708-000023-emp_streetsoffire_fix.dem
+L 07/08/2018 - 00:00:32: [security_entity_limit.smx] [SEL] 578 entities have been protected from deleting.This map contain 1470 free entity slot!
+L 07/08/2018 - 00:26:48: [saysounds.smx] [Say Sounds] Enabled, Hooking Events
+L 07/08/2018 - 00:26:48: [saysounds.smx] [Say Sounds] No specific game detected
+L 07/08/2018 - 00:28:33: [SM] Changed map to "emp_beachfront_b2_hce"
+L 07/08/2018 - 00:28:33: -------- Mapchange to emp_beachfront_b2_hce --------
+L 07/08/2018 - 00:28:34: [autorecorder.smx] Recording to auto-20180708-002834-emp_beachfront_b2_hce.dem
+L 07/08/2018 - 00:28:43: [security_entity_limit.smx] [SEL] 172 entities have been protected from deleting.This map contain 1876 free entity slot!
+L 07/08/2018 - 00:55:46: [saysounds.smx] [Say Sounds] Enabled, Hooking Events
+L 07/08/2018 - 00:55:46: [saysounds.smx] [Say Sounds] No specific game detected
+L 07/08/2018 - 00:56:52: [SM] Changed map to "emp_crossroads_towerless_hce"
+L 07/08/2018 - 00:56:53: -------- Mapchange to emp_crossroads_towerless_hce --------
+L 07/08/2018 - 00:56:55: [autorecorder.smx] Recording to auto-20180708-005655-emp_crossroads_towerless_hce.dem
+L 07/08/2018 - 00:57:04: [security_entity_limit.smx] [SEL] 574 entities have been protected from deleting.This map contain 1474 free entity slot!
+L 07/08/2018 - 01:00:08: [saysounds.smx] [Say Sounds] Disabled, Unhooking Events
+L 07/08/2018 - 14:42:29: SourceMod log file session started (file "L20180708.log") (Version "1.8.0.5912")
+L 07/08/2018 - 14:42:29: -------- Mapchange to con_district402 --------
+L 07/08/2018 - 14:42:30: [saysounds.smx] [Say Sounds] No specific game detected
+L 07/08/2018 - 14:42:30: [security_entity_limit.smx] Security Entity Limit [SEL] Activate!
+L 07/08/2018 - 14:42:30: [security_entity_limit.smx] [SEL]Current version: 0.5.4
+Plugin made by Benoist3012!
+L 07/08/2018 - 14:42:41: [security_entity_limit.smx] [SEL] 434 entities have been protected from deleting.This map contain 1614 free entity slot!
+L 07/08/2018 - 15:43:09: [SM] Changed map to "emp_beachfront_b2_hce"
+L 07/08/2018 - 15:43:10: -------- Mapchange to emp_beachfront_b2_hce --------
+L 07/08/2018 - 15:43:21: [security_entity_limit.smx] [SEL] 161 entities have been protected from deleting.This map contain 1887 free entity slot!
+L 07/08/2018 - 15:55:05: [SM] Changed map to "emp_crossroads_towerless_hce"
+L 07/08/2018 - 15:55:06: -------- Mapchange to emp_crossroads_towerless_hce --------
+L 07/08/2018 - 15:55:16: [security_entity_limit.smx] [SEL] 571 entities have been protected from deleting.This map contain 1477 free entity slot!
+L 07/08/2018 - 15:57:09: [saysounds.smx] [Say Sounds] Disabled, Unhooking Events
+L 07/08/2018 - 15:57:09: [autorecorder.smx] Recording to auto-20180708-155709-emp_crossroads_towerless_hce.dem
+L 07/08/2018 - 19:33:06: [basechat.smx] "Mr. X.<7><[U:1:27106968]><>" triggered sm_say (text yeah BE don't harass NF)
+L 07/08/2018 - 19:33:09: [basechat.smx] "Mr. X.<7><[U:1:27106968]><>" triggered sm_say (text people are learning)
+L 07/08/2018 - 19:50:27: [saysounds.smx] [Say Sounds] Enabled, Hooking Events
+L 07/08/2018 - 19:50:27: [saysounds.smx] [Say Sounds] No specific game detected
+L 07/08/2018 - 19:51:32: [SM] Changed map to "emp_vehicletraining_2013"
+L 07/08/2018 - 19:51:32: -------- Mapchange to emp_vehicletraining_2013 --------
+L 07/08/2018 - 19:51:33: [autorecorder.smx] Recording to auto-20180708-195133-emp_vehicletraining_2013.dem
+L 07/08/2018 - 19:51:43: [security_entity_limit.smx] [SEL] 352 entities have been protected from deleting.This map contain 1696 free entity slot!
+L 07/08/2018 - 19:52:45: [saysounds.smx] [Say Sounds] Disabled, Unhooking Events
+L 07/08/2018 - 20:01:29: [playercommands.smx] "Mr. X.<7><[U:1:27106968]><>" slayed "lbvf1<13><[U:1:329087616]><>"
+L 07/08/2018 - 20:02:23: [basecommands.smx] "Mr. X.<7><[U:1:27106968]><>" kicked "lbvf1<13><[U:1:329087616]><>" (reason "")
+L 07/08/2018 - 20:03:58: [sbpp_main.smx] "Mr. X.<7><[U:1:27106968]><>" banned "lbvf1<21><[U:1:329087616]><>" (minutes "1440") (reason "General Exploit of Game/Map/Server")
+L 07/08/2018 - 20:04:56: [saysounds.smx] [Say Sounds] Enabled, Hooking Events
+L 07/08/2018 - 20:04:56: [saysounds.smx] [Say Sounds] No specific game detected
+L 07/08/2018 - 20:06:02: [SM] Changed map to "emp_downfall_hce"
+L 07/08/2018 - 20:06:02: -------- Mapchange to emp_downfall_hce --------
+L 07/08/2018 - 20:06:06: [autorecorder.smx] Recording to auto-20180708-200606-emp_downfall_hce.dem
+L 07/08/2018 - 20:06:12: [security_entity_limit.smx] [SEL] 168 entities have been protected from deleting.This map contain 1880 free entity slot!
+L 07/08/2018 - 20:06:37: [basecommands.smx] "Mr. X.<7><[U:1:27106968]><>" console command (cmdline "emp_allowspectators 1")
+L 07/08/2018 - 20:06:37: [basecommands.smx] "Mr. X.<7><[U:1:27106968]><>" console command (cmdline "emp_allowspectators 0")
+L 07/08/2018 - 21:04:18: [saysounds.smx] [Say Sounds] Enabled, Hooking Events
+L 07/08/2018 - 21:04:18: [saysounds.smx] [Say Sounds] No specific game detected
+L 07/08/2018 - 21:06:02: [SM] Changed map to "emp_palmbay_fix"
+L 07/08/2018 - 21:06:03: -------- Mapchange to emp_palmbay_fix --------
+L 07/08/2018 - 21:06:08: [autorecorder.smx] Recording to auto-20180708-210608-emp_palmbay_fix.dem
+L 07/08/2018 - 21:06:13: [security_entity_limit.smx] [SEL] 228 entities have been protected from deleting.This map contain 1820 free entity slot!
+L 07/08/2018 - 21:06:45: [basechat.smx] "Mr. X.<7><[U:1:27106968]><>" triggered sm_say (text IN YOUR ASS)
+L 07/08/2018 - 21:52:54: [saysounds.smx] [Say Sounds] Enabled, Hooking Events
+L 07/08/2018 - 21:52:54: [saysounds.smx] [Say Sounds] No specific game detected
+L 07/08/2018 - 21:54:38: [SM] Changed map to "emp_arid_hce"
+L 07/08/2018 - 21:54:39: -------- Mapchange to emp_arid_hce --------
+L 07/08/2018 - 21:54:40: [autorecorder.smx] Recording to auto-20180708-215440-emp_arid_hce.dem
+L 07/08/2018 - 21:54:49: [security_entity_limit.smx] [SEL] 843 entities have been protected from deleting.This map contain 1205 free entity slot!
+L 07/08/2018 - 22:24:14: [saysounds.smx] [Say Sounds] Enabled, Hooking Events
+L 07/08/2018 - 22:24:14: [saysounds.smx] [Say Sounds] No specific game detected
+L 07/08/2018 - 22:25:59: [SM] Changed map to "emp_cyclopean"
+L 07/08/2018 - 22:26:00: -------- Mapchange to emp_cyclopean --------
+L 07/08/2018 - 22:26:01: [autorecorder.smx] Recording to auto-20180708-222601-emp_cyclopean.dem
+L 07/08/2018 - 22:26:10: [security_entity_limit.smx] [SEL] 516 entities have been protected from deleting.This map contain 1532 free entity slot!
+L 07/08/2018 - 22:30:16: [saysounds.smx] [Say Sounds] No specific game detected
+L 07/08/2018 - 23:32:10: [playercommands.smx] "Mr. X.<67><[U:1:27106968]><>" slapped "Mr. X.<67><[U:1:27106968]><>" (damage "0")
+L 07/08/2018 - 23:32:16: [playercommands.smx] "Mr. X.<67><[U:1:27106968]><>" slapped "Mr. X.<67><[U:1:27106968]><>" (damage "0")
+L 07/08/2018 - 23:32:19: [playercommands.smx] "Mr. X.<67><[U:1:27106968]><>" slapped "Mr. X.<67><[U:1:27106968]><>" (damage "0")
+L 07/08/2018 - 23:39:32: [saysounds.smx] [Say Sounds] Enabled, Hooking Events
+L 07/08/2018 - 23:39:32: [saysounds.smx] [Say Sounds] No specific game detected
+L 07/08/2018 - 23:41:17: [SM] Changed map to "emp_duststorm_fix2"
+L 07/08/2018 - 23:41:17: -------- Mapchange to emp_duststorm_fix2 --------
+L 07/08/2018 - 23:41:19: [autorecorder.smx] Recording to auto-20180708-234119-emp_duststorm_fix2.dem
+L 07/08/2018 - 23:41:27: [security_entity_limit.smx] [SEL] 262 entities have been protected from deleting.This map contain 1786 free entity slot!
+L 07/08/2018 - 23:46:40: [basechat.smx] "Mr. X.<67><[U:1:27106968]><>" triggered sm_say (text FUCKING ANSWER ME)
+L 07/08/2018 - 23:46:47: [basechat.smx] "Mr. X.<67><[U:1:27106968]><>" triggered sm_say (text DOES NF HAVE A COMPETENT COMMANDER OR NOT)
+L 07/08/2018 - 23:47:07: [basechat.smx] "Mr. X.<67><[U:1:27106968]><>" triggered sm_say (text then who is in the commander vote?)
+L 07/08/2018 - 23:47:29: [basechat.smx] "Mr. X.<67><[U:1:27106968]><>" triggered sm_say (text DO NOT OPT IN UNLESS YOU KNOW WHAT YOU'RE DOING)
+L 07/08/2018 - 23:47:35: [basechat.smx] "Mr. X.<67><[U:1:27106968]><>" triggered sm_say (text GRIEFING WILL BE BANNED)

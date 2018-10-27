@@ -1,0 +1,30 @@
+"Games"
+{
+	"#default"
+	{
+		"Signatures"
+		{
+			"SV_BroadcastVoiceData"
+			{
+				"library"	"engine"
+				"windows"	"\x55\x8B\xEC\xA1\x2A\x2A\x2A\x2A\x83\xEC\x50\x83\x78\x30\x00"
+				"linux"		"@_Z21SV_BroadcastVoiceDataP7IClientiPcx"
+				"mac"		"@_Z21SV_BroadcastVoiceDataP7IClientiPcx"
+			}
+		}
+	}
+
+	"csgo"
+	{
+		"Signatures"
+		{
+			"SV_BroadcastVoiceData"
+			{
+				"library"	"engine"
+				"windows"	"\x55\x8B\xEC\x81\xEC\xD0\x00\x00\x00\x53\x56\x57\x8B\xD9\x8B\xF2\x68\x2A\x2A\x2A\x2A"
+				"linux"		"@_Z21SV_BroadcastVoiceDataP7IClientiPcx"
+				"mac"		"@_Z21SV_BroadcastVoiceDataP7IClientiPcx"
+			}
+		}
+	}
+}

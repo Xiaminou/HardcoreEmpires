@@ -1,0 +1,385 @@
+L 07/14/2018 - 00:01:38: SourceMod error session started
+L 07/14/2018 - 00:01:38: Info (map "con_glycencity") (file "errors_20180714.log")
+L 07/14/2018 - 00:01:38: [SM] Exception reported: Invalid timer handle 362d031a (error 1)
+L 07/14/2018 - 00:01:38: [SM] Blaming: umc-emp-mapvote.smx()
+L 07/14/2018 - 00:01:38: [SM] Call stack trace:
+L 07/14/2018 - 00:01:38: [SM]   [0] KillTimer
+L 07/14/2018 - 00:01:38: [SM]   [1] Line 686, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-emp-mapvote.sp::UMC_OnNextmapSet()
+L 07/14/2018 - 00:01:38: [SM]   [3] Call_Finish
+L 07/14/2018 - 00:01:38: [SM]   [4] Line 4834, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::DoMapChange()
+L 07/14/2018 - 00:01:38: [SM]   [5] Line 4267, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteWinner()
+L 07/14/2018 - 00:01:38: [SM]   [6] Line 3819, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteWinner()
+L 07/14/2018 - 00:01:38: [SM]   [7] Line 3795, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteResults()
+L 07/14/2018 - 00:01:38: [SM]   [8] Line 1277, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Native_UMCVoteManagerComplete()
+L 07/14/2018 - 00:01:38: [SM]   [10] UMC_VoteManagerVoteCompleted
+L 07/14/2018 - 00:01:38: [SM]   [11] Line 2309, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteResults()
+L 07/14/2018 - 00:01:45: Error log file session closed.
+L 07/14/2018 - 00:01:47: SourceMod error session started
+L 07/14/2018 - 00:01:47: Info (map "emp_shadows_attacks_fix") (file "errors_20180714.log")
+L 07/14/2018 - 00:01:47: [SM] Exception reported: Invalid hook callback specified for game event "player_disconnect"
+L 07/14/2018 - 00:01:47: [SM] Blaming: empstats.smx()
+L 07/14/2018 - 00:01:47: [SM] Call stack trace:
+L 07/14/2018 - 00:01:47: [SM]   [0] UnhookEvent
+L 07/14/2018 - 00:01:47: [SM]   [1] Line 323, dist\addons\sourcemod\scripting\empstats.sp::Deactivate()
+L 07/14/2018 - 00:01:47: [SM]   [2] Line 290, dist\addons\sourcemod\scripting\empstats.sp::CheckActivate()
+L 07/14/2018 - 00:01:47: [SM]   [3] Line 1610, dist\addons\sourcemod\scripting\empstats.sp::EndMapChange()
+L 07/14/2018 - 00:01:54: [SM] Exception reported: Invalid hook callback specified for game event "player_disconnect"
+L 07/14/2018 - 00:01:54: [SM] Blaming: empstats.smx()
+L 07/14/2018 - 00:01:54: [SM] Call stack trace:
+L 07/14/2018 - 00:01:54: [SM]   [0] UnhookEvent
+L 07/14/2018 - 00:01:54: [SM]   [1] Line 323, dist\addons\sourcemod\scripting\empstats.sp::Deactivate()
+L 07/14/2018 - 00:01:54: [SM]   [2] Line 290, dist\addons\sourcemod\scripting\empstats.sp::CheckActivate()
+L 07/14/2018 - 00:01:54: [SM]   [3] Line 682, dist\addons\sourcemod\scripting\empstats.sp::OnClientPostAdminCheck()
+L 07/14/2018 - 00:01:59: [SM] Exception reported: Invalid hook callback specified for game event "player_disconnect"
+L 07/14/2018 - 00:01:59: [SM] Blaming: empstats.smx()
+L 07/14/2018 - 00:01:59: [SM] Call stack trace:
+L 07/14/2018 - 00:01:59: [SM]   [0] UnhookEvent
+L 07/14/2018 - 00:01:59: [SM]   [1] Line 323, dist\addons\sourcemod\scripting\empstats.sp::Deactivate()
+L 07/14/2018 - 00:01:59: [SM]   [2] Line 290, dist\addons\sourcemod\scripting\empstats.sp::CheckActivate()
+L 07/14/2018 - 00:01:59: [SM]   [3] Line 682, dist\addons\sourcemod\scripting\empstats.sp::OnClientPostAdminCheck()
+L 07/14/2018 - 00:20:16: [SM] Exception reported: Invalid timer handle 3b02033b (error 1)
+L 07/14/2018 - 00:20:16: [SM] Blaming: umc-emp-mapvote.smx()
+L 07/14/2018 - 00:20:16: [SM] Call stack trace:
+L 07/14/2018 - 00:20:16: [SM]   [0] KillTimer
+L 07/14/2018 - 00:20:16: [SM]   [1] Line 686, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-emp-mapvote.sp::UMC_OnNextmapSet()
+L 07/14/2018 - 00:20:16: [SM]   [3] Call_Finish
+L 07/14/2018 - 00:20:16: [SM]   [4] Line 4834, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::DoMapChange()
+L 07/14/2018 - 00:20:16: [SM]   [5] Line 4267, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteWinner()
+L 07/14/2018 - 00:20:16: [SM]   [6] Line 3819, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteWinner()
+L 07/14/2018 - 00:20:16: [SM]   [7] Line 3795, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteResults()
+L 07/14/2018 - 00:20:16: [SM]   [8] Line 1277, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Native_UMCVoteManagerComplete()
+L 07/14/2018 - 00:20:16: [SM]   [10] UMC_VoteManagerVoteCompleted
+L 07/14/2018 - 00:20:16: [SM]   [11] Line 2309, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteResults()
+L 07/14/2018 - 00:20:22: Error log file session closed.
+L 07/14/2018 - 00:20:24: SourceMod error session started
+L 07/14/2018 - 00:20:24: Info (map "con_district402") (file "errors_20180714.log")
+L 07/14/2018 - 00:20:24: [SM] Exception reported: Invalid hook callback specified for game event "player_disconnect"
+L 07/14/2018 - 00:20:24: [SM] Blaming: empstats.smx()
+L 07/14/2018 - 00:20:24: [SM] Call stack trace:
+L 07/14/2018 - 00:20:24: [SM]   [0] UnhookEvent
+L 07/14/2018 - 00:20:24: [SM]   [1] Line 323, dist\addons\sourcemod\scripting\empstats.sp::Deactivate()
+L 07/14/2018 - 00:20:24: [SM]   [2] Line 290, dist\addons\sourcemod\scripting\empstats.sp::CheckActivate()
+L 07/14/2018 - 00:20:24: [SM]   [3] Line 1610, dist\addons\sourcemod\scripting\empstats.sp::EndMapChange()
+L 07/14/2018 - 00:20:24: [SM] Exception reported: Invalid hook callback specified for game event "player_disconnect"
+L 07/14/2018 - 00:20:24: [SM] Blaming: empstats.smx()
+L 07/14/2018 - 00:20:24: [SM] Call stack trace:
+L 07/14/2018 - 00:20:24: [SM]   [0] UnhookEvent
+L 07/14/2018 - 00:20:24: [SM]   [1] Line 323, dist\addons\sourcemod\scripting\empstats.sp::Deactivate()
+L 07/14/2018 - 00:20:24: [SM]   [2] Line 290, dist\addons\sourcemod\scripting\empstats.sp::CheckActivate()
+L 07/14/2018 - 00:20:24: [SM]   [3] Line 682, dist\addons\sourcemod\scripting\empstats.sp::OnClientPostAdminCheck()
+L 07/14/2018 - 00:20:24: [SM]   [5] NotifyPostAdminCheck
+L 07/14/2018 - 00:20:24: [SM]   [6] Line 2559, .\sbpp_main.sp::CheckLoadAdmins()
+L 07/14/2018 - 00:20:24: [SM]   [7] Line 1831, .\sbpp_main.sp::AdminsDone()
+L 07/14/2018 - 00:20:25: [SM] Exception reported: Invalid hook callback specified for game event "player_disconnect"
+L 07/14/2018 - 00:20:25: [SM] Blaming: empstats.smx()
+L 07/14/2018 - 00:20:25: [SM] Call stack trace:
+L 07/14/2018 - 00:20:25: [SM]   [0] UnhookEvent
+L 07/14/2018 - 00:20:25: [SM]   [1] Line 323, dist\addons\sourcemod\scripting\empstats.sp::Deactivate()
+L 07/14/2018 - 00:20:25: [SM]   [2] Line 290, dist\addons\sourcemod\scripting\empstats.sp::CheckActivate()
+L 07/14/2018 - 00:20:25: [SM]   [3] Line 682, dist\addons\sourcemod\scripting\empstats.sp::OnClientPostAdminCheck()
+L 07/14/2018 - 00:20:27: [SM] Exception reported: Invalid hook callback specified for game event "player_disconnect"
+L 07/14/2018 - 00:20:27: [SM] Blaming: empstats.smx()
+L 07/14/2018 - 00:20:27: [SM] Call stack trace:
+L 07/14/2018 - 00:20:27: [SM]   [0] UnhookEvent
+L 07/14/2018 - 00:20:27: [SM]   [1] Line 323, dist\addons\sourcemod\scripting\empstats.sp::Deactivate()
+L 07/14/2018 - 00:20:27: [SM]   [2] Line 290, dist\addons\sourcemod\scripting\empstats.sp::CheckActivate()
+L 07/14/2018 - 00:20:27: [SM]   [3] Line 682, dist\addons\sourcemod\scripting\empstats.sp::OnClientPostAdminCheck()
+L 07/14/2018 - 00:31:56: [SM] Exception reported: Invalid timer handle 3f00036a (error 1)
+L 07/14/2018 - 00:31:56: [SM] Blaming: umc-emp-mapvote.smx()
+L 07/14/2018 - 00:31:56: [SM] Call stack trace:
+L 07/14/2018 - 00:31:56: [SM]   [0] KillTimer
+L 07/14/2018 - 00:31:56: [SM]   [1] Line 686, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-emp-mapvote.sp::UMC_OnNextmapSet()
+L 07/14/2018 - 00:31:56: [SM]   [3] Call_Finish
+L 07/14/2018 - 00:31:56: [SM]   [4] Line 4834, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::DoMapChange()
+L 07/14/2018 - 00:31:56: [SM]   [5] Line 4267, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteWinner()
+L 07/14/2018 - 00:31:56: [SM]   [6] Line 3819, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteWinner()
+L 07/14/2018 - 00:31:56: [SM]   [7] Line 3795, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteResults()
+L 07/14/2018 - 00:31:56: [SM]   [8] Line 1277, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Native_UMCVoteManagerComplete()
+L 07/14/2018 - 00:31:56: [SM]   [10] UMC_VoteManagerVoteCompleted
+L 07/14/2018 - 00:31:56: [SM]   [11] Line 2309, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteResults()
+L 07/14/2018 - 00:32:02: Error log file session closed.
+L 07/14/2018 - 00:32:04: SourceMod error session started
+L 07/14/2018 - 00:32:04: Info (map "emp_beachfront_b2_hce") (file "errors_20180714.log")
+L 07/14/2018 - 00:32:04: [SM] Exception reported: Invalid hook callback specified for game event "player_disconnect"
+L 07/14/2018 - 00:32:04: [SM] Blaming: empstats.smx()
+L 07/14/2018 - 00:32:04: [SM] Call stack trace:
+L 07/14/2018 - 00:32:04: [SM]   [0] UnhookEvent
+L 07/14/2018 - 00:32:04: [SM]   [1] Line 323, dist\addons\sourcemod\scripting\empstats.sp::Deactivate()
+L 07/14/2018 - 00:32:04: [SM]   [2] Line 290, dist\addons\sourcemod\scripting\empstats.sp::CheckActivate()
+L 07/14/2018 - 00:32:04: [SM]   [3] Line 1610, dist\addons\sourcemod\scripting\empstats.sp::EndMapChange()
+L 07/14/2018 - 00:32:06: [SM] Exception reported: Invalid hook callback specified for game event "player_disconnect"
+L 07/14/2018 - 00:32:06: [SM] Blaming: empstats.smx()
+L 07/14/2018 - 00:32:06: [SM] Call stack trace:
+L 07/14/2018 - 00:32:06: [SM]   [0] UnhookEvent
+L 07/14/2018 - 00:32:06: [SM]   [1] Line 323, dist\addons\sourcemod\scripting\empstats.sp::Deactivate()
+L 07/14/2018 - 00:32:06: [SM]   [2] Line 290, dist\addons\sourcemod\scripting\empstats.sp::CheckActivate()
+L 07/14/2018 - 00:32:06: [SM]   [3] Line 682, dist\addons\sourcemod\scripting\empstats.sp::OnClientPostAdminCheck()
+L 07/14/2018 - 00:32:06: [SM] Exception reported: Invalid hook callback specified for game event "player_disconnect"
+L 07/14/2018 - 00:32:06: [SM] Blaming: empstats.smx()
+L 07/14/2018 - 00:32:06: [SM] Call stack trace:
+L 07/14/2018 - 00:32:06: [SM]   [0] UnhookEvent
+L 07/14/2018 - 00:32:06: [SM]   [1] Line 323, dist\addons\sourcemod\scripting\empstats.sp::Deactivate()
+L 07/14/2018 - 00:32:06: [SM]   [2] Line 290, dist\addons\sourcemod\scripting\empstats.sp::CheckActivate()
+L 07/14/2018 - 00:32:06: [SM]   [3] Line 682, dist\addons\sourcemod\scripting\empstats.sp::OnClientPostAdminCheck()
+L 07/14/2018 - 01:14:59: [SM] Exception reported: Invalid timer handle 4ad0031e (error 1)
+L 07/14/2018 - 01:14:59: [SM] Blaming: umc-emp-mapvote.smx()
+L 07/14/2018 - 01:14:59: [SM] Call stack trace:
+L 07/14/2018 - 01:14:59: [SM]   [0] KillTimer
+L 07/14/2018 - 01:14:59: [SM]   [1] Line 686, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-emp-mapvote.sp::UMC_OnNextmapSet()
+L 07/14/2018 - 01:14:59: [SM]   [3] Call_Finish
+L 07/14/2018 - 01:14:59: [SM]   [4] Line 4834, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::DoMapChange()
+L 07/14/2018 - 01:14:59: [SM]   [5] Line 4267, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteWinner()
+L 07/14/2018 - 01:14:59: [SM]   [6] Line 3819, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteWinner()
+L 07/14/2018 - 01:14:59: [SM]   [7] Line 3795, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteResults()
+L 07/14/2018 - 01:14:59: [SM]   [8] Line 1277, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Native_UMCVoteManagerComplete()
+L 07/14/2018 - 01:14:59: [SM]   [10] UMC_VoteManagerVoteCompleted
+L 07/14/2018 - 01:14:59: [SM]   [11] Line 2309, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteResults()
+L 07/14/2018 - 01:15:04: Error log file session closed.
+L 07/14/2018 - 01:15:06: SourceMod error session started
+L 07/14/2018 - 01:15:06: Info (map "emp_nuclear_b8u_xfix") (file "errors_20180714.log")
+L 07/14/2018 - 01:15:06: [SM] Exception reported: Invalid hook callback specified for game event "player_disconnect"
+L 07/14/2018 - 01:15:06: [SM] Blaming: empstats.smx()
+L 07/14/2018 - 01:15:06: [SM] Call stack trace:
+L 07/14/2018 - 01:15:06: [SM]   [0] UnhookEvent
+L 07/14/2018 - 01:15:06: [SM]   [1] Line 323, dist\addons\sourcemod\scripting\empstats.sp::Deactivate()
+L 07/14/2018 - 01:15:06: [SM]   [2] Line 290, dist\addons\sourcemod\scripting\empstats.sp::CheckActivate()
+L 07/14/2018 - 01:15:06: [SM]   [3] Line 1610, dist\addons\sourcemod\scripting\empstats.sp::EndMapChange()
+L 07/14/2018 - 01:15:06: [SM] Exception reported: Invalid hook callback specified for game event "player_disconnect"
+L 07/14/2018 - 01:15:06: [SM] Blaming: empstats.smx()
+L 07/14/2018 - 01:15:06: [SM] Call stack trace:
+L 07/14/2018 - 01:15:06: [SM]   [0] UnhookEvent
+L 07/14/2018 - 01:15:06: [SM]   [1] Line 323, dist\addons\sourcemod\scripting\empstats.sp::Deactivate()
+L 07/14/2018 - 01:15:06: [SM]   [2] Line 290, dist\addons\sourcemod\scripting\empstats.sp::CheckActivate()
+L 07/14/2018 - 01:15:06: [SM]   [3] Line 682, dist\addons\sourcemod\scripting\empstats.sp::OnClientPostAdminCheck()
+L 07/14/2018 - 01:15:06: [SM]   [5] NotifyPostAdminCheck
+L 07/14/2018 - 01:15:06: [SM]   [6] Line 2559, .\sbpp_main.sp::CheckLoadAdmins()
+L 07/14/2018 - 01:15:06: [SM]   [7] Line 1831, .\sbpp_main.sp::AdminsDone()
+L 07/14/2018 - 01:15:08: [SM] Exception reported: Invalid hook callback specified for game event "player_disconnect"
+L 07/14/2018 - 01:15:08: [SM] Blaming: empstats.smx()
+L 07/14/2018 - 01:15:08: [SM] Call stack trace:
+L 07/14/2018 - 01:15:08: [SM]   [0] UnhookEvent
+L 07/14/2018 - 01:15:08: [SM]   [1] Line 323, dist\addons\sourcemod\scripting\empstats.sp::Deactivate()
+L 07/14/2018 - 01:15:08: [SM]   [2] Line 290, dist\addons\sourcemod\scripting\empstats.sp::CheckActivate()
+L 07/14/2018 - 01:15:08: [SM]   [3] Line 682, dist\addons\sourcemod\scripting\empstats.sp::OnClientPostAdminCheck()
+L 07/14/2018 - 01:15:08: [SM] Exception reported: Invalid hook callback specified for game event "player_disconnect"
+L 07/14/2018 - 01:15:08: [SM] Blaming: empstats.smx()
+L 07/14/2018 - 01:15:08: [SM] Call stack trace:
+L 07/14/2018 - 01:15:08: [SM]   [0] UnhookEvent
+L 07/14/2018 - 01:15:08: [SM]   [1] Line 323, dist\addons\sourcemod\scripting\empstats.sp::Deactivate()
+L 07/14/2018 - 01:15:08: [SM]   [2] Line 290, dist\addons\sourcemod\scripting\empstats.sp::CheckActivate()
+L 07/14/2018 - 01:15:08: [SM]   [3] Line 682, dist\addons\sourcemod\scripting\empstats.sp::OnClientPostAdminCheck()
+L 07/14/2018 - 01:18:03: [SM] Exception reported: Invalid timer handle 4ad0031e (error 1)
+L 07/14/2018 - 01:18:03: [SM] Blaming: umc-emp-mapvote.smx()
+L 07/14/2018 - 01:18:03: [SM] Call stack trace:
+L 07/14/2018 - 01:18:03: [SM]   [0] KillTimer
+L 07/14/2018 - 01:18:03: [SM]   [1] Line 686, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-emp-mapvote.sp::UMC_OnNextmapSet()
+L 07/14/2018 - 01:18:03: [SM]   [3] Call_Finish
+L 07/14/2018 - 01:18:03: [SM]   [4] Line 4834, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::DoMapChange()
+L 07/14/2018 - 01:18:03: [SM]   [5] Line 4267, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteWinner()
+L 07/14/2018 - 01:18:03: [SM]   [6] Line 3819, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteWinner()
+L 07/14/2018 - 01:18:03: [SM]   [7] Line 3795, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteResults()
+L 07/14/2018 - 01:18:03: [SM]   [8] Line 1277, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Native_UMCVoteManagerComplete()
+L 07/14/2018 - 01:18:03: [SM]   [10] UMC_VoteManagerVoteCompleted
+L 07/14/2018 - 01:18:03: [SM]   [11] Line 2309, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteResults()
+L 07/14/2018 - 01:18:09: Error log file session closed.
+L 07/14/2018 - 01:18:11: SourceMod error session started
+L 07/14/2018 - 01:18:11: Info (map "emp_crossroads_towerless_hce") (file "errors_20180714.log")
+L 07/14/2018 - 01:18:11: [SM] Exception reported: Invalid hook callback specified for game event "player_disconnect"
+L 07/14/2018 - 01:18:11: [SM] Blaming: empstats.smx()
+L 07/14/2018 - 01:18:11: [SM] Call stack trace:
+L 07/14/2018 - 01:18:11: [SM]   [0] UnhookEvent
+L 07/14/2018 - 01:18:11: [SM]   [1] Line 323, dist\addons\sourcemod\scripting\empstats.sp::Deactivate()
+L 07/14/2018 - 01:18:11: [SM]   [2] Line 290, dist\addons\sourcemod\scripting\empstats.sp::CheckActivate()
+L 07/14/2018 - 01:18:11: [SM]   [3] Line 1610, dist\addons\sourcemod\scripting\empstats.sp::EndMapChange()
+L 07/14/2018 - 01:18:14: [SM] Exception reported: Invalid hook callback specified for game event "player_disconnect"
+L 07/14/2018 - 01:18:14: [SM] Blaming: empstats.smx()
+L 07/14/2018 - 01:18:14: [SM] Call stack trace:
+L 07/14/2018 - 01:18:14: [SM]   [0] UnhookEvent
+L 07/14/2018 - 01:18:14: [SM]   [1] Line 323, dist\addons\sourcemod\scripting\empstats.sp::Deactivate()
+L 07/14/2018 - 01:18:14: [SM]   [2] Line 290, dist\addons\sourcemod\scripting\empstats.sp::CheckActivate()
+L 07/14/2018 - 01:18:14: [SM]   [3] Line 682, dist\addons\sourcemod\scripting\empstats.sp::OnClientPostAdminCheck()
+L 07/14/2018 - 01:18:15: [SM] Exception reported: Invalid hook callback specified for game event "player_disconnect"
+L 07/14/2018 - 01:18:15: [SM] Blaming: empstats.smx()
+L 07/14/2018 - 01:18:15: [SM] Call stack trace:
+L 07/14/2018 - 01:18:15: [SM]   [0] UnhookEvent
+L 07/14/2018 - 01:18:15: [SM]   [1] Line 323, dist\addons\sourcemod\scripting\empstats.sp::Deactivate()
+L 07/14/2018 - 01:18:15: [SM]   [2] Line 290, dist\addons\sourcemod\scripting\empstats.sp::CheckActivate()
+L 07/14/2018 - 01:18:15: [SM]   [3] Line 682, dist\addons\sourcemod\scripting\empstats.sp::OnClientPostAdminCheck()
+L 07/14/2018 - 01:56:06: [SM] Exception reported: Invalid hook callback specified for game event "player_disconnect"
+L 07/14/2018 - 01:56:06: [SM] Blaming: empstats.smx()
+L 07/14/2018 - 01:56:06: [SM] Call stack trace:
+L 07/14/2018 - 01:56:06: [SM]   [0] UnhookEvent
+L 07/14/2018 - 01:56:06: [SM]   [1] Line 323, dist\addons\sourcemod\scripting\empstats.sp::Deactivate()
+L 07/14/2018 - 01:56:06: [SM]   [2] Line 290, dist\addons\sourcemod\scripting\empstats.sp::CheckActivate()
+L 07/14/2018 - 01:56:06: [SM]   [3] Line 682, dist\addons\sourcemod\scripting\empstats.sp::OnClientPostAdminCheck()
+L 07/14/2018 - 01:58:11: [SM] Exception reported: Invalid hook callback specified for game event "player_disconnect"
+L 07/14/2018 - 01:58:11: [SM] Blaming: empstats.smx()
+L 07/14/2018 - 01:58:11: [SM] Call stack trace:
+L 07/14/2018 - 01:58:11: [SM]   [0] UnhookEvent
+L 07/14/2018 - 01:58:11: [SM]   [1] Line 323, dist\addons\sourcemod\scripting\empstats.sp::Deactivate()
+L 07/14/2018 - 01:58:11: [SM]   [2] Line 290, dist\addons\sourcemod\scripting\empstats.sp::CheckActivate()
+L 07/14/2018 - 01:58:11: [SM]   [3] Line 682, dist\addons\sourcemod\scripting\empstats.sp::OnClientPostAdminCheck()
+L 07/14/2018 - 16:58:24: SourceMod error session started
+L 07/14/2018 - 16:58:24: Info (map "con_district402") (file "errors_20180714.log")
+L 07/14/2018 - 16:58:24: [SDKTOOLS] Invalid detour address passed - Disabling detour to prevent crashes
+L 07/14/2018 - 16:58:24: [SDKTOOLS] Failed to find PlayerRunCmd offset - OnPlayerRunCmd forward disabled.
+L 07/14/2018 - 17:46:51: [SM] Exception reported: Invalid timer handle 549031c (error 1)
+L 07/14/2018 - 17:46:51: [SM] Blaming: umc-emp-mapvote.smx()
+L 07/14/2018 - 17:46:51: [SM] Call stack trace:
+L 07/14/2018 - 17:46:51: [SM]   [0] KillTimer
+L 07/14/2018 - 17:46:51: [SM]   [1] Line 686, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-emp-mapvote.sp::UMC_OnNextmapSet()
+L 07/14/2018 - 17:46:51: [SM]   [3] Call_Finish
+L 07/14/2018 - 17:46:51: [SM]   [4] Line 4834, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::DoMapChange()
+L 07/14/2018 - 17:46:51: [SM]   [5] Line 4267, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteWinner()
+L 07/14/2018 - 17:46:51: [SM]   [6] Line 3819, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteWinner()
+L 07/14/2018 - 17:46:51: [SM]   [7] Line 3795, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteResults()
+L 07/14/2018 - 17:46:51: [SM]   [8] Line 1277, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Native_UMCVoteManagerComplete()
+L 07/14/2018 - 17:46:51: [SM]   [10] UMC_VoteManagerVoteCompleted
+L 07/14/2018 - 17:46:51: [SM]   [11] Line 2309, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteResults()
+L 07/14/2018 - 17:46:57: Error log file session closed.
+L 07/14/2018 - 19:22:13: SourceMod error session started
+L 07/14/2018 - 19:22:13: Info (map "emp_crossroads_towerless_hce") (file "errors_20180714.log")
+L 07/14/2018 - 19:22:13: [SM] Exception reported: Invalid timer handle b690304 (error 1)
+L 07/14/2018 - 19:22:13: [SM] Blaming: umc-emp-mapvote.smx()
+L 07/14/2018 - 19:22:13: [SM] Call stack trace:
+L 07/14/2018 - 19:22:13: [SM]   [0] KillTimer
+L 07/14/2018 - 19:22:13: [SM]   [1] Line 686, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-emp-mapvote.sp::UMC_OnNextmapSet()
+L 07/14/2018 - 19:22:13: [SM]   [3] Call_Finish
+L 07/14/2018 - 19:22:13: [SM]   [4] Line 4834, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::DoMapChange()
+L 07/14/2018 - 19:22:13: [SM]   [5] Line 4267, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteWinner()
+L 07/14/2018 - 19:22:13: [SM]   [6] Line 3819, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteWinner()
+L 07/14/2018 - 19:22:13: [SM]   [7] Line 3795, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteResults()
+L 07/14/2018 - 19:22:13: [SM]   [8] Line 1277, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Native_UMCVoteManagerComplete()
+L 07/14/2018 - 19:22:13: [SM]   [10] UMC_VoteManagerVoteCompleted
+L 07/14/2018 - 19:22:13: [SM]   [11] Line 2309, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteResults()
+L 07/14/2018 - 19:22:19: Error log file session closed.
+L 07/14/2018 - 19:37:50: SourceMod error session started
+L 07/14/2018 - 19:37:50: Info (map "emp_shadows_attacks_fix") (file "errors_20180714.log")
+L 07/14/2018 - 19:37:50: [SM] Exception reported: Invalid timer handle fcb0360 (error 1)
+L 07/14/2018 - 19:37:50: [SM] Blaming: umc-emp-mapvote.smx()
+L 07/14/2018 - 19:37:50: [SM] Call stack trace:
+L 07/14/2018 - 19:37:50: [SM]   [0] KillTimer
+L 07/14/2018 - 19:37:50: [SM]   [1] Line 686, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-emp-mapvote.sp::UMC_OnNextmapSet()
+L 07/14/2018 - 19:37:50: [SM]   [3] Call_Finish
+L 07/14/2018 - 19:37:50: [SM]   [4] Line 4834, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::DoMapChange()
+L 07/14/2018 - 19:37:50: [SM]   [5] Line 4267, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteWinner()
+L 07/14/2018 - 19:37:50: [SM]   [6] Line 3819, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteWinner()
+L 07/14/2018 - 19:37:50: [SM]   [7] Line 3795, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteResults()
+L 07/14/2018 - 19:37:50: [SM]   [8] Line 1277, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Native_UMCVoteManagerComplete()
+L 07/14/2018 - 19:37:50: [SM]   [10] UMC_VoteManagerVoteCompleted
+L 07/14/2018 - 19:37:50: [SM]   [11] Line 2309, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteResults()
+L 07/14/2018 - 19:37:55: Error log file session closed.
+L 07/14/2018 - 20:02:09: SourceMod error session started
+L 07/14/2018 - 20:02:09: Info (map "emp_vehicletraining_2013") (file "errors_20180714.log")
+L 07/14/2018 - 20:02:09: [SM] Exception reported: Invalid timer handle fcb0360 (error 1)
+L 07/14/2018 - 20:02:09: [SM] Blaming: umc-emp-mapvote.smx()
+L 07/14/2018 - 20:02:09: [SM] Call stack trace:
+L 07/14/2018 - 20:02:09: [SM]   [0] KillTimer
+L 07/14/2018 - 20:02:09: [SM]   [1] Line 686, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-emp-mapvote.sp::UMC_OnNextmapSet()
+L 07/14/2018 - 20:02:09: [SM]   [3] Call_Finish
+L 07/14/2018 - 20:02:09: [SM]   [4] Line 4834, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::DoMapChange()
+L 07/14/2018 - 20:02:09: [SM]   [5] Line 4267, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteWinner()
+L 07/14/2018 - 20:02:09: [SM]   [6] Line 3819, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteWinner()
+L 07/14/2018 - 20:02:09: [SM]   [7] Line 3795, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteResults()
+L 07/14/2018 - 20:02:09: [SM]   [8] Line 1277, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Native_UMCVoteManagerComplete()
+L 07/14/2018 - 20:02:09: [SM]   [10] UMC_VoteManagerVoteCompleted
+L 07/14/2018 - 20:02:09: [SM]   [11] Line 2309, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteResults()
+L 07/14/2018 - 20:02:15: Error log file session closed.
+L 07/14/2018 - 20:40:54: SourceMod error session started
+L 07/14/2018 - 20:40:54: Info (map "emp_nuclear_b8u_xfix") (file "errors_20180714.log")
+L 07/14/2018 - 20:40:54: [SM] Exception reported: Invalid timer handle 1fac036f (error 1)
+L 07/14/2018 - 20:40:54: [SM] Blaming: umc-emp-mapvote.smx()
+L 07/14/2018 - 20:40:54: [SM] Call stack trace:
+L 07/14/2018 - 20:40:54: [SM]   [0] KillTimer
+L 07/14/2018 - 20:40:54: [SM]   [1] Line 686, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-emp-mapvote.sp::UMC_OnNextmapSet()
+L 07/14/2018 - 20:40:54: [SM]   [3] Call_Finish
+L 07/14/2018 - 20:40:54: [SM]   [4] Line 4834, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::DoMapChange()
+L 07/14/2018 - 20:40:54: [SM]   [5] Line 4267, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteWinner()
+L 07/14/2018 - 20:40:54: [SM]   [6] Line 3819, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteWinner()
+L 07/14/2018 - 20:40:54: [SM]   [7] Line 3795, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteResults()
+L 07/14/2018 - 20:40:54: [SM]   [8] Line 1277, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Native_UMCVoteManagerComplete()
+L 07/14/2018 - 20:40:54: [SM]   [10] UMC_VoteManagerVoteCompleted
+L 07/14/2018 - 20:40:54: [SM]   [11] Line 2309, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteResults()
+L 07/14/2018 - 20:41:00: Error log file session closed.
+L 07/14/2018 - 21:37:33: SourceMod error session started
+L 07/14/2018 - 21:37:33: Info (map "emp_drygulch_a7") (file "errors_20180714.log")
+L 07/14/2018 - 21:37:33: [SM] Exception reported: Invalid timer handle 37ce0154 (error 1)
+L 07/14/2018 - 21:37:33: [SM] Blaming: umc-emp-mapvote.smx()
+L 07/14/2018 - 21:37:33: [SM] Call stack trace:
+L 07/14/2018 - 21:37:33: [SM]   [0] KillTimer
+L 07/14/2018 - 21:37:33: [SM]   [1] Line 686, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-emp-mapvote.sp::UMC_OnNextmapSet()
+L 07/14/2018 - 21:37:33: [SM]   [3] Call_Finish
+L 07/14/2018 - 21:37:33: [SM]   [4] Line 4834, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::DoMapChange()
+L 07/14/2018 - 21:37:33: [SM]   [5] Line 4267, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteWinner()
+L 07/14/2018 - 21:37:33: [SM]   [6] Line 3819, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteWinner()
+L 07/14/2018 - 21:37:33: [SM]   [7] Line 3795, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteResults()
+L 07/14/2018 - 21:37:33: [SM]   [8] Line 1277, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Native_UMCVoteManagerComplete()
+L 07/14/2018 - 21:37:33: [SM]   [10] UMC_VoteManagerVoteCompleted
+L 07/14/2018 - 21:37:33: [SM]   [11] Line 2309, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteResults()
+L 07/14/2018 - 21:37:39: Error log file session closed.
+L 07/14/2018 - 22:25:46: SourceMod error session started
+L 07/14/2018 - 22:25:46: Info (map "emp_streetsoffire_fix") (file "errors_20180714.log")
+L 07/14/2018 - 22:25:46: [SM] Exception reported: Invalid timer handle 592e037d (error 1)
+L 07/14/2018 - 22:25:46: [SM] Blaming: umc-emp-mapvote.smx()
+L 07/14/2018 - 22:25:46: [SM] Call stack trace:
+L 07/14/2018 - 22:25:46: [SM]   [0] KillTimer
+L 07/14/2018 - 22:25:46: [SM]   [1] Line 686, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-emp-mapvote.sp::UMC_OnNextmapSet()
+L 07/14/2018 - 22:25:46: [SM]   [3] Call_Finish
+L 07/14/2018 - 22:25:46: [SM]   [4] Line 4834, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::DoMapChange()
+L 07/14/2018 - 22:25:46: [SM]   [5] Line 4267, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteWinner()
+L 07/14/2018 - 22:25:46: [SM]   [6] Line 3819, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteWinner()
+L 07/14/2018 - 22:25:46: [SM]   [7] Line 3795, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteResults()
+L 07/14/2018 - 22:25:46: [SM]   [8] Line 1277, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Native_UMCVoteManagerComplete()
+L 07/14/2018 - 22:25:46: [SM]   [10] UMC_VoteManagerVoteCompleted
+L 07/14/2018 - 22:25:46: [SM]   [11] Line 2309, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteResults()
+L 07/14/2018 - 22:25:52: Error log file session closed.
+L 07/14/2018 - 22:44:50: SourceMod error session started
+L 07/14/2018 - 22:44:50: Info (map "emp_tropicvendetta_rc4") (file "errors_20180714.log")
+L 07/14/2018 - 22:44:50: [SM] Exception reported: Invalid timer handle 6ba403a0 (error 1)
+L 07/14/2018 - 22:44:50: [SM] Blaming: umc-emp-mapvote.smx()
+L 07/14/2018 - 22:44:50: [SM] Call stack trace:
+L 07/14/2018 - 22:44:50: [SM]   [0] KillTimer
+L 07/14/2018 - 22:44:50: [SM]   [1] Line 686, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-emp-mapvote.sp::UMC_OnNextmapSet()
+L 07/14/2018 - 22:44:50: [SM]   [3] Call_Finish
+L 07/14/2018 - 22:44:50: [SM]   [4] Line 4834, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::DoMapChange()
+L 07/14/2018 - 22:44:50: [SM]   [5] Line 4267, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteWinner()
+L 07/14/2018 - 22:44:50: [SM]   [6] Line 3819, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteWinner()
+L 07/14/2018 - 22:44:50: [SM]   [7] Line 3795, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteResults()
+L 07/14/2018 - 22:44:50: [SM]   [8] Line 1277, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Native_UMCVoteManagerComplete()
+L 07/14/2018 - 22:44:50: [SM]   [10] UMC_VoteManagerVoteCompleted
+L 07/14/2018 - 22:44:50: [SM]   [11] Line 2309, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteResults()
+L 07/14/2018 - 22:44:58: Error log file session closed.
+L 07/14/2018 - 22:44:58: SourceMod error session started
+L 07/14/2018 - 22:44:58: Info (map "emp_insurrection_rc4") (file "errors_20180714.log")
+L 07/14/2018 - 22:44:58: [SM] Exception reported: No vote is in progress
+L 07/14/2018 - 22:44:58: [SM] Blaming: Surrender.smx()
+L 07/14/2018 - 22:44:58: [SM] Call stack trace:
+L 07/14/2018 - 22:44:58: [SM]   [0] CancelVote
+L 07/14/2018 - 22:44:58: [SM]   [1] Line 1297, /builds/sourcemod/Surrender/build/../addons/sourcemod/scripting/Surrender.sp::Command_SurrenderDisable()
+L 07/14/2018 - 22:50:25: [SM] Exception reported: Client 6 is not in game
+L 07/14/2018 - 22:50:25: [SM] Blaming: draftpick.smx()
+L 07/14/2018 - 22:50:25: [SM] Call stack trace:
+L 07/14/2018 - 22:50:25: [SM]   [0] PrintCenterText
+L 07/14/2018 - 22:50:25: [SM]   [1] Line 727, dist\addons\sourcemod\scripting\draftpick.sp::Timer_BatchJoin()
+L 07/14/2018 - 22:50:26: [SM] Exception reported: Client 6 is not connected
+L 07/14/2018 - 22:50:26: [SM] Blaming: draftpick.smx()
+L 07/14/2018 - 22:50:26: [SM] Call stack trace:
+L 07/14/2018 - 22:50:26: [SM]   [0] FakeClientCommandEx
+L 07/14/2018 - 22:50:26: [SM]   [1] Line 2283, dist\addons\sourcemod\scripting\draftpick.sp::ForceTeam()
+L 07/14/2018 - 22:50:26: [SM]   [2] Line 2298, dist\addons\sourcemod\scripting\draftpick.sp::ForceSwitchTeam()
+L 07/14/2018 - 22:50:26: [SM]   [3] Line 859, dist\addons\sourcemod\scripting\draftpick.sp::ExecuteBatchJoin()
+L 07/14/2018 - 22:50:26: [SM]   [4] Line 701, dist\addons\sourcemod\scripting\draftpick.sp::Timer_BatchJoin()
+L 07/14/2018 - 23:49:13: [SM] Exception reported: Invalid timer handle 8df6040a (error 3)
+L 07/14/2018 - 23:49:13: [SM] Blaming: umc-emp-mapvote.smx()
+L 07/14/2018 - 23:49:13: [SM] Call stack trace:
+L 07/14/2018 - 23:49:13: [SM]   [0] KillTimer
+L 07/14/2018 - 23:49:13: [SM]   [1] Line 686, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-emp-mapvote.sp::UMC_OnNextmapSet()
+L 07/14/2018 - 23:49:13: [SM]   [3] Call_Finish
+L 07/14/2018 - 23:49:13: [SM]   [4] Line 4834, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::DoMapChange()
+L 07/14/2018 - 23:49:13: [SM]   [5] Line 4267, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteWinner()
+L 07/14/2018 - 23:49:13: [SM]   [6] Line 3819, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteWinner()
+L 07/14/2018 - 23:49:13: [SM]   [7] Line 3795, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteResults()
+L 07/14/2018 - 23:49:13: [SM]   [8] Line 1277, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Native_UMCVoteManagerComplete()
+L 07/14/2018 - 23:49:13: [SM]   [10] UMC_VoteManagerVoteCompleted
+L 07/14/2018 - 23:49:13: [SM]   [11] Line 2309, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteResults()
+L 07/14/2018 - 23:49:18: Error log file session closed.

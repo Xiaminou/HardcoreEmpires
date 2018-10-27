@@ -1,0 +1,195 @@
+L 09/10/2018 - 00:00:03: [umc-emp-mapvote.smx] Starting a map vote.
+L 09/10/2018 - 00:00:03: [umc-core.smx] VOTE MENU: (Verbose) Fetching 7 maps from group 'Commander Maps'
+L 09/10/2018 - 00:00:03: [umc-core.smx] VOTE MENU: (Verbose) Finished parsing nominations for map group 'Commander Maps'
+L 09/10/2018 - 00:00:03: [umc-core.smx] VOTE MENU: (Verbose) Still need to fetch 7 maps from the group.
+L 09/10/2018 - 00:00:03: [umc-core.smx] VOTE MENU: (Verbose) Selected map 'emp_temple_b3f' from group 'Commander Maps' was added to the vote.
+L 09/10/2018 - 00:00:03: [umc-core.smx] VOTE MENU: (Verbose) Selected map 'emp_massacred_rc1_hce' from group 'Commander Maps' was added to the vote.
+L 09/10/2018 - 00:00:03: [umc-core.smx] VOTE MENU: (Verbose) Selected map 'emp_homeland_b9_hce' from group 'Commander Maps' was added to the vote.
+L 09/10/2018 - 00:00:03: [umc-core.smx] VOTE MENU: (Verbose) Selected map 'emp_research_1_2_2013' from group 'Commander Maps' was added to the vote.
+L 09/10/2018 - 00:00:03: [umc-core.smx] VOTE MENU: (Verbose) Selected map 'emp_hazard_rc6' from group 'Commander Maps' was added to the vote.
+L 09/10/2018 - 00:00:03: [umc-core.smx] VOTE MENU: (Verbose) Selected map 'emp_beachfront_b2_hce' from group 'Commander Maps' was added to the vote.
+L 09/10/2018 - 00:00:03: [umc-core.smx] VOTE MENU: (Verbose) Selected map 'emp_snowstorm_rc6' from group 'Commander Maps' was added to the vote.
+L 09/10/2018 - 00:00:03: [umc-core.smx] VOTE MENU: (Verbose) Fetching 1 maps from group 'Infantry Maps'
+L 09/10/2018 - 00:00:03: [umc-core.smx] VOTE MENU: (Verbose) Number of nominations (2) exceeds allowable maps in vote for the map group 'Infantry Maps'. Limiting nominated maps to 1. (See cvar "sm_umc_nominate_strict")
+L 09/10/2018 - 00:00:03: [umc-core.smx] VOTE MENU: (Verbose) Nominated map 'emp_nuclear_b8u_xfix' from group 'Infantry Maps' was added to the vote.
+L 09/10/2018 - 00:00:03: [umc-core.smx] VOTE MENU: (Verbose) Finished parsing nominations for map group 'Infantry Maps'
+L 09/10/2018 - 00:00:03: [umc-core.smx] VOTE MENU: (Verbose) Fetching 0 maps from group 'Cooldown Maps'
+L 09/10/2018 - 00:00:03: [umc-core.smx] VOTE MENU: (Verbose) Finished parsing nominations for map group 'Cooldown Maps'
+L 09/10/2018 - 00:00:03: [umc-core.smx] Initiating Vote Type: Map
+L 09/10/2018 - 00:00:03: [umc-core.smx] Adding Clients to Vote:
+L 09/10/2018 - 00:00:03: [umc-core.smx] 0: Ace (2)
+L 09/10/2018 - 00:00:03: [umc-core.smx] 1: Spyer (3)
+L 09/10/2018 - 00:00:03: [umc-core.smx] 2: Grave (4)
+L 09/10/2018 - 00:00:03: [umc-core.smx] 3: Steve_[UK] (5)
+L 09/10/2018 - 00:00:03: [umc-core.smx] 4: draklin (6)
+L 09/10/2018 - 00:00:03: [umc-core.smx] 5: Candles (7)
+L 09/10/2018 - 00:00:03: [umc-core.smx] 6: [BϟP] VulcanStorm (8)
+L 09/10/2018 - 00:00:03: [umc-core.smx] 7: Dr. Baron von Evil-Satan (9)
+L 09/10/2018 - 00:00:03: [umc-core.smx] 8: Rightwing Extremist (10)
+L 09/10/2018 - 00:00:03: [umc-core.smx] 9: .|Ϟ|. Catface (With Sound!!!) (12)
+L 09/10/2018 - 00:00:03: [umc-core.smx] 10: ❬❬❬❳«G§AR»Terminator (18)
+L 09/10/2018 - 00:00:03: [umc-core.smx] 11: Brentor (19)
+L 09/10/2018 - 00:00:03: [umc-core.smx] 12: Blood-Wiper (20)
+L 09/10/2018 - 00:00:03: [umc-core.smx] 13: D.D.D. Destroyer (25)
+L 09/10/2018 - 00:00:03: [umc-core.smx] VOTE MENU:
+L 09/10/2018 - 00:00:03: [umc-core.smx] 2: emp_beachfront (0)
+L 09/10/2018 - 00:00:03: [umc-core.smx] 3: emp_research (1)
+L 09/10/2018 - 00:00:03: [umc-core.smx] 4: as_nuclear (2)
+L 09/10/2018 - 00:00:03: [umc-core.smx] 5: emp_hazard (3)
+L 09/10/2018 - 00:00:03: [umc-core.smx] 6: emp_snowstorm (4)
+L 09/10/2018 - 00:00:03: [umc-core.smx] 7: emp_temple (5)
+L 09/10/2018 - 00:00:03: [umc-core.smx] 8: emp_homeland (6)
+L 09/10/2018 - 00:00:03: [umc-core.smx] 9: emp_massacred (7)
+L 09/10/2018 - 00:00:03: [umc-core.smx] .|Ϟ|. Catface (With Sound!!!)<258><[U:1:41745247]><> selected menu item 4
+L 09/10/2018 - 00:00:06: [umc-core.smx] Spyer<172><[U:1:34143605]><> selected menu item 3
+L 09/10/2018 - 00:00:08: [umc-core.smx] Rightwing Extremist<264><[U:1:30436425]><> selected menu item 2
+L 09/10/2018 - 00:00:10: [umc-core.smx] [BϟP] VulcanStorm<263><[U:1:103978153]><> selected menu item 3
+L 09/10/2018 - 00:00:10: [umc-core.smx] Grave<221><[U:1:34977414]><> selected menu item 4
+L 09/10/2018 - 00:00:13: [umc-core.smx] D.D.D. Destroyer<201><[U:1:18868685]><> selected menu item 3
+L 09/10/2018 - 00:00:14: [umc-core.smx] Steve_[UK]<194><[U:1:7600510]><> selected menu item 1
+L 09/10/2018 - 00:00:17: [umc-core.smx] Brentor<215><[U:1:40822645]><> selected menu item 1
+L 09/10/2018 - 00:00:19: [umc-core.smx] Dr. Baron von Evil-Satan<256><[U:1:6104095]><> selected menu item 7
+L 09/10/2018 - 00:00:20: [umc-core.smx] ❬❬❬❳«G§AR»Terminator<260><[U:1:34927329]><> selected menu item 3
+L 09/10/2018 - 00:00:20: [umc-core.smx] Candles<251><[U:1:34985984]><> selected menu item 3
+L 09/10/2018 - 00:00:33: [umc-core.smx] RUNOFF MENU: (Verbose) Building runoff vote menu.
+L 09/10/2018 - 00:00:33: [umc-core.smx] RUNOFF MENU: (Verbose) 'emp_homeland' was removed from the vote. It had 1 votes (9 of total)
+L 09/10/2018 - 00:00:33: [umc-core.smx] RUNOFF MENU: (Verbose) 'emp_research' was removed from the vote. It had 1 votes (9 of total)
+L 09/10/2018 - 00:00:33: [umc-core.smx] RUNOFF MENU: (Verbose) 'emp_hazard' was removed from the vote. It had 2 votes (18 of total)
+L 09/10/2018 - 00:00:33: [umc-core.smx] RUNOFF MENU: (Verbose) Stopped removing options from the vote. Maximum possible winning vote percentage is 81%
+L 09/10/2018 - 00:00:33: [umc-core.smx] Vote has concluded.
+L 09/10/2018 - 00:00:41: [umc-core.smx] RUNOFF: Starting runoff vote.
+L 09/10/2018 - 00:00:41: [umc-core.smx] Initiating Vote Type: Map
+L 09/10/2018 - 00:00:41: [umc-core.smx] Adding Clients to Vote:
+L 09/10/2018 - 00:00:41: [umc-core.smx] 0: Ace (2)
+L 09/10/2018 - 00:00:41: [umc-core.smx] 1: Spyer (3)
+L 09/10/2018 - 00:00:41: [umc-core.smx] 2: Grave (4)
+L 09/10/2018 - 00:00:41: [umc-core.smx] 3: Steve_[UK] (5)
+L 09/10/2018 - 00:00:41: [umc-core.smx] 4: draklin (6)
+L 09/10/2018 - 00:00:41: [umc-core.smx] 5: Candles (7)
+L 09/10/2018 - 00:00:41: [umc-core.smx] 6: [BϟP] VulcanStorm (8)
+L 09/10/2018 - 00:00:41: [umc-core.smx] 7: Dr. Baron von Evil-Satan (9)
+L 09/10/2018 - 00:00:41: [umc-core.smx] 8: Rightwing Extremist (10)
+L 09/10/2018 - 00:00:41: [umc-core.smx] 9: .|Ϟ|. Catface (With Sound!!!) (12)
+L 09/10/2018 - 00:00:41: [umc-core.smx] 10: ❬❬❬❳«G§AR»Terminator (18)
+L 09/10/2018 - 00:00:41: [umc-core.smx] 11: Brentor (19)
+L 09/10/2018 - 00:00:41: [umc-core.smx] 12: Blood-Wiper (20)
+L 09/10/2018 - 00:00:41: [umc-core.smx] 13: D.D.D. Destroyer (25)
+L 09/10/2018 - 00:00:41: [umc-core.smx] VOTE MENU:
+L 09/10/2018 - 00:00:41: [umc-core.smx] 2: as_nuclear (2)
+L 09/10/2018 - 00:00:41: [umc-core.smx] 3: emp_beachfront (0)
+L 09/10/2018 - 00:00:43: [umc-core.smx] ❬❬❬❳«G§AR»Terminator<260><[U:1:34927329]><> selected menu item 1
+L 09/10/2018 - 00:00:44: [umc-core.smx] Dr. Baron von Evil-Satan<256><[U:1:6104095]><> selected menu item 1
+L 09/10/2018 - 00:00:45: [umc-core.smx] Candles<251><[U:1:34985984]><> selected menu item 1
+L 09/10/2018 - 00:00:46: [umc-core.smx] .|Ϟ|. Catface (With Sound!!!)<258><[U:1:41745247]><> selected menu item 1
+L 09/10/2018 - 00:00:46: [umc-core.smx] Rightwing Extremist<264><[U:1:30436425]><> selected menu item 2
+L 09/10/2018 - 00:00:46: [umc-core.smx] D.D.D. Destroyer<201><[U:1:18868685]><> selected menu item 1
+L 09/10/2018 - 00:00:47: [umc-core.smx] [BϟP] VulcanStorm<263><[U:1:103978153]><> selected menu item 1
+L 09/10/2018 - 00:00:50: [umc-core.smx] Grave<221><[U:1:34977414]><> selected menu item 2
+L 09/10/2018 - 00:00:59: [umc-core.smx] Spyer<172><[U:1:34143605]><> selected menu item 1
+L 09/10/2018 - 00:01:04: [umc-core.smx] Brentor<215><[U:1:40822645]><> selected menu item 2
+L 09/10/2018 - 00:01:12: [umc-core.smx] Setting nextmap to: emp_nuclear_b8u_xfix
+L 09/10/2018 - 00:01:12: [umc-randomcycle.smx] Disabling random nextmap selection.
+L 09/10/2018 - 00:01:12: [umc-core.smx] umc-emp-mapvote.smx: Changing map to 'emp_nuclear_b8u_xfix' in 5 seconds.
+L 09/10/2018 - 00:01:12: [umc-core.smx] MAPVOTE: Players voted for map 'emp_nuclear_b8u_xfix' from group 'Infantry Maps'
+L 09/10/2018 - 00:01:12: [umc-core.smx] Vote has concluded.
+L 09/10/2018 - 00:01:18: [umc-core.smx] ---------------------MAP CHANGE: emp_nuclear_b8u_xfix---------------------
+L 09/10/2018 - 00:01:18: [umc-endvote-warnings.smx] Successfully parsed and set up 11 vote warnings.
+L 09/10/2018 - 00:01:18: [umc-rockthevote.smx] RTV will be made available in 60 seconds.
+L 09/10/2018 - 00:02:19: [umc-rockthevote.smx] RTV is now available.
+L 09/10/2018 - 00:23:07: [umc-emp-mapvote.smx] Map vote will appear in 30 seconds.
+L 09/10/2018 - 00:23:37: [umc-emp-mapvote.smx] Starting a map vote.
+L 09/10/2018 - 00:23:37: [umc-core.smx] VOTE MENU: (Verbose) Fetching 7 maps from group 'Commander Maps'
+L 09/10/2018 - 00:23:37: [umc-core.smx] VOTE MENU: (Verbose) Finished parsing nominations for map group 'Commander Maps'
+L 09/10/2018 - 00:23:37: [umc-core.smx] VOTE MENU: (Verbose) Still need to fetch 7 maps from the group.
+L 09/10/2018 - 00:23:37: [umc-core.smx] VOTE MENU: (Verbose) Selected map 'emp_canyon' from group 'Commander Maps' was added to the vote.
+L 09/10/2018 - 00:23:37: [umc-core.smx] VOTE MENU: (Verbose) Selected map 'emp_traders_a8' from group 'Commander Maps' was added to the vote.
+L 09/10/2018 - 00:23:37: [umc-core.smx] VOTE MENU: (Verbose) Selected map 'emp_temple_b3f' from group 'Commander Maps' was added to the vote.
+L 09/10/2018 - 00:23:37: [umc-core.smx] VOTE MENU: (Verbose) Selected map 'emp_research_1_2_2013' from group 'Commander Maps' was added to the vote.
+L 09/10/2018 - 00:23:37: [umc-core.smx] VOTE MENU: (Verbose) Selected map 'emp_massacred_rc1_hce' from group 'Commander Maps' was added to the vote.
+L 09/10/2018 - 00:23:37: [umc-core.smx] VOTE MENU: (Verbose) Selected map 'emp_downfall_hce' from group 'Commander Maps' was added to the vote.
+L 09/10/2018 - 00:23:37: [umc-core.smx] VOTE MENU: (Verbose) Selected map 'emp_blah4_hce' from group 'Commander Maps' was added to the vote.
+L 09/10/2018 - 00:23:37: [umc-core.smx] VOTE MENU: (Verbose) Fetching 1 maps from group 'Infantry Maps'
+L 09/10/2018 - 00:23:37: [umc-core.smx] VOTE MENU: (Verbose) Finished parsing nominations for map group 'Infantry Maps'
+L 09/10/2018 - 00:23:37: [umc-core.smx] VOTE MENU: (Verbose) Still need to fetch 1 maps from the group.
+L 09/10/2018 - 00:23:37: [umc-core.smx] VOTE MENU: (Verbose) Selected map 'emp_fogtown_cl2_fix' from group 'Infantry Maps' was added to the vote.
+L 09/10/2018 - 00:23:37: [umc-core.smx] VOTE MENU: (Verbose) Fetching 0 maps from group 'Cooldown Maps'
+L 09/10/2018 - 00:23:37: [umc-core.smx] VOTE MENU: (Verbose) Finished parsing nominations for map group 'Cooldown Maps'
+L 09/10/2018 - 00:23:37: [umc-core.smx] Initiating Vote Type: Map
+L 09/10/2018 - 00:23:37: [umc-core.smx] Adding Clients to Vote:
+L 09/10/2018 - 00:23:37: [umc-core.smx] 0: Ace (2)
+L 09/10/2018 - 00:23:37: [umc-core.smx] 1: Spyer (3)
+L 09/10/2018 - 00:23:37: [umc-core.smx] 2: Grave (4)
+L 09/10/2018 - 00:23:37: [umc-core.smx] 3: Steve_[UK] (5)
+L 09/10/2018 - 00:23:37: [umc-core.smx] 4: draklin (6)
+L 09/10/2018 - 00:23:37: [umc-core.smx] 5: Candles (7)
+L 09/10/2018 - 00:23:37: [umc-core.smx] 6: [BϟP] VulcanStorm (8)
+L 09/10/2018 - 00:23:37: [umc-core.smx] 7: Dr. Baron von Evil-Satan (9)
+L 09/10/2018 - 00:23:37: [umc-core.smx] 8: ugandan knuckles (10)
+L 09/10/2018 - 00:23:37: [umc-core.smx] 9: .|Ϟ|. Catface (With Sound!!!) (12)
+L 09/10/2018 - 00:23:37: [umc-core.smx] 10: Sabers Lose Again (13)
+L 09/10/2018 - 00:23:37: [umc-core.smx] 11: ❬❬❬❳«G§AR»Terminator (18)
+L 09/10/2018 - 00:23:37: [umc-core.smx] 12: Brentor (19)
+L 09/10/2018 - 00:23:37: [umc-core.smx] 13: D.D.D. Destroyer (25)
+L 09/10/2018 - 00:23:37: [umc-core.smx] VOTE MENU:
+L 09/10/2018 - 00:23:37: [umc-core.smx] 2: emp_blah4 (0)
+L 09/10/2018 - 00:23:37: [umc-core.smx] 3: emp_temple (1)
+L 09/10/2018 - 00:23:37: [umc-core.smx] 4: emp_canyon (2)
+L 09/10/2018 - 00:23:37: [umc-core.smx] 5: emp_research (3)
+L 09/10/2018 - 00:23:37: [umc-core.smx] 6: emp_massacred (4)
+L 09/10/2018 - 00:23:37: [umc-core.smx] 7: emp_traders (5)
+L 09/10/2018 - 00:23:37: [umc-core.smx] 8: con_fogtown (6)
+L 09/10/2018 - 00:23:37: [umc-core.smx] 9: emp_downfall (7)
+L 09/10/2018 - 00:23:40: [umc-core.smx] Spyer<172><[U:1:34143605]><> selected menu item 2
+L 09/10/2018 - 00:23:46: [umc-core.smx] Candles<251><[U:1:34985984]><> selected menu item 7
+L 09/10/2018 - 00:23:50: [umc-core.smx] ugandan knuckles<267><[U:1:338382307]><> selected menu item 4
+L 09/10/2018 - 00:23:54: [umc-core.smx] Sabers Lose Again<266><[U:1:86380977]><> selected menu item 4
+L 09/10/2018 - 00:23:55: [umc-core.smx] Grave<221><[U:1:34977414]><> selected menu item 5
+L 09/10/2018 - 00:24:07: [umc-core.smx] RUNOFF MENU: (Verbose) Building runoff vote menu.
+L 09/10/2018 - 00:24:07: [umc-core.smx] RUNOFF MENU: (Verbose) 'emp_massacred' was removed from the vote. It had 1 votes (20 of total)
+L 09/10/2018 - 00:24:07: [umc-core.smx] RUNOFF MENU: (Verbose) 'emp_temple' was removed from the vote. It had 1 votes (20 of total)
+L 09/10/2018 - 00:24:07: [umc-core.smx] RUNOFF MENU: (Verbose) Stopped removing options from the vote. Maximum possible winning vote percentage is 80%
+L 09/10/2018 - 00:24:07: [umc-core.smx] Vote has concluded.
+L 09/10/2018 - 00:24:15: [umc-core.smx] RUNOFF: Starting runoff vote.
+L 09/10/2018 - 00:24:15: [umc-core.smx] Initiating Vote Type: Map
+L 09/10/2018 - 00:24:15: [umc-core.smx] Adding Clients to Vote:
+L 09/10/2018 - 00:24:15: [umc-core.smx] 0: Ace (2)
+L 09/10/2018 - 00:24:15: [umc-core.smx] 1: Spyer (3)
+L 09/10/2018 - 00:24:15: [umc-core.smx] 2: Grave (4)
+L 09/10/2018 - 00:24:15: [umc-core.smx] 3: Steve_[UK] (5)
+L 09/10/2018 - 00:24:15: [umc-core.smx] 4: draklin (6)
+L 09/10/2018 - 00:24:15: [umc-core.smx] 5: Candles (7)
+L 09/10/2018 - 00:24:15: [umc-core.smx] 7: Dr. Baron von Evil-Satan (9)
+L 09/10/2018 - 00:24:15: [umc-core.smx] 8: ugandan knuckles (10)
+L 09/10/2018 - 00:24:15: [umc-core.smx] 9: .|Ϟ|. Catface (With Sound!!!) (12)
+L 09/10/2018 - 00:24:15: [umc-core.smx] 10: Sabers Lose Again (13)
+L 09/10/2018 - 00:24:15: [umc-core.smx] VOTE MENU:
+L 09/10/2018 - 00:24:15: [umc-core.smx] 2: emp_research (3)
+L 09/10/2018 - 00:24:15: [umc-core.smx] 3: con_fogtown (6)
+L 09/10/2018 - 00:24:17: [umc-core.smx] ugandan knuckles<267><[U:1:338382307]><> selected menu item 1
+L 09/10/2018 - 00:24:17: [umc-core.smx] Spyer<172><[U:1:34143605]><> selected menu item 2
+L 09/10/2018 - 00:24:20: [umc-core.smx] Grave<221><[U:1:34977414]><> selected menu item 1
+L 09/10/2018 - 00:24:21: [umc-core.smx] Candles<251><[U:1:34985984]><> selected menu item 2
+L 09/10/2018 - 00:24:23: [umc-core.smx] Sabers Lose Again<266><[U:1:86380977]><> selected menu item 2
+L 09/10/2018 - 00:24:27: [umc-core.smx] Dr. Baron von Evil-Satan<256><[U:1:6104095]><> selected menu item 2
+L 09/10/2018 - 00:24:45: [umc-core.smx] Setting nextmap to: emp_fogtown_cl2_fix
+L 09/10/2018 - 00:24:45: [umc-randomcycle.smx] Disabling random nextmap selection.
+L 09/10/2018 - 00:24:45: [umc-core.smx] umc-emp-mapvote.smx: Changing map to 'emp_fogtown_cl2_fix' in 5 seconds.
+L 09/10/2018 - 00:24:45: [umc-core.smx] MAPVOTE: Players voted for map 'emp_fogtown_cl2_fix' from group 'Infantry Maps'
+L 09/10/2018 - 00:24:45: [umc-core.smx] Vote has concluded.
+L 09/10/2018 - 00:24:52: [umc-core.smx] ---------------------MAP CHANGE: emp_fogtown_cl2_fix---------------------
+L 09/10/2018 - 00:24:52: [umc-endvote-warnings.smx] Successfully parsed and set up 11 vote warnings.
+L 09/10/2018 - 00:24:52: [umc-rockthevote.smx] RTV will be made available in 60 seconds.
+L 09/10/2018 - 00:25:53: [umc-rockthevote.smx] RTV is now available.
+L 09/10/2018 - 00:40:59: [umc-nominate.smx] Sabers Lose Again wants to nominate a map.
+L 09/10/2018 - 00:40:59: [umc-nominate.smx] Steve_[UK] wants to nominate a map.
+L 09/10/2018 - 00:41:06: [umc-nominate.smx] Sabers Lose Again has nominated 'con_district402' from group 'Infantry Maps'
+L 09/10/2018 - 00:41:22: [umc-nominate.smx] Steve_[UK] has nominated 'emp_canyon' from group 'Commander Maps'
+L 09/10/2018 - 00:41:31: [umc-nominate.smx] Sabers Lose Again wants to nominate a map.
+L 09/10/2018 - 00:41:42: [umc-nominate.smx] Sabers Lose Again has nominated 'con_blast_ob2' from group 'Infantry Maps'
+L 09/10/2018 - 17:43:35: [umc-core.smx] ---------------------MAP CHANGE: con_district402---------------------
+L 09/10/2018 - 17:43:35: [umc-endvote-warnings.smx] Successfully parsed and set up 11 vote warnings.
+L 09/10/2018 - 17:43:35: [umc-rockthevote.smx] RTV will be made available in 60 seconds.
+L 09/10/2018 - 17:44:36: [umc-rockthevote.smx] RTV is now available.
+L 09/10/2018 - 21:48:08: [umc-core.smx] ---------------------MAP CHANGE: con_district402---------------------
+L 09/10/2018 - 21:48:08: [umc-endvote-warnings.smx] Successfully parsed and set up 11 vote warnings.
+L 09/10/2018 - 21:48:08: [umc-rockthevote.smx] RTV will be made available in 60 seconds.
