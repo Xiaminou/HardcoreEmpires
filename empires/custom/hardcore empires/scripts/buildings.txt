@@ -47,18 +47,18 @@ BuildingParse
 	"BioArtResist" 			0.85	//unused					
 
 	"InfantryGrenadeResist" 	0.9	//HE Grenades						
-	"InfantryMineResist" 		0.9					//Player Tossed Mines					
-	"InfantryMissileResist" 	0.95					//Gren Missles						
-	"InfantryMortarResist" 		0.8					//Gren Mortars						
-	"InfantryStickyResist" 	 	0.85					//Sticky Grenades						
-	"InfantrySeismicResist" 	0					//Seismic Grenades						
-	"InfantryBulletResist" 		1					//Just In Case						
-	"InfantryUtilityResist"		1					//Concussion nades, various infantry stuff that does special things but no damage
-	"InfantryMeleeResist"		1					//Infantry melee
+	"InfantryMineResist" 		0.9	//Mines				
+	"InfantryMissileResist" 	0.95	//RPG						
+	"InfantryMortarResist" 		0.8	//Mortars					
+	"InfantryStickyResist" 	 	0.85	//Sticky Grenades						
+	"InfantrySeismicResist" 	0	//Seismic Grenades						
+	"InfantryBulletResist" 		1	//Infantry Guns					
+	"InfantryUtilityResist"		1	//Utility Grenades, Like smoke and concussion
+	"InfantryMeleeResist"		1	//Melee
 	
-	"ExtraType1Resist" 		0.5					//Anti Building weapons					
-	"ExtraType2Resist" 		0.75					//Again					
-	"ExtraType3Resist" 		0.75					//and a third				
+	"ExtraType1Resist" 		0.5	//unused				
+	"ExtraType2Resist" 		0.75	//unused				
+	"ExtraType3Resist" 		0.75	//unused			
 
 	//BOUNDARY VECTORS
 	"CollisionRadius" 		"200"
@@ -114,21 +114,20 @@ BuildingParse
 	"BioArtResist" 			0.85	//unused					
 
 	"InfantryGrenadeResist" 	0.9	//HE Grenades						
-	"InfantryMineResist" 		0.9					//Player Tossed Mines					
-	"InfantryMissileResist" 	0.95					//Gren Missles						
-	"InfantryMortarResist" 		0.8					//Gren Mortars						
-	"InfantryStickyResist" 	 	0.85					//Sticky Grenades						
-	"InfantrySeismicResist" 	0					//Seismic Grenades						
-	"InfantryBulletResist" 		1					//Just In Case						
-	"InfantryUtilityResist"		1					//Concussion nades, various infantry stuff that does special things but no damage
-	"InfantryMeleeResist"		1					//Infantry melee
+	"InfantryMineResist" 		0.9	//Mines				
+	"InfantryMissileResist" 	0.95	//RPG						
+	"InfantryMortarResist" 		0.8	//Mortars					
+	"InfantryStickyResist" 	 	0.85	//Sticky Grenades						
+	"InfantrySeismicResist" 	0	//Seismic Grenades						
+	"InfantryBulletResist" 		1	//Infantry Guns					
+	"InfantryUtilityResist"		1	//Utility Grenades, Like smoke and concussion
+	"InfantryMeleeResist"		1	//Melee
 	
-	"ExtraType1Resist" 		0.5					//Anti Building weapons					
-	"ExtraType2Resist" 		0.75					//Again					
-	"ExtraType3Resist" 		0.75					//and a third						
+	"ExtraType1Resist" 		0.5	//unused				
+	"ExtraType2Resist" 		0.75	//unused				
+	"ExtraType3Resist" 		0.75	//unused					
 
 	//BOUNDARY VECTORS
-
 	"CollisionRadius" 		"200"
 	"CollisionHeight" 		"170"
 	"CollisionOffsetX" 		"-10"
@@ -188,18 +187,18 @@ BuildingParse
 	"BioArtResist" 			0.85	//unused					
 
 	"InfantryGrenadeResist" 	0.9	//HE Grenades						
-	"InfantryMineResist" 		0.9					//Player Tossed Mines					
-	"InfantryMissileResist" 	0.95					//Gren Missles						
-	"InfantryMortarResist" 		0.8					//Gren Mortars						
-	"InfantryStickyResist" 	 	0.85					//Sticky Grenades						
-	"InfantrySeismicResist" 	0					//Seismic Grenades						
-	"InfantryBulletResist" 		1					//Just In Case						
-	"InfantryUtilityResist"		1					//Concussion nades, various infantry stuff that does special things but no damage
-	"InfantryMeleeResist"		1					//Infantry melee
+	"InfantryMineResist" 		0.9	//Mines				
+	"InfantryMissileResist" 	0.95	//RPG						
+	"InfantryMortarResist" 		0.8	//Mortars					
+	"InfantryStickyResist" 	 	0.85	//Sticky Grenades						
+	"InfantrySeismicResist" 	0	//Seismic Grenades						
+	"InfantryBulletResist" 		1	//Infantry Guns					
+	"InfantryUtilityResist"		1	//Utility Grenades, Like smoke and concussion
+	"InfantryMeleeResist"		1	//Melee
 	
-	"ExtraType1Resist" 		0.5					//Anti Building weapons					
-	"ExtraType2Resist" 		0.75					//Again					
-	"ExtraType3Resist" 		0.75					//and a third						
+	"ExtraType1Resist" 		0.5	//unused				
+	"ExtraType2Resist" 		0.75	//unused				
+	"ExtraType3Resist" 		0.75	//unused					
 
 	//BOUNDARY VECTORS
 	 
@@ -256,21 +255,20 @@ BuildingParse
 	"BioArtResist" 			0.85	//unused					
 
 	"InfantryGrenadeResist" 	0.9	//HE Grenades						
-	"InfantryMineResist" 		0.9					//Player Tossed Mines					
-	"InfantryMissileResist" 	0.95					//Gren Missles						
-	"InfantryMortarResist" 		0.8					//Gren Mortars						
-	"InfantryStickyResist" 	 	0.85					//Sticky Grenades						
-	"InfantrySeismicResist" 	0					//Seismic Grenades						
-	"InfantryBulletResist" 		1					//Just In Case						
-	"InfantryUtilityResist"		1					//Concussion nades, various infantry stuff that does special things but no damage
-	"InfantryMeleeResist"		1					//Infantry melee
+	"InfantryMineResist" 		0.9	//Mines				
+	"InfantryMissileResist" 	0.95	//RPG						
+	"InfantryMortarResist" 		0.8	//Mortars					
+	"InfantryStickyResist" 	 	0.85	//Sticky Grenades						
+	"InfantrySeismicResist" 	0	//Seismic Grenades						
+	"InfantryBulletResist" 		1	//Infantry Guns					
+	"InfantryUtilityResist"		1	//Utility Grenades, Like smoke and concussion
+	"InfantryMeleeResist"		1	//Melee
 
-	"ExtraType1Resist" 		0.5					//Anti Building weapons					
-	"ExtraType2Resist" 		0.75					//Again					
-	"ExtraType3Resist" 		0.75					//and a third						
+	"ExtraType1Resist" 		0.5	//unused				
+	"ExtraType2Resist" 		0.75	//unused				
+	"ExtraType3Resist" 		0.75	//unused					
 
 	//BOUNDARY VECTORS
-
 	"CollisionRadius" 		"400"
 	"CollisionHeight" 		"160"
 	"CollisionOffsetX" 		"0"
@@ -324,21 +322,20 @@ BuildingParse
 	"BioArtResist" 			0.85	//unused					
 
 	"InfantryGrenadeResist" 	0.9	//HE Grenades						
-	"InfantryMineResist" 		0.9					//Player Tossed Mines					
-	"InfantryMissileResist" 	0.95					//Gren Missles						
-	"InfantryMortarResist" 		0.8					//Gren Mortars						
-	"InfantryStickyResist" 	 	0.85					//Sticky Grenades						
-	"InfantrySeismicResist" 	0					//Seismic Grenades						
-	"InfantryBulletResist" 		1					//Just In Case						
-	"InfantryUtilityResist"		1					//Concussion nades, various infantry stuff that does special things but no damage
-	"InfantryMeleeResist"		1					//Infantry melee
+	"InfantryMineResist" 		0.9	//Mines				
+	"InfantryMissileResist" 	0.95	//RPG						
+	"InfantryMortarResist" 		0.8	//Mortars					
+	"InfantryStickyResist" 	 	0.85	//Sticky Grenades						
+	"InfantrySeismicResist" 	0	//Seismic Grenades						
+	"InfantryBulletResist" 		1	//Infantry Guns					
+	"InfantryUtilityResist"		1	//Utility Grenades, Like smoke and concussion
+	"InfantryMeleeResist"		1	//Melee
 
-	"ExtraType1Resist" 		0.5					//Anti Building weapons					
-	"ExtraType2Resist" 		0.75					//Again					
-	"ExtraType3Resist" 		0.75					//and a third					
+	"ExtraType1Resist" 		0.5	//unused				
+	"ExtraType2Resist" 		0.75	//unused				
+	"ExtraType3Resist" 		0.75	//unused				
 
 	//BOUNDARY VECTORS
-
 	"CollisionRadius" 		"350"
 	"CollisionHeight" 		"450"
 	"CollisionOffsetX" 		"0"
@@ -392,21 +389,20 @@ BuildingParse
 	"BioArtResist" 			0.85	//unused					
 
 	"InfantryGrenadeResist" 	0.9	//HE Grenades						
-	"InfantryMineResist" 		0.9					//Player Tossed Mines					
-	"InfantryMissileResist" 	0.95					//Gren Missles						
-	"InfantryMortarResist" 		0.8					//Gren Mortars						
-	"InfantryStickyResist" 	 	0.85					//Sticky Grenades						
-	"InfantrySeismicResist" 	0					//Seismic Grenades						
-	"InfantryBulletResist" 		1					//Just In Case						
-	"InfantryUtilityResist"		1					//Concussion nades, various infantry stuff that does special things but no damage
-	"InfantryMeleeResist"		1					//Infantry melee
+	"InfantryMineResist" 		0.9	//Mines				
+	"InfantryMissileResist" 	0.95	//RPG						
+	"InfantryMortarResist" 		0.8	//Mortars					
+	"InfantryStickyResist" 	 	0.85	//Sticky Grenades						
+	"InfantrySeismicResist" 	0	//Seismic Grenades						
+	"InfantryBulletResist" 		1	//Infantry Guns					
+	"InfantryUtilityResist"		1	//Utility Grenades, Like smoke and concussion
+	"InfantryMeleeResist"		1	//Melee
 	
-	"ExtraType1Resist" 		0.5					//Anti Building weapons					
-	"ExtraType2Resist" 		0.75					//Again					
-	"ExtraType3Resist" 		0.75					//and a third					
+	"ExtraType1Resist" 		0.5	//unused				
+	"ExtraType2Resist" 		0.75	//unused				
+	"ExtraType3Resist" 		0.75	//unused				
 
 	//BOUNDARY VECTORS
-
 	"CollisionRadius" 		"350"
 	"CollisionHeight" 		"450"
 	"CollisionOffsetX" 		"0"
@@ -460,21 +456,20 @@ BuildingParse
 	"BioArtResist" 			0.85	//unused					
 
 	"InfantryGrenadeResist" 	0.9	//HE Grenades						
-	"InfantryMineResist" 		0.9					//Player Tossed Mines					
-	"InfantryMissileResist" 	0.95					//Gren Missles						
-	"InfantryMortarResist" 		0.85					//Gren Mortars						
-	"InfantryStickyResist" 	 	0.85					//Sticky Grenades						
-	"InfantrySeismicResist" 	0.2					//Seismic Grenades						
-	"InfantryBulletResist" 		1					//Just In Case						
-	"InfantryUtilityResist"		1					//Concussion nades, various infantry stuff that does special things but no damage
-	"InfantryMeleeResist"		1					//Infantry melee
+	"InfantryMineResist" 		0.9	//Mines				
+	"InfantryMissileResist" 	0.95	//RPG						
+	"InfantryMortarResist" 		0.85	//Mortars					
+	"InfantryStickyResist" 	 	0.85	//Sticky Grenades						
+	"InfantrySeismicResist" 	0.2	//Seismic Grenades						
+	"InfantryBulletResist" 		1	//Infantry Guns					
+	"InfantryUtilityResist"		1	//Utility Grenades, Like smoke and concussion
+	"InfantryMeleeResist"		1	//Melee
 	
-	"ExtraType1Resist" 		0.5					//Anti Building weapons					
-	"ExtraType2Resist" 		0.75					//Again					
-	"ExtraType3Resist" 		0.75					//and a third							
+	"ExtraType1Resist" 		0.5	//unused				
+	"ExtraType2Resist" 		0.75	//unused				
+	"ExtraType3Resist" 		0.75	//unused						
 
 	//BOUNDARY VECTORS
-
 	"CollisionRadius" 		"240"
 	"CollisionHeight" 		"220"
 	}
@@ -525,21 +520,20 @@ BuildingParse
 	"BioArtResist" 			0.85	//unused					
 
 	"InfantryGrenadeResist" 	0.9	//HE Grenades						
-	"InfantryMineResist" 		0.9					//Player Tossed Mines					
-	"InfantryMissileResist" 	0.95					//Gren Missles						
-	"InfantryMortarResist" 		0.85					//Gren Mortars						
-	"InfantryStickyResist" 	 	0.85					//Sticky Grenades						
-	"InfantrySeismicResist" 	0.2					//Seismic Grenades						
-	"InfantryBulletResist" 		1					//Just In Case						
-	"InfantryUtilityResist"		1					//Concussion nades, various infantry stuff that does special things but no damage
-	"InfantryMeleeResist"		1					//Infantry melee
+	"InfantryMineResist" 		0.9	//Mines				
+	"InfantryMissileResist" 	0.95	//RPG						
+	"InfantryMortarResist" 		0.85	//Mortars					
+	"InfantryStickyResist" 	 	0.85	//Sticky Grenades						
+	"InfantrySeismicResist" 	0.2	//Seismic Grenades						
+	"InfantryBulletResist" 		1	//Infantry Guns					
+	"InfantryUtilityResist"		1	//Utility Grenades, Like smoke and concussion
+	"InfantryMeleeResist"		1	//Melee
 	
-	"ExtraType1Resist" 		0.5					//Anti Building weapons					
-	"ExtraType2Resist" 		0.75					//Again					
-	"ExtraType3Resist" 		0.75					//and a third						
+	"ExtraType1Resist" 		0.5	//unused				
+	"ExtraType2Resist" 		0.75	//unused				
+	"ExtraType3Resist" 		0.75	//unused					
 
 	//BOUNDARY VECTORS
-
 	"CollisionRadius" 		"240"
 	"CollisionHeight" 		"220"
 	}
@@ -590,21 +584,20 @@ BuildingParse
 	"BioArtResist" 			0.85	//unused					
 
 	"InfantryGrenadeResist" 	0.9	//HE Grenades						
-	"InfantryMineResist" 		0.9					//Player Tossed Mines					
-	"InfantryMissileResist" 	0.95					//Gren Missles						
-	"InfantryMortarResist" 		0.8					//Gren Mortars						
-	"InfantryStickyResist" 	 	0.85					//Sticky Grenades						
-	"InfantrySeismicResist" 	0					//Seismic Grenades						
-	"InfantryBulletResist" 		1					//Just In Case						
-	"InfantryUtilityResist"		1					//Concussion nades, various infantry stuff that does special things but no damage
-	"InfantryMeleeResist"		1					//Infantry melee
+	"InfantryMineResist" 		0.9	//Mines				
+	"InfantryMissileResist" 	0.95	//RPG						
+	"InfantryMortarResist" 		0.8	//Mortars					
+	"InfantryStickyResist" 	 	0.85	//Sticky Grenades						
+	"InfantrySeismicResist" 	0	//Seismic Grenades						
+	"InfantryBulletResist" 		1	//Infantry Guns					
+	"InfantryUtilityResist"		1	//Utility Grenades, Like smoke and concussion
+	"InfantryMeleeResist"		1	//Melee
 	
-	"ExtraType1Resist" 		0.5					//Anti Building weapons					
-	"ExtraType2Resist" 		0.75					//Again					
-	"ExtraType3Resist" 		0.75					//and a third						
+	"ExtraType1Resist" 		0.5	//unused				
+	"ExtraType2Resist" 		0.75	//unused				
+	"ExtraType3Resist" 		0.75	//unused					
 
 	//BOUNDARY VECTORS
-
 	"CollisionRadius" 		"500"
 	"CollisionHeight" 		"450"
 	"CollisionOffsetX" 		"80"
@@ -658,21 +651,20 @@ BuildingParse
 	"BioArtResist" 			0.85	//unused					
 
 	"InfantryGrenadeResist" 	0.9	//HE Grenades						
-	"InfantryMineResist" 		0.9					//Player Tossed Mines					
-	"InfantryMissileResist" 	0.95					//Gren Missles						
-	"InfantryMortarResist" 		0.8					//Gren Mortars						
-	"InfantryStickyResist" 	 	0.85					//Sticky Grenades						
-	"InfantrySeismicResist" 	0					//Seismic Grenades						
-	"InfantryBulletResist" 		1					//Just In Case						
-	"InfantryUtilityResist"		1					//Concussion nades, various infantry stuff that does special things but no damage
-	"InfantryMeleeResist"		1					//Infantry melee
+	"InfantryMineResist" 		0.9	//Mines				
+	"InfantryMissileResist" 	0.95	//RPG						
+	"InfantryMortarResist" 		0.8	//Mortars					
+	"InfantryStickyResist" 	 	0.85	//Sticky Grenades						
+	"InfantrySeismicResist" 	0	//Seismic Grenades						
+	"InfantryBulletResist" 		1	//Infantry Guns					
+	"InfantryUtilityResist"		1	//Utility Grenades, Like smoke and concussion
+	"InfantryMeleeResist"		1	//Melee
 	
-	"ExtraType1Resist" 		0.5					//Anti Building weapons					
-	"ExtraType2Resist" 		0.75					//Again					
-	"ExtraType3Resist" 		0.75					//and a third							
+	"ExtraType1Resist" 		0.5	//unused				
+	"ExtraType2Resist" 		0.75	//unused				
+	"ExtraType3Resist" 		0.75	//unused						
 
 	//BOUNDARY VECTORS
-
 	"CollisionRadius" 		"500"
 	"CollisionHeight" 		"450"
 	"CollisionOffsetX" 		"90"
@@ -734,17 +726,17 @@ BuildingParse
 	"BioArtResist" 			0.70	//unused	
 
 	"InfantryGrenadeResist" 	0.80	//HE Grenades		
-	"InfantryMineResist" 		0.9					//Player Tossed Mines	
-	"InfantryMissileResist" 	0.70					//Gren Missles		
-	"InfantryMortarResist" 		0.70					//Gren Mortars			
-	"InfantryStickyResist" 	 	0.66					//Sticky Grenades		
-	"InfantrySeismicResist" 	-0.70					//Seismic Grenades		
-	"InfantryBulletResist" 		1					//Just In Case		
-	"InfantryUtilityResist"		0.9					//Concussion nades, various infantry stuff that does special things but no damage
-	"InfantryMeleeResist"		1					//Infantry melee
+	"InfantryMineResist" 		0.9	//Mines
+	"InfantryMissileResist" 	0.70	//RPG		
+	"InfantryMortarResist" 		0.70	//Mortars		
+	"InfantryStickyResist" 	 	0.66	//Sticky Grenades		
+	"InfantrySeismicResist" 	-0.70	//Seismic Grenades		
+	"InfantryBulletResist" 		1	//Infantry Guns	
+	"InfantryUtilityResist"		0.9	//Utility Grenades, Like smoke and concussion
+	"InfantryMeleeResist"		1	//Melee
 	
-	"ExtraType1Resist" 		0.65					//Anti Building weapons	
-	"ExtraType2Resist" 		0.6					//Again	
+	"ExtraType1Resist" 		0.65	//unused
+	"ExtraType2Resist" 		0.6	//unused
 	"ExtraType3Resist" 		0.6					//and a third
 
 	//BOUNDARY VECTORS								
@@ -866,18 +858,18 @@ BuildingParse
 	"BioArtResist" 			0.70	//unused	
 
 	"InfantryGrenadeResist" 	0.80	//HE Grenades		
-	"InfantryMineResist" 		0.9					//Player Tossed Mines	
-	"InfantryMissileResist" 	0.70					//Gren Missles		
-	"InfantryMortarResist" 		0.70					//Gren Mortars			
-	"InfantryStickyResist" 	 	0.66					//Sticky Grenades		
-	"InfantrySeismicResist" 	-0.70					//Seismic Grenades		
-	"InfantryBulletResist" 		1					//Just In Case		
-	"InfantryUtilityResist"		0.9					//Concussion nades, various infantry stuff that does special things but no damage
-	"InfantryMeleeResist"		1					//Infantry melee
+	"InfantryMineResist" 		0.9	//Mines
+	"InfantryMissileResist" 	0.70	//RPG		
+	"InfantryMortarResist" 		0.70	//Mortars		
+	"InfantryStickyResist" 	 	0.66	//Sticky Grenades		
+	"InfantrySeismicResist" 	-0.70	//Seismic Grenades		
+	"InfantryBulletResist" 		1	//Infantry Guns	
+	"InfantryUtilityResist"		0.9	//Utility Grenades, Like smoke and concussion
+	"InfantryMeleeResist"		1	//Melee
 	
-	"ExtraType1Resist" 		0.65					//Anti Building weapons	
-	"ExtraType2Resist" 		0.6					//Again	
-	"ExtraType3Resist" 		0.6					//and a third	
+	"ExtraType1Resist" 		0.65	//unused
+	"ExtraType2Resist" 		0.6	//unused
+	"ExtraType3Resist" 		0.6	//unused
 
 	//BOUNDARY VECTORS								
 	"CollisionRadius" 		"60"
@@ -999,7 +991,7 @@ BuildingParse
 	
 	"KineticArtResist" 		0.70	//Kinetic Artillery	
 	"ExplosiveArtResist" 		0.70	//Explosive Artillery	
-	"BioArtResist" 				0.70	//Bio Artillery		
+	"BioArtResist" 			0.70	//Bio Artillery		
 	
 	"AircraftMissileResist" 	0.70	// Aircraft Missiles		
 	"AircraftGroundMissleResist" 	0.70	// Aircraft Missiles to hit ground targets		
@@ -1011,10 +1003,10 @@ BuildingParse
 	"InfantryGrenadeResist" 	0.80	//Player Thrown Grenades		
 	"InfantryMineResist" 		0.9	//Player Tossed Mines	
 	"InfantryMissileResist" 	0.70	//Gren Missles		
-	"InfantryMortarResist" 			0.70	//Gren Mortars			
-	"InfantryStickyResist" 	 		0.66	//Sticky Grenades		
+	"InfantryMortarResist" 		0.70	//Gren Mortars			
+	"InfantryStickyResist" 	 	0.66	//Sticky Grenades		
 	"InfantrySeismicResist" 	-0.70	//Seismic Grenades		
-	"InfantryBulletResist" 			1	//Just In Case		
+	"InfantryBulletResist" 		1	//Just In Case		
 	"InfantryUtilityResist"		0.9	//Concussion nades, various infantry stuff that does special things but no damage
 	"InfantryMeleeResist"		1	//Infantry melee
 	
@@ -1155,17 +1147,17 @@ BuildingParse
 	"BioArtResist" 			0.70	//unused	
 
 	"InfantryGrenadeResist" 	0.80	//HE Grenades		
-	"InfantryMineResist" 		0.9					//Player Tossed Mines	
-	"InfantryMissileResist" 	0.70					//Gren Missles		
-	"InfantryMortarResist" 		0.70					//Gren Mortars			
-	"InfantryStickyResist" 	 	0.66					//Sticky Grenades		
-	"InfantrySeismicResist" 	-0.70					//Seismic Grenades		
-	"InfantryBulletResist" 		1					//Just In Case		
-	"InfantryUtilityResist"		0.9					//Concussion nades, various infantry stuff that does special things but no damage
-	"InfantryMeleeResist"		1					//Infantry melee
+	"InfantryMineResist" 		0.9	//Mines
+	"InfantryMissileResist" 	0.70	//RPG		
+	"InfantryMortarResist" 		0.70	//Mortars		
+	"InfantryStickyResist" 	 	0.66	//Sticky Grenades		
+	"InfantrySeismicResist" 	-0.70	//Seismic Grenades		
+	"InfantryBulletResist" 		1	//Infantry Guns	
+	"InfantryUtilityResist"		0.9	//Utility Grenades, Like smoke and concussion
+	"InfantryMeleeResist"		1	//Melee
 	
-	"ExtraType1Resist" 		0.65					//Anti Building weapons	
-	"ExtraType2Resist" 		0.6					//Again	
+	"ExtraType1Resist" 		0.65	//unused
+	"ExtraType2Resist" 		0.6	//unused
 	"ExtraType3Resist" 		0.6					//and a third
 
 	//BOUNDARY VECTORS								
@@ -1261,7 +1253,7 @@ BuildingParse
 
 	//RESISTANCES
 	"GeneralPhysicsResist"		0.25	//Plasma MG, High Energy Plasma MG,  Plasma Cannon Prot., Plasma Cannon					
-	"GeneralChemistryResist"  	0.25	//Grenade Launcher, High-Explosive Grenade Launcher				
+	"GeneralChemistryResist"  	0.625	//Grenade Launcher, High-Explosive Grenade Launcher				
 	"GeneralMechanicalResist" 	0.25	//unused					
 	"GeneralElectricResist"  	0.25	//unused						
 	"GeneralBiologicalResist"	0.25	//unused						
@@ -1283,21 +1275,20 @@ BuildingParse
 	"BioArtResist" 			0.25	//unused					
 
 	"InfantryGrenadeResist" 	0.25	//HE Grenades						
-	"InfantryMineResist" 		0.25					//Player Tossed Mines					
-	"InfantryMissileResist" 	0.25					//Gren Missles						
-	"InfantryMortarResist" 		0.25					//Gren Mortars						
-	"InfantryStickyResist" 	 	0.25					//Sticky Grenades						
-	"InfantrySeismicResist" 	-0.70					//Seismic Grenades						
-	"InfantryBulletResist" 		0.75					//Just In Case						
-	"InfantryUtilityResist"		0.9					//Concussion nades, various infantry stuff that does special things but no damage
-	"InfantryMeleeResist"		0.75					//Infantry melee
+	"InfantryMineResist" 		0.5	//Mines				
+	"InfantryMissileResist" 	0.25	//RPG						
+	"InfantryMortarResist" 		0.25	//Mortars					
+	"InfantryStickyResist" 	 	0.25	//Sticky Grenades						
+	"InfantrySeismicResist" 	-1.00	//Seismic Grenades						
+	"InfantryBulletResist" 		0.75	//Infantry Guns					
+	"InfantryUtilityResist"		0.9	//Utility Grenades, Like smoke and concussion
+	"InfantryMeleeResist"		0.75	//Melee
 	
-	"ExtraType1Resist" 		0.25					//Anti Building weapons					
-	"ExtraType2Resist" 		0.25					//Again					
-	"ExtraType3Resist" 		0.25					//and a third					
+	"ExtraType1Resist" 		0.25	//unused				
+	"ExtraType2Resist" 		0.25	//unused				
+	"ExtraType3Resist" 		0.25	//unused				
 
 	//BOUNDARY VECTORS
-
 	"CollisionOffsetX" 		"0"
 	"CollisionOffsetY" 		"0"
 	"CollisionOffsetZ" 		"10"
@@ -1327,7 +1318,7 @@ BuildingParse
 
 	//RESISTANCES
 	"GeneralPhysicsResist"		0.25	//Plasma MG, High Energy Plasma MG,  Plasma Cannon Prot., Plasma Cannon					
-	"GeneralChemistryResist"  	0.25	//Grenade Launcher, High-Explosive Grenade Launcher				
+	"GeneralChemistryResist"  	0.625	//Grenade Launcher, High-Explosive Grenade Launcher				
 	"GeneralMechanicalResist" 	0.25	//unused					
 	"GeneralElectricResist"  	0.25	//unused						
 	"GeneralBiologicalResist"	0.25	//unused						
@@ -1349,18 +1340,18 @@ BuildingParse
 	"BioArtResist" 			0.25	//unused					
 
 	"InfantryGrenadeResist" 	0.25	//HE Grenades						
-	"InfantryMineResist" 		0.25					//Player Tossed Mines					
-	"InfantryMissileResist" 	0.25					//Gren Missles						
-	"InfantryMortarResist" 		0.25					//Gren Mortars						
-	"InfantryStickyResist" 	 	0.25					//Sticky Grenades						
-	"InfantrySeismicResist" 	-0.70					//Seismic Grenades						
-	"InfantryBulletResist" 		0.75					//Just In Case						
-	"InfantryUtilityResist"		0.9					//Concussion nades, various infantry stuff that does special things but no damage
-	"InfantryMeleeResist"		0.75					//Infantry melee
+	"InfantryMineResist" 		0.5	//Mines				
+	"InfantryMissileResist" 	0.25	//RPG						
+	"InfantryMortarResist" 		0.25	//Mortars					
+	"InfantryStickyResist" 	 	0.25	//Sticky Grenades						
+	"InfantrySeismicResist" 	-1.00	//Seismic Grenades						
+	"InfantryBulletResist" 		0.75	//Infantry Guns					
+	"InfantryUtilityResist"		0.9	//Utility Grenades, Like smoke and concussion
+	"InfantryMeleeResist"		0.75	//Melee
 	
-	"ExtraType1Resist" 		0.25					//Anti Building weapons					
-	"ExtraType2Resist" 		0.25					//Again					
-	"ExtraType3Resist" 		0.25					//and a third					
+	"ExtraType1Resist" 		0.25	//unused				
+	"ExtraType2Resist" 		0.25	//unused				
+	"ExtraType3Resist" 		0.25	//unused				
 
 	//BOUNDARY VECTORS
 
@@ -1391,7 +1382,7 @@ BuildingParse
 
 	//RESISTANCES
 	"GeneralPhysicsResist"		0.25	//Plasma MG, High Energy Plasma MG,  Plasma Cannon Prot., Plasma Cannon					
-	"GeneralChemistryResist"  	0.25	//Grenade Launcher, High-Explosive Grenade Launcher				
+	"GeneralChemistryResist"  	0.625	//Grenade Launcher, High-Explosive Grenade Launcher				
 	"GeneralMechanicalResist" 	0.25	//unused					
 	"GeneralElectricResist"  	0.25	//unused						
 	"GeneralBiologicalResist"	0.25	//unused						
@@ -1413,18 +1404,18 @@ BuildingParse
 	"BioArtResist" 			0.25	//unused					
 
 	"InfantryGrenadeResist" 	0.25	//HE Grenades						
-	"InfantryMineResist" 		0.25					//Player Tossed Mines					
-	"InfantryMissileResist" 	0.25					//Gren Missles						
-	"InfantryMortarResist" 		0.25					//Gren Mortars						
-	"InfantryStickyResist" 	 	0.25					//Sticky Grenades						
-	"InfantrySeismicResist" 	-0.70					//Seismic Grenades						
-	"InfantryBulletResist" 		0.75					//Just In Case						
-	"InfantryUtilityResist"		0.9					//Concussion nades, various infantry stuff that does special things but no damage
-	"InfantryMeleeResist"		0.75					//Infantry melee
+	"InfantryMineResist" 		0.5	//Mines				
+	"InfantryMissileResist" 	0.25	//RPG						
+	"InfantryMortarResist" 		0.25	//Mortars					
+	"InfantryStickyResist" 	 	0.25	//Sticky Grenades						
+	"InfantrySeismicResist" 	-1.00	//Seismic Grenades						
+	"InfantryBulletResist" 		0.75	//Infantry Guns					
+	"InfantryUtilityResist"		0.9	//Utility Grenades, Like smoke and concussion
+	"InfantryMeleeResist"		0.75	//Melee
 	
-	"ExtraType1Resist" 		0.25					//Anti Building weapons					
-	"ExtraType2Resist" 		0.25					//Again					
-	"ExtraType3Resist" 		0.25					//and a third					
+	"ExtraType1Resist" 		0.25	//unused				
+	"ExtraType2Resist" 		0.25	//unused				
+	"ExtraType3Resist" 		0.25	//unused				
 
 	//BOUNDARY VECTORS
 
@@ -1455,7 +1446,7 @@ BuildingParse
 
  	//RESISTANCES
 	"GeneralPhysicsResist"		0.25	//Plasma MG, High Energy Plasma MG,  Plasma Cannon Prot., Plasma Cannon					
-	"GeneralChemistryResist"  	0.25	//Grenade Launcher, High-Explosive Grenade Launcher				
+	"GeneralChemistryResist"  	0.625	//Grenade Launcher, High-Explosive Grenade Launcher				
 	"GeneralMechanicalResist" 	0.25	//unused					
 	"GeneralElectricResist"  	0.25	//unused						
 	"GeneralBiologicalResist"	0.25	//unused						
@@ -1477,21 +1468,20 @@ BuildingParse
 	"BioArtResist" 			0.25	//unused					
 
 	"InfantryGrenadeResist" 	0.25	//HE Grenades						
-	"InfantryMineResist" 		0.25					//Player Tossed Mines					
-	"InfantryMissileResist" 	0.25					//Gren Missles						
-	"InfantryMortarResist" 		0.25					//Gren Mortars						
-	"InfantryStickyResist" 	 	0.25					//Sticky Grenades						
-	"InfantrySeismicResist" 	-0.70					//Seismic Grenades						
-	"InfantryBulletResist" 		0.75					//Just In Case						
-	"InfantryUtilityResist"		0.9					//Concussion nades, various infantry stuff that does special things but no damage
-	"InfantryMeleeResist"		0.75					//Infantry melee
+	"InfantryMineResist" 		0.5	//Mines				
+	"InfantryMissileResist" 	0.25	//RPG						
+	"InfantryMortarResist" 		0.25	//Mortars					
+	"InfantryStickyResist" 	 	0.25	//Sticky Grenades						
+	"InfantrySeismicResist" 	-1.00	//Seismic Grenades						
+	"InfantryBulletResist" 		0.75	//Infantry Guns					
+	"InfantryUtilityResist"		0.9	//Utility Grenades, Like smoke and concussion
+	"InfantryMeleeResist"		0.75	//Melee
 	
-	"ExtraType1Resist" 		0.25					//Anti Building weapons					
-	"ExtraType2Resist" 		0.25					//Again					
-	"ExtraType3Resist" 		0.25					//and a third					
+	"ExtraType1Resist" 		0.25	//unused				
+	"ExtraType2Resist" 		0.25	//unused				
+	"ExtraType3Resist" 		0.25	//unused				
 
 	//BOUNDARY VECTORS
-
 	"CollisionRadius" 		"0"
 	"CollisionHeight" 		"0"	 
 	}
@@ -1520,7 +1510,7 @@ BuildingParse
 
 	//RESISTANCES
 	"GeneralPhysicsResist"		0.94	//Plasma MG, High Energy Plasma MG,  Plasma Cannon Prot., Plasma Cannon					
-	"GeneralChemistryResist"  	0.94		//Grenade Launcher, High-Explosive Grenade Launcher					
+	"GeneralChemistryResist"  	0.94	//Grenade Launcher, High-Explosive Grenade Launcher					
 	"GeneralMechanicalResist" 	0.94	//unused					
 	"GeneralElectricResist"  	0.94	//unused						
 	"GeneralBiologicalResist"	0.94	//unused						
@@ -1541,29 +1531,21 @@ BuildingParse
 	"ExplosiveArtResist" 		0.94	//180mm Artillery Cannon, 203mm Artillery Cannon, High Explosive Artillery				
 	"BioArtResist" 			0.94	//unused					
 
-	"AircraftMissileResist" 	0.94					// Aircraft Missiles						
-	"AircraftGroundMissleResist" 	0.94					// Aircraft Missiles to hit ground targets						
-	"AircraftBulletResist" 	0.94				//Aircraft to Aircraft bullets							
-	"AircraftAPBulletResist" 	0.94					//Aircraft Bullets to hit ground targets						
-	"AircraftBombResist" 		0.94				//Bombs						
-	"AircraftBombBioResist" 	0.94					//Bio Bombs?						
-
 	"InfantryGrenadeResist" 	0.94	//HE Grenades						
-	"InfantryMineResist" 		0.94					//Player Tossed Mines					
-	"InfantryMissileResist" 	0.94					//Gren Missles						
-	"InfantryMortarResist" 		0.90					//Gren Mortars						
-	"InfantryStickyResist" 	 	0.94					//Sticky Grenades						
-	"InfantrySeismicResist" 	0.70					//Seismic Grenades						
-	"InfantryBulletResist" 		1					//Just In Case						
-	"InfantryUtilityResist"		1					//Concussion nades, various infantry stuff that does special things but no damage
-	"InfantryMeleeResist"		1					//Infantry melee
+	"InfantryMineResist" 		0.94	//Mines				
+	"InfantryMissileResist" 	0.92	//RPG						
+	"InfantryMortarResist" 		0.90	//Mortars					
+	"InfantryStickyResist" 	 	0.94	//Sticky Grenades						
+	"InfantrySeismicResist" 	0.70	//Seismic Grenades						
+	"InfantryBulletResist" 		1	//Infantry Guns					
+	"InfantryUtilityResist"		1	//Utility Grenades, Like smoke and concussion
+	"InfantryMeleeResist"		1	//Melee
 	
-	"ExtraType1Resist" 		0.4					//Anti Building weapons					
-	"ExtraType2Resist" 		0.94					//Again					
-	"ExtraType3Resist" 		0.94					//and a third				
+	"ExtraType1Resist" 		0.4	//unused				
+	"ExtraType2Resist" 		0.94	//unused				
+	"ExtraType3Resist" 		0.94	//unused			
 	
 	//BOUNDARY VECTORS
-
 	"CollisionRadius" 		"160"
 	"CollisionHeight" 		"224"
 	"CollisionOffsetX" 		"-16"
@@ -1606,7 +1588,7 @@ BuildingParse
 
 	//RESISTANCES
 	"GeneralPhysicsResist"		0.94	//Plasma MG, High Energy Plasma MG,  Plasma Cannon Prot., Plasma Cannon					
-	"GeneralChemistryResist"  	0.94		//Grenade Launcher, High-Explosive Grenade Launcher					
+	"GeneralChemistryResist"  	0.94	//Grenade Launcher, High-Explosive Grenade Launcher					
 	"GeneralMechanicalResist" 	0.94	//unused					
 	"GeneralElectricResist"  	0.94	//unused						
 	"GeneralBiologicalResist"	0.94	//unused						
@@ -1627,26 +1609,19 @@ BuildingParse
 	"ExplosiveArtResist" 		0.94	//180mm Artillery Cannon, 203mm Artillery Cannon, High Explosive Artillery				
 	"BioArtResist" 			0.94	//unused					
 
-	"AircraftMissileResist" 	0.94					// Aircraft Missiles						
-	"AircraftGroundMissleResist" 	0.94					// Aircraft Missiles to hit ground targets						
-	"AircraftBulletResist" 	0.94				//Aircraft to Aircraft bullets							
-	"AircraftAPBulletResist" 	0.94					//Aircraft Bullets to hit ground targets						
-	"AircraftBombResist" 		0.94				//Bombs						
-	"AircraftBombBioResist" 	0.94					//Bio Bombs?						
-
 	"InfantryGrenadeResist" 	0.94	//HE Grenades						
-	"InfantryMineResist" 		0.94					//Player Tossed Mines					
-	"InfantryMissileResist" 	0.94					//Gren Missles						
-	"InfantryMortarResist" 		0.90					//Gren Mortars						
-	"InfantryStickyResist" 	 	0.94					//Sticky Grenades						
-	"InfantrySeismicResist" 	0.70					//Seismic Grenades						
-	"InfantryBulletResist" 		1					//Just In Case						
-	"InfantryUtilityResist"		1					//Concussion nades, various infantry stuff that does special things but no damage
-	"InfantryMeleeResist"		1					//Infantry melee
+	"InfantryMineResist" 		0.94	//Mines				
+	"InfantryMissileResist" 	0.92	//RPG						
+	"InfantryMortarResist" 		0.90	//Mortars					
+	"InfantryStickyResist" 	 	0.94	//Sticky Grenades						
+	"InfantrySeismicResist" 	0.70	//Seismic Grenades						
+	"InfantryBulletResist" 		1	//Infantry Guns					
+	"InfantryUtilityResist"		1	//Utility Grenades, Like smoke and concussion
+	"InfantryMeleeResist"		1	//Melee
 	
-	"ExtraType1Resist" 		0.4					//Anti Building weapons					
-	"ExtraType2Resist" 		0.94					//Again					
-	"ExtraType3Resist" 		0.94					//and a third					
+	"ExtraType1Resist" 		0.4	//unused				
+	"ExtraType2Resist" 		0.94	//unused				
+	"ExtraType3Resist" 		0.94	//unused				
 
 	//BOUNDARY VECTORS
 
@@ -1712,21 +1687,20 @@ BuildingParse
 	"BioArtResist" 			0.85	//unused					
 
 	"InfantryGrenadeResist" 	0.9	//HE Grenades						
-	"InfantryMineResist" 		0.9					//Player Tossed Mines					
-	"InfantryMissileResist" 	0.95					//Gren Missles						
-	"InfantryMortarResist" 		0.8					//Gren Mortars						
-	"InfantryStickyResist" 	 	0.85					//Sticky Grenades						
-	"InfantrySeismicResist" 	0					//Seismic Grenades						
-	"InfantryBulletResist" 		1					//Just In Case						
-	"InfantryUtilityResist"		1					//Concussion nades, various infantry stuff that does special things but no damage
-	"InfantryMeleeResist"		1					//Infantry melee
+	"InfantryMineResist" 		0.9	//Mines				
+	"InfantryMissileResist" 	0.95	//RPG						
+	"InfantryMortarResist" 		0.8	//Mortars					
+	"InfantryStickyResist" 	 	0.85	//Sticky Grenades						
+	"InfantrySeismicResist" 	0	//Seismic Grenades						
+	"InfantryBulletResist" 		1	//Infantry Guns					
+	"InfantryUtilityResist"		1	//Utility Grenades, Like smoke and concussion
+	"InfantryMeleeResist"		1	//Melee
 	
-	"ExtraType1Resist" 		0.5					//Anti Building weapons					
-	"ExtraType2Resist" 		0.75					//Again					
-	"ExtraType3Resist" 		0.75					//and a third	
+	"ExtraType1Resist" 		0.5	//unused				
+	"ExtraType2Resist" 		0.75	//unused				
+	"ExtraType3Resist" 		0.75	//unused
 
 	//BOUNDARY VECTORS
-
 	"CollisionRadius" 		"600"
 	"CollisionHeight" 		"300"
 	"CollisionOffsetX" 		"0"
@@ -1781,21 +1755,20 @@ BuildingParse
 	"BioArtResist" 			0.85	//unused					
 
 	"InfantryGrenadeResist" 	0.9	//HE Grenades						
-	"InfantryMineResist" 		0.9					//Player Tossed Mines					
-	"InfantryMissileResist" 	0.95					//Gren Missles						
-	"InfantryMortarResist" 		0.8					//Gren Mortars						
-	"InfantryStickyResist" 	 	0.85					//Sticky Grenades						
-	"InfantrySeismicResist" 	0					//Seismic Grenades						
-	"InfantryBulletResist" 		1					//Just In Case						
-	"InfantryUtilityResist"		1					//Concussion nades, various infantry stuff that does special things but no damage
-	"InfantryMeleeResist"		1					//Infantry melee
+	"InfantryMineResist" 		0.9	//Mines				
+	"InfantryMissileResist" 	0.95	//RPG						
+	"InfantryMortarResist" 		0.8	//Mortars					
+	"InfantryStickyResist" 	 	0.85	//Sticky Grenades						
+	"InfantrySeismicResist" 	0	//Seismic Grenades						
+	"InfantryBulletResist" 		1	//Infantry Guns					
+	"InfantryUtilityResist"		1	//Utility Grenades, Like smoke and concussion
+	"InfantryMeleeResist"		1	//Melee
 	
-	"ExtraType1Resist" 		0.5					//Anti Building weapons					
-	"ExtraType2Resist" 		0.75					//Again					
-	"ExtraType3Resist" 		0.75					//and a third		
+	"ExtraType1Resist" 		0.5	//unused				
+	"ExtraType2Resist" 		0.75	//unused				
+	"ExtraType3Resist" 		0.75	//unused	
 
 	//BOUNDARY VECTORS
-
 	"CollisionRadius" 		"600"
 	"CollisionHeight" 		"500"
 	"CollisionOffsetX" 		"0"
