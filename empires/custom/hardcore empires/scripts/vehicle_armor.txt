@@ -126,7 +126,7 @@ Vehicle_armor
 		"InfantrySeismicResist" 	"0.95"
 		"InfantryBulletResist" 		"1"
 		"ExtraType1Resist" 		"0.95"
-		"InfantryMeleeResist"		"1.0"
+		"InfantryMeleeResist"		"1"
 		"MissileResist"			"0.1"
 		"MissileExplosiveResist" 	"0.1"
 		"KineticResist"			"0.1"
@@ -135,9 +135,9 @@ Vehicle_armor
 		"APBulletResist" 		"0.1"
 		"BulletExplosiveResist"		"0.1"
 		"GeneralChemistryResist"	"0.1"
-		"GeneralMechanicalResist"	"0.1"
-		"GeneralElectricResist"		"0.1"
 		"BioArtResist"			"0.1"
+		"ExplosiveArtResist"		"0.1"
+		"KineticArtResist"		"0.1"
 	}
 	"Regenerative"
 	{
