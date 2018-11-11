@@ -269,7 +269,6 @@ research_items
 					"XPos"			"195"
 					"YPos"			"72"
 				}
-
 		"Improved_Warhead_Compounds"
 		{
 			"Parent"		"Chemistry"				//id of parent that this branches from
@@ -314,8 +313,6 @@ research_items
 					"XPos"			"255"
 					"YPos"			"72"
 				}
-
-
 		"Improved_Heat_Transfer_Fluids"
 		{
 			"Parent"		"Chemistry"				//id of parent that this branches from
@@ -338,27 +335,17 @@ research_items
 				"XPos"			"195"
 				"YPos"			"72"
 			}
-
-//		"Absorbant_Materials"
-//		{
-//			"Parent"		"Chemistry"				//id of parent that this branches from
-//			"Icon"			"comm/hex_multi"			//icon drawn on research tree
-//			"Type"			"0"		//nothing
-//			"Cost"			"0"		//cost of this research item
-//			"Time"			"90"		//time to research this item in seconds
-//			"Team"			""		//which team can research this
-//		}
-			"Absorbant_Armor"
-			{
-				"Parent"		"Chemistry"	//id of parent that this branches from
-				"Icon"			"comm/hex_armor"			//icon drawn on research tree
-				"Type"			"0"		//nothing
-				"Cost"			"360"		//cost of this research item
-				"Time"			"90"		//time to research this item in seconds
-				"Team"			""		//which team can research this
-				"XPos"			"175"
-				"YPos"			"48"
-			}
+		"Absorbant_Armor"
+		{
+			"Parent"		"Chemistry"	//id of parent that this branches from
+			"Icon"			"comm/hex_armor"			//icon drawn on research tree
+			"Type"			"0"		//nothing
+			"Cost"			"360"		//cost of this research item
+			"Time"			"90"		//time to research this item in seconds
+			"Team"			""		//which team can research this
+			"XPos"			"175"
+			"YPos"			"48"
+		}
 
 
 	"Mechanical_Engineering"
@@ -377,8 +364,8 @@ research_items
 			"Parent"		"Mechanical_Engineering"				//id of parent that this branches from
 			"Icon"			"comm/hex_multi"			//icon drawn on research tree
 			"Type"			"0"		//nothing
-			"Cost"			"480"		//cost of this research item
-			"Time"			"120"		//time to research this item in seconds
+			"Cost"			"360"		//cost of this research item
+			"Time"			"90"		//time to research this item in seconds
 			"Team"			""		//which team can research this
 			"XPos"			"257"
 			"YPos"			"48"
@@ -423,8 +410,8 @@ research_items
 				"Parent"		"Upgraded_Chassis"				//id of parent that this branches from
 				"Icon"			"comm/hex_multi"			//icon drawn on research tree
 				"Type"			"0"		//nothing
-				"Cost"			"800"		//cost of this research item
-				"Time"			"200"		//time to research this item in seconds
+				"Cost"			"600"		//cost of this research item
+				"Time"			"150"		//time to research this item in seconds
 				"Team"			""		//which team can research this
 				"XPos"			"257"
 				"YPos"			"72"
@@ -447,15 +434,12 @@ research_items
 					"Parent"		"Advanced_Chassis"	//id of parent that this branches from
 					"Icon"			"comm/hex_tank"			//icon drawn on research tree
 					"Type"			"0"		//nothing
-					"Cost"			"960"		//cost of this research item
-					"Time"			"240"		//time to research this item in seconds
+					"Cost"			"720"		//cost of this research item
+					"Time"			"180"		//time to research this item in seconds
 					"Team"			""		//which team can research this
 					"XPos"			"257"
 					"YPos"			"96"
 				}
-
-
-
 		"Advanced_Machining"
 		{
 			"Parent"		"Mechanical_Engineering"				//id of parent that this branches from
@@ -467,7 +451,6 @@ research_items
 			"XPos"			"277"
 			"YPos"			"48"
 		}
-
 			"Composite_Armor"
 			{
 				"Parent"		"Advanced_Machining"	//id of parent that this branches from
@@ -479,7 +462,6 @@ research_items
 				"XPos"			"297"
 				"YPos"			"72"
 			}
-
 			"Gas_Turbine_Engine"
 			{
 				"Parent"		"Advanced_Machining"	//id of parent that this branches from
@@ -492,6 +474,7 @@ research_items
 				"YPos"			"72"
 			}
 
+			
 	"Electrical_Engineering"
 	{
 		"Parent"		"Research_Index"				//id of parent that this branches from
