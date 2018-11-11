@@ -106,11 +106,11 @@ Vehicle_Weapons
 		//for biological weapons: when a player or vehicle is hit, the damage (Damage) is inflicted every specified amount of seconds (Interval) over a total amount of time period (Time)
 		//all weapons can use these, explosions will infect all players and vehicles the explosion touches, not just the direct hit target
 		"Player Bio Damage"	"2"	//damage inflicted to players every interval (default: 0)
-		"Player Bio Time"	"1"	//total time to inflict damage to players (default: 0)
-		"Player Bio Interval"	"0.2"	//time inbetween each infliction of damage to players (default: 0)
+		"Player Bio Time"	"1.1"	//total time to inflict damage to players (default: 0)
+		"Player Bio Interval"	"0.21"	//time inbetween each infliction of damage to players (default: 0)
 		"Vehicle Bio Damage"	"4"	//damage inflicted to vehicles every interval (default: 0)
-		"Vehicle Bio Time"	"1"	//total time to inflict damage to vehicles (default: 0)
-		"Vehicle Bio Interval"	"0.2"	//time inbetween each infliction of damage to vehicles (default: 0)
+		"Vehicle Bio Time"	"1.1"	//total time to inflict damage to vehicles (default: 0)
+		"Vehicle Bio Interval"	"0.21"	//time inbetween each infliction of damage to vehicles (default: 0)
 
 		//explosion effects
 		"Explosion Speed"	"3"	//how long the explosion sprite lives (15 is default)
@@ -979,7 +979,7 @@ Vehicle_Weapons
 		"Player Bio Time"	"7"	//total time to inflict damage to players (default: 0)
 		"Player Bio Interval"	"1"	//time inbetween each infliction of damage to players (default: 0)
 		"Vehicle Bio Damage"	"7"	//damage inflicted to vehicles every interval (default: 0)
-		"Vehicle Bio Time"	"4"	//total time to inflict damage to vehicles (default: 0)
+		"Vehicle Bio Time"	"4.25"	//total time to inflict damage to vehicles (default: 0)
 		"Vehicle Bio Interval"	"0.4"	//time inbetween each infliction of damage to vehicles (default: 0)
 	}
 	//ARTILLERY
