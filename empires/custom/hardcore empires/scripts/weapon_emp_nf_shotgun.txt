@@ -5,7 +5,7 @@ WeaponData
 	"Bullets"			"9"		// bullets per shoot   //was 8 in RC1
 	"CycleTime"			"0.9"		// time between shoots
 	"FalloffStart"			"0"		// Distance at which bullet falloff starts - (Max bullet distance 10000 units) - Default 5000
-	"FalloffEnd"			"3000"		// Distance at which bullet falloff ends - (Distance that damage is at MinimalDamage) - Default 10000	
+	"FalloffEnd"			"10000"		// Distance at which bullet falloff ends - (Distance that damage is at MinimalDamage) - Default 10000	
 	"MinimalDamage"			"9"		// bullet will always deal this amount of damage even after damage decrease  //was 3 in RC3
 	"SemiAutomatic"			"1"
 	"Fire Interrupts Reload"	"1"
