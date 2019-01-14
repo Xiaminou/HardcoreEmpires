@@ -93,7 +93,7 @@ Vehicle_Weapons
 		"Damage Type"		"APBullet"
 		"Ammo Type"		"1"		//for mguns only, 0 = nonarmor penetrating (no effect on armored vehicles), 1 = armor penetrating (hurts armored vehicles), 2 = explosive (hurts vehicles and has a radius damage around it based on 'explosion radius'" (default: 0)
 		"Damage"		"8"		//damage done by projectile (default: 50)
-		"Heat"			"1"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status) (default: 0.1)
+		"Heat"			"2"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status) (default: 0.1)
 		"Weight"		"40"		//weight in terms of effects on engine and weight restrictions for chassis (default: 10)
 		"Cycle Time"		"0.43"		//time between shots (default 0.1)
 		"Clip Size"		"30"		//ammo loaded per reloads (default: 10)
@@ -121,9 +121,9 @@ Vehicle_Weapons
 		"Muzzle Flash"		"tracer_bio_muzzle"
 		
 		//falloff (requires "type" 0)
-		"FalloffStart"			"0"		//Distance that we start reducing damage - Default 5000
-		"FalloffEnd"			"8000"		//Distance that we start dealing MinimalDamage value - (Max bullet distance 10000 units) - Default 10000
-		"MinimalDamage"			"4"	
+		"FalloffStart"			"5000"		//Distance that we start reducing damage - Default 5000
+		"FalloffEnd"			"10000"		//Distance that we start dealing MinimalDamage value - (Max bullet distance 10000 units) - Default 10000
+		"MinimalDamage"			"6"	
 	}
 	".50 Cal Medium MG"
 	{
@@ -224,7 +224,7 @@ Vehicle_Weapons
 		"Damage Type"		"APBullet"
 		"Ammo Type"		"1"		//for mguns only, 0 = nonarmor penetrating (no effect on armored vehicles), 1 = armor penetrating (hurts armored vehicles)
 		"Damage"		"5"		//damage done by projectile (default: 50)
-		"Heat"			"0.5"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status) (default: 0.1)
+		"Heat"			"0.4"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status) (default: 0.1)
 		"Weight"		"40"		//weight in terms of effects on engine and weight restrictions for chassis (default: 10)
 		"Cycle Time"		"0.1"		//time between shots (default 0.1)
 		"Clip Size"		"80"		//ammo loaded per reloads (default: 10)
@@ -243,9 +243,9 @@ Vehicle_Weapons
 		"Muzzle Flash"		"tracer_du_muzzle"
 
 		//falloff (requires "type" 0)
-		"FalloffStart"		"0"		//Distance that we start reducing damage - Default 5000
-		"FalloffEnd"		"6500"		//Distance that we start dealing MinimalDamage value - (Max bullet distance 10000 units) - Default 10000
-		"MinimalDamage"		"3"		
+		"FalloffStart"		"5000"		//Distance that we start reducing damage - Default 5000
+		"FalloffEnd"		"10000"		//Distance that we start dealing MinimalDamage value - (Max bullet distance 10000 units) - Default 10000
+		"MinimalDamage"		"4"		
 	}
 	"Depleted Uranium HMG"
 	{
@@ -285,9 +285,9 @@ Vehicle_Weapons
 		"Muzzle Flash"		"tracer_du_muzzle"
 
 		//falloff (requires "type" 0)
-		"FalloffStart"		"0"		//Distance that we start reducing damage - Default 5000
-		"FalloffEnd"		"6500"		//Distance that we start dealing MinimalDamage value - (Max bullet distance 10000 units) - Default 10000
-		"MinimalDamage"		"5"		
+		"FalloffStart"		"5000"		//Distance that we start reducing damage - Default 5000
+		"FalloffEnd"		"10000"		//Distance that we start dealing MinimalDamage value - (Max bullet distance 10000 units) - Default 10000
+		"MinimalDamage"		"7"		
 	}
 	"Chain Gun"
 	{
@@ -413,7 +413,7 @@ Vehicle_Weapons
 		//falloff (requires "type" 0)
 		"FalloffStart"			"5000" 		//Distance that we start reducing damage - Default 5000
 		"FalloffEnd"			"10000"		//Distance that we start dealing MinimalDamage value - (Max bullet distance 10000 units) - Default 10000
-		"MinimalDamage"			"3"
+		"MinimalDamage"			"4"
 	}
 	"High Energy Plasma MG"
 	{
@@ -459,7 +459,7 @@ Vehicle_Weapons
 		//falloff (requires "type" 0)
 		"FalloffStart"			"5000" 		//Distance that we start reducing damage - Default 5000
 		"FalloffEnd"			"10000"		//Distance that we start dealing MinimalDamage value - (Max bullet distance 10000 units) - Default 10000
-		"MinimalDamage"			"4"
+		"MinimalDamage"			"5"
 	}
 	"HE MG"
 	{
@@ -501,7 +501,7 @@ Vehicle_Weapons
 		//falloff (requires "type" 0)
 		"FalloffStart"			"5000" 		//Distance that we start reducing damage - Default 5000
 		"FalloffEnd"			"10000"		//Distance that we start dealing MinimalDamage value - (Max bullet distance 10000 units) - Default 10000
-		"MinimalDamage"			"10"
+		"MinimalDamage"			"9"
 	}
 	"HE HMG"
 	{
@@ -543,7 +543,7 @@ Vehicle_Weapons
 		//falloff (requires "type" 0)
 		"FalloffStart"			"5000" 		//Distance that we start reducing damage - Default 5000
 		"FalloffEnd"			"10000"		//Distance that we start dealing MinimalDamage value - (Max bullet distance 10000 units) - Default 10000
-		"MinimalDamage"			"13"
+		"MinimalDamage"			"11"
 	}
 	//CANNONS
 	"Standard Cannon"
