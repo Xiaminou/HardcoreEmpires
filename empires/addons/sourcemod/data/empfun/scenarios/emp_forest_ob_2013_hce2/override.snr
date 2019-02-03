@@ -1,0 +1,256 @@
+"Scenario"
+{
+	"NF_Resources"		"300"
+	"BE_Resources"		"300"
+	"NF_Tickets"		"301"
+	"BE_Tickets"		"301"
+	"NF_Research"
+	{
+		"0"		"1"
+	}
+	"BE_Research"
+	{
+		"0"		"1"
+	}
+	"Entities"
+	{
+		"354"
+		{
+			"className"		"emp_building_nf_barracks"
+			"position"		"12302.000000 12508.000000 -2643.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"built"		"1"
+			"health"		"250"
+			"team"		"2"
+		}
+		"356"
+		{
+			"className"		"emp_building_nf_armory"
+			"position"		"11184.000000 12496.000000 -2683.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"built"		"1"
+			"health"		"100"
+			"team"		"2"
+		}
+		"358"
+		{
+			"className"		"emp_nf_commander"
+			"position"		"13068.823242 12490.566406 -2638.671631"
+			"angles"		"0.000009 -172.409897 -0.585724"
+		}
+		"368"
+		{
+			"className"		"emp_building_imp_barracks"
+			"position"		"-10632.000000 -11848.000000 -2867.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"built"		"1"
+			"health"		"250"
+			"team"		"3"
+		}
+		"370"
+		{
+			"className"		"emp_building_imp_armory"
+			"position"		"-9312.000000 -11876.000000 -2871.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"built"		"1"
+			"health"		"100"
+			"team"		"3"
+		}
+		"372"
+		{
+			"className"		"emp_imp_commander"
+			"position"		"-11008.000000 -10823.917969 -2861.329102"
+			"angles"		"-0.000006 0.000000 1.247409"
+		}
+		"382"
+		{
+			"className"		"emp_cap_model"
+			"position"		"135.000000 -862.000000 -2931.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"pointNumber"		"1"
+			"visibleOnMap"		"1"
+			"model"		"models/Common/props_system/flagpole01_neutral.mdl"
+			"model2"		"models/common/props_system/flagpole01_nf.mdl"
+			"model3"		"models/common/props_system/flagpole01_imp.mdl"
+			"team"		"0"
+		}
+		"384"
+		{
+			"className"		"emp_cap_point"
+			"position"		"0.000000 0.000000 0.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"pointNumber"		"1"
+			"timeToCap"		"15"
+			"timeToNeutral"		"10"
+			"playersRequiredNF"		"3"
+			"playersRequiredImp"		"3"
+			"teamOwner"		"0"
+			"locationName"		"Pumping Station"
+			"resToGiveNF"		"6.000000"
+			"resToGiveImp"		"6.000000"
+			"reinfToTakeNF"		"0.000000"
+			"reinfToTakeImp"		"0.000000"
+			"canNFCap"		"1"
+			"canImpCap"		"1"
+			"linearMap"		"0"
+			"Mins"		"-513.000000 -1429.000000 -2929.000000"
+			"Maxs"		"727.000000 -273.000000 -2498.000000"
+		}
+		"426"
+		{
+			"className"		"emp_resource_point_prop"
+			"position"		"-10168.000000 -10247.299805 -2808.000000"
+			"angles"		"2.000000 0.000000 0.000000"
+			"enabled"		"0"
+			"model"		"models/props_wasteland/rockcliff01j.mdl"
+		}
+		"432"
+		{
+			"className"		"emp_resource_point_prop"
+			"position"		"10280.000000 11528.000000 -2712.000000"
+			"angles"		"-0.500004 0.000000 0.000000"
+			"enabled"		"0"
+			"model"		"models/props_wasteland/rockcliff01j.mdl"
+		}
+		"514"
+		{
+			"className"		"emp_resource_point_prop"
+			"position"		"1736.000000 12376.000000 -2864.000000"
+			"angles"		"-0.500004 0.000000 0.000000"
+			"enabled"		"1"
+			"model"		"models/props_wasteland/rockcliff01c.mdl"
+		}
+		"518"
+		{
+			"className"		"emp_resource_point_prop"
+			"position"		"-10392.000000 11016.000000 -2912.000000"
+			"angles"		"3.500000 0.000000 0.000000"
+			"enabled"		"1"
+			"model"		"models/props_wasteland/rockcliff01j.mdl"
+		}
+		"520"
+		{
+			"className"		"emp_resource_point"
+			"position"		"-10396.000000 11016.000000 -2919.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+			"name"		"nw"
+		}
+		"888"
+		{
+			"className"		"emp_resource_point_prop"
+			"position"		"-10272.000000 -1221.290039 -2664.000000"
+			"angles"		"0.499998 0.000000 0.000000"
+			"enabled"		"1"
+			"model"		"models/props_wasteland/rockcliff01c.mdl"
+		}
+		"890"
+		{
+			"className"		"emp_resource_point"
+			"position"		"-10274.299805 -1241.939941 -2714.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+			"name"		"benw"
+		}
+		"1012"
+		{
+			"className"		"emp_resource_point"
+			"position"		"9850.679688 -9670.000000 -2828.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+			"name"		"se"
+		}
+		"1014"
+		{
+			"className"		"emp_resource_point_prop"
+			"position"		"9848.000000 -9656.000000 -2816.000000"
+			"angles"		"-2.000000 0.000000 0.000000"
+			"enabled"		"1"
+			"model"		"models/props_wasteland/rockcliff01f.mdl"
+		}
+		"1016"
+		{
+			"className"		"emp_resource_point"
+			"position"		"90.675797 -11699.599609 -2784.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+			"name"		"bese"
+		}
+		"1018"
+		{
+			"className"		"emp_resource_point_prop"
+			"position"		"96.000000 -11688.000000 -2728.000000"
+			"angles"		"2.000000 180.000000 180.000000"
+			"enabled"		"1"
+			"model"		"models/props_wasteland/rockcliff01g.mdl"
+		}
+		"1020"
+		{
+			"className"		"emp_resource_point"
+			"position"		"10624.000000 -216.000000 -2747.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+			"name"		"nfse"
+		}
+		"1022"
+		{
+			"className"		"emp_resource_point_prop"
+			"position"		"10624.000000 -200.000000 -2760.000000"
+			"angles"		"2.000000 0.000000 0.000000"
+			"enabled"		"1"
+			"model"		"models/props_wasteland/rockcliff01e.mdl"
+		}
+		"4005"
+		{
+			"className"		"emp_resource_point"
+			"position"		"10267.500000 11520.099609 -2709.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"enabled"		"0"
+			"resPerSecond"		"1.000000"
+			"name"		"nfbase"
+		}
+		"7174"
+		{
+			"className"		"emp_resource_point"
+			"position"		"-10151.799805 -10255.200195 -2859.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"enabled"		"0"
+			"resPerSecond"		"1.000000"
+			"name"		"bebase"
+		}
+		"12986"
+		{
+			"className"		"emp_resource_point"
+			"position"		"1742.900024 12374.299805 -2922.610107"
+			"angles"		"0.000000 0.000000 0.000000"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+			"name"		"nfnw"
+		}
+		"5000142"
+		{
+			"className"		"emp_building_nf_refinery"
+			"position"		"10267.500000 11520.099609 -2709.000000"
+			"angles"		"0.000000 -96.619263 0.000000"
+			"built"		"1"
+			"health"		"150"
+			"team"		"2"
+			"target"		"nfbase"
+		}
+		"5000143"
+		{
+			"className"		"emp_building_imp_refinery"
+			"position"		"-10151.799805 -10255.200195 -2859.000000"
+			"angles"		"0.000000 35.029907 0.000000"
+			"built"		"1"
+			"health"		"150"
+			"team"		"3"
+			"target"		"bebase"
+		}
+	}
+}

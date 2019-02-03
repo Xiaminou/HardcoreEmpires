@@ -1,0 +1,71 @@
+WeaponData
+{
+	// Weapon data is loaded by both the Game and Client DLLs.
+	"printname"			"#SDK_Grenade"
+	"viewmodel"			"models/Imperial/Weapons/v/grenade/imp_grenade_he.mdl"
+	"playermodel"			"models/Imperial/Weapons/w/grenade1/imp_grenade1.mdl"
+
+	"Damage"			"100"
+	"Grenade Timer"			"3"
+	"Explosion Radius"		"350"
+	"Explosion Sprite"		"201"		// Explosion Sprite
+
+	"anim_prefix"			"gren"
+	"bucket"			"2"
+	"bucket_position"		"0"
+
+	"clip_size"			"-1"
+	"clip2_size"			"-1"
+	"default_clip"			"1"
+	"default_clip2"			"-1"
+
+	"primary_ammo"			"AMMO_GRENADE"
+	"secondary_ammo"		"None"
+
+	"weight"			"1"
+	"item_flags"			"18"	// ITEM_FLAG_NOAUTORELOAD | ITEM_FLAG_EXHAUSTIBLE
+
+	"BuiltRightHanded"		"0"
+	"AllowFlipping"			"1" 
+
+	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
+	SoundData
+	{
+		"special1"	"WeaponFrag.Roll"
+		"double_shot"	"common/null.wav"
+		"single_shot"	"common/null.wav"
+	}
+
+	// Weapon Sprite data is loaded by the Client DLL.
+	TextureData
+	{
+		"weapon"
+		{
+				"font"		"EmpiresTypeDeath"
+				"character"	"D"
+		}
+		"weapon_s"
+		{	
+				"font"		"EmpiresTypeDeath"
+				"character"	"D"
+		}
+		"ammo"
+		{
+				"font"		"EmpiresTypeDeath"
+				"character"	"D"
+		}
+		"crosshair"
+		{
+				"font"		"Crosshairs"
+				"character"	"Q"
+		}
+		"autoaim"
+		{
+				"file"		"sprites/crosshairs"
+				"x"			"48"
+				"y"			"72"
+				"width"		"24"
+				"height"	"24"
+		}
+	}
+}

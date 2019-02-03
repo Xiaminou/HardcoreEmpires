@@ -6,7 +6,7 @@
 	"Silent"	"0"
 	"Url"		"https://www.empiresmod.com/docs/quickstart/quick_start.html"
 }
-"Empires"
+"!empires"
 {
 	"Title"		"Empires Home Page"
 	"Hook"		"!empires"
@@ -84,7 +84,7 @@
 	"Hook"		"!2.15"
 	"Hook"		"/2.15"
 	"Silent"	"0"
-	"Url"		"https://forums.empiresmod.com/index.php?threads/2-15-testing-thread-changelog-inside.21114/"
+	"Url"		"https://wiki.empiresmod.com/Version/2.15.x#2.15.8"
 }
 "maplist"
 {
@@ -107,8 +107,10 @@
 	"Title"		"steamgroup"
 	"Hook"		"!steamgroup"
 	"Hook"		"/steamgroup"
+	"Hook"		"/motd"
+	"Hook"		"!motd"
 	"Silent"	"0"
-	"Url"		"http://steamcommunity.com/groups/hardcoreempires"
+	"Url"		"https://steamcommunity.com/groups/hardcoreempires"
 }
 "squadcontrol"
 {

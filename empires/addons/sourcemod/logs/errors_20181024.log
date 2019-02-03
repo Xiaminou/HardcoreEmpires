@@ -1,0 +1,12 @@
+L 10/24/2018 - 01:32:19: SourceMod error session started
+L 10/24/2018 - 01:32:19: Info (map "emp_crossroads_towerless_hce2") (file "errors_20181024.log")
+L 10/24/2018 - 01:32:19: Error log file session closed.
+L 10/24/2018 - 01:32:22: SourceMod error session started
+L 10/24/2018 - 01:32:22: Info (map "emp_crossroads_towerless_hce2") (file "errors_20181024.log")
+L 10/24/2018 - 01:32:22: [SM] Exception reported: Invalid hook callback specified for game event "player_disconnect"
+L 10/24/2018 - 01:32:22: [SM] Blaming: empstats.smx()
+L 10/24/2018 - 01:32:22: [SM] Call stack trace:
+L 10/24/2018 - 01:32:22: [SM]   [0] UnhookEvent
+L 10/24/2018 - 01:32:22: [SM]   [1] Line 332, dist\addons\sourcemod\scripting\empstats.sp::Deactivate()
+L 10/24/2018 - 01:32:22: [SM]   [2] Line 299, dist\addons\sourcemod\scripting\empstats.sp::CheckActivate()
+L 10/24/2018 - 01:32:22: [SM]   [3] Line 1610, dist\addons\sourcemod\scripting\empstats.sp::EndMapChange()

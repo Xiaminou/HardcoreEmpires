@@ -1,0 +1,1179 @@
+// Vehicle Engines 
+// FORMULAS
+// "Heat Output At Idle"		-	Heat = "Heat Dissipation" - "Heat Output At Idle"
+// "Heat Output At Max"			-	Heat = "Heat Dissipation" - "Heat Output At Idle" - "Heat Output At Max"
+// "Horsepower Health Modifier"		-	Total Horsepower = "Horsepower" - (( "Health" - "Current Health" ) / "Health" * "Horsepower Health Modifier" * "Horsepower"
+// "Horsepower Armor Modifier"		-	Total Horsepower = "Horsepower" - (( "Health" - "Current Health" ) / "Health" * "Horsepower Health Modifier" * "Horsepower"
+// "Stall On Heat" 			-	Stall Threshold = "Heat Capacity" * "Stall On Heat"
+// "Heat Stall Penalty"			-	Stalled Horsepower = "Horsepower" * "Heat Stall Penalty"
+
+Vehicle_Engines
+{
+	///////////////
+	//JEEP ENGINES
+	///////////////
+	"Jeep Engine"
+	{
+		"Name"				"#emp_vehicle_engines_Jeep_Engine_name"		
+		"Description"			"#emp_vehicle_engines_Jeep_Engine_description"		
+		"Icon"				"vehicles/gui/engine/engine_small"		
+		"Size"				"1"
+		"Type"				"4"	//which vehicle can use this engine
+							// 0=all, 1=ground, 2=aircraft, 3=ship, 4=jeep, 5=light tank/afv, 6=med tank, 7=heavy tank,
+							// 8=artillery tank, 9=apc, 10=all tanks:light, medium, heavy and artillery
+		"Cost"				"10"
+		"Weight"			"10"
+		"Research"			""
+
+		"Max Weight"			"5000"
+		"Max Speed"			"75"
+		"Max Reverse Speed"		"45"
+		"Shift Up RPM"			"1600"
+		"Shift Down RPM"		"800"
+		"Horsepower"			"700"
+		"Horsepower Weight Penalty"	"0.0"	//amount of max throttle reduction as vehicle weight exceeds Max Weight
+		"Horsepower Health Modifier"	"0.25"	//amount of max throttle reduction as health is destroyed
+		"Horsepower Armor Modifier"	"0.0"	//amount of max throttle reduction as armor is destroyed
+		"Heat Output At Max"		"3"	//how much heat is output when the vehicle is at full throttle
+		"Heat Output At Idle"		"1"	//how much heat is output when a player is in the driver seat
+		"Stall On Armor Damage"		"100"	//stall the engine when this amount of damage to armor is received
+		"Stall On Health Damage"	"60"	//stall the engine when this amount of damage to hull health is received
+		"Stall On Heat"			"0.8"	//the percentage of heat to begin stalling the engine and also the throttle modifier such that ((heat%-stall%)/(1-stall%))^2 equals throttle before the stall% is met.
+		"Heat Capacity"			"100.0"
+		"Heat Stall Penalty"		"0.0" 	//how much max throttle is limited to when overheating is occurring
+		"Heat Dissipation"		"8"	//amount of heat removed per second
+	}
+	"Gas Turbine"
+	{
+		"Name"				"#emp_vehicle_engines_Gas_Turbine_name"		
+		"Description"			"#emp_vehicle_engines_Gas_Turbine_description"	
+		"Icon"				"vehicles/gui/engine/gas_sml"		
+		"Size"				"1"
+		"Type"				"2"
+		"Cost"				"20"
+		"Weight"			"20"
+		"Research"			"Gas Turbine Engine"
+
+		"Max Weight"			"5000"
+		"Max Speed"			"62"
+		"Max Reverse Speed"		"45"
+		"Shift Up RPM"			"1600"
+		"Shift Down RPM"		"800"
+		"Horsepower"			"700"
+		"Horsepower Weight Penalty"	"0.0"
+		"Horsepower Health Modifier"	"0.25"
+		"Horsepower Armor Modifier"	"0.0"
+		"Heat Output At Max"		"3"
+		"Heat Output At Idle"		"1"
+		"Stall On Armor Damage"		"100"
+		"Stall On Health Damage"	"60"
+		"Stall On Heat"			"0.8"
+		"Heat Capacity"			"100.0"
+		"Heat Stall Penalty"		"0.0"
+		"Heat Dissipation"		"7"
+	}
+	"3 Phase Electric"
+	{
+		"Name"				"#emp_vehicle_engines_3_Phase_Electric_name"		
+		"Description"			"#emp_vehicle_engines_3_Phase_Electric_description"		
+		"Icon"				"vehicles/gui/engine/3phase_sml"		
+		"Size"				"1"
+		"Type"				"2"
+		"Cost"				"20"
+		"Weight"			"20"
+		"Research"			"3 Phase Electric Motor"
+
+		"Max Weight"			"5000"
+		"Max Speed"			"75"
+		"Max Reverse Speed"		"35"
+		"Shift Up RPM"			"1600"
+		"Shift Down RPM"		"800"
+		"Horsepower"			"525"
+		"Horsepower Weight Penalty"	"0.0"
+		"Horsepower Health Modifier"	"0.5"
+		"Horsepower Armor Modifier"	"0.0"
+		"Heat Output At Max"		"4"
+		"Heat Output At Idle"		"1"
+		"Stall On Armor Damage"		"50"
+		"Stall On Health Damage"	"30"
+		"Stall On Heat"			"0.7"
+		"Heat Capacity"			"100.0"
+		"Heat Stall Penalty"		"0.0"
+		"Heat Dissipation"		"8"
+	}
+	"Fission Reactor"
+	{
+		"Name"				"#emp_vehicle_engines_Fission_Reactor_name"
+		"Description"			"#emp_vehicle_engines_Fission_Reactor_description"		
+		"Icon"				"vehicles/gui/engine/fission_sml"		
+		"Size"				"1"
+		"Type"				"2"
+		"Cost"				"20"
+		"Weight"			"20"
+		"Research"			"Fission Reactor"
+
+		"Max Weight"			"5000"
+		"Max Speed"			"60"
+		"Max Reverse Speed"		"30"
+		"Shift Up RPM"			"1600"
+		"Shift Down RPM"		"800"
+		"Horsepower"			"595"
+		"Horsepower Weight Penalty"	"0.0"
+		"Horsepower Health Modifier"	"0.25"
+		"Horsepower Armor Modifier"	"0.0"
+		"Heat Output At Max"		"-8"
+		"Heat Output At Idle"		"6"
+		"Stall On Armor Damage"		"100"
+		"Stall On Health Damage"	"60"
+		"Stall On Heat"			"0.9"
+		"Heat Capacity"			"100.0"
+		"Heat Stall Penalty"		"0.0"
+		"Heat Dissipation"		"6"
+	}
+	"Bio Diesel"
+	{
+		"Name"				"#emp_vehicle_engines_Bio_Diesel_name"		
+		"Description"			"#emp_vehicle_engines_Bio_Diesel_description"		
+		"Icon"				"vehicles/gui/engine/bio_sml"		
+		"Size"				"1"
+		"Type"				"2"
+		"Cost"				"20"
+		"Weight"			"20"
+		"Research"			"Bio Diesel Engine"
+
+		"Max Weight"			"5000"
+		"Max Speed"			"57"
+		"Max Reverse Speed"		"45"
+		"Shift Up RPM"			"1600"
+		"Shift Down RPM"		"800"
+		"Horsepower"			"455"
+		"Horsepower Weight Penalty"	"0.0"
+		"Horsepower Health Modifier"	"0.25"
+		"Horsepower Armor Modifier"	"0.0"
+		"Heat Output At Max"		"2"
+		"Heat Output At Idle"		"1"
+		"Stall On Armor Damage"		"200"
+		"Stall On Health Damage"	"200"
+		"Stall On Heat"			"1.2"
+		"Heat Capacity"			"125.0"
+		"Heat Stall Penalty"		"1.0"
+		"Heat Dissipation"		"6"
+	}
+	"Advanced Coolant Based"
+	{
+		"Name"				"#emp_vehicle_engines_Advanced_Coolant_Based_name"		
+		"Description"			"#emp_vehicle_engines_Advanced_Coolant_Based_description"		
+		"Icon"				"vehicles/gui/engine/coolant_sml"		
+		"Size"				"1"
+		"Type"				"2"
+		"Cost"				"20"
+		"Weight"			"20"
+		"Research"			"Advanced Coolant Engine"
+
+		"Max Weight"			"5000"
+		"Max Speed"			"55"
+		"Max Reverse Speed"		"25"
+		"Shift Up RPM"			"1600"
+		"Shift Down RPM"		"800"
+		"Horsepower"			"420"
+		"Horsepower Weight Penalty"	"0.0"
+		"Horsepower Health Modifier"	"0.25"
+		"Horsepower Armor Modifier"	"0.0"
+		"Heat Output At Max"		"8"
+		"Heat Output At Idle"		"0"
+		"Stall On Armor Damage"		"100"
+		"Stall On Health Damage"	"60"
+		"Stall On Heat"			"0.9"
+		"Heat Capacity"			"100.0"
+		"Heat Stall Penalty"		"0.0"
+		"Heat Dissipation"		"9"
+	}
+	////////////////
+	//APC ENGINES
+	///////////////
+	"Standard Engine"
+	{
+		"Name"							"#emp_vehicle_engines_Standard_Engine_name"		
+		"Description"					"#emp_vehicle_engines_Standard_Engine_description"		
+		"Icon"							"vehicles/gui/engine/engine_small"		
+		"Size"							"1"
+		"Type"							"9"
+		"Cost"							"10"
+		"Weight"						"10"
+		"Research"						""
+		//WEIGHT
+		"Max Weight"					"5000"	//don't touch
+		//SPEED
+		"Horsepower"					"1000"	//horsepower (also increases torque)
+		"Max Speed"						"35"	//maximum forward speed
+		"Max Reverse Speed"				"30"	//maximum reverse speed
+		"Shift Up RPM"					"1600"	//don't touch
+		"Shift Down RPM"				"800"	//don't touch
+		//HEAT
+		"Heat Capacity"					"100.0"	//maximum heat capacity
+		"Heat Dissipation"				"5"		//amount of heat removed per second 
+		"Heat Output At Idle"			"1"		//how much heat is added per second when a driver is in the vehicle 						(Heat = "Heat Dissipation" - "Heat Output At Idle")
+		"Heat Output At Max"			"2"		//how much heat is added per seocnd when the vehicle is at full throttle 					(Heat = "Heat Dissipation" - "Heat Output At Idle" - "Heat Output At Max")
+		//PENATLY
+		"Horsepower Weight Penalty"		"0.0"	//disabled: amount of max throttle reduction as vehicle weight exceeds Max Weight
+		"Horsepower Health Modifier"	"0.25"	//amount of max throttle reduction as health is destroyed									(Total Horsepower = "Horsepower" - (( "Health" - "Current Health" ) / "Health" * "Horsepower Health Modifier" * "Horsepower")
+		"Horsepower Armor Modifier"		"0.0"	//amount of max throttle reduction as armor is destroyed									(Total Horsepower = "Horsepower" - (( "Health" - "Current Health" ) / "Health" * "Horsepower Health Modifier" * "Horsepower")
+		"Stall On Armor Damage"			"100"	//temporarily (0.5s) stall the engine when this amount of damage to armor is received
+		"Stall On Health Damage"		"60"	//temporarily (0.5s) stall the engine when this amount of damage to hull health is received
+		"Stall On Heat"					"0.8"	//the percentage of heat capacity to begin stalling the engine 								(Stall Threshold = "Heat Capacity" * "Stall On Heat")
+		"Heat Stall Penalty"			"0.0" 	//how much horsepower is limited to when overheating is occurring 							(Stalled Horsepower = "Horsepower" * "Heat Stall Penalty")
+	}
+	"Gas Turbine"
+	{
+		"Name"				"#emp_vehicle_engines_Gas_Turbine_name"		
+		"Description"			"#emp_vehicle_engines_Gas_Turbine_description"
+		"Icon"				"vehicles/gui/engine/gas_sml"		
+		"Size"				"1"
+		"Type"				"9"
+		"Cost"				"20"
+		"Weight"			"10"
+		"Research"			"Gas Turbine Engine"
+
+		"Max Weight"			"5000"
+		"Max Speed"			"45"
+		"Max Reverse Speed"		"35"
+		"Shift Up RPM"			"1600"
+		"Shift Down RPM"		"800"
+		"Horsepower"			"1250"
+		"Horsepower Weight Penalty"	"0.0"
+		"Horsepower Health Modifier"	"0"
+		"Horsepower Armor Modifier"	"0"
+		"Heat Output At Max"		"3"
+		"Heat Output At Idle"		"2"
+		"Stall On Armor Damage"		"100"
+		"Stall On Health Damage"	"60"
+		"Stall On Heat"			"0.9"
+		"Heat Capacity"			"100.0"
+		"Heat Stall Penalty"		"0.0"
+		"Heat Dissipation"		"8"
+	}
+	"3 Phase Electric"
+	{
+		"Name"				"#emp_vehicle_engines_3_Phase_Electric_name"		
+		"Description"			"#emp_vehicle_engines_3_Phase_Electric_description"		
+		"Icon"				"vehicles/gui/engine/3phase_sml"		
+		"Size"				"1"
+		"Type"				"9"
+		"Cost"				"30"
+		"Weight"			"10"
+		"Research"			"3 Phase Electric Motor"
+
+		"Max Weight"			"5000"
+		"Max Speed"			"50"
+		"Max Reverse Speed"		"35"
+		"Shift Up RPM"			"1600"
+		"Shift Down RPM"		"800"
+		"Horsepower"			"1250"
+		"Horsepower Weight Penalty"	"0.0"
+		"Horsepower Health Modifier"	"0.5"
+		"Horsepower Armor Modifier"	"0.0"
+		"Heat Output At Max"		"4"
+		"Heat Output At Idle"		"1"
+		"Stall On Armor Damage"		"100"
+		"Stall On Health Damage"	"60"
+		"Stall On Heat"			"0.9"
+		"Heat Capacity"			"100.0"
+		"Heat Stall Penalty"		"0.0"
+		"Heat Dissipation"		"7"
+	}
+	"Fission Reactor"
+	{
+		"Name"				"#emp_vehicle_engines_Fission_Reactor_name"		
+		"Description"			"#emp_vehicle_engines_Fission_Reactor_description"		
+		"Icon"				"vehicles/gui/engine/fission_sml"		
+		"Size"				"1"
+		"Type"				"9"
+		"Cost"				"20"
+		"Weight"			"10"
+		"Research"			"Fission Reactor"
+
+		"Max Weight"			"5000"
+		"Max Speed"			"47"
+		"Max Reverse Speed"		"35"
+		"Shift Up RPM"			"1600"
+		"Shift Down RPM"		"800"
+		"Horsepower"			"1350"
+		"Horsepower Weight Penalty"	"0.0"
+		"Horsepower Health Modifier"	"0.25"
+		"Horsepower Armor Modifier"	"0.0"
+		"Heat Output At Max"		"-2"
+		"Heat Output At Idle"		"2"
+		"Stall On Armor Damage"		"100"
+		"Stall On Health Damage"	"60"
+		"Stall On Heat"			"0.99"
+		"Heat Capacity"			"100.0"
+		"Heat Stall Penalty"		"0.1"
+		"Heat Dissipation"		"6"
+	}
+	"Bio Diesel"
+	{
+		"Name"				"#emp_vehicle_engines_Bio_Diesel_name"		
+		"Description"			"#emp_vehicle_engines_Bio_Diesel_description"		
+		"Icon"				"vehicles/gui/engine/bio_sml"		
+		"Size"				"1"
+		"Type"				"9"
+		"Cost"				"20"
+		"Weight"			"10"
+		"Research"			"Bio Diesel Engine"
+
+		"Max Weight"			"5000"
+		"Max Speed"			"43"
+		"Max Reverse Speed"		"40"
+		"Shift Up RPM"			"1600"
+		"Shift Down RPM"		"800"
+		"Horsepower"			"1150"
+		"Horsepower Weight Penalty"	"0.0"
+		"Horsepower Health Modifier"	"0.25"
+		"Horsepower Armor Modifier"	"0.0"
+		"Heat Output At Max"		"1"
+		"Heat Output At Idle"		"2"
+		"Stall On Armor Damage"		"200"
+		"Stall On Health Damage"	"200"
+		"Stall On Heat"			"1.2"
+		"Heat Capacity"			"125.0"
+		"Heat Stall Penalty"		"1.0"
+		"Heat Dissipation"		"7"
+	}
+	"Advanced Coolant Based"
+	{
+		"Name"				"#emp_vehicle_engines_Advanced_Coolant_Based_name"		
+		"Description"			"#emp_vehicle_engines_Advanced_Coolant_Based_description"		
+		"Icon"				"vehicles/gui/engine/coolant_sml"		
+		"Size"				"1"
+		"Type"				"9"
+		"Cost"				"30"
+		"Weight"			"10"
+		"Research"			"Advanced Coolant Engine"
+
+		"Max Weight"			"5000"
+		"Max Speed"			"40"
+		"Max Reverse Speed"		"35"
+		"Shift Up RPM"			"1600"
+		"Shift Down RPM"		"800"
+		"Horsepower"			"1100"
+		"Horsepower Weight Penalty"	"0.0"
+		"Horsepower Health Modifier"	"0.25"
+		"Horsepower Armor Modifier"	"0.0"
+		"Heat Output At Max"		"5"
+		"Heat Output At Idle"		"0"
+		"Stall On Armor Damage"		"100"
+		"Stall On Health Damage"	"60"
+		"Stall On Heat"			"0.9"
+		"Heat Capacity"			"100.0"
+		"Heat Stall Penalty"		"0.0"
+		"Heat Dissipation"		"9"
+	}
+	////////////////////
+	//LIGHT TANK/AFV ENGINES
+	///////////////////
+	"Standard Engine"
+	{
+		"Name"				"#emp_vehicle_engines_Standard_Engine_name"		
+		"Description"			"#emp_vehicle_engines_Standard_Engine_description"
+		"Icon"				"vehicles/gui/engine/engine_med"		
+		"Size"				"2"
+		"Type"				"5"
+		"Cost"				"20"
+		"Weight"			"30"
+		"Research"			""
+
+		"Max Weight"			"5000"
+		"Max Speed"			"45"
+		"Max Reverse Speed"		"40"
+		"Shift Up RPM"			"1600"
+		"Shift Down RPM"		"800"
+		"Horsepower"			"2000"
+		"Horsepower Weight Penalty"	"0.0"	//amount of max throttle reduction as vehicle weight exceeds Max Weight
+		"Horsepower Health Modifier"	"0.25"	//amount of max throttle reduction as health is destroyed
+		"Horsepower Armor Modifier"	"0.0"	//amount of max throttle reduction as armor is destroyed
+		"Heat Output At Max"		"2"	//how much heat is output when the vehicle is at full throttle
+		"Heat Output At Idle"		"1"	//how much heat is output when a driver is in the vehicle and throttle is zero
+		"Stall On Armor Damage"		"100"	//stall the engine when this amount of damage to armor is received
+		"Stall On Health Damage"	"60"	//stall the engine when this amount of damage to hull health is received
+		"Stall On Heat"			"0.8"	//the percentage of heat to begin stalling the engine
+		"Heat Capacity"			"100.0"
+		"Heat Stall Penalty"		"0.0" 	//how much max throttle is limited to when overheating is occurring
+		"Heat Dissipation"		"5"	//amount of heat removed per second
+	}
+	"Gas Turbine"
+	{
+		"Name"				"#emp_vehicle_engines_Gas_Turbine_name"		
+		"Description"			"#emp_vehicle_engines_Gas_Turbine_description"	
+		"Icon"				"vehicles/gui/engine/gas_med"		
+		"Size"				"2"
+		"Type"				"5"
+		"Cost"				"30"
+		"Weight"			"20"
+		"Research"			"Gas Turbine Engine"
+
+		"Max Weight"			"5000"
+		"Max Speed"			"54"
+		"Max Reverse Speed"		"43"
+		"Shift Up RPM"			"1600"
+		"Shift Down RPM"		"800"
+		"Horsepower"			"2500"
+		"Horsepower Weight Penalty"	"0.0"
+		"Horsepower Health Modifier"	"0"
+		"Horsepower Armor Modifier"	"0"
+		"Heat Output At Max"		"3"
+		"Heat Output At Idle"		"2"
+		"Stall On Armor Damage"		"100"
+		"Stall On Health Damage"	"60"
+		"Stall On Heat"			"0.9"
+		"Heat Capacity"			"100.0"
+		"Heat Stall Penalty"		"0.05"
+		"Heat Dissipation"		"8"
+	}
+	"3 Phase Electric"
+	{
+		"Name"				"#emp_vehicle_engines_3_Phase_Electric_name"		
+		"Description"			"#emp_vehicle_engines_3_Phase_Electric_description"		
+		"Icon"				"vehicles/gui/engine/3phase_med"		
+		"Size"				"2"
+		"Type"				"5"
+		"Cost"				"40"
+		"Weight"			"30"
+		"Research"			"3 Phase Electric Motor"
+
+		"Max Weight"			"5000"
+		"Max Speed"			"60"
+		"Max Reverse Speed"		"45"
+		"Shift Up RPM"			"1600"
+		"Shift Down RPM"		"800"
+		"Horsepower"			"2500"
+		"Horsepower Weight Penalty"	"0.0"
+		"Horsepower Health Modifier"	"0.5"
+		"Horsepower Armor Modifier"	"0.0"
+		"Heat Output At Max"		"4"
+		"Heat Output At Idle"		"1"
+		"Stall On Armor Damage"		"100"
+		"Stall On Health Damage"	"60"
+		"Stall On Heat"			"0.9"
+		"Heat Capacity"			"100.0"
+		"Heat Stall Penalty"		"0.05"
+		"Heat Dissipation"		"7"
+	}
+	"Fission Reactor"
+	{
+		"Name"				"#emp_vehicle_engines_Fission_Reactor_name"		
+		"Description"			"#emp_vehicle_engines_Fission_Reactor_description"		
+		"Icon"				"vehicles/gui/engine/fission_med"		
+		"Size"				"2"
+		"Type"				"5"
+		"Cost"				"30"
+		"Weight"			"10"
+		"Research"			"Fission Reactor"
+
+		"Max Weight"			"5000"
+		"Max Speed"			"56"
+		"Max Reverse Speed"		"42"
+		"Shift Up RPM"			"1600"
+		"Shift Down RPM"		"800"
+		"Horsepower"			"2700"
+		"Horsepower Weight Penalty"	"0.0"
+		"Horsepower Health Modifier"	"0.25"
+		"Horsepower Armor Modifier"	"0.0"
+		"Heat Output At Max"		"-2"
+		"Heat Output At Idle"		"2"
+		"Stall On Armor Damage"		"100"
+		"Stall On Health Damage"	"60"
+		"Stall On Heat"			"0.99"
+		"Heat Capacity"			"100.0"
+		"Heat Stall Penalty"		"0.15"
+		"Heat Dissipation"		"6"
+	}
+	"Bio Diesel"
+	{
+		"Name"				"#emp_vehicle_engines_Bio_Diesel_name"		
+		"Description"			"#emp_vehicle_engines_Bio_Diesel_description"		
+		"Icon"				"vehicles/gui/engine/bio_med"		
+		"Size"				"2"
+		"Type"				"5"
+		"Cost"				"25"
+		"Weight"			"20"
+		"Research"			"Bio Diesel Engine"
+
+		"Max Weight"			"5000"
+		"Max Speed"			"53"
+		"Max Reverse Speed"		"48"
+		"Shift Up RPM"			"1600"
+		"Shift Down RPM"		"800"
+		"Horsepower"			"2300"
+		"Horsepower Weight Penalty"	"0.0"
+		"Horsepower Health Modifier"	"0.25"
+		"Horsepower Armor Modifier"	"0.0"
+		"Heat Output At Max"		"1"
+		"Heat Output At Idle"		"2"
+		"Stall On Armor Damage"		"200"
+		"Stall On Health Damage"	"200"
+		"Stall On Heat"			"1.2"
+		"Heat Capacity"			"125.0"
+		"Heat Stall Penalty"		"1.0"
+		"Heat Dissipation"		"7"
+	}
+	"Advanced Coolant Based"
+	{
+		"Name"				"#emp_vehicle_engines_Advanced_Coolant_Based_name"		
+		"Description"			"#emp_vehicle_engines_Advanced_Coolant_Based_description"		
+		"Icon"				"vehicles/gui/engine/coolant_med"		
+		"Size"				"2"
+		"Type"				"5"
+		"Cost"				"40"
+		"Weight"			"30"
+		"Research"			"Advanced Coolant Engine"
+
+		"Max Weight"			"5000"
+		"Max Speed"			"49"
+		"Max Reverse Speed"		"40"
+		"Shift Up RPM"			"1600"
+		"Shift Down RPM"		"800"
+		"Horsepower"			"2200"
+		"Horsepower Weight Penalty"	"0.0"
+		"Horsepower Health Modifier"	"0.25"
+		"Horsepower Armor Modifier"	"0.0"
+		"Heat Output At Max"		"5"
+		"Heat Output At Idle"		"0"
+		"Stall On Armor Damage"		"100"
+		"Stall On Health Damage"	"60"
+		"Stall On Heat"			"0.9"
+		"Heat Capacity"			"100.0"
+		"Heat Stall Penalty"		"0.05"
+		"Heat Dissipation"		"9"
+	}
+	/////////////////////
+	//MEDIUM TANK ENGINES
+	////////////////////
+	"Standard Engine"
+	{
+		"Name"				"#emp_vehicle_engines_Standard_Engine_name"		
+		"Description"			"#emp_vehicle_engines_Standard_Engine_description"
+		"Icon"				"vehicles/gui/engine/engine_med"		
+		"Size"				"2"
+		"Type"				"6"
+		"Cost"				"30"
+		"Weight"			"30"
+		"Research"			""
+
+		"Max Weight"			"5000"
+		"Max Speed"			"35"
+		"Max Reverse Speed"		"30"
+		"Shift Up RPM"			"1600"
+		"Shift Down RPM"		"800"
+		"Horsepower"			"2000"
+		"Horsepower Weight Penalty"	"0.0"	//amount of max throttle reduction as vehicle weight exceeds Max Weight
+		"Horsepower Health Modifier"	"0.25"	//amount of max throttle reduction as health is destroyed
+		"Horsepower Armor Modifier"	"0.0"	//amount of max throttle reduction as armor is destroyed
+		"Heat Output At Max"		"2"	//how much heat is output when the vehicle is at full throttle
+		"Heat Output At Idle"		"1"	//how much heat is output when a driver is in the vehicle and throttle is zero
+		"Stall On Armor Damage"		"100"	//stall the engine when this amount of damage to armor is received
+		"Stall On Health Damage"	"60"	//stall the engine when this amount of damage to hull health is received
+		"Stall On Heat"			"0.8"	//the percentage of heat to begin stalling the engine
+		"Heat Capacity"			"100.0"
+		"Heat Stall Penalty"		"0.0" 	//how much max throttle is limited to when overheating is occurring
+		"Heat Dissipation"		"6"	//amount of heat removed per second
+	}
+	"Gas Turbine"
+	{
+		"Name"				"#emp_vehicle_engines_Gas_Turbine_name"		
+		"Description"			"#emp_vehicle_engines_Gas_Turbine_description"		
+		"Icon"				"vehicles/gui/engine/gas_med"		
+		"Size"				"2"
+		"Type"				"6"
+		"Cost"				"40"
+		"Weight"			"20"
+		"Research"			"Gas Turbine Engine"
+
+		"Max Weight"			"5000"
+		"Max Speed"			"44"
+		"Max Reverse Speed"		"33"
+		"Shift Up RPM"			"1600"
+		"Shift Down RPM"		"800"
+		"Horsepower"			"2500"
+		"Horsepower Weight Penalty"	"0.0"
+		"Horsepower Health Modifier"	"0"
+		"Horsepower Armor Modifier"	"0"
+		"Heat Output At Max"		"3"
+		"Heat Output At Idle"		"2"
+		"Stall On Armor Damage"		"100"
+		"Stall On Health Damage"	"60"
+		"Stall On Heat"			"0.9"
+		"Heat Capacity"			"100.0"
+		"Heat Stall Penalty"		"0.05"
+		"Heat Dissipation"		"9"
+	}
+	"3 Phase Electric"
+	{
+		"Name"				"#emp_vehicle_engines_3_Phase_Electric_name"		
+		"Description"			"#emp_vehicle_engines_3_Phase_Electric_description"		
+		"Icon"				"vehicles/gui/engine/3phase_med"		
+		"Size"				"2"
+		"Type"				"6"
+		"Cost"				"50"
+		"Weight"			"30"
+		"Research"			"3 Phase Electric Motor"
+
+		"Max Weight"			"5000"
+		"Max Speed"			"49"
+		"Max Reverse Speed"		"35"
+		"Shift Up RPM"			"1600"
+		"Shift Down RPM"		"800"
+		"Horsepower"			"2500"
+		"Horsepower Weight Penalty"	"0.0"
+		"Horsepower Health Modifier"	"0.5"
+		"Horsepower Armor Modifier"	"0.0"
+		"Heat Output At Max"		"4"
+		"Heat Output At Idle"		"1"
+		"Stall On Armor Damage"		"100"
+		"Stall On Health Damage"	"60"
+		"Stall On Heat"			"0.9"
+		"Heat Capacity"			"100.0"
+		"Heat Stall Penalty"		"0.05"
+		"Heat Dissipation"		"8"
+	}
+	"Fission Reactor"
+	{
+		"Name"				"#emp_vehicle_engines_Fission_Reactor_name"		
+		"Description"			"#emp_vehicle_engines_Fission_Reactor_description"		
+		"Icon"				"vehicles/gui/engine/fission_med"		
+		"Size"				"2"
+		"Type"				"6"
+		"Cost"				"40"
+		"Weight"			"10"
+		"Research"			"Fission Reactor"
+
+		"Max Weight"			"5000"
+		"Max Speed"			"46"
+		"Max Reverse Speed"		"34"
+		"Shift Up RPM"			"1600"
+		"Shift Down RPM"		"800"
+		"Horsepower"			"2700"
+		"Horsepower Weight Penalty"	"0.0"
+		"Horsepower Health Modifier"	"0.25"
+		"Horsepower Armor Modifier"	"0.0"
+		"Heat Output At Max"		"-2"
+		"Heat Output At Idle"		"2"
+		"Stall On Armor Damage"		"100"
+		"Stall On Health Damage"	"60"
+		"Stall On Heat"			"0.99"
+		"Heat Capacity"			"100.0"
+		"Heat Stall Penalty"		"0.15"
+		"Heat Dissipation"		"7"
+	}
+	"Bio Diesel"
+	{
+		"Name"				"#emp_vehicle_engines_Bio_Diesel_name"		
+		"Description"			"#emp_vehicle_engines_Bio_Diesel_description"		
+		"Icon"				"vehicles/gui/engine/bio_med"		
+		"Size"				"2"
+		"Type"				"6"
+		"Cost"				"35"
+		"Weight"			"20"
+		"Research"			"Bio Diesel Engine"
+
+		"Max Weight"			"5000"
+		"Max Speed"			"42"
+		"Max Reverse Speed"		"39"
+		"Shift Up RPM"			"1600"
+		"Shift Down RPM"		"800"
+		"Horsepower"			"2300"
+		"Horsepower Weight Penalty"	"0.0"
+		"Horsepower Health Modifier"	"0.25"
+		"Horsepower Armor Modifier"	"0.0"
+		"Heat Output At Max"		"1"
+		"Heat Output At Idle"		"2"
+		"Stall On Armor Damage"		"200"
+		"Stall On Health Damage"	"200"
+		"Stall On Heat"			"1.2"
+		"Heat Capacity"			"125.0"
+		"Heat Stall Penalty"		"1.0"
+		"Heat Dissipation"		"8"
+	}
+	"Advanced Coolant Based"
+	{
+		"Name"				"#emp_vehicle_engines_Advanced_Coolant_Based_name"		
+		"Description"			"#emp_vehicle_engines_Advanced_Coolant_Based_description"		
+		"Icon"				"vehicles/gui/engine/coolant_med"		
+		"Size"				"2"
+		"Type"				"6"
+		"Cost"				"50"
+		"Weight"			"30"
+		"Research"			"Advanced Coolant Engine"
+
+		"Max Weight"			"5000"
+		"Max Speed"			"39"
+		"Max Reverse Speed"		"32"
+		"Shift Up RPM"			"1600"
+		"Shift Down RPM"		"800"
+		"Horsepower"			"2200"
+		"Horsepower Weight Penalty"	"0.0"
+		"Horsepower Health Modifier"	"0.25"
+		"Horsepower Armor Modifier"	"0.0"
+		"Heat Output At Max"		"5"
+		"Heat Output At Idle"		"0"
+		"Stall On Armor Damage"		"100"
+		"Stall On Health Damage"	"60"
+		"Stall On Heat"			"0.9"
+		"Heat Capacity"			"100.0"
+		"Heat Stall Penalty"		"0.05"
+		"Heat Dissipation"		"10"
+	}
+	////////////////////
+	//HEAVY TANK ENGINES
+	///////////////////
+	"Standard Engine"
+	{
+		"Name"				"#emp_vehicle_engines_Standard_Engine_name"		
+		"Description"			"#emp_vehicle_engines_Standard_Engine_description"		
+		"Icon"				"vehicles/gui/engine/engine_med"		
+		"Size"				"2"
+		"Type"				"7"
+		"Cost"				"40"
+		"Weight"			"30"
+		"Research"			""
+
+		"Max Weight"			"5000"
+		"Max Speed"			"25"
+		"Max Reverse Speed"		"20"
+		"Shift Up RPM"			"1600"
+		"Shift Down RPM"		"800"
+		"Horsepower"			"2000"
+		"Horsepower Weight Penalty"	"0.0"	//amount of max throttle reduction as vehicle weight exceeds Max Weight
+		"Horsepower Health Modifier"	"0.5"	//amount of max throttle reduction as health is destroyed
+		"Horsepower Armor Modifier"	"0.0"	//amount of max throttle reduction as armor is destroyed
+		"Heat Output At Max"		"2"	//how much heat is output when the vehicle is at full throttle
+		"Heat Output At Idle"		"1"	//how much heat is output when a driver is in the vehicle and throttle is zero
+		"Stall On Armor Damage"		"100"	//stall the engine when this amount of damage to armor is received
+		"Stall On Health Damage"	"60"	//stall the engine when this amount of damage to hull health is received
+		"Stall On Heat"			"0.8"	//the percentage of heat to begin stalling the engine
+		"Heat Capacity"			"100.0"
+		"Heat Stall Penalty"		"0.0" 	//how much max throttle is limited to when overheating is occurring
+		"Heat Dissipation"		"7"	//amount of heat removed per second
+	}
+	"Gas Turbine"
+	{
+		"Name"				"#emp_vehicle_engines_Gas_Turbine_name"		
+		"Description"			"emp_vehicle_engines_Gas_Turbine_description"		
+		"Icon"				"vehicles/gui/engine/gas_med"		
+		"Size"				"2"
+		"Type"				"7"
+		"Cost"				"60"
+		"Weight"			"20"
+		"Research"			"Gas Turbine Engine"
+
+		"Max Weight"			"5000"
+		"Max Speed"			"34"
+		"Max Reverse Speed"		"24"
+		"Shift Up RPM"			"1600"
+		"Shift Down RPM"		"800"
+		"Horsepower"			"2500"
+		"Horsepower Weight Penalty"	"0.0"
+		"Horsepower Health Modifier"	"0"
+		"Horsepower Armor Modifier"	"0"
+		"Heat Output At Max"		"3"
+		"Heat Output At Idle"		"2"
+		"Stall On Armor Damage"		"100"
+		"Stall On Health Damage"	"60"
+		"Stall On Heat"			"0.9"
+		"Heat Capacity"			"100.0"
+		"Heat Stall Penalty"		"0.05"
+		"Heat Dissipation"		"10"
+	}
+	"3 Phase Electric"
+	{
+		"Name"				"#emp_vehicle_engines_3_Phase_Electric_name"		
+		"Description"			"#emp_vehicle_engines_3_Phase_Electric_description"		
+		"Icon"				"vehicles/gui/engine/3phase_med"		
+		"Size"				"2"
+		"Type"				"7"
+		"Cost"				"80"
+		"Weight"			"30"
+		"Research"			"3 Phase Electric Motor"
+
+		"Max Weight"			"5000"
+		"Max Speed"			"40"
+		"Max Reverse Speed"		"25"
+		"Shift Up RPM"			"1600"
+		"Shift Down RPM"		"800"
+		"Horsepower"			"2500"
+		"Horsepower Weight Penalty"	"0.0"
+		"Horsepower Health Modifier"	"0.25"
+		"Horsepower Armor Modifier"	"0.00"
+		"Heat Output At Max"		"4"
+		"Heat Output At Idle"		"1"
+		"Stall On Armor Damage"		"100"
+		"Stall On Health Damage"	"60"
+		"Stall On Heat"			"0.9"
+		"Heat Capacity"			"100.0"
+		"Heat Stall Penalty"		"0.05"
+		"Heat Dissipation"		"9"
+	}
+	"Fission Reactor"
+	{
+		"Name"				"#emp_vehicle_engines_Fission_Reactor_name"		
+		"Description"			"#emp_vehicle_engines_Fission_Reactor_description"		
+		"Icon"				"vehicles/gui/engine/fission_med"		
+		"Size"				"2"
+		"Type"				"7"
+		"Cost"				"60"
+		"Weight"			"10"
+		"Research"			"Fission Reactor"
+
+		"Max Weight"			"5000"
+		"Max Speed"			"36"
+		"Max Reverse Speed"		"24"
+		"Shift Up RPM"			"1600"
+		"Shift Down RPM"		"800"
+		"Horsepower"			"2700"
+		"Horsepower Weight Penalty"	"0.0"
+		"Horsepower Health Modifier"	"0.25"
+		"Horsepower Armor Modifier"	"0.0"
+		"Heat Output At Max"		"-2"
+		"Heat Output At Idle"		"2"
+		"Stall On Armor Damage"		"100"
+		"Stall On Health Damage"	"60"
+		"Stall On Heat"			"0.99"
+		"Heat Capacity"			"100.0"
+		"Heat Stall Penalty"		"0.15"
+		"Heat Dissipation"		"8"
+	}
+	"Bio Diesel"
+	{
+		"Name"				"#emp_vehicle_engines_Bio_Diesel_name"		
+		"Description"			"#emp_vehicle_engines_Bio_Diesel_description"		
+		"Icon"				"vehicles/gui/engine/bio_med"		
+		"Size"				"2"
+		"Type"				"7"
+		"Cost"				"50"
+		"Weight"			"20"
+		"Research"			"Bio Diesel Engine"
+
+		"Max Weight"			"5000"
+		"Max Speed"			"32"
+		"Max Reverse Speed"		"29"
+		"Shift Up RPM"			"1600"
+		"Shift Down RPM"		"800"
+		"Horsepower"			"2300"
+		"Horsepower Weight Penalty"	"0.0"
+		"Horsepower Health Modifier"	"0.25"
+		"Horsepower Armor Modifier"	"0.00"
+		"Heat Output At Max"		"1"
+		"Heat Output At Idle"		"2"
+		"Stall On Armor Damage"		"200"
+		"Stall On Health Damage"	"200"
+		"Stall On Heat"			"1.2"
+		"Heat Capacity"			"125.0"
+		"Heat Stall Penalty"		"1.0"
+		"Heat Dissipation"		"9"
+	}
+	"Advanced Coolant Based"
+	{
+		"Name"				"#emp_vehicle_engines_Advanced_Coolant_Based_name"		
+		"Description"			"#emp_vehicle_engines_Advanced_Coolant_Based_description"		
+		"Icon"				"vehicles/gui/engine/coolant_med"		
+		"Size"				"2"
+		"Type"				"7"
+		"Cost"				"80"
+		"Weight"			"30"
+		"Research"			"Advanced Coolant Engine"
+
+		"Max Weight"			"5000"
+		"Max Speed"			"29"
+		"Max Reverse Speed"		"22"
+		"Shift Up RPM"			"1600"
+		"Shift Down RPM"		"800"
+		"Horsepower"			"2200"
+		"Horsepower Weight Penalty"	"0.0"
+		"Horsepower Health Modifier"	"0.25"
+		"Horsepower Armor Modifier"	"0.0"
+		"Heat Output At Max"		"5"
+		"Heat Output At Idle"		"0"
+		"Stall On Armor Damage"		"100"
+		"Stall On Health Damage"	"60"
+		"Stall On Heat"			"0.9"
+		"Heat Capacity"			"100.0"
+		"Heat Stall Penalty"		"0.05"
+		"Heat Dissipation"		"11"
+	}
+	////////////////////////
+	//ARTILLERY TANK ENGINES
+	///////////////////////
+	"Standard Engine"
+	{
+		"Name"				"emp_vehicle_engines_Standard_Engine_name"		
+		"Description"			"#emp_vehicle_engines_Standard_Engine_description"
+		"Icon"				"vehicles/gui/engine/engine_med"		
+		"Size"				"2"
+		"Type"				"8"
+		"Cost"				"40"
+		"Weight"			"30"
+		"Research"			""
+
+		"Max Weight"			"5000"
+		"Max Speed"			"25"
+		"Max Reverse Speed"		"20"
+		"Shift Up RPM"			"1600"
+		"Shift Down RPM"		"800"
+		"Horsepower"			"2000"
+		"Horsepower Weight Penalty"	"0.0"
+		"Horsepower Health Modifier"	"0.25"
+		"Horsepower Armor Modifier"	"0.0"
+		"Heat Output At Max"		"2"
+		"Heat Output At Idle"		"1"
+		"Stall On Armor Damage"		"100"
+		"Stall On Health Damage"	"60"
+		"Stall On Heat"			"0.8"
+		"Heat Capacity"			"100.0"
+		"Heat Stall Penalty"		"0.0"
+		"Heat Dissipation"		"6"
+	}
+	"Gas Turbine"
+	{
+		"Name"				"#emp_vehicle_engines_Gas_Turbine_name"		
+		"Description"			"#emp_vehicle_engines_Gas_Turbine_description"		
+		"Icon"				"vehicles/gui/engine/gas_med"		
+		"Size"				"2"
+		"Type"				"8"
+		"Cost"				"60"
+		"Weight"			"20"
+		"Research"			"Gas Turbine Engine"
+
+		"Max Weight"			"5000"
+		"Max Speed"			"30"
+		"Max Reverse Speed"		"23"
+		"Shift Up RPM"			"1600"
+		"Shift Down RPM"		"800"
+		"Horsepower"			"2500"
+		"Horsepower Weight Penalty"	"0.0"
+		"Horsepower Health Modifier"	"0"
+		"Horsepower Armor Modifier"	"0"
+		"Heat Output At Max"		"3"
+		"Heat Output At Idle"		"2"
+		"Stall On Armor Damage"		"100"
+		"Stall On Health Damage"	"60"
+		"Stall On Heat"			"0.9"
+		"Heat Capacity"			"100.0"
+		"Heat Stall Penalty"		"0.0"
+		"Heat Dissipation"		"9"
+	}
+	"3 Phase Electric"
+	{
+		"Name"				"#emp_vehicle_engines_3_Phase_Electric_name"		
+		"Description"			"#emp_vehicle_engines_3_Phase_Electric_description"		
+		"Icon"				"vehicles/gui/engine/3phase_med"		
+		"Size"				"2"
+		"Type"				"8"
+		"Cost"				"80"
+		"Weight"			"40"
+		"Research"			"3 Phase Electric Motor"
+
+		"Max Weight"			"5000"
+		"Max Speed"			"35"
+		"Max Reverse Speed"		"25"
+		"Shift Up RPM"			"1600"
+		"Shift Down RPM"		"800"
+		"Horsepower"			"2500"
+		"Horsepower Weight Penalty"	"0.0"
+		"Horsepower Health Modifier"	"0.5"
+		"Horsepower Armor Modifier"	"0.00"
+		"Heat Output At Max"		"3"
+		"Heat Output At Idle"		"1"
+		"Stall On Armor Damage"		"50"
+		"Stall On Health Damage"	"30"
+		"Stall On Heat"			"0.7"
+		"Heat Capacity"			"100.0"
+		"Heat Stall Penalty"		"0.0"
+		"Heat Dissipation"		"8"
+	}
+	"Fission Reactor"
+	{
+		"Name"				"#emp_vehicle_engines_Fission_Reactor_name"		
+		"Description"			"#emp_vehicle_engines_Fission_Reactor_description"		
+		"Icon"				"vehicles/gui/engine/fission_med"		
+		"Size"				"2"
+		"Type"				"8"
+		"Cost"				"60"
+		"Weight"			"10"
+		"Research"			"Fission Reactor"
+
+		"Max Weight"			"5000"
+		"Max Speed"			"32"
+		"Max Reverse Speed"		"24"
+		"Shift Up RPM"			"1600"
+		"Shift Down RPM"		"800"
+		"Horsepower"			"2700"
+		"Horsepower Weight Penalty"	"0.0"
+		"Horsepower Health Modifier"	"0.25"
+		"Horsepower Armor Modifier"	"0.0"
+		"Heat Output At Max"		"0"
+		"Heat Output At Idle"		"1"
+		"Stall On Armor Damage"		"100"
+		"Stall On Health Damage"	"60"
+		"Stall On Heat"			"0.99"
+		"Heat Capacity"			"100.0"
+		"Heat Stall Penalty"		"0.1"
+		"Heat Dissipation"		"7"
+	}
+	"Bio Diesel"
+	{
+		"Name"				"#emp_vehicle_engines_Bio_Diesel_name"		
+		"Description"			"#emp_vehicle_engines_Bio_Diesel_description"		
+		"Icon"				"vehicles/gui/engine/bio_med"		
+		"Size"				"2"
+		"Type"				"8"
+		"Cost"				"50"
+		"Weight"			"20"
+		"Research"			"Bio Diesel Engine"
+
+		"Max Weight"			"5000"
+		"Max Speed"			"29"
+		"Max Reverse Speed"		"28"
+		"Shift Up RPM"			"1600"
+		"Shift Down RPM"		"800"
+		"Horsepower"			"2300"
+		"Horsepower Weight Penalty"	"0.0"
+		"Horsepower Health Modifier"	"0.25"
+		"Horsepower Armor Modifier"	"0.00"
+		"Heat Output At Max"		"2"
+		"Heat Output At Idle"		"2"
+		"Stall On Armor Damage"		"200"
+		"Stall On Health Damage"	"200"
+		"Stall On Heat"			"1.2"
+		"Heat Capacity"			"125.0"
+		"Heat Stall Penalty"		"1.0"
+		"Heat Dissipation"		"8"
+	}
+	"Advanced Coolant Based"
+	{
+		"Name"				"#emp_vehicle_engines_Advanced_Coolant_Based_name"		
+		"Description"			"#emp_vehicle_engines_Advanced_Coolant_Based_description"		
+		"Icon"				"vehicles/gui/engine/coolant_med"		
+		"Size"				"2"
+		"Type"				"8"
+		"Cost"				"80"
+		"Weight"			"30"
+		"Research"			"Advanced Coolant Engine"
+
+		"Max Weight"			"5000"
+		"Max Speed"			"27"
+		"Max Reverse Speed"		"22"
+		"Shift Up RPM"			"1600"
+		"Shift Down RPM"		"800"
+		"Horsepower"			"2200"
+		"Horsepower Weight Penalty"	"0.0"
+		"Horsepower Health Modifier"	"0.25"
+		"Horsepower Armor Modifier"	"0.0"
+		"Heat Output At Max"		"5"
+		"Heat Output At Idle"		"0"
+		"Stall On Armor Damage"		"100"
+		"Stall On Health Damage"	"60"
+		"Stall On Heat"			"0.9"
+		"Heat Capacity"			"100.0"
+		"Heat Stall Penalty"		"0.0"
+		"Heat Dissipation"		"10"
+	}
+	///////////////////
+	// AIRCRAFT ENGINES
+	///////////////////
+	"Standard Engine"
+	{
+		"Name"				"Standard Engine"		
+		"Description"			"This is the standard engine with basic properties."		
+		"Icon"				"vehicles/gui/engine/engine_small"		
+		"Size"				"1"
+		"Type"				"2"	//which vehicle can use this engine
+							// 0=all, 1=ground, 2=aircraft, 3=ship, 4=jeep, 5=light tank/afv, 6=med tank, 7=heavy tank,
+							// 8=artillery tank, 9=apc, 10=all tanks:light, medium, heavy and artillery
+		"Cost"				"10"
+		"Weight"			"10"
+		"Research"			""
+
+		"Max Weight"			"2000"
+		"Max Speed"			"100"
+		"Max Reverse Speed"		"25"
+		"Shift Up RPM"			"1600"
+		"Shift Down RPM"		"800"
+		"Horsepower"			"450"
+		"Horsepower Weight Penalty"	"0.1"	//amount of max throttle reduction as vehicle weight exceeds Max Weight
+		"Horsepower Health Modifier"	"0.6"	//amount of max throttle reduction as health is destroyed
+		"Horsepower Armor Modifier"	"0.05"	//amount of max throttle reduction as armor is destroyed
+		"Heat Output At Max"		"2"	//how much heat is output when the vehicle is at full throttle
+		"Heat Output At Idle"		"1"	//how much heat is output when a driver is in the vehicle and throttle is zero
+		"Stall On Armor Damage"		"100"	//stall the engine when this amount of damage to armor is received
+		"Stall On Health Damage"	"60"	//stall the engine when this amount of damage to hull health is received
+		"Stall On Heat"			"0.8"	//the percentage of heat to begin stalling the engine
+		"Heat Capacity"			"100.0"
+		"Heat Stall Penalty"		"0.0" 	//how much max throttle is limited to when overheating is occurring
+		"Heat Dissipation"		"6"	//amount of heat removed per second
+	}
+	"BE Commander Engine"
+	{
+		"Commander"			"1"
+		"Team"				"IMP"
+		"Name"				"#emp_vehicle_engines_BE_Commander_Engine_name"		
+		"Description"			"#emp_vehicle_engines_BE_Commander_Engine_description"	
+		"Icon"				"vehicles/gui/engine/engine_small"		
+		"Size"				"1"
+		"Type"				"4"	//which vehicle can use this engine
+							// 0=all, 1=ground, 2=aircraft, 3=ship, 4=jeep, 5=light tank/afv, 6=med tank, 7=heavy tank,
+							// 8=artillery tank, 9=apc, 10=all tanks:light, medium, heavy and artillery
+		"Cost"				"10"
+		"Weight"			"10"
+		"Research"			""
+
+		"Max Weight"			"2000"
+		"Max Speed"			"35"
+		"Max Reverse Speed"		"15"
+		"Shift Up RPM"			"1600"
+		"Shift Down RPM"		"800"
+		"Horsepower"			"2550"
+		"Horsepower Weight Penalty"	"0.1"	//amount of max throttle reduction as vehicle weight exceeds Max Weight
+		"Horsepower Health Modifier"	"0.6"	//amount of max throttle reduction as health is destroyed
+		"Horsepower Armor Modifier"	"0.05"	//amount of max throttle reduction as armor is destroyed
+		"Heat Output At Max"		"4"	//how much heat is output when the vehicle is at full throttle
+		"Heat Output At Idle"		"0"	//how much heat is output when a driver is in the vehicle and throttle is zero
+		"Stall On Armor Damage"		"100"	//stall the engine when this amount of damage to armor is received
+		"Stall On Health Damage"	"60"	//stall the engine when this amount of damage to hull health is received
+		"Stall On Heat"			"0.8"	//the percentage of heat to begin stalling the engine
+		"Heat Capacity"			"100.0"
+		"Heat Stall Penalty"		"0.0" 	//how much max throttle is limited to when overheating is occurring
+		"Heat Dissipation"		"5"	//amount of heat removed per second
+	}
+	"NF Commander Engine"
+	{
+		"Commander"			"1"
+		"Team"				"NF"
+		"Name"				"#emp_vehicle_engines_NF_Commander_Engine_name"		
+		"Description"			"#emp_vehicle_engines_NF_Commander_Engine_description"	
+		"Icon"				"vehicles/gui/engine/engine_small"		
+		"Size"				"1"
+		"Type"				"4"	//which vehicle can use this engine
+							// 0=all, 1=ground, 2=aircraft, 3=ship, 4=jeep, 5=light tank/afv, 6=med tank, 7=heavy tank,
+							// 8=artillery tank, 9=apc, 10=all tanks:light, medium, heavy and artillery
+		"Cost"				"10"
+		"Weight"			"10"
+		"Research"			""
+
+		"Max Weight"			"2000"
+		"Max Speed"			"35"
+		"Max Reverse Speed"		"15"
+		"Shift Up RPM"			"1600"
+		"Shift Down RPM"		"800"
+		"Horsepower"			"2550"
+		"Horsepower Weight Penalty"	"0.1"	//amount of max throttle reduction as vehicle weight exceeds Max Weight
+		"Horsepower Health Modifier"	"0.6"	//amount of max throttle reduction as health is destroyed
+		"Horsepower Armor Modifier"	"0.05"	//amount of max throttle reduction as armor is destroyed
+		"Heat Output At Max"		"4"	//how much heat is output when the vehicle is at full throttle
+		"Heat Output At Idle"		"0"	//how much heat is output when a driver is in the vehicle and throttle is zero
+		"Stall On Armor Damage"		"100"	//stall the engine when this amount of damage to armor is received
+		"Stall On Health Damage"	"60"	//stall the engine when this amount of damage to hull health is received
+		"Stall On Heat"			"0.8"	//the percentage of heat to begin stalling the engine
+		"Heat Capacity"			"100.0"
+		"Heat Stall Penalty"		"0.0" 	//how much max throttle is limited to when overheating is occurring
+		"Heat Dissipation"		"5"	//amount of heat removed per second
+	}
+}

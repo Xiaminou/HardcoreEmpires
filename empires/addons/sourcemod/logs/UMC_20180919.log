@@ -1,0 +1,43 @@
+L 09/19/2018 - 01:42:25: [umc-core.smx] ---------------------MAP CHANGE: con_district402---------------------
+L 09/19/2018 - 01:42:25: [umc-endvote-warnings.smx] Successfully parsed and set up 11 vote warnings.
+L 09/19/2018 - 01:42:26: [umc-rockthevote.smx] RTV will be made available in 60 seconds.
+L 09/19/2018 - 01:43:27: [umc-rockthevote.smx] RTV is now available.
+L 09/19/2018 - 02:37:42: [umc-emp-mapvote.smx] Map vote will appear in 30 seconds.
+L 09/19/2018 - 02:38:12: [umc-emp-mapvote.smx] Starting a map vote.
+L 09/19/2018 - 02:38:12: [umc-core.smx] WARNING: Map "emp_temple_b3f" does not exist on the server. (Group: "Commander Maps")
+L 09/19/2018 - 02:38:12: [umc-core.smx] WARNING: Map "con_urbanchaos_fix" does not exist on the server. (Group: "Infantry Maps")
+L 09/19/2018 - 02:38:12: [umc-core.smx] VOTE MENU: (Verbose) Fetching 7 maps from group 'Commander Maps'
+L 09/19/2018 - 02:38:12: [umc-core.smx] VOTE MENU: (Verbose) Finished parsing nominations for map group 'Commander Maps'
+L 09/19/2018 - 02:38:12: [umc-core.smx] VOTE MENU: (Verbose) Still need to fetch 7 maps from the group.
+L 09/19/2018 - 02:38:12: [umc-core.smx] VOTE MENU: (Verbose) Selected map 'emp_drygulch_a7' from group 'Commander Maps' was added to the vote.
+L 09/19/2018 - 02:38:12: [umc-core.smx] VOTE MENU: (Verbose) Selected map 'emp_downfall_hce' from group 'Commander Maps' was added to the vote.
+L 09/19/2018 - 02:38:12: [umc-core.smx] VOTE MENU: (Verbose) Selected map 'emp_crossroads_towerless_hce' from group 'Commander Maps' was added to the vote.
+L 09/19/2018 - 02:38:12: [umc-core.smx] VOTE MENU: (Verbose) Selected map 'emp_beachfront_b2_hce' from group 'Commander Maps' was added to the vote.
+L 09/19/2018 - 02:38:12: [umc-core.smx] VOTE MENU: (Verbose) No more maps in map group 'Commander Maps'
+L 09/19/2018 - 02:38:12: [umc-core.smx] VOTE MENU: (Verbose) Fetching 1 maps from group 'Infantry Maps'
+L 09/19/2018 - 02:38:12: [umc-core.smx] VOTE MENU: (Verbose) Finished parsing nominations for map group 'Infantry Maps'
+L 09/19/2018 - 02:38:12: [umc-core.smx] VOTE MENU: (Verbose) Still need to fetch 1 maps from the group.
+L 09/19/2018 - 02:38:12: [umc-core.smx] VOTE MENU: (Verbose) Selected map 'emp_vehicletraining_2013' from group 'Infantry Maps' was added to the vote.
+L 09/19/2018 - 02:38:12: [umc-core.smx] VOTE MENU: (Verbose) Fetching 0 maps from group 'Cooldown Maps'
+L 09/19/2018 - 02:38:12: [umc-core.smx] VOTE MENU: (Verbose) Finished parsing nominations for map group 'Cooldown Maps'
+L 09/19/2018 - 02:38:12: [umc-core.smx] Initiating Vote Type: Map
+L 09/19/2018 - 02:38:12: [umc-core.smx] Adding Clients to Vote:
+L 09/19/2018 - 02:38:12: [umc-core.smx] 0: -[BSID]- Original Juggalo Gamer (2)
+L 09/19/2018 - 02:38:12: [umc-core.smx] 1: illian05 (фуфел) (3)
+L 09/19/2018 - 02:38:12: [umc-core.smx] VOTE MENU:
+L 09/19/2018 - 02:38:12: [umc-core.smx] 2: emp_beachfront (0)
+L 09/19/2018 - 02:38:12: [umc-core.smx] 3: con_vehicletraining (1)
+L 09/19/2018 - 02:38:12: [umc-core.smx] 4: emp_crossroads (2)
+L 09/19/2018 - 02:38:12: [umc-core.smx] 5: emp_drygulch (3)
+L 09/19/2018 - 02:38:12: [umc-core.smx] 6: emp_downfall (4)
+L 09/19/2018 - 02:38:42: [umc-emp-mapvote.smx] WARNING: Map Voting failure. Initiating random map fail-safe.
+L 09/19/2018 - 02:38:42: [umc-core.smx] WARNING: Map "emp_temple_b3f" does not exist on the server. (Group: "Commander Maps")
+L 09/19/2018 - 02:38:42: [umc-core.smx] WARNING: Map "con_urbanchaos_fix" does not exist on the server. (Group: "Infantry Maps")
+L 09/19/2018 - 02:38:42: [umc-core.smx] Setting nextmap to: emp_vehicletraining_2013
+L 09/19/2018 - 02:38:42: [umc-randomcycle.smx] Disabling random nextmap selection.
+L 09/19/2018 - 02:38:42: [umc-core.smx] umc-emp-mapvote.smx: Changing map to 'emp_vehicletraining_2013' in 5 seconds.
+L 09/19/2018 - 02:38:42: [umc-core.smx] Vote has concluded.
+L 09/19/2018 - 23:27:11: [umc-core.smx] ---------------------MAP CHANGE: con_district402---------------------
+L 09/19/2018 - 23:27:11: [umc-endvote-warnings.smx] Successfully parsed and set up 11 vote warnings.
+L 09/19/2018 - 23:27:11: [umc-rockthevote.smx] RTV will be made available in 60 seconds.
+L 09/19/2018 - 23:28:12: [umc-rockthevote.smx] RTV is now available.

@@ -1,0 +1,204 @@
+"Scenario"
+{
+	"NF_Res"		"400.000000"
+	"BE_Res"		"400.000000"
+	"NF_Tickets"		"121"
+	"BE_Tickets"		"121"
+	"NF_Research"
+	{
+		"0"		"1"
+	}
+	"BE_Research"
+	{
+		"0"		"1"
+	}
+	"Entities"
+	{
+		"2224"
+		{
+			"className"		"emp_building_nf_refinery"
+			"position"		"1613.270020 -13034.099609 -223.718994"
+			"angles"		"0.000000 90.000000 0.000000"
+			"built"		"1"
+			"health"		"150"
+			"team"		"2"
+			"target"		"res_1"
+		}
+		"2225"
+		{
+			"className"		"emp_resource_point_prop"
+			"position"		"1613.810059 -13016.900391 -239.011002"
+			"angles"		"0.000000 0.000000 0.000000"
+			"enabled"		"0"
+			"model"		"models/props_wasteland/rockcliff01f.mdl"
+		}
+		"2227"
+		{
+			"className"		"emp_resource_point"
+			"position"		"1607.910034 -13032.900391 -206.011002"
+			"angles"		"0.000000 0.000000 0.000000"
+			"enabled"		"0"
+			"resPerSecond"		"1.000000"
+			"name"		"res_1"
+		}
+		"2228"
+		{
+			"className"		"emp_building_imp_refinery"
+			"position"		"-1017.840027 13065.500000 -223.718994"
+			"angles"		"0.000000 0.000000 0.000000"
+			"built"		"1"
+			"health"		"150"
+			"team"		"3"
+			"target"		"res_2"
+		}
+		"2229"
+		{
+			"className"		"emp_resource_point_prop"
+			"position"		"-1017.640015 13073.500000 -216.425995"
+			"angles"		"0.000000 42.500000 0.000000"
+			"enabled"		"0"
+			"model"		"models/props_wasteland/rockcliff01f.mdl"
+		}
+		"2231"
+		{
+			"className"		"emp_resource_point"
+			"position"		"-1013.640015 13069.500000 -215.425995"
+			"angles"		"0.000000 0.000000 0.000000"
+			"enabled"		"0"
+			"resPerSecond"		"1.000000"
+			"name"		"res_2"
+		}
+		"2245"
+		{
+			"className"		"emp_building_imp_barracks"
+			"position"		"0.000000 13024.000000 -224.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"built"		"1"
+			"health"		"250"
+			"team"		"3"
+		}
+		"2246"
+		{
+			"className"		"emp_imp_commander"
+			"position"		"832.000000 13023.999023 -223.181244"
+			"angles"		"0.000000 -180.000000 0.007590"
+		}
+		"2296"
+		{
+			"className"		"emp_building_nf_barracks"
+			"position"		"384.000000 -12992.000000 -232.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"built"		"1"
+			"health"		"250"
+			"team"		"2"
+		}
+		"2297"
+		{
+			"className"		"emp_nf_commander"
+			"position"		"-608.000000 -12991.996094 -165.547165"
+			"angles"		"-0.000000 0.000000 -0.028503"
+		}
+		"2331"
+		{
+			"className"		"emp_resource_point_prop"
+			"position"		"4080.540039 9980.019531 -211.292007"
+			"angles"		"0.000000 42.500000 0.000000"
+			"enabled"		"1"
+			"model"		"models/props_wasteland/rockcliff01f.mdl"
+		}
+		"2332"
+		{
+			"className"		"emp_resource_point"
+			"position"		"4084.540039 9984.019531 -207.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+			"name"		"res_3"
+		}
+		"2334"
+		{
+			"className"		"emp_resource_point_prop"
+			"position"		"-4079.459961 -10670.799805 -199.292007"
+			"angles"		"0.000000 42.500000 0.000000"
+			"enabled"		"1"
+			"model"		"models/props_wasteland/rockcliff01f.mdl"
+		}
+		"2336"
+		{
+			"className"		"emp_resource_point"
+			"position"		"-4075.459961 -10674.799805 -198.292007"
+			"angles"		"0.000000 0.000000 0.000000"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+			"name"		"res_6"
+		}
+		"2337"
+		{
+			"className"		"emp_resource_point_prop"
+			"position"		"1920.000000 -1280.000000 -228.000000"
+			"angles"		"0.000000 270.000000 0.000000"
+			"enabled"		"1"
+			"model"		"models/common/props_system/res_tap_imp_star/res_tap_imp_star.mdl"
+		}
+		"2338"
+		{
+			"className"		"emp_resource_point"
+			"position"		"1920.000000 -1280.000000 -208.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+			"name"		"res_5"
+		}
+		"2341"
+		{
+			"className"		"emp_resource_point"
+			"position"		"-1920.000000 1280.000000 -212.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+			"name"		"res_4"
+		}
+		"2356"
+		{
+			"className"		"emp_resource_point"
+			"position"		"-3051.459961 7445.160156 -211.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+			"name"		"res_7"
+		}
+		"2357"
+		{
+			"className"		"emp_resource_point_prop"
+			"position"		"-3055.459961 7441.160156 -215.292007"
+			"angles"		"0.000000 42.500000 0.000000"
+			"enabled"		"1"
+			"model"		"models/props_wasteland/rockcliff01f.mdl"
+		}
+		"2359"
+		{
+			"className"		"emp_resource_point_prop"
+			"position"		"2624.159912 -7038.839844 -231.292007"
+			"angles"		"0.000000 42.500000 0.000000"
+			"enabled"		"1"
+			"model"		"models/props_wasteland/rockcliff01f.mdl"
+		}
+		"2360"
+		{
+			"className"		"emp_resource_point"
+			"position"		"2628.159912 -7034.839844 -227.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+			"name"		"res_8"
+		}
+		"197539"
+		{
+			"className"		"emp_resource_point_prop"
+			"position"		"-1920.000000 1280.000000 -228.000000"
+			"angles"		"0.000000 270.000000 0.000000"
+			"enabled"		"1"
+			"model"		"models/common/props_system/res_tap_imp_star/res_tap_imp_star.mdl"
+		}
+	}
+}

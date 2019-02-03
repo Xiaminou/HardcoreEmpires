@@ -1,0 +1,168 @@
+"Imperial Heavy Tank"
+{
+	"properties"
+	{
+		"Vehicle Script"	"scripts/imperial/vehicles/ground/tankheavy/imp_tankheavy.txt"	//file name for the standard HL2 vehicle properties
+		"Model"			"models/imperial/vehicles/ground/tankheavy/imp_heavytank.mdl"	//file name for the vehicle model
+		"Turret Model"		"models/imperial/vehicles/ground/tankheavy/turret.mdl"
+		"Cannon Model"		"models/imperial/vehicles/ground/tankheavy/cannon.mdl"
+		"horn" "Vehicle.horn_deep" //sound to use when blasting the horn
+
+		"Name"			"#emp_vehicle_imp_heavy_tank_name"						//name given when chassis
+		"Spotted Name"		"#emp_vehicle_imp_heavy_tank_spotted_name"							//name given when spotted by an enemy
+		"Description"		"#emp_vehicle_imp_heavy_tank_description"	//description given in creation GUI
+		"Hint" "#emp_hint_vehicle_imp_heavy_tank"
+		"Team"			"IMP" 							//team able to purchase, 'IMP', 'NF', or 'ALL'
+		"Chassis Pic"		"vehicles/gui/bg/imp_heavy"		//picture shown when selecting chassis, path is preceded by 'vgui/'
+		"Side Pic"		"vehicles/gui/imp_heavy_side"		//picture shown from the side for loadouts, path is preceded by 'vgui/'
+		"Top Pic"		"vehicles/gui/imp_heavy_top"		//picture shown from top for armor, path is preceded by 'vgui/'
+		"Engine Pic"		"vehicles/gui/imp_heavy_side"		//picture shown of interior depicting engine compartment, path is preceded by 'vgui/'
+		"Summary Pic"		"vehicles/gui/bg/imp_heavy"		//picture shown in the build summary screen, path is preceded by 'vgui/'
+		"Map Icon"		"vehicles/map/imp_heavy_map"
+		"Unit Icon"		"comm/selection/imp_heavy"						//the picture that shows up in the commander's unit selection area when this unit is selected
+
+		"HUD Chassis Pic"	"vehicles/hud/imp_heavy_chassis"		//picture shown when selecting chassis, path is preceded by 'vgui/'
+		"HUD Turret Pic"	"vehicles/hud/imp_heavy_turret"		//picture shown when selecting chassis, path is preceded by 'vgui/'
+		"HUD Chassis Width"	"134"	//for sizing the armor bars
+		"HUD Chassis Height"	"206"	//for sizing the armor bars
+		"HUD Chassis X Offset"	"0"
+		"HUD Chassis Y Offset"	"-12"	//this accounts for the turret not rotating exactly on the center of the chassis picture
+
+		//define the angles of the armor sides to determine where to deal damage based on hit location
+		"Armor Angle 1"		"55"
+		"Armor Angle 2"		"125"
+		"Armor Angle 3"		"235"
+		"Armor Angle 4"		"305"
+
+		"Type"			"7"		//which vehicle type this is 0=jeep, 1=apc, 2=tank, 3=artillery, 4=anti-air
+		"Max Weight"		"1337"          // was 1100
+		"Base Weight"		"867"           // was 600
+		"Cost"			"850"		//cost of just the chassis in resources
+		
+		"Recycling Max CarcassHealth" "200"
+		"Friendly Recycling Percentage"	"0.4"	//The percentage of the cost of a friendly vehicle that is reimbursed when recycling a dead vehicle carcass.
+		"Enemy Recycling Percentage"	"0.4"	//The percentage of the cost of an enemy vehicle that is reimbursed when recycling a dead vehicle carcass.
+
+		//define max seats and properties
+		"Seats"			"2"
+
+		"Seat_1_Visible"		"0"	//0 means that this passenger is not visible, 1 means he is visible
+		"Seat_1_PersonalWeapons"	"0"	//0 means he uses the vehicle's weapons for any weapons associated with his seat, 1 means that this passenger only shoots with his personal weapons
+		"Seat_1_Cannon"			"0"
+		"Seat_1_Turret"			"0"
+
+		"Seat_2_Visible"		"1"
+		"Seat_2_PersonalWeapons"	"1"
+		"Seat_2_Ducking"		"0"
+		"Seat_2_Turret"			"0"
+
+		//Turret properties
+		"Seat 1 Min Pitch" "8" 
+		"Seat 1 Max Pitch" "-20" 
+		"Seat 1 Min Pitch Rear" "2" 
+		"Seat 1 Max Pitch Rear" "-20" 
+
+		"Turret Turn Rate"  "7000" // speed at which the turret turns
+		"Cannon Turn Rate"  "7000" // speed at which the cannon moves
+
+		"Health"		"225"		//amount of vehicle base health
+		"Repair Station Heal"	"15"		//amount of vehicle health restored per second by the repair station
+		"Engineer Heal"		"2"		//amount of vehicle health restored per engineer's repair unit
+		"Dust Particle"		"heavy_dust"
+		"Dust Particle Interval"	"0.0"
+		
+		"Heat Capacity"		"100"		//amount of maximum heat level
+
+		"Max Front Armor"	"6"		//max inches of armor able to go on front
+		"Max Rear Armor"	"6"
+		"Max Left Armor"	"6"
+		"Max Right Armor"	"6"
+
+		"Repair Station Repair"	"1"		//percent of one inch of armor repaired per second by the repair station (0.5 = a half inch of armor is repaired per second)
+		"Engineer Repair"	"0.06"		//percent of one inch of armor repaired per engineer's repair unit (0.1 = a tenth inch of armor is repaired per engineer repair unit)
+
+		"Research"		"Heavy Tank Chassis"		//research item name that must be researched before this chassis can be built
+
+		"Neutral Turn Factor"	"1"		//multiplier to determine how fast the vehicle can turn in place when no forward motion is present
+
+		"Max Tank Cannons"	"2"
+		"Max Machine Guns"	"2"
+		"Max Missile Launchers"	"3"
+
+	}
+	//driver cannon
+	"weapon_slot"
+	{
+		"Bone"			"c_weapon_passenger0_type1"	//bone name in the model where the weapon is fired from
+		"Seat"			"1"			//The passenger who controls this weapon
+		"Size"			"3"			//size of this slot
+		"Type"			"1"			//0=machine gun, 1=tank cannon, 2=artillery cannon, 3=missile launcher, 4=grenade launcher, 5=aircraft bomb bay, weapon types able to go in this slot
+		"Slot_x"		"380"			//x of slot's top left corner
+		"Slot_y"		"30"			//y of slot's top left corner
+		"Origin_x"		"491"			//x point to draw line from schematic to slot
+		"Origin_y"		"190"			//y point to draw line from schematic to slot
+	}
+	//driver cannon
+	"weapon_slot"
+	{
+		"Bone"			"c_weapon_passenger0_type1_1"	//bone name in the model where the weapon is fired from
+		"Seat"			"1"			//The passenger who controls this weapon
+		"Size"			"3"			//size of this slot
+		"Type"			"1"			//0=machine gun, 1=tank cannon, 2=artillery cannon, 3=missile launcher, 4=grenade launcher, 5=aircraft bomb bay, weapon types able to go in this slot
+		"Slot_x"		"330"			//x of slot's top left corner
+		"Slot_y"		"94"			//y of slot's top left corner
+		"Origin_x"		"438"			//x point to draw line from schematic to slot
+		"Origin_y"		"190"			//y point to draw line from schematic to slot
+	}
+	//driver MG
+	"weapon_slot"
+	{
+		"Bone"			"c_weapon_passenger0_type0"	//bone name in the model where the weapon is fired from
+		"Seat"			"1"			//The passenger who controls this weapon
+		"Size"			"2"			//size of this slot
+		"Type"			"0"			//0=machine gun, 1=tank cannon, 2=artillery cannon, 3=missile launcher, 4=grenade launcher, 5=aircraft bomb bay, weapon types able to go in this slot
+		"Slot_x"		"220"			//x of slot's top left corner
+		"Slot_y"		"30"			//y of slot's top left corner
+		"Origin_x"		"281"			//x point to draw line from schematic to slot
+		"Origin_y"		"190"			//y point to draw line from schematic to slot
+	}
+	//driver missile launcher
+	"weapon_slot"
+	{
+		"Bone"			"t_weapon_passenger0_type3"	//bone name in the model where the weapon is fired from
+		"Seat"			"1"			//The passenger who controls this weapon
+		"Size"			"3"			//size of this slot
+		"Type"			"3"			//0=machine gun, 1=tank cannon, 2=artillery cannon, 3=missile launcher, 4=grenade launcher, 5=aircraft bomb bay, weapon types able to go in this slot
+		"Slot_x"		"50"			//x of slot's top left corner
+		"Slot_y"		"94"			//y of slot's top left corner
+		"Origin_x"		"222"			//x point to draw line from schematic to slot
+		"Origin_y"		"190"			//y point to draw line from schematic to slot
+	}
+	"armor_slot"
+	{
+		"Size"			"1"			//size of this slot
+		"Type"			"0"			
+		"Slot_x"		"20"			//x of slot's top left corner
+		"Slot_y"		"20"			//y of slot's top left corner
+
+		"Front_x"		"467"			//x of first front layer's top left corner
+		"Front_y"		"93"			//y of first front layer's top left corner
+		"Rear_x"		"116"			//x of first rear layer's top left corner
+		"Rear_y"		"93"			//y of first rear layer's top left corner
+		"Left_x"		"123"			//x of first left layer's top left corner
+		"Left_y"		"75"			//y of first left layer's top left corner
+		"Right_x"		"123"			//x of first right layer's top left corner
+		"Right_y"		"294"			//y of first right layer's top left corner
+		"Front_Width"		"13"
+		"Front_Height"		"244"
+		"Left_Width"		"424"
+		"Left_Height"		"13"
+	}
+	"engine_slot"
+	{
+		"Size"			"2"			//size of this slot
+		"Type"			"0"			
+		"Slot_x"		"20"			//x of slot's top left corner
+		"Slot_y"		"20"			//y of slot's top left corner
+	}
+}

@@ -1,0 +1,21 @@
+L 07/23/2018 - 00:10:25: SourceMod error session started
+L 07/23/2018 - 00:10:25: Info (map "emp_homeland_b9_hce") (file "errors_20180723.log")
+L 07/23/2018 - 00:10:25: [SM] Exception reported: Invalid timer handle af4303ad (error 3)
+L 07/23/2018 - 00:10:25: [SM] Blaming: umc-emp-mapvote.smx()
+L 07/23/2018 - 00:10:25: [SM] Call stack trace:
+L 07/23/2018 - 00:10:25: [SM]   [0] KillTimer
+L 07/23/2018 - 00:10:25: [SM]   [1] Line 686, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-emp-mapvote.sp::UMC_OnNextmapSet()
+L 07/23/2018 - 00:10:25: [SM]   [3] Call_Finish
+L 07/23/2018 - 00:10:25: [SM]   [4] Line 4834, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::DoMapChange()
+L 07/23/2018 - 00:10:25: [SM]   [5] Line 1767, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Native_UMCSetNextMap()
+L 07/23/2018 - 00:10:25: [SM]   [7] UMC_SetNextMap
+L 07/23/2018 - 00:10:25: [SM]   [8] Line 621, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-emp-mapvote.sp::DoRandomNextMap()
+L 07/23/2018 - 00:10:25: [SM]   [9] Line 606, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-emp-mapvote.sp::DoMapChangeFailSafe()
+L 07/23/2018 - 00:10:25: [SM]   [10] Line 722, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-emp-mapvote.sp::UMC_OnVoteFailed()
+L 07/23/2018 - 00:10:25: [SM]   [12] Call_Finish
+L 07/23/2018 - 00:10:25: [SM]   [13] Line 4796, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::VoteFailed()
+L 07/23/2018 - 00:10:25: [SM]   [14] Line 3507, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::VoteCancelled()
+L 07/23/2018 - 00:10:25: [SM]   [15] Line 1177, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Native_UMCVoteManagerCancel()
+L 07/23/2018 - 00:10:25: [SM]   [17] UMC_VoteManagerVoteCancelled
+L 07/23/2018 - 00:10:25: [SM]   [18] Line 2276, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_VoteMenu()
+L 07/23/2018 - 00:10:31: Error log file session closed.

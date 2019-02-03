@@ -20,7 +20,7 @@
 #include <sdkhooks>
 #include <emputils>
 
-#define PluginVer "v0.9 WIP"
+#define PluginVer "v0.9 WIP2.1"
  
 public Plugin myinfo =
 {
@@ -760,11 +760,16 @@ public void OnVoteLeaderChanged(int team, int leader, int numVotes)
 	{
 		commsready = 1;
 	}
-	if (nf1vote != 1 && be1vote != 1)
+	
+	if (nf1vote != 1)
 	{
 		commsready = 0;
 	}
-		
+	if (be1vote != 1)
+	{
+		commsready = 0;
+	}
+	
 	if (nf1vote == 1 && be1vote == 1)
 	{
 		//Alltalk management
@@ -944,7 +949,7 @@ void Event_CommVoteTime(Handle event, const char[] name, bool dontBroadcast)
 		}
 	}
 	
-	if (NCEnableDisable == 1)
+	if (NCEnableDisable == 1 && cexist == 1)
 	{
 		//HUD
 		if (nf1vote == 0)

@@ -1,0 +1,121 @@
+L 09/02/2018 - 00:28:00: SourceMod log file session started (file "L20180902.log") (Version "1.8.0.5912")
+L 09/02/2018 - 00:28:00: [basechat.smx] "[BϟP] VulcanStorm<155><[U:1:103978153]><>" triggered sm_say (text Armifer :))
+L 09/02/2018 - 00:56:08: [saysounds.smx] [Say Sounds] Enabled, Hooking Events
+L 09/02/2018 - 00:56:08: [saysounds.smx] [Say Sounds] No specific game detected
+L 09/02/2018 - 00:57:53: [SM] Changed map to "emp_cyclopean"
+L 09/02/2018 - 00:57:54: -------- Mapchange to emp_cyclopean --------
+L 09/02/2018 - 00:57:55: [autorecorder.smx] Recording to auto-20180902-005755-emp_cyclopean.dem
+L 09/02/2018 - 00:58:04: [security_entity_limit.smx] [SEL] 524 entities have been protected from deleting.This map contain 1524 free entity slot!
+L 09/02/2018 - 01:06:56: [autorecorder.smx] Recording to auto-20180902-010656-emp_cyclopean.dem
+L 09/02/2018 - 01:19:12: [saysounds.smx] [Say Sounds] Enabled, Hooking Events
+L 09/02/2018 - 01:19:12: [saysounds.smx] [Say Sounds] No specific game detected
+L 09/02/2018 - 01:20:56: [SM] Changed map to "emp_glacial_b2"
+L 09/02/2018 - 01:20:57: -------- Mapchange to emp_glacial_b2 --------
+L 09/02/2018 - 01:21:00: [autorecorder.smx] Recording to auto-20180902-012100-emp_glacial_b2.dem
+L 09/02/2018 - 01:21:07: [security_entity_limit.smx] [SEL] 216 entities have been protected from deleting.This map contain 1832 free entity slot!
+L 09/02/2018 - 01:24:25: [basecommands.smx] "Mikleo<156><[U:1:376259319]><>" changed cvar (cvar "sc_speclisten") (value "1")
+L 09/02/2018 - 01:56:07: [saysounds.smx] [Say Sounds] Enabled, Hooking Events
+L 09/02/2018 - 01:56:07: [saysounds.smx] [Say Sounds] No specific game detected
+L 09/02/2018 - 01:57:51: [SM] Changed map to "fun_ricochet_a4"
+L 09/02/2018 - 01:57:51: -------- Mapchange to fun_ricochet_a4 --------
+L 09/02/2018 - 01:57:54: [autorecorder.smx] Recording to auto-20180902-015754-fun_ricochet_a4.dem
+L 09/02/2018 - 01:58:01: [security_entity_limit.smx] [SEL] 194 entities have been protected from deleting.This map contain 1854 free entity slot!
+L 09/02/2018 - 01:58:32: [saysounds.smx] [Say Sounds] Disabled, Unhooking Events
+L 09/02/2018 - 02:03:56: [saysounds.smx] [Say Sounds] Enabled, Hooking Events
+L 09/02/2018 - 02:03:56: [saysounds.smx] [Say Sounds] No specific game detected
+L 09/02/2018 - 02:05:40: [SM] Changed map to "emp_dune_ob1"
+L 09/02/2018 - 02:05:41: -------- Mapchange to emp_dune_ob1 --------
+L 09/02/2018 - 02:05:46: [autorecorder.smx] Recording to auto-20180902-020546-emp_dune_ob1.dem
+L 09/02/2018 - 02:05:52: [security_entity_limit.smx] [SEL] 243 entities have been protected from deleting.This map contain 1805 free entity slot!
+L 09/02/2018 - 02:07:19: [SM] Changed map to "emp_nuclear_b8u_xfix"
+L 09/02/2018 - 02:07:20: -------- Mapchange to emp_nuclear_b8u_xfix --------
+L 09/02/2018 - 02:07:25: [autorecorder.smx] Recording to auto-20180902-020725-emp_nuclear_b8u_xfix.dem
+L 09/02/2018 - 02:07:30: [security_entity_limit.smx] [SEL] 1011 entities have been protected from deleting.This map contain 1037 free entity slot!
+L 09/02/2018 - 02:08:36: [saysounds.smx] [Say Sounds] Disabled, Unhooking Events
+L 09/02/2018 - 02:33:11: [saysounds.smx] [Say Sounds] Enabled, Hooking Events
+L 09/02/2018 - 02:33:11: [saysounds.smx] [Say Sounds] No specific game detected
+L 09/02/2018 - 02:34:16: [SM] Changed map to "emp_canyon"
+L 09/02/2018 - 02:34:16: -------- Mapchange to emp_canyon --------
+L 09/02/2018 - 02:34:17: [autorecorder.smx] Recording to auto-20180902-023417-emp_canyon.dem
+L 09/02/2018 - 02:34:27: [security_entity_limit.smx] [SEL] 292 entities have been protected from deleting.This map contain 1756 free entity slot!
+L 09/02/2018 - 02:37:51: [SM] Changed map to "emp_crossroads_towerless_hce"
+L 09/02/2018 - 02:37:52: -------- Mapchange to emp_crossroads_towerless_hce --------
+L 09/02/2018 - 02:37:58: [autorecorder.smx] Recording to auto-20180902-023758-emp_crossroads_towerless_hce.dem
+L 09/02/2018 - 02:38:02: [security_entity_limit.smx] [SEL] 587 entities have been protected from deleting.This map contain 1461 free entity slot!
+L 09/02/2018 - 02:40:59: [saysounds.smx] [Say Sounds] No specific game detected
+L 09/02/2018 - 03:04:34: [saysounds.smx] [Say Sounds] Enabled, Hooking Events
+L 09/02/2018 - 03:04:34: [saysounds.smx] [Say Sounds] No specific game detected
+L 09/02/2018 - 03:06:18: [SM] Changed map to "emp_shadows_attacks_fix"
+L 09/02/2018 - 03:06:20: -------- Mapchange to emp_shadows_attacks_fix --------
+L 09/02/2018 - 03:06:30: [security_entity_limit.smx] [SEL] 799 entities have been protected from deleting.This map contain 1249 free entity slot!
+L 09/02/2018 - 03:06:39: [autorecorder.smx] Recording to auto-20180902-030639-emp_shadows_attacks_fix.dem
+L 09/02/2018 - 03:08:09: [saysounds.smx] [Say Sounds] Disabled, Unhooking Events
+L 09/02/2018 - 03:25:56: [saysounds.smx] [Say Sounds] Enabled, Hooking Events
+L 09/02/2018 - 03:25:56: [saysounds.smx] [Say Sounds] No specific game detected
+L 09/02/2018 - 03:26:52: [SM] Changed map to "emp_downfall_hce"
+L 09/02/2018 - 03:26:53: -------- Mapchange to emp_downfall_hce --------
+L 09/02/2018 - 03:27:03: [security_entity_limit.smx] [SEL] 160 entities have been protected from deleting.This map contain 1888 free entity slot!
+L 09/02/2018 - 03:27:15: [autorecorder.smx] Recording to auto-20180902-032715-emp_downfall_hce.dem
+L 09/02/2018 - 03:29:09: [saysounds.smx] [Say Sounds] Disabled, Unhooking Events
+L 09/02/2018 - 18:57:50: [saysounds.smx] [Say Sounds] Enabled, Hooking Events
+L 09/02/2018 - 18:57:50: [saysounds.smx] [Say Sounds] No specific game detected
+L 09/02/2018 - 18:58:56: [SM] Changed map to "emp_drygulch_a7"
+L 09/02/2018 - 18:58:58: -------- Mapchange to emp_drygulch_a7 --------
+L 09/02/2018 - 18:59:01: [autorecorder.smx] Recording to auto-20180902-185901-emp_drygulch_a7.dem
+L 09/02/2018 - 18:59:08: [security_entity_limit.smx] [SEL] 173 entities have been protected from deleting.This map contain 1875 free entity slot!
+L 09/02/2018 - 19:00:17: [saysounds.smx] [Say Sounds] Disabled, Unhooking Events
+L 09/02/2018 - 20:11:44: [saysounds.smx] [Say Sounds] Enabled, Hooking Events
+L 09/02/2018 - 20:11:44: [saysounds.smx] [Say Sounds] No specific game detected
+L 09/02/2018 - 20:12:49: [SM] Changed map to "emp_streetsoffire_fix"
+L 09/02/2018 - 20:12:55: -------- Mapchange to emp_streetsoffire_fix --------
+L 09/02/2018 - 20:13:00: [autorecorder.smx] Recording to auto-20180902-201300-emp_streetsoffire_fix.dem
+L 09/02/2018 - 20:13:05: [security_entity_limit.smx] [SEL] 561 entities have been protected from deleting.This map contain 1487 free entity slot!
+L 09/02/2018 - 20:13:11: [basecommands.smx] "Mr. X.<229><[U:1:27106968]><>" console command (cmdline "emp_allowspectators 1")
+L 09/02/2018 - 20:13:11: [basecommands.smx] "Mr. X.<229><[U:1:27106968]><>" console command (cmdline "emp_allowspectators 0")
+L 09/02/2018 - 21:07:56: [saysounds.smx] [Say Sounds] Enabled, Hooking Events
+L 09/02/2018 - 21:07:56: [saysounds.smx] [Say Sounds] No specific game detected
+L 09/02/2018 - 21:09:40: [SM] Changed map to "emp_raiders_b1"
+L 09/02/2018 - 21:09:41: -------- Mapchange to emp_raiders_b1 --------
+L 09/02/2018 - 21:09:44: [autorecorder.smx] Recording to auto-20180902-210944-emp_raiders_b1.dem
+L 09/02/2018 - 21:09:51: [security_entity_limit.smx] [SEL] 294 entities have been protected from deleting.This map contain 1754 free entity slot!
+L 09/02/2018 - 21:54:53: [saysounds.smx] [Say Sounds] Enabled, Hooking Events
+L 09/02/2018 - 21:54:53: [saysounds.smx] [Say Sounds] No specific game detected
+L 09/02/2018 - 21:56:37: [SM] Changed map to "con_atomic_rc6_fix"
+L 09/02/2018 - 21:56:38: -------- Mapchange to con_atomic_rc6_fix --------
+L 09/02/2018 - 21:56:45: [autorecorder.smx] Recording to auto-20180902-215645-con_atomic_rc6_fix.dem
+L 09/02/2018 - 21:56:49: [security_entity_limit.smx] [SEL] 1311 entities have been protected from deleting.This map contain 737 free entity slot!
+L 09/02/2018 - 21:58:03: [saysounds.smx] [Say Sounds] Disabled, Unhooking Events
+L 09/02/2018 - 22:08:42: [SM] Changed map to "emp_massacred_rc1_hce"
+L 09/02/2018 - 22:08:45: -------- Mapchange to emp_massacred_rc1_hce --------
+L 09/02/2018 - 22:08:46: [saysounds.smx] [Say Sounds] Enabled, Hooking Events
+L 09/02/2018 - 22:08:46: [saysounds.smx] [Say Sounds] No specific game detected
+L 09/02/2018 - 22:08:47: [autorecorder.smx] Recording to auto-20180902-220847-emp_massacred_rc1_hce.dem
+L 09/02/2018 - 22:08:56: [security_entity_limit.smx] [SEL] 354 entities have been protected from deleting.This map contain 1694 free entity slot!
+L 09/02/2018 - 22:13:24: [saysounds.smx] [Say Sounds] No specific game detected
+L 09/02/2018 - 22:22:17: [basecommands.smx] "Oktay<270><[U:1:116496292]><>" kicked "Nowaf8037<219><[U:1:309341142]><>" (reason "")
+L 09/02/2018 - 22:32:31: [basecommands.smx] "Mr. X.<297><[U:1:27106968]><>" console command (cmdline "emp_sv_netvisdist_commander 10000 ")
+L 09/02/2018 - 22:36:47: [saysounds.smx] [Say Sounds] Enabled, Hooking Events
+L 09/02/2018 - 22:36:47: [saysounds.smx] [Say Sounds] No specific game detected
+L 09/02/2018 - 22:38:31: [SM] Changed map to "emp_snowstorm_rc6"
+L 09/02/2018 - 22:38:32: -------- Mapchange to emp_snowstorm_rc6 --------
+L 09/02/2018 - 22:38:33: [autorecorder.smx] Recording to auto-20180902-223833-emp_snowstorm_rc6.dem
+L 09/02/2018 - 22:38:42: [security_entity_limit.smx] [SEL] 255 entities have been protected from deleting.This map contain 1793 free entity slot!
+L 09/02/2018 - 22:38:54: [basecommands.smx] "Mikleo<274><[U:1:376259319]><>" changed cvar (cvar "dp_music") (value "0")
+L 09/02/2018 - 22:55:25: [saysounds.smx] [Say Sounds] Enabled, Hooking Events
+L 09/02/2018 - 22:55:25: [saysounds.smx] [Say Sounds] No specific game detected
+L 09/02/2018 - 22:57:10: [SM] Changed map to "emp_hazard_rc6"
+L 09/02/2018 - 22:57:10: -------- Mapchange to emp_hazard_rc6 --------
+L 09/02/2018 - 22:57:12: [autorecorder.smx] Recording to auto-20180902-225712-emp_hazard_rc6.dem
+L 09/02/2018 - 22:57:21: [security_entity_limit.smx] [SEL] 383 entities have been protected from deleting.This map contain 1665 free entity slot!
+L 09/02/2018 - 23:21:50: [saysounds.smx] [Say Sounds] Enabled, Hooking Events
+L 09/02/2018 - 23:21:50: [saysounds.smx] [Say Sounds] No specific game detected
+L 09/02/2018 - 23:23:33: [SM] Changed map to "emp_duststorm_fix2"
+L 09/02/2018 - 23:23:34: -------- Mapchange to emp_duststorm_fix2 --------
+L 09/02/2018 - 23:23:35: [autorecorder.smx] Recording to auto-20180902-232335-emp_duststorm_fix2.dem
+L 09/02/2018 - 23:23:44: [security_entity_limit.smx] [SEL] 262 entities have been protected from deleting.This map contain 1786 free entity slot!
+L 09/02/2018 - 23:54:21: [saysounds.smx] [Say Sounds] Enabled, Hooking Events
+L 09/02/2018 - 23:54:21: [saysounds.smx] [Say Sounds] No specific game detected
+L 09/02/2018 - 23:56:04: [SM] Changed map to "emp_canyon"
+L 09/02/2018 - 23:56:05: -------- Mapchange to emp_canyon --------
+L 09/02/2018 - 23:56:06: [autorecorder.smx] Recording to auto-20180902-235606-emp_canyon.dem
+L 09/02/2018 - 23:56:15: [security_entity_limit.smx] [SEL] 305 entities have been protected from deleting.This map contain 1743 free entity slot!
