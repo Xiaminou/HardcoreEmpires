@@ -1,0 +1,882 @@
+L 06/30/2018 - 00:06:13: [umc-rockthevote.smx] Starting RTV.
+L 06/30/2018 - 00:06:13: [umc-core.smx] WARNING: Map "con_urbanchaos" does not exist on the server. (Group: "Infantry Maps")
+L 06/30/2018 - 00:06:13: [umc-core.smx] VOTE MENU: (Verbose) Fetching 7 maps from group 'Commander Maps'
+L 06/30/2018 - 00:06:13: [umc-core.smx] VOTE MENU: (Verbose) Finished parsing nominations for map group 'Commander Maps'
+L 06/30/2018 - 00:06:13: [umc-core.smx] VOTE MENU: (Verbose) Still need to fetch 7 maps from the group.
+L 06/30/2018 - 00:06:13: [umc-core.smx] VOTE MENU: (Verbose) Selected map 'emp_drygulch_a7' from group 'Commander Maps' was added to the vote.
+L 06/30/2018 - 00:06:13: [umc-core.smx] VOTE MENU: (Verbose) Selected map 'emp_crossroads_towerless_hce' from group 'Commander Maps' was added to the vote.
+L 06/30/2018 - 00:06:13: [umc-core.smx] VOTE MENU: (Verbose) No more maps in map group 'Commander Maps'
+L 06/30/2018 - 00:06:13: [umc-core.smx] VOTE MENU: (Verbose) Fetching 1 maps from group 'Infantry Maps'
+L 06/30/2018 - 00:06:13: [umc-core.smx] VOTE MENU: (Verbose) Finished parsing nominations for map group 'Infantry Maps'
+L 06/30/2018 - 00:06:13: [umc-core.smx] VOTE MENU: (Verbose) Still need to fetch 1 maps from the group.
+L 06/30/2018 - 00:06:13: [umc-core.smx] VOTE MENU: (Verbose) Selected map 'con_blast_ob2' from group 'Infantry Maps' was added to the vote.
+L 06/30/2018 - 00:06:13: [umc-core.smx] VOTE MENU: (Verbose) Fetching 0 maps from group 'Cooldown Maps'
+L 06/30/2018 - 00:06:13: [umc-core.smx] VOTE MENU: (Verbose) Finished parsing nominations for map group 'Cooldown Maps'
+L 06/30/2018 - 00:06:13: [umc-core.smx] Initiating Vote Type: Map
+L 06/30/2018 - 00:06:13: [umc-core.smx] Adding Clients to Vote:
+L 06/30/2018 - 00:06:13: [umc-core.smx] 0: .|Ϟ|. C*tface (No Sound) (2)
+L 06/30/2018 - 00:06:13: [umc-core.smx] VOTE MENU:
+L 06/30/2018 - 00:06:13: [umc-core.smx] 2: emp_drygulch (0)
+L 06/30/2018 - 00:06:13: [umc-core.smx] 3: emp_crossroads (1)
+L 06/30/2018 - 00:06:13: [umc-core.smx] 4: con_blast (2)
+L 06/30/2018 - 00:06:15: [umc-core.smx] .|Ϟ|. C*tface (No Sound)<29><[U:1:41745247]><> selected menu item 1
+L 06/30/2018 - 00:06:15: [umc-core.smx] Setting nextmap to: emp_drygulch_a7
+L 06/30/2018 - 00:06:15: [umc-randomcycle.smx] Disabling random nextmap selection.
+L 06/30/2018 - 00:06:15: [umc-core.smx] umc-rockthevote.smx: Changing map to 'emp_drygulch_a7' in 5 seconds.
+L 06/30/2018 - 00:06:15: [umc-core.smx] MAPVOTE: Players voted for map 'emp_drygulch_a7' from group 'Commander Maps'
+L 06/30/2018 - 00:06:15: [umc-core.smx] Vote has concluded.
+L 06/30/2018 - 00:06:21: [umc-core.smx] ---------------------MAP CHANGE: emp_drygulch_a7---------------------
+L 06/30/2018 - 00:06:21: [umc-endvote-warnings.smx] Successfully parsed and set up 11 vote warnings.
+L 06/30/2018 - 00:06:21: [umc-rockthevote.smx] RTV will be made available in 60 seconds.
+L 06/30/2018 - 00:07:22: [umc-rockthevote.smx] RTV is now available.
+L 06/30/2018 - 20:42:36: [umc-emp-mapvote.smx] Map vote will appear in 30 seconds.
+L 06/30/2018 - 20:43:07: [umc-emp-mapvote.smx] Starting a map vote.
+L 06/30/2018 - 20:43:07: [umc-core.smx] WARNING: Map "con_urbanchaos" does not exist on the server. (Group: "Infantry Maps")
+L 06/30/2018 - 20:43:07: [umc-core.smx] VOTE MENU: (Verbose) Fetching 7 maps from group 'Commander Maps'
+L 06/30/2018 - 20:43:07: [umc-core.smx] VOTE MENU: (Verbose) Finished parsing nominations for map group 'Commander Maps'
+L 06/30/2018 - 20:43:07: [umc-core.smx] VOTE MENU: (Verbose) Still need to fetch 7 maps from the group.
+L 06/30/2018 - 20:43:07: [umc-core.smx] VOTE MENU: (Verbose) Selected map 'emp_crossroads_towerless_hce' from group 'Commander Maps' was added to the vote.
+L 06/30/2018 - 20:43:07: [umc-core.smx] VOTE MENU: (Verbose) No more maps in map group 'Commander Maps'
+L 06/30/2018 - 20:43:07: [umc-core.smx] VOTE MENU: (Verbose) Fetching 1 maps from group 'Infantry Maps'
+L 06/30/2018 - 20:43:07: [umc-core.smx] VOTE MENU: (Verbose) Finished parsing nominations for map group 'Infantry Maps'
+L 06/30/2018 - 20:43:07: [umc-core.smx] VOTE MENU: (Verbose) Still need to fetch 1 maps from the group.
+L 06/30/2018 - 20:43:07: [umc-core.smx] VOTE MENU: (Verbose) Selected map 'con_district402' from group 'Infantry Maps' was added to the vote.
+L 06/30/2018 - 20:43:07: [umc-core.smx] VOTE MENU: (Verbose) Fetching 0 maps from group 'Cooldown Maps'
+L 06/30/2018 - 20:43:07: [umc-core.smx] VOTE MENU: (Verbose) Finished parsing nominations for map group 'Cooldown Maps'
+L 06/30/2018 - 20:43:07: [umc-core.smx] Initiating Vote Type: Map
+L 06/30/2018 - 20:43:07: [umc-core.smx] Adding Clients to Vote:
+L 06/30/2018 - 20:43:07: [umc-core.smx] 0: Oktay (2)
+L 06/30/2018 - 20:43:07: [umc-core.smx] 1: =[KXIC]= The Blue Baron (3)
+L 06/30/2018 - 20:43:07: [umc-core.smx] 2: xsEgo (4)
+L 06/30/2018 - 20:43:07: [umc-core.smx] 3: Mr. X. (5)
+L 06/30/2018 - 20:43:07: [umc-core.smx] 4: Grave (6)
+L 06/30/2018 - 20:43:07: [umc-core.smx] 5: Spyer (7)
+L 06/30/2018 - 20:43:07: [umc-core.smx] 6: object™ (8)
+L 06/30/2018 - 20:43:07: [umc-core.smx] 7: Nowaf8037 (9)
+L 06/30/2018 - 20:43:07: [umc-core.smx] 8: Brentor (10)
+L 06/30/2018 - 20:43:07: [umc-core.smx] 9: Justkidding (FutureFunk) (11)
+L 06/30/2018 - 20:43:07: [umc-core.smx] 10: JustGoFly (13)
+L 06/30/2018 - 20:43:07: [umc-core.smx] 11: rauer (14)
+L 06/30/2018 - 20:43:07: [umc-core.smx] VOTE MENU:
+L 06/30/2018 - 20:43:07: [umc-core.smx] 2: emp_crossroads (0)
+L 06/30/2018 - 20:43:07: [umc-core.smx] 3: con_district402 (1)
+L 06/30/2018 - 20:43:10: [umc-core.smx] rauer<51><[U:1:2546402]><> selected menu item 2
+L 06/30/2018 - 20:43:13: [umc-core.smx] Nowaf8037<44><[U:1:309341142]><> selected menu item 2
+L 06/30/2018 - 20:43:19: [umc-core.smx] JustGoFly<48><[U:1:44099803]><> selected menu item 1
+L 06/30/2018 - 20:43:21: [umc-core.smx] xsEgo<50><[U:1:72025437]><> selected menu item 2
+L 06/30/2018 - 20:43:23: [umc-core.smx] object™<42><[U:1:1221009]><> selected menu item 1
+L 06/30/2018 - 20:43:37: [umc-core.smx] Setting nextmap to: con_district402
+L 06/30/2018 - 20:43:37: [umc-randomcycle.smx] Disabling random nextmap selection.
+L 06/30/2018 - 20:43:37: [umc-core.smx] umc-emp-mapvote.smx: Changing map to 'con_district402' in 5 seconds.
+L 06/30/2018 - 20:43:37: [umc-core.smx] MAPVOTE: Players voted for map 'con_district402' from group 'Infantry Maps'
+L 06/30/2018 - 20:43:37: [umc-core.smx] Vote has concluded.
+L 06/30/2018 - 20:43:43: [umc-core.smx] ---------------------MAP CHANGE: con_district402---------------------
+L 06/30/2018 - 20:43:43: [umc-endvote-warnings.smx] Successfully parsed and set up 11 vote warnings.
+L 06/30/2018 - 20:43:43: [umc-rockthevote.smx] RTV will be made available in 60 seconds.
+L 06/30/2018 - 20:44:44: [umc-rockthevote.smx] RTV is now available.
+L 06/30/2018 - 21:00:59: [umc-emp-mapvote.smx] Map vote will appear in 30 seconds.
+L 06/30/2018 - 21:01:30: [umc-emp-mapvote.smx] Starting a map vote.
+L 06/30/2018 - 21:01:30: [umc-core.smx] WARNING: Map "con_urbanchaos" does not exist on the server. (Group: "Infantry Maps")
+L 06/30/2018 - 21:01:30: [umc-core.smx] VOTE MENU: (Verbose) Fetching 7 maps from group 'Commander Maps'
+L 06/30/2018 - 21:01:30: [umc-core.smx] VOTE MENU: (Verbose) Finished parsing nominations for map group 'Commander Maps'
+L 06/30/2018 - 21:01:30: [umc-core.smx] VOTE MENU: (Verbose) Still need to fetch 7 maps from the group.
+L 06/30/2018 - 21:01:30: [umc-core.smx] VOTE MENU: (Verbose) Selected map 'emp_snowstorm_rc6' from group 'Commander Maps' was added to the vote.
+L 06/30/2018 - 21:01:30: [umc-core.smx] VOTE MENU: (Verbose) Selected map 'emp_research_1_2_2013' from group 'Commander Maps' was added to the vote.
+L 06/30/2018 - 21:01:30: [umc-core.smx] VOTE MENU: (Verbose) Selected map 'emp_blah4_hce' from group 'Commander Maps' was added to the vote.
+L 06/30/2018 - 21:01:30: [umc-core.smx] VOTE MENU: (Verbose) Selected map 'emp_crossroads_towerless_hce' from group 'Commander Maps' was added to the vote.
+L 06/30/2018 - 21:01:30: [umc-core.smx] VOTE MENU: (Verbose) Selected map 'emp_hazard_rc6' from group 'Commander Maps' was added to the vote.
+L 06/30/2018 - 21:01:30: [umc-core.smx] VOTE MENU: (Verbose) Selected map 'emp_massacred_rc1_hce' from group 'Commander Maps' was added to the vote.
+L 06/30/2018 - 21:01:30: [umc-core.smx] VOTE MENU: (Verbose) Selected map 'emp_streetsoffire_fix' from group 'Commander Maps' was added to the vote.
+L 06/30/2018 - 21:01:30: [umc-core.smx] VOTE MENU: (Verbose) Fetching 1 maps from group 'Infantry Maps'
+L 06/30/2018 - 21:01:30: [umc-core.smx] VOTE MENU: (Verbose) Finished parsing nominations for map group 'Infantry Maps'
+L 06/30/2018 - 21:01:30: [umc-core.smx] VOTE MENU: (Verbose) Still need to fetch 1 maps from the group.
+L 06/30/2018 - 21:01:30: [umc-core.smx] VOTE MENU: (Verbose) Selected map 'con_glycencity' from group 'Infantry Maps' was added to the vote.
+L 06/30/2018 - 21:01:30: [umc-core.smx] VOTE MENU: (Verbose) Fetching 0 maps from group 'Cooldown Maps'
+L 06/30/2018 - 21:01:30: [umc-core.smx] VOTE MENU: (Verbose) Finished parsing nominations for map group 'Cooldown Maps'
+L 06/30/2018 - 21:01:30: [umc-core.smx] Initiating Vote Type: Map
+L 06/30/2018 - 21:01:30: [umc-core.smx] Adding Clients to Vote:
+L 06/30/2018 - 21:01:30: [umc-core.smx] 0: Oktay (2)
+L 06/30/2018 - 21:01:30: [umc-core.smx] 1: =[KXIC]= The Blue Baron (3)
+L 06/30/2018 - 21:01:30: [umc-core.smx] 2: xsEgo (4)
+L 06/30/2018 - 21:01:30: [umc-core.smx] 3: Mr. X. (5)
+L 06/30/2018 - 21:01:30: [umc-core.smx] 4: Spyer (7)
+L 06/30/2018 - 21:01:30: [umc-core.smx] 5: object™ (8)
+L 06/30/2018 - 21:01:30: [umc-core.smx] 6: Nowaf8037 (9)
+L 06/30/2018 - 21:01:30: [umc-core.smx] 7: Brentor (10)
+L 06/30/2018 - 21:01:30: [umc-core.smx] 8: Justkidding (FutureFunk) (11)
+L 06/30/2018 - 21:01:30: [umc-core.smx] 9: JustGoFly (13)
+L 06/30/2018 - 21:01:30: [umc-core.smx] 10: FMI (14)
+L 06/30/2018 - 21:01:30: [umc-core.smx] 11: Trainzack (15)
+L 06/30/2018 - 21:01:30: [umc-core.smx] 12: Frax (16)
+L 06/30/2018 - 21:01:30: [umc-core.smx] 13: ScardyBob (17)
+L 06/30/2018 - 21:01:30: [umc-core.smx] 14: Ozi (18)
+L 06/30/2018 - 21:01:30: [umc-core.smx] 15: Dr. Baron von Evil-Satan (19)
+L 06/30/2018 - 21:01:30: [umc-core.smx] 16: Skalk (20)
+L 06/30/2018 - 21:01:30: [umc-core.smx] VOTE MENU:
+L 06/30/2018 - 21:01:30: [umc-core.smx] 2: emp_research (0)
+L 06/30/2018 - 21:01:30: [umc-core.smx] 3: con_glycencity (1)
+L 06/30/2018 - 21:01:30: [umc-core.smx] 4: emp_hazard (2)
+L 06/30/2018 - 21:01:30: [umc-core.smx] 5: emp_streetsoffire (3)
+L 06/30/2018 - 21:01:30: [umc-core.smx] 6: emp_snowstorm (4)
+L 06/30/2018 - 21:01:30: [umc-core.smx] 7: emp_crossroads (5)
+L 06/30/2018 - 21:01:30: [umc-core.smx] 8: emp_blah4 (6)
+L 06/30/2018 - 21:01:30: [umc-core.smx] 9: emp_massacred (7)
+L 06/30/2018 - 21:01:35: [umc-core.smx] Dr. Baron von Evil-Satan<59><[U:1:6104095]><> selected menu item 1
+L 06/30/2018 - 21:01:37: [umc-core.smx] ScardyBob<57><[U:1:21571057]><> selected menu item 3
+L 06/30/2018 - 21:01:38: [umc-core.smx] Trainzack<54><[U:1:49213605]><> selected menu item 2
+L 06/30/2018 - 21:01:38: [umc-core.smx] Skalk<60><[U:1:20539185]><> selected menu item 1
+L 06/30/2018 - 21:01:40: [umc-core.smx] =[KXIC]= The Blue Baron<49><[U:1:104778967]><> selected menu item 1
+L 06/30/2018 - 21:01:44: [umc-core.smx] xsEgo<50><[U:1:72025437]><> selected menu item 4
+L 06/30/2018 - 21:01:47: [umc-core.smx] Brentor<45><[U:1:40822645]><> selected menu item 2
+L 06/30/2018 - 21:01:49: [umc-core.smx] Justkidding (FutureFunk)<46><[U:1:2788022]><> selected menu item 4
+L 06/30/2018 - 21:01:49: [umc-core.smx] object™<42><[U:1:1221009]><> selected menu item 8
+L 06/30/2018 - 21:01:51: [umc-core.smx] FMI<55><[U:1:37995749]><> selected menu item 4
+L 06/30/2018 - 21:02:00: [umc-core.smx] RUNOFF MENU: (Verbose) Building runoff vote menu.
+L 06/30/2018 - 21:02:00: [umc-core.smx] RUNOFF MENU: (Verbose) 'emp_massacred' was removed from the vote. It had 1 votes (10 of total)
+L 06/30/2018 - 21:02:00: [umc-core.smx] RUNOFF MENU: (Verbose) 'emp_hazard' was removed from the vote. It had 1 votes (10 of total)
+L 06/30/2018 - 21:02:00: [umc-core.smx] RUNOFF MENU: (Verbose) 'con_glycencity' was removed from the vote. It had 2 votes (20 of total)
+L 06/30/2018 - 21:02:00: [umc-core.smx] RUNOFF MENU: (Verbose) Stopped removing options from the vote. Maximum possible winning vote percentage is 70%
+L 06/30/2018 - 21:02:00: [umc-core.smx] Vote has concluded.
+L 06/30/2018 - 21:02:08: [umc-core.smx] RUNOFF: Starting runoff vote.
+L 06/30/2018 - 21:02:08: [umc-core.smx] Initiating Vote Type: Map
+L 06/30/2018 - 21:02:08: [umc-core.smx] Adding Clients to Vote:
+L 06/30/2018 - 21:02:08: [umc-core.smx] 0: Oktay (2)
+L 06/30/2018 - 21:02:08: [umc-core.smx] 1: =[KXIC]= The Blue Baron (3)
+L 06/30/2018 - 21:02:08: [umc-core.smx] 2: xsEgo (4)
+L 06/30/2018 - 21:02:08: [umc-core.smx] 3: Mr. X. (5)
+L 06/30/2018 - 21:02:08: [umc-core.smx] 4: Spyer (7)
+L 06/30/2018 - 21:02:08: [umc-core.smx] 5: object™ (8)
+L 06/30/2018 - 21:02:08: [umc-core.smx] 6: Nowaf8037 (9)
+L 06/30/2018 - 21:02:08: [umc-core.smx] 7: Brentor (10)
+L 06/30/2018 - 21:02:08: [umc-core.smx] 8: Justkidding (FutureFunk) (11)
+L 06/30/2018 - 21:02:08: [umc-core.smx] 9: JustGoFly (13)
+L 06/30/2018 - 21:02:08: [umc-core.smx] 10: FMI (14)
+L 06/30/2018 - 21:02:08: [umc-core.smx] 11: Trainzack (15)
+L 06/30/2018 - 21:02:08: [umc-core.smx] 12: Frax (16)
+L 06/30/2018 - 21:02:08: [umc-core.smx] 13: ScardyBob (17)
+L 06/30/2018 - 21:02:08: [umc-core.smx] 14: Ozi (18)
+L 06/30/2018 - 21:02:08: [umc-core.smx] 15: Dr. Baron von Evil-Satan (19)
+L 06/30/2018 - 21:02:08: [umc-core.smx] 16: Skalk (20)
+L 06/30/2018 - 21:02:08: [umc-core.smx] VOTE MENU:
+L 06/30/2018 - 21:02:08: [umc-core.smx] 2: emp_research (0)
+L 06/30/2018 - 21:02:08: [umc-core.smx] 3: emp_streetsoffire (3)
+L 06/30/2018 - 21:02:11: [umc-core.smx] ScardyBob<57><[U:1:21571057]><> selected menu item 1
+L 06/30/2018 - 21:02:11: [umc-core.smx] Trainzack<54><[U:1:49213605]><> selected menu item 1
+L 06/30/2018 - 21:02:11: [umc-core.smx] xsEgo<50><[U:1:72025437]><> selected menu item 2
+L 06/30/2018 - 21:02:13: [umc-core.smx] Spyer<40><[U:1:34143605]><> selected menu item 2
+L 06/30/2018 - 21:02:14: [umc-core.smx] object™<42><[U:1:1221009]><> selected menu item 2
+L 06/30/2018 - 21:02:18: [umc-core.smx] =[KXIC]= The Blue Baron<49><[U:1:104778967]><> selected menu item 1
+L 06/30/2018 - 21:02:20: [umc-core.smx] Brentor<45><[U:1:40822645]><> selected menu item 1
+L 06/30/2018 - 21:02:23: [umc-core.smx] Nowaf8037<44><[U:1:309341142]><> selected menu item 2
+L 06/30/2018 - 21:02:28: [umc-core.smx] Justkidding (FutureFunk)<46><[U:1:2788022]><> selected menu item 2
+L 06/30/2018 - 21:02:38: [umc-core.smx] Setting nextmap to: emp_streetsoffire_fix
+L 06/30/2018 - 21:02:38: [umc-randomcycle.smx] Disabling random nextmap selection.
+L 06/30/2018 - 21:02:38: [umc-core.smx] umc-emp-mapvote.smx: Changing map to 'emp_streetsoffire_fix' in 5 seconds.
+L 06/30/2018 - 21:02:38: [umc-core.smx] MAPVOTE: Players voted for map 'emp_streetsoffire_fix' from group 'Commander Maps'
+L 06/30/2018 - 21:02:38: [umc-core.smx] Vote has concluded.
+L 06/30/2018 - 21:02:45: [umc-core.smx] ---------------------MAP CHANGE: emp_streetsoffire_fix---------------------
+L 06/30/2018 - 21:02:45: [umc-endvote-warnings.smx] Successfully parsed and set up 11 vote warnings.
+L 06/30/2018 - 21:02:45: [umc-rockthevote.smx] RTV will be made available in 60 seconds.
+L 06/30/2018 - 21:03:46: [umc-rockthevote.smx] RTV is now available.
+L 06/30/2018 - 22:21:02: [umc-nominate.smx] Uninspired wants to nominate a map.
+L 06/30/2018 - 22:21:07: [umc-nominate.smx] Uninspired has nominated 'emp_bush' from group 'Commander Maps'
+L 06/30/2018 - 22:23:17: [umc-nominate.smx] Oktay wants to nominate a map.
+L 06/30/2018 - 22:23:32: [umc-nominate.smx] Oktay has nominated 'emp_midbridge_hce' from group 'Commander Maps'
+L 06/30/2018 - 22:35:36: [umc-emp-mapvote.smx] Map vote will appear in 30 seconds.
+L 06/30/2018 - 22:36:06: [umc-emp-mapvote.smx] Starting a map vote.
+L 06/30/2018 - 22:36:06: [umc-core.smx] WARNING: Map "con_urbanchaos" does not exist on the server. (Group: "Infantry Maps")
+L 06/30/2018 - 22:36:06: [umc-core.smx] VOTE MENU: (Verbose) Fetching 7 maps from group 'Commander Maps'
+L 06/30/2018 - 22:36:06: [umc-core.smx] VOTE MENU: (Verbose) Nominated map 'emp_bush' from group 'Commander Maps' was added to the vote.
+L 06/30/2018 - 22:36:06: [umc-core.smx] VOTE MENU: (Verbose) Nominated map 'emp_midbridge_hce' from group 'Commander Maps' was added to the vote.
+L 06/30/2018 - 22:36:06: [umc-core.smx] VOTE MENU: (Verbose) Finished parsing nominations for map group 'Commander Maps'
+L 06/30/2018 - 22:36:06: [umc-core.smx] VOTE MENU: (Verbose) Still need to fetch 5 maps from the group.
+L 06/30/2018 - 22:36:06: [umc-core.smx] VOTE MENU: (Verbose) Selected map 'emp_fuel_a3_2013_hce' from group 'Commander Maps' was added to the vote.
+L 06/30/2018 - 22:36:06: [umc-core.smx] VOTE MENU: (Verbose) Selected map 'emp_plunge_ob2_2013_hce2' from group 'Commander Maps' was added to the vote.
+L 06/30/2018 - 22:36:06: [umc-core.smx] VOTE MENU: (Verbose) Selected map 'emp_mvalley_fix' from group 'Commander Maps' was added to the vote.
+L 06/30/2018 - 22:36:06: [umc-core.smx] VOTE MENU: (Verbose) Selected map 'emp_silo_rc5_hce' from group 'Commander Maps' was added to the vote.
+L 06/30/2018 - 22:36:06: [umc-core.smx] VOTE MENU: (Verbose) Selected map 'emp_coast' from group 'Commander Maps' was added to the vote.
+L 06/30/2018 - 22:36:06: [umc-core.smx] VOTE MENU: (Verbose) Fetching 1 maps from group 'Infantry Maps'
+L 06/30/2018 - 22:36:06: [umc-core.smx] VOTE MENU: (Verbose) Finished parsing nominations for map group 'Infantry Maps'
+L 06/30/2018 - 22:36:06: [umc-core.smx] VOTE MENU: (Verbose) Still need to fetch 1 maps from the group.
+L 06/30/2018 - 22:36:06: [umc-core.smx] VOTE MENU: (Verbose) Selected map 'con_atomic_rc6_fix' from group 'Infantry Maps' was added to the vote.
+L 06/30/2018 - 22:36:06: [umc-core.smx] VOTE MENU: (Verbose) Fetching 0 maps from group 'Cooldown Maps'
+L 06/30/2018 - 22:36:06: [umc-core.smx] VOTE MENU: (Verbose) Finished parsing nominations for map group 'Cooldown Maps'
+L 06/30/2018 - 22:36:06: [umc-core.smx] Initiating Vote Type: Map
+L 06/30/2018 - 22:36:06: [umc-core.smx] Adding Clients to Vote:
+L 06/30/2018 - 22:36:06: [umc-core.smx] 0: Oktay (2)
+L 06/30/2018 - 22:36:06: [umc-core.smx] 1: =[KXIC]= The Blue Baron (3)
+L 06/30/2018 - 22:36:06: [umc-core.smx] 2: Uninspired (4)
+L 06/30/2018 - 22:36:06: [umc-core.smx] 3: Mr. X. (5)
+L 06/30/2018 - 22:36:06: [umc-core.smx] 4: PYA (6)
+L 06/30/2018 - 22:36:06: [umc-core.smx] 5: Spyer (7)
+L 06/30/2018 - 22:36:06: [umc-core.smx] 6: object™ (8)
+L 06/30/2018 - 22:36:06: [umc-core.smx] 7: Nowaf8037 (9)
+L 06/30/2018 - 22:36:06: [umc-core.smx] 8: Brentor (10)
+L 06/30/2018 - 22:36:06: [umc-core.smx] 9: Justkidding (FutureFunk) (11)
+L 06/30/2018 - 22:36:06: [umc-core.smx] 10: Quigon (12)
+L 06/30/2018 - 22:36:06: [umc-core.smx] 11: JustGoFly (13)
+L 06/30/2018 - 22:36:06: [umc-core.smx] 12: FMI (14)
+L 06/30/2018 - 22:36:06: [umc-core.smx] 13: Trainzack (15)
+L 06/30/2018 - 22:36:06: [umc-core.smx] 14: VV (16)
+L 06/30/2018 - 22:36:06: [umc-core.smx] 15: ScardyBob (17)
+L 06/30/2018 - 22:36:06: [umc-core.smx] 16: Ozi (18)
+L 06/30/2018 - 22:36:06: [umc-core.smx] 17: =[KXIC]= hopfi (19)
+L 06/30/2018 - 22:36:06: [umc-core.smx] 18: Contrix (21)
+L 06/30/2018 - 22:36:06: [umc-core.smx] 19: ☣ Joy (22)
+L 06/30/2018 - 22:36:06: [umc-core.smx] 20: Steve_[UK] (23)
+L 06/30/2018 - 22:36:06: [umc-core.smx] 21: draklin (24)
+L 06/30/2018 - 22:36:06: [umc-core.smx] 22: CrazyMRANZ (25)
+L 06/30/2018 - 22:36:06: [umc-core.smx] 23: Kaene (26)
+L 06/30/2018 - 22:36:06: [umc-core.smx] 24: =F= MrBlueSky (27)
+L 06/30/2018 - 22:36:06: [umc-core.smx] 25: =MEG= hobbes (28)
+L 06/30/2018 - 22:36:06: [umc-core.smx] 26: c-137 Medicine (29)
+L 06/30/2018 - 22:36:06: [umc-core.smx] 27: YouzY (30)
+L 06/30/2018 - 22:36:06: [umc-core.smx] 28: [BϟP] VulcanStorm (31)
+L 06/30/2018 - 22:36:06: [umc-core.smx] 29: Solace (32)
+L 06/30/2018 - 22:36:06: [umc-core.smx] 30: BIGD craig.gates (33)
+L 06/30/2018 - 22:36:06: [umc-core.smx] 31: JKLÖ (34)
+L 06/30/2018 - 22:36:06: [umc-core.smx] 32: Ekstergans (35)
+L 06/30/2018 - 22:36:06: [umc-core.smx] 33: Blood-Wiper (36)
+L 06/30/2018 - 22:36:06: [umc-core.smx] VOTE MENU:
+L 06/30/2018 - 22:36:06: [umc-core.smx] 2: emp_mvalley (0)
+L 06/30/2018 - 22:36:06: [umc-core.smx] 3: emp_silo (1)
+L 06/30/2018 - 22:36:06: [umc-core.smx] 4: emp_plunge (2)
+L 06/30/2018 - 22:36:06: [umc-core.smx] 5: emp_midbridge (3)
+L 06/30/2018 - 22:36:06: [umc-core.smx] 6: emp_coast (4)
+L 06/30/2018 - 22:36:06: [umc-core.smx] 7: emp_bush (5)
+L 06/30/2018 - 22:36:06: [umc-core.smx] 8: emp_fuel (6)
+L 06/30/2018 - 22:36:06: [umc-core.smx] 9: con_atomic (7)
+L 06/30/2018 - 22:36:09: [umc-core.smx] JKLÖ<87><[U:1:84497057]><> selected menu item 1
+L 06/30/2018 - 22:36:10: [umc-core.smx] ScardyBob<57><[U:1:21571057]><> selected menu item 4
+L 06/30/2018 - 22:36:13: [umc-core.smx] Uninspired<72><[U:1:29103880]><> selected menu item 6
+L 06/30/2018 - 22:36:14: [umc-core.smx] Brentor<45><[U:1:40822645]><> selected menu item 4
+L 06/30/2018 - 22:36:14: [umc-core.smx] CrazyMRANZ<76><[U:1:42657167]><> selected menu item 8
+L 06/30/2018 - 22:36:15: [umc-core.smx] Quigon<71><[U:1:5653485]><> selected menu item 4
+L 06/30/2018 - 22:36:15: [umc-core.smx] draklin<75><[U:1:850151960]><> selected menu item 4
+L 06/30/2018 - 22:36:18: [umc-core.smx] c-137 Medicine<81><[U:1:33445435]><> selected menu item 4
+L 06/30/2018 - 22:36:19: [umc-core.smx] VV<70><[U:1:5870260]><> selected menu item 4
+L 06/30/2018 - 22:36:19: [umc-core.smx] Blood-Wiper<90><[U:1:36056234]><> selected menu item 1
+L 06/30/2018 - 22:36:20: [umc-core.smx] =F= MrBlueSky<78><[U:1:7486994]><> selected menu item 1
+L 06/30/2018 - 22:36:20: [umc-core.smx] Spyer<40><[U:1:34143605]><> selected menu item 4
+L 06/30/2018 - 22:36:20: [umc-core.smx] object™<42><[U:1:1221009]><> selected menu item 1
+L 06/30/2018 - 22:36:21: [umc-core.smx] ☣ Joy<91><[U:1:14391461]><> selected menu item 5
+L 06/30/2018 - 22:36:21: [umc-core.smx] Mr. X.<38><[U:1:27106968]><> selected menu item 5
+L 06/30/2018 - 22:36:21: [umc-core.smx] =[KXIC]= The Blue Baron<88><[U:1:104778967]><> selected menu item 1
+L 06/30/2018 - 22:36:22: [umc-core.smx] BIGD craig.gates<85><[U:1:116552210]><> selected menu item 4
+L 06/30/2018 - 22:36:25: [umc-core.smx] Steve_[UK]<69><[U:1:7600510]><> selected menu item 1
+L 06/30/2018 - 22:36:36: [umc-core.smx] RUNOFF MENU: (Verbose) Building runoff vote menu.
+L 06/30/2018 - 22:36:36: [umc-core.smx] RUNOFF MENU: (Verbose) 'con_atomic' was removed from the vote. It had 1 votes (5 of total)
+L 06/30/2018 - 22:36:36: [umc-core.smx] RUNOFF MENU: (Verbose) 'emp_bush' was removed from the vote. It had 1 votes (5 of total)
+L 06/30/2018 - 22:36:36: [umc-core.smx] RUNOFF MENU: (Verbose) 'emp_coast' was removed from the vote. It had 2 votes (11 of total)
+L 06/30/2018 - 22:36:36: [umc-core.smx] RUNOFF MENU: (Verbose) Stopped removing options from the vote. Maximum possible winning vote percentage is 66%
+L 06/30/2018 - 22:36:36: [umc-core.smx] Vote has concluded.
+L 06/30/2018 - 22:36:44: [umc-core.smx] RUNOFF: Starting runoff vote.
+L 06/30/2018 - 22:36:44: [umc-core.smx] Initiating Vote Type: Map
+L 06/30/2018 - 22:36:44: [umc-core.smx] Adding Clients to Vote:
+L 06/30/2018 - 22:36:44: [umc-core.smx] 0: Oktay (2)
+L 06/30/2018 - 22:36:44: [umc-core.smx] 1: =[KXIC]= The Blue Baron (3)
+L 06/30/2018 - 22:36:44: [umc-core.smx] 2: Uninspired (4)
+L 06/30/2018 - 22:36:44: [umc-core.smx] 3: Mr. X. (5)
+L 06/30/2018 - 22:36:44: [umc-core.smx] 4: PYA (6)
+L 06/30/2018 - 22:36:44: [umc-core.smx] 5: Spyer (7)
+L 06/30/2018 - 22:36:44: [umc-core.smx] 6: object™ (8)
+L 06/30/2018 - 22:36:44: [umc-core.smx] 7: Nowaf8037 (9)
+L 06/30/2018 - 22:36:44: [umc-core.smx] 8: Brentor (10)
+L 06/30/2018 - 22:36:44: [umc-core.smx] 9: Justkidding (FutureFunk) (11)
+L 06/30/2018 - 22:36:44: [umc-core.smx] 10: Quigon (12)
+L 06/30/2018 - 22:36:44: [umc-core.smx] 11: JustGoFly (13)
+L 06/30/2018 - 22:36:44: [umc-core.smx] 12: FMI (14)
+L 06/30/2018 - 22:36:44: [umc-core.smx] 13: Trainzack (15)
+L 06/30/2018 - 22:36:44: [umc-core.smx] 14: VV (16)
+L 06/30/2018 - 22:36:44: [umc-core.smx] 15: ScardyBob (17)
+L 06/30/2018 - 22:36:44: [umc-core.smx] 16: Ozi (18)
+L 06/30/2018 - 22:36:44: [umc-core.smx] 17: =[KXIC]= hopfi (19)
+L 06/30/2018 - 22:36:44: [umc-core.smx] 19: ☣ Joy (22)
+L 06/30/2018 - 22:36:44: [umc-core.smx] 20: Steve_[UK] (23)
+L 06/30/2018 - 22:36:44: [umc-core.smx] 21: draklin (24)
+L 06/30/2018 - 22:36:44: [umc-core.smx] 22: CrazyMRANZ (25)
+L 06/30/2018 - 22:36:44: [umc-core.smx] 24: =F= MrBlueSky (27)
+L 06/30/2018 - 22:36:44: [umc-core.smx] 25: =MEG= hobbes (28)
+L 06/30/2018 - 22:36:44: [umc-core.smx] 26: c-137 Medicine (29)
+L 06/30/2018 - 22:36:44: [umc-core.smx] 27: YouzY (30)
+L 06/30/2018 - 22:36:44: [umc-core.smx] 28: [BϟP] VulcanStorm (31)
+L 06/30/2018 - 22:36:44: [umc-core.smx] 29: Solace (32)
+L 06/30/2018 - 22:36:44: [umc-core.smx] 30: BIGD craig.gates (33)
+L 06/30/2018 - 22:36:44: [umc-core.smx] 31: JKLÖ (34)
+L 06/30/2018 - 22:36:44: [umc-core.smx] 32: Ekstergans (35)
+L 06/30/2018 - 22:36:44: [umc-core.smx] 33: Blood-Wiper (36)
+L 06/30/2018 - 22:36:44: [umc-core.smx] VOTE MENU:
+L 06/30/2018 - 22:36:44: [umc-core.smx] 2: emp_midbridge (3)
+L 06/30/2018 - 22:36:44: [umc-core.smx] 3: emp_mvalley (0)
+L 06/30/2018 - 22:36:46: [umc-core.smx] Mr. X.<38><[U:1:27106968]><> selected menu item 2
+L 06/30/2018 - 22:36:47: [umc-core.smx] BIGD craig.gates<85><[U:1:116552210]><> selected menu item 1
+L 06/30/2018 - 22:36:47: [umc-core.smx] ScardyBob<57><[U:1:21571057]><> selected menu item 1
+L 06/30/2018 - 22:36:48: [umc-core.smx] c-137 Medicine<81><[U:1:33445435]><> selected menu item 1
+L 06/30/2018 - 22:36:49: [umc-core.smx] Trainzack<54><[U:1:49213605]><> selected menu item 2
+L 06/30/2018 - 22:36:49: [umc-core.smx] =[KXIC]= The Blue Baron<88><[U:1:104778967]><> selected menu item 2
+L 06/30/2018 - 22:36:53: [umc-core.smx] Quigon<71><[U:1:5653485]><> selected menu item 1
+L 06/30/2018 - 22:36:53: [umc-core.smx] draklin<75><[U:1:850151960]><> selected menu item 1
+L 06/30/2018 - 22:36:55: [umc-core.smx] CrazyMRANZ<76><[U:1:42657167]><> selected menu item 2
+L 06/30/2018 - 22:36:55: [umc-core.smx] ☣ Joy<91><[U:1:14391461]><> selected menu item 1
+L 06/30/2018 - 22:36:57: [umc-core.smx] PYA<61><[U:1:35045005]><> selected menu item 1
+L 06/30/2018 - 22:36:57: [umc-core.smx] Uninspired<72><[U:1:29103880]><> selected menu item 1
+L 06/30/2018 - 22:36:58: [umc-core.smx] =F= MrBlueSky<78><[U:1:7486994]><> selected menu item 1
+L 06/30/2018 - 22:37:01: [umc-core.smx] Brentor<45><[U:1:40822645]><> selected menu item 1
+L 06/30/2018 - 22:37:03: [umc-core.smx] JKLÖ<87><[U:1:84497057]><> selected menu item 2
+L 06/30/2018 - 22:37:05: [umc-core.smx] Ozi<58><[U:1:24496363]><> selected menu item 2
+L 06/30/2018 - 22:37:12: [umc-emp-mapvote.smx] WARNING: Map Voting failure. Initiating random map fail-safe.
+L 06/30/2018 - 22:37:12: [umc-core.smx] WARNING: Map "con_urbanchaos" does not exist on the server. (Group: "Infantry Maps")
+L 06/30/2018 - 22:37:12: [umc-core.smx] Setting nextmap to: con_blast_ob2
+L 06/30/2018 - 22:37:12: [umc-randomcycle.smx] Disabling random nextmap selection.
+L 06/30/2018 - 22:37:12: [umc-core.smx] umc-emp-mapvote.smx: Changing map to 'con_blast_ob2' in 5 seconds.
+L 06/30/2018 - 22:37:12: [umc-core.smx] Vote has concluded.
+L 06/30/2018 - 22:37:13: [umc-core.smx] ---------------------MAP CHANGE: emp_mvalley_fix---------------------
+L 06/30/2018 - 22:37:13: [umc-endvote-warnings.smx] Successfully parsed and set up 11 vote warnings.
+L 06/30/2018 - 22:37:13: [umc-rockthevote.smx] RTV will be made available in 60 seconds.
+L 06/30/2018 - 22:38:14: [umc-rockthevote.smx] RTV is now available.
+L 06/30/2018 - 22:39:29: [umc-nominate.smx] ScardyBob wants to nominate a map.
+L 06/30/2018 - 22:39:31: [umc-nominate.smx] ScardyBob has nominated 'emp_cyclopean' from group 'Commander Maps'
+L 06/30/2018 - 22:44:28: [umc-nominate.smx] Oktay wants to nominate a map.
+L 06/30/2018 - 22:44:51: [umc-nominate.smx] Oktay wants to nominate a map.
+L 06/30/2018 - 22:45:10: [umc-nominate.smx] Oktay has nominated 'emp_mesa_d6_hce' from group 'Commander Maps'
+L 06/30/2018 - 22:46:13: [umc-nominate.smx] Blood-Wiper wants to nominate a map.
+L 06/30/2018 - 22:46:15: [umc-nominate.smx] Blood-Wiper has nominated 'emp_coast' from group 'Commander Maps'
+L 06/30/2018 - 22:47:31: [umc-emp-mapvote.smx] Map vote will appear in 30 seconds.
+L 06/30/2018 - 22:48:01: [umc-emp-mapvote.smx] Starting a map vote.
+L 06/30/2018 - 22:48:01: [umc-core.smx] WARNING: Map "con_urbanchaos" does not exist on the server. (Group: "Infantry Maps")
+L 06/30/2018 - 22:48:01: [umc-core.smx] VOTE MENU: (Verbose) Fetching 7 maps from group 'Commander Maps'
+L 06/30/2018 - 22:48:01: [umc-core.smx] VOTE MENU: (Verbose) Nominated map 'emp_cyclopean' from group 'Commander Maps' was added to the vote.
+L 06/30/2018 - 22:48:01: [umc-core.smx] VOTE MENU: (Verbose) Nominated map 'emp_mesa_d6_hce' from group 'Commander Maps' was added to the vote.
+L 06/30/2018 - 22:48:01: [umc-core.smx] VOTE MENU: (Verbose) Nominated map 'emp_coast' from group 'Commander Maps' was added to the vote.
+L 06/30/2018 - 22:48:01: [umc-core.smx] VOTE MENU: (Verbose) Finished parsing nominations for map group 'Commander Maps'
+L 06/30/2018 - 22:48:01: [umc-core.smx] VOTE MENU: (Verbose) Still need to fetch 4 maps from the group.
+L 06/30/2018 - 22:48:01: [umc-core.smx] VOTE MENU: (Verbose) Selected map 'emp_plunge_ob2_2013_hce2' from group 'Commander Maps' was added to the vote.
+L 06/30/2018 - 22:48:01: [umc-core.smx] VOTE MENU: (Verbose) Selected map 'emp_ward_rc2' from group 'Commander Maps' was added to the vote.
+L 06/30/2018 - 22:48:01: [umc-core.smx] VOTE MENU: (Verbose) Selected map 'emp_duststorm_fix2' from group 'Commander Maps' was added to the vote.
+L 06/30/2018 - 22:48:01: [umc-core.smx] VOTE MENU: (Verbose) Selected map 'emp_mvalley_fix' from group 'Commander Maps' was added to the vote.
+L 06/30/2018 - 22:48:01: [umc-core.smx] VOTE MENU: (Verbose) Fetching 1 maps from group 'Infantry Maps'
+L 06/30/2018 - 22:48:01: [umc-core.smx] VOTE MENU: (Verbose) Finished parsing nominations for map group 'Infantry Maps'
+L 06/30/2018 - 22:48:01: [umc-core.smx] VOTE MENU: (Verbose) Still need to fetch 1 maps from the group.
+L 06/30/2018 - 22:48:01: [umc-core.smx] VOTE MENU: (Verbose) Selected map 'con_atomic_rc6_fix' from group 'Infantry Maps' was added to the vote.
+L 06/30/2018 - 22:48:01: [umc-core.smx] VOTE MENU: (Verbose) Fetching 0 maps from group 'Cooldown Maps'
+L 06/30/2018 - 22:48:01: [umc-core.smx] VOTE MENU: (Verbose) Finished parsing nominations for map group 'Cooldown Maps'
+L 06/30/2018 - 22:48:01: [umc-core.smx] Initiating Vote Type: Map
+L 06/30/2018 - 22:48:01: [umc-core.smx] Adding Clients to Vote:
+L 06/30/2018 - 22:48:01: [umc-core.smx] 0: Oktay (2)
+L 06/30/2018 - 22:48:01: [umc-core.smx] 1: =[KXIC]= The Blue Baron (3)
+L 06/30/2018 - 22:48:01: [umc-core.smx] 2: Uninspired (4)
+L 06/30/2018 - 22:48:01: [umc-core.smx] 3: Mr. X. (5)
+L 06/30/2018 - 22:48:01: [umc-core.smx] 4: PYA (6)
+L 06/30/2018 - 22:48:01: [umc-core.smx] 5: Spyer (7)
+L 06/30/2018 - 22:48:01: [umc-core.smx] 6: object™ (8)
+L 06/30/2018 - 22:48:01: [umc-core.smx] 7: Dr. Baron von Evil-Satan (9)
+L 06/30/2018 - 22:48:01: [umc-core.smx] 8: Brentor (10)
+L 06/30/2018 - 22:48:01: [umc-core.smx] 9: Justkidding (FutureFunk) (11)
+L 06/30/2018 - 22:48:01: [umc-core.smx] 10: Quigon (12)
+L 06/30/2018 - 22:48:01: [umc-core.smx] 11: JustGoFly (13)
+L 06/30/2018 - 22:48:01: [umc-core.smx] 12: FMI (14)
+L 06/30/2018 - 22:48:01: [umc-core.smx] 13: Trainzack (15)
+L 06/30/2018 - 22:48:01: [umc-core.smx] 14: VV (16)
+L 06/30/2018 - 22:48:01: [umc-core.smx] 15: ScardyBob (17)
+L 06/30/2018 - 22:48:01: [umc-core.smx] 16: Ozi (18)
+L 06/30/2018 - 22:48:01: [umc-core.smx] 17: =[KXIC]= hopfi (19)
+L 06/30/2018 - 22:48:01: [umc-core.smx] 18: BIGD craig.gates (20)
+L 06/30/2018 - 22:48:01: [umc-core.smx] 19: Skalk (21)
+L 06/30/2018 - 22:48:01: [umc-core.smx] 20: ☣ Joy (22)
+L 06/30/2018 - 22:48:01: [umc-core.smx] 21: Steve_[UK] (23)
+L 06/30/2018 - 22:48:01: [umc-core.smx] 22: draklin (24)
+L 06/30/2018 - 22:48:01: [umc-core.smx] 23: CrazyMRANZ (25)
+L 06/30/2018 - 22:48:01: [umc-core.smx] 24: BLOODPICKLE (26)
+L 06/30/2018 - 22:48:01: [umc-core.smx] 25: =F= MrBlueSky (27)
+L 06/30/2018 - 22:48:01: [umc-core.smx] 26: =MEG= hobbes (28)
+L 06/30/2018 - 22:48:01: [umc-core.smx] 27: c-137 Medicine (29)
+L 06/30/2018 - 22:48:01: [umc-core.smx] 28: YouzY (30)
+L 06/30/2018 - 22:48:01: [umc-core.smx] 29: [BϟP] VulcanStorm (31)
+L 06/30/2018 - 22:48:01: [umc-core.smx] 30: Solace (32)
+L 06/30/2018 - 22:48:01: [umc-core.smx] 31: Rightwing Extremist (33)
+L 06/30/2018 - 22:48:01: [umc-core.smx] 32: JKLÖ (34)
+L 06/30/2018 - 22:48:01: [umc-core.smx] 33: Ekstergans (35)
+L 06/30/2018 - 22:48:01: [umc-core.smx] 34: Blood-Wiper (36)
+L 06/30/2018 - 22:48:01: [umc-core.smx] VOTE MENU:
+L 06/30/2018 - 22:48:01: [umc-core.smx] 2: emp_duststorm (0)
+L 06/30/2018 - 22:48:01: [umc-core.smx] 3: emp_mvalley (1)
+L 06/30/2018 - 22:48:01: [umc-core.smx] 4: emp_coast (2)
+L 06/30/2018 - 22:48:01: [umc-core.smx] 5: emp_cyclopean (3)
+L 06/30/2018 - 22:48:01: [umc-core.smx] 6: emp_mesa (4)
+L 06/30/2018 - 22:48:01: [umc-core.smx] 7: emp_ward (5)
+L 06/30/2018 - 22:48:01: [umc-core.smx] 8: con_atomic (6)
+L 06/30/2018 - 22:48:01: [umc-core.smx] 9: emp_plunge (7)
+L 06/30/2018 - 22:48:03: [umc-core.smx] ScardyBob<57><[U:1:21571057]><> selected menu item 4
+L 06/30/2018 - 22:48:03: [umc-core.smx] PYA<61><[U:1:35045005]><> selected menu item 2
+L 06/30/2018 - 22:48:04: [umc-core.smx] Blood-Wiper<90><[U:1:36056234]><> selected menu item 3
+L 06/30/2018 - 22:48:05: [umc-core.smx] =MEG= hobbes<80><[U:1:29604415]><> selected menu item 1
+L 06/30/2018 - 22:48:06: [umc-core.smx] Oktay<34><[U:1:116496292]><> selected menu item 4
+L 06/30/2018 - 22:48:06: [umc-core.smx] Trainzack<54><[U:1:49213605]><> selected menu item 2
+L 06/30/2018 - 22:48:08: [umc-core.smx] JKLÖ<87><[U:1:84497057]><> selected menu item 2
+L 06/30/2018 - 22:48:08: [umc-core.smx] BIGD craig.gates<92><[U:1:116552210]><> selected menu item 4
+L 06/30/2018 - 22:48:09: [umc-core.smx] Quigon<71><[U:1:5653485]><> selected menu item 4
+L 06/30/2018 - 22:48:09: [umc-core.smx] ☣ Joy<91><[U:1:14391461]><> selected menu item 1
+L 06/30/2018 - 22:48:10: [umc-core.smx] VV<70><[U:1:5870260]><> selected menu item 1
+L 06/30/2018 - 22:48:10: [umc-core.smx] Brentor<45><[U:1:40822645]><> selected menu item 1
+L 06/30/2018 - 22:48:10: [umc-core.smx] CrazyMRANZ<76><[U:1:42657167]><> selected menu item 4
+L 06/30/2018 - 22:48:11: [umc-core.smx] Spyer<40><[U:1:34143605]><> selected menu item 2
+L 06/30/2018 - 22:48:13: [umc-core.smx] object™<42><[U:1:1221009]><> selected menu item 4
+L 06/30/2018 - 22:48:13: [umc-nominate.smx] CrazyMRANZ wants to nominate a map.
+L 06/30/2018 - 22:48:13: [umc-core.smx] Dr. Baron von Evil-Satan<94><[U:1:6104095]><> selected menu item 4
+L 06/30/2018 - 22:48:13: [umc-core.smx] draklin<75><[U:1:850151960]><> selected menu item 2
+L 06/30/2018 - 22:48:14: [umc-core.smx] Blood-Wiper<90><[U:1:36056234]><> selected menu item 2
+L 06/30/2018 - 22:48:14: [umc-core.smx] BLOODPICKLE<96><[U:1:10297771]><> selected menu item 4
+L 06/30/2018 - 22:48:14: [umc-core.smx] YouzY<82><[U:1:23994419]><> selected menu item 2
+L 06/30/2018 - 22:48:15: [umc-core.smx] =[KXIC]= The Blue Baron<88><[U:1:104778967]><> selected menu item 4
+L 06/30/2018 - 22:48:16: [umc-core.smx] Trainzack<54><[U:1:49213605]><> selected menu item 4
+L 06/30/2018 - 22:48:16: [umc-core.smx] Ozi<58><[U:1:24496363]><> selected menu item 2
+L 06/30/2018 - 22:48:18: [umc-core.smx] Mr. X.<38><[U:1:27106968]><> selected menu item 5
+L 06/30/2018 - 22:48:22: [umc-nominate.smx] CrazyMRANZ wants to nominate a map.
+L 06/30/2018 - 22:48:22: [umc-core.smx] c-137 Medicine<81><[U:1:33445435]><> selected menu item 1
+L 06/30/2018 - 22:48:23: [umc-core.smx] Steve_[UK]<69><[U:1:7600510]><> selected menu item 4
+L 06/30/2018 - 22:48:23: [umc-core.smx] [BϟP] VulcanStorm<83><[U:1:103978153]><> selected menu item 3
+L 06/30/2018 - 22:48:23: [umc-core.smx] WARNING: Map "con_urbanchaos" does not exist on the server. (Group: "Infantry Maps")
+L 06/30/2018 - 22:48:25: [umc-core.smx] Justkidding (FutureFunk)<46><[U:1:2788022]><> selected menu item 4
+L 06/30/2018 - 22:48:26: [umc-core.smx] WARNING: Map "con_urbanchaos" does not exist on the server. (Group: "Infantry Maps")
+L 06/30/2018 - 22:48:27: [umc-nominate.smx] CrazyMRANZ has nominated 'con_atomic_rc6_fix' from group 'Infantry Maps'
+L 06/30/2018 - 22:48:31: [umc-core.smx] RUNOFF MENU: (Verbose) Building runoff vote menu.
+L 06/30/2018 - 22:48:31: [umc-core.smx] RUNOFF MENU: (Verbose) 'emp_mesa' was removed from the vote. It had 1 votes (3 of total)
+L 06/30/2018 - 22:48:31: [umc-core.smx] RUNOFF MENU: (Verbose) 'emp_coast' was removed from the vote. It had 1 votes (3 of total)
+L 06/30/2018 - 22:48:31: [umc-core.smx] RUNOFF MENU: (Verbose) 'emp_duststorm' was removed from the vote. It had 5 votes (19 of total)
+L 06/30/2018 - 22:48:31: [umc-core.smx] RUNOFF MENU: (Verbose) Stopped removing options from the vote. Maximum possible winning vote percentage is 73%
+L 06/30/2018 - 22:48:31: [umc-core.smx] Vote has concluded.
+L 06/30/2018 - 22:48:39: [umc-core.smx] RUNOFF: Starting runoff vote.
+L 06/30/2018 - 22:48:39: [umc-core.smx] Initiating Vote Type: Map
+L 06/30/2018 - 22:48:39: [umc-core.smx] Adding Clients to Vote:
+L 06/30/2018 - 22:48:39: [umc-core.smx] 0: Oktay (2)
+L 06/30/2018 - 22:48:39: [umc-core.smx] 1: =[KXIC]= The Blue Baron (3)
+L 06/30/2018 - 22:48:39: [umc-core.smx] 2: Uninspired (4)
+L 06/30/2018 - 22:48:39: [umc-core.smx] 3: Mr. X. (5)
+L 06/30/2018 - 22:48:39: [umc-core.smx] 4: PYA (6)
+L 06/30/2018 - 22:48:39: [umc-core.smx] 5: Spyer (7)
+L 06/30/2018 - 22:48:39: [umc-core.smx] 6: object™ (8)
+L 06/30/2018 - 22:48:39: [umc-core.smx] 7: Dr. Baron von Evil-Satan (9)
+L 06/30/2018 - 22:48:39: [umc-core.smx] 8: Brentor (10)
+L 06/30/2018 - 22:48:39: [umc-core.smx] 9: Justkidding (FutureFunk) (11)
+L 06/30/2018 - 22:48:39: [umc-core.smx] 10: Quigon (12)
+L 06/30/2018 - 22:48:39: [umc-core.smx] 11: JustGoFly (13)
+L 06/30/2018 - 22:48:39: [umc-core.smx] 12: FMI (14)
+L 06/30/2018 - 22:48:39: [umc-core.smx] 13: Trainzack (15)
+L 06/30/2018 - 22:48:39: [umc-core.smx] 14: VV (16)
+L 06/30/2018 - 22:48:39: [umc-core.smx] 15: ScardyBob (17)
+L 06/30/2018 - 22:48:39: [umc-core.smx] 16: Ozi (18)
+L 06/30/2018 - 22:48:39: [umc-core.smx] 17: =[KXIC]= hopfi (19)
+L 06/30/2018 - 22:48:39: [umc-core.smx] 18: BIGD craig.gates (20)
+L 06/30/2018 - 22:48:39: [umc-core.smx] 19: Skalk (21)
+L 06/30/2018 - 22:48:39: [umc-core.smx] 20: ☣ Joy (22)
+L 06/30/2018 - 22:48:39: [umc-core.smx] 21: Steve_[UK] (23)
+L 06/30/2018 - 22:48:39: [umc-core.smx] 22: draklin (24)
+L 06/30/2018 - 22:48:39: [umc-core.smx] 23: CrazyMRANZ (25)
+L 06/30/2018 - 22:48:39: [umc-core.smx] 24: BLOODPICKLE (26)
+L 06/30/2018 - 22:48:39: [umc-core.smx] 25: =F= MrBlueSky (27)
+L 06/30/2018 - 22:48:39: [umc-core.smx] 26: =MEG= hobbes (28)
+L 06/30/2018 - 22:48:39: [umc-core.smx] 27: c-137 Medicine (29)
+L 06/30/2018 - 22:48:39: [umc-core.smx] 28: YouzY (30)
+L 06/30/2018 - 22:48:39: [umc-core.smx] 29: [BϟP] VulcanStorm (31)
+L 06/30/2018 - 22:48:39: [umc-core.smx] 30: Solace (32)
+L 06/30/2018 - 22:48:39: [umc-core.smx] 31: Rightwing Extremist (33)
+L 06/30/2018 - 22:48:39: [umc-core.smx] 32: JKLÖ (34)
+L 06/30/2018 - 22:48:39: [umc-core.smx] 33: Ekstergans (35)
+L 06/30/2018 - 22:48:39: [umc-core.smx] 34: Blood-Wiper (36)
+L 06/30/2018 - 22:48:39: [umc-core.smx] VOTE MENU:
+L 06/30/2018 - 22:48:39: [umc-core.smx] 2: emp_cyclopean (3)
+L 06/30/2018 - 22:48:39: [umc-core.smx] 3: emp_mvalley (1)
+L 06/30/2018 - 22:48:40: [umc-core.smx] Oktay<34><[U:1:116496292]><> selected menu item 1
+L 06/30/2018 - 22:48:41: [umc-core.smx] Blood-Wiper<90><[U:1:36056234]><> selected menu item 2
+L 06/30/2018 - 22:48:41: [umc-core.smx] ScardyBob<57><[U:1:21571057]><> selected menu item 1
+L 06/30/2018 - 22:48:42: [umc-core.smx] BIGD craig.gates<92><[U:1:116552210]><> selected menu item 1
+L 06/30/2018 - 22:48:42: [umc-core.smx] YouzY<82><[U:1:23994419]><> selected menu item 2
+L 06/30/2018 - 22:48:42: [umc-core.smx] Spyer<40><[U:1:34143605]><> selected menu item 1
+L 06/30/2018 - 22:48:42: [umc-core.smx] VV<70><[U:1:5870260]><> selected menu item 2
+L 06/30/2018 - 22:48:42: [umc-core.smx] CrazyMRANZ<76><[U:1:42657167]><> selected menu item 1
+L 06/30/2018 - 22:48:42: [umc-core.smx] Ozi<58><[U:1:24496363]><> selected menu item 2
+L 06/30/2018 - 22:48:42: [umc-core.smx] Skalk<95><[U:1:20539185]><> selected menu item 2
+L 06/30/2018 - 22:48:42: [umc-core.smx] Quigon<71><[U:1:5653485]><> selected menu item 1
+L 06/30/2018 - 22:48:42: [umc-core.smx] Mr. X.<38><[U:1:27106968]><> selected menu item 1
+L 06/30/2018 - 22:48:42: [umc-core.smx] Dr. Baron von Evil-Satan<94><[U:1:6104095]><> selected menu item 2
+L 06/30/2018 - 22:48:43: [umc-core.smx] =[KXIC]= The Blue Baron<88><[U:1:104778967]><> selected menu item 1
+L 06/30/2018 - 22:48:43: [umc-core.smx] =MEG= hobbes<80><[U:1:29604415]><> selected menu item 2
+L 06/30/2018 - 22:48:44: [umc-core.smx] Trainzack<54><[U:1:49213605]><> selected menu item 1
+L 06/30/2018 - 22:48:48: [umc-core.smx] JKLÖ<87><[U:1:84497057]><> selected menu item 2
+L 06/30/2018 - 22:48:48: [umc-core.smx] ☣ Joy<91><[U:1:14391461]><> selected menu item 2
+L 06/30/2018 - 22:48:48: [umc-core.smx] draklin<75><[U:1:850151960]><> selected menu item 2
+L 06/30/2018 - 22:48:49: [umc-core.smx] object™<42><[U:1:1221009]><> selected menu item 2
+L 06/30/2018 - 22:48:49: [umc-core.smx] [BϟP] VulcanStorm<83><[U:1:103978153]><> selected menu item 1
+L 06/30/2018 - 22:48:50: [umc-core.smx] c-137 Medicine<81><[U:1:33445435]><> selected menu item 1
+L 06/30/2018 - 22:48:56: [umc-core.smx] Uninspired<72><[U:1:29103880]><> selected menu item 1
+L 06/30/2018 - 22:48:56: [umc-core.smx] =[KXIC]= hopfi<66><[U:1:30399413]><> selected menu item 2
+L 06/30/2018 - 22:48:58: [umc-core.smx] PYA<61><[U:1:35045005]><> selected menu item 1
+L 06/30/2018 - 22:49:01: [umc-core.smx] Solace<86><[U:1:33060684]><> selected menu item 2
+L 06/30/2018 - 22:49:03: [umc-rockthevote.smx] Starting RTV.
+L 06/30/2018 - 22:49:03: [umc-rockthevote.smx] There is a vote already in progress, cannot start a new vote.
+L 06/30/2018 - 22:49:03: [umc-core.smx] Setting nextmap to: emp_mvalley_fix
+L 06/30/2018 - 22:49:03: [umc-randomcycle.smx] Disabling random nextmap selection.
+L 06/30/2018 - 22:49:03: [umc-core.smx] umc-emp-mapvote.smx: Changing map to 'emp_mvalley_fix' in 5 seconds.
+L 06/30/2018 - 22:49:03: [umc-core.smx] MAPVOTE: Players voted for map 'emp_mvalley_fix' from group 'Commander Maps'
+L 06/30/2018 - 22:49:03: [umc-core.smx] Vote has concluded.
+L 06/30/2018 - 22:49:04: [umc-core.smx] ---------------------MAP CHANGE: emp_cyclopean---------------------
+L 06/30/2018 - 22:49:04: [umc-endvote-warnings.smx] Successfully parsed and set up 11 vote warnings.
+L 06/30/2018 - 22:49:04: [umc-rockthevote.smx] RTV will be made available in 60 seconds.
+L 06/30/2018 - 22:49:27: [umc-nominate.smx] ScardyBob wants to nominate a map.
+L 06/30/2018 - 22:49:42: [umc-nominate.smx] ScardyBob has nominated 'emp_tropicvendetta_rc4' from group 'Commander Maps'
+L 06/30/2018 - 22:50:05: [umc-rockthevote.smx] RTV is now available.
+L 06/30/2018 - 22:52:34: [umc-nominate.smx] BLOODPICKLE wants to nominate a map.
+L 06/30/2018 - 22:52:36: [umc-core.smx] WARNING: Map "con_urbanchaos" does not exist on the server. (Group: "Infantry Maps")
+L 06/30/2018 - 22:58:11: [umc-emp-mapvote.smx] Map vote will appear in 30 seconds.
+L 06/30/2018 - 22:58:37: [umc-nominate.smx] Oktay wants to nominate a map.
+L 06/30/2018 - 22:58:41: [umc-emp-mapvote.smx] Starting a map vote.
+L 06/30/2018 - 22:58:41: [umc-core.smx] WARNING: Map "con_urbanchaos" does not exist on the server. (Group: "Infantry Maps")
+L 06/30/2018 - 22:58:41: [umc-core.smx] VOTE MENU: (Verbose) Fetching 7 maps from group 'Commander Maps'
+L 06/30/2018 - 22:58:41: [umc-core.smx] VOTE MENU: (Verbose) Nominated map 'emp_tropicvendetta_rc4' from group 'Commander Maps' was added to the vote.
+L 06/30/2018 - 22:58:41: [umc-core.smx] VOTE MENU: (Verbose) Finished parsing nominations for map group 'Commander Maps'
+L 06/30/2018 - 22:58:41: [umc-core.smx] VOTE MENU: (Verbose) Still need to fetch 6 maps from the group.
+L 06/30/2018 - 22:58:41: [umc-core.smx] VOTE MENU: (Verbose) Selected map 'emp_ward_rc2' from group 'Commander Maps' was added to the vote.
+L 06/30/2018 - 22:58:41: [umc-core.smx] VOTE MENU: (Verbose) Selected map 'emp_bush' from group 'Commander Maps' was added to the vote.
+L 06/30/2018 - 22:58:41: [umc-core.smx] VOTE MENU: (Verbose) Selected map 'emp_mvalley_fix' from group 'Commander Maps' was added to the vote.
+L 06/30/2018 - 22:58:41: [umc-core.smx] VOTE MENU: (Verbose) Selected map 'emp_arid_hce' from group 'Commander Maps' was added to the vote.
+L 06/30/2018 - 22:58:41: [umc-core.smx] VOTE MENU: (Verbose) Selected map 'emp_smokies_rc2_hce' from group 'Commander Maps' was added to the vote.
+L 06/30/2018 - 22:58:41: [umc-core.smx] VOTE MENU: (Verbose) Selected map 'emp_mesa_d6_hce' from group 'Commander Maps' was added to the vote.
+L 06/30/2018 - 22:58:41: [umc-core.smx] VOTE MENU: (Verbose) Fetching 1 maps from group 'Infantry Maps'
+L 06/30/2018 - 22:58:41: [umc-core.smx] VOTE MENU: (Verbose) Finished parsing nominations for map group 'Infantry Maps'
+L 06/30/2018 - 22:58:41: [umc-core.smx] VOTE MENU: (Verbose) Still need to fetch 1 maps from the group.
+L 06/30/2018 - 22:58:41: [umc-core.smx] VOTE MENU: (Verbose) Selected map 'con_atomic_rc6_fix' from group 'Infantry Maps' was added to the vote.
+L 06/30/2018 - 22:58:41: [umc-core.smx] VOTE MENU: (Verbose) Fetching 0 maps from group 'Cooldown Maps'
+L 06/30/2018 - 22:58:41: [umc-core.smx] VOTE MENU: (Verbose) Finished parsing nominations for map group 'Cooldown Maps'
+L 06/30/2018 - 22:58:41: [umc-core.smx] Initiating Vote Type: Map
+L 06/30/2018 - 22:58:41: [umc-core.smx] Adding Clients to Vote:
+L 06/30/2018 - 22:58:41: [umc-core.smx] 0: Oktay (2)
+L 06/30/2018 - 22:58:41: [umc-core.smx] 1: =[KXIC]= The Blue Baron (3)
+L 06/30/2018 - 22:58:41: [umc-core.smx] 2: Uninspired (4)
+L 06/30/2018 - 22:58:41: [umc-core.smx] 3: Mr. X. (5)
+L 06/30/2018 - 22:58:41: [umc-core.smx] 4: PYA (6)
+L 06/30/2018 - 22:58:41: [umc-core.smx] 5: Spyer (7)
+L 06/30/2018 - 22:58:41: [umc-core.smx] 6: object™ (8)
+L 06/30/2018 - 22:58:41: [umc-core.smx] 7: Dr. Baron von Evil-Satan (9)
+L 06/30/2018 - 22:58:41: [umc-core.smx] 8: Brentor (10)
+L 06/30/2018 - 22:58:41: [umc-core.smx] 9: Justkidding (FutureFunk) (11)
+L 06/30/2018 - 22:58:41: [umc-core.smx] 10: Quigon (12)
+L 06/30/2018 - 22:58:41: [umc-core.smx] 11: JustGoFly (13)
+L 06/30/2018 - 22:58:41: [umc-core.smx] 12: FMI (14)
+L 06/30/2018 - 22:58:41: [umc-core.smx] 13: Trainzack (15)
+L 06/30/2018 - 22:58:41: [umc-core.smx] 14: VV (16)
+L 06/30/2018 - 22:58:41: [umc-core.smx] 15: ScardyBob (17)
+L 06/30/2018 - 22:58:41: [umc-core.smx] 16: Ozi (18)
+L 06/30/2018 - 22:58:41: [umc-core.smx] 17: =[KXIC]= hopfi (19)
+L 06/30/2018 - 22:58:41: [umc-core.smx] 18: BIGD craig.gates (20)
+L 06/30/2018 - 22:58:41: [umc-core.smx] 19: Skalk (21)
+L 06/30/2018 - 22:58:41: [umc-core.smx] 20: ☣ Joy (22)
+L 06/30/2018 - 22:58:41: [umc-core.smx] 21: Steve_[UK] (23)
+L 06/30/2018 - 22:58:41: [umc-core.smx] 22: draklin (24)
+L 06/30/2018 - 22:58:41: [umc-core.smx] 23: CrazyMRANZ (25)
+L 06/30/2018 - 22:58:41: [umc-core.smx] 24: BLOODPICKLE (26)
+L 06/30/2018 - 22:58:41: [umc-core.smx] 25: =F= MrBlueSky (27)
+L 06/30/2018 - 22:58:41: [umc-core.smx] 26: =MEG= hobbes (28)
+L 06/30/2018 - 22:58:41: [umc-core.smx] 27: c-137 Medicine (29)
+L 06/30/2018 - 22:58:41: [umc-core.smx] 28: YouzY (30)
+L 06/30/2018 - 22:58:41: [umc-core.smx] 29: [BϟP] VulcanStorm (31)
+L 06/30/2018 - 22:58:41: [umc-core.smx] 30: Solace (32)
+L 06/30/2018 - 22:58:41: [umc-core.smx] 31: Rightwing Extremist (33)
+L 06/30/2018 - 22:58:41: [umc-core.smx] 32: JKLÖ (34)
+L 06/30/2018 - 22:58:41: [umc-core.smx] 33: Ekstergans (35)
+L 06/30/2018 - 22:58:41: [umc-core.smx] 34: Blood-Wiper (36)
+L 06/30/2018 - 22:58:41: [umc-core.smx] 35: Nowaf8037 (37)
+L 06/30/2018 - 22:58:41: [umc-core.smx] VOTE MENU:
+L 06/30/2018 - 22:58:41: [umc-core.smx] 2: emp_smokies (0)
+L 06/30/2018 - 22:58:41: [umc-core.smx] 3: emp_mesa (1)
+L 06/30/2018 - 22:58:41: [umc-core.smx] 4: con_atomic (2)
+L 06/30/2018 - 22:58:41: [umc-core.smx] 5: emp_arid (3)
+L 06/30/2018 - 22:58:41: [umc-core.smx] 6: emp_bush (4)
+L 06/30/2018 - 22:58:41: [umc-core.smx] 7: emp_tropicvendetta (5)
+L 06/30/2018 - 22:58:41: [umc-core.smx] 8: emp_ward (6)
+L 06/30/2018 - 22:58:41: [umc-core.smx] 9: emp_mvalley (7)
+L 06/30/2018 - 22:58:41: [umc-core.smx] Oktay<34><[U:1:116496292]><> selected menu item 5
+L 06/30/2018 - 22:58:44: [umc-core.smx] ScardyBob<57><[U:1:21571057]><> selected menu item 6
+L 06/30/2018 - 22:58:44: [umc-core.smx] =[KXIC]= The Blue Baron<88><[U:1:104778967]><> selected menu item 1
+L 06/30/2018 - 22:58:45: [umc-core.smx] Dr. Baron von Evil-Satan<94><[U:1:6104095]><> selected menu item 2
+L 06/30/2018 - 22:58:46: [umc-core.smx] Brentor<45><[U:1:40822645]><> selected menu item 6
+L 06/30/2018 - 22:58:49: [umc-core.smx] CrazyMRANZ<76><[U:1:42657167]><> selected menu item 2
+L 06/30/2018 - 22:58:50: [umc-core.smx] Skalk<95><[U:1:20539185]><> selected menu item 8
+L 06/30/2018 - 22:58:51: [umc-core.smx] Oktay<34><[U:1:116496292]><> selected menu item 2
+L 06/30/2018 - 22:58:52: [umc-core.smx] c-137 Medicine<81><[U:1:33445435]><> selected menu item 8
+L 06/30/2018 - 22:58:52: [umc-core.smx] VV<70><[U:1:5870260]><> selected menu item 6
+L 06/30/2018 - 22:58:53: [umc-core.smx] PYA<61><[U:1:35045005]><> selected menu item 2
+L 06/30/2018 - 22:58:53: [umc-core.smx] BIGD craig.gates<92><[U:1:116552210]><> selected menu item 6
+L 06/30/2018 - 22:58:53: [umc-core.smx] =MEG= hobbes<80><[U:1:29604415]><> selected menu item 8
+L 06/30/2018 - 22:58:53: [umc-core.smx] Trainzack<54><[U:1:49213605]><> selected menu item 2
+L 06/30/2018 - 22:58:54: [umc-core.smx] =F= MrBlueSky<78><[U:1:7486994]><> selected menu item 8
+L 06/30/2018 - 22:58:54: [umc-core.smx] Nowaf8037<98><[U:1:309341142]><> selected menu item 3
+L 06/30/2018 - 22:58:54: [umc-core.smx] object™<42><[U:1:1221009]><> selected menu item 2
+L 06/30/2018 - 22:58:57: [umc-core.smx] Mr. X.<38><[U:1:27106968]><> selected menu item 2
+L 06/30/2018 - 22:58:57: [umc-core.smx] Quigon<99><[U:1:5653485]><> selected menu item 6
+L 06/30/2018 - 22:58:57: [umc-core.smx] Uninspired<72><[U:1:29103880]><> selected menu item 6
+L 06/30/2018 - 22:58:58: [umc-core.smx] FMI<93><[U:1:37995749]><> selected menu item 2
+L 06/30/2018 - 22:58:58: [umc-core.smx] [BϟP] VulcanStorm<83><[U:1:103978153]><> selected menu item 1
+L 06/30/2018 - 22:58:59: [umc-core.smx] draklin<75><[U:1:850151960]><> selected menu item 2
+L 06/30/2018 - 22:59:01: [umc-core.smx] Steve_[UK]<69><[U:1:7600510]><> selected menu item 4
+L 06/30/2018 - 22:59:08: [umc-core.smx] BLOODPICKLE<96><[U:1:10297771]><> selected menu item 8
+L 06/30/2018 - 22:59:12: [umc-core.smx] RUNOFF MENU: (Verbose) Building runoff vote menu.
+L 06/30/2018 - 22:59:12: [umc-core.smx] RUNOFF MENU: (Verbose) 'emp_arid' was removed from the vote. It had 1 votes (4 of total)
+L 06/30/2018 - 22:59:12: [umc-core.smx] RUNOFF MENU: (Verbose) 'con_atomic' was removed from the vote. It had 1 votes (4 of total)
+L 06/30/2018 - 22:59:12: [umc-core.smx] RUNOFF MENU: (Verbose) 'emp_smokies' was removed from the vote. It had 2 votes (8 of total)
+L 06/30/2018 - 22:59:12: [umc-core.smx] RUNOFF MENU: (Verbose) 'emp_mvalley' was removed from the vote. It had 5 votes (20 of total)
+L 06/30/2018 - 22:59:12: [umc-core.smx] RUNOFF MENU: (Verbose) Stopped removing options from the vote. Maximum possible winning vote percentage is 75%
+L 06/30/2018 - 22:59:12: [umc-core.smx] Vote has concluded.
+L 06/30/2018 - 22:59:20: [umc-core.smx] RUNOFF: Starting runoff vote.
+L 06/30/2018 - 22:59:20: [umc-core.smx] Initiating Vote Type: Map
+L 06/30/2018 - 22:59:20: [umc-core.smx] Adding Clients to Vote:
+L 06/30/2018 - 22:59:20: [umc-core.smx] 0: Oktay (2)
+L 06/30/2018 - 22:59:20: [umc-core.smx] 1: =[KXIC]= The Blue Baron (3)
+L 06/30/2018 - 22:59:20: [umc-core.smx] 2: Uninspired (4)
+L 06/30/2018 - 22:59:20: [umc-core.smx] 3: Mr. X. (5)
+L 06/30/2018 - 22:59:20: [umc-core.smx] 4: PYA (6)
+L 06/30/2018 - 22:59:20: [umc-core.smx] 5: Spyer (7)
+L 06/30/2018 - 22:59:20: [umc-core.smx] 6: object™ (8)
+L 06/30/2018 - 22:59:20: [umc-core.smx] 7: Dr. Baron von Evil-Satan (9)
+L 06/30/2018 - 22:59:20: [umc-core.smx] 8: Brentor (10)
+L 06/30/2018 - 22:59:20: [umc-core.smx] 9: Justkidding (FutureFunk) (11)
+L 06/30/2018 - 22:59:20: [umc-core.smx] 10: Quigon (12)
+L 06/30/2018 - 22:59:20: [umc-core.smx] 11: JustGoFly (13)
+L 06/30/2018 - 22:59:20: [umc-core.smx] 12: FMI (14)
+L 06/30/2018 - 22:59:20: [umc-core.smx] 13: Trainzack (15)
+L 06/30/2018 - 22:59:20: [umc-core.smx] 14: VV (16)
+L 06/30/2018 - 22:59:20: [umc-core.smx] 15: ScardyBob (17)
+L 06/30/2018 - 22:59:20: [umc-core.smx] 16: Ozi (18)
+L 06/30/2018 - 22:59:20: [umc-core.smx] 17: =[KXIC]= hopfi (19)
+L 06/30/2018 - 22:59:20: [umc-core.smx] 18: BIGD craig.gates (20)
+L 06/30/2018 - 22:59:20: [umc-core.smx] 19: Skalk (21)
+L 06/30/2018 - 22:59:20: [umc-core.smx] 20: ☣ Joy (22)
+L 06/30/2018 - 22:59:20: [umc-core.smx] 21: Steve_[UK] (23)
+L 06/30/2018 - 22:59:20: [umc-core.smx] 22: draklin (24)
+L 06/30/2018 - 22:59:20: [umc-core.smx] 23: CrazyMRANZ (25)
+L 06/30/2018 - 22:59:20: [umc-core.smx] 24: BLOODPICKLE (26)
+L 06/30/2018 - 22:59:20: [umc-core.smx] 25: =F= MrBlueSky (27)
+L 06/30/2018 - 22:59:20: [umc-core.smx] 26: =MEG= hobbes (28)
+L 06/30/2018 - 22:59:20: [umc-core.smx] 27: c-137 Medicine (29)
+L 06/30/2018 - 22:59:20: [umc-core.smx] 28: YouzY (30)
+L 06/30/2018 - 22:59:20: [umc-core.smx] 29: [BϟP] VulcanStorm (31)
+L 06/30/2018 - 22:59:20: [umc-core.smx] 30: Solace (32)
+L 06/30/2018 - 22:59:20: [umc-core.smx] 31: Rightwing Extremist (33)
+L 06/30/2018 - 22:59:20: [umc-core.smx] 32: JKLÖ (34)
+L 06/30/2018 - 22:59:20: [umc-core.smx] 33: Ekstergans (35)
+L 06/30/2018 - 22:59:20: [umc-core.smx] 34: Blood-Wiper (36)
+L 06/30/2018 - 22:59:20: [umc-core.smx] 35: Nowaf8037 (37)
+L 06/30/2018 - 22:59:20: [umc-core.smx] VOTE MENU:
+L 06/30/2018 - 22:59:20: [umc-core.smx] 2: emp_mesa (1)
+L 06/30/2018 - 22:59:20: [umc-core.smx] 3: emp_tropicvendetta (5)
+L 06/30/2018 - 22:59:21: [umc-core.smx] Mr. X.<38><[U:1:27106968]><> selected menu item 1
+L 06/30/2018 - 22:59:21: [umc-core.smx] ScardyBob<57><[U:1:21571057]><> selected menu item 2
+L 06/30/2018 - 22:59:22: [umc-core.smx] CrazyMRANZ<76><[U:1:42657167]><> selected menu item 1
+L 06/30/2018 - 22:59:22: [umc-core.smx] Oktay<34><[U:1:116496292]><> selected menu item 1
+L 06/30/2018 - 22:59:22: [umc-core.smx] Brentor<45><[U:1:40822645]><> selected menu item 2
+L 06/30/2018 - 22:59:22: [umc-core.smx] Dr. Baron von Evil-Satan<94><[U:1:6104095]><> selected menu item 1
+L 06/30/2018 - 22:59:22: [umc-core.smx] BIGD craig.gates<92><[U:1:116552210]><> selected menu item 2
+L 06/30/2018 - 22:59:22: [umc-core.smx] Uninspired<72><[U:1:29103880]><> selected menu item 2
+L 06/30/2018 - 22:59:22: [umc-core.smx] Steve_[UK]<69><[U:1:7600510]><> selected menu item 2
+L 06/30/2018 - 22:59:23: [umc-core.smx] Trainzack<54><[U:1:49213605]><> selected menu item 2
+L 06/30/2018 - 22:59:23: [umc-core.smx] PYA<61><[U:1:35045005]><> selected menu item 1
+L 06/30/2018 - 22:59:23: [umc-core.smx] VV<70><[U:1:5870260]><> selected menu item 2
+L 06/30/2018 - 22:59:23: [umc-core.smx] Spyer<40><[U:1:34143605]><> selected menu item 2
+L 06/30/2018 - 22:59:23: [umc-core.smx] =MEG= hobbes<80><[U:1:29604415]><> selected menu item 1
+L 06/30/2018 - 22:59:24: [umc-core.smx] Ozi<58><[U:1:24496363]><> selected menu item 1
+L 06/30/2018 - 22:59:25: [umc-core.smx] Quigon<99><[U:1:5653485]><> selected menu item 2
+L 06/30/2018 - 22:59:25: [umc-core.smx] [BϟP] VulcanStorm<83><[U:1:103978153]><> selected menu item 1
+L 06/30/2018 - 22:59:26: [umc-core.smx] c-137 Medicine<81><[U:1:33445435]><> selected menu item 1
+L 06/30/2018 - 22:59:28: [umc-core.smx] FMI<93><[U:1:37995749]><> selected menu item 2
+L 06/30/2018 - 22:59:28: [umc-core.smx] draklin<75><[U:1:850151960]><> selected menu item 2
+L 06/30/2018 - 22:59:30: [umc-core.smx] =F= MrBlueSky<78><[U:1:7486994]><> selected menu item 2
+L 06/30/2018 - 22:59:35: [umc-core.smx] Nowaf8037<98><[U:1:309341142]><> selected menu item 2
+L 06/30/2018 - 22:59:39: [umc-core.smx] Skalk<95><[U:1:20539185]><> selected menu item 1
+L 06/30/2018 - 22:59:45: [umc-core.smx] PYA<61><[U:1:35045005]><> selected menu item 2
+L 06/30/2018 - 22:59:50: [umc-core.smx] Setting nextmap to: emp_tropicvendetta_rc4
+L 06/30/2018 - 22:59:50: [umc-randomcycle.smx] Disabling random nextmap selection.
+L 06/30/2018 - 22:59:50: [umc-core.smx] umc-emp-mapvote.smx: Changing map to 'emp_tropicvendetta_rc4' in 5 seconds.
+L 06/30/2018 - 22:59:50: [umc-core.smx] MAPVOTE: Players voted for map 'emp_tropicvendetta_rc4' from group 'Commander Maps'
+L 06/30/2018 - 22:59:50: [umc-core.smx] Vote has concluded.
+L 06/30/2018 - 22:59:56: [umc-core.smx] ---------------------MAP CHANGE: emp_tropicvendetta_rc4---------------------
+L 06/30/2018 - 22:59:56: [umc-endvote-warnings.smx] Successfully parsed and set up 11 vote warnings.
+L 06/30/2018 - 22:59:56: [umc-rockthevote.smx] RTV will be made available in 60 seconds.
+L 06/30/2018 - 23:00:23: [umc-nominate.smx] Oktay wants to nominate a map.
+L 06/30/2018 - 23:00:28: [umc-nominate.smx] Oktay has nominated 'emp_mesa_d6_hce' from group 'Commander Maps'
+L 06/30/2018 - 23:00:57: [umc-rockthevote.smx] RTV is now available.
+L 06/30/2018 - 23:01:05: [umc-nominate.smx] c-137 Medicine wants to nominate a map.
+L 06/30/2018 - 23:01:16: [umc-nominate.smx] c-137 Medicine has nominated 'emp_duststorm_fix2' from group 'Commander Maps'
+L 06/30/2018 - 23:16:59: [umc-nominate.smx] CrazyMRANZ wants to nominate a map.
+L 06/30/2018 - 23:17:08: [umc-nominate.smx] CrazyMRANZ wants to nominate a map.
+L 06/30/2018 - 23:17:10: [umc-core.smx] WARNING: Map "con_urbanchaos" does not exist on the server. (Group: "Infantry Maps")
+L 06/30/2018 - 23:17:16: [umc-nominate.smx] CrazyMRANZ has nominated 'fun_ricochet_a4' from group 'Cooldown Maps'
+L 06/30/2018 - 23:18:47: [umc-emp-mapvote.smx] Map vote will appear in 30 seconds.
+L 06/30/2018 - 23:19:02: [umc-nominate.smx] Quigon wants to nominate a map.
+L 06/30/2018 - 23:19:17: [umc-emp-mapvote.smx] Starting a map vote.
+L 06/30/2018 - 23:19:17: [umc-core.smx] WARNING: Map "con_urbanchaos" does not exist on the server. (Group: "Infantry Maps")
+L 06/30/2018 - 23:19:17: [umc-core.smx] VOTE MENU: (Verbose) Fetching 7 maps from group 'Commander Maps'
+L 06/30/2018 - 23:19:17: [umc-core.smx] VOTE MENU: (Verbose) Nominated map 'emp_mesa_d6_hce' from group 'Commander Maps' was added to the vote.
+L 06/30/2018 - 23:19:17: [umc-core.smx] VOTE MENU: (Verbose) Nominated map 'emp_duststorm_fix2' from group 'Commander Maps' was added to the vote.
+L 06/30/2018 - 23:19:17: [umc-core.smx] VOTE MENU: (Verbose) Finished parsing nominations for map group 'Commander Maps'
+L 06/30/2018 - 23:19:17: [umc-core.smx] VOTE MENU: (Verbose) Still need to fetch 5 maps from the group.
+L 06/30/2018 - 23:19:17: [umc-core.smx] VOTE MENU: (Verbose) Selected map 'emp_insurrection_rc4' from group 'Commander Maps' was added to the vote.
+L 06/30/2018 - 23:19:17: [umc-core.smx] VOTE MENU: (Verbose) Selected map 'emp_midbridge_hce' from group 'Commander Maps' was added to the vote.
+L 06/30/2018 - 23:19:17: [umc-core.smx] VOTE MENU: (Verbose) Selected map 'emp_plunge_ob2_2013_hce2' from group 'Commander Maps' was added to the vote.
+L 06/30/2018 - 23:19:17: [umc-core.smx] VOTE MENU: (Verbose) Selected map 'emp_smokies_rc2_hce' from group 'Commander Maps' was added to the vote.
+L 06/30/2018 - 23:19:17: [umc-core.smx] VOTE MENU: (Verbose) Selected map 'emp_frozensummit_b2_2013_fix2' from group 'Commander Maps' was added to the vote.
+L 06/30/2018 - 23:19:17: [umc-core.smx] VOTE MENU: (Verbose) Fetching 1 maps from group 'Infantry Maps'
+L 06/30/2018 - 23:19:17: [umc-core.smx] VOTE MENU: (Verbose) Finished parsing nominations for map group 'Infantry Maps'
+L 06/30/2018 - 23:19:17: [umc-core.smx] VOTE MENU: (Verbose) Still need to fetch 1 maps from the group.
+L 06/30/2018 - 23:19:17: [umc-core.smx] VOTE MENU: (Verbose) Selected map 'con_atomic_rc6_fix' from group 'Infantry Maps' was added to the vote.
+L 06/30/2018 - 23:19:17: [umc-core.smx] VOTE MENU: (Verbose) Fetching 0 maps from group 'Cooldown Maps'
+L 06/30/2018 - 23:19:17: [umc-core.smx] VOTE MENU: (Verbose) Number of nominations (1) exceeds allowable maps in vote for the map group 'Cooldown Maps'. Limiting nominated maps to 0. (See cvar "sm_umc_nominate_strict")
+L 06/30/2018 - 23:19:17: [umc-core.smx] VOTE MENU: (Verbose) Finished parsing nominations for map group 'Cooldown Maps'
+L 06/30/2018 - 23:19:17: [umc-core.smx] Initiating Vote Type: Map
+L 06/30/2018 - 23:19:17: [umc-core.smx] Adding Clients to Vote:
+L 06/30/2018 - 23:19:17: [umc-core.smx] 0: Oktay (2)
+L 06/30/2018 - 23:19:17: [umc-core.smx] 1: ☣ Joy (3)
+L 06/30/2018 - 23:19:17: [umc-core.smx] 2: Uninspired (4)
+L 06/30/2018 - 23:19:17: [umc-core.smx] 3: Mr. X. (5)
+L 06/30/2018 - 23:19:17: [umc-core.smx] 4: PYA (6)
+L 06/30/2018 - 23:19:17: [umc-core.smx] 5: Spyer (7)
+L 06/30/2018 - 23:19:17: [umc-core.smx] 6: object™ (8)
+L 06/30/2018 - 23:19:17: [umc-core.smx] 7: Dr. Baron von Evil-Satan (9)
+L 06/30/2018 - 23:19:17: [umc-core.smx] 8: Brentor (10)
+L 06/30/2018 - 23:19:17: [umc-core.smx] 9: Justkidding (FutureFunk) (11)
+L 06/30/2018 - 23:19:17: [umc-core.smx] 10: Quigon (12)
+L 06/30/2018 - 23:19:17: [umc-core.smx] 11: JustGoFly (13)
+L 06/30/2018 - 23:19:17: [umc-core.smx] 12: FMI (14)
+L 06/30/2018 - 23:19:17: [umc-core.smx] 13: VV (16)
+L 06/30/2018 - 23:19:17: [umc-core.smx] 14: ScardyBob (17)
+L 06/30/2018 - 23:19:17: [umc-core.smx] 15: Mikleo (18)
+L 06/30/2018 - 23:19:17: [umc-core.smx] 16: =[KXIC]= hopfi (19)
+L 06/30/2018 - 23:19:17: [umc-core.smx] 17: BIGD craig.gates (20)
+L 06/30/2018 - 23:19:17: [umc-core.smx] 18: Skalk (21)
+L 06/30/2018 - 23:19:17: [umc-core.smx] 19: Steve_[UK] (23)
+L 06/30/2018 - 23:19:17: [umc-core.smx] 20: draklin (24)
+L 06/30/2018 - 23:19:17: [umc-core.smx] 21: CrazyMRANZ (25)
+L 06/30/2018 - 23:19:17: [umc-core.smx] 22: Rightwing Extremist (26)
+L 06/30/2018 - 23:19:17: [umc-core.smx] 23: =F= MrBlueSky (27)
+L 06/30/2018 - 23:19:17: [umc-core.smx] 24: =MEG= hobbes (28)
+L 06/30/2018 - 23:19:17: [umc-core.smx] 25: c-137 Medicine (29)
+L 06/30/2018 - 23:19:17: [umc-core.smx] 26: YouzY (30)
+L 06/30/2018 - 23:19:17: [umc-core.smx] 27: [BϟP] VulcanStorm (31)
+L 06/30/2018 - 23:19:17: [umc-core.smx] 28: Solace (32)
+L 06/30/2018 - 23:19:17: [umc-core.smx] 29: JKLÖ (34)
+L 06/30/2018 - 23:19:17: [umc-core.smx] 30: Ekstergans (35)
+L 06/30/2018 - 23:19:17: [umc-core.smx] 31: Blood-Wiper (36)
+L 06/30/2018 - 23:19:17: [umc-core.smx] 32: Nowaf8037 (37)
+L 06/30/2018 - 23:19:17: [umc-core.smx] 33: Rhymes (38)
+L 06/30/2018 - 23:19:17: [umc-core.smx] VOTE MENU:
+L 06/30/2018 - 23:19:17: [umc-core.smx] 2: emp_smokies (0)
+L 06/30/2018 - 23:19:17: [umc-core.smx] 3: emp_duststorm (1)
+L 06/30/2018 - 23:19:17: [umc-core.smx] 4: emp_plunge (2)
+L 06/30/2018 - 23:19:17: [umc-core.smx] 5: emp_mesa (3)
+L 06/30/2018 - 23:19:17: [umc-core.smx] 6: con_atomic (4)
+L 06/30/2018 - 23:19:17: [umc-core.smx] 7: emp_midbridge (5)
+L 06/30/2018 - 23:19:17: [umc-core.smx] 8: emp_insurrection (6)
+L 06/30/2018 - 23:19:17: [umc-core.smx] 9: emp_frozensummit (7)
+L 06/30/2018 - 23:19:18: [umc-core.smx] Quigon<99><[U:1:5653485]><> selected menu item 2
+L 06/30/2018 - 23:19:19: [umc-core.smx] Oktay<34><[U:1:116496292]><> selected menu item 4
+L 06/30/2018 - 23:19:20: [umc-core.smx] ScardyBob<104><[U:1:21571057]><> selected menu item 1
+L 06/30/2018 - 23:19:20: [umc-core.smx] ☣ Joy<109><[U:1:14391461]><> selected menu item 2
+L 06/30/2018 - 23:19:21: [umc-core.smx] JKLÖ<87><[U:1:84497057]><> selected menu item 1
+L 06/30/2018 - 23:19:23: [umc-core.smx] Skalk<95><[U:1:20539185]><> selected menu item 2
+L 06/30/2018 - 23:19:23: [umc-core.smx] VV<70><[U:1:5870260]><> selected menu item 6
+L 06/30/2018 - 23:19:23: [umc-core.smx] object™<42><[U:1:1221009]><> selected menu item 2
+L 06/30/2018 - 23:19:23: [umc-core.smx] Dr. Baron von Evil-Satan<94><[U:1:6104095]><> selected menu item 2
+L 06/30/2018 - 23:19:24: [umc-core.smx] =MEG= hobbes<107><[U:1:29604415]><> selected menu item 2
+L 06/30/2018 - 23:19:25: [umc-core.smx] CrazyMRANZ<76><[U:1:42657167]><> selected menu item 5
+L 06/30/2018 - 23:19:25: [umc-core.smx] Steve_[UK]<69><[U:1:7600510]><> selected menu item 2
+L 06/30/2018 - 23:19:27: [umc-core.smx] Quigon<99><[U:1:5653485]><> selected menu item 6
+L 06/30/2018 - 23:19:28: [umc-core.smx] [BϟP] VulcanStorm<83><[U:1:103978153]><> selected menu item 7
+L 06/30/2018 - 23:19:29: [umc-core.smx] Mr. X.<38><[U:1:27106968]><> selected menu item 1
+L 06/30/2018 - 23:19:29: [umc-core.smx] =F= MrBlueSky<78><[U:1:7486994]><> selected menu item 6
+L 06/30/2018 - 23:19:29: [umc-core.smx] Brentor<45><[U:1:40822645]><> selected menu item 2
+L 06/30/2018 - 23:19:30: [umc-core.smx] BIGD craig.gates<92><[U:1:116552210]><> selected menu item 2
+L 06/30/2018 - 23:19:32: [umc-core.smx] Rightwing Extremist<106><[U:1:30436425]><> selected menu item 1
+L 06/30/2018 - 23:19:32: [umc-core.smx] c-137 Medicine<81><[U:1:33445435]><> selected menu item 2
+L 06/30/2018 - 23:19:32: [umc-core.smx] draklin<108><[U:1:850151960]><> selected menu item 2
+L 06/30/2018 - 23:19:32: [umc-core.smx] Rhymes<100><[U:1:2866908]><> selected menu item 4
+L 06/30/2018 - 23:19:35: [umc-core.smx] Uninspired<72><[U:1:29103880]><> selected menu item 7
+L 06/30/2018 - 23:19:37: [umc-core.smx] PYA<61><[U:1:35045005]><> selected menu item 6
+L 06/30/2018 - 23:19:38: [umc-core.smx] Dr. Baron von Evil-Satan<94><[U:1:6104095]><> selected menu item 6
+L 06/30/2018 - 23:19:45: [umc-core.smx] Blood-Wiper<90><[U:1:36056234]><> selected menu item 6
+L 06/30/2018 - 23:19:46: [umc-core.smx] Oktay<34><[U:1:116496292]><> selected menu item 1
+L 06/30/2018 - 23:19:48: [umc-core.smx] RUNOFF MENU: (Verbose) Building runoff vote menu.
+L 06/30/2018 - 23:19:48: [umc-core.smx] RUNOFF MENU: (Verbose) 'con_atomic' was removed from the vote. It had 1 votes (4 of total)
+L 06/30/2018 - 23:19:48: [umc-core.smx] RUNOFF MENU: (Verbose) 'emp_mesa' was removed from the vote. It had 1 votes (4 of total)
+L 06/30/2018 - 23:19:48: [umc-core.smx] RUNOFF MENU: (Verbose) 'emp_insurrection' was removed from the vote. It had 2 votes (8 of total)
+L 06/30/2018 - 23:19:48: [umc-core.smx] RUNOFF MENU: (Verbose) 'emp_smokies' was removed from the vote. It had 5 votes (20 of total)
+L 06/30/2018 - 23:19:48: [umc-core.smx] RUNOFF MENU: (Verbose) Stopped removing options from the vote. Maximum possible winning vote percentage is 75%
+L 06/30/2018 - 23:19:48: [umc-core.smx] Vote has concluded.
+L 06/30/2018 - 23:19:56: [umc-core.smx] RUNOFF: Starting runoff vote.
+L 06/30/2018 - 23:19:56: [umc-core.smx] Initiating Vote Type: Map
+L 06/30/2018 - 23:19:56: [umc-core.smx] Adding Clients to Vote:
+L 06/30/2018 - 23:19:56: [umc-core.smx] 0: Oktay (2)
+L 06/30/2018 - 23:19:56: [umc-core.smx] 1: ☣ Joy (3)
+L 06/30/2018 - 23:19:56: [umc-core.smx] 2: Uninspired (4)
+L 06/30/2018 - 23:19:56: [umc-core.smx] 3: Mr. X. (5)
+L 06/30/2018 - 23:19:56: [umc-core.smx] 4: PYA (6)
+L 06/30/2018 - 23:19:56: [umc-core.smx] 5: Spyer (7)
+L 06/30/2018 - 23:19:56: [umc-core.smx] 6: object™ (8)
+L 06/30/2018 - 23:19:56: [umc-core.smx] 7: Dr. Baron von Evil-Satan (9)
+L 06/30/2018 - 23:19:56: [umc-core.smx] 8: Brentor (10)
+L 06/30/2018 - 23:19:56: [umc-core.smx] 9: Justkidding (FutureFunk) (11)
+L 06/30/2018 - 23:19:56: [umc-core.smx] 10: Quigon (12)
+L 06/30/2018 - 23:19:56: [umc-core.smx] 11: JustGoFly (13)
+L 06/30/2018 - 23:19:56: [umc-core.smx] 12: FMI (14)
+L 06/30/2018 - 23:19:56: [umc-core.smx] 13: VV (16)
+L 06/30/2018 - 23:19:56: [umc-core.smx] 14: ScardyBob (17)
+L 06/30/2018 - 23:19:56: [umc-core.smx] 15: Mikleo (18)
+L 06/30/2018 - 23:19:56: [umc-core.smx] 16: =[KXIC]= hopfi (19)
+L 06/30/2018 - 23:19:56: [umc-core.smx] 17: BIGD craig.gates (20)
+L 06/30/2018 - 23:19:56: [umc-core.smx] 18: Skalk (21)
+L 06/30/2018 - 23:19:56: [umc-core.smx] 19: Steve_[UK] (23)
+L 06/30/2018 - 23:19:56: [umc-core.smx] 20: draklin (24)
+L 06/30/2018 - 23:19:56: [umc-core.smx] 21: CrazyMRANZ (25)
+L 06/30/2018 - 23:19:56: [umc-core.smx] 22: Rightwing Extremist (26)
+L 06/30/2018 - 23:19:56: [umc-core.smx] 23: =F= MrBlueSky (27)
+L 06/30/2018 - 23:19:56: [umc-core.smx] 24: =MEG= hobbes (28)
+L 06/30/2018 - 23:19:56: [umc-core.smx] 25: c-137 Medicine (29)
+L 06/30/2018 - 23:19:56: [umc-core.smx] 26: YouzY (30)
+L 06/30/2018 - 23:19:56: [umc-core.smx] 27: [BϟP] VulcanStorm (31)
+L 06/30/2018 - 23:19:56: [umc-core.smx] 28: Solace (32)
+L 06/30/2018 - 23:19:56: [umc-core.smx] 29: JKLÖ (34)
+L 06/30/2018 - 23:19:56: [umc-core.smx] 30: Ekstergans (35)
+L 06/30/2018 - 23:19:56: [umc-core.smx] 31: Blood-Wiper (36)
+L 06/30/2018 - 23:19:56: [umc-core.smx] 32: Nowaf8037 (37)
+L 06/30/2018 - 23:19:56: [umc-core.smx] 33: Rhymes (38)
+L 06/30/2018 - 23:19:56: [umc-core.smx] VOTE MENU:
+L 06/30/2018 - 23:19:56: [umc-core.smx] 2: emp_duststorm (1)
+L 06/30/2018 - 23:19:56: [umc-core.smx] 3: emp_midbridge (5)
+L 06/30/2018 - 23:19:58: [umc-core.smx] ☣ Joy<109><[U:1:14391461]><> selected menu item 1
+L 06/30/2018 - 23:19:58: [umc-core.smx] ScardyBob<104><[U:1:21571057]><> selected menu item 2
+L 06/30/2018 - 23:19:58: [umc-core.smx] Dr. Baron von Evil-Satan<94><[U:1:6104095]><> selected menu item 2
+L 06/30/2018 - 23:19:58: [umc-core.smx] =MEG= hobbes<107><[U:1:29604415]><> selected menu item 1
+L 06/30/2018 - 23:19:59: [umc-core.smx] CrazyMRANZ<76><[U:1:42657167]><> selected menu item 1
+L 06/30/2018 - 23:19:59: [umc-core.smx] PYA<61><[U:1:35045005]><> selected menu item 2
+L 06/30/2018 - 23:20:00: [umc-core.smx] Oktay<34><[U:1:116496292]><> selected menu item 2
+L 06/30/2018 - 23:20:01: [umc-core.smx] Quigon<99><[U:1:5653485]><> selected menu item 2
+L 06/30/2018 - 23:20:01: [umc-core.smx] BIGD craig.gates<92><[U:1:116552210]><> selected menu item 2
+L 06/30/2018 - 23:20:01: [umc-core.smx] =[KXIC]= hopfi<66><[U:1:30399413]><> selected menu item 2
+L 06/30/2018 - 23:20:01: [umc-core.smx] VV<70><[U:1:5870260]><> selected menu item 2
+L 06/30/2018 - 23:20:01: [umc-core.smx] [BϟP] VulcanStorm<83><[U:1:103978153]><> selected menu item 2
+L 06/30/2018 - 23:20:01: [umc-core.smx] c-137 Medicine<81><[U:1:33445435]><> selected menu item 1
+L 06/30/2018 - 23:20:01: [umc-core.smx] Mr. X.<38><[U:1:27106968]><> selected menu item 1
+L 06/30/2018 - 23:20:02: [umc-core.smx] Steve_[UK]<69><[U:1:7600510]><> selected menu item 1
+L 06/30/2018 - 23:20:03: [umc-core.smx] object™<42><[U:1:1221009]><> selected menu item 2
+L 06/30/2018 - 23:20:04: [umc-core.smx] Blood-Wiper<90><[U:1:36056234]><> selected menu item 2
+L 06/30/2018 - 23:20:04: [umc-core.smx] JKLÖ<87><[U:1:84497057]><> selected menu item 2
+L 06/30/2018 - 23:20:04: [umc-core.smx] =F= MrBlueSky<78><[U:1:7486994]><> selected menu item 2
+L 06/30/2018 - 23:20:04: [umc-core.smx] Brentor<45><[U:1:40822645]><> selected menu item 2
+L 06/30/2018 - 23:20:08: [umc-nominate.smx] JustGoFly has nominated 'emp_forest_ob_2013_hce' from group 'Commander Maps'
+L 06/30/2018 - 23:20:19: [umc-core.smx] draklin<108><[U:1:850151960]><> selected menu item 2
+L 06/30/2018 - 23:20:26: [umc-core.smx] Setting nextmap to: emp_midbridge_hce
+L 06/30/2018 - 23:20:26: [umc-randomcycle.smx] Disabling random nextmap selection.
+L 06/30/2018 - 23:20:26: [umc-core.smx] umc-emp-mapvote.smx: Changing map to 'emp_midbridge_hce' in 5 seconds.
+L 06/30/2018 - 23:20:26: [umc-core.smx] MAPVOTE: Players voted for map 'emp_midbridge_hce' from group 'Commander Maps'
+L 06/30/2018 - 23:20:26: [umc-core.smx] Vote has concluded.
+L 06/30/2018 - 23:20:33: [umc-core.smx] ---------------------MAP CHANGE: emp_midbridge_hce---------------------
+L 06/30/2018 - 23:20:33: [umc-endvote-warnings.smx] Successfully parsed and set up 11 vote warnings.
+L 06/30/2018 - 23:20:33: [umc-rockthevote.smx] RTV will be made available in 60 seconds.
+L 06/30/2018 - 23:21:34: [umc-rockthevote.smx] RTV is now available.

@@ -1,0 +1,172 @@
+"Scenario"
+{
+	"Entities"
+	{
+		"106971"
+		{
+			"className"		"emp_resource_point"
+			"position"		"11296.000000 6848.000000 34.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"enabled"		"0"
+			"resPerSecond"		"1.000000"
+			"name"		"nf_startpoint"
+		}
+		"115195"
+		{
+			"className"		"emp_resource_point"
+			"position"		"640.000000 -9728.000000 2098.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+		}
+		"115857"
+		{
+			"className"		"emp_resource_point"
+			"position"		"-13152.000000 10589.500000 1074.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+		}
+		"124293"
+		{
+			"className"		"emp_resource_point"
+			"position"		"4416.000000 6144.000000 -446.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"enabled"		"1"
+			"resPerSecond"		"2.000000"
+		}
+		"143957"
+		{
+			"className"		"emp_resource_point"
+			"position"		"-4418.250000 -6144.000000 -446.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"enabled"		"1"
+			"resPerSecond"		"2.000000"
+		}
+		"123046"
+		{
+			"className"		"emp_resource_point"
+			"position"		"-11872.000000 -2880.000000 50.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+		}
+		"247130"
+		{
+			"className"		"emp_resource_point"
+			"position"		"-7904.000000 3424.000000 50.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+		}
+		"352721"
+		{
+			"className"		"emp_resource_point"
+			"position"		"13152.000000 -10592.000000 1074.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+		}
+		"353299"
+		{
+			"className"		"emp_resource_point"
+			"position"		"7904.000000 -3424.000000 50.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+		}
+		"353764"
+		{
+			"className"		"emp_resource_point"
+			"position"		"11872.000000 2880.000000 50.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+		}
+		"355978"
+		{
+			"className"		"emp_resource_point"
+			"position"		"-640.000000 9728.000000 2098.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+		}
+		"49837"
+		{
+			"className"		"emp_building_nf_armory"
+			"position"		"11744.000000 10208.000000 0.000000"
+			"angles"		"0.000000 90.000000 0.000000"
+			"built"		"1"
+			"health"		"100"
+			"team"		"2"
+		}
+		"115543"
+		{
+			"className"		"emp_building_nf_refinery"
+			"position"		"11296.000000 6848.000000 34.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"built"		"1"
+			"health"		"150"
+			"team"		"2"
+			"target"		"nf_startpoint"
+		}
+		"115564"
+		{
+			"className"		"emp_building_nf_barracks"
+			"position"		"12224.000000 11216.000000 0.000000"
+			"angles"		"0.000000 45.000000 0.000000"
+			"built"		"1"
+			"health"		"250"
+			"team"		"2"
+		}
+		"123138"
+		{
+			"className"		"emp_resource_point"
+			"position"		"-11296.000000 -6848.000000 34.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"enabled"		"0"
+			"resPerSecond"		"1.000000"
+			"name"		"imp_startpoint"
+		}
+		"125105"
+		{
+			"className"		"emp_building_imp_refinery"
+			"position"		"-11296.000000 -6848.000000 34.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"built"		"1"
+			"health"		"150"
+			"team"		"3"
+			"target"		"imp_startpoint"
+		}
+		"125134"
+		{
+			"className"		"emp_building_imp_barracks"
+			"position"		"-12160.000000 -11168.000000 0.000000"
+			"angles"		"0.000000 45.000000 0.000000"
+			"built"		"1"
+			"health"		"250"
+			"team"		"3"
+		}
+		"125158"
+		{
+			"className"		"emp_building_imp_armory"
+			"position"		"-11648.000000 -9952.000000 0.000000"
+			"angles"		"0.000000 270.000000 0.000000"
+			"built"		"1"
+			"health"		"100"
+			"team"		"3"
+		}
+		"147613"
+		{
+			"className"		"emp_imp_commander"
+			"position"		"-11264.000000 -11262.564453 5.652942"
+			"angles"		"-0.000001 -0.000001 1.238463"
+		}
+		"147617"
+		{
+			"className"		"emp_nf_commander"
+			"position"		"11264.000000 11272.735352 78.327065"
+			"angles"		"0.000001 -180.000000 -0.586090"
+		}
+	}
+}

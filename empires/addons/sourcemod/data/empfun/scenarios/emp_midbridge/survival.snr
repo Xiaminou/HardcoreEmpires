@@ -1,0 +1,481 @@
+"Scenario"
+{
+	"NF_Resources"		"350"
+	"BE_Resources"		"350"
+	"NF_Tickets"		"1994"
+	"BE_Tickets"		"400"
+	"NF_Research"
+	{
+		"0"		"1"
+	}
+	"BE_Research"
+	{
+		"0"		"1"
+	}
+	"Entities"
+	{
+		"106971"
+		{
+			"className"		"emp_resource_point"
+			"position"		"11296.000000 6848.000000 34.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"enabled"		"0"
+			"resPerSecond"		"1.000000"
+			"name"		"nf_startpoint"
+		}
+		"115857"
+		{
+			"className"		"emp_resource_point"
+			"position"		"-13152.000000 10589.500000 1074.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+		}
+		"124293"
+		{
+			"className"		"emp_resource_point"
+			"position"		"4416.000000 6144.000000 -446.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"enabled"		"1"
+			"resPerSecond"		"2.000000"
+		}
+		"143957"
+		{
+			"className"		"emp_resource_point"
+			"position"		"-4418.250000 -6144.000000 -446.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"enabled"		"1"
+			"resPerSecond"		"2.000000"
+		}
+		"123046"
+		{
+			"className"		"emp_resource_point"
+			"position"		"-11872.000000 -2880.000000 50.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+		}
+		"247130"
+		{
+			"className"		"emp_resource_point"
+			"position"		"-7904.000000 3424.000000 50.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+		}
+		"352721"
+		{
+			"className"		"emp_resource_point"
+			"position"		"13152.000000 -10592.000000 1074.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"enabled"		"0"
+			"resPerSecond"		"1.000000"
+			"name"		"Ref_352721"
+		}
+		"353299"
+		{
+			"className"		"emp_resource_point"
+			"position"		"7904.000000 -3424.000000 50.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+		}
+		"353764"
+		{
+			"className"		"emp_resource_point"
+			"position"		"11872.000000 2880.000000 50.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+		}
+		"115543"
+		{
+			"className"		"emp_building_nf_refinery"
+			"position"		"11296.000000 6848.000000 34.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"built"		"1"
+			"health"		"150"
+			"team"		"2"
+			"target"		"nf_startpoint"
+		}
+		"123138"
+		{
+			"className"		"emp_resource_point"
+			"position"		"-11296.000000 -6848.000000 34.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"enabled"		"0"
+			"resPerSecond"		"1.000000"
+			"name"		"imp_startpoint"
+		}
+		"125105"
+		{
+			"className"		"emp_building_imp_refinery"
+			"position"		"-11296.000000 -6848.000000 34.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"built"		"1"
+			"health"		"150"
+			"team"		"3"
+			"target"		"imp_startpoint"
+		}
+		"147613"
+		{
+			"className"		"emp_imp_commander"
+			"position"		"962.040894 -11296.720703 2054.602539"
+			"angles"		"0.000148 -0.069530 1.357837"
+		}
+		"147617"
+		{
+			"className"		"emp_nf_commander"
+			"position"		"99.130463 11217.859375 2127.305664"
+			"angles"		"0.016702 169.782990 -0.498749"
+		}
+		"5000099"
+		{
+			"className"		"emp_building_imp_refinery"
+			"position"		"13152.000000 -10592.000000 1074.000000"
+			"angles"		"0.000000 146.969589 0.000000"
+			"built"		"1"
+			"health"		"150"
+			"team"		"3"
+			"target"		"Ref_352721"
+		}
+		"5000100"
+		{
+			"className"		"emp_cap_model"
+			"position"		"-671.088867 9728.354492 2080.031250"
+			"angles"		"0.000000 0.000000 0.000000"
+			"pointNumber"		"31"
+			"visibleOnMap"		"1"
+			"model"		"models/Common/props_system/flagpole01_neutral.mdl"
+			"model2"		"models/Common/props_system/flagpole01_nf.mdl"
+			"model3"		"models/Common/props_system/flagpole01_imp.mdl"
+			"team"		"2"
+		}
+		"5000101"
+		{
+			"className"		"emp_cap_point"
+			"position"		"-671.088867 9728.354492 2080.031250"
+			"angles"		"0.000000 0.000000 0.000000"
+			"pointNumber"		"31"
+			"timeToCap"		"5"
+			"timeToNeutral"		"5"
+			"playersRequiredNF"		"2"
+			"playersRequiredImp"		"2"
+			"teamOwner"		"1"
+			"locationName"		"Custom Flag"
+			"resToGiveNF"		"10.000000"
+			"resToGiveImp"		"10.000000"
+			"reinfToTakeNF"		"0.000000"
+			"reinfToTakeImp"		"0.000000"
+			"canNFCap"		"1"
+			"canImpCap"		"1"
+			"linearMap"		"-268435456"
+			"Mins"		"-202.825684 -200.249969 -128.249969"
+			"Maxs"		"250.250000 200.250015 194.250031"
+		}
+		"5000102"
+		{
+			"className"		"emp_building_nf_barracks"
+			"position"		"718.452759 11011.438477 2048.596680"
+			"angles"		"0.000000 225.000000 0.000000"
+			"built"		"1"
+			"health"		"250"
+			"team"		"2"
+		}
+		"5000103"
+		{
+			"className"		"emp_cap_model"
+			"position"		"653.607056 -9717.712891 2080.031250"
+			"angles"		"0.000000 0.000000 0.000000"
+			"pointNumber"		"30"
+			"visibleOnMap"		"1"
+			"model"		"models/Common/props_system/flagpole01_neutral.mdl"
+			"model2"		"models/Common/props_system/flagpole01_nf.mdl"
+			"model3"		"models/Common/props_system/flagpole01_imp.mdl"
+			"team"		"3"
+		}
+		"5000104"
+		{
+			"className"		"emp_building_imp_barracks"
+			"position"		"-528.540466 -10994.819336 2047.261230"
+			"angles"		"0.000000 45.000000 0.000000"
+			"built"		"1"
+			"health"		"250"
+			"team"		"3"
+		}
+		"5000105"
+		{
+			"className"		"emp_cap_point"
+			"position"		"653.607056 -9717.712891 2080.031250"
+			"angles"		"0.000000 0.000000 0.000000"
+			"pointNumber"		"30"
+			"timeToCap"		"5"
+			"timeToNeutral"		"5"
+			"playersRequiredNF"		"2"
+			"playersRequiredImp"		"2"
+			"teamOwner"		"2"
+			"locationName"		"Custom Flag"
+			"resToGiveNF"		"1.000000"
+			"resToGiveImp"		"1.000000"
+			"reinfToTakeNF"		"1.000000"
+			"reinfToTakeImp"		"0.000000"
+			"canNFCap"		"1"
+			"canImpCap"		"1"
+			"linearMap"		"1879048192"
+			"Mins"		"-202.825684 -200.249969 -128.249969"
+			"Maxs"		"250.250000 200.250015 194.250031"
+		}
+		"5000106"
+		{
+			"className"		"emp_building_imp_radar"
+			"position"		"-1409.327637 -10408.693359 2033.857422"
+			"angles"		"0.000000 129.265137 0.000000"
+			"built"		"1"
+			"health"		"200"
+			"team"		"3"
+		}
+		"5000107"
+		{
+			"className"		"emp_building_imp_mgturret"
+			"position"		"-2267.654785 -11604.377930 2013.505737"
+			"angles"		"0.000000 -173.968460 0.000000"
+			"built"		"1"
+			"health"		"100"
+			"team"		"3"
+			"level"		"3"
+			"model"		"models/imperial/turrets/mg_lvl3/imp_turret_mg_lvl3.mdl"
+		}
+		"5000108"
+		{
+			"className"		"emp_building_imp_mgturret"
+			"position"		"-1938.994507 -8865.537109 1989.455933"
+			"angles"		"0.000000 -147.601410 0.000000"
+			"built"		"1"
+			"health"		"100"
+			"team"		"3"
+			"level"		"3"
+			"model"		"models/imperial/turrets/mg_lvl3/imp_turret_mg_lvl3.mdl"
+		}
+		"5000109"
+		{
+			"className"		"emp_building_imp_mgturret"
+			"position"		"2069.353760 -7557.744141 2048.000000"
+			"angles"		"0.000000 -138.400269 0.000000"
+			"built"		"1"
+			"health"		"100"
+			"team"		"3"
+			"level"		"3"
+			"model"		"models/imperial/turrets/mg_lvl3/imp_turret_mg_lvl3.mdl"
+		}
+		"5000110"
+		{
+			"className"		"emp_building_imp_mgturret"
+			"position"		"2852.729492 -9215.333984 2048.000000"
+			"angles"		"0.000000 -96.773064 0.000000"
+			"built"		"1"
+			"health"		"100"
+			"team"		"3"
+			"level"		"3"
+			"model"		"models/imperial/turrets/mg_lvl3/imp_turret_mg_lvl3.mdl"
+		}
+		"5000111"
+		{
+			"className"		"emp_building_imp_barracks"
+			"position"		"-1477.234741 -9424.210938 2035.302246"
+			"angles"		"0.000000 5.443726 0.000000"
+			"built"		"1"
+			"health"		"250"
+			"team"		"3"
+		}
+		"5000112"
+		{
+			"className"		"emp_building_imp_armory"
+			"position"		"-874.241150 -8384.139648 2047.782349"
+			"angles"		"0.000000 -172.622681 0.000000"
+			"built"		"1"
+			"health"		"100"
+			"team"		"3"
+		}
+		"5000113"
+		{
+			"className"		"emp_building_imp_mgturret"
+			"position"		"434.911102 -5963.029297 2048.031250"
+			"angles"		"0.000000 86.517342 0.000000"
+			"built"		"1"
+			"health"		"100"
+			"team"		"3"
+			"level"		"3"
+			"model"		"models/imperial/turrets/mg_lvl3/imp_turret_mg_lvl3.mdl"
+		}
+		"5000114"
+		{
+			"className"		"emp_building_imp_mgturret"
+			"position"		"-179.569153 -5950.310059 2048.031250"
+			"angles"		"0.000000 86.517342 0.000000"
+			"built"		"1"
+			"health"		"100"
+			"team"		"3"
+			"level"		"3"
+			"model"		"models/imperial/turrets/mg_lvl3/imp_turret_mg_lvl3.mdl"
+		}
+		"5000115"
+		{
+			"className"		"emp_building_imp_barracks"
+			"position"		"13744.861328 -11623.873047 1021.014099"
+			"angles"		"0.000000 2.307129 0.000000"
+			"built"		"1"
+			"health"		"250"
+			"team"		"3"
+		}
+		"5000116"
+		{
+			"className"		"emp_building_imp_repairstation"
+			"position"		"13102.767578 -13123.434570 1022.785034"
+			"angles"		"0.000000 127.111816 0.000000"
+			"built"		"1"
+			"health"		"200"
+			"team"		"3"
+		}
+		"5000117"
+		{
+			"className"		"emp_building_imp_armory"
+			"position"		"11607.240234 -10539.850586 1024.000000"
+			"angles"		"0.000000 172.688614 0.000000"
+			"built"		"1"
+			"health"		"100"
+			"team"		"3"
+		}
+		"5000118"
+		{
+			"className"		"emp_eng_walls"
+			"position"		"10104.601563 -10007.562500 900.116455"
+			"angles"		"0.000000 -94.641731 0.000000"
+			"built"		"1"
+			"health"		"100"
+			"team"		"3"
+			"model"		"models/imperial/buildings/walls/imp_wall1.mdl"
+			"bChunk"		"0"
+		}
+		"5000119"
+		{
+			"className"		"emp_eng_walls"
+			"position"		"8293.717773 -9870.655273 890.648254"
+			"angles"		"0.000000 -92.510376 0.000000"
+			"built"		"1"
+			"health"		"100"
+			"team"		"3"
+			"model"		"models/imperial/buildings/walls/imp_wall1.mdl"
+			"bChunk"		"0"
+		}
+		"5000120"
+		{
+			"className"		"emp_eng_walls"
+			"position"		"8548.083984 -9896.603516 893.351501"
+			"angles"		"0.000000 -92.285156 0.000000"
+			"built"		"1"
+			"health"		"100"
+			"team"		"3"
+			"model"		"models/imperial/buildings/walls/imp_wall1.mdl"
+			"bChunk"		"0"
+		}
+		"5000121"
+		{
+			"className"		"emp_eng_walls"
+			"position"		"8805.423828 -9867.294922 862.646362"
+			"angles"		"0.000000 -92.510376 0.000000"
+			"built"		"1"
+			"health"		"100"
+			"team"		"3"
+			"model"		"models/imperial/buildings/walls/imp_wall1.mdl"
+			"bChunk"		"0"
+		}
+		"5000122"
+		{
+			"className"		"emp_eng_walls"
+			"position"		"9051.923828 -9892.630859 880.936707"
+			"angles"		"0.000000 -93.070679 0.000000"
+			"built"		"1"
+			"health"		"100"
+			"team"		"3"
+			"model"		"models/imperial/buildings/walls/imp_wall1.mdl"
+			"bChunk"		"0"
+		}
+		"5000123"
+		{
+			"className"		"emp_eng_walls"
+			"position"		"9938.707031 -9933.581055 875.008179"
+			"angles"		"0.000000 -93.070679 0.000000"
+			"built"		"1"
+			"health"		"100"
+			"team"		"3"
+			"model"		"models/imperial/buildings/walls/imp_wall1.mdl"
+			"bChunk"		"0"
+		}
+		"5000124"
+		{
+			"className"		"emp_building_imp_mgturret"
+			"position"		"10982.798828 -11121.787109 1024.000000"
+			"angles"		"0.000000 -136.043701 0.000000"
+			"built"		"1"
+			"health"		"100"
+			"team"		"3"
+			"level"		"3"
+			"model"		"models/imperial/turrets/mg_lvl3/imp_turret_mg_lvl3.mdl"
+		}
+		"5000125"
+		{
+			"className"		"emp_building_imp_mlturret"
+			"position"		"11385.433594 -13843.186523 1024.000000"
+			"angles"		"0.000000 119.729004 0.000000"
+			"built"		"1"
+			"health"		"100"
+			"team"		"3"
+			"level"		"3"
+			"model"		"models/imperial/turrets/ml_lvl3/imp_turret_ml_lvl3.mdl"
+		}
+		"5000126"
+		{
+			"className"		"emp_building_imp_mlturret"
+			"position"		"7641.676758 -12899.872070 1089.073486"
+			"angles"		"0.000000 67.670265 0.000000"
+			"built"		"1"
+			"health"		"100"
+			"team"		"3"
+			"level"		"3"
+			"model"		"models/imperial/turrets/ml_lvl3/imp_turret_ml_lvl3.mdl"
+		}
+		"5000127"
+		{
+			"className"		"emp_building_imp_mlturret"
+			"position"		"9817.703125 -13413.240234 1024.000000"
+			"angles"		"0.000000 106.490456 0.000000"
+			"built"		"1"
+			"health"		"100"
+			"team"		"3"
+			"level"		"3"
+			"model"		"models/imperial/turrets/ml_lvl3/imp_turret_ml_lvl3.mdl"
+		}
+		"5000128"
+		{
+			"className"		"emp_eng_walls"
+			"position"		"196.350433 -12071.438477 2020.031250"
+			"angles"		"0.000000 94.932861 0.000000"
+			"built"		"1"
+			"health"		"100"
+			"team"		"3"
+			"model"		"models/imperial/buildings/walls/imp_wall1.mdl"
+			"bChunk"		"0"
+		}
+		"5000129"
+		{
+			"className"		"emp_eng_walls"
+			"position"		"-61.562187 -12093.691406 2020.031250"
+			"angles"		"0.000000 94.932861 0.000000"
+			"built"		"1"
+			"health"		"100"
+			"team"		"3"
+			"model"		"models/imperial/buildings/walls/imp_wall1.mdl"
+			"bChunk"		"0"
+		}
+	}
+}

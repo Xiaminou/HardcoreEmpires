@@ -1,0 +1,54 @@
+L 06/30/2018 - 00:06:20: SourceMod log file session started (file "L20180630.log") (Version "1.8.0.5912")
+L 06/30/2018 - 00:06:20: [SM] Changed map to "emp_drygulch_a7"
+L 06/30/2018 - 00:06:21: -------- Mapchange to emp_drygulch_a7 --------
+L 06/30/2018 - 00:06:31: [security_entity_limit.smx] [SEL] 167 entities have been protected from deleting.This map contain 1881 free entity slot!
+L 06/30/2018 - 00:11:07: [saysounds.smx] [Say Sounds] Disabled, Unhooking Events
+L 06/30/2018 - 00:11:07: [autorecorder.smx] Recording to auto-20180630-001107-emp_drygulch_a7.dem
+L 06/30/2018 - 20:38:39: [basecommands.smx] "Mr. X.<38><[U:1:27106968]><>" console command (cmdline "emp_sv_vehicle_fadeout_time 60")
+L 06/30/2018 - 20:41:16: [basecommands.smx] "Mr. X.<38><[U:1:27106968]><>" console command (cmdline "emp_sv_vehicle_fadeout_time_partial  1")
+L 06/30/2018 - 20:41:20: [basecommands.smx] "Mr. X.<38><[U:1:27106968]><>" console command (cmdline "emp_sv_vehicle_fadeout_time_partial 1")
+L 06/30/2018 - 20:42:37: [saysounds.smx] [Say Sounds] Enabled, Hooking Events
+L 06/30/2018 - 20:42:37: [saysounds.smx] [Say Sounds] No specific game detected
+L 06/30/2018 - 20:43:42: [SM] Changed map to "con_district402"
+L 06/30/2018 - 20:43:43: -------- Mapchange to con_district402 --------
+L 06/30/2018 - 20:43:47: [autorecorder.smx] Recording to auto-20180630-204347-con_district402.dem
+L 06/30/2018 - 20:43:53: [security_entity_limit.smx] [SEL] 440 entities have been protected from deleting.This map contain 1608 free entity slot!
+L 06/30/2018 - 20:45:13: [saysounds.smx] [Say Sounds] Disabled, Unhooking Events
+L 06/30/2018 - 21:01:00: [saysounds.smx] [Say Sounds] Enabled, Hooking Events
+L 06/30/2018 - 21:01:00: [saysounds.smx] [Say Sounds] No specific game detected
+L 06/30/2018 - 21:02:43: [SM] Changed map to "emp_streetsoffire_fix"
+L 06/30/2018 - 21:02:44: -------- Mapchange to emp_streetsoffire_fix --------
+L 06/30/2018 - 21:02:51: [autorecorder.smx] Recording to auto-20180630-210251-emp_streetsoffire_fix.dem
+L 06/30/2018 - 21:02:55: [security_entity_limit.smx] [SEL] 565 entities have been protected from deleting.This map contain 1483 free entity slot!
+L 06/30/2018 - 21:06:03: [basecommands.smx] "Mr. X.<38><[U:1:27106968]><>" console command (cmdline "emp_allowspectators 1")
+L 06/30/2018 - 21:06:04: [basecommands.smx] "Mr. X.<38><[U:1:27106968]><>" console command (cmdline "emp_allowspectators 0")
+L 06/30/2018 - 22:35:36: [saysounds.smx] [Say Sounds] Enabled, Hooking Events
+L 06/30/2018 - 22:35:36: [saysounds.smx] [Say Sounds] No specific game detected
+L 06/30/2018 - 22:37:09: [basecommands.smx] "Mr. X.<38><[U:1:27106968]><>" changed map to "emp_mvalley_fix"
+L 06/30/2018 - 22:37:12: [SM] Changed map to "emp_mvalley_fix"
+L 06/30/2018 - 22:37:13: -------- Mapchange to emp_mvalley_fix --------
+L 06/30/2018 - 22:37:14: [autorecorder.smx] Recording to auto-20180630-223714-emp_mvalley_fix.dem
+L 06/30/2018 - 22:37:23: [security_entity_limit.smx] [SEL] 356 entities have been protected from deleting.This map contain 1692 free entity slot!
+L 06/30/2018 - 22:47:31: [saysounds.smx] [Say Sounds] Enabled, Hooking Events
+L 06/30/2018 - 22:47:31: [saysounds.smx] [Say Sounds] No specific game detected
+L 06/30/2018 - 22:49:00: [basecommands.smx] "Mr. X.<38><[U:1:27106968]><>" changed map to "emp_cyclopean"
+L 06/30/2018 - 22:49:03: [SM] Changed map to "emp_cyclopean"
+L 06/30/2018 - 22:49:04: -------- Mapchange to emp_cyclopean --------
+L 06/30/2018 - 22:49:05: [autorecorder.smx] Recording to auto-20180630-224905-emp_cyclopean.dem
+L 06/30/2018 - 22:49:14: [security_entity_limit.smx] [SEL] 534 entities have been protected from deleting.This map contain 1514 free entity slot!
+L 06/30/2018 - 22:58:11: [saysounds.smx] [Say Sounds] Enabled, Hooking Events
+L 06/30/2018 - 22:58:11: [saysounds.smx] [Say Sounds] No specific game detected
+L 06/30/2018 - 22:59:55: [SM] Changed map to "emp_tropicvendetta_rc4"
+L 06/30/2018 - 22:59:56: -------- Mapchange to emp_tropicvendetta_rc4 --------
+L 06/30/2018 - 22:59:57: [autorecorder.smx] Recording to auto-20180630-225957-emp_tropicvendetta_rc4.dem
+L 06/30/2018 - 23:00:06: [security_entity_limit.smx] [SEL] 443 entities have been protected from deleting.This map contain 1605 free entity slot!
+L 06/30/2018 - 23:01:54: [basechat.smx] "Mr. X.<38><[U:1:27106968]><>" triggered sm_say (text new rule)
+L 06/30/2018 - 23:01:57: [basechat.smx] "Mr. X.<38><[U:1:27106968]><>" triggered sm_say (text no football talk)
+L 06/30/2018 - 23:02:00: [basechat.smx] "Mr. X.<38><[U:1:27106968]><>" triggered sm_say (text fuck that shit)
+L 06/30/2018 - 23:10:52: [basechat.smx] "Mr. X.<38><[U:1:27106968]><>" triggered sm_say (text don't abuse surrender or you'l lget punished)
+L 06/30/2018 - 23:18:47: [saysounds.smx] [Say Sounds] Enabled, Hooking Events
+L 06/30/2018 - 23:18:47: [saysounds.smx] [Say Sounds] No specific game detected
+L 06/30/2018 - 23:20:31: [SM] Changed map to "emp_midbridge_hce"
+L 06/30/2018 - 23:20:33: -------- Mapchange to emp_midbridge_hce --------
+L 06/30/2018 - 23:20:34: [autorecorder.smx] Recording to auto-20180630-232034-emp_midbridge_hce.dem
+L 06/30/2018 - 23:20:43: [security_entity_limit.smx] [SEL] 624 entities have been protected from deleting.This map contain 1424 free entity slot!

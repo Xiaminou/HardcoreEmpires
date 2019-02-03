@@ -1,0 +1,568 @@
+"Scenario"
+{
+	"Entities"
+	{
+		"487872"
+		{
+			"className"		"emp_info_player_NF"
+			"position"		"1472.000000 512.000000 -1472.000000"
+			"angles"		"0.000000 135.000000 0.000000"
+			"pointNumber"		"1"
+			"spawnEnabled"		"1"
+		}
+		"59621"
+		{
+			"className"		"emp_info_player_NF"
+			"position"		"1536.000000 576.000000 -1472.000000"
+			"angles"		"0.000000 135.000000 0.000000"
+			"pointNumber"		"1"
+			"spawnEnabled"		"1"
+		}
+		"59417"
+		{
+			"className"		"emp_info_player_Imp"
+			"position"		"1152.000000 960.000000 -1471.000000"
+			"angles"		"0.000000 315.000000 0.000000"
+			"pointNumber"		"1"
+			"spawnEnabled"		"1"
+		}
+		"487854"
+		{
+			"className"		"emp_info_player_Imp"
+			"position"		"1088.000000 896.000000 -1471.000000"
+			"angles"		"0.000000 315.000000 0.000000"
+			"pointNumber"		"1"
+			"spawnEnabled"		"1"
+		}
+		"487858"
+		{
+			"className"		"emp_info_player_Imp"
+			"position"		"512.000000 1472.000000 -1471.000000"
+			"angles"		"0.000000 315.000000 0.000000"
+			"pointNumber"		"1"
+			"spawnEnabled"		"1"
+		}
+		"487862"
+		{
+			"className"		"emp_info_player_Imp"
+			"position"		"576.000000 1536.000000 -1471.000000"
+			"angles"		"0.000000 315.000000 0.000000"
+			"pointNumber"		"1"
+			"spawnEnabled"		"1"
+		}
+		"487894"
+		{
+			"className"		"emp_info_player_NF"
+			"position"		"896.000000 1088.000000 -1472.000000"
+			"angles"		"0.000000 135.000000 0.000000"
+			"pointNumber"		"1"
+			"spawnEnabled"		"1"
+		}
+		"487896"
+		{
+			"className"		"emp_info_player_NF"
+			"position"		"960.000000 1152.000000 -1472.000000"
+			"angles"		"0.000000 135.000000 0.000000"
+			"pointNumber"		"1"
+			"spawnEnabled"		"1"
+		}
+		"59685"
+		{
+			"className"		"emp_cap_model"
+			"position"		"2350.000000 1902.000000 -1152.000000"
+			"angles"		"0.000000 45.000000 0.000000"
+			"pointNumber"		"0"
+			"visibleOnMap"		"0"
+			"model"		"models/common/props_system/flag2_nuetral.mdl"
+			"model2"		"models/common/props_system/flag2_nf.mdl"
+			"model3"		"models/common/props_system/flag2_imp.mdl"
+			"team"		"0"
+		}
+		"488277"
+		{
+			"className"		"emp_cap_model"
+			"position"		"1902.000000 2350.000000 -1152.000000"
+			"angles"		"0.000000 45.000000 0.000000"
+			"pointNumber"		"0"
+			"visibleOnMap"		"0"
+			"model"		"models/common/props_system/flag2_nuetral.mdl"
+			"model2"		"models/common/props_system/flag2_nf.mdl"
+			"model3"		"models/common/props_system/flag2_imp.mdl"
+			"team"		"0"
+		}
+		"488281"
+		{
+			"className"		"emp_cap_model"
+			"position"		"2530.000000 2530.000000 -1152.000000"
+			"angles"		"0.000000 225.000000 0.000000"
+			"pointNumber"		"0"
+			"visibleOnMap"		"1"
+			"model"		"models/common/props_system/flag2_nuetral.mdl"
+			"model2"		"models/common/props_system/flag2_nf.mdl"
+			"model3"		"models/common/props_system/flag2_imp.mdl"
+			"team"		"0"
+		}
+		"726751"
+		{
+			"className"		"emp_info_player_NF"
+			"position"		"-3840.000000 -1952.000000 -2110.000000"
+			"angles"		"0.000000 315.000000 0.000000"
+			"pointNumber"		"3"
+			"spawnEnabled"		"3"
+		}
+		"726753"
+		{
+			"className"		"emp_info_player_NF"
+			"position"		"-3904.000000 -2016.000000 -2110.000000"
+			"angles"		"0.000000 315.000000 0.000000"
+			"pointNumber"		"3"
+			"spawnEnabled"		"3"
+		}
+		"726758"
+		{
+			"className"		"emp_info_player_Imp"
+			"position"		"-3295.159912 -2624.830078 -2109.000000"
+			"angles"		"0.000000 135.500000 0.000000"
+			"pointNumber"		"3"
+			"spawnEnabled"		"3"
+		}
+		"726760"
+		{
+			"className"		"emp_info_player_Imp"
+			"position"		"-3231.719971 -2560.280029 -2109.000000"
+			"angles"		"0.000000 135.500000 0.000000"
+			"pointNumber"		"3"
+			"spawnEnabled"		"3"
+		}
+		"726776"
+		{
+			"className"		"emp_info_player_NF"
+			"position"		"-3712.000000 -1824.000000 -2110.000000"
+			"angles"		"0.000000 315.000000 0.000000"
+			"pointNumber"		"3"
+			"spawnEnabled"		"3"
+		}
+		"726778"
+		{
+			"className"		"emp_info_player_NF"
+			"position"		"-3776.000000 -1888.000000 -2110.000000"
+			"angles"		"0.000000 315.000000 0.000000"
+			"pointNumber"		"3"
+			"spawnEnabled"		"3"
+		}
+		"726800"
+		{
+			"className"		"emp_info_player_Imp"
+			"position"		"-3168.280029 -2495.719971 -2109.000000"
+			"angles"		"0.000000 135.500000 0.000000"
+			"pointNumber"		"3"
+			"spawnEnabled"		"3"
+		}
+		"726802"
+		{
+			"className"		"emp_info_player_Imp"
+			"position"		"-3104.840088 -2431.169922 -2109.000000"
+			"angles"		"0.000000 135.500000 0.000000"
+			"pointNumber"		"3"
+			"spawnEnabled"		"3"
+		}
+		"915132"
+		{
+			"className"		"emp_resource_point"
+			"position"		"196.000000 9688.000000 -1899.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+			"name"		"benw"
+		}
+		"917597"
+		{
+			"className"		"emp_resource_point_prop"
+			"position"		"196.000000 9688.000000 -1870.739990"
+			"angles"		"0.000000 0.000000 0.000000"
+			"enabled"		"1"
+			"model"		"models/props_wasteland/buoy01.mdl"
+		}
+		"930805"
+		{
+			"className"		"emp_resource_point"
+			"position"		"9320.000000 1604.000000 -1899.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+			"name"		"c_benw"
+		}
+		"930807"
+		{
+			"className"		"emp_resource_point_prop"
+			"position"		"9320.000000 1604.000000 -1870.739990"
+			"angles"		"0.000000 90.000000 0.000000"
+			"enabled"		"1"
+			"model"		"models/props_wasteland/buoy01.mdl"
+		}
+		"953276"
+		{
+			"className"		"emp_resource_point"
+			"position"		"11892.000000 11848.000000 -1273.949951"
+			"angles"		"0.000000 0.000000 0.000000"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+			"name"		"x_benw"
+		}
+		"953278"
+		{
+			"className"		"emp_resource_point_prop"
+			"position"		"11892.000000 11848.000000 -1245.689941"
+			"angles"		"0.000000 0.000000 0.000000"
+			"enabled"		"1"
+			"model"		"models/props_wasteland/buoy01.mdl"
+		}
+		"954166"
+		{
+			"className"		"emp_resource_point"
+			"position"		"-1920.000000 -12824.000000 -1490.400024"
+			"angles"		"0.000000 0.000000 0.000000"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+			"name"		"v_c_benw"
+		}
+		"954168"
+		{
+			"className"		"emp_resource_point_prop"
+			"position"		"-1920.000000 -12824.000000 -1462.140015"
+			"angles"		"0.000000 180.000000 0.000000"
+			"enabled"		"1"
+			"model"		"models/props_wasteland/buoy01.mdl"
+		}
+		"955908"
+		{
+			"className"		"emp_resource_point"
+			"position"		"-12775.700195 -2559.429932 -1520.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+			"name"		"nes_v_c_benw"
+		}
+		"955910"
+		{
+			"className"		"emp_resource_point_prop"
+			"position"		"-12775.700195 -2559.429932 -1491.739990"
+			"angles"		"0.000000 270.000000 0.000000"
+			"enabled"		"1"
+			"model"		"models/props_wasteland/buoy01.mdl"
+		}
+		"957360"
+		{
+			"className"		"emp_resource_point"
+			"position"		"12888.000000 -9984.000000 -1934.400024"
+			"angles"		"0.000000 0.000000 0.000000"
+			"enabled"		"0"
+			"resPerSecond"		"1.000000"
+			"name"		"nf_start_nes_v_c_benw"
+		}
+		"957362"
+		{
+			"className"		"emp_resource_point_prop"
+			"position"		"12888.000000 -9984.000000 -1906.140015"
+			"angles"		"0.000000 270.000000 0.000000"
+			"enabled"		"0"
+			"model"		"models/props_wasteland/buoy01.mdl"
+		}
+		"960151"
+		{
+			"className"		"emp_resource_point"
+			"position"		"-10648.000000 12432.000000 -1942.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"enabled"		"0"
+			"resPerSecond"		"1.000000"
+			"name"		"be_start_nf_start_nes_v_c_benw"
+		}
+		"960153"
+		{
+			"className"		"emp_resource_point_prop"
+			"position"		"-10648.000000 12432.000000 -1913.739990"
+			"angles"		"0.000000 90.000000 0.000000"
+			"enabled"		"0"
+			"model"		"models/props_wasteland/buoy01.mdl"
+		}
+		"1027686"
+		{
+			"className"		"emp_resource_point"
+			"position"		"-12480.000000 -12640.000000 -2232.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+			"name"		"se_refv_c_benw"
+		}
+		"1027690"
+		{
+			"className"		"emp_resource_point_prop"
+			"position"		"-12480.000000 -12640.000000 -2214.139893"
+			"angles"		"0.000000 180.000000 0.000000"
+			"enabled"		"1"
+			"model"		"models/props_wasteland/buoy01.mdl"
+		}
+		"5000138"
+		{
+			"className"		"emp_building_nf_refinery"
+			"position"		"12888.000000 -9984.000000 -1934.400024"
+			"angles"		"0.000000 135.313110 0.000000"
+			"built"		"1"
+			"health"		"150"
+			"team"		"2"
+			"target"		"nf_start_nes_v_c_benw"
+		}
+		"5000139"
+		{
+			"className"		"emp_building_imp_refinery"
+			"position"		"-10648.000000 12432.000000 -1942.000000"
+			"angles"		"0.000000 -74.536743 0.000000"
+			"built"		"1"
+			"health"		"150"
+			"team"		"3"
+			"target"		"be_start_nf_start_nes_v_c_benw"
+		}
+		"57125"
+		{
+			"className"		"emp_cap_point"
+			"position"		"0.000000 0.000000 0.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"pointNumber"		"2"
+			"timeToCap"		"20"
+			"timeToNeutral"		"10"
+			"playersRequiredNF"		"3"
+			"playersRequiredImp"		"3"
+			"teamOwner"		"0"
+			"locationName"		"Silo Control"
+			"resToGiveNF"		"2.000000"
+			"resToGiveImp"		"2.000000"
+			"reinfToTakeNF"		"0.000000"
+			"reinfToTakeImp"		"0.000000"
+			"canNFCap"		"1"
+			"canImpCap"		"1"
+			"linearMap"		"0"
+			"Mins"		"1919.000000 1919.000000 -1505.000000"
+			"Maxs"		"3457.000000 3457.000000 -1359.000000"
+		}
+		"549726"
+		{
+			"className"		"emp_building_imp_armory"
+			"position"		"-12220.000000 8962.320313 -1984.000000"
+			"angles"		"0.000000 87.000000 0.000000"
+			"built"		"1"
+			"health"		"100"
+			"team"		"3"
+		}
+		"726239"
+		{
+			"className"		"emp_info_player_NF"
+			"position"		"2377.399902 2432.000000 -1316.000000"
+			"angles"		"0.000000 135.000000 0.000000"
+			"pointNumber"		"2"
+			"spawnEnabled"		"2"
+		}
+		"726241"
+		{
+			"className"		"emp_info_player_Imp"
+			"position"		"2432.000000 2374.050049 -1316.000000"
+			"angles"		"0.000000 135.000000 0.000000"
+			"pointNumber"		"2"
+			"spawnEnabled"		"2"
+		}
+		"726496"
+		{
+			"className"		"emp_info_player_NF"
+			"position"		"2080.000000 2841.469971 -1348.000000"
+			"angles"		"0.000000 357.000000 0.000000"
+			"pointNumber"		"2"
+			"spawnEnabled"		"2"
+		}
+		"726498"
+		{
+			"className"		"emp_info_player_Imp"
+			"position"		"2000.650024 2848.000000 -1348.000000"
+			"angles"		"0.000000 357.000000 0.000000"
+			"pointNumber"		"2"
+			"spawnEnabled"		"2"
+		}
+		"726518"
+		{
+			"className"		"emp_info_player_NF"
+			"position"		"2080.000000 2921.469971 -1348.000000"
+			"angles"		"0.000000 357.000000 0.000000"
+			"pointNumber"		"2"
+			"spawnEnabled"		"2"
+		}
+		"726520"
+		{
+			"className"		"emp_info_player_Imp"
+			"position"		"2000.650024 2928.000000 -1348.000000"
+			"angles"		"0.000000 357.000000 0.000000"
+			"pointNumber"		"2"
+			"spawnEnabled"		"2"
+		}
+		"726526"
+		{
+			"className"		"emp_info_player_NF"
+			"position"		"2848.000000 2080.000000 -1348.000000"
+			"angles"		"0.000000 87.000000 0.000000"
+			"pointNumber"		"2"
+			"spawnEnabled"		"2"
+		}
+		"726528"
+		{
+			"className"		"emp_info_player_Imp"
+			"position"		"2841.469971 2000.650024 -1348.000000"
+			"angles"		"0.000000 87.000000 0.000000"
+			"pointNumber"		"2"
+			"spawnEnabled"		"2"
+		}
+		"726542"
+		{
+			"className"		"emp_info_player_NF"
+			"position"		"2928.000000 2080.000000 -1348.000000"
+			"angles"		"0.000000 87.000000 0.000000"
+			"pointNumber"		"2"
+			"spawnEnabled"		"2"
+		}
+		"726544"
+		{
+			"className"		"emp_info_player_Imp"
+			"position"		"2921.469971 2000.650024 -1348.000000"
+			"angles"		"0.000000 87.000000 0.000000"
+			"pointNumber"		"2"
+			"spawnEnabled"		"2"
+		}
+		"726717"
+		{
+			"className"		"emp_cap_point"
+			"position"		"0.000000 0.000000 0.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"pointNumber"		"3"
+			"timeToCap"		"15"
+			"timeToNeutral"		"10"
+			"playersRequiredNF"		"2"
+			"playersRequiredImp"		"2"
+			"teamOwner"		"0"
+			"locationName"		"Reactor outflow"
+			"resToGiveNF"		"2.000000"
+			"resToGiveImp"		"2.000000"
+			"reinfToTakeNF"		"0.000000"
+			"reinfToTakeImp"		"0.000000"
+			"canNFCap"		"1"
+			"canImpCap"		"1"
+			"linearMap"		"0"
+			"Mins"		"-4001.000000 -2721.000000 -2239.229980"
+			"Maxs"		"-3039.000000 -1759.000000 -2143.000000"
+		}
+		"764014"
+		{
+			"className"		"emp_cap_model"
+			"position"		"-3222.000000 -2302.000000 -2128.000000"
+			"angles"		"0.000000 44.500000 0.000000"
+			"pointNumber"		"3"
+			"visibleOnMap"		"0"
+			"model"		"models/common/props_system/flag2_nuetral.mdl"
+			"model2"		"models/common/props_system/flag2b_nf.mdl"
+			"model3"		"models/common/props_system/flag2b_imp.mdl"
+			"team"		"0"
+		}
+		"764252"
+		{
+			"className"		"emp_cap_model"
+			"position"		"-3574.000000 -1948.000000 -2128.000000"
+			"angles"		"0.000000 44.500000 0.000000"
+			"pointNumber"		"3"
+			"visibleOnMap"		"0"
+			"model"		"models/common/props_system/flag2_nuetral.mdl"
+			"model2"		"models/common/props_system/flag2b_nf.mdl"
+			"model3"		"models/common/props_system/flag2b_imp.mdl"
+			"team"		"0"
+		}
+		"764264"
+		{
+			"className"		"emp_cap_model"
+			"position"		"-3708.000000 -2428.000000 -1858.180054"
+			"angles"		"0.000000 44.500000 0.000000"
+			"pointNumber"		"3"
+			"visibleOnMap"		"1"
+			"model"		"models/common/props_system/flag2_nuetral.mdl"
+			"model2"		"models/common/props_system/flag2b_nf.mdl"
+			"model3"		"models/common/props_system/flag2b_imp.mdl"
+			"team"		"0"
+		}
+		"832354"
+		{
+			"className"		"emp_building_imp_barracks"
+			"position"		"-12954.900391 8392.000000 -1984.000000"
+			"angles"		"0.000000 178.500000 0.000000"
+			"built"		"1"
+			"health"		"250"
+			"team"		"3"
+		}
+		"832423"
+		{
+			"className"		"emp_building_nf_barracks"
+			"position"		"8448.000000 -12672.000000 -1984.000000"
+			"angles"		"0.000000 91.000000 0.000000"
+			"built"		"1"
+			"health"		"250"
+			"team"		"2"
+		}
+		"832425"
+		{
+			"className"		"emp_building_nf_armory"
+			"position"		"9088.000000 -12032.000000 -1984.000000"
+			"angles"		"0.000000 182.000000 0.000000"
+			"built"		"1"
+			"health"		"100"
+			"team"		"2"
+		}
+		"857707"
+		{
+			"className"		"emp_imp_commander"
+			"position"		"-12795.799805 9184.703125 -2007.314209"
+			"angles"		"0.001790 0.000031 1.252608"
+		}
+		"857907"
+		{
+			"className"		"emp_nf_commander"
+			"position"		"9206.003906 -12671.499023 -1919.672241"
+			"angles"		"0.000008 0.500001 -0.585846"
+		}
+		"927875"
+		{
+			"className"		"emp_resource_point"
+			"position"		"-5880.000000 5646.419922 -1916.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+			"name"		"bemid"
+		}
+		"927890"
+		{
+			"className"		"emp_resource_point_prop"
+			"position"		"-5880.000000 5644.000000 -1888.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"enabled"		"1"
+			"model"		"models/props_wasteland/buoy01.mdl"
+		}
+		"928260"
+		{
+			"className"		"emp_resource_point"
+			"position"		"5560.350098 -5568.000000 -1920.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+			"name"		"nfmid"
+		}
+		"928262"
+		{
+			"className"		"emp_resource_point_prop"
+			"position"		"5563.540039 -5565.580078 -1897.000000"
+			"angles"		"0.000000 180.000000 0.000000"
+			"enabled"		"1"
+			"model"		"models/props_wasteland/buoy01.mdl"
+		}
+	}
+}

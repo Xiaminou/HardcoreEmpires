@@ -1,0 +1,440 @@
+L 09/18/2018 - 00:05:01: SourceMod error session started
+L 09/18/2018 - 00:05:01: Info (map "con_district402") (file "errors_20180918.log")
+L 09/18/2018 - 00:05:01: [SDKTOOLS] Invalid detour address passed - Disabling detour to prevent crashes
+L 09/18/2018 - 00:05:02: [SDKTOOLS] Failed to find PlayerRunCmd offset - OnPlayerRunCmd forward disabled.
+L 09/18/2018 - 00:06:10: Error log file session closed.
+L 09/18/2018 - 00:57:37: SourceMod error session started
+L 09/18/2018 - 00:57:37: Info (map "emp_massacred_rc1_hce") (file "errors_20180918.log")
+L 09/18/2018 - 00:57:37: [SM] Exception reported: Game event "player_disconnect" has no active hook
+L 09/18/2018 - 00:57:37: [SM] Blaming: empstats.smx()
+L 09/18/2018 - 00:57:37: [SM] Call stack trace:
+L 09/18/2018 - 00:57:37: [SM]   [0] UnhookEvent
+L 09/18/2018 - 00:57:37: [SM]   [1] Line 329, dist\addons\sourcemod\scripting\empstats.sp::Deactivate()
+L 09/18/2018 - 00:57:37: [SM]   [2] Line 296, dist\addons\sourcemod\scripting\empstats.sp::CheckActivate()
+L 09/18/2018 - 00:57:37: [SM]   [3] Line 1022, dist\addons\sourcemod\scripting\empstats.sp::OnClientDisconnect_Post()
+L 09/18/2018 - 00:57:38: Error log file session closed.
+L 09/18/2018 - 00:57:40: SourceMod error session started
+L 09/18/2018 - 00:57:40: Info (map "emp_chain") (file "errors_20180918.log")
+L 09/18/2018 - 00:57:40: [SM] Exception reported: Invalid hook callback specified for game event "player_disconnect"
+L 09/18/2018 - 00:57:40: [SM] Blaming: empstats.smx()
+L 09/18/2018 - 00:57:40: [SM] Call stack trace:
+L 09/18/2018 - 00:57:40: [SM]   [0] UnhookEvent
+L 09/18/2018 - 00:57:40: [SM]   [1] Line 329, dist\addons\sourcemod\scripting\empstats.sp::Deactivate()
+L 09/18/2018 - 00:57:40: [SM]   [2] Line 296, dist\addons\sourcemod\scripting\empstats.sp::CheckActivate()
+L 09/18/2018 - 00:57:40: [SM]   [3] Line 1616, dist\addons\sourcemod\scripting\empstats.sp::EndMapChange()
+L 09/18/2018 - 00:57:42: [SM] Exception reported: Invalid hook callback specified for game event "player_disconnect"
+L 09/18/2018 - 00:57:42: [SM] Blaming: empstats.smx()
+L 09/18/2018 - 00:57:42: [SM] Call stack trace:
+L 09/18/2018 - 00:57:42: [SM]   [0] UnhookEvent
+L 09/18/2018 - 00:57:42: [SM]   [1] Line 329, dist\addons\sourcemod\scripting\empstats.sp::Deactivate()
+L 09/18/2018 - 00:57:42: [SM]   [2] Line 296, dist\addons\sourcemod\scripting\empstats.sp::CheckActivate()
+L 09/18/2018 - 00:57:42: [SM]   [3] Line 688, dist\addons\sourcemod\scripting\empstats.sp::OnClientPostAdminCheck()
+L 09/18/2018 - 00:57:42: [SM]   [5] NotifyPostAdminCheck
+L 09/18/2018 - 00:57:42: [SM]   [6] Line 2559, .\sbpp_main.sp::CheckLoadAdmins()
+L 09/18/2018 - 00:57:42: [SM]   [7] Line 1831, .\sbpp_main.sp::AdminsDone()
+L 09/18/2018 - 00:57:43: [SM] Exception reported: Invalid hook callback specified for game event "player_disconnect"
+L 09/18/2018 - 00:57:43: [SM] Blaming: empstats.smx()
+L 09/18/2018 - 00:57:43: [SM] Call stack trace:
+L 09/18/2018 - 00:57:43: [SM]   [0] UnhookEvent
+L 09/18/2018 - 00:57:43: [SM]   [1] Line 329, dist\addons\sourcemod\scripting\empstats.sp::Deactivate()
+L 09/18/2018 - 00:57:43: [SM]   [2] Line 296, dist\addons\sourcemod\scripting\empstats.sp::CheckActivate()
+L 09/18/2018 - 00:57:43: [SM]   [3] Line 688, dist\addons\sourcemod\scripting\empstats.sp::OnClientPostAdminCheck()
+L 09/18/2018 - 00:57:44: [SM] Exception reported: Invalid hook callback specified for game event "player_disconnect"
+L 09/18/2018 - 00:57:44: [SM] Blaming: empstats.smx()
+L 09/18/2018 - 00:57:44: [SM] Call stack trace:
+L 09/18/2018 - 00:57:44: [SM]   [0] UnhookEvent
+L 09/18/2018 - 00:57:44: [SM]   [1] Line 329, dist\addons\sourcemod\scripting\empstats.sp::Deactivate()
+L 09/18/2018 - 00:57:44: [SM]   [2] Line 296, dist\addons\sourcemod\scripting\empstats.sp::CheckActivate()
+L 09/18/2018 - 00:57:44: [SM]   [3] Line 688, dist\addons\sourcemod\scripting\empstats.sp::OnClientPostAdminCheck()
+L 09/18/2018 - 00:57:57: [SM] Exception reported: Game event "player_disconnect" has no active hook
+L 09/18/2018 - 00:57:57: [SM] Blaming: saysounds.smx()
+L 09/18/2018 - 00:57:57: [SM] Call stack trace:
+L 09/18/2018 - 00:57:57: [SM]   [0] UnhookEvent
+L 09/18/2018 - 00:57:57: [SM]   [1] Line 488, E:\dev\sourcemod\sourcemod-1.4.6-linux\addons\sourcemod\scripting\saysounds.sp::EnableChanged()
+L 09/18/2018 - 01:08:51: Error log file session closed.
+L 09/18/2018 - 01:08:53: SourceMod error session started
+L 09/18/2018 - 01:08:53: Info (map "emp_blackmountain_fix") (file "errors_20180918.log")
+L 09/18/2018 - 01:08:53: [SM] Exception reported: Invalid hook callback specified for game event "player_disconnect"
+L 09/18/2018 - 01:08:53: [SM] Blaming: empstats.smx()
+L 09/18/2018 - 01:08:53: [SM] Call stack trace:
+L 09/18/2018 - 01:08:53: [SM]   [0] UnhookEvent
+L 09/18/2018 - 01:08:53: [SM]   [1] Line 329, dist\addons\sourcemod\scripting\empstats.sp::Deactivate()
+L 09/18/2018 - 01:08:53: [SM]   [2] Line 296, dist\addons\sourcemod\scripting\empstats.sp::CheckActivate()
+L 09/18/2018 - 01:08:53: [SM]   [3] Line 1616, dist\addons\sourcemod\scripting\empstats.sp::EndMapChange()
+L 09/18/2018 - 01:08:58: [SM] Exception reported: Invalid hook callback specified for game event "player_disconnect"
+L 09/18/2018 - 01:08:58: [SM] Blaming: empstats.smx()
+L 09/18/2018 - 01:08:58: [SM] Call stack trace:
+L 09/18/2018 - 01:08:58: [SM]   [0] UnhookEvent
+L 09/18/2018 - 01:08:58: [SM]   [1] Line 329, dist\addons\sourcemod\scripting\empstats.sp::Deactivate()
+L 09/18/2018 - 01:08:58: [SM]   [2] Line 296, dist\addons\sourcemod\scripting\empstats.sp::CheckActivate()
+L 09/18/2018 - 01:08:58: [SM]   [3] Line 688, dist\addons\sourcemod\scripting\empstats.sp::OnClientPostAdminCheck()
+L 09/18/2018 - 01:08:58: [SM] Exception reported: Invalid hook callback specified for game event "player_disconnect"
+L 09/18/2018 - 01:08:58: [SM] Blaming: empstats.smx()
+L 09/18/2018 - 01:08:58: [SM] Call stack trace:
+L 09/18/2018 - 01:08:58: [SM]   [0] UnhookEvent
+L 09/18/2018 - 01:08:58: [SM]   [1] Line 329, dist\addons\sourcemod\scripting\empstats.sp::Deactivate()
+L 09/18/2018 - 01:08:58: [SM]   [2] Line 296, dist\addons\sourcemod\scripting\empstats.sp::CheckActivate()
+L 09/18/2018 - 01:08:58: [SM]   [3] Line 688, dist\addons\sourcemod\scripting\empstats.sp::OnClientPostAdminCheck()
+L 09/18/2018 - 01:10:58: Error log file session closed.
+L 09/18/2018 - 01:11:00: SourceMod error session started
+L 09/18/2018 - 01:11:00: Info (map "emp_raiders_b1") (file "errors_20180918.log")
+L 09/18/2018 - 01:11:00: [SM] Exception reported: Invalid hook callback specified for game event "player_disconnect"
+L 09/18/2018 - 01:11:00: [SM] Blaming: empstats.smx()
+L 09/18/2018 - 01:11:00: [SM] Call stack trace:
+L 09/18/2018 - 01:11:00: [SM]   [0] UnhookEvent
+L 09/18/2018 - 01:11:00: [SM]   [1] Line 329, dist\addons\sourcemod\scripting\empstats.sp::Deactivate()
+L 09/18/2018 - 01:11:00: [SM]   [2] Line 296, dist\addons\sourcemod\scripting\empstats.sp::CheckActivate()
+L 09/18/2018 - 01:11:00: [SM]   [3] Line 1616, dist\addons\sourcemod\scripting\empstats.sp::EndMapChange()
+L 09/18/2018 - 01:11:02: [SM] Exception reported: Invalid hook callback specified for game event "player_disconnect"
+L 09/18/2018 - 01:11:02: [SM] Blaming: empstats.smx()
+L 09/18/2018 - 01:11:02: [SM] Call stack trace:
+L 09/18/2018 - 01:11:02: [SM]   [0] UnhookEvent
+L 09/18/2018 - 01:11:02: [SM]   [1] Line 329, dist\addons\sourcemod\scripting\empstats.sp::Deactivate()
+L 09/18/2018 - 01:11:02: [SM]   [2] Line 296, dist\addons\sourcemod\scripting\empstats.sp::CheckActivate()
+L 09/18/2018 - 01:11:02: [SM]   [3] Line 688, dist\addons\sourcemod\scripting\empstats.sp::OnClientPostAdminCheck()
+L 09/18/2018 - 01:11:02: [SM]   [5] NotifyPostAdminCheck
+L 09/18/2018 - 01:11:02: [SM]   [6] Line 2559, .\sbpp_main.sp::CheckLoadAdmins()
+L 09/18/2018 - 01:11:02: [SM]   [7] Line 1831, .\sbpp_main.sp::AdminsDone()
+L 09/18/2018 - 01:11:02: [SM] Exception reported: Invalid hook callback specified for game event "player_disconnect"
+L 09/18/2018 - 01:11:02: [SM] Blaming: empstats.smx()
+L 09/18/2018 - 01:11:02: [SM] Call stack trace:
+L 09/18/2018 - 01:11:02: [SM]   [0] UnhookEvent
+L 09/18/2018 - 01:11:02: [SM]   [1] Line 329, dist\addons\sourcemod\scripting\empstats.sp::Deactivate()
+L 09/18/2018 - 01:11:02: [SM]   [2] Line 296, dist\addons\sourcemod\scripting\empstats.sp::CheckActivate()
+L 09/18/2018 - 01:11:02: [SM]   [3] Line 688, dist\addons\sourcemod\scripting\empstats.sp::OnClientPostAdminCheck()
+L 09/18/2018 - 01:11:02: [SM]   [5] NotifyPostAdminCheck
+L 09/18/2018 - 01:11:02: [SM]   [6] Line 2559, .\sbpp_main.sp::CheckLoadAdmins()
+L 09/18/2018 - 01:11:02: [SM]   [7] Line 1831, .\sbpp_main.sp::AdminsDone()
+L 09/18/2018 - 01:11:02: [SM] Exception reported: Invalid hook callback specified for game event "player_disconnect"
+L 09/18/2018 - 01:11:02: [SM] Blaming: empstats.smx()
+L 09/18/2018 - 01:11:02: [SM] Call stack trace:
+L 09/18/2018 - 01:11:02: [SM]   [0] UnhookEvent
+L 09/18/2018 - 01:11:02: [SM]   [1] Line 329, dist\addons\sourcemod\scripting\empstats.sp::Deactivate()
+L 09/18/2018 - 01:11:02: [SM]   [2] Line 296, dist\addons\sourcemod\scripting\empstats.sp::CheckActivate()
+L 09/18/2018 - 01:11:02: [SM]   [3] Line 688, dist\addons\sourcemod\scripting\empstats.sp::OnClientPostAdminCheck()
+L 09/18/2018 - 01:11:02: [SM]   [5] NotifyPostAdminCheck
+L 09/18/2018 - 01:11:02: [SM]   [6] Line 2559, .\sbpp_main.sp::CheckLoadAdmins()
+L 09/18/2018 - 01:11:02: [SM]   [7] Line 1831, .\sbpp_main.sp::AdminsDone()
+L 09/18/2018 - 01:26:15: Error log file session closed.
+L 09/18/2018 - 01:26:18: SourceMod error session started
+L 09/18/2018 - 01:26:18: Info (map "emp_homeland_b9_hce2") (file "errors_20180918.log")
+L 09/18/2018 - 01:26:18: [SM] Exception reported: Invalid hook callback specified for game event "player_disconnect"
+L 09/18/2018 - 01:26:18: [SM] Blaming: empstats.smx()
+L 09/18/2018 - 01:26:18: [SM] Call stack trace:
+L 09/18/2018 - 01:26:18: [SM]   [0] UnhookEvent
+L 09/18/2018 - 01:26:18: [SM]   [1] Line 329, dist\addons\sourcemod\scripting\empstats.sp::Deactivate()
+L 09/18/2018 - 01:26:18: [SM]   [2] Line 296, dist\addons\sourcemod\scripting\empstats.sp::CheckActivate()
+L 09/18/2018 - 01:26:18: [SM]   [3] Line 1616, dist\addons\sourcemod\scripting\empstats.sp::EndMapChange()
+L 09/18/2018 - 01:26:19: [SM] Exception reported: Invalid hook callback specified for game event "player_disconnect"
+L 09/18/2018 - 01:26:19: [SM] Blaming: empstats.smx()
+L 09/18/2018 - 01:26:19: [SM] Call stack trace:
+L 09/18/2018 - 01:26:19: [SM]   [0] UnhookEvent
+L 09/18/2018 - 01:26:19: [SM]   [1] Line 329, dist\addons\sourcemod\scripting\empstats.sp::Deactivate()
+L 09/18/2018 - 01:26:19: [SM]   [2] Line 296, dist\addons\sourcemod\scripting\empstats.sp::CheckActivate()
+L 09/18/2018 - 01:26:19: [SM]   [3] Line 688, dist\addons\sourcemod\scripting\empstats.sp::OnClientPostAdminCheck()
+L 09/18/2018 - 01:26:19: [SM]   [5] NotifyPostAdminCheck
+L 09/18/2018 - 01:26:19: [SM]   [6] Line 2559, .\sbpp_main.sp::CheckLoadAdmins()
+L 09/18/2018 - 01:26:19: [SM]   [7] Line 1831, .\sbpp_main.sp::AdminsDone()
+L 09/18/2018 - 01:26:22: [SM] Exception reported: Invalid hook callback specified for game event "player_disconnect"
+L 09/18/2018 - 01:26:22: [SM] Blaming: empstats.smx()
+L 09/18/2018 - 01:26:22: [SM] Call stack trace:
+L 09/18/2018 - 01:26:22: [SM]   [0] UnhookEvent
+L 09/18/2018 - 01:26:22: [SM]   [1] Line 329, dist\addons\sourcemod\scripting\empstats.sp::Deactivate()
+L 09/18/2018 - 01:26:22: [SM]   [2] Line 296, dist\addons\sourcemod\scripting\empstats.sp::CheckActivate()
+L 09/18/2018 - 01:26:22: [SM]   [3] Line 688, dist\addons\sourcemod\scripting\empstats.sp::OnClientPostAdminCheck()
+L 09/18/2018 - 01:26:32: [SM] Exception reported: Invalid hook callback specified for game event "player_disconnect"
+L 09/18/2018 - 01:26:32: [SM] Blaming: empstats.smx()
+L 09/18/2018 - 01:26:32: [SM] Call stack trace:
+L 09/18/2018 - 01:26:32: [SM]   [0] UnhookEvent
+L 09/18/2018 - 01:26:32: [SM]   [1] Line 329, dist\addons\sourcemod\scripting\empstats.sp::Deactivate()
+L 09/18/2018 - 01:26:32: [SM]   [2] Line 296, dist\addons\sourcemod\scripting\empstats.sp::CheckActivate()
+L 09/18/2018 - 01:26:32: [SM]   [3] Line 1022, dist\addons\sourcemod\scripting\empstats.sp::OnClientDisconnect_Post()
+L 09/18/2018 - 01:26:33: [SM] Exception reported: Invalid hook callback specified for game event "player_disconnect"
+L 09/18/2018 - 01:26:33: [SM] Blaming: empstats.smx()
+L 09/18/2018 - 01:26:33: [SM] Call stack trace:
+L 09/18/2018 - 01:26:33: [SM]   [0] UnhookEvent
+L 09/18/2018 - 01:26:33: [SM]   [1] Line 329, dist\addons\sourcemod\scripting\empstats.sp::Deactivate()
+L 09/18/2018 - 01:26:33: [SM]   [2] Line 296, dist\addons\sourcemod\scripting\empstats.sp::CheckActivate()
+L 09/18/2018 - 01:26:33: [SM]   [3] Line 688, dist\addons\sourcemod\scripting\empstats.sp::OnClientPostAdminCheck()
+L 09/18/2018 - 01:40:43: Error log file session closed.
+L 09/18/2018 - 01:40:45: SourceMod error session started
+L 09/18/2018 - 01:40:45: Info (map "con_district402") (file "errors_20180918.log")
+L 09/18/2018 - 01:40:45: [SM] Exception reported: Invalid hook callback specified for game event "player_disconnect"
+L 09/18/2018 - 01:40:45: [SM] Blaming: empstats.smx()
+L 09/18/2018 - 01:40:45: [SM] Call stack trace:
+L 09/18/2018 - 01:40:45: [SM]   [0] UnhookEvent
+L 09/18/2018 - 01:40:45: [SM]   [1] Line 329, dist\addons\sourcemod\scripting\empstats.sp::Deactivate()
+L 09/18/2018 - 01:40:45: [SM]   [2] Line 296, dist\addons\sourcemod\scripting\empstats.sp::CheckActivate()
+L 09/18/2018 - 01:40:45: [SM]   [3] Line 1616, dist\addons\sourcemod\scripting\empstats.sp::EndMapChange()
+L 09/18/2018 - 01:40:47: [SM] Exception reported: Invalid hook callback specified for game event "player_disconnect"
+L 09/18/2018 - 01:40:47: [SM] Blaming: empstats.smx()
+L 09/18/2018 - 01:40:47: [SM] Call stack trace:
+L 09/18/2018 - 01:40:47: [SM]   [0] UnhookEvent
+L 09/18/2018 - 01:40:47: [SM]   [1] Line 329, dist\addons\sourcemod\scripting\empstats.sp::Deactivate()
+L 09/18/2018 - 01:40:47: [SM]   [2] Line 296, dist\addons\sourcemod\scripting\empstats.sp::CheckActivate()
+L 09/18/2018 - 01:40:47: [SM]   [3] Line 688, dist\addons\sourcemod\scripting\empstats.sp::OnClientPostAdminCheck()
+L 09/18/2018 - 01:40:47: [SM]   [5] NotifyPostAdminCheck
+L 09/18/2018 - 01:40:47: [SM]   [6] Line 2559, .\sbpp_main.sp::CheckLoadAdmins()
+L 09/18/2018 - 01:40:47: [SM]   [7] Line 1831, .\sbpp_main.sp::AdminsDone()
+L 09/18/2018 - 01:40:47: [SM] Exception reported: Invalid hook callback specified for game event "player_disconnect"
+L 09/18/2018 - 01:40:47: [SM] Blaming: empstats.smx()
+L 09/18/2018 - 01:40:47: [SM] Call stack trace:
+L 09/18/2018 - 01:40:47: [SM]   [0] UnhookEvent
+L 09/18/2018 - 01:40:47: [SM]   [1] Line 329, dist\addons\sourcemod\scripting\empstats.sp::Deactivate()
+L 09/18/2018 - 01:40:47: [SM]   [2] Line 296, dist\addons\sourcemod\scripting\empstats.sp::CheckActivate()
+L 09/18/2018 - 01:40:47: [SM]   [3] Line 688, dist\addons\sourcemod\scripting\empstats.sp::OnClientPostAdminCheck()
+L 09/18/2018 - 01:40:47: [SM]   [5] NotifyPostAdminCheck
+L 09/18/2018 - 01:40:47: [SM]   [6] Line 2559, .\sbpp_main.sp::CheckLoadAdmins()
+L 09/18/2018 - 01:40:47: [SM]   [7] Line 1831, .\sbpp_main.sp::AdminsDone()
+L 09/18/2018 - 01:40:48: [SM] Exception reported: Invalid hook callback specified for game event "player_disconnect"
+L 09/18/2018 - 01:40:48: [SM] Blaming: empstats.smx()
+L 09/18/2018 - 01:40:48: [SM] Call stack trace:
+L 09/18/2018 - 01:40:48: [SM]   [0] UnhookEvent
+L 09/18/2018 - 01:40:48: [SM]   [1] Line 329, dist\addons\sourcemod\scripting\empstats.sp::Deactivate()
+L 09/18/2018 - 01:40:48: [SM]   [2] Line 296, dist\addons\sourcemod\scripting\empstats.sp::CheckActivate()
+L 09/18/2018 - 01:40:48: [SM]   [3] Line 688, dist\addons\sourcemod\scripting\empstats.sp::OnClientPostAdminCheck()
+L 09/18/2018 - 01:57:53: Error log file session closed.
+L 09/18/2018 - 01:57:56: SourceMod error session started
+L 09/18/2018 - 01:57:56: Info (map "emp_canyon") (file "errors_20180918.log")
+L 09/18/2018 - 01:57:56: [SM] Exception reported: Invalid hook callback specified for game event "player_disconnect"
+L 09/18/2018 - 01:57:56: [SM] Blaming: empstats.smx()
+L 09/18/2018 - 01:57:56: [SM] Call stack trace:
+L 09/18/2018 - 01:57:56: [SM]   [0] UnhookEvent
+L 09/18/2018 - 01:57:56: [SM]   [1] Line 329, dist\addons\sourcemod\scripting\empstats.sp::Deactivate()
+L 09/18/2018 - 01:57:56: [SM]   [2] Line 296, dist\addons\sourcemod\scripting\empstats.sp::CheckActivate()
+L 09/18/2018 - 01:57:56: [SM]   [3] Line 1616, dist\addons\sourcemod\scripting\empstats.sp::EndMapChange()
+L 09/18/2018 - 01:57:57: [SM] Exception reported: Invalid hook callback specified for game event "player_disconnect"
+L 09/18/2018 - 01:57:57: [SM] Blaming: empstats.smx()
+L 09/18/2018 - 01:57:57: [SM] Call stack trace:
+L 09/18/2018 - 01:57:57: [SM]   [0] UnhookEvent
+L 09/18/2018 - 01:57:57: [SM]   [1] Line 329, dist\addons\sourcemod\scripting\empstats.sp::Deactivate()
+L 09/18/2018 - 01:57:57: [SM]   [2] Line 296, dist\addons\sourcemod\scripting\empstats.sp::CheckActivate()
+L 09/18/2018 - 01:57:57: [SM]   [3] Line 688, dist\addons\sourcemod\scripting\empstats.sp::OnClientPostAdminCheck()
+L 09/18/2018 - 01:57:57: [SM]   [5] NotifyPostAdminCheck
+L 09/18/2018 - 01:57:57: [SM]   [6] Line 2559, .\sbpp_main.sp::CheckLoadAdmins()
+L 09/18/2018 - 01:57:57: [SM]   [7] Line 1831, .\sbpp_main.sp::AdminsDone()
+L 09/18/2018 - 01:57:58: [SM] Exception reported: Invalid hook callback specified for game event "player_disconnect"
+L 09/18/2018 - 01:57:58: [SM] Blaming: empstats.smx()
+L 09/18/2018 - 01:57:58: [SM] Call stack trace:
+L 09/18/2018 - 01:57:58: [SM]   [0] UnhookEvent
+L 09/18/2018 - 01:57:58: [SM]   [1] Line 329, dist\addons\sourcemod\scripting\empstats.sp::Deactivate()
+L 09/18/2018 - 01:57:58: [SM]   [2] Line 296, dist\addons\sourcemod\scripting\empstats.sp::CheckActivate()
+L 09/18/2018 - 01:57:58: [SM]   [3] Line 688, dist\addons\sourcemod\scripting\empstats.sp::OnClientPostAdminCheck()
+L 09/18/2018 - 01:57:59: [SM] Exception reported: Invalid hook callback specified for game event "player_disconnect"
+L 09/18/2018 - 01:57:59: [SM] Blaming: empstats.smx()
+L 09/18/2018 - 01:57:59: [SM] Call stack trace:
+L 09/18/2018 - 01:57:59: [SM]   [0] UnhookEvent
+L 09/18/2018 - 01:57:59: [SM]   [1] Line 329, dist\addons\sourcemod\scripting\empstats.sp::Deactivate()
+L 09/18/2018 - 01:57:59: [SM]   [2] Line 296, dist\addons\sourcemod\scripting\empstats.sp::CheckActivate()
+L 09/18/2018 - 01:57:59: [SM]   [3] Line 688, dist\addons\sourcemod\scripting\empstats.sp::OnClientPostAdminCheck()
+L 09/18/2018 - 01:58:01: [SM] Exception reported: Invalid hook callback specified for game event "player_disconnect"
+L 09/18/2018 - 01:58:01: [SM] Blaming: empstats.smx()
+L 09/18/2018 - 01:58:01: [SM] Call stack trace:
+L 09/18/2018 - 01:58:01: [SM]   [0] UnhookEvent
+L 09/18/2018 - 01:58:01: [SM]   [1] Line 329, dist\addons\sourcemod\scripting\empstats.sp::Deactivate()
+L 09/18/2018 - 01:58:01: [SM]   [2] Line 296, dist\addons\sourcemod\scripting\empstats.sp::CheckActivate()
+L 09/18/2018 - 01:58:01: [SM]   [3] Line 1022, dist\addons\sourcemod\scripting\empstats.sp::OnClientDisconnect_Post()
+L 09/18/2018 - 01:58:01: [SM] Exception reported: Invalid hook callback specified for game event "player_disconnect"
+L 09/18/2018 - 01:58:01: [SM] Blaming: empstats.smx()
+L 09/18/2018 - 01:58:01: [SM] Call stack trace:
+L 09/18/2018 - 01:58:01: [SM]   [0] UnhookEvent
+L 09/18/2018 - 01:58:01: [SM]   [1] Line 329, dist\addons\sourcemod\scripting\empstats.sp::Deactivate()
+L 09/18/2018 - 01:58:01: [SM]   [2] Line 296, dist\addons\sourcemod\scripting\empstats.sp::CheckActivate()
+L 09/18/2018 - 01:58:01: [SM]   [3] Line 1022, dist\addons\sourcemod\scripting\empstats.sp::OnClientDisconnect_Post()
+L 09/18/2018 - 01:58:01: [SM] Exception reported: Invalid hook callback specified for game event "player_disconnect"
+L 09/18/2018 - 01:58:01: [SM] Blaming: empstats.smx()
+L 09/18/2018 - 01:58:01: [SM] Call stack trace:
+L 09/18/2018 - 01:58:01: [SM]   [0] UnhookEvent
+L 09/18/2018 - 01:58:01: [SM]   [1] Line 329, dist\addons\sourcemod\scripting\empstats.sp::Deactivate()
+L 09/18/2018 - 01:58:01: [SM]   [2] Line 296, dist\addons\sourcemod\scripting\empstats.sp::CheckActivate()
+L 09/18/2018 - 01:58:01: [SM]   [3] Line 1022, dist\addons\sourcemod\scripting\empstats.sp::OnClientDisconnect_Post()
+L 09/18/2018 - 01:58:01: [SM] Exception reported: Invalid hook callback specified for game event "player_disconnect"
+L 09/18/2018 - 01:58:01: [SM] Blaming: empstats.smx()
+L 09/18/2018 - 01:58:01: [SM] Call stack trace:
+L 09/18/2018 - 01:58:01: [SM]   [0] UnhookEvent
+L 09/18/2018 - 01:58:01: [SM]   [1] Line 329, dist\addons\sourcemod\scripting\empstats.sp::Deactivate()
+L 09/18/2018 - 01:58:01: [SM]   [2] Line 296, dist\addons\sourcemod\scripting\empstats.sp::CheckActivate()
+L 09/18/2018 - 01:58:01: [SM]   [3] Line 1022, dist\addons\sourcemod\scripting\empstats.sp::OnClientDisconnect_Post()
+L 09/18/2018 - 01:58:01: [SM] Exception reported: Invalid hook callback specified for game event "player_disconnect"
+L 09/18/2018 - 01:58:01: [SM] Blaming: empstats.smx()
+L 09/18/2018 - 01:58:01: [SM] Call stack trace:
+L 09/18/2018 - 01:58:01: [SM]   [0] UnhookEvent
+L 09/18/2018 - 01:58:01: [SM]   [1] Line 329, dist\addons\sourcemod\scripting\empstats.sp::Deactivate()
+L 09/18/2018 - 01:58:01: [SM]   [2] Line 296, dist\addons\sourcemod\scripting\empstats.sp::CheckActivate()
+L 09/18/2018 - 01:58:01: [SM]   [3] Line 1022, dist\addons\sourcemod\scripting\empstats.sp::OnClientDisconnect_Post()
+L 09/18/2018 - 01:58:02: Error log file session closed.
+L 09/18/2018 - 01:58:04: SourceMod error session started
+L 09/18/2018 - 01:58:04: Info (map "emp_drygulch_a7") (file "errors_20180918.log")
+L 09/18/2018 - 01:58:04: [SM] Exception reported: Invalid hook callback specified for game event "player_disconnect"
+L 09/18/2018 - 01:58:04: [SM] Blaming: empstats.smx()
+L 09/18/2018 - 01:58:04: [SM] Call stack trace:
+L 09/18/2018 - 01:58:04: [SM]   [0] UnhookEvent
+L 09/18/2018 - 01:58:04: [SM]   [1] Line 329, dist\addons\sourcemod\scripting\empstats.sp::Deactivate()
+L 09/18/2018 - 01:58:04: [SM]   [2] Line 296, dist\addons\sourcemod\scripting\empstats.sp::CheckActivate()
+L 09/18/2018 - 01:58:04: [SM]   [3] Line 1616, dist\addons\sourcemod\scripting\empstats.sp::EndMapChange()
+L 09/18/2018 - 01:58:05: [SM] Exception reported: Invalid hook callback specified for game event "player_disconnect"
+L 09/18/2018 - 01:58:05: [SM] Blaming: empstats.smx()
+L 09/18/2018 - 01:58:05: [SM] Call stack trace:
+L 09/18/2018 - 01:58:05: [SM]   [0] UnhookEvent
+L 09/18/2018 - 01:58:05: [SM]   [1] Line 329, dist\addons\sourcemod\scripting\empstats.sp::Deactivate()
+L 09/18/2018 - 01:58:05: [SM]   [2] Line 296, dist\addons\sourcemod\scripting\empstats.sp::CheckActivate()
+L 09/18/2018 - 01:58:05: [SM]   [3] Line 688, dist\addons\sourcemod\scripting\empstats.sp::OnClientPostAdminCheck()
+L 09/18/2018 - 01:58:06: [SM] Exception reported: Invalid hook callback specified for game event "player_disconnect"
+L 09/18/2018 - 01:58:06: [SM] Blaming: empstats.smx()
+L 09/18/2018 - 01:58:06: [SM] Call stack trace:
+L 09/18/2018 - 01:58:06: [SM]   [0] UnhookEvent
+L 09/18/2018 - 01:58:06: [SM]   [1] Line 329, dist\addons\sourcemod\scripting\empstats.sp::Deactivate()
+L 09/18/2018 - 01:58:06: [SM]   [2] Line 296, dist\addons\sourcemod\scripting\empstats.sp::CheckActivate()
+L 09/18/2018 - 01:58:06: [SM]   [3] Line 688, dist\addons\sourcemod\scripting\empstats.sp::OnClientPostAdminCheck()
+L 09/18/2018 - 02:16:26: [SM] Exception reported: Invalid timer handle 361e0385 (error 1)
+L 09/18/2018 - 02:16:26: [SM] Blaming: umc-emp-mapvote.smx()
+L 09/18/2018 - 02:16:26: [SM] Call stack trace:
+L 09/18/2018 - 02:16:26: [SM]   [0] KillTimer
+L 09/18/2018 - 02:16:26: [SM]   [1] Line 686, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-emp-mapvote.sp::UMC_OnNextmapSet()
+L 09/18/2018 - 02:16:26: [SM]   [3] Call_Finish
+L 09/18/2018 - 02:16:26: [SM]   [4] Line 4834, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::DoMapChange()
+L 09/18/2018 - 02:16:26: [SM]   [5] Line 4267, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteWinner()
+L 09/18/2018 - 02:16:26: [SM]   [6] Line 3819, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteWinner()
+L 09/18/2018 - 02:16:26: [SM]   [7] Line 3795, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteResults()
+L 09/18/2018 - 02:16:26: [SM]   [8] Line 1277, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Native_UMCVoteManagerComplete()
+L 09/18/2018 - 02:16:26: [SM]   [10] UMC_VoteManagerVoteCompleted
+L 09/18/2018 - 02:16:26: [SM]   [11] Line 2309, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteResults()
+L 09/18/2018 - 02:16:32: Error log file session closed.
+L 09/18/2018 - 02:16:35: SourceMod error session started
+L 09/18/2018 - 02:16:35: Info (map "emp_streetsoffire_215") (file "errors_20180918.log")
+L 09/18/2018 - 02:16:35: [SM] Exception reported: Invalid hook callback specified for game event "player_disconnect"
+L 09/18/2018 - 02:16:35: [SM] Blaming: empstats.smx()
+L 09/18/2018 - 02:16:35: [SM] Call stack trace:
+L 09/18/2018 - 02:16:35: [SM]   [0] UnhookEvent
+L 09/18/2018 - 02:16:35: [SM]   [1] Line 329, dist\addons\sourcemod\scripting\empstats.sp::Deactivate()
+L 09/18/2018 - 02:16:35: [SM]   [2] Line 296, dist\addons\sourcemod\scripting\empstats.sp::CheckActivate()
+L 09/18/2018 - 02:16:35: [SM]   [3] Line 1616, dist\addons\sourcemod\scripting\empstats.sp::EndMapChange()
+L 09/18/2018 - 02:16:36: [SM] Exception reported: Invalid hook callback specified for game event "player_disconnect"
+L 09/18/2018 - 02:16:36: [SM] Blaming: empstats.smx()
+L 09/18/2018 - 02:16:36: [SM] Call stack trace:
+L 09/18/2018 - 02:16:36: [SM]   [0] UnhookEvent
+L 09/18/2018 - 02:16:36: [SM]   [1] Line 329, dist\addons\sourcemod\scripting\empstats.sp::Deactivate()
+L 09/18/2018 - 02:16:36: [SM]   [2] Line 296, dist\addons\sourcemod\scripting\empstats.sp::CheckActivate()
+L 09/18/2018 - 02:16:36: [SM]   [3] Line 688, dist\addons\sourcemod\scripting\empstats.sp::OnClientPostAdminCheck()
+L 09/18/2018 - 02:16:36: [SM]   [5] NotifyPostAdminCheck
+L 09/18/2018 - 02:16:36: [SM]   [6] Line 2559, .\sbpp_main.sp::CheckLoadAdmins()
+L 09/18/2018 - 02:16:36: [SM]   [7] Line 1831, .\sbpp_main.sp::AdminsDone()
+L 09/18/2018 - 02:16:37: [SM] Exception reported: Invalid hook callback specified for game event "player_disconnect"
+L 09/18/2018 - 02:16:37: [SM] Blaming: empstats.smx()
+L 09/18/2018 - 02:16:37: [SM] Call stack trace:
+L 09/18/2018 - 02:16:37: [SM]   [0] UnhookEvent
+L 09/18/2018 - 02:16:37: [SM]   [1] Line 329, dist\addons\sourcemod\scripting\empstats.sp::Deactivate()
+L 09/18/2018 - 02:16:37: [SM]   [2] Line 296, dist\addons\sourcemod\scripting\empstats.sp::CheckActivate()
+L 09/18/2018 - 02:16:37: [SM]   [3] Line 688, dist\addons\sourcemod\scripting\empstats.sp::OnClientPostAdminCheck()
+L 09/18/2018 - 02:16:37: [SM]   [5] NotifyPostAdminCheck
+L 09/18/2018 - 02:16:37: [SM]   [6] Line 2559, .\sbpp_main.sp::CheckLoadAdmins()
+L 09/18/2018 - 02:16:37: [SM]   [7] Line 2040, .\sbpp_main.sp::LoadGroupsOverrides()
+L 09/18/2018 - 02:16:51: [SM] Exception reported: Invalid hook callback specified for game event "player_disconnect"
+L 09/18/2018 - 02:16:51: [SM] Blaming: empstats.smx()
+L 09/18/2018 - 02:16:51: [SM] Call stack trace:
+L 09/18/2018 - 02:16:51: [SM]   [0] UnhookEvent
+L 09/18/2018 - 02:16:51: [SM]   [1] Line 329, dist\addons\sourcemod\scripting\empstats.sp::Deactivate()
+L 09/18/2018 - 02:16:51: [SM]   [2] Line 296, dist\addons\sourcemod\scripting\empstats.sp::CheckActivate()
+L 09/18/2018 - 02:16:51: [SM]   [3] Line 688, dist\addons\sourcemod\scripting\empstats.sp::OnClientPostAdminCheck()
+L 09/18/2018 - 03:04:03: [SM] Exception reported: Invalid timer handle 45070348 (error 1)
+L 09/18/2018 - 03:04:03: [SM] Blaming: umc-emp-mapvote.smx()
+L 09/18/2018 - 03:04:03: [SM] Call stack trace:
+L 09/18/2018 - 03:04:03: [SM]   [0] KillTimer
+L 09/18/2018 - 03:04:03: [SM]   [1] Line 686, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-emp-mapvote.sp::UMC_OnNextmapSet()
+L 09/18/2018 - 03:04:03: [SM]   [3] Call_Finish
+L 09/18/2018 - 03:04:03: [SM]   [4] Line 4834, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::DoMapChange()
+L 09/18/2018 - 03:04:03: [SM]   [5] Line 4267, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteWinner()
+L 09/18/2018 - 03:04:03: [SM]   [6] Line 3819, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteWinner()
+L 09/18/2018 - 03:04:03: [SM]   [7] Line 3795, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteResults()
+L 09/18/2018 - 03:04:03: [SM]   [8] Line 1277, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Native_UMCVoteManagerComplete()
+L 09/18/2018 - 03:04:03: [SM]   [10] UMC_VoteManagerVoteCompleted
+L 09/18/2018 - 03:04:03: [SM]   [11] Line 2309, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteResults()
+L 09/18/2018 - 03:04:09: Error log file session closed.
+L 09/18/2018 - 03:04:12: SourceMod error session started
+L 09/18/2018 - 03:04:12: Info (map "con_urbanchaos_fix") (file "errors_20180918.log")
+L 09/18/2018 - 03:04:12: [SM] Exception reported: Invalid hook callback specified for game event "player_disconnect"
+L 09/18/2018 - 03:04:12: [SM] Blaming: empstats.smx()
+L 09/18/2018 - 03:04:12: [SM] Call stack trace:
+L 09/18/2018 - 03:04:12: [SM]   [0] UnhookEvent
+L 09/18/2018 - 03:04:12: [SM]   [1] Line 329, dist\addons\sourcemod\scripting\empstats.sp::Deactivate()
+L 09/18/2018 - 03:04:12: [SM]   [2] Line 296, dist\addons\sourcemod\scripting\empstats.sp::CheckActivate()
+L 09/18/2018 - 03:04:12: [SM]   [3] Line 1616, dist\addons\sourcemod\scripting\empstats.sp::EndMapChange()
+L 09/18/2018 - 03:04:15: [SM] Exception reported: Invalid hook callback specified for game event "player_disconnect"
+L 09/18/2018 - 03:04:15: [SM] Blaming: empstats.smx()
+L 09/18/2018 - 03:04:15: [SM] Call stack trace:
+L 09/18/2018 - 03:04:15: [SM]   [0] UnhookEvent
+L 09/18/2018 - 03:04:15: [SM]   [1] Line 329, dist\addons\sourcemod\scripting\empstats.sp::Deactivate()
+L 09/18/2018 - 03:04:15: [SM]   [2] Line 296, dist\addons\sourcemod\scripting\empstats.sp::CheckActivate()
+L 09/18/2018 - 03:04:15: [SM]   [3] Line 688, dist\addons\sourcemod\scripting\empstats.sp::OnClientPostAdminCheck()
+L 09/18/2018 - 03:04:20: [SM] Exception reported: Invalid hook callback specified for game event "player_disconnect"
+L 09/18/2018 - 03:04:20: [SM] Blaming: empstats.smx()
+L 09/18/2018 - 03:04:20: [SM] Call stack trace:
+L 09/18/2018 - 03:04:20: [SM]   [0] UnhookEvent
+L 09/18/2018 - 03:04:20: [SM]   [1] Line 329, dist\addons\sourcemod\scripting\empstats.sp::Deactivate()
+L 09/18/2018 - 03:04:20: [SM]   [2] Line 296, dist\addons\sourcemod\scripting\empstats.sp::CheckActivate()
+L 09/18/2018 - 03:04:20: [SM]   [3] Line 688, dist\addons\sourcemod\scripting\empstats.sp::OnClientPostAdminCheck()
+L 09/18/2018 - 03:45:56: [SM] Exception reported: Invalid hook callback specified for game event "player_disconnect"
+L 09/18/2018 - 03:45:56: [SM] Blaming: empstats.smx()
+L 09/18/2018 - 03:45:56: [SM] Call stack trace:
+L 09/18/2018 - 03:45:56: [SM]   [0] UnhookEvent
+L 09/18/2018 - 03:45:56: [SM]   [1] Line 329, dist\addons\sourcemod\scripting\empstats.sp::Deactivate()
+L 09/18/2018 - 03:45:56: [SM]   [2] Line 296, dist\addons\sourcemod\scripting\empstats.sp::CheckActivate()
+L 09/18/2018 - 03:45:56: [SM]   [3] Line 688, dist\addons\sourcemod\scripting\empstats.sp::OnClientPostAdminCheck()
+L 09/18/2018 - 03:47:56: [SM] Exception reported: Invalid hook callback specified for game event "player_disconnect"
+L 09/18/2018 - 03:47:56: [SM] Blaming: empstats.smx()
+L 09/18/2018 - 03:47:56: [SM] Call stack trace:
+L 09/18/2018 - 03:47:56: [SM]   [0] UnhookEvent
+L 09/18/2018 - 03:47:56: [SM]   [1] Line 329, dist\addons\sourcemod\scripting\empstats.sp::Deactivate()
+L 09/18/2018 - 03:47:56: [SM]   [2] Line 296, dist\addons\sourcemod\scripting\empstats.sp::CheckActivate()
+L 09/18/2018 - 03:47:56: [SM]   [3] Line 688, dist\addons\sourcemod\scripting\empstats.sp::OnClientPostAdminCheck()
+L 09/18/2018 - 03:55:13: [SM] Exception reported: Invalid timer handle 49470361 (error 1)
+L 09/18/2018 - 03:55:13: [SM] Blaming: umc-emp-mapvote.smx()
+L 09/18/2018 - 03:55:13: [SM] Call stack trace:
+L 09/18/2018 - 03:55:13: [SM]   [0] KillTimer
+L 09/18/2018 - 03:55:13: [SM]   [1] Line 686, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-emp-mapvote.sp::UMC_OnNextmapSet()
+L 09/18/2018 - 03:55:13: [SM]   [3] Call_Finish
+L 09/18/2018 - 03:55:13: [SM]   [4] Line 4834, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::DoMapChange()
+L 09/18/2018 - 03:55:13: [SM]   [5] Line 4267, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteWinner()
+L 09/18/2018 - 03:55:13: [SM]   [6] Line 3819, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteWinner()
+L 09/18/2018 - 03:55:13: [SM]   [7] Line 3795, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::ProcessVoteResults()
+L 09/18/2018 - 03:55:13: [SM]   [8] Line 1277, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Native_UMCVoteManagerComplete()
+L 09/18/2018 - 03:55:13: [SM]   [10] UMC_VoteManagerVoteCompleted
+L 09/18/2018 - 03:55:13: [SM]   [11] Line 2309, D:\Documents\My Folder\Empires Custom UMC Stuff\SourceMod\Workspace\umc-core.sp::Handle_MapVoteResults()
+L 09/18/2018 - 03:55:18: Error log file session closed.
+L 09/18/2018 - 03:55:20: SourceMod error session started
+L 09/18/2018 - 03:55:20: Info (map "emp_vehicletraining_2013") (file "errors_20180918.log")
+L 09/18/2018 - 03:55:20: [SM] Exception reported: Invalid hook callback specified for game event "player_disconnect"
+L 09/18/2018 - 03:55:20: [SM] Blaming: empstats.smx()
+L 09/18/2018 - 03:55:20: [SM] Call stack trace:
+L 09/18/2018 - 03:55:20: [SM]   [0] UnhookEvent
+L 09/18/2018 - 03:55:20: [SM]   [1] Line 329, dist\addons\sourcemod\scripting\empstats.sp::Deactivate()
+L 09/18/2018 - 03:55:20: [SM]   [2] Line 296, dist\addons\sourcemod\scripting\empstats.sp::CheckActivate()
+L 09/18/2018 - 03:55:20: [SM]   [3] Line 1616, dist\addons\sourcemod\scripting\empstats.sp::EndMapChange()
+L 09/18/2018 - 03:55:24: [SM] Exception reported: Invalid hook callback specified for game event "player_disconnect"
+L 09/18/2018 - 03:55:24: [SM] Blaming: empstats.smx()
+L 09/18/2018 - 03:55:24: [SM] Call stack trace:
+L 09/18/2018 - 03:55:24: [SM]   [0] UnhookEvent
+L 09/18/2018 - 03:55:24: [SM]   [1] Line 329, dist\addons\sourcemod\scripting\empstats.sp::Deactivate()
+L 09/18/2018 - 03:55:24: [SM]   [2] Line 296, dist\addons\sourcemod\scripting\empstats.sp::CheckActivate()
+L 09/18/2018 - 03:55:24: [SM]   [3] Line 688, dist\addons\sourcemod\scripting\empstats.sp::OnClientPostAdminCheck()
+L 09/18/2018 - 03:55:24: [SM] Exception reported: Invalid hook callback specified for game event "player_disconnect"
+L 09/18/2018 - 03:55:24: [SM] Blaming: empstats.smx()
+L 09/18/2018 - 03:55:24: [SM] Call stack trace:
+L 09/18/2018 - 03:55:24: [SM]   [0] UnhookEvent
+L 09/18/2018 - 03:55:24: [SM]   [1] Line 329, dist\addons\sourcemod\scripting\empstats.sp::Deactivate()
+L 09/18/2018 - 03:55:24: [SM]   [2] Line 296, dist\addons\sourcemod\scripting\empstats.sp::CheckActivate()
+L 09/18/2018 - 03:55:24: [SM]   [3] Line 688, dist\addons\sourcemod\scripting\empstats.sp::OnClientPostAdminCheck()
+L 09/18/2018 - 04:33:47: Error log file session closed.
+L 09/18/2018 - 04:33:50: SourceMod error session started
+L 09/18/2018 - 04:33:50: Info (map "con_blast_ob2") (file "errors_20180918.log")
+L 09/18/2018 - 04:33:50: [SM] Exception reported: Invalid hook callback specified for game event "player_disconnect"
+L 09/18/2018 - 04:33:50: [SM] Blaming: empstats.smx()
+L 09/18/2018 - 04:33:50: [SM] Call stack trace:
+L 09/18/2018 - 04:33:50: [SM]   [0] UnhookEvent
+L 09/18/2018 - 04:33:50: [SM]   [1] Line 329, dist\addons\sourcemod\scripting\empstats.sp::Deactivate()
+L 09/18/2018 - 04:33:50: [SM]   [2] Line 296, dist\addons\sourcemod\scripting\empstats.sp::CheckActivate()
+L 09/18/2018 - 04:33:50: [SM]   [3] Line 1616, dist\addons\sourcemod\scripting\empstats.sp::EndMapChange()
+L 09/18/2018 - 18:05:06: SourceMod error session started
+L 09/18/2018 - 18:05:06: Info (map "con_district402") (file "errors_20180918.log")
+L 09/18/2018 - 18:05:06: [SDKTOOLS] Invalid detour address passed - Disabling detour to prevent crashes
+L 09/18/2018 - 18:05:06: [SDKTOOLS] Failed to find PlayerRunCmd offset - OnPlayerRunCmd forward disabled.

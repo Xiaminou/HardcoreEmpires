@@ -1,0 +1,449 @@
+"Scenario"
+{
+	"NF_Res"		"600"
+	"BE_Res"		"600"
+	"NF_Tickets"		"151"
+	"BE_Tickets"		"151"
+	"NF_Research"
+	{
+		"0"		"1"
+	}
+	"BE_Research"
+	{
+		"0"		"1"
+	}
+	"Entities"
+	{
+		"5000150"
+		{
+			"className"		"emp_building_imp_mgturret"
+			"position"		"-451.603882 0.258680 -239.968750"
+			"angles"		"0.000000 -179.445190 0.000000"
+			"built"		"1"
+			"health"		"100"
+			"team"		"3"
+			"level"		"2"
+			"model"		"models/imperial/turrets/mg_lvl2/imp_turret_mg_lvl2.mdl"
+		}
+		"2225"
+		{
+			"className"		"emp_resource_point_prop"
+			"position"		"1613.810059 -13016.900391 -239.011002"
+			"angles"		"0.000000 0.000000 0.000000"
+			"enabled"		"1"
+			"model"		"models/props_wasteland/rockcliff01f.mdl"
+		}
+		"2227"
+		{
+			"className"		"emp_resource_point"
+			"position"		"1607.910034 -13032.900391 -206.011002"
+			"angles"		"0.000000 0.000000 0.000000"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+			"name"		"res_1"
+		}
+		"2229"
+		{
+			"className"		"emp_resource_point_prop"
+			"position"		"-1017.639954 13073.500000 -216.425995"
+			"angles"		"0.000000 42.500000 0.000000"
+			"enabled"		"1"
+			"model"		"models/props_wasteland/rockcliff01f.mdl"
+		}
+		"2231"
+		{
+			"className"		"emp_resource_point"
+			"position"		"-1013.639954 13069.500000 -215.425995"
+			"angles"		"0.000000 0.000000 0.000000"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+			"name"		"res_2"
+		}
+		"5000151"
+		{
+			"className"		"emp_building_nf_mgturret"
+			"position"		"445.871338 -2.877874 -239.968750"
+			"angles"		"0.000000 2.675171 0.000000"
+			"built"		"1"
+			"health"		"100"
+			"team"		"2"
+			"level"		"2"
+			"model"		"models/NF/turrets/mg_lvl2/nf_turret_mg_lvl2.mdl"
+		}
+		"2246"
+		{
+			"className"		"emp_imp_commander"
+			"position"		"-1290.719238 887.171997 -231.456863"
+			"angles"		"-1.566135 -91.048416 0.532374"
+		}
+		"2297"
+		{
+			"className"		"emp_nf_commander"
+			"position"		"1140.440430 -911.749023 -149.452377"
+			"angles"		"0.140440 90.393997 1.921339"
+		}
+		"2331"
+		{
+			"className"		"emp_resource_point_prop"
+			"position"		"4080.540039 9980.019531 -211.291992"
+			"angles"		"0.000000 42.500000 0.000000"
+			"enabled"		"1"
+			"model"		"models/props_wasteland/rockcliff01f.mdl"
+		}
+		"2332"
+		{
+			"className"		"emp_resource_point"
+			"position"		"4084.540039 9984.019531 -207.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+			"name"		"res_3"
+		}
+		"2334"
+		{
+			"className"		"emp_resource_point_prop"
+			"position"		"-4079.459961 -10670.799805 -199.291992"
+			"angles"		"0.000000 42.500000 0.000000"
+			"enabled"		"1"
+			"model"		"models/props_wasteland/rockcliff01f.mdl"
+		}
+		"2336"
+		{
+			"className"		"emp_resource_point"
+			"position"		"-4075.459961 -10674.799805 -198.291992"
+			"angles"		"0.000000 0.000000 0.000000"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+			"name"		"res_6"
+		}
+		"2337"
+		{
+			"className"		"emp_resource_point_prop"
+			"position"		"1920.000000 -1280.000000 -228.000000"
+			"angles"		"0.000000 270.000000 0.000000"
+			"enabled"		"0"
+			"model"		"models/common/props_system/res_tap_imp_star/res_tap_imp_star.mdl"
+		}
+		"2338"
+		{
+			"className"		"emp_resource_point"
+			"position"		"1920.000000 -1280.000000 -208.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"enabled"		"0"
+			"resPerSecond"		"1.000000"
+			"name"		"res_5"
+		}
+		"2341"
+		{
+			"className"		"emp_resource_point"
+			"position"		"-1920.000000 1280.000000 -212.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"enabled"		"0"
+			"resPerSecond"		"1.000000"
+			"name"		"res_4"
+		}
+		"2356"
+		{
+			"className"		"emp_resource_point"
+			"position"		"-3051.459961 7445.160156 -211.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+			"name"		"res_7"
+		}
+		"2357"
+		{
+			"className"		"emp_resource_point_prop"
+			"position"		"-3055.459961 7441.160156 -215.291992"
+			"angles"		"0.000000 42.500000 0.000000"
+			"enabled"		"1"
+			"model"		"models/props_wasteland/rockcliff01f.mdl"
+		}
+		"2359"
+		{
+			"className"		"emp_resource_point_prop"
+			"position"		"2624.160156 -7038.839355 -231.291992"
+			"angles"		"0.000000 42.500000 0.000000"
+			"enabled"		"1"
+			"model"		"models/props_wasteland/rockcliff01f.mdl"
+		}
+		"2360"
+		{
+			"className"		"emp_resource_point"
+			"position"		"2628.160156 -7034.839355 -227.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+			"name"		"res_8"
+		}
+		"197539"
+		{
+			"className"		"emp_resource_point_prop"
+			"position"		"-1920.000000 1280.000000 -228.000000"
+			"angles"		"0.000000 270.000000 0.000000"
+			"enabled"		"0"
+			"model"		"models/common/props_system/res_tap_imp_star/res_tap_imp_star.mdl"
+		}
+		"5000152"
+		{
+			"className"		"emp_building_nf_mgturret"
+			"position"		"663.499207 -2.200284 32.031250"
+			"angles"		"0.000000 -0.082397 0.000000"
+			"built"		"1"
+			"health"		"100"
+			"team"		"2"
+			"level"		"1"
+			"model"		"models/NF/turrets/mg_lvl1/nf_turret_mg_lvl1.mdl"
+		}
+		"5000153"
+		{
+			"className"		"emp_building_imp_mgturret"
+			"position"		"-652.218811 -1.985559 32.031235"
+			"angles"		"0.000000 178.126831 0.000000"
+			"built"		"1"
+			"health"		"100"
+			"team"		"3"
+			"level"		"1"
+			"model"		"models/imperial/turrets/mg_lvl1/imp_turret_mg_lvl1.mdl"
+		}
+		"5000154"
+		{
+			"className"		"emp_eng_walls"
+			"position"		"-1650.849609 1003.944824 -248.310425"
+			"angles"		"0.000000 -0.016264 0.000000"
+			"built"		"1"
+			"health"		"100"
+			"team"		"3"
+			"model"		"models/imperial/buildings/walls/imp_wall1.mdl"
+			"bChunk"		"0"
+		}
+		"5000155"
+		{
+			"className"		"emp_eng_walls"
+			"position"		"-1650.777466 1258.194824 -252.409363"
+			"angles"		"0.000000 -0.016264 0.000000"
+			"built"		"1"
+			"health"		"100"
+			"team"		"3"
+			"model"		"models/imperial/buildings/walls/imp_wall1.mdl"
+			"bChunk"		"0"
+		}
+		"5000156"
+		{
+			"className"		"emp_building_nf_refinery"
+			"position"		"1920.000000 -1280.000000 -208.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"built"		"1"
+			"health"		"150"
+			"team"		"2"
+		}
+		"5000157"
+		{
+			"className"		"emp_building_imp_refinery"
+			"position"		"-1920.000000 1280.000000 -212.000000"
+			"angles"		"0.000000 24.796144 0.000000"
+			"built"		"1"
+			"health"		"150"
+			"team"		"3"
+			"target"		"res_4"
+		}
+		"5000158"
+		{
+			"className"		"emp_building_nf_barracks"
+			"position"		"1365.091675 -8.333597 -286.267365"
+			"angles"		"0.000000 0.000000 0.000000"
+			"built"		"1"
+			"health"		"250"
+			"team"		"2"
+		}
+		"5000159"
+		{
+			"className"		"emp_building_imp_barracks"
+			"position"		"-1377.909058 -14.917987 -282.042419"
+			"angles"		"0.000000 0.000000 0.000000"
+			"built"		"1"
+			"health"		"250"
+			"team"		"3"
+		}
+		"5000160"
+		{
+			"className"		"emp_eng_walls"
+			"position"		"0.000000 0.000000 145.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"built"		"0"
+			"health"		"0"
+			"team"		"0"
+			"bChunk"		"0"
+		}
+		"5000161"
+		{
+			"className"		"emp_eng_walls"
+			"position"		"-1644.896851 1534.868774 -252.570465"
+			"angles"		"0.000000 88.476669 0.000000"
+			"built"		"1"
+			"health"		"100"
+			"team"		"3"
+			"model"		"models/imperial/buildings/walls/imp_wall1.mdl"
+			"bChunk"		"0"
+		}
+		"5000162"
+		{
+			"className"		"emp_eng_walls"
+			"position"		"-1899.057007 1541.627808 -252.570465"
+			"angles"		"0.000000 88.476669 0.000000"
+			"built"		"1"
+			"health"		"100"
+			"team"		"3"
+			"model"		"models/imperial/buildings/walls/imp_wall1.mdl"
+			"bChunk"		"0"
+		}
+		"5000163"
+		{
+			"className"		"emp_eng_walls"
+			"position"		"0.000000 0.000000 145.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"built"		"0"
+			"health"		"0"
+			"team"		"0"
+			"bChunk"		"0"
+		}
+		"5000164"
+		{
+			"className"		"emp_eng_walls"
+			"position"		"-1656.695801 1014.655151 -247.531342"
+			"angles"		"0.000000 -269.436249 0.000000"
+			"built"		"1"
+			"health"		"100"
+			"team"		"3"
+			"model"		"models/imperial/buildings/walls/imp_wall1.mdl"
+			"bChunk"		"0"
+		}
+		"5000165"
+		{
+			"className"		"emp_eng_walls"
+			"position"		"-1910.933472 1012.153503 -247.531342"
+			"angles"		"0.000000 -269.436249 0.000000"
+			"built"		"1"
+			"health"		"100"
+			"team"		"3"
+			"model"		"models/imperial/buildings/walls/imp_wall1.mdl"
+			"bChunk"		"0"
+		}
+		"5000166"
+		{
+			"className"		"emp_eng_walls"
+			"position"		"0.000000 0.000000 145.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"built"		"0"
+			"health"		"0"
+			"team"		"0"
+			"bChunk"		"0"
+		}
+		"5000167"
+		{
+			"className"		"emp_eng_walls"
+			"position"		"1649.307983 -1037.915039 -245.018921"
+			"angles"		"0.000000 -181.295685 0.000000"
+			"built"		"1"
+			"health"		"100"
+			"team"		"2"
+			"model"		"models/NF/Buildings/walls/nf_wall.mdl"
+			"bChunk"		"0"
+		}
+		"5000168"
+		{
+			"className"		"emp_eng_walls"
+			"position"		"1643.502563 -1294.589355 -242.774353"
+			"angles"		"0.000000 -181.295685 0.000000"
+			"built"		"1"
+			"health"		"100"
+			"team"		"2"
+			"model"		"models/NF/Buildings/walls/nf_wall.mdl"
+			"bChunk"		"0"
+		}
+		"5000169"
+		{
+			"className"		"emp_eng_walls"
+			"position"		"0.000000 0.000000 145.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"built"		"0"
+			"health"		"0"
+			"team"		"0"
+			"bChunk"		"0"
+		}
+		"5000170"
+		{
+			"className"		"emp_eng_walls"
+			"position"		"0.000000 0.000000 145.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"built"		"0"
+			"health"		"0"
+			"team"		"0"
+			"bChunk"		"0"
+		}
+		"5000171"
+		{
+			"className"		"emp_eng_walls"
+			"position"		"1636.850342 -1002.672424 -244.931976"
+			"angles"		"0.000000 -89.889626 0.000000"
+			"built"		"1"
+			"health"		"100"
+			"team"		"2"
+			"model"		"models/NF/Buildings/walls/nf_wall.mdl"
+			"bChunk"		"0"
+		}
+		"5000172"
+		{
+			"className"		"emp_eng_walls"
+			"position"		"1893.589844 -1002.177856 -244.931976"
+			"angles"		"0.000000 -89.889626 0.000000"
+			"built"		"1"
+			"health"		"100"
+			"team"		"2"
+			"model"		"models/NF/Buildings/walls/nf_wall.mdl"
+			"bChunk"		"0"
+		}
+		"5000173"
+		{
+			"className"		"emp_eng_walls"
+			"position"		"0.000000 0.000000 145.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"built"		"0"
+			"health"		"0"
+			"team"		"0"
+			"bChunk"		"0"
+		}
+		"5000174"
+		{
+			"className"		"emp_eng_walls"
+			"position"		"1629.596436 -1564.474731 -241.293457"
+			"angles"		"0.000000 -90.682045 0.000000"
+			"built"		"1"
+			"health"		"100"
+			"team"		"2"
+			"model"		"models/NF/Buildings/walls/nf_wall.mdl"
+			"bChunk"		"0"
+		}
+		"5000175"
+		{
+			"className"		"emp_eng_walls"
+			"position"		"1886.318237 -1567.530884 -241.541565"
+			"angles"		"0.000000 -90.682045 0.000000"
+			"built"		"1"
+			"health"		"100"
+			"team"		"2"
+			"model"		"models/NF/Buildings/walls/nf_wall.mdl"
+			"bChunk"		"0"
+		}
+		"5000176"
+		{
+			"className"		"emp_eng_walls"
+			"position"		"0.000000 0.000000 145.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"built"		"0"
+			"health"		"0"
+			"team"		"0"
+			"bChunk"		"0"
+		}
+	}
+}

@@ -1,0 +1,691 @@
+"EntData"
+{
+	"building"
+	{
+		"respawnOnMove"	"true"
+		"fields"
+		{
+			"built"
+			{
+				"prop"	"m_bFullyBuilt"
+				"fgdName" 	"startBuilt"  // the fieldname in the fgd file
+				"type" 		"int"
+			}
+			"health"
+			{
+				"prop"	"m_iHealth"
+				"type" 		"int"
+				"postSpawn"	"true"
+			}
+			"team"
+			{
+				"prop" 	"m_iTeamNum"
+				"type" 		"int"
+			}
+		}
+	}
+	"emp_building_nf_barracks"
+	{
+		"extend"	"building"
+		"respawnOnMove" "true"
+	}
+	"emp_building_imp_barracks"
+	{
+		"extend"	"building"
+		"respawnOnMove" "true"
+	}
+	"emp_building_barracks"
+	{
+		"extend"	"building"
+		"respawnOnMove" "true"
+	}
+	"emp_building_nf_armory"
+	{
+		"extend"	"building"
+	}
+	"emp_building_imp_armory"
+	{
+		"extend"	"building"
+	}
+	"emp_building_armory"
+	{
+		"extend"	"building"
+	}
+	"emp_building_nf_radar"
+	{
+		"extend"	"building"
+	}
+	"emp_building_imp_radar"
+	{
+		"extend"	"building"
+	}
+	"emp_building_radar"
+	{
+		"extend"	"building"
+	}
+	"emp_building_nf_repairstation"
+	{
+		"extend"	"building"
+	}
+	"emp_building_imp_repairstation"
+	{
+		"extend"	"building"
+	}
+	"emp_building_repairstation"
+	{
+		"extend"	"building"
+	}
+	"emp_building_nf_vehiclefactory"
+	{
+		"extend"	"building"
+	}
+	"emp_building_imp_vehiclefactory"
+	{
+		"extend"	"building"
+	}
+	"emp_building_vehiclefactory"
+	{
+		"extend"	"building"
+	}
+	"turret"
+	{
+		"extend"	"building"
+		"fields"
+		{
+			"level"
+			{
+				"fgdName"	"level"
+				"prop"		"m_iUpgradeLevel"
+				"type" 		"int"
+			}
+			"model"
+			{
+				"prop"		"m_ModelName"
+				"propType"		"data"
+				"fgdName"	"model"
+				"type" 		"string"
+			}
+		}
+	}
+	"emp_building_mgturret"
+	{
+		"extend"	"turret"
+	}
+	"emp_building_imp_mgturret"
+	{
+		"extend"	"turret"
+	}
+	"emp_building_nf_mgturret"
+	{
+		"extend"	"turret"
+	}
+	"emp_building_imp_mlturret"
+	{
+		"extend"	"turret"
+	}
+	"emp_building_nf_mlturret"
+	{
+		"extend"	"turret"
+	}
+	"emp_building_mlturret"
+	{
+		"extend"	"turret"
+	}
+	"emp_eng_walls"
+	{
+		"extend"	"building"
+		"fields"
+		{
+			"model"
+			{
+				"type" 		"string"
+				"prop"		"m_ModelName"
+				"propType"		"data"
+			}
+			"bChunk"
+			{
+				"type" 		"int"
+				"prop"		"m_bChunk"
+			}
+
+		}
+	}
+	"emp_imp_commander"
+	{
+		"removable"	"false"
+	}
+	"emp_nf_commander"
+	{
+		"removable"	"false"
+	}
+	"emp_cap_model"
+	{
+		"customOnly" "true"
+		"group"	"1"
+		"fields"
+		{
+			"pointNumber"
+			{
+				"fgdName"	"pointNumber"
+				"type" 		"int"
+				"prop" 		"m_iCapNumber"
+				"propType"		"data"
+			}
+			"visibleOnMap"
+			{
+				"fgdName"	"VisibleOnMap"
+				"type" 		"int"
+				"prop"		"m_bMapVisible"
+				"propType"		"data"
+			}
+			"model"
+			{
+				"fgdName"	"model"
+				"type" 		"string"
+				"prop"		"m_sModel1"
+				"propType"		"data"
+			}
+			"model2"
+			{
+				"fgdName"	"model2"
+				"type" 		"string"
+				"prop"		"m_sModel2"
+				"propType"		"data"
+			}
+			"model3"
+			{
+				"fgdName"	"model3"
+				"type" 		"string"
+				"prop"		"m_sModel3"
+				"propType"		"data"
+			}
+			"team" // used for respawn
+			{
+				"type" 		"int"
+				"prop"		"m_iTeamNum"
+				"propType"		"data"
+			}
+		}
+		
+	}
+	"emp_cap_point"
+	{
+		"group"	"1"
+		"fields"
+		{
+			"pointNumber"
+			{
+				"fgdName"	"pointNumber"
+				"type" 		"int"
+				"prop" 		"m_iCapNumber"
+				"propType"		"data"
+			}
+			"timeToCap"
+			{
+				"fgdName"	"timeToCap"
+				"type" 		"int"
+				"prop"		"m_iTimeToCap"
+				"propType"		"data"
+			}
+			"timeToNeutral"
+			{
+				"fgdName"	"timeToNeutral"
+				"type" 		"int"
+				"prop"		"m_iTimeToNeutral"
+				"propType"		"data"
+			}
+			"playersRequiredNF"
+			{
+				"fgdName"	"playersRequiredNF"
+				"type" 		"int"
+				"prop"		"m_iNFPlayersRequired"	
+				"propType"	"data"
+			}
+			"playersRequiredImp"
+			{
+				"fgdName"	"playersRequiredImp"
+				"type" 		"int"
+				"prop"		"m_iBEPlayersRequired"	
+				"propType"		"data"
+			}
+			"teamOwner"
+			{
+				"fgdName"	"teamOwner"
+				"type" 		"int"
+				"prop"		"m_iTeamOwner"	
+				"propType"		"data"
+			}
+			"locationName"
+			{
+				"fgdName"	"locationName"
+				"type" 		"string"
+				"prop"		"m_sLocation"	
+				"propType"		"data"
+			}
+			"resToGiveNF"
+			{
+				"fgdName"	"resToGiveNF"
+				"type" 		"float"
+				"prop"		"m_fResToGiveNF"	
+				"propType"		"data"
+			}
+			"resToGiveImp"
+			{
+				"fgdName"	"resToGiveImp"
+				"type" 		"float"
+				"prop"		"m_fResToGiveBE"	
+				"propType"		"data"
+			}
+			"reinfToTakeNF"
+			{
+				"fgdName"	"reinfToTakeNF"
+				"type" 		"float"
+				"prop"		"m_flReinforcementsToTakeNF"	
+				"propType"		"data"
+			}
+			"reinfToTakeImp"
+			{
+				"fgdName"	"reinfToTakeImp"
+				"type" 		"float"
+				"prop"		"m_flReinforcementsToTakeBE"	
+				"propType"		"data"
+			}
+			"canNFCap"
+			{
+				"fgdName"	"canNFCap"
+				"type" 		"int"
+				"prop"		"m_iNFCappable"
+				"propType"		"data"
+			}
+			"canImpCap"
+			{
+				"fgdName"	"canImpCap"
+				"type" 		"int"
+				"prop"		"m_iBECappable"
+				"propType"		"data"
+			}
+			"linearMap"
+			{
+				"fgdName"	"linearMap"
+				"type" 		"int"
+				"prop"		"m_bLinear"
+				"propType"		"data"
+			}
+			"mins"
+			{
+				"prop"		"m_vecMins"
+				"type" 		"vector"
+				"postSpawn"	"true"
+			}
+			"maxs"
+			{
+				"prop"		"m_vecMaxs"
+				"type" 		"vector"
+				"postSpawn"	"true"
+			}
+			
+		}
+		
+	}
+
+	"emp_info_player_NF"
+	{
+		"group"	"1"
+		"respawnOnMove" "true"
+		"fields"
+		{
+			"pointNumber"
+			{
+				"fgdName"	"pointNumber"
+				"type" 		"int"
+				"prop" 		"m_iCapNumber"
+				"propType"		"data"
+			}
+			"spawnEnabled"
+			{
+				"fgdName"	"spawnEnabled"
+				"type" 		"int"
+				"prop" 		"m_iCapNumber"
+				"propType"		"data"
+			}
+			
+		}
+	}
+	"emp_info_player_Imp"
+	{
+		"extend" "emp_info_player_NF"
+	}
+	"emp_nf_ammo_crate"
+	{
+		"group"	"1"
+		"fields"
+		{
+			"pointNumber"
+			{
+				"fgdName"	"pointNumber"
+				"type" 		"int"
+				"prop" 		"m_iCapNumber"
+				"propType"		"data"
+			}
+			"disabled"
+			{
+				"fgdName"	"startDisabled"
+				"type" 		"int"
+				"prop"		"m_bDisabled"
+				"propType"		"data"
+			}
+			"model"
+			{
+				"fgdName"	"model"
+				"type" 		"string"
+				"prop" 		"m_ModelName"
+				"propType"		"data"
+			}
+		}
+	}
+	"emp_imp_ammo_crate"
+	{
+		"extend" "emp_nf_ammo_crate"
+	}
+	"emp_nf_health_crate"
+	{
+		"extend" "emp_nf_ammo_crate"
+	}
+	"emp_imp_health_crate"
+	{
+		"extend" "emp_nf_ammo_crate"
+	}
+	
+	"emp_building_refinery"
+	{
+		"extend" 	"building"
+		"group"	"3"
+		"fields"
+		{
+			"target"
+			{
+				"fgdName"	"target"
+				"type" 		"string"
+				"prop"	"m_target"
+				"propType"		"data"
+			}
+		}
+	}
+	"emp_building_nf_refinery"
+	{
+		"extend" 	"emp_building_refinery"
+		
+	}
+	"emp_building_imp_refinery"
+	{
+		"extend" 	"emp_building_refinery"
+	}
+	"emp_resource_point"
+	{
+		"group"	"2"
+		"fields"
+		{
+			"enabled"
+			{
+				"fgdName"	"Enabled"
+				"type" 		"int"
+				"prop"	"m_bEnabled"
+				"propType"		"data"
+			}
+			"resPerSecond"
+			{
+				"fgdName"	"ResourcesSecond"
+				"type" 		"float"
+				"prop"		"m_flResSecond"
+				"propType"		"data"
+			}
+			"name"
+			{
+				"fgdName"	"name"
+				"type" 		"string"
+				"prop"	"m_iName"
+				"propType"		"data"
+			}
+		}
+	}
+	"emp_resource_point_prop"
+	{
+		"group"	"2"
+		"fields"
+		{
+			"enabled"
+			{
+				"fgdName"	"Enabled"
+				"type" 		"int"
+				"prop" 		"m_bEnabled"
+				"propType"		"data"
+			}
+			"model"
+			{
+				"fgdName"	"model"
+				"type" 		"string"
+				"prop" 		"m_ModelName"
+				"propType"		"data"
+			}
+		}
+	}
+	"env_smokestack"
+	{
+		"version"	"0.22"
+		"group"	"2"
+		"fields"
+		{
+			"material"
+			{
+				"fgdName"	"SmokeMaterial"
+				"type" 		"string"
+				"prop" 		"m_strMaterialModel"
+				"propType"		"data"
+			}
+			"startSize"
+			{
+				"fgdName"	"StartSize"
+				"type" 		"float"
+				"prop" 		"m_StartSize"
+				"propType"		"data"
+			}
+			"endSize"
+			{
+				"fgdName"	"EndSize"
+				"type" 		"float"
+				"prop" 		"m_EndSize"
+				"propType"		"data"
+			}
+			"emit"
+			{
+				"fgdName"	"InitialState"
+				"type" 		"int"
+				"prop" 		"m_bEmit"
+				"propType"		"data"
+			}
+			"baseSpread"
+			{
+				"fgdName"	"BaseSpread"
+				"type" 		"float"
+				"prop" 		"m_flBaseSpread"
+				"propType"		"data"
+			}
+			"twist"
+			{
+				"fgdName"	"Twist"
+				"type" 		"float"
+				"prop" 		"m_flTwist"
+				"propType"		"data"
+			}
+			"roll"
+			{
+				"fgdName"	"Roll"
+				"type" 		"float"
+				"prop" 		"m_flRollSpeed"
+				"propType"		"data"
+			}
+			"windAngle"
+			{
+				"fgdName"	"WindAngle"
+				"type" 		"int"
+				"prop" 		"m_WindAngle"
+				"propType"		"data"
+			}
+			"windSpeed"
+			{
+				"fgdName"	"WindSpeed"
+				"type" 		"int"
+				"prop" 		"m_WindSpeed"
+				"propType"		"data"
+			}
+			"jetLength"
+			{
+				"fgdName"	"JetLength"
+				"type" 		"float"
+				"prop" 		"m_JetLength"
+				"propType"		"data"
+			}
+			"spreadSpeed"
+			{
+				"fgdName"	"SpreadSpeed"
+				"type" 		"float"
+				"prop" 		"m_SpreadSpeed"
+				"propType"		"data"
+			}
+			"speed"
+			{
+				"fgdName"	"Speed"
+				"type" 		"float"
+				"prop" 		"m_Speed"
+				"propType"		"data"
+			}
+			"rate"
+			{
+				"fgdName"	"Rate"
+				"type" 		"float"
+				"prop" 		"m_Rate"
+				"propType"		"data"
+			}
+			"color"
+			{
+				"type" 		"color"
+				"prop" 		"m_clrRender"
+				"postSpawn"	"true"
+			}
+			
+
+		}
+	}
+	"emp_eng_map_model"
+	{
+		"version"	"0.23"
+		"fields"
+		{
+			"model"
+			{
+				"prop"		"m_ModelName"
+				"propType"		"data"
+				"fgdName"	"model"
+				"type" 		"string"
+			}
+			"initialOwner"
+			{
+				"fgdName"	"initialOwner"
+				"type" 		"int"
+				"prop"		"m_iInitialOwner"	
+				"propType"		"data"
+			}
+			"team"
+			{
+				"type" 		"int"
+				"prop"		"m_iTeamNum"	
+				"propType"		"data"
+				"postSpawn"	"true"
+			}
+			"changeOwner"
+			{
+				"fgdName"	"changeOwner"
+				"type" 		"int"
+				"prop"		"m_bChangeOwner"	
+				"propType"		"data"
+			}
+			"raiseOnBuild"
+			{
+				"fgdName"	"raiseOnBuild"
+				"type" 		"int"
+				"prop"		"m_bRaiseOnBuild"	
+				"propType"		"data"
+			}
+			"solidOnSpawn"
+			{
+				"fgdName"	"solidOnSpawn"
+				"type" 		"int"
+				"prop"		"m_bSolidOnSpawn"	
+				"propType"		"data"
+			}
+			"visibleToEnemy"
+			{
+				"fgdName"	"visibleToEnemy"
+				"type" 		"int"
+				"prop"		"m_bVisibleToEnemy"	
+				"propType"		"data"
+			}
+			"timeToRespawn"
+			{
+				"fgdName"	"timeToRespawn"
+				"type" 		"float"
+				"prop"		"m_flRespawn"	
+				"propType"		"data"
+			}
+			"maxHealth"
+			{
+				"fgdName"	"MaximumHealth"
+				"type" 		"int"
+				"prop"		"m_iMaxHealth"	
+				"propType"		"data"
+			}
+			"repairMultiplier"
+			{
+				"fgdName"	"repairMultiplier"
+				"type" 		"int"
+				"prop"		"m_iRepairMultiplier"	
+				"propType"		"data"
+			}
+			"damageMultiplier"
+			{
+				"fgdName"	"damageMultiplier"
+				"type" 		"int"
+				"prop"		"m_iDamageMultiplier"	
+				"propType"		"data"
+			}
+			"grenadierOnly"
+			{
+				"fgdName"	"GrenadierOnly"
+				"type" 		"int"
+				"prop"		"m_bGrenadierOnly"	
+				"propType"		"data"
+			}
+			"solidOnRespawn"
+			{
+				"fgdName"	"SolidOnRespawn"
+				"type" 		"int"
+				"prop"		"m_bSolidOnRespawn"	
+				"propType"		"data"
+			}
+			"canSabotage"
+			{
+				"fgdName"	"canSabotage"
+				"type" 		"int"
+				"prop"		"m_bCanBeSabotaged"	
+				"propType"		"data"
+			}
+
+		}
+	}
+
+
+	
+	
+}
+
+
