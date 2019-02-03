@@ -327,7 +327,7 @@ stock CFindRandomPlayerByTeam(color_team)
 			{
 				return i;
 			}
-		}
+		}	
 	}
 
 	return NO_PLAYER;
@@ -344,24 +344,9 @@ stock CFindRandomPlayerByTeam(color_team)
 stock CSayText2(client, author, const String:szMessage[])
 {
 	new Handle:hBuffer = StartMessageOne("SayText2", client);
-	
-	if (GetUserMessageType() == UM_Protobuf)
-	{
-		PbSetInt(hBuffer, "ent_idx", author);
-		PbSetBool(hBuffer, "chat", true);
-		PbSetString(hBuffer, "msg_name", szMessage);
-		PbAddString(hBuffer, "params", "");
-		PbAddString(hBuffer, "params", "");
-		PbAddString(hBuffer, "params", "");
-		PbAddString(hBuffer, "params", "");
-	}
-	else
-	{
-		BfWriteByte(hBuffer, author);
-		BfWriteByte(hBuffer, true);
-		BfWriteString(hBuffer, szMessage);
-	}
-	
+	BfWriteByte(hBuffer, author);
+	BfWriteByte(hBuffer, true);
+	BfWriteString(hBuffer, szMessage);
 	EndMessage();
 }
 
@@ -392,7 +377,7 @@ stock CSetupProfile()
 		CProfile_Colors[Color_Lightgreen] = true;
 		CProfile_Colors[Color_Red] = true;
 		CProfile_Colors[Color_Blue] = true;
-		CProfile_Colors[Color_Olive] = true;
+		CProfile_Colors[Color_Olive] = true;		
 		CProfile_TeamIndex[Color_Lightgreen] = SERVER_INDEX;
 		CProfile_TeamIndex[Color_Red] = 2;
 		CProfile_TeamIndex[Color_Blue] = 3;
@@ -403,7 +388,7 @@ stock CSetupProfile()
 		CProfile_Colors[Color_Lightgreen] = true;
 		CProfile_Colors[Color_Red] = true;
 		CProfile_Colors[Color_Blue] = true;
-		CProfile_Colors[Color_Olive] = true;
+		CProfile_Colors[Color_Olive] = true;		
 		CProfile_TeamIndex[Color_Lightgreen] = SERVER_INDEX;
 		CProfile_TeamIndex[Color_Red] = 3;
 		CProfile_TeamIndex[Color_Blue] = 2;

@@ -1,142 +1,136 @@
+//Mapcycle definition for Ultimate Mapchooser v3.1 by Steell
+
 "umc_mapcycle"
 {
-	"Commander Maps"
-	{
-		"maps_invote"   "7"
+    "Commander Maps"
+    {
+        "maps_invote"   "7"
 		
-		"emp_arid"
+		"emp_arid_hce"
 		{
 			"min_players"	"20"
 			"max_players"	"42"
-			"display"	"emp_arid"
+			"display"		"emp_arid"
 		}
 		
 		"emp_beachfront_b2_hce"
 		{
 			"min_players"	"0"
 			"max_players"	"22"
-			"display"	"emp_beachfront"
+			"display"		"emp_beachfront"
 		}
-
-//		Disabled: Missing Stuff
-//		"emp_blackmountain_fix"
-//		{
-//			"min_players"	"40"
-//			"max_players"	"64"
-//			"display"	"emp_blackmountain"
-//		}
-	
-//		Enabled: Decimal Resources
-		"emp_blah4_hce"
+		
+		"emp_blackmountain_fix"
 		{
-			"min_players"	"14"
-			"max_players"	"32"
-			"display"	"emp_blah4"
+			"min_players"	"40"
+			"max_players"	"64"
+			"display"		"emp_blackmountain"
 		}
+	
+//		Disabled: Too Much Resources	
+//		"emp_blah4_hce"
+//		{
+//			"min_players"	"14"
+//			"max_players"	"32"
+//			"display"		"emp_blah4"
+//		}
 		
 		"emp_bush"
 		{
 			"min_players"	"20"
 			"max_players"	"42"
-			"display"	"emp_bush"
+			"display"		"emp_bush"
 		}
 		
 		"emp_canyon"
 		{
 			"min_players"	"14"
 			"max_players"	"32"
-			"display"	"emp_canyon"
+			"display"		"emp_canyon"
 		}
 		
 		"emp_chain"
 		{
 			"min_players"	"40"
 			"max_players"	"64"
-			"display"	"emp_chain"
+			"display"		"emp_chain"
 		}
 		
-		"emp_coast"
+		"emp_coast_hce"
 		{
 			"min_players"	"20"
 			"max_players"	"42"
-			"display"	"emp_coast"
+			"display"		"emp_coast"
 		}
 		
-		"emp_cod_hce"
-		{
-			"min_players"	"0"
-			"max_players"	"14"
-			"display"	"emp_cod"
-		}
-		
-		"emp_crossroads_towerless_hce2"
+		"emp_crossroads_towerless_hce"
 		{
 			"min_players"	"0"
 			"max_players"	"22"
-			"display"	"emp_crossroads"
+			"display"		"emp_crossroads"
 		}
 		
-		"emp_cyclopean_214"
+		"emp_cyclopean"
 		{
 			"min_players"	"32"
 			"max_players"	"64"
-			"display"	"emp_cyclopean"
+			"display"		"emp_cyclopean"
 		}
 		
 		"emp_downfall_hce"
 		{
 			"min_players"	"0"
 			"max_players"	"22"
-			"display"	"emp_downfall"
+			"display"		"emp_downfall"
 		}
 		
 		"emp_drygulch_a7"
 		{
 			"min_players"	"0"
 			"max_players"	"22"
-			"display"	"emp_drygulch"
+			"display"		"emp_drygulch"
 		}
 		
 		"emp_dune_ob1"
 		{
 			"min_players"	"20"
 			"max_players"	"42"
-			"display"	"emp_dune"
+			"display"		"emp_dune"
 		}
 		
-		"emp_duststorm"
+		"emp_duststorm_fix2"
 		{
 			"min_players"	"20"
 			"max_players"	"42"
-			"display"	"emp_duststorm"
+			"display"		"emp_duststorm"
 		}
 		
 		"emp_flat_hce"
 		{
 			"min_players"	"14"
 			"max_players"	"32"
-			"display"	"emp_flat"
+			"display"		"emp_flat"
 		}
 		
 		"emp_forest_ob_2013_hce2"
 		{
 			"min_players"	"26"
 			"max_players"	"52"
-			"display"	"emp_forest"
+			"display"		"emp_forest"
 		}
 		
 		"emp_frozensummit_b2_2013_fix2"
 		{
 			"min_players"	"26"
 			"max_players"	"52"
-			"display"	"emp_frozensummit"
+			"display"		"emp_frozensummit"
 		}
 		
 		"emp_fuel_a3_2013_hce2"
 		{
 			"min_players"	"26"
 			"max_players"	"52"
-			"display"	"emp_fuel"
+			"display"		"emp_fuel"
 		}
 
 //		Disabled: Quicksand
@@ -144,113 +138,112 @@
 //		{
 //			"min_players"	"32"
 //			"max_players"	"52"
-//			"display"	"emp_fury"
+//			"display"		"emp_fury"
 //		}
 		
 		"emp_glacial_b2"
 		{
 			"min_players"	"20"
 			"max_players"	"42"
-			"display"	"emp_glacial"
+			"display"		"emp_glacial"
 		}
 		
 		"emp_hazard_rc6"
 		{
 			"min_players"	"14"
 			"max_players"	"32"
-			"display"	"emp_hazard"
+			"display"		"emp_hazard"
 		}
 		
 		"emp_homeland_b9_hce2"
 		{
 			"min_players"	"14"
 			"max_players"	"32"
-			"display"	"emp_homeland"
+			"display"		"emp_homeland"
 		}
 		
 		"emp_insurrection_rc4"
 		{
 			"min_players"	"32"
 			"max_players"	"64"
-			"display"	"emp_insurrection"
+			"display"		"emp_insurrection"
 		}
 		
 		"emp_isle_hce"
 		{
 			"min_players"	"26"
 			"max_players"	"52"
-			"display"	"emp_isle"
+			"display"		"emp_isle"
 		}
 		
 		"emp_king_r5_nosplt"
 		{
 			"min_players"	"40"
 			"max_players"	"64"
-			"display"	"emp_king"
+			"display"		"emp_king"
 		}
 		
 		"emp_massacred_rc1_hce"
 		{
 			"min_players"	"14"
 			"max_players"	"32"
-			"display"	"emp_massacred"
+			"display"		"emp_massacred"
 		}
 		
 		"emp_mesa_d6_hce"
 		{
 			"min_players"	"20"
 			"max_players"	"42"
-			"display"	"emp_mesa"
+			"display"		"emp_mesa"
 		}
 		
-		"emp_midbridge"
+		"emp_midbridge_hce"
 		{
-			"min_players"	"40"
+			"min_players"	"32"
 			"max_players"	"64"
-			"display"	"emp_midbridge"
+			"display"		"emp_midbridge"
 		}
 		
-		"emp_mvalley"
+		"emp_mvalley_fix"
 		{
 			"min_players"	"26"
 			"max_players"	"52"
-			"display"	"emp_mvalley"
+			"display"		"emp_mvalley"
 		}
 		
 		"emp_palmbay_fix"
 		{
 			"min_players"	"14"
 			"max_players"	"32"
-			"display"	"emp_palmbay"
+			"display"		"emp_palmbay"
 		}
-
-//		Disabled: Too Many Bad Displacements		
-//		"emp_plunge_ob2_2013_hce2"
+		
+//		"emp_plunge_ob2_2013_hce2"			//Disabled: Too Many Bad Displacements
 //		{
 //			"min_players"	"20"
 //			"max_players"	"42"
-//			"display"	"emp_plunge"
+//			"display"		"emp_plunge"
 //		}
 		
 		"emp_raiders_b1"
 		{
 			"min_players"	"26"
 			"max_players"	"52"
-			"display"	"emp_raiders"
+			"display"		"emp_raiders"
 		}
 		
 		"emp_research_1_2_2013"
 		{
 			"min_players"	"14"
 			"max_players"	"32"
-			"display"	"emp_research"
+			"display"		"emp_research"
 		}
 		
 		"emp_silo_rc5_hce2"
 		{
 			"min_players"	"20"
 			"max_players"	"42"
-			"display"	"emp_silo"
+			"display"		"emp_silo"
 		}
 
 //		Disabled: Bad Performance, Missing Textures, Boring...		
@@ -258,134 +251,138 @@
 //		{
 //			"min_players"	"20"
 //			"max_players"	"42"
-//			"display"	"emp_smokies"
+//			"display"		"emp_smokies"
 //		}
 
-		"emp_snowbound_cl6_hce"
-		{
-			"min_players"	"20"
-			"max_players"	"42"
-			"display"	"emp_snowbound"
-		}
+//		Disabled: Missing Textures
+//		"emp_snowbound_cl6_hce"
+//		{
+//			"min_players"	"20"
+//			"max_players"	"42"
+//			"display"		"emp_snowbound"
+//		}
 		
 		"emp_snowstorm_rc6"
 		{
 			"min_players"	"14"
 			"max_players"	"32"
-			"display"	"emp_snowstorm"
+			"display"		"emp_snowstorm"
 		}
 		
-		"emp_streetsoffire"
+		"emp_streetsoffire_215"
 		{
 			"min_players"	"14"
 			"max_players"	"32"
-			"display"	"emp_streetsoffire"
+			"display"		"emp_streetsoffire"
 		}
 		
 		"emp_temple_b3f"
 		{
 			"min_players"	"14"
 			"max_players"	"32"
-			"display"	"emp_temple"
+			"display"		"emp_temple"
 		}
 		
 		"emp_traders_a8"
 		{
 			"min_players"	"14"
 			"max_players"	"32"
-			"display"	"emp_traders"
+			"display"		"emp_traders"
 		}
 		
 		"emp_tropicvendetta_rc4"
 		{
 			"min_players"	"32"
 			"max_players"	"52"
-			"display"	"emp_tropicvendetta"
+			"display"		"emp_tropicvendetta"
 		}
-
-//		Disabled: wrong IDs for NF turrets.		
-//		"emp_ward_rc2"
-//		{
-//			"min_players"	"20"
-//			"max_players"	"42"
-//			"display"	"emp_ward"
-//		}
+		
+		"emp_ward_rc2"
+		{
+			"min_players"	"20"
+			"max_players"	"42"
+			"display"		"emp_ward"
+		}
     }
-	"Infantry Maps"
-	{
-		"maps_invote"   "1"
-
+    "Infantry Maps"
+    {
+        "maps_invote"   "1"
+		
 		"min_players"	"0"
 		"max_players"	"20"
 		
 		"con_atomic_rc6_fix"
 		{
-			"min_players"	"40"
+			"min_players"	"32"
 			"max_players"	"64"
-			"display"	"con_atomic"
+			"display"		"con_atomic"
 		}
 		
 		"con_blast_ob2"
 		{
-			"min_players"	"6"
-			"max_players"	"20"
-			"display"	"con_blast"
+			"max_players"	"10"
+			"display"		"con_blast"
 		}
 		
 		"con_district402"
 		{
 			"max_players"	"10"
-			"display"	"con_district402"
-		}			
+			"display"		"con_district402"
+		}
 
-//		Disabled: Too big and multiple errors.		
-//		"emp_fogtown_cl2_fix"
-//		{
-//			"min_players"	"10"
-//			"max_players"	"20"
-//			"display"	"con_fogtown"
-//		}
+		"as_escort"
+		{
+			"min_players"	"10"
+			"max_players"	"20"
+			"display"		"as_escort"
+		}			
+		
+		"emp_fogtown_cl2_fix"
+		{
+			"min_players"	"10"
+			"max_players"	"20"
+			"display"		"con_fogtown"
+		}
 		
 		"con_glycencity"
 		{
 			"min_players"	"10"
 			"max_players"	"20"
-			"display"	"con_glycencity"
+			"display"		"con_glycencity"
 		}
 		
 		"emp_havoc_b1_fix"
 		{
 			"min_players"	"10"
 			"max_players"	"20"
-			"display"	"con_havoc"
+			"display"		"con_havoc"
 		}
 		
 		"emp_shadows_attacks_fix"
 		{
 			"min_players"	"10"
 			"max_players"	"20"
-			"display"	"con_shadows_attacks"
+			"display"		"con_shadows_attacks"
 		}
 		
 //		"emp_nuclear_b8u_xfix"
 //		{
 //			"min_players"	"4"
 //			"max_players"	"20"
-//			"display"	"as_nuclear"
+//			"display"		"as_nuclear"
 //		}
 		
 		"con_urbanchaos"
 		{
-			"min_players"	"6"
+			"min_players"	"10"
 			"max_players"	"20"
-			"display"	"con_urbanchaos"
+			"display"		"con_urbanchaos"
 		}
 		
 		"emp_vehicletraining_2013"
 		{
-			"min_players"	"10"
 			"max_players"	"20"
-			"display"	"con_vehicletraining"
+			"display"		"con_vehicletraining"
 		}
 	}
 	"Cooldown Maps"
