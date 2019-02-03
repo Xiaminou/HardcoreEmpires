@@ -488,8 +488,8 @@ Vehicle_Weapons
 		"Reload Time"		"4"		//time to load one clip, if total ammo clips is '0', time to reload one unit of ammo (as one unit of ammo is reloaded per time and not a full clip) (default: 20)
 		"Projectile Spread"	"0.022"		//spread (default: 0.001)
 		"Heat to Target"	"0"		//heat added to target on hit (default: 0.1)
-		"Explosion Radius"	"200"		//radius of damage sphere to hurt surrounding entities (default: 0)
-		"Explosion Force"	"100"		//force of explosion (default: 0)
+		"Explosion Radius"	"100"		//radius of damage sphere to hurt surrounding entities (default: 0)
+		"Explosion Force"	"50"		//force of explosion (default: 0)
 
 		//ammunition
 		"Unlimited Ammo"	"0"		//Unlimited Ammunition (default: 1)
@@ -530,8 +530,8 @@ Vehicle_Weapons
 		"Reload Time"		"4"		//time to load one clip, if total ammo clips is '0', time to reload one unit of ammo (as one unit of ammo is reloaded per time and not a full clip) (default: 20)
 		"Projectile Spread"	"0.021"		//spread (default: 0.001)
 		"Heat to Target"	"0"		//heat added to target on hit (default: 0.1)
-		"Explosion Radius"	"200"		//radius of damage sphere to hurt surrounding entities (default: 0)
-		"Explosion Force"	"100"		//force of explosion (default: 0)
+		"Explosion Radius"	"100"		//radius of damage sphere to hurt surrounding entities (default: 0)
+		"Explosion Force"	"50"		//force of explosion (default: 0)
 
 		//ammunition
 		"Unlimited Ammo"	"0"		//Unlimited Ammunition (default: 1)
