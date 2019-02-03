@@ -522,7 +522,7 @@ Vehicle_Weapons
 		"Damage Type"		"BulletExplosive"
 		"Ammo Type"		"2"		//for mguns only, 0 = nonarmor penetrating (no effect on armored vehicles), 1 = armor penetrating (hurts armored vehicles)
 		"Damage"		"13"		//damage done by projectile (default: 50)
-		"Heat"			"3"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status) (default: 0.1)
+		"Heat"			"2.5"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status) (default: 0.1)
 		"Weight"		"55"		//weight in terms of effects on engine and weight restrictions for chassis (default: 10)
 		"Cycle Time"		"0.4"		//time between shots (default 0.1)
 		"Clip Size"		"25"		//ammo loaded per reloads (default: 10)

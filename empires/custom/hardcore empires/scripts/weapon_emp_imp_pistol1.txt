@@ -42,9 +42,11 @@ WeaponData
 	"MeleeDamage"			"40"	// damage per melee hit
 	"MeleeCycleTime"		"0.4"	// time between melee attacks
 
+	
+	//Weapon Spread
 	//Accuracy Upgrade Modifier. Default is 0.75. The lower the better.
 	"AccuracyUpgradeModifier"	"0.90"
-//Weapon Spread
+	
 	//When at rest
 	"JumpingSpread"			"0.02"
 	"StandingSpread"		"0.012"

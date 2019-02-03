@@ -44,7 +44,7 @@ WeaponData
 	"MeleeDamage"			"40"	// damage per melee hit
 	"MeleeCycleTime"		"0.4"	// time between melee attacks
 
-//Weapon Spread
+	//Weapon Spread
 	//When at rest
 	"JumpingSpread"			"0.1"
 	"StandingSpread"		"0.02"
@@ -117,7 +117,7 @@ WeaponData
 	"ProneKick_Y_FullSpread_Min"	"0"
 	"ProneKick_Y_NoSpread_Max"	"0.05"
 	"ProneKick_Y_NoSpread_Min"	"0"
-//End Weapon Spread
+	//End Weapon Spread
 
 
 	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
