@@ -1689,7 +1689,7 @@ Vehicle_Weapons
 		"Type"			"4"		//0=machine gun, 1=tank cannon, 2=artillery cannon, 3=missile launcher, 4=grenade launcher, 5=aircraft bomb bay (default: 0)
 		"Size"			"1"		//number of slots required when selecting weapons (default: 1)
 		"Cost"			"30"
-		"Weight"		"30"		//weight in terms of effects on engine and weight restrictions for chassis (default: 10)
+		"Weight"		"34"		//weight in terms of effects on engine and weight restrictions for chassis (default: 10)
 
 		//sounds
 		"Sound Firing"		"Vehicle_GL.Fire"
@@ -1715,7 +1715,7 @@ Vehicle_Weapons
 		"Reload Time"		"5.0"		//time to load one clip
 		
 		//projectile
-		"Speed"			"800"		//speed of projectile (requires "type" 1, 2, 3 or 4)(default: 100)
+		"Speed"			"900"		//speed of projectile (requires "type" 1, 2, 3 or 4)(default: 100)
 		"Gravity"		"0.92"		//effects of gravity on the projectile, only for projectiles (requires "type" 1, 2 or 4)(default: 1.0)
 		"Grenade Timer"		"4"		//Time until the grenade explodes (requires "type" 4)(default: 6)
 		
@@ -1738,7 +1738,7 @@ Vehicle_Weapons
 		"Type"			"4"		//0=machine gun, 1=tank cannon, 2=artillery cannon, 3=missile launcher, 4=grenade launcher, 5=aircraft bomb bay (default: 0)
 		"Size"			"2"		//number of slots required when selecting weapons (default: 1)
 		"Cost"			"60"
-		"Weight"		"40"		//weight in terms of effects on engine and weight restrictions for chassis (default: 10)
+		"Weight"		"44"		//weight in terms of effects on engine and weight restrictions for chassis (default: 10)
 		
 		//sounds
 		"Sound Firing"		"Vehicle_GL.Fire"
@@ -1761,10 +1761,10 @@ Vehicle_Weapons
 		"Unlimited Ammo"	"0"		//Unlimited Ammunition (default: 1)
 		"Clip Size"		"8"		//ammo loaded per reloads (default: 10)
 		"Total Ammo Clips"	"4"		//max ammo clips carried (0 is the same as not using clips) (default: 1)
-		"Reload Time"		"7.0"		//time to load one clip
+		"Reload Time"		"6.0"		//time to load one clip
 		
 		//projectile
-		"Speed"			"900"		//speed of projectile (requires "type" 1, 2, 3 or 4)(default: 100)
+		"Speed"			"1000"		//speed of projectile (requires "type" 1, 2, 3 or 4)(default: 100)
 		"Gravity"		"0.88"		//effects of gravity on the projectile, only for projectiles (requires "type" 1, 2 or 4)(default: 1.0)
 		"Grenade Timer"		"4"		//Time until the grenade explodes (requires "type" 4)(default: 6)
 		
