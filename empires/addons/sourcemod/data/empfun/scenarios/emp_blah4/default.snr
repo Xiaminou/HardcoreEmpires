@@ -1,0 +1,379 @@
+"Scenario"
+{
+	"NF_Res"		"400.050018"
+	"BE_Res"		"400.050018"
+	"NF_Tickets"		"181.600006"
+	"BE_Tickets"		"181.600006"
+	"NF_Research"
+	{
+		"0"		"1"
+	}
+	"BE_Research"
+	{
+		"0"		"1"
+	}
+	"Entities"
+	{
+		"110565"
+		{
+			"className"		"emp_cap_model"
+			"position"		"-9344.000000 -312.000000 183.563004"
+			"angles"		"0.000000 90.500000 0.000000"
+			"pointNumber"		"1"
+			"visibleOnMap"		"0"
+			"model"		"models/common/props_system/flagpole01_neutral.mdl"
+			"model2"		"models/common/props_system/flagpole01_nf.mdl"
+			"model3"		"models/common/props_system/flagpole01_imp.mdl"
+			"team"		"0"
+		}
+		"110630"
+		{
+			"className"		"emp_cap_model"
+			"position"		"-9344.000000 312.000000 184.000000"
+			"angles"		"0.000000 90.500000 0.000000"
+			"pointNumber"		"1"
+			"visibleOnMap"		"0"
+			"model"		"models/common/props_system/flagpole01_neutral.mdl"
+			"model2"		"models/common/props_system/flagpole01_nf.mdl"
+			"model3"		"models/common/props_system/flagpole01_imp.mdl"
+			"team"		"0"
+		}
+		"110658"
+		{
+			"className"		"emp_cap_point"
+			"position"		"0.000000 0.000000 0.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"pointNumber"		"1"
+			"timeToCap"		"10"
+			"timeToNeutral"		"5"
+			"playersRequiredNF"		"1"
+			"playersRequiredImp"		"1"
+			"teamOwner"		"0"
+			"locationName"		"Energy central"
+			"resToGiveNF"		"5.000000"
+			"resToGiveImp"		"5.000000"
+			"reinfToTakeNF"		"0.000000"
+			"reinfToTakeImp"		"0.000000"
+			"canNFCap"		"1"
+			"canImpCap"		"1"
+			"Mins"		"-9601.000000 -145.000000 -49.000000"
+			"Maxs"		"-9439.000000 145.000000 129.000000"
+		}
+		"110679"
+		{
+			"className"		"emp_cap_model"
+			"position"		"-9592.000000 0.000000 136.000000"
+			"angles"		"0.000000 180.500000 0.000000"
+			"pointNumber"		"1"
+			"visibleOnMap"		"1"
+			"model"		"models/common/props_system/flag2_nuetral.mdl"
+			"model2"		"models/common/props_system/flag2_nf.mdl"
+			"model3"		"models/common/props_system/flag2_imp.mdl"
+			"team"		"0"
+		}
+		"110708"
+		{
+			"className"		"emp_cap_point"
+			"position"		"0.000000 0.000000 0.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"pointNumber"		"2"
+			"timeToCap"		"10"
+			"timeToNeutral"		"5"
+			"playersRequiredNF"		"1"
+			"playersRequiredImp"		"1"
+			"teamOwner"		"0"
+			"locationName"		"Dam"
+			"resToGiveNF"		"5.000000"
+			"resToGiveImp"		"5.000000"
+			"reinfToTakeNF"		"0.000000"
+			"reinfToTakeImp"		"0.000000"
+			"canNFCap"		"1"
+			"canImpCap"		"1"
+			"Mins"		"7551.000000 -257.000000 767.000000"
+			"Maxs"		"7745.000000 257.000000 945.000000"
+		}
+		"110742"
+		{
+			"className"		"emp_cap_model"
+			"position"		"7832.000000 0.000000 1136.000000"
+			"angles"		"77.460701 4.610720 4.501200"
+			"pointNumber"		"2"
+			"visibleOnMap"		"1"
+			"model"		"models/common/props_system/flagpole01_neutral.mdl"
+			"model2"		"models/common/props_system/flagpole01_nf.mdl"
+			"model3"		"models/common/props_system/flagpole01_imp.mdl"
+			"team"		"0"
+		}
+		"110768"
+		{
+			"className"		"emp_cap_model"
+			"position"		"7832.000000 -192.000000 1136.000000"
+			"angles"		"77.460701 4.610720 4.501200"
+			"pointNumber"		"2"
+			"visibleOnMap"		"0"
+			"model"		"models/common/props_system/flagpole01_neutral.mdl"
+			"model2"		"models/common/props_system/flagpole01_nf.mdl"
+			"model3"		"models/common/props_system/flagpole01_imp.mdl"
+			"team"		"0"
+		}
+		"110780"
+		{
+			"className"		"emp_cap_model"
+			"position"		"7832.000000 192.000000 1136.000000"
+			"angles"		"77.460701 4.610720 4.501200"
+			"pointNumber"		"2"
+			"visibleOnMap"		"0"
+			"model"		"models/common/props_system/flagpole01_neutral.mdl"
+			"model2"		"models/common/props_system/flagpole01_nf.mdl"
+			"model3"		"models/common/props_system/flagpole01_imp.mdl"
+			"team"		"0"
+		}
+		"110796"
+		{
+			"className"		"emp_cap_model"
+			"position"		"7592.000000 -481.700012 1136.000000"
+			"angles"		"0.000000 270.500000 0.000000"
+			"pointNumber"		"2"
+			"visibleOnMap"		"0"
+			"model"		"models/common/props_system/flag2_nuetral.mdl"
+			"model2"		"models/common/props_system/flag2_nf.mdl"
+			"model3"		"models/common/props_system/flag2_imp.mdl"
+			"team"		"0"
+		}
+		"110812"
+		{
+			"className"		"emp_cap_model"
+			"position"		"7592.000000 507.196991 1136.000000"
+			"angles"		"0.000000 270.500000 0.000000"
+			"pointNumber"		"2"
+			"visibleOnMap"		"0"
+			"model"		"models/common/props_system/flag2_nuetral.mdl"
+			"model2"		"models/common/props_system/flag2_nf.mdl"
+			"model3"		"models/common/props_system/flag2_imp.mdl"
+			"team"		"0"
+		}
+		"170267"
+		{
+			"className"		"emp_resource_point_prop"
+			"position"		"11136.000000 -4416.000000 412.000000"
+			"angles"		"0.000000 90.000000 90.000000"
+			"enabled"		"1"
+			"model"		"models/lostcoast/props_junk/float03a.mdl"
+		}
+		"170269"
+		{
+			"className"		"emp_resource_point"
+			"position"		"11136.000000 -4416.000000 456.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+			"name"		"res1"
+		}
+		"170330"
+		{
+			"className"		"emp_resource_point"
+			"position"		"11136.000000 4416.000000 456.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+			"name"		"res2"
+		}
+		"170332"
+		{
+			"className"		"emp_resource_point_prop"
+			"position"		"11136.000000 4416.000000 412.000000"
+			"angles"		"0.000000 90.000000 90.000000"
+			"enabled"		"1"
+			"model"		"models/lostcoast/props_junk/float03a.mdl"
+		}
+		"170482"
+		{
+			"className"		"emp_resource_point"
+			"position"		"3584.000000 -4608.000000 520.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"enabled"		"0"
+			"resPerSecond"		"2.000000"
+			"name"		"res3"
+		}
+		"170484"
+		{
+			"className"		"emp_resource_point_prop"
+			"position"		"3584.000000 -4608.000000 476.000000"
+			"angles"		"0.000000 90.000000 90.000000"
+			"enabled"		"0"
+			"model"		"models/lostcoast/props_junk/float03a.mdl"
+		}
+		"170510"
+		{
+			"className"		"emp_resource_point"
+			"position"		"3584.000000 4608.000000 520.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"enabled"		"0"
+			"resPerSecond"		"2.000000"
+			"name"		"res4"
+		}
+		"170512"
+		{
+			"className"		"emp_resource_point_prop"
+			"position"		"3584.000000 4608.000000 476.000000"
+			"angles"		"0.000000 90.000000 90.000000"
+			"enabled"		"0"
+			"model"		"models/lostcoast/props_junk/float03a.mdl"
+		}
+		"170562"
+		{
+			"className"		"emp_resource_point"
+			"position"		"-768.000000 13376.000000 520.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+			"name"		"res5"
+		}
+		"170564"
+		{
+			"className"		"emp_resource_point_prop"
+			"position"		"-768.000000 13376.000000 476.000000"
+			"angles"		"0.000000 90.000000 90.000000"
+			"enabled"		"1"
+			"model"		"models/lostcoast/props_junk/float03a.mdl"
+		}
+		"170614"
+		{
+			"className"		"emp_resource_point"
+			"position"		"-768.000000 -13376.000000 520.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+			"name"		"res6"
+		}
+		"170616"
+		{
+			"className"		"emp_resource_point_prop"
+			"position"		"-768.000000 -13376.000000 476.000000"
+			"angles"		"0.000000 90.000000 90.000000"
+			"enabled"		"1"
+			"model"		"models/lostcoast/props_junk/float03a.mdl"
+		}
+		"170656"
+		{
+			"className"		"emp_resource_point"
+			"position"		"-5760.000000 10944.000000 456.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+			"name"		"res7"
+		}
+		"170658"
+		{
+			"className"		"emp_resource_point_prop"
+			"position"		"-5760.000000 10944.000000 412.000000"
+			"angles"		"0.000000 90.000000 90.000000"
+			"enabled"		"1"
+			"model"		"models/lostcoast/props_junk/float03a.mdl"
+		}
+		"170696"
+		{
+			"className"		"emp_resource_point"
+			"position"		"-5760.000000 -10944.000000 456.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+			"name"		"res8"
+		}
+		"170698"
+		{
+			"className"		"emp_resource_point_prop"
+			"position"		"-5760.000000 -10944.000000 412.000000"
+			"angles"		"0.000000 90.000000 90.000000"
+			"enabled"		"1"
+			"model"		"models/lostcoast/props_junk/float03a.mdl"
+		}
+		"170864"
+		{
+			"className"		"emp_resource_point"
+			"position"		"11648.000000 -12928.000000 12.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+			"name"		"res12"
+		}
+		"170866"
+		{
+			"className"		"emp_resource_point_prop"
+			"position"		"11648.000000 -12928.000000 -32.000000"
+			"angles"		"0.000000 90.000000 90.000000"
+			"enabled"		"1"
+			"model"		"models/lostcoast/props_junk/float03a.mdl"
+		}
+		"170902"
+		{
+			"className"		"emp_resource_point"
+			"position"		"11392.000000 13120.000000 12.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+			"name"		"res13"
+		}
+		"170904"
+		{
+			"className"		"emp_resource_point_prop"
+			"position"		"11392.000000 13120.000000 -32.000000"
+			"angles"		"0.000000 90.000000 90.000000"
+			"enabled"		"1"
+			"model"		"models/lostcoast/props_junk/float03a.mdl"
+		}
+		"171006"
+		{
+			"className"		"emp_building_imp_refinery"
+			"position"		"3584.000000 -4608.000000 512.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"built"		"1"
+			"health"		"150"
+			"team"		"3"
+			"target"		"res3"
+		}
+		"171026"
+		{
+			"className"		"emp_building_nf_refinery"
+			"position"		"3586.000000 4610.000000 539.000000"
+			"angles"		"0.000000 35.000000 0.000000"
+			"built"		"1"
+			"health"		"150"
+			"team"		"2"
+			"target"		"res4"
+		}
+		"191959"
+		{
+			"className"		"emp_building_imp_barracks"
+			"position"		"1452.000000 -3400.000000 511.000000"
+			"angles"		"0.000000 52.000000 0.000000"
+			"built"		"1"
+			"health"		"250"
+			"team"		"3"
+		}
+		"191981"
+		{
+			"className"		"emp_imp_commander"
+			"position"		"2631.998047 -3422.774414 517.673401"
+			"angles"		"-0.000010 -179.500000 1.247222"
+		}
+		"192023"
+		{
+			"className"		"emp_nf_commander"
+			"position"		"2574.008545 3392.976318 590.338501"
+			"angles"		"0.000018 -0.499941 -0.580261"
+		}
+		"192039"
+		{
+			"className"		"emp_building_nf_barracks"
+			"position"		"1592.000000 3361.000000 511.000000"
+			"angles"		"0.000000 314.000000 0.000000"
+			"built"		"1"
+			"health"		"250"
+			"team"		"2"
+		}
+	}
+	"Author"		"Hardcore Empires"
+	"BaseSwap"		"0"
+	"version"		"0.380000"
+}

@@ -1,7 +1,29 @@
 "Scenario"
 {
+	"NF_Res"		"400.050018"
+	"BE_Res"		"400.050018"
+	"NF_Tickets"		"181"
+	"BE_Tickets"		"181"
+	"NF_Research"
+	{
+		"0"		"1"
+	}
+	"BE_Research"
+	{
+		"0"		"1"
+	}
 	"Entities"
 	{
+		"5000017"
+		{
+			"className"		"emp_building_nf_refinery"
+			"position"		"3584.000000 -4608.000000 512.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"built"		"1"
+			"health"		"150"
+			"team"		"2"
+			"target"		"res3"
+		}
 		"110565"
 		{
 			"className"		"emp_cap_model"
@@ -38,8 +60,8 @@
 			"playersRequiredImp"		"1"
 			"teamOwner"		"0"
 			"locationName"		"Energy central"
-			"resToGiveNF"		"1.5"
-			"resToGiveImp"		"1.5"
+			"resToGiveNF"		"1.500000"
+			"resToGiveImp"		"1.500000"
 			"reinfToTakeNF"		"0.000000"
 			"reinfToTakeImp"		"0.000000"
 			"canNFCap"		"1"
@@ -72,8 +94,8 @@
 			"playersRequiredImp"		"1"
 			"teamOwner"		"0"
 			"locationName"		"Dam"
-			"resToGiveNF"		"1.5"
-			"resToGiveImp"		"1.5"
+			"resToGiveNF"		"1.500000"
+			"resToGiveImp"		"1.500000"
 			"reinfToTakeNF"		"0.000000"
 			"reinfToTakeImp"		"0.000000"
 			"canNFCap"		"1"
@@ -312,76 +334,68 @@
 			"enabled"		"1"
 			"model"		"models/lostcoast/props_junk/float03a.mdl"
 		}
-		"171006"
-		{
-			"className"		"emp_building_imp_refinery"
-			"position"		"3584.000000 -4608.000000 512.000000"
-			"angles"		"0.000000 0.000000 0.000000"
-			"built"		"1"
-			"health"		"150"
-			"team"		"3"
-			"target"		"res3"
-		}
-		"171026"
-		{
-			"className"		"emp_building_nf_refinery"
-			"position"		"3586.000000 4610.000000 539.000000"
-			"angles"		"0.000000 35.000000 0.000000"
-			"built"		"1"
-			"health"		"150"
-			"team"		"2"
-			"target"		"res4"
-		}
-		"191959"
-		{
-			"className"		"emp_building_imp_barracks"
-			"position"		"1452.000000 -3400.000000 511.000000"
-			"angles"		"0.000000 52.000000 0.000000"
-			"built"		"1"
-			"health"		"250"
-			"team"		"3"
-		}
 		"191981"
 		{
 			"className"		"emp_imp_commander"
-			"position"		"2632.003174 -3423.352051 517.670776"
-			"angles"		"0.000001 -179.500000 1.247276"
+			"position"		"2574.072998 3386.495361 517.674561"
+			"angles"		"0.000007 -0.547894 1.248904"
 		}
 		"192023"
 		{
 			"className"		"emp_nf_commander"
-			"position"		"2574.010498 3393.208008 590.330444"
-			"angles"		"0.000001 -0.499921 -0.584686"
+			"position"		"2632.045166 -3428.172852 590.327026"
+			"angles"		"-0.000000 -179.500000 -0.585602"
 		}
-		"192039"
+		"5000018"
+		{
+			"className"		"emp_building_imp_refinery"
+			"position"		"3586.000000 4610.000000 539.000000"
+			"angles"		"0.000000 35.000000 0.000000"
+			"built"		"1"
+			"health"		"150"
+			"team"		"3"
+			"target"		"res4"
+		}
+		"5000019"
 		{
 			"className"		"emp_building_nf_barracks"
-			"position"		"1592.000000 3361.000000 511.000000"
-			"angles"		"0.000000 314.000000 0.000000"
+			"position"		"1452.000000 -3400.000000 511.000000"
+			"angles"		"0.000000 52.000000 0.000000"
 			"built"		"1"
 			"health"		"250"
 			"team"		"2"
 		}
-		"5000015"
+		"5000020"
 		{
-			"className"		"emp_building_imp_refinery"
+			"className"		"emp_building_imp_barracks"
+			"position"		"1592.000000 3361.000000 511.000000"
+			"angles"		"0.000000 314.000000 0.000000"
+			"built"		"1"
+			"health"		"250"
+			"team"		"3"
+		}
+		"5000021"
+		{
+			"className"		"emp_building_nf_refinery"
 			"position"		"-768.000000 -13376.000000 520.000000"
 			"angles"		"0.000000 -3.175049 0.000000"
 			"built"		"1"
 			"health"		"150"
-			"team"		"3"
+			"team"		"2"
 			"target"		"res6"
 		}
-		"5000016"
+		"5000022"
 		{
-			"className"		"emp_building_nf_refinery"
+			"className"		"emp_building_imp_refinery"
 			"position"		"-768.000000 13376.000000 520.000000"
 			"angles"		"0.000000 -0.318604 0.000000"
 			"built"		"1"
 			"health"		"150"
-			"team"		"2"
+			"team"		"3"
 			"target"		"res5"
 		}
 	}
-	"version"		"0.220000"
+	"Author"		"Mr. X."
+	"BaseSwap"		"0"
+	"version"		"0.300000"
 }

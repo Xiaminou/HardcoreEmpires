@@ -1,0 +1,131 @@
+"Scenario"
+{
+	"Entities"
+	{
+		"273029"
+		{
+			"className"		"emp_building_nf_barracks"
+			"position"		"5376.000000 1024.000000 -3072.000000"
+			"angles"		"0.000000 271.000000 0.000000"
+			"built"		"1"
+			"health"		"250"
+			"team"		"2"
+		}
+		"283337"
+		{
+			"className"		"emp_building_imp_armory"
+			"position"		"-5376.000000 0.000000 -3068.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"built"		"1"
+			"health"		"100"
+			"team"		"3"
+		}
+		"283346"
+		{
+			"className"		"emp_building_imp_barracks"
+			"position"		"-5376.000000 -1024.000000 -3068.000000"
+			"angles"		"0.000000 272.000000 0.000000"
+			"built"		"1"
+			"health"		"250"
+			"team"		"3"
+		}
+		"283393"
+		{
+			"className"		"emp_imp_commander"
+			"position"		"-5119.971680 765.805664 -3065.160156"
+			"angles"		"0.152256 0.000479 1.884873"
+		}
+		"283397"
+		{
+			"className"		"emp_nf_commander"
+			"position"		"5121.334961 -641.469910 -2993.784668"
+			"angles"		"0.521958 -0.043255 -0.562866"
+		}
+		"297079"
+		{
+			"className"		"emp_building_nf_armory"
+			"position"		"5120.000000 0.000000 -3072.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"built"		"1"
+			"health"		"100"
+			"team"		"2"
+		}
+		"314010"
+		{
+			"className"		"emp_resource_point"
+			"position"		"336.000000 -7624.000000 -3040.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+			"name"		"ref3"
+		}
+		"314145"
+		{
+			"className"		"emp_resource_point"
+			"position"		"-5552.000000 1512.000000 -3040.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"enabled"		"0"
+			"resPerSecond"		"1.000000"
+			"name"		"ref6"
+		}
+		"314168"
+		{
+			"className"		"emp_resource_point"
+			"position"		"1432.000000 5552.000000 -3040.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+			"name"		"ref2"
+		}
+		"314178"
+		{
+			"className"		"emp_resource_point"
+			"position"		"5224.000000 -1392.000000 -3040.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"enabled"		"0"
+			"resPerSecond"		"1.000000"
+			"name"		"ref1"
+		}
+		"314186"
+		{
+			"className"		"emp_resource_point"
+			"position"		"6928.000000 4560.000000 -3072.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+			"name"		"ref4"
+		}
+		"314198"
+		{
+			"className"		"emp_resource_point"
+			"position"		"-4560.000000 -6952.000000 -3056.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+			"name"		"ref5"
+		}
+		"314225"
+		{
+			"className"		"emp_building_nf_refinery"
+			"position"		"5224.000000 -1392.000000 -3049.739990"
+			"angles"		"0.000000 92.000000 0.000000"
+			"built"		"1"
+			"health"		"150"
+			"team"		"2"
+			"target"		"ref1"
+		}
+		"314280"
+		{
+			"className"		"emp_building_imp_refinery"
+			"position"		"-5552.000000 1512.000000 -3048.969971"
+			"angles"		"0.000000 228.000000 0.000000"
+			"built"		"1"
+			"health"		"150"
+			"team"		"3"
+			"target"		"ref6"
+		}
+	}
+	"Author"		"Mr. X."
+	"BaseSwap"		"0"
+	"version"		"0.380000"
+}

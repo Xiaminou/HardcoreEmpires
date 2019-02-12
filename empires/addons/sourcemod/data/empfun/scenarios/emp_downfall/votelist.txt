@@ -1,0 +1,14 @@
+"VoteList"
+{
+	"scenarios"
+	{
+		"alt1"
+		{
+			"min_players"		"20"
+			"max_players"		"64"
+			"name_override"		"(HARD) alt1"
+			"description_override"		"-"
+		}
+	}
+	"enabled"		"1"
+}

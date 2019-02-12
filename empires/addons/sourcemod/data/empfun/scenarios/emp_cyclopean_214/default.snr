@@ -245,17 +245,161 @@
 			"level"		"3"
 			"model"		"models/NF/turrets/ml_lvl3/nf_turret_ml_lvl3.mdl"
 		}
+		"321727"
+		{
+			"className"		"emp_imp_ammo_crate"
+			"position"		"12126.000000 6848.000000 3697.639893"
+			"angles"		"0.000000 90.000000 0.000000"
+			"pointNumber"		"0"
+			"disabled"		"0"
+			"model"		"models/Imperial/Props/imp_crateammo.mdl"
+		}
+		"321729"
+		{
+			"className"		"emp_imp_ammo_crate"
+			"position"		"7550.000000 11424.000000 3697.639893"
+			"angles"		"0.000000 0.000000 0.000000"
+			"pointNumber"		"0"
+			"disabled"		"0"
+			"model"		"models/Imperial/Props/imp_crateammo.mdl"
+		}
+		"321731"
+		{
+			"className"		"emp_imp_ammo_crate"
+			"position"		"9054.000000 6850.000000 3697.639893"
+			"angles"		"0.000000 90.000000 0.000000"
+			"pointNumber"		"0"
+			"disabled"		"0"
+			"model"		"models/Imperial/Props/imp_crateammo.mdl"
+		}
+		"321733"
+		{
+			"className"		"emp_imp_ammo_crate"
+			"position"		"7550.000000 8352.000000 3697.639893"
+			"angles"		"0.000000 0.000000 0.000000"
+			"pointNumber"		"0"
+			"disabled"		"0"
+			"model"		"models/Imperial/Props/imp_crateammo.mdl"
+		}
 		"321735"
 		{
 			"className"		"emp_imp_commander"
-			"position"		"12239.878906 11391.878906 3309.671387"
-			"angles"		"0.000007 135.000000 1.247677"
+			"position"		"12239.967773 11391.967773 3309.670898"
+			"angles"		"-0.000008 135.000000 1.247478"
+		}
+		"321737"
+		{
+			"className"		"emp_imp_health_crate"
+			"position"		"8994.000000 6848.000000 3697.639893"
+			"angles"		"0.000000 90.000000 0.000000"
+			"pointNumber"		"0"
+			"disabled"		"0"
+			"model"		"models/Imperial/Props/imp_cratehealth.mdl"
+		}
+		"321739"
+		{
+			"className"		"emp_imp_health_crate"
+			"position"		"7550.000000 8288.000000 3697.639893"
+			"angles"		"0.000000 0.000000 0.000000"
+			"pointNumber"		"0"
+			"disabled"		"0"
+			"model"		"models/Imperial/Props/imp_cratehealth.mdl"
+		}
+		"321741"
+		{
+			"className"		"emp_imp_health_crate"
+			"position"		"12066.000000 6848.000000 3697.639893"
+			"angles"		"0.000000 90.000000 0.000000"
+			"pointNumber"		"0"
+			"disabled"		"0"
+			"model"		"models/Imperial/Props/imp_cratehealth.mdl"
+		}
+		"321743"
+		{
+			"className"		"emp_imp_health_crate"
+			"position"		"7550.000000 11360.000000 3697.639893"
+			"angles"		"0.000000 0.000000 0.000000"
+			"pointNumber"		"0"
+			"disabled"		"0"
+			"model"		"models/Imperial/Props/imp_cratehealth.mdl"
+		}
+		"321749"
+		{
+			"className"		"emp_nf_ammo_crate"
+			"position"		"-7086.959961 -9060.919922 3697.280029"
+			"angles"		"0.000000 180.000000 0.000000"
+			"pointNumber"		"0"
+			"disabled"		"0"
+			"model"		"models/NF/Props/nf_crateammo.mdl"
+		}
+		"321751"
+		{
+			"className"		"emp_nf_ammo_crate"
+			"position"		"-7086.000000 -12132.000000 3697.280029"
+			"angles"		"0.000000 180.000000 0.000000"
+			"pointNumber"		"0"
+			"disabled"		"0"
+			"model"		"models/NF/Props/nf_crateammo.mdl"
+		}
+		"321753"
+		{
+			"className"		"emp_nf_ammo_crate"
+			"position"		"-11684.700195 -7630.919922 3697.280029"
+			"angles"		"0.000000 270.000000 0.000000"
+			"pointNumber"		"0"
+			"disabled"		"0"
+			"model"		"models/NF/Props/nf_crateammo.mdl"
+		}
+		"321755"
+		{
+			"className"		"emp_nf_ammo_crate"
+			"position"		"-8612.679688 -7625.080078 3697.280029"
+			"angles"		"0.000000 270.000000 0.000000"
+			"pointNumber"		"0"
+			"disabled"		"0"
+			"model"		"models/NF/Props/nf_crateammo.mdl"
 		}
 		"321757"
 		{
 			"className"		"emp_nf_commander"
-			"position"		"-11631.274414 -12223.274414 3382.327148"
-			"angles"		"0.000001 -45.000011 -0.586060"
+			"position"		"-11631.481445 -12223.481445 3382.327148"
+			"angles"		"0.000004 -45.000011 -0.586090"
+		}
+		"321759"
+		{
+			"className"		"emp_nf_health_crate"
+			"position"		"-7086.000000 -9150.000000 3697.280029"
+			"angles"		"0.000000 180.000000 0.000000"
+			"pointNumber"		"0"
+			"disabled"		"0"
+			"model"		"models/NF/Props/nf_cratehealth.mdl"
+		}
+		"321761"
+		{
+			"className"		"emp_nf_health_crate"
+			"position"		"-11596.700195 -7630.919922 3697.280029"
+			"angles"		"0.000000 270.000000 0.000000"
+			"pointNumber"		"0"
+			"disabled"		"0"
+			"model"		"models/NF/Props/nf_cratehealth.mdl"
+		}
+		"321763"
+		{
+			"className"		"emp_nf_health_crate"
+			"position"		"-7086.000000 -12220.000000 3697.280029"
+			"angles"		"0.000000 180.000000 0.000000"
+			"pointNumber"		"0"
+			"disabled"		"0"
+			"model"		"models/NF/Props/nf_cratehealth.mdl"
+		}
+		"321765"
+		{
+			"className"		"emp_nf_health_crate"
+			"position"		"-8524.679688 -7625.080078 3697.280029"
+			"angles"		"0.000000 270.000000 0.000000"
+			"pointNumber"		"0"
+			"disabled"		"0"
+			"model"		"models/NF/Props/nf_cratehealth.mdl"
 		}
 		"321767"
 		{
@@ -701,6 +845,325 @@
 			"rate"		"2.000000"
 			"color"		"255 255 255 100"
 		}
+		"323363"
+		{
+			"className"		"prop_dynamic"
+			"position"		"6980.000000 -1060.000000 2252.000000"
+			"angles"		"0.000000 75.000000 0.000000"
+			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"323367"
+		{
+			"className"		"prop_dynamic"
+			"position"		"-1980.000000 824.000000 2160.000000"
+			"angles"		"0.000000 150.000000 0.000000"
+			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"323371"
+		{
+			"className"		"prop_dynamic"
+			"position"		"-2452.000000 -5452.000000 2248.000000"
+			"angles"		"0.000000 150.000000 0.000000"
+			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"323375"
+		{
+			"className"		"prop_dynamic"
+			"position"		"3432.000000 -8340.000000 2212.000000"
+			"angles"		"0.000000 150.000000 0.000000"
+			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"323379"
+		{
+			"className"		"prop_dynamic"
+			"position"		"-2396.000000 -7844.000000 2540.000000"
+			"angles"		"0.000000 150.000000 0.000000"
+			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"323383"
+		{
+			"className"		"prop_dynamic"
+			"position"		"-5848.000000 -9528.000000 3252.000000"
+			"angles"		"0.000000 150.000000 0.000000"
+			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"323387"
+		{
+			"className"		"prop_dynamic"
+			"position"		"-11884.000000 -5856.000000 3232.000000"
+			"angles"		"0.000000 45.000000 0.000000"
+			"model"		"models/common/props_foliage/trees/orexcluster2b.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"323391"
+		{
+			"className"		"prop_dynamic"
+			"position"		"9312.000000 5676.000000 3196.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"323395"
+		{
+			"className"		"prop_dynamic"
+			"position"		"2052.000000 -2856.000000 2180.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"323399"
+		{
+			"className"		"prop_dynamic"
+			"position"		"-988.000000 -6948.000000 2208.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"model"		"models/common/props_foliage/trees/orexcluster2b.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"323403"
+		{
+			"className"		"prop_dynamic"
+			"position"		"-4432.000000 -4832.000000 2144.000000"
+			"angles"		"0.000000 64.000000 0.000000"
+			"model"		"models/common/props_foliage/trees/orexcluster2b.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"323407"
+		{
+			"className"		"prop_dynamic"
+			"position"		"-4032.000000 4984.000000 2232.000000"
+			"angles"		"0.000000 45.000000 0.000000"
+			"model"		"models/common/props_foliage/trees/orexcluster2b.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"323411"
+		{
+			"className"		"prop_dynamic"
+			"position"		"-3020.000000 6268.000000 2296.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"323415"
+		{
+			"className"		"prop_dynamic"
+			"position"		"5680.000000 3608.000000 2452.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"323419"
+		{
+			"className"		"prop_dynamic"
+			"position"		"3644.000000 4600.000000 2304.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"323423"
+		{
+			"className"		"prop_dynamic"
+			"position"		"-5460.000000 -1660.000000 2196.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"323427"
+		{
+			"className"		"prop_dynamic"
+			"position"		"-5372.000000 788.000000 2256.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"323431"
+		{
+			"className"		"prop_dynamic"
+			"position"		"11892.000000 1392.000000 3292.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"323435"
+		{
+			"className"		"prop_dynamic"
+			"position"		"-5732.000000 2308.000000 2644.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"model"		"models/common/props_foliage/trees/orexcluster2b.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"323439"
+		{
+			"className"		"prop_dynamic"
+			"position"		"11948.000000 4876.000000 3264.000000"
+			"angles"		"0.000000 45.000000 0.000000"
+			"model"		"models/common/props_foliage/trees/orexcluster2b.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"323443"
+		{
+			"className"		"prop_dynamic"
+			"position"		"7604.000000 1141.000000 2557.000000"
+			"angles"		"0.000000 75.000000 0.000000"
+			"model"		"models/common/props_foliage/trees/orexcluster2b.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"323447"
+		{
+			"className"		"prop_dynamic"
+			"position"		"-6704.000000 -2684.000000 2380.000000"
+			"angles"		"0.000000 45.000000 0.000000"
+			"model"		"models/common/props_foliage/trees/orexcluster2b.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"323451"
+		{
+			"className"		"prop_dynamic"
+			"position"		"-6090.000000 10353.000000 3614.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"model"		"models/common/props_foliage/trees/orexcluster2b.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"323455"
+		{
+			"className"		"prop_dynamic"
+			"position"		"-2727.000000 -10773.000000 3146.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"model"		"models/common/props_foliage/trees/orexcluster2b.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"323459"
+		{
+			"className"		"prop_dynamic"
+			"position"		"4888.000000 9196.000000 3752.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"model"		"models/common/props_foliage/trees/orexcluster2b.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"323463"
+		{
+			"className"		"prop_dynamic"
+			"position"		"-11744.000000 768.000000 3688.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"model"		"models/common/props_foliage/trees/orexcluster2b.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"323467"
+		{
+			"className"		"prop_dynamic"
+			"position"		"2066.000000 -13441.099609 3229.330078"
+			"angles"		"0.000000 0.000000 0.000000"
+			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"323471"
+		{
+			"className"		"prop_dynamic"
+			"position"		"-10100.000000 8548.000000 4072.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"model"		"models/common/props_foliage/trees/orexcluster2b.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"323475"
+		{
+			"className"		"prop_dynamic"
+			"position"		"-10852.000000 12276.000000 4069.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"model"		"models/common/props_foliage/trees/orexcluster2b.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
 		"413925"
 		{
 			"className"		"emp_building_nf_refinery"
@@ -742,5 +1205,7 @@
 			"target"		"point8"
 		}
 	}
-	"version"		"0.220000"
+	"Author"		"Hardcore Empires"
+	"BaseSwap"		"0"
+	"version"		"0.300000"
 }

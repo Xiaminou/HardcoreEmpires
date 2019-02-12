@@ -2,25 +2,319 @@
 {
 	"NF_Res"		"0.000000"
 	"BE_Res"		"0.000000"
-	"NF_Tickets"		"50"
-	"BE_Tickets"		"50"
+	"NF_Tickets"		"50.099998"
+	"BE_Tickets"		"50.099998"
 	"NF_Research"
 	{
 		"0"		"1"
+		"1"		"1"
+		"2"		"1"
+		"3"		"1"
+		"4"		"1"
+		"5"		"1"
+		"6"		"1"
+		"7"		"1"
+		"8"		"1"
+		"9"		"1"
+		"10"		"1"
+		"11"		"1"
+		"12"		"1"
+		"13"		"1"
+		"14"		"1"
+		"15"		"1"
+		"16"		"1"
+		"17"		"1"
+		"18"		"1"
+		"19"		"1"
+		"20"		"1"
+		"21"		"1"
+		"22"		"1"
+		"23"		"1"
+		"24"		"1"
+		"25"		"1"
+		"26"		"1"
+		"27"		"1"
+		"28"		"1"
+		"29"		"1"
+		"30"		"1"
+		"31"		"1"
+		"32"		"1"
+		"33"		"1"
+		"34"		"1"
+		"35"		"1"
+		"36"		"1"
+		"37"		"1"
+		"38"		"1"
+		"39"		"1"
+		"40"		"1"
+		"41"		"1"
+		"42"		"1"
+		"43"		"1"
+		"44"		"1"
+		"45"		"1"
+		"46"		"1"
+		"47"		"1"
+		"48"		"1"
+		"49"		"1"
+		"50"		"1"
+		"51"		"1"
+		"52"		"1"
+		"53"		"1"
+		"54"		"1"
+		"55"		"1"
+		"56"		"1"
+		"57"		"1"
+		"58"		"1"
+		"59"		"1"
+		"60"		"1"
+		"61"		"1"
+		"62"		"1"
+		"63"		"1"
+		"64"		"1"
+		"65"		"1"
+		"66"		"1"
+		"67"		"1"
+		"68"		"1"
+		"69"		"1"
+		"70"		"1"
+		"71"		"1"
+		"72"		"1"
+		"73"		"1"
+		"74"		"1"
+		"75"		"1"
+		"76"		"1"
+		"77"		"1"
+		"78"		"1"
+		"79"		"1"
+		"80"		"1"
+		"81"		"1"
+		"82"		"1"
+		"83"		"1"
+		"84"		"1"
+		"85"		"1"
+		"86"		"1"
+		"87"		"1"
+		"88"		"1"
+		"89"		"1"
+		"90"		"1"
+		"91"		"1"
+		"92"		"1"
+		"93"		"1"
+		"94"		"1"
+		"95"		"1"
+		"96"		"1"
+		"97"		"1"
+		"98"		"1"
+		"99"		"1"
+		"100"		"1"
+		"101"		"1"
+		"102"		"1"
+		"103"		"1"
+		"104"		"1"
+		"105"		"1"
+		"106"		"1"
+		"107"		"1"
+		"108"		"1"
+		"109"		"1"
+		"110"		"1"
+		"111"		"1"
+		"112"		"1"
+		"113"		"1"
+		"114"		"1"
+		"115"		"1"
+		"116"		"1"
+		"117"		"1"
+		"118"		"1"
+		"119"		"1"
+		"120"		"1"
+		"121"		"1"
+		"122"		"1"
+		"123"		"1"
+		"124"		"1"
+		"125"		"1"
+		"126"		"1"
+		"127"		"1"
 	}
 	"BE_Research"
 	{
 		"0"		"1"
+		"1"		"1"
+		"2"		"1"
+		"3"		"1"
+		"4"		"1"
+		"5"		"1"
+		"6"		"1"
+		"7"		"1"
+		"8"		"1"
+		"9"		"1"
+		"10"		"1"
+		"11"		"1"
+		"12"		"1"
+		"13"		"1"
+		"14"		"1"
+		"15"		"1"
+		"16"		"1"
+		"17"		"1"
+		"18"		"1"
+		"19"		"1"
+		"20"		"1"
+		"21"		"1"
+		"22"		"1"
+		"23"		"1"
+		"24"		"1"
+		"25"		"1"
+		"26"		"1"
+		"27"		"1"
+		"28"		"1"
+		"29"		"1"
+		"30"		"1"
+		"31"		"1"
+		"32"		"1"
+		"33"		"1"
+		"34"		"1"
+		"35"		"1"
+		"36"		"1"
+		"37"		"1"
+		"38"		"1"
+		"39"		"1"
+		"40"		"1"
+		"41"		"1"
+		"42"		"1"
+		"43"		"1"
+		"44"		"1"
+		"45"		"1"
+		"46"		"1"
+		"47"		"1"
+		"48"		"1"
+		"49"		"1"
+		"50"		"1"
+		"51"		"1"
+		"52"		"1"
+		"53"		"1"
+		"54"		"1"
+		"55"		"1"
+		"56"		"1"
+		"57"		"1"
+		"58"		"1"
+		"59"		"1"
+		"60"		"1"
+		"61"		"1"
+		"62"		"1"
+		"63"		"1"
+		"64"		"1"
+		"65"		"1"
+		"66"		"1"
+		"67"		"1"
+		"68"		"1"
+		"69"		"1"
+		"70"		"1"
+		"71"		"1"
+		"72"		"1"
+		"73"		"1"
+		"74"		"1"
+		"75"		"1"
+		"76"		"1"
+		"77"		"1"
+		"78"		"1"
+		"79"		"1"
+		"80"		"1"
+		"81"		"1"
+		"82"		"1"
+		"83"		"1"
+		"84"		"1"
+		"85"		"1"
+		"86"		"1"
+		"87"		"1"
+		"88"		"1"
+		"89"		"1"
+		"90"		"1"
+		"91"		"1"
+		"92"		"1"
+		"93"		"1"
+		"94"		"1"
+		"95"		"1"
+		"96"		"1"
+		"97"		"1"
+		"98"		"1"
+		"99"		"1"
+		"100"		"1"
+		"101"		"1"
+		"102"		"1"
+		"103"		"1"
+		"104"		"1"
+		"105"		"1"
+		"106"		"1"
+		"107"		"1"
+		"108"		"1"
+		"109"		"1"
+		"110"		"1"
+		"111"		"1"
+		"112"		"1"
+		"113"		"1"
+		"114"		"1"
+		"115"		"1"
+		"116"		"1"
+		"117"		"1"
+		"118"		"1"
+		"119"		"1"
+		"120"		"1"
+		"121"		"1"
+		"122"		"1"
+		"123"		"1"
+		"124"		"1"
+		"125"		"1"
+		"126"		"1"
+		"127"		"1"
 	}
 	"Entities"
 	{
+		"148562"
+		{
+			"className"		"env_smokestack"
+			"position"		"-3912.000000 1152.000000 648.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"material"		"particle/SmokeStack.vmt"
+			"startSize"		"16.000000"
+			"endSize"		"128.000000"
+			"emit"		"1"
+			"baseSpread"		"10.000000"
+			"twist"		"60.000000"
+			"roll"		"0.000000"
+			"windAngle"		"0"
+			"windSpeed"		"8"
+			"jetLength"		"1024.000000"
+			"spreadSpeed"		"15.000000"
+			"Speed"		"40.000000"
+			"rate"		"0.200000"
+			"color"		"19 18 17 160"
+		}
+		"808235"
+		{
+			"className"		"env_smokestack"
+			"position"		"-3909.000000 -1416.000000 51.030998"
+			"angles"		"0.000000 0.000000 0.000000"
+			"material"		"particle/SmokeStack.vmt"
+			"startSize"		"16.000000"
+			"endSize"		"128.000000"
+			"emit"		"1"
+			"baseSpread"		"10.000000"
+			"twist"		"60.000000"
+			"roll"		"0.000000"
+			"windAngle"		"0"
+			"windSpeed"		"8"
+			"jetLength"		"1024.000000"
+			"spreadSpeed"		"15.000000"
+			"Speed"		"40.000000"
+			"rate"		"0.200000"
+			"color"		"19 18 17 160"
+		}
 		"1054785"
 		{
 			"className"		"emp_info_player_NF"
 			"position"		"477.000000 -1680.000000 257.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"pointNumber"		"7"
-			"spawnEnabled"		"7"
+			"spawnEnabled"		"0"
 		}
 		"1054697"
 		{
@@ -28,7 +322,7 @@
 			"position"		"397.000000 -1600.000000 257.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"pointNumber"		"7"
-			"spawnEnabled"		"7"
+			"spawnEnabled"		"0"
 		}
 		"1054687"
 		{
@@ -36,7 +330,7 @@
 			"position"		"397.000000 -1680.000000 256.884003"
 			"angles"		"0.000000 0.000000 0.000000"
 			"pointNumber"		"7"
-			"spawnEnabled"		"7"
+			"spawnEnabled"		"0"
 		}
 		"1054771"
 		{
@@ -44,55 +338,55 @@
 			"position"		"477.000000 -1600.000000 257.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"pointNumber"		"7"
-			"spawnEnabled"		"7"
+			"spawnEnabled"		"0"
 		}
 		"1054739"
 		{
 			"className"		"emp_info_player_NF"
 			"position"		"605.000000 -1600.000000 257.000000"
-			"angles"		"0.000000 180.000000 0.000000"
+			"angles"		"0.000000 90.000000 0.000000"
 			"pointNumber"		"7"
-			"spawnEnabled"		"7"
+			"spawnEnabled"		"0"
 		}
 		"1054751"
 		{
 			"className"		"emp_info_player_NF"
 			"position"		"605.000000 -1824.000000 257.000000"
-			"angles"		"0.000000 180.000000 0.000000"
+			"angles"		"0.000000 90.000000 0.000000"
 			"pointNumber"		"7"
-			"spawnEnabled"		"7"
+			"spawnEnabled"		"0"
 		}
 		"1054705"
 		{
 			"className"		"emp_info_player_NF"
 			"position"		"685.000000 -1827.000000 280.000000"
-			"angles"		"0.000000 180.000000 0.000000"
+			"angles"		"0.000000 90.000000 0.000000"
 			"pointNumber"		"7"
-			"spawnEnabled"		"7"
+			"spawnEnabled"		"0"
 		}
 		"1054721"
 		{
 			"className"		"emp_info_player_NF"
 			"position"		"685.000000 -1728.000000 257.000000"
-			"angles"		"0.000000 180.000000 0.000000"
+			"angles"		"0.000000 90.000000 0.000000"
 			"pointNumber"		"7"
-			"spawnEnabled"		"7"
+			"spawnEnabled"		"0"
 		}
 		"1054745"
 		{
 			"className"		"emp_info_player_NF"
 			"position"		"605.000000 -1728.000000 257.000000"
-			"angles"		"0.000000 180.000000 0.000000"
+			"angles"		"0.000000 90.000000 0.000000"
 			"pointNumber"		"7"
-			"spawnEnabled"		"7"
+			"spawnEnabled"		"0"
 		}
 		"1054733"
 		{
 			"className"		"emp_info_player_NF"
 			"position"		"685.000000 -1600.000000 257.000000"
-			"angles"		"0.000000 180.000000 0.000000"
+			"angles"		"0.000000 90.000000 0.000000"
 			"pointNumber"		"7"
-			"spawnEnabled"		"7"
+			"spawnEnabled"		"0"
 		}
 		"1054838"
 		{
@@ -100,7 +394,7 @@
 			"position"		"480.026001 -1680.130005 257.613007"
 			"angles"		"0.000000 0.000000 0.000000"
 			"pointNumber"		"5"
-			"spawnEnabled"		"5"
+			"spawnEnabled"		"0"
 		}
 		"1054840"
 		{
@@ -108,7 +402,7 @@
 			"position"		"400.026001 -1600.130005 257.613007"
 			"angles"		"0.000000 0.000000 0.000000"
 			"pointNumber"		"5"
-			"spawnEnabled"		"5"
+			"spawnEnabled"		"0"
 		}
 		"1054842"
 		{
@@ -116,7 +410,7 @@
 			"position"		"400.026001 -1680.130005 257.496002"
 			"angles"		"0.000000 0.000000 0.000000"
 			"pointNumber"		"5"
-			"spawnEnabled"		"5"
+			"spawnEnabled"		"0"
 		}
 		"1054844"
 		{
@@ -124,55 +418,55 @@
 			"position"		"480.026001 -1600.130005 257.613007"
 			"angles"		"0.000000 0.000000 0.000000"
 			"pointNumber"		"5"
-			"spawnEnabled"		"5"
+			"spawnEnabled"		"0"
 		}
 		"1054846"
 		{
 			"className"		"emp_info_player_Imp"
 			"position"		"608.026001 -1600.130005 257.613007"
-			"angles"		"0.000000 180.000000 0.000000"
+			"angles"		"0.000000 90.000000 0.000000"
 			"pointNumber"		"5"
-			"spawnEnabled"		"5"
+			"spawnEnabled"		"0"
 		}
 		"1054848"
 		{
 			"className"		"emp_info_player_Imp"
 			"position"		"608.026001 -1824.130005 257.613007"
-			"angles"		"0.000000 180.000000 0.000000"
+			"angles"		"0.000000 90.000000 0.000000"
 			"pointNumber"		"5"
-			"spawnEnabled"		"5"
+			"spawnEnabled"		"0"
 		}
 		"1054850"
 		{
 			"className"		"emp_info_player_Imp"
 			"position"		"688.026001 -1827.130005 280.613007"
-			"angles"		"0.000000 180.000000 0.000000"
+			"angles"		"0.000000 90.000000 0.000000"
 			"pointNumber"		"5"
-			"spawnEnabled"		"5"
+			"spawnEnabled"		"0"
 		}
 		"1054852"
 		{
 			"className"		"emp_info_player_Imp"
 			"position"		"688.026001 -1728.130005 257.613007"
-			"angles"		"0.000000 180.000000 0.000000"
+			"angles"		"0.000000 90.000000 0.000000"
 			"pointNumber"		"5"
-			"spawnEnabled"		"5"
+			"spawnEnabled"		"0"
 		}
 		"1054854"
 		{
 			"className"		"emp_info_player_Imp"
 			"position"		"608.026001 -1728.130005 257.613007"
-			"angles"		"0.000000 180.000000 0.000000"
+			"angles"		"0.000000 90.000000 0.000000"
 			"pointNumber"		"5"
-			"spawnEnabled"		"5"
+			"spawnEnabled"		"0"
 		}
 		"1054856"
 		{
 			"className"		"emp_info_player_Imp"
 			"position"		"688.026001 -1600.130005 257.613007"
-			"angles"		"0.000000 180.000000 0.000000"
+			"angles"		"0.000000 90.000000 0.000000"
 			"pointNumber"		"5"
-			"spawnEnabled"		"5"
+			"spawnEnabled"		"0"
 		}
 		"1053919"
 		{
@@ -180,7 +474,7 @@
 			"position"		"-2494.340088 4753.129883 241.000000"
 			"angles"		"0.000000 180.000000 0.000000"
 			"pointNumber"		"4"
-			"spawnEnabled"		"4"
+			"spawnEnabled"		"1"
 		}
 		"1053887"
 		{
@@ -188,7 +482,7 @@
 			"position"		"-2494.340088 4817.129883 240.884003"
 			"angles"		"0.000000 180.000000 0.000000"
 			"pointNumber"		"4"
-			"spawnEnabled"		"4"
+			"spawnEnabled"		"1"
 		}
 		"1053907"
 		{
@@ -196,7 +490,7 @@
 			"position"		"-2494.340088 4897.129883 241.000000"
 			"angles"		"0.000000 180.000000 0.000000"
 			"pointNumber"		"4"
-			"spawnEnabled"		"4"
+			"spawnEnabled"		"1"
 		}
 		"1053913"
 		{
@@ -204,7 +498,7 @@
 			"position"		"-2494.340088 5041.129883 241.000000"
 			"angles"		"0.000000 180.000000 0.000000"
 			"pointNumber"		"4"
-			"spawnEnabled"		"4"
+			"spawnEnabled"		"1"
 		}
 		"1053901"
 		{
@@ -212,7 +506,7 @@
 			"position"		"-2494.340088 4977.129883 241.000000"
 			"angles"		"0.000000 180.000000 0.000000"
 			"pointNumber"		"4"
-			"spawnEnabled"		"4"
+			"spawnEnabled"		"1"
 		}
 		"1054099"
 		{
@@ -220,7 +514,7 @@
 			"position"		"-2863.659912 4817.129883 240.884003"
 			"angles"		"0.000000 0.000000 0.000000"
 			"pointNumber"		"4"
-			"spawnEnabled"		"4"
+			"spawnEnabled"		"1"
 		}
 		"1054101"
 		{
@@ -228,7 +522,7 @@
 			"position"		"-2863.659912 4897.129883 241.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"pointNumber"		"4"
-			"spawnEnabled"		"4"
+			"spawnEnabled"		"1"
 		}
 		"1054103"
 		{
@@ -236,7 +530,7 @@
 			"position"		"-2863.659912 4977.129883 241.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"pointNumber"		"4"
-			"spawnEnabled"		"4"
+			"spawnEnabled"		"1"
 		}
 		"1054105"
 		{
@@ -244,7 +538,7 @@
 			"position"		"-2863.659912 5041.129883 241.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"pointNumber"		"4"
-			"spawnEnabled"		"4"
+			"spawnEnabled"		"1"
 		}
 		"1054097"
 		{
@@ -252,7 +546,7 @@
 			"position"		"-2863.659912 4753.129883 241.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"pointNumber"		"4"
-			"spawnEnabled"		"4"
+			"spawnEnabled"		"1"
 		}
 		"1127396"
 		{
@@ -260,7 +554,7 @@
 			"position"		"-2494.340088 4743.129883 241.000000"
 			"angles"		"0.000000 180.000000 0.000000"
 			"pointNumber"		"2"
-			"spawnEnabled"		"2"
+			"spawnEnabled"		"0"
 		}
 		"1127398"
 		{
@@ -268,7 +562,7 @@
 			"position"		"-2494.340088 4807.129883 240.884003"
 			"angles"		"0.000000 180.000000 0.000000"
 			"pointNumber"		"2"
-			"spawnEnabled"		"2"
+			"spawnEnabled"		"0"
 		}
 		"1127400"
 		{
@@ -276,7 +570,7 @@
 			"position"		"-2494.340088 4887.129883 241.000000"
 			"angles"		"0.000000 180.000000 0.000000"
 			"pointNumber"		"2"
-			"spawnEnabled"		"2"
+			"spawnEnabled"		"0"
 		}
 		"1127402"
 		{
@@ -284,7 +578,7 @@
 			"position"		"-2494.340088 5031.129883 241.000000"
 			"angles"		"0.000000 180.000000 0.000000"
 			"pointNumber"		"2"
-			"spawnEnabled"		"2"
+			"spawnEnabled"		"0"
 		}
 		"1127404"
 		{
@@ -292,7 +586,7 @@
 			"position"		"-2494.340088 4967.129883 241.000000"
 			"angles"		"0.000000 180.000000 0.000000"
 			"pointNumber"		"2"
-			"spawnEnabled"		"2"
+			"spawnEnabled"		"0"
 		}
 		"1127406"
 		{
@@ -300,7 +594,7 @@
 			"position"		"-2863.659912 4807.129883 240.884003"
 			"angles"		"0.000000 0.000000 0.000000"
 			"pointNumber"		"2"
-			"spawnEnabled"		"2"
+			"spawnEnabled"		"0"
 		}
 		"1127408"
 		{
@@ -308,7 +602,7 @@
 			"position"		"-2863.659912 4887.129883 241.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"pointNumber"		"2"
-			"spawnEnabled"		"2"
+			"spawnEnabled"		"0"
 		}
 		"1127410"
 		{
@@ -316,7 +610,7 @@
 			"position"		"-2863.659912 4967.129883 241.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"pointNumber"		"2"
-			"spawnEnabled"		"2"
+			"spawnEnabled"		"0"
 		}
 		"1127412"
 		{
@@ -324,7 +618,7 @@
 			"position"		"-2863.659912 5031.129883 241.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"pointNumber"		"2"
-			"spawnEnabled"		"2"
+			"spawnEnabled"		"0"
 		}
 		"1127414"
 		{
@@ -332,7 +626,107 @@
 			"position"		"-2863.659912 4743.129883 241.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"pointNumber"		"2"
-			"spawnEnabled"		"2"
+			"spawnEnabled"		"0"
+		}
+		"148564"
+		{
+			"className"		"env_smokestack"
+			"position"		"-2296.000000 2256.000000 616.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"material"		"particle/SmokeStack.vmt"
+			"startSize"		"16.000000"
+			"endSize"		"128.000000"
+			"emit"		"1"
+			"baseSpread"		"10.000000"
+			"twist"		"60.000000"
+			"roll"		"0.000000"
+			"windAngle"		"0"
+			"windSpeed"		"8"
+			"jetLength"		"1024.000000"
+			"spreadSpeed"		"15.000000"
+			"Speed"		"40.000000"
+			"rate"		"0.200000"
+			"color"		"19 18 17 160"
+		}
+		"148571"
+		{
+			"className"		"env_smokestack"
+			"position"		"1760.000000 4400.000000 136.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"material"		"particle/SmokeStack.vmt"
+			"startSize"		"16.000000"
+			"endSize"		"512.000000"
+			"emit"		"1"
+			"baseSpread"		"10.000000"
+			"twist"		"60.000000"
+			"roll"		"0.000000"
+			"windAngle"		"0"
+			"windSpeed"		"8"
+			"jetLength"		"2048.000000"
+			"spreadSpeed"		"15.000000"
+			"Speed"		"40.000000"
+			"rate"		"0.200000"
+			"color"		"19 18 17 160"
+		}
+		"148573"
+		{
+			"className"		"env_smokestack"
+			"position"		"-168.000000 1008.000000 328.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"material"		"particle/SmokeStack.vmt"
+			"startSize"		"16.000000"
+			"endSize"		"512.000000"
+			"emit"		"1"
+			"baseSpread"		"10.000000"
+			"twist"		"60.000000"
+			"roll"		"0.000000"
+			"windAngle"		"0"
+			"windSpeed"		"8"
+			"jetLength"		"2048.000000"
+			"spreadSpeed"		"15.000000"
+			"Speed"		"40.000000"
+			"rate"		"0.200000"
+			"color"		"19 18 17 160"
+		}
+		"148575"
+		{
+			"className"		"env_smokestack"
+			"position"		"-664.000000 -1184.000000 136.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"material"		"particle/SmokeStack.vmt"
+			"startSize"		"16.000000"
+			"endSize"		"512.000000"
+			"emit"		"1"
+			"baseSpread"		"10.000000"
+			"twist"		"60.000000"
+			"roll"		"0.000000"
+			"windAngle"		"0"
+			"windSpeed"		"8"
+			"jetLength"		"2048.000000"
+			"spreadSpeed"		"15.000000"
+			"Speed"		"40.000000"
+			"rate"		"0.200000"
+			"color"		"19 18 17 160"
+		}
+		"148577"
+		{
+			"className"		"env_smokestack"
+			"position"		"3704.000000 -2896.000000 456.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"material"		"particle/SmokeStack.vmt"
+			"startSize"		"16.000000"
+			"endSize"		"512.000000"
+			"emit"		"1"
+			"baseSpread"		"10.000000"
+			"twist"		"60.000000"
+			"roll"		"0.000000"
+			"windAngle"		"0"
+			"windSpeed"		"8"
+			"jetLength"		"2048.000000"
+			"spreadSpeed"		"15.000000"
+			"Speed"		"40.000000"
+			"rate"		"0.200000"
+			"color"		"19 18 17 160"
 		}
 		"256512"
 		{
@@ -616,7 +1010,6 @@
 			"reinfToTakeImp"		"0.000000"
 			"canNFCap"		"1"
 			"canImpCap"		"0"
-			"linearMap"		"1"
 			"Mins"		"-233.000000 -177.000000 -65.000000"
 			"Maxs"		"233.000000 177.000000 65.000000"
 		}
@@ -638,7 +1031,6 @@
 			"reinfToTakeImp"		"0.000000"
 			"canNFCap"		"0"
 			"canImpCap"		"1"
-			"linearMap"		"1"
 			"Mins"		"-193.000000 -153.000000 -73.000000"
 			"Maxs"		"193.000000 153.000000 73.000000"
 		}
@@ -788,7 +1180,6 @@
 			"reinfToTakeImp"		"0.000000"
 			"canNFCap"		"1"
 			"canImpCap"		"0"
-			"linearMap"		"1"
 			"Mins"		"-233.000000 -65.000000 -73.000000"
 			"Maxs"		"233.000000 65.000000 73.000000"
 		}
@@ -808,9 +1199,9 @@
 		{
 			"className"		"emp_info_player_NF"
 			"position"		"-2472.000000 2680.000000 432.000000"
-			"angles"		"0.000000 180.000000 0.000000"
+			"angles"		"0.000000 270.000000 0.000000"
 			"pointNumber"		"3"
-			"spawnEnabled"		"3"
+			"spawnEnabled"		"1"
 		}
 		"1124596"
 		{
@@ -818,7 +1209,7 @@
 			"position"		"-2552.000000 2632.000000 432.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"pointNumber"		"3"
-			"spawnEnabled"		"3"
+			"spawnEnabled"		"1"
 		}
 		"1124598"
 		{
@@ -838,7 +1229,6 @@
 			"reinfToTakeImp"		"0.000000"
 			"canNFCap"		"1"
 			"canImpCap"		"0"
-			"linearMap"		"1"
 			"Mins"		"-280.479980 -281.000000 -193.000000"
 			"Maxs"		"280.489990 281.000000 193.000000"
 		}
@@ -872,7 +1262,6 @@
 			"reinfToTakeImp"		"0.000000"
 			"canNFCap"		"0"
 			"canImpCap"		"1"
-			"linearMap"		"1"
 			"Mins"		"-460.000000 -190.000000 -265.000000"
 			"Maxs"		"102.000000 370.000000 265.000000"
 		}
@@ -906,7 +1295,6 @@
 			"reinfToTakeImp"		"5.000000"
 			"canNFCap"		"0"
 			"canImpCap"		"1"
-			"linearMap"		"1"
 			"Mins"		"-273.500000 -146.000000 -321.000000"
 			"Maxs"		"273.500000 146.000000 321.000000"
 		}
@@ -926,17 +1314,17 @@
 		{
 			"className"		"emp_info_player_NF"
 			"position"		"2368.000000 -1008.000000 320.000000"
-			"angles"		"0.000000 90.000000 0.000000"
+			"angles"		"0.000000 180.000000 0.000000"
 			"pointNumber"		"8"
-			"spawnEnabled"		"8"
+			"spawnEnabled"		"0"
 		}
 		"1124622"
 		{
 			"className"		"emp_info_player_Imp"
 			"position"		"2384.000000 -1008.000000 320.000000"
-			"angles"		"0.000000 90.000000 0.000000"
+			"angles"		"0.000000 180.000000 0.000000"
 			"pointNumber"		"6"
-			"spawnEnabled"		"6"
+			"spawnEnabled"		"1"
 		}
 		"1124624"
 		{
@@ -956,7 +1344,6 @@
 			"reinfToTakeImp"		"0.000000"
 			"canNFCap"		"0"
 			"canImpCap"		"0"
-			"linearMap"		"1"
 			"Mins"		"-313.000000 -201.000000 -121.000000"
 			"Maxs"		"313.000000 201.000000 121.000000"
 		}
@@ -978,7 +1365,7 @@
 			"position"		"112.000000 4656.000000 288.000000"
 			"angles"		"0.000000 270.000000 0.000000"
 			"pointNumber"		"5"
-			"spawnEnabled"		"5"
+			"spawnEnabled"		"0"
 		}
 		"1124632"
 		{
@@ -986,7 +1373,7 @@
 			"position"		"516.000000 4548.000000 152.000000"
 			"angles"		"0.000000 270.000000 0.000000"
 			"pointNumber"		"3"
-			"spawnEnabled"		"3"
+			"spawnEnabled"		"0"
 		}
 		"1124634"
 		{
@@ -1006,7 +1393,6 @@
 			"reinfToTakeImp"		"0.000000"
 			"canNFCap"		"0"
 			"canImpCap"		"0"
-			"linearMap"		"1"
 			"Mins"		"-320.979980 -105.000000 -153.000000"
 			"Maxs"		"320.980011 105.000000 153.000000"
 		}
@@ -1028,7 +1414,7 @@
 			"position"		"2368.000000 -992.000000 144.000000"
 			"angles"		"0.000000 270.000000 0.000000"
 			"pointNumber"		"8"
-			"spawnEnabled"		"8"
+			"spawnEnabled"		"0"
 		}
 		"1124642"
 		{
@@ -1036,15 +1422,15 @@
 			"position"		"2160.000000 -864.000000 288.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"pointNumber"		"8"
-			"spawnEnabled"		"8"
+			"spawnEnabled"		"0"
 		}
 		"1124644"
 		{
 			"className"		"emp_info_player_Imp"
 			"position"		"3968.000000 -1632.000000 432.000000"
-			"angles"		"0.000000 90.000000 0.000000"
+			"angles"		"0.000000 180.000000 0.000000"
 			"pointNumber"		"7"
-			"spawnEnabled"		"7"
+			"spawnEnabled"		"1"
 		}
 		"1124650"
 		{
@@ -1052,15 +1438,15 @@
 			"position"		"3776.000000 -1616.000000 432.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"pointNumber"		"7"
-			"spawnEnabled"		"7"
+			"spawnEnabled"		"1"
 		}
 		"1124652"
 		{
 			"className"		"emp_info_player_Imp"
-			"position"		"2416.000000 -1008.000000 144.000000"
-			"angles"		"0.000000 180.000000 0.000000"
+			"position"		"2414.000000 -1008.000000 144.000000"
+			"angles"		"0.000000 270.000000 0.000000"
 			"pointNumber"		"6"
-			"spawnEnabled"		"6"
+			"spawnEnabled"		"1"
 		}
 		"1124654"
 		{
@@ -1068,7 +1454,7 @@
 			"position"		"2256.000000 -912.000000 144.000000"
 			"angles"		"0.000000 270.000000 0.000000"
 			"pointNumber"		"6"
-			"spawnEnabled"		"6"
+			"spawnEnabled"		"1"
 		}
 		"1124656"
 		{
@@ -1076,7 +1462,7 @@
 			"position"		"232.000000 4792.000000 296.000000"
 			"angles"		"0.000000 270.000000 0.000000"
 			"pointNumber"		"5"
-			"spawnEnabled"		"5"
+			"spawnEnabled"		"0"
 		}
 		"1124658"
 		{
@@ -1084,7 +1470,7 @@
 			"position"		"564.000000 4548.000000 152.000000"
 			"angles"		"0.000000 270.000000 0.000000"
 			"pointNumber"		"5"
-			"spawnEnabled"		"5"
+			"spawnEnabled"		"0"
 		}
 		"1124660"
 		{
@@ -1092,7 +1478,7 @@
 			"position"		"-2848.000000 2880.000000 560.000000"
 			"angles"		"0.000000 90.000000 0.000000"
 			"pointNumber"		"3"
-			"spawnEnabled"		"3"
+			"spawnEnabled"		"1"
 		}
 		"1124662"
 		{
@@ -1100,7 +1486,7 @@
 			"position"		"-2472.000000 2680.000000 264.000000"
 			"angles"		"0.000000 270.000000 0.000000"
 			"pointNumber"		"3"
-			"spawnEnabled"		"3"
+			"spawnEnabled"		"1"
 		}
 		"1124664"
 		{
@@ -1124,7 +1510,7 @@
 			"position"		"224.000000 4800.000000 296.000000"
 			"angles"		"0.000000 270.000000 0.000000"
 			"pointNumber"		"3"
-			"spawnEnabled"		"3"
+			"spawnEnabled"		"0"
 		}
 		"1124670"
 		{
@@ -1132,7 +1518,7 @@
 			"position"		"160.000000 4656.000000 288.000000"
 			"angles"		"0.000000 270.000000 0.000000"
 			"pointNumber"		"3"
-			"spawnEnabled"		"3"
+			"spawnEnabled"		"0"
 		}
 		"1124672"
 		{
@@ -1140,7 +1526,7 @@
 			"position"		"-2880.000000 2880.000000 560.000000"
 			"angles"		"0.000000 90.000000 0.000000"
 			"pointNumber"		"3"
-			"spawnEnabled"		"3"
+			"spawnEnabled"		"1"
 		}
 		"1124674"
 		{
@@ -1148,7 +1534,7 @@
 			"position"		"-2856.000000 3064.000000 560.000000"
 			"angles"		"0.000000 180.000000 0.000000"
 			"pointNumber"		"3"
-			"spawnEnabled"		"3"
+			"spawnEnabled"		"1"
 		}
 		"1124676"
 		{
@@ -1156,7 +1542,7 @@
 			"position"		"736.000000 1616.000000 -8.000000"
 			"angles"		"0.000000 90.000000 0.000000"
 			"pointNumber"		"4"
-			"spawnEnabled"		"4"
+			"spawnEnabled"		"0"
 		}
 		"1124678"
 		{
@@ -1164,7 +1550,7 @@
 			"position"		"720.000000 1552.000000 -8.000000"
 			"angles"		"0.000000 270.000000 0.000000"
 			"pointNumber"		"6"
-			"spawnEnabled"		"6"
+			"spawnEnabled"		"0"
 		}
 		"1124680"
 		{
@@ -1184,7 +1570,6 @@
 			"reinfToTakeImp"		"0.000000"
 			"canNFCap"		"0"
 			"canImpCap"		"0"
-			"linearMap"		"1"
 			"Mins"		"-137.000000 -201.000000 -101.000000"
 			"Maxs"		"137.000000 201.000000 101.000000"
 		}
@@ -1206,7 +1591,7 @@
 			"position"		"608.000000 1616.000000 -8.000000"
 			"angles"		"0.000000 90.000000 0.000000"
 			"pointNumber"		"4"
-			"spawnEnabled"		"4"
+			"spawnEnabled"		"0"
 		}
 		"1124688"
 		{
@@ -1214,7 +1599,7 @@
 			"position"		"672.000000 1620.000000 -8.000000"
 			"angles"		"0.000000 90.000000 0.000000"
 			"pointNumber"		"4"
-			"spawnEnabled"		"4"
+			"spawnEnabled"		"0"
 		}
 		"1124690"
 		{
@@ -1222,7 +1607,7 @@
 			"position"		"592.000000 1552.000000 -8.000000"
 			"angles"		"0.000000 270.000000 0.000000"
 			"pointNumber"		"6"
-			"spawnEnabled"		"6"
+			"spawnEnabled"		"0"
 		}
 		"1124692"
 		{
@@ -1230,7 +1615,7 @@
 			"position"		"660.000000 1520.000000 -8.000000"
 			"angles"		"0.000000 270.000000 0.000000"
 			"pointNumber"		"6"
-			"spawnEnabled"		"6"
+			"spawnEnabled"		"0"
 		}
 		"1124694"
 		{
@@ -1682,7 +2067,7 @@
 			"position"		"3097.000000 -3463.000000 121.000000"
 			"angles"		"0.000000 90.000000 0.000000"
 			"pointNumber"		"9"
-			"spawnEnabled"		"9"
+			"spawnEnabled"		"1"
 		}
 		"1124878"
 		{
@@ -1690,7 +2075,7 @@
 			"position"		"3223.050049 -3455.000000 121.000000"
 			"angles"		"0.000000 90.000000 0.000000"
 			"pointNumber"		"9"
-			"spawnEnabled"		"9"
+			"spawnEnabled"		"1"
 		}
 		"1124880"
 		{
@@ -1698,23 +2083,23 @@
 			"position"		"3315.000000 -3456.929932 121.000000"
 			"angles"		"0.000000 90.000000 0.000000"
 			"pointNumber"		"9"
-			"spawnEnabled"		"9"
+			"spawnEnabled"		"1"
 		}
 		"1126751"
 		{
 			"className"		"emp_info_player_NF"
 			"position"		"2320.000000 -1008.000000 320.000000"
-			"angles"		"0.000000 90.000000 0.000000"
+			"angles"		"0.000000 180.000000 0.000000"
 			"pointNumber"		"8"
-			"spawnEnabled"		"8"
+			"spawnEnabled"		"0"
 		}
 		"1126753"
 		{
 			"className"		"emp_info_player_Imp"
 			"position"		"2336.000000 -1008.000000 320.000000"
-			"angles"		"0.000000 90.000000 0.000000"
+			"angles"		"0.000000 180.000000 0.000000"
 			"pointNumber"		"6"
-			"spawnEnabled"		"6"
+			"spawnEnabled"		"1"
 		}
 		"1126759"
 		{
@@ -1722,7 +2107,7 @@
 			"position"		"2272.000000 -1008.000000 320.000000"
 			"angles"		"0.000000 90.000000 0.000000"
 			"pointNumber"		"8"
-			"spawnEnabled"		"8"
+			"spawnEnabled"		"0"
 		}
 		"1126761"
 		{
@@ -1730,7 +2115,7 @@
 			"position"		"2288.000000 -1008.000000 320.000000"
 			"angles"		"0.000000 90.000000 0.000000"
 			"pointNumber"		"6"
-			"spawnEnabled"		"6"
+			"spawnEnabled"		"1"
 		}
 		"1126767"
 		{
@@ -1738,7 +2123,7 @@
 			"position"		"2224.000000 -1008.000000 320.000000"
 			"angles"		"0.000000 90.000000 0.000000"
 			"pointNumber"		"8"
-			"spawnEnabled"		"8"
+			"spawnEnabled"		"0"
 		}
 		"1126769"
 		{
@@ -1746,7 +2131,7 @@
 			"position"		"2240.000000 -1008.000000 320.000000"
 			"angles"		"0.000000 90.000000 0.000000"
 			"pointNumber"		"6"
-			"spawnEnabled"		"6"
+			"spawnEnabled"		"1"
 		}
 		"1126775"
 		{
@@ -1754,7 +2139,7 @@
 			"position"		"2176.000000 -1008.000000 320.000000"
 			"angles"		"0.000000 90.000000 0.000000"
 			"pointNumber"		"8"
-			"spawnEnabled"		"8"
+			"spawnEnabled"		"0"
 		}
 		"1126777"
 		{
@@ -1762,7 +2147,7 @@
 			"position"		"2192.000000 -1008.000000 320.000000"
 			"angles"		"0.000000 90.000000 0.000000"
 			"pointNumber"		"6"
-			"spawnEnabled"		"6"
+			"spawnEnabled"		"1"
 		}
 		"1126783"
 		{
@@ -1770,7 +2155,7 @@
 			"position"		"2128.000000 -1008.000000 320.000000"
 			"angles"		"0.000000 90.000000 0.000000"
 			"pointNumber"		"8"
-			"spawnEnabled"		"8"
+			"spawnEnabled"		"0"
 		}
 		"1126785"
 		{
@@ -1778,31 +2163,31 @@
 			"position"		"2144.000000 -1008.000000 320.000000"
 			"angles"		"0.000000 90.000000 0.000000"
 			"pointNumber"		"6"
-			"spawnEnabled"		"6"
+			"spawnEnabled"		"1"
 		}
 		"1126843"
 		{
 			"className"		"emp_info_player_Imp"
 			"position"		"3920.000000 -1632.000000 432.000000"
-			"angles"		"0.000000 90.000000 0.000000"
+			"angles"		"0.000000 180.000000 0.000000"
 			"pointNumber"		"7"
-			"spawnEnabled"		"7"
+			"spawnEnabled"		"1"
 		}
 		"1126849"
 		{
 			"className"		"emp_info_player_Imp"
 			"position"		"3872.000000 -1632.000000 432.000000"
-			"angles"		"0.000000 90.000000 0.000000"
+			"angles"		"0.000000 180.000000 0.000000"
 			"pointNumber"		"7"
-			"spawnEnabled"		"7"
+			"spawnEnabled"		"1"
 		}
 		"1126853"
 		{
 			"className"		"emp_info_player_Imp"
 			"position"		"3824.000000 -1632.000000 432.000000"
-			"angles"		"0.000000 90.000000 0.000000"
+			"angles"		"0.000000 180.000000 0.000000"
 			"pointNumber"		"7"
-			"spawnEnabled"		"7"
+			"spawnEnabled"		"1"
 		}
 		"1126888"
 		{
@@ -1810,7 +2195,7 @@
 			"position"		"3306.110107 -3552.169922 121.000000"
 			"angles"		"0.000000 90.000000 0.000000"
 			"pointNumber"		"9"
-			"spawnEnabled"		"9"
+			"spawnEnabled"		"1"
 		}
 		"1126890"
 		{
@@ -1818,7 +2203,7 @@
 			"position"		"3214.159912 -3550.239990 121.000000"
 			"angles"		"0.000000 90.000000 0.000000"
 			"pointNumber"		"9"
-			"spawnEnabled"		"9"
+			"spawnEnabled"		"1"
 		}
 		"1126892"
 		{
@@ -1826,7 +2211,7 @@
 			"position"		"3088.110107 -3558.239990 121.000000"
 			"angles"		"0.000000 90.000000 0.000000"
 			"pointNumber"		"9"
-			"spawnEnabled"		"9"
+			"spawnEnabled"		"1"
 		}
 		"1126906"
 		{
@@ -1834,7 +2219,7 @@
 			"position"		"3268.669922 -3561.919922 121.000000"
 			"angles"		"0.000000 90.000000 0.000000"
 			"pointNumber"		"9"
-			"spawnEnabled"		"9"
+			"spawnEnabled"		"1"
 		}
 		"1126908"
 		{
@@ -1842,7 +2227,7 @@
 			"position"		"3277.560059 -3466.679932 121.000000"
 			"angles"		"0.000000 90.000000 0.000000"
 			"pointNumber"		"9"
-			"spawnEnabled"		"9"
+			"spawnEnabled"		"1"
 		}
 		"1126914"
 		{
@@ -1850,7 +2235,7 @@
 			"position"		"3136.110107 -3558.239990 121.000000"
 			"angles"		"0.000000 90.000000 0.000000"
 			"pointNumber"		"9"
-			"spawnEnabled"		"9"
+			"spawnEnabled"		"1"
 		}
 		"1126916"
 		{
@@ -1858,7 +2243,7 @@
 			"position"		"3145.000000 -3463.000000 121.000000"
 			"angles"		"0.000000 90.000000 0.000000"
 			"pointNumber"		"9"
-			"spawnEnabled"		"9"
+			"spawnEnabled"		"1"
 		}
 		"1127279"
 		{
@@ -1866,7 +2251,7 @@
 			"position"		"168.000000 4744.000000 296.000000"
 			"angles"		"0.000000 270.000000 0.000000"
 			"pointNumber"		"3"
-			"spawnEnabled"		"3"
+			"spawnEnabled"		"0"
 		}
 		"1127281"
 		{
@@ -1874,7 +2259,7 @@
 			"position"		"176.000000 4736.000000 296.000000"
 			"angles"		"0.000000 270.000000 0.000000"
 			"pointNumber"		"5"
-			"spawnEnabled"		"5"
+			"spawnEnabled"		"0"
 		}
 		"1127283"
 		{
@@ -1882,7 +2267,7 @@
 			"position"		"232.000000 4736.000000 296.000000"
 			"angles"		"0.000000 270.000000 0.000000"
 			"pointNumber"		"3"
-			"spawnEnabled"		"3"
+			"spawnEnabled"		"0"
 		}
 		"1127285"
 		{
@@ -1890,7 +2275,7 @@
 			"position"		"240.000000 4728.000000 296.000000"
 			"angles"		"0.000000 270.000000 0.000000"
 			"pointNumber"		"5"
-			"spawnEnabled"		"5"
+			"spawnEnabled"		"0"
 		}
 		"1127287"
 		{
@@ -1898,7 +2283,7 @@
 			"position"		"296.000000 4880.000000 296.000000"
 			"angles"		"0.000000 270.000000 0.000000"
 			"pointNumber"		"3"
-			"spawnEnabled"		"3"
+			"spawnEnabled"		"0"
 		}
 		"1127289"
 		{
@@ -1906,7 +2291,7 @@
 			"position"		"304.000000 4872.000000 296.000000"
 			"angles"		"0.000000 270.000000 0.000000"
 			"pointNumber"		"5"
-			"spawnEnabled"		"5"
+			"spawnEnabled"		"0"
 		}
 		"1127291"
 		{
@@ -1914,7 +2299,7 @@
 			"position"		"312.000000 4760.000000 296.000000"
 			"angles"		"0.000000 270.000000 0.000000"
 			"pointNumber"		"3"
-			"spawnEnabled"		"3"
+			"spawnEnabled"		"0"
 		}
 		"1127293"
 		{
@@ -1922,23 +2307,23 @@
 			"position"		"320.000000 4752.000000 296.000000"
 			"angles"		"0.000000 270.000000 0.000000"
 			"pointNumber"		"5"
-			"spawnEnabled"		"5"
+			"spawnEnabled"		"0"
 		}
 		"1127295"
 		{
 			"className"		"emp_info_player_Imp"
 			"position"		"632.000000 4792.000000 176.000000"
-			"angles"		"0.000000 270.000000 0.000000"
+			"angles"		"0.000000 180.000000 0.000000"
 			"pointNumber"		"3"
-			"spawnEnabled"		"3"
+			"spawnEnabled"		"0"
 		}
 		"1127297"
 		{
 			"className"		"emp_info_player_NF"
 			"position"		"640.000000 4784.000000 176.000000"
-			"angles"		"0.000000 270.000000 0.000000"
+			"angles"		"0.000000 180.000000 0.000000"
 			"pointNumber"		"5"
-			"spawnEnabled"		"5"
+			"spawnEnabled"		"0"
 		}
 		"1134219"
 		{
@@ -1952,5 +2337,30 @@
 			"model3"		"models/Common/props_system/flag2_imp.mdl"
 			"team"		"0"
 		}
+		"1191636"
+		{
+			"className"		"npc_maker"
+			"position"		"-3167.280029 1069.430054 377.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"NPCType"		"npc_human_nf"
+			"MaxNPCCount"		"99998"
+			"MaxLiveChildren"		"4"
+			"SpawnFrequency"		"10.000000"
+			"StartDisabled"		"0"
+		}
+		"1195038"
+		{
+			"className"		"npc_maker"
+			"position"		"3161.060059 -3709.699951 128.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"NPCType"		"npc_human_be"
+			"MaxNPCCount"		"99998"
+			"MaxLiveChildren"		"4"
+			"SpawnFrequency"		"10.000000"
+			"StartDisabled"		"0"
+		}
 	}
+	"Author"		"Hardcore Empires"
+	"BaseSwap"		"0"
+	"version"		"0.380000"
 }

@@ -2,8 +2,8 @@
 {
 	"NF_Res"		"400.200012"
 	"BE_Res"		"400.200012"
-	"NF_Tickets"		"121"
-	"BE_Tickets"		"121"
+	"NF_Tickets"		"121.200005"
+	"BE_Tickets"		"121.200005"
 	"NF_Research"
 	{
 		"0"		"1"
@@ -97,8 +97,8 @@
 		"9926"
 		{
 			"className"		"emp_nf_commander"
-			"position"		"-11041.095703 3911.770020 56.856731"
-			"angles"		"-0.000122 -90.000023 -0.028015"
+			"position"		"-11040.125977 3912.230713 75.279251"
+			"angles"		"-0.306193 -90.099464 -0.158386"
 		}
 		"9934"
 		{
@@ -112,8 +112,8 @@
 		"10660"
 		{
 			"className"		"emp_imp_commander"
-			"position"		"11142.499023 4012.540039 2.706563"
-			"angles"		"-0.000000 90.500000 0.007590"
+			"position"		"11142.843750 4012.850830 5.328147"
+			"angles"		"2.131841 90.508400 1.876431"
 		}
 		"10674"
 		{
@@ -142,7 +142,6 @@
 			"reinfToTakeImp"		"0.000000"
 			"canNFCap"		"1"
 			"canImpCap"		"1"
-			"linearMap"		"0"
 			"Mins"		"-513.001953 -769.000000 941.396973"
 			"Maxs"		"513.003906 1.000000 1409.000000"
 		}
@@ -213,5 +212,7 @@
 			"model"		"models/props_wasteland/rockgranite02b.mdl"
 		}
 	}
-	"version"		"0.220000"
+	"Author"		"Hardcore Empires"
+	"BaseSwap"		"0"
+	"version"		"0.380000"
 }

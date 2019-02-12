@@ -2,6 +2,7 @@
 {
 	"building"
 	{
+		"group"		"5"
 		"respawnOnMove"	"true"
 		"fields"
 		{
@@ -304,13 +305,6 @@
 				"prop"		"m_iBECappable"
 				"propType"		"data"
 			}
-			"linearMap"
-			{
-				"fgdName"	"linearMap"
-				"type" 		"int"
-				"prop"		"m_bLinear"
-				"propType"		"data"
-			}
 			"mins"
 			{
 				"prop"		"m_vecMins"
@@ -345,7 +339,7 @@
 			{
 				"fgdName"	"spawnEnabled"
 				"type" 		"int"
-				"prop" 		"m_iCapNumber"
+				"prop" 		"m_bEnabled"
 				"propType"		"data"
 			}
 			
@@ -681,6 +675,97 @@
 			}
 
 		}
+	}
+
+	"npc_maker"
+	{
+		"version"	"0.28"
+		"fields"
+		{
+			"NPCType"
+			{
+				"fgdName"	"NPCType"
+				"type" 		"string"
+				"prop"		"m_iszNPCClassname"
+				"propType"		"data"
+				
+			}
+			"MaxNPCCount"
+			{
+				"fgdName"	"MaxNPCCount"
+				"type" 		"int"
+				"prop"		"m_nMaxNumNPCs"
+				"propType"		"data"
+			}
+			"MaxLiveChildren"
+			{
+				"fgdName"	"MaxLiveChildren"
+				"type" 		"int"
+				"prop"		"m_nMaxLiveChildren"
+				"propType"		"data"
+			}
+			"SpawnFrequency"
+			{
+				"fgdName"	"SpawnFrequency"
+				"type" 		"float"
+				"prop"		"m_flSpawnFrequency"
+				"propType"		"data"
+			}
+			"StartDisabled"
+			{
+				"fgdName"	"StartDisabled"
+				"type" 		"int"
+				"prop"		"m_bDisabled"
+				"propType"		"data"
+			}
+			
+		}
+		
+	}
+	"prop_dynamic"
+	{
+		"version"	"0.29"
+		"fields"
+		{
+			"model"
+			{
+				"fgdName"	"model"
+				"type" 		"string"
+				"prop" 		"m_ModelName"
+				"propType"		"data"
+			}
+			"StartDisabled"
+			{
+				"fgdName"	"StartDisabled"
+				"type" 		"int"
+				"prop"		"m_bStartDisabled"
+				"propType"		"data"
+			}
+			"SolidType"
+			{
+				"type" 		"int"
+				"prop"		"m_nSolidType"
+				"propType"		"data"
+				"postSpawn"	"true"
+			}
+			"CollisionGroup"
+			{
+				"prop"	"m_CollisionGroup"
+				"type" 		"int"
+				"propType"		"data"
+				"postSpawn"	"true"
+			}
+			"SolidFlags"
+			{
+				"prop"	"m_usSolidFlags"
+				"type" 		"int"
+				"propType"		"data"
+				"postSpawn"	"true"
+			}
+			
+			
+		}
+		
 	}
 
 

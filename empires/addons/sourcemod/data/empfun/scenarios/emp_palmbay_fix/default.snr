@@ -63,8 +63,8 @@
 		"18319"
 		{
 			"className"		"emp_imp_commander"
-			"position"		"-6367.999023 -8928.000000 -2299.941162"
-			"angles"		"-0.000000 -90.999992 0.007590"
+			"position"		"-6367.815918 -8928.002930 -2326.309326"
+			"angles"		"0.000004 -90.999992 1.246645"
 		}
 		"18333"
 		{
@@ -374,8 +374,8 @@
 		"36959"
 		{
 			"className"		"emp_nf_commander"
-			"position"		"9216.296875 10463.799805 -2248.634277"
-			"angles"		"-0.000000 91.000000 -0.023651"
+			"position"		"9216.804688 10463.808594 -2253.670410"
+			"angles"		"0.000025 91.000000 -0.582611"
 		}
 		"36965"
 		{
@@ -415,7 +415,6 @@
 			"reinfToTakeImp"		"0.000000"
 			"canNFCap"		"0"
 			"canImpCap"		"0"
-			"linearMap"		"0"
 			"Mins"		"-14081.000000 -14337.000000 -2823.669922"
 			"Maxs"		"-13951.000000 -14207.000000 -2693.669922"
 		}
@@ -437,9 +436,41 @@
 			"reinfToTakeImp"		"0.000000"
 			"canNFCap"		"0"
 			"canImpCap"		"0"
-			"linearMap"		"0"
 			"Mins"		"-14209.000000 -14337.000000 -2823.669922"
 			"Maxs"		"-14079.000000 -14207.000000 -2693.669922"
+		}
+		"46292"
+		{
+			"className"		"prop_dynamic"
+			"position"		"5431.669922 -3346.000000 -3013.000000"
+			"angles"		"-3.781710 196.531006 0.442918"
+			"model"		"models/common/props_foliage/trees/palm01d.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"46331"
+		{
+			"className"		"prop_dynamic"
+			"position"		"-6720.000000 6912.000000 -2925.000000"
+			"angles"		"0.000000 257.500000 8.500000"
+			"model"		"models/common/props_foliage/trees/palm01b.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"46362"
+		{
+			"className"		"prop_dynamic"
+			"position"		"-6656.000000 6976.000000 -2926.000000"
+			"angles"		"5.211230 58.743801 11.456000"
+			"model"		"models/common/props_foliage/trees/palm01b.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
 		}
 		"63675"
 		{
@@ -489,7 +520,6 @@
 			"reinfToTakeImp"		"0.000000"
 			"canNFCap"		"1"
 			"canImpCap"		"1"
-			"linearMap"		"0"
 			"Mins"		"-0.000829 4599.999023 -2937.000000"
 			"Maxs"		"451.000000 5092.000488 -2735.000000"
 		}
@@ -529,7 +559,6 @@
 			"reinfToTakeImp"		"0.000000"
 			"canNFCap"		"1"
 			"canImpCap"		"1"
-			"linearMap"		"0"
 			"Mins"		"-1367.000366 665.999939 -2937.000000"
 			"Maxs"		"-1048.000000 1145.000244 -2735.000000"
 		}
@@ -546,5 +575,7 @@
 			"team"		"0"
 		}
 	}
-	"version"		"0.220000"
+	"Author"		"Hardcore Empires"
+	"BaseSwap"		"0"
+	"version"		"0.350000"
 }

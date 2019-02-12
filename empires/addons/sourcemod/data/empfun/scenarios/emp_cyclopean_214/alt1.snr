@@ -72,19 +72,19 @@
 		"321735"
 		{
 			"className"		"emp_imp_commander"
-			"position"		"12240.032227 11392.032227 3309.682861"
-			"angles"		"-0.000013 135.000000 1.252175"
+			"position"		"12240.169922 11392.169922 3309.682617"
+			"angles"		"-0.000010 135.000015 1.252009"
 		}
 		"321757"
 		{
 			"className"		"emp_nf_commander"
-			"position"		"-11631.611328 -12223.611328 3382.329834"
-			"angles"		"-0.000004 -45.000011 -0.584930"
+			"position"		"-11630.908203 -12222.908203 3382.327637"
+			"angles"		"-0.000002 -45.000019 -0.585846"
 		}
 		"321767"
 		{
 			"className"		"emp_resource_point"
-			"position"		"-9011.660156 -10985.400391 3305.229980"
+			"position"		"-9011.659180 -10985.400391 3305.229980"
 			"angles"		"0.000000 0.000000 0.000000"
 			"enabled"		"0"
 			"resPerSecond"		"1.000000"
@@ -120,7 +120,7 @@
 		"321777"
 		{
 			"className"		"emp_resource_point"
-			"position"		"-8639.660156 8095.350098 4781.770020"
+			"position"		"-8639.659180 8095.349609 4781.770020"
 			"angles"		"0.000000 0.000000 0.000000"
 			"enabled"		"1"
 			"resPerSecond"		"1.000000"
@@ -224,7 +224,7 @@
 		"321801"
 		{
 			"className"		"emp_resource_point_prop"
-			"position"		"-8639.660156 8095.350098 4781.770020"
+			"position"		"-8639.659180 8095.349609 4781.770020"
 			"angles"		"0.000000 0.000000 0.000000"
 			"enabled"		"1"
 			"model"		"models/props_wasteland/rockcliff01b.mdl"
@@ -232,7 +232,7 @@
 		"321803"
 		{
 			"className"		"emp_resource_point_prop"
-			"position"		"-9011.660156 -10985.400391 3305.229980"
+			"position"		"-9011.659180 -10985.400391 3305.229980"
 			"angles"		"0.000000 0.000000 0.000000"
 			"enabled"		"0"
 			"model"		"models/props_wasteland/rockcliff01b.mdl"
@@ -288,7 +288,7 @@
 		"322097"
 		{
 			"className"		"env_smokestack"
-			"position"		"-8623.660156 8111.350098 4844.770020"
+			"position"		"-8623.659180 8111.349609 4844.770020"
 			"angles"		"0.000000 0.000000 0.000000"
 			"material"		"particle/SmokeStack.vmt"
 			"startSize"		"16.000000"
@@ -525,6 +525,325 @@
 			"rate"		"2.000000"
 			"color"		"255 255 255 100"
 		}
+		"323363"
+		{
+			"className"		"prop_dynamic"
+			"position"		"6980.000000 -1060.000000 2252.000000"
+			"angles"		"0.000000 75.000000 0.000000"
+			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"323367"
+		{
+			"className"		"prop_dynamic"
+			"position"		"-1980.000000 824.000000 2160.000000"
+			"angles"		"0.000000 150.000000 0.000000"
+			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"323371"
+		{
+			"className"		"prop_dynamic"
+			"position"		"-2452.000000 -5452.000000 2248.000000"
+			"angles"		"0.000000 150.000000 0.000000"
+			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"323375"
+		{
+			"className"		"prop_dynamic"
+			"position"		"3432.000000 -8340.000000 2212.000000"
+			"angles"		"0.000000 150.000000 0.000000"
+			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"323379"
+		{
+			"className"		"prop_dynamic"
+			"position"		"-2396.000000 -7844.000000 2540.000000"
+			"angles"		"0.000000 150.000000 0.000000"
+			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"323383"
+		{
+			"className"		"prop_dynamic"
+			"position"		"-5848.000000 -9528.000000 3252.000000"
+			"angles"		"0.000000 150.000000 0.000000"
+			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"323387"
+		{
+			"className"		"prop_dynamic"
+			"position"		"-11884.000000 -5856.000000 3232.000000"
+			"angles"		"0.000000 45.000000 0.000000"
+			"model"		"models/common/props_foliage/trees/orexcluster2b.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"323391"
+		{
+			"className"		"prop_dynamic"
+			"position"		"9312.000000 5676.000000 3196.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"323395"
+		{
+			"className"		"prop_dynamic"
+			"position"		"2052.000000 -2856.000000 2180.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"323399"
+		{
+			"className"		"prop_dynamic"
+			"position"		"-988.000000 -6948.000000 2208.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"model"		"models/common/props_foliage/trees/orexcluster2b.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"323403"
+		{
+			"className"		"prop_dynamic"
+			"position"		"-4432.000000 -4832.000000 2144.000000"
+			"angles"		"0.000000 64.000000 0.000000"
+			"model"		"models/common/props_foliage/trees/orexcluster2b.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"323407"
+		{
+			"className"		"prop_dynamic"
+			"position"		"-4032.000000 4984.000000 2232.000000"
+			"angles"		"0.000000 45.000000 0.000000"
+			"model"		"models/common/props_foliage/trees/orexcluster2b.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"323411"
+		{
+			"className"		"prop_dynamic"
+			"position"		"-3020.000000 6268.000000 2296.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"323415"
+		{
+			"className"		"prop_dynamic"
+			"position"		"5680.000000 3608.000000 2452.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"323419"
+		{
+			"className"		"prop_dynamic"
+			"position"		"3644.000000 4600.000000 2304.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"323423"
+		{
+			"className"		"prop_dynamic"
+			"position"		"-5460.000000 -1660.000000 2196.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"323427"
+		{
+			"className"		"prop_dynamic"
+			"position"		"-5372.000000 788.000000 2256.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"323431"
+		{
+			"className"		"prop_dynamic"
+			"position"		"11892.000000 1392.000000 3292.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"323435"
+		{
+			"className"		"prop_dynamic"
+			"position"		"-5732.000000 2308.000000 2644.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"model"		"models/common/props_foliage/trees/orexcluster2b.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"323439"
+		{
+			"className"		"prop_dynamic"
+			"position"		"11948.000000 4876.000000 3264.000000"
+			"angles"		"0.000000 45.000000 0.000000"
+			"model"		"models/common/props_foliage/trees/orexcluster2b.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"323443"
+		{
+			"className"		"prop_dynamic"
+			"position"		"7604.000000 1141.000000 2557.000000"
+			"angles"		"0.000000 75.000000 0.000000"
+			"model"		"models/common/props_foliage/trees/orexcluster2b.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"323447"
+		{
+			"className"		"prop_dynamic"
+			"position"		"-6704.000000 -2684.000000 2380.000000"
+			"angles"		"0.000000 45.000000 0.000000"
+			"model"		"models/common/props_foliage/trees/orexcluster2b.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"323451"
+		{
+			"className"		"prop_dynamic"
+			"position"		"-6090.000000 10353.000000 3614.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"model"		"models/common/props_foliage/trees/orexcluster2b.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"323455"
+		{
+			"className"		"prop_dynamic"
+			"position"		"-2727.000000 -10773.000000 3146.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"model"		"models/common/props_foliage/trees/orexcluster2b.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"323459"
+		{
+			"className"		"prop_dynamic"
+			"position"		"4888.000000 9196.000000 3752.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"model"		"models/common/props_foliage/trees/orexcluster2b.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"323463"
+		{
+			"className"		"prop_dynamic"
+			"position"		"-11744.000000 768.000000 3688.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"model"		"models/common/props_foliage/trees/orexcluster2b.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"323467"
+		{
+			"className"		"prop_dynamic"
+			"position"		"2066.000000 -13441.099609 3229.330078"
+			"angles"		"0.000000 0.000000 0.000000"
+			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"323471"
+		{
+			"className"		"prop_dynamic"
+			"position"		"-10100.000000 8548.000000 4072.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"model"		"models/common/props_foliage/trees/orexcluster2b.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"323475"
+		{
+			"className"		"prop_dynamic"
+			"position"		"-10852.000000 12276.000000 4069.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"model"		"models/common/props_foliage/trees/orexcluster2b.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
 		"413925"
 		{
 			"className"		"emp_building_nf_refinery"
@@ -566,5 +885,8 @@
 			"target"		"point8"
 		}
 	}
-	"version"		"0.220000"
+	"Description"		"No starting turrets"
+	"Author"		"Mr. X."
+	"BaseSwap"		"0"
+	"version"		"0.300000"
 }

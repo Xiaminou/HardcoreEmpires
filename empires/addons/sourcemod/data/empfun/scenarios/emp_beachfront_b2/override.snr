@@ -1,0 +1,206 @@
+"Scenario"
+{
+	"Entities"
+	{
+		"10056"
+		{
+			"className"		"emp_resource_point"
+			"position"		"-11264.000000 768.000000 36.119499"
+			"angles"		"0.000000 0.000000 0.000000"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+		}
+		"10015"
+		{
+			"className"		"emp_resource_point_prop"
+			"position"		"-11264.000000 768.000000 53.289600"
+			"angles"		"0.000000 0.000000 0.000000"
+			"enabled"		"1"
+			"model"		"models/props_wasteland/rockgranite02b.mdl"
+		}
+		"18545"
+		{
+			"className"		"emp_resource_point"
+			"position"		"-3614.379883 -650.851990 56.855400"
+			"angles"		"0.000000 0.000000 0.000000"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+		}
+		"18547"
+		{
+			"className"		"emp_resource_point_prop"
+			"position"		"-3614.379883 -650.851990 74.025497"
+			"angles"		"0.000000 0.000000 0.000000"
+			"enabled"		"1"
+			"model"		"models/props_wasteland/rockgranite02b.mdl"
+		}
+		"18666"
+		{
+			"className"		"emp_resource_point"
+			"position"		"3646.729980 -678.646973 52.243000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+		}
+		"18668"
+		{
+			"className"		"emp_resource_point_prop"
+			"position"		"3646.729980 -678.646973 69.413101"
+			"angles"		"0.000000 0.000000 0.000000"
+			"enabled"		"1"
+			"model"		"models/props_wasteland/rockgranite02b.mdl"
+		}
+		"11412"
+		{
+			"className"		"emp_resource_point"
+			"position"		"-17.918699 5129.680176 1053.189941"
+			"angles"		"0.000000 0.000000 0.000000"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+		}
+		"11408"
+		{
+			"className"		"emp_resource_point_prop"
+			"position"		"-17.918699 5129.680176 1070.359985"
+			"angles"		"0.000000 0.000000 0.000000"
+			"enabled"		"1"
+			"model"		"models/props_wasteland/rockgranite02b.mdl"
+		}
+		"10378"
+		{
+			"className"		"emp_resource_point"
+			"position"		"11264.000000 768.000000 35.805199"
+			"angles"		"0.000000 0.000000 0.000000"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+		}
+		"10380"
+		{
+			"className"		"emp_resource_point_prop"
+			"position"		"11264.000000 768.000000 52.975101"
+			"angles"		"0.000000 0.000000 0.000000"
+			"enabled"		"1"
+			"model"		"models/props_wasteland/rockgranite02b.mdl"
+		}
+		"9926"
+		{
+			"className"		"emp_nf_commander"
+			"position"		"-11041.477539 3912.218506 75.263626"
+			"angles"		"-0.299729 -90.095741 -0.169067"
+		}
+		"9934"
+		{
+			"className"		"emp_building_nf_barracks"
+			"position"		"-11186.000000 4820.299805 22.530600"
+			"angles"		"0.000000 180.000000 0.000000"
+			"built"		"1"
+			"health"		"250"
+			"team"		"2"
+		}
+		"10660"
+		{
+			"className"		"emp_imp_commander"
+			"position"		"11144.715820 4013.192383 5.333763"
+			"angles"		"2.130527 90.724731 1.892859"
+		}
+		"10674"
+		{
+			"className"		"emp_building_imp_barracks"
+			"position"		"11220.799805 4841.669922 2.414300"
+			"angles"		"0.000000 180.500000 0.000000"
+			"built"		"1"
+			"health"		"250"
+			"team"		"3"
+		}
+		"19372"
+		{
+			"className"		"emp_cap_point"
+			"position"		"0.000000 0.000000 0.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"pointNumber"		"1"
+			"timeToCap"		"10"
+			"timeToNeutral"		"10"
+			"playersRequiredNF"		"1"
+			"playersRequiredImp"		"1"
+			"teamOwner"		"0"
+			"locationName"		"Cave"
+			"resToGiveNF"		"2.000000"
+			"resToGiveImp"		"2.000000"
+			"reinfToTakeNF"		"0.000000"
+			"reinfToTakeImp"		"0.000000"
+			"canNFCap"		"1"
+			"canImpCap"		"1"
+			"Mins"		"-513.001953 -769.000000 941.396973"
+			"Maxs"		"513.003906 1.000000 1409.000000"
+		}
+		"19396"
+		{
+			"className"		"emp_cap_model"
+			"position"		"-4.374620 -50.468498 1382.859985"
+			"angles"		"0.000000 90.000000 0.000000"
+			"pointNumber"		"1"
+			"visibleOnMap"		"1"
+			"model"		"models/common/props_system/flag2_nuetral.mdl"
+			"model2"		"models/common/props_system/flag2_nf.mdl"
+			"model3"		"models/common/props_system/flag2_imp.mdl"
+			"team"		"0"
+		}
+		"31700"
+		{
+			"className"		"emp_building_nf_refinery"
+			"position"		"-8324.160156 6080.000000 1059.619995"
+			"angles"		"0.000000 0.000000 0.000000"
+			"built"		"1"
+			"health"		"150"
+			"team"		"2"
+			"target"		"respt_nf_spawn"
+		}
+		"10200"
+		{
+			"className"		"emp_resource_point"
+			"position"		"-8355.070313 6072.689941 1060.609985"
+			"angles"		"0.000000 0.000000 0.000000"
+			"enabled"		"0"
+			"resPerSecond"		"1.000000"
+			"name"		"respt_nf_spawn"
+		}
+		"10202"
+		{
+			"className"		"emp_resource_point_prop"
+			"position"		"-8355.070313 6072.689941 1077.780029"
+			"angles"		"0.000000 0.000000 0.000000"
+			"enabled"		"1"
+			"model"		"models/props_wasteland/rockgranite02b.mdl"
+		}
+		"31759"
+		{
+			"className"		"emp_building_imp_refinery"
+			"position"		"8286.959961 6038.640137 1055.170044"
+			"angles"		"0.000000 0.000000 0.000000"
+			"built"		"1"
+			"health"		"150"
+			"team"		"3"
+			"target"		"respt_be_spawn"
+		}
+		"10422"
+		{
+			"className"		"emp_resource_point"
+			"position"		"8284.809570 6042.359863 1057.910034"
+			"angles"		"0.000000 0.000000 0.000000"
+			"enabled"		"0"
+			"resPerSecond"		"1.000000"
+			"name"		"respt_be_spawn"
+		}
+		"10424"
+		{
+			"className"		"emp_resource_point_prop"
+			"position"		"8284.809570 6042.359863 1075.079956"
+			"angles"		"0.000000 0.000000 0.000000"
+			"enabled"		"1"
+			"model"		"models/props_wasteland/rockgranite02b.mdl"
+		}
+	}
+	"Author"		"Mr. X."
+	"BaseSwap"		"0"
+	"version"		"0.380000"
+}

@@ -48,7 +48,7 @@
 			"position"		"-9744.000000 1136.000000 -3064.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"enabled"		"1"
-			"resPerSecond"		"1.500000"
+			"resPerSecond"		"1.000000"
 			"name"		"res_node_NC"
 		}
 		"14233"
@@ -85,7 +85,7 @@
 			"position"		"-7088.000000 -5344.000000 -3056.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"enabled"		"1"
-			"resPerSecond"		"1.500000"
+			"resPerSecond"		"1.000000"
 			"name"		"res_node_SC"
 		}
 		"13969"
@@ -94,7 +94,7 @@
 			"position"		"-12768.000000 -12593.000000 -2720.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"enabled"		"1"
-			"resPerSecond"		"1.500000"
+			"resPerSecond"		"1.000000"
 			"name"		"res_node_NW"
 		}
 		"13971"
@@ -128,16 +128,16 @@
 		"13975"
 		{
 			"className"		"emp_resource_point"
-			"position"		"-6880.000000 6107.359863 -2720.000000"
+			"position"		"-6880.000000 6107.359375 -2720.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"enabled"		"0"
-			"resPerSecond"		"1.500000"
+			"resPerSecond"		"1.000000"
 			"name"		"res_node_NW_2"
 		}
 		"13977"
 		{
 			"className"		"env_smokestack"
-			"position"		"-6880.000000 6107.359863 -2704.000000"
+			"position"		"-6880.000000 6107.359375 -2704.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"material"		"particle/SmokeStack.vmt"
 			"startSize"		"20.000000"
@@ -157,7 +157,7 @@
 		"13979"
 		{
 			"className"		"emp_resource_point_prop"
-			"position"		"-6880.000000 6107.359863 -2736.000000"
+			"position"		"-6880.000000 6107.359375 -2736.000000"
 			"angles"		"0.165038 269.014008 9.498580"
 			"enabled"		"0"
 			"model"		"models/props_wasteland/rockgranite02b.mdl"
@@ -168,7 +168,7 @@
 			"position"		"7168.000000 5056.000000 -3056.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"enabled"		"1"
-			"resPerSecond"		"1.500000"
+			"resPerSecond"		"1.000000"
 			"name"		"res_node_NE"
 		}
 		"13983"
@@ -205,7 +205,7 @@
 			"position"		"12048.000000 -12734.500000 -3056.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"enabled"		"0"
-			"resPerSecond"		"1.500000"
+			"resPerSecond"		"1.000000"
 			"name"		"res_node_SE_2"
 		}
 		"13989"
@@ -272,7 +272,7 @@
 			"position"		"6208.000000 -6144.000000 -2720.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"enabled"		"0"
-			"resPerSecond"		"1.500000"
+			"resPerSecond"		"1.000000"
 			"name"		"res_node_E"
 		}
 		"13999"
@@ -309,7 +309,7 @@
 			"position"		"16.000000 -17.000000 -3056.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"enabled"		"1"
-			"resPerSecond"		"1.500000"
+			"resPerSecond"		"1.000000"
 			"name"		"res_node_cen"
 		}
 		"14005"
@@ -346,7 +346,7 @@
 			"position"		"7904.000000 -1793.000000 -3056.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"enabled"		"1"
-			"resPerSecond"		"1.500000"
+			"resPerSecond"		"1.000000"
 			"name"		"res_node_SE"
 		}
 		"14011"
@@ -363,7 +363,7 @@
 			"position"		"-11942.000000 12996.200195 -3054.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"enabled"		"0"
-			"resPerSecond"		"1.500000"
+			"resPerSecond"		"1.000000"
 			"name"		"res_node_SW"
 		}
 		"14015"
@@ -410,7 +410,7 @@
 			"position"		"12928.000000 12944.000000 -2720.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"enabled"		"1"
-			"resPerSecond"		"1.500000"
+			"resPerSecond"		"1.000000"
 			"name"		"res_node_plat"
 		}
 		"14403"
@@ -460,8 +460,8 @@
 			"canNFCap"		"0"
 			"canImpCap"		"0"
 			"linearMap"		"-1342177280"
-			"Mins"		"-13489.000000 -13416.200195 -2336.669922"
-			"Maxs"		"-13359.000000 -13286.200195 -2206.669922"
+			"Mins"		"-13489.000000 -13416.200195 -2336.670166"
+			"Maxs"		"-13359.000000 -13286.200195 -2206.670166"
 		}
 		"14437"
 		{
@@ -482,59 +482,62 @@
 			"canNFCap"		"0"
 			"canImpCap"		"0"
 			"linearMap"		"-1342177280"
-			"Mins"		"-13361.000000 -13416.200195 -2336.669922"
-			"Maxs"		"-13231.000000 -13286.200195 -2206.669922"
+			"Mins"		"-13361.000000 -13416.200195 -2336.670166"
+			"Maxs"		"-13231.000000 -13286.200195 -2206.670166"
 		}
 		"18205"
 		{
 			"className"		"emp_nf_commander"
-			"position"		"8358.058594 -6316.993652 -2666.326172"
-			"angles"		"-0.168248 0.077547 -0.968964"
+			"position"		"8358.217773 -6316.161621 -2666.352295"
+			"angles"		"-0.166091 0.062955 -0.972870"
 		}
-		"5000013"
+		"18219"
+		{
+			"className"		"emp_imp_commander"
+			"position"		"-8411.691406 5786.450195 -2737.983887"
+			"angles"		"-1.056533 -169.988831 1.618714"
+		}
+		"5000017"
 		{
 			"className"		"emp_building_imp_refinery"
-			"position"		"-6880.000000 6107.359863 -2720.000000"
-			"angles"		"0.000000 -101.359863 0.000000"
+			"position"		"-6880.000000 6107.359375 -2720.000000"
+			"angles"		"0.000000 -101.359871 0.000000"
 			"built"		"1"
 			"health"		"150"
 			"team"		"3"
 			"target"		"res_node_NW_2"
 		}
-		"18219"
-		{
-			"className"		"emp_imp_commander"
-			"position"		"-8411.931641 5787.303711 -2738.041016"
-			"angles"		"-1.053516 -170.013290 1.593743"
-		}
-		"5000014"
+		"5000018"
 		{
 			"className"		"emp_building_imp_barracks"
-			"position"		"-7773.094238 5890.583496 -2744.125488"
-			"angles"		"0.000000 -79.348755 0.000000"
+			"position"		"-7773.093750 5890.583496 -2744.125488"
+			"angles"		"0.000000 -79.348770 0.000000"
 			"built"		"1"
 			"health"		"250"
 			"team"		"3"
 		}
-		"5000015"
+		"5000019"
 		{
 			"className"		"emp_building_nf_refinery"
 			"position"		"6208.000000 -6144.000000 -2720.000000"
-			"angles"		"0.000000 -55.964355 0.000000"
+			"angles"		"0.000000 -55.964359 0.000000"
 			"built"		"1"
 			"health"		"150"
 			"team"		"2"
 			"target"		"res_node_E"
 		}
-		"5000016"
+		"5000020"
 		{
 			"className"		"emp_building_nf_barracks"
-			"position"		"7458.503906 -6347.718750 -2739.378662"
-			"angles"		"0.000000 88.159790 0.000000"
+			"position"		"7458.503906 -6347.718262 -2739.378662"
+			"angles"		"0.000000 88.159798 0.000000"
 			"built"		"1"
 			"health"		"250"
 			"team"		"2"
 		}
 	}
-	"version"		"0.220000"
+	"Description"		"Start on the hills North-West and South-East"
+	"Author"		"Mr. X."
+	"BaseSwap"		"0"
+	"version"		"0.310000"
 }

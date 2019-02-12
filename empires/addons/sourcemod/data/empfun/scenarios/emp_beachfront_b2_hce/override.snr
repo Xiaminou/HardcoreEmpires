@@ -17,7 +17,7 @@
 		"10056"
 		{
 			"className"		"emp_resource_point"
-			"position"		"-11264.000000 768.000000 36.119499"
+			"position"		"-11264.000000 768.000000 36.119495"
 			"angles"		"0.000000 0.000000 0.000000"
 			"enabled"		"0"
 			"resPerSecond"		"2.000000"
@@ -34,7 +34,7 @@
 		"18545"
 		{
 			"className"		"emp_resource_point"
-			"position"		"-3614.379883 -650.851990 56.855400"
+			"position"		"-3614.379883 -650.851929 56.855400"
 			"angles"		"0.000000 0.000000 0.000000"
 			"enabled"		"1"
 			"resPerSecond"		"2.000000"
@@ -42,7 +42,7 @@
 		"18547"
 		{
 			"className"		"emp_resource_point_prop"
-			"position"		"-3614.379883 -650.851990 74.025497"
+			"position"		"-3614.379883 -650.851929 74.025490"
 			"angles"		"0.000000 0.000000 0.000000"
 			"enabled"		"1"
 			"model"		"models/props_wasteland/rockgranite02b.mdl"
@@ -50,7 +50,7 @@
 		"18666"
 		{
 			"className"		"emp_resource_point"
-			"position"		"3646.729980 -678.646973 52.243000"
+			"position"		"3646.729980 -678.646912 52.243000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"enabled"		"1"
 			"resPerSecond"		"2.000000"
@@ -58,7 +58,7 @@
 		"18668"
 		{
 			"className"		"emp_resource_point_prop"
-			"position"		"3646.729980 -678.646973 69.413101"
+			"position"		"3646.729980 -678.646912 69.413101"
 			"angles"		"0.000000 0.000000 0.000000"
 			"enabled"		"1"
 			"model"		"models/props_wasteland/rockgranite02b.mdl"
@@ -66,7 +66,7 @@
 		"11412"
 		{
 			"className"		"emp_resource_point"
-			"position"		"-17.918699 5129.680176 1053.189941"
+			"position"		"-17.918699 5129.680176 1053.189819"
 			"angles"		"0.000000 0.000000 0.000000"
 			"enabled"		"1"
 			"resPerSecond"		"2.000000"
@@ -74,7 +74,7 @@
 		"11408"
 		{
 			"className"		"emp_resource_point_prop"
-			"position"		"-17.918699 5129.680176 1070.359985"
+			"position"		"-17.918699 5129.680176 1070.360107"
 			"angles"		"0.000000 0.000000 0.000000"
 			"enabled"		"1"
 			"model"		"models/props_wasteland/rockgranite02b.mdl"
@@ -99,13 +99,13 @@
 		"9926"
 		{
 			"className"		"emp_nf_commander"
-			"position"		"-11044.558594 3912.218506 75.225929"
-			"angles"		"-0.296012 -90.095467 -0.175720"
+			"position"		"-11048.665039 3912.127686 75.166420"
+			"angles"		"-0.278516 -90.117706 -0.185760"
 		}
 		"9934"
 		{
 			"className"		"emp_building_nf_barracks"
-			"position"		"-11186.000000 4820.299805 22.530600"
+			"position"		"-11186.000000 4820.299805 22.530602"
 			"angles"		"0.000000 180.000000 0.000000"
 			"built"		"1"
 			"health"		"250"
@@ -114,8 +114,8 @@
 		"10660"
 		{
 			"className"		"emp_imp_commander"
-			"position"		"11149.370117 4014.151367 5.301332"
-			"angles"		"2.145011 90.876373 1.925707"
+			"position"		"11152.109375 4015.169189 5.242330"
+			"angles"		"2.147414 91.009865 1.941300"
 		}
 		"10674"
 		{
@@ -151,7 +151,7 @@
 		"19396"
 		{
 			"className"		"emp_cap_model"
-			"position"		"-4.374620 -50.468498 1382.859985"
+			"position"		"-4.374620 -50.468502 1382.860107"
 			"angles"		"0.000000 90.000000 0.000000"
 			"pointNumber"		"1"
 			"visibleOnMap"		"1"
@@ -163,7 +163,7 @@
 		"31700"
 		{
 			"className"		"emp_building_nf_refinery"
-			"position"		"-8324.160156 6080.000000 1059.619995"
+			"position"		"-8324.159180 6080.000000 1059.619995"
 			"angles"		"0.000000 0.000000 0.000000"
 			"built"		"1"
 			"health"		"150"
@@ -182,7 +182,7 @@
 		"10202"
 		{
 			"className"		"emp_resource_point_prop"
-			"position"		"-8355.070313 6072.689941 1077.780029"
+			"position"		"-8355.070313 6072.689941 1077.779907"
 			"angles"		"0.000000 0.000000 0.000000"
 			"enabled"		"1"
 			"model"		"models/props_wasteland/rockgranite02b.mdl"
@@ -190,7 +190,7 @@
 		"31759"
 		{
 			"className"		"emp_building_imp_refinery"
-			"position"		"8286.959961 6038.640137 1055.170044"
+			"position"		"8286.959961 6038.640137 1055.169922"
 			"angles"		"0.000000 0.000000 0.000000"
 			"built"		"1"
 			"health"		"150"
@@ -200,7 +200,7 @@
 		"10422"
 		{
 			"className"		"emp_resource_point"
-			"position"		"8284.809570 6042.359863 1057.910034"
+			"position"		"8284.809570 6042.359375 1057.910034"
 			"angles"		"0.000000 0.000000 0.000000"
 			"enabled"		"0"
 			"resPerSecond"		"2.000000"
@@ -209,31 +209,33 @@
 		"10424"
 		{
 			"className"		"emp_resource_point_prop"
-			"position"		"8284.809570 6042.359863 1075.079956"
+			"position"		"8284.809570 6042.359375 1075.079834"
 			"angles"		"0.000000 0.000000 0.000000"
 			"enabled"		"1"
 			"model"		"models/props_wasteland/rockgranite02b.mdl"
 		}
-		"5000146"
+		"5000148"
 		{
 			"className"		"emp_building_nf_refinery"
-			"position"		"-11264.000000 768.000000 36.119499"
+			"position"		"-11264.000000 768.000000 36.119495"
 			"angles"		"0.000000 -0.214233 0.000000"
 			"built"		"1"
 			"health"		"150"
 			"team"		"2"
 			"target"		"Ref_10056"
 		}
-		"5000147"
+		"5000149"
 		{
 			"className"		"emp_building_imp_refinery"
 			"position"		"11264.000000 768.000000 35.805199"
-			"angles"		"0.000000 178.626709 0.000000"
+			"angles"		"0.000000 178.626724 0.000000"
 			"built"		"1"
 			"health"		"150"
 			"team"		"3"
 			"target"		"Ref_10378"
 		}
 	}
-	"version"		"0.220000"
+	"Author"		"Mr. X."
+	"BaseSwap"		"0"
+	"version"		"0.300000"
 }

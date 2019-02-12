@@ -1,17 +1,5 @@
 "Scenario"
 {
-	"NF_Res"		"400.000000"
-	"BE_Res"		"400.000000"
-	"NF_Tickets"		"121"
-	"BE_Tickets"		"121"
-	"NF_Research"
-	{
-		"0"		"1"
-	}
-	"BE_Research"
-	{
-		"0"		"1"
-	}
 	"Entities"
 	{
 		"19896"
@@ -105,14 +93,14 @@
 		"19277"
 		{
 			"className"		"emp_nf_commander"
-			"position"		"9719.976563 7582.633789 848.405762"
-			"angles"		"0.119422 45.019859 -0.489960"
+			"position"		"9719.524414 7583.086426 848.408691"
+			"angles"		"0.119254 45.019283 -0.488129"
 		}
 		"19283"
 		{
 			"className"		"emp_imp_commander"
-			"position"		"-9795.817383 -7442.943359 775.566833"
-			"angles"		"-0.016540 -150.003555 1.289602"
+			"position"		"-9796.286133 -7442.130371 775.576111"
+			"angles"		"-0.016893 -150.004791 1.292172"
 		}
 		"19918"
 		{
@@ -182,7 +170,7 @@
 			"enabled"		"1"
 			"model"		"models/props_pipes/destroyedpipes01d.mdl"
 		}
-		"5000023"
+		"5000029"
 		{
 			"className"		"emp_building_nf_refinery"
 			"position"		"5120.000000 -640.000000 544.000000"
@@ -192,7 +180,7 @@
 			"team"		"2"
 			"target"		"Ref_19892"
 		}
-		"5000024"
+		"5000030"
 		{
 			"className"		"emp_building_nf_refinery"
 			"position"		"8192.000000 6208.000000 784.000000"
@@ -202,16 +190,16 @@
 			"team"		"2"
 			"target"		"Ref_19894"
 		}
-		"5000025"
+		"5000031"
 		{
 			"className"		"emp_building_nf_barracks"
-			"position"		"8983.672852 6976.523438 770.163330"
-			"angles"		"0.000000 131.270142 0.000000"
+			"position"		"8983.672852 6976.523438 770.163269"
+			"angles"		"0.000000 131.270157 0.000000"
 			"built"		"1"
 			"health"		"250"
 			"team"		"2"
 		}
-		"5000026"
+		"5000032"
 		{
 			"className"		"emp_building_imp_refinery"
 			"position"		"-5120.000000 640.000000 544.000000"
@@ -221,7 +209,7 @@
 			"team"		"3"
 			"target"		"Ref_19940"
 		}
-		"5000027"
+		"5000033"
 		{
 			"className"		"emp_building_imp_refinery"
 			"position"		"-8192.000000 -6208.000000 784.000000"
@@ -231,15 +219,18 @@
 			"team"		"3"
 			"target"		"Ref_19938"
 		}
-		"5000028"
+		"5000034"
 		{
 			"className"		"emp_building_imp_barracks"
-			"position"		"-9123.638672 -6964.780762 769.894409"
-			"angles"		"0.000000 113.867798 0.000000"
+			"position"		"-9123.638672 -6964.780762 769.894470"
+			"angles"		"0.000000 113.867805 0.000000"
 			"built"		"1"
 			"health"		"250"
 			"team"		"3"
 		}
 	}
-	"version"		"0.220000"
+	"Description"		"Start with additionnal refineries and barracks in SW/NE but no vehicle factory"
+	"Author"		"Mr. X."
+	"BaseSwap"		"0"
+	"version"		"0.300000"
 }

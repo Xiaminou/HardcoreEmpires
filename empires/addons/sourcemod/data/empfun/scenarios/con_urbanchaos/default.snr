@@ -2,18 +2,238 @@
 {
 	"NF_Res"		"400.000000"
 	"BE_Res"		"400.000000"
-	"NF_Tickets"		"75"
-	"BE_Tickets"		"75"
+	"NF_Tickets"		"75.000000"
+	"BE_Tickets"		"75.000000"
 	"NF_Research"
 	{
 		"0"		"1"
+		"30"		"1"
 	}
 	"BE_Research"
 	{
 		"0"		"1"
+		"30"		"1"
 	}
 	"Entities"
 	{
+		"450075"
+		{
+			"className"		"env_smokestack"
+			"position"		"3679.360107 7341.040039 190.860001"
+			"angles"		"0.000000 0.000000 0.000000"
+			"material"		"particle/SmokeStack.vmt"
+			"startSize"		"20.000000"
+			"endSize"		"50.000000"
+			"emit"		"1"
+			"baseSpread"		"10.000000"
+			"twist"		"0.000000"
+			"roll"		"0.000000"
+			"windAngle"		"0"
+			"windSpeed"		"0"
+			"jetLength"		"720.000000"
+			"spreadSpeed"		"15.000000"
+			"Speed"		"80.000000"
+			"rate"		"10.000000"
+			"color"		"42 42 42 255"
+		}
+		"105646"
+		{
+			"className"		"prop_dynamic"
+			"position"		"5664.939941 4208.580078 321.953003"
+			"angles"		"0.000000 0.000000 0.000000"
+			"model"		"models/Common/props_urban/urban_cables02.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"13686"
+		{
+			"className"		"prop_dynamic"
+			"position"		"9165.379883 2143.479980 78.137901"
+			"angles"		"0.000000 0.000000 0.000000"
+			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"13709"
+		{
+			"className"		"prop_dynamic"
+			"position"		"8797.379883 2143.479980 78.137901"
+			"angles"		"0.000000 315.000000 0.000000"
+			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"15458"
+		{
+			"className"		"prop_dynamic"
+			"position"		"10562.099609 2143.389893 78.137901"
+			"angles"		"0.000000 180.000000 0.000000"
+			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"15462"
+		{
+			"className"		"prop_dynamic"
+			"position"		"10194.099609 2142.000000 60.000000"
+			"angles"		"0.000000 135.000000 0.000000"
+			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"15466"
+		{
+			"className"		"prop_dynamic"
+			"position"		"9826.000000 2144.000000 70.000000"
+			"angles"		"0.000000 180.000000 0.000000"
+			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"19766"
+		{
+			"className"		"prop_dynamic"
+			"position"		"7708.000000 3600.000000 47.856998"
+			"angles"		"0.000000 270.000000 0.000000"
+			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"27580"
+		{
+			"className"		"prop_dynamic"
+			"position"		"7900.000000 2136.000000 78.137901"
+			"angles"		"0.000000 0.000000 0.000000"
+			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"27584"
+		{
+			"className"		"prop_dynamic"
+			"position"		"7356.000000 2132.000000 84.000000"
+			"angles"		"0.000000 315.000000 0.000000"
+			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"27831"
+		{
+			"className"		"prop_dynamic"
+			"position"		"5580.970215 2115.790039 78.137901"
+			"angles"		"0.000000 0.000000 -15.000000"
+			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"27835"
+		{
+			"className"		"prop_dynamic"
+			"position"		"5981.379883 2143.570068 78.137901"
+			"angles"		"0.000000 315.000000 0.000000"
+			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"27839"
+		{
+			"className"		"prop_dynamic"
+			"position"		"6348.000000 2143.570068 80.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"48911"
+		{
+			"className"		"prop_dynamic"
+			"position"		"3468.110107 7905.049805 60.097000"
+			"angles"		"0.000000 90.000000 0.000000"
+			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"48915"
+		{
+			"className"		"prop_dynamic"
+			"position"		"3468.110107 8641.049805 60.097000"
+			"angles"		"0.000000 90.000000 0.000000"
+			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"48919"
+		{
+			"className"		"prop_dynamic"
+			"position"		"3468.110107 8273.049805 60.097000"
+			"angles"		"0.000000 45.000000 0.000000"
+			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"49043"
+		{
+			"className"		"prop_dynamic"
+			"position"		"3467.870117 6547.290039 67.333801"
+			"angles"		"0.000000 90.000000 0.000000"
+			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"49047"
+		{
+			"className"		"prop_dynamic"
+			"position"		"3467.870117 6915.290039 67.333801"
+			"angles"		"0.000000 45.000000 0.000000"
+			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"49051"
+		{
+			"className"		"prop_dynamic"
+			"position"		"3467.870117 7283.290039 67.333801"
+			"angles"		"0.000000 90.000000 0.000000"
+			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
 		"65966"
 		{
 			"className"		"emp_cap_model"
@@ -50,6 +270,50 @@
 			"model3"		"models/Common/props_system/flag2_imp.mdl"
 			"team"		"0"
 		}
+		"49606"
+		{
+			"className"		"prop_dynamic"
+			"position"		"3436.000000 4263.290039 56.000000"
+			"angles"		"0.000000 90.000000 0.000000"
+			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"49610"
+		{
+			"className"		"prop_dynamic"
+			"position"		"3436.000000 4631.290039 64.000000"
+			"angles"		"0.000000 45.000000 0.000000"
+			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"195073"
+		{
+			"className"		"prop_dynamic"
+			"position"		"3507.350098 3050.899902 56.000000"
+			"angles"		"0.000000 90.000000 0.000000"
+			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"195077"
+		{
+			"className"		"prop_dynamic"
+			"position"		"3666.320068 2679.000000 56.000000"
+			"angles"		"0.000000 90.000000 0.000000"
+			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
 		"198467"
 		{
 			"className"		"emp_building_imp_armory"
@@ -58,6 +322,136 @@
 			"built"		"1"
 			"health"		"100"
 			"team"		"3"
+		}
+		"200448"
+		{
+			"className"		"env_smokestack"
+			"position"		"5646.290039 2027.410034 164.727997"
+			"angles"		"0.000000 0.000000 0.000000"
+			"material"		"particle/SmokeStack.vmt"
+			"startSize"		"20.000000"
+			"endSize"		"50.000000"
+			"emit"		"1"
+			"baseSpread"		"10.000000"
+			"twist"		"0.000000"
+			"roll"		"0.000000"
+			"windAngle"		"0"
+			"windSpeed"		"0"
+			"jetLength"		"620.000000"
+			"spreadSpeed"		"15.000000"
+			"Speed"		"80.000000"
+			"rate"		"5.000000"
+			"color"		"75 75 75 255"
+		}
+		"247201"
+		{
+			"className"		"prop_dynamic"
+			"position"		"11994.799805 2167.129883 78.137901"
+			"angles"		"0.000000 0.000000 0.000000"
+			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"247205"
+		{
+			"className"		"prop_dynamic"
+			"position"		"11626.799805 2167.129883 78.137901"
+			"angles"		"0.000000 315.000000 0.000000"
+			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"247209"
+		{
+			"className"		"prop_dynamic"
+			"position"		"11258.799805 2167.129883 78.137901"
+			"angles"		"0.000000 0.000000 0.000000"
+			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"247237"
+		{
+			"className"		"prop_dynamic"
+			"position"		"13189.200195 2137.590088 78.137901"
+			"angles"		"0.000000 180.000000 0.000000"
+			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"247241"
+		{
+			"className"		"prop_dynamic"
+			"position"		"12821.200195 2138.000000 76.000000"
+			"angles"		"0.000000 135.000000 0.000000"
+			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"247245"
+		{
+			"className"		"prop_dynamic"
+			"position"		"12453.200195 2138.000000 66.000000"
+			"angles"		"0.000000 180.000000 0.000000"
+			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"247895"
+		{
+			"className"		"prop_dynamic"
+			"position"		"10736.000000 -4640.000000 88.000000"
+			"angles"		"0.000000 240.500000 0.000000"
+			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"247947"
+		{
+			"className"		"prop_dynamic"
+			"position"		"9130.730469 -4651.000000 88.000000"
+			"angles"		"0.000000 240.500000 0.000000"
+			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"247951"
+		{
+			"className"		"prop_dynamic"
+			"position"		"9962.030273 -4681.259766 88.000000"
+			"angles"		"0.000000 240.500000 0.000000"
+			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"247963"
+		{
+			"className"		"prop_dynamic"
+			"position"		"7918.169922 -4532.240234 88.000000"
+			"angles"		"0.000000 270.500000 0.000000"
+			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
 		}
 		"353103"
 		{
@@ -83,6 +477,116 @@
 			"model3"		"models/Common/props_system/flag2b_imp.mdl"
 			"team"		"0"
 		}
+		"356810"
+		{
+			"className"		"prop_dynamic"
+			"position"		"7837.629883 -3643.550049 88.000000"
+			"angles"		"0.000000 240.500000 0.000000"
+			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"356818"
+		{
+			"className"		"prop_dynamic"
+			"position"		"7865.189941 -2761.689941 88.000000"
+			"angles"		"0.000000 240.500000 0.000000"
+			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"356822"
+		{
+			"className"		"prop_dynamic"
+			"position"		"7914.410156 -1770.969971 88.000000"
+			"angles"		"0.000000 240.500000 0.000000"
+			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"359406"
+		{
+			"className"		"prop_dynamic"
+			"position"		"3434.830078 10337.500000 60.097000"
+			"angles"		"0.000000 90.000000 0.000000"
+			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"359410"
+		{
+			"className"		"prop_dynamic"
+			"position"		"3434.830078 10705.500000 60.097000"
+			"angles"		"0.000000 45.000000 0.000000"
+			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"359414"
+		{
+			"className"		"prop_dynamic"
+			"position"		"2716.649902 11579.000000 33.528400"
+			"angles"		"0.000000 90.000000 0.000000"
+			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"359438"
+		{
+			"className"		"prop_dynamic"
+			"position"		"1795.069946 11605.099609 33.528400"
+			"angles"		"0.000000 90.000000 0.000000"
+			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"359442"
+		{
+			"className"		"prop_dynamic"
+			"position"		"2194.810059 11605.099609 33.528400"
+			"angles"		"0.000000 90.000000 0.000000"
+			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"373631"
+		{
+			"className"		"prop_dynamic"
+			"position"		"9214.000000 -5258.000000 88.000000"
+			"angles"		"0.000000 210.000000 0.000000"
+			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"376543"
+		{
+			"className"		"prop_dynamic"
+			"position"		"8076.350098 559.270020 393.437988"
+			"angles"		"0.000000 0.000000 0.000000"
+			"model"		"models/props_c17/light_industrialbell01_on.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
 		"379258"
 		{
 			"className"		"emp_cap_model"
@@ -94,6 +598,68 @@
 			"model2"		"models/Common/props_system/flag2b_nf.mdl"
 			"model3"		"models/Common/props_system/flag2b_imp.mdl"
 			"team"		"0"
+		}
+		"380512"
+		{
+			"className"		"emp_imp_ammo_crate"
+			"position"		"5492.000000 1424.000000 80.000000"
+			"angles"		"0.000000 315.000000 0.000000"
+			"pointNumber"		"0"
+			"disabled"		"0"
+			"model"		"models/Imperial/Props/imp_crateammo.mdl"
+		}
+		"380521"
+		{
+			"className"		"emp_nf_ammo_crate"
+			"position"		"4738.000000 1170.000000 80.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"pointNumber"		"0"
+			"disabled"		"0"
+			"model"		"models/NF/Props/nf_crateammo.mdl"
+		}
+		"384819"
+		{
+			"className"		"prop_dynamic"
+			"position"		"3464.149902 3420.500000 56.000000"
+			"angles"		"0.000000 90.000000 0.000000"
+			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"384823"
+		{
+			"className"		"prop_dynamic"
+			"position"		"4032.659912 2354.139893 56.000000"
+			"angles"		"0.000000 90.000000 0.000000"
+			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"392345"
+		{
+			"className"		"prop_dynamic"
+			"position"		"7666.020020 623.848999 466.406006"
+			"angles"		"0.000000 0.000000 0.000000"
+			"model"		"models/props_c17/light_industrialbell01_on.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"392347"
+		{
+			"className"		"prop_dynamic"
+			"position"		"7663.439941 380.489990 414.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"model"		"models/props_c17/light_industrialbell01_on.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
 		}
 		"393788"
 		{
@@ -149,7 +715,6 @@
 			"reinfToTakeImp"		"0.000000"
 			"canNFCap"		"0"
 			"canImpCap"		"0"
-			"linearMap"		"1"
 			"Mins"		"-622.500000 -301.000000 -177.000000"
 			"Maxs"		"622.500000 301.000000 177.000000"
 		}
@@ -171,7 +736,6 @@
 			"reinfToTakeImp"		"0.000000"
 			"canNFCap"		"0"
 			"canImpCap"		"0"
-			"linearMap"		"1"
 			"Mins"		"-431.000000 -841.000000 -167.000000"
 			"Maxs"		"431.000000 841.000000 167.000000"
 		}
@@ -229,6 +793,50 @@
 			"disabled"		"1"
 			"model"		"models/Imperial/Props/imp_cratehealth.mdl"
 		}
+		"406088"
+		{
+			"className"		"prop_dynamic"
+			"position"		"3498.399902 4976.890137 64.000000"
+			"angles"		"0.000000 45.000000 0.000000"
+			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"406092"
+		{
+			"className"		"prop_dynamic"
+			"position"		"2608.000000 5744.000000 64.000000"
+			"angles"		"0.000000 45.000000 0.000000"
+			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"406096"
+		{
+			"className"		"prop_dynamic"
+			"position"		"1746.619995 5733.339844 64.000000"
+			"angles"		"0.000000 45.000000 0.000000"
+			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"406100"
+		{
+			"className"		"prop_dynamic"
+			"position"		"2184.570068 5743.290039 64.000000"
+			"angles"		"0.000000 45.000000 0.000000"
+			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
 		"406224"
 		{
 			"className"		"emp_cap_point"
@@ -247,7 +855,6 @@
 			"reinfToTakeImp"		"0.000000"
 			"canNFCap"		"0"
 			"canImpCap"		"0"
-			"linearMap"		"1"
 			"Mins"		"-589.000000 -525.000000 -243.000000"
 			"Maxs"		"589.000000 525.000000 243.000000"
 		}
@@ -422,6 +1029,77 @@
 			"level"		"2"
 			"model"		"models/NF/turrets/ml_lvl2/nf_turret_ml_lvl2.mdl"
 		}
+		"449849"
+		{
+			"className"		"env_smokestack"
+			"position"		"1506.849976 6233.140137 198.824005"
+			"angles"		"0.000000 0.000000 0.000000"
+			"material"		"particle/SmokeStack.vmt"
+			"startSize"		"20.000000"
+			"endSize"		"50.000000"
+			"emit"		"1"
+			"baseSpread"		"10.000000"
+			"twist"		"0.000000"
+			"roll"		"0.000000"
+			"windAngle"		"0"
+			"windSpeed"		"0"
+			"jetLength"		"720.000000"
+			"spreadSpeed"		"15.000000"
+			"Speed"		"80.000000"
+			"rate"		"10.000000"
+			"color"		"51 51 51 255"
+		}
+		"449869"
+		{
+			"className"		"env_smokestack"
+			"position"		"1372.030029 6286.600098 143.511993"
+			"angles"		"0.000000 0.000000 0.000000"
+			"material"		"particle/SmokeStack.vmt"
+			"startSize"		"20.000000"
+			"endSize"		"50.000000"
+			"emit"		"1"
+			"baseSpread"		"10.000000"
+			"twist"		"0.000000"
+			"roll"		"0.000000"
+			"windAngle"		"0"
+			"windSpeed"		"0"
+			"jetLength"		"720.000000"
+			"spreadSpeed"		"15.000000"
+			"Speed"		"80.000000"
+			"rate"		"10.000000"
+			"color"		"51 51 51 255"
+		}
+		"450083"
+		{
+			"className"		"prop_dynamic"
+			"position"		"978.346008 8350.679688 66.539803"
+			"angles"		"0.000000 201.500000 0.000000"
+			"model"		"models/nf/vehicles/ground/tankartillery/nf_artillerytank_wreck.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"450106"
+		{
+			"className"		"env_smokestack"
+			"position"		"962.093018 8290.879883 189.649994"
+			"angles"		"0.000000 0.000000 0.000000"
+			"material"		"particle/SmokeStack.vmt"
+			"startSize"		"20.000000"
+			"endSize"		"50.000000"
+			"emit"		"1"
+			"baseSpread"		"10.000000"
+			"twist"		"0.000000"
+			"roll"		"0.000000"
+			"windAngle"		"0"
+			"windSpeed"		"0"
+			"jetLength"		"720.000000"
+			"spreadSpeed"		"15.000000"
+			"Speed"		"80.000000"
+			"rate"		"5.000000"
+			"color"		"44 44 44 200"
+		}
 		"453872"
 		{
 			"className"		"emp_nf_ammo_crate"
@@ -437,7 +1115,7 @@
 			"position"		"7430.919922 2915.209961 80.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"pointNumber"		"2"
-			"spawnEnabled"		"2"
+			"spawnEnabled"		"0"
 		}
 		"461124"
 		{
@@ -445,7 +1123,7 @@
 			"position"		"7847.290039 2862.909912 80.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"pointNumber"		"2"
-			"spawnEnabled"		"2"
+			"spawnEnabled"		"0"
 		}
 		"461126"
 		{
@@ -453,7 +1131,7 @@
 			"position"		"7905.620117 3065.689941 80.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"pointNumber"		"2"
-			"spawnEnabled"		"2"
+			"spawnEnabled"		"0"
 		}
 		"461128"
 		{
@@ -461,7 +1139,7 @@
 			"position"		"7358.520020 3915.139893 80.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"pointNumber"		"2"
-			"spawnEnabled"		"2"
+			"spawnEnabled"		"0"
 		}
 		"461130"
 		{
@@ -469,7 +1147,7 @@
 			"position"		"7381.410156 4018.379883 80.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"pointNumber"		"2"
-			"spawnEnabled"		"2"
+			"spawnEnabled"		"0"
 		}
 		"461132"
 		{
@@ -477,7 +1155,7 @@
 			"position"		"7296.279785 4087.179932 80.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"pointNumber"		"2"
-			"spawnEnabled"		"2"
+			"spawnEnabled"		"0"
 		}
 		"461134"
 		{
@@ -485,7 +1163,7 @@
 			"position"		"7241.209961 3196.500000 80.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"pointNumber"		"2"
-			"spawnEnabled"		"2"
+			"spawnEnabled"		"0"
 		}
 		"461136"
 		{
@@ -493,7 +1171,7 @@
 			"position"		"12256.000000 -848.000000 96.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"pointNumber"		"5"
-			"spawnEnabled"		"5"
+			"spawnEnabled"		"1"
 		}
 		"461140"
 		{
@@ -501,7 +1179,7 @@
 			"position"		"13944.000000 -994.880005 96.000000"
 			"angles"		"0.000000 180.000000 0.000000"
 			"pointNumber"		"5"
-			"spawnEnabled"		"5"
+			"spawnEnabled"		"1"
 		}
 		"461142"
 		{
@@ -509,7 +1187,7 @@
 			"position"		"13872.000000 -912.000000 96.000000"
 			"angles"		"0.000000 180.000000 0.000000"
 			"pointNumber"		"5"
-			"spawnEnabled"		"5"
+			"spawnEnabled"		"1"
 		}
 		"461144"
 		{
@@ -517,7 +1195,7 @@
 			"position"		"13758.000000 -1440.000000 96.000000"
 			"angles"		"0.000000 90.000000 0.000000"
 			"pointNumber"		"5"
-			"spawnEnabled"		"5"
+			"spawnEnabled"		"0"
 		}
 		"461146"
 		{
@@ -525,7 +1203,7 @@
 			"position"		"13619.700195 -1440.000000 96.000000"
 			"angles"		"0.000000 90.000000 0.000000"
 			"pointNumber"		"5"
-			"spawnEnabled"		"5"
+			"spawnEnabled"		"0"
 		}
 		"461148"
 		{
@@ -533,7 +1211,7 @@
 			"position"		"13688.000000 -912.000000 96.000000"
 			"angles"		"0.000000 270.000000 0.000000"
 			"pointNumber"		"5"
-			"spawnEnabled"		"5"
+			"spawnEnabled"		"1"
 		}
 		"461150"
 		{
@@ -541,7 +1219,7 @@
 			"position"		"13504.000000 -864.000000 96.000000"
 			"angles"		"0.000000 270.000000 0.000000"
 			"pointNumber"		"5"
-			"spawnEnabled"		"5"
+			"spawnEnabled"		"1"
 		}
 		"461156"
 		{
@@ -549,7 +1227,7 @@
 			"position"		"4121.640137 6181.890137 104.000000"
 			"angles"		"0.000000 180.000000 0.000000"
 			"pointNumber"		"1"
-			"spawnEnabled"		"1"
+			"spawnEnabled"		"0"
 		}
 		"461158"
 		{
@@ -557,7 +1235,7 @@
 			"position"		"4112.000000 6016.000000 104.000000"
 			"angles"		"0.000000 180.000000 0.000000"
 			"pointNumber"		"1"
-			"spawnEnabled"		"1"
+			"spawnEnabled"		"0"
 		}
 		"461160"
 		{
@@ -565,7 +1243,7 @@
 			"position"		"2833.030029 6166.490234 104.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"pointNumber"		"1"
-			"spawnEnabled"		"1"
+			"spawnEnabled"		"0"
 		}
 		"461162"
 		{
@@ -573,7 +1251,7 @@
 			"position"		"2737.949951 6206.560059 104.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"pointNumber"		"1"
-			"spawnEnabled"		"1"
+			"spawnEnabled"		"0"
 		}
 		"461164"
 		{
@@ -581,7 +1259,7 @@
 			"position"		"3152.679932 11219.700195 76.000000"
 			"angles"		"0.000000 270.000000 0.000000"
 			"pointNumber"		"2"
-			"spawnEnabled"		"2"
+			"spawnEnabled"		"0"
 		}
 		"461166"
 		{
@@ -589,7 +1267,7 @@
 			"position"		"3126.830078 11435.299805 76.000000"
 			"angles"		"0.000000 120.000000 0.000000"
 			"pointNumber"		"2"
-			"spawnEnabled"		"2"
+			"spawnEnabled"		"0"
 		}
 		"461168"
 		{
@@ -597,7 +1275,7 @@
 			"position"		"3088.000000 11640.000000 76.000000"
 			"angles"		"0.000000 120.000000 0.000000"
 			"pointNumber"		"2"
-			"spawnEnabled"		"2"
+			"spawnEnabled"		"0"
 		}
 		"461176"
 		{
@@ -605,7 +1283,7 @@
 			"position"		"2988.000000 9997.160156 76.000000"
 			"angles"		"0.000000 300.000000 0.000000"
 			"pointNumber"		"2"
-			"spawnEnabled"		"2"
+			"spawnEnabled"		"0"
 		}
 		"461182"
 		{
@@ -613,7 +1291,7 @@
 			"position"		"13248.000000 -864.000000 96.000000"
 			"angles"		"0.000000 180.000000 0.000000"
 			"pointNumber"		"5"
-			"spawnEnabled"		"5"
+			"spawnEnabled"		"1"
 		}
 		"461186"
 		{
@@ -621,7 +1299,7 @@
 			"position"		"2995.149902 10108.000000 76.000000"
 			"angles"		"0.000000 300.000000 0.000000"
 			"pointNumber"		"2"
-			"spawnEnabled"		"2"
+			"spawnEnabled"		"0"
 		}
 		"461188"
 		{
@@ -629,7 +1307,7 @@
 			"position"		"3033.979980 9903.309570 76.000000"
 			"angles"		"0.000000 300.000000 0.000000"
 			"pointNumber"		"2"
-			"spawnEnabled"		"2"
+			"spawnEnabled"		"0"
 		}
 		"461196"
 		{
@@ -637,7 +1315,7 @@
 			"position"		"3133.979980 11546.099609 76.000000"
 			"angles"		"0.000000 120.000000 0.000000"
 			"pointNumber"		"2"
-			"spawnEnabled"		"2"
+			"spawnEnabled"		"0"
 		}
 		"461200"
 		{
@@ -645,7 +1323,7 @@
 			"position"		"3145.580078 11115.400391 76.000000"
 			"angles"		"0.000000 270.000000 0.000000"
 			"pointNumber"		"2"
-			"spawnEnabled"		"2"
+			"spawnEnabled"		"0"
 		}
 		"461202"
 		{
@@ -653,7 +1331,7 @@
 			"position"		"2964.310059 6380.970215 104.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"pointNumber"		"1"
-			"spawnEnabled"		"1"
+			"spawnEnabled"		"0"
 		}
 		"461204"
 		{
@@ -661,7 +1339,7 @@
 			"position"		"2826.330078 6225.430176 104.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"pointNumber"		"1"
-			"spawnEnabled"		"1"
+			"spawnEnabled"		"0"
 		}
 		"461206"
 		{
@@ -669,7 +1347,7 @@
 			"position"		"4113.930176 6102.799805 104.000000"
 			"angles"		"0.000000 180.000000 0.000000"
 			"pointNumber"		"1"
-			"spawnEnabled"		"1"
+			"spawnEnabled"		"0"
 		}
 		"461208"
 		{
@@ -677,7 +1355,7 @@
 			"position"		"4449.000000 6052.000000 104.000000"
 			"angles"		"0.000000 180.000000 0.000000"
 			"pointNumber"		"1"
-			"spawnEnabled"		"1"
+			"spawnEnabled"		"0"
 		}
 		"461210"
 		{
@@ -685,7 +1363,7 @@
 			"position"		"4447.649902 6111.899902 104.000000"
 			"angles"		"0.000000 180.000000 0.000000"
 			"pointNumber"		"1"
-			"spawnEnabled"		"1"
+			"spawnEnabled"		"0"
 		}
 		"461214"
 		{
@@ -693,7 +1371,7 @@
 			"position"		"13632.000000 -912.000000 96.000000"
 			"angles"		"0.000000 270.000000 0.000000"
 			"pointNumber"		"5"
-			"spawnEnabled"		"5"
+			"spawnEnabled"		"1"
 		}
 		"461216"
 		{
@@ -701,7 +1379,7 @@
 			"position"		"13744.000000 -912.000000 96.000000"
 			"angles"		"0.000000 270.000000 0.000000"
 			"pointNumber"		"5"
-			"spawnEnabled"		"5"
+			"spawnEnabled"		"1"
 		}
 		"461218"
 		{
@@ -709,7 +1387,7 @@
 			"position"		"13688.799805 -1440.000000 96.000000"
 			"angles"		"0.000000 90.000000 0.000000"
 			"pointNumber"		"5"
-			"spawnEnabled"		"5"
+			"spawnEnabled"		"0"
 		}
 		"461220"
 		{
@@ -717,7 +1395,7 @@
 			"position"		"13384.000000 -1152.000000 96.000000"
 			"angles"		"0.000000 90.000000 0.000000"
 			"pointNumber"		"5"
-			"spawnEnabled"		"5"
+			"spawnEnabled"		"1"
 		}
 		"461222"
 		{
@@ -725,7 +1403,7 @@
 			"position"		"13950.400391 -925.750000 96.000000"
 			"angles"		"0.000000 180.000000 0.000000"
 			"pointNumber"		"5"
-			"spawnEnabled"		"5"
+			"spawnEnabled"		"1"
 		}
 		"461224"
 		{
@@ -733,7 +1411,7 @@
 			"position"		"13944.000000 -1064.000000 96.000000"
 			"angles"		"0.000000 180.000000 0.000000"
 			"pointNumber"		"5"
-			"spawnEnabled"		"5"
+			"spawnEnabled"		"1"
 		}
 		"461226"
 		{
@@ -741,7 +1419,7 @@
 			"position"		"12320.000000 -848.000000 96.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"pointNumber"		"5"
-			"spawnEnabled"		"5"
+			"spawnEnabled"		"1"
 		}
 		"461230"
 		{
@@ -749,7 +1427,7 @@
 			"position"		"7525.779785 2819.449951 80.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"pointNumber"		"2"
-			"spawnEnabled"		"2"
+			"spawnEnabled"		"0"
 		}
 		"461232"
 		{
@@ -757,7 +1435,7 @@
 			"position"		"7276.990234 3983.010010 80.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"pointNumber"		"2"
-			"spawnEnabled"		"2"
+			"spawnEnabled"		"0"
 		}
 		"461234"
 		{
@@ -765,7 +1443,7 @@
 			"position"		"7505.189941 3925.139893 80.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"pointNumber"		"2"
-			"spawnEnabled"		"2"
+			"spawnEnabled"		"0"
 		}
 		"461236"
 		{
@@ -773,7 +1451,7 @@
 			"position"		"7255.189941 3825.139893 80.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"pointNumber"		"2"
-			"spawnEnabled"		"2"
+			"spawnEnabled"		"0"
 		}
 		"461238"
 		{
@@ -781,7 +1459,7 @@
 			"position"		"7894.509766 2946.239990 80.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"pointNumber"		"2"
-			"spawnEnabled"		"2"
+			"spawnEnabled"		"0"
 		}
 		"461240"
 		{
@@ -789,7 +1467,7 @@
 			"position"		"7438.959961 2826.800049 80.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"pointNumber"		"2"
-			"spawnEnabled"		"2"
+			"spawnEnabled"		"0"
 		}
 		"461242"
 		{
@@ -797,7 +1475,7 @@
 			"position"		"7331.250000 2979.510010 80.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"pointNumber"		"2"
-			"spawnEnabled"		"2"
+			"spawnEnabled"		"0"
 		}
 		"461244"
 		{
@@ -805,7 +1483,7 @@
 			"position"		"7320.000000 3084.000000 80.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"pointNumber"		"2"
-			"spawnEnabled"		"2"
+			"spawnEnabled"		"0"
 		}
 		"461246"
 		{
@@ -813,7 +1491,7 @@
 			"position"		"7649.109863 3348.219971 80.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"pointNumber"		"4"
-			"spawnEnabled"		"4"
+			"spawnEnabled"		"0"
 		}
 		"461248"
 		{
@@ -821,7 +1499,7 @@
 			"position"		"7879.669922 3376.000000 80.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"pointNumber"		"4"
-			"spawnEnabled"		"4"
+			"spawnEnabled"		"0"
 		}
 		"461250"
 		{
@@ -829,7 +1507,7 @@
 			"position"		"7965.779785 3539.889893 80.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"pointNumber"		"4"
-			"spawnEnabled"		"4"
+			"spawnEnabled"		"0"
 		}
 		"461252"
 		{
@@ -837,7 +1515,7 @@
 			"position"		"7955.779785 3803.219971 80.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"pointNumber"		"4"
-			"spawnEnabled"		"4"
+			"spawnEnabled"		"0"
 		}
 		"461254"
 		{
@@ -845,7 +1523,7 @@
 			"position"		"7362.000000 3277.760010 80.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"pointNumber"		"4"
-			"spawnEnabled"		"4"
+			"spawnEnabled"		"0"
 		}
 		"461256"
 		{
@@ -853,7 +1531,7 @@
 			"position"		"7846.089844 4470.339844 80.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"pointNumber"		"4"
-			"spawnEnabled"		"4"
+			"spawnEnabled"		"0"
 		}
 		"461258"
 		{
@@ -861,7 +1539,7 @@
 			"position"		"7587.549805 4479.720215 80.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"pointNumber"		"4"
-			"spawnEnabled"		"4"
+			"spawnEnabled"		"0"
 		}
 		"461260"
 		{
@@ -869,7 +1547,7 @@
 			"position"		"7249.589844 4354.720215 80.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"pointNumber"		"4"
-			"spawnEnabled"		"4"
+			"spawnEnabled"		"0"
 		}
 		"461262"
 		{
@@ -877,7 +1555,7 @@
 			"position"		"11304.000000 2628.000000 108.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"pointNumber"		"3"
-			"spawnEnabled"		"3"
+			"spawnEnabled"		"0"
 		}
 		"461264"
 		{
@@ -885,7 +1563,7 @@
 			"position"		"11312.299805 2483.560059 108.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"pointNumber"		"3"
-			"spawnEnabled"		"3"
+			"spawnEnabled"		"0"
 		}
 		"461268"
 		{
@@ -893,7 +1571,7 @@
 			"position"		"11565.900391 2771.129883 108.000000"
 			"angles"		"0.000000 90.000000 0.000000"
 			"pointNumber"		"3"
-			"spawnEnabled"		"3"
+			"spawnEnabled"		"0"
 		}
 		"461270"
 		{
@@ -901,7 +1579,7 @@
 			"position"		"11460.900391 2687.719971 108.000000"
 			"angles"		"0.000000 90.000000 0.000000"
 			"pointNumber"		"3"
-			"spawnEnabled"		"3"
+			"spawnEnabled"		"0"
 		}
 		"461272"
 		{
@@ -909,7 +1587,7 @@
 			"position"		"11605.400391 2696.060059 108.000000"
 			"angles"		"0.000000 90.000000 0.000000"
 			"pointNumber"		"3"
-			"spawnEnabled"		"3"
+			"spawnEnabled"		"0"
 		}
 		"461276"
 		{
@@ -917,7 +1595,7 @@
 			"position"		"11828.299805 2843.560059 108.000000"
 			"angles"		"0.000000 180.000000 0.000000"
 			"pointNumber"		"3"
-			"spawnEnabled"		"3"
+			"spawnEnabled"		"0"
 		}
 		"461278"
 		{
@@ -925,7 +1603,7 @@
 			"position"		"11820.000000 2988.000000 108.000000"
 			"angles"		"0.000000 180.000000 0.000000"
 			"pointNumber"		"3"
-			"spawnEnabled"		"3"
+			"spawnEnabled"		"0"
 		}
 		"461300"
 		{
@@ -933,7 +1611,7 @@
 			"position"		"2776.000000 6083.000000 120.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"pointNumber"		"3"
-			"spawnEnabled"		"3"
+			"spawnEnabled"		"0"
 		}
 		"461302"
 		{
@@ -941,7 +1619,7 @@
 			"position"		"2917.290039 6151.850098 120.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"pointNumber"		"3"
-			"spawnEnabled"		"3"
+			"spawnEnabled"		"0"
 		}
 		"461304"
 		{
@@ -949,7 +1627,7 @@
 			"position"		"3013.659912 5250.500000 120.000000"
 			"angles"		"0.000000 285.000000 0.000000"
 			"pointNumber"		"3"
-			"spawnEnabled"		"3"
+			"spawnEnabled"		"0"
 		}
 		"461306"
 		{
@@ -957,7 +1635,7 @@
 			"position"		"4503.000000 5450.000000 120.000000"
 			"angles"		"0.000000 180.000000 0.000000"
 			"pointNumber"		"3"
-			"spawnEnabled"		"3"
+			"spawnEnabled"		"0"
 		}
 		"461308"
 		{
@@ -965,7 +1643,7 @@
 			"position"		"3956.000000 5239.100098 120.000000"
 			"angles"		"0.000000 225.000000 0.000000"
 			"pointNumber"		"3"
-			"spawnEnabled"		"3"
+			"spawnEnabled"		"0"
 		}
 		"461318"
 		{
@@ -973,7 +1651,7 @@
 			"position"		"11695.200195 3015.239990 108.000000"
 			"angles"		"0.000000 180.000000 0.000000"
 			"pointNumber"		"3"
-			"spawnEnabled"		"3"
+			"spawnEnabled"		"0"
 		}
 		"461320"
 		{
@@ -981,7 +1659,7 @@
 			"position"		"11508.099609 3003.669922 108.000000"
 			"angles"		"0.000000 180.000000 0.000000"
 			"pointNumber"		"3"
-			"spawnEnabled"		"3"
+			"spawnEnabled"		"0"
 		}
 		"461322"
 		{
@@ -989,7 +1667,7 @@
 			"position"		"11405.799805 2984.379883 108.000000"
 			"angles"		"0.000000 180.000000 0.000000"
 			"pointNumber"		"3"
-			"spawnEnabled"		"3"
+			"spawnEnabled"		"0"
 		}
 		"461324"
 		{
@@ -997,7 +1675,7 @@
 			"position"		"11612.299805 3019.100098 108.000000"
 			"angles"		"0.000000 180.000000 0.000000"
 			"pointNumber"		"3"
-			"spawnEnabled"		"3"
+			"spawnEnabled"		"0"
 		}
 		"461336"
 		{
@@ -1005,7 +1683,7 @@
 			"position"		"4451.810059 5376.069824 120.000000"
 			"angles"		"0.000000 180.000000 0.000000"
 			"pointNumber"		"3"
-			"spawnEnabled"		"3"
+			"spawnEnabled"		"0"
 		}
 		"461338"
 		{
@@ -1013,7 +1691,7 @@
 			"position"		"2929.000000 5280.799805 120.000000"
 			"angles"		"0.000000 285.000000 0.000000"
 			"pointNumber"		"3"
-			"spawnEnabled"		"3"
+			"spawnEnabled"		"0"
 		}
 		"461340"
 		{
@@ -1021,7 +1699,7 @@
 			"position"		"3053.149902 5158.040039 120.000000"
 			"angles"		"0.000000 285.000000 0.000000"
 			"pointNumber"		"3"
-			"spawnEnabled"		"3"
+			"spawnEnabled"		"0"
 		}
 		"461342"
 		{
@@ -1029,7 +1707,7 @@
 			"position"		"2968.469971 6225.779785 120.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"pointNumber"		"3"
-			"spawnEnabled"		"3"
+			"spawnEnabled"		"0"
 		}
 		"461356"
 		{
@@ -1045,7 +1723,7 @@
 			"position"		"11850.599609 2915.780029 108.000000"
 			"angles"		"0.000000 180.000000 0.000000"
 			"pointNumber"		"3"
-			"spawnEnabled"		"3"
+			"spawnEnabled"		"0"
 		}
 		"461372"
 		{
@@ -1053,7 +1731,7 @@
 			"position"		"11533.200195 2665.500000 108.000000"
 			"angles"		"0.000000 90.000000 0.000000"
 			"pointNumber"		"3"
-			"spawnEnabled"		"3"
+			"spawnEnabled"		"0"
 		}
 		"461374"
 		{
@@ -1061,7 +1739,7 @@
 			"position"		"11493.599609 2793.360107 108.000000"
 			"angles"		"0.000000 90.000000 0.000000"
 			"pointNumber"		"3"
-			"spawnEnabled"		"3"
+			"spawnEnabled"		"0"
 		}
 		"461380"
 		{
@@ -1069,7 +1747,7 @@
 			"position"		"11281.799805 2555.780029 108.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"pointNumber"		"3"
-			"spawnEnabled"		"3"
+			"spawnEnabled"		"0"
 		}
 		"461382"
 		{
@@ -1077,7 +1755,7 @@
 			"position"		"7349.129883 4428.790039 80.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"pointNumber"		"4"
-			"spawnEnabled"		"4"
+			"spawnEnabled"		"0"
 		}
 		"461384"
 		{
@@ -1085,7 +1763,7 @@
 			"position"		"7254.220215 4468.140137 80.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"pointNumber"		"4"
-			"spawnEnabled"		"4"
+			"spawnEnabled"		"0"
 		}
 		"461386"
 		{
@@ -1093,7 +1771,7 @@
 			"position"		"7720.169922 4478.379883 80.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"pointNumber"		"4"
-			"spawnEnabled"		"4"
+			"spawnEnabled"		"0"
 		}
 		"461388"
 		{
@@ -1101,7 +1779,7 @@
 			"position"		"7255.950195 3280.000000 80.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"pointNumber"		"4"
-			"spawnEnabled"		"4"
+			"spawnEnabled"		"0"
 		}
 		"461390"
 		{
@@ -1109,7 +1787,7 @@
 			"position"		"7756.000000 2988.000000 80.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"pointNumber"		"4"
-			"spawnEnabled"		"4"
+			"spawnEnabled"		"0"
 		}
 		"461392"
 		{
@@ -1117,7 +1795,7 @@
 			"position"		"7862.439941 3863.219971 80.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"pointNumber"		"4"
-			"spawnEnabled"		"4"
+			"spawnEnabled"		"0"
 		}
 		"461394"
 		{
@@ -1125,7 +1803,7 @@
 			"position"		"7960.220215 3442.669922 80.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"pointNumber"		"4"
-			"spawnEnabled"		"4"
+			"spawnEnabled"		"0"
 		}
 		"461396"
 		{
@@ -1133,7 +1811,7 @@
 			"position"		"7771.330078 3353.780029 80.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"pointNumber"		"4"
-			"spawnEnabled"		"4"
+			"spawnEnabled"		"0"
 		}
 		"461398"
 		{
@@ -1141,7 +1819,7 @@
 			"position"		"7521.330078 3381.560059 80.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"pointNumber"		"4"
-			"spawnEnabled"		"4"
+			"spawnEnabled"		"0"
 		}
 		"461400"
 		{
@@ -1149,7 +1827,7 @@
 			"position"		"7488.000000 3476.000000 80.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"pointNumber"		"4"
-			"spawnEnabled"		"4"
+			"spawnEnabled"		"0"
 		}
 		"461378"
 		{
@@ -1157,7 +1835,7 @@
 			"position"		"12115.599609 2807.669922 108.000000"
 			"angles"		"0.000000 90.000000 0.000000"
 			"pointNumber"		"3"
-			"spawnEnabled"		"3"
+			"spawnEnabled"		"0"
 		}
 		"461376"
 		{
@@ -1165,7 +1843,7 @@
 			"position"		"12260.000000 2816.000000 108.000000"
 			"angles"		"0.000000 90.000000 0.000000"
 			"pointNumber"		"3"
-			"spawnEnabled"		"3"
+			"spawnEnabled"		"0"
 		}
 		"461266"
 		{
@@ -1173,7 +1851,7 @@
 			"position"		"12187.799805 2785.439941 108.000000"
 			"angles"		"0.000000 90.000000 0.000000"
 			"pointNumber"		"3"
-			"spawnEnabled"		"3"
+			"spawnEnabled"		"0"
 		}
 		"461370"
 		{
@@ -1181,7 +1859,7 @@
 			"position"		"12169.299805 2693.280029 108.000000"
 			"angles"		"0.000000 90.000000 0.000000"
 			"pointNumber"		"3"
-			"spawnEnabled"		"3"
+			"spawnEnabled"		"0"
 		}
 		"461274"
 		{
@@ -1189,7 +1867,7 @@
 			"position"		"12097.099609 2662.719971 108.000000"
 			"angles"		"0.000000 90.000000 0.000000"
 			"pointNumber"		"3"
-			"spawnEnabled"		"3"
+			"spawnEnabled"		"0"
 		}
 		"461368"
 		{
@@ -1197,7 +1875,164 @@
 			"position"		"12024.799805 2684.949951 108.000000"
 			"angles"		"0.000000 90.000000 0.000000"
 			"pointNumber"		"3"
-			"spawnEnabled"		"3"
+			"spawnEnabled"		"0"
+		}
+		"195085"
+		{
+			"className"		"prop_dynamic"
+			"position"		"4537.229980 2195.159912 56.000000"
+			"angles"		"0.000000 90.000000 0.000000"
+			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"561215"
+		{
+			"className"		"emp_nf_ammo_crate"
+			"position"		"6096.000000 7016.000000 -110.750000"
+			"angles"		"0.000000 270.000000 0.000000"
+			"pointNumber"		"0"
+			"disabled"		"0"
+			"model"		"models/NF/Props/nf_crateammo.mdl"
+		}
+		"561218"
+		{
+			"className"		"emp_imp_ammo_crate"
+			"position"		"5352.000000 6928.000000 -110.389999"
+			"angles"		"0.000000 15.000000 0.000000"
+			"pointNumber"		"0"
+			"disabled"		"0"
+			"model"		"models/Imperial/Props/imp_crateammo.mdl"
+		}
+		"561221"
+		{
+			"className"		"emp_imp_health_crate"
+			"position"		"5344.000000 6968.000000 -110.389999"
+			"angles"		"0.000000 0.000000 0.000000"
+			"pointNumber"		"0"
+			"disabled"		"0"
+			"model"		"models/Imperial/Props/imp_cratehealth.mdl"
+		}
+		"561242"
+		{
+			"className"		"emp_nf_health_crate"
+			"position"		"6032.000000 7008.000000 -110.750000"
+			"angles"		"0.000000 285.000000 0.000000"
+			"pointNumber"		"0"
+			"disabled"		"0"
+			"model"		"models/NF/Props/nf_cratehealth.mdl"
+		}
+		"587197"
+		{
+			"className"		"prop_dynamic"
+			"position"		"6648.000000 1576.000000 -264.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"model"		"models/props_c17/signpole001.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"587220"
+		{
+			"className"		"prop_dynamic"
+			"position"		"6648.000000 1577.000000 -164.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"model"		"models/props_c17/streetsign001c.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"593594"
+		{
+			"className"		"prop_dynamic"
+			"position"		"7816.000000 -1080.000000 -240.000000"
+			"angles"		"0.000000 90.000000 0.000000"
+			"model"		"models/props_lab/elevatordoor.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"7"
+		}
+		"622154"
+		{
+			"className"		"prop_dynamic"
+			"position"		"7962.000000 -1111.000000 -212.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"model"		"models/props_c17/lockers001a.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"622185"
+		{
+			"className"		"prop_dynamic"
+			"position"		"7962.000000 -1160.000000 -212.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"model"		"models/props_c17/lockers001a.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"628807"
+		{
+			"className"		"prop_dynamic"
+			"position"		"3264.000000 9296.000000 416.000000"
+			"angles"		"0.000000 285.000000 0.000000"
+			"model"		"models/props_wasteland/barricade002a.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"628850"
+		{
+			"className"		"prop_dynamic"
+			"position"		"3280.000000 9220.000000 416.000000"
+			"angles"		"0.000000 273.628998 0.000000"
+			"model"		"models/props_wasteland/barricade002a.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"647877"
+		{
+			"className"		"prop_dynamic"
+			"position"		"11994.599609 944.000000 120.000000"
+			"angles"		"0.000000 285.000000 0.000000"
+			"model"		"models/props_lab/monitor02.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"647900"
+		{
+			"className"		"prop_dynamic"
+			"position"		"12136.000000 948.000000 120.000000"
+			"angles"		"0.000000 273.177002 0.000000"
+			"model"		"models/props_lab/monitor02.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"647912"
+		{
+			"className"		"prop_dynamic"
+			"position"		"12312.000000 944.000000 120.000000"
+			"angles"		"0.000000 243.692993 0.000000"
+			"model"		"models/props_lab/monitor02.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
 		}
 		"650968"
 		{
@@ -1205,7 +2040,7 @@
 			"position"		"13384.000000 -1216.000000 96.000000"
 			"angles"		"0.000000 90.000000 0.000000"
 			"pointNumber"		"5"
-			"spawnEnabled"		"5"
+			"spawnEnabled"		"1"
 		}
 		"650970"
 		{
@@ -1213,7 +2048,7 @@
 			"position"		"13384.000000 -1280.000000 96.000000"
 			"angles"		"0.000000 90.000000 0.000000"
 			"pointNumber"		"5"
-			"spawnEnabled"		"5"
+			"spawnEnabled"		"1"
 		}
 		"650978"
 		{
@@ -1221,7 +2056,7 @@
 			"position"		"13384.000000 -1344.000000 96.000000"
 			"angles"		"0.000000 90.000000 0.000000"
 			"pointNumber"		"5"
-			"spawnEnabled"		"5"
+			"spawnEnabled"		"1"
 		}
 		"650980"
 		{
@@ -1229,7 +2064,7 @@
 			"position"		"13384.000000 -1408.000000 96.000000"
 			"angles"		"0.000000 90.000000 0.000000"
 			"pointNumber"		"5"
-			"spawnEnabled"		"5"
+			"spawnEnabled"		"1"
 		}
 		"650990"
 		{
@@ -1237,7 +2072,7 @@
 			"position"		"13312.000000 -864.000000 96.000000"
 			"angles"		"0.000000 180.000000 0.000000"
 			"pointNumber"		"5"
-			"spawnEnabled"		"5"
+			"spawnEnabled"		"1"
 		}
 		"650992"
 		{
@@ -1245,7 +2080,7 @@
 			"position"		"13376.000000 -864.000000 96.000000"
 			"angles"		"0.000000 180.000000 0.000000"
 			"pointNumber"		"5"
-			"spawnEnabled"		"5"
+			"spawnEnabled"		"1"
 		}
 		"650994"
 		{
@@ -1253,7 +2088,150 @@
 			"position"		"13440.000000 -864.000000 96.000000"
 			"angles"		"0.000000 180.000000 0.000000"
 			"pointNumber"		"5"
-			"spawnEnabled"		"5"
+			"spawnEnabled"		"1"
+		}
+		"653594"
+		{
+			"className"		"prop_dynamic"
+			"position"		"12040.000000 360.000000 116.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"model"		"models/props_c17/lockers001a.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"653629"
+		{
+			"className"		"prop_dynamic"
+			"position"		"12024.000000 360.000000 116.000000"
+			"angles"		"0.000000 180.000000 0.000000"
+			"model"		"models/props_c17/lockers001a.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"653637"
+		{
+			"className"		"prop_dynamic"
+			"position"		"12024.000000 312.000000 116.000000"
+			"angles"		"0.000000 180.000000 0.000000"
+			"model"		"models/props_c17/lockers001a.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"653641"
+		{
+			"className"		"prop_dynamic"
+			"position"		"12040.000000 312.000000 116.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"model"		"models/props_c17/lockers001a.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"653645"
+		{
+			"className"		"prop_dynamic"
+			"position"		"12200.000000 312.000000 116.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"model"		"models/props_c17/lockers001a.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"653649"
+		{
+			"className"		"prop_dynamic"
+			"position"		"12184.000000 312.000000 116.000000"
+			"angles"		"0.000000 180.000000 0.000000"
+			"model"		"models/props_c17/lockers001a.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"653653"
+		{
+			"className"		"prop_dynamic"
+			"position"		"12184.000000 360.000000 116.000000"
+			"angles"		"0.000000 180.000000 0.000000"
+			"model"		"models/props_c17/lockers001a.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"653657"
+		{
+			"className"		"prop_dynamic"
+			"position"		"12200.000000 360.000000 116.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"model"		"models/props_c17/lockers001a.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"653677"
+		{
+			"className"		"prop_dynamic"
+			"position"		"12360.000000 312.000000 116.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"model"		"models/props_c17/lockers001a.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"653681"
+		{
+			"className"		"prop_dynamic"
+			"position"		"12344.000000 312.000000 116.000000"
+			"angles"		"0.000000 180.000000 0.000000"
+			"model"		"models/props_c17/lockers001a.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"653685"
+		{
+			"className"		"prop_dynamic"
+			"position"		"12344.000000 360.000000 116.000000"
+			"angles"		"0.000000 180.000000 0.000000"
+			"model"		"models/props_c17/lockers001a.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"653689"
+		{
+			"className"		"prop_dynamic"
+			"position"		"12360.000000 360.000000 116.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"model"		"models/props_c17/lockers001a.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
+		}
+		"661147"
+		{
+			"className"		"prop_dynamic"
+			"position"		"5856.000000 5704.000000 -208.000000"
+			"angles"		"0.000000 330.000000 0.000000"
+			"model"		"models/props_c17/chair02a.mdl"
+			"StartDisabled"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"SolidFlags"		"0"
 		}
 		"675979"
 		{
@@ -1261,7 +2239,7 @@
 			"position"		"2975.000000 11258.299805 76.000000"
 			"angles"		"0.000000 270.000000 0.000000"
 			"pointNumber"		"2"
-			"spawnEnabled"		"2"
+			"spawnEnabled"		"0"
 		}
 		"675981"
 		{
@@ -1269,7 +2247,7 @@
 			"position"		"2967.899902 11154.000000 76.000000"
 			"angles"		"0.000000 270.000000 0.000000"
 			"pointNumber"		"2"
-			"spawnEnabled"		"2"
+			"spawnEnabled"		"0"
 		}
 		"675992"
 		{
@@ -1277,7 +2255,7 @@
 			"position"		"3194.899902 11139.700195 76.000000"
 			"angles"		"0.000000 270.000000 0.000000"
 			"pointNumber"		"2"
-			"spawnEnabled"		"2"
+			"spawnEnabled"		"0"
 		}
 		"675994"
 		{
@@ -1285,7 +2263,7 @@
 			"position"		"3202.000000 11244.000000 76.000000"
 			"angles"		"0.000000 270.000000 0.000000"
 			"pointNumber"		"2"
-			"spawnEnabled"		"2"
+			"spawnEnabled"		"0"
 		}
 		"676000"
 		{
@@ -1293,7 +2271,7 @@
 			"position"		"3016.000000 11180.000000 76.000000"
 			"angles"		"0.000000 270.000000 0.000000"
 			"pointNumber"		"2"
-			"spawnEnabled"		"2"
+			"spawnEnabled"		"0"
 		}
 		"676002"
 		{
@@ -1301,7 +2279,7 @@
 			"position"		"3023.100098 11284.299805 76.000000"
 			"angles"		"0.000000 270.000000 0.000000"
 			"pointNumber"		"2"
-			"spawnEnabled"		"2"
+			"spawnEnabled"		"0"
 		}
 		"676057"
 		{
@@ -1309,7 +2287,7 @@
 			"position"		"4049.290039 6115.799805 104.000000"
 			"angles"		"0.000000 180.000000 0.000000"
 			"pointNumber"		"1"
-			"spawnEnabled"		"1"
+			"spawnEnabled"		"0"
 		}
 		"676059"
 		{
@@ -1317,7 +2295,7 @@
 			"position"		"4047.360107 6029.000000 104.000000"
 			"angles"		"0.000000 180.000000 0.000000"
 			"pointNumber"		"1"
-			"spawnEnabled"		"1"
+			"spawnEnabled"		"0"
 		}
 		"676061"
 		{
@@ -1325,7 +2303,7 @@
 			"position"		"4057.000000 6194.890137 104.000000"
 			"angles"		"0.000000 180.000000 0.000000"
 			"pointNumber"		"1"
-			"spawnEnabled"		"1"
+			"spawnEnabled"		"0"
 		}
 		"676117"
 		{
@@ -1333,7 +2311,7 @@
 			"position"		"4532.810059 5375.000000 120.000000"
 			"angles"		"0.000000 180.000000 0.000000"
 			"pointNumber"		"3"
-			"spawnEnabled"		"3"
+			"spawnEnabled"		"0"
 		}
 		"676119"
 		{
@@ -1341,7 +2319,7 @@
 			"position"		"4584.000000 5448.930176 120.000000"
 			"angles"		"0.000000 180.000000 0.000000"
 			"pointNumber"		"3"
-			"spawnEnabled"		"3"
+			"spawnEnabled"		"0"
 		}
 		"676125"
 		{
@@ -1349,7 +2327,7 @@
 			"position"		"4630.000000 5372.000000 120.000000"
 			"angles"		"0.000000 180.000000 0.000000"
 			"pointNumber"		"3"
-			"spawnEnabled"		"3"
+			"spawnEnabled"		"0"
 		}
 		"676127"
 		{
@@ -1357,7 +2335,7 @@
 			"position"		"4681.189941 5445.930176 120.000000"
 			"angles"		"0.000000 180.000000 0.000000"
 			"pointNumber"		"3"
-			"spawnEnabled"		"3"
+			"spawnEnabled"		"0"
 		}
 		"676155"
 		{
@@ -1365,7 +2343,7 @@
 			"position"		"4374.000000 6052.000000 104.000000"
 			"angles"		"0.000000 180.000000 0.000000"
 			"pointNumber"		"1"
-			"spawnEnabled"		"1"
+			"spawnEnabled"		"0"
 		}
 		"676157"
 		{
@@ -1373,7 +2351,7 @@
 			"position"		"4372.649902 6111.899902 104.000000"
 			"angles"		"0.000000 180.000000 0.000000"
 			"pointNumber"		"1"
-			"spawnEnabled"		"1"
+			"spawnEnabled"		"0"
 		}
 		"676163"
 		{
@@ -1381,7 +2359,7 @@
 			"position"		"4537.350098 6059.000000 104.000000"
 			"angles"		"0.000000 180.000000 0.000000"
 			"pointNumber"		"1"
-			"spawnEnabled"		"1"
+			"spawnEnabled"		"0"
 		}
 		"676165"
 		{
@@ -1389,7 +2367,7 @@
 			"position"		"4536.000000 6118.899902 104.000000"
 			"angles"		"0.000000 180.000000 0.000000"
 			"pointNumber"		"1"
-			"spawnEnabled"		"1"
+			"spawnEnabled"		"0"
 		}
 		"676171"
 		{
@@ -1397,7 +2375,7 @@
 			"position"		"4624.000000 6055.000000 104.000000"
 			"angles"		"0.000000 180.000000 0.000000"
 			"pointNumber"		"1"
-			"spawnEnabled"		"1"
+			"spawnEnabled"		"0"
 		}
 		"676173"
 		{
@@ -1405,7 +2383,7 @@
 			"position"		"4622.649902 6114.899902 104.000000"
 			"angles"		"0.000000 180.000000 0.000000"
 			"pointNumber"		"1"
-			"spawnEnabled"		"1"
+			"spawnEnabled"		"0"
 		}
 		"676189"
 		{
@@ -1413,7 +2391,7 @@
 			"position"		"4426.000000 5442.000000 120.000000"
 			"angles"		"0.000000 180.000000 0.000000"
 			"pointNumber"		"3"
-			"spawnEnabled"		"3"
+			"spawnEnabled"		"0"
 		}
 		"676193"
 		{
@@ -1421,7 +2399,7 @@
 			"position"		"4580.000000 5399.000000 120.000000"
 			"angles"		"0.000000 180.000000 0.000000"
 			"pointNumber"		"3"
-			"spawnEnabled"		"3"
+			"spawnEnabled"		"0"
 		}
 		"676197"
 		{
@@ -1429,7 +2407,7 @@
 			"position"		"4637.000000 5422.000000 120.000000"
 			"angles"		"0.000000 180.000000 0.000000"
 			"pointNumber"		"3"
-			"spawnEnabled"		"3"
+			"spawnEnabled"		"0"
 		}
 		"676201"
 		{
@@ -1437,7 +2415,7 @@
 			"position"		"4705.000000 5382.000000 120.000000"
 			"angles"		"0.000000 180.000000 0.000000"
 			"pointNumber"		"3"
-			"spawnEnabled"		"3"
+			"spawnEnabled"		"0"
 		}
 		"676205"
 		{
@@ -1445,7 +2423,16 @@
 			"position"		"4486.000000 5408.000000 120.000000"
 			"angles"		"0.000000 180.000000 0.000000"
 			"pointNumber"		"3"
-			"spawnEnabled"		"3"
+			"spawnEnabled"		"0"
+		}
+		"680745"
+		{
+			"className"		"emp_imp_ammo_crate"
+			"position"		"13032.000000 -1045.839966 96.000000"
+			"angles"		"0.000000 45.000000 0.000000"
+			"pointNumber"		"0"
+			"disabled"		"0"
+			"model"		"models/Imperial/Props/imp_crateammo.mdl"
 		}
 		"687577"
 		{
@@ -1728,9 +2715,73 @@
 			"reinfToTakeImp"		"0.000000"
 			"canNFCap"		"0"
 			"canImpCap"		"0"
-			"linearMap"		"1"
 			"Mins"		"-1143.000000 -631.000000 -249.000000"
 			"Maxs"		"1143.000000 631.000000 249.000000"
 		}
+		"775728"
+		{
+			"className"		"npc_maker"
+			"position"		"-799.158997 9797.769531 109.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"NPCType"		"npc_human_nf"
+			"MaxNPCCount"		"99998"
+			"MaxLiveChildren"		"3"
+			"SpawnFrequency"		"10.000000"
+			"StartDisabled"		"0"
+		}
+		"775730"
+		{
+			"className"		"npc_maker"
+			"position"		"-860.044006 9852.000000 109.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"NPCType"		"npc_human_nf"
+			"MaxNPCCount"		"99998"
+			"MaxLiveChildren"		"3"
+			"SpawnFrequency"		"10.000000"
+			"StartDisabled"		"0"
+		}
+		"775768"
+		{
+			"className"		"npc_maker"
+			"position"		"12594.099609 -3136.229980 124.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"NPCType"		"npc_human_be"
+			"MaxNPCCount"		"99998"
+			"MaxLiveChildren"		"3"
+			"SpawnFrequency"		"10.000000"
+			"StartDisabled"		"0"
+		}
+		"775770"
+		{
+			"className"		"npc_maker"
+			"position"		"12533.200195 -3082.000000 124.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"NPCType"		"npc_human_be"
+			"MaxNPCCount"		"99998"
+			"MaxLiveChildren"		"3"
+			"SpawnFrequency"		"10.000000"
+			"StartDisabled"		"0"
+		}
+		"197327"
+		{
+			"className"		"emp_building_nf_vehiclefactory"
+			"position"		"-864.000000 10852.000000 84.000000"
+			"angles"		"-0.000000 -30.000011 0.000000"
+			"built"		"1"
+			"health"		"250"
+			"team"		"2"
+		}
+		"181657"
+		{
+			"className"		"emp_building_imp_vehiclefactory"
+			"position"		"13404.000000 -2616.000000 68.000000"
+			"angles"		"-0.000000 120.000008 0.000000"
+			"built"		"1"
+			"health"		"250"
+			"team"		"3"
+		}
 	}
+	"Author"		"Hardcore Empires"
+	"BaseSwap"		"0"
+	"version"		"0.380000"
 }
