@@ -5,7 +5,7 @@
 		"alt1"
 		{
 			"min_players"		"0"
-			"max_players"		"64"
+			"max_players"		"30"
 			"name_override"		"(EASY) alt1"
 			"description_override"		"-"
 		}
@@ -16,5 +16,13 @@
 			"name_override"		"(NORMAL) alt2"
 			"description_override"		"-"
 		}
+		"alt3"
+		{
+			"min_players"		"0"
+			"max_players"		"64"
+			"name_override"		"(HARD) War for the North"
+			"description_override"		"-"
+		}
 	}
+	"enabled"		"1"
 }
