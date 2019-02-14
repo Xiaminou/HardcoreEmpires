@@ -1689,7 +1689,7 @@ Vehicle_Weapons
 		"Type"			"4"		//0=machine gun, 1=tank cannon, 2=artillery cannon, 3=missile launcher, 4=grenade launcher, 5=aircraft bomb bay (default: 0)
 		"Size"			"1"		//number of slots required when selecting weapons (default: 1)
 		"Cost"			"30"
-		"Weight"		"34"		//weight in terms of effects on engine and weight restrictions for chassis (default: 10)
+		"Weight"		"30"		//weight in terms of effects on engine and weight restrictions for chassis (default: 10)
 
 		//sounds
 		"Sound Firing"		"Vehicle_GL.Fire"
@@ -1738,7 +1738,7 @@ Vehicle_Weapons
 		"Type"			"4"		//0=machine gun, 1=tank cannon, 2=artillery cannon, 3=missile launcher, 4=grenade launcher, 5=aircraft bomb bay (default: 0)
 		"Size"			"2"		//number of slots required when selecting weapons (default: 1)
 		"Cost"			"60"
-		"Weight"		"44"		//weight in terms of effects on engine and weight restrictions for chassis (default: 10)
+		"Weight"		"40"		//weight in terms of effects on engine and weight restrictions for chassis (default: 10)
 		
 		//sounds
 		"Sound Firing"		"Vehicle_GL.Fire"
