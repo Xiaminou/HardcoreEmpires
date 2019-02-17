@@ -139,6 +139,9 @@ WeaponData
 
 //End Weapon Spread
 
+	"ViewMuzzleFlash"		"v_be_rifle_muzzle"
+	"WorldMuzzleFlash"	"w_be_muzzle_big"
+
 	//Iron Sight Image
 	//"Iron Sight Material"		"Imperial/Weapons/iron_sights/scope"
 

@@ -135,6 +135,8 @@ WeaponData
 	"ProneKick_Y_NoSpread_Min"	"0"
 //End Weapon Spread
 
+	"ViewMuzzleFlash"		"v_nf_rifle_muzzle"
+	"WorldMuzzleFlash"	"w_nf_muzzle_big"
 
 	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
 	SoundData

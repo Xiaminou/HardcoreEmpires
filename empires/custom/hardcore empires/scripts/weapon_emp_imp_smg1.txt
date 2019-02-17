@@ -123,6 +123,8 @@ WeaponData
 
 //End Weapon Spread
 
+	"ViewMuzzleFlash"		"v_be_smg_muzzle"
+	"WorldMuzzleFlash"	"w_be_muzzle_small"
 
 	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
 	SoundData
