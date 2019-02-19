@@ -11,9 +11,9 @@ Vehicle_armor
 		"Research"	""
 
 		//Stats
-		"Cost"				"5"	//cost of a plate in resources
+		"Cost"				"6"	//cost of a plate in resources
 		"Weight"			"15"	//weight of a plate
-		"Health"			"40"	//health per plate
+		"Health"			"50"	//health per plate
 		"Regeneration"			"0"	//plates regenerated per second.
 		"Angle Modifier"		"0.10"	//damage reduction based on angle of impact
 		"Speed To Damage Modifier"	"0"	//increased damage based on speed of projectile
