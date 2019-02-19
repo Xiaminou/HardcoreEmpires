@@ -32,7 +32,7 @@ Vehicle_Engines
 		"Shift Down RPM"		"800"
 		"Horsepower"			"700"
 		"Horsepower Weight Penalty"	"0.0"	//amount of max throttle reduction as vehicle weight exceeds Max Weight
-		"Horsepower Health Modifier"	"0.25"	//amount of max throttle reduction as health is destroyed
+		"Horsepower Health Modifier"	"0.40"	//amount of max throttle reduction as health is destroyed
 		"Horsepower Armor Modifier"	"0.0"	//amount of max throttle reduction as armor is destroyed
 		"Heat Output At Max"		"3"	//how much heat is output when the vehicle is at full throttle
 		"Heat Output At Idle"		"1"	//how much heat is output when a player is in the driver seat
