@@ -115,6 +115,8 @@ Vehicle_Weapons
 		//explosion effects
 		"Explosion Speed"	"3"	//how long the explosion sprite lives (15 is default)
 		"Explosion Sprite"	"1"	//explosion sprite to use for explosion, 0 = default, 1 = green (bio), 2 = blue (plasma)
+		"Explosion Radius"	"20"		//radius of damage sphere to hurt surrounding entities (default: 0)
+		"Explosion Force"	"10"		//force of explosion (default: 0)
 		
 		//effects
 		"Tracer Type"		"tracer_bio" //Tracer effect, tracer names are logical, a list: tracer_du, tracer_bio, tracer_he, tracer_rifle, tracer_smg, tracer_vehiclemg, tracer_cg, tracer_plasma (requires "type" 0)
@@ -226,14 +228,14 @@ Vehicle_Weapons
 		"Damage"		"5"		//damage done by projectile (default: 50)
 		"Heat"			"0.4"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status) (default: 0.1)
 		"Weight"		"40"		//weight in terms of effects on engine and weight restrictions for chassis (default: 10)
-		"Cycle Time"		"0.1"		//time between shots (default 0.1)
+		"Cycle Time"		"0.121"		//time between shots (default 0.1)
 		"Clip Size"		"80"		//ammo loaded per reloads (default: 10)
 		"Total Ammo Clips"	"6"		//max ammo clips carried (0 is the same as not using clips) (default: 1)
 		"Reload Time"		"2.0"		//time to load one clip, if total ammo clips is '0', time to reload one unit of ammo (as one unit of ammo is reloaded per time and not a full clip) (default: 20)
 		"Projectile Spread"	"0.015"		//spread (default: 0.001)
 		"Heat to Target"	"0"		//heat added to target on hit (default: 0.1)
-		"Explosion Radius"	"50"		//radius of damage sphere to hurt surrounding entities (default: 0)
-		"Explosion Force"	"30"		//force of explosion (default: 0)
+		"Explosion Radius"	"10"		//radius of damage sphere to hurt surrounding entities (default: 0)
+		"Explosion Force"	"10"		//force of explosion (default: 0)
 
 		//ammunition
 		"Unlimited Ammo"	"0"		//Unlimited Ammunition (default: 1)
@@ -265,17 +267,17 @@ Vehicle_Weapons
 
 		"Damage Type"		"APBullet"
 		"Ammo Type"		"1"		//for mguns only, 0 = nonarmor penetrating (no effect on armored vehicles), 1 = armor penetrating (hurts armored vehicles)
-		"Damage"		"8"		//damage done by projectile (default: 50)
-		"Heat"			"0.5"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status) (default: 0.1)
+		"Damage"		"7"		//damage done by projectile (default: 50)
+		"Heat"			"0.7"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status) (default: 0.1)
 		"Weight"		"60"		//weight in terms of effects on engine and weight restrictions for chassis (default: 10)
-		"Cycle Time"		"0.1"		//time between shots (default 0.1)
+		"Cycle Time"		"0.121"		//time between shots (default 0.1)
 		"Clip Size"		"120"		//ammo loaded per reloads (default: 10)
 		"Total Ammo Clips"	"6"		//max ammo clips carried (0 is the same as not using clips) (default: 1)
 		"Reload Time"		"3.0"		//time to load one clip, if total ammo clips is '0', time to reload one unit of ammo (as one unit of ammo is reloaded per time and not a full clip) (default: 20)
 		"Projectile Spread"	"0.014"		//spread (default: 0.001)
 		"Heat to Target"	"0"		//heat added to target on hit (default: 0.1)
-		"Explosion Radius"	"50"		//radius of damage sphere to hurt surrounding entities (default: 0)
-		"Explosion Force"	"30"		//force of explosion (default: 0)
+		"Explosion Radius"	"10"		//radius of damage sphere to hurt surrounding entities (default: 0)
+		"Explosion Force"	"10"		//force of explosion (default: 0)
 
 		//ammunition
 		"Unlimited Ammo"	"0"		//Unlimited Ammunition (default: 1)
@@ -287,7 +289,7 @@ Vehicle_Weapons
 		//falloff (requires "type" 0)
 		"FalloffStart"		"5000"		//Distance that we start reducing damage - Default 5000
 		"FalloffEnd"		"10000"		//Distance that we start dealing MinimalDamage value - (Max bullet distance 10000 units) - Default 10000
-		"MinimalDamage"		"7"		
+		"MinimalDamage"		"6"		
 	}
 	"Chain Gun"
 	{
@@ -387,8 +389,8 @@ Vehicle_Weapons
 
 		"Damage Type"		"GeneralPhysics"
 		"Ammo Type"		"1"		//for mguns only, 0 = nonarmor penetrating (no effect on armored vehicles), 1 = armor penetrating (hurts armored vehicles)
-		"Damage"		"5"		//damage done by projectile (default: 50)
-		"Heat"			"1"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status) (default: 0.1)
+		"Damage"		"10"		//damage done by projectile (default: 50)
+		"Heat"			"1.8"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status) (default: 0.1)
 		"Weight"		"40"		//weight in terms of effects on engine and weight restrictions for chassis (default: 10)
 		"Cycle Time"		"0.35"		//time between shots (default 0.1)
 		"Clip Size"		"30"		//ammo loaded per reloads (default: 10)
@@ -396,8 +398,8 @@ Vehicle_Weapons
 		"Reload Time"		"4.0"		//time to load one clip, if total ammo clips is '0', time to reload one unit of ammo (as one unit of ammo is reloaded per time and not a full clip) (default: 20)
 		"Projectile Spread"	"0.015"		//spread (default: 0.001)
 		"Heat to Target"	"2"		//heat added to target on hit (default: 0.1)
-		"Explosion Radius"	"10"		//radius of damage sphere to hurt surrounding entities (default: 0)
-		"Explosion Force"	"10"		//force of explosion (default: 0)
+		"Explosion Radius"	"50"		//radius of damage sphere to hurt surrounding entities (default: 0)
+		"Explosion Force"	"30"		//force of explosion (default: 0)
 
 		//ammunition
 		"Unlimited Ammo"	"0"		//Unlimited Ammunition (default: 1)
@@ -413,7 +415,7 @@ Vehicle_Weapons
 		//falloff (requires "type" 0)
 		"FalloffStart"			"5000" 		//Distance that we start reducing damage - Default 5000
 		"FalloffEnd"			"10000"		//Distance that we start dealing MinimalDamage value - (Max bullet distance 10000 units) - Default 10000
-		"MinimalDamage"			"4"
+		"MinimalDamage"			"8"
 	}
 	"High Energy Plasma MG"
 	{
@@ -433,17 +435,17 @@ Vehicle_Weapons
 
 		"Damage Type"		"GeneralPhysics"
 		"Ammo Type"		"1"		//for mguns only, 0 = nonarmor penetrating (no effect on armored vehicles), 1 = armor penetrating (hurts armored vehicles)
-		"Damage"		"6"		//damage done by projectile (default: 50)
-		"Heat"			"1.4"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status) (default: 0.1)
+		"Damage"		"12"		//damage done by projectile (default: 50)
+		"Heat"			"2"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status) (default: 0.1)
 		"Weight"		"55"		//weight in terms of effects on engine and weight restrictions for chassis (default: 10)
 		"Cycle Time"		"0.28"		//time between shots (default 0.1)
 		"Clip Size"		"30"		//ammo loaded per reloads (default: 10)
 		"Total Ammo Clips"	"7"		//max ammo clips carried (0 is the same as not using clips) (default: 1)
 		"Reload Time"		"3.5"		//time to load one clip, if total ammo clips is '0', time to reload one unit of ammo (as one unit of ammo is reloaded per time and not a full clip) (default: 20)
 		"Projectile Spread"	"0.013"		//spread (default: 0.001)
-		"Heat to Target"	"2.3"		//heat added to target on hit (default: 0.1)
-		"Explosion Radius"	"10"		//radius of damage sphere to hurt surrounding entities (default: 0)
-		"Explosion Force"	"10"		//force of explosion (default: 0)
+		"Heat to Target"	"3"		//heat added to target on hit (default: 0.1)
+		"Explosion Radius"	"50"		//radius of damage sphere to hurt surrounding entities (default: 0)
+		"Explosion Force"	"30"		//force of explosion (default: 0)
 
 		//ammunition
 		"Unlimited Ammo"	"0"		//Unlimited Ammunition (default: 1)
@@ -459,7 +461,7 @@ Vehicle_Weapons
 		//falloff (requires "type" 0)
 		"FalloffStart"			"5000" 		//Distance that we start reducing damage - Default 5000
 		"FalloffEnd"			"10000"		//Distance that we start dealing MinimalDamage value - (Max bullet distance 10000 units) - Default 10000
-		"MinimalDamage"			"5"
+		"MinimalDamage"			"10"
 	}
 	"HE MG"
 	{
@@ -478,7 +480,7 @@ Vehicle_Weapons
 		"Sound Reloading"	"Vehicle_Weapon.Reload"
 
 		"Damage Type"		"BulletExplosive"
-		"Damage"		"10"
+		"Damage"		"8"
 		"Ammo Type"		"2"		//for mguns only, 0 = nonarmor penetrating (no effect on armored vehicles), 1 = armor penetrating (hurts armored vehicles)
 		"Heat"			"1.5"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status) (default: 0.1)
 		"Weight"		"40"		//weight in terms of effects on engine and weight restrictions for chassis (default: 10)
@@ -501,7 +503,7 @@ Vehicle_Weapons
 		//falloff (requires "type" 0)
 		"FalloffStart"			"5000" 		//Distance that we start reducing damage - Default 5000
 		"FalloffEnd"			"10000"		//Distance that we start dealing MinimalDamage value - (Max bullet distance 10000 units) - Default 10000
-		"MinimalDamage"			"9"
+		"MinimalDamage"			"7"
 	}
 	"HE HMG"
 	{
@@ -521,7 +523,7 @@ Vehicle_Weapons
 
 		"Damage Type"		"BulletExplosive"
 		"Ammo Type"		"2"		//for mguns only, 0 = nonarmor penetrating (no effect on armored vehicles), 1 = armor penetrating (hurts armored vehicles)
-		"Damage"		"13"		//damage done by projectile (default: 50)
+		"Damage"		"11"		//damage done by projectile (default: 50)
 		"Heat"			"2.5"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status) (default: 0.1)
 		"Weight"		"55"		//weight in terms of effects on engine and weight restrictions for chassis (default: 10)
 		"Cycle Time"		"0.4"		//time between shots (default 0.1)
@@ -543,7 +545,7 @@ Vehicle_Weapons
 		//falloff (requires "type" 0)
 		"FalloffStart"			"5000" 		//Distance that we start reducing damage - Default 5000
 		"FalloffEnd"			"10000"		//Distance that we start dealing MinimalDamage value - (Max bullet distance 10000 units) - Default 10000
-		"MinimalDamage"			"11"
+		"MinimalDamage"			"10"
 	}
 	//CANNONS
 	"Standard Cannon"
