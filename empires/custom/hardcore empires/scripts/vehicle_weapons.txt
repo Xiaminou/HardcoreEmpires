@@ -115,8 +115,6 @@ Vehicle_Weapons
 		//explosion effects
 		"Explosion Speed"	"3"	//how long the explosion sprite lives (15 is default)
 		"Explosion Sprite"	"1"	//explosion sprite to use for explosion, 0 = default, 1 = green (bio), 2 = blue (plasma)
-		"Explosion Radius"	"20"		//radius of damage sphere to hurt surrounding entities (default: 0)
-		"Explosion Force"	"10"		//force of explosion (default: 0)
 		
 		//effects
 		"Tracer Type"		"tracer_bio" //Tracer effect, tracer names are logical, a list: tracer_du, tracer_bio, tracer_he, tracer_rifle, tracer_smg, tracer_vehiclemg, tracer_cg, tracer_plasma (requires "type" 0)
@@ -234,8 +232,6 @@ Vehicle_Weapons
 		"Reload Time"		"2.0"		//time to load one clip, if total ammo clips is '0', time to reload one unit of ammo (as one unit of ammo is reloaded per time and not a full clip) (default: 20)
 		"Projectile Spread"	"0.015"		//spread (default: 0.001)
 		"Heat to Target"	"0"		//heat added to target on hit (default: 0.1)
-		"Explosion Radius"	"10"		//radius of damage sphere to hurt surrounding entities (default: 0)
-		"Explosion Force"	"10"		//force of explosion (default: 0)
 
 		//ammunition
 		"Unlimited Ammo"	"0"		//Unlimited Ammunition (default: 1)
@@ -276,8 +272,6 @@ Vehicle_Weapons
 		"Reload Time"		"3.0"		//time to load one clip, if total ammo clips is '0', time to reload one unit of ammo (as one unit of ammo is reloaded per time and not a full clip) (default: 20)
 		"Projectile Spread"	"0.014"		//spread (default: 0.001)
 		"Heat to Target"	"0"		//heat added to target on hit (default: 0.1)
-		"Explosion Radius"	"10"		//radius of damage sphere to hurt surrounding entities (default: 0)
-		"Explosion Force"	"10"		//force of explosion (default: 0)
 
 		//ammunition
 		"Unlimited Ammo"	"0"		//Unlimited Ammunition (default: 1)
@@ -398,8 +392,6 @@ Vehicle_Weapons
 		"Reload Time"		"4.0"		//time to load one clip, if total ammo clips is '0', time to reload one unit of ammo (as one unit of ammo is reloaded per time and not a full clip) (default: 20)
 		"Projectile Spread"	"0.015"		//spread (default: 0.001)
 		"Heat to Target"	"2"		//heat added to target on hit (default: 0.1)
-		"Explosion Radius"	"50"		//radius of damage sphere to hurt surrounding entities (default: 0)
-		"Explosion Force"	"30"		//force of explosion (default: 0)
 
 		//ammunition
 		"Unlimited Ammo"	"0"		//Unlimited Ammunition (default: 1)
@@ -444,8 +436,6 @@ Vehicle_Weapons
 		"Reload Time"		"3.5"		//time to load one clip, if total ammo clips is '0', time to reload one unit of ammo (as one unit of ammo is reloaded per time and not a full clip) (default: 20)
 		"Projectile Spread"	"0.013"		//spread (default: 0.001)
 		"Heat to Target"	"3"		//heat added to target on hit (default: 0.1)
-		"Explosion Radius"	"50"		//radius of damage sphere to hurt surrounding entities (default: 0)
-		"Explosion Force"	"30"		//force of explosion (default: 0)
 
 		//ammunition
 		"Unlimited Ammo"	"0"		//Unlimited Ammunition (default: 1)
