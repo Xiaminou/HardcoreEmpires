@@ -1,4 +1,4 @@
-This repository contains the plugins, scripts and configurations of Mr. X.'s Hardcore Empires server.
+This repository contains the plugins, scripts and configurations of Xiam's Hardcore Empires server.
 
 Installation:
 
