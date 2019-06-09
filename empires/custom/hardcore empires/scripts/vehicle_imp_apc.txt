@@ -38,9 +38,9 @@
 		"Type"			"9"		//which vehicle type this is 0=jeep, 1=apc, 2=tank, 3=artillery, 4=anti-air
 		"Max Weight"		"819"
 		"Base Weight"		"614"
-		"Cost"			"80"		//cost of just the chassis in resources
+		"Cost"			"240"		//cost of just the chassis in resources
 		
-		"Recycling Max CarcassHealth" "80"
+		"Recycling Max CarcassHealth"	"80"
 		"Friendly Recycling Percentage"	"0.5"	//The percentage of the cost of a friendly vehicle that is reimbursed when recycling a dead vehicle carcass.
 		"Enemy Recycling Percentage"	"0.5"	//The percentage of the cost of an enemy vehicle that is reimbursed when recycling a dead vehicle carcass.
 
