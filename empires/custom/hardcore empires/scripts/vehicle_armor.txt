@@ -1,5 +1,6 @@
 Vehicle_armor
 {
+	//VEHICLE
 	"Plain Armor"
 	{
 		"Name"		"#emp_vehicle_armor_Plain_Armor_name"		//name given when selecting weapons
@@ -226,7 +227,7 @@ Vehicle_armor
 		"Angle Modifier"		"0.20"
 		"Speed To Damage Modifier"	"0"
 		"Damage Modifier"		"1"
-		"Damage To Heat Absorbed"	"0.03"
+		"Damage To Heat Absorbed"	"0.05"
 		"Bioweapon Damage Modifier"	"1"
 
 		//Sounds
@@ -291,7 +292,7 @@ Vehicle_armor
 		"Health"			"160"
 		"Regeneration"			"0.0"
 		"Angle Modifier"		"0.08"
-		"Speed To Damage Modifier"	"0.0001"
+		"Speed To Damage Modifier"	"0.00002"
 		"Damage Modifier"		"1"
 		"Damage To Heat Absorbed"	"0.02"
 		"Bioweapon Damage Modifier"	"1.2"
