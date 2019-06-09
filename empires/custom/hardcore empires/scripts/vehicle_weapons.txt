@@ -21,49 +21,51 @@ Vehicle_Weapons
 		//damage
 		"Damage Type"		"Bullet"	//Which damage type this weapon falls under, armor, structures and infantry dictate the resistance against the chosen damage type (default: "Undefined")
 		"Ammo Type"		"0"		//for mguns only, 0 = nonarmor penetrating (no effect on armored vehicles), 1 = armor penetrating (hurts armored vehicles), 2 = explosive (hurts vehicles and has a radius damage around it based on 'explosion radius'" (default: 0)
-		"Damage"		"17"		//damage done by projectile (default: 50)
-		"Cycle Time"		"0.1"		//time between shots (default 0.1)
-		"Projectile Spread"	"0.015"		//spread (default: 0.001)
-		"Heat"			"1"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status) (default: 0.1)
-		"Heat to Target"	"0"		//heat added to target on hit (default: 0.1)
+		"Damage"		"17"		//[INT] damage done by projectile (default: 50)
+		"Cycle Time"		"0.1"		//[FLOAT] time between shots (default 0.1)
+		"Projectile Spread"	"0.015"		//[FLOAT] spread (default: 0.001)
+		"Heat"			"1"		//[FLOAT] heat added per shot fired (100 total heat added to vehicle puts it in an overheated status) (default: 0.1)
+		"Heat to Target"	"0"		//[FLOAT] heat added to target on hit (default: 0.1)
 		
 		//ammunition
-		"Unlimited Ammo"	"0"		//Unlimited Ammunition (default: 1)
-		"Clip Size"		"60"		//ammo loaded per reloads (default: 10)
-		"Total Ammo Clips"	"4"		//max ammo clips carried (0 is the same as not using clips) (default: 1)
-		"Reload Time"		"3.5"		//time to load one clip, if total ammo clips is '0', time to reload one unit of ammo (as one unit of ammo is reloaded per time and not a full clip) (default: 20)
+		"Unlimited Ammo"	"0"		//[BOOLEAN] Unlimited Ammunition (default: 1)
+		"Clip Size"		"60"		//[INT] ammo loaded per reloads (default: 10)
+		"Total Ammo Clips"	"4"		//[INT] max ammo clips carried (0 is the same as not using clips) (default: 1)
+		"Reload Time"		"3.5"		//[FLOAT] time to load one clip, if total ammo clips is '0', time to reload one unit of ammo (as one unit of ammo is reloaded per time and not a full clip) (default: 20)
 		
 		//area of effect
-		"Explosion Radius"	"0"		//radius of damage sphere to hurt surrounding entities (default: 0)
-		"Explosion Force"	"0"		//force of explosion (default: 0)
+		"Explosion Radius"	"0"		//[INT] radius of damage sphere to hurt surrounding entities, for machine guns requires BulletExplosive damage type. (default: 0)
+		"Explosion Force"	"0"		//[INT] force of explosion, for machine guns requires BulletExplosive damage type. (default: 0)
+		
 		
 		//projectile physics (requires "type" 1, 2, 3 or 4)
-		"Speed"			"1000"		//speed of projectile (requires "type" 1, 2, 3 or 4)(default: 100)
-		"Gravity"		"0"		//effects of gravity on the projectile, only for projectiles (requires "type" 1, 2 or 4)(default: 1.0)
+		"Speed"			"1000"		//[INT] speed of projectile (requires "type" 1, 2, 3 or 4)(default: 100)
+		"Gravity"		"0"		//[FLOAT] effects of gravity on the projectile, only for projectiles (requires "type" 1, 2 or 4)(default: 1.0)
+		
 
 		//missile launchers (requires "type" 3)
-		"Dumb Missile"			"0"	//'1' if missile flies straight ahead
-		"Homing Missile"		"0"	//'1' if missile flies towards locked on target
-		"Guided Missile"		"0"	//'1' if missile follows crosshairs after launch
-		"Missile Range"			"0"	//max range in HL2 units (1 inch = 1) that the player can lock onto a target with a homing missile, or range from vehicle being fired from when a guided missile stops following the player's crosshairs
-		"Lock On Time"			"0"	//time it takes for a homing missile to lock onto the target under the player crosshairs
-		"Lock Range Modifier"		"0"	//modifies lock on time based on range (as range increases, lock on time increases based on the modifier: modifier * range to target + lock on time = total lock on time)
-		"Countermeasure Effectiveness"	"0.9"	//a percentage (1 = 100%) which determines how likely the missile will lock onto a flare or chaff rather than the actual target when flares or chaff is inbetween it and its target. When a flare or chaff is detected in front of the missile, a number between 0.000 and 1.000 is generated.  If the number is less than the effectiveness number, the missile will target the flare/chaff.
-		"Turning Ability"		"0.2"	//determines how effective the missile can turn to home in on its target or guide itself to the crosshair for a guided missile; 1.0 means the missile can turn instantly towards its target, 0.0 and the missile doesn't turn at all
+		"Dumb Missile"			"0"	//[BOOLEAN] '1' if missile flies straight ahead
+		"Homing Missile"		"0"	//[BOOLEAN] '1' if missile flies towards locked on target
+		"Guided Missile"		"0"	//[BOOLEAN] '1' if missile follows crosshairs after launch
+		"Missile Range"			"0"	//[INT] max range in HL2 units (1 inch = 1) that the player can lock onto a target with a homing missile, or range from vehicle being fired from when a guided missile stops following the player's crosshairs
+		"Lock On Time"			"0"	//[FLOAT] time it takes for a homing missile to lock onto the target under the player crosshairs
+		"Lock Range Modifier"		"0"	//[FLOAT] modifies lock on time based on range (as range increases, lock on time increases based on the modifier: modifier * range to target + lock on time = total lock on time)
+		"Countermeasure Effectiveness"	"0.9"	//[FLOAT] a percentage (1 = 100%) which determines how likely the missile will lock onto a flare or chaff rather than the actual target when flares or chaff is inbetween it and its target. When a flare or chaff is detected in front of the missile, a number between 0.000 and 1.000 is generated.  If the number is less than the effectiveness number, the missile will target the flare/chaff.
+		"Turning Ability"		"0.2"	//[FLOAT] determines how effective the missile can turn to home in on its target or guide itself to the crosshair for a guided missile; 1.0 means the missile can turn instantly towards its target, 0.0 and the missile doesn't turn at all
 
 		//for biological weapons: when a player or vehicle is hit, the damage (Damage) is inflicted every specified amount of seconds (Interval) over a total amount of time period (Time)
 		//all weapons can use these, explosions will infect all players and vehicles the explosion touches, not just the direct hit target
-		"Player Bio Damage"	"0"		//damage inflicted to players every interval (default: 0)
-		"Player Bio Time"	"0"		//total time to inflict damage to players (default: 0)
-		"Player Bio Interval"	"0"		//time inbetween each infliction of damage to players (default: 0)
-		"Vehicle Bio Damage"	"0"		//damage inflicted to vehicles every interval (default: 0)
-		"Vehicle Bio Time"	"0"		//total time to inflict damage to vehicles (default: 0)
-		"Vehicle Bio Interval"	"0"		//time inbetween each infliction of damage to vehicles (default: 0)
+		"Player Bio Damage"	"0"		//[INT] damage inflicted to players every interval (default: 0)
+		"Player Bio Time"	"0"		//[FLOAT] total time to inflict damage to players (default: 0)
+		"Player Bio Interval"	"0"		//[FLOAT] time inbetween each infliction of damage to players (default: 0)
+		"Vehicle Bio Damage"	"0"		//[INT] damage inflicted to vehicles every interval (default: 0)
+		"Vehicle Bio Time"	"0"		//[FLOAT] total time to inflict damage to vehicles (default: 0)
+		"Vehicle Bio Interval"	"0"		//[FLOAT] time inbetween each infliction of damage to vehicles (default: 0)
 
 		//falloff (requires "type" 0)
-		"FalloffStart"		"0" 		//Distance that we start reducing damage - Default 5000
-		"FalloffEnd"		"3000"		//Distance that we start dealing MinimalDamage value - (Max bullet distance 10000 units) - Default 10000
-		"MinimalDamage"		"13"	
+		"FalloffStart"		"0" 		//[INT] Distance that we start reducing damage - Default 5000
+		"FalloffEnd"		"3000"		//[INT] Distance that we start dealing MinimalDamage value - (Max bullet distance 10000 units) - Default 10000
+		"MinimalDamage"		"13"		//[INT] 
 
 		//effects
 		"Tracer Type"		"tracer_vehiclemg" //Tracer effect, tracer names are logical, a list: tracer_du, tracer_bio, tracer_he, tracer_rifle, tracer_smg, tracer_vehiclemg, tracer_cg, tracer_plasma (requires "type" 0)
@@ -819,7 +821,7 @@ Vehicle_Weapons
 		"HUD Icon"		"vehicles/gui/weapons/cn"
 		"Size"			"2"		//number of slots required when selecting weapons (default: 1)
 		"Type"			"1"		//0=machine gun, 1=tank cannon, 2=artillery cannon, 3=missile launcher, 4=grenade launcher, 5=aircraft bomb bay (default: 0)
-		"Cost"			"80"
+		"Cost"			"110"
 		"Team"			"ALL"		//team that can use this "NF" or "IMP"
 		"Research"		"Experimental_Rail_Gun"		//name of research item that must be researched before using
 		"Sound Firing"		"Vehicle_RG.Fire"
@@ -827,13 +829,13 @@ Vehicle_Weapons
 		"Sound Reloading"	""
 
 		"Damage Type"		"Kinetic"
-		"Damage"		"45"		//damage done by projectile (default: 50)
+		"Damage"		"100"		//damage done by projectile (default: 50)
 		"Speed"			"3700"		//speed of projectile (requires "type" 1, 2, 3 or 4)(default: 100)
-		"Gravity"		"0.32"		//effects of gravity on the projectile, only for projectiles (requires "type" 1, 2 or 4)(default: 1.0)
-		"Heat"			"6"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status) (default: 0.1)
+		"Gravity"		"0.2"		//effects of gravity on the projectile, only for projectiles (requires "type" 1, 2 or 4)(default: 1.0)
+		"Heat"			"15"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status) (default: 0.1)
 		"Weight"		"60"		//weight in terms of effects on engine and weight restrictions for chassis (default: 10)
-		"Cycle Time"		"1"		//time between shots (default 0.1) (all weapons other than MGs have limits of 0.1 as lowest)
-		"Clip Size"		"50"		//ammo loaded per reloads (default: 10)
+		"Cycle Time"		"2.5"		//time between shots (default 0.1) (all weapons other than MGs have limits of 0.1 as lowest)
+		"Clip Size"		"30"		//ammo loaded per reloads (default: 10)
 		"Total Ammo Clips"	"0"		//max ammo clips carried (0 is the same as not using clips) (default: 1)
 		"Reload Time"		"0"		//time to load one clip
 		"Reload Amount"		"5" 		//number of projectiles gained per reload "tick" if not using clips
@@ -856,7 +858,7 @@ Vehicle_Weapons
 		"HUD Icon"		"vehicles/gui/weapons/cn"
 		"Size"			"3"		//number of slots required when selecting weapons (default: 1)
 		"Type"			"1"		//0=machine gun, 1=tank cannon, 2=artillery cannon, 3=missile launcher, 4=grenade launcher, 5=aircraft bomb bay (default: 0)
-		"Cost"			"120"
+		"Cost"			"160"
 		"Team"			"ALL"		//team that can use this "NF" or "IMP"
 		"Research"		"Overcharged Railgun"		//name of research item that must be researched before using
 		"Sound Firing"		"Vehicle_RG.Fire"
@@ -864,13 +866,13 @@ Vehicle_Weapons
 		"Sound Reloading"	""
 
 		"Damage Type"		"Kinetic"
-		"Damage"		"53"		//damage done by projectile (default: 50)
+		"Damage"		"120"		//damage done by projectile (default: 50)
 		"Speed"			"3800"		//speed of projectile (requires "type" 1, 2, 3 or 4)(default: 100)
-		"Gravity"		"0.3"		//effects of gravity on the projectile, only for projectiles (requires "type" 1, 2 or 4)(default: 1.0)
-		"Heat"			"7"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status) (default: 0.1)
+		"Gravity"		"0.18"		//effects of gravity on the projectile, only for projectiles (requires "type" 1, 2 or 4)(default: 1.0)
+		"Heat"			"18"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status) (default: 0.1)
 		"Weight"		"80"		//weight in terms of effects on engine and weight restrictions for chassis (default: 10)
-		"Cycle Time"		"1"		//time between shots (default 0.1) (all weapons other than MGs have limits of 0.1 as lowest)
-		"Clip Size"		"50"		//ammo loaded per reloads (default: 10)
+		"Cycle Time"		"2.85"		//time between shots (default 0.1) (all weapons other than MGs have limits of 0.1 as lowest)
+		"Clip Size"		"30"		//ammo loaded per reloads (default: 10)
 		"Total Ammo Clips"	"0"		//max ammo clips carried (0 is the same as not using clips) (default: 1)
 		"Reload Time"		"0"		//time to load one clip
 		"Reload Amount"		"5" 		//number of projectiles gained per reload "tick" if not using clips
@@ -1709,7 +1711,7 @@ Vehicle_Weapons
 		//projectile
 		"Speed"			"900"		//speed of projectile (requires "type" 1, 2, 3 or 4)(default: 100)
 		"Gravity"		"0.92"		//effects of gravity on the projectile, only for projectiles (requires "type" 1, 2 or 4)(default: 1.0)
-		"Grenade Timer"		"4"		//Time until the grenade explodes (requires "type" 4)(default: 6)
+		"Grenade Timer"		"6"		//Time until the grenade explodes (requires "type" 4)(default: 6)
 		
 		//particles
 		"Explosion Sprite"	"1"
@@ -1758,7 +1760,7 @@ Vehicle_Weapons
 		//projectile
 		"Speed"			"1000"		//speed of projectile (requires "type" 1, 2, 3 or 4)(default: 100)
 		"Gravity"		"0.88"		//effects of gravity on the projectile, only for projectiles (requires "type" 1, 2 or 4)(default: 1.0)
-		"Grenade Timer"		"4"		//Time until the grenade explodes (requires "type" 4)(default: 6)
+		"Grenade Timer"		"6"		//Time until the grenade explodes (requires "type" 4)(default: 6)
 		
 		//particles
 		"Explosion Sprite"	"4"
