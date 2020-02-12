@@ -50,6 +50,16 @@ RankPointParse
 		"points"		1
 		"wages"			5
 	}
+	
+	buildingdamage
+	{
+		"name"			"buildingdamage"
+		"description" 		"dealing %i damage to enemy buildings."
+		"points"		1
+		"wages"			5
+		"ammount required"	200
+	}
+
 
 	spottedbuildingdestroyed
 	{
