@@ -1,138 +1,122 @@
-// Brenodi Faction Jeep // edited by Reznov 07.02.2019
-
+// Brenodi Faction Jeep
 "vehicle"
 {
-    "body"
-    {
-        "massCenterOverride"    "0 0 -1.5"    		// Center of Mass, all weight will be shifted by these coordinates (X Y Z) (X+ = Right, Y+ = Forward, Z+ = Up)
-        "massoverride"        	"1700"        		// Mass in kg
-        "addgravity"        	"0.5"        		// Adds gravity to the vehicle
-        "maxAngularVelocity"    "180"         		// Limits turn velocity. Used in handbrake-turns most often
-		"countertorquefactor"	"0.5"				// Counters sliding/overtorgue, however makes vehicle less "responsive"
-		
-    }
-    "engine"
-    {
-        "horsepower"        	"350"        		// Engine Power, set at 350HP
-        "maxrpm"            	"1550"        		// Max RPM, the lower the RPM, the faster you reach max speed, however it's harder to steer
-        "maxspeed"        		"50"        		// Max Forwards Speed (mph)
-        "maxReverseSpeed"   	"20"    			// Max Backwards Speed (mph)
-        "autotransmission"  	"1"        			// True (1) for Automatic, False (0) for Manual
-        "axleratio"        		"3.5"        		// Ratio of Engine RPM to Axle RPM, multiplies torgue
-        "gear"              	"3.0"        		// 1st gear (max 6 gears)
-		
-		//"gear"            	"8.0"        		// 2nd gear
-        //"gear"            	"6.5"        		// 3rd gear
-        //"gear"            	"5.5"        		// 4th gear
-        //"gear"            	"5"          		// 5th gear
-        //"shiftuprpm"        	"600"        		// Max RPMs to switch to a higher gear
-        //"shiftdownrpm"        "300"        		// Min RPMs to switch to a lower gear
-        
-        "autobrakeSpeedGain"    "1.1"          		// Coasting speed multiplier
-        "autobrakeSpeedFactor"  "3.0"        		// Coasting brake multiplier
- 
+	"body"
+	{
+		"massCenterOverride"    "0 0 -1.5"	// Center of Mass, all weight will be shifted by these coordinates (X Y Z) (X+ = Right, Y+ = Forward, Z+ = Up)
+		"massoverride"        	"1700"		// Mass in kg
+		"addgravity"        	"0.5"		// Adds gravity to the vehicle
+		"maxAngularVelocity"    "180"		// Limits turn velocity. Used in handbrake-turns most often
+		"countertorquefactor"	"0.5"		// Counters sliding/overtorgue, however makes vehicle less "responsive"
+	}
+	"engine"
+	{
+		"horsepower"        	"350"	// Engine Power, set at 350HP
+		"maxrpm"            	"1550"	// Max RPM, the lower the RPM, the faster you reach max speed, however it's harder to steer
+		"maxspeed"		"50"	// Max Forwards Speed (mph)
+		"maxReverseSpeed"   	"20"	// Max Backwards Speed (mph)
+		"autotransmission"  	"1"	// True (1) for Automatic, False (0) for Manual
+		"axleratio"		"3.5"	// Ratio of Engine RPM to Axle RPM, multiplies torgue
+		"gear"              	"3.0"	// 1st gear (max 6 gears)
+
+		"autobrakeSpeedGain"    "1.1"	// Coasting speed multiplier
+		"autobrakeSpeedFactor"  "3.0"	// Coasting brake multiplier
+	 
 		"boost"
 		{
-			"force"        		"1.5"    			// "Push" applied times this factor
-			"duration"    		"2.0"    			// Duration in seconds
-			"delay"        		"8.0"    			// Delay of usage in seconds
-			"torqueboost"   	"1"    				// Holds you down, when you boost            
-			"maxspeed"    		"80"    			// Max Turbo speed (mph)
+			"force"        		"1.5"	// "Push" applied times this factor
+			"duration"    		"2.0"	// Duration in seconds
+			"delay"        		"8.0"	// Delay of usage in seconds
+			"torqueboost"   	"1"	// Holds you down, when you boost            
+			"maxspeed"    		"80"	// Max Turbo speed (mph)
 		}
-    }
-    
-    "steering"
-    {
-        "degreesSlow"        	"50"    			// Angle of steering while Slow
-        "degreesFast"        	"20"    			// Angle of steering while Fast
-        "steeringExponent"      "1.0"    			// Exponential curve, from Slow -> Fast steering, reduce to have Slow steering for longer, etc.
+	}
+	"steering"
+	{
+		"degreesSlow"        	"50"	// Angle of steering while Slow
+		"degreesFast"        	"20"	// Angle of steering while Fast
+		"steeringExponent"      "1.0"	// Exponential curve, from Slow -> Fast steering, reduce to have Slow steering for longer, etc.
 
-        "slowcarspeed"        	"10"    			// Speed of Slow steering...? I got no clue, default value
-        "fastcarspeed"        	"20"    			// Same here. Change next settings instead
+		"slowcarspeed"        	"10"	// Speed of Slow steering...? I got no clue, default value
+		"fastcarspeed"        	"20"	// Same here. Change next settings instead
+			
+		"slowsteeringrate"      "1.75"	// Rate at which wheels turn while Slow
+		"faststeeringrate"      "0.75"	// Rate at which wheels turn while Fast
+			
+		"steeringRestRateSlow"			"2.5"   // Rate at which wheels turn while Slow
+		"steeringRestRateFast"			"1.5"	// Rate at which wheels turn while Fast
+		"throttleSteeringRestRateFactor"	"1.5"	// Turn rate into neutral during throttle
+			
+		"turnThrottleReduceSlow"        	"0.1"	// Reduces Slow turning rate while throttling
+		"turnThrottleReduceFast"        	"0.5"	// Reduces Fast turning rate while throttling
 		
-		"slowsteeringrate"      "1.75"    			// Rate at which wheels turn while Slow
-        "faststeeringrate"      "0.75"    			// Rate at which wheels turn while Fast
-		
-        "steeringRestRateSlow"        		"2.5"   // Rate at which wheels turn while Slow
-        "steeringRestRateFast"        		"1.5"	// Rate at which wheels turn while Fast
-		"throttleSteeringRestRateFactor"    "1.5"	// Turn rate into neutral during throttle
-		
-        "turnThrottleReduceSlow"        	"0.1"	// Reduces Slow turning rate while throttling
-        "turnThrottleReduceFast"        	"0.5"	// Reduces Fast turning rate while throttling
-        
-		"brakeSteeringRateFactor"        	"6"		// Increases Steering rate while braking
+		"brakeSteeringRateFactor"        	"6"	// Increases Steering rate while braking
 
-        //Boost Steering
-        "degreesBoost"            			"5"     // Angle of steering while Turbo
-        "boostSteeringRestRateFactor"    	"1.5"	// Neutral stance speed, same as above
-        "boostSteeringRateFactor"        	"1.5"	// Steering rate speed, same as above
+		//Boost Steering
+		"degreesBoost"			"5"	// Angle of steering while Turbo
+		"boostSteeringRestRateFactor"	"1.5"	// Neutral stance speed, same as above
+		"boostSteeringRateFactor"	"1.5"	// Steering rate speed, same as above
 
-        //Others
-        "powerSlideAccel"        			"-250"  // Handbrake spin direction, 250 = Into direction you handbrake to, -250 = Away from direction...
-        "skidallowed"        				"1"    	// Skid noises, yes/no
-        "dustcloud"        					"1"    	// Dust clouds, yes/no
-    }
-    
-	
-    "wheelsperaxle"    						"2"    	// wheels per axle
+		//Others
+		"powerSlideAccel"	"-250"  // Handbrake spin direction, 250 = Into direction you handbrake to, -250 = Away from direction...
+		"skidallowed"		"1"    	// Skid noises, yes/no
+		"dustcloud"		"1"    	// Dust clouds, yes/no
+	}
 
-    // Front Axle
-    "axle"
-    {
-        "torquefactor"    					"1.0"	// Torgue factor, increase for more speed, less control
-		"brakefactor"    					"0.5"   // Brake factor, brake time
+	"wheelsperaxle"		"2"	//wheels per axle
+	//Front Axle
+	"axle"
+	{
+		"torquefactor"		"1.0"	// Torgue factor, increase for more speed, less control
+		"brakefactor"		"0.5"   // Brake factor, brake time
+		"wheel"
+		{
+			"radius"	"21"			// Size of wheel
+			"mass"		"300"			// in kg
+			"inertia"	"0"			// Steadies the car, apparently
+			"damping"	"0"			// Affects fishtailing, increasing effects: + less sliding, - heavier axle
+			"rotdamping"	"0"			// Usually 0, don't ask why, I don't know
+			"material"	"jeeptire"		// tire surface properties 
+			"skidmaterial"	"slidingrubbertire"	// surface properties when sliding
+			"brakematerial"	"brakingrubbertire"	// surface properties wen breaking            
+		}
+		"suspension"
+		{
+		    "springConstant"		"70"
+		    "springDamping"		"1"
+		    "stabilizerConstant"	"110"
+		    "springDampingCompression"	"4"
+		    "maxBodyForce"		"250"
+		}
+	}
+	//Rear Axle
+	"axle"
+	{
+		"torquefactor"		"0.1"	// Torgue factor, increase for more speed, less control
+		"brakefactor"		"0.5"   // Brake factor, brake time
             
-        "wheel"
-        {
-            "radius"        				"21"	// Size of wheel
-            "mass"        					"300"   // in kg
-            "inertia"        				"0"     // Steadies the car, apparently
-            "damping"    					"0"     // Affects fishtailing, increasing effects: + less sliding, - heavier axle
-            "rotdamping"    				"0"     // Usually 0, don't ask why, I don't know
-            "material"        "jeeptire"    		// tire surface properties 
-            "skidmaterial"    "slidingrubbertire"   // surface properties when sliding
-            "brakematerial"   "brakingrubbertire"   // surface properties wen breaking            
-        }
-        
-        "suspension"
-        {
-            "springConstant"        		"70"    // I wouldn't mess with this, I tried, it is wonky.
-            "springDamping"        			"1"		// Even the jalopy feels shitty when you have actual suspension on any Empiresmap
-            "stabilizerConstant"        	"110"	// So don't do it
-            "springDampingCompression"    	"4"		// I swear on me mom
-            "maxBodyForce"        			"250"	// Plz
-        }
-    }
-
-    // Rear Axle
-    "axle"
-    {
-        "torquefactor"    					"0.1"	// Torgue factor, increase for more speed, less control
-		"brakefactor"    					"0.5"   // Brake factor, brake time
-            
-        "wheel"
-        {
-            "radius"        				"21"	// Size of wheel
-            "mass"        					"300"   // in kg
-            "inertia"        				"0"     // Steadies the car, apparently
-            "damping"    					"1"     // Affects fishtailing, increasing effects: + less sliding, - heavier axle
-            "rotdamping"    				"0.5"   // Usually 0, don't ask why, I don't know
-            "material"        "jeeptire"    		// tire surface properties 
-            "skidmaterial"    "slidingrubbertire"   // surface properties when sliding
-            "brakematerial"   "brakingrubbertire"   // surface properties wen breaking            
-        }
-        
-        "suspension"
-        {
-            "springConstant"        		"70"    // I wouldn't mess with this, I tried, it is wonky.
-            "springDamping"        			"1"		// Even the jalopy feels shitty when you have actual suspension on any Empiresmap
-            "stabilizerConstant"        	"110"	// So don't do it
-            "springDampingCompression"    	"4"		// I swear on me mom
-            "maxBodyForce"        			"250"	// Plz
-        }
-    }
+		"wheel"
+		{
+			"radius"	"21"			// Size of wheel
+			"mass"		"300"			// in kg
+			"inertia"	"0"			// Steadies the car, apparently
+			"damping"	"1"			// Affects fishtailing, increasing effects: + less sliding, - heavier axle
+			"rotdamping"	"0.5"			// Usually 0, don't ask why, I don't know
+			"material"	"jeeptire"		// tire surface properties 
+			"skidmaterial"	"slidingrubbertire"	// surface properties when sliding
+			"brakematerial"	"brakingrubbertire"	// surface properties wen breaking            
+		}
+		
+		"suspension"
+		{
+			"springConstant"		"70"
+			"springDamping"			"1"
+			"stabilizerConstant"		"110"
+			"springDampingCompression"	"4"
+			"maxBodyForce"			"250"
+		}
+	}
 }
-
 "vehicle_sounds"
 {
 	// List gears in order from lowest speed to highest speed

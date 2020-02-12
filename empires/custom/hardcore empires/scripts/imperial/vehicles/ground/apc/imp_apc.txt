@@ -1,0 +1,267 @@
+// Brenodi Empire APC;  Script last changed January 6 2009
+
+"vehicle"
+{
+	"body"
+	{
+		"countertorquefactor"	"0.75"		// Drag: Script found in Episode 2 jalopy car script. Valve's vehicle movement code seems to accept it. It changes... something. Useful for LT. Only minor affects on most other vehicles. If something messes up, set this to 0 or take it out of script again.
+		"massCenterOverride"	"0 -140 -1.5"	// leave at vec3_origin for no override
+		"massoverride"		"1995"	// in kg, leave at 0 for no override (kg); Drag: This is the physical mass of the tank. Nothing gets added or substracted from this. 
+		"addgravity"		"0.33"	// keeps car down; Drag: Set it high (0.4+) = vehicles will do crazy things if they try to jump. Set it too low(<0.2), vehicles suspension system dies, no use changing this all too much.
+		"maxAngularVelocity"	"120"
+	}
+	"engine"
+	{
+		"horsepower"		"250"		// engine power
+		"maxrpm"		"1500"		// max rounds per minute
+		"maxspeed"		"35"		// forward mph
+		"maxReverseSpeed"	"10"		// backward mph
+		"autotransmission"	"1"		// true for auto, false for manual
+		"axleratio"		"3.56"		// ratio of engine rev to axle rev; Drag: The higher this ratio the faster the engine will rev (--> faster gear changing); Rule of thumb: The smaller the wheels and the more axles there are, the lower this value should be (afaik)
+		"gear"			"2.86"		// 1st gear (max 6 gears) Drag: Likely to be used as "the backwards gear" The higher the values the stronger the gear, exact nature of gear system unknown atm
+		"gear"			"1.59"		// 2nd gear
+		"gear"			"1.17"		// 3rd gear
+		"gear"			"1.0"		// 4th gear
+		"gear"			"0.84"		// 5th gear
+		"shiftuprpm"		"600"		// max RPMs to switch to a higher gear; Drag: Unsure if this is used, probably overwritten in vehicle_engines.txt
+		"shiftdownrpm"		"300"		// min RPMs to switch to a lower gear; Drag: Unsure if this is used, probably overwritten in vehicle_engines.txt
+	}
+	
+	"steering"
+	{
+		"degreesSlow"		"40"	// angle in degrees of steering; Drag: Usually affects steering the most. Going below 20 is bad, going above 60 is bad. Correlates with slowsteeringrate.
+		"degreesFast"		"25"	// angle in degrees of steering; Drag: Uncertain if this works correctly
+		"steeringExponent"	"1.0"	// steering function is linear, then raised to this power to be slower at the beginning of the curve, faster at the end
+
+		"slowcarspeed"		"15"	// this is the max speed of "slow"
+		"fastcarspeed"		"30"	// this is the min speed of "fast"
+		"slowsteeringrate"	"2"	// this is the speed the wheels are steered when the vehicle is "slow"
+		"faststeeringrate"	"1"	// this is the speed the wheels are steered when the vehicle is "fast"
+
+		"steeringRestRateSlow"	"4.0"	// this is the speed at which the wheels move toward their resting state (straight ahead)
+		"steeringRestRateFast"	"2.0"
+		"turnThrottleReduceSlow"		"0.1"
+		"turnThrottleReduceFast"		"0.1"    
+		"brakeSteeringRateFactor"		"6"
+		"throttleSteeringRestRateFactor"	"2"
+		"powerslideaccel"	"-1"
+
+		"skidallowed"	"1"	// true/false skid flag
+		"dustcloud"		"1"	// flag for creating a dustcloud behind vehicle
+	}
+	
+	"wheelsperaxle"	"2"	// wheels per axle
+
+	// front axle
+	"axle"
+	{
+		"torquefactor"	"0.25"	// normalized to 1 across all axles
+		"brakefactor"	"0.25"	// normalized to 1 across all axles
+			
+		"wheel"
+		{
+			"radius"	"34"
+			"mass"		"200"		// in kg - KrenzO edit: increase this to stop tank from lunging forward on braking
+			"inertia"	"0.5"		// steady the car (fixes the oscillation of the axles about z)
+			"damping"	"0"		// usually 0 - Duke edit: seems to slow the whole thing down and feels like the rubber is incredibly soft
+			"rotdamping"	"0.0"		// usually 0
+			"material"	"jeeptire"	// tire surface properties 
+			"skidmaterial"	"slidingrubbertire"	// surface properties when sliding
+			"brakematerial" "brakingrubbertire"	// surface properties wen breaking
+		}
+		
+		"suspension"
+		{
+			"springConstant"		"20"		//Strength of spring, lower values will make spring weaker 
+			"springDamping"			"2"
+			"stabilizerConstant"		"20"
+			"springDampingCompression"	"4"
+			"maxBodyForce"			"20"
+		}
+
+		
+	}
+
+	"axle"
+	{
+		"torquefactor"	"0.25"	// normalized to 1 across all axles
+		"brakefactor"	"0.25"	// normalized to 1 across all axles
+			
+		"wheel"
+		{
+			"radius"	"34"
+			"mass"		"200"		// in kg
+			"inertia"	"0.5"		// steady the car (fixes the oscillation of the axles about z)
+			"damping"	"0"		// usually 0 - Duke edit: seems to slow the whole thing down and feels like the rubber is incredibly soft
+			"rotdamping"	"0.0"		// usually 0
+			"material"	"jeeptire"	// tire surface properties 
+			"skidmaterial"	"slidingrubbertire"	// surface properties when sliding
+			"brakematerial" "brakingrubbertire"	// surface properties wen breaking
+		}
+		
+		"suspension"
+		{
+			"springConstant"		"20"		//Strength of spring, lower values will make spring weaker 
+			"springDamping"			"2"
+			"stabilizerConstant"		"20"
+			"springDampingCompression"	"4"
+			"maxBodyForce"			"20"
+		}
+		
+	}
+
+	"axle"
+	{
+		"torquefactor"	"0.25"	// normalized to 1 across all axles
+		"brakefactor"	"0.25"	// normalized to 1 across all axles
+			
+		"wheel"
+		{
+			"radius"	"34"
+			"mass"		"200"		// in kg
+			"inertia"	"0.5"		// steady the car (fixes the oscillation of the axles about z)
+			"damping"	"0"		// usually 0 - Duke edit: seems to slow the whole thing down and feels like the rubber is incredibly soft
+			"rotdamping"	"0.0"		// usually 0
+			"material"	"jeeptire"	// tire surface properties 
+			"skidmaterial"	"slidingrubbertire"	// surface properties when sliding
+			"brakematerial" "brakingrubbertire"	// surface properties wen breaking
+		}
+		
+		"suspension"
+		{
+			"springConstant"		"20"		//Strength of spring, lower values will make spring weaker 
+			"springDamping"			"2"
+			"stabilizerConstant"		"20"
+			"springDampingCompression"	"4"
+			"maxBodyForce"			"20"
+		}
+		
+	}
+
+	// rear axle
+	"axle"
+	{
+		"torquefactor"	"0.25"
+		"brakefactor"	"0.7"
+		
+		"wheel"
+		{
+			"radius"	"34"
+			"mass"		"200"
+			"inertia"	"0.5"		// steady the car (fixes the oscillation of the axles about z)
+			"damping"	"0.2"
+			"rotdamping"	"0.0"
+			"material"	"jeeptire"
+			"skidmaterial"	"slidingrubbertire"
+			"brakematerial" "brakingrubbertire"
+		}
+		"suspension"
+		{
+			"springConstant"		"20"		//Strength of spring, lower values will make spring weaker 
+			"springDamping"			"2"
+			"stabilizerConstant"		"20"
+			"springDampingCompression"	"4"
+			"maxBodyForce"			"20"
+		}
+	}
+}
+
+"vehicle_sounds"
+{
+	// List gears in order from lowest speed to highest speed
+
+	"gear"
+	{
+		"max_speed"		"0.4"
+		"speed_approach_factor"	"0.08"
+	}
+	"gear"
+	{
+		"max_speed"		"1.0"
+		"speed_approach_factor"	"0.2"
+	}
+	"state"
+	{
+		"name"		"SS_START_IDLE"
+		"sound"		"APC_start"
+		"min_time"	"1.0"
+	}
+	"state"
+	{
+		"name"		"SS_IDLE"
+		"sound"		"APC_idle"
+		"min_time"	"0.5"
+	}
+	"state"
+	{
+		"name"		"SS_SHUTDOWN"
+		"sound"		"APC_shutdown"
+		"min_time"	"0.5"
+	}
+	"state"
+	{
+		"name"		"SS_SHUTDOWN_WATER"
+		"sound"		"ATV_stall_in_water"
+		"min_time"	"0.5"
+	}
+	"state"
+	{
+		"name"		"SS_REVERSE"
+		"sound"		"APC_reverse"
+		"min_time"	"0.7"
+	}
+	"state"
+	{
+		"name"		"SS_GEAR_0"
+		"sound"		"APC_throttle_1st"
+		"min_time"	"0.7"
+	}
+	"state"
+	{
+		"name"		"SS_GEAR_0_RESUME"
+		"sound"		"APC_throttle_1st"
+		"min_time"	"0.5"
+	}
+	"state"
+	{
+		"name"		"SS_GEAR_1"
+		"sound"		"APC_throttle_2nd"
+		"min_time"	"0.5"
+	}
+	"state"
+	{
+		"name"		"SS_GEAR_1_RESUME"
+		"sound"		"APC_throttle_2nd"
+		"min_time"	"0.7"
+	}
+	"state"
+	{
+		"name"		"SS_SLOWDOWN_HIGHSPEED"
+		"sound"		"APC_slowdown"
+		"min_time"	"0.25"
+	}
+	"state"
+	{
+		"name"		"SS_SLOWDOWN"
+		"sound"		"APC_slowdown"
+		"min_time"	"0.25"
+	}
+	"crashsound"
+	{
+		"min_speed"		"350"
+		"min_speed_change"	"250"
+		"sound"			"ATV_impact_medium"
+		"gear_limit"		"1"
+	}
+	"crashsound"
+	{
+		"min_speed"		"450"
+		"min_speed_change"	"350"
+		"sound"			"ATV_impact_heavy"
+	}
+
+	
+	"skid_lowfriction"		"ATV_skid_lowfriction"
+	"skid_normalfriction"   "ATV_skid_normalfriction"
+	"skid_highfriction"		"ATV_skid_highfriction"
+}
