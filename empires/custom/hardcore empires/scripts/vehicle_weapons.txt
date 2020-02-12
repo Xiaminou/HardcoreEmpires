@@ -913,7 +913,7 @@ Vehicle_Weapons
 		"Total Ammo Clips"	"0"		//max ammo clips carried (0 is the same as not using clips) (default: 1)
 		"Reload Time"		"0"		//time to load one clip
 		"Reload Amount"		"5" 		//number of projectiles gained per reload "tick" if not using clips
-		"Projectile Spread"	"0.1"		//spread (default: 0.001)
+		"Projectile Spread"	"1"		//spread (default: 0.001)
 		"Heat to Target"	"0"		//heat added to target on hit (default: 0.1)
 		"Explosion Radius"	"250"		//radius of damage sphere to hurt surrounding entities (default: 0)
 		"Explosion Force"	"100"		//force of explosion (default: 0)
@@ -958,7 +958,7 @@ Vehicle_Weapons
 		"Total Ammo Clips"	"0"		//max ammo clips carried (0 is the same as not using clips) (default: 1)
 		"Reload Time"		"0"		//time to load one clip
 		"Reload Amount"		"5" 		//number of projectiles gained per reload "tick" if not using clips
-		"Projectile Spread"	"0.1"		//spread (default: 0.001)
+		"Projectile Spread"	"1"		//spread (default: 0.001)
 		"Heat to Target"	"0"		//heat added to target on hit (default: 0.1)
 		"Explosion Radius"	"250"		//radius of damage sphere to hurt surrounding entities (default: 0)
 		"Explosion Force"	"170"		//force of explosion (default: 0)
