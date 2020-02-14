@@ -128,11 +128,12 @@ BuildingParse
 	"ExtraType3Resist" 		0.75	//unused					
 
 	//BOUNDARY VECTORS
-	"CollisionRadius" 		"200"
-	"CollisionHeight" 		"170"
-	"CollisionOffsetX" 		"-10"
-	"CollisionOffsetY" 		"10"
-	"CollisionOffsetZ" 		"10"
+	"CollisionRadius"	"170"
+	"CollisionHeight"	"170"
+	"CollisionOffsetX"	"-10"
+	"CollisionOffsetY"	"0"
+	"CollisionOffsetZ"	"10"
+
 
 	//EXPLOSIONS
 	// You can have 10 different particles on a single model. Goes from 0-9.
@@ -202,7 +203,7 @@ BuildingParse
 
 	//BOUNDARY VECTORS
 	 
-	"CollisionRadius" 		"400"
+	"CollisionRadius" 		"375"
 	"CollisionHeight" 		"160"
 	"CollisionOffsetX" 		"0"
 	"CollisionOffsetY" 		"0"
@@ -269,8 +270,8 @@ BuildingParse
 	"ExtraType3Resist" 		0.75	//unused					
 
 	//BOUNDARY VECTORS
-	"CollisionRadius" 		"400"
-	"CollisionHeight" 		"160"
+	"CollisionRadius" 		"350"
+	"CollisionHeight" 		"260"
 	"CollisionOffsetX" 		"0"
 	"CollisionOffsetY" 		"0"
 	"CollisionOffsetZ" 		"10"
@@ -336,7 +337,7 @@ BuildingParse
 	"ExtraType3Resist" 		0.75	//unused				
 
 	//BOUNDARY VECTORS
-	"CollisionRadius" 		"350"
+	"CollisionRadius" 		"380"
 	"CollisionHeight" 		"450"
 	"CollisionOffsetX" 		"0"
 	"CollisionOffsetY" 		"0"
@@ -403,8 +404,8 @@ BuildingParse
 	"ExtraType3Resist" 		0.75	//unused				
 
 	//BOUNDARY VECTORS
-	"CollisionRadius" 		"350"
-	"CollisionHeight" 		"450"
+	"CollisionRadius" 		"290"
+	"CollisionHeight" 		"390"
 	"CollisionOffsetX" 		"0"
 	"CollisionOffsetY" 		"0"
 	"CollisionOffsetZ" 		"10"
@@ -598,10 +599,10 @@ BuildingParse
 	"ExtraType3Resist" 		0.75	//unused					
 
 	//BOUNDARY VECTORS
-	"CollisionRadius" 		"500"
-	"CollisionHeight" 		"450"
-	"CollisionOffsetX" 		"80"
-	"CollisionOffsetY" 		"-80"
+	"CollisionRadius" 		"450"
+	"CollisionHeight" 		"310"
+	"CollisionOffsetX" 		"25"
+	"CollisionOffsetY" 		"0"
 	"CollisionOffsetZ" 		"10"
 	}
 
@@ -665,9 +666,9 @@ BuildingParse
 	"ExtraType3Resist" 		0.75	//unused						
 
 	//BOUNDARY VECTORS
-	"CollisionRadius" 		"500"
-	"CollisionHeight" 		"450"
-	"CollisionOffsetX" 		"90"
+	"CollisionRadius" 		"425"
+	"CollisionHeight" 		"340"
+	"CollisionOffsetX" 		"0"
 	"CollisionOffsetY" 		"0"
 	"CollisionOffsetZ" 		"10"
 	}
@@ -961,7 +962,6 @@ BuildingParse
 	"recycle time"		"5"	// Recycle time for the building
 	"carcass removal time"	"1"	// Time it takes for a destroyed building carcass to be removed	
 	
-	"damage"		"40"
 	"Damage Type" 		"Missile"
 	"turret range"		"4500"
 	"turret rof"		"5"
@@ -1070,8 +1070,8 @@ BuildingParse
      
 	"turret range"    	"5000"
 	"turret rof"      	"2"
-	"turret turn speed"    "350"
-	"turret turn missile"  "1800"
+	"turret turn speed"	"350"
+	"turret turn missile"	"1800"
 	"turret damage"		"40"
 	"turret missile speed"	"2300"
 
@@ -1108,18 +1108,17 @@ BuildingParse
      
 	"turret range"    	"4500"
 	"turret rof"      	"5"
-	"turret turn speed"    "350"
-	"turret turn missile"  "1000"
+	"turret turn speed"	"350"
+	"turret turn missile"	"1000"
 	"turret damage"		"40"
 	"turret missile speed"	"2300"
      
 	"Explosion Sprite"	0
 
-	"damage"			"40"
 	"Damage Type" 		"Missile"
 	"recycle time"		5								// Recycle time for the building
 	"carcass removal time" "1"								// Time it takes for a destroyed building carcass to be removed				
-	"touchmessageid" "15"
+	"touchmessageid"	"15"
 
 	"hint"			"#emp_building_NFMLTurret_hint"
 
@@ -1183,8 +1182,8 @@ BuildingParse
      
 	"turret range"    	"4750"
 	"turret rof"      	"3"
-	"turret turn speed"    "350"
-	"turret turn missile"  "1400"
+	"turret turn speed"	"350"
+	"turret turn missile"	"1400"
 	"turret damage"		"40"
 	"turret missile speed"	"2300"
 
