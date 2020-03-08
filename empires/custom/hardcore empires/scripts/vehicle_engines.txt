@@ -1110,7 +1110,7 @@ Vehicle_Engines
 		"Heat Dissipation"		"10"
 	}
 	///////////////////
-	// AIRCRAFT ENGINES
+	//AIRCRAFT ENGINES
 	///////////////////
 	"Standard Engine"
 	{
@@ -1143,6 +1143,9 @@ Vehicle_Engines
 		"Heat Stall Penalty"		"0.0" 	//how much max throttle is limited to when overheating is occurring
 		"Heat Dissipation"		"6"	//amount of heat removed per second
 	}
+	///////////////////
+	//COMMANDER ENGINES
+	///////////////////
 	"BE Commander Engine"
 	{
 		"Commander"			"1"
@@ -1159,7 +1162,7 @@ Vehicle_Engines
 		"Research"			""
 
 		"Max Weight"			"2000"
-		"Max Speed"			"35"
+		"Max Speed"			"25"
 		"Max Reverse Speed"		"15"
 		"Shift Up RPM"			"1600"
 		"Shift Down RPM"		"800"
@@ -1192,7 +1195,7 @@ Vehicle_Engines
 		"Research"			""
 
 		"Max Weight"			"2000"
-		"Max Speed"			"35"
+		"Max Speed"			"25"
 		"Max Reverse Speed"		"15"
 		"Shift Up RPM"			"1600"
 		"Shift Down RPM"		"800"
