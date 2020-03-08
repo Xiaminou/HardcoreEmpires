@@ -39,6 +39,9 @@ InfantryParse
 		
 		//Vehicle: Grenade Launchers
 		"GeneralChemistryResist	"  	"0.1" 	//Grenade Launcher, High-Explosive Grenade Launcher
+		
+		//Squad Artillery
+		"SquadArtResist" 		"0.4"
 
 		//Unused
 		"GeneralMechanicalResist" 	"0.0"	//unused
@@ -56,6 +59,9 @@ InfantryParse
 		"GeneralMechanicalResist" 	"0.1"	//
 		"GeneralElectricResist"  	"0.1"	//
 		"GeneralBiologicalResist"	"0.1" 	//
+		
+		//Squad Artillery
+		"SquadArtResist" 		"0.4"
 
 		//Vehicle: Cannons
 		"KineticResist" 		"0.1" 	//Standard Cannon, Railgun, Overcharged Railgun, Ranged Cannon, Heavy-duty Ranged Cn.
@@ -104,6 +110,9 @@ InfantryParse
 		"GeneralMechanicalResist" 	"0.3"	//
 		"GeneralElectricResist"  	"0.3"	//
 		"GeneralBiologicalResist"	"0.3" 	//
+		
+		//Squad Artillery
+		"SquadArtResist" 		"0.54"
 
 		"KineticResist" 		"0.3" 	//Standard Cannon, Railgun, Overcharged Railgun, Ranged Cannon, Heavy-duty Ranged Cn.
 		"ExplosiveResist" 		"0.4"	//HE, Nukes, anything that explodes
@@ -151,6 +160,9 @@ InfantryParse
 		"GeneralMechanicalResist" 	"0.0"	//
 		"GeneralElectricResist"  	"0.0"	//
 		"GeneralBiologicalResist"	"0.0" 	//
+		
+		//Squad Artillery
+		"SquadArtResist" 		"0.4"
 
 		"KineticResist" 		"0.0" 	//Railguns, Standard Cannons, Anything that is just force
 		"ExplosiveResist" 		"0.1"	//HE, Nukes, anything that explodes

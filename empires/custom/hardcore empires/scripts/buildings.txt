@@ -58,7 +58,8 @@ BuildingParse
 	
 	"ExtraType1Resist" 		0.5	//unused				
 	"ExtraType2Resist" 		0.75	//unused				
-	"ExtraType3Resist" 		0.75	//unused			
+	"ExtraType3Resist" 		0.75	//unused
+	"SquadArtResist" 		0.9
 
 	//BOUNDARY VECTORS
 	"CollisionRadius" 		"200"
@@ -125,7 +126,8 @@ BuildingParse
 	
 	"ExtraType1Resist" 		0.5	//unused				
 	"ExtraType2Resist" 		0.75	//unused				
-	"ExtraType3Resist" 		0.75	//unused					
+	"ExtraType3Resist" 		0.75	//unused
+	"SquadArtResist" 		0.9
 
 	//BOUNDARY VECTORS
 	"CollisionRadius"	"170"
@@ -199,7 +201,8 @@ BuildingParse
 	
 	"ExtraType1Resist" 		0.5	//unused				
 	"ExtraType2Resist" 		0.75	//unused				
-	"ExtraType3Resist" 		0.75	//unused					
+	"ExtraType3Resist" 		0.75	//unused
+	"SquadArtResist" 		0.9
 
 	//BOUNDARY VECTORS
 	 
@@ -267,7 +270,8 @@ BuildingParse
 
 	"ExtraType1Resist" 		0.5	//unused				
 	"ExtraType2Resist" 		0.75	//unused				
-	"ExtraType3Resist" 		0.75	//unused					
+	"ExtraType3Resist" 		0.75	//unused
+	"SquadArtResist" 		0.9
 
 	//BOUNDARY VECTORS
 	"CollisionRadius" 		"350"
@@ -334,7 +338,8 @@ BuildingParse
 
 	"ExtraType1Resist" 		0.5	//unused				
 	"ExtraType2Resist" 		0.75	//unused				
-	"ExtraType3Resist" 		0.75	//unused				
+	"ExtraType3Resist" 		0.75	//unused
+	"SquadArtResist" 		0.9
 
 	//BOUNDARY VECTORS
 	"CollisionRadius" 		"380"
@@ -401,7 +406,8 @@ BuildingParse
 	
 	"ExtraType1Resist" 		0.5	//unused				
 	"ExtraType2Resist" 		0.75	//unused				
-	"ExtraType3Resist" 		0.75	//unused				
+	"ExtraType3Resist" 		0.75	//unused
+	"SquadArtResist" 		0.9	
 
 	//BOUNDARY VECTORS
 	"CollisionRadius" 		"290"
@@ -468,7 +474,8 @@ BuildingParse
 	
 	"ExtraType1Resist" 		0.5	//unused				
 	"ExtraType2Resist" 		0.75	//unused				
-	"ExtraType3Resist" 		0.75	//unused						
+	"ExtraType3Resist" 		0.75	//unused
+	"SquadArtResist" 		0.9
 
 	//BOUNDARY VECTORS
 	"CollisionRadius" 		"240"
@@ -532,7 +539,8 @@ BuildingParse
 	
 	"ExtraType1Resist" 		0.5	//unused				
 	"ExtraType2Resist" 		0.75	//unused				
-	"ExtraType3Resist" 		0.75	//unused					
+	"ExtraType3Resist" 		0.75	//unused
+	"SquadArtResist" 		0.9
 
 	//BOUNDARY VECTORS
 	"CollisionRadius" 		"240"
@@ -596,7 +604,8 @@ BuildingParse
 	
 	"ExtraType1Resist" 		0.5	//unused				
 	"ExtraType2Resist" 		0.75	//unused				
-	"ExtraType3Resist" 		0.75	//unused					
+	"ExtraType3Resist" 		0.75	//unused
+	"SquadArtResist" 		0.9
 
 	//BOUNDARY VECTORS
 	"CollisionRadius" 		"450"
@@ -663,7 +672,8 @@ BuildingParse
 	
 	"ExtraType1Resist" 		0.5	//unused				
 	"ExtraType2Resist" 		0.75	//unused				
-	"ExtraType3Resist" 		0.75	//unused						
+	"ExtraType3Resist" 		0.75	//unused
+	"SquadArtResist" 		0.9
 
 	//BOUNDARY VECTORS
 	"CollisionRadius" 		"425"
@@ -738,7 +748,8 @@ BuildingParse
 	
 	"ExtraType1Resist" 		0.65	//unused
 	"ExtraType2Resist" 		0.6	//unused
-	"ExtraType3Resist" 		0.6					//and a third
+	"ExtraType3Resist" 		0.6	//and a third
+	"SquadArtResist" 		0.8
 
 	//BOUNDARY VECTORS								
 	"CollisionRadius" 		"60"
@@ -871,6 +882,7 @@ BuildingParse
 	"ExtraType1Resist" 		0.65	//unused
 	"ExtraType2Resist" 		0.6	//unused
 	"ExtraType3Resist" 		0.6	//unused
+	"SquadArtResist" 		0.8
 
 	//BOUNDARY VECTORS								
 	"CollisionRadius" 		"60"
@@ -1013,6 +1025,7 @@ BuildingParse
 	"ExtraType1Resist" 		0.65	//Anti Building weapons	
 	"ExtraType2Resist" 		0.6	//Again	
 	"ExtraType3Resist" 		0.6	//and a third
+	"SquadArtResist" 		0.8
 	 
 	//BOUNDARY VECTORS								
 	"CollisionRadius"	"60"
@@ -1157,7 +1170,8 @@ BuildingParse
 	
 	"ExtraType1Resist" 		0.65	//unused
 	"ExtraType2Resist" 		0.6	//unused
-	"ExtraType3Resist" 		0.6					//and a third
+	"ExtraType3Resist" 		0.6	//and a third
+	"SquadArtResist" 		0.8
 
 	//BOUNDARY VECTORS								
 	"CollisionRadius" 		"60"
@@ -1285,7 +1299,8 @@ BuildingParse
 	
 	"ExtraType1Resist" 		0.25	//unused				
 	"ExtraType2Resist" 		0.25	//unused				
-	"ExtraType3Resist" 		0.25	//unused				
+	"ExtraType3Resist" 		0.25	//unused
+	"SquadArtResist" 		0.8
 
 	//BOUNDARY VECTORS
 	"CollisionOffsetX" 		"0"
@@ -1350,7 +1365,8 @@ BuildingParse
 	
 	"ExtraType1Resist" 		0.25	//unused				
 	"ExtraType2Resist" 		0.25	//unused				
-	"ExtraType3Resist" 		0.25	//unused				
+	"ExtraType3Resist" 		0.25	//unused
+	"SquadArtResist" 		0.8
 
 	//BOUNDARY VECTORS
 
@@ -1414,7 +1430,8 @@ BuildingParse
 	
 	"ExtraType1Resist" 		0.25	//unused				
 	"ExtraType2Resist" 		0.25	//unused				
-	"ExtraType3Resist" 		0.25	//unused				
+	"ExtraType3Resist" 		0.25	//unused
+	"SquadArtResist" 		0.8	
 
 	//BOUNDARY VECTORS
 
@@ -1478,7 +1495,8 @@ BuildingParse
 	
 	"ExtraType1Resist" 		0.25	//unused				
 	"ExtraType2Resist" 		0.25	//unused				
-	"ExtraType3Resist" 		0.25	//unused				
+	"ExtraType3Resist" 		0.25	//unused
+	"SquadArtResist" 		0.8
 
 	//BOUNDARY VECTORS
 	"CollisionRadius" 		"0"
@@ -1542,7 +1560,8 @@ BuildingParse
 	
 	"ExtraType1Resist" 		0.4	//unused				
 	"ExtraType2Resist" 		0.94	//unused				
-	"ExtraType3Resist" 		0.94	//unused			
+	"ExtraType3Resist" 		0.94	//unused
+	"SquadArtResist" 		0.94
 	
 	//BOUNDARY VECTORS
 	"CollisionRadius" 		"160"
@@ -1620,7 +1639,8 @@ BuildingParse
 	
 	"ExtraType1Resist" 		0.4	//unused				
 	"ExtraType2Resist" 		0.94	//unused				
-	"ExtraType3Resist" 		0.94	//unused				
+	"ExtraType3Resist" 		0.94	//unused
+	"SquadArtResist" 		0.94
 
 	//BOUNDARY VECTORS
 
@@ -1698,6 +1718,7 @@ BuildingParse
 	"ExtraType1Resist" 		0.5	//unused				
 	"ExtraType2Resist" 		0.75	//unused				
 	"ExtraType3Resist" 		0.75	//unused
+	"SquadArtResist" 		0.9
 
 	//BOUNDARY VECTORS
 	"CollisionRadius" 		"600"
@@ -1765,7 +1786,8 @@ BuildingParse
 	
 	"ExtraType1Resist" 		0.5	//unused				
 	"ExtraType2Resist" 		0.75	//unused				
-	"ExtraType3Resist" 		0.75	//unused	
+	"ExtraType3Resist" 		0.75	//unused
+	"SquadArtResist" 		0.9	
 
 	//BOUNDARY VECTORS
 	"CollisionRadius" 		"600"
