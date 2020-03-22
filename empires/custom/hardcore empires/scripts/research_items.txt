@@ -657,24 +657,12 @@ research_items
 				"Parent"		"Upgraded_Turrets_Lvl_2"				//id of parent that this branches from
 				"Icon"			"comm/hex_cube"			//icon drawn on research tree
 				"Type"			"0"		//nothing
-				"Cost"			"600"		//cost of this research item
-				"Time"			"150"		//time to research this item in seconds
+				"Cost"			"360"		//cost of this research item
+				"Time"			"90"		//time to research this item in seconds
 				"Team"			""		//which team can research this
 				"XPos"			"320"
 				"YPos"			"72"
 			}
-
-
-//		"Improved_Detonators"
-//		{
-//			"Parent"		"Electrical_Engineering"				//id of parent that this branches from
-//			"Icon"			"comm/hex_cube"			//icon drawn on research tree
-//			"Type"			"0"		//nothing
-//			"Cost"			"0"		//cost of this research item
-//			"Time"			"60"		//time to research this item in seconds
-//			"Team"			""		//which team can research this
-//		}
-
 	"Biology"
 	{
 		"Parent"		"Research_Index"				//id of parent that this branches from
