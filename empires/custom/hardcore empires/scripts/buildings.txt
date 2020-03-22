@@ -1553,7 +1553,7 @@ BuildingParse
 	"InfantryMissileResist" 	0.92	//RPG						
 	"InfantryMortarResist" 		0.90	//Mortars					
 	"InfantryStickyResist" 	 	0.94	//Sticky Grenades						
-	"InfantrySeismicResist" 	0.70	//Seismic Grenades						
+	"InfantrySeismicResist" 	0.50	//Seismic Grenades						
 	"InfantryBulletResist" 		1	//Infantry Guns					
 	"InfantryUtilityResist"		1	//Utility Grenades, Like smoke and concussion
 	"InfantryMeleeResist"		1	//Melee
@@ -1632,7 +1632,7 @@ BuildingParse
 	"InfantryMissileResist" 	0.92	//RPG						
 	"InfantryMortarResist" 		0.90	//Mortars					
 	"InfantryStickyResist" 	 	0.94	//Sticky Grenades						
-	"InfantrySeismicResist" 	0.70	//Seismic Grenades						
+	"InfantrySeismicResist" 	0.50	//Seismic Grenades						
 	"InfantryBulletResist" 		1	//Infantry Guns					
 	"InfantryUtilityResist"		1	//Utility Grenades, Like smoke and concussion
 	"InfantryMeleeResist"		1	//Melee
