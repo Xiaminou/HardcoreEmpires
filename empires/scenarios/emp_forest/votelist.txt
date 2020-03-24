@@ -1,0 +1,21 @@
+"VoteList"
+{
+	"enabled"		"1"
+	"scenarios"
+	{
+		"Alpha"
+		{
+			"min_players"		"32"
+			"max_players"		"64"
+			"name_override"		"War for the middle"
+			"description_override"		"[Type: Gameplay & Location] Start in the middle (C3 & E5)"
+		}
+		"Bravo"
+		{
+			"min_players"		"0"
+			"max_players"		"64"
+			"name_override"		"Cornered"
+			"description_override"		"[Type: Location] Start North-West (B6) and South-East (F2)"
+		}
+	}
+}

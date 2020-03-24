@@ -1,0 +1,21 @@
+"VoteList"
+{
+	"scenarios"
+	{
+		"Alpha"
+		{
+			"min_players"		"0"
+			"max_players"		"64"
+			"name_override"		"Defenseless"
+			"description_override"		"[Type: Gameplay] Removes starting turrets"
+		}
+		"Bravo"
+		{
+			"min_players"		"42"
+			"max_players"		"64"
+			"name_override"		"All your base are belong to us"
+			"description_override"		"[Type: Location & Gameplay] Both teams start with a barracks at North-East and a barracks at South-West"
+		}
+	}
+	"enabled"		"1"
+}

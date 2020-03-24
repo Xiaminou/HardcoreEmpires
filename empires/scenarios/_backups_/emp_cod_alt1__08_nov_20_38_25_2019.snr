@@ -1,0 +1,137 @@
+"Scenario"
+{
+	"NF_Res"		"400.000000"
+	"BE_Res"		"400.000000"
+	"NF_Tickets"		"85.050003"
+	"BE_Tickets"		"85.050003"
+	"NF_Research"
+	{
+		"0"		"1"
+	}
+	"BE_Research"
+	{
+		"0"		"1"
+	}
+	"Entities"
+	{
+		"5000001"
+		{
+			"className"		"emp_building_nf_refinery"
+			"position"		"336.000000 -7624.000000 -3040.000000"
+			"angles"		"0.000000 -91.192017 0.000000"
+			"coords"		"C1"
+			"built"		"1"
+			"health"		"150"
+			"team"		"2"
+			"target"		"ref3"
+		}
+		"5000002"
+		{
+			"className"		"emp_building_imp_barracks"
+			"position"		"716.309937 6196.007813 -3062.971924"
+			"angles"		"0.000000 265.435669 0.000000"
+			"coords"		"C5"
+			"built"		"1"
+			"health"		"250"
+			"team"		"3"
+		}
+		"283393"
+		{
+			"className"		"emp_imp_commander"
+			"position"		"143.717194 6359.534180 -3067.327881"
+			"angles"		"0.000001 -4.569844 1.249862"
+			"coords"		"C5"
+		}
+		"283397"
+		{
+			"className"		"emp_nf_commander"
+			"position"		"1010.178894 -6595.937988 -2994.673584"
+			"angles"		"0.000018 83.588188 -0.585846"
+			"coords"		"C1"
+		}
+		"5000003"
+		{
+			"className"		"emp_building_imp_refinery"
+			"position"		"1432.000000 5552.000000 -3040.000000"
+			"angles"		"0.000000 93.048706 0.000000"
+			"coords"		"C4"
+			"built"		"1"
+			"health"		"150"
+			"team"		"3"
+			"target"		"ref2"
+		}
+		"314010"
+		{
+			"className"		"emp_resource_point"
+			"name"		"ref3"
+			"position"		"336.000000 -7624.000000 -3040.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"C1"
+			"enabled"		"0"
+			"resPerSecond"		"1.000000"
+		}
+		"314145"
+		{
+			"className"		"emp_resource_point"
+			"name"		"ref6"
+			"position"		"-5552.000000 1512.000000 -3040.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"A3"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+		}
+		"314168"
+		{
+			"className"		"emp_resource_point"
+			"name"		"ref2"
+			"position"		"1432.000000 5552.000000 -3040.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"C4"
+			"enabled"		"0"
+			"resPerSecond"		"1.000000"
+		}
+		"314178"
+		{
+			"className"		"emp_resource_point"
+			"name"		"ref1"
+			"position"		"5224.000000 -1392.000000 -3040.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"D3"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+		}
+		"314186"
+		{
+			"className"		"emp_resource_point"
+			"name"		"ref4"
+			"position"		"6928.000000 4560.000000 -3072.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"E4"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+		}
+		"314198"
+		{
+			"className"		"emp_resource_point"
+			"name"		"ref5"
+			"position"		"-4560.000000 -6952.000000 -3056.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"B1"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+		}
+		"5000004"
+		{
+			"className"		"emp_building_nf_barracks"
+			"position"		"1207.270386 -7460.187988 -3067.153076"
+			"angles"		"0.000000 445.396942 0.000000"
+			"coords"		"C1"
+			"built"		"1"
+			"health"		"250"
+			"team"		"2"
+		}
+	}
+	"Author"		"Xiam"
+	"BaseSwap"		"0"
+	"version"		"0.470000"
+}

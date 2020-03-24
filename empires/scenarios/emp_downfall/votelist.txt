@@ -1,0 +1,14 @@
+"VoteList"
+{
+	"scenarios"
+	{
+		"Alpha"
+		{
+			"min_players"		"20"
+			"max_players"		"64"
+			"name_override"		"Triple"
+			"description_override"		"[Type: Gameplay & Location] Start at West (A3) and East (E3)"
+		}
+	}
+	"enabled"		"1"
+}

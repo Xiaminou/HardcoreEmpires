@@ -1,0 +1,28 @@
+"VoteList"
+{
+	"scenarios"
+	{
+		"Alpha"
+		{
+			"min_players"		"0"
+			"max_players"		"64"
+			"name_override"		"Additionnal Refinery"
+			"description_override"		"[Type: Quality of Life] Start with an additional refinery"
+		}
+		"Bravo"
+		{
+			"min_players"		"0"
+			"max_players"		"64"
+			"name_override"		"Sidelined"
+			"description_override"		"[Type: Location] Start West (A3) and East (E3)"
+		}
+		"Charlie"
+		{
+			"min_players"		"32"
+			"max_players"		"64"
+			"name_override"		"War for the Bunker"
+			"description_override"		"[Type: Location & Gameplay] Start Middle (C3 & C4)"
+		}
+	}
+	"enabled"		"1"
+}

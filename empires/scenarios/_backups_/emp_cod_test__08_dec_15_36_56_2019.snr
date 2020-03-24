@@ -1,0 +1,187 @@
+"Scenario"
+{
+	"NF_Res"		"800.000000"
+	"BE_Res"		"800.000000"
+	"NF_Tickets"		"85.000000"
+	"BE_Tickets"		"85.000000"
+	"NF_Research"
+	{
+		"0"		"1"
+	}
+	"BE_Research"
+	{
+		"0"		"1"
+	}
+	"Entities"
+	{
+		"273029"
+		{
+			"className"		"emp_building_nf_barracks"
+			"position"		"5376.000000 1024.000000 -3072.000000"
+			"angles"		"0.000000 271.000000 0.000000"
+			"coords"		"D3"
+			"built"		"1"
+			"health"		"250"
+			"team"		"2"
+		}
+		"283337"
+		{
+			"className"		"emp_building_imp_armory"
+			"position"		"-5376.000000 0.000000 -3068.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"A3"
+			"built"		"1"
+			"health"		"100"
+			"team"		"3"
+		}
+		"283346"
+		{
+			"className"		"emp_building_imp_barracks"
+			"position"		"-5376.000000 -1024.000000 -3068.000000"
+			"angles"		"0.000000 272.000000 0.000000"
+			"coords"		"A3"
+			"built"		"1"
+			"health"		"250"
+			"team"		"3"
+		}
+		"283393"
+		{
+			"className"		"emp_imp_commander"
+			"position"		"-5119.934082 737.437744 -3065.550049"
+			"angles"		"0.097820 -0.006780 1.775176"
+			"coords"		"B3"
+		}
+		"283397"
+		{
+			"className"		"emp_nf_commander"
+			"position"		"5121.564453 -658.906738 -2993.848877"
+			"angles"		"0.494444 -0.043809 -0.570190"
+			"coords"		"D3"
+		}
+		"297079"
+		{
+			"className"		"emp_building_nf_armory"
+			"position"		"5120.000000 0.000000 -3072.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"D3"
+			"built"		"1"
+			"health"		"100"
+			"team"		"2"
+		}
+		"314010"
+		{
+			"className"		"emp_resource_point"
+			"name"		"ref3"
+			"position"		"512.084167 -6833.410156 -2970.445801"
+			"angles"		"0.000000 -86.951294 0.000000"
+			"coords"		"C1"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+		}
+		"314145"
+		{
+			"className"		"emp_resource_point"
+			"name"		"ref6"
+			"position"		"-5552.000000 1512.000000 -3040.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"A3"
+			"enabled"		"0"
+			"resPerSecond"		"1.000000"
+		}
+		"314168"
+		{
+			"className"		"emp_resource_point"
+			"name"		"ref2"
+			"position"		"1432.000000 5552.000000 -3040.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"C4"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+		}
+		"314178"
+		{
+			"className"		"emp_resource_point"
+			"name"		"ref1"
+			"position"		"5224.000000 -1392.000000 -3040.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"D3"
+			"enabled"		"0"
+			"resPerSecond"		"1.000000"
+		}
+		"314186"
+		{
+			"className"		"emp_resource_point"
+			"name"		"ref4"
+			"position"		"6928.000000 4560.000000 -3072.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"E4"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+		}
+		"314198"
+		{
+			"className"		"emp_resource_point"
+			"name"		"ref5"
+			"position"		"-4560.000000 -6952.000000 -3056.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"B1"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+		}
+		"314225"
+		{
+			"className"		"emp_building_nf_refinery"
+			"position"		"5224.000000 -1392.000000 -3049.739990"
+			"angles"		"0.000000 92.000000 0.000000"
+			"coords"		"D3"
+			"built"		"1"
+			"health"		"150"
+			"team"		"2"
+			"target"		"ref1"
+		}
+		"314280"
+		{
+			"className"		"emp_building_imp_refinery"
+			"position"		"-5552.000000 1512.000000 -3048.969971"
+			"angles"		"0.000000 228.000000 0.000000"
+			"coords"		"A3"
+			"built"		"1"
+			"health"		"150"
+			"team"		"3"
+			"target"		"ref6"
+		}
+		"5000001"
+		{
+			"className"		"prop_dynamic"
+			"position"		"850.018372 -7506.320313 -3075.150635"
+			"angles"		"-0.000000 43.363041 0.000000"
+			"coords"		"C1"
+			"model"		"models/imperial/props/imp_crate1.mdl"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"health"		"0"
+			"TakeDamage"		"1"
+			"MinHealthDamage"		"0"
+			"StartDisabled"		"0"
+		}
+		"5000002"
+		{
+			"className"		"prop_dynamic"
+			"position"		"-170.128113 -6225.838379 -3051.813965"
+			"angles"		"-0.000000 -37.227180 0.000000"
+			"coords"		"C2"
+			"model"		"models/imperial/props/imp_crate1.mdl"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+			"health"		"0"
+			"TakeDamage"		"1"
+			"MinHealthDamage"		"0"
+			"StartDisabled"		"0"
+		}
+	}
+	"Author"		"Xiam"
+	"BaseSwap"		"1"
+	"CommFreezeTime"		"-1"
+	"version"		"0.680000"
+	"hLimit"		"314280"
+}

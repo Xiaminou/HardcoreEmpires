@@ -1,0 +1,29 @@
+"VoteList"
+{
+	"scenarios"
+	{
+		"Alpha"
+		{
+			"min_players"		"0"
+			"max_players"		"64"
+			"name_override"		"Safety"
+			"description_override"		"[Type: Quality of Life] Start with a barracks but -100 resources"
+		}
+		"Bravo"
+		{
+			"min_players"		"0"
+			"max_players"		"64"
+			"name_override"		"Movement"
+			"description_override"		"[Type: Quality of Life] Start with a barracks and vehicle factory but -200 resources"
+		}
+		"Charlie"
+		{
+			"min_players"		"0"
+			"max_players"		"64"
+			"name_override"		"Freedom"
+			"description_override"		"[Type: Gameplay] Start with a barracks and the command vehicle on the ground"
+		}
+		
+	}
+	"enabled"		"1"
+}

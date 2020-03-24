@@ -1,0 +1,14 @@
+"VoteList"
+{
+	"scenarios"
+	{
+		"Slaughtered"
+		{
+			"min_players"		"0"
+			"max_players"		"64"
+			"name_override"		"-"
+			"description_override"		"-"
+		}
+	}
+	"enabled"		"1"
+}

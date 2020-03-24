@@ -1,0 +1,288 @@
+"Scenario"
+{
+	"Entities"
+	{
+		"5000158"
+		{
+			"className"		"emp_building_nf_armory"
+			"position"		"-11505.849609 -8625.992188 -62.529877"
+			"angles"		"0.000000 1.917114 0.000000"
+			"coords"		"A2"
+			"built"		"1"
+			"health"		"100"
+			"team"		"2"
+		}
+		"25327"
+		{
+			"className"		"emp_imp_commander"
+			"position"		"8443.355469 9022.849609 -59.772987"
+			"angles"		"-6.019213 -0.250979 1.674622"
+			"coords"		"D5"
+		}
+		"25329"
+		{
+			"className"		"emp_nf_commander"
+			"position"		"-9930.385742 -9439.327148 2.330449"
+			"angles"		"-0.000001 0.000004 -0.584625"
+			"coords"		"A2"
+		}
+		"121367"
+		{
+			"className"		"emp_resource_point"
+			"name"		"res_spot_8"
+			"position"		"-6079.549805 5408.000000 62.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"B4"
+			"enabled"		"1"
+			"resPerSecond"		"2.000000"
+		}
+		"121428"
+		{
+			"className"		"emp_resource_point"
+			"name"		"res_spot_1"
+			"position"		"7115.950195 -5348.620117 -60.788700"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"D2"
+			"enabled"		"1"
+			"resPerSecond"		"2.000000"
+		}
+		"121514"
+		{
+			"className"		"emp_resource_point"
+			"name"		"res_spot_2"
+			"position"		"2885.229980 -4108.000000 324.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"C2"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+		}
+		"121596"
+		{
+			"className"		"emp_resource_point"
+			"name"		"res_spot_3"
+			"position"		"-3449.070068 -3786.000000 316.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"B2"
+			"enabled"		"1"
+			"resPerSecond"		"2.000000"
+		}
+		"121619"
+		{
+			"className"		"emp_resource_point"
+			"name"		"res_spot_7"
+			"position"		"-3076.739990 3974.000000 306.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"B4"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+		}
+		"121704"
+		{
+			"className"		"emp_resource_point"
+			"name"		"res_spot_6"
+			"position"		"3396.750000 3759.449951 300.362000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"C4"
+			"enabled"		"1"
+			"resPerSecond"		"2.000000"
+		}
+		"121720"
+		{
+			"className"		"emp_resource_point"
+			"name"		"res_spot_5"
+			"position"		"8500.969727 7774.000000 28.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"D4"
+			"enabled"		"0"
+			"resPerSecond"		"1.000000"
+		}
+		"121759"
+		{
+			"className"		"emp_resource_point"
+			"name"		"res_spot_4"
+			"position"		"-9654.469727 -8538.000000 -66.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"A2"
+			"enabled"		"0"
+			"resPerSecond"		"1.000000"
+		}
+		"5000159"
+		{
+			"className"		"emp_nf_ammo_crate"
+			"position"		"-11574.472656 -8668.311523 -32.529877"
+			"angles"		"0.000000 1.917114 0.000000"
+			"coords"		"A2"
+			"pointNumber"		"0"
+			"disabled"		"0"
+			"model"		"models/nf/props/nf_crateammo.mdl"
+		}
+		"123611"
+		{
+			"className"		"emp_resource_point_prop"
+			"position"		"7128.000000 -5350.000000 -73.859703"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"D2"
+			"enabled"		"1"
+			"model"		"models/props_wasteland/rockgranite02b.mdl"
+		}
+		"123668"
+		{
+			"className"		"emp_resource_point_prop"
+			"position"		"2895.000000 -4107.000000 312.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"C2"
+			"enabled"		"1"
+			"model"		"models/props_wasteland/rockgranite02b.mdl"
+		}
+		"123680"
+		{
+			"className"		"emp_resource_point_prop"
+			"position"		"-3440.000000 -3785.000000 302.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"B2"
+			"enabled"		"1"
+			"model"		"models/props_wasteland/rockgranite02b.mdl"
+		}
+		"123696"
+		{
+			"className"		"emp_resource_point_prop"
+			"position"		"-9646.000000 -8537.000000 -80.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"A2"
+			"enabled"		"1"
+			"model"		"models/props_wasteland/rockgranite02b.mdl"
+		}
+		"123712"
+		{
+			"className"		"emp_resource_point_prop"
+			"position"		"8511.000000 7776.000000 14.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"D4"
+			"enabled"		"1"
+			"model"		"models/props_wasteland/rockgranite02b.mdl"
+		}
+		"123728"
+		{
+			"className"		"emp_resource_point_prop"
+			"position"		"3403.000000 3758.000000 291.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"C4"
+			"enabled"		"1"
+			"model"		"models/props_wasteland/rockgranite02b.mdl"
+		}
+		"123752"
+		{
+			"className"		"emp_resource_point_prop"
+			"position"		"-3069.000000 3976.000000 294.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"B4"
+			"enabled"		"1"
+			"model"		"models/props_wasteland/rockgranite02b.mdl"
+		}
+		"123764"
+		{
+			"className"		"emp_resource_point_prop"
+			"position"		"-6046.770020 5591.359863 -75.724503"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"B4"
+			"enabled"		"1"
+			"model"		"models/props_wasteland/rockgranite02b.mdl"
+		}
+		"123768"
+		{
+			"className"		"emp_resource_point_prop"
+			"position"		"-6073.000000 5407.000000 49.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"B4"
+			"enabled"		"1"
+			"model"		"models/props_wasteland/rockgranite02b.mdl"
+		}
+		"5000160"
+		{
+			"className"		"emp_nf_health_crate"
+			"position"		"-11577.148438 -8588.356445 -32.529877"
+			"angles"		"0.000000 1.917114 0.000000"
+			"coords"		"A2"
+			"pointNumber"		"0"
+			"disabled"		"0"
+			"model"		"models/nf/props/nf_cratehealth.mdl"
+		}
+		"5000161"
+		{
+			"className"		"emp_building_imp_refinery"
+			"position"		"8500.969727 7774.000000 28.000000"
+			"angles"		"0.000000 89.593506 0.000000"
+			"coords"		"D4"
+			"built"		"1"
+			"health"		"150"
+			"team"		"3"
+			"target"		"res_spot_5"
+		}
+		"5000162"
+		{
+			"className"		"emp_building_imp_barracks"
+			"position"		"7870.075684 8546.410156 -51.256538"
+			"angles"		"0.000000 128.353287 0.000000"
+			"coords"		"D4"
+			"built"		"1"
+			"health"		"250"
+			"team"		"3"
+		}
+		"5000163"
+		{
+			"className"		"emp_building_nf_refinery"
+			"position"		"-9654.469727 -8538.000000 -66.000000"
+			"angles"		"0.000000 -160.675049 0.000000"
+			"coords"		"A2"
+			"built"		"1"
+			"health"		"150"
+			"team"		"2"
+			"target"		"res_spot_4"
+		}
+		"5000164"
+		{
+			"className"		"emp_building_imp_armory"
+			"position"		"7331.240234 9299.098633 -69.949745"
+			"angles"		"0.000000 125.628670 0.000000"
+			"coords"		"D5"
+			"built"		"1"
+			"health"		"100"
+			"team"		"3"
+		}
+		"5000165"
+		{
+			"className"		"emp_building_nf_barracks"
+			"position"		"-10580.880859 -8531.580078 -76.000000"
+			"angles"		"0.000000 2.867432 0.000000"
+			"coords"		"A2"
+			"built"		"1"
+			"health"		"250"
+			"team"		"2"
+		}
+		"5000166"
+		{
+			"className"		"emp_imp_ammo_crate"
+			"position"		"7249.061523 9275.573242 -47.524746"
+			"angles"		"-0.000000 35.628681 0.000000"
+			"coords"		"D5"
+			"pointNumber"		"0"
+			"disabled"		"0"
+			"model"		"models/imperial/props/imp_crateammo.mdl"
+		}
+		"5000167"
+		{
+			"className"		"emp_imp_health_crate"
+			"position"		"7282.556641 9228.836914 -47.524746"
+			"angles"		"-0.000000 35.628681 0.000000"
+			"coords"		"D5"
+			"pointNumber"		"0"
+			"disabled"		"0"
+			"model"		"models/imperial/props/imp_cratehealth.mdl"
+		}
+	}
+	"Description"		"[Type: Location] Start at South-West (A2) and North-East (D4)"
+	"details"		" "
+	"Author"		"Xiam"
+	"BaseSwap"		"1"
+	"version"		"0.530000"
+}

@@ -1,0 +1,245 @@
+"Scenario"
+{
+	"NF_Res"		"400.080017"
+	"BE_Res"		"400.080017"
+	"NF_Tickets"		"141.440002"
+	"BE_Tickets"		"141.440002"
+	"NF_Research"
+	{
+		"0"		"1"
+	}
+	"BE_Research"
+	{
+		"0"		"1"
+	}
+	"Entities"
+	{
+		"19274"
+		{
+			"className"		"emp_building_nf_barracks"
+			"position"		"3328.000000 -11616.000000 768.000000"
+			"angles"		"0.000000 316.500000 0.000000"
+			"coords"		"C1"
+			"built"		"1"
+			"maxHealth"		"250"
+			"health"		"250"
+			"team"		"2"
+		}
+		"19267"
+		{
+			"className"		"emp_building_imp_barracks"
+			"position"		"-2640.000000 11808.000000 768.000000"
+			"angles"		"0.000000 21.500000 0.000000"
+			"coords"		"B5"
+			"built"		"1"
+			"maxHealth"		"250"
+			"health"		"250"
+			"team"		"3"
+		}
+		"98297"
+		{
+			"className"		"emp_building_nf_vehiclefactory"
+			"position"		"4272.000000 -10992.000000 768.000000"
+			"angles"		"0.000000 47.500000 0.000000"
+			"coords"		"D1"
+			"built"		"1"
+			"maxHealth"		"250"
+			"health"		"250"
+			"team"		"2"
+		}
+		"98131"
+		{
+			"className"		"emp_building_imp_vehiclefactory"
+			"position"		"-4144.000000 11296.000000 768.000000"
+			"angles"		"0.000000 220.500000 0.000000"
+			"coords"		"B5"
+			"built"		"1"
+			"maxHealth"		"250"
+			"health"		"250"
+			"team"		"3"
+		}
+		"19283"
+		{
+			"className"		"emp_imp_commander"
+			"position"		"-3647.797607 12015.665039 778.475586"
+			"angles"		"-1.106227 45.999546 1.349841"
+			"coords"		"B5"
+		}
+		"19277"
+		{
+			"className"		"emp_nf_commander"
+			"position"		"4239.686523 -11823.664063 847.955994"
+			"angles"		"-0.012642 -132.498520 -0.629395"
+			"coords"		"D1"
+		}
+		"19918"
+		{
+			"className"		"emp_building_nf_refinery"
+			"position"		"1024.000000 -11264.000000 784.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"C1"
+			"built"		"1"
+			"maxHealth"		"150"
+			"health"		"150"
+			"team"		"2"
+			"target"		"r_nf_start_1"
+		}
+		"19994"
+		{
+			"className"		"emp_building_imp_refinery"
+			"position"		"-1024.000000 11264.000000 784.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"C5"
+			"built"		"1"
+			"maxHealth"		"150"
+			"health"		"150"
+			"team"		"3"
+			"target"		"r_be_start_1"
+		}
+		"19896"
+		{
+			"className"		"emp_resource_point"
+			"position"		"1024.000000 7104.000000 528.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"C4"
+			"effects"		"80"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+		}
+		"19894"
+		{
+			"className"		"emp_resource_point"
+			"position"		"8192.000000 6208.000000 784.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"D4"
+			"effects"		"80"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+		}
+		"19892"
+		{
+			"className"		"emp_resource_point"
+			"position"		"5120.000000 -640.000000 544.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"D3"
+			"effects"		"80"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+		}
+		"19888"
+		{
+			"className"		"emp_resource_point"
+			"position"		"1024.000000 -11264.000000 784.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"C1"
+			"name"		"r_nf_start_1"
+			"effects"		"80"
+			"enabled"		"0"
+			"resPerSecond"		"1.000000"
+		}
+		"19936"
+		{
+			"className"		"emp_resource_point"
+			"position"		"-1024.000000 -7104.000000 528.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"C2"
+			"effects"		"80"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+		}
+		"19938"
+		{
+			"className"		"emp_resource_point"
+			"position"		"-8192.000000 -6208.000000 784.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"B2"
+			"effects"		"80"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+		}
+		"19940"
+		{
+			"className"		"emp_resource_point"
+			"position"		"-5120.000000 640.000000 544.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"B3"
+			"effects"		"80"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+		}
+		"19946"
+		{
+			"className"		"emp_resource_point"
+			"position"		"-1024.000000 11264.000000 796.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"C5"
+			"name"		"r_be_start_1"
+			"effects"		"80"
+			"enabled"		"0"
+			"resPerSecond"		"1.000000"
+		}
+		"89365"
+		{
+			"className"		"emp_resource_point_prop"
+			"position"		"-5136.000000 632.000000 512.000000"
+			"angles"		"90.000000 180.000000 0.000000"
+			"coords"		"B3"
+			"enabled"		"1"
+			"model"		"models/props_pipes/destroyedpipes01d.mdl"
+		}
+		"89389"
+		{
+			"className"		"emp_resource_point_prop"
+			"position"		"-8208.000000 -6216.000000 768.000000"
+			"angles"		"90.000000 180.000000 0.000000"
+			"coords"		"B2"
+			"enabled"		"1"
+			"model"		"models/props_pipes/destroyedpipes01d.mdl"
+		}
+		"89409"
+		{
+			"className"		"emp_resource_point_prop"
+			"position"		"-1040.000000 -7112.000000 448.000000"
+			"angles"		"90.000000 180.000000 0.000000"
+			"coords"		"C2"
+			"enabled"		"1"
+			"model"		"models/props_pipes/destroyedpipes01d.mdl"
+		}
+		"89680"
+		{
+			"className"		"emp_resource_point_prop"
+			"position"		"1008.000000 7100.000000 448.000000"
+			"angles"		"90.000000 180.000000 0.000000"
+			"coords"		"C4"
+			"enabled"		"1"
+			"model"		"models/props_pipes/destroyedpipes01d.mdl"
+		}
+		"89684"
+		{
+			"className"		"emp_resource_point_prop"
+			"position"		"8176.000000 6200.000000 768.000000"
+			"angles"		"90.000000 180.000000 0.000000"
+			"coords"		"D4"
+			"enabled"		"1"
+			"model"		"models/props_pipes/destroyedpipes01d.mdl"
+		}
+		"89688"
+		{
+			"className"		"emp_resource_point_prop"
+			"position"		"5104.000000 -648.000000 512.000000"
+			"angles"		"90.000000 180.000000 0.000000"
+			"coords"		"D3"
+			"enabled"		"1"
+			"model"		"models/props_pipes/destroyedpipes01d.mdl"
+		}
+	}
+	"Description"		" "
+	"details"		" "
+	"Author"		"Hardcore Empires - The Tradiona"
+	"BaseSwap"		"-1"
+	"CommFreezeTime"		"-1"
+	"PlayerRefineryMultiplier"		"-1.000000"
+	"RefineryMultiplier"		"-1.000000"
+	"version"		"0.880000"
+	"hLimit"		"130994"
+}

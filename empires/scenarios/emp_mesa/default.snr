@@ -1,0 +1,278 @@
+"Scenario"
+{
+	"NF_Res"		"400.200012"
+	"BE_Res"		"400.200012"
+	"NF_Tickets"		"281.600006"
+	"BE_Tickets"		"281.600006"
+	"NF_Research"
+	{
+		"0"		"1"
+	}
+	"BE_Research"
+	{
+		"0"		"1"
+	}
+	"Entities"
+	{
+		"142238"
+		{
+			"className"		"emp_nf_commander"
+			"position"		"-10611.137695 -11557.371094 284.232727"
+			"angles"		"0.054504 -49.416214 -0.678680"
+			"coords"		"A2"
+		}
+		"142256"
+		{
+			"className"		"emp_building_nf_barracks"
+			"position"		"-11260.000000 -12110.000000 208.000000"
+			"angles"		"0.000000 312.000000 0.000000"
+			"coords"		"A2"
+			"built"		"1"
+			"health"		"250"
+			"team"		"2"
+		}
+		"142288"
+		{
+			"className"		"emp_imp_commander"
+			"position"		"11976.251953 11568.327148 205.950165"
+			"angles"		"0.397714 130.498901 1.588973"
+			"coords"		"E6"
+		}
+		"142299"
+		{
+			"className"		"emp_building_imp_barracks"
+			"position"		"12552.000000 12024.000000 200.000000"
+			"angles"		"0.000000 310.500000 0.000000"
+			"coords"		"E6"
+			"built"		"1"
+			"health"		"250"
+			"team"		"3"
+		}
+		"266490"
+		{
+			"className"		"emp_resource_point_prop"
+			"name"		"resnode 1"
+			"position"		"11040.000000 -9760.000000 528.000000"
+			"angles"		"0.000000 222.500000 0.000000"
+			"coords"		"E2"
+			"enabled"		"1"
+			"model"		"models/props_wasteland/laundry_washer001a.mdl"
+		}
+		"266520"
+		{
+			"className"		"emp_resource_point"
+			"name"		"res1"
+			"position"		"11040.000000 -9760.000000 520.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"E2"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+		}
+		"266588"
+		{
+			"className"		"emp_resource_point_prop"
+			"name"		"resnode 2"
+			"position"		"7424.000000 -7456.000000 -288.000000"
+			"angles"		"0.000000 90.000000 0.000000"
+			"coords"		"D3"
+			"enabled"		"1"
+			"model"		"models/props_wasteland/laundry_washer001a.mdl"
+		}
+		"266604"
+		{
+			"className"		"emp_resource_point"
+			"name"		"res2"
+			"position"		"7424.000000 -7456.000000 -292.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"D3"
+			"enabled"		"1"
+			"resPerSecond"		"2.000000"
+		}
+		"266952"
+		{
+			"className"		"emp_resource_point_prop"
+			"name"		"resnode 3"
+			"position"		"-1928.000000 518.000000 1760.000000"
+			"angles"		"0.000000 90.000000 0.000000"
+			"coords"		"C4"
+			"enabled"		"1"
+			"model"		"models/props_wasteland/laundry_washer001a.mdl"
+		}
+		"266970"
+		{
+			"className"		"emp_resource_point"
+			"name"		"res3"
+			"position"		"-1925.000000 518.000000 1751.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"C4"
+			"enabled"		"1"
+			"resPerSecond"		"2.000000"
+		}
+		"267094"
+		{
+			"className"		"emp_resource_point"
+			"name"		"res5"
+			"position"		"1536.000000 13024.000000 168.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"C6"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+		}
+		"267188"
+		{
+			"className"		"emp_resource_point"
+			"name"		"res4"
+			"position"		"-2544.000000 -13776.000000 168.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"C2"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+		}
+		"267210"
+		{
+			"className"		"emp_resource_point_prop"
+			"name"		"resnode 4"
+			"position"		"-2544.000000 -13776.000000 176.000000"
+			"angles"		"0.000000 90.000000 0.000000"
+			"coords"		"C2"
+			"enabled"		"1"
+			"model"		"models/props_wasteland/laundry_washer001a.mdl"
+		}
+		"267232"
+		{
+			"className"		"emp_resource_point_prop"
+			"name"		"resnode 5"
+			"position"		"1536.000000 13024.000000 176.000000"
+			"angles"		"0.000000 90.000000 0.000000"
+			"coords"		"C6"
+			"enabled"		"1"
+			"model"		"models/props_wasteland/laundry_washer001a.mdl"
+		}
+		"267254"
+		{
+			"className"		"emp_resource_point"
+			"name"		"res6"
+			"position"		"-12160.000000 9088.000000 616.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"A5"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+		}
+		"267300"
+		{
+			"className"		"emp_resource_point_prop"
+			"name"		"resnode 6"
+			"position"		"-12160.000000 9088.000000 624.000000"
+			"angles"		"0.000000 90.000000 0.000000"
+			"coords"		"A5"
+			"enabled"		"1"
+			"model"		"models/props_wasteland/laundry_washer001a.mdl"
+		}
+		"267340"
+		{
+			"className"		"emp_resource_point"
+			"name"		"res7"
+			"position"		"-9088.000000 12160.000000 616.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"B6"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+		}
+		"267378"
+		{
+			"className"		"emp_resource_point_prop"
+			"name"		"resnode 7"
+			"position"		"-9088.000000 12160.000000 624.000000"
+			"angles"		"0.000000 90.000000 0.000000"
+			"coords"		"B6"
+			"enabled"		"1"
+			"model"		"models/props_wasteland/laundry_washer001a.mdl"
+		}
+		"267408"
+		{
+			"className"		"emp_resource_point"
+			"name"		"res8"
+			"position"		"-13960.000000 -11488.000000 616.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"A2"
+			"enabled"		"0"
+			"resPerSecond"		"2.000000"
+		}
+		"267434"
+		{
+			"className"		"emp_resource_point_prop"
+			"name"		"resnode 8"
+			"position"		"-13960.000000 -11488.000000 624.000000"
+			"angles"		"0.000000 90.000000 0.000000"
+			"coords"		"A2"
+			"enabled"		"0"
+			"model"		"models/props_wasteland/laundry_washer001a.mdl"
+		}
+		"267466"
+		{
+			"className"		"emp_resource_point"
+			"name"		"res9"
+			"position"		"11008.000000 14240.000000 199.994003"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"E6"
+			"enabled"		"0"
+			"resPerSecond"		"2.000000"
+		}
+		"267506"
+		{
+			"className"		"emp_resource_point_prop"
+			"name"		"resnode 9"
+			"position"		"11008.000000 14240.000000 208.000000"
+			"angles"		"0.000000 90.000000 0.000000"
+			"coords"		"E6"
+			"enabled"		"0"
+			"model"		"models/props_wasteland/laundry_washer001a.mdl"
+		}
+		"267529"
+		{
+			"className"		"emp_building_imp_refinery"
+			"position"		"11008.000000 14240.000000 192.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"E6"
+			"built"		"1"
+			"health"		"150"
+			"team"		"3"
+			"target"		"res9"
+		}
+		"267555"
+		{
+			"className"		"emp_building_nf_refinery"
+			"position"		"-13960.000000 -11489.000000 607.000000"
+			"angles"		"0.000000 167.500000 0.000000"
+			"coords"		"A2"
+			"built"		"1"
+			"health"		"150"
+			"team"		"2"
+			"target"		"res8"
+		}
+		"405181"
+		{
+			"className"		"prop_dynamic"
+			"position"		"-1809.000000 4939.000000 225.000000"
+			"angles"		"0.000000 45.000000 0.000000"
+			"coords"		"C5"
+			"model"		"models/props_c17/metalladder001.mdl"
+			"SolidType"		"3"
+			"CollisionGroup"		"0"
+			"health"		"0"
+			"TakeDamage"		"1"
+			"Effects"		"16"
+			"ShadowCastDistance"		"0.000000"
+			"StartDisabled"		"0"
+		}
+	}
+	"Description"		" "
+	"details"		" "
+	"Author"		"Hardcore Empires"
+	"BaseSwap"		"-1"
+	"CommFreezeTime"		"-1"
+	"PlayerRefineryMultiplier"		"-1.000000"
+	"RefineryMultiplier"		"-1.000000"
+	"version"		"0.700000"
+	"hLimit"		"405181"
+}

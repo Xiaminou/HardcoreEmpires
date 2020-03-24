@@ -1,0 +1,171 @@
+"Scenario"
+{
+	"NF_Res"		"400.000000"
+	"BE_Res"		"400.000000"
+	"NF_Tickets"		"85.050003"
+	"BE_Tickets"		"85.050003"
+	"NF_Research"
+	{
+		"0"		"1"
+	}
+	"BE_Research"
+	{
+		"0"		"1"
+	}
+	"Entities"
+	{
+		"273029"
+		{
+			"className"		"emp_building_nf_barracks"
+			"position"		"5376.000000 1024.000000 -3072.000000"
+			"angles"		"0.000000 271.000000 0.000000"
+			"coords"		"D3"
+			"built"		"1"
+			"health"		"250"
+			"team"		"2"
+		}
+		"283337"
+		{
+			"className"		"emp_building_imp_armory"
+			"position"		"-5376.000000 0.000000 -3068.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"A3"
+			"built"		"1"
+			"health"		"100"
+			"team"		"3"
+		}
+		"283346"
+		{
+			"className"		"emp_building_imp_barracks"
+			"position"		"-5376.000000 -1024.000000 -3068.000000"
+			"angles"		"0.000000 272.000000 0.000000"
+			"coords"		"A3"
+			"built"		"1"
+			"health"		"250"
+			"team"		"3"
+		}
+		"283393"
+		{
+			"className"		"emp_imp_commander"
+			"position"		"-5119.958984 760.205505 -3065.232422"
+			"angles"		"0.141571 -0.001068 1.865103"
+			"coords"		"B3"
+		}
+		"283397"
+		{
+			"className"		"emp_nf_commander"
+			"position"		"5121.413574 -645.002075 -2993.800537"
+			"angles"		"0.515172 -0.033372 -0.564636"
+			"coords"		"D3"
+		}
+		"297079"
+		{
+			"className"		"emp_building_nf_armory"
+			"position"		"5120.000000 0.000000 -3072.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"D3"
+			"built"		"1"
+			"health"		"100"
+			"team"		"2"
+		}
+		"314010"
+		{
+			"className"		"emp_resource_point"
+			"name"		"ref3"
+			"position"		"336.000000 -7624.000000 -3040.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"C1"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+		}
+		"314145"
+		{
+			"className"		"emp_resource_point"
+			"name"		"ref6"
+			"position"		"-5552.000000 1512.000000 -3040.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"A3"
+			"enabled"		"0"
+			"resPerSecond"		"1.000000"
+		}
+		"314168"
+		{
+			"className"		"emp_resource_point"
+			"name"		"ref2"
+			"position"		"1432.000000 5552.000000 -3040.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"C4"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+		}
+		"314178"
+		{
+			"className"		"emp_resource_point"
+			"name"		"ref1"
+			"position"		"5224.000000 -1392.000000 -3040.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"D3"
+			"enabled"		"0"
+			"resPerSecond"		"1.000000"
+		}
+		"314186"
+		{
+			"className"		"emp_resource_point"
+			"name"		"ref4"
+			"position"		"6928.000000 4560.000000 -3072.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"E4"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+		}
+		"314198"
+		{
+			"className"		"emp_resource_point"
+			"name"		"ref5"
+			"position"		"-4560.000000 -6952.000000 -3056.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"B1"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+		}
+		"314225"
+		{
+			"className"		"emp_building_nf_refinery"
+			"position"		"5224.000000 -1392.000000 -3049.739990"
+			"angles"		"0.000000 92.000000 0.000000"
+			"coords"		"D3"
+			"built"		"1"
+			"health"		"150"
+			"team"		"2"
+			"target"		"ref1"
+		}
+		"314280"
+		{
+			"className"		"emp_building_imp_refinery"
+			"position"		"-5552.000000 1512.000000 -3048.969971"
+			"angles"		"0.000000 228.000000 0.000000"
+			"coords"		"A3"
+			"built"		"1"
+			"health"		"150"
+			"team"		"3"
+			"target"		"ref6"
+		}
+		"-2"
+		{
+			"className"		"prop_dynamic"
+			"position"		"2082.490967 -6305.840820 -2585.027344"
+			"angles"		"-0.115366 174.732056 0.000000"
+			"coords"		"C2"
+			"model"		"models/pigeon.mdl"
+			"SolidType"		"0"
+			"CollisionGroup"		"0"
+			"health"		"0"
+			"TakeDamage"		"1"
+			"MinHealthDamage"		"0"
+			"StartDisabled"		"0"
+		}
+	}
+	"Author"		"Xiam"
+	"BaseSwap"		"1"
+	"version"		"0.600000"
+}

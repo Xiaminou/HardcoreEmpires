@@ -1,0 +1,14 @@
+"VoteList"
+{
+	"scenarios"
+	{
+		"Alpha"
+		{
+			"min_players"		"0"
+			"max_players"		"64"
+			"name_override"		"Forward Barracks"
+			"description_override"		"[Type: Quality of Life] Start with a forward barracks"
+		}
+	}
+	"enabled"		"1"
+}

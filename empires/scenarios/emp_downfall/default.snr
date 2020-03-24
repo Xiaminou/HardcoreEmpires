@@ -1,0 +1,142 @@
+"Scenario"
+{
+	"NF_Res"		"400.000000"
+	"BE_Res"		"400.000000"
+	"NF_Tickets"		"141.220001"
+	"BE_Tickets"		"141.220001"
+	"NF_Research"
+	{
+		"0"		"1"
+	}
+	"BE_Research"
+	{
+		"0"		"1"
+	}
+	"Entities"
+	{
+		"273029"
+		{
+			"className"		"emp_building_nf_barracks"
+			"position"		"-652.000000 4124.000000 -3129.159912"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"C4"
+			"built"		"1"
+			"maxHealth"		"250"
+			"health"		"250"
+			"team"		"2"
+		}
+		"283346"
+		{
+			"className"		"emp_building_imp_barracks"
+			"position"		"128.000000 -4000.000000 -3120.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"C2"
+			"built"		"1"
+			"maxHealth"		"250"
+			"health"		"250"
+			"team"		"3"
+		}
+		"283393"
+		{
+			"className"		"emp_imp_commander"
+			"position"		"1071.961670 -4114.803711 -3129.666260"
+			"angles"		"2.136799 -95.062531 1.432658"
+			"coords"		"C2"
+		}
+		"283397"
+		{
+			"className"		"emp_nf_commander"
+			"position"		"500.380798 4073.300049 -3057.447021"
+			"angles"		"-0.612565 -90.597115 -0.033417"
+			"coords"		"C4"
+		}
+		"511595"
+		{
+			"className"		"emp_building_nf_refinery"
+			"position"		"-1718.000000 4384.000000 -3113.310059"
+			"angles"		"0.000000 89.000000 0.000000"
+			"coords"		"C4"
+			"built"		"1"
+			"maxHealth"		"150"
+			"health"		"150"
+			"team"		"2"
+			"target"		"res5"
+		}
+		"511414"
+		{
+			"className"		"emp_building_imp_refinery"
+			"position"		"-831.439026 -4062.719971 -3124.270020"
+			"angles"		"0.000000 102.000000 0.000000"
+			"coords"		"C2"
+			"built"		"1"
+			"maxHealth"		"150"
+			"health"		"150"
+			"team"		"3"
+			"target"		"res1"
+		}
+		"511502"
+		{
+			"className"		"emp_resource_point"
+			"position"		"-1718.790039 4383.479980 -3104.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"C4"
+			"name"		"res5"
+			"effects"		"80"
+			"enabled"		"0"
+			"resPerSecond"		"3.000000"
+		}
+		"511629"
+		{
+			"className"		"emp_resource_point"
+			"position"		"-5102.790039 -456.519989 -3094.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"B3"
+			"name"		"res2"
+			"effects"		"80"
+			"enabled"		"1"
+			"resPerSecond"		"2.000000"
+		}
+		"511378"
+		{
+			"className"		"emp_resource_point"
+			"position"		"-832.789978 -4062.520020 -3116.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"C2"
+			"name"		"res1"
+			"effects"		"80"
+			"enabled"		"0"
+			"resPerSecond"		"3.000000"
+		}
+		"511747"
+		{
+			"className"		"emp_resource_point"
+			"position"		"5725.209961 1161.479980 -3104.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"D3"
+			"name"		"res4"
+			"effects"		"80"
+			"enabled"		"1"
+			"resPerSecond"		"2.000000"
+		}
+		"511771"
+		{
+			"className"		"emp_resource_point"
+			"position"		"389.209991 991.479980 -3104.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"C3"
+			"name"		"res3"
+			"effects"		"80"
+			"enabled"		"1"
+			"resPerSecond"		"2.000000"
+		}
+	}
+	"Description"		" "
+	"details"		" "
+	"Author"		"Hardcore Empires - The Tradiona"
+	"BaseSwap"		"-1"
+	"CommFreezeTime"		"-1"
+	"PlayerRefineryMultiplier"		"-1.000000"
+	"RefineryMultiplier"		"-1.000000"
+	"version"		"0.880000"
+	"hLimit"		"553173"
+}

@@ -1,0 +1,21 @@
+"VoteList"
+{
+	"scenarios"
+	{
+		"Alpha"
+		{
+			"min_players"		"0"
+			"max_players"		"64"
+			"name_override"		"-"
+			"description_override"		"[Type: Location] Start South-West (A1) and South-East (C1)"
+		}
+		"Bravo"
+		{
+			"min_players"		"22"
+			"max_players"		"64"
+			"name_override"		"Capitol"
+			"description_override"		"[Type: Location & Gameplay] Start South-middle (B2) and North-middle (B3)"
+		}
+	}
+	"enabled"		"1"
+}

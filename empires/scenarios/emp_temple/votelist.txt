@@ -1,0 +1,14 @@
+"VoteList"
+{
+	"scenarios"
+	{
+		"Alpha"
+		{
+			"min_players"		"20"
+			"max_players"		"64"
+			"name_override"		"Plateau"
+			"description_override"		"[Type: Location & Gameplay] Start at West (B5) and East (D5)"
+		}
+	}
+	"enabled"		"1"
+}

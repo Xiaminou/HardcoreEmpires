@@ -1,0 +1,28 @@
+"VoteList"
+{
+	"scenarios"
+	{
+		"Alpha"
+		{
+			"min_players"		"0"
+			"max_players"		"64"
+			"name_override"		"Two Commanders One Lake"
+			"description_override"		"[Type: Location & Gameplay] Start at West and East"
+		}
+		"Bravo"
+		{
+			"min_players"		"0"
+			"max_players"		"64"
+			"name_override"		"I like trains!"
+			"description_override"		"[Type: Location] Start North-West and South-East"
+		}
+		"Charlie"
+		{
+			"min_players"		"0"
+			"max_players"		"64"
+			"name_override"		"Walking is Tiresome"
+			"description_override"		"[Type: Gameplay] Start with a Vehicle Factory but -200 resources"
+		}
+	}
+	"enabled"		"1"
+}

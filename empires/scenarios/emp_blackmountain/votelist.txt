@@ -1,0 +1,14 @@
+"VoteList"
+{
+	"scenarios"
+	{
+		"Alpha"
+		{
+			"min_players"		"0"
+			"max_players"		"64"
+			"name_override"		"(HARD) alt1"
+			"description_override"	"[Type: Location & Gameplay] Start middle at B3 and D3"
+		}
+	}
+	"enabled"		"1"
+}
