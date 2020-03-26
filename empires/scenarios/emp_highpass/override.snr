@@ -39,7 +39,7 @@
 		"367878"
 		{
 			"className"		"emp_building_imp_mgturret"
-			"position"		"5378.879395 -11010.900391 4.000000"
+			"position"		"5378.878906 -11010.900391 4.000000"
 			"angles"		"0.000000 180.000000 0.000000"
 			"coords"		"D2"
 			"built"		"1"
@@ -67,7 +67,7 @@
 		"367884"
 		{
 			"className"		"emp_building_imp_mlturret"
-			"position"		"6146.879395 -9730.879883 10.000000"
+			"position"		"6146.878906 -9730.879883 10.000000"
 			"angles"		"0.000000 180.000000 0.000000"
 			"coords"		"D2"
 			"built"		"1"
@@ -81,7 +81,7 @@
 		"367887"
 		{
 			"className"		"emp_building_imp_mlturret"
-			"position"		"5122.879395 -11138.900391 2.000000"
+			"position"		"5122.878906 -11138.900391 2.000000"
 			"angles"		"0.000000 180.000000 0.000000"
 			"coords"		"D2"
 			"built"		"1"
@@ -109,7 +109,7 @@
 		"367977"
 		{
 			"className"		"emp_building_nf_mlturret"
-			"position"		"-6141.120117 9725.119141 10.000000"
+			"position"		"-6141.120117 9725.118164 10.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"B6"
 			"built"		"1"
@@ -123,15 +123,15 @@
 		"1562"
 		{
 			"className"		"emp_imp_commander"
-			"position"		"11519.465820 9216.532227 2053.670654"
-			"angles"		"0.000018 -135.000015 1.249301"
+			"position"		"11519.325195 9216.672852 2053.669922"
+			"angles"		"0.000008 -135.000000 1.248964"
 			"coords"		"E5"
 		}
 		"1564"
 		{
 			"className"		"emp_nf_commander"
-			"position"		"-11515.375977 -9476.648438 2126.740479"
-			"angles"		"-0.013928 44.999004 -0.504913"
+			"position"		"-11514.080078 -9477.941406 2126.736328"
+			"angles"		"-0.013477 44.998501 -0.504974"
 			"coords"		"A2"
 		}
 		"257285"
@@ -415,8 +415,8 @@
 			"reinfToTakeImp"		"0.009768"
 			"canNFCap"		"1"
 			"canImpCap"		"1"
-			"Mins"		"-577.000183 -544.992248 -81.000000"
-			"Maxs"		"577.000000 544.992248 81.000000"
+			"Mins"		"-577.000183 -544.992309 -81.000000"
+			"Maxs"		"577.000000 544.992309 81.000000"
 		}
 		"334914"
 		{
@@ -432,7 +432,7 @@
 		"334965"
 		{
 			"className"		"emp_nf_ammo_crate"
-			"position"		"242.000000 -306.582977 -224.000000"
+			"position"		"242.000000 -306.582947 -224.000000"
 			"angles"		"0.000000 123.599998 0.000000"
 			"coords"		"C4"
 			"name"		"cp_mb_crate_nf"
@@ -498,7 +498,7 @@
 		"334957"
 		{
 			"className"		"emp_imp_ammo_crate"
-			"position"		"198.688004 -335.358978 -223.640015"
+			"position"		"198.688004 -335.358917 -223.640015"
 			"angles"		"0.000000 123.599998 0.000000"
 			"coords"		"C4"
 			"name"		"cp_mb_crate_imp"
@@ -630,7 +630,7 @@
 		"334953"
 		{
 			"className"		"emp_imp_health_crate"
-			"position"		"232.005005 -313.223969 -223.640015"
+			"position"		"232.005005 -313.223938 -223.640015"
 			"angles"		"0.000000 123.599998 0.000000"
 			"coords"		"C4"
 			"name"		"cp_mb_crate_imp"
@@ -706,30 +706,6 @@
 			"team"		"2"
 			"target"		"res_1"
 		}
-		"348767"
-		{
-			"className"		"emp_building_nf_refinery"
-			"position"		"5520.000000 12288.000000 -880.000000"
-			"angles"		"0.000000 45.000000 0.000000"
-			"coords"		"D6"
-			"built"		"1"
-			"maxHealth"		"150"
-			"health"		"150"
-			"team"		"2"
-			"target"		"res_2"
-		}
-		"349627"
-		{
-			"className"		"emp_building_imp_refinery"
-			"position"		"-5520.000000 -12288.000000 -880.000000"
-			"angles"		"0.000000 0.000000 0.000000"
-			"coords"		"B2"
-			"built"		"1"
-			"maxHealth"		"150"
-			"health"		"150"
-			"team"		"3"
-			"target"		"res_5"
-		}
 		"349650"
 		{
 			"className"		"emp_building_imp_refinery"
@@ -784,7 +760,7 @@
 			"coords"		"B2"
 			"name"		"res_5"
 			"effects"		"80"
-			"enabled"		"0"
+			"enabled"		"1"
 			"resPerSecond"		"2.000000"
 		}
 		"182250"
@@ -817,7 +793,7 @@
 			"coords"		"D6"
 			"name"		"res_2"
 			"effects"		"80"
-			"enabled"		"0"
+			"enabled"		"1"
 			"resPerSecond"		"2.000000"
 		}
 		"267701"
@@ -871,8 +847,7 @@
 			"angles"		"0.000000 135.000000 0.000000"
 			"coords"		"B2"
 			"name"		"res_5_prop"
-			"effects"		"32"
-			"enabled"		"0"
+			"enabled"		"1"
 			"model"		"models/emp_fuel/pipeline_tap.mdl"
 		}
 		"182246"
@@ -902,8 +877,7 @@
 			"angles"		"0.000000 135.000000 0.000000"
 			"coords"		"D6"
 			"name"		"res_2_prop"
-			"effects"		"32"
-			"enabled"		"0"
+			"enabled"		"1"
 			"model"		"models/emp_fuel/pipeline_tap.mdl"
 		}
 		"267697"
@@ -931,10 +905,10 @@
 		"280028"
 		{
 			"className"		"prop_dynamic"
-			"position"		"7040.000000 -7976.000000 -3352.415771"
+			"position"		"10560.000000 -11964.000000 -5030.623535"
 			"angles"		"0.000000 0.000000 0.000000"
 			"Parent"		"e1"
-			"coords"		"D3"
+			"coords"		"E2"
 			"name"		"e1_prop"
 			"effects"		"16"
 			"model"		"models/props_mining/elevator01_cage.mdl"
@@ -944,10 +918,10 @@
 		"302423"
 		{
 			"className"		"prop_dynamic"
-			"position"		"6994.000000 -7946.000000 -3320.415771"
+			"position"		"10514.000000 -11934.000000 -4998.623535"
 			"angles"		"0.000000 0.000000 0.000000"
 			"Parent"		"e1"
-			"coords"		"D3"
+			"coords"		"E2"
 			"effects"		"16"
 			"model"		"models/props_mining/freightelevatorbutton02.mdl"
 			"SolidType"		"3"
@@ -956,10 +930,10 @@
 		"316612"
 		{
 			"className"		"prop_dynamic"
-			"position"		"-7040.000000 7976.000000 -3352.415771"
-			"angles"		"-0.000000 -180.000000 0.000000"
+			"position"		"-10560.000000 11964.000000 -5030.623535"
+			"angles"		"-0.000000 180.000000 0.000000"
 			"Parent"		"e4"
-			"coords"		"B5"
+			"coords"		"A6"
 			"name"		"e4_prop"
 			"effects"		"16"
 			"model"		"models/props_mining/elevator01_cage.mdl"
@@ -969,10 +943,10 @@
 		"316622"
 		{
 			"className"		"prop_dynamic"
-			"position"		"-6994.000000 7946.000000 -3320.415771"
-			"angles"		"-0.000000 -180.000000 0.000000"
+			"position"		"-10514.000000 11934.000000 -4998.623535"
+			"angles"		"-0.000000 180.000000 0.000000"
 			"Parent"		"e4"
-			"coords"		"B5"
+			"coords"		"A6"
 			"effects"		"16"
 			"model"		"models/props_mining/freightelevatorbutton02.mdl"
 			"SolidType"		"3"
@@ -981,7 +955,7 @@
 		"318065"
 		{
 			"className"		"prop_dynamic"
-			"position"		"607.000000 -276.000000 -3960.415771"
+			"position"		"938.000000 -414.000000 -5958.623535"
 			"angles"		"-0.000000 33.599998 0.000000"
 			"Parent"		"e2"
 			"coords"		"C4"
@@ -993,7 +967,7 @@
 		"319468"
 		{
 			"className"		"prop_dynamic"
-			"position"		"-606.989990 276.000000 -3960.415771"
+			"position"		"-937.989990 414.000000 -5958.623535"
 			"angles"		"-0.000000 -146.399994 0.000000"
 			"Parent"		"e3"
 			"coords"		"C4"
@@ -1005,7 +979,7 @@
 		"294191"
 		{
 			"className"		"prop_dynamic"
-			"position"		"662.000000 -276.000000 -3992.415771"
+			"position"		"993.000000 -414.000000 -5990.623535"
 			"angles"		"-0.000000 33.599998 0.000000"
 			"Parent"		"e2"
 			"coords"		"C4"
@@ -1017,7 +991,7 @@
 		"319475"
 		{
 			"className"		"prop_dynamic"
-			"position"		"-661.989990 276.000000 -3992.415771"
+			"position"		"-992.989990 414.000000 -5990.623535"
 			"angles"		"-0.000000 -146.399994 0.000000"
 			"Parent"		"e3"
 			"coords"		"C4"
@@ -1056,7 +1030,7 @@
 			"coords"		"B2"
 			"name"		"res_5_smoke"
 			"spawnflags"		"0"
-			"active"		"0"
+			"active"		"1"
 			"effectName"		"res_node_1_white"
 		}
 		"182252"
@@ -1089,7 +1063,7 @@
 			"coords"		"D6"
 			"name"		"res_2_smoke"
 			"spawnflags"		"0"
-			"active"		"0"
+			"active"		"1"
 			"effectName"		"res_node_1_white"
 		}
 		"267703"
@@ -1128,8 +1102,8 @@
 		"5000001"
 		{
 			"className"		"emp_vehicle"
-			"position"		"13196.238281 8831.997070 2084.957275"
-			"angles"		"0.000001 90.001122 -0.182251"
+			"position"		"13196.250977 8831.997070 2084.996582"
+			"angles"		"0.000000 90.001106 -0.176727"
 			"coords"		"E5"
 			"team"		"3"
 			"armorFront"		"2"
@@ -1161,8 +1135,8 @@
 		"5000002"
 		{
 			"className"		"emp_vehicle"
-			"position"		"13197.232422 9087.920898 2085.135010"
-			"angles"		"-0.064873 90.004456 -0.176544"
+			"position"		"13197.252930 9087.921875 2085.180176"
+			"angles"		"-0.064026 90.001038 -0.168854"
 			"coords"		"E5"
 			"team"		"3"
 			"armorFront"		"2"
@@ -1194,8 +1168,8 @@
 		"5000003"
 		{
 			"className"		"emp_vehicle"
-			"position"		"13320.825195 8319.997070 2087.213623"
-			"angles"		"-0.000000 90.001198 -0.202423"
+			"position"		"13321.034180 8319.997070 2087.257813"
+			"angles"		"-0.000010 90.001198 -0.191498"
 			"coords"		"E5"
 			"team"		"3"
 			"armorFront"		"2"
@@ -1221,8 +1195,8 @@
 		"5000004"
 		{
 			"className"		"emp_vehicle"
-			"position"		"13320.828125 8575.997070 2087.197998"
-			"angles"		"0.000001 90.001228 -0.201447"
+			"position"		"13321.042969 8575.997070 2087.298340"
+			"angles"		"-0.000010 90.001228 -0.181854"
 			"coords"		"E5"
 			"team"		"3"
 			"armorFront"		"2"
@@ -1248,8 +1222,8 @@
 		"5000005"
 		{
 			"className"		"emp_vehicle"
-			"position"		"-13135.317383 -8826.432617 2079.644043"
-			"angles"		"-0.256285 -89.318230 -0.267761"
+			"position"		"-13134.087891 -8826.386719 2079.603760"
+			"angles"		"-0.251274 -89.290947 -0.260193"
 			"coords"		"A3"
 			"team"		"2"
 			"armorFront"		"2"
@@ -1281,8 +1255,8 @@
 		"5000007"
 		{
 			"className"		"emp_vehicle"
-			"position"		"-12970.187500 -8575.690430 2086.923096"
-			"angles"		"-0.039386 -89.953598 -0.189667"
+			"position"		"-12970.271484 -8575.819336 2086.965088"
+			"angles"		"-0.039172 -89.992371 -0.191437"
 			"coords"		"A3"
 			"team"		"2"
 			"armorFront"		"2"
@@ -1308,8 +1282,8 @@
 		"5000008"
 		{
 			"className"		"emp_vehicle"
-			"position"		"-12981.714844 -8321.173828 2087.245605"
-			"angles"		"0.175828 -90.063812 -0.473938"
+			"position"		"-12981.743164 -8321.159180 2087.314453"
+			"angles"		"0.176434 -89.922966 -0.470703"
 			"coords"		"A3"
 			"team"		"2"
 			"armorFront"		"2"
@@ -1335,8 +1309,8 @@
 		"5000006"
 		{
 			"className"		"emp_vehicle"
-			"position"		"-13115.076172 -9075.137695 2079.673584"
-			"angles"		"0.249347 -88.279350 -0.329529"
+			"position"		"-13113.772461 -9075.102539 2079.685791"
+			"angles"		"0.230301 -88.313255 -0.312744"
 			"coords"		"A3"
 			"team"		"2"
 			"armorFront"		"2"
@@ -1373,6 +1347,6 @@
 	"CommFreezeTime"		"1"
 	"PlayerRefineryMultiplier"		"-1.000000"
 	"RefineryMultiplier"		"2.000000"
-	"version"		"0.860000"
-	"hLimit"		"370000"
+	"version"		"0.880000"
+	"hLimit"		"421357"
 }
