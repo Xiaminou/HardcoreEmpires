@@ -17,21 +17,21 @@
 		"144"
 		{
 			"className"		"emp_imp_commander"
-			"position"		"22.364956 -3898.527832 389.667603"
-			"angles"		"-0.002012 -0.042277 1.246702"
-			"coords"		"C2"
+			"position"		"4.998531 3968.053223 389.658539"
+			"angles"		"0.000248 179.534439 1.243475"
+			"coords"		"C4"
 		}
 		"193"
 		{
 			"className"		"emp_nf_commander"
-			"position"		"4.923272 3962.926514 462.326691"
-			"angles"		"-0.000003 179.525726 -0.586151"
-			"coords"		"C4"
+			"position"		"22.366037 -3897.100830 462.324127"
+			"angles"		"0.000004 -0.042215 -0.586578"
+			"coords"		"C2"
 		}
 		"172"
 		{
 			"className"		"emp_resource_point"
-			"position"		"-10365.099609 -638.434265 262.000000"
+			"position"		"-10365.099609 -638.434326 262.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"A2"
 			"name"		"impres_6"
@@ -86,7 +86,7 @@
 		"216"
 		{
 			"className"		"emp_resource_point"
-			"position"		"10272.000000 -7166.918457 262.000000"
+			"position"		"10272.000000 -7166.917969 262.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"E1"
 			"name"		"nfres_1"
@@ -97,7 +97,7 @@
 		"174"
 		{
 			"className"		"emp_resource_point_prop"
-			"position"		"-10368.000000 -638.434265 261.686005"
+			"position"		"-10368.000000 -638.434326 261.686005"
 			"angles"		"0.000000 270.000000 90.000000"
 			"coords"		"A2"
 			"name"		"impbox_6"
@@ -107,7 +107,7 @@
 		"154"
 		{
 			"className"		"emp_resource_point_prop"
-			"position"		"-10273.900391 -7166.918457 261.686005"
+			"position"		"-10273.900391 -7166.917969 261.686005"
 			"angles"		"0.000000 270.000000 90.000000"
 			"coords"		"A1"
 			"name"		"impbox_10"
@@ -147,7 +147,7 @@
 		"217"
 		{
 			"className"		"emp_resource_point_prop"
-			"position"		"10271.799805 -7162.308594 263.686005"
+			"position"		"10271.799805 -7162.308105 263.686005"
 			"angles"		"0.000000 270.000000 90.000000"
 			"coords"		"E1"
 			"name"		"nfbox_1"
@@ -157,7 +157,7 @@
 		"173"
 		{
 			"className"		"env_smokestack"
-			"position"		"-10366.099609 -638.434265 271.338898"
+			"position"		"-10366.099609 -638.434326 271.338867"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"A2"
 			"name"		"impsmoke_6"
@@ -177,7 +177,7 @@
 		"155"
 		{
 			"className"		"env_smokestack"
-			"position"		"-10272.000000 -7169.838379 271.338898"
+			"position"		"-10272.000000 -7169.837891 271.338867"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"A1"
 			"name"		"impsmoke_10"
@@ -257,7 +257,7 @@
 		"215"
 		{
 			"className"		"env_smokestack"
-			"position"		"10271.799805 -7165.080078 273.588898"
+			"position"		"10271.799805 -7165.080078 273.588867"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"E1"
 			"name"		"nfsmoke_1"
@@ -274,23 +274,23 @@
 			"Speed"		"100.000000"
 			"rate"		"6.000000"
 		}
-		"5000178"
+		"5000180"
 		{
 			"className"		"emp_building_nf_barracks"
-			"position"		"-18.525604 3154.650635 384.031372"
-			"angles"		"0.000000 89.824196 0.000000"
-			"coords"		"C3"
+			"position"		"-0.098236 -2951.593994 384.031311"
+			"angles"		"0.000000 90.362549 0.000000"
+			"coords"		"C2"
 			"built"		"1"
 			"maxHealth"		"1000"
 			"health"		"1000"
 			"team"		"2"
 		}
-		"5000179"
+		"5000181"
 		{
 			"className"		"emp_building_imp_barracks"
-			"position"		"-0.098236 -2951.593994 384.031311"
-			"angles"		"0.000000 90.362549 0.000000"
-			"coords"		"C2"
+			"position"		"-18.525604 3154.650635 384.031372"
+			"angles"		"0.000000 89.824196 0.000000"
+			"coords"		"C3"
 			"built"		"1"
 			"maxHealth"		"1000"
 			"health"		"1000"
@@ -299,7 +299,7 @@
 		"5000176"
 		{
 			"className"		"emp_cap_model"
-			"position"		"6.133987 1.004057 384.031281"
+			"position"		"6.133987 1.004057 384.031311"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"C3"
 			"pointNumber"		"31"
@@ -312,7 +312,7 @@
 		"5000177"
 		{
 			"className"		"emp_cap_point"
-			"position"		"6.133987 1.004057 384.031281"
+			"position"		"6.133987 1.004057 384.031311"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"C3"
 			"effects"		"32"
@@ -334,12 +334,12 @@
 		}
 	}
 	"Description"		"[Type: Gameplay] Add a flag in the center"
-	"Details"		"Barracks have 1000 HP"
+	"details"		"Barracks have 1000 HP"
 	"Author"		"Xiam"
 	"BaseSwap"		"1"
 	"CommFreezeTime"		"1"
 	"PlayerRefineryMultiplier"		"-1.000000"
 	"RefineryMultiplier"		"-1.000000"
-	"version"		"0.860000"
-	"hLimit"		"217"
+	"version"		"0.880000"
+	"hLimit"		"16839"
 }

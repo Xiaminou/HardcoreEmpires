@@ -935,15 +935,15 @@
 		"144"
 		{
 			"className"		"emp_imp_commander"
-			"position"		"-9471.815430 -384.000000 261.690887"
-			"angles"		"0.000003 -90.000000 1.246106"
+			"position"		"-9471.817383 -384.000000 261.690918"
+			"angles"		"0.000001 -90.000000 1.245918"
 			"coords"		"A3"
 		}
 		"193"
 		{
 			"className"		"emp_nf_commander"
-			"position"		"9472.249023 384.000000 334.335052"
-			"angles"		"0.000004 90.000008 -0.580322"
+			"position"		"9472.250000 384.000000 334.335052"
+			"angles"		"-0.000006 90.000000 -0.580292"
 			"coords"		"E3"
 		}
 		"191"
@@ -1226,6 +1226,6 @@
 	"CommFreezeTime"		"-1"
 	"PlayerRefineryMultiplier"		"-1.000000"
 	"RefineryMultiplier"		"-1.000000"
-	"version"		"0.860000"
-	"hLimit"		"9134"
+	"version"		"0.880000"
+	"hLimit"		"16839"
 }
