@@ -915,7 +915,7 @@ Vehicle_Weapons
 		"Reload Amount"		"5" 		//number of projectiles gained per reload "tick" if not using clips
 		"Projectile Spread"	"1"		//spread (default: 0.001)
 		"Heat to Target"	"0"		//heat added to target on hit (default: 0.1)
-		"Explosion Radius"	"250"		//radius of damage sphere to hurt surrounding entities (default: 0)
+		"Explosion Radius"	"200"		//radius of damage sphere to hurt surrounding entities (default: 0)
 		"Explosion Force"	"100"		//force of explosion (default: 0)
 		"Explosion Sprite"	"22"
 		"Muzzle Flash"		"muzzle_bio_ml"
@@ -927,7 +927,7 @@ Vehicle_Weapons
 		"Player Bio Damage"	"3"	//damage inflicted to players every interval (default: 0)
 		"Player Bio Time"	"7"	//total time to inflict damage to players (default: 0)
 		"Player Bio Interval"	"1"	//time inbetween each infliction of damage to players (default: 0)
-		"Vehicle Bio Damage"	"7"	//damage inflicted to vehicles every interval (default: 0)
+		"Vehicle Bio Damage"	"6"	//damage inflicted to vehicles every interval (default: 0)
 		"Vehicle Bio Time"	"4"	//total time to inflict damage to vehicles (default: 0)
 		"Vehicle Bio Interval"	"0.5"	//time inbetween each infliction of damage to vehicles (default: 0)
 	}
@@ -960,7 +960,7 @@ Vehicle_Weapons
 		"Reload Amount"		"5" 		//number of projectiles gained per reload "tick" if not using clips
 		"Projectile Spread"	"1"		//spread (default: 0.001)
 		"Heat to Target"	"0"		//heat added to target on hit (default: 0.1)
-		"Explosion Radius"	"250"		//radius of damage sphere to hurt surrounding entities (default: 0)
+		"Explosion Radius"	"200"		//radius of damage sphere to hurt surrounding entities (default: 0)
 		"Explosion Force"	"170"		//force of explosion (default: 0)
 		"Explosion Sprite"	"22"
 		"Muzzle Flash"		"muzzle_bio_ml"
@@ -972,7 +972,7 @@ Vehicle_Weapons
 		"Player Bio Damage"	"3"	//damage inflicted to players every interval (default: 0)
 		"Player Bio Time"	"7"	//total time to inflict damage to players (default: 0)
 		"Player Bio Interval"	"1"	//time inbetween each infliction of damage to players (default: 0)
-		"Vehicle Bio Damage"	"7"	//damage inflicted to vehicles every interval (default: 0)
+		"Vehicle Bio Damage"	"6"	//damage inflicted to vehicles every interval (default: 0)
 		"Vehicle Bio Time"	"4.25"	//total time to inflict damage to vehicles (default: 0)
 		"Vehicle Bio Interval"	"0.4"	//time inbetween each infliction of damage to vehicles (default: 0)
 	}
@@ -1315,7 +1315,7 @@ Vehicle_Weapons
 		"Reload Time"		"6.0"		//time to load one clip
 		"Projectile Spread"	"0.5"		//spread (default: 0.001)
 		"Heat to Target"	"0"		//heat added to target on hit (default: 0.1)
-		"Explosion Radius"	"300"		//radius of damage sphere to hurt surrounding entities (default: 0)
+		"Explosion Radius"	"350"		//radius of damage sphere to hurt surrounding entities (default: 0)
 		"Explosion Force"	"50"		//force of explosion (default: 0)
 		"Explosion Sprite"	"3"
 		"Muzzle Flash"		"muzzle_bio_ml"
