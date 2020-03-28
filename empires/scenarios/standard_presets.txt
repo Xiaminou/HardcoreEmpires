@@ -89,6 +89,108 @@
 		"effects"	"16"
 	}
 	
+	"nf_crates1"
+	{
+		"0"
+		{
+			"className"		"prop_dynamic"
+			"position"		"0.000000 0.000000 0.000000"
+			"angles"		"0.000000 34.900002 0.000000"
+			"coords"		"E4"
+			"model"		"models/nf/props/nf_barrel01.mdl"
+			"Skin"		"0"
+			"MoveType"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+		}
+		"1"
+		{
+			"className"		"prop_dynamic"
+			"position"		"-15.717773 -42.559570 0.000000"
+			"angles"		"0.000000 -170.100006 0.000000"
+			"coords"		"E4"
+			"model"		"models/nf/props/nf_crate03.mdl"
+			"Skin"		"0"
+			"MoveType"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+		}
+		"2"
+		{
+			"className"		"prop_dynamic"
+			"position"		"-3.579102 -46.314941 36.031250"
+			"angles"		"0.000000 -149.000000 0.000000"
+			"coords"		"E4"
+			"model"		"models/nf/props/nf_crate02.mdl"
+			"Skin"		"0"
+			"MoveType"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+		}
+		"3"
+		{
+			"className"		"prop_dynamic"
+			"position"		"27.098633 -31.945313 0.000000"
+			"angles"		"0.000000 27.229614 0.000000"
+			"coords"		"E4"
+			"model"		"models/nf/props/nf_crate05.mdl"
+			"Skin"		"0"
+			"MoveType"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+		}
+		"4"
+		{
+			"className"		"prop_dynamic"
+			"position"		"-9.338867 -89.367676 0.000000"
+			"angles"		"0.000000 -94.801025 0.000000"
+			"coords"		"E4"
+			"model"		"models/nf/props/nf_crate02.mdl"
+			"Skin"		"0"
+			"MoveType"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+		}
+		"5"
+		{
+			"className"		"prop_dynamic"
+			"position"		"6.273438 -90.994141 35.871277"
+			"angles"		"0.000000 223.100006 0.000000"
+			"coords"		"E4"
+			"model"		"models/nf/props/nf_crate03.mdl"
+			"Skin"		"0"
+			"MoveType"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+		}
+		"6"
+		{
+			"className"		"prop_dynamic"
+			"position"		"12.253906 -129.040039 0.000000"
+			"angles"		"0.000000 -61.188354 0.000000"
+			"coords"		"E4"
+			"model"		"models/nf/props/nf_barrel02.mdl"
+			"Skin"		"0"
+			"MoveType"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+		}
+		"7"
+		{
+			"className"		"prop_dynamic"
+			"position"		"35.213867 -80.908691 -3.699982"
+			"angles"		"0.000000 -52.900002 0.000000"
+			"coords"		"E4"
+			"model"		"models/nf/props/nf_crate01.mdl"
+			"Skin"		"0"
+			"MoveType"		"0"
+			"SolidType"		"6"
+			"CollisionGroup"		"0"
+		}
+	}
+	
+	
+	
 	"flagarea1"
 	{
 		"0"

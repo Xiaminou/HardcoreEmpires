@@ -817,6 +817,19 @@
 				"prop" 		"m_ModelName"
 				"propType"		"data"
 			}
+			"Skin"
+			{
+				"fgdName"	"skin"
+				"type" 		"int"
+				"prop" 		"m_nSkin"
+				"propType"		"data"
+			}
+			"MoveType"
+			{
+				"type" 		"int"
+				"prop" 		"m_MoveType"
+				"propType"		"data"
+			}
 			"SolidType"
 			{
 				"fgdName"	"solid"
