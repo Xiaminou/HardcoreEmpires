@@ -39,15 +39,15 @@
 		"35899"
 		{
 			"className"		"emp_imp_commander"
-			"position"		"11509.855469 -11037.874023 -4394.637207"
-			"angles"		"-4.356447 0.020843 1.919886"
+			"position"		"11505.785156 -11033.262695 -4394.599609"
+			"angles"		"-4.408414 0.060852 2.063053"
 			"coords"		"E1"
 		}
 		"35908"
 		{
 			"className"		"emp_nf_commander"
-			"position"		"-11585.237305 -11104.901367 -4299.421875"
-			"angles"		"-0.060038 0.001789 0.180262"
+			"position"		"-11585.051758 -11111.747070 -4299.534180"
+			"angles"		"-0.029218 -0.038440 0.156558"
 			"coords"		"A1"
 		}
 		"38971"
@@ -378,11 +378,11 @@
 	}
 	"Description"		" "
 	"details"		" "
-	"Author"		"Hardcore Empires - The Tradiona"
+	"Author"		"Hardcore Empires - Draft in pro"
 	"BaseSwap"		"-1"
 	"CommFreezeTime"		"-1"
 	"PlayerRefineryMultiplier"		"-1.000000"
 	"RefineryMultiplier"		"-1.000000"
-	"version"		"0.870000"
-	"hLimit"		"126612"
+	"version"		"0.930000"
+	"hLimit"		"259992"
 }

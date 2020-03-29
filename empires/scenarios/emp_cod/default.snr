@@ -61,15 +61,15 @@
 		"283393"
 		{
 			"className"		"emp_imp_commander"
-			"position"		"-5119.966309 767.466309 -3065.175781"
-			"angles"		"0.166142 -0.001407 1.885288"
+			"position"		"-5119.964844 767.455444 -3065.163330"
+			"angles"		"0.166347 -0.001557 1.890514"
 			"coords"		"B3"
 		}
 		"283397"
 		{
 			"className"		"emp_nf_commander"
-			"position"		"5120.527832 -640.684143 -2993.703857"
-			"angles"		"-0.065027 -0.057365 -0.241058"
+			"position"		"5120.519531 -640.679810 -2993.703613"
+			"angles"		"-0.066918 -0.056298 -0.240295"
 			"coords"		"D3"
 		}
 		"314225"
@@ -170,6 +170,6 @@
 	"CommFreezeTime"		"-1"
 	"PlayerRefineryMultiplier"		"-1.000000"
 	"RefineryMultiplier"		"-1.000000"
-	"version"		"0.920000"
+	"version"		"0.930000"
 	"hLimit"		"314280"
 }

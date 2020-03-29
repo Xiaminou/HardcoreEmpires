@@ -14,13 +14,96 @@
 	}
 	"Entities"
 	{
-		"106971"
+		"115564"
 		{
-			"className"		"emp_resource_point"
-			"name"		"nf_startpoint"
+			"className"		"emp_building_nf_barracks"
+			"position"		"12224.000000 11216.000000 0.000000"
+			"angles"		"0.000000 45.000000 0.000000"
+			"coords"		"F6"
+			"built"		"1"
+			"maxHealth"		"250"
+			"health"		"250"
+			"team"		"2"
+		}
+		"125134"
+		{
+			"className"		"emp_building_imp_barracks"
+			"position"		"-12160.000000 -11168.000000 0.000000"
+			"angles"		"0.000000 45.000000 0.000000"
+			"coords"		"A1"
+			"built"		"1"
+			"maxHealth"		"250"
+			"health"		"250"
+			"team"		"3"
+		}
+		"49837"
+		{
+			"className"		"emp_building_nf_armory"
+			"position"		"11744.000000 10208.000000 0.000000"
+			"angles"		"0.000000 90.000000 0.000000"
+			"coords"		"F5"
+			"built"		"1"
+			"maxHealth"		"100"
+			"health"		"100"
+			"team"		"2"
+		}
+		"125158"
+		{
+			"className"		"emp_building_imp_armory"
+			"position"		"-11648.000000 -9952.000000 0.000000"
+			"angles"		"0.000000 270.000000 0.000000"
+			"coords"		"A2"
+			"built"		"1"
+			"maxHealth"		"100"
+			"health"		"100"
+			"team"		"3"
+		}
+		"147613"
+		{
+			"className"		"emp_imp_commander"
+			"position"		"-11264.000000 -11263.823242 5.675799"
+			"angles"		"0.000009 0.000001 1.237776"
+			"coords"		"A1"
+		}
+		"147617"
+		{
+			"className"		"emp_nf_commander"
+			"position"		"11264.000000 11264.477539 78.333588"
+			"angles"		"0.000025 -180.000000 -0.580963"
+			"coords"		"F6"
+		}
+		"115543"
+		{
+			"className"		"emp_building_nf_refinery"
 			"position"		"11296.000000 6848.000000 34.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"F5"
+			"built"		"1"
+			"maxHealth"		"150"
+			"health"		"150"
+			"team"		"2"
+			"target"		"nf_startpoint"
+		}
+		"125105"
+		{
+			"className"		"emp_building_imp_refinery"
+			"position"		"-11296.000000 -6848.000000 34.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"A2"
+			"built"		"1"
+			"maxHealth"		"150"
+			"health"		"150"
+			"team"		"3"
+			"target"		"imp_startpoint"
+		}
+		"106971"
+		{
+			"className"		"emp_resource_point"
+			"position"		"11296.000000 6848.000000 34.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"F5"
+			"name"		"nf_startpoint"
+			"effects"		"80"
 			"enabled"		"0"
 			"resPerSecond"		"1.000000"
 		}
@@ -30,6 +113,7 @@
 			"position"		"640.000000 -9728.000000 2098.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"D2"
+			"effects"		"80"
 			"enabled"		"1"
 			"resPerSecond"		"2.000000"
 		}
@@ -39,6 +123,7 @@
 			"position"		"-13152.000000 10589.500000 1074.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"A6"
+			"effects"		"80"
 			"enabled"		"1"
 			"resPerSecond"		"1.000000"
 		}
@@ -48,6 +133,7 @@
 			"position"		"4416.000000 6144.000000 -446.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"D5"
+			"effects"		"80"
 			"enabled"		"1"
 			"resPerSecond"		"2.000000"
 		}
@@ -57,6 +143,7 @@
 			"position"		"-4418.250000 -6144.000000 -446.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"C2"
+			"effects"		"80"
 			"enabled"		"1"
 			"resPerSecond"		"2.000000"
 		}
@@ -66,6 +153,7 @@
 			"position"		"-11872.000000 -2880.000000 50.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"A3"
+			"effects"		"80"
 			"enabled"		"1"
 			"resPerSecond"		"1.000000"
 		}
@@ -75,6 +163,7 @@
 			"position"		"-7904.000000 3424.000000 50.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"B4"
+			"effects"		"80"
 			"enabled"		"1"
 			"resPerSecond"		"1.000000"
 		}
@@ -84,6 +173,7 @@
 			"position"		"13152.000000 -10592.000000 1074.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"F1"
+			"effects"		"80"
 			"enabled"		"1"
 			"resPerSecond"		"1.000000"
 		}
@@ -93,6 +183,7 @@
 			"position"		"7904.000000 -3424.000000 50.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"E3"
+			"effects"		"80"
 			"enabled"		"1"
 			"resPerSecond"		"1.000000"
 		}
@@ -102,6 +193,7 @@
 			"position"		"11872.000000 2880.000000 50.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"F4"
+			"effects"		"80"
 			"enabled"		"1"
 			"resPerSecond"		"1.000000"
 		}
@@ -111,103 +203,29 @@
 			"position"		"-640.000000 9728.000000 2098.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"C5"
+			"effects"		"80"
 			"enabled"		"1"
 			"resPerSecond"		"2.000000"
-		}
-		"49837"
-		{
-			"className"		"emp_building_nf_armory"
-			"position"		"11744.000000 10208.000000 0.000000"
-			"angles"		"0.000000 90.000000 0.000000"
-			"coords"		"F5"
-			"built"		"1"
-			"health"		"100"
-			"team"		"2"
-		}
-		"115543"
-		{
-			"className"		"emp_building_nf_refinery"
-			"position"		"11296.000000 6848.000000 34.000000"
-			"angles"		"0.000000 0.000000 0.000000"
-			"coords"		"F5"
-			"built"		"1"
-			"health"		"150"
-			"team"		"2"
-			"target"		"nf_startpoint"
-		}
-		"115564"
-		{
-			"className"		"emp_building_nf_barracks"
-			"position"		"12224.000000 11216.000000 0.000000"
-			"angles"		"0.000000 45.000000 0.000000"
-			"coords"		"F6"
-			"built"		"1"
-			"health"		"250"
-			"team"		"2"
 		}
 		"123138"
 		{
 			"className"		"emp_resource_point"
-			"name"		"imp_startpoint"
 			"position"		"-11296.000000 -6848.000000 34.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"A2"
+			"name"		"imp_startpoint"
+			"effects"		"80"
 			"enabled"		"0"
 			"resPerSecond"		"1.000000"
-		}
-		"125105"
-		{
-			"className"		"emp_building_imp_refinery"
-			"position"		"-11296.000000 -6848.000000 34.000000"
-			"angles"		"0.000000 0.000000 0.000000"
-			"coords"		"A2"
-			"built"		"1"
-			"health"		"150"
-			"team"		"3"
-			"target"		"imp_startpoint"
-		}
-		"125134"
-		{
-			"className"		"emp_building_imp_barracks"
-			"position"		"-12160.000000 -11168.000000 0.000000"
-			"angles"		"0.000000 45.000000 0.000000"
-			"coords"		"A1"
-			"built"		"1"
-			"health"		"250"
-			"team"		"3"
-		}
-		"125158"
-		{
-			"className"		"emp_building_imp_armory"
-			"position"		"-11648.000000 -9952.000000 0.000000"
-			"angles"		"0.000000 270.000000 0.000000"
-			"coords"		"A2"
-			"built"		"1"
-			"health"		"100"
-			"team"		"3"
-		}
-		"147613"
-		{
-			"className"		"emp_imp_commander"
-			"position"		"-11264.000000 -11263.837891 5.690674"
-			"angles"		"-0.000008 0.000001 1.246621"
-			"coords"		"A1"
-		}
-		"147617"
-		{
-			"className"		"emp_nf_commander"
-			"position"		"11264.000000 11264.510742 78.329620"
-			"angles"		"0.000024 -180.000000 -0.582611"
-			"coords"		"F6"
 		}
 	}
 	"Description"		" "
 	"details"		" "
-	"Author"		"Hardcore Crashpires - The Root "
+	"Author"		"Hardcore Empires - The Tradiona"
 	"BaseSwap"		"-1"
 	"CommFreezeTime"		"-1"
 	"PlayerRefineryMultiplier"		"-1.000000"
 	"RefineryMultiplier"		"-1.000000"
-	"version"		"0.720000"
-	"hLimit"		"355978"
+	"version"		"0.930000"
+	"hLimit"		"524120"
 }
