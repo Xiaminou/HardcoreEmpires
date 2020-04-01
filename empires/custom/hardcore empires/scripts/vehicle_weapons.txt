@@ -669,7 +669,7 @@ Vehicle_Weapons
 		"Sound Reloading"	""
 
 		"Damage Type"		"Explosive"
-		"Damage"		"70"		//damage done by projectile (default: 50)
+		"Damage"		"75"		//damage done by projectile (default: 50)
 		"Speed"			"3000"		//speed of projectile (requires "type" 1, 2, 3 or 4)(default: 100)
 		"Gravity"		"0.4125"		//effects of gravity on the projectile, only for projectiles (requires "type" 1, 2 or 4)(default: 1.0)
 		"Heat"			"12"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status) (default: 0.1)
@@ -709,7 +709,7 @@ Vehicle_Weapons
 		"Sound Reloading"	""
 
 		"Damage Type"		"Explosive"
-		"Damage"		"77"		//damage done by projectile (default: 50)
+		"Damage"		"85"		//damage done by projectile (default: 50)
 		"Speed"			"3000"		//speed of projectile (requires "type" 1, 2, 3 or 4)(default: 100)
 		"Gravity"		"0.4"		//effects of gravity on the projectile, only for projectiles (requires "type" 1, 2 or 4)(default: 1.0)
 		"Heat"			"13"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status) (default: 0.1)
