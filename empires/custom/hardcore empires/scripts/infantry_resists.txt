@@ -17,12 +17,12 @@ InfantryParse
 		"BioResist" 			"0.0"	//Biological DoT?
 		
 		//Vehicle: Plasma
-		"GeneralPhysicsResist"		"0.0"	//Plasma MG, High Energy Plasma MG,  Plasma Cannon Prot., Plasma Cannon
+		"GeneralPhysicsResist"		"0.1"	//Plasma MG, High Energy Plasma MG,  Plasma Cannon Prot., Plasma Cannon
 		
 		//Vehicle: Cannons
-		"KineticResist" 		"0.0" 	//Standard Cannon, Railgun, Overcharged Railgun, Ranged Cannon, Heavy-duty Ranged Cn.
+		"KineticResist" 		"0.1" 	//Standard Cannon, Railgun, Overcharged Railgun, Ranged Cannon, Heavy-duty Ranged Cn.
 		"ExplosiveResist" 		"0.1"	//High-Explosive Cannon, Thermobaric Cannon
-		"BioArtResist" 			"0.0"   //Biological Cannon, Virulent Cannon
+		"BioArtResist" 			"0.1"   //Biological Cannon, Virulent Cannon
 
 		//Vehicle: Machine Guns
 		"BulletResist" 			"0.35"	//Standard Machine Gun, .50 Cal Medium MG, .50 Cal Heavy MG, Chain Gun, Medium Chain Gun
@@ -115,7 +115,7 @@ InfantryParse
 		"SquadArtResist" 		"0.54"
 
 		"KineticResist" 		"0.3" 	//Standard Cannon, Railgun, Overcharged Railgun, Ranged Cannon, Heavy-duty Ranged Cn.
-		"ExplosiveResist" 		"0.4"	//HE, Nukes, anything that explodes
+		"ExplosiveResist" 		"0.3"	//HE, Nukes, anything that explodes
 
 		"BioResist" 			"0.3"	//Has the bio effect
 
@@ -155,7 +155,7 @@ InfantryParse
 	"Engineer"
 	{
 	
-		"GeneralPhysicsResist"		"0.0"	//Plasma MG, High Energy Plasma MG,  Plasma Cannon Prot., Plasma Cannon
+		"GeneralPhysicsResist"		"0.1"	//Plasma MG, High Energy Plasma MG,  Plasma Cannon Prot., Plasma Cannon
 		"GeneralChemistryResist	"  	"0.1" 	//Grenade Launcher, High-Explosive Grenade Launcher
 		"GeneralMechanicalResist" 	"0.0"	//
 		"GeneralElectricResist"  	"0.0"	//
@@ -164,9 +164,9 @@ InfantryParse
 		//Squad Artillery
 		"SquadArtResist" 		"0.4"
 
-		"KineticResist" 		"0.0" 	//Railguns, Standard Cannons, Anything that is just force
+		"KineticResist" 		"0.1" 	//Railguns, Standard Cannons, Anything that is just force
 		"ExplosiveResist" 		"0.1"	//HE, Nukes, anything that explodes
-		"BioResist" 			"0.0"	//Has the bio effect
+		"BioResist" 			"0.1"	//Has the bio effect
 
 		"BulletResist" 			"0.1"	//Non Armor damaging
 		"APBulletResist" 		"0.3" 	//Armor Damaging
