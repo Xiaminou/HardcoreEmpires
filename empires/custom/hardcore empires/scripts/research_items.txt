@@ -29,7 +29,7 @@ research_items
 			"Parent"		"Physics"				//id_of_parent_that_this_branches_from
 			"Icon"			"comm/hex_multi"			//icon drawn on research tree
 			"Type"			"0"		//nothing
-			"Cost"			"240"		//cost of this research item
+			"Cost"			"120"		//cost of this research item
 			"Time"			"60"		//time to research this item in seconds
 			"Team"			""		//which team can research this
 			"XPos"			"20"
@@ -51,7 +51,7 @@ research_items
 				"Parent"		"Superheated_Material_Physics"				//id of parent that this branches from
 				"Icon"			"comm/hex_multi"			//icon drawn on research tree
 				"Type"			"0"		//nothing
-				"Cost"			"120"		//cost of this research item
+				"Cost"			"60"		//cost of this research item
 				"Time"			"30"		//time to research this item in seconds
 				"Team"			""		//which team can research this
 				"XPos"			"30"
@@ -84,7 +84,7 @@ research_items
 			"Parent"		"Physics"				//id of parent that this branches from
 			"Icon"			"comm/hex_multi"			//icon drawn on research tree
 			"Type"			"0"		//nothing
-			"Cost"			"240"		//cost of this research item
+			"Cost"			"120"		//cost of this research item
 			"Time"			"60"		//time to research this item in seconds
 			"Team"			""		//which team can research this
 			"XPos"			"50"
@@ -106,7 +106,7 @@ research_items
 				"Parent"		"Projectile_Physics"	//id of parent that this branches from
 				"Icon"			"comm/hex_multi"			//icon drawn on research tree
 				"Type"			"0"		//nothing
-				"Cost"			"180"		//cost of this research item
+				"Cost"			"90"		//cost of this research item
 				"Time"			"45"		//time to research this item in seconds
 				"Team"			""		//which team can research this
 				"XPos"			"60"
@@ -139,7 +139,7 @@ research_items
 			"Parent"		"Physics"				//id of parent that this branches from
 			"Icon"			"comm/hex_multi"			//icon drawn on research tree
 			"Type"			"0"		//nothing
-			"Cost"			"240"		//cost of this research item
+			"Cost"			"120"		//cost of this research item
 			"Time"			"60"		//time to research this item in seconds
 			"Team"			""		//which team can research this
 			"XPos"			"85"
@@ -197,7 +197,7 @@ research_items
 			"Parent"		"Chemistry"				//id of parent that this branches from
 			"Icon"			"comm/hex_multi"			//icon drawn on research tree
 			"Type"			"0"		//nothing
-			"Cost"			"240"		//cost of this research item
+			"Cost"			"120"		//cost of this research item
 			"Time"			"60"		//time to research this item in seconds
 			"Team"			""		//which team can research this
 			"XPos"			"135"
@@ -219,7 +219,7 @@ research_items
 			"Parent"		"Chemistry"				//id of parent that this branches from
 			"Icon"			"comm/hex_multi"			//icon drawn on research tree
 			"Type"			"0"		//nothing
-			"Cost"			"240"		//cost of this research item
+			"Cost"			"120"		//cost of this research item
 			"Time"			"60"		//time to research this item in seconds
 			"Team"			""		//which team can research this
 			"XPos"			"155"
@@ -252,7 +252,7 @@ research_items
 				"Parent"		"Improved_Detonation_Compounds"	//id of parent that this branches from
 				"Icon"			"comm/hex_multi"			//icon drawn on research tree
 				"Type"			"0"		//nothing
-				"Cost"			"180"		//cost of this research item
+				"Cost"			"90"		//cost of this research item
 				"Time"			"45"		//time to research this item in seconds
 				"Team"			""		//which team can research this
 				"XPos"			"195"
@@ -274,7 +274,7 @@ research_items
 			"Parent"		"Chemistry"				//id of parent that this branches from
 			"Icon"			"comm/hex_multi"			//icon drawn on research tree
 			"Type"			"0"		//nothing
-			"Cost"			"240"		//cost of this research item
+			"Cost"			"120"		//cost of this research item
 			"Time"			"60"		//time to research this item in seconds
 			"Team"			""		//which team can research this
 			"XPos"			"215"
@@ -296,7 +296,7 @@ research_items
 				"Parent"		"Improved_Warhead_Compounds"	//id of parent that this branches from
 				"Icon"			"comm/hex_multi"			//icon drawn on research tree
 				"Type"			"0"		//nothing
-				"Cost"			"240"		//cost of this research item
+				"Cost"			"120"		//cost of this research item
 				"Time"			"60"		//time to research this item in seconds
 				"Team"			""		//which team can research this
 				"XPos"			"255"
@@ -318,7 +318,7 @@ research_items
 			"Parent"		"Chemistry"				//id of parent that this branches from
 			"Icon"			"comm/hex_multi"			//icon drawn on research tree
 			"Type"			"0"		//nothing
-			"Cost"			"240"		//cost of this research item
+			"Cost"			"120"		//cost of this research item
 			"Time"			"60"		//time to research this item in seconds
 			"Team"			""		//which team can research this
 			"XPos"			"195"
@@ -364,8 +364,8 @@ research_items
 			"Parent"		"Mechanical_Engineering"				//id of parent that this branches from
 			"Icon"			"comm/hex_multi"			//icon drawn on research tree
 			"Type"			"0"		//nothing
-			"Cost"			"360"		//cost of this research item
-			"Time"			"90"		//time to research this item in seconds
+			"Cost"			"480"		//cost of this research item
+			"Time"			"120"		//time to research this item in seconds
 			"Team"			""		//which team can research this
 			"XPos"			"257"
 			"YPos"			"48"
@@ -491,7 +491,7 @@ research_items
 			"Parent"		"Electrical_Engineering"				//id of parent that this branches from
 			"Icon"			"comm/hex_multi"			//icon drawn on research tree
 			"Type"			"0"		//nothing
-			"Cost"			"240"		//cost of this research item
+			"Cost"			"120"		//cost of this research item
 			"Time"			"60"		//time to research this item in seconds
 			"Team"			""		//which team can research this
 			"XPos"			"360"
@@ -513,7 +513,7 @@ research_items
 				"Parent"		"Advanced_Magnet_Research"				//id of parent that this branches from
 				"Icon"			"comm/hex_multi"			//icon drawn on research tree
 				"Type"			"0"		//nothing
-				"Cost"			"180"		//cost of this research item
+				"Cost"			"90"		//cost of this research item
 				"Time"			"45"		//time to research this item in seconds
 				"Team"			""		//which team can research this
 				"XPos"			"380"
@@ -569,7 +569,7 @@ research_items
 			"Parent"		"Electrical_Engineering"				//id of parent that this branches from
 			"Icon"			"comm/hex_multi"			//icon drawn on research tree
 			"Type"			"0"		//nothing
-			"Cost"			"240"		//cost of this research item
+			"Cost"			"120"		//cost of this research item
 			"Time"			"60"		//time to research this item in seconds
 			"Team"			""		//which team can research this
 			"XPos"			"380"
@@ -591,7 +591,7 @@ research_items
 				"Parent"		"Tracking_Systems"				//id of parent that this branches from
 				"Icon"			"comm/hex_multi"			//icon drawn on research tree
 				"Type"			"0"		//nothing
-				"Cost"			"180"		//cost of this research item
+				"Cost"			"90"		//cost of this research item
 				"Time"			"45"		//time to research this item in seconds
 				"Team"			""		//which team can research this
 				"XPos"			"420"
@@ -624,7 +624,7 @@ research_items
 				"Parent"		"Tracking_Systems"				//id of parent that this branches from
 				"Icon"			"comm/hex_multi"			//icon drawn on research tree
 				"Type"			"0"		//nothing
-				"Cost"			"240"		//cost of this research item
+				"Cost"			"120"		//cost of this research item
 				"Time"			"60"		//time to research this item in seconds
 				"Team"			""		//which team can research this
 				"XPos"			"520"
@@ -657,8 +657,8 @@ research_items
 				"Parent"		"Upgraded_Turrets_Lvl_2"				//id of parent that this branches from
 				"Icon"			"comm/hex_cube"			//icon drawn on research tree
 				"Type"			"0"		//nothing
-				"Cost"			"360"		//cost of this research item
-				"Time"			"90"		//time to research this item in seconds
+				"Cost"			"480"		//cost of this research item
+				"Time"			"120"		//time to research this item in seconds
 				"Team"			""		//which team can research this
 				"XPos"			"320"
 				"YPos"			"72"
@@ -701,7 +701,7 @@ research_items
 			"Parent"		"Biology"				//id of parent that this branches from
 			"Icon"			"comm/hex_multi"			//icon drawn on research tree
 			"Type"			"0"		//nothing
-			"Cost"			"240"		//cost of this research item
+			"Cost"			"120"		//cost of this research item
 			"Time"			"60"		//time to research this item in seconds
 			"Team"			""		//which team can research this
 			"XPos"			"445"
@@ -734,7 +734,7 @@ research_items
 					"Parent"		"Incubator_Missiles"				//id of parent that this branches from
 					"Icon"			"comm/hex_ml"			//icon drawn on research tree
 					"Type"			"0"		//nothing
-					"Cost"			"180"		//cost of this research item
+					"Cost"			"90"		//cost of this research item
 					"Time"			"45"		//time to research this item in seconds
 					"Team"			""		//which team can research this
 					"XPos"			"465"
@@ -769,7 +769,7 @@ research_items
 				"Parent"		"Biological_Weaponry"				//id of parent that this branches from
 				"Icon"			"comm/hex_multi"			//icon drawn on research tree
 				"Type"			"0"		//nothing
-				"Cost"			"120"		//cost of this research item
+				"Cost"			"60"		//cost of this research item
 				"Time"			"30"		//time to research this item in seconds
 				"Team"			""		//which team can research this
 				"XPos"			"455"
