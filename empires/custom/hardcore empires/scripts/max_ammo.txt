@@ -6,10 +6,10 @@ MaxAmmo
 		"AMMO_MELEE"			"999"
 		"AMMO_GRENADE"			"3"	//Concussion Grenade
 		"AMMO_ROCKETS"			"5"
- 		"AMMO_PISTOL"			"36"	//Pistol 1 & BE Machine Pistol
+ 		"AMMO_PISTOL"			"36"	//Pistol 1
 		"AMMO_SMG"			"50"
 		"AMMO_RIFLE"			"20"	//Sniper Rifle
-		"AMMO_50CAL"			"80"	//SMG 3
+		"AMMO_50CAL"			"20"
 		"AMMO_HMG"			"100"
 		"AMMO_SMG2"			"140"	//SMG 2
 		"AMMO_PISTOL2"			"28"	//BE Pistol 2
@@ -23,6 +23,7 @@ MaxAmmo
 		"AMMO_STICKY_GRENADE"		"2"	//Sticky Stun Grenade
 		"AMMO_BUCKSHOT"			"12"	//NF Shotpistol
 		"AMMO_SHOTGUNBUCKSHOT"		"24"	//Shotgun
+		"AMMO_MACHINEPISTOL"		"72"	//BE Machine pistol
 
 		//Spawn Ammo
 		"SPAWN_AMMO_MELEE"		"999"
@@ -31,7 +32,7 @@ MaxAmmo
  		"SPAWN_AMMO_PISTOL"		"36"
 		"SPAWN_AMMO_SMG"		"50"
 		"SPAWN_AMMO_RIFLE"		"20"
-		"SPAWN_AMMO_50CAL"		"80"
+		"SPAWN_AMMO_50CAL"		"20"
 		"SPAWN_AMMO_HMG"		"200"
 		"SPAWN_AMMO_SMG2"		"140"
 		"SPAWN_AMMO_PISTOL2"		"28"
@@ -45,6 +46,7 @@ MaxAmmo
 		"SPAWN_AMMO_STICKY_GRENADE"	"2"
 		"SPAWN_AMMO_BUCKSHOT"		"12"
 		"SPAWN_AMMO_SHOTGUNBUCKSHOT"	"24"
+		"SPAWN_AMMO_MACHINEPISTOL"	"72"
 	}
 	rifleman
 	{
@@ -68,7 +70,8 @@ MaxAmmo
 		"AMMO_MINE_GRENADE"		"2"	
 		"AMMO_STICKY_GRENADE"		"2"	//Sticky Grenade
 		"AMMO_BUCKSHOT"			"12"	//NF Shotpistol
-		"AMMO_SHOTGUNBUCKSHOT"		"30"		
+		"AMMO_SHOTGUNBUCKSHOT"		"30"	
+		"AMMO_MACHINEPISTOL"		"72"
 
 		//Spawn Ammo
 		"SPAWN_AMMO_MELEE"		"999"
@@ -91,6 +94,7 @@ MaxAmmo
 		"SPAWN_AMMO_STICKY_GRENADE"	"2"
 		"SPAWN_AMMO_BUCKSHOT"		"12"
 		"SPAWN_AMMO_SHOTGUNBUCKSHOT"	"30"
+		"SPAWN_AMMO_MACHINEPISTOL"	"72"
 	}
 	grenadier
 	{
@@ -113,7 +117,8 @@ MaxAmmo
 		"AMMO_SEISMIC_GRENADE"		"2"
 		"AMMO_MINE_GRENADE"		"2"
 		"AMMO_BUCKSHOT"			"24"	//NF Shotpistol
-		"AMMO_SHOTGUNBUCKSHOT"		"30"	
+		"AMMO_SHOTGUNBUCKSHOT"		"30"
+		"AMMO_MACHINEPISTOL"		"72"
 
 		//Spawn Ammo
 		"SPAWN_AMMO_MELEE"		"999"
@@ -136,6 +141,7 @@ MaxAmmo
 		"SPAWN_AMMO_STICKY_GRENADE"	"1"
 		"SPAWN_AMMO_BUCKSHOT"		"12"
 		"SPAWN_AMMO_SHOTGUNBUCKSHOT"	"10"
+		"SPAWN_AMMO_MACHINEPISTOL"	"72"
 	}	
 	engineer
 	{
@@ -159,6 +165,7 @@ MaxAmmo
 		"AMMO_MINE_GRENADE"		"2"
 		"AMMO_BUCKSHOT"			"12"	//NF Shotpistol
 		"AMMO_SHOTGUNBUCKSHOT"		"24"	//Shotgun
+		"AMMO_MACHINEPISTOL"		"54"
 
 		//Spawn Ammo
 		"SPAWN_AMMO_MELEE"		"999"
@@ -181,5 +188,6 @@ MaxAmmo
 		"SPAWN_AMMO_STICKY_GRENADE"	"1"
 		"SPAWN_AMMO_BUCKSHOT"		"12"
 		"SPAWN_AMMO_SHOTGUNBUCKSHOT"	"24"
+		"SPAWN_AMMO_MACHINEPISTOL"	"54"
 	}
 }
