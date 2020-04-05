@@ -10,19 +10,19 @@
 			"tags_override"		"-"
 			"description_override"		"[Type: Quality of Life] Start with a VF but -200 resources"
 		}
-		"Bravo"
-		{
-			"min_players"		"0"
-			"max_players"		"64"
-			"name_override"		"Walking Simulator"
-			"description_override"		"[Type: Location] Start at West (A3) and East (E3)"
-		}
 		"Charlie"
 		{
 			"min_players"		"32"
 			"max_players"		"64"
 			"name_override"		"War for the North"
 			"description_override"		"[Type: Location & Gameplay] Start North (C5 & D5)"
+		}
+		"Echo"
+		{
+			"min_players"		"32"
+			"max_players"		"50"
+			"tags_override"		"-"
+			"description_override"		"-"
 		}
 	}
 	"enabled"		"1"

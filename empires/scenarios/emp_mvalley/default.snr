@@ -39,15 +39,15 @@
 		"35899"
 		{
 			"className"		"emp_imp_commander"
-			"position"		"11505.785156 -11033.262695 -4394.599609"
-			"angles"		"-4.408414 0.060852 2.063053"
+			"position"		"11504.553711 -11031.576172 -4394.570313"
+			"angles"		"-4.431336 0.245519 2.100662"
 			"coords"		"E1"
 		}
 		"35908"
 		{
 			"className"		"emp_nf_commander"
-			"position"		"-11585.051758 -11111.747070 -4299.534180"
-			"angles"		"-0.029218 -0.038440 0.156558"
+			"position"		"-11585.032227 -11111.795898 -4299.531250"
+			"angles"		"-0.028761 -0.043100 0.157640"
 			"coords"		"A1"
 		}
 		"38971"
@@ -378,11 +378,11 @@
 	}
 	"Description"		" "
 	"details"		" "
-	"Author"		"Hardcore Empires - Draft in pro"
+	"Author"		"Hardcore Empires - Backup Serve"
 	"BaseSwap"		"-1"
 	"CommFreezeTime"		"-1"
 	"PlayerRefineryMultiplier"		"-1.000000"
 	"RefineryMultiplier"		"-1.000000"
-	"version"		"0.930000"
+	"version"		"0.950000"
 	"hLimit"		"259992"
 }
