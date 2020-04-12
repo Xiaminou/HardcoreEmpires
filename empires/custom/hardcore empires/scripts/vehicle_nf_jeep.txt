@@ -35,7 +35,7 @@
 		"Armor Angle 4"		"285"
 
 		"Type"			"4"		//which vehicle type this is 0=jeep, 1=apc, 2=tank, 3=artillery, 4=anti-air
-		"Max Weight"		"224"           // was 204
+		"Max Weight"		"152"           // was 204
 		"Base Weight"		"124"           
 		"Cost"			"50"		//cost of just the chassis in resources
 		
@@ -67,10 +67,10 @@
 		
 		"Heat Capacity"		"100"		//amount of maximum heat level
 
-		"Max Front Armor"	"0"		//max inches of armor able to go on front
-		"Max Rear Armor"	"0"
-		"Max Left Armor"	"0"
-		"Max Right Armor"	"0"
+		"Max Front Armor"	"1"		//max inches of armor able to go on front
+		"Max Rear Armor"	"1"
+		"Max Left Armor"	"1"
+		"Max Right Armor"	"1"
 
 		"Repair Station Repair"	"1"		//percent of one inch of armor repaired per second by the repair station (0.5 = a half inch of armor is repaired per second)
 		"Engineer Repair"	"0.06"		//percent of one inch of armor repaired per engineer's repair unit (0.1 = a tenth inch of armor is repaired per engineer repair unit)
