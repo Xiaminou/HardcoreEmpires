@@ -44,7 +44,7 @@
 		"Enemy Recycling Percentage"	"0.25"	//The percentage of the cost of an enemy vehicle that is reimbursed when recycling a dead vehicle carcass.
 
 		//define max seats and properties
-		"Seats"			"2"
+		"Seats"			"4"
 
 		"Seat_1_Visible"		"0"	//0 means that this passenger is not visible, 1 means he is visible
 		"Seat_1_PersonalWeapons"	"0"	//0 means he uses the vehicle's weapons for any weapons associated with his seat, 1 means that this passenger only shoots with his personal weapons
@@ -54,6 +54,14 @@
 		"Seat_2_Visible"		"1"
 		"Seat_2_PersonalWeapons"	"1"
 		"Seat_2_Turret"			"0"
+		
+		"Seat_3_Visible"		"0"
+		"Seat_3_PersonalWeapons"	"0"
+		"Seat_3_Ducking"		"0"
+
+		"Seat_4_Visible"		"0"
+		"Seat_4_PersonalWeapons"	"0"
+		"Seat_4_Ducking"		"0"
 
 
 		//Turret properties
