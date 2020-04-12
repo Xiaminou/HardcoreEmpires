@@ -59,7 +59,7 @@ BuildingParse
 	"ExtraType1Resist" 		0.5	//unused				
 	"ExtraType2Resist" 		0.75	//unused				
 	"ExtraType3Resist" 		0.75	//unused
-	"SquadArtResist" 		0.9
+	"SquadArtResist" 		0.9	//Squad Artillery
 
 	//BOUNDARY VECTORS
 	"CollisionRadius" 		"200"
