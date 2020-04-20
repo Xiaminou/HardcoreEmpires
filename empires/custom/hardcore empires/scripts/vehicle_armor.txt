@@ -14,7 +14,7 @@ Vehicle_armor
 		//Stats
 		"Cost"				"6"	//cost of a plate in resources
 		"Weight"			"15"	//weight of a plate
-		"Health"			"50"	//health per plate
+		"Health"			"55"	//health per plate
 		"Regeneration"			"0"	//plates regenerated per second.
 		"Angle Modifier"		"0.10"	//damage reduction based on angle of impact
 		"Speed To Damage Modifier"	"0"	//increased damage based on speed of projectile
@@ -46,8 +46,8 @@ Vehicle_armor
 		//Stats
 		"Weight"			"15"
 		"Cost"				"18"
-		"Health"			"80"
-		"Regeneration"			"0.019"
+		"Health"			"85"
+		"Regeneration"			"0.02"
 		"Angle Modifier"		"0.35"
 		"Speed To Damage Modifier"	"-0.00005"
 		"Damage Modifier"		"1"
@@ -109,7 +109,7 @@ Vehicle_armor
 
 		//Stats
 		"Weight"			"15"
-		"Cost"				"16"
+		"Cost"				"15"
 		"Health"			"75"
 		"Regeneration"			"0"
 		"Angle Modifier"		"1"
@@ -153,7 +153,7 @@ Vehicle_armor
 		//Stats
 		"Weight"			"15"
 		"Cost"				"12"
-		"Health"			"72"
+		"Health"			"75"
 		"Regeneration"			"0.07"
 		"Angle Modifier"		"0.10"
 		"Speed To Damage Modifier"	"0"
@@ -289,8 +289,8 @@ Vehicle_armor
 
 		//Stats
 		"Weight"			"18"
-		"Cost"				"15"
-		"Health"			"160"
+		"Cost"				"17"
+		"Health"			"150"
 		"Regeneration"			"0.0"
 		"Angle Modifier"		"0.08"
 		"Speed To Damage Modifier"	"0.00002"
