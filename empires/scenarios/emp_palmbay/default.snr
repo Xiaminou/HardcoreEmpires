@@ -1,5 +1,9 @@
 "Scenario"
 {
+	"Description"		" "
+	"details"		" "
+	"Tags"		" "
+	"Author"		"Hardcore Empires - Main Server"
 	"NF_Res"		"400.000000"
 	"BE_Res"		"400.000000"
 	"NF_Tickets"		"211.251007"
@@ -39,15 +43,15 @@
 		"18319"
 		{
 			"className"		"emp_imp_commander"
-			"position"		"-6367.815918 -8928.002930 -2326.309326"
-			"angles"		"-0.000009 -90.999992 1.246642"
+			"position"		"-6367.810059 -8928.002930 -2326.314209"
+			"angles"		"-0.000010 -90.999992 1.243297"
 			"coords"		"B2"
 		}
 		"36959"
 		{
 			"className"		"emp_nf_commander"
-			"position"		"9216.804688 10463.808594 -2253.670410"
-			"angles"		"0.000020 90.999992 -0.582611"
+			"position"		"9216.798828 10463.808594 -2253.669189"
+			"angles"		"0.000017 91.000000 -0.582092"
 			"coords"		"E5"
 		}
 		"63675"
@@ -614,8 +618,8 @@
 			"angles"		"-3.781710 196.531006 0.442918"
 			"coords"		"D2"
 			"model"		"models/common/props_foliage/trees/palm01d.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"46331"
 		{
@@ -624,8 +628,8 @@
 			"angles"		"0.000000 257.500000 8.500000"
 			"coords"		"B4"
 			"model"		"models/common/props_foliage/trees/palm01b.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"46362"
 		{
@@ -634,8 +638,8 @@
 			"angles"		"5.211230 58.743801 11.456000"
 			"coords"		"B4"
 			"model"		"models/common/props_foliage/trees/palm01b.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"49883"
 		{
@@ -644,8 +648,8 @@
 			"angles"		"0.000000 69.000000 -0.000002"
 			"coords"		"C3"
 			"model"		"models/props_wasteland/controlroom_filecabinet002a.mdl"
+			"MoveType"		"6"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 			"MassScale"		"0.000000"
 			"InertiaScale"		"1.000000"
 			"DamageType"		"0"
@@ -657,8 +661,8 @@
 			"angles"		"-0.019356 59.523998 -89.890991"
 			"coords"		"C3"
 			"model"		"models/props_wasteland/controlroom_filecabinet002a.mdl"
+			"MoveType"		"6"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 			"MassScale"		"0.000000"
 			"InertiaScale"		"1.000000"
 			"DamageType"		"0"
@@ -670,8 +674,8 @@
 			"angles"		"-0.011538 -116.994003 -91.418304"
 			"coords"		"C3"
 			"model"		"models/props_wasteland/prison_bedframe001a.mdl"
+			"MoveType"		"6"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 			"MassScale"		"0.000000"
 			"InertiaScale"		"1.000000"
 			"DamageType"		"0"
@@ -683,8 +687,8 @@
 			"angles"		"-52.927700 147.850998 -176.686996"
 			"coords"		"C3"
 			"model"		"models/props_junk/metalbucket02a.mdl"
+			"MoveType"		"6"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 			"MassScale"		"0.000000"
 			"InertiaScale"		"1.000000"
 			"DamageType"		"0"
@@ -696,20 +700,13 @@
 			"angles"		"0.000000 -134.000000 0.000000"
 			"coords"		"C3"
 			"model"		"models/props_c17/furnituremattress001a.mdl"
+			"MoveType"		"6"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 			"MassScale"		"0.000000"
 			"InertiaScale"		"1.000000"
 			"DamageType"		"0"
 		}
 	}
-	"Description"		" "
-	"details"		" "
-	"Author"		"Hardcore Empires - The Tradiona"
-	"BaseSwap"		"-1"
-	"CommFreezeTime"		"-1"
-	"PlayerRefineryMultiplier"		"-1.000000"
-	"RefineryMultiplier"		"-1.000000"
-	"version"		"0.880000"
+	"version"		"1.010000"
 	"hLimit"		"152457"
 }

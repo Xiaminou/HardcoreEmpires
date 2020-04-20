@@ -1,13 +1,9 @@
 "Scenario"
 {
-	"Description"		" "
-	"details"		" "
-	"Tags"		" "
-	"Author"		"Hardcore Empires - Main Server"
 	"NF_Res"		"400.049988"
 	"BE_Res"		"400.049988"
-	"NF_Tickets"		"435.600006"
-	"BE_Tickets"		"435.600006"
+	"NF_Tickets"		"435.000000"
+	"BE_Tickets"		"435.000000"
 	"NF_Research"
 	{
 		"0"		"1"
@@ -65,15 +61,15 @@
 		"147613"
 		{
 			"className"		"emp_imp_commander"
-			"position"		"-11264.000000 -11263.839844 5.690518"
-			"angles"		"0.000012 -0.000001 1.246638"
+			"position"		"-11264.000000 -11263.047852 5.673357"
+			"angles"		"0.000000 0.000014 1.248501"
 			"coords"		"A1"
 		}
 		"147617"
 		{
 			"className"		"emp_nf_commander"
-			"position"		"11264.000000 11264.505859 78.329605"
-			"angles"		"0.000033 -180.000000 -0.582611"
+			"position"		"11264.000000 11268.910156 78.327118"
+			"angles"		"-0.000004 -180.000000 -0.585541"
 			"coords"		"F6"
 		}
 		"115543"
@@ -119,7 +115,7 @@
 			"coords"		"D2"
 			"effects"		"80"
 			"enabled"		"1"
-			"resPerSecond"		"2.000000"
+			"resPerSecond"		"1.000000"
 		}
 		"115857"
 		{
@@ -209,7 +205,7 @@
 			"coords"		"C5"
 			"effects"		"80"
 			"enabled"		"1"
-			"resPerSecond"		"2.000000"
+			"resPerSecond"		"1.000000"
 		}
 		"123138"
 		{
@@ -222,7 +218,67 @@
 			"enabled"		"0"
 			"resPerSecond"		"1.000000"
 		}
+		"5000003"
+		{
+			"className"		"prop_dynamic"
+			"position"		"6824.796875 461.263519 -180.675354"
+			"angles"		"0.000000 90.000000 20.000000"
+			"coords"		"E4"
+			"model"		"models/empfun/platform8.mdl"
+			"Skin"		"10"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
+		"5000004"
+		{
+			"className"		"prop_dynamic"
+			"position"		"5378.497070 461.263489 343.224670"
+			"angles"		"0.000000 90.000000 20.000000"
+			"coords"		"E4"
+			"model"		"models/empfun/platform8.mdl"
+			"Skin"		"10"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
+		"5000005"
+		{
+			"className"		"prop_dynamic"
+			"position"		"3900.096680 461.263489 877.624756"
+			"angles"		"0.000000 90.000000 20.000000"
+			"coords"		"D4"
+			"model"		"models/empfun/platform8.mdl"
+			"Skin"		"10"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
+		"5000006"
+		{
+			"className"		"prop_dynamic"
+			"position"		"2406.796631 461.263489 1421.124756"
+			"angles"		"0.000000 90.000000 20.000000"
+			"coords"		"D4"
+			"model"		"models/empfun/platform8.mdl"
+			"Skin"		"10"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
+		"5000007"
+		{
+			"className"		"prop_dynamic"
+			"position"		"1026.596558 461.263489 1919.624756"
+			"angles"		"0.000000 90.000000 20.000000"
+			"coords"		"D4"
+			"model"		"models/empfun/platform8.mdl"
+			"Skin"		"10"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
 	}
-	"version"		"1.030000"
+	"Author"		"Mikleo"
+	"BaseSwap"		"-1"
+	"CommFreezeTime"		"-1"
+	"PlayerRefineryMultiplier"		"-1.000000"
+	"RefineryMultiplier"		"-1.000000"
+	"version"		"0.950000"
 	"hLimit"		"524120"
 }

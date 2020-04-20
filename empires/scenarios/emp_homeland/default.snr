@@ -1,5 +1,9 @@
 "Scenario"
 {
+	"Description"		" "
+	"details"		" "
+	"Tags"		" "
+	"Author"		"Hardcore Empires - Main Server"
 	"NF_Res"		"500.399994"
 	"BE_Res"		"500.399994"
 	"NF_Tickets"		"211.250000"
@@ -67,15 +71,15 @@
 		"776735"
 		{
 			"className"		"emp_imp_commander"
-			"position"		"-9119.819336 5376.000000 5.690589"
-			"angles"		"0.000008 -90.000000 1.246749"
+			"position"		"-9119.818359 5376.000000 5.690729"
+			"angles"		"0.000007 -90.000000 1.246812"
 			"coords"		"A3"
 		}
 		"776923"
 		{
 			"className"		"emp_nf_commander"
-			"position"		"6112.496094 4416.000000 78.329308"
-			"angles"		"0.000004 90.000008 -0.581299"
+			"position"		"6112.497070 4416.000000 78.329460"
+			"angles"		"0.000003 90.000008 -0.581238"
 			"coords"		"D3"
 		}
 		"1831747"
@@ -210,7 +214,7 @@
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"D3"
 			"name"		"res_dockpipe"
-			"Effects"		"80"
+			"effects"		"80"
 			"enabled"		"0"
 			"resPerSecond"		"1.000000"
 		}
@@ -221,7 +225,7 @@
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"A1"
 			"name"		"res_school"
-			"Effects"		"80"
+			"effects"		"80"
 			"enabled"		"1"
 			"resPerSecond"		"2.000000"
 		}
@@ -232,7 +236,7 @@
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"C2"
 			"name"		"res_fountain"
-			"Effects"		"80"
+			"effects"		"80"
 			"enabled"		"1"
 			"resPerSecond"		"1.000000"
 		}
@@ -243,7 +247,7 @@
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"D1"
 			"name"		"res_farm"
-			"Effects"		"80"
+			"effects"		"80"
 			"enabled"		"1"
 			"resPerSecond"		"2.000000"
 		}
@@ -254,7 +258,7 @@
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"C2"
 			"name"		"res_roadpipes"
-			"Effects"		"80"
+			"effects"		"80"
 			"enabled"		"1"
 			"resPerSecond"		"1.000000"
 		}
@@ -265,7 +269,7 @@
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"B2"
 			"name"		"res_powerstation"
-			"Effects"		"80"
+			"effects"		"80"
 			"enabled"		"1"
 			"resPerSecond"		"1.000000"
 		}
@@ -276,7 +280,7 @@
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"A3"
 			"name"		"res_bestart"
-			"Effects"		"80"
+			"effects"		"80"
 			"enabled"		"0"
 			"resPerSecond"		"1.000000"
 		}
@@ -287,7 +291,7 @@
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"B3"
 			"name"		"res_gasstation"
-			"Effects"		"80"
+			"effects"		"80"
 			"enabled"		"1"
 			"resPerSecond"		"1.000000"
 		}
@@ -298,7 +302,7 @@
 			"angles"		"90.000000 270.000000 0.000000"
 			"coords"		"D3"
 			"name"		"prop_dockpipe"
-			"Effects"		"32"
+			"effects"		"32"
 			"enabled"		"0"
 			"model"		"models/props_pipes/destroyedpipes01d.mdl"
 		}
@@ -498,10 +502,10 @@
 			"position"		"3214.000000 2496.000000 60.000000"
 			"angles"		"0.000000 270.000000 0.000000"
 			"coords"		"C2"
-			"Effects"		"64"
+			"effects"		"64"
 			"model"		"models/props_lab/ladderset.mdl"
+			"MoveType"		"7"
 			"SolidType"		"0"
-			"CollisionGroup"		"0"
 		}
 		"113578"
 		{
@@ -509,10 +513,10 @@
 			"position"		"6824.000000 3852.000000 32.000000"
 			"angles"		"0.000000 180.000000 0.000000"
 			"coords"		"D3"
-			"Effects"		"80"
+			"effects"		"80"
 			"model"		"models/props_c17/consolebox01a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"2"
-			"CollisionGroup"		"0"
 		}
 		"113350"
 		{
@@ -520,10 +524,10 @@
 			"position"		"6814.000000 3770.000000 44.000000"
 			"angles"		"0.000000 180.000000 0.000000"
 			"coords"		"D3"
-			"Effects"		"80"
+			"effects"		"80"
 			"model"		"models/props_c17/consolebox03a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"2"
-			"CollisionGroup"		"0"
 		}
 		"113373"
 		{
@@ -531,10 +535,10 @@
 			"position"		"6822.000000 3766.000000 32.000000"
 			"angles"		"0.000000 180.000000 0.000000"
 			"coords"		"D3"
-			"Effects"		"80"
+			"effects"		"80"
 			"model"		"models/props_c17/consolebox01a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"2"
-			"CollisionGroup"		"0"
 		}
 		"425680"
 		{
@@ -542,10 +546,10 @@
 			"position"		"-8256.000000 -512.000000 576.000000"
 			"angles"		"0.000000 180.000000 0.000000"
 			"coords"		"A2"
-			"Effects"		"80"
+			"effects"		"80"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"3"
-			"CollisionGroup"		"0"
 		}
 		"492718"
 		{
@@ -554,8 +558,8 @@
 			"angles"		"0.000000 255.000000 0.000000"
 			"coords"		"B2"
 			"model"		"models/props_wasteland/barricade001a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"0"
-			"CollisionGroup"		"0"
 		}
 		"492776"
 		{
@@ -564,8 +568,8 @@
 			"angles"		"0.000000 180.000000 0.000000"
 			"coords"		"B2"
 			"model"		"models/props_wasteland/barricade001a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"0"
-			"CollisionGroup"		"0"
 		}
 		"142015"
 		{
@@ -573,10 +577,10 @@
 			"position"		"-2880.000000 3168.000000 9.000000"
 			"angles"		"0.000000 90.000000 0.000000"
 			"coords"		"B3"
-			"Effects"		"64"
+			"effects"		"64"
 			"model"		"models/props_wasteland/gaspump001a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"2"
-			"CollisionGroup"		"0"
 		}
 		"656099"
 		{
@@ -584,10 +588,10 @@
 			"position"		"-7700.000000 3484.000000 80.497101"
 			"angles"		"0.000000 150.000000 0.000000"
 			"coords"		"A3"
-			"Effects"		"80"
+			"effects"		"80"
 			"model"		"models/props_lab/monitor01a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"2"
-			"CollisionGroup"		"0"
 		}
 		"656101"
 		{
@@ -595,10 +599,11 @@
 			"position"		"-7700.000000 3484.000000 34.497101"
 			"angles"		"0.000000 270.000000 90.000000"
 			"coords"		"A3"
-			"Effects"		"80"
+			"effects"		"80"
 			"model"		"models/props_junk/wood_crate002a.mdl"
+			"Skin"		"1"
+			"MoveType"		"7"
 			"SolidType"		"2"
-			"CollisionGroup"		"0"
 		}
 		"658859"
 		{
@@ -607,8 +612,8 @@
 			"angles"		"0.000000 90.000000 0.000000"
 			"coords"		"A3"
 			"model"		"models/props_c17/oildrum001.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"658861"
 		{
@@ -617,8 +622,9 @@
 			"angles"		"0.000000 90.000000 0.000000"
 			"coords"		"A3"
 			"model"		"models/props_c17/oildrum001.mdl"
+			"Skin"		"2"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"746422"
 		{
@@ -626,10 +632,10 @@
 			"position"		"2369.000000 2488.000000 192.000000"
 			"angles"		"0.000000 180.000000 0.000000"
 			"coords"		"C2"
-			"Effects"		"80"
+			"effects"		"80"
 			"model"		"models/props_debris/wood_board05a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"2"
-			"CollisionGroup"		"0"
 		}
 		"746437"
 		{
@@ -637,10 +643,10 @@
 			"position"		"2369.000000 2456.000000 224.000000"
 			"angles"		"0.000000 180.000000 0.000000"
 			"coords"		"C2"
-			"Effects"		"80"
+			"effects"		"80"
 			"model"		"models/props_debris/wood_board06a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"2"
-			"CollisionGroup"		"0"
 		}
 		"746495"
 		{
@@ -648,10 +654,10 @@
 			"position"		"2369.000000 2472.000000 192.000000"
 			"angles"		"0.000000 180.000000 0.000000"
 			"coords"		"C2"
-			"Effects"		"80"
+			"effects"		"80"
 			"model"		"models/props_debris/wood_board05a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"2"
-			"CollisionGroup"		"0"
 		}
 		"746515"
 		{
@@ -659,10 +665,10 @@
 			"position"		"2369.000000 2392.000000 234.000000"
 			"angles"		"0.000000 180.000000 0.000000"
 			"coords"		"C2"
-			"Effects"		"80"
+			"effects"		"80"
 			"model"		"models/props_debris/wood_board06a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"2"
-			"CollisionGroup"		"0"
 		}
 		"746527"
 		{
@@ -670,10 +676,10 @@
 			"position"		"2369.000000 2408.000000 242.000000"
 			"angles"		"0.000000 180.000000 0.000000"
 			"coords"		"C2"
-			"Effects"		"80"
+			"effects"		"80"
 			"model"		"models/props_debris/wood_board06a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"2"
-			"CollisionGroup"		"0"
 		}
 		"746531"
 		{
@@ -681,10 +687,10 @@
 			"position"		"2369.000000 2440.000000 242.000000"
 			"angles"		"0.000000 180.000000 0.000000"
 			"coords"		"C2"
-			"Effects"		"80"
+			"effects"		"80"
 			"model"		"models/props_debris/wood_board06a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"2"
-			"CollisionGroup"		"0"
 		}
 		"746555"
 		{
@@ -692,10 +698,10 @@
 			"position"		"2369.000000 2380.000000 192.000000"
 			"angles"		"0.000000 180.000000 0.000000"
 			"coords"		"C2"
-			"Effects"		"80"
+			"effects"		"80"
 			"model"		"models/props_debris/wood_board03a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"2"
-			"CollisionGroup"		"0"
 		}
 		"808618"
 		{
@@ -703,10 +709,10 @@
 			"position"		"2369.000000 2424.000000 242.000000"
 			"angles"		"0.000000 180.000000 0.000000"
 			"coords"		"C2"
-			"Effects"		"80"
+			"effects"		"80"
 			"model"		"models/props_debris/wood_board06a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"2"
-			"CollisionGroup"		"0"
 		}
 		"955634"
 		{
@@ -714,10 +720,10 @@
 			"position"		"-6176.000000 -4416.000000 5.000000"
 			"angles"		"0.000000 270.000000 0.000000"
 			"coords"		"A1"
-			"Effects"		"64"
+			"effects"		"64"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"1123116"
 		{
@@ -725,10 +731,10 @@
 			"position"		"7168.000000 512.000000 576.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"D2"
-			"Effects"		"80"
+			"effects"		"80"
 			"model"		"models/common/props_foliage/trees/orexcluster2c.mdl"
+			"MoveType"		"7"
 			"SolidType"		"3"
-			"CollisionGroup"		"0"
 		}
 		"1204323"
 		{
@@ -736,10 +742,10 @@
 			"position"		"-2560.000000 -5760.000000 640.000000"
 			"angles"		"0.000000 270.000000 0.000000"
 			"coords"		"B1"
-			"Effects"		"80"
+			"effects"		"80"
 			"model"		"models/common/props_foliage/trees/orexcluster2b.mdl"
+			"MoveType"		"7"
 			"SolidType"		"3"
-			"CollisionGroup"		"0"
 		}
 		"1219926"
 		{
@@ -747,10 +753,10 @@
 			"position"		"2496.000000 5760.000000 528.806030"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"C3"
-			"Effects"		"80"
+			"effects"		"80"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"3"
-			"CollisionGroup"		"0"
 		}
 		"337065"
 		{
@@ -758,10 +764,10 @@
 			"position"		"-3360.000000 -384.000000 54.000000"
 			"angles"		"0.000000 60.000000 0.000000"
 			"coords"		"B2"
-			"Effects"		"80"
+			"effects"		"80"
 			"model"		"models/props_doors/door01_dynamic.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"325771"
 		{
@@ -769,10 +775,11 @@
 			"position"		"-2916.000000 -412.000000 34.000000"
 			"angles"		"0.000000 270.000000 90.000000"
 			"coords"		"B2"
-			"Effects"		"80"
+			"effects"		"80"
 			"model"		"models/props_junk/wood_crate002a.mdl"
+			"Skin"		"1"
+			"MoveType"		"7"
 			"SolidType"		"2"
-			"CollisionGroup"		"0"
 		}
 		"83786"
 		{
@@ -780,10 +787,10 @@
 			"position"		"-8200.000000 -4444.000000 56.000000"
 			"angles"		"0.000000 75.000000 0.000000"
 			"coords"		"A1"
-			"Effects"		"16"
+			"effects"		"16"
 			"model"		"models/props_doors/door01_dynamic.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"1576479"
 		{
@@ -792,8 +799,8 @@
 			"angles"		"0.000000 270.000000 0.000000"
 			"coords"		"C2"
 			"model"		"models/props_c17/bench01a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"1615884"
 		{
@@ -802,8 +809,8 @@
 			"angles"		"0.000000 315.000000 0.000000"
 			"coords"		"C2"
 			"model"		"models/props_c17/bench01a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"1615892"
 		{
@@ -812,8 +819,8 @@
 			"angles"		"0.000000 225.000000 0.000000"
 			"coords"		"C2"
 			"model"		"models/props_c17/bench01a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"1615916"
 		{
@@ -822,8 +829,8 @@
 			"angles"		"0.000000 315.000000 0.000000"
 			"coords"		"C2"
 			"model"		"models/props_c17/bench01a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"1615928"
 		{
@@ -832,8 +839,8 @@
 			"angles"		"0.000000 180.000000 0.000000"
 			"coords"		"C2"
 			"model"		"models/props_c17/bench01a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"1615940"
 		{
@@ -842,8 +849,8 @@
 			"angles"		"0.000000 180.000000 0.000000"
 			"coords"		"C2"
 			"model"		"models/props_c17/bench01a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"1615944"
 		{
@@ -852,8 +859,8 @@
 			"angles"		"0.000000 45.000000 0.000000"
 			"coords"		"C2"
 			"model"		"models/props_c17/bench01a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"167145"
 		{
@@ -861,10 +868,10 @@
 			"position"		"-2848.000000 -576.000000 128.000000"
 			"angles"		"0.000000 180.000000 0.000000"
 			"coords"		"B2"
-			"Effects"		"64"
+			"effects"		"64"
 			"model"		"models/props_combine/breendesk.mdl"
+			"MoveType"		"7"
 			"SolidType"		"2"
-			"CollisionGroup"		"0"
 		}
 		"167125"
 		{
@@ -872,10 +879,10 @@
 			"position"		"-2832.000000 -976.000000 148.000000"
 			"angles"		"0.000000 45.000000 0.000000"
 			"coords"		"B2"
-			"Effects"		"64"
+			"effects"		"64"
 			"model"		"models/props_interiors/furniture_desk01a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"2"
-			"CollisionGroup"		"0"
 		}
 		"166970"
 		{
@@ -883,10 +890,10 @@
 			"position"		"-2848.000000 -576.000000 0.000000"
 			"angles"		"0.000000 180.000000 0.000000"
 			"coords"		"B2"
-			"Effects"		"64"
+			"effects"		"64"
 			"model"		"models/props_combine/breendesk.mdl"
+			"MoveType"		"7"
 			"SolidType"		"2"
-			"CollisionGroup"		"0"
 		}
 		"1958232"
 		{
@@ -894,10 +901,10 @@
 			"position"		"-3808.000000 -5344.000000 5.000000"
 			"angles"		"0.000000 270.000000 0.000000"
 			"coords"		"B1"
-			"Effects"		"64"
+			"effects"		"64"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"2204052"
 		{
@@ -905,10 +912,10 @@
 			"position"		"2496.000000 6912.000000 528.806030"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"C3"
-			"Effects"		"80"
+			"effects"		"80"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"3"
-			"CollisionGroup"		"0"
 		}
 		"2255572"
 		{
@@ -916,10 +923,10 @@
 			"position"		"1344.000000 6720.000000 0.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"C3"
-			"Effects"		"64"
+			"effects"		"64"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"2255580"
 		{
@@ -927,10 +934,10 @@
 			"position"		"1344.000000 5888.000000 0.000000"
 			"angles"		"0.000000 270.000000 0.000000"
 			"coords"		"C3"
-			"Effects"		"64"
+			"effects"		"64"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"2308044"
 		{
@@ -938,10 +945,10 @@
 			"position"		"2369.000000 2388.000000 170.000000"
 			"angles"		"0.000000 180.000000 0.000000"
 			"coords"		"C2"
-			"Effects"		"80"
+			"effects"		"80"
 			"model"		"models/props_debris/wood_board04a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"2"
-			"CollisionGroup"		"0"
 		}
 		"2340941"
 		{
@@ -949,10 +956,10 @@
 			"position"		"3008.000000 3456.000000 192.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"C3"
-			"Effects"		"80"
+			"effects"		"80"
 			"model"		"models/props_canal/canal_cap001.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"2340963"
 		{
@@ -960,10 +967,10 @@
 			"position"		"3008.000000 3456.000000 192.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"C3"
-			"Effects"		"80"
+			"effects"		"80"
 			"model"		"models/props_canal/canal_bars002b.mdl"
+			"MoveType"		"7"
 			"SolidType"		"0"
-			"CollisionGroup"		"0"
 		}
 		"2368256"
 		{
@@ -971,10 +978,11 @@
 			"position"		"-2956.000000 -410.000000 34.000000"
 			"angles"		"0.000000 270.000000 90.000000"
 			"coords"		"B2"
-			"Effects"		"80"
+			"effects"		"80"
 			"model"		"models/props_junk/wood_crate002a.mdl"
+			"Skin"		"2"
+			"MoveType"		"7"
 			"SolidType"		"2"
-			"CollisionGroup"		"0"
 		}
 		"2368258"
 		{
@@ -982,10 +990,10 @@
 			"position"		"-2996.000000 -404.000000 20.000000"
 			"angles"		"-90.000000 0.000000 0.000000"
 			"coords"		"B2"
-			"Effects"		"80"
+			"effects"		"80"
 			"model"		"models/props_junk/wood_crate001a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"2"
-			"CollisionGroup"		"0"
 		}
 		"2368260"
 		{
@@ -993,10 +1001,11 @@
 			"position"		"-2970.000000 -498.000000 34.000000"
 			"angles"		"0.000000 270.000000 90.000000"
 			"coords"		"B2"
-			"Effects"		"80"
+			"effects"		"80"
 			"model"		"models/props_junk/wood_crate002a.mdl"
+			"Skin"		"2"
+			"MoveType"		"7"
 			"SolidType"		"2"
-			"CollisionGroup"		"0"
 		}
 		"2368270"
 		{
@@ -1004,10 +1013,11 @@
 			"position"		"-2956.000000 -452.000000 34.000000"
 			"angles"		"0.000000 270.000000 90.000000"
 			"coords"		"B2"
-			"Effects"		"80"
+			"effects"		"80"
 			"model"		"models/props_junk/wood_crate002a.mdl"
+			"Skin"		"1"
+			"MoveType"		"7"
 			"SolidType"		"2"
-			"CollisionGroup"		"0"
 		}
 		"2368272"
 		{
@@ -1015,10 +1025,11 @@
 			"position"		"-2916.000000 -460.000000 34.000000"
 			"angles"		"0.000000 270.000000 90.000000"
 			"coords"		"B2"
-			"Effects"		"80"
+			"effects"		"80"
 			"model"		"models/props_junk/wood_crate002a.mdl"
+			"Skin"		"1"
+			"MoveType"		"7"
 			"SolidType"		"2"
-			"CollisionGroup"		"0"
 		}
 		"2368274"
 		{
@@ -1026,10 +1037,10 @@
 			"position"		"-2916.000000 -460.000000 102.000000"
 			"angles"		"0.000000 270.000000 90.000000"
 			"coords"		"B2"
-			"Effects"		"80"
+			"effects"		"80"
 			"model"		"models/props_junk/wood_crate002a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"2"
-			"CollisionGroup"		"0"
 		}
 		"2368276"
 		{
@@ -1037,10 +1048,10 @@
 			"position"		"-2956.000000 -458.000000 88.000000"
 			"angles"		"0.000000 270.000000 90.000000"
 			"coords"		"B2"
-			"Effects"		"80"
+			"effects"		"80"
 			"model"		"models/props_junk/wood_crate001a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"2"
-			"CollisionGroup"		"0"
 		}
 		"2451518"
 		{
@@ -1048,10 +1059,11 @@
 			"position"		"-2928.000000 -506.000000 20.000000"
 			"angles"		"-90.000000 0.000000 0.000000"
 			"coords"		"B2"
-			"Effects"		"80"
+			"effects"		"80"
 			"model"		"models/props_junk/wood_crate002a.mdl"
+			"Skin"		"1"
+			"MoveType"		"7"
 			"SolidType"		"2"
-			"CollisionGroup"		"0"
 		}
 		"2468734"
 		{
@@ -1059,10 +1071,10 @@
 			"position"		"-8458.000000 -4768.000000 56.000000"
 			"angles"		"0.000000 330.000000 0.000000"
 			"coords"		"A1"
-			"Effects"		"16"
+			"effects"		"16"
 			"model"		"models/props_doors/door01_dynamic.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"2498734"
 		{
@@ -1070,10 +1082,10 @@
 			"position"		"-2848.000000 -816.000000 0.000000"
 			"angles"		"0.000000 180.000000 0.000000"
 			"coords"		"B2"
-			"Effects"		"64"
+			"effects"		"64"
 			"model"		"models/props_combine/breendesk.mdl"
+			"MoveType"		"7"
 			"SolidType"		"2"
-			"CollisionGroup"		"0"
 		}
 		"1221683"
 		{
@@ -1082,8 +1094,8 @@
 			"angles"		"0.000000 58.000000 0.000000"
 			"coords"		"A1"
 			"model"		"models/props_doors/door01_dynamic.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"1221695"
 		{
@@ -1091,10 +1103,10 @@
 			"position"		"-7090.000000 -4216.000000 27.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"A1"
-			"Effects"		"64"
+			"effects"		"64"
 			"model"		"models/props_c17/furnitureradiator001a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"2"
-			"CollisionGroup"		"0"
 		}
 		"2505933"
 		{
@@ -1102,10 +1114,10 @@
 			"position"		"-2624.000000 3168.000000 9.000000"
 			"angles"		"0.000000 90.000000 0.000000"
 			"coords"		"B3"
-			"Effects"		"64"
+			"effects"		"64"
 			"model"		"models/props_wasteland/gaspump001a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"2"
-			"CollisionGroup"		"0"
 		}
 		"2505800"
 		{
@@ -1114,7 +1126,7 @@
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"B3"
 			"name"		"f1"
-			"Effects"		"32"
+			"effects"		"32"
 			"spawnflags"		"128"
 			"fireType"		"0"
 			"fireSize"		"64.000000"
@@ -1128,7 +1140,7 @@
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"B3"
 			"name"		"f2"
-			"Effects"		"32"
+			"effects"		"32"
 			"spawnflags"		"128"
 			"fireType"		"0"
 			"fireSize"		"64.000000"
@@ -1136,13 +1148,6 @@
 			"duration"		"120"
 		}
 	}
-	"Description"		" "
-	"details"		" "
-	"Author"		"Hardcore Crashpires - The Root "
-	"BaseSwap"		"-1"
-	"CommFreezeTime"		"-1"
-	"PlayerRefineryMultiplier"		"-1.000000"
-	"RefineryMultiplier"		"-1.000000"
-	"version"		"0.810000"
-	"hLimit"		"2505937"
+	"version"		"1.030000"
+	"hLimit"		"2582718"
 }

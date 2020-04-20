@@ -1,5 +1,9 @@
 "Scenario"
 {
+	"Description"		" "
+	"details"		" "
+	"Tags"		" "
+	"Author"		"Hardcore Empires - Main Server"
 	"NF_Res"		"400.000000"
 	"BE_Res"		"400.000000"
 	"NF_Tickets"		"141.220001"
@@ -39,8 +43,8 @@
 		"283393"
 		{
 			"className"		"emp_imp_commander"
-			"position"		"1071.970337 -4114.825195 -3129.668457"
-			"angles"		"2.137714 -95.062767 1.418584"
+			"position"		"1071.970215 -4114.825195 -3129.668457"
+			"angles"		"2.137683 -95.062706 1.418579"
 			"coords"		"C2"
 		}
 		"283397"
@@ -130,13 +134,6 @@
 			"resPerSecond"		"2.000000"
 		}
 	}
-	"Description"		" "
-	"details"		" "
-	"Author"		"Hardcore Empires - The Tradiona"
-	"BaseSwap"		"-1"
-	"CommFreezeTime"		"-1"
-	"PlayerRefineryMultiplier"		"-1.000000"
-	"RefineryMultiplier"		"-1.000000"
-	"version"		"0.930000"
+	"version"		"1.030000"
 	"hLimit"		"553173"
 }

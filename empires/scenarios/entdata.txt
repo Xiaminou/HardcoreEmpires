@@ -35,6 +35,14 @@
 				"propType"		"data"
 				"defaultValue"	"0"
 			}
+			"rendermode"
+			{
+				"fgdName"	"rendermode"
+				"type" 		"int"
+				"prop" 		"m_nRenderMode"
+				"propType"		"data"
+				"defaultValue"	"0"
+			}
 		}
 	}
 	"map_entity"
@@ -338,6 +346,7 @@
 				"type" 		"string"
 				"prop"		"m_sLocation"	
 				"propType"		"data"
+				"defaultValue"	""
 			}
 			"resToGiveNF"
 			{
@@ -586,6 +595,7 @@
 				"type" 		"float"
 				"prop" 		"m_flTwist"
 				"propType"		"data"
+				"defaultValue"	"0"
 			}
 			"roll"
 			{
@@ -593,6 +603,7 @@
 				"type" 		"float"
 				"prop" 		"m_flRollSpeed"
 				"propType"		"data"
+				"defaultValue"	"0"
 			}
 			"windAngle"
 			{
@@ -675,6 +686,7 @@
 				"type" 		"int"
 				"prop"		"m_bChangeOwner"	
 				"propType"		"data"
+				"defaultValue"	"0"
 			}
 			"raiseOnBuild"
 			{
@@ -682,6 +694,7 @@
 				"type" 		"int"
 				"prop"		"m_bRaiseOnBuild"	
 				"propType"		"data"
+				"defaultValue"	"0"
 			}
 			"solidOnSpawn"
 			{
@@ -689,6 +702,7 @@
 				"type" 		"int"
 				"prop"		"m_bSolidOnSpawn"	
 				"propType"		"data"
+				"defaultValue"	"0"
 			}
 			
 			"visibleToEnemy"
@@ -697,6 +711,7 @@
 				"type" 		"int"
 				"prop"		"m_bVisibleToEnemy"	
 				"propType"		"data"
+				"defaultValue"	"0"
 			}
 			"timeToRespawn"
 			{
@@ -725,6 +740,7 @@
 				"type" 		"int"
 				"prop"		"m_iRepairMultiplier"	
 				"propType"		"data"
+				"defaultValue"	"1"
 			}
 			"damageMultiplier"
 			{
@@ -732,6 +748,7 @@
 				"type" 		"int"
 				"prop"		"m_iDamageMultiplier"	
 				"propType"		"data"
+				"defaultValue"	"1"
 			}
 			"grenadierOnly"
 			{
@@ -739,6 +756,7 @@
 				"type" 		"int"
 				"prop"		"m_bGrenadierOnly"	
 				"propType"		"data"
+				"defaultValue"	"0"
 			}
 			"solidOnRespawn"
 			{
@@ -746,13 +764,7 @@
 				"type" 		"int"
 				"prop"		"m_bSolidOnRespawn"	
 				"propType"		"data"
-			}
-			"canSabotage"
-			{
-				"fgdName"	"canSabotage"
-				"type" 		"int"
-				"prop"		"m_bCanBeSabotaged"	
-				"propType"		"data"
+				"defaultValue"	"0"
 			}
 
 		}
@@ -823,6 +835,7 @@
 				"type" 		"int"
 				"prop" 		"m_nSkin"
 				"propType"		"data"
+				"defaultValue"	"0"
 			}
 			"MoveType"
 			{
@@ -843,6 +856,7 @@
 				"type" 		"int"
 				"propType"		"data"
 				"postSpawn"	"true"
+				"defaultValue"	"0"
 			}
 			"Health"
 			{
@@ -868,6 +882,13 @@
 				"propType"		"data"
 				"defaultValue"	"0.000000"
 			}
+			"team"
+			{
+				"prop" 	"m_iTeamNum"
+				"type" 		"int"
+				"defaultValue"	"0"
+			}
+			
 			
 			
 		}

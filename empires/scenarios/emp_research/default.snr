@@ -23,19 +23,20 @@
 			"built"		"1"
 			"health"		"250"
 			"team"		"2"
+			"maxHealth"		"250"
 		}
 		"4653"
 		{
 			"className"		"emp_imp_commander"
-			"position"		"-10831.900391 9258.943359 1006.346313"
-			"angles"		"-3.337513 -94.641838 1.651420"
+			"position"		"-10831.932617 9258.918945 1006.339905"
+			"angles"		"-3.336162 -94.654724 1.640666"
 			"coords"		"A4"
 		}
 		"4659"
 		{
 			"className"		"emp_nf_commander"
-			"position"		"9663.152344 -4967.307617 736.030518"
-			"angles"		"1.190910 172.596466 -0.538849"
+			"position"		"9663.150391 -4967.302246 736.030151"
+			"angles"		"1.190809 172.593826 -0.539185"
 			"coords"		"D2"
 		}
 		"157128"
@@ -47,6 +48,7 @@
 			"built"		"1"
 			"health"		"100"
 			"team"		"2"
+			"maxHealth"		"100"
 		}
 		"173367"
 		{
@@ -59,16 +61,19 @@
 			"team"		"2"
 			"level"		"3"
 			"model"		"models/NF/turrets/mg_lvl3/nf_turret_mg_lvl3.mdl"
+			"maxHealth"		"100"
+			"postTeam"		"2"
 		}
 		"175538"
 		{
 			"className"		"emp_resource_point_prop"
-			"name"		"ResMod1"
 			"position"		"10245.000000 -5834.000000 689.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"D2"
 			"enabled"		"0"
 			"model"		"models/props_wasteland/rockcliff07b.mdl"
+			"name"		"ResMod1"
+			"effects"		"32"
 		}
 		"175567"
 		{
@@ -79,6 +84,7 @@
 			"coords"		"D2"
 			"enabled"		"0"
 			"resPerSecond"		"2.000000"
+			"effects"		"80"
 		}
 		"175583"
 		{
@@ -111,16 +117,17 @@
 			"coords"		"D1"
 			"enabled"		"1"
 			"resPerSecond"		"2.000000"
+			"effects"		"80"
 		}
 		"175601"
 		{
 			"className"		"emp_resource_point_prop"
-			"name"		"ResMod2"
 			"position"		"10604.000000 -9308.000000 718.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"D1"
 			"enabled"		"1"
 			"model"		"models/props_wasteland/rockcliff07b.mdl"
+			"name"		"ResMod2"
 		}
 		"175603"
 		{
@@ -147,12 +154,12 @@
 		"175631"
 		{
 			"className"		"emp_resource_point_prop"
-			"name"		"ResMod3"
 			"position"		"8800.000000 8512.000000 1540.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"D4"
 			"enabled"		"1"
 			"model"		"models/props_wasteland/rockcliff07b.mdl"
+			"name"		"ResMod3"
 		}
 		"175633"
 		{
@@ -185,6 +192,7 @@
 			"coords"		"D4"
 			"enabled"		"1"
 			"resPerSecond"		"2.000000"
+			"effects"		"80"
 		}
 		"175683"
 		{
@@ -211,12 +219,12 @@
 		"175685"
 		{
 			"className"		"emp_resource_point_prop"
-			"name"		"ResMod4"
 			"position"		"7639.000000 -896.000000 1414.000000"
 			"angles"		"0.000000 270.000000 -8.000000"
 			"coords"		"D2"
 			"enabled"		"1"
 			"model"		"models/props_wasteland/rockcliff07b.mdl"
+			"name"		"ResMod4"
 		}
 		"175687"
 		{
@@ -227,6 +235,7 @@
 			"coords"		"D2"
 			"enabled"		"1"
 			"resPerSecond"		"2.000000"
+			"effects"		"80"
 		}
 		"175729"
 		{
@@ -253,12 +262,12 @@
 		"175731"
 		{
 			"className"		"emp_resource_point_prop"
-			"name"		"ResMod5"
 			"position"		"-676.000000 -7617.000000 1353.000000"
 			"angles"		"3.000000 0.000000 0.000000"
 			"coords"		"B1"
 			"enabled"		"1"
 			"model"		"models/props_wasteland/rockcliff07b.mdl"
+			"name"		"ResMod5"
 		}
 		"175733"
 		{
@@ -269,16 +278,17 @@
 			"coords"		"B1"
 			"enabled"		"1"
 			"resPerSecond"		"2.000000"
+			"effects"		"80"
 		}
 		"175803"
 		{
 			"className"		"emp_resource_point_prop"
-			"name"		"ResMod6"
 			"position"		"-9688.000000 -7159.000000 1264.000000"
 			"angles"		"6.500000 0.000000 0.000000"
 			"coords"		"A1"
 			"enabled"		"1"
 			"model"		"models/props_wasteland/rockcliff07b.mdl"
+			"name"		"ResMod6"
 		}
 		"175805"
 		{
@@ -311,16 +321,17 @@
 			"coords"		"A1"
 			"enabled"		"1"
 			"resPerSecond"		"2.000000"
+			"effects"		"80"
 		}
 		"175853"
 		{
 			"className"		"emp_resource_point_prop"
-			"name"		"ResMod7"
 			"position"		"-6838.000000 2179.000000 694.000000"
 			"angles"		"7.000000 180.000000 -29.500000"
 			"coords"		"A3"
 			"enabled"		"1"
 			"model"		"models/props_wasteland/rockcliff07b.mdl"
+			"name"		"ResMod7"
 		}
 		"175855"
 		{
@@ -353,6 +364,7 @@
 			"coords"		"A3"
 			"enabled"		"1"
 			"resPerSecond"		"2.000000"
+			"effects"		"80"
 		}
 		"175895"
 		{
@@ -379,12 +391,12 @@
 		"175897"
 		{
 			"className"		"emp_resource_point_prop"
-			"name"		"ResMod8"
 			"position"		"-10491.000000 6476.000000 1018.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"A4"
 			"enabled"		"1"
 			"model"		"models/props_wasteland/rockcliff07b.mdl"
+			"name"		"ResMod8"
 		}
 		"175899"
 		{
@@ -395,6 +407,7 @@
 			"coords"		"A4"
 			"enabled"		"1"
 			"resPerSecond"		"2.000000"
+			"effects"		"80"
 		}
 		"175943"
 		{
@@ -421,12 +434,13 @@
 		"175945"
 		{
 			"className"		"emp_resource_point_prop"
-			"name"		"ResMod9"
 			"position"		"-11010.000000 9804.000000 1048.000000"
 			"angles"		"3.500000 90.000000 -33.000000"
 			"coords"		"A4"
 			"enabled"		"0"
 			"model"		"models/props_wasteland/rockcliff07b.mdl"
+			"name"		"ResMod9"
+			"effects"		"32"
 		}
 		"175947"
 		{
@@ -437,6 +451,7 @@
 			"coords"		"A4"
 			"enabled"		"0"
 			"resPerSecond"		"2.000000"
+			"effects"		"80"
 		}
 		"175989"
 		{
@@ -447,31 +462,17 @@
 			"coords"		"C3"
 			"enabled"		"1"
 			"resPerSecond"		"2.000000"
+			"effects"		"80"
 		}
 		"175991"
 		{
 			"className"		"emp_resource_point_prop"
-			"name"		"ResMod10"
 			"position"		"128.000000 3888.000000 2144.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"C3"
 			"enabled"		"1"
 			"model"		"models/props_pipes/valve002.mdl"
-		}
-		"216869"
-		{
-			"className"		"prop_dynamic"
-			"position"		"-508.000000 3776.000000 2432.000000"
-			"angles"		"0.000000 0.000000 0.000000"
-			"coords"		"B3"
-			"model"		"models/common/props_system/flagpole01_imp.mdl"
-			"SolidType"		"6"
-			"CollisionGroup"		"0"
-			"health"		"0"
-			"TakeDamage"		"1"
-			"Effects"		"16"
-			"ShadowCastDistance"		"0.000000"
-			"StartDisabled"		"0"
+			"name"		"ResMod10"
 		}
 		"260238"
 		{
@@ -482,6 +483,7 @@
 			"built"		"1"
 			"health"		"250"
 			"team"		"3"
+			"maxHealth"		"250"
 		}
 		"260262"
 		{
@@ -492,6 +494,7 @@
 			"built"		"1"
 			"health"		"100"
 			"team"		"3"
+			"maxHealth"		"100"
 		}
 		"260288"
 		{
@@ -504,6 +507,8 @@
 			"team"		"3"
 			"level"		"3"
 			"model"		"models/imperial/turrets/mg_lvl3/imp_turret_mg_lvl3.mdl"
+			"maxHealth"		"100"
+			"postTeam"		"3"
 		}
 		"260302"
 		{
@@ -516,6 +521,8 @@
 			"team"		"3"
 			"level"		"3"
 			"model"		"models/imperial/turrets/mg_lvl3/imp_turret_mg_lvl3.mdl"
+			"maxHealth"		"100"
+			"postTeam"		"3"
 		}
 		"268726"
 		{
@@ -528,11 +535,12 @@
 			"team"		"2"
 			"level"		"3"
 			"model"		"models/NF/turrets/mg_lvl3/nf_turret_mg_lvl3.mdl"
+			"maxHealth"		"100"
+			"postTeam"		"2"
 		}
 		"311761"
 		{
 			"className"		"emp_building_imp_refinery"
-			"name"		"ResP9"
 			"position"		"-11016.000000 9805.000000 1020.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"A4"
@@ -540,6 +548,8 @@
 			"health"		"150"
 			"team"		"3"
 			"target"		"ResP9"
+			"name"		"ResP9"
+			"maxHealth"		"150"
 		}
 		"311764"
 		{
@@ -551,11 +561,11 @@
 			"health"		"150"
 			"team"		"2"
 			"target"		"ResP1"
+			"maxHealth"		"150"
 		}
 		"319937"
 		{
 			"className"		"emp_cap_point"
-			"name"		"entrance"
 			"position"		"0.000000 0.000000 0.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"C2"
@@ -574,6 +584,7 @@
 			"canImpCap"		"1"
 			"Mins"		"-961.000000 4047.000000 2271.000000"
 			"Maxs"		"-735.000000 4305.000000 2353.000000"
+			"name"		"entrance"
 		}
 		"323870"
 		{
@@ -597,22 +608,16 @@
 			"rate"		"15.000000"
 			"color"		"130 130 130 150"
 		}
-		"328484"
+		"5000136"
 		{
-			"className"		"prop_dynamic"
-			"name"		"seagull"
-			"position"		"-11651.079102 -8654.165039 1808.589478"
-			"angles"		"338.073639 313.134918 0.000000"
-			"Parent"		"seagull_train_1"
-			"coords"		"A1"
-			"model"		"models/seagull.mdl"
-			"SolidType"		"6"
-			"CollisionGroup"		"0"
-			"health"		"0"
-			"TakeDamage"		"1"
-			"Effects"		"0"
-			"ShadowCastDistance"		"0.000000"
-			"StartDisabled"		"0"
+			"className"		"emp_building_nf_refinery"
+			"position"		"10606.000000 -9308.000000 700.000000"
+			"angles"		"0.000000 135.214218 0.000000"
+			"coords"		"D1"
+			"built"		"1"
+			"health"		"150"
+			"team"		"2"
+			"target"		"ResP2"
 		}
 		"319950"
 		{
@@ -654,6 +659,40 @@
 			"disabled"		"1"
 			"model"		"models/Imperial/Props/imp_crateammo.mdl"
 		}
+		"5000137"
+		{
+			"className"		"emp_building_imp_refinery"
+			"position"		"-10488.000000 6476.000000 1060.000000"
+			"angles"		"0.000000 -22.884520 0.000000"
+			"coords"		"A4"
+			"built"		"1"
+			"health"		"150"
+			"team"		"3"
+			"target"		"ResP8"
+		}
+		"216869"
+		{
+			"className"		"prop_dynamic"
+			"position"		"-508.000000 3776.000000 2432.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"B3"
+			"effects"		"16"
+			"model"		"models/common/props_system/flagpole01_imp.mdl"
+			"MoveType"		"7"
+			"SolidType"		"6"
+		}
+		"328484"
+		{
+			"className"		"prop_dynamic"
+			"position"		"-11653.481445 -8651.600586 1807.175049"
+			"angles"		"338.073639 313.134918 0.000000"
+			"Parent"		"seagull_train_1"
+			"coords"		"A1"
+			"name"		"seagull"
+			"model"		"models/seagull.mdl"
+			"MoveType"		"7"
+			"SolidType"		"6"
+		}
 		"334411"
 		{
 			"className"		"prop_dynamic"
@@ -661,13 +700,8 @@
 			"angles"		"0.000000 330.000000 0.000000"
 			"coords"		"B3"
 			"model"		"models/imperial/vehicles/air/transport/imp_dropship_skybox.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
-			"health"		"0"
-			"TakeDamage"		"1"
-			"Effects"		"0"
-			"ShadowCastDistance"		"0.000000"
-			"StartDisabled"		"0"
 		}
 		"334460"
 		{
@@ -676,13 +710,8 @@
 			"angles"		"0.000000 330.000000 0.000000"
 			"coords"		"B3"
 			"model"		"models/imperial/vehicles/air/transport/imp_dropship_skybox.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
-			"health"		"0"
-			"TakeDamage"		"1"
-			"Effects"		"0"
-			"ShadowCastDistance"		"0.000000"
-			"StartDisabled"		"0"
 		}
 		"334468"
 		{
@@ -691,22 +720,26 @@
 			"angles"		"0.000000 330.000000 0.000000"
 			"coords"		"B3"
 			"model"		"models/imperial/vehicles/air/transport/imp_dropship_skybox.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
-			"health"		"0"
-			"TakeDamage"		"1"
-			"Effects"		"0"
-			"ShadowCastDistance"		"0.000000"
-			"StartDisabled"		"0"
+		}
+		"330042"
+		{
+			"className"		"env_fire"
+			"position"		"8.000000 867.000000 -1347.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"C3"
+			"name"		"skybox_fire"
+			"effects"		"32"
+			"spawnflags"		"16"
+			"fireType"		"0"
+			"fireSize"		"2.000000"
+			"damageScale"		"1.000000"
+			"duration"		"1"
 		}
 	}
-	"Description"		" "
-	"details"		" "
-	"Author"		"Hardcore Crashpires"
+	"Author"		"Xiam"
 	"BaseSwap"		"-1"
-	"CommFreezeTime"		"-1"
-	"PlayerRefineryMultiplier"		"-1.000000"
-	"RefineryMultiplier"		"-1.000000"
-	"version"		"0.720000"
-	"hLimit"		"334468"
+	"version"		"0.970000"
+	"hLimit"		"341688"
 }

@@ -1,5 +1,9 @@
 "Scenario"
 {
+	"Description"		" "
+	"details"		" "
+	"Tags"		" "
+	"Author"		"Hardcore Empires - Main Server"
 	"NF_Res"		"400.200012"
 	"BE_Res"		"400.200012"
 	"NF_Tickets"		"141.149994"
@@ -39,15 +43,15 @@
 		"10660"
 		{
 			"className"		"emp_imp_commander"
-			"position"		"11142.846680 4012.887695 5.328858"
-			"angles"		"2.128650 90.491341 1.876665"
+			"position"		"11142.842773 4012.850342 5.328204"
+			"angles"		"2.131802 90.508430 1.876445"
 			"coords"		"G3"
 		}
 		"9926"
 		{
 			"className"		"emp_nf_commander"
-			"position"		"-11040.126953 3912.234131 75.277817"
-			"angles"		"-0.305616 -90.097122 -0.158691"
+			"position"		"-11040.125977 3912.230713 75.279259"
+			"angles"		"-0.306192 -90.099464 -0.158386"
 			"coords"		"A3"
 		}
 		"19396"
@@ -246,13 +250,6 @@
 			"model"		"models/props_wasteland/rockgranite02b.mdl"
 		}
 	}
-	"Description"		" "
-	"details"		" "
-	"Author"		"Hardcore Empires - The Tradiona"
-	"BaseSwap"		"-1"
-	"CommFreezeTime"		"-1"
-	"PlayerRefineryMultiplier"		"-1.000000"
-	"RefineryMultiplier"		"-1.000000"
-	"version"		"0.880000"
+	"version"		"1.030000"
 	"hLimit"		"31759"
 }

@@ -1,5 +1,9 @@
 "Scenario"
 {
+	"Description"		" "
+	"details"		" "
+	"Tags"		" "
+	"Author"		"Hardcore Empires - Main Server"
 	"NF_Res"		"400.000000"
 	"BE_Res"		"400.000000"
 	"NF_Tickets"		"351.147003"
@@ -39,15 +43,15 @@
 		"35899"
 		{
 			"className"		"emp_imp_commander"
-			"position"		"11504.553711 -11031.576172 -4394.570313"
-			"angles"		"-4.431336 0.245519 2.100662"
+			"position"		"11511.011719 -11038.891602 -4394.595703"
+			"angles"		"-4.344777 0.015566 1.842365"
 			"coords"		"E1"
 		}
 		"35908"
 		{
 			"className"		"emp_nf_commander"
-			"position"		"-11585.032227 -11111.795898 -4299.531250"
-			"angles"		"-0.028761 -0.043100 0.157640"
+			"position"		"-11585.225586 -11103.501953 -4299.417480"
+			"angles"		"-0.042077 0.011239 0.188611"
 			"coords"		"A1"
 		}
 		"38971"
@@ -376,13 +380,6 @@
 			"effectName"		"damwaterparticles"
 		}
 	}
-	"Description"		" "
-	"details"		" "
-	"Author"		"Hardcore Empires - Backup Serve"
-	"BaseSwap"		"-1"
-	"CommFreezeTime"		"-1"
-	"PlayerRefineryMultiplier"		"-1.000000"
-	"RefineryMultiplier"		"-1.000000"
-	"version"		"0.950000"
+	"version"		"1.030000"
 	"hLimit"		"259992"
 }

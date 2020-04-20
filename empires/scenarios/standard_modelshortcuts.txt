@@ -3,11 +3,15 @@
 {
 	"platform1"
 	{
-		"model" "models/empfun/platform5.mdl"
+		"model" "models/empfun/platform2.mdl"
 	}
 	"platform2"
 	{
-		"model" "models/empfun/platform10.mdl"
+		"model" "models/empfun/platform4.mdl"
+	}
+	"platform3"
+	{
+		"model" "models/empfun/platform8.mdl"
 	}
 
 	"be_crate1"

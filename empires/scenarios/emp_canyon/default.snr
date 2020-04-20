@@ -1,28 +1,17 @@
 "Scenario"
 {
-	"NF_Res"		"400.000000"
-	"BE_Res"		"400.000000"
-	"NF_Tickets"		"211.199997"
-	"BE_Tickets"		"211.199997"
-	"NF_Research"
-	{
-		"0"		"1"
-	}
-	"BE_Research"
-	{
-		"0"		"1"
-	}
 	"Entities"
 	{
 		"857"
 		{
 			"className"		"emp_resource_point_prop"
-			"name"		"rock_9"
 			"position"		"6136.540039 5112.000000 -80.000000"
 			"angles"		"14.959600 41.650902 15.328200"
 			"coords"		"D4"
 			"enabled"		"1"
 			"model"		"models/canyonrocks/rockcliff_cluster03c.mdl"
+			"name"		"rock_9"
+			"effects"		"16"
 		}
 		"858"
 		{
@@ -33,6 +22,7 @@
 			"coords"		"D4"
 			"enabled"		"1"
 			"resPerSecond"		"1.000000"
+			"effects"		"80"
 		}
 		"860"
 		{
@@ -43,26 +33,29 @@
 			"coords"		"A3"
 			"enabled"		"1"
 			"resPerSecond"		"1.000000"
+			"effects"		"80"
 		}
 		"862"
 		{
 			"className"		"emp_resource_point_prop"
-			"name"		"rock_10"
 			"position"		"-9712.000000 2544.000000 -80.000198"
 			"angles"		"18.008200 44.837299 26.542700"
 			"coords"		"A3"
 			"enabled"		"1"
 			"model"		"models/canyonrocks/rockcliff_cluster03c.mdl"
+			"name"		"rock_10"
+			"effects"		"16"
 		}
 		"882"
 		{
 			"className"		"emp_resource_point_prop"
-			"name"		"rock_1"
 			"position"		"-8720.000000 10192.000000 -72.000000"
 			"angles"		"19.500000 0.000000 0.000000"
 			"coords"		"A5"
 			"enabled"		"0"
 			"model"		"models/canyonrocks/rockcliff_cluster03c.mdl"
+			"name"		"rock_1"
+			"effects"		"48"
 		}
 		"883"
 		{
@@ -73,6 +66,7 @@
 			"coords"		"A5"
 			"enabled"		"0"
 			"resPerSecond"		"1.000000"
+			"effects"		"80"
 		}
 		"885"
 		{
@@ -83,42 +77,45 @@
 			"coords"		"D2"
 			"enabled"		"0"
 			"resPerSecond"		"1.000000"
+			"effects"		"80"
 		}
 		"886"
 		{
 			"className"		"emp_resource_point_prop"
-			"name"		"rock_2"
 			"position"		"10248.000000 -7192.000000 -96.000000"
 			"angles"		"19.071199 34.488201 14.141400"
 			"coords"		"D2"
 			"enabled"		"0"
 			"model"		"models/canyonrocks/rockcliff_cluster03c.mdl"
+			"name"		"rock_2"
+			"effects"		"48"
 		}
 		"890"
 		{
 			"className"		"emp_imp_commander"
-			"name"		"imp_com"
-			"position"		"12239.980469 -6733.209961 33.629230"
-			"angles"		"-0.272450 -0.000213 1.286173"
+			"position"		"12239.980469 -6735.302734 33.614761"
+			"angles"		"-0.273507 -0.000336 1.281029"
 			"coords"		"E2"
+			"name"		"imp_com"
 		}
 		"891"
 		{
 			"className"		"emp_nf_commander"
-			"name"		"nf_com"
-			"position"		"-7847.892090 12676.116211 105.384239"
-			"angles"		"-0.061547 179.996841 -0.722748"
+			"position"		"-7847.886230 12673.665039 105.370216"
+			"angles"		"-0.065827 179.996841 -0.725494"
 			"coords"		"A5"
+			"name"		"nf_com"
 		}
 		"892"
 		{
 			"className"		"emp_resource_point_prop"
-			"name"		"rock_3"
 			"position"		"12256.000000 11216.000000 -96.000000"
 			"angles"		"19.903601 40.691898 20.953199"
 			"coords"		"E5"
 			"enabled"		"1"
 			"model"		"models/canyonrocks/rockcliff_cluster03c.mdl"
+			"name"		"rock_3"
+			"effects"		"16"
 		}
 		"893"
 		{
@@ -129,6 +126,7 @@
 			"coords"		"E5"
 			"enabled"		"1"
 			"resPerSecond"		"1.000000"
+			"effects"		"80"
 		}
 		"896"
 		{
@@ -139,26 +137,29 @@
 			"coords"		"C3"
 			"enabled"		"1"
 			"resPerSecond"		"1.000000"
+			"effects"		"80"
 		}
 		"897"
 		{
 			"className"		"emp_resource_point_prop"
-			"name"		"rock_5"
 			"position"		"0.000000 -56.000000 -80.000000"
 			"angles"		"13.653900 40.035301 20.128901"
 			"coords"		"C3"
 			"enabled"		"1"
 			"model"		"models/canyonrocks/rockcliff_cluster03c.mdl"
+			"name"		"rock_5"
+			"effects"		"16"
 		}
 		"898"
 		{
 			"className"		"emp_resource_point_prop"
-			"name"		"rock_6"
 			"position"		"-1023.840027 4480.000000 -80.000099"
 			"angles"		"20.052401 39.629398 32.067200"
 			"coords"		"C4"
 			"enabled"		"1"
 			"model"		"models/canyonrocks/rockcliff_cluster03c.mdl"
+			"name"		"rock_6"
+			"effects"		"16"
 		}
 		"899"
 		{
@@ -169,6 +170,7 @@
 			"coords"		"C4"
 			"enabled"		"1"
 			"resPerSecond"		"1.000000"
+			"effects"		"80"
 		}
 		"922"
 		{
@@ -179,16 +181,18 @@
 			"coords"		"A2"
 			"enabled"		"1"
 			"resPerSecond"		"1.000000"
+			"effects"		"80"
 		}
 		"923"
 		{
 			"className"		"emp_resource_point_prop"
-			"name"		"rock_4"
 			"position"		"-8160.000000 -6568.000000 432.000000"
 			"angles"		"26.702400 37.646801 18.162500"
 			"coords"		"A2"
 			"enabled"		"1"
 			"model"		"models/canyonrocks/rockcliff_cluster03c.mdl"
+			"name"		"rock_4"
+			"effects"		"16"
 		}
 		"925"
 		{
@@ -199,6 +203,7 @@
 			"built"		"1"
 			"health"		"250"
 			"team"		"3"
+			"maxHealth"		"250"
 		}
 		"926"
 		{
@@ -209,6 +214,7 @@
 			"built"		"1"
 			"health"		"250"
 			"team"		"2"
+			"maxHealth"		"250"
 		}
 		"927"
 		{
@@ -220,6 +226,7 @@
 			"health"		"150"
 			"team"		"2"
 			"target"		"res_1"
+			"maxHealth"		"150"
 		}
 		"928"
 		{
@@ -231,6 +238,7 @@
 			"health"		"150"
 			"team"		"3"
 			"target"		"res_2"
+			"maxHealth"		"150"
 		}
 		"929"
 		{
@@ -241,26 +249,29 @@
 			"coords"		"D3"
 			"enabled"		"1"
 			"resPerSecond"		"1.000000"
+			"effects"		"80"
 		}
 		"931"
 		{
 			"className"		"emp_resource_point_prop"
-			"name"		"rock_7"
 			"position"		"7576.000000 624.000000 416.000000"
 			"angles"		"10.006400 42.501099 22.497299"
 			"coords"		"D3"
 			"enabled"		"1"
 			"model"		"models/canyonrocks/rockcliff_cluster03c.mdl"
+			"name"		"rock_7"
+			"effects"		"16"
 		}
 		"932"
 		{
 			"className"		"emp_resource_point_prop"
-			"name"		"rock_8"
 			"position"		"64.000000 13312.000000 432.000000"
 			"angles"		"23.197201 41.189999 23.414200"
 			"coords"		"C5"
 			"enabled"		"1"
 			"model"		"models/canyonrocks/rockcliff_cluster03c.mdl"
+			"name"		"rock_8"
+			"effects"		"16"
 		}
 		"934"
 		{
@@ -271,6 +282,7 @@
 			"coords"		"C5"
 			"enabled"		"1"
 			"resPerSecond"		"1.000000"
+			"effects"		"80"
 		}
 		"938"
 		{
@@ -283,9 +295,9 @@
 			"CollisionGroup"		"0"
 			"health"		"0"
 			"TakeDamage"		"1"
-			"Effects"		"0"
-			"ShadowCastDistance"		"0.000000"
+			"MinHealthDamage"		"0"
 			"StartDisabled"		"0"
+			"MoveType"		"7"
 		}
 		"939"
 		{
@@ -298,9 +310,9 @@
 			"CollisionGroup"		"0"
 			"health"		"0"
 			"TakeDamage"		"1"
-			"Effects"		"0"
-			"ShadowCastDistance"		"0.000000"
+			"MinHealthDamage"		"0"
 			"StartDisabled"		"0"
+			"MoveType"		"7"
 		}
 		"937"
 		{
@@ -313,9 +325,9 @@
 			"CollisionGroup"		"0"
 			"health"		"0"
 			"TakeDamage"		"1"
-			"Effects"		"0"
-			"ShadowCastDistance"		"0.000000"
+			"MinHealthDamage"		"0"
 			"StartDisabled"		"0"
+			"MoveType"		"7"
 		}
 		"108087"
 		{
@@ -328,9 +340,9 @@
 			"CollisionGroup"		"0"
 			"health"		"0"
 			"TakeDamage"		"1"
-			"Effects"		"0"
-			"ShadowCastDistance"		"0.000000"
+			"MinHealthDamage"		"0"
 			"StartDisabled"		"0"
+			"MoveType"		"7"
 		}
 		"108099"
 		{
@@ -343,9 +355,9 @@
 			"CollisionGroup"		"0"
 			"health"		"0"
 			"TakeDamage"		"1"
-			"Effects"		"0"
-			"ShadowCastDistance"		"0.000000"
+			"MinHealthDamage"		"0"
 			"StartDisabled"		"0"
+			"MoveType"		"7"
 		}
 		"108186"
 		{
@@ -358,9 +370,9 @@
 			"CollisionGroup"		"0"
 			"health"		"0"
 			"TakeDamage"		"1"
-			"Effects"		"0"
-			"ShadowCastDistance"		"0.000000"
+			"MinHealthDamage"		"0"
 			"StartDisabled"		"0"
+			"MoveType"		"7"
 		}
 		"108190"
 		{
@@ -373,9 +385,9 @@
 			"CollisionGroup"		"0"
 			"health"		"0"
 			"TakeDamage"		"1"
-			"Effects"		"0"
-			"ShadowCastDistance"		"0.000000"
+			"MinHealthDamage"		"0"
 			"StartDisabled"		"0"
+			"MoveType"		"7"
 		}
 		"936"
 		{
@@ -388,9 +400,9 @@
 			"CollisionGroup"		"0"
 			"health"		"0"
 			"TakeDamage"		"1"
-			"Effects"		"0"
-			"ShadowCastDistance"		"0.000000"
+			"MinHealthDamage"		"0"
 			"StartDisabled"		"0"
+			"MoveType"		"7"
 		}
 		"917"
 		{
@@ -403,9 +415,9 @@
 			"CollisionGroup"		"0"
 			"health"		"0"
 			"TakeDamage"		"1"
-			"Effects"		"0"
-			"ShadowCastDistance"		"0.000000"
+			"MinHealthDamage"		"0"
 			"StartDisabled"		"0"
+			"MoveType"		"7"
 		}
 		"109876"
 		{
@@ -418,9 +430,9 @@
 			"CollisionGroup"		"0"
 			"health"		"0"
 			"TakeDamage"		"1"
-			"Effects"		"0"
-			"ShadowCastDistance"		"0.000000"
+			"MinHealthDamage"		"0"
 			"StartDisabled"		"0"
+			"MoveType"		"7"
 		}
 		"916"
 		{
@@ -433,9 +445,9 @@
 			"CollisionGroup"		"0"
 			"health"		"0"
 			"TakeDamage"		"1"
-			"Effects"		"0"
-			"ShadowCastDistance"		"0.000000"
+			"MinHealthDamage"		"0"
 			"StartDisabled"		"0"
+			"MoveType"		"7"
 		}
 		"919"
 		{
@@ -448,9 +460,9 @@
 			"CollisionGroup"		"0"
 			"health"		"0"
 			"TakeDamage"		"1"
-			"Effects"		"0"
-			"ShadowCastDistance"		"0.000000"
+			"MinHealthDamage"		"0"
 			"StartDisabled"		"0"
+			"MoveType"		"7"
 		}
 		"924"
 		{
@@ -463,9 +475,9 @@
 			"CollisionGroup"		"0"
 			"health"		"0"
 			"TakeDamage"		"1"
-			"Effects"		"0"
-			"ShadowCastDistance"		"0.000000"
+			"MinHealthDamage"		"0"
 			"StartDisabled"		"0"
+			"MoveType"		"7"
 		}
 		"941"
 		{
@@ -478,9 +490,9 @@
 			"CollisionGroup"		"0"
 			"health"		"0"
 			"TakeDamage"		"1"
-			"Effects"		"0"
-			"ShadowCastDistance"		"0.000000"
+			"MinHealthDamage"		"0"
 			"StartDisabled"		"0"
+			"MoveType"		"7"
 		}
 		"947"
 		{
@@ -493,9 +505,9 @@
 			"CollisionGroup"		"0"
 			"health"		"0"
 			"TakeDamage"		"1"
-			"Effects"		"0"
-			"ShadowCastDistance"		"0.000000"
+			"MinHealthDamage"		"0"
 			"StartDisabled"		"0"
+			"MoveType"		"7"
 		}
 		"962"
 		{
@@ -508,9 +520,9 @@
 			"CollisionGroup"		"0"
 			"health"		"0"
 			"TakeDamage"		"1"
-			"Effects"		"0"
-			"ShadowCastDistance"		"0.000000"
+			"MinHealthDamage"		"0"
 			"StartDisabled"		"0"
+			"MoveType"		"7"
 		}
 		"965"
 		{
@@ -523,9 +535,9 @@
 			"CollisionGroup"		"0"
 			"health"		"0"
 			"TakeDamage"		"1"
-			"Effects"		"0"
-			"ShadowCastDistance"		"0.000000"
+			"MinHealthDamage"		"0"
 			"StartDisabled"		"0"
+			"MoveType"		"7"
 		}
 		"940"
 		{
@@ -538,9 +550,9 @@
 			"CollisionGroup"		"0"
 			"health"		"0"
 			"TakeDamage"		"1"
-			"Effects"		"0"
-			"ShadowCastDistance"		"0.000000"
+			"MinHealthDamage"		"0"
 			"StartDisabled"		"0"
+			"MoveType"		"7"
 		}
 		"920"
 		{
@@ -553,9 +565,9 @@
 			"CollisionGroup"		"0"
 			"health"		"0"
 			"TakeDamage"		"1"
-			"Effects"		"0"
-			"ShadowCastDistance"		"0.000000"
+			"MinHealthDamage"		"0"
 			"StartDisabled"		"0"
+			"MoveType"		"7"
 		}
 		"918"
 		{
@@ -568,9 +580,9 @@
 			"CollisionGroup"		"0"
 			"health"		"0"
 			"TakeDamage"		"1"
-			"Effects"		"0"
-			"ShadowCastDistance"		"0.000000"
+			"MinHealthDamage"		"0"
 			"StartDisabled"		"0"
+			"MoveType"		"7"
 		}
 		"911"
 		{
@@ -583,9 +595,9 @@
 			"CollisionGroup"		"0"
 			"health"		"0"
 			"TakeDamage"		"1"
-			"Effects"		"0"
-			"ShadowCastDistance"		"0.000000"
+			"MinHealthDamage"		"0"
 			"StartDisabled"		"0"
+			"MoveType"		"7"
 		}
 		"112267"
 		{
@@ -598,9 +610,9 @@
 			"CollisionGroup"		"0"
 			"health"		"0"
 			"TakeDamage"		"1"
-			"Effects"		"0"
-			"ShadowCastDistance"		"0.000000"
+			"MinHealthDamage"		"0"
 			"StartDisabled"		"0"
+			"MoveType"		"7"
 		}
 		"115361"
 		{
@@ -613,9 +625,9 @@
 			"CollisionGroup"		"0"
 			"health"		"0"
 			"TakeDamage"		"1"
-			"Effects"		"0"
-			"ShadowCastDistance"		"0.000000"
+			"MinHealthDamage"		"0"
 			"StartDisabled"		"0"
+			"MoveType"		"7"
 		}
 		"115373"
 		{
@@ -628,9 +640,9 @@
 			"CollisionGroup"		"0"
 			"health"		"0"
 			"TakeDamage"		"1"
-			"Effects"		"0"
-			"ShadowCastDistance"		"0.000000"
+			"MinHealthDamage"		"0"
 			"StartDisabled"		"0"
+			"MoveType"		"7"
 		}
 		"115464"
 		{
@@ -643,9 +655,9 @@
 			"CollisionGroup"		"0"
 			"health"		"0"
 			"TakeDamage"		"1"
-			"Effects"		"0"
-			"ShadowCastDistance"		"0.000000"
+			"MinHealthDamage"		"0"
 			"StartDisabled"		"0"
+			"MoveType"		"7"
 		}
 		"115723"
 		{
@@ -658,9 +670,9 @@
 			"CollisionGroup"		"0"
 			"health"		"0"
 			"TakeDamage"		"1"
-			"Effects"		"0"
-			"ShadowCastDistance"		"0.000000"
+			"MinHealthDamage"		"0"
 			"StartDisabled"		"0"
+			"MoveType"		"7"
 		}
 		"115735"
 		{
@@ -673,9 +685,9 @@
 			"CollisionGroup"		"0"
 			"health"		"0"
 			"TakeDamage"		"1"
-			"Effects"		"0"
-			"ShadowCastDistance"		"0.000000"
+			"MinHealthDamage"		"0"
 			"StartDisabled"		"0"
+			"MoveType"		"7"
 		}
 		"126079"
 		{
@@ -688,9 +700,9 @@
 			"CollisionGroup"		"0"
 			"health"		"0"
 			"TakeDamage"		"1"
-			"Effects"		"0"
-			"ShadowCastDistance"		"0.000000"
+			"MinHealthDamage"		"0"
 			"StartDisabled"		"0"
+			"MoveType"		"7"
 		}
 		"126083"
 		{
@@ -703,9 +715,9 @@
 			"CollisionGroup"		"0"
 			"health"		"0"
 			"TakeDamage"		"1"
-			"Effects"		"0"
-			"ShadowCastDistance"		"0.000000"
+			"MinHealthDamage"		"0"
 			"StartDisabled"		"0"
+			"MoveType"		"7"
 		}
 		"126095"
 		{
@@ -718,9 +730,9 @@
 			"CollisionGroup"		"0"
 			"health"		"0"
 			"TakeDamage"		"1"
-			"Effects"		"0"
-			"ShadowCastDistance"		"0.000000"
+			"MinHealthDamage"		"0"
 			"StartDisabled"		"0"
+			"MoveType"		"7"
 		}
 		"127402"
 		{
@@ -733,9 +745,9 @@
 			"CollisionGroup"		"0"
 			"health"		"0"
 			"TakeDamage"		"1"
-			"Effects"		"0"
-			"ShadowCastDistance"		"0.000000"
+			"MinHealthDamage"		"0"
 			"StartDisabled"		"0"
+			"MoveType"		"7"
 		}
 		"874"
 		{
@@ -748,9 +760,9 @@
 			"CollisionGroup"		"0"
 			"health"		"0"
 			"TakeDamage"		"1"
-			"Effects"		"0"
-			"ShadowCastDistance"		"0.000000"
+			"MinHealthDamage"		"0"
 			"StartDisabled"		"0"
+			"MoveType"		"7"
 		}
 		"875"
 		{
@@ -763,9 +775,9 @@
 			"CollisionGroup"		"0"
 			"health"		"0"
 			"TakeDamage"		"1"
-			"Effects"		"0"
-			"ShadowCastDistance"		"0.000000"
+			"MinHealthDamage"		"0"
 			"StartDisabled"		"0"
+			"MoveType"		"7"
 		}
 		"957"
 		{
@@ -778,9 +790,9 @@
 			"CollisionGroup"		"0"
 			"health"		"0"
 			"TakeDamage"		"1"
-			"Effects"		"0"
-			"ShadowCastDistance"		"0.000000"
+			"MinHealthDamage"		"0"
 			"StartDisabled"		"0"
+			"MoveType"		"7"
 		}
 		"956"
 		{
@@ -793,9 +805,9 @@
 			"CollisionGroup"		"0"
 			"health"		"0"
 			"TakeDamage"		"1"
-			"Effects"		"0"
-			"ShadowCastDistance"		"0.000000"
+			"MinHealthDamage"		"0"
 			"StartDisabled"		"0"
+			"MoveType"		"7"
 		}
 		"959"
 		{
@@ -808,9 +820,9 @@
 			"CollisionGroup"		"0"
 			"health"		"0"
 			"TakeDamage"		"1"
-			"Effects"		"0"
-			"ShadowCastDistance"		"0.000000"
+			"MinHealthDamage"		"0"
 			"StartDisabled"		"0"
+			"MoveType"		"7"
 		}
 		"958"
 		{
@@ -823,9 +835,9 @@
 			"CollisionGroup"		"0"
 			"health"		"0"
 			"TakeDamage"		"1"
-			"Effects"		"0"
-			"ShadowCastDistance"		"0.000000"
+			"MinHealthDamage"		"0"
 			"StartDisabled"		"0"
+			"MoveType"		"7"
 		}
 		"955"
 		{
@@ -838,9 +850,9 @@
 			"CollisionGroup"		"0"
 			"health"		"0"
 			"TakeDamage"		"1"
-			"Effects"		"0"
-			"ShadowCastDistance"		"0.000000"
+			"MinHealthDamage"		"0"
 			"StartDisabled"		"0"
+			"MoveType"		"7"
 		}
 		"108246"
 		{
@@ -853,9 +865,9 @@
 			"CollisionGroup"		"0"
 			"health"		"0"
 			"TakeDamage"		"1"
-			"Effects"		"0"
-			"ShadowCastDistance"		"0.000000"
+			"MinHealthDamage"		"0"
 			"StartDisabled"		"0"
+			"MoveType"		"7"
 		}
 		"108059"
 		{
@@ -868,9 +880,9 @@
 			"CollisionGroup"		"0"
 			"health"		"0"
 			"TakeDamage"		"1"
-			"Effects"		"0"
-			"ShadowCastDistance"		"0.000000"
+			"MinHealthDamage"		"0"
 			"StartDisabled"		"0"
+			"MoveType"		"7"
 		}
 		"108194"
 		{
@@ -883,9 +895,9 @@
 			"CollisionGroup"		"0"
 			"health"		"0"
 			"TakeDamage"		"1"
-			"Effects"		"0"
-			"ShadowCastDistance"		"0.000000"
+			"MinHealthDamage"		"0"
 			"StartDisabled"		"0"
+			"MoveType"		"7"
 		}
 		"108182"
 		{
@@ -898,9 +910,9 @@
 			"CollisionGroup"		"0"
 			"health"		"0"
 			"TakeDamage"		"1"
-			"Effects"		"0"
-			"ShadowCastDistance"		"0.000000"
+			"MinHealthDamage"		"0"
 			"StartDisabled"		"0"
+			"MoveType"		"7"
 		}
 		"953"
 		{
@@ -913,9 +925,9 @@
 			"CollisionGroup"		"0"
 			"health"		"0"
 			"TakeDamage"		"1"
-			"Effects"		"0"
-			"ShadowCastDistance"		"0.000000"
+			"MinHealthDamage"		"0"
 			"StartDisabled"		"0"
+			"MoveType"		"7"
 		}
 		"889"
 		{
@@ -928,9 +940,9 @@
 			"CollisionGroup"		"0"
 			"health"		"0"
 			"TakeDamage"		"1"
-			"Effects"		"0"
-			"ShadowCastDistance"		"0.000000"
+			"MinHealthDamage"		"0"
 			"StartDisabled"		"0"
+			"MoveType"		"7"
 		}
 		"867"
 		{
@@ -943,9 +955,9 @@
 			"CollisionGroup"		"0"
 			"health"		"0"
 			"TakeDamage"		"1"
-			"Effects"		"0"
-			"ShadowCastDistance"		"0.000000"
+			"MinHealthDamage"		"0"
 			"StartDisabled"		"0"
+			"MoveType"		"7"
 		}
 		"870"
 		{
@@ -958,9 +970,9 @@
 			"CollisionGroup"		"0"
 			"health"		"0"
 			"TakeDamage"		"1"
-			"Effects"		"0"
-			"ShadowCastDistance"		"0.000000"
+			"MinHealthDamage"		"0"
 			"StartDisabled"		"0"
+			"MoveType"		"7"
 		}
 		"866"
 		{
@@ -973,9 +985,9 @@
 			"CollisionGroup"		"0"
 			"health"		"0"
 			"TakeDamage"		"1"
-			"Effects"		"0"
-			"ShadowCastDistance"		"0.000000"
+			"MinHealthDamage"		"0"
 			"StartDisabled"		"0"
+			"MoveType"		"7"
 		}
 		"869"
 		{
@@ -988,9 +1000,9 @@
 			"CollisionGroup"		"0"
 			"health"		"0"
 			"TakeDamage"		"1"
-			"Effects"		"0"
-			"ShadowCastDistance"		"0.000000"
+			"MinHealthDamage"		"0"
 			"StartDisabled"		"0"
+			"MoveType"		"7"
 		}
 		"944"
 		{
@@ -1003,9 +1015,9 @@
 			"CollisionGroup"		"0"
 			"health"		"0"
 			"TakeDamage"		"1"
-			"Effects"		"0"
-			"ShadowCastDistance"		"0.000000"
+			"MinHealthDamage"		"0"
 			"StartDisabled"		"0"
+			"MoveType"		"7"
 		}
 		"901"
 		{
@@ -1018,9 +1030,9 @@
 			"CollisionGroup"		"0"
 			"health"		"0"
 			"TakeDamage"		"1"
-			"Effects"		"0"
-			"ShadowCastDistance"		"0.000000"
+			"MinHealthDamage"		"0"
 			"StartDisabled"		"0"
+			"MoveType"		"7"
 		}
 		"868"
 		{
@@ -1033,9 +1045,9 @@
 			"CollisionGroup"		"0"
 			"health"		"0"
 			"TakeDamage"		"1"
-			"Effects"		"0"
-			"ShadowCastDistance"		"0.000000"
+			"MinHealthDamage"		"0"
 			"StartDisabled"		"0"
+			"MoveType"		"7"
 		}
 		"872"
 		{
@@ -1048,9 +1060,9 @@
 			"CollisionGroup"		"0"
 			"health"		"0"
 			"TakeDamage"		"1"
-			"Effects"		"0"
-			"ShadowCastDistance"		"0.000000"
+			"MinHealthDamage"		"0"
 			"StartDisabled"		"0"
+			"MoveType"		"7"
 		}
 		"871"
 		{
@@ -1063,9 +1075,9 @@
 			"CollisionGroup"		"0"
 			"health"		"0"
 			"TakeDamage"		"1"
-			"Effects"		"0"
-			"ShadowCastDistance"		"0.000000"
+			"MinHealthDamage"		"0"
 			"StartDisabled"		"0"
+			"MoveType"		"7"
 		}
 		"946"
 		{
@@ -1078,9 +1090,9 @@
 			"CollisionGroup"		"0"
 			"health"		"0"
 			"TakeDamage"		"1"
-			"Effects"		"0"
-			"ShadowCastDistance"		"0.000000"
+			"MinHealthDamage"		"0"
 			"StartDisabled"		"0"
+			"MoveType"		"7"
 		}
 		"945"
 		{
@@ -1093,9 +1105,9 @@
 			"CollisionGroup"		"0"
 			"health"		"0"
 			"TakeDamage"		"1"
-			"Effects"		"0"
-			"ShadowCastDistance"		"0.000000"
+			"MinHealthDamage"		"0"
 			"StartDisabled"		"0"
+			"MoveType"		"7"
 		}
 		"873"
 		{
@@ -1108,9 +1120,9 @@
 			"CollisionGroup"		"0"
 			"health"		"0"
 			"TakeDamage"		"1"
-			"Effects"		"0"
-			"ShadowCastDistance"		"0.000000"
+			"MinHealthDamage"		"0"
 			"StartDisabled"		"0"
+			"MoveType"		"7"
 		}
 		"966"
 		{
@@ -1123,9 +1135,9 @@
 			"CollisionGroup"		"0"
 			"health"		"0"
 			"TakeDamage"		"1"
-			"Effects"		"0"
-			"ShadowCastDistance"		"0.000000"
+			"MinHealthDamage"		"0"
 			"StartDisabled"		"0"
+			"MoveType"		"7"
 		}
 		"964"
 		{
@@ -1138,9 +1150,9 @@
 			"CollisionGroup"		"0"
 			"health"		"0"
 			"TakeDamage"		"1"
-			"Effects"		"0"
-			"ShadowCastDistance"		"0.000000"
+			"MinHealthDamage"		"0"
 			"StartDisabled"		"0"
+			"MoveType"		"7"
 		}
 		"948"
 		{
@@ -1153,9 +1165,9 @@
 			"CollisionGroup"		"0"
 			"health"		"0"
 			"TakeDamage"		"1"
-			"Effects"		"0"
-			"ShadowCastDistance"		"0.000000"
+			"MinHealthDamage"		"0"
 			"StartDisabled"		"0"
+			"MoveType"		"7"
 		}
 		"949"
 		{
@@ -1168,9 +1180,9 @@
 			"CollisionGroup"		"0"
 			"health"		"0"
 			"TakeDamage"		"1"
-			"Effects"		"0"
-			"ShadowCastDistance"		"0.000000"
+			"MinHealthDamage"		"0"
 			"StartDisabled"		"0"
+			"MoveType"		"7"
 		}
 		"880"
 		{
@@ -1183,9 +1195,9 @@
 			"CollisionGroup"		"0"
 			"health"		"0"
 			"TakeDamage"		"1"
-			"Effects"		"0"
-			"ShadowCastDistance"		"0.000000"
+			"MinHealthDamage"		"0"
 			"StartDisabled"		"0"
+			"MoveType"		"7"
 		}
 		"878"
 		{
@@ -1198,9 +1210,9 @@
 			"CollisionGroup"		"0"
 			"health"		"0"
 			"TakeDamage"		"1"
-			"Effects"		"0"
-			"ShadowCastDistance"		"0.000000"
+			"MinHealthDamage"		"0"
 			"StartDisabled"		"0"
+			"MoveType"		"7"
 		}
 		"881"
 		{
@@ -1213,9 +1225,9 @@
 			"CollisionGroup"		"0"
 			"health"		"0"
 			"TakeDamage"		"1"
-			"Effects"		"0"
-			"ShadowCastDistance"		"0.000000"
+			"MinHealthDamage"		"0"
 			"StartDisabled"		"0"
+			"MoveType"		"7"
 		}
 		"963"
 		{
@@ -1228,9 +1240,9 @@
 			"CollisionGroup"		"0"
 			"health"		"0"
 			"TakeDamage"		"1"
-			"Effects"		"0"
-			"ShadowCastDistance"		"0.000000"
+			"MinHealthDamage"		"0"
 			"StartDisabled"		"0"
+			"MoveType"		"7"
 		}
 		"910"
 		{
@@ -1243,9 +1255,9 @@
 			"CollisionGroup"		"0"
 			"health"		"0"
 			"TakeDamage"		"1"
-			"Effects"		"0"
-			"ShadowCastDistance"		"0.000000"
+			"MinHealthDamage"		"0"
 			"StartDisabled"		"0"
+			"MoveType"		"7"
 		}
 		"877"
 		{
@@ -1258,9 +1270,9 @@
 			"CollisionGroup"		"0"
 			"health"		"0"
 			"TakeDamage"		"1"
-			"Effects"		"0"
-			"ShadowCastDistance"		"0.000000"
+			"MinHealthDamage"		"0"
 			"StartDisabled"		"0"
+			"MoveType"		"7"
 		}
 		"909"
 		{
@@ -1273,9 +1285,9 @@
 			"CollisionGroup"		"0"
 			"health"		"0"
 			"TakeDamage"		"1"
-			"Effects"		"0"
-			"ShadowCastDistance"		"0.000000"
+			"MinHealthDamage"		"0"
 			"StartDisabled"		"0"
+			"MoveType"		"7"
 		}
 		"950"
 		{
@@ -1288,9 +1300,9 @@
 			"CollisionGroup"		"0"
 			"health"		"0"
 			"TakeDamage"		"1"
-			"Effects"		"0"
-			"ShadowCastDistance"		"0.000000"
+			"MinHealthDamage"		"0"
 			"StartDisabled"		"0"
+			"MoveType"		"7"
 		}
 		"951"
 		{
@@ -1303,9 +1315,9 @@
 			"CollisionGroup"		"0"
 			"health"		"0"
 			"TakeDamage"		"1"
-			"Effects"		"0"
-			"ShadowCastDistance"		"0.000000"
+			"MinHealthDamage"		"0"
 			"StartDisabled"		"0"
+			"MoveType"		"7"
 		}
 		"961"
 		{
@@ -1318,9 +1330,9 @@
 			"CollisionGroup"		"0"
 			"health"		"0"
 			"TakeDamage"		"1"
-			"Effects"		"0"
-			"ShadowCastDistance"		"0.000000"
+			"MinHealthDamage"		"0"
 			"StartDisabled"		"0"
+			"MoveType"		"7"
 		}
 		"876"
 		{
@@ -1333,9 +1345,9 @@
 			"CollisionGroup"		"0"
 			"health"		"0"
 			"TakeDamage"		"1"
-			"Effects"		"0"
-			"ShadowCastDistance"		"0.000000"
+			"MinHealthDamage"		"0"
 			"StartDisabled"		"0"
+			"MoveType"		"7"
 		}
 		"952"
 		{
@@ -1348,9 +1360,9 @@
 			"CollisionGroup"		"0"
 			"health"		"0"
 			"TakeDamage"		"1"
-			"Effects"		"0"
-			"ShadowCastDistance"		"0.000000"
+			"MinHealthDamage"		"0"
 			"StartDisabled"		"0"
+			"MoveType"		"7"
 		}
 		"954"
 		{
@@ -1363,9 +1375,9 @@
 			"CollisionGroup"		"0"
 			"health"		"0"
 			"TakeDamage"		"1"
-			"Effects"		"0"
-			"ShadowCastDistance"		"0.000000"
+			"MinHealthDamage"		"0"
 			"StartDisabled"		"0"
+			"MoveType"		"7"
 		}
 		"879"
 		{
@@ -1378,9 +1390,9 @@
 			"CollisionGroup"		"0"
 			"health"		"0"
 			"TakeDamage"		"1"
-			"Effects"		"0"
-			"ShadowCastDistance"		"0.000000"
+			"MinHealthDamage"		"0"
 			"StartDisabled"		"0"
+			"MoveType"		"7"
 		}
 		"908"
 		{
@@ -1393,18 +1405,159 @@
 			"CollisionGroup"		"0"
 			"health"		"0"
 			"TakeDamage"		"1"
-			"Effects"		"0"
-			"ShadowCastDistance"		"0.000000"
+			"MinHealthDamage"		"0"
 			"StartDisabled"		"0"
+			"MoveType"		"7"
+		}
+		"5000035"
+		{
+			"className"		"emp_building_nf_refinery"
+			"position"		"88.541901 13325.200195 549.708008"
+			"angles"		"0.000000 -131.154785 0.000000"
+			"coords"		"C5"
+			"built"		"1"
+			"health"		"150"
+			"team"		"2"
+			"target"		"res_8"
+		}
+		"5000036"
+		{
+			"className"		"emp_building_imp_refinery"
+			"position"		"7556.540039 628.020996 544.291992"
+			"angles"		"0.000000 163.558960 0.000000"
+			"coords"		"D3"
+			"built"		"1"
+			"health"		"150"
+			"team"		"3"
+			"target"		"res_7"
+		}
+		"859"
+		{
+			"className"		"info_particle_system"
+			"position"		"6120.000000 5120.000000 56.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"D4"
+			"name"		"res_9_smoke"
+			"spawnflags"		"0"
+			"active"		"1"
+			"effectName"		"res_node_1_white"
+		}
+		"861"
+		{
+			"className"		"info_particle_system"
+			"position"		"-9696.000000 2544.000000 64.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"A3"
+			"name"		"res_10_smoke"
+			"spawnflags"		"0"
+			"active"		"1"
+			"effectName"		"res_node_1_white"
+		}
+		"884"
+		{
+			"className"		"info_particle_system"
+			"position"		"10240.000000 -7169.140137 32.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"D2"
+			"name"		"res_2_smoke"
+			"spawnflags"		"0"
+			"active"		"0"
+			"effectName"		"res_node_1_white"
+		}
+		"887"
+		{
+			"className"		"info_particle_system"
+			"position"		"-8704.000000 10240.000000 48.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"A5"
+			"name"		"res_1_smoke"
+			"spawnflags"		"0"
+			"active"		"1"
+			"effectName"		"res_node_1_white"
+		}
+		"894"
+		{
+			"className"		"info_particle_system"
+			"position"		"12256.000000 11216.000000 64.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"E5"
+			"name"		"res_3_smoke"
+			"spawnflags"		"0"
+			"active"		"1"
+			"effectName"		"res_node_1_white"
+		}
+		"895"
+		{
+			"className"		"info_particle_system"
+			"position"		"0.000000 -48.000000 48.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"C3"
+			"name"		"res_5_smoke"
+			"spawnflags"		"0"
+			"active"		"1"
+			"effectName"		"res_node_1_white"
+		}
+		"900"
+		{
+			"className"		"info_particle_system"
+			"position"		"-1008.000000 4464.000000 64.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"C4"
+			"name"		"res_6_smoke"
+			"spawnflags"		"0"
+			"active"		"1"
+			"effectName"		"res_node_1_white"
+		}
+		"921"
+		{
+			"className"		"info_particle_system"
+			"position"		"-8152.000000 -6552.000000 568.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"A2"
+			"name"		"res_4_smoke"
+			"spawnflags"		"0"
+			"active"		"1"
+			"effectName"		"res_node_1_white"
+		}
+		"930"
+		{
+			"className"		"info_particle_system"
+			"position"		"7568.000000 616.000000 576.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"D3"
+			"name"		"res_7_smoke"
+			"spawnflags"		"0"
+			"active"		"1"
+			"effectName"		"res_node_1_white"
+		}
+		"933"
+		{
+			"className"		"info_particle_system"
+			"position"		"80.000000 13328.000000 576.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"C5"
+			"name"		"res_8_smoke"
+			"spawnflags"		"0"
+			"active"		"1"
+			"effectName"		"res_node_1_white"
 		}
 	}
-	"Description"		" "
-	"details"		" "
-	"Author"		"Hardcore Crashpires - The Root "
-	"BaseSwap"		"-1"
+	"Description"		"[Type: Quality of Life] Start with an additionnal refinery"
+	"Author"		"Xiam"
+	"BaseSwap"		"1"
 	"CommFreezeTime"		"-1"
-	"PlayerRefineryMultiplier"		"-1.000000"
-	"RefineryMultiplier"		"-1.000000"
-	"version"		"0.720000"
+	"version"		"0.970000"
 	"hLimit"		"127402"
+	"NF_Res"		"400.000000"
+	"BE_Res"		"400.000000"
+	"NF_Tickets"		"211.199997"
+	"BE_Tickets"		"211.199997"
+	"NF_Research"
+	{
+		"0"		"1"
+	}
+	"BE_Research"
+	{
+		"0"		"1"
+	}
 }
