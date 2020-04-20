@@ -1,5 +1,9 @@
 "Scenario"
 {
+	"Description"		" "
+	"details"		" "
+	"Tags"		" "
+	"Author"		"Hardcore Empires - Main Server"
 	"NF_Res"		"400.000000"
 	"BE_Res"		"400.000000"
 	"NF_Tickets"		"4000.000000"
@@ -123,15 +127,15 @@
 		"1562"
 		{
 			"className"		"emp_imp_commander"
-			"position"		"11519.817383 9216.182617 2053.648926"
-			"angles"		"0.000016 -135.000000 1.252737"
+			"position"		"11519.819336 9216.180664 2053.648926"
+			"angles"		"-0.000013 -135.000000 1.252748"
 			"coords"		"E5"
 		}
 		"1564"
 		{
 			"className"		"emp_nf_commander"
-			"position"		"-11519.537109 -9472.490234 2126.736328"
-			"angles"		"-0.015308 44.999229 -0.502014"
+			"position"		"-11519.538086 -9472.489258 2126.736328"
+			"angles"		"-0.015311 44.999229 -0.502014"
 			"coords"		"A2"
 		}
 		"257285"
@@ -938,10 +942,8 @@
 			"name"		"e1_prop"
 			"effects"		"16"
 			"model"		"models/props_mining/elevator01_cage.mdl"
-			"Skin"		"0"
 			"MoveType"		"7"
 			"SolidType"		"3"
-			"CollisionGroup"		"0"
 		}
 		"302423"
 		{
@@ -952,10 +954,8 @@
 			"coords"		"D3"
 			"effects"		"16"
 			"model"		"models/props_mining/freightelevatorbutton02.mdl"
-			"Skin"		"0"
 			"MoveType"		"7"
 			"SolidType"		"3"
-			"CollisionGroup"		"0"
 		}
 		"316612"
 		{
@@ -967,10 +967,8 @@
 			"name"		"e4_prop"
 			"effects"		"16"
 			"model"		"models/props_mining/elevator01_cage.mdl"
-			"Skin"		"0"
 			"MoveType"		"7"
 			"SolidType"		"3"
-			"CollisionGroup"		"0"
 		}
 		"316622"
 		{
@@ -981,10 +979,8 @@
 			"coords"		"B5"
 			"effects"		"16"
 			"model"		"models/props_mining/freightelevatorbutton02.mdl"
-			"Skin"		"0"
 			"MoveType"		"7"
 			"SolidType"		"3"
-			"CollisionGroup"		"0"
 		}
 		"318065"
 		{
@@ -995,10 +991,8 @@
 			"coords"		"C4"
 			"effects"		"16"
 			"model"		"models/props_mining/freightelevatorbutton02.mdl"
-			"Skin"		"0"
 			"MoveType"		"7"
 			"SolidType"		"3"
-			"CollisionGroup"		"0"
 		}
 		"319468"
 		{
@@ -1009,10 +1003,8 @@
 			"coords"		"C4"
 			"effects"		"16"
 			"model"		"models/props_mining/freightelevatorbutton02.mdl"
-			"Skin"		"0"
 			"MoveType"		"7"
 			"SolidType"		"3"
-			"CollisionGroup"		"0"
 		}
 		"294191"
 		{
@@ -1023,10 +1015,8 @@
 			"coords"		"C4"
 			"effects"		"16"
 			"model"		"models/props_mining/elevator01_cage.mdl"
-			"Skin"		"0"
 			"MoveType"		"7"
 			"SolidType"		"3"
-			"CollisionGroup"		"0"
 		}
 		"319475"
 		{
@@ -1037,10 +1027,8 @@
 			"coords"		"C4"
 			"effects"		"16"
 			"model"		"models/props_mining/elevator01_cage.mdl"
-			"Skin"		"0"
 			"MoveType"		"7"
 			"SolidType"		"3"
-			"CollisionGroup"		"0"
 		}
 		"172649"
 		{
@@ -1141,7 +1129,7 @@
 			"active"		"1"
 			"effectName"		"highpass_particle_snow"
 		}
-		"5000012"
+		"5000395"
 		{
 			"className"		"emp_vehicle"
 			"position"		"13494.000000 8832.000000 2085.376221"
@@ -1174,7 +1162,7 @@
 			"respawnCost"		"0"
 			"respawn"		"0"
 		}
-		"5000013"
+		"5000396"
 		{
 			"className"		"emp_vehicle"
 			"position"		"13494.141602 9088.000000 2085.467285"
@@ -1207,11 +1195,11 @@
 			"respawnCost"		"0"
 			"respawn"		"0"
 		}
-		"5000014"
+		"5000397"
 		{
 			"className"		"emp_vehicle"
-			"position"		"13515.684570 8320.000000 2087.583008"
-			"angles"		"0.000002 90.000008 -0.251373"
+			"position"		"13515.043945 8320.000000 2087.810303"
+			"angles"		"0.000002 90.000008 -0.223328"
 			"coords"		"E5"
 			"team"		"3"
 			"armorFront"		"2"
@@ -1234,7 +1222,7 @@
 			"respawnCost"		"0"
 			"respawn"		"0"
 		}
-		"5000015"
+		"5000398"
 		{
 			"className"		"emp_vehicle"
 			"position"		"13515.043945 8576.000000 2087.810303"
@@ -1261,7 +1249,7 @@
 			"respawnCost"		"0"
 			"respawn"		"0"
 		}
-		"5000016"
+		"5000399"
 		{
 			"className"		"emp_vehicle"
 			"position"		"-13481.742188 -8831.509766 2073.870117"
@@ -1294,7 +1282,7 @@
 			"respawnCost"		"0"
 			"respawn"		"0"
 		}
-		"5000017"
+		"5000400"
 		{
 			"className"		"emp_vehicle"
 			"position"		"-13474.389648 -9086.648438 2074.845947"
@@ -1327,7 +1315,7 @@
 			"respawnCost"		"0"
 			"respawn"		"0"
 		}
-		"5000018"
+		"5000401"
 		{
 			"className"		"emp_vehicle"
 			"position"		"-13455.436523 -8576.493164 2086.240967"
@@ -1354,7 +1342,7 @@
 			"respawnCost"		"0"
 			"respawn"		"0"
 		}
-		"5000019"
+		"5000402"
 		{
 			"className"		"emp_vehicle"
 			"position"		"-13456.837891 -8320.785156 2090.987793"
@@ -1382,13 +1370,6 @@
 			"respawn"		"0"
 		}
 	}
-	"Description"		" "
-	"details"		" "
-	"Author"		"Hardcore Empires - The Tradiona"
-	"BaseSwap"		"-1"
-	"CommFreezeTime"		"-1"
-	"PlayerRefineryMultiplier"		"-1.000000"
-	"RefineryMultiplier"		"-1.000000"
-	"version"		"0.930000"
+	"version"		"1.030000"
 	"hLimit"		"421357"
 }

@@ -785,7 +785,7 @@
 			"name"		"res_5"
 			"effects"		"80"
 			"enabled"		"0"
-			"resPerSecond"		"2.000000"
+			"resPerSecond"		"1.000000"
 		}
 		"182250"
 		{
@@ -796,7 +796,7 @@
 			"name"		"res_4"
 			"effects"		"80"
 			"enabled"		"1"
-			"resPerSecond"		"2.000000"
+			"resPerSecond"		"1.000000"
 		}
 		"266909"
 		{
@@ -807,7 +807,7 @@
 			"name"		"res_3"
 			"effects"		"80"
 			"enabled"		"1"
-			"resPerSecond"		"2.000000"
+			"resPerSecond"		"1.000000"
 		}
 		"267341"
 		{
@@ -818,7 +818,7 @@
 			"name"		"res_2"
 			"effects"		"80"
 			"enabled"		"0"
-			"resPerSecond"		"2.000000"
+			"resPerSecond"		"1.000000"
 		}
 		"267701"
 		{
@@ -1388,7 +1388,7 @@
 	"BaseSwap"		"-1"
 	"CommFreezeTime"		"1"
 	"PlayerRefineryMultiplier"		"-1.000000"
-	"RefineryMultiplier"		"2.000000"
+	"RefineryMultiplier"		"-1.000000"
 	"version"		"0.860000"
 	"hLimit"		"370000"
 }
