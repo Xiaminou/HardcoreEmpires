@@ -605,7 +605,7 @@ Vehicle_Weapons
 		"Total Ammo Clips"	"0"		//max ammo clips carried (0 is the same as not using clips) (default: 1)
 		"Reload Time"		"0"		//time to load one clip
 		"Reload Amount"		"5" 		//number of projectiles gained per reload "tick" if not using clips
-		"Projectile Spread"	"0"		//spread (default: 0.001)
+		"Projectile Spread"	"0.1"		//spread (default: 0.001)
 		"Heat to Target"	"0"		//heat added to target on hit (default: 0.1)
 		"Explosion Radius"	"150"		//radius of damage sphere to hurt surrounding entities (default: 0)
 		"Explosion Force"	"100"		//force of explosion (default: 0)
@@ -642,7 +642,7 @@ Vehicle_Weapons
 		"Total Ammo Clips"	"0"		//max ammo clips carried (0 is the same as not using clips) (default: 1)
 		"Reload Time"		"0"		//time to load one clip
 		"Reload Amount"		"5" 		//number of projectiles gained per reload "tick" if not using clips
-		"Projectile Spread"	"0"		//spread (default: 0.001)
+		"Projectile Spread"	"0.1"		//spread (default: 0.001)
 		"Heat to Target"	"0"		//heat added to target on hit (default: 0.1)
 		"Explosion Radius"	"150"		//radius of damage sphere to hurt surrounding entities (default: 0)
 		"Explosion Force"	"100"		//force of explosion (default: 0)
@@ -831,7 +831,7 @@ Vehicle_Weapons
 		"Damage Type"		"Kinetic"
 		"Damage"		"100"		//damage done by projectile (default: 50)
 		"Speed"			"3700"		//speed of projectile (requires "type" 1, 2, 3 or 4)(default: 100)
-		"Gravity"		"0.2"		//effects of gravity on the projectile, only for projectiles (requires "type" 1, 2 or 4)(default: 1.0)
+		"Gravity"		"0.06"		//effects of gravity on the projectile, only for projectiles (requires "type" 1, 2 or 4)(default: 1.0)
 		"Heat"			"15"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status) (default: 0.1)
 		"Weight"		"60"		//weight in terms of effects on engine and weight restrictions for chassis (default: 10)
 		"Cycle Time"		"2.5"		//time between shots (default 0.1) (all weapons other than MGs have limits of 0.1 as lowest)
@@ -868,7 +868,7 @@ Vehicle_Weapons
 		"Damage Type"		"Kinetic"
 		"Damage"		"120"		//damage done by projectile (default: 50)
 		"Speed"			"3800"		//speed of projectile (requires "type" 1, 2, 3 or 4)(default: 100)
-		"Gravity"		"0.18"		//effects of gravity on the projectile, only for projectiles (requires "type" 1, 2 or 4)(default: 1.0)
+		"Gravity"		"0.04"		//effects of gravity on the projectile, only for projectiles (requires "type" 1, 2 or 4)(default: 1.0)
 		"Heat"			"18"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status) (default: 0.1)
 		"Weight"		"80"		//weight in terms of effects on engine and weight restrictions for chassis (default: 10)
 		"Cycle Time"		"2.85"		//time between shots (default 0.1) (all weapons other than MGs have limits of 0.1 as lowest)
