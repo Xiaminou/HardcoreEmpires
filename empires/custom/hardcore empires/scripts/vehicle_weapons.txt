@@ -231,7 +231,7 @@ Vehicle_Weapons
 		"Cycle Time"		"0.121"		//time between shots (default 0.1)
 		"Clip Size"		"80"		//ammo loaded per reloads (default: 10)
 		"Total Ammo Clips"	"6"		//max ammo clips carried (0 is the same as not using clips) (default: 1)
-		"Reload Time"		"2.0"		//time to load one clip, if total ammo clips is '0', time to reload one unit of ammo (as one unit of ammo is reloaded per time and not a full clip) (default: 20)
+		"Reload Time"		"3.0"		//time to load one clip, if total ammo clips is '0', time to reload one unit of ammo (as one unit of ammo is reloaded per time and not a full clip) (default: 20)
 		"Projectile Spread"	"0.015"		//spread (default: 0.001)
 		"Heat to Target"	"0"		//heat added to target on hit (default: 0.1)
 
@@ -271,7 +271,7 @@ Vehicle_Weapons
 		"Cycle Time"		"0.121"		//time between shots (default 0.1)
 		"Clip Size"		"120"		//ammo loaded per reloads (default: 10)
 		"Total Ammo Clips"	"6"		//max ammo clips carried (0 is the same as not using clips) (default: 1)
-		"Reload Time"		"3.0"		//time to load one clip, if total ammo clips is '0', time to reload one unit of ammo (as one unit of ammo is reloaded per time and not a full clip) (default: 20)
+		"Reload Time"		"5.0"		//time to load one clip, if total ammo clips is '0', time to reload one unit of ammo (as one unit of ammo is reloaded per time and not a full clip) (default: 20)
 		"Projectile Spread"	"0.014"		//spread (default: 0.001)
 		"Heat to Target"	"0"		//heat added to target on hit (default: 0.1)
 
