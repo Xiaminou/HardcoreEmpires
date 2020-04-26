@@ -1,5 +1,9 @@
 "Scenario"
 {
+	"Description"		" "
+	"details"		" "
+	"Tags"		" "
+	"Author"		"Hardcore Empires - Backup Serve"
 	"NF_Res"		"400.200012"
 	"BE_Res"		"400.200012"
 	"NF_Tickets"		"393.156006"
@@ -263,15 +267,15 @@
 		"321735"
 		{
 			"className"		"emp_imp_commander"
-			"position"		"12239.930664 11391.930664 3309.680664"
-			"angles"		"0.000001 135.000000 1.251493"
+			"position"		"12240.182617 11392.182617 3309.643799"
+			"angles"		"0.000001 135.000000 1.252833"
 			"coords"		"E5"
 		}
 		"321757"
 		{
 			"className"		"emp_nf_commander"
-			"position"		"-11631.390625 -12223.390625 3382.329346"
-			"angles"		"0.000001 -45.000011 -0.585205"
+			"position"		"-11630.950195 -12222.950195 3382.265625"
+			"angles"		"0.000009 -45.000011 -0.595428"
 			"coords"		"A1"
 		}
 		"321749"
@@ -1028,10 +1032,8 @@
 			"coords"		"D3"
 			"effects"		"16"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
-			"Skin"		"0"
 			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"323367"
 		{
@@ -1041,10 +1043,8 @@
 			"coords"		"C3"
 			"effects"		"16"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
-			"Skin"		"0"
 			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"323371"
 		{
@@ -1054,10 +1054,8 @@
 			"coords"		"C2"
 			"effects"		"16"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
-			"Skin"		"0"
 			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"323375"
 		{
@@ -1067,10 +1065,8 @@
 			"coords"		"D2"
 			"effects"		"16"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
-			"Skin"		"0"
 			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"323379"
 		{
@@ -1080,10 +1076,8 @@
 			"coords"		"C2"
 			"effects"		"16"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
-			"Skin"		"0"
 			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"323383"
 		{
@@ -1093,10 +1087,8 @@
 			"coords"		"B1"
 			"effects"		"16"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
-			"Skin"		"0"
 			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"323387"
 		{
@@ -1106,10 +1098,8 @@
 			"coords"		"A2"
 			"effects"		"16"
 			"model"		"models/common/props_foliage/trees/orexcluster2b.mdl"
-			"Skin"		"0"
 			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"323391"
 		{
@@ -1119,10 +1109,8 @@
 			"coords"		"E4"
 			"effects"		"16"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
-			"Skin"		"0"
 			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"323395"
 		{
@@ -1132,10 +1120,8 @@
 			"coords"		"C3"
 			"effects"		"16"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
-			"Skin"		"0"
 			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"323399"
 		{
@@ -1145,10 +1131,8 @@
 			"coords"		"C2"
 			"effects"		"16"
 			"model"		"models/common/props_foliage/trees/orexcluster2b.mdl"
-			"Skin"		"0"
 			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"323403"
 		{
@@ -1158,10 +1142,8 @@
 			"coords"		"B2"
 			"effects"		"16"
 			"model"		"models/common/props_foliage/trees/orexcluster2b.mdl"
-			"Skin"		"0"
 			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"323407"
 		{
@@ -1171,10 +1153,8 @@
 			"coords"		"B4"
 			"effects"		"16"
 			"model"		"models/common/props_foliage/trees/orexcluster2b.mdl"
-			"Skin"		"0"
 			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"323411"
 		{
@@ -1184,10 +1164,8 @@
 			"coords"		"C4"
 			"effects"		"16"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
-			"Skin"		"0"
 			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"323415"
 		{
@@ -1197,10 +1175,8 @@
 			"coords"		"D4"
 			"effects"		"16"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
-			"Skin"		"0"
 			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"323419"
 		{
@@ -1210,10 +1186,8 @@
 			"coords"		"D4"
 			"effects"		"16"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
-			"Skin"		"0"
 			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"323423"
 		{
@@ -1223,10 +1197,8 @@
 			"coords"		"B3"
 			"effects"		"16"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
-			"Skin"		"0"
 			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"323427"
 		{
@@ -1236,10 +1208,8 @@
 			"coords"		"B3"
 			"effects"		"16"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
-			"Skin"		"0"
 			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"323431"
 		{
@@ -1249,10 +1219,8 @@
 			"coords"		"E3"
 			"effects"		"16"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
-			"Skin"		"0"
 			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"323435"
 		{
@@ -1262,10 +1230,8 @@
 			"coords"		"B3"
 			"effects"		"16"
 			"model"		"models/common/props_foliage/trees/orexcluster2b.mdl"
-			"Skin"		"0"
 			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"323439"
 		{
@@ -1275,10 +1241,8 @@
 			"coords"		"E4"
 			"effects"		"16"
 			"model"		"models/common/props_foliage/trees/orexcluster2b.mdl"
-			"Skin"		"0"
 			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"323443"
 		{
@@ -1288,10 +1252,8 @@
 			"coords"		"D3"
 			"effects"		"16"
 			"model"		"models/common/props_foliage/trees/orexcluster2b.mdl"
-			"Skin"		"0"
 			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"323447"
 		{
@@ -1301,10 +1263,8 @@
 			"coords"		"B3"
 			"effects"		"16"
 			"model"		"models/common/props_foliage/trees/orexcluster2b.mdl"
-			"Skin"		"0"
 			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"323451"
 		{
@@ -1314,10 +1274,8 @@
 			"coords"		"B5"
 			"effects"		"16"
 			"model"		"models/common/props_foliage/trees/orexcluster2b.mdl"
-			"Skin"		"0"
 			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"323455"
 		{
@@ -1327,10 +1285,8 @@
 			"coords"		"C1"
 			"effects"		"16"
 			"model"		"models/common/props_foliage/trees/orexcluster2b.mdl"
-			"Skin"		"0"
 			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"323459"
 		{
@@ -1340,10 +1296,8 @@
 			"coords"		"D4"
 			"effects"		"16"
 			"model"		"models/common/props_foliage/trees/orexcluster2b.mdl"
-			"Skin"		"0"
 			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"323463"
 		{
@@ -1353,10 +1307,8 @@
 			"coords"		"A3"
 			"effects"		"16"
 			"model"		"models/common/props_foliage/trees/orexcluster2b.mdl"
-			"Skin"		"0"
 			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"323467"
 		{
@@ -1366,10 +1318,8 @@
 			"coords"		"C1"
 			"effects"		"16"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
-			"Skin"		"0"
 			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"323471"
 		{
@@ -1379,10 +1329,8 @@
 			"coords"		"A4"
 			"effects"		"16"
 			"model"		"models/common/props_foliage/trees/orexcluster2b.mdl"
-			"Skin"		"0"
 			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"323475"
 		{
@@ -1392,19 +1340,206 @@
 			"coords"		"A5"
 			"effects"		"16"
 			"model"		"models/common/props_foliage/trees/orexcluster2b.mdl"
-			"Skin"		"0"
 			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
+		}
+		"459058"
+		{
+			"className"		"emp_comm_restrict"
+			"position"		"0.000000 0.000000 0.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"C3"
+			"Mins"		"-14553.000000 -7889.000000 4044.000000"
+			"Maxs"		"-7351.000000 -7503.000000 4193.000000"
+		}
+		"459060"
+		{
+			"className"		"emp_comm_restrict"
+			"position"		"0.000000 0.000000 0.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"C3"
+			"Mins"		"-7353.000000 -16049.000000 4044.000000"
+			"Maxs"		"-6967.000000 -7503.000000 4193.000000"
+		}
+		"459028"
+		{
+			"className"		"emp_comm_restrict"
+			"position"		"0.000000 0.000000 0.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"C3"
+			"Mins"		"7423.000000 6719.000000 4059.000000"
+			"Maxs"		"7809.000000 15265.000000 4193.000000"
+		}
+		"459038"
+		{
+			"className"		"emp_comm_restrict"
+			"position"		"0.000000 0.000000 0.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"C3"
+			"Mins"		"7423.000000 6719.000000 4059.000000"
+			"Maxs"		"15009.000000 7105.000000 4193.000000"
+		}
+		"321717"
+		{
+			"className"		"emp_comm_restrict"
+			"position"		"0.000000 0.000000 0.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"C3"
+			"Mins"		"11359.000000 -12913.000000 4367.000000"
+			"Maxs"		"12737.000000 -10887.000000 4617.000000"
+		}
+		"458962"
+		{
+			"className"		"emp_comm_restrict"
+			"position"		"0.000000 0.000000 0.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"C3"
+			"Mins"		"6111.000000 -12961.000000 3583.000000"
+			"Maxs"		"6753.000000 -11455.000000 3945.000000"
+		}
+		"458970"
+		{
+			"className"		"emp_comm_restrict"
+			"position"		"0.000000 0.000000 0.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"C3"
+			"Mins"		"11327.000000 -8865.000000 3799.000000"
+			"Maxs"		"12353.000000 -7807.000000 4001.000000"
+		}
+		"321719"
+		{
+			"className"		"emp_eng_restrict"
+			"position"		"0.000000 0.000000 0.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"C3"
+			"Mins"		"7455.000000 8511.000000 3679.000000"
+			"Maxs"		"7777.000000 11201.000000 3945.000000"
+			"restrictNF"		"1"
+			"restrictImp"		"1"
+			"turretRestrict"		"0"
+		}
+		"321721"
+		{
+			"className"		"emp_eng_restrict"
+			"position"		"0.000000 0.000000 0.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"C3"
+			"Mins"		"9215.000000 6751.000000 3679.000000"
+			"Maxs"		"11905.000000 7073.000000 3945.000000"
+			"restrictNF"		"1"
+			"restrictImp"		"1"
+			"turretRestrict"		"0"
+		}
+		"321723"
+		{
+			"className"		"emp_eng_restrict"
+			"position"		"0.000000 0.000000 0.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"C3"
+			"Mins"		"-11449.000000 -7857.000000 3679.000000"
+			"Maxs"		"-8759.000000 -7535.000000 3945.000000"
+			"restrictNF"		"1"
+			"restrictImp"		"1"
+			"turretRestrict"		"0"
+		}
+		"321725"
+		{
+			"className"		"emp_eng_restrict"
+			"position"		"0.000000 0.000000 0.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"C3"
+			"Mins"		"-7321.000000 -11985.000000 3679.000000"
+			"Maxs"		"-6999.000000 -9295.000000 3945.000000"
+			"restrictNF"		"1"
+			"restrictImp"		"1"
+			"turretRestrict"		"0"
+		}
+		"458950"
+		{
+			"className"		"emp_eng_restrict"
+			"position"		"0.000000 0.000000 0.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"C3"
+			"Mins"		"6111.000000 -12961.000000 3583.000000"
+			"Maxs"		"6753.000000 -11455.000000 3945.000000"
+			"restrictNF"		"1"
+			"restrictImp"		"1"
+			"turretRestrict"		"0"
+		}
+		"458990"
+		{
+			"className"		"emp_eng_restrict"
+			"position"		"0.000000 0.000000 0.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"C3"
+			"Mins"		"11327.000000 -8865.000000 3799.000000"
+			"Maxs"		"12353.000000 -7807.000000 4001.000000"
+			"restrictNF"		"1"
+			"restrictImp"		"1"
+			"turretRestrict"		"0"
+		}
+		"459084"
+		{
+			"className"		"emp_eng_restrict"
+			"position"		"0.000000 0.000000 0.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"C3"
+			"Mins"		"-7353.000000 -16049.000000 3927.000000"
+			"Maxs"		"-6967.000000 -7503.000000 4193.000000"
+			"restrictNF"		"1"
+			"restrictImp"		"1"
+			"turretRestrict"		"0"
+		}
+		"459086"
+		{
+			"className"		"emp_eng_restrict"
+			"position"		"0.000000 0.000000 0.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"C3"
+			"Mins"		"-14553.000000 -7889.000000 3927.000000"
+			"Maxs"		"-6967.000000 -7503.000000 4193.000000"
+			"restrictNF"		"1"
+			"restrictImp"		"1"
+			"turretRestrict"		"0"
+		}
+		"459088"
+		{
+			"className"		"emp_eng_restrict"
+			"position"		"0.000000 0.000000 0.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"C3"
+			"Mins"		"7423.000000 6719.000000 3927.000000"
+			"Maxs"		"7809.000000 15265.000000 4193.000000"
+			"restrictNF"		"1"
+			"restrictImp"		"1"
+			"turretRestrict"		"0"
+		}
+		"459090"
+		{
+			"className"		"emp_eng_restrict"
+			"position"		"0.000000 0.000000 0.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"C3"
+			"Mins"		"7423.000000 6719.000000 3927.000000"
+			"Maxs"		"15009.000000 7105.000000 4193.000000"
+			"restrictNF"		"1"
+			"restrictImp"		"1"
+			"turretRestrict"		"0"
+		}
+		"321747"
+		{
+			"className"		"emp_info_params"
+			"position"		"9.582870 9503.299805 3817.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"C5"
+			"name"		"info_params"
+			"Skin"		"0"
+			"autoResearch"		"0"
+			"eng_restrict_NF"		"0"
+			"eng_restrict_Imp"		"0"
+			"turretRestrict"		"0"
 		}
 	}
-	"Description"		" "
-	"details"		" "
-	"Author"		"Hardcore Empires - The Tradiona"
-	"BaseSwap"		"-1"
-	"CommFreezeTime"		"-1"
-	"PlayerRefineryMultiplier"		"-1.000000"
-	"RefineryMultiplier"		"-1.000000"
-	"version"		"0.930000"
+	"version"		"1.090000"
 	"hLimit"		"549313"
 }
