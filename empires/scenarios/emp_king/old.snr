@@ -1,21 +1,5 @@
 "Scenario"
 {
-	"Description"		" "
-	"details"		" "
-	"Tags"		" "
-	"Author"		"Hardcore Empires - Main Server"
-	"NF_Res"		"400.000000"
-	"BE_Res"		"400.000000"
-	"NF_Tickets"		"436.000000"
-	"BE_Tickets"		"436.000000"
-	"NF_Research"
-	{
-		"0"		"1"
-	}
-	"BE_Research"
-	{
-		"0"		"1"
-	}
 	"Entities"
 	{
 		"663104"
@@ -43,15 +27,15 @@
 		"663033"
 		{
 			"className"		"emp_imp_commander"
-			"position"		"9260.450195 11639.774414 5.673451"
-			"angles"		"0.000003 0.000001 1.247167"
+			"position"		"9260.450195 11640.274414 5.670713"
+			"angles"		"0.000006 0.000000 1.247189"
 			"coords"		"E6"
 		}
 		"663020"
 		{
 			"className"		"emp_nf_commander"
-			"position"		"-10643.900391 -10567.269531 78.330177"
-			"angles"		"-0.000112 0.000045 -0.578278"
+			"position"		"-10643.900391 -10568.940430 78.327263"
+			"angles"		"0.000008 0.000056 -0.586090"
 			"coords"		"A1"
 		}
 		"42021"
@@ -523,8 +507,6 @@
 			"position"		"0.000000 0.000000 0.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"C4"
-			"Mins"		"-3457.000000 -2433.000000 -33.000000"
-			"Maxs"		"-2751.000000 -2047.000000 65.000000"
 			"pointNumber"		"6"
 			"timeToCap"		"15"
 			"timeToNeutral"		"5"
@@ -538,6 +520,8 @@
 			"reinfToTakeImp"		"0.000000"
 			"canNFCap"		"1"
 			"canImpCap"		"1"
+			"Mins"		"-3457.000000 -2433.000000 -33.000000"
+			"Maxs"		"-2751.000000 -2047.000000 65.000000"
 		}
 		"850633"
 		{
@@ -545,8 +529,6 @@
 			"position"		"0.000000 0.000000 0.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"C4"
-			"Mins"		"2047.000000 2879.000000 -33.000000"
-			"Maxs"		"2433.000000 3585.000000 65.000000"
 			"pointNumber"		"5"
 			"timeToCap"		"15"
 			"timeToNeutral"		"5"
@@ -560,29 +542,8 @@
 			"reinfToTakeImp"		"0.000000"
 			"canNFCap"		"1"
 			"canImpCap"		"1"
-		}
-		"59306"
-		{
-			"className"		"emp_cap_point"
-			"position"		"0.000000 0.000000 0.000000"
-			"angles"		"0.000000 0.000000 0.000000"
-			"coords"		"C4"
-			"name"		"flag_cityhqinitial"
-			"Mins"		"12671.000000 -13441.000000 127.000000"
-			"Maxs"		"13441.000000 -12671.000000 385.000000"
-			"pointNumber"		"2"
-			"timeToCap"		"15"
-			"timeToNeutral"		"5000"
-			"playersRequiredNF"		"1"
-			"playersRequiredImp"		"1"
-			"teamOwner"		"0"
-			"locationName"		"City: Headquarters"
-			"resToGiveNF"		"0.000000"
-			"resToGiveImp"		"0.000000"
-			"reinfToTakeNF"		"0.000000"
-			"reinfToTakeImp"		"0.000000"
-			"canNFCap"		"1"
-			"canImpCap"		"1"
+			"Mins"		"2047.000000 2879.000000 -33.000000"
+			"Maxs"		"2433.000000 3585.000000 65.000000"
 		}
 		"786592"
 		{
@@ -590,8 +551,6 @@
 			"position"		"0.000000 0.000000 0.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"C4"
-			"Mins"		"10111.000000 -7681.000000 127.000000"
-			"Maxs"		"10625.000000 -7167.000000 385.000000"
 			"pointNumber"		"3"
 			"timeToCap"		"15"
 			"timeToNeutral"		"15"
@@ -605,6 +564,8 @@
 			"reinfToTakeImp"		"0.000000"
 			"canNFCap"		"1"
 			"canImpCap"		"1"
+			"Mins"		"10111.000000 -7681.000000 127.000000"
+			"Maxs"		"10625.000000 -7167.000000 385.000000"
 		}
 		"802956"
 		{
@@ -612,8 +573,6 @@
 			"position"		"0.000000 0.000000 0.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"C4"
-			"Mins"		"6063.000000 -14209.000000 127.000000"
-			"Maxs"		"6481.000000 -13695.000000 385.000000"
 			"pointNumber"		"1"
 			"timeToCap"		"15"
 			"timeToNeutral"		"15"
@@ -627,6 +586,8 @@
 			"reinfToTakeImp"		"0.000000"
 			"canNFCap"		"1"
 			"canImpCap"		"1"
+			"Mins"		"6063.000000 -14209.000000 127.000000"
+			"Maxs"		"6481.000000 -13695.000000 385.000000"
 		}
 		"1203177"
 		{
@@ -634,8 +595,6 @@
 			"position"		"0.000000 0.000000 0.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"C4"
-			"Mins"		"-4737.000000 3647.000000 -33.000000"
-			"Maxs"		"-3711.000000 4737.000000 97.000000"
 			"pointNumber"		"8"
 			"timeToCap"		"15"
 			"timeToNeutral"		"10"
@@ -649,6 +608,54 @@
 			"reinfToTakeImp"		"0.000000"
 			"canNFCap"		"1"
 			"canImpCap"		"1"
+			"Mins"		"-4737.000000 3647.000000 -33.000000"
+			"Maxs"		"-3711.000000 4737.000000 97.000000"
+		}
+		"850387"
+		{
+			"className"		"emp_cap_point"
+			"position"		"0.000000 0.000000 0.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"C4"
+			"name"		"flag_cityref"
+			"pointNumber"		"4"
+			"timeToCap"		"15"
+			"timeToNeutral"		"5000"
+			"playersRequiredNF"		"3"
+			"playersRequiredImp"		"3"
+			"teamOwner"		"0"
+			"locationName"		"City: Refinery"
+			"resToGiveNF"		"0.000000"
+			"resToGiveImp"		"0.000000"
+			"reinfToTakeNF"		"0.000000"
+			"reinfToTakeImp"		"0.000000"
+			"canNFCap"		"1"
+			"canImpCap"		"1"
+			"Mins"		"8831.000000 -12673.000000 127.000000"
+			"Maxs"		"9601.000000 -11903.000000 385.000000"
+		}
+		"997373"
+		{
+			"className"		"emp_cap_point"
+			"position"		"0.000000 0.000000 0.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"C4"
+			"name"		"flag_cityhq"
+			"pointNumber"		"2"
+			"timeToCap"		"15"
+			"timeToNeutral"		"5000"
+			"playersRequiredNF"		"3"
+			"playersRequiredImp"		"3"
+			"teamOwner"		"0"
+			"locationName"		"City: Headquarters"
+			"resToGiveNF"		"0.000000"
+			"resToGiveImp"		"0.000000"
+			"reinfToTakeNF"		"0.000000"
+			"reinfToTakeImp"		"0.000000"
+			"canNFCap"		"1"
+			"canImpCap"		"1"
+			"Mins"		"12671.000000 -13441.000000 127.000000"
+			"Maxs"		"13441.000000 -12671.000000 385.000000"
 		}
 		"663919"
 		{
@@ -1235,8 +1242,8 @@
 			"angles"		"0.000000 169.500000 0.000000"
 			"coords"		"F1"
 			"model"		"models/props_c17/chair02a.mdl"
-			"MoveType"		"7"
 			"SolidType"		"6"
+			"CollisionGroup"		"0"
 		}
 		"43564"
 		{
@@ -1245,8 +1252,8 @@
 			"angles"		"0.000000 133.500000 0.000000"
 			"coords"		"F1"
 			"model"		"models/props_c17/chair02a.mdl"
-			"MoveType"		"7"
 			"SolidType"		"6"
+			"CollisionGroup"		"0"
 		}
 		"43566"
 		{
@@ -1255,8 +1262,8 @@
 			"angles"		"0.000000 103.500000 0.000000"
 			"coords"		"F1"
 			"model"		"models/props_c17/chair02a.mdl"
-			"MoveType"		"7"
 			"SolidType"		"6"
+			"CollisionGroup"		"0"
 		}
 		"43609"
 		{
@@ -1265,8 +1272,8 @@
 			"angles"		"0.000000 349.500000 0.000000"
 			"coords"		"F1"
 			"model"		"models/props_c17/chair02a.mdl"
-			"MoveType"		"7"
 			"SolidType"		"6"
+			"CollisionGroup"		"0"
 		}
 		"43611"
 		{
@@ -1275,8 +1282,8 @@
 			"angles"		"0.000000 313.500000 0.000000"
 			"coords"		"F1"
 			"model"		"models/props_c17/chair02a.mdl"
-			"MoveType"		"7"
 			"SolidType"		"6"
+			"CollisionGroup"		"0"
 		}
 		"43613"
 		{
@@ -1285,8 +1292,8 @@
 			"angles"		"0.000000 283.500000 0.000000"
 			"coords"		"F1"
 			"model"		"models/props_c17/chair02a.mdl"
-			"MoveType"		"7"
 			"SolidType"		"6"
+			"CollisionGroup"		"0"
 		}
 		"53926"
 		{
@@ -1296,8 +1303,8 @@
 			"coords"		"E1"
 			"effects"		"16"
 			"model"		"models/props_lab/blastwindow.mdl"
-			"MoveType"		"7"
 			"SolidType"		"6"
+			"CollisionGroup"		"0"
 		}
 		"53931"
 		{
@@ -1307,8 +1314,8 @@
 			"coords"		"E1"
 			"effects"		"16"
 			"model"		"models/props_lab/blastwindow.mdl"
-			"MoveType"		"7"
 			"SolidType"		"6"
+			"CollisionGroup"		"0"
 		}
 		"53937"
 		{
@@ -1318,8 +1325,8 @@
 			"coords"		"E1"
 			"effects"		"16"
 			"model"		"models/props_lab/blastwindow.mdl"
-			"MoveType"		"7"
 			"SolidType"		"6"
+			"CollisionGroup"		"0"
 		}
 		"53942"
 		{
@@ -1329,8 +1336,8 @@
 			"coords"		"E1"
 			"effects"		"16"
 			"model"		"models/props_lab/blastwindow.mdl"
-			"MoveType"		"7"
 			"SolidType"		"6"
+			"CollisionGroup"		"0"
 		}
 		"53964"
 		{
@@ -1340,8 +1347,8 @@
 			"coords"		"E1"
 			"effects"		"16"
 			"model"		"models/props_lab/blastwindow.mdl"
-			"MoveType"		"7"
 			"SolidType"		"6"
+			"CollisionGroup"		"0"
 		}
 		"53969"
 		{
@@ -1351,8 +1358,8 @@
 			"coords"		"E1"
 			"effects"		"16"
 			"model"		"models/props_lab/blastwindow.mdl"
-			"MoveType"		"7"
 			"SolidType"		"6"
+			"CollisionGroup"		"0"
 		}
 		"53975"
 		{
@@ -1362,8 +1369,8 @@
 			"coords"		"E1"
 			"effects"		"16"
 			"model"		"models/props_lab/blastwindow.mdl"
-			"MoveType"		"7"
 			"SolidType"		"6"
+			"CollisionGroup"		"0"
 		}
 		"53980"
 		{
@@ -1373,8 +1380,8 @@
 			"coords"		"E1"
 			"effects"		"16"
 			"model"		"models/props_lab/blastwindow.mdl"
-			"MoveType"		"7"
 			"SolidType"		"6"
+			"CollisionGroup"		"0"
 		}
 		"1207144"
 		{
@@ -1384,8 +1391,8 @@
 			"coords"		"C3"
 			"effects"		"16"
 			"model"		"models/imperial/vehicles/ground/tankheavy/turret.mdl"
-			"MoveType"		"7"
 			"SolidType"		"3"
+			"CollisionGroup"		"0"
 		}
 		"1207176"
 		{
@@ -1395,19 +1402,19 @@
 			"coords"		"C3"
 			"effects"		"16"
 			"model"		"models/imperial/vehicles/ground/tankheavy/turret.mdl"
-			"MoveType"		"7"
 			"SolidType"		"3"
+			"CollisionGroup"		"0"
 		}
 		"1206995"
 		{
 			"className"		"prop_dynamic"
 			"position"		"-3072.000000 -1408.000000 1920.000000"
-			"angles"		"0.000000 10.654540 0.000000"
+			"angles"		"0.000000 356.293091 0.000000"
 			"Parent"		"gunrot_1"
 			"coords"		"C3"
 			"model"		"models/imperial/vehicles/ground/apc/turret.mdl"
-			"MoveType"		"7"
 			"SolidType"		"6"
+			"CollisionGroup"		"0"
 		}
 		"1207180"
 		{
@@ -1417,8 +1424,8 @@
 			"coords"		"C3"
 			"effects"		"16"
 			"model"		"models/imperial/vehicles/ground/tankheavy/turret.mdl"
-			"MoveType"		"7"
 			"SolidType"		"3"
+			"CollisionGroup"		"0"
 		}
 		"1207116"
 		{
@@ -1428,19 +1435,19 @@
 			"coords"		"C3"
 			"effects"		"16"
 			"model"		"models/imperial/vehicles/ground/tankheavy/turret.mdl"
-			"MoveType"		"7"
 			"SolidType"		"3"
+			"CollisionGroup"		"0"
 		}
 		"1207387"
 		{
 			"className"		"prop_dynamic"
-			"position"		"-3063.125488 -1455.172485 1943.250000"
-			"angles"		"-0.000000 10.654541 -30.000000"
+			"position"		"-3075.103271 -1455.899536 1943.250000"
+			"angles"		"-0.000000 -3.706925 -30.000000"
 			"Parent"		"gunrot_1"
 			"coords"		"C3"
 			"model"		"models/imperial/vehicles/ground/apc/cannon.mdl"
-			"MoveType"		"7"
 			"SolidType"		"6"
+			"CollisionGroup"		"0"
 		}
 		"1211462"
 		{
@@ -1450,8 +1457,8 @@
 			"coords"		"D4"
 			"effects"		"16"
 			"model"		"models/imperial/vehicles/ground/tankheavy/turret.mdl"
-			"MoveType"		"7"
 			"SolidType"		"3"
+			"CollisionGroup"		"0"
 		}
 		"1211475"
 		{
@@ -1461,19 +1468,19 @@
 			"coords"		"D4"
 			"effects"		"16"
 			"model"		"models/imperial/vehicles/ground/tankheavy/turret.mdl"
-			"MoveType"		"7"
 			"SolidType"		"3"
+			"CollisionGroup"		"0"
 		}
 		"1211479"
 		{
 			"className"		"prop_dynamic"
 			"position"		"5120.000000 2432.000000 1664.000000"
-			"angles"		"0.000000 -8.878784 0.000000"
+			"angles"		"0.000000 -296.909607 0.000000"
 			"Parent"		"alpha_gunrot_1"
 			"coords"		"D4"
 			"model"		"models/imperial/vehicles/ground/apc/turret.mdl"
-			"MoveType"		"7"
 			"SolidType"		"6"
+			"CollisionGroup"		"0"
 		}
 		"1211551"
 		{
@@ -1483,8 +1490,8 @@
 			"coords"		"E4"
 			"effects"		"16"
 			"model"		"models/imperial/vehicles/ground/tankheavy/turret.mdl"
-			"MoveType"		"7"
 			"SolidType"		"3"
+			"CollisionGroup"		"0"
 		}
 		"1211555"
 		{
@@ -1494,19 +1501,19 @@
 			"coords"		"E4"
 			"effects"		"16"
 			"model"		"models/imperial/vehicles/ground/tankheavy/turret.mdl"
-			"MoveType"		"7"
 			"SolidType"		"3"
+			"CollisionGroup"		"0"
 		}
 		"1211559"
 		{
 			"className"		"prop_dynamic"
-			"position"		"5112.591309 2384.575195 1687.250000"
-			"angles"		"-0.000000 -8.878784 -30.000000"
+			"position"		"5162.802734 2410.275879 1687.250000"
+			"angles"		"-0.000000 63.090393 -30.000000"
 			"Parent"		"alpha_gunrot_1"
-			"coords"		"D4"
+			"coords"		"E4"
 			"model"		"models/imperial/vehicles/ground/apc/cannon.mdl"
-			"MoveType"		"7"
 			"SolidType"		"6"
+			"CollisionGroup"		"0"
 		}
 		"1212000"
 		{
@@ -1516,8 +1523,8 @@
 			"coords"		"A6"
 			"effects"		"16"
 			"model"		"models/imperial/vehicles/ground/tankheavy/turret.mdl"
-			"MoveType"		"7"
 			"SolidType"		"3"
+			"CollisionGroup"		"0"
 		}
 		"1212013"
 		{
@@ -1527,19 +1534,19 @@
 			"coords"		"A6"
 			"effects"		"16"
 			"model"		"models/imperial/vehicles/ground/tankheavy/turret.mdl"
-			"MoveType"		"7"
 			"SolidType"		"3"
+			"CollisionGroup"		"0"
 		}
 		"1212017"
 		{
 			"className"		"prop_dynamic"
 			"position"		"-11648.000000 11776.000000 2176.000000"
-			"angles"		"0.000000 15.981813 0.000000"
+			"angles"		"0.000000 534.432861 0.000000"
 			"Parent"		"betagunrot_1"
 			"coords"		"A6"
 			"model"		"models/imperial/vehicles/ground/apc/turret.mdl"
-			"MoveType"		"7"
 			"SolidType"		"6"
+			"CollisionGroup"		"0"
 		}
 		"1212089"
 		{
@@ -1549,8 +1556,8 @@
 			"coords"		"A6"
 			"effects"		"16"
 			"model"		"models/imperial/vehicles/ground/tankheavy/turret.mdl"
-			"MoveType"		"7"
 			"SolidType"		"3"
+			"CollisionGroup"		"0"
 		}
 		"1212093"
 		{
@@ -1560,19 +1567,19 @@
 			"coords"		"A6"
 			"effects"		"16"
 			"model"		"models/imperial/vehicles/ground/tankheavy/turret.mdl"
-			"MoveType"		"7"
 			"SolidType"		"3"
+			"CollisionGroup"		"0"
 		}
 		"1212097"
 		{
 			"className"		"prop_dynamic"
-			"position"		"-11634.784180 11729.855469 2198.540039"
-			"angles"		"-0.000000 15.981813 -15.000000"
+			"position"		"-11643.343750 11823.773438 2198.540039"
+			"angles"		"-0.000000 174.432846 -15.000000"
 			"Parent"		"betagunrot_1"
 			"coords"		"A6"
 			"model"		"models/imperial/vehicles/ground/apc/cannon.mdl"
-			"MoveType"		"7"
 			"SolidType"		"6"
+			"CollisionGroup"		"0"
 		}
 		"1212547"
 		{
@@ -1582,8 +1589,8 @@
 			"coords"		"E2"
 			"effects"		"16"
 			"model"		"models/imperial/vehicles/ground/tankheavy/turret.mdl"
-			"MoveType"		"7"
 			"SolidType"		"3"
+			"CollisionGroup"		"0"
 		}
 		"1212560"
 		{
@@ -1593,19 +1600,19 @@
 			"coords"		"E2"
 			"effects"		"16"
 			"model"		"models/imperial/vehicles/ground/tankheavy/turret.mdl"
-			"MoveType"		"7"
 			"SolidType"		"3"
+			"CollisionGroup"		"0"
 		}
 		"1212564"
 		{
 			"className"		"prop_dynamic"
 			"position"		"8192.000000 -8192.000000 352.000000"
-			"angles"		"-0.000000 163.130295 0.000000"
+			"angles"		"-0.000000 -24.116531 0.000000"
 			"Parent"		"gamma_gunrot_1"
 			"coords"		"E2"
 			"model"		"models/imperial/vehicles/ground/apc/turret.mdl"
-			"MoveType"		"7"
 			"SolidType"		"6"
+			"CollisionGroup"		"0"
 		}
 		"1212636"
 		{
@@ -1615,8 +1622,8 @@
 			"coords"		"E2"
 			"effects"		"16"
 			"model"		"models/imperial/vehicles/ground/tankheavy/turret.mdl"
-			"MoveType"		"7"
 			"SolidType"		"3"
+			"CollisionGroup"		"0"
 		}
 		"1212640"
 		{
@@ -1626,19 +1633,19 @@
 			"coords"		"E2"
 			"effects"		"16"
 			"model"		"models/imperial/vehicles/ground/tankheavy/turret.mdl"
-			"MoveType"		"7"
 			"SolidType"		"3"
+			"CollisionGroup"		"0"
 		}
 		"1212644"
 		{
 			"className"		"prop_dynamic"
-			"position"		"8203.607422 -8153.721191 380.000000"
-			"angles"		"-0.000000 163.130295 -60.000004"
+			"position"		"8175.656250 -8228.508789 380.000000"
+			"angles"		"-0.000000 -24.116531 -60.000004"
 			"Parent"		"gamma_gunrot_1"
 			"coords"		"E2"
 			"model"		"models/imperial/vehicles/ground/apc/cannon.mdl"
-			"MoveType"		"7"
 			"SolidType"		"6"
+			"CollisionGroup"		"0"
 		}
 		"60828"
 		{
@@ -1648,8 +1655,8 @@
 			"coords"		"E1"
 			"effects"		"16"
 			"model"		"models/props_wasteland/cranemagnet01a.mdl"
-			"MoveType"		"7"
 			"SolidType"		"6"
+			"CollisionGroup"		"0"
 		}
 		"59304"
 		{
@@ -1660,7 +1667,7 @@
 			"effects"		"32"
 			"spawnflags"		"13"
 			"fireType"		"0"
-			"fireSize"		"128.000000"
+			"fireSize"		"64.000000"
 			"damageScale"		"1.000000"
 			"duration"		"0"
 		}
@@ -1673,7 +1680,7 @@
 			"effects"		"32"
 			"spawnflags"		"13"
 			"fireType"		"0"
-			"fireSize"		"128.000000"
+			"fireSize"		"64.000000"
 			"damageScale"		"1.000000"
 			"duration"		"0"
 		}
@@ -1738,92 +1745,76 @@
 			"effects"		"32"
 			"spawnflags"		"13"
 			"fireType"		"0"
-			"fireSize"		"128.000000"
+			"fireSize"		"64.000000"
 			"damageScale"		"1.000000"
 			"duration"		"0"
 		}
-		"870073"
+		"1207493"
 		{
-			"className"		"emp_comm_restrict"
-			"position"		"0.000000 0.000000 0.000000"
-			"angles"		"0.000000 0.000000 0.000000"
-			"coords"		"C4"
-			"Mins"		"5375.000000 -15361.000000 -513.000000"
-			"Maxs"		"15361.000000 -5375.000000 2049.000000"
+			"className"		"info_particle_system"
+			"position"		"-3080.506348 -1539.294678 1992.000000"
+			"angles"		"-30.000000 -93.706932 0.000000"
+			"Parent"		"gunrot_1"
+			"coords"		"C3"
+			"name"		"gun1"
+			"spawnflags"		"0"
+			"active"		"0"
+			"effectName"		"particle_kutm_tracers"
 		}
-		"899361"
+		"1211486"
 		{
-			"className"		"emp_eng_restrict"
-			"position"		"0.000000 0.000000 0.000000"
-			"angles"		"0.000000 0.000000 0.000000"
-			"coords"		"C4"
-			"Mins"		"5375.000000 -15361.000000 -513.000000"
-			"Maxs"		"15361.000000 -5375.000000 2113.000000"
-			"restrictNF"		"1"
-			"restrictImp"		"1"
-			"turretRestrict"		"0"
+			"className"		"info_particle_system"
+			"position"		"5237.323730 2372.453369 1736.000000"
+			"angles"		"-30.000000 -26.909611 0.000000"
+			"Parent"		"alpha_gunrot_1"
+			"coords"		"E4"
+			"name"		"alpha_gun1"
+			"spawnflags"		"0"
+			"active"		"0"
+			"effectName"		"particle_kutm_tracers"
 		}
-		"1088063"
+		"1212024"
 		{
-			"className"		"emp_eng_restrict"
-			"position"		"0.000000 0.000000 0.000000"
-			"angles"		"0.000000 0.000000 0.000000"
-			"coords"		"C4"
-			"Mins"		"-5121.000000 -3841.000000 -257.000000"
-			"Maxs"		"-895.000000 -1919.000000 257.000000"
-			"restrictNF"		"1"
-			"restrictImp"		"1"
-			"turretRestrict"		"0"
+			"className"		"info_particle_system"
+			"position"		"-11634.291992 11916.633789 2224.000000"
+			"angles"		"-15.000000 84.432846 0.000000"
+			"Parent"		"betagunrot_1"
+			"coords"		"A6"
+			"name"		"betagun1"
+			"spawnflags"		"0"
+			"active"		"0"
+			"effectName"		"particle_kutm_tracers"
 		}
-		"1088069"
+		"1212571"
 		{
-			"className"		"emp_eng_restrict"
-			"position"		"0.000000 0.000000 0.000000"
-			"angles"		"0.000000 0.000000 0.000000"
-			"coords"		"C4"
-			"Mins"		"1919.000000 895.000000 -257.000000"
-			"Maxs"		"3841.000000 5249.000000 257.000000"
-			"restrictNF"		"1"
-			"restrictImp"		"1"
-			"turretRestrict"		"0"
+			"className"		"info_particle_system"
+			"position"		"8156.043945 -8272.319336 464.000000"
+			"angles"		"-60.000004 -114.116524 0.000000"
+			"Parent"		"gamma_gunrot_1"
+			"coords"		"E2"
+			"name"		"gamma_gun1"
+			"spawnflags"		"0"
+			"active"		"0"
+			"effectName"		"particle_kutm_tracers"
 		}
-		"1227021"
+		"834043"
 		{
-			"className"		"emp_eng_restrict"
-			"position"		"0.000000 0.000000 0.000000"
+			"className"		"info_particle_system"
+			"position"		"4096.000000 -4096.000000 2560.000000"
 			"angles"		"0.000000 0.000000 0.000000"
-			"coords"		"C4"
-			"Mins"		"-6401.000000 1791.000000 -257.000000"
-			"Maxs"		"-1791.000000 6401.000000 257.000000"
-			"restrictNF"		"1"
-			"restrictImp"		"1"
-			"turretRestrict"		"0"
-		}
-		"1227052"
-		{
-			"className"		"emp_eng_restrict"
-			"position"		"0.000000 0.000000 0.000000"
-			"angles"		"0.000000 0.000000 0.000000"
-			"coords"		"C4"
-			"Mins"		"-4609.000000 -1921.000000 -257.000000"
-			"Maxs"		"-3839.000000 1793.000000 257.000000"
-			"restrictNF"		"1"
-			"restrictImp"		"1"
-			"turretRestrict"		"0"
-		}
-		"1227074"
-		{
-			"className"		"emp_eng_restrict"
-			"position"		"0.000000 0.000000 0.000000"
-			"angles"		"0.000000 0.000000 0.000000"
-			"coords"		"C4"
-			"Mins"		"-1793.000000 3839.000000 -257.000000"
-			"Maxs"		"1921.000000 4609.000000 257.000000"
-			"restrictNF"		"1"
-			"restrictImp"		"1"
-			"turretRestrict"		"0"
+			"coords"		"D3"
+			"spawnflags"		"0"
+			"active"		"1"
+			"effectName"		"particle_snowclouds"
 		}
 	}
-	"version"		"1.070000"
+	"Description"		"[Type: Override] Reduced the size of some of the fires"
+	"details"		"They were damaging buildings you placed too close to them"
+	"Author"		"Xiam"
+	"BaseSwap"		"-1"
+	"CommFreezeTime"		"-1"
+	"PlayerRefineryMultiplier"		"-1.000000"
+	"RefineryMultiplier"		"-1.000000"
+	"version"		"0.880000"
 	"hLimit"		"1227074"
 }
