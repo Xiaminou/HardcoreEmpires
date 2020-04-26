@@ -3,7 +3,7 @@
 	"Description"		" "
 	"details"		" "
 	"Tags"		" "
-	"Author"		"Hardcore Empires - Main Server"
+	"Author"		"Hardcore Empires - Draft in pro"
 	"NF_Res"		"400.000000"
 	"BE_Res"		"400.000000"
 	"NF_Tickets"		"141.199997"
@@ -43,15 +43,15 @@
 		"2246"
 		{
 			"className"		"emp_imp_commander"
-			"position"		"832.000000 13024.023438 -218.329315"
-			"angles"		"0.000005 -180.000000 1.247201"
+			"position"		"832.000000 13024.023438 -218.323761"
+			"angles"		"0.000004 -180.000000 1.249623"
 			"coords"		"B4"
 		}
 		"2297"
 		{
 			"className"		"emp_nf_commander"
-			"position"		"-608.000000 -12990.105469 -145.673355"
-			"angles"		"0.000002 0.000085 -0.585754"
+			"position"		"-608.000000 -12990.113281 -145.673096"
+			"angles"		"-0.000001 0.000085 -0.585632"
 			"coords"		"A1"
 		}
 		"2224"
@@ -1373,6 +1373,6 @@
 			"effectName"		"res_node_1_white"
 		}
 	}
-	"version"		"1.010000"
+	"version"		"1.040000"
 	"hLimit"		"368152"
 }

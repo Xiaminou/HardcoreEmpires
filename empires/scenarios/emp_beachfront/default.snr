@@ -43,15 +43,15 @@
 		"10660"
 		{
 			"className"		"emp_imp_commander"
-			"position"		"11142.842773 4012.850342 5.328204"
-			"angles"		"2.131802 90.508430 1.876445"
+			"position"		"11142.848633 4012.886963 5.328928"
+			"angles"		"2.128468 90.491852 1.876726"
 			"coords"		"G3"
 		}
 		"9926"
 		{
 			"className"		"emp_nf_commander"
-			"position"		"-11040.125977 3912.230713 75.279259"
-			"angles"		"-0.306192 -90.099464 -0.158386"
+			"position"		"-11040.126953 3912.234131 75.277832"
+			"angles"		"-0.305615 -90.097160 -0.158691"
 			"coords"		"A3"
 		}
 		"19396"
@@ -74,6 +74,8 @@
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"D2"
 			"name"		"flag_cave"
+			"Mins"		"-513.001953 -769.000000 941.396972"
+			"Maxs"		"513.003906 1.000000 1409.000000"
 			"pointNumber"		"1"
 			"timeToCap"		"10"
 			"timeToNeutral"		"10"
@@ -87,8 +89,6 @@
 			"reinfToTakeImp"		"0.000000"
 			"canNFCap"		"1"
 			"canImpCap"		"1"
-			"Mins"		"-513.001953 -769.000000 941.396972"
-			"Maxs"		"513.003906 1.000000 1409.000000"
 		}
 		"31700"
 		{
@@ -249,7 +249,19 @@
 			"enabled"		"1"
 			"model"		"models/props_wasteland/rockgranite02b.mdl"
 		}
+		"19439"
+		{
+			"className"		"emp_eng_restrict"
+			"position"		"0.000000 0.000000 0.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"D2"
+			"Mins"		"-769.000000 -769.000000 941.396972"
+			"Maxs"		"769.000000 129.000000 1537.000000"
+			"restrictNF"		"1"
+			"restrictImp"		"1"
+			"turretRestrict"		"0"
+		}
 	}
-	"version"		"1.030000"
+	"version"		"1.070000"
 	"hLimit"		"31759"
 }

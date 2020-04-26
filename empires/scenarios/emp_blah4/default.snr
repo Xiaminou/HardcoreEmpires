@@ -1,5 +1,9 @@
 "Scenario"
 {
+	"Description"		" "
+	"details"		" "
+	"Tags"		" "
+	"Author"		"Hardcore Empires - Main Server"
 	"NF_Res"		"400.050018"
 	"BE_Res"		"400.050018"
 	"NF_Tickets"		"211.599991"
@@ -39,15 +43,15 @@
 		"191981"
 		{
 			"className"		"emp_imp_commander"
-			"position"		"2631.998047 -3422.774902 517.673462"
-			"angles"		"0.000002 -179.500000 1.247228"
+			"position"		"2631.998047 -3422.765869 517.678528"
+			"angles"		"-0.000012 -179.500000 1.249201"
 			"coords"		"C3"
 		}
 		"192023"
 		{
 			"className"		"emp_nf_commander"
-			"position"		"2574.008545 3392.977051 590.338501"
-			"angles"		"0.000013 -0.499942 -0.580261"
+			"position"		"2574.008545 3392.969238 590.340271"
+			"angles"		"0.000018 -0.499943 -0.580139"
 			"coords"		"C4"
 		}
 		"110565"
@@ -160,6 +164,8 @@
 			"position"		"0.000000 0.000000 0.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"B3"
+			"Mins"		"-9601.000000 -145.000000 -49.000000"
+			"Maxs"		"-9439.000000 145.000000 129.000000"
 			"pointNumber"		"1"
 			"timeToCap"		"10"
 			"timeToNeutral"		"5"
@@ -173,8 +179,6 @@
 			"reinfToTakeImp"		"0.000000"
 			"canNFCap"		"1"
 			"canImpCap"		"1"
-			"Mins"		"-9601.000000 -145.000000 -49.000000"
-			"Maxs"		"-9439.000000 145.000000 129.000000"
 		}
 		"110708"
 		{
@@ -182,6 +186,8 @@
 			"position"		"0.000000 0.000000 0.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"B3"
+			"Mins"		"7551.000000 -257.000000 767.000000"
+			"Maxs"		"7745.000000 257.000000 945.000000"
 			"pointNumber"		"2"
 			"timeToCap"		"10"
 			"timeToNeutral"		"5"
@@ -195,8 +201,6 @@
 			"reinfToTakeImp"		"0.000000"
 			"canNFCap"		"1"
 			"canImpCap"		"1"
-			"Mins"		"7551.000000 -257.000000 767.000000"
-			"Maxs"		"7745.000000 257.000000 945.000000"
 		}
 		"171026"
 		{
@@ -434,14 +438,172 @@
 			"enabled"		"1"
 			"model"		"models/lostcoast/props_junk/float03a.mdl"
 		}
+		"110835"
+		{
+			"className"		"emp_comm_restrict"
+			"position"		"0.000000 0.000000 0.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"B3"
+			"Mins"		"-15297.000000 -15361.000000 1279.000000"
+			"Maxs"		"15361.000000 15329.000000 6145.000000"
+		}
+		"110928"
+		{
+			"className"		"emp_comm_restrict"
+			"position"		"0.000000 0.000000 0.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"B3"
+			"Mins"		"7935.000000 -897.000000 -2177.000000"
+			"Maxs"		"11009.000000 897.000000 1281.000000"
+		}
+		"110972"
+		{
+			"className"		"emp_comm_restrict"
+			"position"		"0.000000 0.000000 0.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"B3"
+			"Mins"		"4863.000000 -2049.000000 -2177.000000"
+			"Maxs"		"7937.000000 2049.000000 1281.000000"
+		}
+		"186415"
+		{
+			"className"		"emp_comm_restrict"
+			"position"		"0.000000 0.000000 0.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"B3"
+			"Mins"		"-10241.000000 -1153.000000 -2177.000000"
+			"Maxs"		"-4607.000000 1153.000000 1281.000000"
+		}
+		"186423"
+		{
+			"className"		"emp_comm_restrict"
+			"position"		"0.000000 0.000000 0.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"B3"
+			"Mins"		"-10273.000000 -1153.000000 -609.000000"
+			"Maxs"		"-8191.000000 1153.000000 2849.000000"
+		}
+		"110854"
+		{
+			"className"		"emp_eng_restrict"
+			"position"		"0.000000 0.000000 0.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"B3"
+			"Mins"		"-15329.000000 -15329.000000 1279.000000"
+			"Maxs"		"15361.000000 15329.000000 6145.000000"
+			"restrictNF"		"2"
+			"restrictImp"		"2"
+			"turretRestrict"		"0"
+		}
+		"110895"
+		{
+			"className"		"emp_eng_restrict"
+			"position"		"0.000000 0.000000 0.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"B3"
+			"Mins"		"-15329.000000 -15329.000000 1279.000000"
+			"Maxs"		"15361.000000 15329.000000 6145.000000"
+			"restrictNF"		"2"
+			"restrictImp"		"2"
+			"turretRestrict"		"0"
+		}
+		"110990"
+		{
+			"className"		"emp_eng_restrict"
+			"position"		"0.000000 0.000000 0.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"B3"
+			"Mins"		"4863.000000 -2049.000000 -2177.000000"
+			"Maxs"		"7937.000000 2049.000000 1281.000000"
+			"restrictNF"		"1"
+			"restrictImp"		"1"
+			"turretRestrict"		"0"
+		}
+		"186394"
+		{
+			"className"		"emp_eng_restrict"
+			"position"		"0.000000 0.000000 0.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"B3"
+			"Mins"		"-9169.000000 -1153.000000 -3489.000000"
+			"Maxs"		"-4735.000000 1153.000000 -31.000000"
+			"restrictNF"		"1"
+			"restrictImp"		"1"
+			"turretRestrict"		"0"
+		}
+		"186404"
+		{
+			"className"		"emp_eng_restrict"
+			"position"		"0.000000 0.000000 0.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"B3"
+			"Mins"		"-10241.000000 -1153.000000 -3489.000000"
+			"Maxs"		"-9167.000000 1153.000000 561.000000"
+			"restrictNF"		"1"
+			"restrictImp"		"1"
+			"turretRestrict"		"0"
+		}
+		"186905"
+		{
+			"className"		"emp_eng_restrict"
+			"position"		"0.000000 0.000000 0.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"B3"
+			"Mins"		"-5761.000000 607.000000 -3.345690"
+			"Maxs"		"-5631.000000 1345.000000 94.498497"
+			"restrictNF"		"1"
+			"restrictImp"		"1"
+			"turretRestrict"		"0"
+		}
+		"186917"
+		{
+			"className"		"emp_eng_restrict"
+			"position"		"0.000000 0.000000 0.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"B3"
+			"Mins"		"-5761.000000 -1345.000000 0.000000"
+			"Maxs"		"-5631.000000 -607.000000 97.844200"
+			"restrictNF"		"1"
+			"restrictImp"		"1"
+			"turretRestrict"		"0"
+		}
+		"186939"
+		{
+			"className"		"emp_eng_restrict"
+			"position"		"0.000000 0.000000 0.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"B3"
+			"Mins"		"-8129.000000 511.000000 -1.000000"
+			"Maxs"		"-7999.000000 1345.000000 129.000000"
+			"restrictNF"		"1"
+			"restrictImp"		"1"
+			"turretRestrict"		"0"
+		}
+		"186951"
+		{
+			"className"		"emp_eng_restrict"
+			"position"		"0.000000 0.000000 0.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"B3"
+			"Mins"		"-8129.000000 -1345.000000 0.000000"
+			"Maxs"		"-7999.000000 -511.000000 130.000000"
+			"restrictNF"		"1"
+			"restrictImp"		"1"
+			"turretRestrict"		"0"
+		}
+		"211202"
+		{
+			"className"		"emp_eng_restrict"
+			"position"		"0.000000 0.000000 0.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"B3"
+			"Mins"		"8255.000000 -1409.000000 63.000000"
+			"Maxs"		"9665.000000 1409.000000 481.000000"
+			"restrictNF"		"1"
+			"restrictImp"		"1"
+			"turretRestrict"		"0"
+		}
 	}
-	"Description"		" "
-	"details"		" "
-	"Author"		"Hardcore Empires - The Tradiona"
-	"BaseSwap"		"-1"
-	"CommFreezeTime"		"-1"
-	"PlayerRefineryMultiplier"		"-1.000000"
-	"RefineryMultiplier"		"-1.000000"
-	"version"		"0.930000"
+	"version"		"1.050000"
 	"hLimit"		"222502"
 }

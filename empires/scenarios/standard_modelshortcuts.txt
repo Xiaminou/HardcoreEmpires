@@ -319,6 +319,19 @@
     {
         "model" "models/props_canal/boat002b.mdl"
     }
+	"nfapcwreck"
+    {
+        "model" "models/nf/vehicles/ground/apc/nf_apc_staticwreck.mdl"
+    }
+	"nfltwreck"
+    {
+        "model" "models/nf/vehicles/ground/tanklight/nf_light_wreck.mdl"
+    }
+	"nfjeepwreck"
+    {
+        "model" "models/nf/vehicles/ground/jeep/nf_jeep_wreck.mdl"
+    }
+	
 }
 
 

@@ -15,7 +15,7 @@
 			"funcs"
 			{
 				"type" 		"string"
-				"prop"	"m_iszDamageFilterName"
+				"prop"	"m_iszResponseContext"
 				"propType"		"data"
 				"defaultValue"	""
 			}
@@ -292,10 +292,33 @@
 		}
 		
 	}
+	
+	"brush"
+	{
+		"extend" 	"entity"
+		"isBrushEntity"	"1"
+		"fields"
+		{
+			"mins"
+			{
+				"prop"		"m_vecMins"
+				"type" 		"vector"
+				"postSpawn"	"true"
+			}
+			"maxs"
+			{
+				"prop"		"m_vecMaxs"
+				"type" 		"vector"
+				"postSpawn"	"true"
+			}
+			
+		}
+	}
 	"emp_cap_point"
 	{
-		"extend"	"entity"
+		"extend"	"brush"
 		"group"	"1"
+	
 		"fields"
 		{
 			"pointNumber"
@@ -389,18 +412,6 @@
 				"type" 		"int"
 				"prop"		"m_iBECappable"
 				"propType"		"data"
-			}
-			"mins"
-			{
-				"prop"		"m_vecMins"
-				"type" 		"vector"
-				"postSpawn"	"true"
-			}
-			"maxs"
-			{
-				"prop"		"m_vecMaxs"
-				"type" 		"vector"
-				"postSpawn"	"true"
 			}
 			
 		}
@@ -1023,7 +1034,6 @@
 	"light_dynamic"
 	{
 		"extend"	"map_entity"
-		"version"	"0.78"
 		"customOnly"	"1"
 		"fields"
 		{
@@ -1078,7 +1088,6 @@
 	{
 		"extend"	"map_entity"
 		"customOnly"	"1"
-		"version"	"0.78"
 		"fields"
 		{
 			"damageRadius"
@@ -1129,7 +1138,6 @@
 	"env_fire"
 	{
 		"extend"	"map_entity"
-		"customOnly"	"1"
 		"version"	"0.80"
 		"fields"
 		{
@@ -1194,6 +1202,93 @@
 		}
 	
 	}
+	
+	
+	"emp_comm_restrict"
+	{
+		"extend"	"brush"
+		"version"	"1.04"
+		"moveable"	"0"
+	}
+	"emp_eng_restrict"
+	{
+		"extend"	"brush"
+		"version"	"1.04"
+		"moveable"	"0"
+		"fields"
+		{
+			"restrictNF"
+			{
+				"fgdName"	"restrictNF"
+				"prop" 	"m_iRestrict_NF"
+				"type" 		"int"
+				"propType"	"data"
+			}
+			"restrictImp"
+			{
+				"fgdName"	"restrictImp"
+				"prop" 	"m_iRestrict_Imp"
+				"type" 		"int"
+				"propType"	"data"
+			}
+			"turretRestrict"
+			{
+				"fgdName"	"turretRestrict"
+				"prop" 	"m_iTurretRestrict"
+				"type" 		"int"
+				"propType"	"data"
+			}
+
+		}
+		
+	}
+	"emp_info_params"
+	{
+		"extend"	"entity"
+		"version"	"1.08"
+		"moveable"	"0"
+		"fields"
+		{
+			"skin"
+			{
+				"fgdName"	"Skin"
+				"prop" 	"m_iDefaultSkin"
+				"type" 		"int"
+				"propType"	"data"
+			}
+			"autoResearch"
+			{
+				"fgdName"	"AutoResearch"
+				"prop" 	"m_bResearchComplete"
+				"type" 		"int"
+				"propType"	"data"
+			}
+			"eng_restrict_NF"
+			{
+				"fgdName"	"eng_restrict_NF"
+				"prop" 	"m_iEngRestrict_NF"
+				"type" 		"int"
+				"propType"	"data"
+			}
+			"eng_restrict_Imp"
+			{
+				"fgdName"	"eng_restrict_Imp"
+				"prop" 	"m_iEngRestrict_Imp"
+				"type" 		"int"
+				"propType"	"data"
+			}
+			"turretRestrict"
+			{
+				"fgdName"	"turretRestrict"
+				"prop" 	"m_iTurretRestrict"
+				"type" 		"int"
+				"propType"	"data"
+			}
+
+		}
+		
+	}
+	
 	
 	
 }
