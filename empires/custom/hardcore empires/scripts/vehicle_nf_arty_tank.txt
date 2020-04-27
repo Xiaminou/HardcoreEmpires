@@ -56,7 +56,7 @@
 		"Seat_1_PersonalWeapons"	"0"	//0 means he uses the vehicle's weapons for any weapons associated with his seat, 1 means that this passenger only shoots with his personal weapons
 		"Seat_1_Cannon"			"0"
 
-		"Health"		"125"		//amount of vehicle base health
+		"Health"		"200"		//amount of vehicle base health
 		"Repair Station Heal"	"15"		//amount of vehicle health restored per second by the repair station
 		"Engineer Heal"		"2"		//amount of vehicle health restored per engineer's repair unit
 		"Dust Particle"		"heavy_dust"

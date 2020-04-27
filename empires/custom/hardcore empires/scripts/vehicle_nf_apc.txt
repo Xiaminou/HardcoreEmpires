@@ -74,7 +74,7 @@
 		"Turret Turn Rate"  "7000" // speed at which the turret turns
 		"Cannon Turn Rate"  "7000" // speed at which the cannon moves
 
-		"Health"		"150"		//amount of vehicle base health
+		"Health"		"200"		//amount of vehicle base health
 		"Repair Station Heal"	"15"		//amount of vehicle health restored per second by the repair station
 		"Engineer Heal"		"2"		//amount of vehicle health restored per engineer's repair unit
 		"Dust Particle"		"heavy_dust"
