@@ -155,15 +155,15 @@
 		"1722"
 		{
 			"className"		"emp_imp_commander"
-			"position"		"9151.611328 -4080.181641 133.692337"
-			"angles"		"-0.000026 165.000000 1.244637"
+			"position"		"9151.611328 -4080.181396 133.692337"
+			"angles"		"-0.000016 165.000000 1.244462"
 			"coords"		"E2"
 		}
 		"1714"
 		{
 			"className"		"emp_nf_commander"
-			"position"		"-7480.370117 7599.499512 210.431244"
-			"angles"		"-0.044993 -30.002783 -0.570618"
+			"position"		"-7480.370117 7599.500000 210.431213"
+			"angles"		"-0.044995 -30.002779 -0.570618"
 			"coords"		"B4"
 		}
 		"1557"
@@ -2016,7 +2016,19 @@
 			"damageScale"		"1.000000"
 			"duration"		"30"
 		}
+		"1715"
+		{
+			"className"		"emp_info_params"
+			"position"		"10067.700195 -3799.229980 385.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"E2"
+			"Skin"		"1"
+			"autoResearch"		"0"
+			"eng_restrict_NF"		"0"
+			"eng_restrict_Imp"		"0"
+			"turretRestrict"		"0"
+		}
 	}
-	"version"		"1.060000"
+	"version"		"1.090000"
 	"hLimit"		"5448"
 }

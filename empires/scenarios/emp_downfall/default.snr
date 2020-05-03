@@ -43,8 +43,8 @@
 		"283393"
 		{
 			"className"		"emp_imp_commander"
-			"position"		"1071.970337 -4114.825195 -3129.668457"
-			"angles"		"2.137721 -95.062759 1.418584"
+			"position"		"1071.970215 -4114.825195 -3129.668457"
+			"angles"		"2.137683 -95.062706 1.418579"
 			"coords"		"C2"
 		}
 		"283397"
@@ -133,7 +133,61 @@
 			"enabled"		"1"
 			"resPerSecond"		"2.000000"
 		}
+		"551843"
+		{
+			"className"		"emp_comm_restrict"
+			"position"		"0.000000 0.000000 0.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"C3"
+			"Mins"		"-10369.000000 -9857.000000 -2177.000000"
+			"Maxs"		"10113.000000 9985.000000 5761.000000"
+		}
+		"553155"
+		{
+			"className"		"emp_comm_restrict"
+			"position"		"0.000000 0.000000 0.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"C3"
+			"Mins"		"-10433.000000 -10177.000000 -3649.000000"
+			"Maxs"		"10433.000000 10177.000000 -3359.000000"
+		}
+		"551848"
+		{
+			"className"		"emp_eng_restrict"
+			"position"		"0.000000 0.000000 0.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"C3"
+			"Mins"		"-10369.000000 -9985.000000 -1665.000000"
+			"Maxs"		"10113.000000 9857.000000 5633.000000"
+			"restrictNF"		"1"
+			"restrictImp"		"1"
+			"turretRestrict"		"3"
+		}
+		"553173"
+		{
+			"className"		"emp_eng_restrict"
+			"position"		"0.000000 0.000000 0.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"C3"
+			"Mins"		"-10369.000000 -9857.000000 -3617.000000"
+			"Maxs"		"10113.000000 9985.000000 -3391.000000"
+			"restrictNF"		"1"
+			"restrictImp"		"1"
+			"turretRestrict"		"3"
+		}
+		"512027"
+		{
+			"className"		"emp_info_params"
+			"position"		"518.396973 -1929.189941 1224.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"C3"
+			"Skin"		"1"
+			"autoResearch"		"0"
+			"eng_restrict_NF"		"0"
+			"eng_restrict_Imp"		"0"
+			"turretRestrict"		"0"
+		}
 	}
-	"version"		"1.040000"
+	"version"		"1.090000"
 	"hLimit"		"553173"
 }

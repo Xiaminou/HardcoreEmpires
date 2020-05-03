@@ -1798,8 +1798,8 @@
 		"1844"
 		{
 			"className"		"prop_physics"
-			"position"		"-480.035645 1051.951782 -751.131653"
-			"angles"		"-0.371938 6.968445 -0.005066"
+			"position"		"-480.041809 1051.951172 -751.144714"
+			"angles"		"-0.390063 6.968565 -0.005981"
 			"coords"		"C4"
 			"model"		"models/props_wasteland/controlroom_desk001b.mdl"
 			"MoveType"		"6"
@@ -1811,8 +1811,8 @@
 		"1845"
 		{
 			"className"		"prop_physics"
-			"position"		"-484.097565 1187.974609 -751.119324"
-			"angles"		"-0.451811 -2.025845 -0.008240"
+			"position"		"-484.107391 1187.976074 -751.133911"
+			"angles"		"-0.505942 -2.025422 -0.010498"
 			"coords"		"C4"
 			"model"		"models/props_wasteland/controlroom_desk001a.mdl"
 			"MoveType"		"6"
@@ -2173,7 +2173,19 @@
 			"restrictImp"		"2"
 			"turretRestrict"		"3"
 		}
+		"1509"
+		{
+			"className"		"emp_info_params"
+			"position"		"-1666.119995 1454.640015 145.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"B4"
+			"Skin"		"4"
+			"autoResearch"		"1"
+			"eng_restrict_NF"		"1"
+			"eng_restrict_Imp"		"1"
+			"turretRestrict"		"0"
+		}
 	}
-	"version"		"1.070000"
+	"version"		"1.090000"
 	"hLimit"		"2037"
 }

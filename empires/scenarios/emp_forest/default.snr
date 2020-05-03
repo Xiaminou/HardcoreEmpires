@@ -177,8 +177,8 @@
 		"372"
 		{
 			"className"		"emp_imp_commander"
-			"position"		"-11008.048828 -10824.636719 -2861.229004"
-			"angles"		"0.001711 0.016588 1.131673"
+			"position"		"-11008.048828 -10824.636719 -2861.229248"
+			"angles"		"0.001727 0.016581 1.131666"
 			"coords"		"B2"
 		}
 		"358"
@@ -208,6 +208,8 @@
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"D4"
 			"name"		"poopflag"
+			"Mins"		"-513.000000 -1429.000000 -2929.000000"
+			"Maxs"		"727.000000 -273.000000 -2498.000000"
 			"pointNumber"		"1"
 			"timeToCap"		"10"
 			"timeToNeutral"		"10"
@@ -221,8 +223,6 @@
 			"reinfToTakeImp"		"0.000000"
 			"canNFCap"		"1"
 			"canImpCap"		"1"
-			"Mins"		"-513.000000 -1429.000000 -2929.000000"
-			"Maxs"		"727.000000 -273.000000 -2498.000000"
 		}
 		"17049"
 		{
@@ -636,8 +636,8 @@
 		"860"
 		{
 			"className"		"prop_physics"
-			"position"		"534.000122 -540.997986 -2895.382813"
-			"angles"		"1.976515 42.010548 -0.236511"
+			"position"		"534.000366 -540.997803 -2895.368652"
+			"angles"		"1.592163 42.009632 -0.238953"
 			"coords"		"D4"
 			"model"		"models/props_c17/tools_wrench01a.mdl"
 			"MoveType"		"6"
@@ -649,8 +649,8 @@
 		"864"
 		{
 			"className"		"prop_physics"
-			"position"		"-405.489380 -585.379883 -2926.497559"
-			"angles"		"89.731209 118.649406 122.638313"
+			"position"		"-405.485291 -585.388367 -2926.506104"
+			"angles"		"89.682922 118.612244 122.614311"
 			"coords"		"D4"
 			"model"		"models/props_junk/cinderblock01a.mdl"
 			"MoveType"		"6"
@@ -662,8 +662,8 @@
 		"868"
 		{
 			"className"		"prop_physics"
-			"position"		"-422.902069 -573.150146 -2926.291260"
-			"angles"		"89.052528 -172.202972 145.375916"
+			"position"		"-422.889038 -573.156433 -2926.304443"
+			"angles"		"89.065216 -175.666977 141.923416"
 			"coords"		"D4"
 			"model"		"models/props_junk/cinderblock01a.mdl"
 			"MoveType"		"6"
@@ -675,8 +675,8 @@
 		"872"
 		{
 			"className"		"prop_physics"
-			"position"		"-415.176849 -578.426514 -2915.923584"
-			"angles"		"89.484413 173.415512 -121.340530"
+			"position"		"-415.176575 -578.449707 -2915.937744"
+			"angles"		"89.572952 156.943344 -137.799911"
 			"coords"		"D4"
 			"model"		"models/props_junk/cinderblock01a.mdl"
 			"MoveType"		"6"
@@ -828,7 +828,40 @@
 			"damageScale"		"1.000000"
 			"duration"		"-1"
 		}
+		"16989"
+		{
+			"className"		"emp_comm_restrict"
+			"position"		"0.000000 0.000000 0.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"D4"
+			"Mins"		"-4609.000000 -6145.000000 -3521.000000"
+			"Maxs"		"5121.000000 4609.000000 -959.000000"
+		}
+		"17000"
+		{
+			"className"		"emp_eng_restrict"
+			"position"		"0.000000 0.000000 0.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"D4"
+			"Mins"		"-4609.000000 -6145.000000 -3521.000000"
+			"Maxs"		"5121.000000 4609.000000 -959.000000"
+			"restrictNF"		"0"
+			"restrictImp"		"0"
+			"turretRestrict"		"1"
+		}
+		"1086"
+		{
+			"className"		"emp_info_params"
+			"position"		"5262.609863 -3627.409912 -1634.130005"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"E3"
+			"Skin"		"0"
+			"autoResearch"		"0"
+			"eng_restrict_NF"		"0"
+			"eng_restrict_Imp"		"0"
+			"turretRestrict"		"0"
+		}
 	}
-	"version"		"1.030000"
+	"version"		"1.090000"
 	"hLimit"		"32880"
 }

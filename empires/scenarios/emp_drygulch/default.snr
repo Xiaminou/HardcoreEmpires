@@ -65,15 +65,15 @@
 		"19283"
 		{
 			"className"		"emp_imp_commander"
-			"position"		"-3647.799316 12015.670898 778.476318"
-			"angles"		"-1.106928 45.998226 1.349896"
+			"position"		"-3647.798828 12015.670898 778.476379"
+			"angles"		"-1.106888 45.998230 1.349931"
 			"coords"		"B5"
 		}
 		"19277"
 		{
 			"className"		"emp_nf_commander"
 			"position"		"4239.687988 -11823.666016 847.955933"
-			"angles"		"-0.012691 -132.498764 -0.629456"
+			"angles"		"-0.012672 -132.498764 -0.629456"
 			"coords"		"D1"
 		}
 		"19918"
@@ -257,7 +257,19 @@
 			"restrictImp"		"2"
 			"turretRestrict"		"3"
 		}
+		"19245"
+		{
+			"className"		"emp_info_params"
+			"position"		"0.000000 0.000000 1024.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"C3"
+			"Skin"		"3"
+			"autoResearch"		"0"
+			"eng_restrict_NF"		"0"
+			"eng_restrict_Imp"		"0"
+			"turretRestrict"		"0"
+		}
 	}
-	"version"		"1.070000"
+	"version"		"1.090000"
 	"hLimit"		"130994"
 }

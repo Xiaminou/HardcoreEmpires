@@ -44,14 +44,14 @@
 		{
 			"className"		"emp_imp_commander"
 			"position"		"11511.011719 -11038.891602 -4394.595703"
-			"angles"		"-4.344777 0.015566 1.842365"
+			"angles"		"-4.344718 0.015587 1.842381"
 			"coords"		"E1"
 		}
 		"35908"
 		{
 			"className"		"emp_nf_commander"
-			"position"		"-11585.225586 -11103.502930 -4299.417969"
-			"angles"		"-0.042108 0.011137 0.188593"
+			"position"		"-11585.229492 -11103.510742 -4299.420410"
+			"angles"		"-0.040701 0.012079 0.189116"
 			"coords"		"A1"
 		}
 		"38971"
@@ -280,105 +280,6 @@
 			"enabled"		"1"
 			"model"		"models/props_c17/pipe_cap005c.mdl"
 		}
-		"6223"
-		{
-			"className"		"info_particle_system"
-			"position"		"4275.330078 11371.299805 -4395.990234"
-			"angles"		"0.000000 0.000000 0.000000"
-			"coords"		"D5"
-			"name"		"res_7_smoke"
-			"spawnflags"		"0"
-			"active"		"1"
-			"effectName"		"res_node_1_grey"
-		}
-		"7410"
-		{
-			"className"		"info_particle_system"
-			"position"		"2.000000 -13936.000000 -4740.000000"
-			"angles"		"0.000000 0.000000 0.000000"
-			"coords"		"C1"
-			"name"		"res_8_smoke"
-			"spawnflags"		"0"
-			"active"		"1"
-			"effectName"		"res_node_2_grey"
-		}
-		"8511"
-		{
-			"className"		"info_particle_system"
-			"position"		"-13580.599609 4086.820068 -4607.439941"
-			"angles"		"0.000000 0.000000 0.000000"
-			"coords"		"A4"
-			"name"		"res_10_smoke"
-			"spawnflags"		"0"
-			"active"		"1"
-			"effectName"		"res_node_1_grey"
-		}
-		"7908"
-		{
-			"className"		"info_particle_system"
-			"position"		"-2423.110107 11464.000000 -4318.129883"
-			"angles"		"0.000000 0.000000 0.000000"
-			"coords"		"C5"
-			"name"		"res_6_smoke"
-			"spawnflags"		"0"
-			"active"		"1"
-			"effectName"		"res_node_1_grey"
-		}
-		"8576"
-		{
-			"className"		"info_particle_system"
-			"position"		"14769.099609 2762.820068 -4711.120117"
-			"angles"		"0.000000 0.000000 0.000000"
-			"coords"		"E3"
-			"name"		"res_4_smoke"
-			"spawnflags"		"0"
-			"active"		"1"
-			"effectName"		"res_node_1_grey"
-		}
-		"8371"
-		{
-			"className"		"info_particle_system"
-			"position"		"-10082.599609 -12084.299805 -4216.959961"
-			"angles"		"0.000000 0.000000 0.000000"
-			"coords"		"A1"
-			"name"		"res_1_smoke"
-			"spawnflags"		"0"
-			"active"		"0"
-			"effectName"		"res_node_1_grey"
-		}
-		"8444"
-		{
-			"className"		"info_particle_system"
-			"position"		"11314.599609 -12209.200195 -4294.229980"
-			"angles"		"0.000000 0.000000 0.000000"
-			"coords"		"E1"
-			"name"		"res_2_smoke"
-			"spawnflags"		"0"
-			"active"		"0"
-			"effectName"		"res_node_1_grey"
-		}
-		"64942"
-		{
-			"className"		"info_particle_system"
-			"position"		"-376.000000 -12720.000000 -4536.000000"
-			"angles"		"0.000000 0.000000 0.000000"
-			"coords"		"C1"
-			"name"		"damwaterparticles"
-			"spawnflags"		"0"
-			"active"		"1"
-			"effectName"		"damwaterparticles"
-		}
-		"65271"
-		{
-			"className"		"info_particle_system"
-			"position"		"376.000000 -12720.000000 -4536.000000"
-			"angles"		"0.000000 0.000000 0.000000"
-			"coords"		"C1"
-			"name"		"damwaterparticles"
-			"spawnflags"		"0"
-			"active"		"1"
-			"effectName"		"damwaterparticles"
-		}
 		"126932"
 		{
 			"className"		"emp_comm_restrict"
@@ -521,7 +422,20 @@
 			"restrictImp"		"1"
 			"turretRestrict"		"3"
 		}
+		"6202"
+		{
+			"className"		"emp_info_params"
+			"position"		"1973.910034 112.000000 -4347.629883"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"C3"
+			"name"		"info_params"
+			"Skin"		"0"
+			"autoResearch"		"0"
+			"eng_restrict_NF"		"0"
+			"eng_restrict_Imp"		"0"
+			"turretRestrict"		"0"
+		}
 	}
-	"version"		"1.060000"
+	"version"		"1.090000"
 	"hLimit"		"259992"
 }

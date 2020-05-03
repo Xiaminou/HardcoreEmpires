@@ -2973,7 +2973,19 @@
 			"restrictImp"		"2"
 			"turretRestrict"		"3"
 		}
+		"242427"
+		{
+			"className"		"emp_info_params"
+			"position"		"3176.000000 -3192.000000 136.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"F1"
+			"Skin"		"4"
+			"autoResearch"		"1"
+			"eng_restrict_NF"		"1"
+			"eng_restrict_Imp"		"1"
+			"turretRestrict"		"3"
+		}
 	}
-	"version"		"1.070000"
+	"version"		"1.090000"
 	"hLimit"		"1195132"
 }
