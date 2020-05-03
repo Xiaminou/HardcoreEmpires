@@ -9,13 +9,6 @@
 			"name_override"		"-"
 			"description_override"		"-"
 		}
-		"Bravo"
-		{
-			"min_players"		"42"
-			"max_players"		"64"
-			"name_override"		"-"
-			"description_override"		"[Type: Location & Gameplay] Both teams start with a barracks at North-East and a barracks at South-West"
-		}
 	}
 	"enabled"		"1"
 }
