@@ -232,7 +232,7 @@ Vehicle_Engines
 		"Size"				"1"
 		"Type"				"9"
 		"Cost"				"10"
-		"Weight"			"10"
+		"Weight"			"15"
 		"Research"			""
 		//WEIGHT
 		"Max Weight"			"5000"	//don't touch
@@ -293,7 +293,7 @@ Vehicle_Engines
 		"Size"				"1"
 		"Type"				"9"
 		"Cost"				"30"
-		"Weight"			"10"
+		"Weight"			"15"
 		"Research"			"3 Phase Electric Motor"
 
 		"Max Weight"			"5000"
@@ -322,7 +322,7 @@ Vehicle_Engines
 		"Size"				"1"
 		"Type"				"9"
 		"Cost"				"20"
-		"Weight"			"10"
+		"Weight"			"5"
 		"Research"			"Fission Reactor"
 
 		"Max Weight"			"5000"
@@ -380,7 +380,7 @@ Vehicle_Engines
 		"Size"				"1"
 		"Type"				"9"
 		"Cost"				"30"
-		"Weight"			"10"
+		"Weight"			"15"
 		"Research"			"Advanced Coolant Engine"
 
 		"Max Weight"			"5000"
