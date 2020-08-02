@@ -1,0 +1,43 @@
+particles_manifest
+{
+	"file"		"particles/error.pcf"
+	"file"		"particles/antlion_blood.pcf"
+	"file"		"particles/blood_impact.pcf"
+	"file"		"particles/water_impact.pcf"
+	"file"		"particles/fire_01.pcf"
+	"file"		"particles/burning_fx.pcf"
+	"file"		"particles/combineball.pcf"
+	"file"		"particles/vortigaunt_fx.pcf"
+	"file"		"particles/rocket_fx.pcf"
+//Empires particles
+	"file"		"!particles/buildings.pcf" //Building smoke/placement
+	//"file"	"!particles/engyspark.pcf"
+	"file"		"!particles/engineer_tool.pcf" //Engy sparks
+	"file"		"!particles/resource.pcf" //Refinery particles
+	//"file"		"!particles/vehicle_exhaust.pcf" //Unused vehicle exhaust testing.
+	//"file"		"!particles/vehicle_dust.pcf" //Unused vehicle dust
+	"file"		"!particles/bullet_tracers.pcf" //VMGs and Infantry weapons
+	//"file"		"!particles/weapon_fx.pcf" //Old backup particles 
+	"file"		"!particles/explosion_nuke.pcf" //Nuke
+	"file"		"!particles/explosion_artillery.pcf" //Arty Strikes
+	"file"		"!particles/glycen_snow.pcf" //Weather on glycencity
+	"file"		"!particles/canyon_rain.pcf" //Weather on Canyon
+	//"file"		"!particles/duststorm.pcf" //Weather on Duststorm ~LAGGY~
+	"file"		"!particles/infantry_weapons.pcf" //Infantry explosives, seismics etc.
+	"file"		"!particles/tank_cannons.pcf" //Tank explosives, cannons, mls etc.
+	"file"		"!particles/tank_grenades.pcf" //Tank explosives, cannons, mls etc.
+	"file"		"!particles/tank_missiles.pcf" //Tank explosives, cannons, mls etc.
+	"file"		"!particles/cannon_muzzleflashes.pcf" //Cannon muzzleflashes
+	"file"		"!particles/missile_muzzleflashes.pcf" //Missilelauncher smoke.
+	"file"		"!particles/mvalley.pcf" //Mvalley dam water.
+	"file"		"!particles/nf_armory_explosion.pcf"
+	"file"		"!particles/explosion_seismic.pcf"
+	"file"		"!particles/emp_tropicvendetta.pcf"
+	"file"		"!particles/bullet_impacts.pcf"
+	"file"		"!particles/infantry_muzzleflashes_v.pcf"
+	"file"		"!particles/infantry_muzzleflashes_w.pcf"
+	"file"		"!particles/projectile_trails.pcf"
+	"file"		"!particles/vehicle_muzzleflashes.pcf"
+	
+	"file"		"!particles/emp_highpass_a3.pcf" //CUSTOM
+}

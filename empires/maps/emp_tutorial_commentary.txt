@@ -1,0 +1,1031 @@
+Commentary
+{
+    entity
+ 	{
+ 		"classname" "point_commentary_node"
+        "origin" "-8146.197754 -6362.247559 4352.031250"
+        "angles" "0 90 0"
+        "commentaryfile" "#tutorial\tutorial_5.wav"
+        "speakers" "Keef"
+        "targetname" "tutorial_destroy_turrets_commentary"
+        "viewposition" "tutorial_destroy_turrets_viewposition"
+        "viewtarget" "tutorial_destroy_turrets_absoluteposition"
+        "start_disabled"	"1"
+ 	}
+    
+    entity
+    {
+        "classname" "point_commentary_node"
+        "origin" "-9271.365234 -7881.149902 4352.093750"
+        "targetname" "tutorial_introduction_commentary"
+        "commentaryfile" "#tutorial\tutorial_3.wav"
+        "speakers" "Keef"
+    }
+    
+    entity
+    {
+        "classname" "info_target"
+        "origin" "-7759.157227 -6432.598145 4624.412598"
+        "targetname" "tutorial_destroy_turrets_viewposition"
+    }
+    
+    entity
+ 	{
+ 		"classname" "point_commentary_node"
+        "origin" "-8161.940430 -6644.794922 4342.121094"
+        "angles" "0 90 0"
+        "commentaryfile" "#tutorial\tutorial_5a.wav"
+        "speakers" "Keef"
+        "targetname" "tutorial_stock_up_ammo_commentary"
+        "start_disabled"	"1"
+ 	}
+    
+    entity
+    {
+        "classname" "info_target"
+        "origin" "-7847.396973 -6126.317871 4319.600586"
+        "targetname" "tutorial_destroy_turrets_absoluteposition"
+    }
+    
+    entity
+ 	{
+ 		"classname" "point_commentary_node"
+        "origin" "-8150.183594 -7019.044922 4352.031250"
+        "angles" "0 90 0"
+        "commentaryfile" "#tutorial\tutorial_4.wav"
+        "speakers" "Keef"
+        "targetname" "tutorial_build_armory_commentary"
+ 	}
+    
+    entity
+ 	{
+ 		"classname" "point_commentary_node"
+        "origin" "-8155.005859 -5464.731445 4352.093750"
+        "angles" "0 90 0"
+        "commentaryfile" "#tutorial\tutorial_10.wav"
+        "speakers" "Keef"
+        "targetname" "tutorial_buildable_bridge_commmentary"
+        "viewposition" "tutorial_buildable_bridge_viewposition"
+        "viewtarget" "tutorial_buildable_bridge_absoluteposition"
+ 	}
+    
+    entity
+    {
+        "classname" "info_target"
+        "origin" "-8266.076172 -5449.004395 4418.731934"
+        "targetname" "tutorial_buildable_bridge_viewposition"
+    }
+    
+    entity
+    {
+        "classname" "info_target"
+        "origin" "-8134.415527 -5264.362305 4244.043457"
+        "targetname" "tutorial_buildable_bridge_absoluteposition"
+    }
+    
+    entity
+ 	{
+ 		"classname" "point_commentary_node"
+        "origin" "-8161.000000 -4530.041504 4352.093750"
+        "angles" "0 90 0"
+        "commentaryfile" "#tutorial\tutorial_8.wav"
+        "speakers" "Keef"
+        "targetname" "tutorial_turret_room_commentary"
+        "synopsis" "TestingTestingTestingTestingTestingTestingTestingTestingTestingTestingTesting"
+ 	}
+    
+    entity
+ 	{
+ 		"classname" "point_commentary_node"
+        "origin" "-8160.685059 -3072.728027 4352.093750"
+        "angles" "0 90 0"
+        "commentaryfile" "#tutorial\tutorial_9.wav"
+        "speakers" "Keef"
+        "targetname" "tutorial_all_buildings_room"
+ 	}
+    
+    // General Tactics
+    entity
+ 	{
+ 		"classname" "point_commentary_node"
+        "origin" "-8215.676758 -2242.146729 4352.031250"
+        "angles" "0 90 0"
+        "commentaryfile" "#tutorial\tutorial_empiresround.wav"
+        "speakers" "Keef"
+        "targetname" "tutorial_general_tactics_commentary"
+        "viewposition" "tutorial_general_tactics_viewposition"
+        "viewtarget" "tutorial_general_tactics_absoluteposition"
+ 	}
+    entity
+    {
+        "classname" "info_target"
+        "origin" "-8256.780273 -2207.869141 4312.709961"
+        "targetname" "tutorial_general_tactics_viewposition"
+    }
+    entity
+    {
+        "classname" "info_target"
+        "origin" "-8329.739258 -2137.866943 4382.864258"
+        "targetname" "tutorial_general_tactics_absoluteposition"
+    }
+    
+    // HUD
+    entity
+ 	{
+ 		"classname" "point_commentary_node"
+        "origin" "-8069.861816 -2241.697754 4352.031250"
+        "angles" "0 90 0"
+        "commentaryfile" "#tutorial\tutorial_hud.wav"
+        "speakers" "Keef"
+        "targetname" "tutorial_hud_commentary"
+        "viewposition" "tutorial_hud_viewposition"
+        "viewtarget" "tutorial_hud_absoluteposition"
+ 	}
+    entity
+    {
+        "classname" "info_target"
+        "origin" "-8057.668945 -2208.503418 4328.328613"
+        "targetname" "tutorial_hud_viewposition"
+    }
+    entity
+    {
+        "classname" "info_target"
+        "origin" " -7998.382813 -2145.391602 4376.871094"
+        "targetname" "tutorial_hud_absoluteposition"
+    }
+    
+    // BE ref
+    
+    entity
+ 	{
+ 		"classname" "point_commentary_node"
+        "origin" "-7607.814941 -2465.926025 4352.093750"
+        "angles" "0 90 0"
+        "commentaryfile" "#tutorial\tutorial_be_ref.wav"
+        "speakers" "Keef"
+        "targetname" "tutorial_brenodi_ref"
+        "viewposition" "tutorial_brenodi_ref_viewposition"
+        "viewtarget" "tutorial_brenodi_ref_absoluteposition"
+ 	}
+    
+    entity
+ 	{
+ 		"classname" "point_commentary_node"
+        "origin" "11055.131836 -8853.484375 -13751.969727"
+        "angles" "0 90 0"
+        "commentaryfile" "#tutorial\tutorial_be_ref.wav"
+        "speakers" "Keef"
+        "targetname" "tutorial_brenodi_ref_sandbox"
+ 	}
+    
+    entity
+    {
+        "classname" "info_target"
+        "origin" "-7609.192871 -2564.281738 4561.468750"
+        "targetname" "tutorial_brenodi_ref_viewposition"
+    }
+    
+    entity
+    {
+        "classname" "info_target"
+        "origin" "-7588.147949 -3001.383301 4190.885742"
+        "targetname" "tutorial_brenodi_ref_absoluteposition"
+    }
+    
+    // BE VF
+    
+    entity
+ 	{
+ 		"classname" "point_commentary_node"
+        "origin" "-7152.037109 -2185.308105 4352.093750"
+        "angles" "0 90 0"
+        "commentaryfile" "#tutorial\tutorial_be_vf.wav"
+        "speakers" "Keef"
+        "targetname" "tutorial_brenodi_vf"
+        "viewposition" "tutorial_brenodi_vf_viewposition"
+        "viewtarget" "tutorial_brenodi_vf_absoluteposition"
+ 	}
+    
+    entity
+ 	{
+ 		"classname" "point_commentary_node"
+        "origin" "11748.291992 -10931.020508 -13752.090820;"
+        "angles" "0 90 0"
+        "commentaryfile" "#tutorial\tutorial_be_vf.wav"
+        "speakers" "Keef"
+        "targetname" "tutorial_brenodi_vf_sandbox"
+ 	}
+    
+    entity
+    {
+        "classname" "info_target"
+        "origin" "-7190.341309 -2067.969971 4483.597168"
+        "targetname" "tutorial_brenodi_vf_viewposition"
+    }
+    
+    entity
+    {
+        "classname" "info_target"
+        "origin" "-7104.861328 -1300.541260 4150.639160"
+        "targetname" "tutorial_brenodi_vf_absoluteposition"
+    }
+    
+    // BE Armory
+    
+    entity
+ 	{
+ 		"classname" "point_commentary_node"
+        "origin" "-6927.119141 -2435.281494 4352.031250"
+        "angles" "0 90 0"
+        "commentaryfile" "#tutorial\tutorial_be_armory.wav"
+        "speakers" "Keef"
+        "targetname" "tutorial_brenodi_armory"
+        "viewposition" "tutorial_brenodi_armory_viewposition"
+        "viewtarget" "tutorial_brenodi_armory_absoluteposition"
+ 	}
+    
+    entity
+ 	{
+ 		"classname" "point_commentary_node"
+        "origin" "10902.991211 -11058.335938 -13751.636719"
+        "angles" "0 90 0"
+        "commentaryfile" "#tutorial\tutorial_be_armory.wav"
+        "speakers" "Keef"
+        "targetname" "tutorial_brenodi_armory_sandbox"
+ 	}
+    
+    entity
+    {
+        "classname" "info_target"
+        "origin" "-6944.751465 -2566.246826 4500.098145"
+        "targetname" "tutorial_brenodi_armory_viewposition"
+    }
+    
+    entity
+    {
+        "classname" "info_target"
+        "origin" "-6922.851563 -2972.889648 4187.409668"
+        "targetname" "tutorial_brenodi_armory_absoluteposition"
+    }
+    
+    // BE Barracks
+    
+    entity
+ 	{
+ 		"classname" "point_commentary_node"
+        "origin" "-6094.502930 -2443.895996 4352.031250"
+        "angles" "0 90 0"
+        "commentaryfile" "#tutorial\tutorial_be_barracks.wav"
+        "speakers" "Keef"
+        "targetname" "tutorial_brenodi_barracks"
+        "viewposition" "tutorial_brenodi_barracks_viewposition"
+        "viewtarget" "tutorial_brenodi_barracks_absoluteposition"
+ 	}
+    
+    entity
+ 	{
+ 		"classname" "point_commentary_node"
+        "origin" " 11097.044922 -11403.276367 -13753.134766"
+        "angles" "0 90 0"
+        "commentaryfile" "#tutorial\tutorial_be_barracks.wav"
+        "speakers" "Keef"
+        "targetname" "tutorial_brenodi_barracks_sandbox"
+ 	}
+    
+    entity
+    {
+        "classname" "info_target"
+        "origin" "-6095.643066 -2535.979736 4577.816895"
+        "targetname" "tutorial_brenodi_barracks_viewposition"
+    }
+    
+    entity
+    {
+        "classname" "info_target"
+        "origin" "-6084.684570 -3039.456787 4176.187988"
+        "targetname" "tutorial_brenodi_barracks_absoluteposition"
+    }
+    
+    // BE repair pad
+    
+    entity
+ 	{
+ 		"classname" "point_commentary_node"
+        "origin" "-5631.009766 -2175.510254 4352.093750"
+        "angles" "0 90 0"
+        "commentaryfile" "#tutorial\tutorial_be_rep.wav"
+        "speakers" "Keef"
+        "targetname" "tutorial_brenodi_rep"
+        "viewposition" "tutorial_brenodi_rep_viewposition"
+        "viewtarget" "tutorial_brenodi_rep_absoluteposition"
+ 	}
+    
+    entity
+ 	{
+ 		"classname" "point_commentary_node"
+        "origin" "10930.544922 -10660.363281 -13752.135742"
+        "angles" "0 90 0"
+        "commentaryfile" "#tutorial\tutorial_be_rep.wav"
+        "speakers" "Keef"
+        "targetname" "tutorial_brenodi_rep_sandbox"
+ 	}
+    
+    entity
+    {
+        "classname" "info_target"
+        "origin" "-5625.437012 -2012.478027 4621.973145"
+        "targetname" "tutorial_brenodi_rep_viewposition"
+    }
+    
+    entity
+    {
+        "classname" "info_target"
+        "origin" "-5573.555176 -1457.333740 4168.909180"
+        "targetname" "tutorial_brenodi_rep_absoluteposition"
+    }
+    
+    // BE Radar
+    
+    entity
+ 	{
+ 		"classname" "point_commentary_node"
+        "origin" "-5163.965332 -2432.446777 4352.093750"
+        "angles" "0 90 0"
+        "commentaryfile" "#tutorial\tutorial_be_radar.wav"
+        "speakers" "Keef"
+        "targetname" "tutorial_brenodi_radar"
+        "viewposition" "tutorial_brenodi_radar_viewposition"
+        "viewtarget" "tutorial_brenodi_radar_absoluteposition"
+ 	}
+    
+    entity
+ 	{
+ 		"classname" "point_commentary_node"
+        "origin" "11924.235352 -11523.226563 -13751.763672"
+        "angles" "0 90 0"
+        "commentaryfile" "#tutorial\tutorial_be_radar.wav"
+        "speakers" "Keef"
+        "targetname" "tutorial_brenodi_radar_sandbox"
+ 	}
+    
+    entity
+    {
+        "classname" "info_target"
+        "origin" "-5146.664551 -2524.941162 4598.825195"
+        "targetname" "tutorial_brenodi_radar_viewposition"
+    }
+    
+    entity
+    {
+        "classname" "info_target"
+        "origin" "-5110.231445 -3074.889160 4199.405762"
+        "targetname" "tutorial_brenodi_radar_absoluteposition"
+    }
+    
+    // NF ref
+    
+    entity
+ 	{
+ 		"classname" "point_commentary_node"
+        "origin" "2364.605957 -2188.118896 -13752.191406"
+        "angles" "0 90 0"
+        "commentaryfile" "#tutorial\tutorial_nf_ref.wav"
+        "speakers" "Keef"
+        "targetname" "tutorial_nf_ref_sandbox"
+ 	}
+    
+    entity
+ 	{
+ 		"classname" "point_commentary_node"
+        "origin" "-8658.524414 -2438.736572 4352.031250"
+        "angles" "0 90 0"
+        "commentaryfile" "#tutorial\tutorial_nf_ref.wav"
+        "speakers" "Keef"
+        "targetname" "tutorial_nf_ref"
+        "viewposition" "tutorial_nf_ref_viewposition"
+        "viewtarget" "tutorial_nf_ref_absoluteposition"
+ 	}
+    
+    entity
+    {
+        "classname" "info_target"
+        "origin" "-8936.913086 -2609.882080 4510.869629"
+        "targetname" "tutorial_nf_ref_viewposition"
+    }
+    
+    entity
+    {
+        "classname" "info_target"
+        "origin" "-8695.300781 -2885.458496 4226.890137"
+        "targetname" "tutorial_nf_ref_absoluteposition"
+    }
+    
+    // NF Armory
+    
+    entity
+ 	{
+ 		"classname" "point_commentary_node"
+        "origin" "-9136.159180 -2444.171631 4352.031250"
+        "angles" "0 90 0"
+        "commentaryfile" "#tutorial\tutorial_nf_armory.wav"
+        "speakers" "Keef"
+        "targetname" "tutorial_nf_armory"
+        "viewposition" "tutorial_nf_armory_viewposition"
+        "viewtarget" "tutorial_nf_armory_absoluteposition"
+ 	}
+    
+    entity
+ 	{
+ 		"classname" "point_commentary_node"
+        "origin" "2400.368164 -213.771790 -13752.101563"
+        "angles" "0 90 0"
+        "commentaryfile" "#tutorial\tutorial_nf_armory.wav"
+        "speakers" "Keef"
+        "targetname" "tutorial_nf_armory_sandbox"
+ 	}
+    
+    entity
+    {
+        "classname" "info_target"
+        "origin" "-9173.023438 -2551.150879 4517.958984"
+        "targetname" "tutorial_nf_armory_viewposition"
+    }
+    
+    entity
+    {
+        "classname" "info_target"
+        "origin" "-9161.034180 -2887.183838 4198.621582"
+        "targetname" "tutorial_nf_armory_absoluteposition"
+    }
+    
+    // NF VF
+    entity
+ 	{
+ 		"classname" "point_commentary_node"
+        "origin" "-9217.208008 -2186.944336 4352.093750"
+        "angles" "0 90 0"
+        "commentaryfile" "#tutorial\tutorial_nf_vf.wav"
+        "speakers" "Keef"
+        "targetname" "tutorial_nf_vf"
+        "viewposition" "tutorial_nf_vf_viewposition"
+        "viewtarget" "tutorial_nf_vf_absoluteposition"
+ 	}
+    
+    entity
+ 	{
+ 		"classname" "point_commentary_node"
+        "origin" "1780.095825 -185.922363 -13752.591797"
+        "angles" "0 90 0"
+        "commentaryfile" "#tutorial\tutorial_nf_vf.wav"
+        "speakers" "Keef"
+        "targetname" "tutorial_nf_vf_sandbox"
+    }
+    
+    entity
+    {
+        "classname" "info_target"
+        "origin" "-9189.182617 -2213.838379 4753.836914"
+        "targetname" "tutorial_nf_vf_viewposition"
+    }
+    
+    entity
+    {
+        "classname" "info_target"
+        "origin" "-9240.364258 -1303.590454 4191.672363"
+        "targetname" "tutorial_nf_vf_absoluteposition"
+    }
+    
+    // NF Barracks
+    entity
+ 	{
+ 		"classname" "point_commentary_node"
+        "origin" "-9894.782227 -2441.052734 4352.031250"
+        "angles" "0 90 0"
+        "commentaryfile" "#tutorial\tutorial_nf_barracks.wav"
+        "speakers" "Keef"
+        "targetname" "tutorial_nf_barracks"
+        "viewposition" "tutorial_nf_barracks_viewposition"
+        "viewtarget" "tutorial_nf_barracks_absoluteposition"
+ 	}
+    
+    entity
+ 	{
+ 		"classname" "point_commentary_node"
+        "origin" "2107.686523 114.669899 -13752.031250"
+        "angles" "0 90 0"
+        "commentaryfile" "#tutorial\tutorial_nf_barracks.wav"
+        "speakers" "Keef"
+        "targetname" "tutorial_nf_barracks_sandbox"
+ 	}
+    
+    entity
+    {
+        "classname" "info_target"
+        "origin" "-9906.075195 -2470.863037 4815.756348"
+        "targetname" "tutorial_nf_barracks_viewposition"
+    }
+    
+    entity
+    {
+        "classname" "info_target"
+        "origin" "-9887.255859 -3015.854492 4358.898438"
+        "targetname" "tutorial_nf_barracks_absoluteposition"
+    }
+    
+    // NF repair pad
+    entity
+ 	{
+ 		"classname" "point_commentary_node"
+        "origin" "2220.887939 -711.970093 -13751.918945"
+        "angles" "0 90 0"
+        "commentaryfile" "#tutorial\tutorial_nf_rep.wav"
+        "speakers" "Keef"
+        "targetname" "tutorial_nf_rep_sandbox"
+ 	}
+    
+    entity
+ 	{
+ 		"classname" "point_commentary_node"
+        "origin" "-10771.704102 -2172.770264 4352.031250"
+        "angles" "0 90 0"
+        "commentaryfile" "#tutorial\tutorial_nf_rep.wav"
+        "speakers" "Keef"
+        "targetname" "tutorial_nf_rep"
+        "viewposition" "tutorial_nf_rep_viewposition"
+        "viewtarget" "tutorial_nf_rep_absoluteposition"
+ 	}
+    
+    entity
+    {
+        "classname" "info_target"
+        "origin" "-10712.107422 -2098.765869 4575.174316"
+
+        "targetname" "tutorial_nf_rep_viewposition"
+    }
+    
+    entity
+    {
+        "classname" "info_target"
+        "origin" "-10655.109375 -1412.254517 4160.571289"
+        "targetname" "tutorial_nf_rep_absoluteposition"
+    }
+    
+    // NF radar
+    entity
+ 	{
+ 		"classname" "point_commentary_node"
+        "origin" "-10774.959961 -2437.347412 4352.031250"
+        "angles" "0 90 0"
+        "commentaryfile" "#tutorial\tutorial_nf_radar.wav"
+        "speakers" "Keef"
+        "targetname" "tutorial_nf_radar"
+        "viewposition" "tutorial_nf_radar_viewposition"
+        "viewtarget" "tutorial_nf_radar_absoluteposition"
+ 	}
+    
+    entity
+ 	{
+ 		"classname" "point_commentary_node"
+        "origin" "1289.989014 161.604034 -13752.334961"
+        "angles" "0 90 0"
+        "commentaryfile" "#tutorial\tutorial_nf_radar.wav"
+        "speakers" "Keef"
+        "targetname" "tutorial_nf_radar_sandbox"
+ 	}
+    
+    entity
+    {
+        "classname" "info_target"
+        "origin" "-10782.291992 -2513.949463 4660.680664"
+        "targetname" "tutorial_nf_radar_viewposition"
+    }
+    
+    entity
+    {
+        "classname" "info_target"
+        "origin" "-10751.217773 -2974.276611 4290.996094"
+        "targetname" "tutorial_nf_radar_absoluteposition"
+    
+    }
+    
+    
+    // BE vehicles
+    
+    // BE Comm
+    entity
+ 	{
+ 		"classname" "point_commentary_node"
+        "origin" "10285.375977 -11591.909180 -13753.261719"
+        "angles" "0 90 0"
+        "commentaryfile" "#tutorial\tutorial_be_cv.wav"
+        "speakers" "Keef"
+        "targetname" "tutorial_be_comm"
+        "viewposition" "tutorial_be_comm_viewposition"
+        "viewtarget" "tutorial_be_comm_absoluteposition"
+ 	}
+    
+    entity
+    {
+        "classname" "info_target"
+        "origin" "10200.567383 -11704.330078 -13582.777344"
+        "targetname" "tutorial_be_comm_viewposition"
+    }
+    
+    entity
+    {
+        "classname" "info_target"
+        "origin" "9915.424805 -12176.194336 -13679.248047"
+        "targetname" "tutorial_be_comm_absoluteposition"
+    }
+    
+    // BE APC
+    entity
+ 	{
+ 		"classname" "point_commentary_node"
+        "origin" "9773.889648 -11132.779297 -13751.714844"
+        "angles" "0 90 0"
+        "commentaryfile" "#tutorial\tutorial_be_apc.wav"
+        "speakers" "Keef"
+        "targetname" "tutorial_be_apc"
+        "viewposition" "tutorial_be_apc_viewposition"
+        "viewtarget" "tutorial_be_apc_absoluteposition"
+ 	}
+    
+    entity
+    {
+        "classname" "info_target"
+        "origin" "9636.659180 -11139.849609 -13639.989258"
+        "targetname" "tutorial_be_apc_viewposition"
+    }
+    
+    entity
+    {
+        "classname" "info_target"
+        "origin" "9235.932617 -11143.568359 -13672.051758"
+        "targetname" "tutorial_be_apc_absoluteposition"
+    }
+    
+    // BE AFV
+    entity
+ 	{
+ 		"classname" "point_commentary_node"
+        "origin" "9784.772461 -10442.632813 -13752.672852"
+        "angles" "0 90 0"
+        "commentaryfile" "#tutorial\tutorial_be_afv.wav"
+        "speakers" "Keef"
+        "targetname" "tutorial_be_afv"
+        "viewposition" "tutorial_be_afv_viewposition"
+        "viewtarget" "tutorial_be_afv_absoluteposition"
+ 	}
+    
+    entity
+    {
+        "classname" "info_target"
+        "origin" "9666.764648 -10403.138672 -13637.300781"
+        "targetname" "tutorial_be_afv_viewposition"
+    }
+    
+    entity
+    {
+        "classname" "info_target"
+        "origin" "9121.244141 -10462.832031 -13679.773438"
+        "targetname" "tutorial_be_afv_absoluteposition"
+    }
+    
+    // BE med
+    entity
+    {
+ 		"classname" "point_commentary_node"
+        "origin" "9751.879883 -9848.321289 -13752.192383"
+        "angles" "0 90 0"
+        "commentaryfile" "#tutorial\tutorial_be_med.wav"
+        "speakers" "Keef"
+        "targetname" "tutorial_be_med"
+        "viewposition" "tutorial_be_med_viewposition"
+        "viewtarget" "tutorial_be_med_absoluteposition"
+ 	}
+    
+    entity
+    {
+        "classname" "info_target"
+        "origin" "9686.313477 -9761.275391 -13643.242188"
+        "targetname" "tutorial_be_med_viewposition"
+    }
+    
+    entity
+    {
+        "classname" "info_target"
+        "origin" "9299.505859 -9612.956055 -13685.897461"
+        "targetname" "tutorial_be_med_absoluteposition"
+    }
+    
+    // BE heavy
+    entity
+    {
+ 		"classname" "point_commentary_node"
+        "origin" "9882.424805 -9261.223633 -13751.899414"
+        "angles" "0 90 0"
+        "commentaryfile" "#tutorial\tutorial_be_heavy.wav"
+        "speakers" "Keef"
+        "targetname" "tutorial_be_heavy"
+        "viewposition" "tutorial_be_heavy_viewposition"
+        "viewtarget" "tutorial_be_heavy_absoluteposition"
+ 	}
+    
+    entity
+    {
+        "classname" "info_target"
+        "origin" "9764.642578 -9099.209961 -13651.716797"
+        "targetname" "tutorial_be_heavy_viewposition"
+    }
+    
+    entity
+    {
+        "classname" "info_target"
+        "origin" "9362.032227 -8956.712891 -13682.842773"
+        "targetname" "tutorial_be_heavy_absoluteposition"
+    }
+    
+    // BE arty
+    entity
+    {
+ 		"classname" "point_commentary_node"
+        "origin" "10118.499023 -8734.358398 -13751.835938"
+        "angles" "0 90 0"
+        "commentaryfile" "#tutorial\tutorial_be_arty.wav"
+        "speakers" "Keef"
+        "targetname" "tutorial_be_arty"
+        "viewposition" "tutorial_be_arty_viewposition"
+        "viewtarget" "tutorial_be_arty_absoluteposition"
+ 	}
+    
+    entity
+    {
+        "classname" "info_target"
+        "origin" "10032.593750 -8581.785156 -13642.841797"
+        "targetname" "tutorial_be_arty_viewposition"
+    }
+    
+    entity
+    {
+        "classname" "info_target"
+        "origin" "9755.572266 -8373.422852 -13714.778320"
+        "targetname" "tutorial_be_arty_absoluteposition"
+    }
+    
+    // NF vehicles
+    
+    // NF comm
+    entity
+    {
+ 		"classname" "point_commentary_node"
+        "origin" "3037.197754 135.515732 -13751.557617"
+        "angles" "0 90 0"
+        "commentaryfile" "#tutorial\tutorial_nf_cv.wav"
+        "speakers" "Keef"
+        "targetname" "tutorial_nf_cv"
+        "viewposition" "tutorial_nf_cv_viewposition"
+        "viewtarget" "tutorial_nf_cv_absoluteposition"
+ 	}
+    
+    entity
+    {
+        "classname" "info_target"
+        "origin" "3107.193115 229.223923 -13497.757813"
+        "targetname" "tutorial_nf_cv_viewposition"
+    }
+    
+    entity
+    {
+        "classname" "info_target"
+        "origin" "3404.732178 698.898865 -13848.140625"
+        "targetname" "tutorial_nf_cv_absoluteposition"
+    }
+    
+    // NF APC
+    entity
+    {
+ 		"classname" "point_commentary_node"
+        "origin" "3644.879883 -86.054100 -13751.751953"
+        "angles" "0 90 0"
+        "commentaryfile" "#tutorial\tutorial_nf_apc.wav"
+        "speakers" "Keef"
+        "targetname" "tutorial_nf_apc"
+        "viewposition" "tutorial_nf_apc_viewposition"
+        "viewtarget" "tutorial_nf_apc_absoluteposition"
+ 	}
+    
+    entity
+    {
+        "classname" "info_target"
+        "origin" "3785.224121 -69.698753 -13588.356445"
+        "targetname" "tutorial_nf_apc_viewposition"
+    }
+    
+    entity
+    {
+        "classname" "info_target"
+        "origin" "4235.325684 -8.238927 -13679.200195"
+        "targetname" "tutorial_nf_apc_absoluteposition"
+    }
+    
+    // NF LT
+    entity
+    {
+ 		"classname" "point_commentary_node"
+        "origin" "3530.282471 -824.777527 -13751.698242"
+        "angles" "0 90 0"
+        "commentaryfile" "#tutorial\tutorial_nf_lighttank.wav"
+        "speakers" "Keef"
+        "targetname" "tutorial_nf_lt"
+        "viewposition" "tutorial_nf_lt_viewposition"
+        "viewtarget" "tutorial_nf_lt_absoluteposition"
+ 	}
+    
+    entity
+    {
+        "classname" "info_target"
+        "origin" "3719.898926 -840.273254 -13647.819336"
+        "targetname" "tutorial_nf_lt_viewposition"
+    }
+    
+    entity
+    {
+        "classname" "info_target"
+        "origin" "4084.423340 -891.383057 -13692.624023"
+        "targetname" "tutorial_nf_lt_absoluteposition"
+    }
+    
+    // NF med
+    entity
+    {
+ 		"classname" "point_commentary_node"
+        "origin" "3567.244629 -1428.044189 -13752.256836"
+        "angles" "0 90 0"
+        "commentaryfile" "#tutorial\tutorial_nf_med.wav"
+        "speakers" "Keef"
+        "targetname" "tutorial_nf_med"
+        "viewposition" "tutorial_nf_med_viewposition"
+        "viewtarget" "tutorial_nf_med_absoluteposition"
+ 	}
+    
+    entity
+    {
+        "classname" "info_target"
+        "origin" "3745.849121 -1479.355713 -13633.272461"
+        "targetname" "tutorial_nf_med_viewposition"
+    }
+    
+    entity
+    {
+        "classname" "info_target"
+        "origin" "4152.675293 -1609.891846 -13661.962891"
+        "targetname" "tutorial_nf_med_absoluteposition"
+    }
+    
+    // NF heavy
+    entity
+    {
+ 		"classname" "point_commentary_node"
+        "origin" "3431.154541 -2022.992554 -13752.310547"
+        "angles" "0 90 0"
+        "commentaryfile" "#tutorial\tutorial_nf_heavy.wav"
+        "speakers" "Keef"
+        "targetname" "tutorial_nf_heavy"
+        "viewposition" "tutorial_nf_heavy_viewposition"
+        "viewtarget" "tutorial_nf_heavy_absoluteposition"
+ 	}
+    
+    entity
+    {
+        "classname" "info_target"
+        "origin" "3517.254883 -2005.717285 -13562.124023"
+        "targetname" "tutorial_nf_heavy_viewposition"
+    }
+    
+    entity
+    {
+        "classname" "info_target"
+        "origin" "3882.715088 -2312.754150 -13748.628906"
+        "targetname" "tutorial_nf_heavy_absoluteposition"
+    }
+    
+    // NF arty
+    entity
+    {
+ 		"classname" "point_commentary_node"
+        "origin" "3198.908936 -2529.218506 -13752.190430"
+        "angles" "0 90 0"
+        "commentaryfile" "#tutorial\tutorial_nf_arty.wav"
+        "speakers" "Keef"
+        "targetname" "tutorial_nf_arty"
+        "viewposition" "tutorial_nf_arty_viewposition"
+        "viewtarget" "tutorial_nf_arty_absoluteposition"
+ 	}
+    
+    entity
+    {
+        "classname" "info_target"
+        "origin" "3291.678467 -2643.907959 -13623.625000"
+        "targetname" "tutorial_nf_arty_viewposition"
+    }
+    
+    entity
+    {
+        "classname" "info_target"
+        "origin" "3705.188721 -2930.774902 -13667.408203"
+        "targetname" "tutorial_nf_arty_absoluteposition"
+    }
+    
+    
+    // Vehicle custimization info
+    
+    // BE vf info
+    entity
+    {
+ 		"classname" "point_commentary_node"
+        "origin" "12024.621094 -10558.477539 -13684.968750"
+        "angles" "0 90 0"
+        "commentaryfile" "#tutorial\tutorial_customization_screen.wav"
+        "speakers" "Keef"
+        "targetname" "tutorial_be_vf_build_menu"
+        "viewposition" "tutorial_be_vf_build_menu_viewposition"
+        "viewtarget" "tutorial_be_vf_build_menu_absoluteposition"
+ 	}
+    
+    entity
+    {
+        "classname" "info_target"
+        "origin" "12076.315430 -10638.940430 -13643.725586"
+        "targetname" "tutorial_be_vf_build_menu_viewposition"
+    }
+    
+    entity
+    {
+        "classname" "info_target"
+        "origin" "12013.123047 -10645.792969 -13657.169922"
+        "targetname" "tutorial_be_vf_build_menu_absoluteposition"
+    }
+    
+    // NF vf info
+    entity
+    {
+ 		"classname" "point_commentary_node"
+        "origin" "1262.020386 -290.620514 -13702.568359"
+        "angles" "0 90 0"
+        "commentaryfile" "#tutorial\tutorial_customization_screen.wav"
+        "speakers" "Keef"
+        "targetname" "tutorial_nf_vf_build_menu"
+        "viewposition" "tutorial_nf_vf_build_menu_viewposition"
+        "viewtarget" "tutorial_nf_vf_build_menu_absoluteposition"
+ 	}
+    
+    entity
+    {
+        "classname" "info_target"
+        "origin" " 1343.441528 -407.018097 -13702.568359"
+        "targetname" "tutorial_nf_vf_build_menu_viewposition"
+    }
+    
+    entity
+    {
+        "classname" "info_target"
+        "origin" "1208.325317 -405.968781 -13689.457031"
+        "targetname" "tutorial_nf_vf_build_menu_absoluteposition"
+    }
+
+    // Basic First person shooter part
+
+    entity
+ 	{
+ 		"classname" "point_commentary_node"
+        "origin" "-8525.230469 -8868.455078 4352.093750"
+        "angles" "0 90 0"
+        "commentaryfile" "emp_tutorial.tutorial1"
+        "speakers" "Keef"
+        "targetname" "tutorial_basic_fps_jumping"
+        "synopsis" "TestingTestingTestingTestingTestingTestingTestingTestingTestingTestingTesting"
+ 	}
+    
+    entity
+ 	{
+ 		"classname" "point_commentary_node"
+        "origin" "-8088.502930 -9809.166992 4336.031250"
+        "angles" "0 90 0"
+        "commentaryfile" "#tutorial\tutorial_6.wav"
+        "speakers" "Keef"
+        "targetname" "tutorial_basic_fps_crouching"
+        "synopsis" "TestingTestingTestingTestingTestingTestingTestingTestingTestingTestingTesting"
+ 	}
+    
+    entity
+ 	{
+ 		"classname" "point_commentary_node"
+        "origin" "-8063.422363 -9078.990234 4336.031250"
+        "angles" "0 90 0"
+        "commentaryfile" "#tutorial\tutorial_7.wav"
+        "speakers" "Keef"
+        "targetname" "tutorial_basic_fps_ladder"
+        "synopsis" "TestingTestingTestingTestingTestingTestingTestingTestingTestingTestingTesting"
+ 	}
+}
