@@ -4,8 +4,20 @@
 	"details"		" "
 	"Tags"		" "
 	"Author"		"Xiam"
-	"version"		"1.090000"
+	"version"		"1.170000"
 	"hLimit"		"549313"
+	"NF_Res"		"400.200012"
+	"BE_Res"		"400.200012"
+	"NF_Tickets"		"393.000000"
+	"BE_Tickets"		"393.000000"
+	"NF_Research"
+	{
+		"0"		"1"
+	}
+	"BE_Research"
+	{
+		"0"		"1"
+	}
 	"Entities"
 	{
 		"321699"
@@ -33,21 +45,21 @@
 		"321735"
 		{
 			"className"		"emp_imp_commander"
-			"position"		"12240.028320 11392.028320 3309.672852"
-			"angles"		"0.000001 135.000000 1.248018"
+			"position"		"12242.782227 11394.834961 3308.366699"
+			"angles"		"0.287539 134.999741 1.245175"
 			"coords"		"E5"
 		}
 		"321757"
 		{
 			"className"		"emp_nf_commander"
-			"position"		"-11631.549805 -12223.549805 3382.327881"
-			"angles"		"0.000003 -45.000011 -0.585876"
+			"position"		"-11634.082031 -12226.082031 3382.330322"
+			"angles"		"0.000000 -45.000004 -0.585297"
 			"coords"		"A1"
 		}
 		"321749"
 		{
 			"className"		"emp_nf_ammo_crate"
-			"position"		"-7086.959961 -9060.919922 3697.280029"
+			"position"		"-7086.958984 -9060.919922 3697.280029"
 			"angles"		"0.000000 180.000000 0.000000"
 			"coords"		"B2"
 			"pointNumber"		"0"
@@ -67,7 +79,7 @@
 		"321753"
 		{
 			"className"		"emp_nf_ammo_crate"
-			"position"		"-11684.700195 -7630.919922 3697.280029"
+			"position"		"-11684.700195 -7630.918945 3697.280029"
 			"angles"		"0.000000 270.000000 0.000000"
 			"coords"		"A2"
 			"pointNumber"		"0"
@@ -137,7 +149,7 @@
 		"321761"
 		{
 			"className"		"emp_nf_health_crate"
-			"position"		"-11596.700195 -7630.919922 3697.280029"
+			"position"		"-11596.700195 -7630.918945 3697.280029"
 			"angles"		"0.000000 270.000000 0.000000"
 			"coords"		"A2"
 			"pointNumber"		"0"
@@ -266,7 +278,7 @@
 		"321767"
 		{
 			"className"		"emp_resource_point"
-			"position"		"-9011.660156 -10985.400391 3305.229980"
+			"position"		"-9011.658203 -10985.400391 3305.229980"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"B1"
 			"name"		"point1"
@@ -310,7 +322,7 @@
 		"321777"
 		{
 			"className"		"emp_resource_point"
-			"position"		"-8639.660156 8095.350098 4781.770020"
+			"position"		"-8639.658203 8095.349121 4781.770020"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"B4"
 			"name"		"point4"
@@ -450,7 +462,7 @@
 		"321801"
 		{
 			"className"		"emp_resource_point_prop"
-			"position"		"-8639.660156 8095.350098 4781.770020"
+			"position"		"-8639.658203 8095.349121 4781.770020"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"B4"
 			"name"		"res4"
@@ -460,7 +472,7 @@
 		"321803"
 		{
 			"className"		"emp_resource_point_prop"
-			"position"		"-9011.660156 -10985.400391 3305.229980"
+			"position"		"-9011.658203 -10985.400391 3305.229980"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"B1"
 			"name"		"res1"
@@ -552,7 +564,7 @@
 		"322097"
 		{
 			"className"		"env_smokestack"
-			"position"		"-8623.660156 8111.350098 4844.770020"
+			"position"		"-8623.658203 8111.349121 4844.770020"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"B4"
 			"name"		"smoke4"
@@ -672,7 +684,7 @@
 		"322111"
 		{
 			"className"		"env_smokestack"
-			"position"		"-8995.660156 -10969.400391 3368.229980"
+			"position"		"-8995.658203 -10969.400391 3368.229980"
 			"angles"		"0.000000 0.000000 0.000000"
 			"Parent"		"res1"
 			"coords"		"B1"
@@ -1304,6 +1316,116 @@
 			"eng_restrict_NF"		"0"
 			"eng_restrict_Imp"		"0"
 			"turretRestrict"		"0"
+		}
+		"5000001"
+		{
+			"className"		"prop_dynamic"
+			"position"		"-9903.354492 13312.248047 5152.030762"
+			"angles"		"0.000000 -90.000000 0.000000"
+			"coords"		"A5"
+			"model"		"models/imperial/props/imp_crate3.mdl"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
+		"5000002"
+		{
+			"className"		"prop_dynamic"
+			"position"		"-9577.324219 13314.469727 5152.030762"
+			"angles"		"0.000000 -90.000000 0.000000"
+			"coords"		"A5"
+			"model"		"models/imperial/props/imp_crate2.mdl"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
+		"5000004"
+		{
+			"className"		"prop_dynamic"
+			"position"		"-9971.111328 13319.583008 5152.030762"
+			"angles"		"0.000000 -90.000000 0.000000"
+			"coords"		"A5"
+			"model"		"models/imperial/props/imp_crate1.mdl"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
+		"5000005"
+		{
+			"className"		"prop_dynamic"
+			"position"		"-9277.765625 13891.196289 5152.030273"
+			"angles"		"0.000000 -180.000000 0.000000"
+			"coords"		"A5"
+			"model"		"models/imperial/props/imp_crate1.mdl"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
+		"5000006"
+		{
+			"className"		"prop_dynamic"
+			"position"		"-9285.100586 13823.440430 5152.030273"
+			"angles"		"0.000000 -180.000000 0.000000"
+			"coords"		"A5"
+			"model"		"models/imperial/props/imp_crate3.mdl"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
+		"5000007"
+		{
+			"className"		"prop_dynamic"
+			"position"		"-10195.254883 13671.100586 5152.030273"
+			"angles"		"0.000000 -180.000000 0.000000"
+			"coords"		"A5"
+			"model"		"models/imperial/props/imp_crate2.mdl"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
+		"5000008"
+		{
+			"className"		"prop_dynamic"
+			"position"		"-10266.947266 13769.109375 5050.984375"
+			"angles"		"0.000000 -360.000000 15.000000"
+			"coords"		"A5"
+			"model"		"models/imperial/props/imp_crate3.mdl"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
+		"5000009"
+		{
+			"className"		"prop_dynamic"
+			"position"		"-9654.554688 13725.248047 5152.030273"
+			"angles"		"0.000000 -90.000000 0.000000"
+			"coords"		"A5"
+			"model"		"models/imperial/props/imp_crate3.mdl"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
+		"5000010"
+		{
+			"className"		"prop_dynamic"
+			"position"		"-9711.111328 13651.482422 5152.030273"
+			"angles"		"0.000000 -90.000000 0.000000"
+			"coords"		"A5"
+			"model"		"models/imperial/props/imp_crate1.mdl"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
+		"5000011"
+		{
+			"className"		"prop_dynamic"
+			"position"		"-9711.322266 13727.530273 5152.029785"
+			"angles"		"0.000000 -90.000000 0.000000"
+			"coords"		"A5"
+			"model"		"models/imperial/props/imp_crate2.mdl"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
+		"5000012"
+		{
+			"className"		"prop_dynamic"
+			"position"		"-9636.220703 13648.831055 5152.029297"
+			"angles"		"0.000000 -90.000000 0.000000"
+			"coords"		"A5"
+			"model"		"models/imperial/props/imp_crate2.mdl"
+			"MoveType"		"0"
+			"SolidType"		"6"
 		}
 	}
 }

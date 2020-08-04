@@ -1527,6 +1527,116 @@
 			"eng_restrict_Imp"		"0"
 			"turretRestrict"		"0"
 		}
+		"5000001"
+		{
+			"className"		"prop_dynamic"
+			"position"		"-9903.354492 13312.248047 5152.030762"
+			"angles"		"0.000000 -90.000000 0.000000"
+			"coords"		"A5"
+			"model"		"models/imperial/props/imp_crate3.mdl"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
+		"5000002"
+		{
+			"className"		"prop_dynamic"
+			"position"		"-9577.324219 13314.469727 5152.030762"
+			"angles"		"0.000000 -90.000000 0.000000"
+			"coords"		"A5"
+			"model"		"models/imperial/props/imp_crate2.mdl"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
+		"5000004"
+		{
+			"className"		"prop_dynamic"
+			"position"		"-9971.111328 13319.583008 5152.030762"
+			"angles"		"0.000000 -90.000000 0.000000"
+			"coords"		"A5"
+			"model"		"models/imperial/props/imp_crate1.mdl"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
+		"5000005"
+		{
+			"className"		"prop_dynamic"
+			"position"		"-9277.765625 13891.196289 5152.030273"
+			"angles"		"0.000000 -180.000000 0.000000"
+			"coords"		"A5"
+			"model"		"models/imperial/props/imp_crate1.mdl"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
+		"5000006"
+		{
+			"className"		"prop_dynamic"
+			"position"		"-9285.100586 13823.440430 5152.030273"
+			"angles"		"0.000000 -180.000000 0.000000"
+			"coords"		"A5"
+			"model"		"models/imperial/props/imp_crate3.mdl"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
+		"5000007"
+		{
+			"className"		"prop_dynamic"
+			"position"		"-10195.254883 13671.100586 5152.030273"
+			"angles"		"0.000000 -180.000000 0.000000"
+			"coords"		"A5"
+			"model"		"models/imperial/props/imp_crate2.mdl"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
+		"5000008"
+		{
+			"className"		"prop_dynamic"
+			"position"		"-10266.947266 13769.109375 5050.984375"
+			"angles"		"0.000000 -360.000000 15.000000"
+			"coords"		"A5"
+			"model"		"models/imperial/props/imp_crate3.mdl"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
+		"5000009"
+		{
+			"className"		"prop_dynamic"
+			"position"		"-9654.554688 13725.248047 5152.030273"
+			"angles"		"0.000000 -90.000000 0.000000"
+			"coords"		"A5"
+			"model"		"models/imperial/props/imp_crate3.mdl"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
+		"5000010"
+		{
+			"className"		"prop_dynamic"
+			"position"		"-9711.111328 13651.482422 5152.030273"
+			"angles"		"0.000000 -90.000000 0.000000"
+			"coords"		"A5"
+			"model"		"models/imperial/props/imp_crate1.mdl"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
+		"5000011"
+		{
+			"className"		"prop_dynamic"
+			"position"		"-9711.322266 13727.530273 5152.029785"
+			"angles"		"0.000000 -90.000000 0.000000"
+			"coords"		"A5"
+			"model"		"models/imperial/props/imp_crate2.mdl"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
+		"5000012"
+		{
+			"className"		"prop_dynamic"
+			"position"		"-9636.220703 13648.831055 5152.029297"
+			"angles"		"0.000000 -90.000000 0.000000"
+			"coords"		"A5"
+			"model"		"models/imperial/props/imp_crate2.mdl"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
 	}
 	"version"		"1.090000"
 	"hLimit"		"549313"
