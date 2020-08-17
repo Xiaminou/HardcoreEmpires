@@ -1,104 +1,26 @@
 "Scenario"
 {
-	"Description"		" "
-	"details"		" "
-	"Tags"		" "
-	"Author"		"Hardcore Empires - Main Server"
-	"NF_Res"		"400.049988"
-	"BE_Res"		"400.049988"
-	"NF_Tickets"		"435.600006"
-	"BE_Tickets"		"435.600006"
-	"NF_Research"
-	{
-		"0"		"1"
-	}
-	"BE_Research"
-	{
-		"0"		"1"
-	}
+	"Description"		"[Type: Location] Start on the Middle Bridge (C/D3 & C/D4)"
+	"Details"		"Command Vehicles have no freeze time\Barracks have 1000 HP."
+	"Author"		"Xiam"
+	"BaseSwap"		"1"
+	"CommFreezeTime"	"1"
+	"version"		"1.120000"
 	"Entities"
 	{
-		"115564"
-		{
-			"className"		"emp_building_nf_barracks"
-			"position"		"12224.000000 11216.000000 0.000000"
-			"angles"		"0.000000 45.000000 0.000000"
-			"coords"		"F6"
-			"built"		"1"
-			"maxHealth"		"250"
-			"health"		"250"
-			"team"		"2"
-		}
-		"125134"
-		{
-			"className"		"emp_building_imp_barracks"
-			"position"		"-12160.000000 -11168.000000 0.000000"
-			"angles"		"0.000000 45.000000 0.000000"
-			"coords"		"A1"
-			"built"		"1"
-			"maxHealth"		"250"
-			"health"		"250"
-			"team"		"3"
-		}
-		"49837"
-		{
-			"className"		"emp_building_nf_armory"
-			"position"		"11744.000000 10208.000000 0.000000"
-			"angles"		"0.000000 90.000000 0.000000"
-			"coords"		"F5"
-			"built"		"1"
-			"maxHealth"		"100"
-			"health"		"100"
-			"team"		"2"
-		}
-		"125158"
-		{
-			"className"		"emp_building_imp_armory"
-			"position"		"-11648.000000 -9952.000000 0.000000"
-			"angles"		"0.000000 270.000000 0.000000"
-			"coords"		"A2"
-			"built"		"1"
-			"maxHealth"		"100"
-			"health"		"100"
-			"team"		"3"
-		}
 		"147613"
 		{
 			"className"		"emp_imp_commander"
-			"position"		"-11264.008789 -11263.847656 4.368977"
-			"angles"		"0.285521 0.011791 1.248908"
-			"coords"		"A1"
+			"position"		"5.083923 4512.422852 2053.685791"
+			"angles"		"0.000000 0.000002 1.253304"
+			"coords"		"C4"
 		}
 		"147617"
 		{
 			"className"		"emp_nf_commander"
-			"position"		"11264.000000 11264.500977 78.330788"
-			"angles"		"0.000015 -180.000000 -0.582062"
-			"coords"		"F6"
-		}
-		"115543"
-		{
-			"className"		"emp_building_nf_refinery"
-			"position"		"11296.000000 6848.000000 34.000000"
-			"angles"		"0.000000 0.000000 0.000000"
-			"coords"		"F5"
-			"built"		"1"
-			"maxHealth"		"150"
-			"health"		"150"
-			"team"		"2"
-			"target"		"nf_startpoint"
-		}
-		"125105"
-		{
-			"className"		"emp_building_imp_refinery"
-			"position"		"-11296.000000 -6848.000000 34.000000"
-			"angles"		"0.000000 0.000000 0.000000"
-			"coords"		"A2"
-			"built"		"1"
-			"maxHealth"		"150"
-			"health"		"150"
-			"team"		"3"
-			"target"		"imp_startpoint"
+			"position"		"14.818626 -4421.043457 2126.326904"
+			"angles"		"-0.000004 179.999908 -0.585632"
+			"coords"		"C3"
 		}
 		"106971"
 		{
@@ -108,7 +30,7 @@
 			"coords"		"F5"
 			"name"		"nf_startpoint"
 			"effects"		"80"
-			"enabled"		"0"
+			"enabled"		"1"
 			"resPerSecond"		"1.000000"
 		}
 		"115195"
@@ -119,7 +41,7 @@
 			"coords"		"D2"
 			"effects"		"80"
 			"enabled"		"1"
-			"resPerSecond"		"2.000000"
+			"resPerSecond"		"1.000000"
 		}
 		"115857"
 		{
@@ -137,8 +59,9 @@
 			"position"		"4416.000000 6144.000000 -446.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"D5"
+			"name"		"Ref_124293"
 			"effects"		"80"
-			"enabled"		"1"
+			"enabled"		"0"
 			"resPerSecond"		"2.000000"
 		}
 		"143957"
@@ -147,8 +70,9 @@
 			"position"		"-4418.250000 -6144.000000 -446.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"C2"
+			"name"		"Ref_143957"
 			"effects"		"80"
-			"enabled"		"1"
+			"enabled"		"0"
 			"resPerSecond"		"2.000000"
 		}
 		"123046"
@@ -209,7 +133,7 @@
 			"coords"		"C5"
 			"effects"		"80"
 			"enabled"		"1"
-			"resPerSecond"		"2.000000"
+			"resPerSecond"		"1.000000"
 		}
 		"123138"
 		{
@@ -219,7 +143,7 @@
 			"coords"		"A2"
 			"name"		"imp_startpoint"
 			"effects"		"80"
-			"enabled"		"0"
+			"enabled"		"1"
 			"resPerSecond"		"1.000000"
 		}
 		"419262"
@@ -303,7 +227,52 @@
 			"eng_restrict_Imp"		"0"
 			"turretRestrict"		"0"
 		}
+		"5000007"
+		{
+			"className"		"emp_building_nf_barracks"
+			"position"		"13.251612 -3110.247803 2048.031250"
+			"angles"		"0.000000 -90.000000 0.000000"
+			"coords"		"C3"
+			"built"		"1"
+			"maxHealth"		"1000"
+			"health"		"1000"
+			"team"		"2"
+		}
+		"5000008"
+		{
+			"className"		"emp_building_imp_barracks"
+			"position"		"2.200985 3105.139648 2048.031250"
+			"angles"		"0.000000 90.000000 0.000000"
+			"coords"		"C4"
+			"built"		"1"
+			"maxHealth"		"1000"
+			"health"		"1000"
+			"team"		"3"
+		}
+		"5000005"
+		{
+			"className"		"emp_building_nf_refinery"
+			"position"		"-4418.250000 -6144.000000 -446.000000"
+			"angles"		"0.000000 1.906128 0.000000"
+			"coords"		"C2"
+			"built"		"1"
+			"maxHealth"		"150"
+			"health"		"150"
+			"team"		"2"
+			"target"		"Ref_143957"
+		}
+		"5000006"
+		{
+			"className"		"emp_building_imp_refinery"
+			"position"		"4416.000000 6144.000000 -446.000000"
+			"angles"		"0.000000 -93.658447 0.000000"
+			"coords"		"D5"
+			"built"		"1"
+			"maxHealth"		"150"
+			"health"		"150"
+			"team"		"3"
+			"target"		"Ref_124293"
+		}
 	}
-	"version"		"1.170000"
 	"hLimit"		"524120"
 }

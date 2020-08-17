@@ -1,13 +1,15 @@
 "Scenario"
 {
-	"Description"		" "
+	"Description"		"Hold the middle flag for 10 minutes to win."
 	"details"		" "
 	"Tags"		" "
-	"Author"		"Hardcore Empires - Draft in pro"
-	"NF_Res"		"400.050018"
-	"BE_Res"		"400.050018"
-	"NF_Tickets"		"211.250000"
-	"BE_Tickets"		"211.250000"
+	"Author"		"Mikleo"
+	"NF_Res"		"150.000000"
+	"BE_Res"		"150.000000"
+	"NF_Tickets"		"250.000000"
+	"BE_Tickets"		"250.000000"
+	"version"		"1.170000"
+	"hLimit"		"32179"
 	"NF_Research"
 	{
 		"0"		"1"
@@ -16,6 +18,17 @@
 	{
 		"0"		"1"
 	}
+	"Scripts"
+	{
+		"OnScenarioLoaded"		"Run Setup"
+		"Setup"		"TargetName MainFlag -> HookOutput OnNeutral NeutralTimer -> HookOutput OnImpCap BETimer -> HookOutput OnNFCap NFTimer -> Run StartingTimer"
+		"OnGameStart"		"Run NeutralTimer"
+		"StartingTimer"		"Cancel MainTimer -> TextTimer -1 *King of the Hill\Hold the temple for 10 minutes to win* _ MainTimer"
+		"NeutralTimer"		"Cancel MainTimer -> TextTimer -1 *Flag Neutral* _ MainTimer"
+		"BETimer"		"Cancel MainTimer -> TextTimer 600 *BE Victory in TIME_LEFT\* _ MainTimer -> TargetParams -> Input InputImpWin 0 "
+		"NFTimer"		"Cancel MainTimer -> TextTimer 600 *NF Victory in TIME_LEFT\* _ MainTimer -> TargetParams -> Input InputNFWin 0 "
+	}
+	
 	"Entities"
 	{
 		"1939"
@@ -71,15 +84,15 @@
 		"1942"
 		{
 			"className"		"emp_imp_commander"
-			"position"		"-6655.963379 -8607.873047 296.177460"
-			"angles"		"0.035701 -0.006132 3.811844"
+			"position"		"-6656.084473 -8603.978516 297.714661"
+			"angles"		"-0.306638 -0.003042 3.843908"
 			"coords"		"B2"
 		}
 		"1940"
 		{
 			"className"		"emp_nf_commander"
-			"position"		"6655.984863 -8578.690430 368.037292"
-			"angles"		"-0.017840 -0.017023 -0.495636"
+			"position"		"6655.986328 -8577.595703 368.038940"
+			"angles"		"-0.016998 -0.017025 -0.496338"
 			"coords"		"D2"
 		}
 		"2136"
@@ -161,17 +174,6 @@
 			"enabled"		"1"
 			"resPerSecond"		"1.000000"
 		}
-		"1948"
-		{
-			"className"		"emp_resource_point"
-			"position"		"0.000000 -7584.000000 648.000000"
-			"angles"		"0.000000 0.000000 0.000000"
-			"coords"		"C2"
-			"name"		"resnode temple"
-			"effects"		"80"
-			"enabled"		"1"
-			"resPerSecond"		"1.000000"
-		}
 		"1949"
 		{
 			"className"		"emp_resource_point"
@@ -214,17 +216,6 @@
 			"name"		"resnode 2"
 			"effects"		"32"
 			"enabled"		"0"
-			"model"		"models/common/props_general/resnode.mdl"
-		}
-		"1956"
-		{
-			"className"		"emp_resource_point_prop"
-			"position"		"-16.000000 -7576.000000 448.000000"
-			"angles"		"90.000000 0.000000 0.000000"
-			"coords"		"C2"
-			"name"		"resnode 3"
-			"effects"		"16"
-			"enabled"		"1"
 			"model"		"models/common/props_general/resnode.mdl"
 		}
 		"1957"
@@ -728,7 +719,41 @@
 			"eng_restrict_Imp"		"0"
 			"turretRestrict"		"0"
 		}
+		"5000008"
+		{
+			"className"		"emp_cap_model"
+			"position"		"-0.322486 -7550.125000 640.031250"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"C2"
+			"pointNumber"		"31"
+			"visibleOnMap"		"1"
+			"model"		"models/Common/props_system/flagpole01_neutral.mdl"
+			"model2"		"models/Common/props_system/flagpole01_nf.mdl"
+			"model3"		"models/Common/props_system/flagpole01_imp.mdl"
+			"team"		"0"
+		}
+		"5000009"
+		{
+			"className"		"emp_cap_point"
+			"name"			"MainFlag"
+			"position"		"-0.322486 -7550.125000 640.031250"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"C2"
+			"Mins"		"-202.825607 -200.250030 -128.249969"
+			"Maxs"		"250.250106 200.249984 194.250122"
+			"pointNumber"		"31"
+			"timeToCap"		"5"
+			"timeToNeutral"		"5"
+			"playersRequiredNF"		"1"
+			"playersRequiredImp"		"1"
+			"teamOwner"		"0"
+			"locationName"		"Custom Flag"
+			"resToGiveNF"		"2.000000"
+			"resToGiveImp"		"2.000000"
+			"reinfToTakeNF"		"0.000000"
+			"reinfToTakeImp"		"0.000000"
+			"canNFCap"		"1"
+			"canImpCap"		"1"
+		}
 	}
-	"version"		"1.170000"
-	"hLimit"		"32179"
 }

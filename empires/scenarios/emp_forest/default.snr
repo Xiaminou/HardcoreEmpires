@@ -177,15 +177,15 @@
 		"372"
 		{
 			"className"		"emp_imp_commander"
-			"position"		"-11008.048828 -10824.636719 -2861.229248"
-			"angles"		"0.001727 0.016581 1.131666"
+			"position"		"-11007.990234 -10824.527344 -2862.544922"
+			"angles"		"0.272022 -0.004956 1.098053"
 			"coords"		"B2"
 		}
 		"358"
 		{
 			"className"		"emp_nf_commander"
-			"position"		"13071.296875 12466.956055 -2638.462158"
-			"angles"		"-0.000021 -172.500000 -0.557220"
+			"position"		"13071.278320 12467.100586 -2638.448242"
+			"angles"		"-0.000018 -172.500000 -0.554169"
 			"coords"		"G7"
 		}
 		"382"
@@ -636,8 +636,8 @@
 		"860"
 		{
 			"className"		"prop_physics"
-			"position"		"534.000366 -540.997803 -2895.368652"
-			"angles"		"1.592163 42.009632 -0.238953"
+			"position"		"533.999939 -540.998169 -2895.396484"
+			"angles"		"2.347919 42.011452 -0.234131"
 			"coords"		"D4"
 			"model"		"models/props_c17/tools_wrench01a.mdl"
 			"MoveType"		"6"
@@ -649,8 +649,8 @@
 		"864"
 		{
 			"className"		"prop_physics"
-			"position"		"-405.485291 -585.388367 -2926.506104"
-			"angles"		"89.682922 118.612244 122.614311"
+			"position"		"-405.487183 -585.394897 -2926.514648"
+			"angles"		"89.626534 118.417252 122.416107"
 			"coords"		"D4"
 			"model"		"models/props_junk/cinderblock01a.mdl"
 			"MoveType"		"6"
@@ -662,8 +662,8 @@
 		"868"
 		{
 			"className"		"prop_physics"
-			"position"		"-422.889038 -573.156433 -2926.304443"
-			"angles"		"89.065216 -175.666977 141.923416"
+			"position"		"-422.902435 -573.167358 -2926.316650"
+			"angles"		"89.069267 -179.568146 138.020889"
 			"coords"		"D4"
 			"model"		"models/props_junk/cinderblock01a.mdl"
 			"MoveType"		"6"
@@ -675,8 +675,8 @@
 		"872"
 		{
 			"className"		"prop_physics"
-			"position"		"-415.176575 -578.449707 -2915.937744"
-			"angles"		"89.572952 156.943344 -137.799911"
+			"position"		"-415.199066 -578.483337 -2915.951172"
+			"angles"		"89.607117 133.219833 -161.562302"
 			"coords"		"D4"
 			"model"		"models/props_junk/cinderblock01a.mdl"
 			"MoveType"		"6"
@@ -862,6 +862,6 @@
 			"turretRestrict"		"0"
 		}
 	}
-	"version"		"1.090000"
+	"version"		"1.170000"
 	"hLimit"		"32880"
 }

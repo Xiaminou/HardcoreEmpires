@@ -1,58 +1,27 @@
 "Scenario"
 {
-	"Description"		" "
+	"Description"		"[Type: Location] Start South-West (A1) and North-East (E5)"
 	"details"		" "
 	"Tags"		" "
-	"Author"		"Hardcore Empires - Backup Serve"
-	"NF_Res"		"400.000000"
-	"BE_Res"		"400.000000"
-	"NF_Tickets"		"352.955994"
-	"BE_Tickets"		"352.955994"
-	"NF_Research"
-	{
-		"0"		"1"
-	}
-	"BE_Research"
-	{
-		"0"		"1"
-	}
+	"Author"		"Xiam"
+	"version"		"1.120000"
+	"hLimit"		"38178"
+	"CanBaseSwap"		"1"
 	"Entities"
 	{
-		"18207"
-		{
-			"className"		"emp_building_nf_barracks"
-			"position"		"10240.000000 -11565.200195 -3072.000000"
-			"angles"		"0.000000 0.000000 0.000000"
-			"coords"		"E1"
-			"built"		"1"
-			"maxHealth"		"250"
-			"health"		"250"
-			"team"		"2"
-		}
-		"18212"
-		{
-			"className"		"emp_building_imp_barracks"
-			"position"		"-10240.000000 11328.000000 -3072.000000"
-			"angles"		"0.000000 0.000000 0.000000"
-			"coords"		"A5"
-			"built"		"1"
-			"maxHealth"		"250"
-			"health"		"250"
-			"team"		"3"
-		}
 		"18219"
 		{
 			"className"		"emp_imp_commander"
-			"position"		"-11231.650391 11297.062500 -3072.883057"
-			"angles"		"0.047737 -179.491531 0.921444"
-			"coords"		"A5"
+			"position"		"-10464.700195 -12526.040039 -2737.444824"
+			"angles"		"-2.328393 -0.043684 1.609864"
+			"coords"		"A1"
 		}
 		"18205"
 		{
 			"className"		"emp_nf_commander"
-			"position"		"11188.932617 -11427.743164 -3000.592773"
-			"angles"		"0.292298 -0.038894 0.141469"
-			"coords"		"E1"
+			"position"		"10999.339844 12875.167969 -2667.154297"
+			"angles"		"-0.251575 -179.664566 -1.039612"
+			"coords"		"E5"
 		}
 		"14435"
 		{
@@ -60,8 +29,8 @@
 			"position"		"0.000000 0.000000 0.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"C3"
-			"Mins"		"-13489.000000 -13416.200195 -2336.669921"
-			"Maxs"		"-13359.000000 -13286.200195 -2206.669921"
+			"Mins"		"-13489.000000 -13416.200195 -2336.670166"
+			"Maxs"		"-13359.000000 -13286.200195 -2206.670166"
 			"pointNumber"		"0"
 			"timeToCap"		"5"
 			"timeToNeutral"		"5"
@@ -69,7 +38,7 @@
 			"playersRequiredImp"		"5"
 			"teamOwner"		"1"
 			"locationName"		"Capture Point 1"
-			"resToGiveNF"		"1.000000"
+			"resToGiveNF"		"0.000000"
 			"resToGiveImp"		"0.000000"
 			"reinfToTakeNF"		"0.000000"
 			"reinfToTakeImp"		"0.000000"
@@ -82,8 +51,8 @@
 			"position"		"0.000000 0.000000 0.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"C3"
-			"Mins"		"-13361.000000 -13416.200195 -2336.669921"
-			"Maxs"		"-13231.000000 -13286.200195 -2206.669921"
+			"Mins"		"-13361.000000 -13416.200195 -2336.670166"
+			"Maxs"		"-13231.000000 -13286.200195 -2206.670166"
 			"pointNumber"		"0"
 			"timeToCap"		"5"
 			"timeToNeutral"		"5"
@@ -92,35 +61,11 @@
 			"teamOwner"		"2"
 			"locationName"		"Capture Point 2"
 			"resToGiveNF"		"0.000000"
-			"resToGiveImp"		"1.000000"
+			"resToGiveImp"		"0.000000"
 			"reinfToTakeNF"		"0.000000"
 			"reinfToTakeImp"		"0.000000"
 			"canNFCap"		"0"
 			"canImpCap"		"0"
-		}
-		"13993"
-		{
-			"className"		"emp_building_nf_refinery"
-			"position"		"12048.000000 -12784.000000 -3072.000000"
-			"angles"		"0.000000 0.000000 0.000000"
-			"coords"		"E1"
-			"built"		"1"
-			"maxHealth"		"150"
-			"health"		"150"
-			"team"		"2"
-			"target"		"res_node_SE_2"
-		}
-		"14017"
-		{
-			"className"		"emp_building_imp_refinery"
-			"position"		"-11942.000000 12992.000000 -3056.000000"
-			"angles"		"0.000000 0.000000 0.000000"
-			"coords"		"A5"
-			"built"		"1"
-			"maxHealth"		"150"
-			"health"		"150"
-			"team"		"3"
-			"target"		"res_node_SW"
 		}
 		"14024"
 		{
@@ -131,7 +76,7 @@
 			"name"		"res_node_NC"
 			"effects"		"80"
 			"enabled"		"1"
-			"resPerSecond"		"1.500000"
+			"resPerSecond"		"1.000000"
 		}
 		"14231"
 		{
@@ -142,7 +87,7 @@
 			"name"		"res_node_SC"
 			"effects"		"80"
 			"enabled"		"1"
-			"resPerSecond"		"1.500000"
+			"resPerSecond"		"1.000000"
 		}
 		"13969"
 		{
@@ -152,19 +97,19 @@
 			"coords"		"A1"
 			"name"		"res_node_NW"
 			"effects"		"80"
-			"enabled"		"1"
-			"resPerSecond"		"1.500000"
+			"enabled"		"0"
+			"resPerSecond"		"1.000000"
 		}
 		"13975"
 		{
 			"className"		"emp_resource_point"
-			"position"		"-6880.000000 6107.359863 -2720.000000"
+			"position"		"-6880.000000 6107.359375 -2720.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"B4"
 			"name"		"res_node_NW_2"
 			"effects"		"80"
 			"enabled"		"1"
-			"resPerSecond"		"1.500000"
+			"resPerSecond"		"1.000000"
 		}
 		"13981"
 		{
@@ -175,7 +120,7 @@
 			"name"		"res_node_NE"
 			"effects"		"80"
 			"enabled"		"1"
-			"resPerSecond"		"1.500000"
+			"resPerSecond"		"1.000000"
 		}
 		"13987"
 		{
@@ -185,8 +130,8 @@
 			"coords"		"E1"
 			"name"		"res_node_SE_2"
 			"effects"		"80"
-			"enabled"		"0"
-			"resPerSecond"		"1.500000"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
 		}
 		"13997"
 		{
@@ -197,7 +142,7 @@
 			"name"		"res_node_E"
 			"effects"		"80"
 			"enabled"		"1"
-			"resPerSecond"		"1.500000"
+			"resPerSecond"		"1.000000"
 		}
 		"14003"
 		{
@@ -208,7 +153,7 @@
 			"name"		"res_node_cen"
 			"effects"		"80"
 			"enabled"		"1"
-			"resPerSecond"		"1.500000"
+			"resPerSecond"		"1.000000"
 		}
 		"14009"
 		{
@@ -219,7 +164,7 @@
 			"name"		"res_node_SE"
 			"effects"		"80"
 			"enabled"		"1"
-			"resPerSecond"		"1.500000"
+			"resPerSecond"		"1.000000"
 		}
 		"14013"
 		{
@@ -229,8 +174,8 @@
 			"coords"		"A5"
 			"name"		"res_node_SW"
 			"effects"		"80"
-			"enabled"		"0"
-			"resPerSecond"		"1.500000"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
 		}
 		"14401"
 		{
@@ -240,8 +185,8 @@
 			"coords"		"E5"
 			"name"		"res_node_plat"
 			"effects"		"80"
-			"enabled"		"1"
-			"resPerSecond"		"1.500000"
+			"enabled"		"0"
+			"resPerSecond"		"1.000000"
 		}
 		"14020"
 		{
@@ -270,13 +215,14 @@
 			"angles"		"14.500000 0.000000 0.000000"
 			"coords"		"A1"
 			"name"		"res_prop_NW"
-			"enabled"		"1"
+			"effects"		"32"
+			"enabled"		"0"
 			"model"		"models/props_wasteland/rockgranite02b.mdl"
 		}
 		"13979"
 		{
 			"className"		"emp_resource_point_prop"
-			"position"		"-6880.000000 6107.359863 -2736.000000"
+			"position"		"-6880.000000 6107.359375 -2736.000000"
 			"angles"		"0.165038 269.014008 9.498580"
 			"coords"		"B4"
 			"name"		"res_prop_NW_2"
@@ -300,8 +246,7 @@
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"E1"
 			"name"		"res_prop_SE_2"
-			"effects"		"32"
-			"enabled"		"0"
+			"enabled"		"1"
 			"model"		"models/props_wasteland/rockgranite02b.mdl"
 		}
 		"13999"
@@ -341,8 +286,7 @@
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"A5"
 			"name"		"res_prop_SW"
-			"effects"		"32"
-			"enabled"		"0"
+			"enabled"		"1"
 			"model"		"models/props_wasteland/rockcliff01b.mdl"
 		}
 		"14405"
@@ -352,7 +296,8 @@
 			"angles"		"12.000000 0.000000 0.000000"
 			"coords"		"E5"
 			"name"		"res_prop_plat"
-			"enabled"		"1"
+			"effects"		"32"
+			"enabled"		"0"
 			"model"		"models/props_wasteland/rockgranite02b.mdl"
 		}
 		"14022"
@@ -406,7 +351,7 @@
 			"material"		"particle/SmokeStack.vmt"
 			"startSize"		"20.000000"
 			"endSize"		"60.000000"
-			"emit"		"1"
+			"emit"		"0"
 			"baseSpread"		"5.000000"
 			"twist"		"5.000000"
 			"roll"		"5.000000"
@@ -418,7 +363,7 @@
 		"13977"
 		{
 			"className"		"env_smokestack"
-			"position"		"-6880.000000 6107.359863 -2704.000000"
+			"position"		"-6880.000000 6107.359375 -2704.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"B4"
 			"name"		"res_smoke_NW_2"
@@ -466,7 +411,7 @@
 			"material"		"particle/SmokeStack.vmt"
 			"startSize"		"20.000000"
 			"endSize"		"60.000000"
-			"emit"		"0"
+			"emit"		"1"
 			"baseSpread"		"5.000000"
 			"twist"		"5.000000"
 			"roll"		"5.000000"
@@ -546,7 +491,7 @@
 			"material"		"particle/SmokeStack.vmt"
 			"startSize"		"20.000000"
 			"endSize"		"60.000000"
-			"emit"		"0"
+			"emit"		"1"
 			"baseSpread"		"5.000000"
 			"twist"		"5.000000"
 			"roll"		"5.000000"
@@ -566,7 +511,7 @@
 			"material"		"particle/SmokeStack.vmt"
 			"startSize"		"20.000000"
 			"endSize"		"60.000000"
-			"emit"		"1"
+			"emit"		"0"
 			"baseSpread"		"5.000000"
 			"twist"		"5.000000"
 			"roll"		"5.000000"
@@ -596,7 +541,51 @@
 			"eng_restrict_Imp"		"0"
 			"turretRestrict"		"0"
 		}
+		"5000019"
+		{
+			"className"		"emp_building_nf_barracks"
+			"position"		"11855.803711 12989.534180 -2748.535645"
+			"angles"		"0.000000 -180.000000 0.000000"
+			"coords"		"E5"
+			"built"		"1"
+			"maxHealth"		"250"
+			"health"		"250"
+			"team"		"2"
+		}
+		"5000020"
+		{
+			"className"		"emp_building_imp_barracks"
+			"position"		"-11565.355469 -12602.050781 -2744.413818"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"A1"
+			"built"		"1"
+			"maxHealth"		"250"
+			"health"		"250"
+			"team"		"3"
+		}
+		"5000015"
+		{
+			"className"		"emp_building_nf_refinery"
+			"position"		"12928.000000 12944.000000 -2720.000000"
+			"angles"		"0.000000 -93.109131 0.000000"
+			"coords"		"E5"
+			"built"		"1"
+			"maxHealth"		"150"
+			"health"		"150"
+			"team"		"2"
+			"target"		"res_node_plat"
+		}
+		"5000017"
+		{
+			"className"		"emp_building_imp_refinery"
+			"position"		"-12768.000000 -12593.000000 -2720.000000"
+			"angles"		"0.000000 3.724365 0.000000"
+			"coords"		"A1"
+			"built"		"1"
+			"maxHealth"		"150"
+			"health"		"150"
+			"team"		"3"
+			"target"		"res_node_NW"
+		}
 	}
-	"version"		"1.120000"
-	"hLimit"		"38178"
 }

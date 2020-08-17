@@ -311,6 +311,10 @@
 				"type" 		"vector"
 				"postSpawn"	"true"
 			}
+			"effects"
+			{
+				"ignore"	"true"
+			}
 			
 		}
 	}

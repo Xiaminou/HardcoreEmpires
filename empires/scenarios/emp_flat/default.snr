@@ -1,5 +1,9 @@
 "Scenario"
 {
+	"Description"		" "
+	"details"		" "
+	"Tags"		" "
+	"Author"		"Hardcore Empires - Main Server"
 	"NF_Res"		"400.000000"
 	"BE_Res"		"400.000000"
 	"NF_Tickets"		"211.100006"
@@ -39,14 +43,14 @@
 		"681670"
 		{
 			"className"		"emp_imp_commander"
-			"position"		"4256.000000 444.543579 -3786.304932"
-			"angles"		"-0.000004 0.000000 1.232049"
+			"position"		"4256.000000 444.543549 -3786.304932"
+			"angles"		"-0.000004 0.000000 1.232052"
 			"coords"		"D4"
 		}
 		"598348"
 		{
 			"className"		"emp_nf_commander"
-			"position"		"-3900.000000 -7.182802 -3713.771484"
+			"position"		"-3900.000000 -7.183402 -3713.771484"
 			"angles"		"-0.000001 0.000001 -0.602722"
 			"coords"		"B4"
 		}
@@ -59,7 +63,7 @@
 			"name"		"res3"
 			"effects"		"80"
 			"enabled"		"1"
-			"resPerSecond"		"2.000000"
+			"resPerSecond"		"1.000000"
 		}
 		"682233"
 		{
@@ -70,7 +74,7 @@
 			"name"		"res1"
 			"effects"		"80"
 			"enabled"		"1"
-			"resPerSecond"		"2.000000"
+			"resPerSecond"		"1.000000"
 		}
 		"682241"
 		{
@@ -81,7 +85,7 @@
 			"name"		"res10"
 			"effects"		"80"
 			"enabled"		"1"
-			"resPerSecond"		"2.000000"
+			"resPerSecond"		"1.000000"
 		}
 		"682249"
 		{
@@ -92,7 +96,7 @@
 			"name"		"res4"
 			"effects"		"80"
 			"enabled"		"1"
-			"resPerSecond"		"2.000000"
+			"resPerSecond"		"1.000000"
 		}
 		"682257"
 		{
@@ -103,7 +107,7 @@
 			"name"		"res7"
 			"effects"		"80"
 			"enabled"		"1"
-			"resPerSecond"		"2.000000"
+			"resPerSecond"		"1.000000"
 		}
 		"682265"
 		{
@@ -125,7 +129,7 @@
 			"name"		"res6"
 			"effects"		"80"
 			"enabled"		"1"
-			"resPerSecond"		"2.000000"
+			"resPerSecond"		"1.000000"
 		}
 		"682279"
 		{
@@ -136,7 +140,7 @@
 			"name"		"res8"
 			"effects"		"80"
 			"enabled"		"1"
-			"resPerSecond"		"2.000000"
+			"resPerSecond"		"1.000000"
 		}
 		"682289"
 		{
@@ -147,7 +151,7 @@
 			"name"		"res9"
 			"effects"		"80"
 			"enabled"		"1"
-			"resPerSecond"		"2.000000"
+			"resPerSecond"		"1.000000"
 		}
 		"682293"
 		{
@@ -158,7 +162,7 @@
 			"name"		"res5"
 			"effects"		"80"
 			"enabled"		"1"
-			"resPerSecond"		"2.000000"
+			"resPerSecond"		"1.000000"
 		}
 		"663143"
 		{
@@ -167,8 +171,8 @@
 			"angles"		"0.000000 204.500000 0.000000"
 			"coords"		"B4"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"663503"
 		{
@@ -177,8 +181,8 @@
 			"angles"		"0.000000 94.500000 0.000000"
 			"coords"		"A4"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"663635"
 		{
@@ -187,8 +191,8 @@
 			"angles"		"0.000000 357.000000 0.000000"
 			"coords"		"A5"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"663659"
 		{
@@ -197,8 +201,8 @@
 			"angles"		"0.000000 127.500000 0.000000"
 			"coords"		"B6"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"663827"
 		{
@@ -207,8 +211,8 @@
 			"angles"		"0.000000 146.500000 0.000000"
 			"coords"		"B6"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"663907"
 		{
@@ -217,8 +221,8 @@
 			"angles"		"0.000000 284.000000 0.000000"
 			"coords"		"C6"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"663923"
 		{
@@ -227,8 +231,8 @@
 			"angles"		"0.000000 83.500000 0.000000"
 			"coords"		"C6"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"664063"
 		{
@@ -237,8 +241,8 @@
 			"angles"		"0.000000 355.000000 0.000000"
 			"coords"		"C6"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"664079"
 		{
@@ -247,8 +251,8 @@
 			"angles"		"0.000000 311.000000 0.000000"
 			"coords"		"C6"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"664075"
 		{
@@ -257,8 +261,8 @@
 			"angles"		"0.000000 11.500000 0.000000"
 			"coords"		"C6"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"664059"
 		{
@@ -267,8 +271,8 @@
 			"angles"		"0.000000 343.500000 0.000000"
 			"coords"		"D6"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"663919"
 		{
@@ -277,8 +281,8 @@
 			"angles"		"0.000000 233.000000 0.000000"
 			"coords"		"C6"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"663839"
 		{
@@ -287,8 +291,8 @@
 			"angles"		"0.000000 91.000000 0.000000"
 			"coords"		"B6"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"663683"
 		{
@@ -297,8 +301,8 @@
 			"angles"		"0.000000 190.000000 0.000000"
 			"coords"		"B6"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"663655"
 		{
@@ -307,8 +311,8 @@
 			"angles"		"0.000000 6.500000 0.000000"
 			"coords"		"B6"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"663567"
 		{
@@ -317,8 +321,8 @@
 			"angles"		"0.000000 52.500000 0.000000"
 			"coords"		"A5"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"663499"
 		{
@@ -327,8 +331,8 @@
 			"angles"		"0.000000 247.000000 0.000000"
 			"coords"		"A4"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"663139"
 		{
@@ -337,8 +341,8 @@
 			"angles"		"0.000000 113.000000 0.000000"
 			"coords"		"B4"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"663115"
 		{
@@ -347,8 +351,8 @@
 			"angles"		"0.000000 278.500000 0.000000"
 			"coords"		"B4"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"663031"
 		{
@@ -357,8 +361,8 @@
 			"angles"		"0.000000 1.000000 0.000000"
 			"coords"		"B2"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"662891"
 		{
@@ -367,8 +371,8 @@
 			"angles"		"0.000000 114.000000 0.000000"
 			"coords"		"A3"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"662637"
 		{
@@ -377,8 +381,8 @@
 			"angles"		"0.000000 163.000000 0.000000"
 			"coords"		"A3"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"662545"
 		{
@@ -387,8 +391,8 @@
 			"angles"		"0.000000 314.500000 0.000000"
 			"coords"		"A3"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"662513"
 		{
@@ -397,8 +401,8 @@
 			"angles"		"0.000000 305.500000 0.000000"
 			"coords"		"A3"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"662537"
 		{
@@ -407,8 +411,8 @@
 			"angles"		"0.000000 12.000000 0.000000"
 			"coords"		"A2"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"662517"
 		{
@@ -417,8 +421,8 @@
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"A3"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"662461"
 		{
@@ -427,8 +431,8 @@
 			"angles"		"0.000000 305.500000 0.000000"
 			"coords"		"B3"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"667692"
 		{
@@ -437,8 +441,8 @@
 			"angles"		"0.000000 63.500000 0.000000"
 			"coords"		"E6"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"667700"
 		{
@@ -447,8 +451,8 @@
 			"angles"		"0.000000 316.000000 0.000000"
 			"coords"		"D6"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"667708"
 		{
@@ -457,8 +461,8 @@
 			"angles"		"0.000000 95.000000 0.000000"
 			"coords"		"E6"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"667873"
 		{
@@ -467,8 +471,8 @@
 			"angles"		"0.000000 196.000000 0.000000"
 			"coords"		"E5"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"667881"
 		{
@@ -477,8 +481,8 @@
 			"angles"		"0.000000 241.500000 0.000000"
 			"coords"		"D4"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"667889"
 		{
@@ -487,8 +491,8 @@
 			"angles"		"0.000000 246.500000 0.000000"
 			"coords"		"D5"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"667897"
 		{
@@ -497,8 +501,8 @@
 			"angles"		"0.000000 179.500000 0.000000"
 			"coords"		"E5"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"668037"
 		{
@@ -507,8 +511,8 @@
 			"angles"		"0.000000 192.000000 0.000000"
 			"coords"		"E4"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"668045"
 		{
@@ -517,8 +521,8 @@
 			"angles"		"0.000000 179.500000 0.000000"
 			"coords"		"E4"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"668089"
 		{
@@ -527,8 +531,8 @@
 			"angles"		"0.000000 299.000000 0.000000"
 			"coords"		"E4"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"668105"
 		{
@@ -537,8 +541,8 @@
 			"angles"		"0.000000 257.500000 0.000000"
 			"coords"		"D3"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"668113"
 		{
@@ -547,8 +551,8 @@
 			"angles"		"0.000000 192.000000 0.000000"
 			"coords"		"D3"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"668217"
 		{
@@ -557,8 +561,8 @@
 			"angles"		"0.000000 58.500000 0.000000"
 			"coords"		"D3"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"668253"
 		{
@@ -567,8 +571,8 @@
 			"angles"		"0.000000 54.500000 0.000000"
 			"coords"		"E3"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"668261"
 		{
@@ -577,8 +581,8 @@
 			"angles"		"0.000000 50.500000 0.000000"
 			"coords"		"E3"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"668269"
 		{
@@ -587,8 +591,8 @@
 			"angles"		"0.000000 64.500000 0.000000"
 			"coords"		"E3"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"668277"
 		{
@@ -597,8 +601,8 @@
 			"angles"		"0.000000 45.500000 0.000000"
 			"coords"		"E3"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"668589"
 		{
@@ -607,8 +611,8 @@
 			"angles"		"0.000000 3.500000 0.000000"
 			"coords"		"E2"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"668597"
 		{
@@ -617,8 +621,8 @@
 			"angles"		"0.000000 103.500000 0.000000"
 			"coords"		"E2"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"668757"
 		{
@@ -627,8 +631,8 @@
 			"angles"		"0.000000 350.500000 0.000000"
 			"coords"		"C2"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"668765"
 		{
@@ -637,8 +641,8 @@
 			"angles"		"0.000000 190.000000 0.000000"
 			"coords"		"C2"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"668761"
 		{
@@ -647,8 +651,8 @@
 			"angles"		"0.000000 133.500000 0.000000"
 			"coords"		"C2"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"668601"
 		{
@@ -657,8 +661,8 @@
 			"angles"		"0.000000 169.500000 0.000000"
 			"coords"		"E2"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"668593"
 		{
@@ -667,8 +671,8 @@
 			"angles"		"0.000000 199.000000 0.000000"
 			"coords"		"D2"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"668585"
 		{
@@ -677,8 +681,8 @@
 			"angles"		"0.000000 23.000000 0.000000"
 			"coords"		"E2"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"668273"
 		{
@@ -687,8 +691,8 @@
 			"angles"		"0.000000 133.500000 0.000000"
 			"coords"		"E3"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"668265"
 		{
@@ -697,8 +701,8 @@
 			"angles"		"0.000000 216.500000 0.000000"
 			"coords"		"E2"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"668257"
 		{
@@ -707,8 +711,8 @@
 			"angles"		"0.000000 306.000000 0.000000"
 			"coords"		"E2"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"668233"
 		{
@@ -717,8 +721,8 @@
 			"angles"		"0.000000 44.500000 0.000000"
 			"coords"		"E3"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"668117"
 		{
@@ -727,8 +731,8 @@
 			"angles"		"0.000000 294.500000 0.000000"
 			"coords"		"D3"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"668109"
 		{
@@ -737,8 +741,8 @@
 			"angles"		"0.000000 196.000000 0.000000"
 			"coords"		"D3"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"668101"
 		{
@@ -747,8 +751,8 @@
 			"angles"		"0.000000 299.000000 0.000000"
 			"coords"		"D3"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"668049"
 		{
@@ -757,8 +761,8 @@
 			"angles"		"0.000000 269.000000 0.000000"
 			"coords"		"E4"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"668041"
 		{
@@ -767,8 +771,8 @@
 			"angles"		"0.000000 196.000000 0.000000"
 			"coords"		"E4"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"667981"
 		{
@@ -777,8 +781,8 @@
 			"angles"		"0.000000 306.000000 0.000000"
 			"coords"		"D4"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"667893"
 		{
@@ -787,8 +791,8 @@
 			"angles"		"0.000000 269.000000 0.000000"
 			"coords"		"D5"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"667885"
 		{
@@ -797,8 +801,8 @@
 			"angles"		"0.000000 325.000000 0.000000"
 			"coords"		"D5"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"667877"
 		{
@@ -807,8 +811,8 @@
 			"angles"		"0.000000 192.000000 0.000000"
 			"coords"		"E5"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"667712"
 		{
@@ -817,8 +821,8 @@
 			"angles"		"0.000000 112.500000 0.000000"
 			"coords"		"E6"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"667704"
 		{
@@ -827,8 +831,8 @@
 			"angles"		"0.000000 350.500000 0.000000"
 			"coords"		"D6"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"667696"
 		{
@@ -837,8 +841,8 @@
 			"angles"		"0.000000 324.500000 0.000000"
 			"coords"		"D6"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"667688"
 		{
@@ -847,8 +851,8 @@
 			"angles"		"0.000000 155.000000 0.000000"
 			"coords"		"E6"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"662441"
 		{
@@ -857,8 +861,8 @@
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"B3"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"662541"
 		{
@@ -867,8 +871,8 @@
 			"angles"		"0.000000 66.500000 0.000000"
 			"coords"		"A3"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"662521"
 		{
@@ -877,8 +881,8 @@
 			"angles"		"0.000000 248.000000 0.000000"
 			"coords"		"A3"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"662473"
 		{
@@ -887,8 +891,8 @@
 			"angles"		"0.000000 248.000000 0.000000"
 			"coords"		"B3"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"662589"
 		{
@@ -897,8 +901,8 @@
 			"angles"		"0.000000 118.500000 0.000000"
 			"coords"		"A2"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"662811"
 		{
@@ -907,8 +911,8 @@
 			"angles"		"0.000000 103.500000 0.000000"
 			"coords"		"B3"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"662899"
 		{
@@ -917,8 +921,8 @@
 			"angles"		"0.000000 130.000000 0.000000"
 			"coords"		"A3"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"663039"
 		{
@@ -927,8 +931,8 @@
 			"angles"		"0.000000 139.500000 0.000000"
 			"coords"		"B2"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"663127"
 		{
@@ -937,8 +941,8 @@
 			"angles"		"0.000000 176.000000 0.000000"
 			"coords"		"B4"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"663123"
 		{
@@ -947,8 +951,8 @@
 			"angles"		"0.000000 325.500000 0.000000"
 			"coords"		"B4"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"663559"
 		{
@@ -957,8 +961,8 @@
 			"angles"		"0.000000 246.000000 0.000000"
 			"coords"		"A6"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"663647"
 		{
@@ -967,8 +971,8 @@
 			"angles"		"0.000000 182.500000 0.000000"
 			"coords"		"B6"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"663671"
 		{
@@ -977,8 +981,8 @@
 			"angles"		"0.000000 101.000000 0.000000"
 			"coords"		"B6"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"663831"
 		{
@@ -987,8 +991,8 @@
 			"angles"		"0.000000 254.500000 0.000000"
 			"coords"		"B6"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"663911"
 		{
@@ -997,8 +1001,8 @@
 			"angles"		"0.000000 223.500000 0.000000"
 			"coords"		"C6"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"663927"
 		{
@@ -1007,8 +1011,8 @@
 			"angles"		"0.000000 77.000000 0.000000"
 			"coords"		"C6"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"664067"
 		{
@@ -1017,8 +1021,8 @@
 			"angles"		"0.000000 140.500000 0.000000"
 			"coords"		"D6"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"664083"
 		{
@@ -1027,8 +1031,8 @@
 			"angles"		"0.000000 147.000000 0.000000"
 			"coords"		"D6"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"664071"
 		{
@@ -1037,8 +1041,8 @@
 			"angles"		"0.000000 84.500000 0.000000"
 			"coords"		"C6"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"663931"
 		{
@@ -1047,8 +1051,8 @@
 			"angles"		"0.000000 348.500000 0.000000"
 			"coords"		"C6"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"663915"
 		{
@@ -1057,8 +1061,8 @@
 			"angles"		"0.000000 39.000000 0.000000"
 			"coords"		"C6"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"663835"
 		{
@@ -1067,8 +1071,8 @@
 			"angles"		"0.000000 340.000000 0.000000"
 			"coords"		"B6"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"663679"
 		{
@@ -1077,8 +1081,8 @@
 			"angles"		"0.000000 15.500000 0.000000"
 			"coords"		"B6"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"663651"
 		{
@@ -1087,8 +1091,8 @@
 			"angles"		"0.000000 29.500000 0.000000"
 			"coords"		"B6"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"663563"
 		{
@@ -1097,8 +1101,8 @@
 			"angles"		"0.000000 160.500000 0.000000"
 			"coords"		"A5"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"663495"
 		{
@@ -1107,8 +1111,8 @@
 			"angles"		"0.000000 341.500000 0.000000"
 			"coords"		"A4"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"663135"
 		{
@@ -1117,8 +1121,8 @@
 			"angles"		"0.000000 131.500000 0.000000"
 			"coords"		"B4"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"662887"
 		{
@@ -1127,8 +1131,8 @@
 			"angles"		"0.000000 80.500000 0.000000"
 			"coords"		"A4"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"662895"
 		{
@@ -1137,8 +1141,8 @@
 			"angles"		"0.000000 0.999992 0.000000"
 			"coords"		"A3"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"663035"
 		{
@@ -1147,8 +1151,8 @@
 			"angles"		"0.000000 254.500000 0.000000"
 			"coords"		"B2"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"663091"
 		{
@@ -1157,8 +1161,8 @@
 			"angles"		"0.000000 56.500000 0.000000"
 			"coords"		"B2"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"663119"
 		{
@@ -1167,8 +1171,8 @@
 			"angles"		"0.000000 16.500000 0.000000"
 			"coords"		"B5"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"662983"
 		{
@@ -1177,8 +1181,8 @@
 			"angles"		"0.000000 225.500000 0.000000"
 			"coords"		"A3"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"662593"
 		{
@@ -1187,8 +1191,8 @@
 			"angles"		"0.000000 40.000000 0.000000"
 			"coords"		"A2"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"662717"
 		{
@@ -1197,8 +1201,8 @@
 			"angles"		"0.000000 14.500000 0.000000"
 			"coords"		"A2"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
 		}
 		"662585"
 		{
@@ -1207,17 +1211,22 @@
 			"angles"		"0.000000 64.000000 0.000000"
 			"coords"		"A2"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
+		}
+		"598016"
+		{
+			"className"		"emp_info_params"
+			"position"		"-1126.160034 602.877014 -3731.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"C4"
+			"Skin"		"1"
+			"autoResearch"		"0"
+			"eng_restrict_NF"		"0"
+			"eng_restrict_Imp"		"0"
+			"turretRestrict"		"3"
 		}
 	}
-	"Description"		" "
-	"details"		" "
-	"Author"		"Hardcore Empires - The Tradiona"
-	"BaseSwap"		"-1"
-	"CommFreezeTime"		"-1"
-	"PlayerRefineryMultiplier"		"-1.000000"
-	"RefineryMultiplier"		"-1.000000"
-	"version"		"0.860000"
-	"hLimit"		"682293"
+	"version"		"1.170000"
+	"hLimit"		"684101"
 }

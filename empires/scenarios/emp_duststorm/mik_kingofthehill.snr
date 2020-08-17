@@ -1,13 +1,28 @@
 "Scenario"
 {
-	"Description"		" "
-	"details"		" "
-	"Tags"		" "
-	"Author"		"Hardcore Empires - Main Server"
 	"NF_Res"		"400.000000"
 	"BE_Res"		"400.000000"
-	"NF_Tickets"		"281.199005"
-	"BE_Tickets"		"281.199005"
+	"NF_Tickets"		"402.000000"
+	"BE_Tickets"		"402.000000"
+	"Description"		"Hold the middle flag for 10 minutes to win."
+	"details"		" "
+	"Author"		"Mikleo"
+	"BaseSwap"		"-1"
+	"CommFreezeTime"		"-1"
+	"PlayerRefineryMultiplier"		"-1.000000"
+	"RefineryMultiplier"		"-1.000000"
+	"version"		"1.130000"
+	"hLimit"		"172105"
+	"Scripts"
+	{
+		"OnScenarioLoaded"		"Run Setup"
+		"Setup"		"TargetName MainFlag -> HookOutput OnNeutral NeutralTimer -> HookOutput OnImpCap BETimer -> HookOutput OnNFCap NFTimer -> Run StartingTimer"
+		"OnGameStart"		"Run NeutralTimer"
+		"StartingTimer"		"Cancel MainTimer -> TextTimer -1 *King of the Hill\Hold the flag for 10 minutes to win* _ MainTimer"
+		"NeutralTimer"		"Cancel MainTimer -> TextTimer -1 *Flag Neutral* _ MainTimer"
+		"BETimer"		"Cancel MainTimer -> TextTimer 600 *BE Victory in TIME_LEFT\* _ MainTimer -> TargetParams -> Input InputImpWin 0 "
+		"NFTimer"		"Cancel MainTimer -> TextTimer 600 *NF Victory in TIME_LEFT\* _ MainTimer -> TargetParams -> Input InputNFWin 0 "
+	}
 	"NF_Research"
 	{
 		"0"		"1"
@@ -43,15 +58,15 @@
 		"4467"
 		{
 			"className"		"emp_imp_commander"
-			"position"		"9216.332031 8192.027344 10.370186"
-			"angles"		"0.213606 88.996071 1.540743"
+			"position"		"9244.825195 8191.627930 11.927976"
+			"angles"		"0.030226 88.956993 1.264177"
 			"coords"		"E4"
 		}
 		"4465"
 		{
 			"className"		"emp_nf_commander"
-			"position"		"-9150.942383 -8128.075195 83.246758"
-			"angles"		"0.063786 -91.578682 -0.917267"
+			"position"		"-9174.862305 -8127.375488 85.174873"
+			"angles"		"0.046182 -91.566055 -0.524841"
 			"coords"		"A2"
 		}
 		"5535"
@@ -69,7 +84,7 @@
 		"5468"
 		{
 			"className"		"emp_building_imp_refinery"
-			"position"		"8193.540039 10238.200195 8.281340"
+			"position"		"8193.540039 10238.200195 8.281342"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"D5"
 			"name"		"fdafa"
@@ -115,7 +130,7 @@
 		"24575"
 		{
 			"className"		"emp_resource_point"
-			"position"		"8708.200195 -8962.799805 24.292200"
+			"position"		"8708.200195 -8962.799805 24.292204"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"D2"
 			"name"		"res_5"
@@ -134,21 +149,10 @@
 			"enabled"		"1"
 			"resPerSecond"		"1.000000"
 		}
-		"24845"
-		{
-			"className"		"emp_resource_point"
-			"position"		"164.542007 733.164001 361.708008"
-			"angles"		"0.000000 0.000000 0.000000"
-			"coords"		"C3"
-			"name"		"res_7"
-			"effects"		"80"
-			"enabled"		"1"
-			"resPerSecond"		"2.000000"
-		}
 		"25035"
 		{
 			"className"		"emp_resource_point"
-			"position"		"-9851.839844 6541.160156 24.292200"
+			"position"		"-9851.839844 6541.160156 24.292204"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"A4"
 			"name"		"res_8"
@@ -170,7 +174,7 @@
 		"24993"
 		{
 			"className"		"emp_resource_point"
-			"position"		"-10267.500000 -2955.979980 33.707802"
+			"position"		"-10267.500000 -2955.979980 33.707809"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"A3"
 			"name"		"res_10"
@@ -192,7 +196,7 @@
 		"5533"
 		{
 			"className"		"emp_resource_point_prop"
-			"position"		"-8226.190430 -10224.900391 -7.010990"
+			"position"		"-8226.188477 -10224.900391 -7.010990"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"B1"
 			"name"		"rock_1"
@@ -224,7 +228,7 @@
 		"24577"
 		{
 			"className"		"emp_resource_point_prop"
-			"position"		"8704.200195 -8958.799805 23.292200"
+			"position"		"8704.200195 -8958.799805 23.292204"
 			"angles"		"0.000000 42.500000 0.000000"
 			"coords"		"D2"
 			"name"		"rock_5"
@@ -241,20 +245,10 @@
 			"enabled"		"1"
 			"model"		"models/props_wasteland/rockcliff01f.mdl"
 		}
-		"24847"
-		{
-			"className"		"emp_resource_point_prop"
-			"position"		"160.542007 737.164001 360.708008"
-			"angles"		"0.000000 42.500000 0.000000"
-			"coords"		"C3"
-			"name"		"rock_7"
-			"enabled"		"1"
-			"model"		"models/props_wasteland/rockcliff01f.mdl"
-		}
 		"25037"
 		{
 			"className"		"emp_resource_point_prop"
-			"position"		"-9855.839844 6545.160156 23.292200"
+			"position"		"-9855.839844 6545.160156 23.292204"
 			"angles"		"0.000000 42.500000 0.000000"
 			"coords"		"A4"
 			"name"		"rock_8"
@@ -274,7 +268,7 @@
 		"24995"
 		{
 			"className"		"emp_resource_point_prop"
-			"position"		"-10271.500000 -2951.979980 32.707802"
+			"position"		"-10271.500000 -2951.979980 32.707809"
 			"angles"		"0.000000 42.500000 0.000000"
 			"coords"		"A3"
 			"name"		"rock_10"
@@ -294,7 +288,7 @@
 		"5529"
 		{
 			"className"		"env_smokestack"
-			"position"		"-8209.809570 -10240.900391 32.281300"
+			"position"		"-8209.809570 -10240.900391 32.281307"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"B1"
 			"name"		"res_1_smoke"
@@ -354,7 +348,7 @@
 		"24573"
 		{
 			"className"		"env_smokestack"
-			"position"		"8704.000000 -8976.000000 24.292200"
+			"position"		"8704.000000 -8976.000000 24.292204"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"D2"
 			"name"		"res_5_smoke"
@@ -391,30 +385,10 @@
 			"Speed"		"100.000000"
 			"rate"		"6.000000"
 		}
-		"24843"
-		{
-			"className"		"env_smokestack"
-			"position"		"160.341995 719.963013 361.708008"
-			"angles"		"0.000000 0.000000 0.000000"
-			"coords"		"C3"
-			"name"		"res_7_smoke"
-			"color"		"236 236 236 200"
-			"material"		"particle/SmokeStack.vmt"
-			"startSize"		"40.000000"
-			"endSize"		"60.000000"
-			"emit"		"1"
-			"baseSpread"		"5.000000"
-			"twist"		"5.000000"
-			"roll"		"5.000000"
-			"jetLength"		"400.000000"
-			"spreadSpeed"		"5.000000"
-			"Speed"		"100.000000"
-			"rate"		"6.000000"
-		}
 		"25033"
 		{
 			"className"		"env_smokestack"
-			"position"		"-9856.040039 6527.959961 24.292200"
+			"position"		"-9856.040039 6527.958984 24.292204"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"A4"
 			"name"		"res_8_smoke"
@@ -434,7 +408,7 @@
 		"25096"
 		{
 			"className"		"env_smokestack"
-			"position"		"3088.340088 9294.820313 25.707800"
+			"position"		"3088.340088 9294.818359 25.707800"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"C5"
 			"name"		"res_9_smoke"
@@ -454,7 +428,7 @@
 		"24991"
 		{
 			"className"		"env_smokestack"
-			"position"		"-10271.700195 -2969.179932 33.707802"
+			"position"		"-10271.700195 -2969.180176 33.707809"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"A3"
 			"name"		"res_10_smoke"
@@ -673,7 +647,363 @@
 			"eng_restrict_Imp"		"0"
 			"turretRestrict"		"0"
 		}
+		"5000171"
+		{
+			"className"		"emp_cap_model"
+			"position"		"327.940552 824.389648 347.780518"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"C3"
+			"name"		"EndActivator"
+			"pointNumber"		"30"
+			"visibleOnMap"		"1"
+			"model"		"models/Common/props_system/flagpole01_neutral.mdl"
+			"model2"		"models/Common/props_system/flagpole01_nf.mdl"
+			"model3"		"models/Common/props_system/flagpole01_imp.mdl"
+			"team"		"0"
+		}
+		"5000172"
+		{
+			"className"		"emp_cap_point"
+			"position"		"327.940552 824.389648 347.780518"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"C3"
+			"name"		"MainFlag"
+			"effects"		"32"
+			"Mins"		"-202.825683 -200.249969 -128.249969"
+			"Maxs"		"250.250000 200.250015 194.250030"
+			"pointNumber"		"30"
+			"timeToCap"		"10"
+			"timeToNeutral"		"10"
+			"playersRequiredNF"		"1"
+			"playersRequiredImp"		"1"
+			"teamOwner"		"0"
+			"locationName"		"Custom Flag"
+			"resToGiveNF"		"3.000000"
+			"resToGiveImp"		"3.000000"
+			"reinfToTakeNF"		"0.000000"
+			"reinfToTakeImp"		"0.000000"
+			"canNFCap"		"1"
+			"canImpCap"		"1"
+		}
+		"5000073"
+		{
+			"className"		"prop_dynamic"
+			"position"		"133.606445 635.647156 343.889954"
+			"angles"		"-0.000000 -130.363815 0.000000"
+			"coords"		"C3"
+			"model"		"models/common/props_urban/roadblocks/roadblock01a.mdl"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
+		"5000074"
+		{
+			"className"		"prop_dynamic"
+			"position"		"192.076187 650.693970 346.404724"
+			"angles"		"-0.000000 39.737537 0.000000"
+			"coords"		"C3"
+			"model"		"models/imperial/props/imp_crate2b.mdl"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
+		"5000075"
+		{
+			"className"		"prop_dynamic"
+			"position"		"127.752563 677.506714 354.996857"
+			"angles"		"-0.000000 16.127953 0.000000"
+			"coords"		"C3"
+			"model"		"models/imperial/props/imp_crate3.mdl"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
+		"5000076"
+		{
+			"className"		"prop_dynamic"
+			"position"		"65.409912 712.480469 338.889954"
+			"angles"		"-0.000000 -147.645325 0.000000"
+			"coords"		"C3"
+			"model"		"models/common/props_urban/roadblocks/roadblock01a.mdl"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
+		"5000077"
+		{
+			"className"		"prop_dynamic"
+			"position"		"23.267818 811.829102 343.889954"
+			"angles"		"-0.000000 -171.095612 0.000000"
+			"coords"		"C3"
+			"model"		"models/common/props_urban/roadblocks/roadblock01a.mdl"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
+		"5000078"
+		{
+			"className"		"prop_dynamic"
+			"position"		"98.669067 773.758545 353.845886"
+			"angles"		"-0.000000 63.358139 0.000000"
+			"coords"		"C3"
+			"model"		"models/imperial/props/imp_crate3.mdl"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
+		"5000079"
+		{
+			"className"		"prop_dynamic"
+			"position"		"65.340210 830.651184 353.894379"
+			"angles"		"-0.000000 -157.175980 0.000000"
+			"coords"		"C3"
+			"model"		"models/imperial/props/imp_crate2.mdl"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
+		"5000080"
+		{
+			"className"		"prop_dynamic"
+			"position"		"22.189701 919.291077 343.306122"
+			"angles"		"-0.000000 166.695526 0.000000"
+			"coords"		"C3"
+			"model"		"models/common/props_urban/roadblocks/roadblock01a.mdl"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
+		"5000081"
+		{
+			"className"		"prop_dynamic"
+			"position"		"63.994087 1014.019653 344.386108"
+			"angles"		"-0.000000 145.601807 0.000000"
+			"coords"		"C3"
+			"model"		"models/common/props_urban/roadblocks/roadblock01a.mdl"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
+		"5000082"
+		{
+			"className"		"prop_dynamic"
+			"position"		"116.646355 986.355164 351.732483"
+			"angles"		"-0.000000 -32.629467 0.000000"
+			"coords"		"C3"
+			"model"		"models/imperial/props/imp_crate1.mdl"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
+		"5000083"
+		{
+			"className"		"prop_dynamic"
+			"position"		"271.007385 1161.278076 364.386108"
+			"angles"		"-0.000000 114.071037 0.000000"
+			"coords"		"C3"
+			"model"		"models/common/props_urban/roadblocks/roadblock01a.mdl"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
+		"5000084"
+		{
+			"className"		"prop_dynamic"
+			"position"		"371.276489 1188.935913 368.500458"
+			"angles"		"-0.000000 95.668953 0.000000"
+			"coords"		"C3"
+			"model"		"models/common/props_urban/roadblocks/roadblock01a.mdl"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
+		"5000085"
+		{
+			"className"		"prop_dynamic"
+			"position"		"399.887970 1114.993164 356.319763"
+			"angles"		"-0.000000 -157.741699 0.000000"
+			"coords"		"C3"
+			"model"		"models/imperial/props/imp_crate1.mdl"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
+		"5000086"
+		{
+			"className"		"prop_dynamic"
+			"position"		"499.539063 1120.297363 352.880554"
+			"angles"		"-0.000000 179.928589 0.000000"
+			"coords"		"C3"
+			"model"		"models/imperial/props/imp_crate1.mdl"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
+		"5000087"
+		{
+			"className"		"prop_dynamic"
+			"position"		"342.566559 865.938232 352.008484"
+			"angles"		"-0.000000 -113.521820 0.000000"
+			"coords"		"C3"
+			"model"		"models/imperial/props/imp_crate1.mdl"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
+		"5000088"
+		{
+			"className"		"prop_dynamic"
+			"position"		"421.850983 840.507874 349.974884"
+			"angles"		"-0.000000 -110.385132 0.000000"
+			"coords"		"C3"
+			"model"		"models/imperial/props/imp_crate1.mdl"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
+		"5000089"
+		{
+			"className"		"prop_dynamic"
+			"position"		"360.414673 801.174500 352.098236"
+			"angles"		"-0.000000 -117.729515 0.000000"
+			"coords"		"C3"
+			"model"		"models/imperial/props/imp_crate3.mdl"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
+		"5000090"
+		{
+			"className"		"prop_dynamic"
+			"position"		"432.056122 902.610657 355.097046"
+			"angles"		"-0.000000 60.897202 0.000000"
+			"coords"		"C3"
+			"model"		"models/imperial/props/imp_crate2.mdl"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
+		"5000091"
+		{
+			"className"		"prop_dynamic"
+			"position"		"708.083740 934.536377 349.062317"
+			"angles"		"-0.000000 90.856918 0.000000"
+			"coords"		"C3"
+			"model"		"models/imperial/props/imp_crate2.mdl"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
+		"5000092"
+		{
+			"className"		"prop_dynamic"
+			"position"		"688.269165 836.779907 347.596130"
+			"angles"		"-0.000000 82.996201 0.000000"
+			"coords"		"C3"
+			"model"		"models/imperial/props/imp_crate1.mdl"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
+		"5000093"
+		{
+			"className"		"prop_dynamic"
+			"position"		"653.375671 723.298706 350.679688"
+			"angles"		"-0.000000 -107.177109 0.000000"
+			"coords"		"C3"
+			"model"		"models/imperial/props/imp_crate3.mdl"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
+		"5000094"
+		{
+			"className"		"prop_dynamic"
+			"position"		"598.772522 679.069946 348.966736"
+			"angles"		"-0.000000 -167.838135 0.000000"
+			"coords"		"C3"
+			"model"		"models/imperial/props/imp_crate2b.mdl"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
+		"5000095"
+		{
+			"className"		"prop_dynamic"
+			"position"		"466.562408 589.918701 346.145935"
+			"angles"		"-0.000000 -11.821293 0.000000"
+			"coords"		"C3"
+			"model"		"models/imperial/props/imp_crate2b.mdl"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
+		"5000096"
+		{
+			"className"		"prop_dynamic"
+			"position"		"406.103851 579.393433 350.481628"
+			"angles"		"-0.000000 92.598259 0.000000"
+			"coords"		"C3"
+			"model"		"models/imperial/props/imp_crate3.mdl"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
+		"5000097"
+		{
+			"className"		"prop_dynamic"
+			"position"		"555.257263 587.496399 343.882782"
+			"angles"		"-0.000000 -69.038078 0.000000"
+			"coords"		"C3"
+			"model"		"models/common/props_urban/roadblocks/roadblock01a.mdl"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
+		"5000098"
+		{
+			"className"		"prop_dynamic"
+			"position"		"452.501831 546.677002 347.469482"
+			"angles"		"-0.000000 -78.123764 0.000000"
+			"coords"		"C3"
+			"model"		"models/common/props_urban/roadblocks/roadblock01a.mdl"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
+		"5000099"
+		{
+			"className"		"prop_dynamic"
+			"position"		"642.268433 653.947876 345.576416"
+			"angles"		"-0.000000 -48.729847 0.000000"
+			"coords"		"C3"
+			"model"		"models/common/props_urban/roadblocks/roadblock01a.mdl"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
+		"5000100"
+		{
+			"className"		"prop_dynamic"
+			"position"		"711.261658 727.826477 339.177521"
+			"angles"		"-0.000000 -29.547712 0.000000"
+			"coords"		"C3"
+			"model"		"models/common/props_urban/roadblocks/roadblock01a.mdl"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
+		"5000101"
+		{
+			"className"		"prop_dynamic"
+			"position"		"754.920227 831.398071 342.327789"
+			"angles"		"-0.000000 -19.330427 0.000000"
+			"coords"		"C3"
+			"model"		"models/common/props_urban/roadblocks/roadblock01a.mdl"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
+		"5000102"
+		{
+			"className"		"prop_dynamic"
+			"position"		"764.262268 942.763916 347.719116"
+			"angles"		"-0.000000 5.355848 0.000000"
+			"coords"		"C3"
+			"model"		"models/common/props_urban/roadblocks/roadblock01a.mdl"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
+		"5000103"
+		{
+			"className"		"prop_dynamic"
+			"position"		"585.456665 1155.488403 361.501984"
+			"angles"		"-0.000000 64.594101 0.000000"
+			"coords"		"C3"
+			"model"		"models/common/props_urban/roadblocks/roadblock01a.mdl"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
+		"5000104"
+		{
+			"className"		"prop_dynamic"
+			"position"		"487.040192 1186.203613 362.398834"
+			"angles"		"-0.000000 79.628914 0.000000"
+			"coords"		"C3"
+			"model"		"models/common/props_urban/roadblocks/roadblock01a.mdl"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
 	}
-	"version"		"1.170000"
-	"hLimit"		"172105"
 }
