@@ -210,30 +210,37 @@
 	"riverrock1"
 	{
 		"model" "models/props_canal/rock_riverbed01a.mdl"
+		"disableShadows"	"1"
 	}
 	"riverrock2"
 	{
 		"model" "models/props_canal/rock_riverbed01b.mdl"
+		"disableShadows"	"1"
 	}
 	"riverrock3"
 	{
 		"model" "models/props_canal/rock_riverbed01c.mdl"
+		"disableShadows"	"1"
 	}
 	"riverrock4"
 	{
 		"model" "models/props_canal/rock_riverbed01d.mdl"
+		"disableShadows"	"1"
 	}
 	"riverrock5"
 	{
 		"model" "models/props_canal/rock_riverbed02a.mdl"
+		"disableShadows"	"1"
 	}
 	"riverrock6"
 	{
 		"model" "models/props_canal/rock_riverbed02b.mdl"
+		"disableShadows"	"1"
 	}
 	"riverrock7"
 	{
 		"model" "models/props_canal/rock_riverbed02c.mdl"
+		"disableShadows"	"1"
 	}
 	"barricade1"
 	{

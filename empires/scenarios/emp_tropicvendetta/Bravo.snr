@@ -1,7 +1,7 @@
 "Scenario"
 {
-	"NF_Res"		"300.000000"
-	"BE_Res"		"300.000000"
+	"NF_Res"		"400.000000"
+	"BE_Res"		"400.000000"
 	"Entities"
 	{
 		"96108"
@@ -1375,24 +1375,26 @@
 		"203203"
 		{
 			"className"		"prop_dynamic"
-			"position"		"92.500000 -2323.000000 23.500000"
-			"angles"		"0.000000 0.000000 0.000000"
+			"position"		"9116.400391 -13782.068359 -75.000000"
+			"angles"		"0.000000 8.727269 0.000000"
+			"Parent"		"shark_rotate1"
+			"coords"		"D1"
+			"name"		"shark1"
 			"model"		"models/pwnedyoass/shark.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"205742"
 		{
 			"className"		"prop_dynamic"
-			"position"		"102.980469 2527.000000 64.500000"
-			"angles"		"0.000000 0.000000 0.000000"
+			"position"		"9157.712891 -9017.882813 -75.000000"
+			"angles"		"0.000000 -8.727269 0.000000"
+			"Parent"		"shark_rotate2"
+			"coords"		"D2"
+			"name"		"shark2"
 			"model"		"models/pwnedyoass/shark.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"5000003"
 		{
@@ -1413,7 +1415,7 @@
 			"team"		"3"
 		}
 	}
-	"Description"		"[Type: Quality of Life] Start with a barracks and vehicle factory but -200 resources"
+	"Description"		"[Type: Gameplay] Start with a barracks and the command vehicle on the ground"
 	"Author"		"Xiam"
 	"BaseSwap"		"0"
 	"version"		"0.300000"

@@ -1,15 +1,42 @@
 "Scenario"
 {
-	"Description"		"Hold the middle flag for 10 minutes to win."
+	"Description"		"Hold the middle flag for 8 minutes to win."
+	"details"		"The temple will open after 5 minutes\The timer will decrease by 20 seconds each reset (Min: 4 minutes)"
 	"details"		" "
 	"Tags"		" "
 	"Author"		"Mikleo"
-	"NF_Res"		"150.000000"
-	"BE_Res"		"150.000000"
+	"NF_Res"		"300.000000"
+	"BE_Res"		"300.000000"
 	"NF_Tickets"		"250.000000"
 	"BE_Tickets"		"250.000000"
-	"version"		"1.170000"
+	"version"		"1.180000"
 	"hLimit"		"32179"
+	"Scripts"
+	{
+		"KOTH"
+		{
+			"$string_MainText"		"King of the Hill\Hold the temple for 8 minutes to win"
+			"$string_EnableTimerText"		"Temple opens in TIME_LEFT"
+			"$string_EnableSound"		"ambient/explosions/explode_4.wav"
+			"$int_EnableLength"		"300"
+			"$string_NeutralText"		"Flag Neutral"
+			"$int_TimerLength"		"480"
+			"$int_TimerDecrease"		"20"
+			"$int_TimerLengthMin"		"240"
+			"i_HookFlag"		"TargetName KOTHFlag -> HookOutput OnNeutral NeutralTimer -> HookOutput OnImpCap BETimer -> HookOutput OnNFCap NFTimer"
+			"i_StartingTimer"		"Cancel KOTHTimer -> TextTimer -1 *$string_MainText* _ KOTHTimer"
+			"s_EnableTimer"		"Cancel KOTHTimer -> Run DisableFlag -> TextTimer $int_EnableLength *$string_EnableTimerText* _ KOTHTimer -> Run DestroyBlockers EnableFlag KOTHOpenEffect NeutralTimer"
+			"NeutralTimer"		"Cancel KOTHTimer -> Run ReduceTime -> TextTimer -1 *$string_NeutralText* _ KOTHTimer"
+			"BETimer"		"Cancel KOTHTimer -> TextTimer $int_TimerLength *BE Victory in TIME_LEFT* _ KOTHTimer -> TargetParams -> Run TeleportAboveFlag -> Input InputImpWin 0 "
+			"NFTimer"		"Cancel KOTHTimer -> TextTimer $int_TimerLength *NF Victory in TIME_LEFT* _ KOTHTimer -> TargetParams -> Run TeleportAboveFlag -> Input InputNFWin 0 "
+			"DestroyBlockers"		"TargetNameAll KOTHBlocker -> Input Break"
+			"KOTHOpenEffect"		"EmitSound *$string_EnableSound* -> TargetNameAll KOTHOpenParticles -> Input Start"
+			"DisableFlag"		"TargetName KOTHFlag -> Input InputNFDisable -> Input InputImpDisable"
+			"EnableFlag"		"TargetName KOTHFlag -> Input InputNFEnable -> Input InputImpEnable"
+			"ReduceTime"		"Set $int_TimerLength = $int_TimerLength - $int_TimerDecrease -> If *$int_TimerLength < $int_TimerLengthMin* -> Set $int_TimerLength = $int_TimerLengthMin"
+			"TeleportAboveFlag"		"Teleport 0 0 300 KOTHFlag"
+		}
+	}
 	"NF_Research"
 	{
 		"0"		"1"
@@ -18,17 +45,6 @@
 	{
 		"0"		"1"
 	}
-	"Scripts"
-	{
-		"OnScenarioLoaded"		"Run Setup"
-		"Setup"		"TargetName MainFlag -> HookOutput OnNeutral NeutralTimer -> HookOutput OnImpCap BETimer -> HookOutput OnNFCap NFTimer -> Run StartingTimer"
-		"OnGameStart"		"Run NeutralTimer"
-		"StartingTimer"		"Cancel MainTimer -> TextTimer -1 *King of the Hill\Hold the temple for 10 minutes to win* _ MainTimer"
-		"NeutralTimer"		"Cancel MainTimer -> TextTimer -1 *Flag Neutral* _ MainTimer"
-		"BETimer"		"Cancel MainTimer -> TextTimer 600 *BE Victory in TIME_LEFT\* _ MainTimer -> TargetParams -> Input InputImpWin 0 "
-		"NFTimer"		"Cancel MainTimer -> TextTimer 600 *NF Victory in TIME_LEFT\* _ MainTimer -> TargetParams -> Input InputNFWin 0 "
-	}
-	
 	"Entities"
 	{
 		"1939"
@@ -84,15 +100,15 @@
 		"1942"
 		{
 			"className"		"emp_imp_commander"
-			"position"		"-6656.084473 -8603.978516 297.714661"
-			"angles"		"-0.306638 -0.003042 3.843908"
+			"position"		"-6654.988281 -8861.183594 285.997375"
+			"angles"		"2.341814 0.516745 1.210446"
 			"coords"		"B2"
 		}
 		"1940"
 		{
 			"className"		"emp_nf_commander"
-			"position"		"6655.986328 -8577.595703 368.038940"
-			"angles"		"-0.016998 -0.017025 -0.496338"
+			"position"		"6655.921875 -8665.751953 367.972443"
+			"angles"		"-0.043370 -0.018517 -0.498199"
 			"coords"		"D2"
 		}
 		"2136"
@@ -221,7 +237,7 @@
 		"1957"
 		{
 			"className"		"emp_resource_point_prop"
-			"position"		"-1680.000000 -2741.350098 1359.579956"
+			"position"		"-1680.000000 -2741.350098 1359.579834"
 			"angles"		"90.000000 14.000000 0.000000"
 			"coords"		"C3"
 			"name"		"resnode 4"
@@ -242,7 +258,7 @@
 		{
 			"className"		"emp_resource_point_prop"
 			"position"		"-1664.000000 3432.000000 1616.000000"
-			"angles"		"-75.901497 6.863350 158.492996"
+			"angles"		"-75.901497 6.863350 158.492950"
 			"coords"		"C5"
 			"name"		"resnode 6"
 			"enabled"		"1"
@@ -321,7 +337,7 @@
 		"1980"
 		{
 			"className"		"prop_dynamic"
-			"position"		"-1631.150024 -4918.490234 144.250000"
+			"position"		"-1631.150024 -4918.488770 144.250000"
 			"angles"		"0.000000 66.000000 0.000000"
 			"coords"		"C3"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
@@ -722,8 +738,8 @@
 		"5000008"
 		{
 			"className"		"emp_cap_model"
-			"position"		"-0.322486 -7550.125000 640.031250"
-			"angles"		"0.000000 0.000000 0.000000"
+			"position"		"-1.741734 -7550.320801 640.031250"
+			"angles"		"0.000000 0.300000 0.000000"
 			"coords"		"C2"
 			"pointNumber"		"31"
 			"visibleOnMap"		"1"
@@ -735,12 +751,12 @@
 		"5000009"
 		{
 			"className"		"emp_cap_point"
-			"name"			"MainFlag"
 			"position"		"-0.322486 -7550.125000 640.031250"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"C2"
+			"name"		"KOTHFlag"
 			"Mins"		"-202.825607 -200.250030 -128.249969"
-			"Maxs"		"250.250106 200.249984 194.250122"
+			"Maxs"		"250.250106 200.249969 194.250122"
 			"pointNumber"		"31"
 			"timeToCap"		"5"
 			"timeToNeutral"		"5"
@@ -754,6 +770,553 @@
 			"reinfToTakeImp"		"0.000000"
 			"canNFCap"		"1"
 			"canImpCap"		"1"
+		}
+		"5000032"
+		{
+			"className"		"prop_dynamic"
+			"position"		"570.295776 -3144.512939 85.699997"
+			"angles"		"0.000000 161.100006 0.000000"
+			"coords"		"C3"
+			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
+		"5000033"
+		{
+			"className"		"prop_dynamic"
+			"position"		"-705.857056 -3165.478516 51.800003"
+			"angles"		"0.000000 36.700001 0.000000"
+			"coords"		"C3"
+			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
+		"5000017"
+		{
+			"className"		"prop_dynamic"
+			"position"		"30.586395 -7268.443848 640.031250"
+			"angles"		"0.000000 -64.500732 0.000000"
+			"coords"		"C2"
+			"model"		"models/common/props_foliage/lake/flowerb.mdl"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
+		"5000018"
+		{
+			"className"		"prop_dynamic"
+			"position"		"33.392601 -7444.411621 635.031250"
+			"angles"		"0.000000 -69.099998 0.000000"
+			"coords"		"C2"
+			"model"		"models/common/props_foliage/lake/flowerc.mdl"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
+		"5000020"
+		{
+			"className"		"prop_dynamic"
+			"position"		"584.750122 -2593.611084 1.044403"
+			"angles"		"0.000000 253.800003 0.000000"
+			"coords"		"C3"
+			"model"		"models/common/props_foliage/lake/rocklarge_c.mdl"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
+		"5000034"
+		{
+			"className"		"prop_dynamic"
+			"position"		"-554.520081 -2536.473145 4.444397"
+			"angles"		"0.000000 276.200012 0.000000"
+			"coords"		"C3"
+			"model"		"models/common/props_foliage/lake/rocklarge_c.mdl"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
+		"5000021"
+		{
+			"className"		"prop_dynamic"
+			"position"		"-118.684464 -7359.370117 632.224731"
+			"angles"		"-0.000000 38.000000 0.000000"
+			"coords"		"C2"
+			"model"		"models/common/props_foliage/lake/rockmedium_vara.mdl"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
+		"5000035"
+		{
+			"className"		"prop_dynamic"
+			"position"		"-26.632694 -7319.497070 632.224731"
+			"angles"		"-0.000000 12.599998 0.000000"
+			"coords"		"C2"
+			"model"		"models/common/props_foliage/lake/rockmedium_vara.mdl"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
+		"5000036"
+		{
+			"className"		"prop_dynamic"
+			"position"		"81.777779 -7325.222656 632.224731"
+			"angles"		"-0.000000 -14.900002 0.000000"
+			"coords"		"C2"
+			"model"		"models/common/props_foliage/lake/rockmedium_vara.mdl"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
+		"5000037"
+		{
+			"className"		"prop_dynamic"
+			"position"		"169.801651 -7375.120605 632.224731"
+			"angles"		"-0.000000 -40.500000 0.000000"
+			"coords"		"C2"
+			"model"		"models/common/props_foliage/lake/rockmedium_vara.mdl"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
+		"5000038"
+		{
+			"className"		"prop_dynamic"
+			"position"		"244.208588 -7535.148438 632.224731"
+			"angles"		"-0.000000 -85.900002 0.000000"
+			"coords"		"C2"
+			"model"		"models/common/props_foliage/lake/rockmedium_vara.mdl"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
+		"5000039"
+		{
+			"className"		"prop_dynamic"
+			"position"		"224.306793 -7637.735840 632.224731"
+			"angles"		"0.000000 -112.400002 0.000000"
+			"coords"		"C2"
+			"model"		"models/common/props_foliage/lake/rockmedium_vara.mdl"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
+		"5000040"
+		{
+			"className"		"prop_dynamic"
+			"position"		"158.763321 -7722.381836 632.224731"
+			"angles"		"-0.000000 -139.500000 0.000000"
+			"coords"		"C2"
+			"model"		"models/common/props_foliage/lake/rockmedium_vara.mdl"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
+		"5000041"
+		{
+			"className"		"prop_dynamic"
+			"position"		"71.633301 -7765.700195 632.224731"
+			"angles"		"-0.000000 -164.100021 0.000000"
+			"coords"		"C2"
+			"model"		"models/common/props_foliage/lake/rockmedium_vara.mdl"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
+		"5000042"
+		{
+			"className"		"prop_dynamic"
+			"position"		"-114.943878 -7731.466797 632.224731"
+			"angles"		"-0.000000 146.899994 0.000000"
+			"coords"		"C2"
+			"model"		"models/common/props_foliage/lake/rockmedium_vara.mdl"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
+		"5000043"
+		{
+			"className"		"prop_dynamic"
+			"position"		"-187.942291 -7647.549805 632.224731"
+			"angles"		"-0.000000 118.699997 0.000000"
+			"coords"		"C2"
+			"model"		"models/common/props_foliage/lake/rockmedium_vara.mdl"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
+		"5000044"
+		{
+			"className"		"prop_dynamic"
+			"position"		"-212.685181 -7538.649414 632.224731"
+			"angles"		"0.000000 90.400002 0.000000"
+			"coords"		"C2"
+			"model"		"models/common/props_foliage/lake/rockmedium_vara.mdl"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
+		"5000045"
+		{
+			"className"		"prop_dynamic"
+			"position"		"118.660561 -7606.841797 635.031250"
+			"angles"		"0.000000 -11.700000 0.000000"
+			"coords"		"C2"
+			"model"		"models/common/props_foliage/lake/flowerc.mdl"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
+		"5000046"
+		{
+			"className"		"prop_dynamic"
+			"position"		"-61.003639 -7651.445801 635.031250"
+			"angles"		"0.000000 -131.600006 0.000000"
+			"coords"		"C2"
+			"model"		"models/common/props_foliage/lake/flowerc.mdl"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
+		"5000047"
+		{
+			"className"		"prop_dynamic"
+			"position"		"-49.553516 -7431.776855 635.031250"
+			"angles"		"0.000000 177.800003 0.000000"
+			"coords"		"C2"
+			"model"		"models/common/props_foliage/lake/flowerc.mdl"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
+		"5000048"
+		{
+			"className"		"prop_dynamic"
+			"position"		"64.556671 -7653.414551 635.031250"
+			"angles"		"0.000000 -49.600002 0.000000"
+			"coords"		"C2"
+			"model"		"models/common/props_foliage/lake/flowerc.mdl"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
+		"5000049"
+		{
+			"className"		"prop_dynamic"
+			"position"		"-97.351242 -7608.695801 635.031250"
+			"angles"		"0.000000 -123.300003 0.000000"
+			"coords"		"C2"
+			"model"		"models/common/props_foliage/lake/flowerc.mdl"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
+		"5000022"
+		{
+			"className"		"prop_dynamic"
+			"position"		"95.935051 -5166.812012 143.632614"
+			"angles"		"0.000000 207.000000 0.000000"
+			"coords"		"C3"
+			"model"		"models/common/props_foliage/lake/blackcw_tall.mdl"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
+		"5000031"
+		{
+			"className"		"prop_dynamic"
+			"position"		"50.017231 -5128.158203 140.069153"
+			"angles"		"0.000000 -208.500000 0.000000"
+			"coords"		"C3"
+			"model"		"models/common/props_foliage/lake/rockmedium_varb.mdl"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
+		"5000050"
+		{
+			"className"		"prop_dynamic"
+			"position"		"155.568573 -5164.529297 140.069153"
+			"angles"		"0.000000 -203.399994 0.000000"
+			"coords"		"C3"
+			"model"		"models/common/props_foliage/lake/rockmedium_varb.mdl"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
+		"5000051"
+		{
+			"className"		"prop_dynamic"
+			"position"		"53.264084 -5199.914063 140.069153"
+			"angles"		"0.000000 -121.400002 0.000000"
+			"coords"		"C3"
+			"model"		"models/common/props_foliage/lake/rockmedium_varb.mdl"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
+		"5000052"
+		{
+			"className"		"prop_dynamic"
+			"position"		"124.808067 -5077.347656 140.069153"
+			"angles"		"0.000000 -147.200012 0.000000"
+			"coords"		"C3"
+			"model"		"models/common/props_foliage/lake/rockmedium_varb.mdl"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
+		"5000054"
+		{
+			"className"		"prop_dynamic"
+			"position"		"93.147362 -5151.614746 143.632614"
+			"angles"		"0.000000 386.899933 0.000000"
+			"coords"		"C3"
+			"model"		"models/common/props_foliage/lake/blackcw_tall.mdl"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
+		"5000055"
+		{
+			"className"		"prop_dynamic"
+			"position"		"140.751953 -5230.801270 140.069153"
+			"angles"		"0.000000 -227.900009 0.000000"
+			"coords"		"C3"
+			"model"		"models/common/props_foliage/lake/rockmedium_varb.mdl"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
+		"5000056"
+		{
+			"className"		"prop_dynamic"
+			"position"		"427.919006 -7122.196777 543.444397"
+			"angles"		"0.000000 267.600006 0.000000"
+			"coords"		"C3"
+			"name"		"KOTHBlocker"
+			"model"		"models/common/props_foliage/lake/rocklarge_c.mdl"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
+		"5000057"
+		{
+			"className"		"prop_dynamic"
+			"position"		"427.919006 -7122.196289 700.444397"
+			"angles"		"0.000000 267.600006 0.000000"
+			"coords"		"C3"
+			"name"		"KOTHBlocker"
+			"model"		"models/common/props_foliage/lake/rocklarge_c.mdl"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
+		"5000058"
+		{
+			"className"		"prop_dynamic"
+			"position"		"427.919006 -7122.195801 913.344421"
+			"angles"		"0.000000 267.600006 0.000000"
+			"coords"		"C3"
+			"name"		"KOTHBlocker"
+			"model"		"models/common/props_foliage/lake/rocklarge_c.mdl"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
+		"5000059"
+		{
+			"className"		"prop_dynamic"
+			"position"		"-366.980988 -7122.195801 700.444397"
+			"angles"		"0.000000 267.600006 0.000000"
+			"coords"		"C3"
+			"name"		"KOTHBlocker"
+			"model"		"models/common/props_foliage/lake/rocklarge_c.mdl"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
+		"5000060"
+		{
+			"className"		"prop_dynamic"
+			"position"		"-366.980988 -7122.196289 543.444397"
+			"angles"		"0.000000 267.600006 0.000000"
+			"coords"		"C3"
+			"name"		"KOTHBlocker"
+			"model"		"models/common/props_foliage/lake/rocklarge_c.mdl"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
+		"5000061"
+		{
+			"className"		"prop_dynamic"
+			"position"		"-366.980988 -7122.195801 913.344421"
+			"angles"		"0.000000 267.600006 0.000000"
+			"coords"		"C3"
+			"name"		"KOTHBlocker"
+			"model"		"models/common/props_foliage/lake/rocklarge_c.mdl"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
+		"5000062"
+		{
+			"className"		"prop_dynamic"
+			"position"		"11.418991 -7429.496094 1084.144531"
+			"angles"		"75.000000 -92.400002 -0.000001"
+			"coords"		"C2"
+			"name"		"KOTHBlocker"
+			"model"		"models/common/props_foliage/lake/rocklarge_c.mdl"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
+		"5000063"
+		{
+			"className"		"prop_dynamic"
+			"position"		"11.418962 -7637.296387 1084.144531"
+			"angles"		"75.000000 -92.400002 -0.000000"
+			"coords"		"C2"
+			"name"		"KOTHBlocker"
+			"model"		"models/common/props_foliage/lake/rocklarge_c.mdl"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
+		"5000064"
+		{
+			"className"		"prop_dynamic"
+			"position"		"11.418991 -7822.395508 1084.144531"
+			"angles"		"75.000000 -92.400002 -0.000000"
+			"coords"		"C2"
+			"name"		"KOTHBlocker"
+			"model"		"models/common/props_foliage/lake/rocklarge_c.mdl"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
+		"5000065"
+		{
+			"className"		"prop_dynamic"
+			"position"		"11.418992 -8391.395508 1084.144531"
+			"angles"		"75.000000 -92.400002 -0.000000"
+			"coords"		"C2"
+			"name"		"KOTHBlocker"
+			"model"		"models/common/props_foliage/lake/rocklarge_c.mdl"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
+		"5000066"
+		{
+			"className"		"prop_dynamic"
+			"position"		"11.418962 -8206.296875 1084.144531"
+			"angles"		"75.000000 -92.400002 -0.000000"
+			"coords"		"C2"
+			"name"		"KOTHBlocker"
+			"model"		"models/common/props_foliage/lake/rocklarge_c.mdl"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
+		"5000067"
+		{
+			"className"		"prop_dynamic"
+			"position"		"11.418991 -7998.495605 1084.144531"
+			"angles"		"75.000000 -92.400002 -0.000001"
+			"coords"		"C2"
+			"name"		"KOTHBlocker"
+			"model"		"models/common/props_foliage/lake/rocklarge_c.mdl"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
+		"5000069"
+		{
+			"className"		"prop_dynamic"
+			"position"		"11.418962 -8593.596680 1084.144531"
+			"angles"		"75.000000 -92.400002 -0.000000"
+			"coords"		"C2"
+			"name"		"KOTHBlocker"
+			"model"		"models/common/props_foliage/lake/rocklarge_c.mdl"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
+		"5000079"
+		{
+			"className"		"prop_dynamic"
+			"position"		"-376.718414 -7824.320313 666.631226"
+			"angles"		"0.000000 35.700001 0.000000"
+			"coords"		"C2"
+			"model"		"models/props_canal/rock_riverbed01d.mdl"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
+		"5000080"
+		{
+			"className"		"prop_dynamic"
+			"position"		"178.898773 -8327.285156 664.331238"
+			"angles"		"0.000000 -184.699997 0.000000"
+			"coords"		"C2"
+			"model"		"models/props_canal/rock_riverbed02a.mdl"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
+		"5000084"
+		{
+			"className"		"prop_dynamic"
+			"position"		"446.370361 -7790.392090 649.831238"
+			"angles"		"0.000000 -173.100006 0.000000"
+			"coords"		"C2"
+			"model"		"models/props_canal/rock_riverbed01d.mdl"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
+		"5000088"
+		{
+			"className"		"prop_dynamic"
+			"position"		"14.055771 -8772.213867 1084.144531"
+			"angles"		"75.000000 -93.200005 -0.000000"
+			"coords"		"C2"
+			"name"		"KOTHBlocker"
+			"model"		"models/common/props_foliage/lake/rocklarge_c.mdl"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
+		"5000089"
+		{
+			"className"		"prop_dynamic"
+			"position"		"-154.359894 -8534.773438 666.631165"
+			"angles"		"0.000000 -41.500000 0.000000"
+			"coords"		"C2"
+			"model"		"models/props_canal/rock_riverbed01d.mdl"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
+		"5000090"
+		{
+			"className"		"prop_dynamic"
+			"position"		"-196.089752 -8129.547852 664.331177"
+			"angles"		"0.000000 -352.800018 0.000000"
+			"coords"		"C2"
+			"model"		"models/props_canal/rock_riverbed02a.mdl"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
+		"5000091"
+		{
+			"className"		"prop_dynamic"
+			"position"		"-113.457970 -8116.522461 664.331177"
+			"angles"		"0.000000 -182.699997 0.000000"
+			"coords"		"C2"
+			"model"		"models/props_canal/rock_riverbed02a.mdl"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
+		"5000073"
+		{
+			"className"		"info_particle_system"
+			"position"		"-0.322486 -7550.125000 650.031250"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"C2"
+			"name"		"KOTHOpenParticles"
+			"spawnflags"		"0"
+			"active"		"0"
+			"effectName"		"explosion_nuke"
+		}
+		"5000074"
+		{
+			"className"		"info_particle_system"
+			"position"		"-0.322486 -7650.125000 650.031250"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"C2"
+			"name"		"KOTHOpenParticles"
+			"spawnflags"		"0"
+			"active"		"0"
+			"effectName"		"explosion_nuke"
+		}
+		"5000076"
+		{
+			"className"		"emp_comm_restrict"
+			"position"		"-0.322486 -7750.125000 640.031250"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"C2"
+			"Mins"		"-500.000000 -500.000000 -500.000000"
+			"Maxs"		"500.000000 500.000000 500.000000"
+		}
+		"5000075"
+		{
+			"className"		"emp_eng_restrict"
+			"position"		"-0.322486 -7750.125000 640.031250"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"C2"
+			"Mins"		"-500.000000 -500.000000 -500.000000"
+			"Maxs"		"500.000000 500.000000 500.000000"
+			"restrictNF"		"1"
+			"restrictImp"		"1"
+			"turretRestrict"		"0"
 		}
 	}
 }

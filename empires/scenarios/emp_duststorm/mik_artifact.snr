@@ -10,7 +10,7 @@
 		"Introduction"		"After 60 -> ChatText *Gen. Strickland:TXTCLR_DF Listen up, the artifact in the ruins will provide us an enormous technological advantage in the war to come* *Gen. Mendez:TXTCLR_DF Intel has detected an artifact in the south east ruins with enormous strategic value* **"
 		"Introduction2"		"After 65 -> ChatText *Gen. Strickland:TXTCLR_DF Our objective is clear, defend the artifact at any cost.* *Gen. Mendez:TXTCLR_DF Our objective is clear, destroy the artifact at any cost.* **"
 		"Setup"		"TargetName artifact -> AddDamageFilter NoTeamDamage -> HookOutput OnBreak NFVictory -> Run ObjectiveTimer"
-		"ObjectiveTimer"		"TextTimer 1200 *Defend The Artifact\TIME_LEFT  $[m_iHealth]HP* *Destroy The Artifact\TIME_LEFT  $[m_iHealth]HP* -> TargetParams -> Input InputNFWin 0 EndActivator"
+		"ObjectiveTimer"		"TextTimer 1200 *Defend The Artifact\TIME_LEFT  $m_iHealth HP* *Destroy The Artifact\TIME_LEFT  $m_iHealth HP* -> TargetParams -> Input InputNFWin 0 EndActivator"
 		"NFVictory"		"TargetParams -> Input InputImpWin 0 EndActivator"
 		"BlockArty"		"OnCommand *emp_comm_research 34* Handle -> PrintToTarget *Artillery tanks are disabled in this scenario*"
 		"OnGameStart"		"Run Warning AirStrikeExec1 AirStrikeExec2 SmartIdeas AirStrikeExec3"
@@ -82,7 +82,7 @@
 			"name"		"res_1"
 			"effects"		"80"
 			"enabled"		"0"
-			"resPerSecond"		"2.000000"
+			"resPerSecond"		"1.000000"
 		}
 		"5464"
 		{
@@ -93,7 +93,7 @@
 			"name"		"res_2"
 			"effects"		"80"
 			"enabled"		"0"
-			"resPerSecond"		"2.000000"
+			"resPerSecond"		"1.000000"
 		}
 		"24626"
 		{
@@ -137,7 +137,7 @@
 			"name"		"res_7"
 			"effects"		"80"
 			"enabled"		"0"
-			"resPerSecond"		"2.000000"
+			"resPerSecond"		"1.000000"
 		}
 		"25035"
 		{

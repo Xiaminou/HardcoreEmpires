@@ -4,7 +4,7 @@
 	"BE_Res"		"400.000000"
 	"NF_Tickets"		"402.000000"
 	"BE_Tickets"		"402.000000"
-	"Description"		"Hold the middle flag for 10 minutes to win."
+	"Description"		"Hold the middle flag for 5 minutes to win."
 	"details"		" "
 	"Author"		"Mikleo"
 	"BaseSwap"		"-1"
@@ -18,10 +18,10 @@
 		"OnScenarioLoaded"		"Run Setup"
 		"Setup"		"TargetName MainFlag -> HookOutput OnNeutral NeutralTimer -> HookOutput OnImpCap BETimer -> HookOutput OnNFCap NFTimer -> Run StartingTimer"
 		"OnGameStart"		"Run NeutralTimer"
-		"StartingTimer"		"Cancel MainTimer -> TextTimer -1 *King of the Hill\Hold the flag for 10 minutes to win* _ MainTimer"
+		"StartingTimer"		"Cancel MainTimer -> TextTimer -1 *King of the Hill\Hold the flag for 5 minutes to win* _ MainTimer"
 		"NeutralTimer"		"Cancel MainTimer -> TextTimer -1 *Flag Neutral* _ MainTimer"
-		"BETimer"		"Cancel MainTimer -> TextTimer 600 *BE Victory in TIME_LEFT\* _ MainTimer -> TargetParams -> Input InputImpWin 0 "
-		"NFTimer"		"Cancel MainTimer -> TextTimer 600 *NF Victory in TIME_LEFT\* _ MainTimer -> TargetParams -> Input InputNFWin 0 "
+		"BETimer"		"Cancel MainTimer -> TextTimer 300 *BE Victory in TIME_LEFT\* _ MainTimer -> TargetParams -> Input InputImpWin 0 "
+		"NFTimer"		"Cancel MainTimer -> TextTimer 300 *NF Victory in TIME_LEFT\* _ MainTimer -> TargetParams -> Input InputNFWin 0 "
 	}
 	"NF_Research"
 	{
