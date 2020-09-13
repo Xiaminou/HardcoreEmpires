@@ -1,9 +1,10 @@
 "Scenario"
 {
-	"Description"	"Restore the turrets outside main base"
-	"details"	" "
-	"Tags"		" "
-	"Author"	"Xiam"
+	"Description"		"Restore the turrets outside main base"
+	"details"		" "
+	"Tags"			" "
+	"Author"		"Xiam"
+	"CanBaseSwap"		"yes"
 	"Entities"
 	{
 		"321699"

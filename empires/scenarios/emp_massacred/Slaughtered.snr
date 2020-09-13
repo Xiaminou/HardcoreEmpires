@@ -893,6 +893,6 @@
 	}
 	"Description"		"[Type: Location] Start at North-West (A5) and South-West (A1)"
 	"Author"		"Xiam"
-	"BaseSwap"		"1"
+	"CanBaseSwap"		"yes"
 	"version"		"0.380000"
 }

@@ -283,6 +283,6 @@
 	"Description"		"[Type: Location] Start at South-West (A2) and North-East (D4)"
 	"details"		" "
 	"Author"		"Xiam"
-	"BaseSwap"		"1"
+	"CanBaseSwap"		"yes"
 	"version"		"0.530000"
 }

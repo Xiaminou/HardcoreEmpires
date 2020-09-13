@@ -524,6 +524,6 @@
 	}
 	"Description"		"[Type: Gameplay] Start with a Vehicle Factory but -200 resources"
 	"Author"		"Xiam"
-	"BaseSwap"		"1"
+	"CanBaseSwap"		"yes"
 	"version"		"0.380000"
 }

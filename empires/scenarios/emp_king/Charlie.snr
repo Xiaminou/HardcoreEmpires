@@ -2328,7 +2328,7 @@
 	"Description"		"[Type: Gameplay] Restricted the play-area to the North-West Corridor and the tunnels leading to the Tower"
 	"Details"		"Start at North-East and South-West"
 	"Author"		"Xiam"
-	"BaseSwap"		"1"
+	"CanBaseSwap"		"yes"
 	"CommFreezeTime"		"-1"
 	"PlayerRefineryMultiplier"		"-1.000000"
 	"RefineryMultiplier"		"-1.000000"

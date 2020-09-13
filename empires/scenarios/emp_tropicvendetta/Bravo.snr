@@ -1417,6 +1417,6 @@
 	}
 	"Description"		"[Type: Gameplay] Start with a barracks and the command vehicle on the ground"
 	"Author"		"Xiam"
-	"BaseSwap"		"0"
+	"CanBaseSwap"		"no"
 	"version"		"0.300000"
 }

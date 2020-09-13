@@ -300,7 +300,7 @@
 	"Description"		"[Type: Gameplay] Start in the middle (C2 & C3)"
 	"details"		"Barracks have 1000 HP"
 	"Author"		"Xiam"
-	"BaseSwap"		"1"
+	"CanBaseSwap"		"yes"
 	"CommFreezeTime"		"1"
 	"PlayerRefineryMultiplier"		"-1.000000"
 	"RefineryMultiplier"		"-1.000000"

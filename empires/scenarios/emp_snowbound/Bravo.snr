@@ -1695,7 +1695,7 @@
 	"Description"		"[Type: Location & Gameplay] Start in middle (B3 & C2)"
 	"details"		"Command Vehicles have no freeze time"
 	"Author"		"Xiam"
-	"BaseSwap"		"1"
+	"CanBaseSwap"		"yes"
 	"CommFreezeTime"		"1"
 	"PlayerRefineryMultiplier"		"-1.000000"
 	"RefineryMultiplier"		"-1.000000"

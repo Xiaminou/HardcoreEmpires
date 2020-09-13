@@ -1047,6 +1047,6 @@
 	}
 	"Description"		"[Type: Location & Gameplay] Start South-middle (B2) and North-middle (B3)"
 	"Author"		"Xiam"
-	"BaseSwap"		"1"
+	"CanBaseSwap"		"yes"
 	"version"		"0.310000"
 }

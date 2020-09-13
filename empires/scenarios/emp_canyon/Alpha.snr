@@ -1323,7 +1323,7 @@
 	}
 	"Description"		"[Type: Quality of Life] Start with an additionnal refinery"
 	"Author"		"Xiam"
-	"BaseSwap"		"1"
+	"CanBaseSwap"		"yes"
 	"CommFreezeTime"		"-1"
 	"version"		"0.680000"
 	"hLimit"		"127402"

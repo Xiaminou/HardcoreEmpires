@@ -2002,6 +2002,6 @@
 	}
 	"Description"		"2 additional flags in the southern and northern forests"
 	"Author"		"Mikleo"
-	"BaseSwap"		"0"
+	"CanBaseSwap"		"no"
 	"version"		"0.310000"
 }

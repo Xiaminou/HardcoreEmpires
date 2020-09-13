@@ -238,6 +238,6 @@
 	}
 	"Description"		"[Type: Quality of Life] Start with a VF but -200 resources"
 	"Author"		"Xiam"
-	"BaseSwap"		"1"
+	"CanBaseSwap"		"yes"
 	"version"		"0.330000"
 }

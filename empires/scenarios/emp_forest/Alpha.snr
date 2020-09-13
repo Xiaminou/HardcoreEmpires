@@ -439,6 +439,6 @@
 	}
 	"Description"		"[Type: Gameplay & Location] Start in the middle (C3 & E5)"
 	"Author"		"Xiam"
-	"BaseSwap"		"1"
+	"CanBaseSwap"		"yes"
 	"version"		"0.380000"
 }

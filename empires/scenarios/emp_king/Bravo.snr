@@ -2537,7 +2537,7 @@
 	"Description"		"[Type: Gameplay] Restricted the play-area to the Warehouse"
 	"details"		"Start at each end of the Warehouse with a refinery and a barracks.\This low resource scenario focuses on infantry combat."
 	"Author"		"Xiam"
-	"BaseSwap"		"1"
+	"CanBaseSwap"		"yes"
 	"CommFreezeTime"		"-1"
 	"PlayerRefineryMultiplier"		"-1"
 	"RefineryMultiplier"		"1"

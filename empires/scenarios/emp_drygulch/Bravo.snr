@@ -1658,6 +1658,6 @@
 	"Description"		"[Type: Gameplay] Start with additionnal refineries and forward barracks but no vehicle factory"
 	"details"		"Capture points give 1 resource/s and take one player to capture each"
 	"Author"		"Xiam"
-	"BaseSwap"		"1"
+	"CanBaseSwap"		"yes"
 	"version"		"0.600000"
 }

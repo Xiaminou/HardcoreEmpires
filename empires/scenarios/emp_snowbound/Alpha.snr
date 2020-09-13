@@ -1721,7 +1721,7 @@
 	"Description"		"[Type: Location] Start in South-West (A1) and North-East (D4)"
 	"details"		" "
 	"Author"		"Xiam"
-	"BaseSwap"		"1"
+	"CanBaseSwap"		"yes"
 	"CommFreezeTime"		"-1"
 	"PlayerRefineryMultiplier"		"-1.000000"
 	"RefineryMultiplier"		"-1.000000"

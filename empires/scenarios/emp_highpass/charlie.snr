@@ -1007,9 +1007,9 @@
 		}
 	}
 	"Description"		"[Type: Override] Start in the middle (C2 & C4)"
-	"details"		"Barracks have 500 HP"
+	"details"		"Barracks have 500 HP\Flags are Neutral"
 	"Author"		"Xiam"
-	"BaseSwap"		"-1"
+	
 	"CommFreezeTime"		"1"
 	"PlayerRefineryMultiplier"		"-1.000000"
 	"RefineryMultiplier"		"-1.000000"

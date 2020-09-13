@@ -3542,7 +3542,7 @@
 	}
 	"Description"		"[Type: Gameplay & Location] Start South-West (A1) and North-East (D5)"
 	"Author"		"Xiam"
-	"BaseSwap"		"1"
+	"CanBaseSwap"		"yes"
 	"CommFreezeTime"		"-1"
 	"version"		"0.680000"
 	"hLimit"		"1091597"

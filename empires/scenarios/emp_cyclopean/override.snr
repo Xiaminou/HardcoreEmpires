@@ -4,7 +4,7 @@
 	"details"		"You can no longer place barracks on top of the North-Western Tower (A5) and the City Building (D1)"
 	"Tags"		" "
 	"Author"		"Xiam"
-	"version"		"1.170000"
+	"version"		"1.190000"
 	"hLimit"		"549313"
 	"NF_Res"		"400.200012"
 	"BE_Res"		"400.200012"
@@ -16,21 +16,21 @@
 		"321735"
 		{
 			"className"		"emp_imp_commander"
-			"position"		"-11638.695313 -12230.690430 3308.385742"
-			"angles"		"0.287577 -44.996471 1.251918"
+			"position"		"-11643.194336 -12234.782227 3308.369385"
+			"angles"		"0.287598 -45.032295 1.247261"
 			"coords"		"A1"
 		}
 		"321757"
 		{
 			"className"		"emp_nf_commander"
-			"position"		"12243.098633 11394.697266 3382.326172"
-			"angles"		"0.000006 134.973602 -0.585938"
+			"position"		"12248.397461 11399.567383 3382.326904"
+			"angles"		"0.000002 134.948975 -0.585663"
 			"coords"		"E5"
 		}
 		"321749"
 		{
 			"className"		"emp_nf_ammo_crate"
-			"position"		"-7086.959473 -9060.919922 3697.280029"
+			"position"		"-7086.958008 -9060.919922 3697.280029"
 			"angles"		"0.000000 180.000000 0.000000"
 			"coords"		"B2"
 			"pointNumber"		"0"
@@ -50,7 +50,7 @@
 		"321753"
 		{
 			"className"		"emp_nf_ammo_crate"
-			"position"		"-11684.700195 -7630.919434 3697.280029"
+			"position"		"-11684.700195 -7630.917969 3697.280029"
 			"angles"		"0.000000 270.000000 0.000000"
 			"coords"		"A2"
 			"pointNumber"		"0"
@@ -120,7 +120,7 @@
 		"321761"
 		{
 			"className"		"emp_nf_health_crate"
-			"position"		"-11596.700195 -7630.919434 3697.280029"
+			"position"		"-11596.700195 -7630.917969 3697.280029"
 			"angles"		"0.000000 270.000000 0.000000"
 			"coords"		"A2"
 			"pointNumber"		"0"
@@ -201,7 +201,7 @@
 		"321767"
 		{
 			"className"		"emp_resource_point"
-			"position"		"-9011.656250 -10985.400391 3305.229980"
+			"position"		"-9011.653320 -10985.400391 3305.229980"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"B1"
 			"name"		"point1"
@@ -245,7 +245,7 @@
 		"321777"
 		{
 			"className"		"emp_resource_point"
-			"position"		"-8639.656250 8095.348145 4781.770020"
+			"position"		"-8639.653320 8095.346680 4781.770020"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"B4"
 			"name"		"point4"
@@ -383,7 +383,7 @@
 		"321801"
 		{
 			"className"		"emp_resource_point_prop"
-			"position"		"-8639.656250 8095.348145 4781.770020"
+			"position"		"-8639.653320 8095.346680 4781.770020"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"B4"
 			"name"		"res4"
@@ -393,7 +393,7 @@
 		"321803"
 		{
 			"className"		"emp_resource_point_prop"
-			"position"		"-9011.656250 -10985.400391 3305.229980"
+			"position"		"-9011.653320 -10985.400391 3305.229980"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"B1"
 			"name"		"res1"
@@ -483,7 +483,7 @@
 		"322097"
 		{
 			"className"		"env_smokestack"
-			"position"		"-8623.656250 8111.348145 4844.770020"
+			"position"		"-8623.653320 8111.346680 4844.770020"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"B4"
 			"name"		"smoke4"
@@ -603,7 +603,7 @@
 		"322111"
 		{
 			"className"		"env_smokestack"
-			"position"		"-8995.656250 -10969.400391 3368.229980"
+			"position"		"-8995.653320 -10969.400391 3368.229980"
 			"angles"		"0.000000 0.000000 0.000000"
 			"Parent"		"res1"
 			"coords"		"B1"
@@ -734,7 +734,7 @@
 			"eng_restrict_Imp"		"0"
 			"turretRestrict"		"0"
 		}
-		"5000014"
+		"5000170"
 		{
 			"className"		"emp_building_nf_barracks"
 			"position"		"11048.000000 10052.000000 3300.219971"
@@ -745,7 +745,7 @@
 			"health"		"250"
 			"team"		"2"
 		}
-		"5000015"
+		"5000171"
 		{
 			"className"		"emp_building_imp_barracks"
 			"position"		"-10240.000000 -10986.200195 3300.219971"
@@ -756,7 +756,7 @@
 			"health"		"250"
 			"team"		"3"
 		}
-		"5000024"
+		"5000180"
 		{
 			"className"		"emp_building_nf_refinery"
 			"position"		"9868.000000 10070.000000 3306.000000"
@@ -768,7 +768,7 @@
 			"team"		"2"
 			"target"		"point7"
 		}
-		"5000025"
+		"5000181"
 		{
 			"className"		"emp_building_nf_refinery"
 			"position"		"11060.000000 8938.000000 3306.000000"
@@ -780,7 +780,7 @@
 			"team"		"2"
 			"target"		"point8"
 		}
-		"5000026"
+		"5000182"
 		{
 			"className"		"emp_building_imp_refinery"
 			"position"		"-10252.000000 -9704.000000 3306.000000"
@@ -792,7 +792,7 @@
 			"team"		"3"
 			"target"		"point2"
 		}
-		"5000027"
+		"5000183"
 		{
 			"className"		"emp_building_imp_refinery"
 			"position"		"-9012.000000 -10986.000000 3306.000000"
@@ -804,7 +804,7 @@
 			"team"		"3"
 			"target"		"point1"
 		}
-		"5000028"
+		"5000184"
 		{
 			"className"		"prop_dynamic"
 			"position"		"6980.000000 -1060.000000 2252.000000"
@@ -815,7 +815,7 @@
 			"MoveType"		"0"
 			"SolidType"		"6"
 		}
-		"5000029"
+		"5000185"
 		{
 			"className"		"prop_dynamic"
 			"position"		"-1980.000000 824.000000 2160.000000"
@@ -826,7 +826,7 @@
 			"MoveType"		"0"
 			"SolidType"		"6"
 		}
-		"5000030"
+		"5000186"
 		{
 			"className"		"prop_dynamic"
 			"position"		"-2452.000000 -5452.000000 2248.000000"
@@ -837,7 +837,7 @@
 			"MoveType"		"0"
 			"SolidType"		"6"
 		}
-		"5000031"
+		"5000187"
 		{
 			"className"		"prop_dynamic"
 			"position"		"3432.000000 -8340.000000 2212.000000"
@@ -848,7 +848,7 @@
 			"MoveType"		"0"
 			"SolidType"		"6"
 		}
-		"5000032"
+		"5000188"
 		{
 			"className"		"prop_dynamic"
 			"position"		"-2396.000000 -7844.000000 2540.000000"
@@ -859,7 +859,7 @@
 			"MoveType"		"0"
 			"SolidType"		"6"
 		}
-		"5000033"
+		"5000189"
 		{
 			"className"		"prop_dynamic"
 			"position"		"-5848.000000 -9528.000000 3252.000000"
@@ -870,7 +870,7 @@
 			"MoveType"		"0"
 			"SolidType"		"6"
 		}
-		"5000034"
+		"5000190"
 		{
 			"className"		"prop_dynamic"
 			"position"		"-11884.000000 -5856.000000 3232.000000"
@@ -881,7 +881,7 @@
 			"MoveType"		"0"
 			"SolidType"		"6"
 		}
-		"5000035"
+		"5000191"
 		{
 			"className"		"prop_dynamic"
 			"position"		"9312.000000 5676.000000 3196.000000"
@@ -892,7 +892,7 @@
 			"MoveType"		"0"
 			"SolidType"		"6"
 		}
-		"5000036"
+		"5000192"
 		{
 			"className"		"prop_dynamic"
 			"position"		"2052.000000 -2856.000000 2180.000000"
@@ -903,7 +903,7 @@
 			"MoveType"		"0"
 			"SolidType"		"6"
 		}
-		"5000037"
+		"5000193"
 		{
 			"className"		"prop_dynamic"
 			"position"		"-988.000000 -6948.000000 2208.000000"
@@ -914,7 +914,7 @@
 			"MoveType"		"0"
 			"SolidType"		"6"
 		}
-		"5000038"
+		"5000194"
 		{
 			"className"		"prop_dynamic"
 			"position"		"-4432.000000 -4832.000000 2144.000000"
@@ -925,7 +925,7 @@
 			"MoveType"		"0"
 			"SolidType"		"6"
 		}
-		"5000039"
+		"5000195"
 		{
 			"className"		"prop_dynamic"
 			"position"		"-4032.000000 4984.000000 2232.000000"
@@ -936,7 +936,7 @@
 			"MoveType"		"0"
 			"SolidType"		"6"
 		}
-		"5000040"
+		"5000196"
 		{
 			"className"		"prop_dynamic"
 			"position"		"-3020.000000 6268.000000 2296.000000"
@@ -947,7 +947,7 @@
 			"MoveType"		"0"
 			"SolidType"		"6"
 		}
-		"5000041"
+		"5000197"
 		{
 			"className"		"prop_dynamic"
 			"position"		"5680.000000 3608.000000 2452.000000"
@@ -958,7 +958,7 @@
 			"MoveType"		"0"
 			"SolidType"		"6"
 		}
-		"5000042"
+		"5000198"
 		{
 			"className"		"prop_dynamic"
 			"position"		"3644.000000 4600.000000 2304.000000"
@@ -969,7 +969,7 @@
 			"MoveType"		"0"
 			"SolidType"		"6"
 		}
-		"5000043"
+		"5000199"
 		{
 			"className"		"prop_dynamic"
 			"position"		"-5460.000000 -1660.000000 2196.000000"
@@ -980,7 +980,7 @@
 			"MoveType"		"0"
 			"SolidType"		"6"
 		}
-		"5000044"
+		"5000200"
 		{
 			"className"		"prop_dynamic"
 			"position"		"-5372.000000 788.000000 2256.000000"
@@ -991,7 +991,7 @@
 			"MoveType"		"0"
 			"SolidType"		"6"
 		}
-		"5000045"
+		"5000201"
 		{
 			"className"		"prop_dynamic"
 			"position"		"11892.000000 1392.000000 3292.000000"
@@ -1002,7 +1002,7 @@
 			"MoveType"		"0"
 			"SolidType"		"6"
 		}
-		"5000046"
+		"5000202"
 		{
 			"className"		"prop_dynamic"
 			"position"		"-5732.000000 2308.000000 2644.000000"
@@ -1013,7 +1013,7 @@
 			"MoveType"		"0"
 			"SolidType"		"6"
 		}
-		"5000047"
+		"5000203"
 		{
 			"className"		"prop_dynamic"
 			"position"		"11948.000000 4876.000000 3264.000000"
@@ -1024,7 +1024,7 @@
 			"MoveType"		"0"
 			"SolidType"		"6"
 		}
-		"5000048"
+		"5000204"
 		{
 			"className"		"prop_dynamic"
 			"position"		"7604.000000 1141.000000 2557.000000"
@@ -1035,7 +1035,7 @@
 			"MoveType"		"0"
 			"SolidType"		"6"
 		}
-		"5000049"
+		"5000205"
 		{
 			"className"		"prop_dynamic"
 			"position"		"-6704.000000 -2684.000000 2380.000000"
@@ -1046,7 +1046,7 @@
 			"MoveType"		"0"
 			"SolidType"		"6"
 		}
-		"5000050"
+		"5000206"
 		{
 			"className"		"prop_dynamic"
 			"position"		"-6090.000000 10353.000000 3614.000000"
@@ -1057,7 +1057,7 @@
 			"MoveType"		"0"
 			"SolidType"		"6"
 		}
-		"5000051"
+		"5000207"
 		{
 			"className"		"prop_dynamic"
 			"position"		"-2727.000000 -10773.000000 3146.000000"
@@ -1068,7 +1068,7 @@
 			"MoveType"		"0"
 			"SolidType"		"6"
 		}
-		"5000052"
+		"5000208"
 		{
 			"className"		"prop_dynamic"
 			"position"		"4888.000000 9196.000000 3752.000000"
@@ -1079,7 +1079,7 @@
 			"MoveType"		"0"
 			"SolidType"		"6"
 		}
-		"5000053"
+		"5000209"
 		{
 			"className"		"prop_dynamic"
 			"position"		"-11744.000000 768.000000 3688.000000"
@@ -1090,7 +1090,7 @@
 			"MoveType"		"0"
 			"SolidType"		"6"
 		}
-		"5000054"
+		"5000210"
 		{
 			"className"		"prop_dynamic"
 			"position"		"2066.000000 -13441.099609 3229.330078"
@@ -1101,7 +1101,7 @@
 			"MoveType"		"0"
 			"SolidType"		"6"
 		}
-		"5000055"
+		"5000211"
 		{
 			"className"		"prop_dynamic"
 			"position"		"-10100.000000 8548.000000 4072.000000"
@@ -1112,7 +1112,7 @@
 			"MoveType"		"0"
 			"SolidType"		"6"
 		}
-		"5000056"
+		"5000212"
 		{
 			"className"		"prop_dynamic"
 			"position"		"-10852.000000 12276.000000 4069.000000"
@@ -1123,47 +1123,47 @@
 			"MoveType"		"0"
 			"SolidType"		"6"
 		}
-		"5000057"
+		"5000213"
 		{
 			"className"		"prop_dynamic"
-			"position"		"-9903.353516 13312.248047 5152.029297"
+			"position"		"-9903.353516 13312.248047 5152.028809"
 			"angles"		"0.000000 -90.000000 0.000000"
 			"coords"		"A5"
 			"model"		"models/imperial/props/imp_crate3.mdl"
 			"MoveType"		"0"
 			"SolidType"		"6"
 		}
-		"5000058"
+		"5000214"
 		{
 			"className"		"prop_dynamic"
-			"position"		"-9577.321289 13314.469727 5152.029297"
+			"position"		"-9577.316406 13314.469727 5152.028809"
 			"angles"		"0.000000 -90.000000 0.000000"
 			"coords"		"A5"
 			"model"		"models/imperial/props/imp_crate2.mdl"
 			"MoveType"		"0"
 			"SolidType"		"6"
 		}
-		"5000059"
+		"5000215"
 		{
 			"className"		"prop_dynamic"
-			"position"		"-9971.108398 13319.583008 5152.029297"
+			"position"		"-9971.103516 13319.583008 5152.028809"
 			"angles"		"0.000000 -90.000000 0.000000"
 			"coords"		"A5"
 			"model"		"models/imperial/props/imp_crate1.mdl"
 			"MoveType"		"0"
 			"SolidType"		"6"
 		}
-		"5000060"
+		"5000216"
 		{
 			"className"		"prop_dynamic"
-			"position"		"-9277.765625 13891.193359 5152.028809"
+			"position"		"-9277.765625 13891.188477 5152.028809"
 			"angles"		"0.000000 -180.000000 0.000000"
 			"coords"		"A5"
 			"model"		"models/imperial/props/imp_crate1.mdl"
 			"MoveType"		"0"
 			"SolidType"		"6"
 		}
-		"5000061"
+		"5000217"
 		{
 			"className"		"prop_dynamic"
 			"position"		"-9285.100586 13823.440430 5152.028809"
@@ -1173,7 +1173,7 @@
 			"MoveType"		"0"
 			"SolidType"		"6"
 		}
-		"5000062"
+		"5000218"
 		{
 			"className"		"prop_dynamic"
 			"position"		"-10195.254883 13671.100586 5152.028809"
@@ -1183,17 +1183,17 @@
 			"MoveType"		"0"
 			"SolidType"		"6"
 		}
-		"5000063"
+		"5000219"
 		{
 			"className"		"prop_dynamic"
-			"position"		"-10266.947266 13769.106445 5050.984375"
+			"position"		"-10266.947266 13769.103516 5050.984375"
 			"angles"		"0.000000 -360.000000 15.000000"
 			"coords"		"A5"
 			"model"		"models/imperial/props/imp_crate3.mdl"
 			"MoveType"		"0"
 			"SolidType"		"6"
 		}
-		"5000064"
+		"5000220"
 		{
 			"className"		"prop_dynamic"
 			"position"		"-9654.554688 13725.248047 5152.028809"
@@ -1203,27 +1203,27 @@
 			"MoveType"		"0"
 			"SolidType"		"6"
 		}
-		"5000065"
+		"5000221"
 		{
 			"className"		"prop_dynamic"
-			"position"		"-9711.108398 13651.482422 5152.028809"
+			"position"		"-9711.103516 13651.482422 5152.028809"
 			"angles"		"0.000000 -90.000000 0.000000"
 			"coords"		"A5"
 			"model"		"models/imperial/props/imp_crate1.mdl"
 			"MoveType"		"0"
 			"SolidType"		"6"
 		}
-		"5000066"
+		"5000222"
 		{
 			"className"		"prop_dynamic"
-			"position"		"-9711.319336 13727.530273 5152.028809"
+			"position"		"-9711.314453 13727.530273 5152.028809"
 			"angles"		"0.000000 -90.000000 0.000000"
 			"coords"		"A5"
 			"model"		"models/imperial/props/imp_crate2.mdl"
 			"MoveType"		"0"
 			"SolidType"		"6"
 		}
-		"5000067"
+		"5000223"
 		{
 			"className"		"prop_dynamic"
 			"position"		"-9636.220703 13648.831055 5152.028809"
@@ -1233,27 +1233,57 @@
 			"MoveType"		"0"
 			"SolidType"		"6"
 		}
-		"5000013"
+		"5000224"
 		{
 			"className"		"prop_dynamic"
-			"position"		"6412.204590 -13918.839844 4192.030762"
+			"position"		"6412.204590 -13918.839844 4192.028809"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"D1"
 			"model"		"models/imperial/props/imp_crate1.mdl"
 			"MoveType"		"0"
 			"SolidType"		"6"
 		}
-		"5000068"
+		"5000225"
 		{
 			"className"		"prop_dynamic"
-			"position"		"6412.799316 -13269.843750 4192.030273"
+			"position"		"6412.799316 -13269.843750 4192.028809"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"D1"
 			"model"		"models/imperial/props/imp_crate1.mdl"
 			"MoveType"		"0"
 			"SolidType"		"6"
 		}
-		"5000069"
+		"5000226"
+		{
+			"className"		"prop_dynamic"
+			"position"		"-10140.547852 5314.532227 4736.151855"
+			"angles"		"0.000000 225.000000 0.000000"
+			"coords"		"A4"
+			"model"		"models/props_canal/rock_riverbed02a.mdl"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
+		"5000227"
+		{
+			"className"		"prop_dynamic"
+			"position"		"-10674.820313 6047.590820 4744.626953"
+			"angles"		"0.000000 90.000000 0.000000"
+			"coords"		"A4"
+			"model"		"models/props_canal/rock_riverbed01d.mdl"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
+		"5000228"
+		{
+			"className"		"prop_dynamic"
+			"position"		"-9711.916016 5662.713867 4757.312500"
+			"angles"		"0.000000 -104.000000 0.000000"
+			"coords"		"A4"
+			"model"		"models/props_canal/rock_riverbed01c.mdl"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
+		"5000229"
 		{
 			"className"		"emp_comm_restrict"
 			"position"		"0.000000 0.000000 0.000000"
@@ -1262,7 +1292,7 @@
 			"Mins"		"-14553.000000 -7889.000000 4044.000000"
 			"Maxs"		"-7351.000000 -7503.000000 4193.000000"
 		}
-		"5000070"
+		"5000230"
 		{
 			"className"		"emp_comm_restrict"
 			"position"		"0.000000 0.000000 0.000000"
@@ -1271,7 +1301,7 @@
 			"Mins"		"-7353.000000 -16049.000000 4044.000000"
 			"Maxs"		"-6967.000000 -7503.000000 4193.000000"
 		}
-		"5000071"
+		"5000231"
 		{
 			"className"		"emp_comm_restrict"
 			"position"		"0.000000 0.000000 0.000000"
@@ -1280,7 +1310,7 @@
 			"Mins"		"7423.000000 6719.000000 4059.000000"
 			"Maxs"		"7809.000000 15265.000000 4193.000000"
 		}
-		"5000072"
+		"5000232"
 		{
 			"className"		"emp_comm_restrict"
 			"position"		"0.000000 0.000000 0.000000"
@@ -1289,7 +1319,7 @@
 			"Mins"		"7423.000000 6719.000000 4059.000000"
 			"Maxs"		"15009.000000 7105.000000 4193.000000"
 		}
-		"5000073"
+		"5000233"
 		{
 			"className"		"emp_comm_restrict"
 			"position"		"0.000000 0.000000 0.000000"
@@ -1298,7 +1328,7 @@
 			"Mins"		"11359.000000 -12913.000000 4367.000000"
 			"Maxs"		"12737.000000 -10887.000000 4617.000000"
 		}
-		"5000074"
+		"5000234"
 		{
 			"className"		"emp_comm_restrict"
 			"position"		"0.000000 0.000000 0.000000"
@@ -1307,7 +1337,7 @@
 			"Mins"		"6111.000000 -12961.000000 3583.000000"
 			"Maxs"		"6753.000000 -11455.000000 3945.000000"
 		}
-		"5000075"
+		"5000235"
 		{
 			"className"		"emp_comm_restrict"
 			"position"		"0.000000 0.000000 0.000000"
@@ -1316,7 +1346,7 @@
 			"Mins"		"11327.000000 -8865.000000 3799.000000"
 			"Maxs"		"12353.000000 -7807.000000 4001.000000"
 		}
-		"5000076"
+		"5000236"
 		{
 			"className"		"emp_eng_restrict"
 			"position"		"0.000000 0.000000 0.000000"
@@ -1328,7 +1358,7 @@
 			"restrictImp"		"1"
 			"turretRestrict"		"0"
 		}
-		"5000077"
+		"5000237"
 		{
 			"className"		"emp_eng_restrict"
 			"position"		"0.000000 0.000000 0.000000"
@@ -1340,7 +1370,7 @@
 			"restrictImp"		"1"
 			"turretRestrict"		"0"
 		}
-		"5000078"
+		"5000238"
 		{
 			"className"		"emp_eng_restrict"
 			"position"		"0.000000 0.000000 0.000000"
@@ -1352,7 +1382,7 @@
 			"restrictImp"		"1"
 			"turretRestrict"		"0"
 		}
-		"5000079"
+		"5000239"
 		{
 			"className"		"emp_eng_restrict"
 			"position"		"0.000000 0.000000 0.000000"
@@ -1364,7 +1394,7 @@
 			"restrictImp"		"1"
 			"turretRestrict"		"0"
 		}
-		"5000080"
+		"5000240"
 		{
 			"className"		"emp_eng_restrict"
 			"position"		"0.000000 0.000000 0.000000"
@@ -1376,7 +1406,7 @@
 			"restrictImp"		"1"
 			"turretRestrict"		"0"
 		}
-		"5000081"
+		"5000241"
 		{
 			"className"		"emp_eng_restrict"
 			"position"		"0.000000 0.000000 0.000000"
@@ -1388,7 +1418,7 @@
 			"restrictImp"		"1"
 			"turretRestrict"		"0"
 		}
-		"5000082"
+		"5000242"
 		{
 			"className"		"emp_eng_restrict"
 			"position"		"0.000000 0.000000 0.000000"
@@ -1400,7 +1430,7 @@
 			"restrictImp"		"1"
 			"turretRestrict"		"0"
 		}
-		"5000083"
+		"5000243"
 		{
 			"className"		"emp_eng_restrict"
 			"position"		"0.000000 0.000000 0.000000"
@@ -1412,7 +1442,7 @@
 			"restrictImp"		"1"
 			"turretRestrict"		"0"
 		}
-		"5000084"
+		"5000244"
 		{
 			"className"		"emp_eng_restrict"
 			"position"		"0.000000 0.000000 0.000000"
@@ -1424,7 +1454,7 @@
 			"restrictImp"		"1"
 			"turretRestrict"		"0"
 		}
-		"5000085"
+		"5000245"
 		{
 			"className"		"emp_eng_restrict"
 			"position"		"0.000000 0.000000 0.000000"

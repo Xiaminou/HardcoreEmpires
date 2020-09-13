@@ -1301,7 +1301,7 @@
 	}
 	"Description"		"[Type: Location & Gameplay] Start South and North middle"
 	"Author"		"Xiam"
-	"BaseSwap"		"1"
+	"CanBaseSwap"		"yes"
 	"CommFreezeTime"		"-1"
 	"version"		"0.680000"
 	"hLimit"		"127402"

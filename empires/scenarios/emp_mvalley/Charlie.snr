@@ -407,7 +407,7 @@
 	"Description"		"[Type: Location & Gameplay] Start North (C5 & D5)"
 	"Details"		"Barracks have 500 HP and Refineries have 300 HP"
 	"Author"		"Xiam"
-	"BaseSwap"		"1"
+	"CanBaseSwap"		"yes"
 	"CommFreezeTime"		"1"
 	"PlayerRefineryMultiplier"		"-1.000000"
 	"RefineryMultiplier"		"-1.000000"

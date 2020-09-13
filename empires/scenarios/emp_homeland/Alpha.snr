@@ -1058,6 +1058,6 @@
 	}
 	"Description"		"[Type: Location] Start South-West (A1) and South-East (C1)"
 	"Author"		"Xiam"
-	"BaseSwap"		"1"
+	"CanBaseSwap"		"yes"
 	"version"		"0.310000"
 }

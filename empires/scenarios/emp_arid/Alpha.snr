@@ -3564,7 +3564,7 @@
 	}
 	"Description"		"[Type: Gameplay] Removes starting turrets"
 	"Author"		"Xiam"
-	"BaseSwap"		"1"
+	"CanBaseSwap"		"yes"
 	"CommFreezeTime"		"-1"
 	"version"		"0.680000"
 	"hLimit"		"1091597"

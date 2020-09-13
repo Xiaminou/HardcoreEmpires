@@ -2304,7 +2304,7 @@
 	"Description"		"[Type: Gameplay] Restricted the play-area to the Warehouse and the Middle Bridge"
 	"Details"		"Start at each end of the Warehouse with a refinery and a barracks"
 	"Author"		"Xiam"
-	"BaseSwap"		"1"
+	"CanBaseSwap"		"yes"
 	"CommFreezeTime"		"-1"
 	"PlayerRefineryMultiplier"		"-1.000000"
 	"RefineryMultiplier"		"-1.000000"

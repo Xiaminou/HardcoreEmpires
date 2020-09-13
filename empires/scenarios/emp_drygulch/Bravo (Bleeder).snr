@@ -1658,6 +1658,6 @@
 	"Description"		"[Type: Gameplay] Combines Bravo and Bleeder"
 	"details"		"Start with additionnal refineries and forward barracks but no vehicle factory. The capture point opposite of your entrance to middle takes one reinforcement every minute from the enemy team"
 	"Author"		"Xiam"
-	"BaseSwap"		"1"
+	"CanBaseSwap"		"yes"
 	"version"		"0.600000"
 }

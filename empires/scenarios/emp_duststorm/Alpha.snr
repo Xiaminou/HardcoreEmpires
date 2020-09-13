@@ -725,7 +725,7 @@
 	}
 	"Description"		"[Type: Quality of Life] Start with 2 additionnal refineries but -100 resources"
 	"Author"		"Xiam"
-	"BaseSwap"		"1"
+	"CanBaseSwap"		"yes"
 	"CommFreezeTime"		"-1"
 	"version"		"0.680000"
 	"hLimit"		"25100"

@@ -1,0 +1,927 @@
+"Scenario"
+{
+	"Description"		" "
+	"details"		" "
+	"Tags"		" "
+	"Author"		"Xiam"
+	"NF_Res"		"400.000000"
+	"BE_Res"		"400.000000"
+	"NF_Tickets"		"393.000000"
+	"BE_Tickets"		"393.000000"
+	"version"		"1.190000"
+	"hLimit"		"1083800"
+	"CanBaseSwap"		"yes"
+	"NF_Research"
+	{
+		"0"		"1"
+	}
+	"BE_Research"
+	{
+		"0"		"1"
+	}
+	"Entities"
+	{
+		"6809"
+		{
+			"className"		"emp_building_nf_barracks"
+			"position"		"-5717.000000 13037.000000 -429.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"B7"
+			"built"		"1"
+			"maxHealth"		"250"
+			"health"		"250"
+			"team"		"2"
+		}
+		"5471"
+		{
+			"className"		"emp_building_imp_barracks"
+			"position"		"11769.200195 -12271.000000 -475.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"F2"
+			"built"		"1"
+			"maxHealth"		"250"
+			"health"		"250"
+			"team"		"3"
+		}
+		"6825"
+		{
+			"className"		"emp_imp_commander"
+			"position"		"11912.453125 -11157.112305 -469.201263"
+			"angles"		"0.017851 0.054323 1.410380"
+			"coords"		"F2"
+		}
+		"6823"
+		{
+			"className"		"emp_nf_commander"
+			"position"		"-5799.331055 12092.065430 -395.256531"
+			"angles"		"-0.030347 0.033059 -0.729919"
+			"coords"		"B7"
+		}
+		"745306"
+		{
+			"className"		"emp_nf_ammo_crate"
+			"position"		"6592.000000 9360.000000 -174.800003"
+			"angles"		"0.000000 39.500000 0.000000"
+			"coords"		"E6"
+			"pointNumber"		"0"
+			"disabled"		"0"
+			"model"		"models/NF/Props/nf_crateammo.mdl"
+		}
+		"757844"
+		{
+			"className"		"emp_nf_ammo_crate"
+			"position"		"-10940.400391 9952.849609 -334.799988"
+			"angles"		"0.000000 354.500000 0.000000"
+			"coords"		"A6"
+			"pointNumber"		"0"
+			"disabled"		"0"
+			"model"		"models/NF/Props/nf_crateammo.mdl"
+		}
+		"764189"
+		{
+			"className"		"emp_nf_ammo_crate"
+			"position"		"-3336.000000 7140.000000 -462.799988"
+			"angles"		"0.000000 39.500000 0.000000"
+			"coords"		"C6"
+			"pointNumber"		"0"
+			"disabled"		"0"
+			"model"		"models/NF/Props/nf_crateammo.mdl"
+		}
+		"846076"
+		{
+			"className"		"emp_nf_ammo_crate"
+			"position"		"-9408.000000 208.000000 -46.799801"
+			"angles"		"0.000000 219.500000 0.000000"
+			"coords"		"B5"
+			"pointNumber"		"0"
+			"disabled"		"0"
+			"model"		"models/NF/Props/nf_crateammo.mdl"
+		}
+		"691485"
+		{
+			"className"		"emp_nf_ammo_crate"
+			"position"		"-3744.000000 -11296.000000 -560.000000"
+			"angles"		"0.000000 203.000000 0.000000"
+			"coords"		"C2"
+			"pointNumber"		"0"
+			"disabled"		"0"
+			"model"		"models/NF/Props/nf_crateammo.mdl"
+		}
+		"691602"
+		{
+			"className"		"emp_nf_ammo_crate"
+			"position"		"-7640.399414 -2896.000000 -480.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"B4"
+			"pointNumber"		"0"
+			"disabled"		"0"
+			"model"		"models/NF/Props/nf_crateammo.mdl"
+		}
+		"691644"
+		{
+			"className"		"emp_nf_ammo_crate"
+			"position"		"-9778.570313 -13184.000000 -496.000000"
+			"angles"		"0.000000 146.000000 0.000000"
+			"coords"		"B2"
+			"pointNumber"		"0"
+			"disabled"		"0"
+			"model"		"models/NF/Props/nf_crateammo.mdl"
+		}
+		"692167"
+		{
+			"className"		"emp_nf_ammo_crate"
+			"position"		"-12502.900391 5632.000000 -552.000000"
+			"angles"		"0.000000 83.000000 0.000000"
+			"coords"		"A6"
+			"pointNumber"		"0"
+			"disabled"		"0"
+			"model"		"models/NF/Props/nf_crateammo.mdl"
+		}
+		"692312"
+		{
+			"className"		"emp_nf_ammo_crate"
+			"position"		"10362.200195 -10096.000000 -576.000000"
+			"angles"		"0.000000 134.500000 0.000000"
+			"coords"		"F3"
+			"pointNumber"		"0"
+			"disabled"		"0"
+			"model"		"models/NF/Props/nf_crateammo.mdl"
+		}
+		"747501"
+		{
+			"className"		"emp_imp_ammo_crate"
+			"position"		"11528.000000 -312.000000 -323.799988"
+			"angles"		"0.000000 218.500000 0.000000"
+			"coords"		"F4"
+			"pointNumber"		"0"
+			"disabled"		"0"
+			"model"		"models/Imperial/Props/imp_crateammo.mdl"
+		}
+		"741087"
+		{
+			"className"		"emp_imp_ammo_crate"
+			"position"		"-3288.000000 -9640.000000 -464.000000"
+			"angles"		"0.000000 218.500000 0.000000"
+			"coords"		"C3"
+			"pointNumber"		"0"
+			"disabled"		"0"
+			"model"		"models/Imperial/Props/imp_crateammo.mdl"
+		}
+		"752354"
+		{
+			"className"		"emp_imp_ammo_crate"
+			"position"		"5320.000000 -2840.000000 -528.000000"
+			"angles"		"0.000000 308.500000 0.000000"
+			"coords"		"E4"
+			"pointNumber"		"0"
+			"disabled"		"0"
+			"model"		"models/Imperial/Props/imp_crateammo.mdl"
+		}
+		"755536"
+		{
+			"className"		"emp_imp_ammo_crate"
+			"position"		"-10379.500000 -10794.500000 -240.000000"
+			"angles"		"0.000000 83.500000 0.000000"
+			"coords"		"A2"
+			"pointNumber"		"0"
+			"disabled"		"0"
+			"model"		"models/Imperial/Props/imp_crateammo.mdl"
+		}
+		"544367"
+		{
+			"className"		"emp_imp_ammo_crate"
+			"position"		"-4292.889648 8809.740234 -598.299988"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"C6"
+			"pointNumber"		"0"
+			"disabled"		"0"
+			"model"		"models/Imperial/Props/imp_crateammo.mdl"
+		}
+		"691633"
+		{
+			"className"		"emp_imp_ammo_crate"
+			"position"		"-9530.799805 -5968.000000 -480.000000"
+			"angles"		"0.000000 229.500000 0.000000"
+			"coords"		"B3"
+			"pointNumber"		"0"
+			"disabled"		"0"
+			"model"		"models/Imperial/Props/imp_crateammo.mdl"
+		}
+		"691672"
+		{
+			"className"		"emp_imp_ammo_crate"
+			"position"		"-10247.500000 -10784.000000 -416.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"B2"
+			"pointNumber"		"0"
+			"disabled"		"0"
+			"model"		"models/Imperial/Props/imp_crateammo.mdl"
+		}
+		"692150"
+		{
+			"className"		"emp_imp_ammo_crate"
+			"position"		"-7840.750000 3648.000000 -464.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"B5"
+			"pointNumber"		"0"
+			"disabled"		"0"
+			"model"		"models/Imperial/Props/imp_crateammo.mdl"
+		}
+		"692183"
+		{
+			"className"		"emp_imp_ammo_crate"
+			"position"		"-9300.349609 13751.400391 -232.000000"
+			"angles"		"0.000000 184.500000 0.000000"
+			"coords"		"B7"
+			"pointNumber"		"0"
+			"disabled"		"0"
+			"model"		"models/Imperial/Props/imp_crateammo.mdl"
+		}
+		"692462"
+		{
+			"className"		"emp_imp_ammo_crate"
+			"position"		"10322.200195 40.610695 -240.000000"
+			"angles"		"0.000000 322.500000 0.000000"
+			"coords"		"F4"
+			"pointNumber"		"0"
+			"disabled"		"0"
+			"model"		"models/Imperial/Props/imp_crateammo.mdl"
+		}
+		"692547"
+		{
+			"className"		"emp_imp_ammo_crate"
+			"position"		"9540.139648 6096.000000 -568.000000"
+			"angles"		"0.000000 35.000000 0.000000"
+			"coords"		"E6"
+			"pointNumber"		"0"
+			"disabled"		"0"
+			"model"		"models/Imperial/Props/imp_crateammo.mdl"
+		}
+		"692563"
+		{
+			"className"		"emp_imp_ammo_crate"
+			"position"		"-7304.069824 9117.490234 -560.000000"
+			"angles"		"0.000000 119.000000 0.000000"
+			"coords"		"B6"
+			"pointNumber"		"0"
+			"disabled"		"0"
+			"model"		"models/Imperial/Props/imp_crateammo.mdl"
+		}
+		"692599"
+		{
+			"className"		"emp_imp_ammo_crate"
+			"position"		"13904.000000 2653.739990 -296.000000"
+			"angles"		"0.000000 247.500000 0.000000"
+			"coords"		"F5"
+			"pointNumber"		"0"
+			"disabled"		"0"
+			"model"		"models/Imperial/Props/imp_crateammo.mdl"
+		}
+		"745382"
+		{
+			"className"		"emp_imp_ammo_crate"
+			"position"		"5130.369629 9334.159180 -496.000000"
+			"angles"		"0.000000 152.500000 0.000000"
+			"coords"		"E6"
+			"pointNumber"		"0"
+			"disabled"		"0"
+			"model"		"models/Imperial/Props/imp_crateammo.mdl"
+		}
+		"847506"
+		{
+			"className"		"emp_imp_ammo_crate"
+			"position"		"-9424.080078 111.938011 -46.400402"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"B5"
+			"pointNumber"		"0"
+			"disabled"		"0"
+			"model"		"models/Imperial/Props/imp_crateammo.mdl"
+		}
+		"745308"
+		{
+			"className"		"emp_nf_health_crate"
+			"position"		"6592.000000 9776.000000 -174.800003"
+			"angles"		"0.000000 314.000000 0.000000"
+			"coords"		"E6"
+			"pointNumber"		"0"
+			"disabled"		"0"
+			"model"		"models/NF/Props/nf_cratehealth.mdl"
+		}
+		"757846"
+		{
+			"className"		"emp_nf_health_crate"
+			"position"		"-10646.200195 10247.000000 -334.799988"
+			"angles"		"0.000000 269.000000 0.000000"
+			"coords"		"A6"
+			"pointNumber"		"0"
+			"disabled"		"0"
+			"model"		"models/NF/Props/nf_cratehealth.mdl"
+		}
+		"764191"
+		{
+			"className"		"emp_nf_health_crate"
+			"position"		"-3336.000000 7556.000000 -462.799988"
+			"angles"		"0.000000 314.000000 0.000000"
+			"coords"		"C6"
+			"pointNumber"		"0"
+			"disabled"		"0"
+			"model"		"models/NF/Props/nf_cratehealth.mdl"
+		}
+		"846078"
+		{
+			"className"		"emp_nf_health_crate"
+			"position"		"-9408.000000 -208.000000 -46.799801"
+			"angles"		"0.000000 134.000000 0.000000"
+			"coords"		"B4"
+			"pointNumber"		"0"
+			"disabled"		"0"
+			"model"		"models/NF/Props/nf_cratehealth.mdl"
+		}
+		"691487"
+		{
+			"className"		"emp_nf_health_crate"
+			"position"		"-3824.000000 -11232.000000 -560.000000"
+			"angles"		"0.000000 89.000000 0.000000"
+			"coords"		"C2"
+			"pointNumber"		"0"
+			"disabled"		"0"
+			"model"		"models/NF/Props/nf_cratehealth.mdl"
+		}
+		"691608"
+		{
+			"className"		"emp_nf_health_crate"
+			"position"		"-7644.959473 -2800.000000 -480.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"B4"
+			"pointNumber"		"0"
+			"disabled"		"0"
+			"model"		"models/NF/Props/nf_cratehealth.mdl"
+		}
+		"691658"
+		{
+			"className"		"emp_nf_health_crate"
+			"position"		"-9848.290039 -13264.000000 -496.000000"
+			"angles"		"0.000000 128.500000 0.000000"
+			"coords"		"B2"
+			"pointNumber"		"0"
+			"disabled"		"0"
+			"model"		"models/NF/Props/nf_cratehealth.mdl"
+		}
+		"692155"
+		{
+			"className"		"emp_nf_health_crate"
+			"position"		"-12408.000000 5631.399414 -544.000000"
+			"angles"		"0.000000 91.000000 0.000000"
+			"coords"		"A6"
+			"pointNumber"		"0"
+			"disabled"		"0"
+			"model"		"models/NF/Props/nf_cratehealth.mdl"
+		}
+		"692314"
+		{
+			"className"		"emp_nf_health_crate"
+			"position"		"10399.900391 -10014.000000 -576.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"F3"
+			"pointNumber"		"0"
+			"disabled"		"0"
+			"model"		"models/NF/Props/nf_cratehealth.mdl"
+		}
+		"747503"
+		{
+			"className"		"emp_imp_health_crate"
+			"position"		"11532.000000 -748.000000 -322.200012"
+			"angles"		"0.000000 138.000000 0.000000"
+			"coords"		"F4"
+			"pointNumber"		"0"
+			"disabled"		"0"
+			"model"		"models/Imperial/Props/imp_cratehealth.mdl"
+		}
+		"741089"
+		{
+			"className"		"emp_imp_health_crate"
+			"position"		"-3284.000000 -10076.000000 -462.399963"
+			"angles"		"0.000000 138.000000 0.000000"
+			"coords"		"C3"
+			"pointNumber"		"0"
+			"disabled"		"0"
+			"model"		"models/Imperial/Props/imp_cratehealth.mdl"
+		}
+		"752356"
+		{
+			"className"		"emp_imp_health_crate"
+			"position"		"5756.000000 -2836.000000 -526.400024"
+			"angles"		"0.000000 228.000000 0.000000"
+			"coords"		"E4"
+			"pointNumber"		"0"
+			"disabled"		"0"
+			"model"		"models/Imperial/Props/imp_cratehealth.mdl"
+		}
+		"755538"
+		{
+			"className"		"emp_imp_health_crate"
+			"position"		"-10690.700195 -10489.099609 -238.399994"
+			"angles"		"0.000000 2.999980 0.000000"
+			"coords"		"A2"
+			"pointNumber"		"0"
+			"disabled"		"0"
+			"model"		"models/Imperial/Props/imp_cratehealth.mdl"
+		}
+		"544369"
+		{
+			"className"		"emp_imp_health_crate"
+			"position"		"-4252.069824 8791.570313 -598.299988"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"C6"
+			"pointNumber"		"0"
+			"disabled"		"0"
+			"model"		"models/Imperial/Props/imp_cratehealth.mdl"
+		}
+		"691613"
+		{
+			"className"		"emp_imp_health_crate"
+			"position"		"-9584.000000 -5952.000000 -480.000000"
+			"angles"		"0.000000 271.000000 0.000000"
+			"coords"		"B3"
+			"pointNumber"		"0"
+			"disabled"		"0"
+			"model"		"models/Imperial/Props/imp_cratehealth.mdl"
+		}
+		"691684"
+		{
+			"className"		"emp_imp_health_crate"
+			"position"		"-10243.000000 -10736.000000 -408.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"B2"
+			"pointNumber"		"0"
+			"disabled"		"0"
+			"model"		"models/Imperial/Props/imp_cratehealth.mdl"
+		}
+		"692145"
+		{
+			"className"		"emp_imp_health_crate"
+			"position"		"-7853.609863 3544.000000 -456.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"B5"
+			"pointNumber"		"0"
+			"disabled"		"0"
+			"model"		"models/Imperial/Props/imp_cratehealth.mdl"
+		}
+		"692174"
+		{
+			"className"		"emp_imp_health_crate"
+			"position"		"-9283.910156 13704.599609 -240.000000"
+			"angles"		"0.000000 184.500000 0.000000"
+			"coords"		"B7"
+			"pointNumber"		"0"
+			"disabled"		"0"
+			"model"		"models/Imperial/Props/imp_cratehealth.mdl"
+		}
+		"692460"
+		{
+			"className"		"emp_imp_health_crate"
+			"position"		"10368.000000 55.044601 -240.000000"
+			"angles"		"0.000000 256.000000 0.000000"
+			"coords"		"F5"
+			"pointNumber"		"0"
+			"disabled"		"0"
+			"model"		"models/Imperial/Props/imp_cratehealth.mdl"
+		}
+		"692545"
+		{
+			"className"		"emp_imp_health_crate"
+			"position"		"9540.139648 6144.000000 -568.000000"
+			"angles"		"0.000000 328.500000 0.000000"
+			"coords"		"E6"
+			"pointNumber"		"0"
+			"disabled"		"0"
+			"model"		"models/Imperial/Props/imp_cratehealth.mdl"
+		}
+		"692561"
+		{
+			"className"		"emp_imp_health_crate"
+			"position"		"-7351.809570 9122.509766 -560.000000"
+			"angles"		"0.000000 52.500000 0.000000"
+			"coords"		"B6"
+			"pointNumber"		"0"
+			"disabled"		"0"
+			"model"		"models/Imperial/Props/imp_cratehealth.mdl"
+		}
+		"692597"
+		{
+			"className"		"emp_imp_health_crate"
+			"position"		"13929.799805 2613.260010 -296.000000"
+			"angles"		"0.000000 181.000000 0.000000"
+			"coords"		"F5"
+			"pointNumber"		"0"
+			"disabled"		"0"
+			"model"		"models/Imperial/Props/imp_cratehealth.mdl"
+		}
+		"745384"
+		{
+			"className"		"emp_imp_health_crate"
+			"position"		"5087.799805 9312.000000 -496.000000"
+			"angles"		"0.000000 86.000000 0.000000"
+			"coords"		"E6"
+			"pointNumber"		"0"
+			"disabled"		"0"
+			"model"		"models/Imperial/Props/imp_cratehealth.mdl"
+		}
+		"847509"
+		{
+			"className"		"emp_imp_health_crate"
+			"position"		"-9436.309570 -98.827911 -46.400402"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"B4"
+			"pointNumber"		"0"
+			"disabled"		"0"
+			"model"		"models/Imperial/Props/imp_cratehealth.mdl"
+		}
+		"787598"
+		{
+			"className"		"emp_building_nf_refinery"
+			"position"		"-3904.000000 11712.000000 -448.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"C7"
+			"built"		"1"
+			"maxHealth"		"150"
+			"health"		"150"
+			"team"		"2"
+			"target"		"nfres"
+		}
+		"786590"
+		{
+			"className"		"emp_building_imp_refinery"
+			"position"		"8576.000000 -12576.000000 -448.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"E2"
+			"built"		"1"
+			"maxHealth"		"150"
+			"health"		"150"
+			"team"		"3"
+			"target"		"beres"
+		}
+		"784743"
+		{
+			"className"		"emp_resource_point"
+			"position"		"-6208.000000 -11520.000000 -474.299988"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"B2"
+			"effects"		"80"
+			"enabled"		"1"
+			"resPerSecond"		"2.000000"
+		}
+		"785144"
+		{
+			"className"		"emp_resource_point"
+			"position"		"-12112.000000 -12144.000000 -458.299988"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"A2"
+			"effects"		"80"
+			"enabled"		"1"
+			"resPerSecond"		"2.000000"
+		}
+		"785906"
+		{
+			"className"		"emp_resource_point"
+			"position"		"992.000000 704.000000 -187.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"D5"
+			"effects"		"80"
+			"enabled"		"1"
+			"resPerSecond"		"4.000000"
+		}
+		"786155"
+		{
+			"className"		"emp_resource_point"
+			"position"		"13888.000000 -896.000000 -475.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"F4"
+			"effects"		"80"
+			"enabled"		"1"
+			"resPerSecond"		"4.000000"
+		}
+		"786581"
+		{
+			"className"		"emp_resource_point"
+			"position"		"8576.000000 -12576.000000 -440.500000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"E2"
+			"name"		"beres"
+			"effects"		"80"
+			"enabled"		"0"
+			"resPerSecond"		"2.000000"
+		}
+		"787180"
+		{
+			"className"		"emp_resource_point"
+			"position"		"12448.000000 12288.000000 -442.299988"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"F7"
+			"effects"		"80"
+			"enabled"		"1"
+			"resPerSecond"		"2.000000"
+		}
+		"787465"
+		{
+			"className"		"emp_resource_point"
+			"position"		"-3904.000000 11712.000000 -442.299988"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"C7"
+			"name"		"nfres"
+			"effects"		"80"
+			"enabled"		"0"
+			"resPerSecond"		"2.000000"
+		}
+		"824519"
+		{
+			"className"		"emp_resource_point"
+			"position"		"-13472.000000 0.000000 37.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"A4"
+			"effects"		"80"
+			"enabled"		"1"
+			"resPerSecond"		"4.000000"
+		}
+		"824529"
+		{
+			"className"		"emp_resource_point"
+			"position"		"-12320.000000 11776.000000 -474.299988"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"A7"
+			"effects"		"80"
+			"enabled"		"1"
+			"resPerSecond"		"2.000000"
+		}
+		"784741"
+		{
+			"className"		"emp_resource_point_prop"
+			"position"		"-6208.000000 -11520.000000 -544.000000"
+			"angles"		"0.000000 0.000000 90.000000"
+			"coords"		"B2"
+			"name"		"resprop"
+			"enabled"		"1"
+			"model"		"models/lostcoast/props_junk/float01a.mdl"
+		}
+		"785142"
+		{
+			"className"		"emp_resource_point_prop"
+			"position"		"-12112.000000 -12144.000000 -528.000000"
+			"angles"		"0.000000 0.000000 90.000000"
+			"coords"		"A2"
+			"name"		"resprop1"
+			"enabled"		"1"
+			"model"		"models/lostcoast/props_junk/float01a.mdl"
+		}
+		"785429"
+		{
+			"className"		"emp_resource_point_prop"
+			"position"		"-13472.000000 0.000000 -32.700199"
+			"angles"		"0.000000 0.000000 90.000000"
+			"coords"		"A4"
+			"name"		"resprop2"
+			"enabled"		"1"
+			"model"		"models/lostcoast/props_junk/float01a.mdl"
+		}
+		"785904"
+		{
+			"className"		"emp_resource_point_prop"
+			"position"		"992.000000 704.000000 -256.700012"
+			"angles"		"0.000000 0.000000 90.000000"
+			"coords"		"D5"
+			"name"		"resprop3"
+			"enabled"		"1"
+			"model"		"models/lostcoast/props_junk/float01a.mdl"
+		}
+		"786153"
+		{
+			"className"		"emp_resource_point_prop"
+			"position"		"13888.000000 -896.000000 -544.700012"
+			"angles"		"0.000000 0.000000 90.000000"
+			"coords"		"F4"
+			"name"		"resprop4"
+			"enabled"		"1"
+			"model"		"models/lostcoast/props_junk/float01a.mdl"
+		}
+		"786579"
+		{
+			"className"		"emp_resource_point_prop"
+			"position"		"8576.000000 -12576.000000 -510.200012"
+			"angles"		"0.000000 0.000000 90.000000"
+			"coords"		"E2"
+			"name"		"resprop5"
+			"effects"		"32"
+			"enabled"		"0"
+			"model"		"models/lostcoast/props_junk/float01a.mdl"
+		}
+		"787178"
+		{
+			"className"		"emp_resource_point_prop"
+			"position"		"12448.000000 12288.000000 -512.000000"
+			"angles"		"0.000000 0.000000 90.000000"
+			"coords"		"F7"
+			"name"		"resprop6"
+			"enabled"		"1"
+			"model"		"models/lostcoast/props_junk/float01a.mdl"
+		}
+		"787463"
+		{
+			"className"		"emp_resource_point_prop"
+			"position"		"-3904.000000 11712.000000 -512.000000"
+			"angles"		"0.000000 0.000000 90.000000"
+			"coords"		"C7"
+			"name"		"resprop7"
+			"effects"		"32"
+			"enabled"		"0"
+			"model"		"models/lostcoast/props_junk/float01a.mdl"
+		}
+		"787767"
+		{
+			"className"		"emp_resource_point_prop"
+			"position"		"-12320.000000 11776.000000 -544.000000"
+			"angles"		"0.000000 0.000000 90.000000"
+			"coords"		"A7"
+			"name"		"resprop8"
+			"enabled"		"1"
+			"model"		"models/lostcoast/props_junk/float01a.mdl"
+		}
+		"29893"
+		{
+			"className"		"prop_dynamic"
+			"position"		"-7769.189941 -2837.000000 -481.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"B4"
+			"model"		"models/imperial/vehicles/ground/tankmed/imp_mediumtank_staticwreck.mdl"
+			"MoveType"		"7"
+			"SolidType"		"6"
+		}
+		"29901"
+		{
+			"className"		"prop_dynamic"
+			"position"		"-8988.809570 5862.000000 -482.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"B6"
+			"model"		"models/imperial/vehicles/ground/tankmed/imp_mediumtank_staticwreck.mdl"
+			"MoveType"		"7"
+			"SolidType"		"6"
+		}
+		"29920"
+		{
+			"className"		"prop_dynamic"
+			"position"		"-11858.000000 8560.000000 -528.000000"
+			"angles"		"7.097090 141.587997 -8.040060"
+			"coords"		"A6"
+			"model"		"models/imperial/vehicles/ground/tankheavy/imp_heavy_wreck.mdl"
+			"MoveType"		"7"
+			"SolidType"		"6"
+		}
+		"29975"
+		{
+			"className"		"prop_dynamic"
+			"position"		"-3787.610107 -5295.200195 -565.500000"
+			"angles"		"0.000000 188.500000 0.000000"
+			"coords"		"C3"
+			"model"		"models/imperial/vehicles/ground/tankmed/imp_mediumtank_staticwreck.mdl"
+			"MoveType"		"7"
+			"SolidType"		"6"
+		}
+		"30013"
+		{
+			"className"		"prop_dynamic"
+			"position"		"-3446.800049 -8252.000000 -580.000000"
+			"angles"		"0.000000 286.000000 0.000000"
+			"coords"		"C3"
+			"model"		"models/nf/vehicles/ground/apc/nf_apc_staticwreck.mdl"
+			"MoveType"		"7"
+			"SolidType"		"6"
+		}
+		"30279"
+		{
+			"className"		"prop_dynamic"
+			"position"		"-11079.000000 -6810.339355 -517.500000"
+			"angles"		"0.000000 286.000000 0.000000"
+			"coords"		"A3"
+			"model"		"models/nf/vehicles/ground/tankartillery/nf_artillerytank_wreck.mdl"
+			"MoveType"		"7"
+			"SolidType"		"6"
+		}
+		"30877"
+		{
+			"className"		"prop_dynamic"
+			"position"		"-4078.800049 8815.000000 -612.000000"
+			"angles"		"22.524599 349.332001 -22.769100"
+			"coords"		"C6"
+			"model"		"models/imperial/vehicles/air/transport/imp_dropship.mdl"
+			"MoveType"		"7"
+			"SolidType"		"6"
+		}
+		"137023"
+		{
+			"className"		"prop_dynamic"
+			"position"		"-2666.900146 4436.000000 -636.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"C5"
+			"model"		"models/imperial/vehicles/ground/tankmed/imp_mediumtank_staticwreck.mdl"
+			"MoveType"		"7"
+			"SolidType"		"6"
+		}
+		"137027"
+		{
+			"className"		"prop_dynamic"
+			"position"		"4685.520020 876.692017 -632.700012"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"D5"
+			"model"		"models/imperial/vehicles/ground/tankmed/imp_mediumtank_staticwreck.mdl"
+			"MoveType"		"7"
+			"SolidType"		"6"
+		}
+		"137031"
+		{
+			"className"		"prop_dynamic"
+			"position"		"1540.069946 -3680.000000 -628.000000"
+			"angles"		"0.000000 0.000000 4.000000"
+			"coords"		"D4"
+			"model"		"models/nf/vehicles/ground/apc/nf_apc_wreck.mdl"
+			"MoveType"		"7"
+			"SolidType"		"6"
+		}
+		"372972"
+		{
+			"className"		"prop_dynamic"
+			"position"		"-1811.020020 -10725.099609 -567.299988"
+			"angles"		"0.000000 286.000000 0.000000"
+			"coords"		"C2"
+			"model"		"models/imperial/vehicles/ground/tankmed/imp_mediumtank_staticwreck.mdl"
+			"MoveType"		"7"
+			"SolidType"		"6"
+		}
+		"463222"
+		{
+			"className"		"prop_dynamic"
+			"position"		"3915.000000 3773.000000 -611.000000"
+			"angles"		"-2.985540 357.532990 6.831660"
+			"coords"		"D5"
+			"model"		"models/nf/vehicles/ground/command/nf_command_wreck.mdl"
+			"MoveType"		"7"
+			"SolidType"		"6"
+		}
+		"771090"
+		{
+			"className"		"prop_dynamic"
+			"position"		"-8256.000000 3248.000000 -448.000000"
+			"angles"		"0.000000 30.500000 0.000000"
+			"coords"		"B5"
+			"model"		"models/imperial/vehicles/ground/tankheavy/imp_heavytank_wreck.mdl"
+			"MoveType"		"7"
+			"SolidType"		"6"
+		}
+		"407049"
+		{
+			"className"		"prop_dynamic"
+			"position"		"-6385.060059 10388.000000 -472.299988"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"B7"
+			"model"		"models/imperial/vehicles/ground/tankheavy/imp_heavy_wreck.mdl"
+			"MoveType"		"0"
+			"SolidType"		"6"
+		}
+		"787976"
+		{
+			"className"		"env_fire"
+			"position"		"-1824.000000 -10720.000000 -559.150818"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"C2"
+			"effects"		"32"
+			"spawnflags"		"13"
+			"fireType"		"0"
+			"fireSize"		"64.000000"
+			"damageScale"		"1.000000"
+			"duration"		"30"
+		}
+		"1006472"
+		{
+			"className"		"emp_eng_restrict"
+			"position"		"0.000000 0.000000 0.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"D4"
+			"name"		"CliffTopEngRstrct"
+			"Mins"		"-15361.000000 -15361.000000 -129.000000"
+			"Maxs"		"15361.000000 15361.000000 2593.129882"
+			"restrictNF"		"2"
+			"restrictImp"		"2"
+			"turretRestrict"		"3"
+		}
+		"495222"
+		{
+			"className"		"emp_info_params"
+			"position"		"117.028000 446.378967 -174.899994"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"D5"
+			"Skin"		"1"
+			"autoResearch"		"0"
+			"eng_restrict_NF"		"0"
+			"eng_restrict_Imp"		"0"
+			"turretRestrict"		"1"
+		}
+	}
+}

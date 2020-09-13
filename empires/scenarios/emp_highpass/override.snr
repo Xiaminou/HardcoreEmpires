@@ -1359,7 +1359,7 @@
 	"Description"		"[Type: Override] Changed the way the reinforcement draining flags work"
 	"details"		"Flags draining severly reduced to account for only 50% of the ticket use over-time"
 	"Author"		"Xiam"
-	"BaseSwap"		"-1"
+	
 	"CommFreezeTime"		"1"
 	"PlayerRefineryMultiplier"		"-1.000000"
 	"RefineryMultiplier"		"-1.000000"

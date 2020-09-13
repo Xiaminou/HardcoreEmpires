@@ -1527,6 +1527,6 @@
 	}
 	"Description"		"[Type: Quality of Life] Start with a barracks but -100 resources"
 	"Author"		"Xiam"
-	"BaseSwap"		"0"
+	"CanBaseSwap"		"no"
 	"version"		"0.300000"
 }

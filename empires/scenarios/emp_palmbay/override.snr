@@ -1,7 +1,7 @@
 "Scenario"
 {
 	"Author"		"Xiam"
-	"BaseSwap"		"1"
+	"CanBaseSwap"		"yes"
 	"version"		"1.090000"
 	"Description"		"Moved the NF barracks slightly to give more space for base building"
 	"Entities"

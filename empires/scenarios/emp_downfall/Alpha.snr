@@ -111,7 +111,7 @@
 	}
 	"Description"		"[Type: Gameplay & Location] Start at West (A3) and East (E3)"
 	"Author"		"Xiam"
-	"BaseSwap"		"1"
+	"CanBaseSwap"		"yes"
 	"CommFreezeTime"		"-1"
 	"version"		"0.680000"
 	"hLimit"		"511771"

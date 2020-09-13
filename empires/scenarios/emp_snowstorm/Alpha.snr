@@ -487,6 +487,6 @@
 	}
 	"Description"		"[Type: Location & Gameplay] Start at North (B4 and C4)"
 	"Author"		"Xiam"
-	"BaseSwap"		"1"
+	"CanBaseSwap"		"yes"
 	"version"		"0.390000"
 }

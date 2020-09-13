@@ -417,6 +417,6 @@
 	}
 	"Description"		"[Type: Location] Start North-West (B6) and South-East (F2)"
 	"Author"		"Xiam"
-	"BaseSwap"		"1"
+	"CanBaseSwap"		"yes"
 	"version"		"0.380000"
 }

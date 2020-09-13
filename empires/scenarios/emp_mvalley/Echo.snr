@@ -427,7 +427,7 @@
 	"Description"		"[Type: Gameplay] Both teams start in the middle with the Command Vehicles and Two APCs"
 	"details"		"APC are 3/3/3/3 Plain Armor, Standard Engine and Standard Machine Gun"
 	"Author"		"Xiam"
-	"BaseSwap"		"0"
+	"CanBaseSwap"		"no"
 	"CommFreezeTime"		"1"
 	"PlayerRefineryMultiplier"		"-1.000000"
 	"RefineryMultiplier"		"-1.000000"

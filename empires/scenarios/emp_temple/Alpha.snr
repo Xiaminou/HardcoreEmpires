@@ -488,6 +488,6 @@
 	}
 	"Description"		"[Type: Location & Gameplay] Start at West (B5) and East (D5)"
 	"Author"		"Xiam"
-	"BaseSwap"		"1"
+	"CanBaseSwap"		"yes"
 	"version"		"0.350000"
 }
