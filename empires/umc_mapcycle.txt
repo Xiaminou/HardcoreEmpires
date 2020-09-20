@@ -11,23 +11,23 @@
 			"display"	"emp_arid"
 		}
 		
-		"emp_beachfront_b2_hce"
+		"emp_beachfront_b2"
 		{
 			"min_players"	"0"
 			"max_players"	"22"
 			"display"	"emp_beachfront"
 		}
 
-//		Disabled: Missing Stuff
-//		"emp_blackmountain_fix"
-//		{
-//			"min_players"	"40"
-//			"max_players"	"64"
-//			"display"	"emp_blackmountain"
-//		}
+//		Enabled: Fixed?
+		"emp_blackmountain"
+		{
+			"min_players"	"40"
+			"max_players"	"64"
+			"display"	"emp_blackmountain"
+		}
 	
 //		Enabled: Decimal Resources
-		"emp_blah4_hce"
+		"emp_blah4"
 		{
 			"min_players"	"14"
 			"max_players"	"32"
@@ -62,11 +62,18 @@
 			"display"	"emp_coast"
 		}
 		
-		"emp_cod_hce"
+		"emp_cod"
 		{
 			"min_players"	"0"
 			"max_players"	"14"
 			"display"	"emp_cod"
+		}
+		
+		"emp_commandergrad_b1"
+		{
+			"min_players"	"20"
+			"max_players"	"42"
+			"display"	"emp_commandergrad"
 		}
 		
 		"emp_crossroads_towerless_hce2"
@@ -76,14 +83,21 @@
 			"display"	"emp_crossroads"
 		}
 		
-		"emp_cyclopean_214"
+//		"emp_crossroads_towerless_hce2#chaos"
+//		{
+//			"min_players"	"23"
+//			"max_players"	"32"
+//			"display"	"emp_crossroads#chaos"
+//		}
+		
+		"emp_cyclopean"
 		{
 			"min_players"	"32"
 			"max_players"	"64"
 			"display"	"emp_cyclopean"
 		}
 		
-		"emp_downfall_hce"
+		"emp_downfall"
 		{
 			"min_players"	"0"
 			"max_players"	"22"
@@ -111,21 +125,21 @@
 			"display"	"emp_duststorm"
 		}
 		
-		"emp_flat_hce"
+		"emp_flat"
 		{
 			"min_players"	"14"
 			"max_players"	"32"
 			"display"	"emp_flat"
 		}
 		
-		"emp_forest_ob_2013_hce2"
+		"emp_forest_ob_2013"
 		{
 			"min_players"	"26"
 			"max_players"	"52"
 			"display"	"emp_forest"
 		}
 		
-		"emp_frozensummit_b2_2013_fix2"
+		"emp_frozensummit_b2_2013"
 		{
 			"min_players"	"26"
 			"max_players"	"52"
@@ -139,13 +153,13 @@
 			"display"	"emp_fuel"
 		}
 
-//		Disabled: Quicksand
-//		"emp_fury_rc1"
-//		{
-//			"min_players"	"32"
-//			"max_players"	"52"
-//			"display"	"emp_fury"
-//		}
+//		Enabled
+		"emp_fury_rc1"
+		{
+			"min_players"	"32"
+			"max_players"	"64"
+			"display"	"emp_fury"
+		}
 		
 		"emp_glacial_b2"
 		{
@@ -161,7 +175,14 @@
 			"display"	"emp_hazard"
 		}
 		
-		"emp_homeland_b9_hce2"
+		"emp_highpass_a3"
+		{
+			"min_players"	"14"
+			"max_players"	"32"
+			"display"	"emp_highpass"
+		}
+		
+		"emp_homeland_b9"
 		{
 			"min_players"	"14"
 			"max_players"	"32"
@@ -175,7 +196,14 @@
 			"display"	"emp_insurrection"
 		}
 		
-		"emp_isle_hce"
+		"emp_interactions_v1"
+		{
+			"min_players"	"8"
+			"max_players"	"64"
+			"display"	"emp_interactions"
+		}
+		
+		"emp_isle"
 		{
 			"min_players"	"26"
 			"max_players"	"52"
@@ -184,19 +212,19 @@
 		
 		"emp_king_r5_nosplt"
 		{
-			"min_players"	"40"
+			"min_players"	"46"
 			"max_players"	"64"
 			"display"	"emp_king"
 		}
 		
-		"emp_massacred_rc1_hce"
+		"emp_massacred_rc1"
 		{
 			"min_players"	"14"
 			"max_players"	"32"
 			"display"	"emp_massacred"
 		}
 		
-		"emp_mesa_d6_hce"
+		"emp_mesa_d6"
 		{
 			"min_players"	"20"
 			"max_players"	"42"
@@ -210,6 +238,20 @@
 			"display"	"emp_midbridge"
 		}
 		
+//		"emp_moors"
+//		{
+//			"min_players"	"14"
+//			"max_players"	"32"
+//			"display"	"emp_moors"
+//		}
+		
+		"emp_money"
+		{
+			"min_players"	"20"
+			"max_players"	"42"
+			"display"	"emp_money"
+		}
+		
 		"emp_mvalley"
 		{
 			"min_players"	"26"
@@ -217,7 +259,7 @@
 			"display"	"emp_mvalley"
 		}
 		
-		"emp_palmbay_fix"
+		"emp_palmbay"
 		{
 			"min_players"	"14"
 			"max_players"	"32"
@@ -246,7 +288,7 @@
 			"display"	"emp_research"
 		}
 		
-		"emp_silo_rc5_hce2"
+		"emp_silo_rc5"
 		{
 			"min_players"	"20"
 			"max_players"	"42"
@@ -261,7 +303,7 @@
 //			"display"	"emp_smokies"
 //		}
 
-		"emp_snowbound_cl6_hce"
+		"emp_snowbound_cl6"
 		{
 			"min_players"	"20"
 			"max_players"	"42"
@@ -282,7 +324,7 @@
 			"display"	"emp_streetsoffire"
 		}
 		
-		"emp_temple_b3f"
+		"emp_temple_b3g"
 		{
 			"min_players"	"14"
 			"max_players"	"32"
@@ -299,7 +341,7 @@
 		"emp_tropicvendetta_rc4"
 		{
 			"min_players"	"32"
-			"max_players"	"52"
+			"max_players"	"64"
 			"display"	"emp_tropicvendetta"
 		}
 
@@ -317,8 +359,9 @@
 
 		"min_players"	"0"
 		"max_players"	"20"
+
 		
-		"con_atomic_rc6_fix"
+		"con_atomic_rc7"
 		{
 			"min_players"	"40"
 			"max_players"	"64"
@@ -327,7 +370,7 @@
 		
 		"con_blast_ob2"
 		{
-			"min_players"	"6"
+			"min_players"	"0"
 			"max_players"	"20"
 			"display"	"con_blast"
 		}
@@ -353,12 +396,12 @@
 			"display"	"con_glycencity"
 		}
 		
-		"emp_havoc_b1_fix"
-		{
-			"min_players"	"10"
-			"max_players"	"20"
-			"display"	"con_havoc"
-		}
+//		"emp_havoc_b1_fix"
+//		{
+//			"min_players"	"10"
+//			"max_players"	"20"
+//			"display"	"con_havoc"
+//		}
 		
 		"emp_shadows_attacks_fix"
 		{
@@ -367,36 +410,18 @@
 			"display"	"con_shadows_attacks"
 		}
 		
-//		"emp_nuclear_b8u_xfix"
-//		{
-//			"min_players"	"4"
-//			"max_players"	"20"
-//			"display"	"as_nuclear"
-//		}
-		
 		"con_urbanchaos"
 		{
-			"min_players"	"6"
+			"min_players"	"0"
 			"max_players"	"20"
 			"display"	"con_urbanchaos"
 		}
 		
 		"emp_vehicletraining_2013"
 		{
-			"min_players"	"10"
+			"min_players"	"0"
 			"max_players"	"20"
 			"display"	"con_vehicletraining"
 		}
-	}
-	"Cooldown Maps"
-	{
-		"maps_invote"	"0"
-		
-		"min_players"	"0"
-		"max_players"	"64"
-		
-//		"fun_ricochet_a4"
-//		{
-//		}
 	}
 }
