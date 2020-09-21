@@ -121,7 +121,7 @@
 		"emp_duststorm"
 		{
 			"min_players"	"20"
-			"max_players"	"42"
+			"max_players"	"52"
 			"display"	"emp_duststorm"
 		}
 		
@@ -196,7 +196,7 @@
 			"display"	"emp_insurrection"
 		}
 		
-		"emp_interactions_v1"
+		"emp_interactions_v2"
 		{
 			"min_players"	"8"
 			"max_players"	"64"
