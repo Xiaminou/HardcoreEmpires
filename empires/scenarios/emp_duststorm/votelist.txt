@@ -16,6 +16,13 @@
 			"tags_override"		"-"
 			"description_override"		"-"
 		}
+		"Bravo"
+		{
+			"min_players"		"40"
+			"max_players"		"64"
+			"tags_override"		"-"
+			"description_override"		"-"
+		}
 	}
 	"enabled"		"1"
 }
