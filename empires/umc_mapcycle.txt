@@ -345,13 +345,13 @@
 			"display"	"emp_tropicvendetta"
 		}
 
-//		Disabled: wrong IDs for NF turrets.		
-//		"emp_ward_rc2"
-//		{
-//			"min_players"	"20"
-//			"max_players"	"42"
-//			"display"	"emp_ward"
-//		}
+		
+		"emp_ward_rc2"
+		{
+			"min_players"	"20"
+			"max_players"	"42"
+			"display"	"emp_ward"
+		}
     }
 	"Infantry Maps"
 	{
