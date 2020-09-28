@@ -1,5 +1,9 @@
 "Scenario"
 {
+	"Description"		"[Type: Quality of Life] Start with a VF but -200 resources"
+	"Author"		"Xiam"
+	"CanBaseSwap"		"yes"
+	"version"		"0.330000"
 	"NF_Res"		"200.000000"
 	"BE_Res"		"200.000000"
 	"Entities"
@@ -236,8 +240,4 @@
 			"team"		"3"
 		}
 	}
-	"Description"		"[Type: Quality of Life] Start with a VF but -200 resources"
-	"Author"		"Xiam"
-	"CanBaseSwap"		"yes"
-	"version"		"0.330000"
 }

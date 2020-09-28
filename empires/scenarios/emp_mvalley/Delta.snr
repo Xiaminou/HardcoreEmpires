@@ -1,5 +1,12 @@
 "Scenario"
 {
+	"Description"		"[Type: Location] Start South-West and South-East"
+	"details"		" "
+	"Author"		"Xiam"
+	"version"		"0.950000"
+	"hLimit"		"259992"
+	"NF_Res"		"400.000000"
+	"BE_Res"		"400.000000"
 	"Entities"
 	{
 		"35903"
@@ -364,13 +371,4 @@
 			"effectName"		"damwaterparticles"
 		}
 	}
-	"Description"		"Vanilla"
-	"details"		" "
-	"Author"		"Xiam"
-	
-	"CommFreezeTime"		"-1"
-	"PlayerRefineryMultiplier"		"-1.000000"
-	"RefineryMultiplier"		"-1.000000"
-	"version"		"0.950000"
-	"hLimit"		"259992"
 }

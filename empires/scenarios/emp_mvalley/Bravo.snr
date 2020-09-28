@@ -1,5 +1,12 @@
 "Scenario"
 {
+	"Description"		"[Type: Location] Start at West (A3) and East (E3)"
+	"Author"		"Xiam"
+	"CanBaseSwap"		"yes"
+	"version"		"0.950000"
+	"hLimit"		"259992"
+	"NF_Res"		"400.000000"
+	"BE_Res"		"400.000000"
 	"Entities"
 	{
 		"35899"
@@ -364,12 +371,4 @@
 			"target"		"res_4"
 		}
 	}
-	"Description"		"[Type: Location] Start at West (A3) and East (E3)"
-	"Author"		"Xiam"
-	"CanBaseSwap"		"yes"
-	"CommFreezeTime"		"-1"
-	"PlayerRefineryMultiplier"		"-1.000000"
-	"RefineryMultiplier"		"-1.000000"
-	"version"		"0.950000"
-	"hLimit"		"259992"
 }

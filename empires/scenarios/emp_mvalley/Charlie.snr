@@ -1,17 +1,14 @@
 "Scenario"
 {
+	"Description"		"[Type: Location & Gameplay] Start North (C5 & D5)"
+	"Details"		"Barracks have 500 HP and Refineries have 300 HP"
+	"Author"		"Xiam"
+	"CanBaseSwap"		"yes"
+	"CommFreezeTime"	"1"
+	"version"		"0.860000"
+	"hLimit"		"126612"
 	"NF_Res"		"400.000000"
 	"BE_Res"		"400.000000"
-	"NF_Tickets"		"351.147003"
-	"BE_Tickets"		"351.147003"
-	"NF_Research"
-	{
-		"0"		"1"
-	}
-	"BE_Research"
-	{
-		"0"		"1"
-	}
 	"Entities"
 	{
 		"35899"
@@ -404,13 +401,4 @@
 			"target"		"res_7"
 		}
 	}
-	"Description"		"[Type: Location & Gameplay] Start North (C5 & D5)"
-	"Details"		"Barracks have 500 HP and Refineries have 300 HP"
-	"Author"		"Xiam"
-	"CanBaseSwap"		"yes"
-	"CommFreezeTime"		"1"
-	"PlayerRefineryMultiplier"		"-1.000000"
-	"RefineryMultiplier"		"-1.000000"
-	"version"		"0.860000"
-	"hLimit"		"126612"
 }
