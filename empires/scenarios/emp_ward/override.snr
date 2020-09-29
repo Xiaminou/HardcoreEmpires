@@ -2,22 +2,15 @@
 {
 	"Description"		" "
 	"details"		" "
-	"Tags"		" "
+	"Tags"			" "
 	"Author"		"Xiam"
 	"NF_Res"		"400.200012"
 	"BE_Res"		"400.200012"
-	"NF_Tickets"		"241.000000"
-	"BE_Tickets"		"241.000000"
+	"NF_Tickets"		"281.000000"
+	"BE_Tickets"		"281.000000"
+	"CanBaseSwap"		"yes"
 	"version"		"1.230000"
 	"hLimit"		"604822"
-	"NF_Research"
-	{
-		"0"		"1"
-	}
-	"BE_Research"
-	{
-		"0"		"1"
-	}
 	"Entities"
 	{
 		"454977"
