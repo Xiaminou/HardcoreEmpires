@@ -715,7 +715,7 @@ BuildingParse
 
 	//RESISTANCES							
 	"GeneralPhysicsResist"		0.76	//Plasma MG, High Energy Plasma MG,  Plasma Cannon Prot., Plasma Cannon	
-	"GeneralChemistryResist"  	0.68		//Grenade Launcher, High-Explosive Grenade Launcher	
+	"GeneralChemistryResist"  	0.68	//Grenade Launcher, High-Explosive Grenade Launcher	
 	"GeneralMechanicalResist" 	0.70	//unused	
 	"GeneralElectricResist"  	0.70	//unused		
 	"GeneralBiologicalResist"	0.70	//unused		
@@ -744,7 +744,7 @@ BuildingParse
 	"InfantrySeismicResist" 	-0.70	//Seismic Grenades		
 	"InfantryBulletResist" 		1	//Infantry Guns	
 	"InfantryUtilityResist"		0.9	//Utility Grenades, Like smoke and concussion
-	"InfantryMeleeResist"		1	//Melee
+	"InfantryMeleeResist"		0.95	//Melee
 	
 	"ExtraType1Resist" 		0.65	//unused
 	"ExtraType2Resist" 		0.6	//unused
@@ -877,7 +877,7 @@ BuildingParse
 	"InfantrySeismicResist" 	-0.70	//Seismic Grenades		
 	"InfantryBulletResist" 		1	//Infantry Guns	
 	"InfantryUtilityResist"		0.9	//Utility Grenades, Like smoke and concussion
-	"InfantryMeleeResist"		1	//Melee
+	"InfantryMeleeResist"		0.95	//Melee
 	
 	"ExtraType1Resist" 		0.65	//unused
 	"ExtraType2Resist" 		0.6	//unused
@@ -1020,7 +1020,7 @@ BuildingParse
 	"InfantrySeismicResist" 	-0.70	//Seismic Grenades		
 	"InfantryBulletResist" 		1	//Just In Case		
 	"InfantryUtilityResist"		0.9	//Concussion nades, various infantry stuff that does special things but no damage
-	"InfantryMeleeResist"		1	//Infantry melee
+	"InfantryMeleeResist"		0.95	//Infantry melee
 	
 	"ExtraType1Resist" 		0.65	//Anti Building weapons	
 	"ExtraType2Resist" 		0.6	//Again	
@@ -1166,7 +1166,7 @@ BuildingParse
 	"InfantrySeismicResist" 	-0.70	//Seismic Grenades		
 	"InfantryBulletResist" 		1	//Infantry Guns	
 	"InfantryUtilityResist"		0.9	//Utility Grenades, Like smoke and concussion
-	"InfantryMeleeResist"		1	//Melee
+	"InfantryMeleeResist"		0.95	//Melee
 	
 	"ExtraType1Resist" 		0.65	//unused
 	"ExtraType2Resist" 		0.6	//unused
@@ -1561,7 +1561,7 @@ BuildingParse
 	"ExtraType1Resist" 		0.4	//unused				
 	"ExtraType2Resist" 		0.94	//unused				
 	"ExtraType3Resist" 		0.94	//unused
-	"SquadArtResist" 		0.94
+	"SquadArtResist" 		0.90
 	
 	//BOUNDARY VECTORS
 	"CollisionRadius" 		"160"
@@ -1640,7 +1640,7 @@ BuildingParse
 	"ExtraType1Resist" 		0.4	//unused				
 	"ExtraType2Resist" 		0.94	//unused				
 	"ExtraType3Resist" 		0.94	//unused
-	"SquadArtResist" 		0.94
+	"SquadArtResist" 		0.90
 
 	//BOUNDARY VECTORS
 
