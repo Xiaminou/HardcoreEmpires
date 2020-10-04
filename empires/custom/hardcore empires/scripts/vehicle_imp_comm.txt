@@ -64,7 +64,7 @@
 		"Repair Station Heal"	"75"		//amount of vehicle health restored per second by the repair station
 		"Engineer Heal"		"3"		//amount of vehicle health restored per engineer's repair unit
 
-		"Dust Particle"		"commander_dust"//What particle is used as dust kicked up from the wheels
+		"Dust Particle"			"commander_dust"	//What particle is used as dust kicked up from the wheels
 		"Dust Particle Interval"	"0.0"
 		
 		"Heat Capacity"		"100"		//amount of maximum heat level
@@ -75,7 +75,7 @@
 		"Max Right Armor"	"5"
 
 		"Repair Station Repair"	"0.25"		//percent of one inch of armor repaired per second by the repair station (0.5 = a half inch of armor is repaired per second)
-		"Engineer Repair"	"0.05"		//percent of one inch of armor repaired per engineer's repair unit (0.1 = a tenth inch of armor is repaired per engineer repair unit)
+		"Engineer Repair"	"0.04"		//percent of one inch of armor repaired per engineer's repair unit (0.1 = a tenth inch of armor is repaired per engineer repair unit)
 
 
 	}

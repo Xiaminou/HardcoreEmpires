@@ -73,7 +73,7 @@
 		"Max Right Armor"	"1"
 
 		"Repair Station Repair"	"1"		//percent of one inch of armor repaired per second by the repair station (0.5 = a half inch of armor is repaired per second)
-		"Engineer Repair"	"0.06"		//percent of one inch of armor repaired per engineer's repair unit (0.1 = a tenth inch of armor is repaired per engineer repair unit)
+		"Engineer Repair"	"0.05"		//percent of one inch of armor repaired per engineer's repair unit (0.1 = a tenth inch of armor is repaired per engineer repair unit)
 
 
 		//Physics Impact Damage Modifiers: FORCE = MASS * ACCELERATION, when a vehicle impacts an object, the force is determined for the vehicle using its mass and acceleration
