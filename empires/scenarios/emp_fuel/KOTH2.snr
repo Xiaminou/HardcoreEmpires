@@ -1,0 +1,19 @@
+"Scenario"
+{
+	"Description"		"[Type: KOTH] King of the Hill: hold the center structure to win"
+	"details"		"The timer will decrease by 20 seconds each reset (Min: 4 minutes)"
+	"Tags"			" "
+	"Author"		"Xiam"
+	"NF_Res"		"400.049988"
+	"BE_Res"		"400.049988"
+	"NF_Tickets"		"351.225006"
+	"BE_Tickets"		"351.225006"
+	"version"		"1.240000"
+	"hMin"			"103575"
+	"hMax"			"103682"
+	"hLimit"		"1033493"
+	"Entities"
+	{
+		
+	}
+}
