@@ -834,7 +834,7 @@ Vehicle_Weapons
 		"Gravity"		"0.06"		//effects of gravity on the projectile, only for projectiles (requires "type" 1, 2 or 4)(default: 1.0)
 		"Heat"			"15"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status) (default: 0.1)
 		"Weight"		"60"		//weight in terms of effects on engine and weight restrictions for chassis (default: 10)
-		"Cycle Time"		"2.5"		//time between shots (default 0.1) (all weapons other than MGs have limits of 0.1 as lowest)
+		"Cycle Time"		"2.4"		//time between shots (default 0.1) (all weapons other than MGs have limits of 0.1 as lowest)
 		"Clip Size"		"30"		//ammo loaded per reloads (default: 10)
 		"Total Ammo Clips"	"0"		//max ammo clips carried (0 is the same as not using clips) (default: 1)
 		"Reload Time"		"0"		//time to load one clip
@@ -871,7 +871,7 @@ Vehicle_Weapons
 		"Gravity"		"0.04"		//effects of gravity on the projectile, only for projectiles (requires "type" 1, 2 or 4)(default: 1.0)
 		"Heat"			"18"		//heat added per shot fired (100 total heat added to vehicle puts it in an overheated status) (default: 0.1)
 		"Weight"		"80"		//weight in terms of effects on engine and weight restrictions for chassis (default: 10)
-		"Cycle Time"		"2.85"		//time between shots (default 0.1) (all weapons other than MGs have limits of 0.1 as lowest)
+		"Cycle Time"		"2.6"		//time between shots (default 0.1) (all weapons other than MGs have limits of 0.1 as lowest)
 		"Clip Size"		"30"		//ammo loaded per reloads (default: 10)
 		"Total Ammo Clips"	"0"		//max ammo clips carried (0 is the same as not using clips) (default: 1)
 		"Reload Time"		"0"		//time to load one clip
