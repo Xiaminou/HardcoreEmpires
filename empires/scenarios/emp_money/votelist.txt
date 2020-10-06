@@ -16,6 +16,20 @@
 			"tags_override"		"-"
 			"description_override"		"[Type: Gameplay] Add a flag in the center"
 		}
+		"KOTH"
+		{
+			"min_players"		"0"
+			"max_players"		"65"
+			"tags_override"		"-"
+			"description_override"		"-"
+		}
+		"KOTH2"
+		{
+			"min_players"		"0"
+			"max_players"		"65"
+			"tags_override"		"-"
+			"description_override"		"-"
+		}
 	}
 	"enabled"		"1"
 }

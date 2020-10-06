@@ -1,15 +1,32 @@
 "Scenario"
 {
-	"Description"		" "
-	"details"		" "
+	"Description"		"[Type: KOTH] Start South-West (A1) and South-East (D1)"
+	"details"		"Control the center flag to win"
 	"Tags"		" "
-	"Author"		"Hardcore Empires - Backup Serve"
+	"Author"		"Xiam"
 	"NF_Res"		"400.000000"
 	"BE_Res"		"400.000000"
 	"NF_Tickets"		"211.199997"
 	"BE_Tickets"		"211.199997"
-	"version"		"1.240000"
-	"hLimit"		"147014"
+	"Scripts"
+	{
+		"KOTH"
+		{
+			"$string_MainText"		"King of the Hill\Hold the middle flag for 8 minutes to win"
+			"$string_NeutralText"		"King Of The Hill"
+			"$int_TimerLength"		"480"
+			"$int_TimerDecrease"		"20"
+			"$int_TimerLengthMin"		"260"
+			"i_HookFlag"		"TargetName KOTHFlag -> HookOutput OnNeutral NeutralTimer -> HookOutput OnImpCap BETimer -> HookOutput OnNFCap NFTimer"
+			"i_StartingTimer"		"Cancel KOTHTimer -> TextTimer -1 *$string_MainText* _ KOTHTimer"
+			"s_EnableTimer"		"Run NeutralTimer"
+			"NeutralTimer"		"Cancel KOTHTimer -> Run ReduceTime -> TextTimer -1 *$string_NeutralText* _ KOTHTimer"
+			"BETimer"		"Cancel KOTHTimer -> TextTimer $int_TimerLength *BE Victory in TIME_LEFT* _ KOTHTimer -> TargetParams -> Run TeleportAboveFlag -> Input InputImpWin 0 "
+			"NFTimer"		"Cancel KOTHTimer -> TextTimer $int_TimerLength *NF Victory in TIME_LEFT* _ KOTHTimer -> TargetParams -> Run TeleportAboveFlag -> Input InputNFWin 0 "
+			"ReduceTime"		"Set $int_TimerLength = $int_TimerLength - $int_TimerDecrease -> If *$int_TimerLength < $int_TimerLengthMin* -> Set $int_TimerLength = $int_TimerLengthMin"
+			"TeleportAboveFlag"		"Teleport 0 0 300 KOTHFlag"
+		}
+	}
 	"NF_Research"
 	{
 		"0"		"1"
@@ -45,15 +62,15 @@
 		"60203"
 		{
 			"className"		"emp_imp_commander"
-			"position"		"8108.080078 -8446.793945 694.369690"
-			"angles"		"0.287851 -0.020004 1.245453"
+			"position"		"8108.079102 -8445.566406 694.385071"
+			"angles"		"0.287881 -0.020069 1.251674"
 			"coords"		"D1"
 		}
 		"60205"
 		{
 			"className"		"emp_nf_commander"
-			"position"		"-8364.000000 -9196.224609 468.330475"
-			"angles"		"-0.000000 0.000000 -0.584686"
+			"position"		"-8364.000000 -9193.494141 468.327179"
+			"angles"		"-0.000001 -0.000001 -0.586090"
 			"coords"		"A1"
 		}
 		"19005"
@@ -140,7 +157,7 @@
 			"position"		"0.000000 0.000000 0.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"B3"
-			"name"		"bunkercapture"
+			"name"		"KOTHFlag"
 			"Mins"		"243.000000 -641.000000 -961.000000"
 			"Maxs"		"769.000000 1.000000 -811.000000"
 			"pointNumber"		"1"
@@ -149,7 +166,7 @@
 			"playersRequiredNF"		"2"
 			"playersRequiredImp"		"2"
 			"teamOwner"		"0"
-			"locationName"		"Bunker Complex"
+			"locationName"		"KOTHFlag"
 			"resToGiveNF"		"0.000000"
 			"resToGiveImp"		"0.000000"
 			"reinfToTakeNF"		"0.000000"
@@ -563,4 +580,6 @@
 			"turretRestrict"		"0"
 		}
 	}
+	"version"		"1.240000"
+	"hLimit"		"147014"
 }

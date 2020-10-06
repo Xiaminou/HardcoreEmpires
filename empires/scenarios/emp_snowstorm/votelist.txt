@@ -5,16 +5,24 @@
 		"Alpha"
 		{
 			"min_players"		"22"
-			"max_players"		"64"
-			"name_override"		"War for the north"
-			"description_override"		"[Type: Location & Gameplay] Start at North (B4 and C4)"
+			"max_players"		"65"
+			"tags_override"		"-"
+			"description_override"		"-"
 		}
 		"Bravo"
 		{
 			"min_players"		"0"
-			"max_players"		"64"
-			"name_override"		"Plateau"
-			"description_override"		"[Type: Location] Start at West (A3) and East (D3)"
+			"max_players"		"65"
+			"tags_override"		"-"
+			"description_override"		"-"
+		}
+		"KOTH"
+		{
+			"min_players"		"0"
+			"max_players"		"65"
+			"tags_override"		"-"
+			"description_override"		"-"
 		}
 	}
+	"enabled"		"1"
 }

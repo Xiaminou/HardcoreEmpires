@@ -1,13 +1,35 @@
 "Scenario"
 {
-	"Description"		" "
-	"details"		" "
+	"Description"		"[Type: KOTH] Start South-West (A1) and North-East (E5)"
+	"details"		"Control the center flag to win"
 	"Tags"		" "
-	"Author"		"Hardcore Empires - Backup Serve"
+	"Author"		"Xiam"
+	"version"		"1.240000"
+	"hLimit"		"101990"
+	"CanBaseSwap"		"yes"
 	"NF_Res"		"400.200012"
 	"BE_Res"		"400.200012"
-	"NF_Tickets"		"351.267029"
-	"BE_Tickets"		"351.267029"
+	"NF_Tickets"		"351.000000"
+	"BE_Tickets"		"351.000000"
+	"Scripts"
+	{
+		"KOTH"
+		{
+			"$string_MainText"		"King of the Hill\Hold the middle flag for 8 minutes to win"
+			"$string_NeutralText"		"King Of The Hill"
+			"$int_TimerLength"		"480"
+			"$int_TimerDecrease"		"20"
+			"$int_TimerLengthMin"		"260"
+			"i_HookFlag"		"TargetName KOTHFlag -> HookOutput OnNeutral NeutralTimer -> HookOutput OnImpCap BETimer -> HookOutput OnNFCap NFTimer"
+			"i_StartingTimer"		"Cancel KOTHTimer -> TextTimer -1 *$string_MainText* _ KOTHTimer"
+			"s_EnableTimer"		"Run NeutralTimer"
+			"NeutralTimer"		"Cancel KOTHTimer -> Run ReduceTime -> TextTimer -1 *$string_NeutralText* _ KOTHTimer"
+			"BETimer"		"Cancel KOTHTimer -> TextTimer $int_TimerLength *BE Victory in TIME_LEFT* _ KOTHTimer -> TargetParams -> Run TeleportAboveFlag -> Input InputImpWin 0 "
+			"NFTimer"		"Cancel KOTHTimer -> TextTimer $int_TimerLength *NF Victory in TIME_LEFT* _ KOTHTimer -> TargetParams -> Run TeleportAboveFlag -> Input InputNFWin 0 "
+			"ReduceTime"		"Set $int_TimerLength = $int_TimerLength - $int_TimerDecrease -> If *$int_TimerLength < $int_TimerLengthMin* -> Set $int_TimerLength = $int_TimerLengthMin"
+			"TeleportAboveFlag"		"Teleport 0 0 300 KOTHFlag"
+		}
+	}
 	"NF_Research"
 	{
 		"0"		"1"
@@ -18,120 +40,19 @@
 	}
 	"Entities"
 	{
-		"23218"
-		{
-			"className"		"emp_building_nf_barracks"
-			"position"		"9152.000000 10953.799805 0.000000"
-			"angles"		"0.000000 180.000000 0.000000"
-			"coords"		"D5"
-			"built"		"1"
-			"maxHealth"		"250"
-			"health"		"250"
-			"team"		"2"
-		}
-		"23229"
-		{
-			"className"		"emp_building_imp_barracks"
-			"position"		"-10704.000000 -9280.000000 32.000000"
-			"angles"		"0.000000 359.500000 0.000000"
-			"coords"		"A1"
-			"built"		"1"
-			"maxHealth"		"250"
-			"health"		"250"
-			"team"		"3"
-		}
 		"23240"
 		{
 			"className"		"emp_imp_commander"
-			"position"		"-10672.075195 -8575.883789 37.677380"
-			"angles"		"0.511688 0.021906 1.362092"
+			"position"		"-10671.084961 -8534.975586 37.742874"
+			"angles"		"0.573714 -0.259472 1.352618"
 			"coords"		"A2"
 		}
 		"23221"
 		{
 			"className"		"emp_nf_commander"
-			"position"		"9043.239258 10141.190430 78.828720"
-			"angles"		"0.088323 89.993744 -0.593597"
+			"position"		"9040.897461 10140.736328 78.837273"
+			"angles"		"0.094245 89.979691 -0.592926"
 			"coords"		"D5"
-		}
-		"101973"
-		{
-			"className"		"emp_cap_point"
-			"position"		"0.000000 0.000000 0.000000"
-			"angles"		"0.000000 0.000000 0.000000"
-			"coords"		"C3"
-			"Mins"		"-14081.000000 -14273.000000 831.000000"
-			"Maxs"		"-14015.000000 -14207.000000 897.000000"
-			"pointNumber"		"0"
-			"timeToCap"		"5"
-			"timeToNeutral"		"5"
-			"playersRequiredNF"		"5"
-			"playersRequiredImp"		"5"
-			"teamOwner"		"1"
-			"locationName"		"res NF"
-			"resToGiveNF"		"1.000000"
-			"resToGiveImp"		"1.000000"
-			"reinfToTakeNF"		"0.000000"
-			"reinfToTakeImp"		"0.000000"
-			"canNFCap"		"0"
-			"canImpCap"		"0"
-		}
-		"101990"
-		{
-			"className"		"emp_cap_point"
-			"position"		"0.000000 0.000000 0.000000"
-			"angles"		"0.000000 0.000000 0.000000"
-			"coords"		"C3"
-			"Mins"		"-14017.000000 -14273.000000 831.000000"
-			"Maxs"		"-13951.000000 -14207.000000 897.000000"
-			"pointNumber"		"0"
-			"timeToCap"		"5"
-			"timeToNeutral"		"5"
-			"playersRequiredNF"		"5"
-			"playersRequiredImp"		"5"
-			"teamOwner"		"2"
-			"locationName"		"res BE"
-			"resToGiveNF"		"1.000000"
-			"resToGiveImp"		"1.000000"
-			"reinfToTakeNF"		"0.000000"
-			"reinfToTakeImp"		"0.000000"
-			"canNFCap"		"0"
-			"canImpCap"		"0"
-		}
-		"38526"
-		{
-			"className"		"emp_building_nf_refinery"
-			"position"		"10960.000000 9104.000000 36.000000"
-			"angles"		"0.000000 0.000000 0.000000"
-			"coords"		"E5"
-			"built"		"1"
-			"maxHealth"		"150"
-			"health"		"150"
-			"team"		"2"
-			"target"		"res_northeast"
-		}
-		"38509"
-		{
-			"className"		"emp_building_imp_refinery"
-			"position"		"-7440.000000 -10848.000000 40.000000"
-			"angles"		"0.000000 0.000000 0.000000"
-			"coords"		"B1"
-			"built"		"1"
-			"maxHealth"		"150"
-			"health"		"150"
-			"team"		"3"
-			"target"		"res_southwest"
-		}
-		"24379"
-		{
-			"className"		"emp_resource_point"
-			"position"		"792.000000 -648.000000 -24.000000"
-			"angles"		"0.000000 0.000000 0.000000"
-			"coords"		"C3"
-			"name"		"res_lake_south"
-			"effects"		"80"
-			"enabled"		"1"
-			"resPerSecond"		"1.500000"
 		}
 		"29873"
 		{
@@ -142,7 +63,7 @@
 			"name"		"res_satellite_south"
 			"effects"		"80"
 			"enabled"		"1"
-			"resPerSecond"		"1.500000"
+			"resPerSecond"		"1.000000"
 		}
 		"24541"
 		{
@@ -152,8 +73,8 @@
 			"coords"		"B1"
 			"name"		"res_southwest"
 			"effects"		"80"
-			"enabled"		"0"
-			"resPerSecond"		"1.500000"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
 		}
 		"24576"
 		{
@@ -164,7 +85,7 @@
 			"name"		"res_west"
 			"effects"		"80"
 			"enabled"		"1"
-			"resPerSecond"		"1.500000"
+			"resPerSecond"		"1.000000"
 		}
 		"24590"
 		{
@@ -175,7 +96,7 @@
 			"name"		"res_northwest_highground"
 			"effects"		"80"
 			"enabled"		"1"
-			"resPerSecond"		"1.500000"
+			"resPerSecond"		"1.000000"
 		}
 		"24604"
 		{
@@ -186,7 +107,7 @@
 			"name"		"res_northwest_lowground"
 			"effects"		"80"
 			"enabled"		"1"
-			"resPerSecond"		"1.500000"
+			"resPerSecond"		"1.000000"
 		}
 		"24632"
 		{
@@ -197,7 +118,7 @@
 			"name"		"res_north"
 			"effects"		"80"
 			"enabled"		"1"
-			"resPerSecond"		"1.500000"
+			"resPerSecond"		"1.000000"
 		}
 		"24660"
 		{
@@ -207,8 +128,8 @@
 			"coords"		"E5"
 			"name"		"res_northeast"
 			"effects"		"80"
-			"enabled"		"0"
-			"resPerSecond"		"1.500000"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
 		}
 		"29910"
 		{
@@ -219,7 +140,7 @@
 			"name"		"res_trainstation_south"
 			"effects"		"80"
 			"enabled"		"1"
-			"resPerSecond"		"1.500000"
+			"resPerSecond"		"1.000000"
 		}
 		"68205"
 		{
@@ -230,7 +151,7 @@
 			"name"		"res_southcenter"
 			"effects"		"80"
 			"enabled"		"1"
-			"resPerSecond"		"1.500000"
+			"resPerSecond"		"1.000000"
 		}
 		"68250"
 		{
@@ -241,17 +162,7 @@
 			"name"		"res_westcenter"
 			"effects"		"80"
 			"enabled"		"1"
-			"resPerSecond"		"1.500000"
-		}
-		"24381"
-		{
-			"className"		"emp_resource_point_prop"
-			"position"		"792.000000 -664.000000 -40.657001"
-			"angles"		"0.000000 0.000000 0.000000"
-			"coords"		"C3"
-			"name"		"res_lake_south_prop"
-			"enabled"		"1"
-			"model"		"models/props_wasteland/rockcliff01k.mdl"
+			"resPerSecond"		"1.000000"
 		}
 		"29877"
 		{
@@ -270,8 +181,7 @@
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"B1"
 			"name"		"res_southwest_prop"
-			"effects"		"32"
-			"enabled"		"0"
+			"enabled"		"1"
 			"model"		"models/props_wasteland/rockcliff01k.mdl"
 		}
 		"24580"
@@ -321,8 +231,7 @@
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"E5"
 			"name"		"res_northeast_prop"
-			"effects"		"32"
-			"enabled"		"0"
+			"enabled"		"1"
 			"model"		"models/props_wasteland/rockcliff01k.mdl"
 		}
 		"29914"
@@ -355,26 +264,6 @@
 			"enabled"		"1"
 			"model"		"models/props_wasteland/rockcliff01k.mdl"
 		}
-		"24435"
-		{
-			"className"		"env_smokestack"
-			"position"		"792.000000 -648.000000 -8.000000"
-			"angles"		"0.000000 0.000000 0.000000"
-			"coords"		"C3"
-			"name"		"res_lake_south_smoke"
-			"color"		"255 255 255 200"
-			"material"		"particle/SmokeStack.vmt"
-			"startSize"		"20.000000"
-			"endSize"		"60.000000"
-			"emit"		"1"
-			"baseSpread"		"5.000000"
-			"twist"		"5.000000"
-			"roll"		"5.000000"
-			"jetLength"		"400.000000"
-			"spreadSpeed"		"5.000000"
-			"Speed"		"100.000000"
-			"rate"		"6.000000"
-		}
 		"29875"
 		{
 			"className"		"env_smokestack"
@@ -406,7 +295,7 @@
 			"material"		"particle/SmokeStack.vmt"
 			"startSize"		"20.000000"
 			"endSize"		"60.000000"
-			"emit"		"0"
+			"emit"		"1"
 			"baseSpread"		"5.000000"
 			"twist"		"5.000000"
 			"roll"		"5.000000"
@@ -506,7 +395,7 @@
 			"material"		"particle/SmokeStack.vmt"
 			"startSize"		"20.000000"
 			"endSize"		"60.000000"
-			"emit"		"0"
+			"emit"		"1"
 			"baseSpread"		"5.000000"
 			"twist"		"5.000000"
 			"roll"		"5.000000"
@@ -587,7 +476,87 @@
 			"eng_restrict_Imp"		"0"
 			"turretRestrict"		"0"
 		}
+		"5000013"
+		{
+			"className"		"emp_building_nf_barracks"
+			"position"		"9152.000000 10953.799805 0.000000"
+			"angles"		"0.000000 180.000000 0.000000"
+			"coords"		"D5"
+			"built"		"1"
+			"maxHealth"		"250"
+			"health"		"250"
+			"team"		"2"
+		}
+		"5000014"
+		{
+			"className"		"emp_building_imp_barracks"
+			"position"		"-10704.000000 -9280.000000 32.000000"
+			"angles"		"0.000000 359.500000 0.000000"
+			"coords"		"A1"
+			"built"		"1"
+			"maxHealth"		"250"
+			"health"		"250"
+			"team"		"3"
+		}
+		"5000015"
+		{
+			"className"		"emp_cap_model"
+			"position"		"830.197754 -655.807190 -55.309235"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"C3"
+			"pointNumber"		"31"
+			"visibleOnMap"		"1"
+			"model"		"models/Common/props_system/flagpole01_neutral.mdl"
+			"model2"		"models/Common/props_system/flagpole01_nf.mdl"
+			"model3"		"models/Common/props_system/flagpole01_imp.mdl"
+			"team"		"0"
+		}
+		"5000016"
+		{
+			"className"		"emp_cap_point"
+			"position"		"830.197754 -655.807190 -55.309235"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"C3"
+			"name"			"KOTHFlag"
+			"Mins"		"-202.825607 -200.250030 -128.249969"
+			"Maxs"		"250.250106 200.249984 194.250122"
+			"pointNumber"		"31"
+			"timeToCap"		"10"
+			"timeToNeutral"		"10"
+			"playersRequiredNF"		"1"
+			"playersRequiredImp"		"1"
+			"teamOwner"		"0"
+			"locationName"		"KOTHFlag"
+			"resToGiveNF"		"0.000000"
+			"resToGiveImp"		"0.000000"
+			"reinfToTakeNF"		"0.000000"
+			"reinfToTakeImp"		"0.000000"
+			"canNFCap"		"1"
+			"canImpCap"		"1"
+		}
+		"5000025"
+		{
+			"className"		"emp_building_nf_refinery"
+			"position"		"10960.000000 9104.000000 36.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"E5"
+			"built"		"1"
+			"maxHealth"		"150"
+			"health"		"150"
+			"team"		"2"
+			"target"		"res_northeast"
+		}
+		"5000026"
+		{
+			"className"		"emp_building_imp_refinery"
+			"position"		"-7440.000000 -10848.000000 40.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"B1"
+			"built"		"1"
+			"maxHealth"		"150"
+			"health"		"150"
+			"team"		"3"
+			"target"		"res_southwest"
+		}
 	}
-	"version"		"1.240000"
-	"hLimit"		"101990"
 }
