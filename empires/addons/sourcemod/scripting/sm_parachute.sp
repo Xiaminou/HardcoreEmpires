@@ -190,7 +190,7 @@ public OnPluginStart()
 	g_model = CreateConVar("sm_parachute_model","1");
 	g_decrease = CreateConVar("sm_parachute_decrease","50");
 	g_button = CreateConVar("sm_parachute_button","1");
-	g_iVelocity = FindSendPropOffs("CBasePlayer", "m_vecVelocity[0]");
+	g_iVelocity = FindSendPropOffs("CBasePlayer", "m_vecVelocity.x");
 	g_iMoney = FindSendPropOffs("CCSPlayer", "m_iAccount");
 	g_maxplayers = GetMaxClients();
 	SetConVarString(g_version, PARACHUTE_VERSION);

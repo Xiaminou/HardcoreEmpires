@@ -1,5 +1,5 @@
 //    {EventTimeleftHostname. Set hostname to time remaining left until the event}
-//    Copyright (C) {2017}  {Neoony}
+//    Copyright (C) {2019}  {Neoony}
 //
 //    This program is free software: you can redistribute it and/or modify
 //    it under the terms of the GNU General Public License as published by
@@ -15,13 +15,11 @@
 //    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 //
 
-#pragma semicolon 1
-
 #include <sourcemod>
 #include <sdktools>
 #include <sdkhooks>
 
-#define PluginVer "v0.1 WIP"
+#define PluginVer "v0.1 WIP2"
  
 public Plugin myinfo =
 {
@@ -31,6 +29,16 @@ public Plugin myinfo =
 	version = PluginVer,
 	url = "https://git.empiresmod.com/sourcemod/EventTimeleftHostname"
 }
+
+//Updater
+#undef REQUIRE_PLUGIN
+#include <updater>
+
+#define UPDATE_URL    "https://sourcemod.docs.empiresmod.com/EventTimeleftHostname/updater.txt"
+
+//Neat
+#pragma semicolon 1
+//#pragma newdecls required //Unable to use with socket extension
 
 //ConVars
 ConVar eth_enabled, eth_hour, eth_minute, eth_second, eth_day, eth_month, eth_message;
@@ -63,10 +71,24 @@ public void OnPluginStart()
 	//Find all console variables
 	Hostname = FindConVar("hostname");
 	
+	//Updater
+	if (LibraryExists("updater"))
+	{
+		Updater_AddPlugin(UPDATE_URL);
+	}
+	
 	//Create or load config files
 	AutoExecConfig(true, "EventTimeleftHostname");
 	//Message
 	PrintToServer("[ETH]: EventTimeleftHostname by Neoony - Loaded");
+}
+
+public void OnLibraryAdded(const char[] name)
+{
+    if (StrEqual(name, "updater"))
+    {
+        Updater_AddPlugin(UPDATE_URL);
+    }
 }
 
 public OnMapStart()
@@ -403,19 +425,19 @@ public Action:Update_Hostname(Handle:timer)
 		{
 			if (finaltimedays == 0 && untimeleft > 0)
 			{
-				Format(NewHN, 256, "%s %s %d:%d:%d", oldHN, message, finaltimehours, finaltimeminutes, finaltimeseconds);
+				Format(NewHN, 256, "%s %s %d:%02d:%02d", oldHN, message, finaltimehours, finaltimeminutes, finaltimeseconds);
 				SetConVarString(Hostname, NewHN);
 				return Plugin_Continue;
 			}
 			if (finaltimedays == 1 && untimeleft > 0)
 			{
-				Format(NewHN, 256, "%s %s %d Day and %d:%d:%d", oldHN, message, finaltimedays, finaltimehours, finaltimeminutes, finaltimeseconds);
+				Format(NewHN, 256, "%s %s %d Day and %d:%02d:%02d", oldHN, message, finaltimedays, finaltimehours, finaltimeminutes, finaltimeseconds);
 				SetConVarString(Hostname, NewHN);
 				return Plugin_Continue;
 			}
 			if (finaltimedays > 1 && untimeleft > 0)
 			{
-				Format(NewHN, 256, "%s %s %d Days and %d:%d:%d", oldHN, message, finaltimedays, finaltimehours, finaltimeminutes, finaltimeseconds);
+				Format(NewHN, 256, "%s %s %d Days and %d:%02d:%02d", oldHN, message, finaltimedays, finaltimehours, finaltimeminutes, finaltimeseconds);
 				SetConVarString(Hostname, NewHN);
 				return Plugin_Continue;
 			}

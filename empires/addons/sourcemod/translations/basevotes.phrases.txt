@@ -55,13 +55,13 @@
 	"Vote Successful"
 	{
 		"#format"		"{1:d},{2:d}"
-		"en"			"Vote successful. (Received {1} percent of {2} votes)"
+		"en"			"Vote successful. (Received {1}%% of {2} votes)"
 	}	
 	
 	"Vote Failed"
 	{
 		"#format"		"{1:d},{2:d},{3:d}"
-		"en"			"Vote failed. {1} percent vote required. (Received {2} percent of {3} votes)"
+		"en"			"Vote failed. {1}%% vote required. (Received {2}%% of {3} votes)"
 	}	
 
 	"Vote End"

@@ -13,13 +13,13 @@
 	"Nextmap Voting Finished"
 	{
 		"#format"		"{1:s},{2:i},{3:i}"
-		"en"			"Map voting has finished. The next map will be {1}. (Received {2} percent of {3} votes)"
+		"en"			"Map voting has finished. The next map will be {1}. (Received {2}%% of {3} votes)"
 	}
 
 	"Current Map Extended"
 	{
 		"#format"		"{1:i},{2:i}"
-		"en"			"The current map has been extended. (Received {1} percent of {2} votes)"
+		"en"			"The current map has been extended. (Received {1}%% of {2} votes)"
 	}
 	
 	"Extend Map"
@@ -35,7 +35,7 @@
 	"Current Map Stays"
 	{
 		"#format"		"{1:i},{2:i}"
-		"en"			"Current map continues! The Vote has spoken! (Received {1} percent of {2} votes)"
+		"en"			"Current map continues! The Vote has spoken! (Received {1}%% of {2} votes)"
 	}
 
 	"Changed Next Map"
@@ -47,6 +47,6 @@
 	"Starting Runoff"
 	{
 		"#format"		"{1:.0f},{2:s},{3:.0f},{4:s},{5:.0f}"
-		"en"			"No map got over {1} percent votes ({2} [{3} percent] & {4} [{5} percent]), starting runoff vote"
+		"en"			"No map got over {1}%% votes ({2} [{3}%%] & {4} [{5}%%]), starting runoff vote"
 	}
 }
