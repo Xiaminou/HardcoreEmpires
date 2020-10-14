@@ -5,7 +5,7 @@ WeaponData
 	"Bullets"			"1"		// bullets per shoot
 	"CycleTime"			"0.09"		// time between shoots
 	"FalloffStart"			"0"		// Distance at which bullet falloff starts - (Max bullet distance 10000 units) - Default 5000
-	"FalloffEnd"			"7500"		// Distance at which bullet falloff ends - (Distance that damage is at MinimalDamage) - Default 10000	
+	"FalloffEnd"			"5000"		// Distance at which bullet falloff ends - (Distance that damage is at MinimalDamage) - Default 10000	
 	"MinimalDamage"			"17"		// bullet will always deal this amount of damage even after damage decrease
 
 	"Damage Head Modifier"		"3.0"
@@ -62,13 +62,13 @@ WeaponData
 	"JumpingSpreadMax"		"0.7"
 	"StandingSpreadMax"		"0.3"
 	"DuckingSpreadMax"		"0.2"
-	"ProneSpreadMax"		"0.05"
+	"ProneSpreadMax"		"0.07"
 
 	//Increment spread by this amount for every shot fired to maximum of moving at full speed spread
 	"JumpingSpreadIncrement"	"0.01"
-	"StandingSpreadIncrement"	"0.0050"
-	"DuckingSpreadIncrement"	"0.0030"
-	"ProneSpreadIncrement"		"0.0011"
+	"StandingSpreadIncrement"	"0.005"
+	"DuckingSpreadIncrement"	"0.0035"
+	"ProneSpreadIncrement"		"0.003"
 
 	//Decrease spread by this amount for every second not fired down to minimum rest spread
 	"JumpingSpreadDecrement"	"0.01"

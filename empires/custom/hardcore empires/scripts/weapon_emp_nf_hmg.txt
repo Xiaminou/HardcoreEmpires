@@ -5,7 +5,7 @@ WeaponData
 	"Bullets"			"1"		// bullets per shoot
 	"CycleTime"			"0.08"		// time between shoots
 	"FalloffStart"			"0"		// Distance at which bullet falloff starts - (Max bullet distance 10000 units) - Default 5000
-	"FalloffEnd"			"7500"		// Distance at which bullet falloff ends - (Distance that damage is at MinimalDamage) - Default 10000	
+	"FalloffEnd"			"5000"		// Distance at which bullet falloff ends - (Distance that damage is at MinimalDamage) - Default 10000	
 	"MinimalDamage"			"15"		// bullet will always deal this amount of damage even after damage decrease
 
 	"Damage Head Modifier"		"3.0"
@@ -42,13 +42,15 @@ WeaponData
 	"MeleeDamage"			"50"	// damage per melee hit
 	"MeleeCycleTime"		"1.0"	// time between melee attacks
 
-	//Accuracy Upgrade Modifier. Default is 0.75. The lower the better.
-	"AccuracyUpgradeModifier"	"0.90"
-//Stamina Penalty
+	//Stamina Penalty
 	"StaminaPenalty_Standing"	"3.5"
 	"StaminaPenalty_Crouching"	"1.5"
 	"StaminaPenalty_Prone"		"1.0"
-//Weapon Spread
+	
+	//Weapon Spread
+	//Accuracy Upgrade Modifier. Default is 0.75. The lower the better.
+	"AccuracyUpgradeModifier"	"0.90"
+	
 	//When at rest
 	"JumpingSpread"			"0.05"
 	"StandingSpread"		"0.06"
@@ -62,10 +64,10 @@ WeaponData
 	"ProneSpreadModifier"		"0.005"
 
 	//Maximum the spread can become due to spread increment per shot below
-	"JumpingSpreadMax"	"0.7"
-	"StandingSpreadMax"	"0.5"
-	"DuckingSpreadMax"	"0.4"
-	"ProneSpreadMax"	"0.03"
+	"JumpingSpreadMax"		"0.7"
+	"StandingSpreadMax"		"0.5"
+	"DuckingSpreadMax"		"0.4"
+	"ProneSpreadMax"		"0.152"
 
 	//Increment spread by this amount for every shot fired to maximum of moving at full speed spread
 	"JumpingSpreadIncrement"	"0.01"
@@ -78,6 +80,7 @@ WeaponData
 	"StandingSpreadDecrement"	"0.1"
 	"DuckingSpreadDecrement"	"0.15"
 	"ProneSpreadDecrement"		"0.15"
+	
 	//Multiply base weapon spread by this value when in Ironsight view.
 	//Default value is 0.75
 	"IronsightJumpSpread"		"0.75"

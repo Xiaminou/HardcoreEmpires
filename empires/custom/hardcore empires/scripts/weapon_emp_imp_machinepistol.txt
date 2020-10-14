@@ -1,12 +1,12 @@
 WeaponData
 {
 	// Weapon characteristics:
-	"Damage"			"11"		// damage per bullet
+	"Damage"			"12"		// damage per bullet
 	"Bullets"			"1"		// bullets per shoot
 	"CycleTime"			"0.075"		// time between shoots
 	"FalloffStart"			"0"		// Distance at which bullet falloff starts - (Max bullet distance 10000 units) - Default 5000
-	"FalloffEnd"			"7500"		// Distance at which bullet falloff ends - (Distance that damage is at MinimalDamage) - Default 10000	
-	"MinimalDamage"			"8"		// bullet will always deal this amount of damage even after damage decrease
+	"FalloffEnd"			"5000"		// Distance at which bullet falloff ends - (Distance that damage is at MinimalDamage) - Default 10000	
+	"MinimalDamage"			"10"		// bullet will always deal this amount of damage even after damage decrease
 //	"BurstShots"   			"3"		// shots per burst(0 for N/A)
 //	"BurstCycleTime"  		"0.1"		// time between bursts
 
@@ -45,11 +45,14 @@ WeaponData
 	"MeleeCycleTime"		"0.4"	// time between melee attacks
 
 	//Weapon Spread
+	//Accuracy Upgrade Modifier. Default is 0.75. The lower the better.
+	"AccuracyUpgradeModifier"	"0.85"
+	
 	//When at rest
-	"JumpingSpread"			"0.1"
-	"StandingSpread"		"0.02"
-	"DuckingSpread"			"0.02"
-	"ProneSpread"			"0.005"
+	"JumpingSpread"			"0.025"
+	"StandingSpread"		"0.013"
+	"DuckingSpread"			"0.011"
+	"ProneSpread"			"0.009"
 
 	//When moving at full speed (sv_maxspeed)
 	"JumpingSpreadModifier"		"0.3"
@@ -58,22 +61,22 @@ WeaponData
 	"ProneSpreadModifier"		"0.02"
 
 	//Maximum the spread can become due to spread increment per shot below
-	"JumpingSpreadMax"		"0.3"
-	"StandingSpreadMax"		"0.05"
-	"DuckingSpreadMax"		"0.05"
-	"ProneSpreadMax"		"0.05"
+	"JumpingSpreadMax"		"0.7"
+	"StandingSpreadMax"		"0.3"
+	"DuckingSpreadMax"		"0.2"
+	"ProneSpreadMax"		"0.2"
 
 	//Increment spread by this amount for every shot fired to maximum of moving at full speed spread
 	"JumpingSpreadIncrement"	"0.01"
-	"StandingSpreadIncrement"	"0.005"
-	"DuckingSpreadIncrement"	"0.005"
-	"ProneSpreadIncrement"		"0.005"
+	"StandingSpreadIncrement"	"0.004"
+	"DuckingSpreadIncrement"	"0.0035"
+	"ProneSpreadIncrement"		"0.003"
 
 	//Decrease spread by this amount for every second not fired down to minimum rest spread
-	"JumpingSpreadDecrement"	"0.005"
-	"StandingSpreadDecrement"	"0.08"
+	"JumpingSpreadDecrement"	"0.01"
+	"StandingSpreadDecrement"	"0.06"
 	"DuckingSpreadDecrement"	"0.08"
-	"ProneSpreadDecrement"		"0.08"
+	"ProneSpreadDecrement"		"0.011"
 
 	//Weapon kick range x (vertical) and y (horizontal), full and no spread, max and min
 	//interpolates between full and no spread value based on current spread (percentage inbetween at rest and maximum spread due to firing)
