@@ -1456,7 +1456,7 @@ BuildingParse
 
 	"recycle time"		5								// Recycle time for the building
 	"carcass removal time" "0.5"								// Time it takes for a destroyed building carcass to be removed				
-	"touchmessageid" "19"
+	"touchmessageid" 	"19"
 
 	"hint"			"#emp_building_NFEngyRadar_hint"
 
@@ -1511,9 +1511,9 @@ BuildingParse
 	"spotted name"		"Wall"	
 
 	"model" 		models/imperial/buildings/walls/imp_wall1.mdl	//Standard Model
-	"gib suffix"    "_piece_"
-	"gib count"    "5"
-	"cost" 			15						//Cost of the building				
+	"gib suffix"    	"_piece_"
+	"gib count"    		"5"
+	"cost" 			10						//Cost of the building				
 	"max health"	 	100						//Max Possible Health				
 	"starting health"	25						//Starting Health when built (25% of Max)					
 	"damaged model" 	models/imperial/buildings/walls/imp_wall1.mdl	//Model to show when damage is lower then the threshold (Defaults to "model" field)	
@@ -1521,7 +1521,7 @@ BuildingParse
 	"destroyed model"	models/imperial/buildings/walls/imp_wall1.mdl	//Model to display when building is destroyed	(Defaults to "model" field)
 	"recycle time"		5								// Recycle time for the building
 	 
-	"touchmessageid" "20"
+	"touchmessageid" 	"20"
 
 	"hint"			"#emp_building_ImpWall_hint"
 
@@ -1590,9 +1590,9 @@ BuildingParse
 	"spotted name"		"Wall"	
 
 	"model" 		models/NF/Buildings/walls/nf_wall.mdl	//Standard Model
-	"gib suffix"    "_piece_"
-	"gib count"    "5"
-	"cost" 			15						//Cost of the building				
+	"gib suffix"    	"_piece_"
+	"gib count"    		"5"
+	"cost" 			10						//Cost of the building				
 	"max health"	 	100						//Max Possible Health				
 	"starting health"	25						//Starting Health when built (25% of Max)					
 	"damaged model" 	models/NF/Buildings/walls/nf_wall.mdl		//Model to show when damage is lower then the threshold (Defaults to "model" field)	
@@ -1600,7 +1600,7 @@ BuildingParse
 	"destroyed model"	models/NF/Buildings/walls/nf_wall.mdl	//Model to display when building is destroyed	(Defaults to "model" field)
 	"recycle time"		5								// Recycle time for the building
 	"carcass removal time" "30"								// Time it takes for a destroyed building carcass to be removed				
-	"touchmessageid" "21"
+	"touchmessageid" 	"21"
 
 	"hint"			"#emp_building_NFWall_hint"
 
