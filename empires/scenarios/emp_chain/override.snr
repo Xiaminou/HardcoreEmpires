@@ -1,0 +1,59 @@
+"Scenario"
+{
+	"Description"		" "
+	"details"		" "
+	"Tags"			" "
+	"Author"		"Xiam"
+	"NF_Res"		"400.000000"
+	"BE_Res"		"400.000000"
+	"NF_Tickets"		"435.000000"
+	"BE_Tickets"		"435.000000"
+	"version"		"1.240000"
+	"hMin"			"1923835"
+	"hLimit"		"2038134"
+	"NF_Research"
+	{
+		"0"		"1"
+	}
+	"BE_Research"
+	{
+		"0"		"1"
+	}
+	"Entities"
+	{
+		"5000010"
+		{
+			"className"		"prop_dynamic"
+			"position"		"9657.873047 1264.439941 -1197.699829"
+			"angles"		"0.000000 170.000000 0.000000"
+			"coords"		"E3"
+			"model"		"models/empfun/platform8.mdl"
+			"Skin"		"1"
+			"MoveType"		"0"
+			"SolidType"		"6"
+			"effects"		"16"
+		}
+		"5000018"
+		{
+			"className"		"prop_dynamic"
+			"position"		"9447.648438 645.506165 -908.899963"
+			"angles"		"0.000000 283.000000 0.000000"
+			"coords"		"D3"
+			"model"		"models/canyonrocks/rockcliff_cluster01b.mdl"
+			"MoveType"		"0"
+			"SolidType"		"6"	
+		}
+		"5000019"
+		{
+			"className"		"prop_dynamic"
+			"position"		"8871.553711 1403.084961 -1197.799927"
+			"angles"		"0.000000 170.000000 0.000000"
+			"coords"		"D3"
+			"model"		"models/empfun/platform8.mdl"
+			"Skin"		"1"
+			"MoveType"		"0"
+			"SolidType"		"6"
+			"effects"		"16"
+		}
+	}
+}

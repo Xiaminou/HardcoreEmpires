@@ -2,20 +2,11 @@
 {
 	"Description"		" "
 	"details"		" "
-	"Tags"		" "
-	"Author"		"Hardcore Empires - Main Server"
-	"NF_Res"		"500.000000"
-	"BE_Res"		"500.000000"
-	"NF_Tickets"		"250.000000"
-	"BE_Tickets"		"250.000000"
-	"NF_Research"
-	{
-		"0"		"1"
-	}
-	"BE_Research"
-	{
-		"0"		"1"
-	}
+	"Tags"			" "
+	"Author"		"Xiam"
+	"version"		"1.230000"
+	"hLimit"		"1334476"
+	"RefineryMultiplier"		"2"
 	"Entities"
 	{
 		"1565"
@@ -217,15 +208,15 @@
 		"702"
 		{
 			"className"		"emp_imp_commander"
-			"position"		"-12464.003906 13039.908203 132.372650"
-			"angles"		"0.286485 -179.993546 1.242143"
+			"position"		"-12464.023438 13041.237305 132.370148"
+			"angles"		"0.287641 -179.998108 1.247557"
 			"coords"		"A6"
 		}
 		"921"
 		{
 			"className"		"emp_nf_commander"
-			"position"		"12319.497070 12832.125000 211.127884"
-			"angles"		"0.032334 179.898468 0.326489"
+			"position"		"12319.507813 12836.600586 206.328537"
+			"angles"		"-0.000003 179.885132 -0.585480"
 			"coords"		"F6"
 		}
 		"462896"
@@ -695,7 +686,7 @@
 			"name"		"resnode1"
 			"effects"		"80"
 			"enabled"		"0"
-			"resPerSecond"		"2.000000"
+			"resPerSecond"		"1.000000"
 		}
 		"216192"
 		{
@@ -706,7 +697,7 @@
 			"name"		"resnode3"
 			"effects"		"80"
 			"enabled"		"1"
-			"resPerSecond"		"2.000000"
+			"resPerSecond"		"1.000000"
 		}
 		"216202"
 		{
@@ -717,7 +708,7 @@
 			"name"		"resnode2"
 			"effects"		"80"
 			"enabled"		"1"
-			"resPerSecond"		"2.000000"
+			"resPerSecond"		"1.000000"
 		}
 		"216216"
 		{
@@ -728,7 +719,7 @@
 			"name"		"resnode4"
 			"effects"		"80"
 			"enabled"		"1"
-			"resPerSecond"		"2.000000"
+			"resPerSecond"		"1.000000"
 		}
 		"216226"
 		{
@@ -739,7 +730,7 @@
 			"name"		"resnode5"
 			"effects"		"80"
 			"enabled"		"1"
-			"resPerSecond"		"2.000000"
+			"resPerSecond"		"1.000000"
 		}
 		"216236"
 		{
@@ -750,7 +741,7 @@
 			"name"		"resnode6"
 			"effects"		"80"
 			"enabled"		"0"
-			"resPerSecond"		"2.000000"
+			"resPerSecond"		"1.000000"
 		}
 		"358436"
 		{
@@ -761,7 +752,7 @@
 			"name"		"resnode7"
 			"effects"		"80"
 			"enabled"		"1"
-			"resPerSecond"		"2.000000"
+			"resPerSecond"		"1.000000"
 		}
 		"363958"
 		{
@@ -772,7 +763,7 @@
 			"name"		"resnode8"
 			"effects"		"80"
 			"enabled"		"1"
-			"resPerSecond"		"2.000000"
+			"resPerSecond"		"1.000000"
 		}
 		"405394"
 		{
@@ -783,7 +774,7 @@
 			"name"		"resnode10"
 			"effects"		"80"
 			"enabled"		"1"
-			"resPerSecond"		"2.000000"
+			"resPerSecond"		"1.000000"
 		}
 		"405411"
 		{
@@ -794,7 +785,7 @@
 			"name"		"resnode9"
 			"effects"		"80"
 			"enabled"		"1"
-			"resPerSecond"		"2.000000"
+			"resPerSecond"		"1.000000"
 		}
 		"1217740"
 		{
@@ -1288,7 +1279,7 @@
 		"921106"
 		{
 			"className"		"prop_dynamic"
-			"position"		"-9983.700195 -464.998993 966.000000"
+			"position"		"-9983.700195 -464.998962 966.000000"
 			"angles"		"-23.000000 270.000000 0.000000"
 			"coords"		"B3"
 			"name"		"bomb_BEside_model"
@@ -1354,7 +1345,7 @@
 		"405374"
 		{
 			"className"		"prop_dynamic"
-			"position"		"11904.000000 -2560.699951 -127.000000"
+			"position"		"11904.000000 -2560.700195 -127.000000"
 			"angles"		"0.000000 180.000000 0.000000"
 			"coords"		"F3"
 			"effects"		"16"
@@ -1365,7 +1356,7 @@
 		"405378"
 		{
 			"className"		"prop_dynamic"
-			"position"		"13312.000000 -2560.699951 -127.750000"
+			"position"		"13312.000000 -2560.700195 -127.750000"
 			"angles"		"0.000000 180.000000 0.000000"
 			"coords"		"F3"
 			"effects"		"16"
@@ -1376,7 +1367,7 @@
 		"405382"
 		{
 			"className"		"prop_dynamic"
-			"position"		"10240.000000 -1536.699951 -127.750000"
+			"position"		"10240.000000 -1536.699829 -127.750000"
 			"angles"		"0.000000 180.000000 0.000000"
 			"coords"		"E3"
 			"effects"		"16"
@@ -1409,7 +1400,7 @@
 		"745882"
 		{
 			"className"		"prop_dynamic"
-			"position"		"13308.000000 7487.839844 894.335022"
+			"position"		"13308.000000 7487.839355 894.335022"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"F5"
 			"name"		"cagelight_on"
@@ -1475,7 +1466,7 @@
 		"754186"
 		{
 			"className"		"prop_dynamic"
-			"position"		"5436.000000 11199.500000 464.088989"
+			"position"		"5436.000000 11199.500000 464.088959"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"E6"
 			"name"		"cagelight_on"
@@ -1486,7 +1477,7 @@
 		"754291"
 		{
 			"className"		"prop_dynamic"
-			"position"		"5436.000000 13664.299805 463.813995"
+			"position"		"5436.000000 13664.299805 463.813965"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"E6"
 			"name"		"cagelight_on"
@@ -1497,7 +1488,7 @@
 		"754552"
 		{
 			"className"		"prop_dynamic"
-			"position"		"-5436.000000 11199.799805 463.813995"
+			"position"		"-5436.000000 11199.799805 463.813965"
 			"angles"		"0.000000 180.000000 0.000000"
 			"coords"		"B6"
 			"name"		"cagelight_on"
@@ -1508,8 +1499,8 @@
 		"754580"
 		{
 			"className"		"prop_dynamic"
-			"position"		"-5436.000000 13664.599609 464.088989"
-			"angles"		"-0.000000 180.000000 0.000000"
+			"position"		"-5436.000000 13664.599609 464.088959"
+			"angles"		"-0.000000 -180.000000 0.000000"
 			"Parent"		"cagelight_east_rot14"
 			"coords"		"B6"
 			"name"		"cagelight_on"
@@ -1520,7 +1511,7 @@
 		"1217301"
 		{
 			"className"		"prop_dynamic"
-			"position"		"8188.000000 -5124.299805 414.334991"
+			"position"		"8188.000000 -5124.299805 414.334961"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"E3"
 			"name"		"cagelight_on"
@@ -1531,7 +1522,7 @@
 		"1217458"
 		{
 			"className"		"prop_dynamic"
-			"position"		"-8197.000000 -5124.299805 414.334991"
+			"position"		"-8197.000000 -5124.299805 414.334961"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"B3"
 			"name"		"cagelight_on"
@@ -1553,6 +1544,4 @@
 			"turretRestrict"		"0"
 		}
 	}
-	"version"		"1.240000"
-	"hLimit"		"1340526"
 }

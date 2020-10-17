@@ -5,30 +5,22 @@
 		"Bravo"
 		{
 			"min_players"		"0"
-			"max_players"		"64"
-			"name_override"		"Vehicles are overrated"
-			"description_override"		"[Type: Gameplay] Start with additionnal refineries and forward barracks but no vehicle factory"
+			"max_players"		"65"
 		}
 		"Bleeder"
 		{
 			"min_players"		"0"
-			"max_players"		"64"
-			"name_override"		"Vehicles are overrated"
-			"description_override"		"[Type: Gameplay] Changes the capture points to drain enemy reinforcements"
+			"max_players"		"65"
 		}
 		"Bravo (Bleeder)"
 		{
 			"min_players"		"0"
-			"max_players"		"64"
-			"name_override"		"Vehicles are overrated"
-			"description_override"		"[Type: Gameplay] Combines Bravo and Bleeder"
+			"max_players"		"65"
 		}
-		"mik_kingofthehill"
+		"KOTH"
 		{
 			"min_players"		"0"
-			"max_players"		"64"
-			"tags_override"		"-"
-			"description_override"		"-"
+			"max_players"		"65"
 		}
 	}
 	"enabled"		"1"

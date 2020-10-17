@@ -65,15 +65,15 @@
 		"19283"
 		{
 			"className"		"emp_imp_commander"
-			"position"		"-3647.939697 12015.692383 777.212097"
-			"angles"		"-0.750510 45.985012 1.418876"
+			"position"		"-3647.940918 12015.688477 777.213989"
+			"angles"		"-0.749159 45.985054 1.420514"
 			"coords"		"B5"
 		}
 		"19277"
 		{
 			"className"		"emp_nf_commander"
-			"position"		"4239.687012 -11823.664063 847.955933"
-			"angles"		"-0.012636 -132.498535 -0.629395"
+			"position"		"4239.664063 -11823.643555 847.955811"
+			"angles"		"-0.012690 -132.498764 -0.629242"
 			"coords"		"D1"
 		}
 		"19918"
@@ -236,27 +236,6 @@
 			"enabled"		"1"
 			"model"		"models/props_pipes/destroyedpipes01d.mdl"
 		}
-		"129955"
-		{
-			"className"		"emp_comm_restrict"
-			"position"		"0.000000 0.000000 0.000000"
-			"angles"		"0.000000 0.000000 0.000000"
-			"coords"		"C3"
-			"Mins"		"-14849.000000 -14849.000000 1471.000000"
-			"Maxs"		"14849.000000 14849.000000 14849.000000"
-		}
-		"130994"
-		{
-			"className"		"emp_eng_restrict"
-			"position"		"0.000000 0.000000 0.000000"
-			"angles"		"0.000000 0.000000 0.000000"
-			"coords"		"C3"
-			"Mins"		"-14849.000000 -14849.000000 1471.000000"
-			"Maxs"		"14849.000000 14849.000000 14849.000000"
-			"restrictNF"		"2"
-			"restrictImp"		"2"
-			"turretRestrict"		"3"
-		}
 		"19245"
 		{
 			"className"		"emp_info_params"
@@ -270,6 +249,6 @@
 			"turretRestrict"		"0"
 		}
 	}
-	"version"		"1.190000"
+	"version"		"1.260000"
 	"hLimit"		"130994"
 }

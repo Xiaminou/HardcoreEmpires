@@ -1,0 +1,434 @@
+"Scenario"
+{
+	"Description"		" "
+	"details"		" "
+	"Tags"		" "
+	"Author"		"Hardcore Empires - Backup Serve"
+	"NF_Res"		"400.000000"
+	"BE_Res"		"400.000000"
+	"NF_Tickets"		"435.399994"
+	"BE_Tickets"		"435.399994"
+	"NF_Research"
+	{
+		"0"		"1"
+	}
+	"BE_Research"
+	{
+		"0"		"1"
+	}
+	"Entities"
+	{
+		"1522785"
+		{
+			"className"		"emp_building_nf_barracks"
+			"position"		"-13996.000000 11504.000000 -1064.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"A5"
+			"name"		"NF_rax1"
+			"built"		"1"
+			"maxHealth"		"250"
+			"health"		"250"
+			"team"		"2"
+		}
+		"1413470"
+		{
+			"className"		"emp_building_imp_barracks"
+			"position"		"10744.000000 -12224.000000 -1153.219971"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"E1"
+			"name"		"BE_rax1"
+			"built"		"1"
+			"maxHealth"		"250"
+			"health"		"250"
+			"team"		"3"
+		}
+		"1413468"
+		{
+			"className"		"emp_imp_commander"
+			"position"		"11515.781250 -12670.475586 -1147.131226"
+			"angles"		"-0.012416 0.088535 0.766903"
+			"coords"		"E1"
+			"name"		"BE_CV1"
+		}
+		"1413253"
+		{
+			"className"		"emp_nf_commander"
+			"position"		"-12972.000000 11576.234375 -1001.675049"
+			"angles"		"0.000000 -0.000001 -0.586334"
+			"coords"		"A5"
+			"name"		"NF_CV1"
+		}
+		"1801905"
+		{
+			"className"		"emp_building_nf_refinery"
+			"position"		"-8284.000000 4501.000000 -1691.780029"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"B4"
+			"name"		"NF_ref1"
+			"built"		"1"
+			"maxHealth"		"150"
+			"health"		"150"
+			"team"		"2"
+			"target"		"res8"
+		}
+		"1413480"
+		{
+			"className"		"emp_building_imp_refinery"
+			"position"		"13383.000000 -12967.000000 -1106.229980"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"E1"
+			"name"		"BE_ref1"
+			"built"		"1"
+			"maxHealth"		"150"
+			"health"		"150"
+			"team"		"3"
+			"target"		"res1"
+		}
+		"1337309"
+		{
+			"className"		"emp_resource_point"
+			"position"		"13382.000000 -12968.000000 -1089.130005"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"E1"
+			"name"		"res1"
+			"effects"		"80"
+			"enabled"		"0"
+			"resPerSecond"		"1.000000"
+		}
+		"1337965"
+		{
+			"className"		"emp_resource_point"
+			"position"		"11183.500000 -5679.299805 -1128.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"E2"
+			"name"		"res3"
+			"effects"		"80"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+		}
+		"1337977"
+		{
+			"className"		"emp_resource_point"
+			"position"		"4483.819824 -5804.640137 -1640.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"D2"
+			"name"		"res2"
+			"effects"		"80"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+		}
+		"1337983"
+		{
+			"className"		"emp_resource_point"
+			"position"		"-5247.100098 -8301.179688 -1752.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"B2"
+			"name"		"res11"
+			"effects"		"80"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+		}
+		"1337989"
+		{
+			"className"		"emp_resource_point"
+			"position"		"-12964.099609 -4255.029785 -1128.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"A2"
+			"name"		"res10"
+			"effects"		"80"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+		}
+		"1338007"
+		{
+			"className"		"emp_resource_point"
+			"position"		"-3340.790039 2057.479980 -1136.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"B3"
+			"name"		"res9"
+			"effects"		"80"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+		}
+		"1338019"
+		{
+			"className"		"emp_resource_point"
+			"position"		"7950.109863 4892.979980 -1696.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"D4"
+			"name"		"res5"
+			"effects"		"80"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+		}
+		"1337409"
+		{
+			"className"		"emp_resource_point"
+			"position"		"-13170.000000 -12787.500000 -1125.750000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"A1"
+			"name"		"res12"
+			"effects"		"80"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+		}
+		"1398953"
+		{
+			"className"		"emp_resource_point"
+			"position"		"-8272.459961 4500.100098 -1684.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"B4"
+			"name"		"res8"
+			"effects"		"80"
+			"enabled"		"0"
+			"resPerSecond"		"1.000000"
+		}
+		"1338013"
+		{
+			"className"		"emp_resource_point"
+			"position"		"7683.540039 733.103027 -1136.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"D3"
+			"name"		"res4"
+			"effects"		"80"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+		}
+		"1338025"
+		{
+			"className"		"emp_resource_point"
+			"position"		"12652.200195 14236.200195 -1128.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"E5"
+			"name"		"res6"
+			"effects"		"80"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+		}
+		"1338001"
+		{
+			"className"		"emp_resource_point"
+			"position"		"-13564.000000 13421.599609 -1128.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"A5"
+			"name"		"res7"
+			"effects"		"80"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+		}
+		"1683757"
+		{
+			"className"		"prop_dynamic"
+			"position"		"-13687.500000 8907.429688 -727.611023"
+			"angles"		"0.000000 133.500000 0.000000"
+			"coords"		"A5"
+			"model"		"models/props_wasteland/lights_industrialcluster01a.mdl"
+			"MoveType"		"7"
+			"SolidType"		"6"
+		}
+		"1683773"
+		{
+			"className"		"prop_dynamic"
+			"position"		"-8192.519531 14612.700195 -759.611023"
+			"angles"		"0.000000 133.500000 0.000000"
+			"coords"		"B5"
+			"model"		"models/props_wasteland/lights_industrialcluster01a.mdl"
+			"MoveType"		"7"
+			"SolidType"		"6"
+		}
+		"1683805"
+		{
+			"className"		"prop_dynamic"
+			"position"		"-5700.359863 12486.500000 -695.611023"
+			"angles"		"0.000000 133.500000 0.000000"
+			"coords"		"B5"
+			"model"		"models/props_wasteland/lights_industrialcluster01a.mdl"
+			"MoveType"		"7"
+			"SolidType"		"6"
+		}
+		"1683829"
+		{
+			"className"		"prop_dynamic"
+			"position"		"2295.479980 12794.200195 -759.611023"
+			"angles"		"0.000000 223.500000 0.000000"
+			"coords"		"C5"
+			"model"		"models/props_wasteland/lights_industrialcluster01a.mdl"
+			"MoveType"		"7"
+			"SolidType"		"6"
+		}
+		"1683837"
+		{
+			"className"		"prop_dynamic"
+			"position"		"5667.669922 14582.700195 -759.611023"
+			"angles"		"0.000000 223.500000 0.000000"
+			"coords"		"D5"
+			"model"		"models/props_wasteland/lights_industrialcluster01a.mdl"
+			"MoveType"		"7"
+			"SolidType"		"6"
+		}
+		"1702909"
+		{
+			"className"		"prop_dynamic"
+			"position"		"10878.099609 13898.599609 -671.611023"
+			"angles"		"0.000000 316.500000 0.000000"
+			"coords"		"E5"
+			"model"		"models/props_wasteland/lights_industrialcluster01a.mdl"
+			"MoveType"		"7"
+			"SolidType"		"6"
+		}
+		"1702937"
+		{
+			"className"		"prop_dynamic"
+			"position"		"12923.599609 10190.900391 -703.611023"
+			"angles"		"0.000000 316.500000 0.000000"
+			"coords"		"E5"
+			"model"		"models/props_wasteland/lights_industrialcluster01a.mdl"
+			"MoveType"		"7"
+			"SolidType"		"6"
+		}
+		"1702973"
+		{
+			"className"		"prop_dynamic"
+			"position"		"13130.400391 7572.529785 -759.611023"
+			"angles"		"0.000000 316.500000 0.000000"
+			"coords"		"E4"
+			"model"		"models/props_wasteland/lights_industrialcluster01a.mdl"
+			"MoveType"		"7"
+			"SolidType"		"6"
+		}
+		"1702981"
+		{
+			"className"		"prop_dynamic"
+			"position"		"14764.900391 3225.669922 -759.611023"
+			"angles"		"0.000000 316.500000 0.000000"
+			"coords"		"E4"
+			"model"		"models/props_wasteland/lights_industrialcluster01a.mdl"
+			"MoveType"		"7"
+			"SolidType"		"6"
+		}
+		"1702961"
+		{
+			"className"		"prop_dynamic"
+			"position"		"9464.879883 9208.580078 -759.611023"
+			"angles"		"0.000000 316.500000 0.000000"
+			"coords"		"D5"
+			"model"		"models/props_wasteland/lights_industrialcluster01a.mdl"
+			"MoveType"		"7"
+			"SolidType"		"6"
+		}
+		"1702925"
+		{
+			"className"		"prop_dynamic"
+			"position"		"14194.599609 13554.799805 -759.611023"
+			"angles"		"0.000000 223.500000 0.000000"
+			"coords"		"E5"
+			"model"		"models/props_wasteland/lights_industrialcluster01a.mdl"
+			"MoveType"		"7"
+			"SolidType"		"6"
+		}
+		"1702905"
+		{
+			"className"		"prop_dynamic"
+			"position"		"8438.969727 11786.099609 -671.611023"
+			"angles"		"0.000000 223.500000 0.000000"
+			"coords"		"D5"
+			"model"		"models/props_wasteland/lights_industrialcluster01a.mdl"
+			"MoveType"		"7"
+			"SolidType"		"6"
+		}
+		"1683845"
+		{
+			"className"		"prop_dynamic"
+			"position"		"4530.970215 13378.000000 -759.611023"
+			"angles"		"0.000000 316.500000 0.000000"
+			"coords"		"D5"
+			"model"		"models/props_wasteland/lights_industrialcluster01a.mdl"
+			"MoveType"		"7"
+			"SolidType"		"6"
+		}
+		"1683833"
+		{
+			"className"		"prop_dynamic"
+			"position"		"-366.902008 13328.299805 -759.611023"
+			"angles"		"0.000000 223.500000 0.000000"
+			"coords"		"C5"
+			"model"		"models/props_wasteland/lights_industrialcluster01a.mdl"
+			"MoveType"		"7"
+			"SolidType"		"6"
+		}
+		"1683817"
+		{
+			"className"		"prop_dynamic"
+			"position"		"-2888.260010 14658.700195 -695.611023"
+			"angles"		"0.000000 223.500000 0.000000"
+			"coords"		"B5"
+			"model"		"models/props_wasteland/lights_industrialcluster01a.mdl"
+			"MoveType"		"7"
+			"SolidType"		"6"
+		}
+		"1683793"
+		{
+			"className"		"prop_dynamic"
+			"position"		"-9409.230469 12923.000000 -759.611023"
+			"angles"		"0.000000 133.500000 0.000000"
+			"coords"		"A5"
+			"model"		"models/props_wasteland/lights_industrialcluster01a.mdl"
+			"MoveType"		"7"
+			"SolidType"		"6"
+		}
+		"1683765"
+		{
+			"className"		"prop_dynamic"
+			"position"		"-13475.900391 14061.299805 -759.611023"
+			"angles"		"0.000000 133.500000 0.000000"
+			"coords"		"A5"
+			"model"		"models/props_wasteland/lights_industrialcluster01a.mdl"
+			"MoveType"		"7"
+			"SolidType"		"6"
+		}
+		"1683749"
+		{
+			"className"		"prop_dynamic"
+			"position"		"-13177.599609 10682.000000 -695.611023"
+			"angles"		"0.000000 133.500000 0.000000"
+			"coords"		"A5"
+			"model"		"models/props_wasteland/lights_industrialcluster01a.mdl"
+			"MoveType"		"7"
+			"SolidType"		"6"
+		}
+		"1683737"
+		{
+			"className"		"prop_dynamic"
+			"position"		"-11093.200195 11525.599609 -759.611023"
+			"angles"		"0.000000 133.500000 0.000000"
+			"coords"		"A5"
+			"model"		"models/props_wasteland/lights_industrialcluster01a.mdl"
+			"MoveType"		"7"
+			"SolidType"		"6"
+		}
+		"1930370"
+		{
+			"className"		"prop_dynamic"
+			"position"		"-1044.000000 -2384.000000 -265.739014"
+			"angles"		"0.000000 11.000000 0.000000"
+			"coords"		"C3"
+			"model"		"models/imperial/vehicles/air/transport/imp_dropship.mdl"
+			"MoveType"		"7"
+			"SolidType"		"3"
+		}
+		"1923834"
+		{
+			"className"		"emp_info_params"
+			"position"		"1552.410034 924.913025 -190.212006"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"C3"
+			"Skin"		"3"
+			"autoResearch"		"0"
+			"eng_restrict_NF"		"0"
+			"eng_restrict_Imp"		"0"
+			"turretRestrict"		"0"
+		}
+	}
+	"version"		"1.240000"
+	"hLimit"		"2038134"
+}

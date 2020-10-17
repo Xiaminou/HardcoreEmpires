@@ -43,15 +43,15 @@
 		"10660"
 		{
 			"className"		"emp_imp_commander"
-			"position"		"11143.072266 4012.818115 4.045353"
-			"angles"		"2.440779 90.603920 1.875373"
+			"position"		"11143.071289 4012.818359 4.045325"
+			"angles"		"2.440730 90.603806 1.875370"
 			"coords"		"G3"
 		}
 		"9926"
 		{
 			"className"		"emp_nf_commander"
-			"position"		"-11040.126953 3912.234131 75.277824"
-			"angles"		"-0.305617 -90.097153 -0.158691"
+			"position"		"-11040.158203 3912.234131 75.277527"
+			"angles"		"-0.305554 -90.097191 -0.158722"
 			"coords"		"A3"
 		}
 		"19396"
@@ -249,18 +249,6 @@
 			"enabled"		"1"
 			"model"		"models/props_wasteland/rockgranite02b.mdl"
 		}
-		"19439"
-		{
-			"className"		"emp_eng_restrict"
-			"position"		"0.000000 0.000000 0.000000"
-			"angles"		"0.000000 0.000000 0.000000"
-			"coords"		"D2"
-			"Mins"		"-769.000000 -769.000000 941.396972"
-			"Maxs"		"769.000000 129.000000 1537.000000"
-			"restrictNF"		"1"
-			"restrictImp"		"1"
-			"turretRestrict"		"0"
-		}
 		"10739"
 		{
 			"className"		"emp_info_params"
@@ -274,6 +262,6 @@
 			"turretRestrict"		"0"
 		}
 	}
-	"version"		"1.190000"
+	"version"		"1.250000"
 	"hLimit"		"31759"
 }

@@ -1,6 +1,6 @@
 "Scenario"
 {
-	"Description"		"King of the hill: Hold onto both flags for 5 minutes to win"
+	"Description"		"King of the hill: Hold onto both flags for 8 minutes to win"
 	"Details"		"Flags also give resources"
 	"NF_Research"
 	{
@@ -14,21 +14,21 @@
 	{
 		"KOTHS"
 		{
-			"$string_MainText" "King of the Hill\Hold both flags for 5 minutes to win"
+			"$string_MainText" "King of the Hill\Hold both flags for 8 minutes to win"
 			"$string_NeutralText"	"King of the hill"
-			"$string_Warning"	"King of the hill:TXTCLR_DF Hold onto both flags for 5 minutes to win. TXTCLR_G/scenario"
-			
+			"$string_Warning"	"King of the hill:TXTCLR_DF Hold onto both flags for 8 minutes to win. TXTCLR_G!scenario"
+			"$int_TimerLength"		"480"
 			//automatically calculated
 			"$int_FlagNumber"	"0"
 			
-			"i_HookFlags" "Set $int_FlagNumber = 0 -> TargetNameAll KOTHFlag -> Inc $int_FlagNumber -> HookOutput OnNeutral FlagsChanged -> HookOutput OnImpCap FlagsChanged -> HookOutput OnNFCap FlagsChanged "
+			"i_HookFlags" "Set $int_FlagNumber = 0 -> TargetNameAll KOTHFlag -> Inc $int_FlagNumber -> HookOutput OnNeutral FlagsChanged -> HookOutput OnImpCap FlagsChanged -> HookOutput OnNFCap FlagsChanged"
 			
 			
 			"FlagsChanged"	"After 0.1 -> Run CountFlags -> If *$int_BEFlags == $int_FlagNumber* BEHasFlags *$int_NFFlags == $int_FlagNumber* NFHasFlags ELSE NooneHasFlags"
 			"i_StartingTimer"	"Cancel KOTHTimer -> TextTimer -1 *$string_MainText* _ KOTHTimer"
 			"s_OnStart"		"Run NooneHasFlags"
-			"BEHasFlags"	"Cancel KOTHTimer -> TextTimer 300 *BE Victory in TIME_LEFT* _ KOTHTimer -> TargetParams -> Input InputImpWin 0 "
-			"NFHasFlags"	"Cancel KOTHTimer -> TextTimer 300 *NF Victory in TIME_LEFT* _ KOTHTimer -> TargetParams -> Input InputNFWin 0 "
+			"BEHasFlags"	"Cancel KOTHTimer -> TextTimer $int_TimerLength *BE Victory in TIME_LEFT* _ KOTHTimer -> TargetParams -> Input InputImpWin 0 "
+			"NFHasFlags"	"Cancel KOTHTimer -> TextTimer $int_TimerLength *NF Victory in TIME_LEFT* _ KOTHTimer -> TargetParams -> Input InputNFWin 0 "
 			"NooneHasFlags"	"Cancel KOTHTimer -> TextTimer -1 *$string_NeutralText* _ KOTHTimer"
 			
 			"i_Warn"		"Every 240 -> ChatText *$string_Warning*"

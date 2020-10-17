@@ -1,8 +1,7 @@
 "Scenario"
 {
 	"Description"		"Hold the middle flag for 8 minutes to win."
-	"details"		"The temple will open after 5 minutes\The timer will decrease by 20 seconds each reset (Min: 4 minutes)"
-	"details"		" "
+	"details"		"The temple will open after 8 minutes\The timer will decrease by 20 seconds each reset (Min: 4 minutes)"
 	"Tags"		" "
 	"Author"		"Mikleo"
 	"NF_Res"		"300.000000"
@@ -22,7 +21,7 @@
 			"$string_NeutralText"		"Flag Neutral"
 			"$int_TimerLength"		"480"
 			"$int_TimerDecrease"		"20"
-			"$int_TimerLengthMin"		"240"
+			"$int_TimerLengthMin"		"260"
 			"i_HookFlag"		"TargetName KOTHFlag -> HookOutput OnNeutral NeutralTimer -> HookOutput OnImpCap BETimer -> HookOutput OnNFCap NFTimer"
 			"i_StartingTimer"		"Cancel KOTHTimer -> TextTimer -1 *$string_MainText* _ KOTHTimer"
 			"s_EnableTimer"		"Cancel KOTHTimer -> Run DisableFlag -> TextTimer $int_EnableLength *$string_EnableTimerText* _ KOTHTimer -> Run DestroyBlockers EnableFlag KOTHOpenEffect NeutralTimer"

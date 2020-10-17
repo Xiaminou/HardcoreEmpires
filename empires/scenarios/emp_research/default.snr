@@ -128,8 +128,8 @@
 		"4659"
 		{
 			"className"		"emp_nf_commander"
-			"position"		"9663.150391 -4967.300293 736.030151"
-			"angles"		"1.190795 172.593765 -0.539185"
+			"position"		"9663.150391 -4967.300781 736.030151"
+			"angles"		"1.190784 172.593765 -0.539185"
 			"coords"		"D2"
 		}
 		"319937"
@@ -699,75 +699,6 @@
 			"damageScale"		"1.000000"
 			"duration"		"1"
 		}
-		"303818"
-		{
-			"className"		"emp_comm_restrict"
-			"position"		"0.000000 0.000000 0.000000"
-			"angles"		"0.000000 0.000000 0.000000"
-			"coords"		"C2"
-			"Mins"		"-1009.000000 4359.000000 2303.000000"
-			"Maxs"		"625.000244 7153.000488 2345.000000"
-		}
-		"247810"
-		{
-			"className"		"emp_eng_restrict"
-			"position"		"0.000000 0.000000 0.000000"
-			"angles"		"0.000000 0.000000 0.000000"
-			"coords"		"C2"
-			"Mins"		"-353.000000 3391.000000 2111.000000"
-			"Maxs"		"417.000000 3585.000000 2369.000000"
-			"restrictNF"		"1"
-			"restrictImp"		"1"
-			"turretRestrict"		"0"
-		}
-		"247816"
-		{
-			"className"		"emp_eng_restrict"
-			"position"		"0.000000 0.000000 0.000000"
-			"angles"		"0.000000 0.000000 0.000000"
-			"coords"		"C2"
-			"Mins"		"415.000000 3583.000000 2111.000000"
-			"Maxs"		"641.000000 4097.000000 2369.000000"
-			"restrictNF"		"1"
-			"restrictImp"		"1"
-			"turretRestrict"		"0"
-		}
-		"247834"
-		{
-			"className"		"emp_eng_restrict"
-			"position"		"0.000000 0.000000 0.000000"
-			"angles"		"0.000000 0.000000 0.000000"
-			"coords"		"C2"
-			"Mins"		"-737.000000 2495.000000 1567.000000"
-			"Maxs"		"321.000000 4641.000000 2113.000000"
-			"restrictNF"		"2"
-			"restrictImp"		"2"
-			"turretRestrict"		"0"
-		}
-		"261003"
-		{
-			"className"		"emp_eng_restrict"
-			"position"		"0.000000 0.000000 0.000000"
-			"angles"		"0.000000 0.000000 0.000000"
-			"coords"		"C2"
-			"Mins"		"-639.000000 7135.000000 1919.000000"
-			"Maxs"		"297.000000 7413.000000 2289.000000"
-			"restrictNF"		"1"
-			"restrictImp"		"1"
-			"turretRestrict"		"0"
-		}
-		"268362"
-		{
-			"className"		"emp_eng_restrict"
-			"position"		"0.000000 0.000000 0.000000"
-			"angles"		"0.000000 0.000000 0.000000"
-			"coords"		"C2"
-			"Mins"		"-1009.000000 4359.000000 2287.000000"
-			"Maxs"		"625.000244 7153.000488 2329.000000"
-			"restrictNF"		"2"
-			"restrictImp"		"2"
-			"turretRestrict"		"0"
-		}
 		"4622"
 		{
 			"className"		"emp_info_params"
@@ -782,6 +713,6 @@
 			"turretRestrict"		"0"
 		}
 	}
-	"version"		"1.180000"
+	"version"		"1.240000"
 	"hLimit"		"341688"
 }
