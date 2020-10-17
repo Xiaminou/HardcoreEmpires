@@ -6,8 +6,8 @@ WeaponData
 	"playermodel"			"models/Imperial/Weapons/w/grenade1/imp_grenade1.mdl"
 
 	"Damage"			"20"
-	"Grenade Timer"			"3"
-	"Explosion Radius"		"200"
+	"Grenade Timer"			"4"
+	"Explosion Radius"		"250"
 	"Explosion Sprite"		"205"
 
 	"anim_prefix"			"gren"

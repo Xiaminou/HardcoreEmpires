@@ -6,8 +6,8 @@ WeaponData
 	"playermodel"			"models/NF/Weapons/w/grenade/nf_grenade.mdl"
 
 	"Damage"			"20"
-	"Grenade Timer"			"3"
-	"Explosion Radius"		"250"
+	"Grenade Timer"			"4"
+	"Explosion Radius"		"300"
 	"Explosion Sprite"		"205"
 
 	"anim_prefix"			"gren"
