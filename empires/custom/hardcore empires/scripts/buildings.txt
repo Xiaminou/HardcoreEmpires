@@ -743,7 +743,7 @@ BuildingParse
 	"InfantryStickyResist" 	 	0.66	//Sticky Grenades		
 	"InfantrySeismicResist" 	-0.70	//Seismic Grenades		
 	"InfantryBulletResist" 		1	//Infantry Guns	
-	"InfantryUtilityResist"		0.9	//Utility Grenades, Like smoke and concussion
+	"InfantryUtilityResist"		0.5	//Utility Grenades, Like smoke and concussion
 	"InfantryMeleeResist"		0.95	//Melee
 	
 	"ExtraType1Resist" 		0.65	//unused
@@ -876,7 +876,7 @@ BuildingParse
 	"InfantryStickyResist" 	 	0.66	//Sticky Grenades		
 	"InfantrySeismicResist" 	-0.70	//Seismic Grenades		
 	"InfantryBulletResist" 		1	//Infantry Guns	
-	"InfantryUtilityResist"		0.9	//Utility Grenades, Like smoke and concussion
+	"InfantryUtilityResist"		0.5	//Utility Grenades, Like smoke and concussion
 	"InfantryMeleeResist"		0.95	//Melee
 	
 	"ExtraType1Resist" 		0.65	//unused
@@ -1019,7 +1019,7 @@ BuildingParse
 	"InfantryStickyResist" 	 	0.66	//Sticky Grenades		
 	"InfantrySeismicResist" 	-0.70	//Seismic Grenades		
 	"InfantryBulletResist" 		1	//Just In Case		
-	"InfantryUtilityResist"		0.9	//Concussion nades, various infantry stuff that does special things but no damage
+	"InfantryUtilityResist"		0.5	//Concussion nades, various infantry stuff that does special things but no damage
 	"InfantryMeleeResist"		0.95	//Infantry melee
 	
 	"ExtraType1Resist" 		0.65	//Anti Building weapons	
@@ -1165,7 +1165,7 @@ BuildingParse
 	"InfantryStickyResist" 	 	0.66	//Sticky Grenades		
 	"InfantrySeismicResist" 	-0.70	//Seismic Grenades		
 	"InfantryBulletResist" 		1	//Infantry Guns	
-	"InfantryUtilityResist"		0.9	//Utility Grenades, Like smoke and concussion
+	"InfantryUtilityResist"		0.5	//Utility Grenades, Like smoke and concussion
 	"InfantryMeleeResist"		0.95	//Melee
 	
 	"ExtraType1Resist" 		0.65	//unused
@@ -1294,7 +1294,7 @@ BuildingParse
 	"InfantryStickyResist" 	 	0.25	//Sticky Grenades						
 	"InfantrySeismicResist" 	-1.00	//Seismic Grenades						
 	"InfantryBulletResist" 		0.75	//Infantry Guns					
-	"InfantryUtilityResist"		0.9	//Utility Grenades, Like smoke and concussion
+	"InfantryUtilityResist"		0	//Utility Grenades, Like smoke and concussion
 	"InfantryMeleeResist"		0.75	//Melee
 	
 	"ExtraType1Resist" 		0.25	//unused				
@@ -1360,7 +1360,7 @@ BuildingParse
 	"InfantryStickyResist" 	 	0.25	//Sticky Grenades						
 	"InfantrySeismicResist" 	-1.00	//Seismic Grenades						
 	"InfantryBulletResist" 		0.75	//Infantry Guns					
-	"InfantryUtilityResist"		0.9	//Utility Grenades, Like smoke and concussion
+	"InfantryUtilityResist"		0	//Utility Grenades, Like smoke and concussion
 	"InfantryMeleeResist"		0.75	//Melee
 	
 	"ExtraType1Resist" 		0.25	//unused				
@@ -1425,7 +1425,7 @@ BuildingParse
 	"InfantryStickyResist" 	 	0.25	//Sticky Grenades						
 	"InfantrySeismicResist" 	-1.00	//Seismic Grenades						
 	"InfantryBulletResist" 		0.75	//Infantry Guns					
-	"InfantryUtilityResist"		0.9	//Utility Grenades, Like smoke and concussion
+	"InfantryUtilityResist"		0	//Utility Grenades, Like smoke and concussion
 	"InfantryMeleeResist"		0.75	//Melee
 	
 	"ExtraType1Resist" 		0.25	//unused				
@@ -1490,7 +1490,7 @@ BuildingParse
 	"InfantryStickyResist" 	 	0.25	//Sticky Grenades						
 	"InfantrySeismicResist" 	-1.00	//Seismic Grenades						
 	"InfantryBulletResist" 		0.75	//Infantry Guns					
-	"InfantryUtilityResist"		0.9	//Utility Grenades, Like smoke and concussion
+	"InfantryUtilityResist"		0	//Utility Grenades, Like smoke and concussion
 	"InfantryMeleeResist"		0.75	//Melee
 	
 	"ExtraType1Resist" 		0.25	//unused				
