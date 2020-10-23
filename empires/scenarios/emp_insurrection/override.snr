@@ -8,9 +8,17 @@
 	"BE_Res"		"400.000000"
 	"NF_Tickets"		"393.000000"
 	"BE_Tickets"		"393.000000"
-	"version"		"1.220000"
+	"version"		"1.260000"
 	"hLimit"		"1083800"
 	"CanBaseSwap"		"yes"
+	"NF_Research"
+	{
+		"0"		"1"
+	}
+	"BE_Research"
+	{
+		"0"		"1"
+	}
 	"Entities"
 	{
 		"6809"
@@ -38,15 +46,15 @@
 		"6825"
 		{
 			"className"		"emp_imp_commander"
-			"position"		"11912.466797 -11171.789063 -469.274200"
-			"angles"		"-0.000903 0.040887 1.395024"
+			"position"		"11912.479492 -11188.052734 -469.343414"
+			"angles"		"-0.023632 0.028044 1.374981"
 			"coords"		"F2"
 		}
 		"6823"
 		{
 			"className"		"emp_nf_commander"
-			"position"		"-5876.364258 12115.803711 -395.459076"
-			"angles"		"0.090095 -179.895218 -0.247253"
+			"position"		"-5876.337891 12134.667969 -395.568817"
+			"angles"		"0.013347 -179.900635 -0.278961"
 			"coords"		"B7"
 		}
 		"691485"
@@ -55,26 +63,6 @@
 			"position"		"-3744.000000 -11296.000000 -560.000000"
 			"angles"		"0.000000 203.000000 0.000000"
 			"coords"		"C2"
-			"pointNumber"		"0"
-			"disabled"		"0"
-			"model"		"models/NF/Props/nf_crateammo.mdl"
-		}
-		"691602"
-		{
-			"className"		"emp_nf_ammo_crate"
-			"position"		"-7640.398926 -2896.000000 -480.000000"
-			"angles"		"0.000000 0.000000 0.000000"
-			"coords"		"B4"
-			"pointNumber"		"0"
-			"disabled"		"0"
-			"model"		"models/NF/Props/nf_crateammo.mdl"
-		}
-		"691644"
-		{
-			"className"		"emp_nf_ammo_crate"
-			"position"		"-9778.570313 -13184.000000 -496.000000"
-			"angles"		"0.000000 146.000000 0.000000"
-			"coords"		"B2"
 			"pointNumber"		"0"
 			"disabled"		"0"
 			"model"		"models/NF/Props/nf_crateammo.mdl"
@@ -88,26 +76,6 @@
 			"pointNumber"		"0"
 			"disabled"		"0"
 			"model"		"models/NF/Props/nf_crateammo.mdl"
-		}
-		"692312"
-		{
-			"className"		"emp_nf_ammo_crate"
-			"position"		"10362.200195 -10096.000000 -576.000000"
-			"angles"		"0.000000 134.500000 0.000000"
-			"coords"		"F3"
-			"pointNumber"		"0"
-			"disabled"		"0"
-			"model"		"models/NF/Props/nf_crateammo.mdl"
-		}
-		"544367"
-		{
-			"className"		"emp_imp_ammo_crate"
-			"position"		"-4292.889160 8809.740234 -598.299988"
-			"angles"		"0.000000 0.000000 0.000000"
-			"coords"		"C6"
-			"pointNumber"		"0"
-			"disabled"		"0"
-			"model"		"models/Imperial/Props/imp_crateammo.mdl"
 		}
 		"691633"
 		{
@@ -152,7 +120,7 @@
 		"692462"
 		{
 			"className"		"emp_imp_ammo_crate"
-			"position"		"10322.200195 40.610691 -240.000000"
+			"position"		"10322.200195 40.610687 -240.000000"
 			"angles"		"0.000000 322.500000 0.000000"
 			"coords"		"F4"
 			"pointNumber"		"0"
@@ -192,7 +160,7 @@
 		"745382"
 		{
 			"className"		"emp_imp_ammo_crate"
-			"position"		"5130.369141 9334.158203 -496.000000"
+			"position"		"5130.368652 9334.157227 -496.000000"
 			"angles"		"0.000000 152.500000 0.000000"
 			"coords"		"E6"
 			"pointNumber"		"0"
@@ -209,55 +177,15 @@
 			"disabled"		"0"
 			"model"		"models/NF/Props/nf_cratehealth.mdl"
 		}
-		"691608"
-		{
-			"className"		"emp_nf_health_crate"
-			"position"		"-7644.958984 -2800.000000 -480.000000"
-			"angles"		"0.000000 0.000000 0.000000"
-			"coords"		"B4"
-			"pointNumber"		"0"
-			"disabled"		"0"
-			"model"		"models/NF/Props/nf_cratehealth.mdl"
-		}
-		"691658"
-		{
-			"className"		"emp_nf_health_crate"
-			"position"		"-9848.290039 -13264.000000 -496.000000"
-			"angles"		"0.000000 128.500000 0.000000"
-			"coords"		"B2"
-			"pointNumber"		"0"
-			"disabled"		"0"
-			"model"		"models/NF/Props/nf_cratehealth.mdl"
-		}
 		"692155"
 		{
 			"className"		"emp_nf_health_crate"
-			"position"		"-12408.000000 5631.398926 -544.000000"
+			"position"		"-12408.000000 5631.398438 -544.000000"
 			"angles"		"0.000000 91.000000 0.000000"
 			"coords"		"A6"
 			"pointNumber"		"0"
 			"disabled"		"0"
 			"model"		"models/NF/Props/nf_cratehealth.mdl"
-		}
-		"692314"
-		{
-			"className"		"emp_nf_health_crate"
-			"position"		"10399.900391 -10014.000000 -576.000000"
-			"angles"		"0.000000 0.000000 0.000000"
-			"coords"		"F3"
-			"pointNumber"		"0"
-			"disabled"		"0"
-			"model"		"models/NF/Props/nf_cratehealth.mdl"
-		}
-		"544369"
-		{
-			"className"		"emp_imp_health_crate"
-			"position"		"-4252.069824 8791.570313 -598.299988"
-			"angles"		"0.000000 0.000000 0.000000"
-			"coords"		"C6"
-			"pointNumber"		"0"
-			"disabled"		"0"
-			"model"		"models/Imperial/Props/imp_cratehealth.mdl"
 		}
 		"691613"
 		{
@@ -322,7 +250,7 @@
 		"692561"
 		{
 			"className"		"emp_imp_health_crate"
-			"position"		"-7351.809082 9122.509766 -560.000000"
+			"position"		"-7351.808594 9122.509766 -560.000000"
 			"angles"		"0.000000 52.500000 0.000000"
 			"coords"		"B6"
 			"pointNumber"		"0"
@@ -610,7 +538,7 @@
 		"30279"
 		{
 			"className"		"prop_dynamic"
-			"position"		"-11079.000000 -6810.338867 -517.500000"
+			"position"		"-11079.000000 -6810.338379 -517.500000"
 			"angles"		"0.000000 286.000000 0.000000"
 			"coords"		"A3"
 			"model"		"models/nf/vehicles/ground/tankartillery/nf_artillerytank_wreck.mdl"
@@ -630,7 +558,7 @@
 		"137023"
 		{
 			"className"		"prop_dynamic"
-			"position"		"-2666.899902 4436.000000 -636.000000"
+			"position"		"-2666.900146 4436.000000 -636.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"C5"
 			"model"		"models/imperial/vehicles/ground/tankmed/imp_mediumtank_staticwreck.mdl"
@@ -700,7 +628,7 @@
 		"787976"
 		{
 			"className"		"env_fire"
-			"position"		"-1824.000000 -10720.000000 -559.150757"
+			"position"		"-1824.000000 -10720.000000 -559.150696"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"C2"
 			"effects"		"32"
@@ -710,23 +638,10 @@
 			"damageScale"		"1.000000"
 			"duration"		"30"
 		}
-		"1006472"
-		{
-			"className"		"emp_eng_restrict"
-			"position"		"0.000000 0.000000 0.000000"
-			"angles"		"0.000000 0.000000 0.000000"
-			"coords"		"D4"
-			"name"		"CliffTopEngRstrct"
-			"Mins"		"-15361.000000 -15361.000000 -129.000000"
-			"Maxs"		"15361.000000 15361.000000 2593.129882"
-			"restrictNF"		"2"
-			"restrictImp"		"2"
-			"turretRestrict"		"3"
-		}
 		"495222"
 		{
 			"className"		"emp_info_params"
-			"position"		"117.028000 446.378937 -174.899994"
+			"position"		"117.028000 446.378906 -174.899994"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"D5"
 			"Skin"		"1"

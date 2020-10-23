@@ -233,15 +233,15 @@
 		"6825"
 		{
 			"className"		"emp_imp_commander"
-			"position"		"11912.507813 -11151.968750 -469.006561"
-			"angles"		"0.020544 0.060043 1.323562"
+			"position"		"11912.501953 -11151.959961 -468.991577"
+			"angles"		"0.017760 0.062737 1.310839"
 			"coords"		"F2"
 		}
 		"6823"
 		{
 			"className"		"emp_nf_commander"
-			"position"		"-5799.316406 12088.072266 -395.267517"
-			"angles"		"-0.016854 0.024656 -0.733917"
+			"position"		"-5799.322266 12088.071289 -395.267853"
+			"angles"		"-0.017047 0.027307 -0.734192"
 			"coords"		"B7"
 		}
 		"745306"
@@ -1085,19 +1085,6 @@
 			"damageScale"		"1.000000"
 			"duration"		"30"
 		}
-		"1006472"
-		{
-			"className"		"emp_eng_restrict"
-			"position"		"0.000000 0.000000 0.000000"
-			"angles"		"0.000000 0.000000 0.000000"
-			"coords"		"D4"
-			"name"		"CliffTopEngRstrct"
-			"Mins"		"-15361.000000 -15361.000000 -129.000000"
-			"Maxs"		"15361.000000 15361.000000 2593.129882"
-			"restrictNF"		"2"
-			"restrictImp"		"2"
-			"turretRestrict"		"3"
-		}
 		"495222"
 		{
 			"className"		"emp_info_params"
@@ -1111,6 +1098,6 @@
 			"turretRestrict"		"1"
 		}
 	}
-	"version"		"1.220000"
+	"version"		"1.260000"
 	"hLimit"		"1083800"
 }
