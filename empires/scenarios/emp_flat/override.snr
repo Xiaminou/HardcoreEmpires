@@ -10,14 +10,6 @@
 	"BE_Res"		"400.000000"
 	"NF_Tickets"		"211.100006"
 	"BE_Tickets"		"211.100006"
-	"NF_Research"
-	{
-		"0"		"1"
-	}
-	"BE_Research"
-	{
-		"0"		"1"
-	}
 	"Entities"
 	{
 		"681670"
@@ -151,7 +143,7 @@
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"C4"
 			"Skin"		"1"
-			"autoResearch"		"1"
+			"autoResearch"		"0"
 			"eng_restrict_NF"		"0"
 			"eng_restrict_Imp"		"0"
 			"turretRestrict"		"0"
