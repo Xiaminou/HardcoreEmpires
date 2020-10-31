@@ -9,9 +9,9 @@ BuildingParse
 	"spotted name"		"Armory"	
 	
 	"model" 		models/imperial/Buildings/armory/imp_armory.mdl	//Standard Model
-	"cost" 			75						//Cost of the building				
-	"max health"	 	100						//Max Possible Health				
-	"starting health"	25						//Starting Health when built (25% of Max)					
+	"cost" 			100						//Cost of the building				
+	"max health"	 	125						//Max Possible Health				
+	"starting health"	50						//Starting Health when built (25% of Max)					
 	"damaged model" 	models/imperial/Buildings/armory/imp_armory.mdl	//Model to show when damage is lower then the threshold (Defaults to "model" field)	
 	"damaged threshold"	50						//Health Value to display the damaged model					
 	"destroyed model"	models/imperial/Buildings/armory/imp_armory.mdl	//Model to display when building is destroyed	(Defaults to "model" field)
@@ -77,9 +77,9 @@ BuildingParse
 	"spotted name"		"Armory"	
 
 	"model" 		models/NF/Buildings/armory/nf_armory.mdl	//Standard Model
-	"cost" 			75						//Cost of the building				
-	"max health"	 	100						//Max Possible Health				
-	"starting health"	25						//Starting Health when built (25% of Max)					
+	"cost" 			100						//Cost of the building				
+	"max health"	 	125						//Max Possible Health				
+	"starting health"	50						//Starting Health when built (25% of Max)					
 	"damaged model" 	models/NF/Buildings/armory/nf_armory.mdl	//Model to show when damage is lower then the threshold (Defaults to "model" field)	
 	"damaged threshold"	50						//Health Value to display the damaged model					
 	"destroyed model"	models/NF/Buildings/armory/nf_armory.mdl	//Model to display when building is destroyed	(Defaults to "model" field)
@@ -291,7 +291,7 @@ BuildingParse
 	"model" 		models/imperial/Buildings/Radar/imp_radar.mdl	//Standard Model
 	"cost" 			600						//Cost of the building				
 	"max health"	 	200						//Max Possible Health				
-	"starting health"	25						//Starting Health when built (25% of Max)					
+	"starting health"	50						//Starting Health when built (25% of Max)					
 	"damaged model" 	models/imperial/Buildings/Radar/imp_radar.mdl	//Model to show when damage is lower then the threshold (Defaults to "model" field)	
 	"damaged threshold"	50						//Health Value to display the damaged model					
 	"destroyed model"	models/imperial/Buildings/Radar/imp_radar.mdl	//Model to display when building is destroyed	(Defaults to "model" field)
@@ -359,7 +359,7 @@ BuildingParse
 	"model" 		models/NF/Buildings/Radar/nf_radar.mdl	//Standard Model
 	"cost" 			600						//Cost of the building				
 	"max health"	 	200						//Max Possible Health				
-	"starting health"	25						//Starting Health when built (25% of Max)					
+	"starting health"	50						//Starting Health when built (25% of Max)					
 	"damaged model" 	models/NF/Buildings/Radar/nf_radar.mdl	//Model to show when damage is lower then the threshold (Defaults to "model" field)	
 	"damaged threshold"	50						//Health Value to display the damaged model					
 	"destroyed model"	models/NF/Buildings/Radar/nf_radar.mdl	//Model to display when building is destroyed	(Defaults to "model" field)
@@ -427,7 +427,7 @@ BuildingParse
 	"model" 		models/imperial/Buildings/refinery/imp_refinery.mdl	//Standard Model
 	"cost" 			100						//Cost of the building				
 	"max health"	 	150						//Max Possible Health				
-	"starting health"	25						//Starting Health when built (25% of Max)					
+	"starting health"	50						//Starting Health when built (25% of Max)					
 	"damaged model" 	models/imperial/Buildings/refinery/imp_refinery.mdl	//Model to show when damage is lower then the threshold (Defaults to "model" field)	
 	"damaged threshold"	50						//Health Value to display the damaged model					
 	"destroyed model"	models/imperial/Buildings/refinery/imp_refinery.mdl	//Model to display when building is destroyed	(Defaults to "model" field)
@@ -492,7 +492,7 @@ BuildingParse
 	"model" 		models/NF/Buildings/refinery/nf_refinery.mdl	//Standard Model
 	"cost" 			100						//Cost of the building				
 	"max health"	 	150						//Max Possible Health				
-	"starting health"	25						//Starting Health when built (25% of Max)					
+	"starting health"	50						//Starting Health when built (25% of Max)					
 	"damaged model" 	models/NF/Buildings/refinery/nf_refinery.mdl	//Model to show when damage is lower then the threshold (Defaults to "model" field)	
 	"damaged threshold"	50						//Health Value to display the damaged model					
 	"destroyed model"	models/NF/Buildings/refinery/nf_refinery.mdl	//Model to display when building is destroyed	(Defaults to "model" field)
