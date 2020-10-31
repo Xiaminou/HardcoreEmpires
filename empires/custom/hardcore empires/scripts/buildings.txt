@@ -694,7 +694,7 @@ BuildingParse
 	"model" 		models/imperial/turrets/mg_lvl1/imp_turret_mg_lvl1.mdl	//Standard Model					
 	"gib suffix"    "_gib"
 	"gib count"    "3"
-	"cost" 			60						//Cost of the building
+	"cost" 			75						//Cost of the building
 	"max health"	 	100						//Max Possible Health
 	"starting health"	25						//Starting Health when built (25% of Max)	
 	"damaged model" 	models/imperial/turrets/mg_lvl1/imp_turret_mg_lvl1.mdl	//Model to show when damage is lower then the threshold (Defaults to "model" field)						
@@ -828,7 +828,7 @@ BuildingParse
 	"model" 		models/NF/turrets/mg_lvl1/nf_turret_mg_lvl1.mdl	//Standard Model					
 	"gib suffix"    "_gib"
 	"gib count"    "5"  
-	"cost" 			60						//Cost of the building
+	"cost" 			75						//Cost of the building
 	"max health"	 	100						//Max Possible Health
 	"starting health"	25						//Starting Health when built (25% of Max)	
 	"damaged model" 	models/NF/turrets/mg_lvl1/nf_turret_mg_lvl1.mdl	//Model to show when damage is lower then the threshold (Defaults to "model" field)						
@@ -967,7 +967,7 @@ BuildingParse
 
 	"gib suffix"		"_gib"
 	"gib count"		"2"
-	"cost" 			60	//Cost of the building
+	"cost" 			75	//Cost of the building
 	"max health"	 	"100"	//Max Possible Health
 	"starting health"	"25"	//Starting Health when built (25% of Max)
 	"damaged threshold"	"50"	//Health Value to display the damaged model
@@ -1109,7 +1109,7 @@ BuildingParse
 	"model" 		models/NF/turrets/ml_lvl1/nf_turret_ml_lvl1.mdl	//Standard Model					
 	"gib suffix"    "_gib"
 	"gib count"    "4"       
-	"cost" 			60						//Cost of the building
+	"cost" 			75						//Cost of the building
 	"max health"	 	100						//Max Possible Health
 	"starting health"	25						//Starting Health when built (25% of Max)	
 	"damaged model" 	models/NF/turrets/ml_lvl1/nf_turret_ml_lvl1.mdl	//Model to show when damage is lower then the threshold (Defaults to "model" field)						
