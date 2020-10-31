@@ -1162,6 +1162,7 @@ Vehicle_Weapons
 
 		//missile launchers (requires "type" 3)
 		"Dumb Missile"		"1"		//'1' if missile flies straight ahead
+		"Max Travel Time"	"60"
 	}
 	"Upgraded ML"
 	{
@@ -1200,6 +1201,7 @@ Vehicle_Weapons
 
 		//missile launchers (requires "type" 3)
 		"Dumb Missile"		"1"		//'1' if missile flies straight ahead
+		"Max Travel Time"	"60"
 	}
 	"Heavy-duty ML"
 	{
@@ -1238,6 +1240,7 @@ Vehicle_Weapons
 
 			//missile launchers (requires "type" 3)
 		"Dumb Missile"		"1"		//'1' if missile flies straight ahead
+		"Max Travel Time"	"60"
 	}
 	"Biological Warhead"
 	{
@@ -1287,6 +1290,7 @@ Vehicle_Weapons
 
 		//explosion effects
 		"Explosion Speed"	"10"		//how fast the explosion sprite fades (15 is default fps)
+		"Max Travel Time"	"60"
 	}
 	"Virulent Warhead"
 	{
@@ -1336,6 +1340,7 @@ Vehicle_Weapons
 
 		//explosion effects
 		"Explosion Speed"	"10"		//how fast the explosion sprite fades (15 is default fps)
+		"Max Travel Time"	"60"
 	}
 	"Nuclear Missile"
 	{
@@ -1378,6 +1383,7 @@ Vehicle_Weapons
 
 		//explosion effects
 		"Explosion Speed"	"2"	//how fast the explosion sprite fades (15 is default fps)
+		"Max Travel Time"	"60"
 	}
 	"Salvo ML"
 	{
@@ -1419,6 +1425,7 @@ Vehicle_Weapons
 
 		//missile launchers (requires "type" 3)
 		"Dumb Missile"		"1"		//'1' if missile flies straight ahead
+		"Max Travel Time"	"60"
 	}
 	"Advanced Salvo ML"
 	{
@@ -1457,6 +1464,7 @@ Vehicle_Weapons
 
 		//missile launchers (requires "type" 3)
 		"Dumb Missile"		"1"		//'1' if missile flies straight ahead
+		"Max Travel Time"	"60"
 	}
 	"Guided ML"
 	{
@@ -1497,6 +1505,7 @@ Vehicle_Weapons
 		"Guided Missile"	"1"		//'1' if missile follows crosshairs after launch
 		"Missile Range"		"5500"		//max range in HL2 units (1 inch = 1) that the player can lock onto a target with a homing missile, or range from vehicle being fired from when a guided missile stops following the player's crosshairs
 		"Turning Ability"	"1.8"		//determines how effective the missile can turn to home in on its target or guide itself to the crosshair for a guided missile; 1.0 means the missile can turn instantly towards its target, 0.0 and the missile doesn't turn at all
+		"Max Travel Time"	"60"
 	}
 	"TOW Guided ML"
 	{
@@ -1537,6 +1546,7 @@ Vehicle_Weapons
 		"Guided Missile"	"1"		//'1' if missile follows crosshairs after launch
 		"Missile Range"		"6500"		//max range in HL2 units (1 inch = 1) that the player can lock onto a target with a homing missile, or range from vehicle being fired from when a guided missile stops following the player's crosshairs
 		"Turning Ability"	"1.85"		//determines how effective the missile can turn to home in on its target or guide itself to the crosshair for a guided missile; 1.0 means the missile can turn instantly towards its target, 0.0 and the missile doesn't turn at all
+		"Max Travel Time"	"60"
 	}
 	"Homing Missile Launcher"
 	{
@@ -1580,6 +1590,7 @@ Vehicle_Weapons
 		"Lock On Radius"	"0.4"		//this is an approximation that determines how close a target must be to your crosshair (screen position) before it can begin locking onto (ie a bigger number means that the crosshair doesn't need to be directly over or as close to the target); it defines a box around the crosshair, and a target must be within this box to be homed on and its size decreases with range
 		"Lock Range Modifier"	"0.000300"	//modifies lock on time based on range (as range increases, lock on time increases based on the modifier: modifier * range to target + lock on time = total lock on time)
 		"Turning Ability"	"3.0"		//determines how effective the missile can turn to home in on its target or guide itself to the crosshair for a guided missile; 1.0 means the missile can turn instantly towards its target, 0.0 and the missile doesn't turn at all
+		"Max Travel Time"	"60"
 	}
 	"Improved Homing ML"
 	{					
@@ -1623,6 +1634,7 @@ Vehicle_Weapons
 		"Lock On Radius"	"0.42"		//this is an approximation that determines how close a target must be to your crosshair (screen position) before it can begin locking onto (ie a bigger number means that the crosshair doesn't need to be directly over or as close to the target); it defines a box around the crosshair, and a target must be within this box to be homed on and its size decreases with range
 		"Lock Range Modifier"	"0.000290"	//modifies lock on time based on range (as range increases, lock on time increases based on the modifier: modifier * range to target + lock on time = total lock on time)
 		"Turning Ability"	"3.15"		//determines how effective the missile can turn to home in on its target or guide itself to the crosshair for a guided missile; 1.0 means the missile can turn instantly towards its target, 0.0 and the missile doesn't turn at all
+		"Max Travel Time"	"60"
 	}
 	"Salvo Homing ML"
 	{

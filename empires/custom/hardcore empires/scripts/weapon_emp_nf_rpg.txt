@@ -4,6 +4,8 @@ WeaponData
 	"Damage"			"130"		// damage
 	"Bullets"			"1"		// bullets per shoot
 	"CycleTime"			"3"		// time between shoots
+	
+	"Max Travel Time"		"60"
 
 	//Explosive-specific values
 	"Velocity"			"2000"		// Rocket velocity
@@ -16,7 +18,7 @@ WeaponData
 	// Weapon data is loaded by both the Game and Client DLLs.
 	"printname"			"#SDK_MP5"
 	"viewmodel"			"models/NF/Weapons/v/artillery/nf_rkt.mdl"
-	"playermodel"		"models/NF/Weapons/w/artillery/nf_artillery.mdl"
+	"playermodel"			"models/NF/Weapons/w/artillery/nf_artillery.mdl"
 	
 	"anim_prefix"			"famas"
 	"bucket"			"1"
