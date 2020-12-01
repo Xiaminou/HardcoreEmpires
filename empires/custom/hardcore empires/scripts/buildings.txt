@@ -4,22 +4,25 @@ BuildingParse
 	//3
 	ImpArmory
 	{
-	"name" 			Armory					//Name of the Building
+	"name" 			Armory		//Name of the Building
 	"team"			"IMP"
 	"spotted name"		"Armory"	
 	
-	"model" 		models/imperial/Buildings/armory/imp_armory.mdl	//Standard Model
-	"cost" 			100						//Cost of the building				
-	"max health"	 	125						//Max Possible Health				
-	"starting health"	50						//Starting Health when built (25% of Max)					
-	"damaged model" 	models/imperial/Buildings/armory/imp_armory.mdl	//Model to show when damage is lower then the threshold (Defaults to "model" field)	
-	"damaged threshold"	50						//Health Value to display the damaged model					
-	"destroyed model"	models/imperial/Buildings/armory/imp_armory.mdl	//Model to display when building is destroyed	(Defaults to "model" field)
-	"vehicle physbox"	models/imperial/Buildings/armory/imp_armory_vehiclephysbox.mdl //Physbox Model	
-	 
-	"recycle time"		20								// Recycle time for the building
-	"carcass removal time" "30"								// Time it takes for a destroyed building carcass to be removed				
-	"touchmessageid" "2"
+	"model" 		models/imperial/Buildings/armory/imp_armory.mdl			//Standard Model				
+	"damaged model" 	models/imperial/Buildings/armory/imp_armory.mdl			//Model to show when damage is lower then the threshold (Defaults to "model" field)						
+	"destroyed model"	models/imperial/Buildings/armory/imp_armory.mdl			//Model to display when building is destroyed	(Defaults to "model" field)
+	"vehicle physbox"	models/imperial/Buildings/armory/imp_armory_vehiclephysbox.mdl	//Physbox Model	
+	
+	"ambientsound" 		"emp_ambient.armory"				//Ambient Sound
+	
+	"cost" 			100	//Cost of the building
+	"starting health"	50	//Starting Health
+	"max health"	 	125	//Max Possible Health
+	"damaged threshold"	50	//Health Value to display the damaged model
+	"recycle time"		20	// Recycle time for the building
+	
+	"carcass removal time"	"30"	// Time it takes for a destroyed building carcass to be removed				
+	"touchmessageid"	"2"
 
 	"hint"			"#emp_building_ImpArmory_hint"
 
@@ -72,22 +75,25 @@ BuildingParse
 	//4
 	NFArmory
 	{
-	"name" 			Armory					//Name of the Building	
+	"name" 			Armory		//Name of the Building	
 	"team"			"NF"
 	"spotted name"		"Armory"	
 
-	"model" 		models/NF/Buildings/armory/nf_armory.mdl	//Standard Model
-	"cost" 			100						//Cost of the building				
-	"max health"	 	125						//Max Possible Health				
-	"starting health"	50						//Starting Health when built (25% of Max)					
-	"damaged model" 	models/NF/Buildings/armory/nf_armory.mdl	//Model to show when damage is lower then the threshold (Defaults to "model" field)	
-	"damaged threshold"	50						//Health Value to display the damaged model					
-	"destroyed model"	models/NF/Buildings/armory/nf_armory.mdl	//Model to display when building is destroyed	(Defaults to "model" field)
-	"vehicle physbox"	models/NF/Buildings/armory/nf_armory_vehiclephysbox.mdl //Physbox Model		
+	"model" 		models/NF/Buildings/armory/nf_armory.mdl		//Standard Model
+	"damaged model" 	models/NF/Buildings/armory/nf_armory.mdl		//Model to show when damage is lower then the threshold (Defaults to "model" field)
+	"destroyed model"	models/NF/Buildings/armory/nf_armory.mdl		//Model to display when building is destroyed	(Defaults to "model" field)
+	"vehicle physbox"	models/NF/Buildings/armory/nf_armory_vehiclephysbox.mdl	//Physbox Model
 
-	"recycle time"		20								// Recycle time for the building
-	"carcass removal time" "30"								// Time it takes for a destroyed building carcass to be removed				
-	"touchmessageid" "3"
+	"ambientsound" 		"emp_ambient.armory"				//Ambient Sound
+
+	"cost" 			100	//Cost of the building
+	"starting health"	50	//Starting Health
+	"max health"	 	125	//Max Possible Health
+	"damaged threshold"	50	//Health Value to display the damaged model
+	"recycle time"		20	// Recycle time for the building
+	
+	"carcass removal time"	"30"	// Time it takes for a destroyed building carcass to be removed				
+	"touchmessageid"	"3"
 
 	"hint"			"#emp_building_NFArmory_hint"
 
@@ -152,9 +158,10 @@ BuildingParse
 	"spotted name"		"Barracks"	
 
 	"model" 		models/imperial/Buildings/barracks/imp_barracks.mdl	//Standard Model
+	"ambientsound" 		"emp_ambient.barracks"				//Ambient Sound
 	"cost" 			200						//Cost of the building				
 	"max health"	 	250						//Max Possible Health				
-	"starting health"	50						//Starting Health when built (25% of Max)					
+	"starting health"	50						//Starting Health					
 	"damaged model" 	models/imperial/Buildings/barracks/imp_barracks.mdl	//Model to show when damage is lower then the threshold (Defaults to "model" field)	
 	"damaged threshold"	50						//Health Value to display the damaged model					
 	"destroyed model"	models/imperial/Buildings/barracks/imp_barracks.mdl	//Model to display when building is destroyed	(Defaults to "model" field)
@@ -221,9 +228,10 @@ BuildingParse
 	"spotted name"		"Barracks"	
 
 	"model" 		models/NF/Buildings/barracks/nf_barracks.mdl	//Standard Model
+	"ambientsound" 		"emp_ambient.barracks"				//Ambient Sound
 	"cost" 			200						//Cost of the building				
 	"max health"	 	250						//Max Possible Health				
-	"starting health"	50						//Starting Health when built (25% of Max)					
+	"starting health"	50						//Starting Health					
 	"damaged model" 	models/NF/Buildings/barracks/nf_barracks.mdl	//Model to show when damage is lower then the threshold (Defaults to "model" field)	
 	"damaged threshold"	50						//Health Value to display the damaged model					
 	"destroyed model"	models/NF/Buildings/barracks/nf_barracks.mdl	//Model to display when building is destroyed	(Defaults to "model" field)
@@ -289,9 +297,10 @@ BuildingParse
 	"spotted name"		"Radar"	
 
 	"model" 		models/imperial/Buildings/Radar/imp_radar.mdl	//Standard Model
+	"ambientsound" 		"emp_ambient.radar"				//Ambient Sound	
 	"cost" 			600						//Cost of the building				
 	"max health"	 	200						//Max Possible Health				
-	"starting health"	50						//Starting Health when built (25% of Max)					
+	"starting health"	50						//Starting Health					
 	"damaged model" 	models/imperial/Buildings/Radar/imp_radar.mdl	//Model to show when damage is lower then the threshold (Defaults to "model" field)	
 	"damaged threshold"	50						//Health Value to display the damaged model					
 	"destroyed model"	models/imperial/Buildings/Radar/imp_radar.mdl	//Model to display when building is destroyed	(Defaults to "model" field)
@@ -357,9 +366,10 @@ BuildingParse
 	"spotted name"		"Radar"	
 
 	"model" 		models/NF/Buildings/Radar/nf_radar.mdl	//Standard Model
+	"ambientsound" 		"emp_ambient.radar"			//Ambient Sound	
 	"cost" 			600						//Cost of the building				
 	"max health"	 	200						//Max Possible Health				
-	"starting health"	50						//Starting Health when built (25% of Max)					
+	"starting health"	50						//Starting Health					
 	"damaged model" 	models/NF/Buildings/Radar/nf_radar.mdl	//Model to show when damage is lower then the threshold (Defaults to "model" field)	
 	"damaged threshold"	50						//Health Value to display the damaged model					
 	"destroyed model"	models/NF/Buildings/Radar/nf_radar.mdl	//Model to display when building is destroyed	(Defaults to "model" field)
@@ -425,9 +435,10 @@ BuildingParse
 	"spotted name"		"Refinery"	
 
 	"model" 		models/imperial/Buildings/refinery/imp_refinery.mdl	//Standard Model
+	"ambientsound" 		"emp_ambient.refinery"				//Ambient Sound
 	"cost" 			100						//Cost of the building				
 	"max health"	 	150						//Max Possible Health				
-	"starting health"	50						//Starting Health when built (25% of Max)					
+	"starting health"	50						//Starting Health					
 	"damaged model" 	models/imperial/Buildings/refinery/imp_refinery.mdl	//Model to show when damage is lower then the threshold (Defaults to "model" field)	
 	"damaged threshold"	50						//Health Value to display the damaged model					
 	"destroyed model"	models/imperial/Buildings/refinery/imp_refinery.mdl	//Model to display when building is destroyed	(Defaults to "model" field)
@@ -490,9 +501,10 @@ BuildingParse
 	"spotted name"		"Refinery"	
 
 	"model" 		models/NF/Buildings/refinery/nf_refinery.mdl	//Standard Model
+	"ambientsound" 		"emp_ambient.refinery"				//Ambient Sound
 	"cost" 			100						//Cost of the building				
 	"max health"	 	150						//Max Possible Health				
-	"starting health"	50						//Starting Health when built (25% of Max)					
+	"starting health"	50						//Starting Health					
 	"damaged model" 	models/NF/Buildings/refinery/nf_refinery.mdl	//Model to show when damage is lower then the threshold (Defaults to "model" field)	
 	"damaged threshold"	50						//Health Value to display the damaged model					
 	"destroyed model"	models/NF/Buildings/refinery/nf_refinery.mdl	//Model to display when building is destroyed	(Defaults to "model" field)
@@ -555,9 +567,10 @@ BuildingParse
 	"spotted name"		"Repair Pad"	
 
 	"model" 		models/imperial/Buildings/repairpad/imp_repairpad.mdl	//Standard Model
+	"ambientsound" 		"emp_ambient.repair"				//Ambient Sound	
 	"cost" 			150						//Cost of the building				
 	"max health"	 	200						//Max Possible Health				
-	"starting health"	50						//Starting Health when built (25% of Max)					
+	"starting health"	50						//Starting Health					
 	"damaged model" 	models/imperial/Buildings/repairpad/imp_repairpad.mdl	//Model to show when damage is lower then the threshold (Defaults to "model" field)	
 	"damaged threshold"	50						//Health Value to display the damaged model					
 	"destroyed model"	models/imperial/Buildings/repairpad/imp_repairpad.mdl	//Model to display when building is destroyed	(Defaults to "model" field)
@@ -623,9 +636,10 @@ BuildingParse
 	"spotted name"		"Repair Pad"	
 
 	"model" 		models/NF/Buildings/repairpad/nf_repairpad.mdl	//Standard Model
+	"ambientsound" 		"emp_ambient.repair"				//Ambient Sound	
 	"cost" 			150						//Cost of the building				
 	"max health"	 	200						//Max Possible Health				
-	"starting health"	50						//Starting Health when built (25% of Max)					
+	"starting health"	50						//Starting Health					
 	"damaged model" 	models/NF/Buildings/repairpad/nf_repairpad.mdl	//Model to show when damage is lower then the threshold (Defaults to "model" field)	
 	"damaged threshold"	50						//Health Value to display the damaged model					
 	"destroyed model"	models/NF/Buildings/repairpad/nf_repairpad.mdl	//Model to display when building is destroyed	(Defaults to "model" field)
@@ -686,30 +700,31 @@ BuildingParse
 	//13
 	ImpMGTurret_lvl1							
 	{								
-	"name" 			MGTurret					//Name of the Building
+	"name" 			MGTurret						//Name of the Building
 	"team"			"IMP"
 	"building level"	1
 	"spotted name"		"MG Turret"	
 
-	"model" 		models/imperial/turrets/mg_lvl1/imp_turret_mg_lvl1.mdl	//Standard Model					
-	"gib suffix"    "_gib"
-	"gib count"    "3"
-	"cost" 			75						//Cost of the building
-	"max health"	 	100						//Max Possible Health
-	"starting health"	25						//Starting Health when built (25% of Max)	
+	"model" 		models/imperial/turrets/mg_lvl1/imp_turret_mg_lvl1.mdl	//Standard Model
+	"ambientsound" 		"emp_ambient.small_building"				//Ambient Sound		
+	"gib suffix"		"_gib"
+	"gib count"		"3"
+	"cost" 			75							//Cost of the building
+	"max health"	 	100							//Max Possible Health
+	"starting health"	25							//Starting Health	
 	"damaged model" 	models/imperial/turrets/mg_lvl1/imp_turret_mg_lvl1.mdl	//Model to show when damage is lower then the threshold (Defaults to "model" field)						
-	"damaged threshold"	50						//Health Value to display the damaged model	
+	"damaged threshold"	50							//Health Value to display the damaged model	
 	"destroyed model"	models/imperial/turrets/mg_lvl1/imp_turret_mg_lvl1.mdl	//Model to display when building is destroyed	(Defaults to "model" field)					
-	"vehicle physbox"	models/imperial/turrets/mg_lvl1/imp_turret_mg_lvl1.mdl //Physbox Model							
+	"vehicle physbox"	models/imperial/turrets/mg_lvl1/imp_turret_mg_lvl1.mdl	//Physbox Model							
 
-	"turret range"    	"2000"
-	"turret rof"      	"0.14"
-	"turret turn speed"    "200"
+	"turret range"		"2000"
+	"turret rof"		"0.14"
+	"turret turn speed"	"200"
 	"turret damage"		"3"
 	 
-	"recycle time"		5								// Recycle time for the building
-	"carcass removal time" "1"								// Time it takes for a destroyed building carcass to be removed				
-	"touchmessageid" "12"
+	"recycle time"		5	// Recycle time for the building
+	"carcass removal time"	"1"	// Time it takes for a destroyed building carcass to be removed				
+	"touchmessageid"	"12"
 
 	"hint"			"#emp_building_ImpMGTurret_lvl1_hint"
 
@@ -767,15 +782,16 @@ BuildingParse
 	"building level"	2
 	
 	"Research"		"Upgraded Turrets Lvl 2"
-	"model" 		models/imperial/turrets/mg_lvl2/imp_turret_mg_lvl2.mdl	//Standard Model					 
-	"gib count"    "5"
+	"model" 		models/imperial/turrets/mg_lvl2/imp_turret_mg_lvl2.mdl	//Standard Model
+	"ambientsound" 		"emp_ambient.small_building"				//Ambient Sound		
+	"gib count"		"5"
 	"damaged model" 	models/imperial/turrets/mg_lvl2/imp_turret_mg_lvl2.mdl	//Model to show when damage is lower then the threshold (Defaults to "model" field)
 	"destroyed model"	models/imperial/turrets/mg_lvl2/imp_turret_mg_lvl2.mdl	//Model to display when building is destroyed	(Defaults to "model" field)					
-	"vehicle physbox"	models/imperial/turrets/mg_lvl2/imp_turret_mg_lvl2.mdl //Physbox Model							
+	"vehicle physbox"	models/imperial/turrets/mg_lvl2/imp_turret_mg_lvl2.mdl	//Physbox Model							
 
 	"turret range"    	"3000"
 	"turret rof"      	"0.08"
-	"turret turn speed"    "200"
+	"turret turn speed"	"200"
 	"turret damage"		"3"
 
 	"hint"			"#emp_building_ImpMGTurret_lvl1_hint"
@@ -796,15 +812,16 @@ BuildingParse
 	"building level"	3
 	
 	"Research"		"Upgraded Turrets Lvl 3"
-	"model" 		models/imperial/turrets/mg_lvl3/imp_turret_mg_lvl3.mdl	//Standard Model					 
-	"gib count"    "5"
+	"model" 		models/imperial/turrets/mg_lvl3/imp_turret_mg_lvl3.mdl	//Standard Model
+	"ambientsound" 		"emp_ambient.small_building"				//Ambient Sound	
+	"gib count"		"5"
 	"damaged model" 	models/imperial/turrets/mg_lvl3/imp_turret_mg_lvl3.mdl	//Model to show when damage is lower then the threshold (Defaults to "model" field)
 	"destroyed model"	models/imperial/turrets/mg_lvl3/imp_turret_mg_lvl3.mdl	//Model to display when building is destroyed	(Defaults to "model" field)					
-	"vehicle physbox"	models/imperial/turrets/mg_lvl3/imp_turret_mg_lvl3.mdl //Physbox Model							
+	"vehicle physbox"	models/imperial/turrets/mg_lvl3/imp_turret_mg_lvl3.mdl	//Physbox Model							
 	
-	"turret range"    	"4000"
-	"turret rof"      	"0.04"
-	"turret turn speed"    "200"
+	"turret range"		"4000"
+	"turret rof"		"0.04"
+	"turret turn speed"	"200"
 	"turret damage"		"3"
 
 	"hint"			"#emp_building_ImpMGTurret_lvl1_hint"
@@ -825,25 +842,26 @@ BuildingParse
 	"building level"	1
 	"spotted name"		"MG Turret"	
 
-	"model" 		models/NF/turrets/mg_lvl1/nf_turret_mg_lvl1.mdl	//Standard Model					
-	"gib suffix"    "_gib"
-	"gib count"    "5"  
+	"model" 		models/NF/turrets/mg_lvl1/nf_turret_mg_lvl1.mdl	//Standard Model
+	"ambientsound"		"emp_ambient.small_building"			//Ambient Sound		
+	"gib suffix"		"_gib"
+	"gib count"		"5"  
 	"cost" 			75						//Cost of the building
 	"max health"	 	100						//Max Possible Health
-	"starting health"	25						//Starting Health when built (25% of Max)	
+	"starting health"	25						//Starting Health	
 	"damaged model" 	models/NF/turrets/mg_lvl1/nf_turret_mg_lvl1.mdl	//Model to show when damage is lower then the threshold (Defaults to "model" field)						
 	"damaged threshold"	50						//Health Value to display the damaged model	
 	"destroyed model"	models/NF/turrets/mg_lvl1/nf_turret_mg_lvl1.mdl	//Model to display when building is destroyed	(Defaults to "model" field)					
-	"vehicle physbox"	models/NF/turrets/mg_lvl1/nf_turret_mg_lvl1.mdl //Physbox Model							
+	"vehicle physbox"	models/NF/turrets/mg_lvl1/nf_turret_mg_lvl1.mdl	//Physbox Model							
 	
 	"turret range"    	"2000"
 	"turret rof"      	"0.14"
 	"turret turn speed"	"200"  
 	"turret damage"		"3"
 	 
-	"recycle time"		5								// Recycle time for the building
-	"carcass removal time" "1"								// Time it takes for a destroyed building carcass to be removed				
-	"touchmessageid" "13"
+	"recycle time"		5	// Recycle time for the building
+	"carcass removal time" "1"	// Time it takes for a destroyed building carcass to be removed				
+	"touchmessageid"	"13"
 	"hint"			"#emp_building_NFMGTurret_lvl1_hint"
 
 	//RESISTANCES							
@@ -899,15 +917,16 @@ BuildingParse
 	"building level"	2
 	
 	"Research"		"Upgraded Turrets Lvl 2"
-	"model" 		models/NF/turrets/mg_lvl2/nf_turret_mg_lvl2.mdl	//Standard Model					 
-	"gib count"    "4"
+	"model" 		models/NF/turrets/mg_lvl2/nf_turret_mg_lvl2.mdl	//Standard Model
+	"ambientsound" 		"emp_ambient.small_building"			//Ambient Sound		
+	"gib count"		"4"
 	"damaged model" 	models/NF/turrets/mg_lvl2/nf_turret_mg_lvl2.mdl	//Model to show when damage is lower then the threshold (Defaults to "model" field)
 	"destroyed model"	models/NF/turrets/mg_lvl2/nf_turret_mg_lvl2.mdl	//Model to display when building is destroyed	(Defaults to "model" field)					
 	"vehicle physbox"	models/NF/turrets/mg_lvl2/nf_turret_mg_lvl2.mdl //Physbox Model							
 
 	"turret range"    	"3000"
 	"turret rof"      	"0.08"
-	"turret turn speed"    "200"
+	"turret turn speed"	"200"
 	"turret damage"		"3"
 
 	"hint"			"#emp_building_NFMGTurret_lvl1_hint"
@@ -928,8 +947,9 @@ BuildingParse
 	"building level"	3
 	
 	"Research"		"Upgraded Turrets Lvl 3"
-	"model" 		models/NF/turrets/mg_lvl3/nf_turret_mg_lvl3.mdl	//Standard Model					 
-	"gib count"    "5"
+	"model" 		models/NF/turrets/mg_lvl3/nf_turret_mg_lvl3.mdl	//Standard Model
+	"ambientsound" 		"emp_ambient.small_building"			//Ambient Sound		
+	"gib count"		"5"
 	"damaged model" 	models/NF/turrets/mg_lvl3/nf_turret_mg_lvl3.mdl	//Model to show when damage is lower then the threshold (Defaults to "model" field)
 	"destroyed model"	models/NF/turrets/mg_lvl3/nf_turret_mg_lvl3.mdl	//Model to display when building is destroyed	(Defaults to "model" field)					
 	"vehicle physbox"	models/NF/turrets/mg_lvl3/nf_turret_mg_lvl3.mdl //Physbox Model							
@@ -952,7 +972,7 @@ BuildingParse
 	//15								
 	ImpMLTurret_lvl1
 	{								
-	"name" 				MLTurret	//Name of the Building
+	"name"			MLTurret	//Name of the Building
 	"team"			"IMP"
 	"building level"	"1"
 	"spotted name"		"ML Turret"
@@ -963,13 +983,14 @@ BuildingParse
 	"damaged model" 	models/imperial/turrets/ml_lvl1/imp_turret_ml_lvl1.mdl	//Model to show when damage is lower then the threshold (Defaults to "model" field)
 	"destroyed model"	models/imperial/turrets/ml_lvl1/imp_turret_ml_lvl1.mdl	//Model to display when building is destroyed	(Defaults to "model" field)
 	"vehicle physbox"	models/imperial/turrets/ml_lvl1/imp_turret_ml_lvl1.mdl	//Physbox Model
+	"ambientsound" 		"emp_ambient.small_building"				//Ambient Sound	
 	"Explosion Sprite"	0
 
 	"gib suffix"		"_gib"
 	"gib count"		"2"
 	"cost" 			75	//Cost of the building
 	"max health"	 	"100"	//Max Possible Health
-	"starting health"	"25"	//Starting Health when built (25% of Max)
+	"starting health"	"25"	//Starting Health
 	"damaged threshold"	"50"	//Health Value to display the damaged model
 	"recycle time"		"5"	// Recycle time for the building
 	"carcass removal time"	"1"	// Time it takes for a destroyed building carcass to be removed	
@@ -1042,12 +1063,15 @@ BuildingParse
 	"building level"	2
 	 
 	"Research"		"Upgraded Turrets Lvl 2"
-	"model" 		models/imperial/turrets/ml_lvl2/imp_turret_ml_lvl2.mdl	//Standard Model					
+	"model" 		models/imperial/turrets/ml_lvl2/imp_turret_ml_lvl2.mdl	//Standard Model
+	"destroyed model"	models/imperial/turrets/ml_lvl2/imp_turret_ml_lvl2.mdl	//Model to display when building is destroyed	(Defaults to "model" field)				
+	"vehicle physbox"	models/imperial/turrets/ml_lvl2/imp_turret_ml_lvl2.mdl	//Physbox Model
+	"damaged model" 	models/imperial/turrets/ml_lvl2/imp_turret_ml_lvl2.mdl	//Model to show when damage is lower then the threshold (Defaults to "model" field)
+	"damaged threshold"	50							//Health Value to display the damaged model
+	"ambientsound" 		"emp_ambient.small_building"				//Ambient Sound
+	
 	"gib count"    "2"
-	"damaged model" 	models/imperial/turrets/ml_lvl2/imp_turret_ml_lvl2.mdl	//Model to show when damage is lower then the threshold (Defaults to "model" field)						
-	"damaged threshold"	50						//Health Value to display the damaged model	
-	"destroyed model"	models/imperial/turrets/ml_lvl2/imp_turret_ml_lvl2.mdl	//Model to display when building is destroyed	(Defaults to "model" field)					
-	"vehicle physbox"	models/imperial/turrets/ml_lvl2/imp_turret_ml_lvl2.mdl //Physbox Model
+	
      
 	"turret range"    	"4750"
 	"turret rof"      	"3"
@@ -1075,11 +1099,13 @@ BuildingParse
 	 
 	"Research"		"Upgraded Turrets Lvl 3"
 	"model" 		models/imperial/turrets/ml_lvl3/imp_turret_ml_lvl3.mdl	//Standard Model					
-	"gib count"    "4"
-	"damaged model" 	models/imperial/turrets/ml_lvl3/imp_turret_ml_lvl3.mdl	//Model to show when damage is lower then the threshold (Defaults to "model" field)						
-	"damaged threshold"	50						//Health Value to display the damaged model	
+	"damaged model" 	models/imperial/turrets/ml_lvl3/imp_turret_ml_lvl3.mdl	//Model to show when damage is lower then the threshold (Defaults to "model" field)							
 	"destroyed model"	models/imperial/turrets/ml_lvl3/imp_turret_ml_lvl3.mdl	//Model to display when building is destroyed	(Defaults to "model" field)					
-	"vehicle physbox"	models/imperial/turrets/ml_lvl3/imp_turret_ml_lvl3.mdl //Physbox Model
+	"vehicle physbox"	models/imperial/turrets/ml_lvl3/imp_turret_ml_lvl3.mdl	//Physbox Model
+	"damaged threshold"	50							//Health Value to display the damaged model
+	"ambientsound" 		"emp_ambient.small_building"				//Ambient Sound
+	
+	"gib count"		"4"
      
 	"turret range"    	"5000"
 	"turret rof"      	"2"
@@ -1105,20 +1131,24 @@ BuildingParse
 	"team"			"NF"
 	"building level"	1
 	"spotted name"		"ML Turret"	
-	
+
 	"model" 		models/NF/turrets/ml_lvl1/nf_turret_ml_lvl1.mdl	//Standard Model					
-	"gib suffix"    "_gib"
-	"gib count"    "4"       
-	"cost" 			75						//Cost of the building
-	"max health"	 	100						//Max Possible Health
-	"starting health"	25						//Starting Health when built (25% of Max)	
 	"damaged model" 	models/NF/turrets/ml_lvl1/nf_turret_ml_lvl1.mdl	//Model to show when damage is lower then the threshold (Defaults to "model" field)						
-	"damaged threshold"	50						//Health Value to display the damaged model	
 	"destroyed model"	models/NF/turrets/ml_lvl1/nf_turret_ml_lvl1.mdl	//Model to display when building is destroyed	(Defaults to "model" field)					
 	"vehicle physbox"	models/NF/turrets/ml_lvl1/nf_turret_ml_lvl1.mdl //Physbox Model							
 	"level 2"		models/NF/turrets/ml_lvl2/nf_turret_ml_lvl2.mdl //Turret Only: Level 2 model						
 	"level 3"		models/NF/turrets/ml_lvl3/nf_turret_ml_lvl3.mdl //Turret Only: Level 3 model
-     
+	"damaged threshold"	50						//Health Value to display the damaged model
+	
+	"ambientsound" 		"emp_ambient.small_building"			//Ambient Sound
+	
+	"gib suffix"		"_gib"
+	"gib count"		"4"   
+
+	"cost" 			75						//Cost of the building
+	"max health"	 	100						//Max Possible Health
+	"starting health"	25						//Starting Health	
+
 	"turret range"    	"4500"
 	"turret rof"      	"5"
 	"turret turn speed"	"400"
@@ -1128,9 +1158,9 @@ BuildingParse
      
 	"Explosion Sprite"	0
 
-	"Damage Type" 		"Missile"
-	"recycle time"		5								// Recycle time for the building
-	"carcass removal time" "1"								// Time it takes for a destroyed building carcass to be removed				
+	"Damage Type"		"Missile"
+	"recycle time"		5		// Recycle time for the building
+	"carcass removal time"	"1"		// Time it takes for a destroyed building carcass to be removed				
 	"touchmessageid"	"15"
 
 	"hint"			"#emp_building_NFMLTurret_hint"
@@ -1189,10 +1219,13 @@ BuildingParse
 	
 	"Research"		"Upgraded Turrets Lvl 2"
 	"model" 		models/NF/turrets/ml_lvl2/nf_turret_ml_lvl2.mdl	//Standard Model					
-	"gib count"    "5"
 	"damaged model" 	models/NF/turrets/ml_lvl2/nf_turret_ml_lvl2.mdl	//Model to show when damage is lower then the threshold (Defaults to "model" field)
 	"destroyed model"	models/NF/turrets/ml_lvl2/nf_turret_ml_lvl2.mdl	//Model to display when building is destroyed	(Defaults to "model" field)					
 	"vehicle physbox"	models/NF/turrets/ml_lvl2/nf_turret_ml_lvl2.mdl //Physbox Model
+	
+	"gib count"		"5"
+	
+	"ambientsound" 		"emp_ambient.small_building"			//Ambient Sound
      
 	"turret range"    	"4750"
 	"turret rof"      	"3"
@@ -1204,11 +1237,11 @@ BuildingParse
 	"hint"			"#emp_building_NFMLTurret_hint"
 	 
 	//BOUNDARY VECTORS								
-	"CollisionRadius" 		"60"
-	"CollisionHeight" 		"20"
-	"CollisionOffsetX" 		"0"
-	"CollisionOffsetY" 		"0"
-	"CollisionOffsetZ" 		"0"
+	"CollisionRadius"	"60"
+	"CollisionHeight"	"20"
+	"CollisionOffsetX"	"0"
+	"CollisionOffsetY"	"0"
+	"CollisionOffsetZ"	"0"
 	}
 
 	//24								
@@ -1220,10 +1253,13 @@ BuildingParse
 	
 	"Research"		"Upgraded Turrets Lvl 3"
 	"model" 		models/NF/turrets/ml_lvl3/nf_turret_ml_lvl3.mdl	//Standard Model					
-	"gib count"    "4"
 	"damaged model" 	models/NF/turrets/ml_lvl3/nf_turret_ml_lvl3.mdl	//Model to show when damage is lower then the threshold (Defaults to "model" field)
 	"destroyed model"	models/NF/turrets/ml_lvl3/nf_turret_ml_lvl3.mdl	//Model to display when building is destroyed	(Defaults to "model" field)					
 	"vehicle physbox"	models/NF/turrets/ml_lvl3/nf_turret_ml_lvl3.mdl //Physbox Model
+	
+	"gib count"    "4"
+	
+	"ambientsound" 		"emp_ambient.small_building"			//Ambient Sound
      
 	"turret range"    	"5000"
 	"turret rof"      	"2"
@@ -1235,11 +1271,11 @@ BuildingParse
 	"hint"			"#emp_building_NFMLTurret_hint"
 	 
 	//BOUNDARY VECTORS								
-	"CollisionRadius" 		"60"
-	"CollisionHeight" 		"20"
-	"CollisionOffsetX" 		"0"
-	"CollisionOffsetY" 		"0"
-	"CollisionOffsetZ" 		"0"
+	"CollisionRadius"	"60"
+	"CollisionHeight"	"20"
+	"CollisionOffsetX"	"0"
+	"CollisionOffsetY"	"0"
+	"CollisionOffsetZ"	"0"
 	}
 
 	//17
@@ -1250,18 +1286,20 @@ BuildingParse
 	"spotted name"		"Engineer Camera"	
 
 	"model" 		models/imperial/turrets/camera/imp_camera.mdl	//Standard Model
-	"cost" 			0						//Cost of the building				
-	"max health"	 	80						//Max Possible Health				
-	"starting health"	20						//Starting Health when built (25% of Max)					
-	"damaged model" 	models/imperial/turrets/camera/imp_camera.mdl	//Model to show when damage is lower then the threshold (Defaults to "model" field)	
-	"damaged threshold"	40						//Health Value to display the damaged model					
+	"damaged model" 	models/imperial/turrets/camera/imp_camera.mdl	//Model to show when damage is lower then the threshold (Defaults to "model" field)		
 	"destroyed model"	models/imperial/turrets/camera/imp_camera.mdl	//Model to display when building is destroyed	(Defaults to "model" field)
-	"vehicle physbox"	models/imperial/turrets/camera/imp_camera.mdl //Physbox Model	
+	"vehicle physbox"	models/imperial/turrets/camera/imp_camera.mdl	//Physbox Model
+	
+	"ambientsound" 		"emp_ambient.small_building"			//Ambient Sound
 
-	"recycle time"		5								// Recycle time for the building
-	"carcass removal time" "0.5"								// Time it takes for a destroyed building carcass to be removed				
-	"touchmessageid" "16"
-
+	"cost" 			0	//Cost of the building				
+	"max health"	 	80	//Max Possible Health	
+	"starting health"	20	//Starting Health
+	"damaged threshold"	40	//Health Value to display the damaged model
+	"recycle time"		5	// Recycle time for the building
+	"carcass removal time"	"0.5"	// Time it takes for a destroyed building carcass to be removed	
+	
+	"touchmessageid"	"16"
 	"hint"			"#emp_building_ImpEngyCamera_hint"
 
 	//RESISTANCES
@@ -1311,23 +1349,25 @@ BuildingParse
 	//18
 	NFEngyCamera
 	{
-	"name" 			EngyCamera					//Name of the Building
+	"name" 			EngyCamera
 	"team"			"NF"
 	"spotted name"		"Engineer Camera"	
 
-	"model" 		models/NF/turrets/camera/nf_camera.mdl	//Standard Model
-	"cost" 			0						//Cost of the building				
-	"max health"	 	80						//Max Possible Health				
-	"starting health"	20						//Starting Health when built (25% of Max)					
-	"damaged model" 	models/NF/turrets/camera/nf_camera.mdl	//Model to show when damage is lower then the threshold (Defaults to "model" field)	
-	"damaged threshold"	40						//Health Value to display the damaged model					
+	"model" 		models/NF/turrets/camera/nf_camera.mdl	//Standard Model				
+	"damaged model" 	models/NF/turrets/camera/nf_camera.mdl	//Model to show when damage is lower then the threshold (Defaults to "model" field)					
 	"destroyed model"	models/NF/turrets/camera/nf_camera.mdl	//Model to display when building is destroyed	(Defaults to "model" field)
-	"vehicle physbox"	models/NF/turrets/camera/nf_camera.mdl //Physbox Model	
+	"vehicle physbox"	models/NF/turrets/camera/nf_camera.mdl	//Physbox Model	
+	
+	"ambientsound" 		"emp_ambient.small_building"		//Ambient Sound
 
-	"recycle time"		5								// Recycle time for the building
-	"carcass removal time" "0.5"								// Time it takes for a destroyed building carcass to be removed				
+	"cost" 			0	//Cost of the building				
+	"max health"	 	80	//Max Possible Health	
+	"starting health"	20	//Starting Health
+	"damaged threshold"	40	//Health Value to display the damaged model	
+	"recycle time"		5	// Recycle time for the building
+	"carcass removal time"	"0.5"	// Time it takes for a destroyed building carcass to be removed	
+	
 	"touchmessageid" "17"
-
 	"hint"			"#emp_building_NFEngyCamera_hint"
 
 	//RESISTANCES
@@ -1376,23 +1416,25 @@ BuildingParse
 	//19
 	ImpEngyRadar
 	{
-	"name" 			EngyRadar					//Name of the Building
+	"name" 			EngyRadar
 	"team"			"IMP"
 	"spotted name"		"Engineer Radar"	
 
 	"model" 		models/imperial/turrets/radar/imp_radar.mdl	//Standard Model
-	"cost" 			0						//Cost of the building				
-	"max health"	 	80						//Max Possible Health				
-	"starting health"	20						//Starting Health when built (25% of Max)					
-	"damaged model" 	models/imperial/turrets/radar/imp_radar.mdl	//Model to show when damage is lower then the threshold (Defaults to "model" field)	
-	"damaged threshold"	40						//Health Value to display the damaged model					
+	"damaged model" 	models/imperial/turrets/radar/imp_radar.mdl	//Model to show when damage is lower then the threshold (Defaults to "model" field)					
 	"destroyed model"	models/imperial/turrets/radar/imp_radar.mdl	//Model to display when building is destroyed	(Defaults to "model" field)
-	"vehicle physbox"	models/imperial/turrets/radar/imp_radar.mdl //Physbox Model
+	"vehicle physbox"	models/imperial/turrets/radar/imp_radar.mdl	//Physbox Model
 
-	"recycle time"		5								// Recycle time for the building
-	"carcass removal time" "0.5"								// Time it takes for a destroyed building carcass to be removed				
+	"ambientsound" 		"emp_ambient.small_building"		//Ambient Sound
+
+	"cost" 			0	//Cost of the building				
+	"max health"	 	80	//Max Possible Health	
+	"starting health"	20	//Starting Health
+	"damaged threshold"	40	//Health Value to display the damaged model	
+	"recycle time"		5	// Recycle time for the building
+	"carcass removal time"	"0.5"	// Time it takes for a destroyed building carcass to be removed	
+	
 	"touchmessageid" "18"
-
 	"hint"			"#emp_building_ImpEngyRadar_hint"
 
 	//RESISTANCES
@@ -1441,23 +1483,25 @@ BuildingParse
 	//20
 	NFEngyRadar
 	{
-	"name" 			EngyRadar					//Name of the Building
+	"name" 			EngyRadar
 	"team"			"NF"
 	"spotted name"		"Engineer Radar"	
 
-	"model" 		models/NF/turrets/radar/nf_radar.mdl	//Standard Model
-	"cost" 			0						//Cost of the building				
-	"max health"	 	80						//Max Possible Health				
-	"starting health"	20						//Starting Health when built (25% of Max)					
-	"damaged model" 	models/NF/turrets/radar/nf_radar.mdl	//Model to show when damage is lower then the threshold (Defaults to "model" field)	
-	"damaged threshold"	40						//Health Value to display the damaged model					
+	"model" 		models/NF/turrets/radar/nf_radar.mdl	//Standard Model			
+	"damaged model" 	models/NF/turrets/radar/nf_radar.mdl	//Model to show when damage is lower then the threshold (Defaults to "model" field)					
 	"destroyed model"	models/NF/turrets/radar/nf_radar.mdl	//Model to display when building is destroyed	(Defaults to "model" field)
-	"vehicle physbox"	models/NF/turrets/radar/nf_radar.mdl //Physbox Model
+	"vehicle physbox"	models/NF/turrets/radar/nf_radar.mdl	//Physbox Model
 
-	"recycle time"		5								// Recycle time for the building
-	"carcass removal time" "0.5"								// Time it takes for a destroyed building carcass to be removed				
+	"ambientsound" 		"emp_ambient.small_building"		//Ambient Sound
+
+	"cost" 			0	//Cost of the building				
+	"max health"	 	80	//Max Possible Health	
+	"starting health"	20	//Starting Health
+	"damaged threshold"	40	//Health Value to display the damaged model	
+	"recycle time"		5	// Recycle time for the building
+	"carcass removal time"	"0.5"	// Time it takes for a destroyed building carcass to be removed	
+	
 	"touchmessageid" 	"19"
-
 	"hint"			"#emp_building_NFEngyRadar_hint"
 
  	//RESISTANCES
@@ -1515,7 +1559,7 @@ BuildingParse
 	"gib count"    		"5"
 	"cost" 			10						//Cost of the building				
 	"max health"	 	100						//Max Possible Health				
-	"starting health"	25						//Starting Health when built (25% of Max)					
+	"starting health"	25						//Starting Health					
 	"damaged model" 	models/imperial/buildings/walls/imp_wall1.mdl	//Model to show when damage is lower then the threshold (Defaults to "model" field)	
 	"damaged threshold"	0						//Health Value to display the damaged model					
 	"destroyed model"	models/imperial/buildings/walls/imp_wall1.mdl	//Model to display when building is destroyed	(Defaults to "model" field)
@@ -1594,7 +1638,7 @@ BuildingParse
 	"gib count"    		"5"
 	"cost" 			10						//Cost of the building				
 	"max health"	 	100						//Max Possible Health				
-	"starting health"	25						//Starting Health when built (25% of Max)					
+	"starting health"	25						//Starting Health					
 	"damaged model" 	models/NF/Buildings/walls/nf_wall.mdl		//Model to show when damage is lower then the threshold (Defaults to "model" field)	
 	"damaged threshold"	0						//Health Value to display the damaged model					
 	"destroyed model"	models/NF/Buildings/walls/nf_wall.mdl	//Model to display when building is destroyed	(Defaults to "model" field)
@@ -1668,7 +1712,7 @@ BuildingParse
 	"model" 		models/imperial/Buildings/vehiclefactory/imp_vehiclefactory.mdl	//Standard Model
 	"cost" 			400						//Cost of the building				
 	"max health"	 	250						//Max Possible Health				
-	"starting health"	50						//Starting Health when built (25% of Max)					
+	"starting health"	50						//Starting Health					
 	"damaged model" 	models/imperial/Buildings/vehiclefactory/imp_vehiclefactory.mdl	//Model to show when damage is lower then the threshold (Defaults to "model" field)	
 	"damaged threshold"	125						//Health Value to display the damaged model					
 	"destroyed model"	models/imperial/Buildings/vehiclefactory/imp_vehiclefactory.mdl	//Model to display when building is destroyed	(Defaults to "model" field)
@@ -1738,7 +1782,7 @@ BuildingParse
 	"model" 		models/NF/Buildings/vehiclefactory/nf_vehiclefactory.mdl	//Standard Model
 	"cost" 			400						//Cost of the building				
 	"max health"	 	250						//Max Possible Health				
-	"starting health"	50						//Starting Health when built (25% of Max)					
+	"starting health"	50						//Starting Health					
 	"damaged model" 	models/NF/Buildings/vehiclefactory/nf_vehiclefactory.mdl	//Model to show when damage is lower then the threshold (Defaults to "model" field)	
 	"damaged threshold"	125						//Health Value to display the damaged model					
 	"destroyed model"	models/NF/Buildings/vehiclefactory/nf_vehiclefactory.mdl	//Model to display when building is destroyed	(Defaults to "model" field)
