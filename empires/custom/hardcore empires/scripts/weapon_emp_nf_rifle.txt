@@ -1,6 +1,6 @@
 WeaponData
 {
-	// Weapon characteristics:
+	//Weapon characteristics:
 	"Damage"			"26"		// damage per bullet
 	"Bullets"			"1"		// bullets per shoot
 	"CycleTime"			"0.090"		// time between shoots
@@ -16,13 +16,11 @@ WeaponData
 	"Damage Left Leg Modifier"	"0.8"
 	"Damage Right Leg Modifier"	"0.8"
 	
-	
-	// Weapon data is loaded by both the Game and Client DLLs.
+	//Weapon data is loaded by both the Game and Client DLLs.
 	"printname"			"#SDK_MP5"
-	//"viewmodel"			"models/weapons/v_smg_mp5.mdl"
-	//"viewmodel"			"models/Imperial/Weapons/AssaultRifle/v_imp_assaultrifle.mdl"
 	"viewmodel"			"models/NF/Weapons/v/assaultRifle/nf_assaultrifle.mdl"
 	"playermodel"			"models/NF/Weapons/w/assaultRifle/nf_assaultrifle.mdl"
+	
 	
 	"anim_prefix"			"M4"
 	"bucket"			"1"
@@ -43,20 +41,20 @@ WeaponData
 	"MeleeWeapon"			"0"
 	"MeleeDamage"			"50"	// damage per melee hit
 	"MeleeCycleTime"		"1.0"	// time between melee attacks
-
+	
+	//Weapon Spread
 	//Accuracy Upgrade Modifier. Default is 0.75. The lower the better.
 	"AccuracyUpgradeModifier"	"0.85"
 	
-	//Weapon Spread
 	//When at rest
-	"JumpingSpread"			"0.05"
+	"JumpingSpread"			"0.08"
 	"StandingSpread"		"0.01"
 	"DuckingSpread"			"0.0045"
 	"ProneSpread"			"0.0035"
 
 	//When moving at full speed (sv_maxspeed)
 	"JumpingSpreadModifier"		"0.1"
-	"StandingSpreadModifier"	"0.015"
+	"StandingSpreadModifier"	"0.02"
 	"DuckingSpreadModifier"		"0.01"
 	"ProneSpreadModifier"		"0.005"
 

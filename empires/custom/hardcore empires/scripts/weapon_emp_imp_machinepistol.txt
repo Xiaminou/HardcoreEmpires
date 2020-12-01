@@ -7,8 +7,6 @@ WeaponData
 	"FalloffStart"			"0"		// Distance at which bullet falloff starts - (Max bullet distance 10000 units) - Default 5000
 	"FalloffEnd"			"5000"		// Distance at which bullet falloff ends - (Distance that damage is at MinimalDamage) - Default 10000	
 	"MinimalDamage"			"10"		// bullet will always deal this amount of damage even after damage decrease
-//	"BurstShots"   			"3"		// shots per burst(0 for N/A)
-//	"BurstCycleTime"  		"0.1"		// time between bursts
 
 	"Damage Head Modifier"		"3.0"
 	"Damage Chest Modifier"		"1"
@@ -76,7 +74,7 @@ WeaponData
 	"JumpingSpreadDecrement"	"0.01"
 	"StandingSpreadDecrement"	"0.06"
 	"DuckingSpreadDecrement"	"0.08"
-	"ProneSpreadDecrement"		"0.011"
+	"ProneSpreadDecrement"		"0.11"
 
 	//Weapon kick range x (vertical) and y (horizontal), full and no spread, max and min
 	//interpolates between full and no spread value based on current spread (percentage inbetween at rest and maximum spread due to firing)

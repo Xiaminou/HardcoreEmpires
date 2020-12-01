@@ -1,6 +1,6 @@
 WeaponData
 {
-	// Weapon characteristics:
+	//Weapon characteristics:
 	"Damage"			"24"		// damage per bullet
 	"Bullets"			"1"		// bullets per shoot
 	"CycleTime"			"0.09"		// time between shoots
@@ -16,7 +16,7 @@ WeaponData
 	"Damage Left Leg Modifier"	"0.8"
 	"Damage Right Leg Modifier"	"0.8"	
 	
-	// Weapon data is loaded by both the Game and Client DLLs.
+	//Weapon data is loaded by both the Game and Client DLLs.
 	"printname"			"#SDK_MP5"
 	"viewmodel"			"models/Imperial/Weapons/v/heavyrifle/imp_heavyrifle.mdl"
 	"playermodel"			"models/Imperial/Weapons/w/heavyrifle/imp_heavyrifle.mdl"
@@ -42,20 +42,20 @@ WeaponData
 	"MeleeDamage"			"50"	// damage per melee hit
 	"MeleeCycleTime"		"1.0"	// time between melee attacks
 
+	//Weapon Spread
 	//Accuracy Upgrade Modifier. Default is 0.75. The lower the better.
 	"AccuracyUpgradeModifier"	"0.85"
 	
-	//Weapon Spread
 	//When at rest
-	"JumpingSpread"			"0.05"
+	"JumpingSpread"			"0.08"
 	"StandingSpread"		"0.01"
 	"DuckingSpread"			"0.005"
 	"ProneSpread"			"0.004"
 
 	//When moving at full speed (sv_maxspeed)
 	"JumpingSpreadModifier"		"0.1"
-	"StandingSpreadModifier"	"0.015"
-	"DuckingSpreadModifier"		"0.015"
+	"StandingSpreadModifier"	"0.02"
+	"DuckingSpreadModifier"		"0.011"
 	"ProneSpreadModifier"		"0.0075"
 
 	//Maximum the spread can become due to spread increment per shot below

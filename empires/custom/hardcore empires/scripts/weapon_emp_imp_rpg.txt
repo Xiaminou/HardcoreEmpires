@@ -43,16 +43,16 @@ WeaponData
 
 	//Weapon Spread
 	//When at rest
-	"JumpingSpread"			"0.02"
-	"StandingSpread"		"0.004"
-	"DuckingSpread"			"0.002"
-	"ProneSpread"			"0.001"
+	"JumpingSpread"			"0.0001"
+	"StandingSpread"		"0.0001"
+	"DuckingSpread"			"0.0001"
+	"ProneSpread"			"0.0001"
 
 	//When moving at full speed (sv_maxspeed)
-	"JumpingSpreadModifier"		"0.5"
-	"StandingSpreadModifier"	"0.25"
-	"DuckingSpreadModifier"		"0.1"
-	"ProneSpreadModifier"		"0.05"
+	"JumpingSpreadModifier"		"0.0001"
+	"StandingSpreadModifier"	"0.0001"
+	"DuckingSpreadModifier"		"0.0001"
+	"ProneSpreadModifier"		"0.0001"
 
 	//Maximum the spread can become due to spread increment per shot below
 	"JumpingSpreadMax"		"0.7"

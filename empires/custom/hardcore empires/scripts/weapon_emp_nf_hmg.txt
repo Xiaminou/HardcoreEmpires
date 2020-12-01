@@ -52,13 +52,13 @@ WeaponData
 	"AccuracyUpgradeModifier"	"0.90"
 	
 	//When at rest
-	"JumpingSpread"			"0.05"
+	"JumpingSpread"			"0.1"
 	"StandingSpread"		"0.06"
 	"DuckingSpread"			"0.003"
 	"ProneSpread"			"0.002"
 
 	//When moving at full speed (sv_maxspeed)
-	"JumpingSpreadModifier"		"0.1"
+	"JumpingSpreadModifier"		"0.2"
 	"StandingSpreadModifier"	"0.06"
 	"DuckingSpreadModifier"		"0.01"
 	"ProneSpreadModifier"		"0.005"
