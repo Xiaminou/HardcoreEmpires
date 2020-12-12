@@ -106,15 +106,15 @@
 		{
 			"className"		"emp_imp_commander"
 			"position"		"-12295.865234 -8847.651367 987.884583"
-			"angles"		"0.300784 -0.016503 1.242951"
+			"angles"		"0.300788 -0.016506 1.242944"
 			"coords"		"A2"
 			"name"		"cv_be"
 		}
 		"96166"
 		{
 			"className"		"emp_nf_commander"
-			"position"		"12301.103516 7936.554199 963.791077"
-			"angles"		"0.011822 -179.750336 -0.585297"
+			"position"		"12301.102539 7936.554688 963.791077"
+			"angles"		"0.011873 -179.750565 -0.585297"
 			"coords"		"E4"
 			"name"		"cv_nf"
 		}
@@ -1794,6 +1794,6 @@
 			"turretRestrict"		"0"
 		}
 	}
-	"version"		"1.230000"
+	"version"		"1.280000"
 	"hLimit"		"303430"
 }
