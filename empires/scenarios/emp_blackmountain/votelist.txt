@@ -2,13 +2,19 @@
 {
 	"scenarios"
 	{
-		"Alpha"
+		"Bravo"
 		{
 			"min_players"		"0"
-			"max_players"		"64"
-			"name_override"		"(HARD) alt1"
-			"description_override"	"[Type: Location & Gameplay] Start middle at B3 and D3"
+			"max_players"		"65"
+			"tags_override"		"-"
+			"description_override"		"-"
+		}
+		"Charlie"
+		{
+			"min_players"		"0"
+			"max_players"		"65"
+			"tags_override"		"-"
+			"description_override"		"-"
 		}
 	}
-	"enabled"		"0"
 }

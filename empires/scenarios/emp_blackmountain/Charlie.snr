@@ -1,13 +1,17 @@
 "Scenario"
 {
-	"Description"		" "
-	"details"		" "
-	"Tags"		" "
-	"Author"		"Hardcore Empires - Main Server"
-	"NF_Res"		"400.200012"
-	"BE_Res"		"400.200012"
-	"NF_Tickets"		"435.600006"
-	"BE_Tickets"		"435.600006"
+	"Description"		"[Type: Gameplay & Location] Start North-West (A5) and South-East (E1) with a Vehicle Factory."
+	"details"		"Start with 600 resources."
+	"Author"		"Xiam"
+	"CommFreezeTime"		"-1"
+	"PlayerRefineryMultiplier"		"-1.000000"
+	"RefineryMultiplier"		"-1.000000"
+	"version"		"1.260000"
+	"hLimit"		"621912"
+	"NF_Res"		"600.200012"
+	"BE_Res"		"600.200012"
+	"NF_Tickets"		"434.000000"
+	"BE_Tickets"		"434.000000"
 	"NF_Research"
 	{
 		"0"		"1"
@@ -43,15 +47,15 @@
 		"127421"
 		{
 			"className"		"emp_imp_commander"
-			"position"		"-9489.285156 12191.176758 -3195.631348"
-			"angles"		"0.287222 0.002911 1.269441"
+			"position"		"-9489.273438 12190.790039 -3195.629395"
+			"angles"		"0.287519 0.001168 1.247821"
 			"coords"		"A5"
 		}
 		"127384"
 		{
 			"className"		"emp_nf_commander"
-			"position"		"9298.389648 -12099.139648 -3121.676514"
-			"angles"		"0.000007 0.000002 -0.586365"
+			"position"		"9298.389648 -12097.383789 -3121.670654"
+			"angles"		"0.000001 0.000037 -0.585205"
 			"coords"		"E1"
 		}
 		"127386"
@@ -103,7 +107,7 @@
 		"124840"
 		{
 			"className"		"emp_resource_point"
-			"position"		"-7500.009766 11161.500000 -3217.580078"
+			"position"		"-7500.008789 11161.500000 -3217.580078"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"B5"
 			"name"		"bestartref"
@@ -114,7 +118,7 @@
 		"125000"
 		{
 			"className"		"emp_resource_point"
-			"position"		"7695.830078 -11037.200195 -3192.000000"
+			"position"		"7695.829102 -11037.200195 -3192.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"D1"
 			"name"		"nfstartref"
@@ -131,7 +135,7 @@
 			"name"		"craterref3"
 			"effects"		"80"
 			"enabled"		"1"
-			"resPerSecond"		"1.000000"
+			"resPerSecond"		"1.500000"
 		}
 		"525177"
 		{
@@ -172,15 +176,15 @@
 			"position"		"-13312.000000 -13312.000000 -2777.580078"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"A1"
-			"name"		"northref1"
+			"name"		"southisleref1"
 			"effects"		"80"
 			"enabled"		"1"
-			"resPerSecond"		"1.000000"
+			"resPerSecond"		"1.500000"
 		}
 		"590264"
 		{
 			"className"		"emp_resource_point"
-			"position"		"1229.900024 9689.650391 -2692.000000"
+			"position"		"1229.900024 9689.648438 -2692.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"C5"
 			"name"		"northref"
@@ -212,7 +216,7 @@
 		"160066"
 		{
 			"className"		"emp_resource_point_prop"
-			"position"		"-5850.709961 1345.209961 -1404.000000"
+			"position"		"-5850.709961 1345.209839 -1404.000000"
 			"angles"		"90.000000 135.000000 0.000000"
 			"coords"		"B3"
 			"name"		"craterrefprop2"
@@ -222,7 +226,7 @@
 		"160902"
 		{
 			"className"		"emp_resource_point_prop"
-			"position"		"-0.369629 0.039795 -1017.859985"
+			"position"		"-0.369629 0.039795 -1017.859863"
 			"angles"		"90.000000 135.000000 0.000000"
 			"coords"		"C3"
 			"name"		"craterrefprop3"
@@ -252,7 +256,7 @@
 		"124989"
 		{
 			"className"		"emp_resource_point_prop"
-			"position"		"7692.009766 -11038.299805 -3214.419922"
+			"position"		"7692.008789 -11038.299805 -3214.419922"
 			"angles"		"90.000000 0.000000 0.000000"
 			"coords"		"D1"
 			"name"		"nfstartrefprop"
@@ -331,7 +335,7 @@
 		"160064"
 		{
 			"className"		"env_smokestack"
-			"position"		"-5873.339844 1413.089966 -1148.000000"
+			"position"		"-5873.338867 1413.089844 -1148.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"B3"
 			"name"		"craterrefsmoke2"
@@ -350,7 +354,7 @@
 		"160900"
 		{
 			"className"		"env_smokestack"
-			"position"		"-23.000000 67.919899 -761.862976"
+			"position"		"-23.000000 67.919914 -761.862976"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"C3"
 			"name"		"craterrefsmoke3"
@@ -407,7 +411,7 @@
 		"124987"
 		{
 			"className"		"env_smokestack"
-			"position"		"7756.009766 -11070.299805 -2958.419922"
+			"position"		"7756.008789 -11070.299805 -2958.419922"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"D1"
 			"name"		"nfstartrefsmoke"
@@ -492,7 +496,27 @@
 			"eng_restrict_Imp"		"0"
 			"turretRestrict"		"0"
 		}
+		"5000003"
+		{
+			"className"		"emp_building_nf_vehiclefactory"
+			"position"		"11762.756836 -10569.102539 -3200.000000"
+			"angles"		"0.000000 90.000000 0.000000"
+			"coords"		"E1"
+			"built"		"1"
+			"maxHealth"		"250"
+			"health"		"250"
+			"team"		"2"
+		}
+		"5000004"
+		{
+			"className"		"emp_building_imp_vehiclefactory"
+			"position"		"-10909.036133 10048.153320 -3183.800049"
+			"angles"		"0.000000 -90.000000 0.000000"
+			"coords"		"A5"
+			"built"		"1"
+			"maxHealth"		"250"
+			"health"		"250"
+			"team"		"3"
+		}
 	}
-	"version"		"1.260000"
-	"hLimit"		"621912"
 }

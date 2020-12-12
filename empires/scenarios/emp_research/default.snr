@@ -47,8 +47,8 @@
 			"angles"		"0.000000 76.000000 0.000000"
 			"coords"		"D2"
 			"built"		"1"
-			"maxHealth"		"100"
-			"health"		"100"
+			"maxHealth"		"125"
+			"health"		"125"
 			"team"		"2"
 		}
 		"260262"
@@ -58,8 +58,8 @@
 			"angles"		"0.000000 263.000000 0.000000"
 			"coords"		"A4"
 			"built"		"1"
-			"maxHealth"		"100"
-			"health"		"100"
+			"maxHealth"		"125"
+			"health"		"125"
 			"team"		"3"
 		}
 		"260288"
@@ -128,8 +128,8 @@
 		"4659"
 		{
 			"className"		"emp_nf_commander"
-			"position"		"9663.150391 -4967.300781 736.030151"
-			"angles"		"1.190784 172.593765 -0.539185"
+			"position"		"9663.150391 -4967.301758 736.030151"
+			"angles"		"1.190765 172.593781 -0.539215"
 			"coords"		"D2"
 		}
 		"319937"
@@ -713,6 +713,6 @@
 			"turretRestrict"		"0"
 		}
 	}
-	"version"		"1.240000"
+	"version"		"1.260000"
 	"hLimit"		"341688"
 }

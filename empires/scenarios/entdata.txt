@@ -1211,6 +1211,7 @@
 	"emp_comm_restrict"
 	{
 		"extend"	"brush"
+		"customOnly"	"1"
 		"version"	"1.04"
 		"moveable"	"0"
 	}
@@ -1218,6 +1219,7 @@
 	{
 		"extend"	"brush"
 		"version"	"1.04"
+		"customOnly"	"1"
 		"moveable"	"0"
 		"fields"
 		{
@@ -1251,6 +1253,7 @@
 		"extend"	"entity"
 		"version"	"1.08"
 		"moveable"	"0"
+		"removable"	"false"
 		"fields"
 		{
 			"skin"

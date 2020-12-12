@@ -3,7 +3,7 @@
 	"Description"		" "
 	"details"		" "
 	"Tags"		" "
-	"Author"		"Hardcore Empires - Backup Serve"
+	"Author"		"Hardcore Empires - Main Server"
 	"NF_Res"		"400.200012"
 	"BE_Res"		"400.200012"
 	"NF_Tickets"		"351.267029"
@@ -50,8 +50,8 @@
 		"23221"
 		{
 			"className"		"emp_nf_commander"
-			"position"		"9043.239258 10141.190430 78.828720"
-			"angles"		"0.088323 89.993744 -0.593597"
+			"position"		"9043.239258 10141.190430 78.828758"
+			"angles"		"0.088354 89.993759 -0.593597"
 			"coords"		"D5"
 		}
 		"101973"
@@ -588,6 +588,6 @@
 			"turretRestrict"		"0"
 		}
 	}
-	"version"		"1.240000"
+	"version"		"1.260000"
 	"hLimit"		"101990"
 }

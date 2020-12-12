@@ -27,8 +27,8 @@
 			"angles"		"0.000000 225.000000 0.000000"
 			"coords"		"A5"
 			"built"		"1"
-			"maxHealth"		"100"
-			"health"		"100"
+			"maxHealth"		"125"
+			"health"		"125"
 			"team"		"2"
 		}
 		"198467"
@@ -38,8 +38,8 @@
 			"angles"		"0.000000 270.000000 0.000000"
 			"coords"		"D2"
 			"built"		"1"
-			"maxHealth"		"100"
-			"health"		"100"
+			"maxHealth"		"125"
+			"health"		"125"
 			"team"		"3"
 		}
 		"197327"
@@ -3033,6 +3033,6 @@
 			"turretRestrict"		"1"
 		}
 	}
-	"version"		"1.250000"
+	"version"		"1.260000"
 	"hLimit"		"775770"
 }
