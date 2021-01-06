@@ -1,17 +1,10 @@
 "Scenario"
 {
-	"NF_Res"		"400.200012"
-	"BE_Res"		"400.200012"
-	"NF_Tickets"		"435.000000"
-	"BE_Tickets"		"435.000000"
-	"NF_Research"
-	{
-		"0"		"1"
-	}
-	"BE_Research"
-	{
-		"0"		"1"
-	}
+	"Description"	"[Type: Location & Gameplay] Start middle at B3 and D3"
+	"Details"		"Command Vehicle have no freeze time"
+	"Author"		"Xiam"
+	"CanBaseSwap"	"yes"
+	"CommFreezeTime"	"1"
 	"Entities"
 	{
 		"127421"
@@ -487,13 +480,6 @@
 			"target"		"craterref1"
 		}
 	}
-	"Description"		"[Type: Location & Gameplay] Start middle at B3 and D3"
-	"Details"		"Command Vehicle have no freeze time"
-	"Author"		"Xiam"
-	"CanBaseSwap"		"yes"
-	"CommFreezeTime"		"1"
-	"PlayerRefineryMultiplier"		"-1.000000"
-	"RefineryMultiplier"		"-1.000000"
 	"version"		"0.930000"
 	"hLimit"		"621912"
 }

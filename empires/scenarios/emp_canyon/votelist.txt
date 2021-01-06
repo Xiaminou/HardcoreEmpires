@@ -6,22 +6,22 @@
 		{
 			"min_players"		"0"
 			"max_players"		"20"
-			"name_override"		"Additionnal Refinery"
-			"description_override"		"[Type: Quality of Life] Start with an additionnal refinery"
+			"tags_override"		"-"
+			"description_override"		"-"
 		}
 		"Bravo"
 		{
-			"min_players"		"20"
-			"max_players"		"64"
-			"name_override"		"Center of Gravity"
-			"description_override"		"[Type: Location & Gameplay] Start South and North middle"
+			"min_players"		"21"
+			"max_players"		"65"
+			"tags_override"		"-"
+			"description_override"		"-"
 		}
 		"Charlie"
 		{
 			"min_players"		"0"
-			"max_players"		"64"
-			"name_override"		"Alternate Corners"
-			"description_override"		"[Type: Location] Start South-West and North-East"
+			"max_players"		"65"
+			"tags_override"		"-"
+			"description_override"		"-"
 		}
 	}
 	"enabled"		"1"

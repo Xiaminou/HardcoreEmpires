@@ -1,14 +1,33 @@
 "Scenario"
 {
+	"Description"	"[Type: Location & Gameplay] Start Middle (C3 & C4)"
+	"details"		" "
+	"Author"		"Xiam"
+	"CanBaseSwap"	"yes"
+	"version"		"1.310000"
 	"Entities"
 	{
+		"1722"
+		{
+			"className"		"emp_imp_commander"
+			"position"		"-2432.273926 -1054.123535 196.367828"
+			"angles"		"0.287110 0.006786 1.245173"
+			"coords"		"B3"
+		}
+		"1714"
+		{
+			"className"		"emp_nf_commander"
+			"position"		"3029.059570 4792.959473 261.326294"
+			"angles"		"0.000003 179.999924 -0.584930"
+			"coords"		"C4"
+		}
 		"1557"
 		{
 			"className"		"emp_cap_model"
-			"name"		"Bunker_Flag"
 			"position"		"684.078003 1935.920044 824.000000"
 			"angles"		"0.000000 315.000000 0.000000"
 			"coords"		"C3"
+			"name"		"Bunker_Flag"
 			"pointNumber"		"0"
 			"visibleOnMap"		"1"
 			"model"		"models/Common/props_system/flagpole01_neutral.mdl"
@@ -16,75 +35,13 @@
 			"model3"		"models/common/props_system/flagpole01_imp.mdl"
 			"team"		"0"
 		}
-		"1558"
-		{
-			"className"		"emp_cap_point"
-			"name"		"Bunker_Capture_Zone"
-			"position"		"684.080017 1935.920044 792.000000"
-			"angles"		"0.000000 0.000000 0.000000"
-			"coords"		"C3"
-			"pointNumber"		"0"
-			"timeToCap"		"15"
-			"timeToNeutral"		"10"
-			"playersRequiredNF"		"2"
-			"playersRequiredImp"		"2"
-			"teamOwner"		"0"
-			"locationName"		"Bunker"
-			"resToGiveNF"		"4.000000"
-			"resToGiveImp"		"4.000000"
-			"reinfToTakeNF"		"0.000000"
-			"reinfToTakeImp"		"0.000000"
-			"canNFCap"		"1"
-			"canImpCap"		"1"
-			"Mins"		"-430.921875 -430.923279 -129.000000"
-			"Maxs"		"430.925781 430.921875 129.000000"
-		}
-		"1565"
-		{
-			"className"		"emp_imp_ammo_crate"
-			"position"		"731.078003 1887.920044 665.000000"
-			"angles"		"0.000000 135.000000 0.000000"
-			"coords"		"C3"
-			"pointNumber"		"0"
-			"disabled"		"1"
-			"model"		"models/Imperial/Props/imp_crateammo.mdl"
-		}
-		"1566"
-		{
-			"className"		"emp_imp_health_crate"
-			"position"		"637.078003 1982.920044 665.000000"
-			"angles"		"0.000000 315.000000 0.000000"
-			"coords"		"C3"
-			"pointNumber"		"0"
-			"disabled"		"1"
-			"model"		"models/Imperial/Props/imp_cratehealth.mdl"
-		}
-		"1567"
-		{
-			"className"		"emp_nf_ammo_crate"
-			"position"		"737.078003 1882.920044 665.000000"
-			"angles"		"0.000000 135.000000 0.000000"
-			"coords"		"C3"
-			"pointNumber"		"0"
-			"disabled"		"1"
-			"model"		"models/NF/Props/nf_crateammo.mdl"
-		}
-		"1568"
-		{
-			"className"		"emp_nf_health_crate"
-			"position"		"631.078003 1988.920044 665.000000"
-			"angles"		"0.000000 315.000000 0.000000"
-			"coords"		"C3"
-			"pointNumber"		"0"
-			"disabled"		"1"
-			"model"		"models/NF/Props/nf_cratehealth.mdl"
-		}
 		"1569"
 		{
 			"className"		"emp_cap_model"
 			"position"		"674.885010 2492.409912 792.000000"
 			"angles"		"0.000000 45.000000 0.000000"
 			"coords"		"C3"
+			"name"		"Bunker_Flag"
 			"pointNumber"		"0"
 			"visibleOnMap"		"0"
 			"model"		"models/common/props_system/flag2b_nuetral.mdl"
@@ -98,6 +55,7 @@
 			"position"		"1240.569946 1926.729980 792.000000"
 			"angles"		"0.000000 45.000000 0.000000"
 			"coords"		"C3"
+			"name"		"Bunker_Flag"
 			"pointNumber"		"0"
 			"visibleOnMap"		"0"
 			"model"		"models/common/props_system/flag2b_nuetral.mdl"
@@ -111,6 +69,7 @@
 			"position"		"694.684998 1380.839966 792.000000"
 			"angles"		"0.000000 45.000000 0.000000"
 			"coords"		"C3"
+			"name"		"Bunker_Flag"
 			"pointNumber"		"0"
 			"visibleOnMap"		"0"
 			"model"		"models/common/props_system/flag2b_nuetral.mdl"
@@ -124,6 +83,7 @@
 			"position"		"128.998978 1946.530029 792.000000"
 			"angles"		"0.000000 45.000000 0.000000"
 			"coords"		"C3"
+			"name"		"Bunker_Flag"
 			"pointNumber"		"0"
 			"visibleOnMap"		"0"
 			"model"		"models/common/props_system/flag2b_nuetral.mdl"
@@ -131,12 +91,282 @@
 			"model3"		"models/common/props_system/flag2b_imp.mdl"
 			"team"		"0"
 		}
+		"1558"
+		{
+			"className"		"emp_cap_point"
+			"position"		"684.080017 1935.920044 792.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"C3"
+			"name"		"Bunker_Capture_Zone"
+			"Mins"		"-430.921844 -430.923248 -129.000000"
+			"Maxs"		"430.925781 430.921844 129.000000"
+			"pointNumber"		"0"
+			"timeToCap"		"15"
+			"timeToNeutral"		"10"
+			"playersRequiredNF"		"2"
+			"playersRequiredImp"		"2"
+			"teamOwner"		"0"
+			"locationName"		"Bunker"
+			"resToGiveNF"		"4.000000"
+			"resToGiveImp"		"4.000000"
+			"reinfToTakeNF"		"0.000000"
+			"reinfToTakeImp"		"0.000000"
+			"canNFCap"		"1"
+			"canImpCap"		"1"
+		}
+		"1567"
+		{
+			"className"		"emp_nf_ammo_crate"
+			"position"		"737.078003 1882.920044 665.000000"
+			"angles"		"0.000000 135.000000 0.000000"
+			"coords"		"C3"
+			"name"		"Bunker_Nf_Crates"
+			"pointNumber"		"0"
+			"disabled"		"1"
+			"model"		"models/NF/Props/nf_crateammo.mdl"
+		}
+		"1565"
+		{
+			"className"		"emp_imp_ammo_crate"
+			"position"		"731.078003 1887.920044 665.000000"
+			"angles"		"0.000000 135.000000 0.000000"
+			"coords"		"C3"
+			"name"		"Bunker_Imp_Crates"
+			"pointNumber"		"0"
+			"disabled"		"1"
+			"model"		"models/Imperial/Props/imp_crateammo.mdl"
+		}
+		"1568"
+		{
+			"className"		"emp_nf_health_crate"
+			"position"		"631.078003 1988.920044 665.000000"
+			"angles"		"0.000000 315.000000 0.000000"
+			"coords"		"C3"
+			"name"		"Bunker_Nf_Crates"
+			"pointNumber"		"0"
+			"disabled"		"1"
+			"model"		"models/NF/Props/nf_cratehealth.mdl"
+		}
+		"1566"
+		{
+			"className"		"emp_imp_health_crate"
+			"position"		"637.078003 1982.920044 665.000000"
+			"angles"		"0.000000 315.000000 0.000000"
+			"coords"		"C3"
+			"name"		"Bunker_Imp_Crates"
+			"pointNumber"		"0"
+			"disabled"		"1"
+			"model"		"models/Imperial/Props/imp_cratehealth.mdl"
+		}
+		"1613"
+		{
+			"className"		"emp_resource_point"
+			"position"		"9816.000000 -2776.000000 146.000000"
+			"angles"		"0.000000 180.000000 -180.000000"
+			"coords"		"E2"
+			"name"		"Res_Point_2"
+			"effects"		"80"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+		}
+		"1615"
+		{
+			"className"		"emp_resource_point"
+			"position"		"6224.000000 -8064.000000 546.000000"
+			"angles"		"0.000000 180.000000 -180.000000"
+			"coords"		"D1"
+			"name"		"Res_Point_1"
+			"effects"		"80"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+		}
+		"1618"
+		{
+			"className"		"emp_resource_point"
+			"position"		"-3002.270020 -1589.000000 207.397003"
+			"angles"		"0.000000 180.000000 -180.000000"
+			"coords"		"B3"
+			"name"		"Res_Point_3"
+			"effects"		"80"
+			"enabled"		"0"
+			"resPerSecond"		"1.000000"
+		}
+		"1621"
+		{
+			"className"		"emp_resource_point"
+			"position"		"3909.909912 5748.028809 204.571030"
+			"angles"		"0.000000 180.000000 -180.000000"
+			"coords"		"D4"
+			"name"		"Res_Point_4"
+			"effects"		"80"
+			"enabled"		"0"
+			"resPerSecond"		"1.000000"
+		}
+		"1624"
+		{
+			"className"		"emp_resource_point"
+			"position"		"-3919.929932 11286.200195 389.062012"
+			"angles"		"0.000000 180.000000 -180.000000"
+			"coords"		"B5"
+			"name"		"Res_Point_5"
+			"effects"		"80"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+		}
+		"1627"
+		{
+			"className"		"emp_resource_point"
+			"position"		"-8496.000000 6016.000000 172.313004"
+			"angles"		"0.000000 180.000000 -180.000000"
+			"coords"		"A4"
+			"name"		"Res_Point_6"
+			"effects"		"80"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+		}
+		"1630"
+		{
+			"className"		"emp_resource_point"
+			"position"		"-3914.360107 -8060.869141 492.396942"
+			"angles"		"0.000000 180.000000 -180.000000"
+			"coords"		"B1"
+			"name"		"Res_Point_7"
+			"effects"		"80"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+		}
+		"1633"
+		{
+			"className"		"emp_resource_point"
+			"position"		"5869.000000 11258.000000 141.397003"
+			"angles"		"0.000000 180.000000 -180.000000"
+			"coords"		"D5"
+			"name"		"Res_Point_8"
+			"effects"		"80"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+		}
+		"1685"
+		{
+			"className"		"emp_resource_point"
+			"position"		"-8029.489258 -1468.770020 142.397003"
+			"angles"		"0.000000 180.000000 -180.000000"
+			"coords"		"A3"
+			"name"		"Res_Point_9"
+			"effects"		"80"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+		}
+		"1688"
+		{
+			"className"		"emp_resource_point"
+			"position"		"8992.070313 4310.200195 192.397003"
+			"angles"		"0.000000 180.000000 -180.000000"
+			"coords"		"E4"
+			"name"		"Res_Point_10"
+			"effects"		"80"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+		}
 		"1611"
 		{
 			"className"		"emp_resource_point_prop"
 			"position"		"9816.000000 -2776.000000 146.000000"
 			"angles"		"0.000000 75.000000 -180.000000"
 			"coords"		"E2"
+			"name"		"Res_Model_2"
+			"enabled"		"1"
+			"model"		"models/props_wasteland/rockcliff06d.mdl"
+		}
+		"1614"
+		{
+			"className"		"emp_resource_point_prop"
+			"position"		"6224.000000 -8064.000000 546.000000"
+			"angles"		"0.000000 135.000000 180.000000"
+			"coords"		"D1"
+			"name"		"Res_Model_1"
+			"enabled"		"1"
+			"model"		"models/props_wasteland/rockcliff06d.mdl"
+		}
+		"1617"
+		{
+			"className"		"emp_resource_point_prop"
+			"position"		"-3002.270020 -1589.000000 207.397003"
+			"angles"		"0.000000 135.000000 180.000000"
+			"coords"		"B3"
+			"name"		"Res_Model_3"
+			"effects"		"32"
+			"enabled"		"0"
+			"model"		"models/props_wasteland/rockcliff06d.mdl"
+		}
+		"1620"
+		{
+			"className"		"emp_resource_point_prop"
+			"position"		"3909.909912 5748.028809 204.571030"
+			"angles"		"0.000000 135.000000 180.000000"
+			"coords"		"D4"
+			"name"		"Res_Model_4"
+			"effects"		"32"
+			"enabled"		"0"
+			"model"		"models/props_wasteland/rockcliff06d.mdl"
+		}
+		"1623"
+		{
+			"className"		"emp_resource_point_prop"
+			"position"		"-3919.929932 11286.200195 389.062012"
+			"angles"		"0.000000 135.000000 180.000000"
+			"coords"		"B5"
+			"name"		"Res_Model_5"
+			"enabled"		"1"
+			"model"		"models/props_wasteland/rockcliff06d.mdl"
+		}
+		"1626"
+		{
+			"className"		"emp_resource_point_prop"
+			"position"		"-8496.000000 6016.000000 172.313004"
+			"angles"		"0.000000 135.000000 -180.000000"
+			"coords"		"A4"
+			"name"		"Res_Model_6"
+			"enabled"		"1"
+			"model"		"models/props_wasteland/rockcliff06d.mdl"
+		}
+		"1629"
+		{
+			"className"		"emp_resource_point_prop"
+			"position"		"-3914.360107 -8060.869141 492.396942"
+			"angles"		"0.000000 135.000000 180.000000"
+			"coords"		"B1"
+			"name"		"Res_Model_7"
+			"enabled"		"1"
+			"model"		"models/props_wasteland/rockcliff06d.mdl"
+		}
+		"1632"
+		{
+			"className"		"emp_resource_point_prop"
+			"position"		"5869.000000 11258.000000 141.397003"
+			"angles"		"0.000000 135.000000 -180.000000"
+			"coords"		"D5"
+			"name"		"Res_Model_8"
+			"enabled"		"1"
+			"model"		"models/props_wasteland/rockcliff06d.mdl"
+		}
+		"1684"
+		{
+			"className"		"emp_resource_point_prop"
+			"position"		"-8029.489258 -1468.770020 142.397003"
+			"angles"		"0.000000 135.000000 180.000000"
+			"coords"		"A3"
+			"name"		"Res_Model_9"
+			"enabled"		"1"
+			"model"		"models/props_wasteland/rockcliff06d.mdl"
+		}
+		"1687"
+		{
+			"className"		"emp_resource_point_prop"
+			"position"		"8992.070313 4310.200195 192.397003"
+			"angles"		"0.000000 135.000000 180.000000"
+			"coords"		"E4"
+			"name"		"Res_Model_10"
 			"enabled"		"1"
 			"model"		"models/props_wasteland/rockcliff06d.mdl"
 		}
@@ -146,49 +376,17 @@
 			"position"		"9816.000000 -2776.000000 216.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"E2"
+			"name"		"Res_Smoke_2"
+			"color"		"63 63 63 64"
 			"material"		"particle/SmokeStack.vmt"
 			"startSize"		"32.000000"
 			"endSize"		"90.000000"
 			"emit"		"1"
 			"baseSpread"		"8.000000"
-			"twist"		"0.000000"
-			"roll"		"0.000000"
-			"windAngle"		"0"
-			"windSpeed"		"0"
 			"jetLength"		"512.000000"
 			"spreadSpeed"		"7.000000"
 			"Speed"		"30.000000"
 			"rate"		"6.000000"
-			"color"		"63 63 63 64"
-		}
-		"1613"
-		{
-			"className"		"emp_resource_point"
-			"position"		"9816.000000 -2776.000000 146.000000"
-			"angles"		"0.000000 180.000000 -180.000000"
-			"coords"		"E2"
-			"enabled"		"1"
-			"resPerSecond"		"1.000000"
-			"name"		"Res_Point_2"
-		}
-		"1614"
-		{
-			"className"		"emp_resource_point_prop"
-			"position"		"6224.000000 -8064.000000 546.000000"
-			"angles"		"0.000000 135.000000 180.000000"
-			"coords"		"D1"
-			"enabled"		"1"
-			"model"		"models/props_wasteland/rockcliff06d.mdl"
-		}
-		"1615"
-		{
-			"className"		"emp_resource_point"
-			"position"		"6224.000000 -8064.000000 546.000000"
-			"angles"		"0.000000 180.000000 -180.000000"
-			"coords"		"D1"
-			"enabled"		"1"
-			"resPerSecond"		"1.000000"
-			"name"		"Res_Point_1"
 		}
 		"1616"
 		{
@@ -196,119 +394,53 @@
 			"position"		"6224.000000 -8064.000000 616.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"D1"
+			"name"		"Res_Smoke_1"
+			"color"		"63 63 63 64"
 			"material"		"particle/SmokeStack.vmt"
 			"startSize"		"32.000000"
 			"endSize"		"90.000000"
 			"emit"		"1"
 			"baseSpread"		"8.000000"
-			"twist"		"0.000000"
-			"roll"		"0.000000"
-			"windAngle"		"0"
-			"windSpeed"		"0"
 			"jetLength"		"512.000000"
 			"spreadSpeed"		"7.000000"
 			"Speed"		"30.000000"
 			"rate"		"6.000000"
-			"color"		"63 63 63 64"
-		}
-		"1617"
-		{
-			"className"		"emp_resource_point_prop"
-			"position"		"-3002.270020 -1589.000000 207.397003"
-			"angles"		"0.000000 135.000000 180.000000"
-			"coords"		"B3"
-			"enabled"		"0"
-			"model"		"models/props_wasteland/rockcliff06d.mdl"
-		}
-		"1618"
-		{
-			"className"		"emp_resource_point"
-			"position"		"-3002.270020 -1589.000000 207.397003"
-			"angles"		"0.000000 180.000000 -180.000000"
-			"coords"		"B3"
-			"enabled"		"0"
-			"resPerSecond"		"1.000000"
-			"name"		"Res_Point_3"
 		}
 		"1619"
 		{
 			"className"		"env_smokestack"
-			"position"		"-3002.270020 -1589.000000 277.396973"
+			"position"		"-3002.270020 -1589.000000 277.396942"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"B3"
+			"name"		"Res_Smoke_3"
+			"color"		"63 63 63 64"
 			"material"		"particle/SmokeStack.vmt"
 			"startSize"		"32.000000"
 			"endSize"		"90.000000"
 			"emit"		"0"
 			"baseSpread"		"8.000000"
-			"twist"		"0.000000"
-			"roll"		"0.000000"
-			"windAngle"		"0"
-			"windSpeed"		"0"
 			"jetLength"		"512.000000"
 			"spreadSpeed"		"7.000000"
 			"Speed"		"30.000000"
 			"rate"		"6.000000"
-			"color"		"63 63 63 64"
-		}
-		"1620"
-		{
-			"className"		"emp_resource_point_prop"
-			"position"		"3909.909912 5748.029297 204.571014"
-			"angles"		"0.000000 135.000000 180.000000"
-			"coords"		"D4"
-			"enabled"		"0"
-			"model"		"models/props_wasteland/rockcliff06d.mdl"
-		}
-		"1621"
-		{
-			"className"		"emp_resource_point"
-			"position"		"3909.909912 5748.029297 204.571014"
-			"angles"		"0.000000 180.000000 -180.000000"
-			"coords"		"D4"
-			"enabled"		"0"
-			"resPerSecond"		"1.000000"
-			"name"		"Res_Point_4"
 		}
 		"1622"
 		{
 			"className"		"env_smokestack"
-			"position"		"3909.909912 5748.029297 274.571014"
+			"position"		"3909.909912 5748.028809 274.571014"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"D4"
+			"name"		"Res_Smoke_4"
+			"color"		"63 63 63 64"
 			"material"		"particle/SmokeStack.vmt"
 			"startSize"		"32.000000"
 			"endSize"		"90.000000"
 			"emit"		"0"
 			"baseSpread"		"8.000000"
-			"twist"		"0.000000"
-			"roll"		"0.000000"
-			"windAngle"		"0"
-			"windSpeed"		"0"
 			"jetLength"		"512.000000"
 			"spreadSpeed"		"7.000000"
 			"Speed"		"30.000000"
 			"rate"		"6.000000"
-			"color"		"63 63 63 64"
-		}
-		"1623"
-		{
-			"className"		"emp_resource_point_prop"
-			"position"		"-3919.929932 11286.200195 389.062012"
-			"angles"		"0.000000 135.000000 180.000000"
-			"coords"		"B5"
-			"enabled"		"1"
-			"model"		"models/props_wasteland/rockcliff06d.mdl"
-		}
-		"1624"
-		{
-			"className"		"emp_resource_point"
-			"position"		"-3919.929932 11286.200195 389.062012"
-			"angles"		"0.000000 180.000000 -180.000000"
-			"coords"		"B5"
-			"enabled"		"1"
-			"resPerSecond"		"1.000000"
-			"name"		"Res_Point_5"
 		}
 		"1625"
 		{
@@ -316,39 +448,17 @@
 			"position"		"-3919.929932 11286.200195 459.062012"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"B5"
+			"name"		"Res_Smoke_5"
+			"color"		"63 63 63 64"
 			"material"		"particle/SmokeStack.vmt"
 			"startSize"		"32.000000"
 			"endSize"		"90.000000"
 			"emit"		"1"
 			"baseSpread"		"8.000000"
-			"twist"		"0.000000"
-			"roll"		"0.000000"
-			"windAngle"		"0"
-			"windSpeed"		"0"
 			"jetLength"		"512.000000"
 			"spreadSpeed"		"7.000000"
 			"Speed"		"30.000000"
 			"rate"		"6.000000"
-			"color"		"63 63 63 64"
-		}
-		"1626"
-		{
-			"className"		"emp_resource_point_prop"
-			"position"		"-8496.000000 6016.000000 172.313004"
-			"angles"		"0.000000 135.000000 -180.000000"
-			"coords"		"A4"
-			"enabled"		"1"
-			"model"		"models/props_wasteland/rockcliff06d.mdl"
-		}
-		"1627"
-		{
-			"className"		"emp_resource_point"
-			"position"		"-8496.000000 6016.000000 172.313004"
-			"angles"		"0.000000 180.000000 -180.000000"
-			"coords"		"A4"
-			"enabled"		"1"
-			"resPerSecond"		"1.000000"
-			"name"		"Res_Point_6"
 		}
 		"1628"
 		{
@@ -356,79 +466,35 @@
 			"position"		"-8496.000000 6016.000000 242.313004"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"A4"
+			"name"		"Res_Smoke_6"
+			"color"		"63 63 63 64"
 			"material"		"particle/SmokeStack.vmt"
 			"startSize"		"32.000000"
 			"endSize"		"90.000000"
 			"emit"		"1"
 			"baseSpread"		"8.000000"
-			"twist"		"0.000000"
-			"roll"		"0.000000"
-			"windAngle"		"0"
-			"windSpeed"		"0"
 			"jetLength"		"512.000000"
 			"spreadSpeed"		"7.000000"
 			"Speed"		"30.000000"
 			"rate"		"6.000000"
-			"color"		"63 63 63 64"
-		}
-		"1629"
-		{
-			"className"		"emp_resource_point_prop"
-			"position"		"-3914.360107 -8060.869629 492.396973"
-			"angles"		"0.000000 135.000000 180.000000"
-			"coords"		"B1"
-			"enabled"		"1"
-			"model"		"models/props_wasteland/rockcliff06d.mdl"
-		}
-		"1630"
-		{
-			"className"		"emp_resource_point"
-			"position"		"-3914.360107 -8060.869629 492.396973"
-			"angles"		"0.000000 180.000000 -180.000000"
-			"coords"		"B1"
-			"enabled"		"1"
-			"resPerSecond"		"1.000000"
-			"name"		"Res_Point_7"
 		}
 		"1631"
 		{
 			"className"		"env_smokestack"
-			"position"		"-3914.360107 -8060.869629 562.396973"
+			"position"		"-3914.360107 -8060.869141 562.396973"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"B1"
+			"name"		"Res_Smoke_7"
+			"color"		"63 63 63 64"
 			"material"		"particle/SmokeStack.vmt"
 			"startSize"		"32.000000"
 			"endSize"		"90.000000"
 			"emit"		"1"
 			"baseSpread"		"8.000000"
-			"twist"		"0.000000"
-			"roll"		"0.000000"
-			"windAngle"		"0"
-			"windSpeed"		"0"
 			"jetLength"		"512.000000"
 			"spreadSpeed"		"7.000000"
 			"Speed"		"30.000000"
 			"rate"		"6.000000"
-			"color"		"63 63 63 64"
-		}
-		"1632"
-		{
-			"className"		"emp_resource_point_prop"
-			"position"		"5869.000000 11258.000000 141.397003"
-			"angles"		"0.000000 135.000000 -180.000000"
-			"coords"		"D5"
-			"enabled"		"1"
-			"model"		"models/props_wasteland/rockcliff06d.mdl"
-		}
-		"1633"
-		{
-			"className"		"emp_resource_point"
-			"position"		"5869.000000 11258.000000 141.397003"
-			"angles"		"0.000000 180.000000 -180.000000"
-			"coords"		"D5"
-			"enabled"		"1"
-			"resPerSecond"		"1.000000"
-			"name"		"Res_Point_8"
 		}
 		"1634"
 		{
@@ -436,32 +502,103 @@
 			"position"		"5869.000000 11258.000000 211.397003"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"D5"
+			"name"		"Res_Smoke_8"
+			"color"		"63 63 63 64"
 			"material"		"particle/SmokeStack.vmt"
 			"startSize"		"32.000000"
 			"endSize"		"90.000000"
 			"emit"		"1"
 			"baseSpread"		"8.000000"
-			"twist"		"0.000000"
-			"roll"		"0.000000"
-			"windAngle"		"0"
-			"windSpeed"		"0"
 			"jetLength"		"512.000000"
 			"spreadSpeed"		"7.000000"
 			"Speed"		"30.000000"
 			"rate"		"6.000000"
+		}
+		"1686"
+		{
+			"className"		"env_smokestack"
+			"position"		"-8029.489258 -1468.770020 212.397003"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"A3"
+			"name"		"Res_Smoke_9"
 			"color"		"63 63 63 64"
+			"material"		"particle/SmokeStack.vmt"
+			"startSize"		"32.000000"
+			"endSize"		"90.000000"
+			"emit"		"1"
+			"baseSpread"		"8.000000"
+			"jetLength"		"512.000000"
+			"spreadSpeed"		"7.000000"
+			"Speed"		"30.000000"
+			"rate"		"6.000000"
+		}
+		"1689"
+		{
+			"className"		"env_smokestack"
+			"position"		"8992.070313 4310.200195 262.396942"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"E4"
+			"name"		"Res_Smoke_10"
+			"color"		"63 63 63 64"
+			"material"		"particle/SmokeStack.vmt"
+			"startSize"		"32.000000"
+			"endSize"		"90.000000"
+			"emit"		"1"
+			"baseSpread"		"8.000000"
+			"jetLength"		"512.000000"
+			"spreadSpeed"		"7.000000"
+			"Speed"		"30.000000"
+			"rate"		"6.000000"
+		}
+		"1699"
+		{
+			"className"		"env_smokestack"
+			"position"		"-2022.000000 -3210.000000 -1160.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"C2"
+			"name"		"The_Wicker_Man_1973_Smoke"
+			"color"		"62 62 62 8"
+			"material"		"particle/SmokeStack.vmt"
+			"startSize"		"32.000000"
+			"endSize"		"200.000000"
+			"emit"		"0"
+			"baseSpread"		"2.000000"
+			"windAngle"		"32"
+			"windSpeed"		"6"
+			"jetLength"		"666.000000"
+			"spreadSpeed"		"20.000000"
+			"Speed"		"30.000000"
+			"rate"		"9.000000"
+		}
+		"1700"
+		{
+			"className"		"env_smokestack"
+			"position"		"-2024.000000 -3210.000000 -1226.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"C2"
+			"name"		"The_Wicker_Man_1973_Smoke"
+			"color"		"62 62 62 16"
+			"material"		"particle/SmokeStack.vmt"
+			"startSize"		"32.000000"
+			"endSize"		"96.000000"
+			"emit"		"0"
+			"baseSpread"		"2.000000"
+			"windAngle"		"32"
+			"windSpeed"		"4"
+			"jetLength"		"300.000000"
+			"spreadSpeed"		"16.000000"
+			"Speed"		"40.000000"
+			"rate"		"4.000000"
 		}
 		"1635"
 		{
 			"className"		"prop_dynamic"
-			"position"		"-7534.389648 -9291.000000 501.000000"
+			"position"		"-7534.389160 -9291.000000 501.000000"
 			"angles"		"0.000000 119.500000 0.000000"
 			"coords"		"B1"
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1636"
 		{
@@ -470,10 +607,8 @@
 			"angles"		"0.000000 119.500000 0.000000"
 			"coords"		"A2"
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1637"
 		{
@@ -482,10 +617,8 @@
 			"angles"		"0.000000 119.500000 0.000000"
 			"coords"		"B2"
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1638"
 		{
@@ -494,10 +627,8 @@
 			"angles"		"0.000000 74.500000 0.000000"
 			"coords"		"B2"
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1639"
 		{
@@ -506,22 +637,18 @@
 			"angles"		"0.000000 119.500000 0.000000"
 			"coords"		"B2"
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1640"
 		{
 			"className"		"prop_dynamic"
-			"position"		"814.000000 -4144.509277 346.000000"
+			"position"		"814.000000 -4144.508789 346.000000"
 			"angles"		"0.000000 119.500000 0.000000"
 			"coords"		"C2"
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1641"
 		{
@@ -530,10 +657,8 @@
 			"angles"		"0.000000 119.500000 0.000000"
 			"coords"		"C1"
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1642"
 		{
@@ -542,10 +667,8 @@
 			"angles"		"0.000000 209.500000 0.000000"
 			"coords"		"E1"
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1643"
 		{
@@ -554,10 +677,8 @@
 			"angles"		"0.000000 119.500000 0.000000"
 			"coords"		"D1"
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1644"
 		{
@@ -566,22 +687,18 @@
 			"angles"		"0.000000 119.500000 0.000000"
 			"coords"		"E3"
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1645"
 		{
 			"className"		"prop_dynamic"
-			"position"		"11834.000000 1962.679932 991.000000"
-			"angles"		"2.459750 119.405998 -4.354461"
+			"position"		"11834.000000 1962.679810 991.000000"
+			"angles"		"2.459750 119.405998 -4.354462"
 			"coords"		"E3"
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1646"
 		{
@@ -590,22 +707,18 @@
 			"angles"		"0.000000 119.500000 0.000000"
 			"coords"		"D4"
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1647"
 		{
 			"className"		"prop_dynamic"
 			"position"		"-6041.089844 8783.000000 1018.000000"
-			"angles"		"1.476760 74.466293 -2.611650"
+			"angles"		"1.476760 74.466286 -2.611650"
 			"coords"		"B5"
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1648"
 		{
@@ -614,10 +727,8 @@
 			"angles"		"-3.915620 161.576004 -2.219360"
 			"coords"		"C4"
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1649"
 		{
@@ -626,10 +737,8 @@
 			"angles"		"0.000000 119.500000 0.000000"
 			"coords"		"C3"
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1650"
 		{
@@ -638,10 +747,8 @@
 			"angles"		"0.000000 74.500000 0.000000"
 			"coords"		"D5"
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1651"
 		{
@@ -650,10 +757,8 @@
 			"angles"		"0.000000 44.500000 0.000000"
 			"coords"		"C4"
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1652"
 		{
@@ -662,22 +767,18 @@
 			"angles"		"0.000000 209.500000 0.000000"
 			"coords"		"C4"
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1653"
 		{
 			"className"		"prop_dynamic"
-			"position"		"-1533.860107 12484.000000 369.000000"
+			"position"		"-1533.860229 12484.000000 369.000000"
 			"angles"		"0.000000 119.500000 0.000000"
 			"coords"		"C5"
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1654"
 		{
@@ -686,10 +787,8 @@
 			"angles"		"0.000000 164.500000 0.000000"
 			"coords"		"C3"
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1655"
 		{
@@ -698,10 +797,8 @@
 			"angles"		"0.000000 119.500000 0.000000"
 			"coords"		"D2"
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1656"
 		{
@@ -710,10 +807,8 @@
 			"angles"		"1.230760 153.477005 -2.176220"
 			"coords"		"E5"
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1657"
 		{
@@ -722,10 +817,8 @@
 			"angles"		"0.000000 149.500000 0.000000"
 			"coords"		"A3"
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1658"
 		{
@@ -734,10 +827,8 @@
 			"angles"		"0.000000 119.500000 0.000000"
 			"coords"		"A3"
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1659"
 		{
@@ -746,10 +837,8 @@
 			"angles"		"0.000000 344.500000 0.000000"
 			"coords"		"A3"
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1660"
 		{
@@ -758,10 +847,8 @@
 			"angles"		"0.000000 119.500000 0.000000"
 			"coords"		"D2"
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1661"
 		{
@@ -770,10 +857,8 @@
 			"angles"		"0.000000 44.500000 0.000000"
 			"coords"		"D4"
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1662"
 		{
@@ -782,10 +867,8 @@
 			"angles"		"0.000000 44.500000 0.000000"
 			"coords"		"A3"
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1663"
 		{
@@ -794,10 +877,8 @@
 			"angles"		"0.000000 81.000000 0.000000"
 			"coords"		"C5"
 			"model"		"models/common/props_foliage/trees/orexcluster2c.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1664"
 		{
@@ -806,10 +887,8 @@
 			"angles"		"0.000000 118.500000 0.000000"
 			"coords"		"D2"
 			"model"		"models/common/props_foliage/trees/orexcluster2b.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1665"
 		{
@@ -818,10 +897,8 @@
 			"angles"		"0.000000 118.500000 0.000000"
 			"coords"		"C5"
 			"model"		"models/common/props_foliage/trees/orexcluster2b.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1666"
 		{
@@ -830,10 +907,8 @@
 			"angles"		"0.000000 119.500000 0.000000"
 			"coords"		"C3"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1667"
 		{
@@ -842,10 +917,8 @@
 			"angles"		"0.000000 81.000000 0.000000"
 			"coords"		"C2"
 			"model"		"models/common/props_foliage/trees/orexcluster2b.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1668"
 		{
@@ -854,90 +927,8 @@
 			"angles"		"0.000000 119.500000 0.000000"
 			"coords"		"C4"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
-		}
-		"1684"
-		{
-			"className"		"emp_resource_point_prop"
-			"position"		"-8029.489746 -1468.769897 142.397003"
-			"angles"		"0.000000 135.000000 180.000000"
-			"coords"		"A3"
-			"enabled"		"1"
-			"model"		"models/props_wasteland/rockcliff06d.mdl"
-		}
-		"1685"
-		{
-			"className"		"emp_resource_point"
-			"position"		"-8029.489746 -1468.769897 142.397003"
-			"angles"		"0.000000 180.000000 -180.000000"
-			"coords"		"A3"
-			"enabled"		"1"
-			"resPerSecond"		"1.000000"
-			"name"		"Res_Point_9"
-		}
-		"1686"
-		{
-			"className"		"env_smokestack"
-			"position"		"-8029.489746 -1468.769897 212.397003"
-			"angles"		"0.000000 0.000000 0.000000"
-			"coords"		"A3"
-			"material"		"particle/SmokeStack.vmt"
-			"startSize"		"32.000000"
-			"endSize"		"90.000000"
-			"emit"		"1"
-			"baseSpread"		"8.000000"
-			"twist"		"0.000000"
-			"roll"		"0.000000"
-			"windAngle"		"0"
-			"windSpeed"		"0"
-			"jetLength"		"512.000000"
-			"spreadSpeed"		"7.000000"
-			"Speed"		"30.000000"
-			"rate"		"6.000000"
-			"color"		"63 63 63 64"
-		}
-		"1687"
-		{
-			"className"		"emp_resource_point_prop"
-			"position"		"8992.070313 4310.200195 192.397003"
-			"angles"		"0.000000 135.000000 180.000000"
-			"coords"		"E4"
-			"enabled"		"1"
-			"model"		"models/props_wasteland/rockcliff06d.mdl"
-		}
-		"1688"
-		{
-			"className"		"emp_resource_point"
-			"position"		"8992.070313 4310.200195 192.397003"
-			"angles"		"0.000000 180.000000 -180.000000"
-			"coords"		"E4"
-			"enabled"		"1"
-			"resPerSecond"		"1.000000"
-			"name"		"Res_Point_10"
-		}
-		"1689"
-		{
-			"className"		"env_smokestack"
-			"position"		"8992.070313 4310.200195 262.396973"
-			"angles"		"0.000000 0.000000 0.000000"
-			"coords"		"E4"
-			"material"		"particle/SmokeStack.vmt"
-			"startSize"		"32.000000"
-			"endSize"		"90.000000"
-			"emit"		"1"
-			"baseSpread"		"8.000000"
-			"twist"		"0.000000"
-			"roll"		"0.000000"
-			"windAngle"		"0"
-			"windSpeed"		"0"
-			"jetLength"		"512.000000"
-			"spreadSpeed"		"7.000000"
-			"Speed"		"30.000000"
-			"rate"		"6.000000"
-			"color"		"63 63 63 64"
 		}
 		"1691"
 		{
@@ -945,53 +936,10 @@
 			"position"		"-10784.000000 -2244.000000 448.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"A2"
+			"effects"		"16"
 			"model"		"models/props_wasteland/plasterwall029c_window01a_bars.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"0"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
-		}
-		"1699"
-		{
-			"className"		"env_smokestack"
-			"position"		"-2022.000000 -3210.000000 -1160.000000"
-			"angles"		"0.000000 0.000000 0.000000"
-			"coords"		"C2"
-			"material"		"particle/SmokeStack.vmt"
-			"startSize"		"32.000000"
-			"endSize"		"200.000000"
-			"emit"		"0"
-			"baseSpread"		"2.000000"
-			"twist"		"0.000000"
-			"roll"		"0.000000"
-			"windAngle"		"32"
-			"windSpeed"		"6"
-			"jetLength"		"666.000000"
-			"spreadSpeed"		"20.000000"
-			"Speed"		"30.000000"
-			"rate"		"9.000000"
-			"color"		"62 62 62 8"
-		}
-		"1700"
-		{
-			"className"		"env_smokestack"
-			"position"		"-2024.000000 -3210.000000 -1226.000000"
-			"angles"		"0.000000 0.000000 0.000000"
-			"coords"		"C2"
-			"material"		"particle/SmokeStack.vmt"
-			"startSize"		"32.000000"
-			"endSize"		"96.000000"
-			"emit"		"0"
-			"baseSpread"		"2.000000"
-			"twist"		"0.000000"
-			"roll"		"0.000000"
-			"windAngle"		"32"
-			"windSpeed"		"4"
-			"jetLength"		"300.000000"
-			"spreadSpeed"		"16.000000"
-			"Speed"		"40.000000"
-			"rate"		"4.000000"
-			"color"		"62 62 62 16"
 		}
 		"1701"
 		{
@@ -999,11 +947,10 @@
 			"position"		"-636.000000 -7964.000000 608.197021"
 			"angles"		"0.000000 90.000000 0.000000"
 			"coords"		"C1"
+			"effects"		"16"
 			"model"		"models/props_wasteland/plasterwall029c_window01a_bars.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"0"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1702"
 		{
@@ -1011,11 +958,10 @@
 			"position"		"-636.000000 -7780.000000 608.197021"
 			"angles"		"0.000000 90.000000 0.000000"
 			"coords"		"C1"
+			"effects"		"16"
 			"model"		"models/props_wasteland/plasterwall029c_window01a_bars.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"0"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1703"
 		{
@@ -1023,11 +969,10 @@
 			"position"		"-132.000000 -7780.000000 608.197021"
 			"angles"		"0.000000 270.000000 0.000000"
 			"coords"		"C1"
+			"effects"		"16"
 			"model"		"models/props_wasteland/plasterwall029c_window01a_bars.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"0"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1704"
 		{
@@ -1035,11 +980,10 @@
 			"position"		"-132.000000 -7964.000000 608.197021"
 			"angles"		"0.000000 270.000000 0.000000"
 			"coords"		"C1"
+			"effects"		"16"
 			"model"		"models/props_wasteland/plasterwall029c_window01a_bars.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"0"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1705"
 		{
@@ -1047,11 +991,10 @@
 			"position"		"-246.000000 -8060.000000 608.197021"
 			"angles"		"0.000000 180.000000 0.000000"
 			"coords"		"C1"
+			"effects"		"16"
 			"model"		"models/props_wasteland/plasterwall029c_window01a_bars.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"0"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1706"
 		{
@@ -1059,25 +1002,10 @@
 			"position"		"-522.000000 -8060.000000 608.197021"
 			"angles"		"0.000000 180.000000 0.000000"
 			"coords"		"C1"
+			"effects"		"16"
 			"model"		"models/props_wasteland/plasterwall029c_window01a_bars.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"0"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
-		}
-		"1714"
-		{
-			"className"		"emp_nf_commander"
-			"position"		"3029.059082 4793.326660 261.326324"
-			"angles"		"0.000004 179.999985 -0.586761"
-			"coords"		"C4"
-		}
-		"1722"
-		{
-			"className"		"emp_imp_commander"
-			"position"		"-2432.281494 -1054.439941 197.700760"
-			"angles"		"-0.000011 -0.000010 1.260335"
-			"coords"		"B3"
 		}
 		"1732"
 		{
@@ -1086,10 +1014,8 @@
 			"angles"		"0.000000 119.500000 0.000000"
 			"coords"		"C1"
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1733"
 		{
@@ -1098,22 +1024,18 @@
 			"angles"		"0.000000 119.500000 0.000000"
 			"coords"		"C1"
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1747"
 		{
 			"className"		"prop_dynamic"
-			"position"		"8688.619141 2264.000000 464.000000"
+			"position"		"8688.618164 2264.000000 464.000000"
 			"angles"		"0.000000 194.500000 0.000000"
 			"coords"		"E3"
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1748"
 		{
@@ -1122,10 +1044,8 @@
 			"angles"		"0.000000 119.500000 0.000000"
 			"coords"		"A1"
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1749"
 		{
@@ -1134,10 +1054,8 @@
 			"angles"		"0.000000 164.500000 0.000000"
 			"coords"		"A1"
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1750"
 		{
@@ -1146,10 +1064,8 @@
 			"angles"		"0.000000 164.500000 0.000000"
 			"coords"		"A1"
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1751"
 		{
@@ -1158,10 +1074,8 @@
 			"angles"		"0.000000 254.500000 0.000000"
 			"coords"		"E5"
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1752"
 		{
@@ -1170,10 +1084,8 @@
 			"angles"		"0.000000 299.500000 0.000000"
 			"coords"		"E5"
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1753"
 		{
@@ -1182,10 +1094,8 @@
 			"angles"		"0.000000 299.500000 0.000000"
 			"coords"		"E5"
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1763"
 		{
@@ -1193,11 +1103,10 @@
 			"position"		"-10784.000000 -2556.000000 448.000000"
 			"angles"		"0.000000 180.000000 0.000000"
 			"coords"		"A2"
+			"effects"		"16"
 			"model"		"models/props_wasteland/plasterwall029c_window01a_bars.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"0"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1764"
 		{
@@ -1205,11 +1114,10 @@
 			"position"		"-10692.000000 -2324.000000 448.000000"
 			"angles"		"0.000000 270.000000 0.000000"
 			"coords"		"A2"
+			"effects"		"16"
 			"model"		"models/props_wasteland/plasterwall029c_window01a_bars.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"0"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1765"
 		{
@@ -1217,11 +1125,10 @@
 			"position"		"-10692.000000 -2476.000000 448.000000"
 			"angles"		"0.000000 270.000000 0.000000"
 			"coords"		"A2"
+			"effects"		"16"
 			"model"		"models/props_wasteland/plasterwall029c_window01a_bars.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"0"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1766"
 		{
@@ -1229,11 +1136,10 @@
 			"position"		"-10884.000000 -2140.000000 447.000000"
 			"angles"		"0.000000 270.000000 0.000000"
 			"coords"		"A3"
+			"effects"		"16"
 			"model"		"models/props_wasteland/woodwall030b_window03a_bars.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"0"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1767"
 		{
@@ -1241,11 +1147,10 @@
 			"position"		"-10976.000000 -1916.000000 448.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"A3"
+			"effects"		"16"
 			"model"		"models/props_wasteland/plasterwall029c_window01a_bars.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"0"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1768"
 		{
@@ -1253,11 +1158,10 @@
 			"position"		"-11168.000000 -1916.000000 448.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"A3"
+			"effects"		"16"
 			"model"		"models/props_wasteland/plasterwall029c_window01a_bars.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"0"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1769"
 		{
@@ -1265,11 +1169,10 @@
 			"position"		"-11168.000000 -2556.000000 448.000000"
 			"angles"		"0.000000 180.000000 0.000000"
 			"coords"		"A2"
+			"effects"		"16"
 			"model"		"models/props_wasteland/plasterwall029c_window01a_bars.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"0"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1770"
 		{
@@ -1277,11 +1180,10 @@
 			"position"		"-10976.000000 -2556.000000 448.000000"
 			"angles"		"0.000000 180.000000 0.000000"
 			"coords"		"A2"
+			"effects"		"16"
 			"model"		"models/props_wasteland/plasterwall029c_window01a_bars.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"0"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1771"
 		{
@@ -1290,10 +1192,8 @@
 			"angles"		"0.000000 178.500000 0.000000"
 			"coords"		"A2"
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1772"
 		{
@@ -1302,10 +1202,8 @@
 			"angles"		"0.000000 179.500000 0.000000"
 			"coords"		"A3"
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1773"
 		{
@@ -1314,10 +1212,8 @@
 			"angles"		"0.000000 119.500000 0.000000"
 			"coords"		"A2"
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1774"
 		{
@@ -1326,42 +1222,8 @@
 			"angles"		"0.000000 179.500000 0.000000"
 			"coords"		"A3"
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
-		}
-		"5000001"
-		{
-			"className"		"emp_building_imp_refinery"
-			"position"		"-3002.270020 -1589.000000 207.397003"
-			"angles"		"0.000000 -5.202026 0.000000"
-			"coords"		"B3"
-			"built"		"1"
-			"health"		"150"
-			"team"		"3"
-			"target"		"Res_Point_3"
-		}
-		"5000002"
-		{
-			"className"		"emp_building_imp_barracks"
-			"position"		"-2002.097046 -1947.191162 192.000000"
-			"angles"		"0.000000 -43.615723 0.000000"
-			"coords"		"C3"
-			"built"		"1"
-			"health"		"250"
-			"team"		"3"
-		}
-		"5000003"
-		{
-			"className"		"emp_building_nf_refinery"
-			"position"		"3909.909912 5748.029297 204.571014"
-			"angles"		"0.000000 152.473755 0.000000"
-			"coords"		"D4"
-			"built"		"1"
-			"health"		"150"
-			"team"		"2"
-			"target"		"Res_Point_4"
 		}
 		"1787"
 		{
@@ -1370,10 +1232,8 @@
 			"angles"		"0.000000 269.500000 0.000000"
 			"coords"		"E4"
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1788"
 		{
@@ -1382,10 +1242,8 @@
 			"angles"		"0.000000 194.500000 0.000000"
 			"coords"		"E4"
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1789"
 		{
@@ -1394,10 +1252,8 @@
 			"angles"		"0.000000 149.500000 0.000000"
 			"coords"		"E4"
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1790"
 		{
@@ -1406,10 +1262,8 @@
 			"angles"		"0.000000 194.500000 0.000000"
 			"coords"		"E4"
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1791"
 		{
@@ -1418,10 +1272,8 @@
 			"angles"		"0.000000 239.500000 0.000000"
 			"coords"		"E4"
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1792"
 		{
@@ -1430,10 +1282,8 @@
 			"angles"		"0.000000 209.500000 0.000000"
 			"coords"		"E4"
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1793"
 		{
@@ -1442,10 +1292,8 @@
 			"angles"		"0.000000 149.500000 0.000000"
 			"coords"		"E3"
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1794"
 		{
@@ -1454,10 +1302,8 @@
 			"angles"		"0.000000 314.500000 0.000000"
 			"coords"		"E4"
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1795"
 		{
@@ -1466,10 +1312,8 @@
 			"angles"		"0.000000 254.500000 0.000000"
 			"coords"		"E3"
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1796"
 		{
@@ -1478,10 +1322,8 @@
 			"angles"		"0.000000 74.500000 0.000000"
 			"coords"		"C5"
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1797"
 		{
@@ -1490,10 +1332,8 @@
 			"angles"		"0.000000 344.500000 0.000000"
 			"coords"		"C5"
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1798"
 		{
@@ -1501,11 +1341,10 @@
 			"position"		"-11244.000000 -2232.000000 384.000000"
 			"angles"		"0.000000 270.000000 0.000000"
 			"coords"		"A2"
+			"effects"		"16"
 			"model"		"models/props_c17/shelfunit01a.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1799"
 		{
@@ -1513,21 +1352,10 @@
 			"position"		"-11244.000000 -2348.000000 384.000000"
 			"angles"		"0.000000 270.000000 0.000000"
 			"coords"		"A2"
+			"effects"		"16"
 			"model"		"models/props_c17/shelfunit01a.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
-		}
-		"5000004"
-		{
-			"className"		"emp_building_nf_barracks"
-			"position"		"2921.287354 6156.134277 183.000000"
-			"angles"		"0.000000 158.928223 0.000000"
-			"coords"		"C4"
-			"built"		"1"
-			"health"		"250"
-			"team"		"2"
 		}
 		"1801"
 		{
@@ -1536,10 +1364,8 @@
 			"angles"		"-1.931830 74.991295 0.517834"
 			"coords"		"B1"
 			"model"		"models/lostcoast/props_wasteland/boat_wooden03a.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1802"
 		{
@@ -1548,10 +1374,8 @@
 			"angles"		"-4.500000 71.500000 0.000000"
 			"coords"		"B1"
 			"model"		"models/nf/props/nf_crate04.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1803"
 		{
@@ -1560,10 +1384,8 @@
 			"angles"		"0.301893 19.517599 -87.468399"
 			"coords"		"B1"
 			"model"		"models/props_lab/cleaver.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"0"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1805"
 		{
@@ -1572,10 +1394,8 @@
 			"angles"		"-86.000000 235.000000 0.000000"
 			"coords"		"B1"
 			"model"		"models/props_junk/garbage_glassbottle001a.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"0"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1806"
 		{
@@ -1584,10 +1404,8 @@
 			"angles"		"-86.000000 235.000000 0.000000"
 			"coords"		"B1"
 			"model"		"models/props_junk/garbage_metalcan001a.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"0"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1807"
 		{
@@ -1596,10 +1414,8 @@
 			"angles"		"-86.000000 174.500000 0.000000"
 			"coords"		"B1"
 			"model"		"models/props_junk/garbage_metalcan002a.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"0"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1808"
 		{
@@ -1607,11 +1423,10 @@
 			"position"		"-6151.000000 -11188.000000 128.000000"
 			"angles"		"-84.967102 263.371002 170.158997"
 			"coords"		"B1"
+			"effects"		"16"
 			"model"		"models/props_junk/shovel01a.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"0"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1809"
 		{
@@ -1620,10 +1435,8 @@
 			"angles"		"0.000000 75.000000 0.000000"
 			"coords"		"B1"
 			"model"		"models/props_c17/suitcase001a.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"0"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1810"
 		{
@@ -1632,10 +1445,8 @@
 			"angles"		"0.000000 143.000000 0.000000"
 			"coords"		"B1"
 			"model"		"models/gibs/agibs.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"0"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1811"
 		{
@@ -1644,10 +1455,8 @@
 			"angles"		"0.000000 110.500000 0.000000"
 			"coords"		"E5"
 			"model"		"models/gibs/agibs.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"0"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1812"
 		{
@@ -1656,34 +1465,28 @@
 			"angles"		"0.000000 232.000000 0.000000"
 			"coords"		"C1"
 			"model"		"models/gibs/agibs.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"0"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1821"
 		{
 			"className"		"prop_dynamic"
-			"position"		"896.000000 -7040.979492 492.000000"
+			"position"		"896.000000 -7040.979004 492.000000"
 			"angles"		"0.000000 119.500000 0.000000"
 			"coords"		"C2"
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1822"
 		{
 			"className"		"prop_dynamic"
-			"position"		"246.000000 -7243.369629 522.000000"
+			"position"		"246.000000 -7243.369141 522.000000"
 			"angles"		"0.000000 194.500000 0.000000"
 			"coords"		"C2"
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1823"
 		{
@@ -1692,10 +1495,8 @@
 			"angles"		"0.000000 44.500000 0.000000"
 			"coords"		"C3"
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1824"
 		{
@@ -1704,10 +1505,8 @@
 			"angles"		"0.000000 100.000000 0.000000"
 			"coords"		"C3"
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1825"
 		{
@@ -1716,10 +1515,8 @@
 			"angles"		"0.000000 44.500000 0.000000"
 			"coords"		"C4"
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1826"
 		{
@@ -1728,10 +1525,8 @@
 			"angles"		"1.751990 44.472698 -1.783680"
 			"coords"		"C4"
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1827"
 		{
@@ -1740,10 +1535,8 @@
 			"angles"		"0.000000 209.500000 0.000000"
 			"coords"		"C4"
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1829"
 		{
@@ -1752,10 +1545,8 @@
 			"angles"		"0.000000 270.000000 0.000000"
 			"coords"		"C1"
 			"model"		"models/props_wasteland/prison_bedframe001b.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1830"
 		{
@@ -1764,22 +1555,19 @@
 			"angles"		"0.000000 270.000000 0.000000"
 			"coords"		"C1"
 			"model"		"models/props_c17/furnituremattress001a.mdl"
-			"StartDisabled"		"0"
+			"Skin"		"1"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"7"
 		}
 		"1831"
 		{
 			"className"		"prop_dynamic"
-			"position"		"-585.906006 -8019.339355 561.000000"
+			"position"		"-585.906006 -8019.338867 561.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"C1"
 			"model"		"models/props_c17/furnituremattress001a.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"7"
 		}
 		"1832"
 		{
@@ -1788,22 +1576,19 @@
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"C1"
 			"model"		"models/props_wasteland/prison_bedframe001b.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1833"
 		{
 			"className"		"prop_dynamic"
-			"position"		"-585.906006 -7872.339355 561.000000"
+			"position"		"-585.906006 -7872.338867 561.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"C1"
 			"model"		"models/props_c17/furnituremattress001a.mdl"
-			"StartDisabled"		"0"
+			"Skin"		"1"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"7"
 		}
 		"1834"
 		{
@@ -1812,22 +1597,18 @@
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"C1"
 			"model"		"models/props_wasteland/prison_bedframe001b.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1835"
 		{
 			"className"		"prop_dynamic"
-			"position"		"-585.906006 -7723.339355 561.000000"
+			"position"		"-585.906006 -7723.338867 561.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"C1"
 			"model"		"models/props_c17/furnituremattress001a.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"7"
 		}
 		"1836"
 		{
@@ -1836,10 +1617,8 @@
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"C1"
 			"model"		"models/props_wasteland/prison_bedframe001b.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1837"
 		{
@@ -1847,11 +1626,10 @@
 			"position"		"-414.000000 -7699.000000 544.000000"
 			"angles"		"0.000000 180.000000 0.000000"
 			"coords"		"C1"
+			"effects"		"16"
 			"model"		"models/props_c17/shelfunit01a.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1850"
 		{
@@ -1860,10 +1638,8 @@
 			"angles"		"0.000000 270.000000 0.000000"
 			"coords"		"C1"
 			"model"		"models/props_c17/furnituretable001a.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1851"
 		{
@@ -1872,10 +1648,8 @@
 			"angles"		"0.000000 243.000000 0.000000"
 			"coords"		"C1"
 			"model"		"models/props_c17/furniturechair001a.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1852"
 		{
@@ -1884,10 +1658,8 @@
 			"angles"		"0.000000 181.000000 0.000000"
 			"coords"		"C1"
 			"model"		"models/props_c17/furniturechair001a.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1853"
 		{
@@ -1896,10 +1668,8 @@
 			"angles"		"0.000000 90.000000 0.000000"
 			"coords"		"C1"
 			"model"		"models/props_c17/furniturechair001a.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1854"
 		{
@@ -1908,10 +1678,8 @@
 			"angles"		"0.000000 45.000000 0.000000"
 			"coords"		"C1"
 			"model"		"models/props_c17/furniturechair001a.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1855"
 		{
@@ -1920,22 +1688,18 @@
 			"angles"		"0.000000 180.000000 0.000000"
 			"coords"		"C1"
 			"model"		"models/props_c17/furniturefridge001a.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1856"
 		{
 			"className"		"prop_dynamic"
-			"position"		"-155.000000 -7988.000000 553.849915"
+			"position"		"-155.000000 -7988.000000 553.849854"
 			"angles"		"0.000000 180.000000 0.000000"
 			"coords"		"C1"
 			"model"		"models/props_junk/trashcluster01a.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1860"
 		{
@@ -1944,10 +1708,8 @@
 			"angles"		"0.000000 243.000000 0.000000"
 			"coords"		"C1"
 			"model"		"models/props_junk/garbage_glassbottle003a.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1861"
 		{
@@ -1956,22 +1718,18 @@
 			"angles"		"0.000000 164.500000 0.000000"
 			"coords"		"C1"
 			"model"		"models/props_junk/garbage_glassbottle003a.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1862"
 		{
 			"className"		"prop_dynamic"
-			"position"		"-243.127014 -7971.000000 584.000000"
+			"position"		"-243.127029 -7971.000000 584.000000"
 			"angles"		"0.000000 164.500000 0.000000"
 			"coords"		"C1"
 			"model"		"models/props_junk/garbage_metalcan001a.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1863"
 		{
@@ -1980,10 +1738,8 @@
 			"angles"		"0.000000 243.000000 0.000000"
 			"coords"		"C1"
 			"model"		"models/props_junk/garbage_glassbottle003a.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1864"
 		{
@@ -1992,10 +1748,8 @@
 			"angles"		"0.000000 190.000000 0.000000"
 			"coords"		"C1"
 			"model"		"models/props_junk/garbage_glassbottle003a.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1865"
 		{
@@ -2004,10 +1758,8 @@
 			"angles"		"0.000000 123.000000 0.000000"
 			"coords"		"C1"
 			"model"		"models/props_junk/garbage_takeoutcarton001a.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1866"
 		{
@@ -2016,10 +1768,8 @@
 			"angles"		"0.000000 243.000000 0.000000"
 			"coords"		"C1"
 			"model"		"models/props_interiors/pot02a.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1867"
 		{
@@ -2028,10 +1778,8 @@
 			"angles"		"0.000000 256.500000 0.000000"
 			"coords"		"C1"
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1868"
 		{
@@ -2040,22 +1788,18 @@
 			"angles"		"0.000000 200.000000 0.000000"
 			"coords"		"C1"
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1869"
 		{
 			"className"		"prop_dynamic"
-			"position"		"-874.000000 -7986.379395 526.000000"
+			"position"		"-874.000000 -7986.378906 526.000000"
 			"angles"		"0.000000 290.000000 0.000000"
 			"coords"		"C1"
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1870"
 		{
@@ -2064,10 +1808,8 @@
 			"angles"		"0.000000 194.500000 0.000000"
 			"coords"		"C2"
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1893"
 		{
@@ -2076,25 +1818,91 @@
 			"angles"		"0.000000 59.500000 0.000000"
 			"coords"		"E3"
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
 		}
 		"1903"
 		{
 			"className"		"prop_dynamic"
-			"position"		"1152.000000 9841.819336 210.000000"
+			"position"		"1152.000000 9841.818359 210.000000"
 			"angles"		"0.000000 44.500000 0.000000"
 			"coords"		"C5"
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
-			"StartDisabled"		"0"
+			"MoveType"		"7"
 			"SolidType"		"6"
-			"CollisionGroup"		"0"
-			"SolidFlags"		"0"
+		}
+		"1698"
+		{
+			"className"		"env_fire"
+			"position"		"-2024.000000 -3210.000000 -1248.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"C2"
+			"name"		"The_Wicker_Man_1973_Fire"
+			"effects"		"32"
+			"spawnflags"		"51"
+			"fireType"		"0"
+			"fireSize"		"90.000000"
+			"damageScale"		"1.000000"
+			"duration"		"30"
+		}
+		"1715"
+		{
+			"className"		"emp_info_params"
+			"position"		"10067.700195 -3799.229980 385.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"E2"
+			"Skin"		"1"
+			"autoResearch"		"0"
+			"eng_restrict_NF"		"0"
+			"eng_restrict_Imp"		"0"
+			"turretRestrict"		"0"
+		}
+		"5000004"
+		{
+			"className"		"emp_building_nf_barracks"
+			"position"		"2921.287354 6156.133789 183.000000"
+			"angles"		"0.000000 158.928207 0.000000"
+			"coords"		"C4"
+			"built"		"1"
+			"maxHealth"		"250"
+			"health"		"250"
+			"team"		"2"
+		}
+		"5000002"
+		{
+			"className"		"emp_building_imp_barracks"
+			"position"		"-2002.096924 -1947.191040 192.000000"
+			"angles"		"0.000000 -43.615723 0.000000"
+			"coords"		"C3"
+			"built"		"1"
+			"maxHealth"		"250"
+			"health"		"250"
+			"team"		"3"
+		}
+		"5000003"
+		{
+			"className"		"emp_building_nf_refinery"
+			"position"		"3909.909912 5748.028809 204.571030"
+			"angles"		"0.000000 152.473755 0.000000"
+			"coords"		"D4"
+			"built"		"1"
+			"maxHealth"		"150"
+			"health"		"150"
+			"team"		"2"
+			"target"		"Res_Point_4"
+		}
+		"5000001"
+		{
+			"className"		"emp_building_imp_refinery"
+			"position"		"-3002.270020 -1589.000000 207.397003"
+			"angles"		"0.000000 -5.202026 0.000000"
+			"coords"		"B3"
+			"built"		"1"
+			"maxHealth"		"150"
+			"health"		"150"
+			"team"		"3"
+			"target"		"Res_Point_3"
 		}
 	}
-	"Author"		"Xiam"
-	"CanBaseSwap"		"yes"
-	"version"		"0.420000"
+	"hLimit"		"5448"
 }

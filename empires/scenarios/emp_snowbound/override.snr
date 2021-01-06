@@ -1,5 +1,8 @@
 "Scenario"
 {
+	"Description"	" "
+	"details"		" "
+	"Author"		"Xiam"
 	"Entities"
 	{
 		"1109"
@@ -1932,13 +1935,6 @@
 			"target"		"resp_7"
 		}
 	}
-	"Description"		" "
-	"details"		" "
-	"Author"		"Xiam"
-	
-	"CommFreezeTime"		"-1"
-	"PlayerRefineryMultiplier"		"-1.000000"
-	"RefineryMultiplier"		"-1.000000"
 	"version"		"0.930000"
 	"hLimit"		"83097"
 }

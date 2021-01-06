@@ -1,17 +1,8 @@
 "Scenario"
 {
-	"NF_Res"		"400.000000"
-	"BE_Res"		"400.000000"
-	"NF_Tickets"		"141.199997"
-	"BE_Tickets"		"141.199997"
-	"NF_Research"
-	{
-		"0"		"1"
-	}
-	"BE_Research"
-	{
-		"0"		"1"
-	}
+	"Description"	"[Type: Gameplay] Adds two capture points in the middle that give resources"
+	"details"		"Each capture point gives 1 resource/s"
+	"Author"		"Xiam"
 	"Entities"
 	{
 		"303998"
@@ -1857,10 +1848,6 @@
 			"team"		"0"
 		}
 	}
-	"Description"		"[Type: Gameplay] Adds two capture points in the middle that give resources"
-	"details"		"Each capture point gives 1 resource/s"
-	"Author"		"Xiam"
-	
 	"version"		"0.610000"
 	"hLimit"		"335790"
 }

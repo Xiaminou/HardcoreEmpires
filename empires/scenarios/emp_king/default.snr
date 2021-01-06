@@ -43,15 +43,15 @@
 		"663033"
 		{
 			"className"		"emp_imp_commander"
-			"position"		"9260.464844 11639.875000 4.368721"
-			"angles"		"0.287272 0.002869 1.269182"
+			"position"		"9260.466797 11639.883789 4.363917"
+			"angles"		"0.287254 0.002093 1.266736"
 			"coords"		"E6"
 		}
 		"663020"
 		{
 			"className"		"emp_nf_commander"
-			"position"		"-10643.900391 -10567.258789 78.332497"
-			"angles"		"-0.000121 0.000045 -0.577515"
+			"position"		"-10643.900391 -10567.269531 78.330223"
+			"angles"		"-0.000112 0.000045 -0.578278"
 			"coords"		"A1"
 		}
 		"42021"
@@ -1402,7 +1402,7 @@
 		{
 			"className"		"prop_dynamic"
 			"position"		"-3072.000000 -1408.000000 1920.000000"
-			"angles"		"0.000000 10.472722 0.000000"
+			"angles"		"0.000000 10.654540 0.000000"
 			"Parent"		"gunrot_1"
 			"coords"		"C3"
 			"model"		"models/imperial/vehicles/ground/apc/turret.mdl"
@@ -1434,8 +1434,8 @@
 		"1207387"
 		{
 			"className"		"prop_dynamic"
-			"position"		"-3063.275146 -1455.200439 1943.250000"
-			"angles"		"-0.000000 10.472722 -30.000000"
+			"position"		"-3063.125488 -1455.172485 1943.250000"
+			"angles"		"-0.000000 10.654541 -30.000000"
 			"Parent"		"gunrot_1"
 			"coords"		"C3"
 			"model"		"models/imperial/vehicles/ground/apc/cannon.mdl"
@@ -1468,7 +1468,7 @@
 		{
 			"className"		"prop_dynamic"
 			"position"		"5120.000000 2432.000000 1664.000000"
-			"angles"		"0.000000 -8.727269 0.000000"
+			"angles"		"0.000000 -8.878784 0.000000"
 			"Parent"		"alpha_gunrot_1"
 			"coords"		"D4"
 			"model"		"models/imperial/vehicles/ground/apc/turret.mdl"
@@ -1500,8 +1500,8 @@
 		"1211559"
 		{
 			"className"		"prop_dynamic"
-			"position"		"5112.716797 2384.555664 1687.250000"
-			"angles"		"-0.000000 -8.727269 -30.000000"
+			"position"		"5112.591309 2384.575195 1687.250000"
+			"angles"		"-0.000000 -8.878784 -30.000000"
 			"Parent"		"alpha_gunrot_1"
 			"coords"		"D4"
 			"model"		"models/imperial/vehicles/ground/apc/cannon.mdl"
@@ -1534,7 +1534,7 @@
 		{
 			"className"		"prop_dynamic"
 			"position"		"-11648.000000 11776.000000 2176.000000"
-			"angles"		"0.000000 15.709086 0.000000"
+			"angles"		"0.000000 15.981813 0.000000"
 			"Parent"		"betagunrot_1"
 			"coords"		"A6"
 			"model"		"models/imperial/vehicles/ground/apc/turret.mdl"
@@ -1566,8 +1566,8 @@
 		"1212097"
 		{
 			"className"		"prop_dynamic"
-			"position"		"-11635.003906 11729.792969 2198.540039"
-			"angles"		"-0.000000 15.709086 -15.000000"
+			"position"		"-11634.784180 11729.855469 2198.540039"
+			"angles"		"-0.000000 15.981813 -15.000000"
 			"Parent"		"betagunrot_1"
 			"coords"		"A6"
 			"model"		"models/imperial/vehicles/ground/apc/cannon.mdl"
@@ -1600,7 +1600,7 @@
 		{
 			"className"		"prop_dynamic"
 			"position"		"8192.000000 -8192.000000 352.000000"
-			"angles"		"-0.000000 163.418167 0.000000"
+			"angles"		"-0.000000 163.130295 0.000000"
 			"Parent"		"gamma_gunrot_1"
 			"coords"		"E2"
 			"model"		"models/imperial/vehicles/ground/apc/turret.mdl"
@@ -1632,8 +1632,8 @@
 		"1212644"
 		{
 			"className"		"prop_dynamic"
-			"position"		"8203.415039 -8153.663574 380.000000"
-			"angles"		"-0.000000 163.418167 -60.000004"
+			"position"		"8203.607422 -8153.721191 380.000000"
+			"angles"		"-0.000000 163.130295 -60.000004"
 			"Parent"		"gamma_gunrot_1"
 			"coords"		"E2"
 			"model"		"models/imperial/vehicles/ground/apc/cannon.mdl"
@@ -1755,6 +1755,6 @@
 			"turretRestrict"		"0"
 		}
 	}
-	"version"		"1.260000"
+	"version"		"1.280000"
 	"hLimit"		"1227074"
 }

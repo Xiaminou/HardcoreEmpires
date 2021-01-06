@@ -1,9 +1,12 @@
 "Scenario"
 {
-	"NF_Res"		"400.049988"
-	"BE_Res"		"400.049988"
-	"NF_Tickets"		"373"
-	"BE_Tickets"		"373"
+	"Description"	"[Type: Location] Start South-East (F1) and North-West (A6)"
+	"Author"		"Xiam"
+	"CanBaseSwap"	"yes"
+	"NF_Res"		"500.049988"
+	"BE_Res"		"500.049988"
+	"NF_Tickets"	"373"
+	"BE_Tickets"	"373"
 	"NF_Research"
 	{
 		"0"		"1"
@@ -183,8 +186,5 @@
 			"target"		"Ref_352721"
 		}
 	}
-	"Description"		"[Type: Location] Start South-East (F1) and North-West (A6)"
-	"Author"		"Xiam"
-	"CanBaseSwap"		"yes"
 	"version"		"0.300000"
 }

@@ -1,5 +1,10 @@
 "Scenario"
 {
+	"Description"		"[Type: Location & Gameplay] Start in middle (B3 & C2)"
+	"details"			"Command Vehicles have no freeze time"
+	"Author"			"Xiam"
+	"CanBaseSwap"		"yes"
+	"CommFreezeTime"	"1"
 	"Entities"
 	{
 		"999"
@@ -1692,13 +1697,6 @@
 			"target"		"resp_9"
 		}
 	}
-	"Description"		"[Type: Location & Gameplay] Start in middle (B3 & C2)"
-	"details"		"Command Vehicles have no freeze time"
-	"Author"		"Xiam"
-	"CanBaseSwap"		"yes"
-	"CommFreezeTime"		"1"
-	"PlayerRefineryMultiplier"		"-1.000000"
-	"RefineryMultiplier"		"-1.000000"
 	"version"		"0.930000"
 	"hLimit"		"83097"
 }

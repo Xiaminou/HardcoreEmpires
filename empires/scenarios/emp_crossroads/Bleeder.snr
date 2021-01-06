@@ -1,17 +1,8 @@
 "Scenario"
 {
-	"NF_Res"		"400.000000"
-	"BE_Res"		"400.000000"
-	"NF_Tickets"		"141.000000"
-	"BE_Tickets"		"141.000000"
-	"NF_Research"
-	{
-		"0"		"1"
-	}
-	"BE_Research"
-	{
-		"0"		"1"
-	}
+	"Description"	"[Type: Gameplay] Adds two capture points in the middle that drain reinforcements"
+	"details"		"The capture point on the opposite side of your entrance to middle will drain 1 enemy reinforcement per minute"
+	"Author"		"Xiam"
 	"Entities"
 	{
 		"303998"
@@ -1859,9 +1850,5 @@
 			"team"		"0"
 		}
 	}
-	"Description"		"[Type: Gameplay] Adds two capture points in the middle that drain reinforcements"
-	"details"		"The capture point on the opposite side of your entrance to middle will drain 1 enemy reinforcement per minute"
-	"Author"		"Xiam"
-	
 	"version"		"0.600000"
 }

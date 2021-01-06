@@ -43,6 +43,7 @@
 				"propType"		"data"
 				"defaultValue"	"0"
 			}
+			
 		}
 	}
 	"map_entity"
@@ -248,6 +249,14 @@
 		"group"	"1"
 		"fields"
 		{
+			"modelscale"
+			{
+				"fgdName"	"modelscale"
+				"type" 		"float"
+				"prop" 		"m_flModelScale"
+				"propType"		"data"
+				"defaultValue"	"1"
+			}
 			"pointNumber"
 			{
 				"fgdName"	"pointNumber"

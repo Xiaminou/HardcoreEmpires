@@ -1,5 +1,9 @@
 "Scenario"
 {
+	"Description"	"Start North and South"
+	"Author"		"Xiam"
+	"CanBaseSwap"	"yes"
+	"CommFreezeTime"	"1"
 	"Entities"
 	{
 		"283393"
@@ -119,10 +123,6 @@
 			"team"		"2"
 		}
 	}
-	"Description"		"Start North and South"
-	"Author"		"Xiam"
-	"CanBaseSwap"		"yes"
-	"CommFreezeTime"		"-1"
 	"version"		"0.680000"
 	"hLimit"		"314198"
 }

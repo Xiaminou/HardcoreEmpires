@@ -1,9 +1,10 @@
 "Scenario"
 {
-	"NF_Res"		"400.049988"
-	"BE_Res"		"400.049988"
-	"NF_Tickets"		"435.600006"
-	"BE_Tickets"		"435.600006"
+	"Author"		"Xiam"
+	"NF_Res"		"500.049988"
+	"BE_Res"		"500.049988"
+	"NF_Tickets"	"435.600006"
+	"BE_Tickets"	"435.600006"
 	"NF_Research"
 	{
 		"0"		"1"
@@ -201,7 +202,5 @@
 			"coords"		"F6"
 		}
 	}
-	"Author"		"Xiam"
-	
 	"version"		"0.530000"
 }

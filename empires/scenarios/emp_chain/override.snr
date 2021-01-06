@@ -1,24 +1,12 @@
 "Scenario"
 {
-	"Description"		" "
+	"Description"	" "
 	"details"		" "
 	"Tags"			" "
 	"Author"		"Xiam"
-	"NF_Res"		"400.000000"
-	"BE_Res"		"400.000000"
-	"NF_Tickets"		"435.000000"
-	"BE_Tickets"		"435.000000"
 	"version"		"1.240000"
 	"hMin"			"1923835"
 	"hLimit"		"2038134"
-	"NF_Research"
-	{
-		"0"		"1"
-	}
-	"BE_Research"
-	{
-		"0"		"1"
-	}
 	"Entities"
 	{
 		"5000010"

@@ -1,11 +1,11 @@
 "Scenario"
 {
 	"Description"		"[Type: Location] Start on the Middle Bridge (C/D3 & C/D4)"
-	"Details"		"Command Vehicles have no freeze time\Barracks have 1000 HP."
-	"Author"		"Xiam"
+	"Details"			"Command Vehicles have no freeze time\Barracks have 1000 HP."
+	"Author"			"Xiam"
 	"CanBaseSwap"		"yes"
 	"CommFreezeTime"	"1"
-	"version"		"1.120000"
+	"version"			"1.120000"
 	"Entities"
 	{
 		"147613"

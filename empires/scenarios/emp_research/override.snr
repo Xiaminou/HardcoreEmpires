@@ -1,10 +1,11 @@
 "Scenario"
 {
-	"NF_Res"		"399.899994"
-	"BE_Res"		"399.899994"
-	"NF_Tickets"		"211.000000"
-	"BE_Tickets"		"211.000000"
 	"Author"		"Xiam"
+	"CanBaseSwap"	"yes"
+	"NF_Res"		"500"
+	"BE_Res"		"500"
+	"NF_Tickets"	"211.000000"
+	"BE_Tickets"	"211.000000"
 	"version"		"1.260000"
 	"Entities"
 	{

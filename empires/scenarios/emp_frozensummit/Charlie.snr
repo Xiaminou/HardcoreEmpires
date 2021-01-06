@@ -1,14 +1,14 @@
 "Scenario"
 {
-	"Description"		"[Type: Gameplay] Start with a Vehicle Factory but -200 resources"
+	"Description"	"[Type: Gameplay] Start with a Vehicle Factory but -200 resources"
 	"details"		" "
 	"Tags"			" "
 	"Author"		"Xiam"
 	"version"		"1.220000"
 	"hLimit"		"101990"
-	"CanBaseSwap"		"yes"
-	"NF_Res"		"200"
-	"BE_Res"		"200"
+	"CanBaseSwap"	"yes"
+	"NF_Res"		"300"
+	"BE_Res"		"300"
 	"Entities"
 	{
 		"23218"

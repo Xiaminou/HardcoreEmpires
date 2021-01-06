@@ -1,5 +1,7 @@
 "Scenario"
 {
+	"Author"		"Xiam"
+	"CanBaseSwap"	"yes"
 	"Entities"
 	{
 		"283393"
@@ -109,9 +111,6 @@
 			"target"		"res1"
 		}
 	}
-	"Author"		"Hardcore Empires"
-	"CanBaseSwap"		"yes"
-	"CommFreezeTime"		"-1"
 	"version"		"0.680000"
 	"hLimit"		"511771"
 }

@@ -1,25 +1,12 @@
 "Scenario"
 {
-	"Description"		"[Type: Gameplay & Location] Start North-West (A5) and South-East (E1) with a Vehicle Factory."
+	"Description"	"[Type: Gameplay & Location] Start North-West (A5) and South-East (E1) with a Vehicle Factory."
 	"details"		"Start with 600 resources."
 	"Author"		"Xiam"
-	"CommFreezeTime"		"-1"
-	"PlayerRefineryMultiplier"		"-1.000000"
-	"RefineryMultiplier"		"-1.000000"
 	"version"		"1.260000"
 	"hLimit"		"621912"
 	"NF_Res"		"600.200012"
 	"BE_Res"		"600.200012"
-	"NF_Tickets"		"434.000000"
-	"BE_Tickets"		"434.000000"
-	"NF_Research"
-	{
-		"0"		"1"
-	}
-	"BE_Research"
-	{
-		"0"		"1"
-	}
 	"Entities"
 	{
 		"127365"

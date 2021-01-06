@@ -1,17 +1,8 @@
 "Scenario"
 {
-	"NF_Res"		"400.000000"
-	"BE_Res"		"400.000000"
-	"NF_Tickets"		"85.050003"
-	"BE_Tickets"		"85.050003"
-	"NF_Research"
-	{
-		"0"		"1"
-	}
-	"BE_Research"
-	{
-		"0"		"1"
-	}
+	"Author"		"Xiam"
+	"CanBaseSwap"	"yes"
+	"CommFreezeTime"	"1"
 	"Entities"
 	{
 		"273029"
@@ -151,9 +142,6 @@
 			"target"		"ref6"
 		}
 	}
-	"Author"		"Xiam"
-	"CanBaseSwap"		"yes"
-	"CommFreezeTime"		"-1"
 	"version"		"0.680000"
 	"hLimit"		"314280"
 }

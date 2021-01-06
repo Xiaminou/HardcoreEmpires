@@ -1,5 +1,7 @@
 "Scenario"
 {
+	"Author"		"Xiam"
+	"CanBaseSwap"	"yes"
 	"Entities"
 	{
 		"4465"
@@ -689,9 +691,6 @@
 			"model"		"models/props_wasteland/rockcliff01f.mdl"
 		}
 	}
-	"Author"		"Hardcore Empires"
-	
-	"CommFreezeTime"		"-1"
 	"version"		"0.680000"
 	"hLimit"		"25100"
 }

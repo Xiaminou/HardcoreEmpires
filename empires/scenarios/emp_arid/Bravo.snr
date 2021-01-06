@@ -1,5 +1,8 @@
 "Scenario"
 {
+	"Description"	"[Type: Gameplay & Location] Start South-West (A1) and North-East (D5)"
+	"Author"		"Xiam"
+	"CanBaseSwap"	"yes"
 	"Entities"
 	{
 		"48896"
@@ -3540,10 +3543,6 @@
 			"StartDisabled"		"0"
 		}
 	}
-	"Description"		"[Type: Gameplay & Location] Start South-West (A1) and North-East (D5)"
-	"Author"		"Xiam"
-	"CanBaseSwap"		"yes"
-	"CommFreezeTime"		"-1"
 	"version"		"0.680000"
 	"hLimit"		"1091597"
 }

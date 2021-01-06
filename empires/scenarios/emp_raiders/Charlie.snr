@@ -1,12 +1,12 @@
 "Scenario"
 {
-	"Description"		"[Type: Location] Start South-West (A1) and North-East (E5)"
+	"Description"	"[Type: Location] Start South-West (A1) and North-East (E5)"
 	"details"		" "
-	"Tags"		" "
+	"Tags"			" "
 	"Author"		"Xiam"
 	"version"		"1.120000"
 	"hLimit"		"38178"
-	"CanBaseSwap"		"1"
+	"CanBaseSwap"	"yes"
 	"Entities"
 	{
 		"18219"

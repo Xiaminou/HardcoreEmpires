@@ -47,8 +47,8 @@
 			"angles"		"0.000000 182.000000 0.000000"
 			"coords"		"E2"
 			"built"		"1"
-			"maxHealth"		"100"
-			"health"		"100"
+			"maxHealth"		"125"
+			"health"		"125"
 			"team"		"2"
 		}
 		"549726"
@@ -58,8 +58,8 @@
 			"angles"		"0.000000 87.000000 0.000000"
 			"coords"		"A6"
 			"built"		"1"
-			"maxHealth"		"100"
-			"health"		"100"
+			"maxHealth"		"125"
+			"health"		"125"
 			"team"		"3"
 		}
 		"549576"
@@ -178,14 +178,14 @@
 		{
 			"className"		"emp_imp_commander"
 			"position"		"-12795.800781 9183.391602 -2008.640503"
-			"angles"		"0.287846 0.007795 1.233618"
+			"angles"		"0.287886 0.007845 1.233738"
 			"coords"		"A6"
 		}
 		"857907"
 		{
 			"className"		"emp_nf_commander"
-			"position"		"9206.004883 -12671.572266 -1919.674927"
-			"angles"		"-0.000030 0.500002 -0.586365"
+			"position"		"9206.004883 -12671.565430 -1919.674927"
+			"angles"		"-0.000026 0.500001 -0.586365"
 			"coords"		"E2"
 		}
 		"59685"
@@ -2374,6 +2374,6 @@
 			"turretRestrict"		"0"
 		}
 	}
-	"version"		"1.260000"
+	"version"		"1.310000"
 	"hLimit"		"1165050"
 }

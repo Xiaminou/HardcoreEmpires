@@ -1,9 +1,13 @@
 "Scenario"
 {
+	"Description"	"[Type: Override] Start in the middle (C2 & C4)"
+	"details"		"Barracks have 500 HP\Flags are Neutral"
+	"Author"		"Xiam"
+	"CommFreezeTime"	"1"
 	"NF_Res"		"600.000000"
 	"BE_Res"		"600.000000"
-	"NF_Tickets"		"211.000000"
-	"BE_Tickets"		"211.000000"
+	"NF_Tickets"	"211.000000"
+	"BE_Tickets"	"211.000000"
 	"NF_Research"
 	{
 		"0"		"1"
@@ -1006,13 +1010,6 @@
 			"target"		"res_4"
 		}
 	}
-	"Description"		"[Type: Override] Start in the middle (C2 & C4)"
-	"details"		"Barracks have 500 HP\Flags are Neutral"
-	"Author"		"Xiam"
-	
-	"CommFreezeTime"		"1"
-	"PlayerRefineryMultiplier"		"-1.000000"
-	"RefineryMultiplier"		"-1.000000"
 	"version"		"0.930000"
 	"hLimit"		"421357"
 }

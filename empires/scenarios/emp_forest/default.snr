@@ -4,8 +4,8 @@
 	"details"		" "
 	"Tags"		" "
 	"Author"		"Hardcore Empires - Main Server"
-	"NF_Res"		"399.899994"
-	"BE_Res"		"399.899994"
+	"NF_Res"		"500.100006"
+	"BE_Res"		"500.100006"
 	"NF_Tickets"		"351.299988"
 	"BE_Tickets"		"351.299988"
 	"NF_Research"
@@ -636,8 +636,8 @@
 		"860"
 		{
 			"className"		"prop_physics"
-			"position"		"533.999695 -540.998352 -2895.409668"
-			"angles"		"2.701336 42.013599 -0.231873"
+			"position"		"534.000000 -540.998108 -2895.391357"
+			"angles"		"2.205657 42.010956 -0.235046"
 			"coords"		"D4"
 			"model"		"models/props_c17/tools_wrench01a.mdl"
 			"MoveType"		"6"
@@ -649,8 +649,8 @@
 		"864"
 		{
 			"className"		"prop_physics"
-			"position"		"-405.489319 -585.380188 -2926.497559"
-			"angles"		"89.731216 118.648499 122.638229"
+			"position"		"-405.489197 -585.380310 -2926.497559"
+			"angles"		"89.731216 118.648186 122.638512"
 			"coords"		"D4"
 			"model"		"models/props_junk/cinderblock01a.mdl"
 			"MoveType"		"6"
@@ -662,8 +662,8 @@
 		"868"
 		{
 			"className"		"prop_physics"
-			"position"		"-422.901703 -573.150208 -2926.291260"
-			"angles"		"89.052567 -172.204285 145.375015"
+			"position"		"-422.901215 -573.150208 -2926.291260"
+			"angles"		"89.052605 -172.206161 145.373993"
 			"coords"		"D4"
 			"model"		"models/props_junk/cinderblock01a.mdl"
 			"MoveType"		"6"
@@ -675,8 +675,8 @@
 		"872"
 		{
 			"className"		"prop_physics"
-			"position"		"-415.176880 -578.426697 -2915.923584"
-			"angles"		"89.484398 173.415970 -121.339417"
+			"position"		"-415.176758 -578.426697 -2915.923584"
+			"angles"		"89.484428 173.413239 -121.340912"
 			"coords"		"D4"
 			"model"		"models/props_junk/cinderblock01a.mdl"
 			"MoveType"		"6"
@@ -841,6 +841,6 @@
 			"turretRestrict"		"0"
 		}
 	}
-	"version"		"1.260000"
+	"version"		"1.310000"
 	"hLimit"		"32880"
 }

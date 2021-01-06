@@ -1,5 +1,8 @@
 "Scenario"
 {
+	"Description"	"[Type: Gameplay & Location] Start at West (A3) and East (E3)"
+	"Author"		"Xiam"
+	"CanBaseSwap"	"yes"
 	"Entities"
 	{
 		"283393"
@@ -109,10 +112,6 @@
 			"team"		"2"
 		}
 	}
-	"Description"		"[Type: Gameplay & Location] Start at West (A3) and East (E3)"
-	"Author"		"Xiam"
-	"CanBaseSwap"		"yes"
-	"CommFreezeTime"		"-1"
 	"version"		"0.680000"
 	"hLimit"		"511771"
 }

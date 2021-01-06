@@ -1,25 +1,10 @@
 "Scenario"
 {
-	"Description"		"[Type: Gameplay & Location] Start North-West (A5) and South-East (E1) with jeeps."
+	"Description"	"[Type: Gameplay & Location] Start North-West (A5) and South-East (E1) with jeeps."
 	"details"		"Northern Faction starts with 4 jeeps, Brenodi Empire starts with 6 jeeps."
 	"Author"		"Xiam"
-	"CommFreezeTime"		"-1"
-	"PlayerRefineryMultiplier"		"-1.000000"
-	"RefineryMultiplier"		"-1.000000"
 	"version"		"1.260000"
 	"hLimit"		"621912"
-	"NF_Res"		"400.200012"
-	"BE_Res"		"400.200012"
-	"NF_Tickets"		"434.000000"
-	"BE_Tickets"		"434.000000"
-	"NF_Research"
-	{
-		"0"		"1"
-	}
-	"BE_Research"
-	{
-		"0"		"1"
-	}
 	"Entities"
 	{
 		"127365"

@@ -255,16 +255,16 @@
 		"999"
 		{
 			"className"		"emp_imp_commander"
-			"position"		"-14098.007813 11437.211914 1028.370117"
-			"angles"		"0.286316 -179.995331 1.266989"
+			"position"		"-14098.008789 11437.219727 1028.375366"
+			"angles"		"0.286240 -179.996033 1.268937"
 			"coords"		"A4"
 			"name"		"cv"
 		}
 		"1057"
 		{
 			"className"		"emp_nf_commander"
-			"position"		"13553.000000 -11216.491211 1102.330688"
-			"angles"		"0.000000 0.000001 -0.580719"
+			"position"		"13553.000000 -11216.497070 1102.329346"
+			"angles"		"-0.000003 0.000000 -0.581299"
 			"coords"		"D1"
 			"name"		"cv"
 		}
@@ -1166,8 +1166,8 @@
 		"995"
 		{
 			"className"		"prop_physics"
-			"position"		"-3163.299072 7015.160645 1127.465698"
-			"angles"		"19.947693 112.058884 -146.521744"
+			"position"		"-3163.321045 7015.202637 1127.472290"
+			"angles"		"20.439209 112.685745 -146.728470"
 			"coords"		"B3"
 			"effects"		"16"
 			"model"		"models/gibs/hgibs.mdl"
@@ -1180,8 +1180,8 @@
 		"996"
 		{
 			"className"		"prop_physics"
-			"position"		"-3155.884277 7015.244629 1123.032837"
-			"angles"		"26.502625 138.091187 93.641861"
+			"position"		"-3155.882568 7015.243164 1123.030029"
+			"angles"		"26.325352 138.103653 93.717850"
 			"coords"		"B3"
 			"effects"		"16"
 			"model"		"models/gibs/hgibs_scapula.mdl"
@@ -1194,8 +1194,8 @@
 		"997"
 		{
 			"className"		"prop_physics"
-			"position"		"-3159.273193 7019.479980 1124.478027"
-			"angles"		"77.097145 139.691757 -138.888138"
+			"position"		"-3159.279053 7019.479492 1124.480225"
+			"angles"		"77.076057 139.792648 -138.702530"
 			"coords"		"B3"
 			"effects"		"16"
 			"model"		"models/gibs/hgibs_spine.mdl"
@@ -1779,6 +1779,6 @@
 			"turretRestrict"		"0"
 		}
 	}
-	"version"		"1.260000"
+	"version"		"1.310000"
 	"hLimit"		"83097"
 }

@@ -1,10 +1,6 @@
 "Scenario"
 {
-	"NF_Res"		"400.000000"
-	"BE_Res"		"400.000000"
-	"NF_Tickets"		"141.000000"
-	"BE_Tickets"		"141.000000"
-	"Description"		"[Type: KOTH] Control Both flags for 8 minutes to win"
+	"Description"	"[Type: KOTH] Control Both flags for 8 minutes to win"
 	"details"		"Capture points give 1 resource/s and take one player to capture each"
 	"Author"		"Xiam & Mikleo"
 	"version"		"1.260000"
@@ -38,14 +34,6 @@
 			"CountNFFlag"	"Inc $int_NFFlags"
 			
 		}
-	}
-	"NF_Research"
-	{
-		"0"		"1"
-	}
-	"BE_Research"
-	{
-		"0"		"1"
 	}
 	"Entities"
 	{

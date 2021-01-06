@@ -1,5 +1,9 @@
 "Scenario"
 {
+	"Description"		"[Type: Location & Gameplay] Both teams start with barracks at North-West (A4) and South-East (D1)"
+	"details"			"Command Vehicles start in the middle with no freeze time\Barracks have 500 HP and Refineries have 300 HP"
+	"Author"			"Xiam"
+	"CommFreezeTime"	"1"
 	"Entities"
 	{
 		"999"
@@ -1740,13 +1744,6 @@
 			"target"		"resp_2"
 		}
 	}
-	"Description"		"[Type: Location & Gameplay] Both teams start with barracks at North-West (A4) and South-East (D1)"
-	"details"		"Command Vehicles start in the middle with no freeze time\Barracks have 500 HP and Refineries have 300 HP"
-	"Author"		"Xiam"
-	
-	"CommFreezeTime"		"1"
-	"PlayerRefineryMultiplier"		"-1.000000"
-	"RefineryMultiplier"		"-1.000000"
 	"version"		"0.930000"
 	"hLimit"		"83097"
 }

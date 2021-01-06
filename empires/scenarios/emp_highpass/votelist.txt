@@ -30,5 +30,12 @@
 			"tags_override"		"-"
 			"description_override"		"-"
 		}
+		"mik_ctf"
+		{
+			"min_players"		"0"
+			"max_players"		"65"
+			"tags_override"		"-"
+			"description_override"		"-"
+		}
 	}
 }

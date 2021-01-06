@@ -1,13 +1,11 @@
 "Scenario"
 {
 	"Author"		"Xiam"
-	"CanBaseSwap"		"yes"
-	"version"		"1.260000"
-	"NF_Res"		"400.000000"
-	"BE_Res"		"400.000000"
-	"NF_Tickets"		"281.000000"
-	"BE_Tickets"		"281.000000"
-	"hLimit"		"1165050"
+	"CanBaseSwap"	"yes"
+	"NF_Res"		"500.000000"
+	"BE_Res"		"500.000000"
+	"NF_Tickets"	"281.000000"
+	"BE_Tickets"	"281.000000"
 	"NF_Research"
 	{
 		"0"		"1"
@@ -2264,4 +2262,6 @@
 			"target"		"nf_start_nes_v_c_benw"
 		}
 	}
+	"version"		"1.260000"
+	"hLimit"		"1165050"
 }

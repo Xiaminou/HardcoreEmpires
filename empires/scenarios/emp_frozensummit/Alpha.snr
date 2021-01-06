@@ -1,12 +1,12 @@
 "Scenario"
 {
-	"Description"		"[Type: Location & Gameplay] Start at West and East"
+	"Description"	"[Type: Location & Gameplay] Start West (B3) and East (D3)"
 	"details"		" "
 	"Tags"			" "
 	"Author"		"Xiam"
 	"version"		"1.220000"
 	"hLimit"		"101990"
-	"CanBaseSwap"		"yes"
+	"CanBaseSwap"	"yes"
 	"Entities"
 	{
 		"23240"
