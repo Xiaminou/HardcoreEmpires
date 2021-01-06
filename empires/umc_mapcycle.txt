@@ -6,7 +6,7 @@
 		
 		"emp_arid"
 		{
-			"min_players"	"20"
+			"min_players"	"26"
 			"max_players"	"42"
 			"display"	"emp_arid"
 		}
@@ -14,14 +14,14 @@
 		"emp_beachfront_b2"
 		{
 			"min_players"	"0"
-			"max_players"	"22"
+			"max_players"	"14"
 			"display"	"emp_beachfront"
 		}
 
 //		Enabled: Fixed?
 		"emp_blackmountain"
 		{
-			"min_players"	"40"
+			"min_players"	"44"
 			"max_players"	"64"
 			"display"	"emp_blackmountain"
 		}
@@ -29,205 +29,191 @@
 //		Enabled: Decimal Resources
 		"emp_blah4"
 		{
-			"min_players"	"14"
-			"max_players"	"32"
+			"min_players"	"16"
+			"max_players"	"28"
 			"display"	"emp_blah4"
 		}
 		
 		"emp_bush"
 		{
-			"min_players"	"20"
-			"max_players"	"42"
+			"min_players"	"28"
+			"max_players"	"44"
 			"display"	"emp_bush"
 		}
 		
 		"emp_canyon"
 		{
-			"min_players"	"14"
-			"max_players"	"32"
+			"min_players"	"12"
+			"max_players"	"24"
 			"display"	"emp_canyon"
 		}
 		
 		"emp_chain"
 		{
-			"min_players"	"40"
+			"min_players"	"42"
 			"max_players"	"64"
 			"display"	"emp_chain"
 		}
 		
 		"emp_coast"
 		{
-			"min_players"	"20"
-			"max_players"	"42"
+			"min_players"	"24"
+			"max_players"	"40"
 			"display"	"emp_coast"
 		}
 		
 		"emp_cod"
 		{
 			"min_players"	"0"
-			"max_players"	"14"
+			"max_players"	"10"
 			"display"	"emp_cod"
-		}
-		
-		"emp_commandergrad_b1"
-		{
-			"min_players"	"20"
-			"max_players"	"42"
-			"display"	"emp_commandergrad"
 		}
 		
 		"emp_crossroads_towerless_hce2"
 		{
-			"min_players"	"0"
-			"max_players"	"22"
+			"min_players"	"6"
+			"max_players"	"18"
 			"display"	"emp_crossroads"
 		}
 		
-//		"emp_crossroads_towerless_hce2#chaos"
-//		{
-//			"min_players"	"23"
-//			"max_players"	"32"
-//			"display"	"emp_crossroads#chaos"
-//		}
-		
 		"emp_cyclopean"
 		{
-			"min_players"	"32"
-			"max_players"	"64"
+			"min_players"	"34"
+			"max_players"	"54"
 			"display"	"emp_cyclopean"
 		}
 		
 		"emp_downfall"
 		{
-			"min_players"	"0"
+			"min_players"	"8"
 			"max_players"	"22"
 			"display"	"emp_downfall"
 		}
 		
 		"emp_drygulch_a7"
 		{
-			"min_players"	"0"
-			"max_players"	"22"
+			"min_players"	"4"
+			"max_players"	"16"
 			"display"	"emp_drygulch"
 		}
 		
 		"emp_dune_ob1"
 		{
-			"min_players"	"20"
-			"max_players"	"42"
+			"min_players"	"18"
+			"max_players"	"40"
 			"display"	"emp_dune"
 		}
 		
 		"emp_duststorm"
 		{
-			"min_players"	"20"
-			"max_players"	"52"
+			"min_players"	"30"
+			"max_players"	"50"
 			"display"	"emp_duststorm"
 		}
 		
 		"emp_flat"
 		{
-			"min_players"	"14"
-			"max_players"	"32"
+			"min_players"	"16"
+			"max_players"	"28"
 			"display"	"emp_flat"
 		}
 		
 		"emp_forest_ob_2013"
 		{
-			"min_players"	"26"
-			"max_players"	"52"
+			"min_players"	"32"
+			"max_players"	"28"
 			"display"	"emp_forest"
 		}
 		
 		"emp_frozensummit_b2_2013"
 		{
-			"min_players"	"26"
+			"min_players"	"32"
 			"max_players"	"52"
 			"display"	"emp_frozensummit"
 		}
 		
 		"emp_fuel_a3_2013_hce2"
 		{
-			"min_players"	"26"
-			"max_players"	"52"
+			"min_players"	"34"
+			"max_players"	"48"
 			"display"	"emp_fuel"
 		}
 
 //		Enabled
 		"emp_fury_rc1"
 		{
-			"min_players"	"32"
-			"max_players"	"64"
+			"min_players"	"36"
+			"max_players"	"56"
 			"display"	"emp_fury"
 		}
 		
 		"emp_glacial_b2"
 		{
 			"min_players"	"20"
-			"max_players"	"42"
+			"max_players"	"40"
 			"display"	"emp_glacial"
 		}
 		
 		"emp_hazard_rc6"
 		{
-			"min_players"	"14"
-			"max_players"	"32"
+			"min_players"	"18"
+			"max_players"	"30"
 			"display"	"emp_hazard"
 		}
 		
 		"emp_highpass_a3"
 		{
 			"min_players"	"14"
-			"max_players"	"32"
+			"max_players"	"26"
 			"display"	"emp_highpass"
 		}
 		
 		"emp_homeland_b9"
 		{
-			"min_players"	"14"
+			"min_players"	"18"
 			"max_players"	"32"
 			"display"	"emp_homeland"
 		}
 		
 		"emp_insurrection_rc4"
 		{
-			"min_players"	"32"
-			"max_players"	"64"
+			"min_players"	"36"
+			"max_players"	"56"
 			"display"	"emp_insurrection"
 		}
 		
-		"emp_interactions_v2"
-		{
-			"min_players"	"8"
-			"max_players"	"64"
-			"display"	"emp_interactions"
-		}
+//		"emp_interactions_v2"
+//		{
+//			"min_players"	"8"
+//			"max_players"	"58"
+//			"display"	"emp_interactions"
+//		}
 		
 		"emp_isle"
 		{
-			"min_players"	"26"
-			"max_players"	"52"
+			"min_players"	"30"
+			"max_players"	"50"
 			"display"	"emp_isle"
 		}
 		
 		"emp_king_r5_nosplt"
 		{
-			"min_players"	"46"
+			"min_players"	"48"
 			"max_players"	"64"
 			"display"	"emp_king"
 		}
 		
 		"emp_massacred_rc1"
 		{
-			"min_players"	"14"
-			"max_players"	"32"
+			"min_players"	"18"
+			"max_players"	"40"
 			"display"	"emp_massacred"
 		}
 		
 		"emp_mesa_d6"
 		{
-			"min_players"	"20"
-			"max_players"	"42"
+			"min_players"	"22"
+			"max_players"	"40"
 			"display"	"emp_mesa"
 		}
 		
@@ -238,60 +224,52 @@
 			"display"	"emp_midbridge"
 		}
 		
-//		"emp_moors"
-//		{
-//			"min_players"	"14"
-//			"max_players"	"32"
-//			"display"	"emp_moors"
-//		}
+		"emp_moors"
+		{
+			"min_players"	"14"
+			"max_players"	"32"
+			"display"	"emp_moors"
+		}
 		
 		"emp_money"
 		{
-			"min_players"	"20"
-			"max_players"	"42"
+			"min_players"	"18"
+			"max_players"	"38"
 			"display"	"emp_money"
 		}
 		
 		"emp_mvalley"
 		{
-			"min_players"	"26"
-			"max_players"	"52"
+			"min_players"	"28"
+			"max_players"	"50"
 			"display"	"emp_mvalley"
 		}
 		
 		"emp_palmbay"
 		{
-			"min_players"	"14"
-			"max_players"	"32"
+			"min_players"	"12"
+			"max_players"	"24"
 			"display"	"emp_palmbay"
 		}
-
-//		Disabled: Too Many Bad Displacements		
-//		"emp_plunge_ob2_2013_hce2"
-//		{
-//			"min_players"	"20"
-//			"max_players"	"42"
-//			"display"	"emp_plunge"
-//		}
 		
 		"emp_raiders_b1"
 		{
-			"min_players"	"26"
-			"max_players"	"52"
+			"min_players"	"30"
+			"max_players"	"50"
 			"display"	"emp_raiders"
 		}
 		
 		"emp_research_1_2_2013"
 		{
-			"min_players"	"14"
-			"max_players"	"32"
+			"min_players"	"18"
+			"max_players"	"30"
 			"display"	"emp_research"
 		}
 		
 		"emp_silo_rc5"
 		{
-			"min_players"	"20"
-			"max_players"	"42"
+			"min_players"	"26"
+			"max_players"	"40"
 			"display"	"emp_silo"
 		}
 
@@ -306,50 +284,50 @@
 		"emp_snowbound_cl6"
 		{
 			"min_players"	"20"
-			"max_players"	"42"
+			"max_players"	"38"
 			"display"	"emp_snowbound"
 		}
 		
 		"emp_snowstorm_rc6"
 		{
 			"min_players"	"14"
-			"max_players"	"32"
+			"max_players"	"26"
 			"display"	"emp_snowstorm"
 		}
 		
 		"emp_streetsoffire"
 		{
 			"min_players"	"14"
-			"max_players"	"32"
+			"max_players"	"26"
 			"display"	"emp_streetsoffire"
 		}
 		
 		"emp_temple_b3g"
 		{
-			"min_players"	"14"
-			"max_players"	"32"
+			"min_players"	"16"
+			"max_players"	"28"
 			"display"	"emp_temple"
 		}
 		
 		"emp_traders_a8"
 		{
-			"min_players"	"14"
-			"max_players"	"32"
+			"min_players"	"18"
+			"max_players"	"30"
 			"display"	"emp_traders"
 		}
 		
 		"emp_tropicvendetta_rc4"
 		{
-			"min_players"	"32"
-			"max_players"	"64"
+			"min_players"	"38"
+			"max_players"	"58"
 			"display"	"emp_tropicvendetta"
 		}
 
 		
 		"emp_ward_rc2"
 		{
-			"min_players"	"20"
-			"max_players"	"42"
+			"min_players"	"26"
+			"max_players"	"44"
 			"display"	"emp_ward"
 		}
     }
@@ -406,7 +384,7 @@
 		"emp_shadows_attacks_fix"
 		{
 			"min_players"	"10"
-			"max_players"	"20"
+			"max_players"	"39"
 			"display"	"con_shadows_attacks"
 		}
 		
@@ -420,7 +398,7 @@
 		"emp_vehicletraining_2013"
 		{
 			"min_players"	"0"
-			"max_players"	"20"
+			"max_players"	"39"
 			"display"	"con_vehicletraining"
 		}
 	}
