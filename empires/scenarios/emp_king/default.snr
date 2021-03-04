@@ -3,9 +3,9 @@
 	"Description"		" "
 	"details"		" "
 	"Tags"		" "
-	"Author"		"Hardcore Empires - Main Server"
-	"NF_Res"		"400.000000"
-	"BE_Res"		"400.000000"
+	"Author"		"Harmony Empires - Main Server"
+	"NF_Res"		"500.000000"
+	"BE_Res"		"500.000000"
 	"NF_Tickets"		"436.000000"
 	"BE_Tickets"		"436.000000"
 	"NF_Research"
@@ -43,14 +43,14 @@
 		"663033"
 		{
 			"className"		"emp_imp_commander"
-			"position"		"9260.466797 11639.883789 4.363917"
-			"angles"		"0.287254 0.002093 1.266736"
+			"position"		"9260.466797 11639.891602 4.363810"
+			"angles"		"0.287209 0.002098 1.266707"
 			"coords"		"E6"
 		}
 		"663020"
 		{
 			"className"		"emp_nf_commander"
-			"position"		"-10643.900391 -10567.269531 78.330223"
+			"position"		"-10643.900391 -10567.269531 78.330177"
 			"angles"		"-0.000112 0.000045 -0.578278"
 			"coords"		"A1"
 		}
@@ -1136,11 +1136,11 @@
 			"position"		"-12032.000000 -12032.000000 9.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"A1"
+			"target"		"nf_base_node"
 			"built"		"1"
 			"maxHealth"		"150"
 			"health"		"150"
 			"team"		"2"
-			"target"		"nf_base_node"
 		}
 		"884683"
 		{
@@ -1148,11 +1148,11 @@
 			"position"		"12032.000000 12032.000000 9.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"F6"
+			"target"		"be_base_node"
 			"built"		"1"
 			"maxHealth"		"150"
 			"health"		"150"
 			"team"		"3"
-			"target"		"be_base_node"
 		}
 		"766897"
 		{
@@ -1237,6 +1237,8 @@
 			"model"		"models/props_c17/chair02a.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"1000.000000"
+			"fademaxdist"		"1500.000000"
 		}
 		"43564"
 		{
@@ -1247,6 +1249,8 @@
 			"model"		"models/props_c17/chair02a.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"1000.000000"
+			"fademaxdist"		"1500.000000"
 		}
 		"43566"
 		{
@@ -1257,6 +1261,8 @@
 			"model"		"models/props_c17/chair02a.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"1000.000000"
+			"fademaxdist"		"1500.000000"
 		}
 		"43609"
 		{
@@ -1267,6 +1273,8 @@
 			"model"		"models/props_c17/chair02a.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"1000.000000"
+			"fademaxdist"		"1500.000000"
 		}
 		"43611"
 		{
@@ -1277,6 +1285,8 @@
 			"model"		"models/props_c17/chair02a.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"1000.000000"
+			"fademaxdist"		"1500.000000"
 		}
 		"43613"
 		{
@@ -1287,6 +1297,8 @@
 			"model"		"models/props_c17/chair02a.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"1000.000000"
+			"fademaxdist"		"1500.000000"
 		}
 		"53926"
 		{
@@ -1403,7 +1415,7 @@
 			"className"		"prop_dynamic"
 			"position"		"-3072.000000 -1408.000000 1920.000000"
 			"angles"		"0.000000 10.654540 0.000000"
-			"Parent"		"gunrot_1"
+			"Parent"		"#1207577"
 			"coords"		"C3"
 			"model"		"models/imperial/vehicles/ground/apc/turret.mdl"
 			"MoveType"		"7"
@@ -1436,7 +1448,7 @@
 			"className"		"prop_dynamic"
 			"position"		"-3063.125488 -1455.172485 1943.250000"
 			"angles"		"-0.000000 10.654541 -30.000000"
-			"Parent"		"gunrot_1"
+			"Parent"		"#1207577"
 			"coords"		"C3"
 			"model"		"models/imperial/vehicles/ground/apc/cannon.mdl"
 			"MoveType"		"7"
@@ -1469,7 +1481,7 @@
 			"className"		"prop_dynamic"
 			"position"		"5120.000000 2432.000000 1664.000000"
 			"angles"		"0.000000 -8.878784 0.000000"
-			"Parent"		"alpha_gunrot_1"
+			"Parent"		"#1211483"
 			"coords"		"D4"
 			"model"		"models/imperial/vehicles/ground/apc/turret.mdl"
 			"MoveType"		"7"
@@ -1502,7 +1514,7 @@
 			"className"		"prop_dynamic"
 			"position"		"5112.591309 2384.575195 1687.250000"
 			"angles"		"-0.000000 -8.878784 -30.000000"
-			"Parent"		"alpha_gunrot_1"
+			"Parent"		"#1211483"
 			"coords"		"D4"
 			"model"		"models/imperial/vehicles/ground/apc/cannon.mdl"
 			"MoveType"		"7"
@@ -1535,7 +1547,7 @@
 			"className"		"prop_dynamic"
 			"position"		"-11648.000000 11776.000000 2176.000000"
 			"angles"		"0.000000 15.981813 0.000000"
-			"Parent"		"betagunrot_1"
+			"Parent"		"#1212021"
 			"coords"		"A6"
 			"model"		"models/imperial/vehicles/ground/apc/turret.mdl"
 			"MoveType"		"7"
@@ -1568,7 +1580,7 @@
 			"className"		"prop_dynamic"
 			"position"		"-11634.784180 11729.855469 2198.540039"
 			"angles"		"-0.000000 15.981813 -15.000000"
-			"Parent"		"betagunrot_1"
+			"Parent"		"#1212021"
 			"coords"		"A6"
 			"model"		"models/imperial/vehicles/ground/apc/cannon.mdl"
 			"MoveType"		"7"
@@ -1601,7 +1613,7 @@
 			"className"		"prop_dynamic"
 			"position"		"8192.000000 -8192.000000 352.000000"
 			"angles"		"-0.000000 163.130295 0.000000"
-			"Parent"		"gamma_gunrot_1"
+			"Parent"		"#1212568"
 			"coords"		"E2"
 			"model"		"models/imperial/vehicles/ground/apc/turret.mdl"
 			"MoveType"		"7"
@@ -1634,7 +1646,7 @@
 			"className"		"prop_dynamic"
 			"position"		"8203.607422 -8153.721191 380.000000"
 			"angles"		"-0.000000 163.130295 -60.000004"
-			"Parent"		"gamma_gunrot_1"
+			"Parent"		"#1212568"
 			"coords"		"E2"
 			"model"		"models/imperial/vehicles/ground/apc/cannon.mdl"
 			"MoveType"		"7"
@@ -1755,6 +1767,6 @@
 			"turretRestrict"		"0"
 		}
 	}
-	"version"		"1.280000"
+	"version"		"1.380000"
 	"hLimit"		"1227074"
 }

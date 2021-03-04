@@ -3,7 +3,7 @@
 	"Description"		" "
 	"details"		" "
 	"Tags"		" "
-	"Author"		"Hardcore Empires - Main Server "
+	"Author"		"Hardcore Empires - Main Server"
 	"NF_Res"		"500.000000"
 	"BE_Res"		"500.000000"
 	"NF_Tickets"		"351.399994"
@@ -65,15 +65,15 @@
 		"25327"
 		{
 			"className"		"emp_imp_commander"
-			"position"		"6704.138184 -7207.796387 -71.626419"
-			"angles"		"0.287467 -28.998840 1.247019"
+			"position"		"6703.959961 -7208.102051 -71.622581"
+			"angles"		"0.286673 -28.997782 1.248568"
 			"coords"		"D2"
 		}
 		"25329"
 		{
 			"className"		"emp_nf_commander"
-			"position"		"-7391.923828 5823.985352 2.327860"
-			"angles"		"0.000006 79.000000 -0.585785"
+			"position"		"-7391.611816 5823.924316 2.319179"
+			"angles"		"-0.000014 79.000000 -0.586487"
 			"coords"		"B4"
 		}
 		"121763"
@@ -82,11 +82,11 @@
 			"position"		"-6082.000000 5410.000000 51.041698"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"B4"
+			"target"		"res_spot_8"
 			"built"		"1"
 			"maxHealth"		"150"
 			"health"		"150"
 			"team"		"2"
-			"target"		"res_spot_8"
 		}
 		"121848"
 		{
@@ -94,11 +94,11 @@
 			"position"		"7119.500000 -5352.609863 -78.663902"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"D2"
+			"target"		"res_spot_1"
 			"built"		"1"
 			"maxHealth"		"150"
 			"health"		"150"
 			"team"		"3"
-			"target"		"res_spot_1"
 		}
 		"121367"
 		{
@@ -282,6 +282,6 @@
 			"turretRestrict"		"0"
 		}
 	}
-	"version"		"1.310000"
+	"version"		"1.320000"
 	"hLimit"		"124771"
 }

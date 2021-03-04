@@ -1,0 +1,37 @@
+"ScenarioSelection"
+{
+	"Method"	"Vote"
+	"VoteTitle"	"Game Mode"
+	"Options"
+	{
+		"Default"
+		{
+			"Method"	"Random"
+			"VoteTitle"	"Scenario"
+			"Options"
+			{
+				"default"
+				{
+					"min_players"		"0"
+					"max_players"		"65"
+				}
+				"Bravo"
+				{
+					"min_players"		"0"
+					"max_players"		"65"
+				}
+			}
+		}
+		"Alpha"
+		{
+			"min_players"		"22"
+			"max_players"		"65"
+		}
+		"KOTH"
+		{
+			"min_players"		"0"
+			"max_players"		"65"
+		}
+	}
+	"enabled"		"1"
+}

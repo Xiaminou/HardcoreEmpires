@@ -3,7 +3,7 @@
 	"Description"		" "
 	"details"		" "
 	"Tags"		" "
-	"Author"		"Hardcore Empires - Main Server"
+	"Author"		"Harmony Empires - Main Server"
 	"NF_Res"		"500.100006"
 	"BE_Res"		"500.100006"
 	"NF_Tickets"		"281.179993"
@@ -211,15 +211,15 @@
 		"14787"
 		{
 			"className"		"emp_imp_commander"
-			"position"		"-12323.111328 11125.906250 518.310669"
-			"angles"		"-2.207899 -156.459000 0.023348"
+			"position"		"-12323.001953 11125.737305 518.289001"
+			"angles"		"-2.213353 -156.489563 0.033362"
 			"coords"		"A5"
 		}
 		"14801"
 		{
 			"className"		"emp_nf_commander"
-			"position"		"13103.000000 -12437.598633 590.330750"
-			"angles"		"0.000019 0.000000 -0.582092"
+			"position"		"13103.000000 -12437.521484 590.329956"
+			"angles"		"-0.000009 -0.000003 -0.583649"
 			"coords"		"E1"
 		}
 		"212252"
@@ -761,11 +761,11 @@
 			"position"		"10207.000000 -13704.000000 507.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"E1"
+			"target"		"res1"
 			"built"		"1"
 			"maxHealth"		"150"
 			"health"		"150"
 			"team"		"2"
-			"target"		"res1"
 		}
 		"539733"
 		{
@@ -773,11 +773,11 @@
 			"position"		"-10946.000000 6119.000000 510.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"A4"
+			"target"		"res8"
 			"built"		"1"
 			"maxHealth"		"150"
 			"health"		"150"
 			"team"		"3"
-			"target"		"res8"
 		}
 		"47869"
 		{
@@ -3117,6 +3117,8 @@
 			"model"		"models/common/emp_snow/flag_capmodel1a.mdl"
 			"MoveType"		"7"
 			"SolidType"		"0"
+			"fademindist"		"2400.000000"
+			"fademaxdist"		"3000.000000"
 		}
 		"1091597"
 		{
@@ -3128,6 +3130,8 @@
 			"model"		"models/common/emp_snow/flag_capmodel1a.mdl"
 			"MoveType"		"7"
 			"SolidType"		"0"
+			"fademindist"		"2400.000000"
+			"fademaxdist"		"3000.000000"
 		}
 		"220056"
 		{
@@ -3170,6 +3174,6 @@
 			"turretRestrict"		"0"
 		}
 	}
-	"version"		"1.310000"
+	"version"		"1.400000"
 	"hLimit"		"1091597"
 }

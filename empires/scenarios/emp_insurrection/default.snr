@@ -3,9 +3,9 @@
 	"Description"		" "
 	"details"		" "
 	"Tags"		" "
-	"Author"		"Hardcore Empires - Main Server"
-	"NF_Res"		"400.000000"
-	"BE_Res"		"400.000000"
+	"Author"		"Harmony Empires - Main Server"
+	"NF_Res"		"500.000000"
+	"BE_Res"		"500.000000"
 	"NF_Tickets"		"393.300018"
 	"BE_Tickets"		"393.300018"
 	"NF_Research"
@@ -233,15 +233,15 @@
 		"6825"
 		{
 			"className"		"emp_imp_commander"
-			"position"		"11912.501953 -11151.959961 -468.991577"
-			"angles"		"0.017760 0.062737 1.310839"
+			"position"		"11912.508789 -11151.969727 -469.006531"
+			"angles"		"0.020591 0.060017 1.323603"
 			"coords"		"F2"
 		}
 		"6823"
 		{
 			"className"		"emp_nf_commander"
-			"position"		"-5799.322266 12088.072266 -395.267853"
-			"angles"		"-0.017053 0.027258 -0.734161"
+			"position"		"-5799.316406 12088.073242 -395.267487"
+			"angles"		"-0.016883 0.024622 -0.733887"
 			"coords"		"B7"
 		}
 		"745306"
@@ -730,11 +730,11 @@
 			"position"		"-3904.000000 11712.000000 -448.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"C7"
+			"target"		"nfres"
 			"built"		"1"
 			"maxHealth"		"150"
 			"health"		"150"
 			"team"		"2"
-			"target"		"nfres"
 		}
 		"786590"
 		{
@@ -742,11 +742,11 @@
 			"position"		"8576.000000 -12576.000000 -448.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"E2"
+			"target"		"beres"
 			"built"		"1"
 			"maxHealth"		"150"
 			"health"		"150"
 			"team"		"3"
-			"target"		"beres"
 		}
 		"784743"
 		{
@@ -941,6 +941,8 @@
 			"model"		"models/imperial/vehicles/ground/tankmed/imp_mediumtank_staticwreck.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"7000.000000"
+			"fademaxdist"		"8000.000000"
 		}
 		"29901"
 		{
@@ -951,6 +953,8 @@
 			"model"		"models/imperial/vehicles/ground/tankmed/imp_mediumtank_staticwreck.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"7000.000000"
+			"fademaxdist"		"8000.000000"
 		}
 		"29920"
 		{
@@ -961,6 +965,8 @@
 			"model"		"models/imperial/vehicles/ground/tankheavy/imp_heavy_wreck.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"7000.000000"
+			"fademaxdist"		"8000.000000"
 		}
 		"29975"
 		{
@@ -971,6 +977,8 @@
 			"model"		"models/imperial/vehicles/ground/tankmed/imp_mediumtank_staticwreck.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"7000.000000"
+			"fademaxdist"		"8000.000000"
 		}
 		"30013"
 		{
@@ -981,6 +989,8 @@
 			"model"		"models/nf/vehicles/ground/apc/nf_apc_staticwreck.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"7000.000000"
+			"fademaxdist"		"8000.000000"
 		}
 		"30279"
 		{
@@ -991,6 +1001,8 @@
 			"model"		"models/nf/vehicles/ground/tankartillery/nf_artillerytank_wreck.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"7000.000000"
+			"fademaxdist"		"8000.000000"
 		}
 		"30877"
 		{
@@ -1001,6 +1013,8 @@
 			"model"		"models/imperial/vehicles/air/transport/imp_dropship.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"7000.000000"
+			"fademaxdist"		"8000.000000"
 		}
 		"137023"
 		{
@@ -1011,6 +1025,8 @@
 			"model"		"models/imperial/vehicles/ground/tankmed/imp_mediumtank_staticwreck.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"7000.000000"
+			"fademaxdist"		"8000.000000"
 		}
 		"137027"
 		{
@@ -1021,6 +1037,8 @@
 			"model"		"models/imperial/vehicles/ground/tankmed/imp_mediumtank_staticwreck.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"7000.000000"
+			"fademaxdist"		"8000.000000"
 		}
 		"137031"
 		{
@@ -1031,6 +1049,8 @@
 			"model"		"models/nf/vehicles/ground/apc/nf_apc_wreck.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"7000.000000"
+			"fademaxdist"		"8000.000000"
 		}
 		"372972"
 		{
@@ -1041,6 +1061,8 @@
 			"model"		"models/imperial/vehicles/ground/tankmed/imp_mediumtank_staticwreck.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"7000.000000"
+			"fademaxdist"		"8000.000000"
 		}
 		"407049"
 		{
@@ -1051,6 +1073,8 @@
 			"model"		"models/imperial/vehicles/ground/tankheavy/imp_heavy_wreck.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"7000.000000"
+			"fademaxdist"		"8000.000000"
 		}
 		"463222"
 		{
@@ -1061,6 +1085,8 @@
 			"model"		"models/nf/vehicles/ground/command/nf_command_wreck.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"7000.000000"
+			"fademaxdist"		"8000.000000"
 		}
 		"771090"
 		{
@@ -1071,6 +1097,8 @@
 			"model"		"models/imperial/vehicles/ground/tankheavy/imp_heavytank_wreck.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"7000.000000"
+			"fademaxdist"		"8000.000000"
 		}
 		"787976"
 		{
@@ -1098,6 +1126,6 @@
 			"turretRestrict"		"1"
 		}
 	}
-	"version"		"1.310000"
+	"version"		"1.380000"
 	"hLimit"		"1083800"
 }

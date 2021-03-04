@@ -3,7 +3,7 @@
 	"Description"		" "
 	"details"		" "
 	"Tags"		" "
-	"Author"		"Hardcore Empires - Main Server"
+	"Author"		"Harmony Empires - Main Server"
 	"NF_Res"		"400.000000"
 	"BE_Res"		"400.000000"
 	"NF_Tickets"		"75.000000"
@@ -11,12 +11,12 @@
 	"NF_Research"
 	{
 		"0"		"1"
-		"30"		"1"
+		"33"		"1"
 	}
 	"BE_Research"
 	{
 		"0"		"1"
-		"30"		"1"
+		"33"		"1"
 	}
 	"Entities"
 	{
@@ -2500,6 +2500,8 @@
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"4280.000000"
+			"fademaxdist"		"4304.000000"
 		}
 		"247947"
 		{
@@ -2511,6 +2513,8 @@
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"3702.000000"
+			"fademaxdist"		"3690.000000"
 		}
 		"247951"
 		{
@@ -2522,6 +2526,8 @@
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"3702.000000"
+			"fademaxdist"		"3690.000000"
 		}
 		"247963"
 		{
@@ -2533,6 +2539,7 @@
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"6172.000000"
 		}
 		"356810"
 		{
@@ -2544,6 +2551,8 @@
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"3702.000000"
+			"fademaxdist"		"3690.000000"
 		}
 		"356818"
 		{
@@ -2555,6 +2564,8 @@
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"3702.000000"
+			"fademaxdist"		"3690.000000"
 		}
 		"356822"
 		{
@@ -2566,6 +2577,8 @@
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"3702.000000"
+			"fademaxdist"		"3690.000000"
 		}
 		"359406"
 		{
@@ -2642,6 +2655,7 @@
 			"model"		"models/props_c17/light_industrialbell01_on.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademaxdist"		"4000.000000"
 		}
 		"384819"
 		{
@@ -2674,6 +2688,7 @@
 			"model"		"models/props_c17/light_industrialbell01_on.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademaxdist"		"4000.000000"
 		}
 		"392347"
 		{
@@ -2684,6 +2699,7 @@
 			"model"		"models/props_c17/light_industrialbell01_on.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademaxdist"		"4000.000000"
 		}
 		"406088"
 		{
@@ -2979,6 +2995,8 @@
 			"model"		"models/props_c17/chair02a.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"256.000000"
+			"fademaxdist"		"512.000000"
 		}
 		"379278"
 		{
@@ -3033,6 +3051,6 @@
 			"turretRestrict"		"1"
 		}
 	}
-	"version"		"1.310000"
+	"version"		"1.380000"
 	"hLimit"		"775770"
 }

@@ -3,7 +3,7 @@
 	"Description"		" "
 	"details"		" "
 	"Tags"		" "
-	"Author"		"Hardcore Empires - Main Server"
+	"Author"		"Harmony Empires - Main Server"
 	"NF_Res"		"0.000000"
 	"BE_Res"		"0.000000"
 	"NF_Tickets"		"2500.000000"
@@ -361,7 +361,7 @@
 			"model"		"models/common/props_system/flag2b_nuetral.mdl"
 			"model2"		"models/common/props_system/flag2b_nf.mdl"
 			"model3"		"models/common/props_system/flag2b_imp.mdl"
-			"team"		"0"
+			"team"		"3"
 		}
 		"1516"
 		{
@@ -374,7 +374,7 @@
 			"model"		"models/common/props_system/flag2b_nuetral.mdl"
 			"model2"		"models/common/props_system/flag2b_nf.mdl"
 			"model3"		"models/common/props_system/flag2b_imp.mdl"
-			"team"		"0"
+			"team"		"3"
 		}
 		"1517"
 		{
@@ -387,7 +387,7 @@
 			"model"		"models/common/props_system/flag2b_nuetral.mdl"
 			"model2"		"models/common/props_system/flag2b_nf.mdl"
 			"model3"		"models/common/props_system/flag2b_imp.mdl"
-			"team"		"0"
+			"team"		"2"
 		}
 		"1518"
 		{
@@ -400,7 +400,7 @@
 			"model"		"models/common/props_system/flag2b_nuetral.mdl"
 			"model2"		"models/common/props_system/flag2b_nf.mdl"
 			"model3"		"models/common/props_system/flag2b_imp.mdl"
-			"team"		"0"
+			"team"		"2"
 		}
 		"1541"
 		{
@@ -1798,8 +1798,8 @@
 		"1844"
 		{
 			"className"		"prop_physics"
-			"position"		"-480.065796 1051.947876 -751.160156"
-			"angles"		"-0.411465 6.970633 -0.007050"
+			"position"		"-480.043182 1051.951294 -751.152832"
+			"angles"		"-0.401295 6.968359 -0.006531"
 			"coords"		"C4"
 			"model"		"models/props_wasteland/controlroom_desk001b.mdl"
 			"MoveType"		"6"
@@ -1811,8 +1811,8 @@
 		"1845"
 		{
 			"className"		"prop_physics"
-			"position"		"-484.079773 1187.972778 -751.099182"
-			"angles"		"-0.389144 -2.026500 -0.005432"
+			"position"		"-484.079620 1187.972778 -751.098999"
+			"angles"		"-0.388639 -2.026501 -0.005402"
 			"coords"		"C4"
 			"model"		"models/props_wasteland/controlroom_desk001a.mdl"
 			"MoveType"		"6"
@@ -1886,6 +1886,6 @@
 			"turretRestrict"		"0"
 		}
 	}
-	"version"		"1.310000"
+	"version"		"1.400000"
 	"hLimit"		"2037"
 }

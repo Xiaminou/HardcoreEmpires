@@ -3,7 +3,7 @@
 	"Description"		" "
 	"details"		" "
 	"Tags"		" "
-	"Author"		"Hardcore Empires - Main Server"
+	"Author"		"Harmony Empires - Main Server"
 	"NF_Res"		"500.000000"
 	"BE_Res"		"500.000000"
 	"NF_Tickets"		"281.399994"
@@ -155,15 +155,15 @@
 		"1722"
 		{
 			"className"		"emp_imp_commander"
-			"position"		"9151.601563 -4080.221924 132.362228"
-			"angles"		"0.285961 165.008408 1.234773"
+			"position"		"9151.599609 -4080.229248 132.357376"
+			"angles"		"0.285957 165.007660 1.233801"
 			"coords"		"E2"
 		}
 		"1714"
 		{
 			"className"		"emp_nf_commander"
-			"position"		"-7480.375000 7599.489746 210.429306"
-			"angles"		"-0.044934 -30.003012 -0.571564"
+			"position"		"-7480.370117 7599.500000 210.431198"
+			"angles"		"-0.044995 -30.002779 -0.570618"
 			"coords"		"B4"
 		}
 		"1557"
@@ -310,11 +310,11 @@
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"A4"
 			"name"		"nf_refinery_start"
+			"target"		"Res_Point_6"
 			"built"		"1"
 			"maxHealth"		"150"
 			"health"		"150"
 			"team"		"2"
-			"target"		"Res_Point_6"
 		}
 		"5394"
 		{
@@ -323,11 +323,11 @@
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"E2"
 			"name"		"be_refinery_start"
+			"target"		"Res_Point_2"
 			"built"		"1"
 			"maxHealth"		"150"
 			"health"		"150"
 			"team"		"3"
-			"target"		"Res_Point_2"
 		}
 		"1613"
 		{
@@ -770,6 +770,8 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"14000.000000"
+			"fademaxdist"		"15000.000000"
 		}
 		"1636"
 		{
@@ -780,6 +782,8 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"14000.000000"
+			"fademaxdist"		"15000.000000"
 		}
 		"1637"
 		{
@@ -790,6 +794,8 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"14000.000000"
+			"fademaxdist"		"15000.000000"
 		}
 		"1638"
 		{
@@ -800,6 +806,8 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"14000.000000"
+			"fademaxdist"		"15000.000000"
 		}
 		"1639"
 		{
@@ -810,6 +818,8 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"14000.000000"
+			"fademaxdist"		"15000.000000"
 		}
 		"1640"
 		{
@@ -820,6 +830,8 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"14000.000000"
+			"fademaxdist"		"15000.000000"
 		}
 		"1641"
 		{
@@ -830,6 +842,8 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"14000.000000"
+			"fademaxdist"		"15000.000000"
 		}
 		"1642"
 		{
@@ -840,6 +854,8 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"14000.000000"
+			"fademaxdist"		"15000.000000"
 		}
 		"1643"
 		{
@@ -850,6 +866,8 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"14000.000000"
+			"fademaxdist"		"15000.000000"
 		}
 		"1644"
 		{
@@ -860,6 +878,8 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"14000.000000"
+			"fademaxdist"		"15000.000000"
 		}
 		"1645"
 		{
@@ -870,6 +890,8 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"14000.000000"
+			"fademaxdist"		"15000.000000"
 		}
 		"1646"
 		{
@@ -880,6 +902,8 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"14000.000000"
+			"fademaxdist"		"15000.000000"
 		}
 		"1647"
 		{
@@ -890,6 +914,8 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"14000.000000"
+			"fademaxdist"		"15000.000000"
 		}
 		"1648"
 		{
@@ -900,6 +926,8 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"14000.000000"
+			"fademaxdist"		"15000.000000"
 		}
 		"1649"
 		{
@@ -910,6 +938,8 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"14000.000000"
+			"fademaxdist"		"15000.000000"
 		}
 		"1650"
 		{
@@ -920,6 +950,8 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"14000.000000"
+			"fademaxdist"		"15000.000000"
 		}
 		"1651"
 		{
@@ -930,6 +962,8 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"14000.000000"
+			"fademaxdist"		"15000.000000"
 		}
 		"1652"
 		{
@@ -940,6 +974,8 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"14000.000000"
+			"fademaxdist"		"15000.000000"
 		}
 		"1653"
 		{
@@ -950,6 +986,8 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"14000.000000"
+			"fademaxdist"		"15000.000000"
 		}
 		"1654"
 		{
@@ -960,6 +998,8 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"14000.000000"
+			"fademaxdist"		"15000.000000"
 		}
 		"1655"
 		{
@@ -970,6 +1010,8 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"14000.000000"
+			"fademaxdist"		"15000.000000"
 		}
 		"1656"
 		{
@@ -980,6 +1022,8 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"14000.000000"
+			"fademaxdist"		"15000.000000"
 		}
 		"1657"
 		{
@@ -990,6 +1034,8 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"14000.000000"
+			"fademaxdist"		"15000.000000"
 		}
 		"1658"
 		{
@@ -1000,6 +1046,8 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"14000.000000"
+			"fademaxdist"		"15000.000000"
 		}
 		"1659"
 		{
@@ -1010,6 +1058,8 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"14000.000000"
+			"fademaxdist"		"15000.000000"
 		}
 		"1660"
 		{
@@ -1020,6 +1070,8 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"14000.000000"
+			"fademaxdist"		"15000.000000"
 		}
 		"1661"
 		{
@@ -1030,6 +1082,8 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"14000.000000"
+			"fademaxdist"		"15000.000000"
 		}
 		"1662"
 		{
@@ -1040,6 +1094,8 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"14000.000000"
+			"fademaxdist"		"15000.000000"
 		}
 		"1663"
 		{
@@ -1111,6 +1167,8 @@
 			"model"		"models/props_wasteland/plasterwall029c_window01a_bars.mdl"
 			"MoveType"		"7"
 			"SolidType"		"0"
+			"fademindist"		"3750.000000"
+			"fademaxdist"		"4000.000000"
 		}
 		"1701"
 		{
@@ -1122,6 +1180,8 @@
 			"model"		"models/props_wasteland/plasterwall029c_window01a_bars.mdl"
 			"MoveType"		"7"
 			"SolidType"		"0"
+			"fademindist"		"3750.000000"
+			"fademaxdist"		"4000.000000"
 		}
 		"1702"
 		{
@@ -1133,6 +1193,8 @@
 			"model"		"models/props_wasteland/plasterwall029c_window01a_bars.mdl"
 			"MoveType"		"7"
 			"SolidType"		"0"
+			"fademindist"		"3750.000000"
+			"fademaxdist"		"4000.000000"
 		}
 		"1703"
 		{
@@ -1144,6 +1206,8 @@
 			"model"		"models/props_wasteland/plasterwall029c_window01a_bars.mdl"
 			"MoveType"		"7"
 			"SolidType"		"0"
+			"fademindist"		"3750.000000"
+			"fademaxdist"		"4000.000000"
 		}
 		"1704"
 		{
@@ -1155,6 +1219,8 @@
 			"model"		"models/props_wasteland/plasterwall029c_window01a_bars.mdl"
 			"MoveType"		"7"
 			"SolidType"		"0"
+			"fademindist"		"3750.000000"
+			"fademaxdist"		"4000.000000"
 		}
 		"1705"
 		{
@@ -1166,6 +1232,8 @@
 			"model"		"models/props_wasteland/plasterwall029c_window01a_bars.mdl"
 			"MoveType"		"7"
 			"SolidType"		"0"
+			"fademindist"		"3750.000000"
+			"fademaxdist"		"4000.000000"
 		}
 		"1706"
 		{
@@ -1177,6 +1245,8 @@
 			"model"		"models/props_wasteland/plasterwall029c_window01a_bars.mdl"
 			"MoveType"		"7"
 			"SolidType"		"0"
+			"fademindist"		"3750.000000"
+			"fademaxdist"		"4000.000000"
 		}
 		"1732"
 		{
@@ -1187,6 +1257,8 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"14000.000000"
+			"fademaxdist"		"15000.000000"
 		}
 		"1733"
 		{
@@ -1197,6 +1269,8 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"14000.000000"
+			"fademaxdist"		"15000.000000"
 		}
 		"1747"
 		{
@@ -1207,6 +1281,8 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"14000.000000"
+			"fademaxdist"		"15000.000000"
 		}
 		"1748"
 		{
@@ -1217,6 +1293,8 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"14000.000000"
+			"fademaxdist"		"15000.000000"
 		}
 		"1749"
 		{
@@ -1227,6 +1305,8 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"14000.000000"
+			"fademaxdist"		"15000.000000"
 		}
 		"1750"
 		{
@@ -1237,6 +1317,8 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"14000.000000"
+			"fademaxdist"		"15000.000000"
 		}
 		"1751"
 		{
@@ -1247,6 +1329,8 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"14000.000000"
+			"fademaxdist"		"15000.000000"
 		}
 		"1752"
 		{
@@ -1257,6 +1341,8 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"14000.000000"
+			"fademaxdist"		"15000.000000"
 		}
 		"1753"
 		{
@@ -1267,6 +1353,8 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"14000.000000"
+			"fademaxdist"		"15000.000000"
 		}
 		"1763"
 		{
@@ -1278,6 +1366,8 @@
 			"model"		"models/props_wasteland/plasterwall029c_window01a_bars.mdl"
 			"MoveType"		"7"
 			"SolidType"		"0"
+			"fademindist"		"3750.000000"
+			"fademaxdist"		"4000.000000"
 		}
 		"1764"
 		{
@@ -1289,6 +1379,8 @@
 			"model"		"models/props_wasteland/plasterwall029c_window01a_bars.mdl"
 			"MoveType"		"7"
 			"SolidType"		"0"
+			"fademindist"		"3750.000000"
+			"fademaxdist"		"4000.000000"
 		}
 		"1765"
 		{
@@ -1300,6 +1392,8 @@
 			"model"		"models/props_wasteland/plasterwall029c_window01a_bars.mdl"
 			"MoveType"		"7"
 			"SolidType"		"0"
+			"fademindist"		"3750.000000"
+			"fademaxdist"		"4000.000000"
 		}
 		"1766"
 		{
@@ -1311,6 +1405,8 @@
 			"model"		"models/props_wasteland/woodwall030b_window03a_bars.mdl"
 			"MoveType"		"7"
 			"SolidType"		"0"
+			"fademindist"		"3750.000000"
+			"fademaxdist"		"4000.000000"
 		}
 		"1767"
 		{
@@ -1322,6 +1418,8 @@
 			"model"		"models/props_wasteland/plasterwall029c_window01a_bars.mdl"
 			"MoveType"		"7"
 			"SolidType"		"0"
+			"fademindist"		"3750.000000"
+			"fademaxdist"		"4000.000000"
 		}
 		"1768"
 		{
@@ -1333,6 +1431,8 @@
 			"model"		"models/props_wasteland/plasterwall029c_window01a_bars.mdl"
 			"MoveType"		"7"
 			"SolidType"		"0"
+			"fademindist"		"3750.000000"
+			"fademaxdist"		"4000.000000"
 		}
 		"1769"
 		{
@@ -1344,6 +1444,8 @@
 			"model"		"models/props_wasteland/plasterwall029c_window01a_bars.mdl"
 			"MoveType"		"7"
 			"SolidType"		"0"
+			"fademindist"		"3750.000000"
+			"fademaxdist"		"4000.000000"
 		}
 		"1770"
 		{
@@ -1355,6 +1457,8 @@
 			"model"		"models/props_wasteland/plasterwall029c_window01a_bars.mdl"
 			"MoveType"		"7"
 			"SolidType"		"0"
+			"fademindist"		"3750.000000"
+			"fademaxdist"		"4000.000000"
 		}
 		"1771"
 		{
@@ -1365,6 +1469,8 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"14000.000000"
+			"fademaxdist"		"15000.000000"
 		}
 		"1772"
 		{
@@ -1375,6 +1481,8 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"14000.000000"
+			"fademaxdist"		"15000.000000"
 		}
 		"1773"
 		{
@@ -1385,6 +1493,8 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"14000.000000"
+			"fademaxdist"		"15000.000000"
 		}
 		"1774"
 		{
@@ -1395,6 +1505,8 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"14000.000000"
+			"fademaxdist"		"15000.000000"
 		}
 		"1787"
 		{
@@ -1405,6 +1517,8 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"14000.000000"
+			"fademaxdist"		"15000.000000"
 		}
 		"1788"
 		{
@@ -1415,6 +1529,8 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"14000.000000"
+			"fademaxdist"		"15000.000000"
 		}
 		"1789"
 		{
@@ -1425,6 +1541,8 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"14000.000000"
+			"fademaxdist"		"15000.000000"
 		}
 		"1790"
 		{
@@ -1435,6 +1553,8 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"14000.000000"
+			"fademaxdist"		"15000.000000"
 		}
 		"1791"
 		{
@@ -1445,6 +1565,8 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"14000.000000"
+			"fademaxdist"		"15000.000000"
 		}
 		"1792"
 		{
@@ -1455,6 +1577,8 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"14000.000000"
+			"fademaxdist"		"15000.000000"
 		}
 		"1793"
 		{
@@ -1465,6 +1589,8 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"14000.000000"
+			"fademaxdist"		"15000.000000"
 		}
 		"1794"
 		{
@@ -1475,6 +1601,8 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"14000.000000"
+			"fademaxdist"		"15000.000000"
 		}
 		"1795"
 		{
@@ -1485,6 +1613,8 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"14000.000000"
+			"fademaxdist"		"15000.000000"
 		}
 		"1796"
 		{
@@ -1495,6 +1625,8 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"14000.000000"
+			"fademaxdist"		"15000.000000"
 		}
 		"1797"
 		{
@@ -1505,6 +1637,8 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"14000.000000"
+			"fademaxdist"		"15000.000000"
 		}
 		"1798"
 		{
@@ -1516,6 +1650,8 @@
 			"model"		"models/props_c17/shelfunit01a.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"900.000000"
+			"fademaxdist"		"1000.000000"
 		}
 		"1799"
 		{
@@ -1527,6 +1663,8 @@
 			"model"		"models/props_c17/shelfunit01a.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"900.000000"
+			"fademaxdist"		"1000.000000"
 		}
 		"1801"
 		{
@@ -1557,6 +1695,8 @@
 			"model"		"models/props_lab/cleaver.mdl"
 			"MoveType"		"7"
 			"SolidType"		"0"
+			"fademindist"		"900.000000"
+			"fademaxdist"		"1000.000000"
 		}
 		"1805"
 		{
@@ -1567,6 +1707,8 @@
 			"model"		"models/props_junk/garbage_glassbottle001a.mdl"
 			"MoveType"		"7"
 			"SolidType"		"0"
+			"fademindist"		"900.000000"
+			"fademaxdist"		"1000.000000"
 		}
 		"1806"
 		{
@@ -1577,6 +1719,8 @@
 			"model"		"models/props_junk/garbage_metalcan001a.mdl"
 			"MoveType"		"7"
 			"SolidType"		"0"
+			"fademindist"		"900.000000"
+			"fademaxdist"		"1000.000000"
 		}
 		"1807"
 		{
@@ -1587,6 +1731,8 @@
 			"model"		"models/props_junk/garbage_metalcan002a.mdl"
 			"MoveType"		"7"
 			"SolidType"		"0"
+			"fademindist"		"900.000000"
+			"fademaxdist"		"1000.000000"
 		}
 		"1808"
 		{
@@ -1598,6 +1744,8 @@
 			"model"		"models/props_junk/shovel01a.mdl"
 			"MoveType"		"7"
 			"SolidType"		"0"
+			"fademindist"		"900.000000"
+			"fademaxdist"		"1000.000000"
 		}
 		"1809"
 		{
@@ -1608,6 +1756,8 @@
 			"model"		"models/props_c17/suitcase001a.mdl"
 			"MoveType"		"7"
 			"SolidType"		"0"
+			"fademindist"		"900.000000"
+			"fademaxdist"		"1000.000000"
 		}
 		"1810"
 		{
@@ -1618,6 +1768,8 @@
 			"model"		"models/gibs/agibs.mdl"
 			"MoveType"		"7"
 			"SolidType"		"0"
+			"fademindist"		"900.000000"
+			"fademaxdist"		"1000.000000"
 		}
 		"1811"
 		{
@@ -1628,6 +1780,8 @@
 			"model"		"models/gibs/agibs.mdl"
 			"MoveType"		"7"
 			"SolidType"		"0"
+			"fademindist"		"900.000000"
+			"fademaxdist"		"1000.000000"
 		}
 		"1812"
 		{
@@ -1638,6 +1792,8 @@
 			"model"		"models/gibs/agibs.mdl"
 			"MoveType"		"7"
 			"SolidType"		"0"
+			"fademindist"		"900.000000"
+			"fademaxdist"		"1000.000000"
 		}
 		"1821"
 		{
@@ -1648,6 +1804,8 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"14000.000000"
+			"fademaxdist"		"15000.000000"
 		}
 		"1822"
 		{
@@ -1658,6 +1816,8 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"14000.000000"
+			"fademaxdist"		"15000.000000"
 		}
 		"1823"
 		{
@@ -1668,6 +1828,8 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"14000.000000"
+			"fademaxdist"		"15000.000000"
 		}
 		"1824"
 		{
@@ -1678,6 +1840,8 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"14000.000000"
+			"fademaxdist"		"15000.000000"
 		}
 		"1825"
 		{
@@ -1688,6 +1852,8 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"14000.000000"
+			"fademaxdist"		"15000.000000"
 		}
 		"1826"
 		{
@@ -1698,6 +1864,8 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"14000.000000"
+			"fademaxdist"		"15000.000000"
 		}
 		"1827"
 		{
@@ -1708,6 +1876,8 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"14000.000000"
+			"fademaxdist"		"15000.000000"
 		}
 		"1829"
 		{
@@ -1718,6 +1888,8 @@
 			"model"		"models/props_wasteland/prison_bedframe001b.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"900.000000"
+			"fademaxdist"		"1000.000000"
 		}
 		"1830"
 		{
@@ -1729,6 +1901,8 @@
 			"Skin"		"1"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"900.000000"
+			"fademaxdist"		"1000.000000"
 		}
 		"1831"
 		{
@@ -1739,6 +1913,8 @@
 			"model"		"models/props_c17/furnituremattress001a.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"900.000000"
+			"fademaxdist"		"1000.000000"
 		}
 		"1832"
 		{
@@ -1749,6 +1925,8 @@
 			"model"		"models/props_wasteland/prison_bedframe001b.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"900.000000"
+			"fademaxdist"		"1000.000000"
 		}
 		"1833"
 		{
@@ -1760,6 +1938,8 @@
 			"Skin"		"1"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"900.000000"
+			"fademaxdist"		"1000.000000"
 		}
 		"1834"
 		{
@@ -1770,6 +1950,8 @@
 			"model"		"models/props_wasteland/prison_bedframe001b.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"900.000000"
+			"fademaxdist"		"1000.000000"
 		}
 		"1835"
 		{
@@ -1780,6 +1962,8 @@
 			"model"		"models/props_c17/furnituremattress001a.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"900.000000"
+			"fademaxdist"		"1000.000000"
 		}
 		"1836"
 		{
@@ -1790,6 +1974,8 @@
 			"model"		"models/props_wasteland/prison_bedframe001b.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"900.000000"
+			"fademaxdist"		"1000.000000"
 		}
 		"1837"
 		{
@@ -1801,6 +1987,8 @@
 			"model"		"models/props_c17/shelfunit01a.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"900.000000"
+			"fademaxdist"		"1000.000000"
 		}
 		"1850"
 		{
@@ -1811,6 +1999,8 @@
 			"model"		"models/props_c17/furnituretable001a.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"900.000000"
+			"fademaxdist"		"1000.000000"
 		}
 		"1851"
 		{
@@ -1821,6 +2011,8 @@
 			"model"		"models/props_c17/furniturechair001a.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"900.000000"
+			"fademaxdist"		"1000.000000"
 		}
 		"1852"
 		{
@@ -1831,6 +2023,8 @@
 			"model"		"models/props_c17/furniturechair001a.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"900.000000"
+			"fademaxdist"		"1000.000000"
 		}
 		"1853"
 		{
@@ -1841,6 +2035,8 @@
 			"model"		"models/props_c17/furniturechair001a.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"900.000000"
+			"fademaxdist"		"1000.000000"
 		}
 		"1854"
 		{
@@ -1851,6 +2047,8 @@
 			"model"		"models/props_c17/furniturechair001a.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"900.000000"
+			"fademaxdist"		"1000.000000"
 		}
 		"1855"
 		{
@@ -1861,6 +2059,8 @@
 			"model"		"models/props_c17/furniturefridge001a.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"900.000000"
+			"fademaxdist"		"1000.000000"
 		}
 		"1856"
 		{
@@ -1871,6 +2071,8 @@
 			"model"		"models/props_junk/trashcluster01a.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"900.000000"
+			"fademaxdist"		"1000.000000"
 		}
 		"1860"
 		{
@@ -1881,6 +2083,8 @@
 			"model"		"models/props_junk/garbage_glassbottle003a.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"900.000000"
+			"fademaxdist"		"1000.000000"
 		}
 		"1861"
 		{
@@ -1891,6 +2095,8 @@
 			"model"		"models/props_junk/garbage_glassbottle003a.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"900.000000"
+			"fademaxdist"		"1000.000000"
 		}
 		"1862"
 		{
@@ -1901,6 +2107,8 @@
 			"model"		"models/props_junk/garbage_metalcan001a.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"900.000000"
+			"fademaxdist"		"1000.000000"
 		}
 		"1863"
 		{
@@ -1911,6 +2119,8 @@
 			"model"		"models/props_junk/garbage_glassbottle003a.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"900.000000"
+			"fademaxdist"		"1000.000000"
 		}
 		"1864"
 		{
@@ -1921,6 +2131,8 @@
 			"model"		"models/props_junk/garbage_glassbottle003a.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"900.000000"
+			"fademaxdist"		"1000.000000"
 		}
 		"1865"
 		{
@@ -1931,6 +2143,8 @@
 			"model"		"models/props_junk/garbage_takeoutcarton001a.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"900.000000"
+			"fademaxdist"		"1000.000000"
 		}
 		"1866"
 		{
@@ -1941,6 +2155,8 @@
 			"model"		"models/props_interiors/pot02a.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"900.000000"
+			"fademaxdist"		"1000.000000"
 		}
 		"1867"
 		{
@@ -1951,6 +2167,8 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"14000.000000"
+			"fademaxdist"		"15000.000000"
 		}
 		"1868"
 		{
@@ -1961,6 +2179,8 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"14000.000000"
+			"fademaxdist"		"15000.000000"
 		}
 		"1869"
 		{
@@ -1971,6 +2191,8 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"14000.000000"
+			"fademaxdist"		"15000.000000"
 		}
 		"1870"
 		{
@@ -1981,6 +2203,8 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"14000.000000"
+			"fademaxdist"		"15000.000000"
 		}
 		"1893"
 		{
@@ -1991,6 +2215,8 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"14000.000000"
+			"fademaxdist"		"15000.000000"
 		}
 		"1903"
 		{
@@ -2001,6 +2227,8 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"14000.000000"
+			"fademaxdist"		"15000.000000"
 		}
 		"1698"
 		{
@@ -2029,6 +2257,6 @@
 			"turretRestrict"		"0"
 		}
 	}
-	"version"		"1.310000"
+	"version"		"1.370000"
 	"hLimit"		"5448"
 }

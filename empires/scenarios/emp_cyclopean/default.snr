@@ -3,9 +3,9 @@
 	"Description"		" "
 	"details"		" "
 	"Tags"		" "
-	"Author"		"Hardcore Empires - Main Server"
-	"NF_Res"		"400.200012"
-	"BE_Res"		"400.200012"
+	"Author"		"Harmony Empires - Main Server"
+	"NF_Res"		"500.100006"
+	"BE_Res"		"500.100006"
 	"NF_Tickets"		"393.156006"
 	"BE_Tickets"		"393.156006"
 	"NF_Research"
@@ -267,15 +267,15 @@
 		"321735"
 		{
 			"className"		"emp_imp_commander"
-			"position"		"12240.107422 11392.130859 3308.360840"
-			"angles"		"0.287199 135.002243 1.242405"
+			"position"		"12240.107422 11392.130859 3308.360596"
+			"angles"		"0.287179 135.002228 1.242408"
 			"coords"		"E5"
 		}
 		"321757"
 		{
 			"className"		"emp_nf_commander"
-			"position"		"-11630.949219 -12222.949219 3382.265625"
-			"angles"		"0.000014 -45.000011 -0.595428"
+			"position"		"-11630.948242 -12222.948242 3382.265625"
+			"angles"		"0.000008 -45.000011 -0.595398"
 			"coords"		"A1"
 		}
 		"321749"
@@ -444,11 +444,11 @@
 			"position"		"-10252.000000 -9704.000000 3306.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"A1"
+			"target"		"point2"
 			"built"		"1"
 			"maxHealth"		"150"
 			"health"		"150"
 			"team"		"2"
-			"target"		"point2"
 		}
 		"413941"
 		{
@@ -456,11 +456,11 @@
 			"position"		"-9012.000000 -10986.000000 3306.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"B1"
+			"target"		"point1"
 			"built"		"1"
 			"maxHealth"		"150"
 			"health"		"150"
 			"team"		"2"
-			"target"		"point1"
 		}
 		"414053"
 		{
@@ -468,11 +468,11 @@
 			"position"		"9868.000000 10070.000000 3306.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"E5"
+			"target"		"point7"
 			"built"		"1"
 			"maxHealth"		"150"
 			"health"		"150"
 			"team"		"3"
-			"target"		"point7"
 		}
 		"414068"
 		{
@@ -480,11 +480,11 @@
 			"position"		"11060.000000 8938.000000 3306.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"E4"
+			"target"		"point8"
 			"built"		"1"
 			"maxHealth"		"150"
 			"health"		"150"
 			"team"		"3"
-			"target"		"point8"
 		}
 		"321769"
 		{
@@ -908,7 +908,7 @@
 			"className"		"env_smokestack"
 			"position"		"-8995.660156 -10969.400391 3368.229980"
 			"angles"		"0.000000 0.000000 0.000000"
-			"Parent"		"res1"
+			"Parent"		"#321803"
 			"coords"		"B1"
 			"name"		"smoke1"
 			"color"		"255 255 255 100"
@@ -1357,6 +1357,6 @@
 			"turretRestrict"		"0"
 		}
 	}
-	"version"		"1.310000"
+	"version"		"1.380000"
 	"hLimit"		"549313"
 }

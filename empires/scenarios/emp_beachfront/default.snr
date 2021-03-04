@@ -3,7 +3,7 @@
 	"Description"		" "
 	"details"		" "
 	"Tags"		" "
-	"Author"		"Hardcore Empires - Main Server"
+	"Author"		"Harmony Empires - Main Server"
 	"NF_Res"		"400.200012"
 	"BE_Res"		"400.200012"
 	"NF_Tickets"		"141.149994"
@@ -43,15 +43,15 @@
 		"10660"
 		{
 			"className"		"emp_imp_commander"
-			"position"		"11143.073242 4012.695557 4.050767"
-			"angles"		"2.446626 90.578354 1.873608"
+			"position"		"11143.199219 4012.710449 4.049480"
+			"angles"		"2.432917 90.585709 1.869974"
 			"coords"		"G3"
 		}
 		"9926"
 		{
 			"className"		"emp_nf_commander"
-			"position"		"-11040.126953 3912.234131 75.277832"
-			"angles"		"-0.305620 -90.097145 -0.158691"
+			"position"		"-11040.179688 3912.221191 75.270226"
+			"angles"		"-0.302911 -90.104263 -0.165405"
 			"coords"		"A3"
 		}
 		"19396"
@@ -96,11 +96,11 @@
 			"position"		"-8324.160156 6080.000000 1059.619995"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"B4"
+			"target"		"respt_nf_spawn"
 			"built"		"1"
 			"maxHealth"		"150"
 			"health"		"150"
 			"team"		"2"
-			"target"		"respt_nf_spawn"
 		}
 		"31759"
 		{
@@ -108,11 +108,11 @@
 			"position"		"8286.959961 6038.640137 1055.170044"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"F4"
+			"target"		"respt_be_spawn"
 			"built"		"1"
 			"maxHealth"		"150"
 			"health"		"150"
 			"team"		"3"
-			"target"		"respt_be_spawn"
 		}
 		"10056"
 		{
@@ -262,6 +262,6 @@
 			"turretRestrict"		"0"
 		}
 	}
-	"version"		"1.310000"
+	"version"		"1.400000"
 	"hLimit"		"31759"
 }

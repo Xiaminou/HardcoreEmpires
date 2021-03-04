@@ -1,5 +1,12 @@
 "Scenario"
 {
+	"Description"		"[Type: Gameplay] Start in the middle (C2 & C3)"
+	"details"		"Barracks have 1000 HP"
+	"Author"		"Xiam"
+	"CanBaseSwap"		"yes"
+	"CommFreezeTime"		"1"
+	"PlayerRefineryMultiplier"		"-1.000000"
+	"RefineryMultiplier"		"4"
 	"NF_Res"		"600.000000"
 	"BE_Res"		"600.000000"
 	"NF_Tickets"		"281.000000"
@@ -297,13 +304,6 @@
 			"team"		"3"
 		}
 	}
-	"Description"		"[Type: Gameplay] Start in the middle (C2 & C3)"
-	"details"		"Barracks have 1000 HP"
-	"Author"		"Xiam"
-	"CanBaseSwap"		"yes"
-	"CommFreezeTime"		"1"
-	"PlayerRefineryMultiplier"		"-1.000000"
-	"RefineryMultiplier"		"4"
 	"version"		"0.880000"
 	"hLimit"		"16839"
 }

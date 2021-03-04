@@ -12,6 +12,14 @@
 				"propType"		"data"
 				"defaultValue"	""
 			}
+			"target"
+			{
+				"fgdName"	"target"
+				"type" 		"string"
+				"prop"	"m_target"
+				"propType"		"data"
+				"defaultValue"	""
+			}
 			"funcs"
 			{
 				"type" 		"string"
@@ -57,6 +65,7 @@
 				"prop" 	"m_spawnflags"
 				"type" 		"int"
 				"propType"	"data"
+				"defaultValue"	"0"
 			}
 		}
 	}
@@ -304,8 +313,9 @@
 	
 	"brush"
 	{
-		"extend" 	"entity"
+		"extend" 	"map_entity"
 		"isBrushEntity"	"1"
+		"handle_color"	"200 200 50"
 		"fields"
 		{
 			"mins"
@@ -505,16 +515,6 @@
 	{
 		"extend" 	"building"
 		"group"	"3"
-		"fields"
-		{
-			"target"
-			{
-				"fgdName"	"target"
-				"type" 		"string"
-				"prop"	"m_target"
-				"propType"		"data"
-			}
-		}
 	}
 	"emp_building_nf_refinery"
 	{
@@ -528,7 +528,7 @@
 	"emp_resource_point"
 	{
 		"extend"	"entity"
-		"moveable"	"0"
+		"handleOnly"	"1"
 		"group"	"2"
 		"fields"
 		{
@@ -551,7 +551,6 @@
 	"emp_resource_point_prop"
 	{
 		"extend"	"entity"
-		"moveable"	"0"
 		"group"	"2"
 		"fields"
 		{
@@ -575,6 +574,7 @@
 	{
 		"extend"	"entity"
 		"version"	"0.22"
+		"handleOnly"	"1"
 		"group"	"2"
 		"fields"
 		{
@@ -912,8 +912,30 @@
 				"type" 		"int"
 				"defaultValue"	"0"
 			}
-			
-			
+			"modelscale"
+			{
+				"fgdName"	"modelscale"
+				"type" 		"float"
+				"prop" 		"m_flModelScale"
+				"propType"		"data"
+				"defaultValue"	"1"
+			}
+			"fademindist"
+			{
+				"fgdName"	"fademindist"
+				"type" 		"float"
+				"prop" 		"m_fadeMinDist"
+				"propType"		"data"
+				"defaultValue"	"-1.000000"
+			}
+			"fademaxdist"
+			{
+				"fgdName"	"fademaxdist"
+				"type" 		"float"
+				"prop" 		"m_fadeMaxDist"
+				"propType"		"data"
+				"defaultValue"	"0.000000"
+			}
 			
 		}
 	}
@@ -1216,20 +1238,53 @@
 	
 	}
 	
-	
+	"trigger_hurt"
+	{
+		"extend"	"brush"
+		"customOnly"	"1"
+		"version"	"1.32"
+		"handleOnly"	"1"
+		"handle_color"	"200 50 50"
+		"fields"
+		{
+			"damage"
+			{
+				"fgdName"	"damage"
+				"prop" 	"m_flDamage"
+				"type" 		"float"
+				"propType"	"data"
+			}
+			"damageType"
+			{
+				"fgdName"	"damageType"
+				"prop" 	"m_bitsDamageInflict"
+				"type" 		"int"
+				"propType"	"data"
+			}
+			"StartDisabled"
+			{
+				"fgdName"	"StartDisabled"
+				"type" 		"int"
+				"prop"		"m_bDisabled"
+				"propType"		"data"
+			}
+
+
+		}
+	}
 	"emp_comm_restrict"
 	{
 		"extend"	"brush"
 		"customOnly"	"1"
 		"version"	"1.04"
-		"moveable"	"0"
+		"handleOnly"	"1"
 	}
 	"emp_eng_restrict"
 	{
 		"extend"	"brush"
 		"version"	"1.04"
 		"customOnly"	"1"
-		"moveable"	"0"
+		"handleOnly"	"1"
 		"fields"
 		{
 			"restrictNF"
@@ -1257,11 +1312,80 @@
 		}
 		
 	}
+	"info_target"
+	{
+		"extend"	"entity"
+		"version"	"1.31"
+		"customOnly"	"1"
+		"handleOnly"	"1"
+		"handle_color"	"125 200 100"
+		
+	}
+	"func_water_analog"
+	{
+		"extend"	"brush"
+		"version"	"1.33"
+		"customOnly"	"1"
+		"handleOnly"	"1"
+		"fields"
+		{
+			"movedir"
+			{
+				"fgdName"	"movedir"
+				"prop" 	"m_vecMoveDir"
+				"type" 		"vector"
+				"propType"	"data"
+			}
+			"speed"
+			{
+				"fgdName"	"speed"
+				"prop" 	"m_flSpeed"
+				"type" 		"float"
+				"propType"	"data"
+			}
+			"movedistance"
+			{
+				"fgdName"	"movedistance"
+				"prop" 	"m_flMoveDistance"
+				"type" 		"float"
+				"propType"	"data"
+			}
+
+		}
+	}
+	
+	"trigger_brush"
+	{
+		"extend"	"brush"
+		"version"	"1.37"
+		"customOnly"	"1"
+		"handleOnly"	"1"
+		"fields"
+		{
+			"CollisionGroup"
+			{
+				"prop"	"m_CollisionGroup"
+				"type" 		"int"
+				"propType"		"data"
+				"postSpawn"	"true"
+				"defaultValue"	"0"
+			}
+			"SolidFlags"
+			{
+				"prop"	"m_usSolidFlags"
+				"type" 		"int"
+				"propType"		"data"
+				"postSpawn"	"true"
+				"defaultValue"	"0"
+			}
+		}
+		
+	}
 	"emp_info_params"
 	{
 		"extend"	"entity"
 		"version"	"1.08"
-		"moveable"	"0"
+		"handleOnly"	"1"
 		"removable"	"false"
 		"fields"
 		{

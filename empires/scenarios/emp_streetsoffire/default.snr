@@ -3,9 +3,9 @@
 	"Description"		" "
 	"details"		" "
 	"Tags"		" "
-	"Author"		"Hardcore Empires - Draft in pro"
-	"NF_Res"		"400.000000"
-	"BE_Res"		"400.000000"
+	"Author"		"Harmony Empires - Draft in prog"
+	"NF_Res"		"500.000000"
+	"BE_Res"		"500.000000"
 	"NF_Tickets"		"211.500000"
 	"BE_Tickets"		"211.500000"
 	"NF_Research"
@@ -43,15 +43,15 @@
 		"181033"
 		{
 			"className"		"emp_imp_commander"
-			"position"		"10704.146484 10131.168945 442.379364"
-			"angles"		"0.286667 -0.025345 1.249195"
+			"position"		"10704.145508 10131.239258 442.384186"
+			"angles"		"0.286674 -0.025292 1.251194"
 			"coords"		"D5"
 		}
 		"51672"
 		{
 			"className"		"emp_nf_commander"
-			"position"		"-7548.000000 -14178.951172 -191.671799"
-			"angles"		"0.000002 -0.000001 -0.585602"
+			"position"		"-7548.000000 -14179.065430 -191.672913"
+			"angles"		"0.000002 -0.000000 -0.586060"
 			"coords"		"A1"
 		}
 		"1000115"
@@ -140,11 +140,11 @@
 			"position"		"-32.000000 -12544.000000 -272.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"B1"
+			"target"		"nfbasenode"
 			"built"		"1"
 			"maxHealth"		"150"
 			"health"		"150"
 			"team"		"2"
-			"target"		"nfbasenode"
 		}
 		"792873"
 		{
@@ -152,11 +152,11 @@
 			"position"		"9872.000000 6688.000000 176.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"D4"
+			"target"		"impbasenode"
 			"built"		"1"
 			"maxHealth"		"150"
 			"health"		"150"
 			"team"		"3"
-			"target"		"impbasenode"
 		}
 		"278613"
 		{
@@ -469,6 +469,7 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademaxdist"		"8000.000000"
 		}
 		"782991"
 		{
@@ -480,6 +481,7 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademaxdist"		"8000.000000"
 		}
 		"782995"
 		{
@@ -491,6 +493,7 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademaxdist"		"8000.000000"
 		}
 		"782999"
 		{
@@ -502,6 +505,7 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademaxdist"		"8000.000000"
 		}
 		"717243"
 		{
@@ -513,6 +517,7 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademaxdist"		"8000.000000"
 		}
 		"717247"
 		{
@@ -524,6 +529,7 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademaxdist"		"8000.000000"
 		}
 		"782975"
 		{
@@ -535,6 +541,7 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademaxdist"		"8000.000000"
 		}
 		"782979"
 		{
@@ -546,6 +553,7 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademaxdist"		"8000.000000"
 		}
 		"782983"
 		{
@@ -557,6 +565,7 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademaxdist"		"8000.000000"
 		}
 		"782987"
 		{
@@ -568,6 +577,7 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademaxdist"		"8000.000000"
 		}
 		"782967"
 		{
@@ -579,6 +589,7 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademaxdist"		"8000.000000"
 		}
 		"782963"
 		{
@@ -590,6 +601,7 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademaxdist"		"8000.000000"
 		}
 		"782955"
 		{
@@ -601,6 +613,7 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademaxdist"		"8000.000000"
 		}
 		"716371"
 		{
@@ -612,6 +625,7 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademaxdist"		"8000.000000"
 		}
 		"716375"
 		{
@@ -623,6 +637,7 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademaxdist"		"8000.000000"
 		}
 		"716379"
 		{
@@ -634,6 +649,7 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademaxdist"		"8000.000000"
 		}
 		"864011"
 		{
@@ -645,6 +661,7 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademaxdist"		"8000.000000"
 		}
 		"870020"
 		{
@@ -656,6 +673,7 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademaxdist"		"8000.000000"
 		}
 		"716173"
 		{
@@ -667,6 +685,7 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademaxdist"		"8000.000000"
 		}
 		"716248"
 		{
@@ -678,6 +697,7 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademaxdist"		"8000.000000"
 		}
 		"716256"
 		{
@@ -689,6 +709,7 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademaxdist"		"8000.000000"
 		}
 		"716260"
 		{
@@ -700,6 +721,7 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademaxdist"		"8000.000000"
 		}
 		"716264"
 		{
@@ -711,6 +733,7 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademaxdist"		"8000.000000"
 		}
 		"716339"
 		{
@@ -722,6 +745,7 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademaxdist"		"8000.000000"
 		}
 		"717368"
 		{
@@ -733,6 +757,7 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademaxdist"		"8000.000000"
 		}
 		"717372"
 		{
@@ -744,6 +769,7 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademaxdist"		"8000.000000"
 		}
 		"989096"
 		{
@@ -755,6 +781,7 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademaxdist"		"8000.000000"
 		}
 		"989152"
 		{
@@ -766,6 +793,7 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademaxdist"		"8000.000000"
 		}
 		"68298"
 		{
@@ -777,6 +805,7 @@
 			"model"		"models/Common/props_foliage/trees/orexcluster2a.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademaxdist"		"5779.000000"
 		}
 		"68302"
 		{
@@ -788,6 +817,7 @@
 			"model"		"models/Common/props_foliage/trees/orexcluster2a.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademaxdist"		"9051.000000"
 		}
 		"68306"
 		{
@@ -799,6 +829,7 @@
 			"model"		"models/Common/props_foliage/trees/orexcluster2a.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademaxdist"		"10625.000000"
 		}
 		"68310"
 		{
@@ -810,6 +841,7 @@
 			"model"		"models/Common/props_foliage/trees/orexcluster2a.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademaxdist"		"8810.000000"
 		}
 		"68314"
 		{
@@ -821,6 +853,7 @@
 			"model"		"models/Common/props_foliage/trees/orexcluster2a.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademaxdist"		"10931.000000"
 		}
 		"68318"
 		{
@@ -832,6 +865,7 @@
 			"model"		"models/Common/props_foliage/trees/orexcluster2a.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademaxdist"		"10558.000000"
 		}
 		"68322"
 		{
@@ -843,6 +877,7 @@
 			"model"		"models/Common/props_foliage/trees/orexcluster2a.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademaxdist"		"12128.000000"
 		}
 		"68326"
 		{
@@ -854,6 +889,7 @@
 			"model"		"models/Common/props_foliage/trees/orexcluster2a.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademaxdist"		"12051.000000"
 		}
 		"68330"
 		{
@@ -865,6 +901,7 @@
 			"model"		"models/Common/props_foliage/trees/orexcluster2a.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademaxdist"		"10996.000000"
 		}
 		"69423"
 		{
@@ -887,6 +924,7 @@
 			"model"		"models/Common/props_foliage/trees/orexcluster2a.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademaxdist"		"7976.000000"
 		}
 		"72248"
 		{
@@ -898,6 +936,7 @@
 			"model"		"models/Common/props_foliage/trees/orexcluster2a.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademaxdist"		"7009.000000"
 		}
 		"88861"
 		{
@@ -909,6 +948,7 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademaxdist"		"8000.000000"
 		}
 		"88865"
 		{
@@ -920,6 +960,7 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademaxdist"		"8000.000000"
 		}
 		"88869"
 		{
@@ -931,6 +972,7 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademaxdist"		"8000.000000"
 		}
 		"152952"
 		{
@@ -975,6 +1017,7 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademaxdist"		"8000.000000"
 		}
 		"216659"
 		{
@@ -986,6 +1029,7 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademaxdist"		"8000.000000"
 		}
 		"216663"
 		{
@@ -997,6 +1041,7 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademaxdist"		"8000.000000"
 		}
 		"216667"
 		{
@@ -1008,6 +1053,7 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademaxdist"		"8000.000000"
 		}
 		"216671"
 		{
@@ -1019,6 +1065,7 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademaxdist"		"8000.000000"
 		}
 		"216675"
 		{
@@ -1030,6 +1077,7 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademaxdist"		"8000.000000"
 		}
 		"216679"
 		{
@@ -1041,6 +1089,7 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademaxdist"		"8000.000000"
 		}
 		"216683"
 		{
@@ -1052,6 +1101,7 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademaxdist"		"8000.000000"
 		}
 		"378727"
 		{
@@ -1063,6 +1113,7 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademaxdist"		"5054.000000"
 		}
 		"378746"
 		{
@@ -1074,6 +1125,7 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademaxdist"		"6000.000000"
 		}
 		"378754"
 		{
@@ -1085,6 +1137,7 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademaxdist"		"6615.000000"
 		}
 		"378769"
 		{
@@ -1096,6 +1149,7 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademaxdist"		"6344.000000"
 		}
 		"378798"
 		{
@@ -1107,6 +1161,7 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademaxdist"		"6453.000000"
 		}
 		"378802"
 		{
@@ -1118,6 +1173,7 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademaxdist"		"5390.000000"
 		}
 		"417305"
 		{
@@ -1128,6 +1184,7 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademaxdist"		"8000.000000"
 		}
 		"417309"
 		{
@@ -1138,6 +1195,7 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademaxdist"		"8000.000000"
 		}
 		"417313"
 		{
@@ -1148,6 +1206,7 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademaxdist"		"8000.000000"
 		}
 		"417317"
 		{
@@ -1158,6 +1217,7 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademaxdist"		"8000.000000"
 		}
 		"819381"
 		{
@@ -1278,6 +1338,7 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademaxdist"		"8000.000000"
 		}
 		"865137"
 		{
@@ -1288,6 +1349,7 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademaxdist"		"8000.000000"
 		}
 		"865139"
 		{
@@ -1298,6 +1360,7 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademaxdist"		"8000.000000"
 		}
 		"865141"
 		{
@@ -1308,6 +1371,7 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademaxdist"		"8000.000000"
 		}
 		"865143"
 		{
@@ -1318,6 +1382,7 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademaxdist"		"8000.000000"
 		}
 		"901423"
 		{
@@ -1329,6 +1394,7 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademaxdist"		"5779.000000"
 		}
 		"901444"
 		{
@@ -1340,6 +1406,7 @@
 			"model"		"models/Common/props_foliage/trees/orexcluster2a.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademaxdist"		"10625.000000"
 		}
 		"901452"
 		{
@@ -1351,6 +1418,7 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademaxdist"		"5779.000000"
 		}
 		"901454"
 		{
@@ -1362,6 +1430,7 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademaxdist"		"5779.000000"
 		}
 		"901456"
 		{
@@ -1373,6 +1442,7 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademaxdist"		"5779.000000"
 		}
 		"914330"
 		{
@@ -1384,6 +1454,7 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademaxdist"		"8000.000000"
 		}
 		"914378"
 		{
@@ -1395,6 +1466,7 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademaxdist"		"8000.000000"
 		}
 		"914380"
 		{
@@ -1406,6 +1478,7 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademaxdist"		"8000.000000"
 		}
 		"914382"
 		{
@@ -1417,6 +1490,7 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademaxdist"		"8000.000000"
 		}
 		"914424"
 		{
@@ -1428,6 +1502,7 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademaxdist"		"8000.000000"
 		}
 		"914426"
 		{
@@ -1439,6 +1514,7 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademaxdist"		"8000.000000"
 		}
 		"914428"
 		{
@@ -1450,6 +1526,7 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademaxdist"		"8000.000000"
 		}
 		"914430"
 		{
@@ -1461,6 +1538,7 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademaxdist"		"8000.000000"
 		}
 		"918240"
 		{
@@ -1472,6 +1550,7 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademaxdist"		"8000.000000"
 		}
 		"918242"
 		{
@@ -1483,6 +1562,7 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademaxdist"		"8000.000000"
 		}
 		"918248"
 		{
@@ -1494,6 +1574,7 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademaxdist"		"8000.000000"
 		}
 		"918252"
 		{
@@ -1505,6 +1586,7 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademaxdist"		"8000.000000"
 		}
 		"939645"
 		{
@@ -1637,13 +1719,14 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademaxdist"		"8000.000000"
 		}
 		"1097824"
 		{
 			"className"		"prop_dynamic"
 			"position"		"-1146.150024 13332.799805 253.100006"
 			"angles"		"-0.000000 90.000000 0.000000"
-			"Parent"		"Househiss2"
+			"Parent"		"#468997"
 			"coords"		"B5"
 			"effects"		"16"
 			"model"		"models/props_lab/freightelevatorbutton.mdl"
@@ -1659,6 +1742,7 @@
 			"model"		"models/common/props_foliage/trees/tree_orex.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademaxdist"		"8000.000000"
 		}
 		"420992"
 		{
@@ -1704,8 +1788,8 @@
 		"861424"
 		{
 			"className"		"prop_physics"
-			"position"		"4595.127441 -7932.652832 -22.630962"
-			"angles"		"0.447933 -0.042532 0.176988"
+			"position"		"4595.060059 -7932.626465 -22.596899"
+			"angles"		"0.189267 -0.041776 0.074781"
 			"coords"		"C2"
 			"model"		"models/props_junk/trafficcone001a.mdl"
 			"MoveType"		"6"
@@ -1717,8 +1801,8 @@
 		"861450"
 		{
 			"className"		"prop_physics"
-			"position"		"4521.834473 -7919.911621 -22.629196"
-			"angles"		"0.434596 -0.042579 0.171718"
+			"position"		"4521.847168 -7919.916504 -22.635620"
+			"angles"		"0.483096 -0.042766 0.190882"
 			"coords"		"C2"
 			"model"		"models/props_junk/trafficcone001a.mdl"
 			"MoveType"		"6"
@@ -1730,8 +1814,8 @@
 		"861454"
 		{
 			"className"		"prop_physics"
-			"position"		"4447.306641 -7867.070801 -22.640650"
-			"angles"		"0.521018 -0.043078 0.205867"
+			"position"		"4447.261230 -7867.052734 -22.617554"
+			"angles"		"0.346440 -0.042172 0.136884"
 			"coords"		"C2"
 			"model"		"models/props_junk/trafficcone001a.mdl"
 			"MoveType"		"6"
@@ -1743,8 +1827,8 @@
 		"861458"
 		{
 			"className"		"prop_physics"
-			"position"		"4676.387695 -7970.533203 -22.605661"
-			"angles"		"0.256065 -0.041916 0.101174"
+			"position"		"4676.419434 -7970.545898 -22.621893"
+			"angles"		"0.379324 -0.042261 0.149878"
 			"coords"		"C2"
 			"model"		"models/props_junk/trafficcone001a.mdl"
 			"MoveType"		"6"
@@ -1756,8 +1840,8 @@
 		"861494"
 		{
 			"className"		"prop_physics"
-			"position"		"4416.089355 -7504.039551 -22.626650"
-			"angles"		"0.415331 -0.042363 0.164105"
+			"position"		"4416.123047 -7504.053223 -22.643871"
+			"angles"		"0.545172 -0.043634 0.215393"
 			"coords"		"C2"
 			"model"		"models/props_junk/trafficcone001a.mdl"
 			"MoveType"		"6"
@@ -1769,8 +1853,8 @@
 		"861498"
 		{
 			"className"		"prop_physics"
-			"position"		"4473.120605 -7486.314453 -22.633133"
-			"angles"		"0.459894 -0.043246 0.182114"
+			"position"		"4473.068848 -7486.293457 -22.606174"
+			"angles"		"0.259965 -0.041908 0.102715"
 			"coords"		"C2"
 			"model"		"models/props_junk/trafficcone001a.mdl"
 			"MoveType"		"6"
@@ -1782,8 +1866,8 @@
 		"861502"
 		{
 			"className"		"prop_physics"
-			"position"		"4619.794434 -7412.904297 -22.594078"
-			"angles"		"0.167712 -0.041718 0.066264"
+			"position"		"4619.884766 -7412.939941 -22.639612"
+			"angles"		"0.513203 -0.043112 0.202779"
 			"coords"		"C2"
 			"model"		"models/props_junk/trafficcone001a.mdl"
 			"MoveType"		"6"
@@ -1795,8 +1879,8 @@
 		"861506"
 		{
 			"className"		"prop_physics"
-			"position"		"4541.610840 -7448.157715 -22.637585"
-			"angles"		"0.497922 -0.043159 0.196740"
+			"position"		"4541.569824 -7448.142090 -22.616869"
+			"angles"		"0.341243 -0.042187 0.134830"
 			"coords"		"C2"
 			"model"		"models/props_junk/trafficcone001a.mdl"
 			"MoveType"		"6"
@@ -1808,8 +1892,8 @@
 		"861510"
 		{
 			"className"		"prop_physics"
-			"position"		"4721.557617 -7422.685547 -22.595800"
-			"angles"		"0.180877 -0.041739 0.071466"
+			"position"		"4721.663574 -7422.727051 -22.649551"
+			"angles"		"0.587983 -0.044092 0.232329"
 			"coords"		"C2"
 			"model"		"models/props_junk/trafficcone001a.mdl"
 			"MoveType"		"6"
@@ -1817,63 +1901,6 @@
 			"MassScale"		"0.000000"
 			"InertiaScale"		"1.000000"
 			"DamageType"		"0"
-		}
-		"1000099"
-		{
-			"className"		"emp_comm_restrict"
-			"position"		"0.000000 0.000000 0.000000"
-			"angles"		"0.000000 0.000000 0.000000"
-			"coords"		"B3"
-			"Mins"		"-7881.000000 -4055.000000 -33.000000"
-			"Maxs"		"-5615.000000 -3861.000000 465.000000"
-		}
-		"1000102"
-		{
-			"className"		"emp_comm_restrict"
-			"position"		"0.000000 0.000000 0.000000"
-			"angles"		"0.000000 0.000000 0.000000"
-			"coords"		"B3"
-			"Mins"		"-2817.000000 -4055.000000 -33.000000"
-			"Maxs"		"91.000000 -3861.000000 465.000000"
-		}
-		"1000108"
-		{
-			"className"		"emp_comm_restrict"
-			"position"		"0.000000 0.000000 0.000000"
-			"angles"		"0.000000 0.000000 0.000000"
-			"coords"		"B3"
-			"Mins"		"2081.000000 -4053.000000 -33.000000"
-			"Maxs"		"3207.000000 -3859.000000 465.000000"
-		}
-		"1000144"
-		{
-			"className"		"emp_comm_restrict"
-			"position"		"0.000000 0.000000 0.000000"
-			"angles"		"0.000000 0.000000 0.000000"
-			"coords"		"B3"
-			"Mins"		"-1913.000000 -12119.000000 13.000000"
-			"Maxs"		"5151.000000 -8175.000000 7109.000000"
-		}
-		"1040870"
-		{
-			"className"		"emp_comm_restrict"
-			"position"		"0.000000 0.000000 0.000000"
-			"angles"		"0.000000 0.000000 0.000000"
-			"coords"		"B3"
-			"Mins"		"-6223.000000 -8929.000000 571.000000"
-			"Maxs"		"-5085.000000 -5185.000000 1287.000000"
-		}
-		"978296"
-		{
-			"className"		"emp_eng_restrict"
-			"position"		"0.000000 0.000000 0.000000"
-			"angles"		"0.000000 0.000000 0.000000"
-			"coords"		"B3"
-			"Mins"		"-4385.000000 1791.000000 -269.000000"
-			"Maxs"		"5357.000000 2305.000000 87.000000"
-			"restrictNF"		"2"
-			"restrictImp"		"2"
-			"turretRestrict"		"3"
 		}
 		"11717"
 		{
@@ -1888,6 +1915,6 @@
 			"turretRestrict"		"0"
 		}
 	}
-	"version"		"1.190000"
+	"version"		"1.370000"
 	"hLimit"		"1229333"
 }

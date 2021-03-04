@@ -3,7 +3,7 @@
 	"Description"		" "
 	"details"		" "
 	"Tags"		" "
-	"Author"		"Hardcore Empires - Main Server"
+	"Author"		"Harmony Empires - Main Server"
 	"NF_Res"		"500.000000"
 	"BE_Res"		"500.000000"
 	"NF_Tickets"		"211.199997"
@@ -43,15 +43,15 @@
 		"4520"
 		{
 			"className"		"emp_imp_commander"
-			"position"		"12223.915039 -7623.991211 268.353180"
-			"angles"		"0.286613 90.002975 1.238515"
+			"position"		"12223.921875 -7623.990234 268.358521"
+			"angles"		"0.286514 90.002266 1.241297"
 			"coords"		"E2"
 		}
 		"4528"
 		{
 			"className"		"emp_nf_commander"
-			"position"		"-10067.498047 12801.990234 993.289001"
-			"angles"		"0.753756 -149.916306 -2.670074"
+			"position"		"-10067.489258 12801.975586 993.289978"
+			"angles"		"0.753383 -149.915909 -2.669434"
 			"coords"		"A5"
 		}
 		"4526"
@@ -60,11 +60,11 @@
 			"position"		"-10718.000000 14704.000000 948.400024"
 			"angles"		"0.000000 90.000000 0.000000"
 			"coords"		"A5"
+			"target"		"res_1"
 			"built"		"1"
 			"maxHealth"		"150"
 			"health"		"150"
 			"team"		"2"
-			"target"		"res_1"
 		}
 		"4516"
 		{
@@ -72,11 +72,11 @@
 			"position"		"12816.000000 -5360.000000 284.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"E2"
+			"target"		"res_3"
 			"built"		"1"
 			"maxHealth"		"150"
 			"health"		"150"
 			"team"		"3"
-			"target"		"res_3"
 		}
 		"4255"
 		{
@@ -764,6 +764,7 @@
 			"model"		"models/lostcoast/props_junk/float01a.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademaxdist"		"4000.000000"
 		}
 		"350522"
 		{
@@ -775,6 +776,7 @@
 			"model"		"models/lostcoast/props_junk/float02a.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademaxdist"		"4000.000000"
 		}
 		"353051"
 		{
@@ -786,6 +788,7 @@
 			"model"		"models/nf/vehicles/ground/tankmedium/nf_medtank.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademaxdist"		"3000.000000"
 		}
 		"679693"
 		{
@@ -797,6 +800,8 @@
 			"model"		"models/props_c17/light_cagelight01_off.mdl"
 			"MoveType"		"7"
 			"SolidType"		"3"
+			"fademindist"		"3072.000000"
+			"fademaxdist"		"4096.000000"
 		}
 		"679841"
 		{
@@ -809,6 +814,8 @@
 			"model"		"models/props_c17/light_cagelight01_on.mdl"
 			"MoveType"		"7"
 			"SolidType"		"3"
+			"fademindist"		"3072.000000"
+			"fademaxdist"		"4096.000000"
 			"StartDisabled"		"1"
 		}
 		"693946"
@@ -821,6 +828,8 @@
 			"model"		"models/props_c17/light_cagelight01_off.mdl"
 			"MoveType"		"7"
 			"SolidType"		"3"
+			"fademindist"		"3072.000000"
+			"fademaxdist"		"4096.000000"
 		}
 		"693950"
 		{
@@ -833,6 +842,8 @@
 			"model"		"models/props_c17/light_cagelight01_on.mdl"
 			"MoveType"		"7"
 			"SolidType"		"3"
+			"fademindist"		"3072.000000"
+			"fademaxdist"		"4096.000000"
 			"StartDisabled"		"1"
 		}
 		"694269"
@@ -845,6 +856,8 @@
 			"model"		"models/props_c17/light_cagelight01_off.mdl"
 			"MoveType"		"7"
 			"SolidType"		"3"
+			"fademindist"		"3072.000000"
+			"fademaxdist"		"4096.000000"
 		}
 		"694273"
 		{
@@ -857,6 +870,8 @@
 			"model"		"models/props_c17/light_cagelight01_on.mdl"
 			"MoveType"		"7"
 			"SolidType"		"3"
+			"fademindist"		"3072.000000"
+			"fademaxdist"		"4096.000000"
 			"StartDisabled"		"1"
 		}
 		"694654"
@@ -870,6 +885,8 @@
 			"model"		"models/props_c17/light_cagelight01_on.mdl"
 			"MoveType"		"7"
 			"SolidType"		"3"
+			"fademindist"		"3072.000000"
+			"fademaxdist"		"4096.000000"
 			"StartDisabled"		"1"
 		}
 		"694658"
@@ -882,6 +899,8 @@
 			"model"		"models/props_c17/light_cagelight01_off.mdl"
 			"MoveType"		"7"
 			"SolidType"		"3"
+			"fademindist"		"3072.000000"
+			"fademaxdist"		"4096.000000"
 		}
 		"4534"
 		{
@@ -897,6 +916,6 @@
 			"turretRestrict"		"0"
 		}
 	}
-	"version"		"1.310000"
+	"version"		"1.370000"
 	"hLimit"		"731581"
 }

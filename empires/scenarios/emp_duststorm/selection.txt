@@ -1,0 +1,25 @@
+"ScenarioSelection"
+{
+	"Method"	"Vote"
+	"VoteTitle"	"Scenario"
+	"Options"
+	{
+		"Alpha"
+		{
+			"min_players"		"0"
+			"max_players"		"22"
+		}
+		"mik_kingofthehill"
+		{
+			"min_players"		"0"
+			"max_players"		"64"
+		}
+		"Bravo"
+		{
+			"min_players"		"40"
+			"max_players"		"64"
+		}
+	}
+	"IncludeCurrentScenario" "1"
+	"enabled"		"1"
+}

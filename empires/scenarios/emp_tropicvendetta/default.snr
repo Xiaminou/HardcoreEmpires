@@ -3,7 +3,7 @@
 	"Description"		" "
 	"details"		" "
 	"Tags"		" "
-	"Author"		"Hardcore Empires - Main Server"
+	"Author"		"Harmony Empires - Main Server"
 	"NF_Res"		"500.399994"
 	"BE_Res"		"500.399994"
 	"NF_Tickets"		"393.381012"
@@ -106,15 +106,15 @@
 		{
 			"className"		"emp_imp_commander"
 			"position"		"-12295.865234 -8847.650391 987.884460"
-			"angles"		"0.300730 -0.016566 1.242914"
+			"angles"		"0.300725 -0.016568 1.242913"
 			"coords"		"A2"
 			"name"		"cv_be"
 		}
 		"96166"
 		{
 			"className"		"emp_nf_commander"
-			"position"		"12301.103516 7936.553711 963.791077"
-			"angles"		"0.011812 -179.750168 -0.585327"
+			"position"		"12301.103516 7936.553223 963.791077"
+			"angles"		"0.011789 -179.749954 -0.585327"
 			"coords"		"E4"
 			"name"		"cv_nf"
 		}
@@ -803,11 +803,11 @@
 			"position"		"2539.000000 11420.000000 48.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"C5"
+			"target"		"res_node_NE"
 			"built"		"1"
 			"maxHealth"		"150"
 			"health"		"150"
 			"team"		"2"
-			"target"		"res_node_NE"
 		}
 		"119748"
 		{
@@ -815,11 +815,11 @@
 			"position"		"-2752.000000 -11050.000000 32.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"B1"
+			"target"		"res_node_SW"
 			"built"		"1"
 			"maxHealth"		"150"
 			"health"		"150"
 			"team"		"3"
-			"target"		"res_node_SW"
 		}
 		"39910"
 		{
@@ -1386,6 +1386,8 @@
 			"model"		"models/nf/props/nf_crate05.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"1000.000000"
+			"fademaxdist"		"1500.000000"
 		}
 		"101400"
 		{
@@ -1396,6 +1398,8 @@
 			"model"		"models/nf/props/nf_crate02.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"1000.000000"
+			"fademaxdist"		"1500.000000"
 		}
 		"101415"
 		{
@@ -1406,6 +1410,8 @@
 			"model"		"models/nf/props/nf_crate01.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"1000.000000"
+			"fademaxdist"		"1500.000000"
 		}
 		"101568"
 		{
@@ -1416,6 +1422,8 @@
 			"model"		"models/nf/props/nf_crate03.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"1500.000000"
+			"fademaxdist"		"1000.000000"
 		}
 		"101603"
 		{
@@ -1426,6 +1434,8 @@
 			"model"		"models/nf/props/nf_crate05.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"1500.000000"
+			"fademaxdist"		"1000.000000"
 		}
 		"101607"
 		{
@@ -1436,6 +1446,8 @@
 			"model"		"models/nf/props/nf_crate01.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"1500.000000"
+			"fademaxdist"		"1000.000000"
 		}
 		"101645"
 		{
@@ -1446,6 +1458,8 @@
 			"model"		"models/nf/props/nf_crate01.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"1500.000000"
+			"fademaxdist"		"1000.000000"
 		}
 		"101653"
 		{
@@ -1456,6 +1470,8 @@
 			"model"		"models/nf/props/nf_crate04.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"1500.000000"
+			"fademaxdist"		"1000.000000"
 		}
 		"101676"
 		{
@@ -1466,6 +1482,8 @@
 			"model"		"models/nf/props/nf_crate04.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"1500.000000"
+			"fademaxdist"		"1000.000000"
 		}
 		"101726"
 		{
@@ -1476,6 +1494,8 @@
 			"model"		"models/nf/props/nf_crate02.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"1500.000000"
+			"fademaxdist"		"1000.000000"
 		}
 		"132925"
 		{
@@ -1762,7 +1782,7 @@
 			"className"		"prop_dynamic"
 			"position"		"9122.433594 -13780.886719 -75.000000"
 			"angles"		"0.000000 8.878784 0.000000"
-			"Parent"		"shark_rotate1"
+			"Parent"		"#203299"
 			"coords"		"D1"
 			"name"		"shark1"
 			"model"		"models/pwnedyoass/shark.mdl"
@@ -1774,7 +1794,7 @@
 			"className"		"prop_dynamic"
 			"position"		"9164.275391 -9019.175781 -75.000000"
 			"angles"		"0.000000 -8.878784 0.000000"
-			"Parent"		"shark_rotate2"
+			"Parent"		"#205727"
 			"coords"		"D2"
 			"name"		"shark2"
 			"model"		"models/pwnedyoass/shark.mdl"
@@ -1794,6 +1814,6 @@
 			"turretRestrict"		"0"
 		}
 	}
-	"version"		"1.310000"
+	"version"		"1.370000"
 	"hLimit"		"303430"
 }

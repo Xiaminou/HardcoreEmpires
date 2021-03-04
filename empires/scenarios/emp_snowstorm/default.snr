@@ -3,13 +3,11 @@
 	"Description"		" "
 	"details"		" "
 	"Tags"		" "
-	"Author"		"Hardcore Empires - Backup Serve"
-	"NF_Res"		"400.000000"
-	"BE_Res"		"400.000000"
+	"Author"		"Harmony Empires - Main Server"
+	"NF_Res"		"500.000000"
+	"BE_Res"		"500.000000"
 	"NF_Tickets"		"211.199997"
 	"BE_Tickets"		"211.199997"
-	"version"		"1.240000"
-	"hLimit"		"147014"
 	"NF_Research"
 	{
 		"0"		"1"
@@ -45,15 +43,15 @@
 		"60203"
 		{
 			"className"		"emp_imp_commander"
-			"position"		"8108.080078 -8446.793945 694.369690"
-			"angles"		"0.287851 -0.020004 1.245453"
+			"position"		"8108.079102 -8445.486328 694.381653"
+			"angles"		"0.287894 -0.020130 1.250206"
 			"coords"		"D1"
 		}
 		"60205"
 		{
 			"className"		"emp_nf_commander"
-			"position"		"-8364.000000 -9196.224609 468.330475"
-			"angles"		"-0.000000 0.000000 -0.584686"
+			"position"		"-8364.000000 -9193.248047 468.327698"
+			"angles"		"-0.000002 0.000001 -0.585815"
 			"coords"		"A1"
 		}
 		"19005"
@@ -203,11 +201,11 @@
 			"position"		"-9104.000000 -10064.000000 396.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"A1"
+			"target"		"ref4"
 			"built"		"1"
 			"maxHealth"		"150"
 			"health"		"150"
 			"team"		"2"
-			"target"		"ref4"
 		}
 		"19002"
 		{
@@ -215,11 +213,11 @@
 			"position"		"7888.000000 -9045.580078 700.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"D1"
+			"target"		"BEstartref"
 			"built"		"1"
 			"maxHealth"		"150"
 			"health"		"150"
 			"team"		"3"
-			"target"		"BEstartref"
 		}
 		"19025"
 		{
@@ -519,6 +517,8 @@
 			"model"		"models/imperial/vehicles/air/transport/imp_dropship.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"6124.000000"
+			"fademaxdist"		"8192.000000"
 		}
 		"28374"
 		{
@@ -563,4 +563,6 @@
 			"turretRestrict"		"0"
 		}
 	}
+	"version"		"1.400000"
+	"hLimit"		"147014"
 }

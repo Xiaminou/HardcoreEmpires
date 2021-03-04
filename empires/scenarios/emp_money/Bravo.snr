@@ -1,5 +1,12 @@
 "Scenario"
 {
+	"Description"		"[Type: Gameplay] Start with a refinery"
+	"details"		"Barracks have 1000 HP and Refineries have 300 HP"
+	"Author"		"Xiam"
+	"CanBaseSwap"		"yes"
+	"CommFreezeTime"		"1"
+	"PlayerRefineryMultiplier"		"-1.000000"
+	"RefineryMultiplier"		"3.000000"
 	"NF_Res"		"600.000000"
 	"BE_Res"		"600.000000"
 	"NF_Tickets"		"281.000000"
@@ -399,13 +406,6 @@
 			"rate"		"4.000000"
 		}
 	}
-	"Description"		"[Type: Gameplay] Start with a refinery"
-	"details"		"Barracks have 1000 HP and Refineries have 300 HP"
-	"Author"		"Xiam"
-	"CanBaseSwap"		"yes"
-	"CommFreezeTime"		"1"
-	"PlayerRefineryMultiplier"		"-1.000000"
-	"RefineryMultiplier"		"3.000000"
 	"version"		"0.880000"
 	"hLimit"		"16839"
 }

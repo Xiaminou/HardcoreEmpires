@@ -3,7 +3,7 @@
 	"Description"		" "
 	"details"		" "
 	"Tags"		" "
-	"Author"		"Hardcore Empires - Main Server"
+	"Author"		"Harmony Empires - Main Server"
 	"NF_Res"		"500.399994"
 	"BE_Res"		"500.399994"
 	"NF_Tickets"		"211.250000"
@@ -71,15 +71,15 @@
 		"776735"
 		{
 			"className"		"emp_imp_commander"
-			"position"		"-9119.791016 5376.011230 4.369434"
-			"angles"		"0.285827 -89.988472 1.251436"
+			"position"		"-9119.754883 5375.997559 4.382538"
+			"angles"		"0.286946 -89.993164 1.255335"
 			"coords"		"A3"
 		}
 		"776923"
 		{
 			"className"		"emp_nf_commander"
-			"position"		"6112.496582 4416.000000 78.329292"
-			"angles"		"0.000004 90.000008 -0.581299"
+			"position"		"6112.409668 4416.000000 78.329849"
+			"angles"		"-0.000003 90.000008 -0.583160"
 			"coords"		"D3"
 		}
 		"1831747"
@@ -189,11 +189,11 @@
 			"position"		"7424.000000 3840.000000 -1.000000"
 			"angles"		"0.000000 270.000000 0.000000"
 			"coords"		"D3"
+			"target"		"res_dockpipe"
 			"built"		"1"
 			"maxHealth"		"150"
 			"health"		"150"
 			"team"		"2"
-			"target"		"res_dockpipe"
 		}
 		"777947"
 		{
@@ -201,11 +201,11 @@
 			"position"		"-6240.000000 4448.000000 0.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"A3"
+			"target"		"res_bestart"
 			"built"		"1"
 			"maxHealth"		"150"
 			"health"		"150"
 			"team"		"3"
-			"target"		"res_bestart"
 		}
 		"776153"
 		{
@@ -506,6 +506,8 @@
 			"model"		"models/props_lab/ladderset.mdl"
 			"MoveType"		"7"
 			"SolidType"		"0"
+			"fademindist"		"3000.000000"
+			"fademaxdist"		"4000.000000"
 		}
 		"113578"
 		{
@@ -517,6 +519,8 @@
 			"model"		"models/props_c17/consolebox01a.mdl"
 			"MoveType"		"7"
 			"SolidType"		"2"
+			"fademindist"		"3000.000000"
+			"fademaxdist"		"4000.000000"
 		}
 		"113350"
 		{
@@ -528,6 +532,8 @@
 			"model"		"models/props_c17/consolebox03a.mdl"
 			"MoveType"		"7"
 			"SolidType"		"2"
+			"fademindist"		"3000.000000"
+			"fademaxdist"		"4000.000000"
 		}
 		"113373"
 		{
@@ -539,6 +545,8 @@
 			"model"		"models/props_c17/consolebox01a.mdl"
 			"MoveType"		"7"
 			"SolidType"		"2"
+			"fademindist"		"3000.000000"
+			"fademaxdist"		"4000.000000"
 		}
 		"425680"
 		{
@@ -550,6 +558,8 @@
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
 			"MoveType"		"7"
 			"SolidType"		"3"
+			"fademindist"		"7000.000000"
+			"fademaxdist"		"8000.000000"
 		}
 		"492718"
 		{
@@ -560,6 +570,8 @@
 			"model"		"models/props_wasteland/barricade001a.mdl"
 			"MoveType"		"7"
 			"SolidType"		"0"
+			"fademindist"		"3000.000000"
+			"fademaxdist"		"4000.000000"
 		}
 		"492776"
 		{
@@ -570,6 +582,8 @@
 			"model"		"models/props_wasteland/barricade001a.mdl"
 			"MoveType"		"7"
 			"SolidType"		"0"
+			"fademindist"		"3000.000000"
+			"fademaxdist"		"4000.000000"
 		}
 		"142015"
 		{
@@ -581,6 +595,8 @@
 			"model"		"models/props_wasteland/gaspump001a.mdl"
 			"MoveType"		"7"
 			"SolidType"		"2"
+			"fademindist"		"3000.000000"
+			"fademaxdist"		"4000.000000"
 		}
 		"656099"
 		{
@@ -592,6 +608,8 @@
 			"model"		"models/props_lab/monitor01a.mdl"
 			"MoveType"		"7"
 			"SolidType"		"2"
+			"fademindist"		"3000.000000"
+			"fademaxdist"		"4000.000000"
 		}
 		"656101"
 		{
@@ -604,6 +622,8 @@
 			"Skin"		"1"
 			"MoveType"		"7"
 			"SolidType"		"2"
+			"fademindist"		"3000.000000"
+			"fademaxdist"		"4000.000000"
 		}
 		"658859"
 		{
@@ -614,6 +634,8 @@
 			"model"		"models/props_c17/oildrum001.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"3000.000000"
+			"fademaxdist"		"4000.000000"
 		}
 		"658861"
 		{
@@ -625,6 +647,8 @@
 			"Skin"		"2"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"3000.000000"
+			"fademaxdist"		"4000.000000"
 		}
 		"746422"
 		{
@@ -636,6 +660,8 @@
 			"model"		"models/props_debris/wood_board05a.mdl"
 			"MoveType"		"7"
 			"SolidType"		"2"
+			"fademindist"		"3000.000000"
+			"fademaxdist"		"4000.000000"
 		}
 		"746437"
 		{
@@ -647,6 +673,8 @@
 			"model"		"models/props_debris/wood_board06a.mdl"
 			"MoveType"		"7"
 			"SolidType"		"2"
+			"fademindist"		"3000.000000"
+			"fademaxdist"		"4000.000000"
 		}
 		"746495"
 		{
@@ -658,6 +686,8 @@
 			"model"		"models/props_debris/wood_board05a.mdl"
 			"MoveType"		"7"
 			"SolidType"		"2"
+			"fademindist"		"3000.000000"
+			"fademaxdist"		"4000.000000"
 		}
 		"746515"
 		{
@@ -669,6 +699,8 @@
 			"model"		"models/props_debris/wood_board06a.mdl"
 			"MoveType"		"7"
 			"SolidType"		"2"
+			"fademindist"		"3000.000000"
+			"fademaxdist"		"4000.000000"
 		}
 		"746527"
 		{
@@ -680,6 +712,8 @@
 			"model"		"models/props_debris/wood_board06a.mdl"
 			"MoveType"		"7"
 			"SolidType"		"2"
+			"fademindist"		"3000.000000"
+			"fademaxdist"		"4000.000000"
 		}
 		"746531"
 		{
@@ -691,6 +725,8 @@
 			"model"		"models/props_debris/wood_board06a.mdl"
 			"MoveType"		"7"
 			"SolidType"		"2"
+			"fademindist"		"3000.000000"
+			"fademaxdist"		"4000.000000"
 		}
 		"746555"
 		{
@@ -702,6 +738,8 @@
 			"model"		"models/props_debris/wood_board03a.mdl"
 			"MoveType"		"7"
 			"SolidType"		"2"
+			"fademindist"		"3000.000000"
+			"fademaxdist"		"4000.000000"
 		}
 		"808618"
 		{
@@ -713,6 +751,8 @@
 			"model"		"models/props_debris/wood_board06a.mdl"
 			"MoveType"		"7"
 			"SolidType"		"2"
+			"fademindist"		"3000.000000"
+			"fademaxdist"		"4000.000000"
 		}
 		"955634"
 		{
@@ -724,6 +764,8 @@
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"3000.000000"
+			"fademaxdist"		"4000.000000"
 		}
 		"1123116"
 		{
@@ -735,6 +777,8 @@
 			"model"		"models/common/props_foliage/trees/orexcluster2c.mdl"
 			"MoveType"		"7"
 			"SolidType"		"3"
+			"fademindist"		"7000.000000"
+			"fademaxdist"		"8000.000000"
 		}
 		"1204323"
 		{
@@ -746,6 +790,8 @@
 			"model"		"models/common/props_foliage/trees/orexcluster2b.mdl"
 			"MoveType"		"7"
 			"SolidType"		"3"
+			"fademindist"		"7000.000000"
+			"fademaxdist"		"8000.000000"
 		}
 		"1219926"
 		{
@@ -757,6 +803,8 @@
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
 			"MoveType"		"7"
 			"SolidType"		"3"
+			"fademindist"		"7000.000000"
+			"fademaxdist"		"8000.000000"
 		}
 		"337065"
 		{
@@ -768,6 +816,8 @@
 			"model"		"models/props_doors/door01_dynamic.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"3000.000000"
+			"fademaxdist"		"4000.000000"
 		}
 		"325771"
 		{
@@ -780,6 +830,8 @@
 			"Skin"		"1"
 			"MoveType"		"7"
 			"SolidType"		"2"
+			"fademindist"		"3000.000000"
+			"fademaxdist"		"4000.000000"
 		}
 		"83786"
 		{
@@ -791,6 +843,8 @@
 			"model"		"models/props_doors/door01_dynamic.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"3000.000000"
+			"fademaxdist"		"4000.000000"
 		}
 		"1576479"
 		{
@@ -801,6 +855,8 @@
 			"model"		"models/props_c17/bench01a.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"3000.000000"
+			"fademaxdist"		"4000.000000"
 		}
 		"1615884"
 		{
@@ -811,6 +867,8 @@
 			"model"		"models/props_c17/bench01a.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"3000.000000"
+			"fademaxdist"		"4000.000000"
 		}
 		"1615892"
 		{
@@ -821,6 +879,8 @@
 			"model"		"models/props_c17/bench01a.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"3000.000000"
+			"fademaxdist"		"4000.000000"
 		}
 		"1615916"
 		{
@@ -831,6 +891,8 @@
 			"model"		"models/props_c17/bench01a.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"3000.000000"
+			"fademaxdist"		"4000.000000"
 		}
 		"1615928"
 		{
@@ -841,6 +903,8 @@
 			"model"		"models/props_c17/bench01a.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"3000.000000"
+			"fademaxdist"		"4000.000000"
 		}
 		"1615940"
 		{
@@ -851,6 +915,8 @@
 			"model"		"models/props_c17/bench01a.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"3000.000000"
+			"fademaxdist"		"4000.000000"
 		}
 		"1615944"
 		{
@@ -861,6 +927,8 @@
 			"model"		"models/props_c17/bench01a.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"3000.000000"
+			"fademaxdist"		"4000.000000"
 		}
 		"167145"
 		{
@@ -872,6 +940,8 @@
 			"model"		"models/props_combine/breendesk.mdl"
 			"MoveType"		"7"
 			"SolidType"		"2"
+			"fademindist"		"3000.000000"
+			"fademaxdist"		"4000.000000"
 		}
 		"167125"
 		{
@@ -883,6 +953,8 @@
 			"model"		"models/props_interiors/furniture_desk01a.mdl"
 			"MoveType"		"7"
 			"SolidType"		"2"
+			"fademindist"		"3000.000000"
+			"fademaxdist"		"4000.000000"
 		}
 		"166970"
 		{
@@ -894,6 +966,8 @@
 			"model"		"models/props_combine/breendesk.mdl"
 			"MoveType"		"7"
 			"SolidType"		"2"
+			"fademindist"		"3000.000000"
+			"fademaxdist"		"4000.000000"
 		}
 		"1958232"
 		{
@@ -905,6 +979,8 @@
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"3000.000000"
+			"fademaxdist"		"4000.000000"
 		}
 		"2204052"
 		{
@@ -916,6 +992,8 @@
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
 			"MoveType"		"7"
 			"SolidType"		"3"
+			"fademindist"		"7000.000000"
+			"fademaxdist"		"8000.000000"
 		}
 		"2255572"
 		{
@@ -927,6 +1005,8 @@
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"7000.000000"
+			"fademaxdist"		"8000.000000"
 		}
 		"2255580"
 		{
@@ -938,6 +1018,8 @@
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"7000.000000"
+			"fademaxdist"		"8000.000000"
 		}
 		"2308044"
 		{
@@ -949,6 +1031,8 @@
 			"model"		"models/props_debris/wood_board04a.mdl"
 			"MoveType"		"7"
 			"SolidType"		"2"
+			"fademindist"		"3000.000000"
+			"fademaxdist"		"4000.000000"
 		}
 		"2340941"
 		{
@@ -960,6 +1044,8 @@
 			"model"		"models/props_canal/canal_cap001.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"3000.000000"
+			"fademaxdist"		"4000.000000"
 		}
 		"2340963"
 		{
@@ -971,6 +1057,8 @@
 			"model"		"models/props_canal/canal_bars002b.mdl"
 			"MoveType"		"7"
 			"SolidType"		"0"
+			"fademindist"		"3000.000000"
+			"fademaxdist"		"4000.000000"
 		}
 		"2368256"
 		{
@@ -983,6 +1071,8 @@
 			"Skin"		"2"
 			"MoveType"		"7"
 			"SolidType"		"2"
+			"fademindist"		"3000.000000"
+			"fademaxdist"		"4000.000000"
 		}
 		"2368258"
 		{
@@ -994,6 +1084,8 @@
 			"model"		"models/props_junk/wood_crate001a.mdl"
 			"MoveType"		"7"
 			"SolidType"		"2"
+			"fademindist"		"3000.000000"
+			"fademaxdist"		"4000.000000"
 		}
 		"2368260"
 		{
@@ -1006,6 +1098,8 @@
 			"Skin"		"2"
 			"MoveType"		"7"
 			"SolidType"		"2"
+			"fademindist"		"3000.000000"
+			"fademaxdist"		"4000.000000"
 		}
 		"2368270"
 		{
@@ -1018,6 +1112,8 @@
 			"Skin"		"1"
 			"MoveType"		"7"
 			"SolidType"		"2"
+			"fademindist"		"3000.000000"
+			"fademaxdist"		"4000.000000"
 		}
 		"2368272"
 		{
@@ -1030,6 +1126,8 @@
 			"Skin"		"1"
 			"MoveType"		"7"
 			"SolidType"		"2"
+			"fademindist"		"3000.000000"
+			"fademaxdist"		"4000.000000"
 		}
 		"2368274"
 		{
@@ -1041,6 +1139,8 @@
 			"model"		"models/props_junk/wood_crate002a.mdl"
 			"MoveType"		"7"
 			"SolidType"		"2"
+			"fademindist"		"3000.000000"
+			"fademaxdist"		"4000.000000"
 		}
 		"2368276"
 		{
@@ -1052,6 +1152,8 @@
 			"model"		"models/props_junk/wood_crate001a.mdl"
 			"MoveType"		"7"
 			"SolidType"		"2"
+			"fademindist"		"3000.000000"
+			"fademaxdist"		"4000.000000"
 		}
 		"2451518"
 		{
@@ -1064,6 +1166,8 @@
 			"Skin"		"1"
 			"MoveType"		"7"
 			"SolidType"		"2"
+			"fademindist"		"3000.000000"
+			"fademaxdist"		"4000.000000"
 		}
 		"2468734"
 		{
@@ -1075,6 +1179,8 @@
 			"model"		"models/props_doors/door01_dynamic.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"3000.000000"
+			"fademaxdist"		"4000.000000"
 		}
 		"2498734"
 		{
@@ -1086,6 +1192,8 @@
 			"model"		"models/props_combine/breendesk.mdl"
 			"MoveType"		"7"
 			"SolidType"		"2"
+			"fademindist"		"3000.000000"
+			"fademaxdist"		"4000.000000"
 		}
 		"1221683"
 		{
@@ -1096,6 +1204,8 @@
 			"model"		"models/props_doors/door01_dynamic.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
+			"fademindist"		"3000.000000"
+			"fademaxdist"		"4000.000000"
 		}
 		"1221695"
 		{
@@ -1107,6 +1217,8 @@
 			"model"		"models/props_c17/furnitureradiator001a.mdl"
 			"MoveType"		"7"
 			"SolidType"		"2"
+			"fademindist"		"3000.000000"
+			"fademaxdist"		"4000.000000"
 		}
 		"2505933"
 		{
@@ -1118,6 +1230,8 @@
 			"model"		"models/props_wasteland/gaspump001a.mdl"
 			"MoveType"		"7"
 			"SolidType"		"2"
+			"fademindist"		"3000.000000"
+			"fademaxdist"		"4000.000000"
 		}
 		"2505800"
 		{
@@ -1160,6 +1274,6 @@
 			"turretRestrict"		"0"
 		}
 	}
-	"version"		"1.310000"
+	"version"		"1.400000"
 	"hLimit"		"2582718"
 }

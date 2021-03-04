@@ -3,7 +3,7 @@
 	"Description"		" "
 	"details"		" "
 	"Tags"		" "
-	"Author"		"Hardcore Empires - Main Server"
+	"Author"		"Harmony Empires - Main Server"
 	"NF_Res"		"0.000000"
 	"BE_Res"		"0.000000"
 	"NF_Tickets"		"50.099998"
@@ -339,7 +339,7 @@
 			"model"		"models/Common/props_system/flagpole01_neutral.mdl"
 			"model2"		"models/Common/props_system/flagpole01_nf.mdl"
 			"model3"		"models/Common/props_system/flagpole01_imp.mdl"
-			"team"		"0"
+			"team"		"3"
 		}
 		"242411"
 		{
@@ -353,7 +353,7 @@
 			"model"		"models/Common/props_system/flagpole01_neutral.mdl"
 			"model2"		"models/Common/props_system/flagpole01_nf.mdl"
 			"model3"		"models/Common/props_system/flagpole01_imp.mdl"
-			"team"		"0"
+			"team"		"2"
 		}
 		"1061122"
 		{
@@ -367,7 +367,7 @@
 			"model"		"models/common/props_system/flag2_nuetral.mdl"
 			"model2"		"models/common/props_system/flag2_nf.mdl"
 			"model3"		"models/common/props_system/flag2_imp.mdl"
-			"team"		"0"
+			"team"		"2"
 		}
 		"1061154"
 		{
@@ -381,7 +381,7 @@
 			"model"		"models/common/props_system/flag2_nuetral.mdl"
 			"model2"		"models/common/props_system/flag2_nf.mdl"
 			"model3"		"models/common/props_system/flag2_imp.mdl"
-			"team"		"0"
+			"team"		"2"
 		}
 		"1061168"
 		{
@@ -395,7 +395,7 @@
 			"model"		"models/Common/props_system/flag2_nuetral.mdl"
 			"model2"		"models/Common/props_system/flag2_nf.mdl"
 			"model3"		"models/Common/props_system/flag2_imp.mdl"
-			"team"		"0"
+			"team"		"3"
 		}
 		"1061182"
 		{
@@ -409,7 +409,7 @@
 			"model"		"models/Common/props_system/flag2_nuetral.mdl"
 			"model2"		"models/Common/props_system/flag2_nf.mdl"
 			"model3"		"models/Common/props_system/flag2_imp.mdl"
-			"team"		"0"
+			"team"		"3"
 		}
 		"1124582"
 		{
@@ -423,7 +423,7 @@
 			"model"		"models/Common/props_system/flag2_nuetral.mdl"
 			"model2"		"models/Common/props_system/flag2_nf.mdl"
 			"model3"		"models/Common/props_system/flag2_imp.mdl"
-			"team"		"0"
+			"team"		"3"
 		}
 		"1124590"
 		{
@@ -437,7 +437,7 @@
 			"model"		"models/Common/props_system/flagpole01_neutral.mdl"
 			"model2"		"models/Common/props_system/flagpole01_nf.mdl"
 			"model3"		"models/Common/props_system/flagpole01_imp.mdl"
-			"team"		"0"
+			"team"		"2"
 		}
 		"1124600"
 		{
@@ -451,7 +451,7 @@
 			"model"		"models/Common/props_system/flagpole01_neutral.mdl"
 			"model2"		"models/Common/props_system/flagpole01_nf.mdl"
 			"model3"		"models/Common/props_system/flagpole01_imp.mdl"
-			"team"		"0"
+			"team"		"2"
 		}
 		"1124608"
 		{
@@ -479,7 +479,7 @@
 			"model"		"models/Common/props_system/flagpole01_neutral.mdl"
 			"model2"		"models/Common/props_system/flagpole01_nf.mdl"
 			"model3"		"models/Common/props_system/flagpole01_imp.mdl"
-			"team"		"0"
+			"team"		"3"
 		}
 		"1124626"
 		{
@@ -493,7 +493,7 @@
 			"model"		"models/Common/props_system/flagpole01_neutral.mdl"
 			"model2"		"models/Common/props_system/flagpole01_nf.mdl"
 			"model3"		"models/Common/props_system/flagpole01_imp.mdl"
-			"team"		"0"
+			"team"		"3"
 		}
 		"1124636"
 		{
@@ -535,7 +535,7 @@
 			"model"		"models/Common/props_system/flag2_nuetral.mdl"
 			"model2"		"models/Common/props_system/flag2_nf.mdl"
 			"model3"		"models/Common/props_system/flag2_imp.mdl"
-			"team"		"0"
+			"team"		"3"
 		}
 		"1124698"
 		{
@@ -549,7 +549,7 @@
 			"model"		"models/Common/props_system/flag2_nuetral.mdl"
 			"model2"		"models/Common/props_system/flag2_nf.mdl"
 			"model3"		"models/Common/props_system/flag2_imp.mdl"
-			"team"		"0"
+			"team"		"3"
 		}
 		"1124702"
 		{
@@ -563,7 +563,7 @@
 			"model"		"models/Common/props_system/flag2_nuetral.mdl"
 			"model2"		"models/Common/props_system/flag2_nf.mdl"
 			"model3"		"models/Common/props_system/flag2_imp.mdl"
-			"team"		"0"
+			"team"		"3"
 		}
 		"1124706"
 		{
@@ -577,7 +577,7 @@
 			"model"		"models/Common/props_system/flag2_nuetral.mdl"
 			"model2"		"models/Common/props_system/flag2_nf.mdl"
 			"model3"		"models/Common/props_system/flag2_imp.mdl"
-			"team"		"0"
+			"team"		"3"
 		}
 		"1124710"
 		{
@@ -731,7 +731,7 @@
 			"model"		"models/Common/props_system/flag2_nuetral.mdl"
 			"model2"		"models/Common/props_system/flag2_nf.mdl"
 			"model3"		"models/Common/props_system/flag2_imp.mdl"
-			"team"		"0"
+			"team"		"3"
 		}
 		"1124754"
 		{
@@ -745,7 +745,7 @@
 			"model"		"models/Common/props_system/flag2_nuetral.mdl"
 			"model2"		"models/Common/props_system/flag2_nf.mdl"
 			"model3"		"models/Common/props_system/flag2_imp.mdl"
-			"team"		"0"
+			"team"		"3"
 		}
 		"1124758"
 		{
@@ -759,7 +759,7 @@
 			"model"		"models/Common/props_system/flag2_nuetral.mdl"
 			"model2"		"models/Common/props_system/flag2_nf.mdl"
 			"model3"		"models/Common/props_system/flag2_imp.mdl"
-			"team"		"0"
+			"team"		"3"
 		}
 		"1124762"
 		{
@@ -773,7 +773,7 @@
 			"model"		"models/Common/props_system/flag2b_nuetral.mdl"
 			"model2"		"models/Common/props_system/flag2b_nf.mdl"
 			"model3"		"models/Common/props_system/flag2b_imp.mdl"
-			"team"		"0"
+			"team"		"3"
 		}
 		"1124766"
 		{
@@ -787,7 +787,7 @@
 			"model"		"models/Common/props_system/flag2_nuetral.mdl"
 			"model2"		"models/Common/props_system/flag2_nf.mdl"
 			"model3"		"models/Common/props_system/flag2_imp.mdl"
-			"team"		"0"
+			"team"		"3"
 		}
 		"1124770"
 		{
@@ -801,7 +801,7 @@
 			"model"		"models/Common/props_system/flag2b_nuetral.mdl"
 			"model2"		"models/Common/props_system/flag2b_nf.mdl"
 			"model3"		"models/Common/props_system/flag2b_imp.mdl"
-			"team"		"0"
+			"team"		"3"
 		}
 		"1124774"
 		{
@@ -815,7 +815,7 @@
 			"model"		"models/Common/props_system/flag2b_nuetral.mdl"
 			"model2"		"models/Common/props_system/flag2b_nf.mdl"
 			"model3"		"models/Common/props_system/flag2b_imp.mdl"
-			"team"		"0"
+			"team"		"3"
 		}
 		"1124790"
 		{
@@ -871,7 +871,7 @@
 			"model"		"models/Common/props_system/flag2_nuetral.mdl"
 			"model2"		"models/Common/props_system/flag2_nf.mdl"
 			"model3"		"models/Common/props_system/flag2_imp.mdl"
-			"team"		"0"
+			"team"		"2"
 		}
 		"1124806"
 		{
@@ -885,7 +885,7 @@
 			"model"		"models/Common/props_system/flag2_nuetral.mdl"
 			"model2"		"models/Common/props_system/flag2_nf.mdl"
 			"model3"		"models/Common/props_system/flag2_imp.mdl"
-			"team"		"0"
+			"team"		"2"
 		}
 		"1124810"
 		{
@@ -899,7 +899,7 @@
 			"model"		"models/Common/props_system/flag2_nuetral.mdl"
 			"model2"		"models/Common/props_system/flag2_nf.mdl"
 			"model3"		"models/Common/props_system/flag2_imp.mdl"
-			"team"		"0"
+			"team"		"2"
 		}
 		"1124814"
 		{
@@ -913,7 +913,7 @@
 			"model"		"models/Common/props_system/flag2_nuetral.mdl"
 			"model2"		"models/Common/props_system/flag2_nf.mdl"
 			"model3"		"models/Common/props_system/flag2_imp.mdl"
-			"team"		"0"
+			"team"		"2"
 		}
 		"1124818"
 		{
@@ -927,7 +927,7 @@
 			"model"		"models/Common/props_system/flag2_nuetral.mdl"
 			"model2"		"models/Common/props_system/flag2_nf.mdl"
 			"model3"		"models/Common/props_system/flag2_imp.mdl"
-			"team"		"0"
+			"team"		"2"
 		}
 		"1124822"
 		{
@@ -941,7 +941,7 @@
 			"model"		"models/Common/props_system/flag2_nuetral.mdl"
 			"model2"		"models/Common/props_system/flag2_nf.mdl"
 			"model3"		"models/Common/props_system/flag2_imp.mdl"
-			"team"		"0"
+			"team"		"2"
 		}
 		"1124826"
 		{
@@ -955,7 +955,7 @@
 			"model"		"models/Common/props_system/flag2b_nuetral.mdl"
 			"model2"		"models/Common/props_system/flag2b_nf.mdl"
 			"model3"		"models/Common/props_system/flag2b_imp.mdl"
-			"team"		"0"
+			"team"		"2"
 		}
 		"1124830"
 		{
@@ -969,7 +969,7 @@
 			"model"		"models/Common/props_system/flag2_nuetral.mdl"
 			"model2"		"models/Common/props_system/flag2_nf.mdl"
 			"model3"		"models/Common/props_system/flag2_imp.mdl"
-			"team"		"0"
+			"team"		"2"
 		}
 		"1124834"
 		{
@@ -983,7 +983,7 @@
 			"model"		"models/Common/props_system/flag2b_nuetral.mdl"
 			"model2"		"models/Common/props_system/flag2b_nf.mdl"
 			"model3"		"models/Common/props_system/flag2b_imp.mdl"
-			"team"		"0"
+			"team"		"2"
 		}
 		"1124838"
 		{
@@ -997,7 +997,7 @@
 			"model"		"models/Common/props_system/flag2b_nuetral.mdl"
 			"model2"		"models/Common/props_system/flag2b_nf.mdl"
 			"model3"		"models/Common/props_system/flag2b_imp.mdl"
-			"team"		"0"
+			"team"		"2"
 		}
 		"1124842"
 		{
@@ -1011,7 +1011,7 @@
 			"model"		"models/Common/props_system/flag2_nuetral.mdl"
 			"model2"		"models/Common/props_system/flag2_nf.mdl"
 			"model3"		"models/Common/props_system/flag2_imp.mdl"
-			"team"		"0"
+			"team"		"2"
 		}
 		"1124846"
 		{
@@ -1025,7 +1025,7 @@
 			"model"		"models/Common/props_system/flag2_nuetral.mdl"
 			"model2"		"models/Common/props_system/flag2_nf.mdl"
 			"model3"		"models/Common/props_system/flag2_imp.mdl"
-			"team"		"0"
+			"team"		"2"
 		}
 		"1124850"
 		{
@@ -1039,7 +1039,7 @@
 			"model"		"models/Common/props_system/flag2_nuetral.mdl"
 			"model2"		"models/Common/props_system/flag2_nf.mdl"
 			"model3"		"models/Common/props_system/flag2_imp.mdl"
-			"team"		"0"
+			"team"		"2"
 		}
 		"1134219"
 		{
@@ -1236,7 +1236,7 @@
 			"resToGiveImp"		"1.000000"
 			"reinfToTakeNF"		"0.000000"
 			"reinfToTakeImp"		"0.000000"
-			"canNFCap"		"0"
+			"canNFCap"		"1"
 			"canImpCap"		"0"
 		}
 		"1124680"
@@ -1260,7 +1260,7 @@
 			"reinfToTakeNF"		"0.000000"
 			"reinfToTakeImp"		"0.000000"
 			"canNFCap"		"0"
-			"canImpCap"		"0"
+			"canImpCap"		"1"
 		}
 		"1054785"
 		{
@@ -2334,7 +2334,7 @@
 			"coords"		"B7"
 			"name"		"nf_ac_2"
 			"pointNumber"		"3"
-			"disabled"		"1"
+			"disabled"		"0"
 			"model"		"models/NF/Props/nf_crateammo.mdl"
 		}
 		"668912"
@@ -2377,7 +2377,7 @@
 			"coords"		"F3"
 			"name"		"imp_ac_6"
 			"pointNumber"		"7"
-			"disabled"		"1"
+			"disabled"		"0"
 			"model"		"models/Imperial/Props/imp_crateammo.mdl"
 		}
 		"474713"
@@ -2420,7 +2420,7 @@
 			"angles"		"0.000000 270.000000 0.000000"
 			"coords"		"F2"
 			"pointNumber"		"9"
-			"disabled"		"1"
+			"disabled"		"0"
 			"model"		"models/Imperial/Props/imp_crateammo.mdl"
 		}
 		"1117729"
@@ -2431,7 +2431,7 @@
 			"coords"		"D3"
 			"name"		"imp_ac_6"
 			"pointNumber"		"6"
-			"disabled"		"1"
+			"disabled"		"0"
 			"model"		"models/Imperial/Props/imp_crateammo.mdl"
 		}
 		"474560"
@@ -2486,7 +2486,7 @@
 			"coords"		"B7"
 			"name"		"nf_hc_2"
 			"pointNumber"		"3"
-			"disabled"		"1"
+			"disabled"		"0"
 			"model"		"models/NF/Props/nf_cratehealth.mdl"
 		}
 		"474500"
@@ -2529,7 +2529,7 @@
 			"coords"		"F3"
 			"name"		"imp_hc_6"
 			"pointNumber"		"7"
-			"disabled"		"1"
+			"disabled"		"0"
 			"model"		"models/Imperial/Props/imp_cratehealth.mdl"
 		}
 		"474716"
@@ -2572,7 +2572,7 @@
 			"angles"		"0.000000 270.000000 0.000000"
 			"coords"		"F2"
 			"pointNumber"		"9"
-			"disabled"		"1"
+			"disabled"		"0"
 			"model"		"models/Imperial/Props/imp_cratehealth.mdl"
 		}
 		"1076007"
@@ -2583,7 +2583,7 @@
 			"coords"		"D3"
 			"name"		"imp_hc_5"
 			"pointNumber"		"6"
-			"disabled"		"1"
+			"disabled"		"0"
 			"model"		"models/Imperial/Props/imp_cratehealth.mdl"
 		}
 		"148562"
@@ -2782,6 +2782,6 @@
 			"turretRestrict"		"3"
 		}
 	}
-	"version"		"1.310000"
+	"version"		"1.400000"
 	"hLimit"		"1195132"
 }

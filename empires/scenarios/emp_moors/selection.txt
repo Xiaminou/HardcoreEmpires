@@ -1,0 +1,19 @@
+"ScenarioSelection"
+{
+	"Method"	"Vote"
+	"VoteTitle"	"Scenario"
+	"Options"
+	{
+		"Charlie"
+		{
+			"min_players"		"32"
+			"max_players"		"65"
+		}
+		"Echo"
+		{
+			"min_players"		"32"
+			"max_players"		"50"
+	}
+	"IncludeCurrentScenario" "1"
+	"enabled"		"1"
+}

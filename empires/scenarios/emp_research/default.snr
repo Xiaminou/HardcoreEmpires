@@ -3,9 +3,9 @@
 	"Description"		" "
 	"details"		" "
 	"Tags"		" "
-	"Author"		"Hardcore Empires - Main Server"
-	"NF_Res"		"399.899994"
-	"BE_Res"		"399.899994"
+	"Author"		"Harmony Empires - Main Server"
+	"NF_Res"		"500.100006"
+	"BE_Res"		"500.100006"
 	"NF_Tickets"		"211.199997"
 	"BE_Tickets"		"211.199997"
 	"NF_Research"
@@ -121,15 +121,15 @@
 		"4653"
 		{
 			"className"		"emp_imp_commander"
-			"position"		"-10831.866211 9258.622070 1005.014160"
-			"angles"		"-3.048327 -94.454727 1.652508"
+			"position"		"-10831.875977 9258.671875 1005.019836"
+			"angles"		"-3.045211 -94.445923 1.660517"
 			"coords"		"A4"
 		}
 		"4659"
 		{
 			"className"		"emp_nf_commander"
-			"position"		"9663.150391 -4967.301758 736.030151"
-			"angles"		"1.190765 172.593781 -0.539215"
+			"position"		"9663.152344 -4967.307617 736.030518"
+			"angles"		"1.190911 172.596481 -0.538849"
 			"coords"		"D2"
 		}
 		"319937"
@@ -201,11 +201,11 @@
 			"position"		"10250.000000 -5834.000000 691.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"D2"
+			"target"		"ResP1"
 			"built"		"1"
 			"maxHealth"		"150"
 			"health"		"150"
 			"team"		"2"
-			"target"		"ResP1"
 		}
 		"311761"
 		{
@@ -214,11 +214,11 @@
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"A4"
 			"name"		"ResP9"
+			"target"		"ResP9"
 			"built"		"1"
 			"maxHealth"		"150"
 			"health"		"150"
 			"team"		"3"
-			"target"		"ResP9"
 		}
 		"175567"
 		{
@@ -646,9 +646,9 @@
 		"328484"
 		{
 			"className"		"prop_dynamic"
-			"position"		"-11653.481445 -8651.600586 1807.175049"
+			"position"		"-11651.079102 -8654.165039 1808.589478"
 			"angles"		"338.073639 313.134918 0.000000"
-			"Parent"		"seagull_train_1"
+			"Parent"		"#328518"
 			"coords"		"A1"
 			"name"		"seagull"
 			"model"		"models/seagull.mdl"
@@ -713,6 +713,6 @@
 			"turretRestrict"		"0"
 		}
 	}
-	"version"		"1.260000"
+	"version"		"1.340000"
 	"hLimit"		"341688"
 }

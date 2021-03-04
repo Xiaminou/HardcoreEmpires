@@ -1,5 +1,12 @@
 "Scenario"
 {
+	"Description"		"[Type: Gameplay] Additionnal flags and props added to the middle"
+	"details"			"Flags give 1 resource/s and take one player to capture each"
+	"Author"			"Xiam"
+	"CanBaseSwap"		"yes"
+	"CommFreezeTime"	"-1"
+	"version"			"0.680000"
+	"hLimit"			"98297"
 	"Entities"
 	{
 		"19896"
@@ -3785,11 +3792,4 @@
 			"canSabotage"		"0"
 		}
 	}
-	"Description"		"[Type: Gameplay] Additionnal flags and props added to the middle"
-	"details"		"Flags give 1 resource/s and take one player to capture each"
-	"Author"		"Xiam"
-	"CanBaseSwap"		"yes"
-	"CommFreezeTime"		"-1"
-	"version"		"0.680000"
-	"hLimit"		"98297"
 }

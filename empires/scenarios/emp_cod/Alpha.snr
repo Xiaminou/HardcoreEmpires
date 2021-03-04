@@ -1,24 +1,64 @@
 "Scenario"
 {
-	"Description"	"Start North and South"
+	"Description"	"[Type: Location] Start West (A3) and East (D3)"
 	"Author"		"Xiam"
 	"CanBaseSwap"	"yes"
 	"CommFreezeTime"	"1"
 	"Entities"
 	{
+		"273029"
+		{
+			"className"		"emp_building_nf_barracks"
+			"position"		"5376.000000 1024.000000 -3072.000000"
+			"angles"		"0.000000 271.000000 0.000000"
+			"coords"		"D3"
+			"built"		"1"
+			"health"		"250"
+			"team"		"2"
+		}
+		"283337"
+		{
+			"className"		"emp_building_imp_armory"
+			"position"		"-5376.000000 0.000000 -3068.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"A3"
+			"built"		"1"
+			"health"		"100"
+			"team"		"3"
+		}
+		"283346"
+		{
+			"className"		"emp_building_imp_barracks"
+			"position"		"-5376.000000 -1024.000000 -3068.000000"
+			"angles"		"0.000000 272.000000 0.000000"
+			"coords"		"A3"
+			"built"		"1"
+			"health"		"250"
+			"team"		"3"
+		}
 		"283393"
 		{
 			"className"		"emp_imp_commander"
-			"position"		"143.769974 6360.051270 -3067.330566"
-			"angles"		"-0.000350 -4.567130 1.249148"
-			"coords"		"C5"
+			"position"		"-5119.948730 763.308838 -3065.201660"
+			"angles"		"0.147453 -0.002762 1.873143"
+			"coords"		"B3"
 		}
 		"283397"
 		{
 			"className"		"emp_nf_commander"
-			"position"		"1009.301697 -6595.837891 -2994.674072"
-			"angles"		"0.000060 83.588318 -0.585724"
-			"coords"		"C1"
+			"position"		"5121.467773 -643.800903 -2993.796387"
+			"angles"		"0.516864 -0.043280 -0.564117"
+			"coords"		"D3"
+		}
+		"297079"
+		{
+			"className"		"emp_building_nf_armory"
+			"position"		"5120.000000 0.000000 -3072.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"D3"
+			"built"		"1"
+			"health"		"100"
+			"team"		"2"
 		}
 		"314010"
 		{
@@ -27,7 +67,7 @@
 			"position"		"336.000000 -7624.000000 -3040.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"C1"
-			"enabled"		"0"
+			"enabled"		"1"
 			"resPerSecond"		"1.000000"
 		}
 		"314145"
@@ -37,7 +77,7 @@
 			"position"		"-5552.000000 1512.000000 -3040.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"A3"
-			"enabled"		"1"
+			"enabled"		"0"
 			"resPerSecond"		"1.000000"
 		}
 		"314168"
@@ -47,7 +87,7 @@
 			"position"		"1432.000000 5552.000000 -3040.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"C4"
-			"enabled"		"0"
+			"enabled"		"1"
 			"resPerSecond"		"1.000000"
 		}
 		"314178"
@@ -57,7 +97,7 @@
 			"position"		"5224.000000 -1392.000000 -3040.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"D3"
-			"enabled"		"1"
+			"enabled"		"0"
 			"resPerSecond"		"1.000000"
 		}
 		"314186"
@@ -80,49 +120,29 @@
 			"enabled"		"1"
 			"resPerSecond"		"1.000000"
 		}
-		"5000001"
+		"314225"
 		{
 			"className"		"emp_building_nf_refinery"
-			"position"		"336.000000 -7624.000000 -3040.000000"
-			"angles"		"0.000000 -91.192009 0.000000"
-			"coords"		"C1"
+			"position"		"5224.000000 -1392.000000 -3049.739990"
+			"angles"		"0.000000 92.000000 0.000000"
+			"coords"		"D3"
 			"built"		"1"
 			"health"		"150"
 			"team"		"2"
-			"target"		"ref3"
+			"target"		"ref1"
 		}
-		"5000002"
-		{
-			"className"		"emp_building_imp_barracks"
-			"position"		"716.309875 6196.007813 -3062.971924"
-			"angles"		"0.000000 265.435669 0.000000"
-			"coords"		"C5"
-			"built"		"1"
-			"health"		"250"
-			"team"		"3"
-		}
-		"5000003"
+		"314280"
 		{
 			"className"		"emp_building_imp_refinery"
-			"position"		"1432.000000 5552.000000 -3040.000000"
-			"angles"		"0.000000 93.048714 0.000000"
-			"coords"		"C4"
+			"position"		"-5552.000000 1512.000000 -3048.969971"
+			"angles"		"0.000000 228.000000 0.000000"
+			"coords"		"A3"
 			"built"		"1"
 			"health"		"150"
 			"team"		"3"
-			"target"		"ref2"
-		}
-		"5000004"
-		{
-			"className"		"emp_building_nf_barracks"
-			"position"		"1207.270264 -7460.187988 -3067.153076"
-			"angles"		"0.000000 445.396912 0.000000"
-			"coords"		"C1"
-			"built"		"1"
-			"health"		"250"
-			"team"		"2"
+			"target"		"ref6"
 		}
 	}
 	"version"		"0.680000"
-	"hLimit"		"314198"
+	"hLimit"		"314280"
 }

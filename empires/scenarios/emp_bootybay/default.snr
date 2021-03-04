@@ -1,5 +1,9 @@
 "Scenario"
 {
+	"Description"		" "
+	"details"		" "
+	"Tags"		" "
+	"Author"		"Harmony Empires - Main Server"
 	"NF_Res"		"300.000000"
 	"BE_Res"		"300.000000"
 	"NF_Tickets"		"500.000000"
@@ -14,126 +18,6 @@
 	}
 	"Entities"
 	{
-		"24030"
-		{
-			"className"		"emp_resource_point_prop"
-			"name"		"res_2_prop"
-			"position"		"-5264.000000 -3984.000000 0.281257"
-			"angles"		"0.000000 0.000000 0.000000"
-			"coords"		"B2"
-			"enabled"		"1"
-			"model"		"models/props_combine/combinethumper002.mdl"
-		}
-		"23882"
-		{
-			"className"		"emp_resource_point"
-			"name"		"res_2"
-			"position"		"-5248.000000 -4000.000000 8.000000"
-			"angles"		"0.000000 0.000000 0.000000"
-			"coords"		"B2"
-			"enabled"		"1"
-			"resPerSecond"		"2.000000"
-		}
-		"24340"
-		{
-			"className"		"emp_resource_point_prop"
-			"name"		"res_1_prop"
-			"position"		"-10640.000000 1168.000000 0.281272"
-			"angles"		"0.000000 0.000000 0.000000"
-			"coords"		"A3"
-			"enabled"		"0"
-			"model"		"models/props_combine/combinethumper002.mdl"
-		}
-		"24342"
-		{
-			"className"		"emp_resource_point"
-			"name"		"res_1"
-			"position"		"-10624.000000 1152.000000 8.000010"
-			"angles"		"0.000000 0.000000 0.000000"
-			"coords"		"A3"
-			"enabled"		"0"
-			"resPerSecond"		"3.000000"
-		}
-		"24399"
-		{
-			"className"		"emp_resource_point_prop"
-			"name"		"res_3_prop"
-			"position"		"-5904.000000 3312.000000 0.281257"
-			"angles"		"0.000000 0.000000 0.000000"
-			"coords"		"B4"
-			"enabled"		"1"
-			"model"		"models/props_combine/combinethumper002.mdl"
-		}
-		"24401"
-		{
-			"className"		"emp_resource_point"
-			"name"		"res_3"
-			"position"		"-5888.000000 3296.000000 8.000000"
-			"angles"		"0.000000 0.000000 0.000000"
-			"coords"		"B4"
-			"enabled"		"1"
-			"resPerSecond"		"1.000000"
-		}
-		"24427"
-		{
-			"className"		"emp_resource_point_prop"
-			"name"		"res_4_prop"
-			"position"		"5872.000000 3248.000000 0.281241"
-			"angles"		"0.000000 0.000000 0.000000"
-			"coords"		"D4"
-			"enabled"		"1"
-			"model"		"models/props_combine/combinethumper002.mdl"
-		}
-		"24429"
-		{
-			"className"		"emp_resource_point"
-			"name"		"res_4"
-			"position"		"5888.000000 3232.000000 7.999980"
-			"angles"		"0.000000 0.000000 0.000000"
-			"coords"		"D4"
-			"enabled"		"1"
-			"resPerSecond"		"1.000000"
-		}
-		"28221"
-		{
-			"className"		"emp_resource_point_prop"
-			"name"		"res_5_prop"
-			"position"		"5489.020020 -3904.580078 -7.651970"
-			"angles"		"0.000000 0.000000 0.000000"
-			"coords"		"D2"
-			"enabled"		"1"
-			"model"		"models/props_combine/combinethumper002.mdl"
-		}
-		"28223"
-		{
-			"className"		"emp_resource_point"
-			"name"		"res_5"
-			"position"		"5505.020020 -3920.580078 0.066769"
-			"angles"		"0.000000 0.000000 0.000000"
-			"coords"		"D2"
-			"enabled"		"1"
-			"resPerSecond"		"2.000000"
-		}
-		"29718"
-		{
-			"className"		"emp_resource_point_prop"
-			"name"		"res_6_prop"
-			"position"		"10991.200195 651.653992 -0.901741"
-			"angles"		"0.000000 0.000000 0.000000"
-			"coords"		"E3"
-			"enabled"		"0"
-			"model"		"models/props_combine/combinethumper002.mdl"
-		}
-		"29720"
-		{
-			"className"		"emp_resource_point"
-			"name"		"res_6"
-			"position"		"11007.200195 635.653992 6.816930"
-			"angles"		"0.000000 0.000000 0.000000"
-			"coords"		"E3"
-			"enabled"		"0"
-			"resPerSecond"		"3.000000"
-		}
 		"53"
 		{
 			"className"		"emp_building_nf_barracks"
@@ -141,6 +25,7 @@
 			"angles"		"0.000000 297.500000 0.000000"
 			"coords"		"A3"
 			"built"		"1"
+			"maxHealth"		"250"
 			"health"		"250"
 			"team"		"2"
 		}
@@ -151,68 +36,9 @@
 			"angles"		"0.000000 256.500000 0.000000"
 			"coords"		"E3"
 			"built"		"1"
+			"maxHealth"		"250"
 			"health"		"250"
 			"team"		"3"
-		}
-		"19930"
-		{
-			"className"		"emp_imp_commander"
-			"position"		"11594.546875 -304.398163 5.670788"
-			"angles"		"0.000019 159.000000 1.247313"
-			"coords"		"E3"
-		}
-		"22210"
-		{
-			"className"		"emp_nf_commander"
-			"position"		"-10751.892578 -127.711929 78.330444"
-			"angles"		"0.000001 159.500000 -0.584686"
-			"coords"		"A3"
-		}
-		"24528"
-		{
-			"className"		"emp_building_nf_refinery"
-			"position"		"-10624.000000 1152.000000 0.000000"
-			"angles"		"0.000000 0.000000 0.000000"
-			"coords"		"A3"
-			"built"		"1"
-			"health"		"150"
-			"team"		"2"
-			"target"		"res_1"
-		}
-		"29724"
-		{
-			"className"		"emp_building_imp_refinery"
-			"position"		"11008.000000 640.000000 32.000000"
-			"angles"		"0.000000 0.000000 0.000000"
-			"coords"		"E3"
-			"built"		"1"
-			"health"		"150"
-			"team"		"3"
-			"target"		"res_6"
-		}
-		"50407"
-		{
-			"className"		"emp_building_nf_mgturret"
-			"position"		"-2784.000000 1728.000000 7.681290"
-			"angles"		"0.000000 0.000000 0.000000"
-			"coords"		"B4"
-			"built"		"1"
-			"health"		"100"
-			"team"		"2"
-			"level"		"1"
-			"model"		"models/NF/turrets/mg_lvl1/nf_turret_mg_lvl1.mdl"
-		}
-		"50410"
-		{
-			"className"		"emp_building_nf_mgturret"
-			"position"		"-2816.000000 3168.000000 4.795880"
-			"angles"		"0.000000 0.000000 0.000000"
-			"coords"		"B4"
-			"built"		"1"
-			"health"		"100"
-			"team"		"2"
-			"level"		"1"
-			"model"		"models/NF/turrets/mg_lvl1/nf_turret_mg_lvl1.mdl"
 		}
 		"50413"
 		{
@@ -221,9 +47,11 @@
 			"angles"		"0.000000 180.000000 0.000000"
 			"coords"		"C4"
 			"built"		"1"
+			"maxHealth"		"100"
 			"health"		"100"
 			"team"		"3"
 			"level"		"1"
+			"postTeam"		"3"
 			"model"		"models/imperial/turrets/mg_lvl1/imp_turret_mg_lvl1.mdl"
 		}
 		"50418"
@@ -233,34 +61,12 @@
 			"angles"		"0.000000 180.000000 0.000000"
 			"coords"		"C4"
 			"built"		"1"
+			"maxHealth"		"100"
 			"health"		"100"
 			"team"		"3"
 			"level"		"1"
+			"postTeam"		"3"
 			"model"		"models/imperial/turrets/mg_lvl1/imp_turret_mg_lvl1.mdl"
-		}
-		"50453"
-		{
-			"className"		"emp_building_nf_mgturret"
-			"position"		"-8009.129883 -2534.709961 0.002685"
-			"angles"		"0.000000 0.000000 0.000000"
-			"coords"		"B3"
-			"built"		"1"
-			"health"		"100"
-			"team"		"2"
-			"level"		"1"
-			"model"		"models/NF/turrets/mg_lvl1/nf_turret_mg_lvl1.mdl"
-		}
-		"50456"
-		{
-			"className"		"emp_building_nf_mlturret"
-			"position"		"-8064.000000 -4192.000000 1.817960"
-			"angles"		"0.000000 0.000000 0.000000"
-			"coords"		"B2"
-			"built"		"1"
-			"health"		"100"
-			"team"		"2"
-			"level"		"1"
-			"model"		"models/NF/turrets/ml_lvl1/nf_turret_ml_lvl1.mdl"
 		}
 		"50459"
 		{
@@ -269,10 +75,54 @@
 			"angles"		"0.000000 180.000000 0.000000"
 			"coords"		"D2"
 			"built"		"1"
+			"maxHealth"		"100"
 			"health"		"100"
 			"team"		"3"
 			"level"		"1"
+			"postTeam"		"3"
 			"model"		"models/imperial/turrets/mg_lvl1/imp_turret_mg_lvl1.mdl"
+		}
+		"50407"
+		{
+			"className"		"emp_building_nf_mgturret"
+			"position"		"-2784.000000 1728.000000 7.681290"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"B4"
+			"built"		"1"
+			"maxHealth"		"100"
+			"health"		"100"
+			"team"		"2"
+			"level"		"1"
+			"postTeam"		"2"
+			"model"		"models/NF/turrets/mg_lvl1/nf_turret_mg_lvl1.mdl"
+		}
+		"50410"
+		{
+			"className"		"emp_building_nf_mgturret"
+			"position"		"-2816.000000 3168.000000 4.795880"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"B4"
+			"built"		"1"
+			"maxHealth"		"100"
+			"health"		"100"
+			"team"		"2"
+			"level"		"1"
+			"postTeam"		"2"
+			"model"		"models/NF/turrets/mg_lvl1/nf_turret_mg_lvl1.mdl"
+		}
+		"50453"
+		{
+			"className"		"emp_building_nf_mgturret"
+			"position"		"-8009.129883 -2534.709961 0.002685"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"B3"
+			"built"		"1"
+			"maxHealth"		"100"
+			"health"		"100"
+			"team"		"2"
+			"level"		"1"
+			"postTeam"		"2"
+			"model"		"models/NF/turrets/mg_lvl1/nf_turret_mg_lvl1.mdl"
 		}
 		"50491"
 		{
@@ -281,15 +131,206 @@
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"D2"
 			"built"		"1"
+			"maxHealth"		"100"
 			"health"		"100"
 			"team"		"3"
 			"level"		"1"
+			"postTeam"		"3"
 			"model"		"models/imperial/turrets/ml_lvl1/imp_turret_ml_lvl1.mdl"
 		}
+		"50456"
+		{
+			"className"		"emp_building_nf_mlturret"
+			"position"		"-8064.000000 -4192.000000 1.817960"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"B2"
+			"built"		"1"
+			"maxHealth"		"100"
+			"health"		"100"
+			"team"		"2"
+			"level"		"1"
+			"postTeam"		"2"
+			"model"		"models/NF/turrets/ml_lvl1/nf_turret_ml_lvl1.mdl"
+		}
+		"19930"
+		{
+			"className"		"emp_imp_commander"
+			"position"		"11594.505859 -304.451508 4.369857"
+			"angles"		"0.287498 159.001251 1.245293"
+			"coords"		"E3"
+		}
+		"22210"
+		{
+			"className"		"emp_nf_commander"
+			"position"		"-10751.893555 -127.716591 78.327248"
+			"angles"		"0.000004 159.500000 -0.586090"
+			"coords"		"A3"
+		}
+		"24528"
+		{
+			"className"		"emp_building_nf_refinery"
+			"position"		"-10624.000000 1152.000000 0.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"A3"
+			"target"		"res_1"
+			"built"		"1"
+			"maxHealth"		"150"
+			"health"		"150"
+			"team"		"2"
+		}
+		"29724"
+		{
+			"className"		"emp_building_imp_refinery"
+			"position"		"11008.000000 640.000000 32.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"E3"
+			"target"		"res_6"
+			"built"		"1"
+			"maxHealth"		"150"
+			"health"		"150"
+			"team"		"3"
+		}
+		"23882"
+		{
+			"className"		"emp_resource_point"
+			"position"		"-5248.000000 -4000.000000 8.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"B2"
+			"name"		"res_2"
+			"effects"		"80"
+			"enabled"		"1"
+			"resPerSecond"		"2.000000"
+		}
+		"24342"
+		{
+			"className"		"emp_resource_point"
+			"position"		"-10624.000000 1152.000000 8.000010"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"A3"
+			"name"		"res_1"
+			"effects"		"80"
+			"enabled"		"0"
+			"resPerSecond"		"3.000000"
+		}
+		"24401"
+		{
+			"className"		"emp_resource_point"
+			"position"		"-5888.000000 3296.000000 8.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"B4"
+			"name"		"res_3"
+			"effects"		"80"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+		}
+		"24429"
+		{
+			"className"		"emp_resource_point"
+			"position"		"5888.000000 3232.000000 7.999980"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"D4"
+			"name"		"res_4"
+			"effects"		"80"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+		}
+		"28223"
+		{
+			"className"		"emp_resource_point"
+			"position"		"5505.020020 -3920.580078 0.066769"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"D2"
+			"name"		"res_5"
+			"effects"		"80"
+			"enabled"		"1"
+			"resPerSecond"		"2.000000"
+		}
+		"29720"
+		{
+			"className"		"emp_resource_point"
+			"position"		"11007.200195 635.653992 6.816930"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"E3"
+			"name"		"res_6"
+			"effects"		"80"
+			"enabled"		"0"
+			"resPerSecond"		"3.000000"
+		}
+		"24030"
+		{
+			"className"		"emp_resource_point_prop"
+			"position"		"-5264.000000 -3984.000000 0.281257"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"B2"
+			"name"		"res_2_prop"
+			"enabled"		"1"
+			"model"		"models/props_combine/combinethumper002.mdl"
+		}
+		"24340"
+		{
+			"className"		"emp_resource_point_prop"
+			"position"		"-10640.000000 1168.000000 0.281272"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"A3"
+			"name"		"res_1_prop"
+			"effects"		"32"
+			"enabled"		"0"
+			"model"		"models/props_combine/combinethumper002.mdl"
+		}
+		"24399"
+		{
+			"className"		"emp_resource_point_prop"
+			"position"		"-5904.000000 3312.000000 0.281257"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"B4"
+			"name"		"res_3_prop"
+			"enabled"		"1"
+			"model"		"models/props_combine/combinethumper002.mdl"
+		}
+		"24427"
+		{
+			"className"		"emp_resource_point_prop"
+			"position"		"5872.000000 3248.000000 0.281241"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"D4"
+			"name"		"res_4_prop"
+			"enabled"		"1"
+			"model"		"models/props_combine/combinethumper002.mdl"
+		}
+		"28221"
+		{
+			"className"		"emp_resource_point_prop"
+			"position"		"5489.020020 -3904.580078 -7.651970"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"D2"
+			"name"		"res_5_prop"
+			"enabled"		"1"
+			"model"		"models/props_combine/combinethumper002.mdl"
+		}
+		"29718"
+		{
+			"className"		"emp_resource_point_prop"
+			"position"		"10991.200195 651.653992 -0.901741"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"E3"
+			"name"		"res_6_prop"
+			"effects"		"32"
+			"enabled"		"0"
+			"model"		"models/props_combine/combinethumper002.mdl"
+		}
+		"8296"
+		{
+			"className"		"emp_info_params"
+			"position"		"12288.000000 -512.000000 9.000010"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"E3"
+			"Skin"		"1"
+			"autoResearch"		"0"
+			"eng_restrict_NF"		"0"
+			"eng_restrict_Imp"		"0"
+			"turretRestrict"		"0"
+		}
 	}
-	"Description"		" "
-	"details"		" "
-	"Author"		"Hardcore Empires"
-	
-	"version"		"0.530000"
+	"version"		"1.370000"
+	"hLimit"		"53243"
 }

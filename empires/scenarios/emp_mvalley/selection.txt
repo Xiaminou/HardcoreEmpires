@@ -1,0 +1,22 @@
+"VoteList"
+{
+	"scenarios"
+	{
+		"Alpha"
+		{
+			"min_players"		"0"
+			"max_players"		"30"
+		}
+		"Charlie"
+		{
+			"min_players"		"32"
+			"max_players"		"64"
+		}
+		"Echo"
+		{
+			"min_players"		"32"
+			"max_players"		"50"
+		}
+	}
+	"enabled"		"1"
+}

@@ -3,7 +3,7 @@
 	"Description"		" "
 	"details"		" "
 	"Tags"		" "
-	"Author"		"Hardcore Empires - Main Server"
+	"Author"		"Harmony Empires - Main Server"
 	"NF_Res"		"500.100006"
 	"BE_Res"		"500.100006"
 	"NF_Tickets"		"351.299988"
@@ -178,7 +178,7 @@
 		{
 			"className"		"emp_imp_commander"
 			"position"		"-11007.999023 -10824.521484 -2862.555664"
-			"angles"		"0.273539 -0.001508 1.111553"
+			"angles"		"0.273545 -0.001555 1.111538"
 			"coords"		"B2"
 		}
 		"358"
@@ -636,8 +636,8 @@
 		"860"
 		{
 			"className"		"prop_physics"
-			"position"		"534.000000 -540.998108 -2895.391357"
-			"angles"		"2.205657 42.010956 -0.235046"
+			"position"		"534.000061 -540.998047 -2895.387451"
+			"angles"		"2.104474 42.010838 -0.235687"
 			"coords"		"D4"
 			"model"		"models/props_c17/tools_wrench01a.mdl"
 			"MoveType"		"6"
@@ -649,8 +649,8 @@
 		"864"
 		{
 			"className"		"prop_physics"
-			"position"		"-405.489197 -585.380310 -2926.497559"
-			"angles"		"89.731216 118.648186 122.638512"
+			"position"		"-405.489075 -585.380432 -2926.497559"
+			"angles"		"89.731201 118.647217 122.637894"
 			"coords"		"D4"
 			"model"		"models/props_junk/cinderblock01a.mdl"
 			"MoveType"		"6"
@@ -662,8 +662,8 @@
 		"868"
 		{
 			"className"		"prop_physics"
-			"position"		"-422.901215 -573.150208 -2926.291260"
-			"angles"		"89.052605 -172.206161 145.373993"
+			"position"		"-422.900757 -573.150146 -2926.291260"
+			"angles"		"89.052635 -172.209366 145.371399"
 			"coords"		"D4"
 			"model"		"models/props_junk/cinderblock01a.mdl"
 			"MoveType"		"6"
@@ -675,8 +675,8 @@
 		"872"
 		{
 			"className"		"prop_physics"
-			"position"		"-415.176758 -578.426697 -2915.923584"
-			"angles"		"89.484428 173.413239 -121.340912"
+			"position"		"-415.176575 -578.426636 -2915.923584"
+			"angles"		"89.484467 173.407089 -121.346191"
 			"coords"		"D4"
 			"model"		"models/props_junk/cinderblock01a.mdl"
 			"MoveType"		"6"
@@ -841,6 +841,6 @@
 			"turretRestrict"		"0"
 		}
 	}
-	"version"		"1.310000"
+	"version"		"1.350000"
 	"hLimit"		"32880"
 }

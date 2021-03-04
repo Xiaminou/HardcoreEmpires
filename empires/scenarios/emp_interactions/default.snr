@@ -217,15 +217,15 @@
 		"702"
 		{
 			"className"		"emp_imp_commander"
-			"position"		"-12464.003906 13039.908203 132.372650"
-			"angles"		"0.286485 -179.993546 1.242143"
+			"position"		"-12464.003906 13039.900391 132.367874"
+			"angles"		"0.286463 -179.994415 1.240603"
 			"coords"		"A6"
 		}
 		"921"
 		{
 			"className"		"emp_nf_commander"
-			"position"		"12319.497070 12832.125000 211.127884"
-			"angles"		"0.032334 179.898468 0.326489"
+			"position"		"12319.475586 12832.233398 210.672256"
+			"angles"		"0.032465 179.897278 0.227616"
 			"coords"		"F6"
 		}
 		"462896"
@@ -646,11 +646,11 @@
 			"position"		"10784.000000 10264.000000 144.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"F5"
+			"target"		"resnode6"
 			"built"		"1"
 			"maxHealth"		"150"
 			"health"		"150"
 			"team"		"2"
-			"target"		"resnode6"
 		}
 		"216176"
 		{
@@ -658,11 +658,11 @@
 			"position"		"-10752.000000 10240.000000 136.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"A5"
+			"target"		"resnode1"
 			"built"		"1"
 			"maxHealth"		"150"
 			"health"		"150"
 			"team"		"3"
-			"target"		"resnode1"
 		}
 		"1217738"
 		{
@@ -1510,7 +1510,7 @@
 			"className"		"prop_dynamic"
 			"position"		"-5436.000000 13664.599609 464.088989"
 			"angles"		"-0.000000 180.000000 0.000000"
-			"Parent"		"cagelight_east_rot14"
+			"Parent"		"#754593"
 			"coords"		"B6"
 			"name"		"cagelight_on"
 			"model"		"models/props_c17/light_cagelight01_on.mdl"
@@ -1553,6 +1553,6 @@
 			"turretRestrict"		"0"
 		}
 	}
-	"version"		"1.240000"
+	"version"		"1.320000"
 	"hLimit"		"1340526"
 }

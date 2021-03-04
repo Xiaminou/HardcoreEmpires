@@ -3,9 +3,9 @@
 	"Description"		" "
 	"details"		" "
 	"Tags"		" "
-	"Author"		"Hardcore Empires - Main Server"
-	"NF_Res"		"400.000000"
-	"BE_Res"		"400.000000"
+	"Author"		"Harmony Empires - Main Server"
+	"NF_Res"		"500.000000"
+	"BE_Res"		"500.000000"
 	"NF_Tickets"		"352.955994"
 	"BE_Tickets"		"352.955994"
 	"NF_Research"
@@ -43,15 +43,15 @@
 		"18219"
 		{
 			"className"		"emp_imp_commander"
-			"position"		"-11231.520508 11296.937500 -3074.245605"
-			"angles"		"0.316087 -179.432922 0.892003"
+			"position"		"-11231.508789 11296.943359 -3074.247559"
+			"angles"		"0.315927 -179.433167 0.892683"
 			"coords"		"A5"
 		}
 		"18205"
 		{
 			"className"		"emp_nf_commander"
-			"position"		"11188.937500 -11427.749023 -3000.593262"
-			"angles"		"0.292196 -0.042011 0.141398"
+			"position"		"11188.932617 -11427.743164 -3000.592773"
+			"angles"		"0.292317 -0.038973 0.141487"
 			"coords"		"E1"
 		}
 		"14435"
@@ -104,11 +104,11 @@
 			"position"		"12048.000000 -12784.000000 -3072.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"E1"
+			"target"		"res_node_SE_2"
 			"built"		"1"
 			"maxHealth"		"150"
 			"health"		"150"
 			"team"		"2"
-			"target"		"res_node_SE_2"
 		}
 		"14017"
 		{
@@ -116,11 +116,11 @@
 			"position"		"-11942.000000 12992.000000 -3056.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"A5"
+			"target"		"res_node_SW"
 			"built"		"1"
 			"maxHealth"		"150"
 			"health"		"150"
 			"team"		"3"
-			"target"		"res_node_SW"
 		}
 		"14024"
 		{
@@ -588,6 +588,6 @@
 			"turretRestrict"		"0"
 		}
 	}
-	"version"		"1.310000"
+	"version"		"1.350000"
 	"hLimit"		"38178"
 }

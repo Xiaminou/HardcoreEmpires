@@ -1,0 +1,20 @@
+"ScenarioSelection"
+{
+	"Method"	"Random"
+	"VoteTitle"	"Scenario"
+	"Options"
+	{
+		"Alpha"
+		{
+			"min_players"		"22"
+			"max_players"		"64"
+		}
+		"Bravo"
+		{
+			"min_players"		"22"
+			"max_players"		"64"
+		}
+	}
+	"IncludeCurrentScenario" "1"
+	"enabled"		"1"
+}
