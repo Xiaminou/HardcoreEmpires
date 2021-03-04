@@ -18,15 +18,14 @@
 			"display"	"emp_beachfront"
 		}
 
-//		Enabled: Fixed?
+
 		"emp_blackmountain"
 		{
 			"min_players"	"44"
 			"max_players"	"64"
 			"display"	"emp_blackmountain"
 		}
-	
-//		Enabled: Decimal Resources
+
 		"emp_blah4"
 		{
 			"min_players"	"16"
@@ -69,7 +68,7 @@
 			"display"	"emp_cod"
 		}
 		
-		"emp_crossroads_towerless_hce2"
+		"emp_crossroads"
 		{
 			"min_players"	"6"
 			"max_players"	"18"
@@ -121,7 +120,7 @@
 		"emp_forest_ob_2013"
 		{
 			"min_players"	"32"
-			"max_players"	"28"
+			"max_players"	"48"
 			"display"	"emp_forest"
 		}
 		
@@ -198,7 +197,7 @@
 		
 		"emp_king_r5_nosplt"
 		{
-			"min_players"	"48"
+			"min_players"	"46"
 			"max_players"	"64"
 			"display"	"emp_king"
 		}
@@ -272,14 +271,6 @@
 			"max_players"	"40"
 			"display"	"emp_silo"
 		}
-
-//		Disabled: Bad Performance, Missing Textures, Boring...		
-//		"emp_smokies_rc2_hce"
-//		{
-//			"min_players"	"20"
-//			"max_players"	"42"
-//			"display"	"emp_smokies"
-//		}
 
 		"emp_snowbound_cl6"
 		{
@@ -384,7 +375,7 @@
 		"emp_shadows_attacks_fix"
 		{
 			"min_players"	"10"
-			"max_players"	"39"
+			"max_players"	"20"
 			"display"	"con_shadows_attacks"
 		}
 		
