@@ -1,89 +1,208 @@
 "Hints"
 {
-	"Commander"
-	{
-		"1"	
-		{
-			"text" "Only experienced players should be commander"
-		}
-		"2"	
-		{
-			"text" "Use the invite to squad button to assign players to squads"
-		}
-		"3"	
-		{
-			"text" "Use /assign [player] [squad] to assign players to squads"
-		}
-		"4"	
-		{
-			"text" "Use /move @[squad] [coords] to issue a move order pre-start"
-		}
-		"5"	
-		{
-			"text" "Type in team chat --[objectives] to issue objectives"
-		}
-		"6"	
-		{
-			"text" "Make sure your team knows where each squad should go"
-		}
-		"7"	
-		{
-			"text" "Researches cost resources, type !research to know more"
-		}
-		"8"	
-		{
-			"text" "Use /restrict [chassis] [level] to restrict chassis"
-		}
-		"9"	
-		{
-			"text" "Use /pl [player] [level] to give privilege levels"
-		}
-				
-	}
-	"SquadLeader"
-	{
-		"1"	
-		{
-			"text" "Only experienced players should be squad leader"
-		}
-		"2"	
-		{
-			"text" "A good class choice for squad leader is engineer"
-		}
-		"3"	
-		{
-			"text" "Use /move [coordinates] to issue a move order pre-start"
-		}
-		"4"	
-		{
-			"text" "Make sure your squad knows where they should be going"
-		}	
-	}
-	"Default"
-	{
-		"1"	
-		{
-			"text" "Don't opt in unless you are experienced"
-		}
-		"2"	
-		{
-			"text" "The best class to learn if you are new is engineer"
-		}
-		"3"	
-		{
-			"text" "Make sure you join a squad"
-		}
-		"4"	
-		{
-			"text" "Make sure you know where your squad is going"
-		}
-		"5"	
-		{
-			"text" "Follow your commander's orders"
-		}
-		"6"	
-		{
-			"text" "Build refineries to secure your team an advantage"
-		}
-	}
+        //Commander
+        "Only experienced players should be commander"
+        {
+                "role"         "commander"
+                "class"        "any"
+        }
+        "Use the invite to squad button to assign players to squads"
+        {
+                "role"         "commander"
+                "class"        "any"
+        }
+        "Use /assign [player] [squad] to assign players to squads"
+        {
+                "role"         "commander"
+                "class"        "any"
+        }
+        "Use /move @[squad] [coords] to issue a move order pre-start"
+        {
+                "role"         "commander"
+                "class"        "any"
+        }
+        "Type in team chat --[objectives] to issue objectives"
+        {
+                "role"         "commander"
+                "class"        "any"
+        }
+        "Use /commcommands to learn how to restrict chassis types."
+        {
+                "role"         "commander"
+                "class"        "any"
+        }
+		
+		"Make sure your team knows where each squad should go"
+        {
+                "role"         "commander"
+                "class"        "any"
+        }
+
+        
+        // Commander not engineer
+        "A good class choice for commander is engineer"
+        {
+                "role"         "commander"
+                "class"        "rifleman grenadier scout"
+        }
+        
+        
+        
+        //SquadLeader - General
+        "Only experienced players should be squad leader"
+        {
+                "role"         "squadleader"
+                "class"        "any"
+        }
+        "Use /move [coordinates] to issue a move order pre-start"
+        {
+                "role"         "squadleader"
+                "class"        "any"
+        }
+        "Make sure your squad knows where they should be going"
+        {
+                "role"         "squadleader"
+                "class"        "any"
+        }
+        
+        
+        // Squadleader  - Not Engineer
+        "A good class choice for squad leader is engineer"
+        {
+                "role"         "squadleader"
+                "class"        "rifleman grenadier scout"
+        }
+        
+        
+        
+        
+        //SquadLeader - Engineer
+        "Keep your squad healthy using the Instant Heal squad power"
+        {
+                "role"         "squadleader"
+                "class"        "engineer"
+        }
+        //SquadLeader - Engineer
+        "The Revive squad power revives dead squadmates at your position."
+        {
+                "role"         "squadleader"
+                "class"        "engineer"
+        }
+        
+        // SquadLeader - Grenadier
+        "Use the Artillery Strike squad power to destroy key targets"
+        {
+                "role"         "squadleader"
+                "class"        "grenadier"
+        }
+        
+        
+        
+        // SquadLeader - Scout
+        "Use the Hide squad power to get an entire squad behind enemy lines"
+        {
+                "role"         "squadleader"
+                "class"        "scout"
+        }
+        
+        
+        
+        
+        // Infantry - General
+        "Don't opt in to the commander vote unless you are experienced"
+        {
+                "role"         "infantry"
+                "class"        "any"
+        }
+        "The best class to start if you are new is engineer"
+        {
+                "role"         "infantry"
+                "class"        "any"
+        }
+        "Make sure you join a squad"
+        {
+                "role"         "infantry"
+                "class"        "any"
+        }
+        "Make sure you know where your squad is going"
+        {
+                "role"         "infantry"
+                "class"        "any"
+        } 
+        "Stay close to your squad leader to gain squad points"
+        {
+                "role"         "infantry"
+                "class"        "any"
+        }
+        "Follow your commander's orders"
+        {
+                "role"         "infantry"
+                "class"        "any"
+        }
+        "Build refineries to secure your team an advantage"
+        {
+                "role"         "infantry"
+                "class"        "any"
+        }
+        
+        // Infantry - Engineer
+        "Bring revive upgrade to help your dead team mates back up"
+        {
+                "role"         "infantry squadleader"
+                "class"        "engineer"
+        }
+        "Bring repair upgrade to build and repair faster"
+        {
+                "role"         "infantry squadleader"
+                "class"        "engineer"
+        }
+        "Place walls to provide immediate short cover from enemy fire"
+        {
+                "role"         "infantry squadleader"
+                "class"        "engineer"
+        }
+        "Cameras detect infantry in a radius, hide them behind corners  "
+        {
+                "role"         "infantry squadleader"
+                "class"        "engineer"
+        }
+        
+        // Infantry - Rifleman
+        "Sticky grenades have a very short range\However they do a lot of damage to enemy vehicles"
+        {
+                "role"         "infantry squadleader"
+                "class"        "rifleman"
+        }
+        
+        // Infantry - Grenadier
+        "Grenadier RPG can be guided by holding down the fire button"
+        {
+                "role"         "infantry squadleader"
+                "class"        "grenadier"
+        }
+        "Mines placed close together will detonate at the same time\This provides a more powerful explosion"
+        {
+                "role"         "infantry squadleader"
+                "class"        "grenadier"
+        }
+        "Placing a mine while you already have 8 mines\deployed will detonate the first mine you placed"
+        {
+                "role"         "infantry squadleader"
+                "class"        "grenadier"
+        }
+        
+        // Infantry - Scout
+        "Your visibility using the Hide skill is dependant\on the number of walls you are touching."
+        {
+                "role"         "infantry squadleader"
+                "class"        "scout"
+        }
+        "The scout's role is to deliver\as much useful information to your team as possible."
+        {
+                "role"         "infantry squadleader"
+                "class"        "scout"
+        }
+        
+        
+        
 }

@@ -1,7 +1,0 @@
-L 06/20/2018 - 05:08:59: SourceMod error session started
-L 06/20/2018 - 05:08:59: Info (map "con_urbanchaos_comm_b2") (file "errors_20180620.log")
-L 06/20/2018 - 05:08:59: [SM] Exception reported: Client index 0 is invalid
-L 06/20/2018 - 05:08:59: [SM] Blaming: NoCommExtendVote.smx()
-L 06/20/2018 - 05:08:59: [SM] Call stack trace:
-L 06/20/2018 - 05:08:59: [SM]   [0] PrintToChat
-L 06/20/2018 - 05:08:59: [SM]   [1] Line 585, /builds/sourcemod/no_commander_extend_vote/build/../addons/sourcemod/scripting/NoCommExtendVote.sp::Command_NCDisable()

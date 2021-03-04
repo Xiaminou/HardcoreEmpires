@@ -1,9 +1,0 @@
-L 09/12/2018 - 23:44:16: SourceMod error session started
-L 09/12/2018 - 23:44:16: Info (map "con_district402") (file "errors_20180912.log")
-L 09/12/2018 - 23:44:16: [SDKTOOLS] Invalid detour address passed - Disabling detour to prevent crashes
-L 09/12/2018 - 23:44:16: [SDKTOOLS] Failed to find PlayerRunCmd offset - OnPlayerRunCmd forward disabled.
-L 09/12/2018 - 23:44:19: [SM] Exception reported: Failed to connect to SourceBans DB, [2003]: Can't connect to MySQL server on 'localhost' (10061)
-L 09/12/2018 - 23:44:19: [SM] Blaming: sbpp_checker.smx()
-L 09/12/2018 - 23:44:19: [SM] Call stack trace:
-L 09/12/2018 - 23:44:19: [SM]   [0] SetFailState
-L 09/12/2018 - 23:44:19: [SM]   [1] Line 75, .\sbpp_checker.sp::OnDatabaseConnected()
