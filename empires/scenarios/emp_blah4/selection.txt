@@ -1,10 +1,10 @@
 "ScenarioSelection"
 {
-	"Method"	"Random"
+	"Method"	"Vote"
 	"VoteTitle"	"Scenario"
 	"Options"
 	{
-		"Alpha"
+		"KOTH"
 		{
 			"min_players"		"0"
 			"max_players"		"65"
@@ -12,5 +12,6 @@
 			"description_override"		"-"
 		}
 	}
+	"IncludeCurrentScenario" "1"
 	"enabled"		"1"
 }

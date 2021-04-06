@@ -1,0 +1,106 @@
+"Scenario"
+{
+	"Description"	"[Type: Gameplay] Start North-East (F6) and South-East (F1)"
+	"details"		" "
+	"Tags"			" "
+	"Author"		"Xiam"
+	"version"		"1.440000"
+	"hLimit"		"1083800"
+	"CanBaseSwap"	"yes"
+	"EditingSet"
+	{
+		"prop_dynamic"				"No"
+		"emp_cap_model"				"No"
+		"emp_cap_point"				"No"
+		"emp_resource_point"		"No"
+		"emp_resource_point_prop"	"No"
+	}
+	"Entities"
+	{
+		"6825"
+		{
+			"className"		"emp_imp_commander"
+			"position"		"11581.255859 11333.774414 -469.125214"
+			"angles"		"0.149665 -179.981995 0.789591"
+			"coords"		"F7"
+		}
+		"6823"
+		{
+			"className"		"emp_nf_commander"
+			"position"		"11912.204102 -11223.020508 -395.382202"
+			"angles"		"-0.329187 0.012229 -0.492645"
+			"coords"		"F2"
+		}
+		"787976"
+		{
+			"className"		"env_fire"
+			"position"		"-1824.000000 -10720.000000 -559.150574"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"C2"
+			"effects"		"32"
+			"spawnflags"		"13"
+			"fireType"		"0"
+			"fireSize"		"64.000000"
+			"damageScale"		"1.000000"
+			"duration"		"30"
+		}
+		"495222"
+		{
+			"className"		"emp_info_params"
+			"position"		"117.028000 446.378845 -174.899994"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"D5"
+			"Skin"		"1"
+			"autoResearch"		"0"
+			"eng_restrict_NF"		"0"
+			"eng_restrict_Imp"		"0"
+			"turretRestrict"		"1"
+		}
+		"5000001"
+		{
+			"className"		"emp_building_nf_barracks"
+			"position"		"11769.200195 -12271.000000 -475.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"F2"
+			"built"		"1"
+			"maxHealth"		"250"
+			"health"		"250"
+			"team"		"2"
+		}
+		"5000040"
+		{
+			"className"		"emp_building_imp_barracks"
+			"position"		"11280.402344 12256.955078 -470.910278"
+			"angles"		"0.000000 180.000000 0.000000"
+			"coords"		"F7"
+			"built"		"1"
+			"maxHealth"		"250"
+			"health"		"250"
+			"team"		"3"
+		}
+		"5000027"
+		{
+			"className"		"emp_building_nf_refinery"
+			"position"		"8576.000000 -12576.000000 -448.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"E2"
+			"target"		"beres"
+			"built"		"1"
+			"maxHealth"		"150"
+			"health"		"150"
+			"team"		"2"
+		}
+		"5000029"
+		{
+			"className"		"emp_building_imp_refinery"
+			"position"		"12448.000000 12288.000000 -442.299988"
+			"angles"		"0.000000 -92.686157 0.000000"
+			"coords"		"F7"
+			"target"		"Ref_787180"
+			"built"		"1"
+			"maxHealth"		"150"
+			"health"		"150"
+			"team"		"3"
+		}
+	}
+}

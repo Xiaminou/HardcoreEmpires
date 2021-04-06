@@ -3,11 +3,11 @@
 	"Description"		" "
 	"details"		" "
 	"Tags"		" "
-	"Author"		"Hardcore Empires - Main Server"
-	"NF_Res"		"399.899994"
-	"BE_Res"		"399.899994"
-	"NF_Tickets"		"211.341995"
-	"BE_Tickets"		"211.341995"
+	"Author"		"Harmony Empires - Main Server"
+	"NF_Res"		"300.000000"
+	"BE_Res"		"300.000000"
+	"NF_Tickets"		"201.000000"
+	"BE_Tickets"		"201.000000"
 	"NF_Research"
 	{
 		"0"		"1"
@@ -43,15 +43,15 @@
 		"13165"
 		{
 			"className"		"emp_imp_commander"
-			"position"		"11621.902344 -12157.623047 23.722082"
-			"angles"		"-1.588767 -0.075439 0.803375"
+			"position"		"11621.884766 -12157.434570 22.409004"
+			"angles"		"-1.307519 -0.040380 0.815032"
 			"coords"		"E1"
 		}
 		"13197"
 		{
 			"className"		"emp_nf_commander"
-			"position"		"-11615.305664 11904.392578 98.996780"
-			"angles"		"-0.485398 -178.955811 -0.068573"
+			"position"		"-11615.291992 11904.510742 98.991928"
+			"angles"		"-0.488914 -178.956879 -0.069885"
 			"coords"		"A5"
 		}
 		"46383"
@@ -60,8 +60,8 @@
 			"position"		"0.000000 0.000000 0.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"C3"
-			"Mins"		"-13377.000000 -13825.000000 895.000000"
-			"Maxs"		"-13247.000000 -13695.000000 1025.000000"
+			"Mins"		"-13441.000000 -13825.000000 895.000000"
+			"Maxs"		"-13311.000000 -13695.000000 1025.000000"
 			"pointNumber"		"0"
 			"timeToCap"		"5"
 			"timeToNeutral"		"5"
@@ -76,14 +76,36 @@
 			"canNFCap"		"0"
 			"canImpCap"		"0"
 		}
+		"46386"
+		{
+			"className"		"emp_cap_point"
+			"position"		"0.000000 0.000000 0.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"C3"
+			"Mins"		"-13441.000000 -13825.000000 895.000000"
+			"Maxs"		"-13311.000000 -13695.000000 1025.000000"
+			"pointNumber"		"0"
+			"timeToCap"		"5"
+			"timeToNeutral"		"5"
+			"playersRequiredNF"		"5"
+			"playersRequiredImp"		"5"
+			"teamOwner"		"1"
+			"locationName"		"Capture Point 1"
+			"resToGiveNF"		"1.000000"
+			"resToGiveImp"		"0.000000"
+			"reinfToTakeNF"		"0.000000"
+			"reinfToTakeImp"		"0.000000"
+			"canNFCap"		"0"
+			"canImpCap"		"0"
+		}
 		"46391"
 		{
 			"className"		"emp_cap_point"
 			"position"		"0.000000 0.000000 0.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"C3"
-			"Mins"		"-13249.000000 -13825.000000 895.000000"
-			"Maxs"		"-13119.000000 -13695.000000 1025.000000"
+			"Mins"		"-13313.000000 -13825.000000 895.000000"
+			"Maxs"		"-13183.000000 -13695.000000 1025.000000"
 			"pointNumber"		"0"
 			"timeToCap"		"5"
 			"timeToNeutral"		"5"
@@ -104,11 +126,11 @@
 			"position"		"-10624.000000 12259.599609 32.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"A5"
+			"target"		"res_northwest_highground"
 			"built"		"1"
 			"maxHealth"		"150"
 			"health"		"150"
 			"team"		"2"
-			"target"		"res_northwest_highground"
 		}
 		"13167"
 		{
@@ -116,11 +138,11 @@
 			"position"		"10592.000000 -12214.700195 32.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"E1"
+			"target"		"res_satellite_south"
 			"built"		"1"
 			"maxHealth"		"150"
 			"health"		"150"
 			"team"		"3"
-			"target"		"res_satellite_south"
 		}
 		"12668"
 		{
@@ -131,7 +153,7 @@
 			"name"		"res_satellite_south"
 			"effects"		"80"
 			"enabled"		"0"
-			"resPerSecond"		"1.500000"
+			"resPerSecond"		"2.000000"
 		}
 		"12681"
 		{
@@ -142,7 +164,7 @@
 			"name"		"res_lake_south"
 			"effects"		"80"
 			"enabled"		"1"
-			"resPerSecond"		"1.500000"
+			"resPerSecond"		"2.000000"
 		}
 		"12653"
 		{
@@ -153,7 +175,7 @@
 			"name"		"res_southwest"
 			"effects"		"80"
 			"enabled"		"1"
-			"resPerSecond"		"1.500000"
+			"resPerSecond"		"2.000000"
 		}
 		"12657"
 		{
@@ -164,7 +186,7 @@
 			"name"		"res_southcenter"
 			"effects"		"80"
 			"enabled"		"1"
-			"resPerSecond"		"1.500000"
+			"resPerSecond"		"2.000000"
 		}
 		"12663"
 		{
@@ -175,7 +197,7 @@
 			"name"		"res_trainstation_south"
 			"effects"		"80"
 			"enabled"		"1"
-			"resPerSecond"		"1.500000"
+			"resPerSecond"		"2.000000"
 		}
 		"12676"
 		{
@@ -186,7 +208,7 @@
 			"name"		"res_westcenter"
 			"effects"		"80"
 			"enabled"		"1"
-			"resPerSecond"		"1.500000"
+			"resPerSecond"		"2.000000"
 		}
 		"12691"
 		{
@@ -197,7 +219,7 @@
 			"name"		"res_north"
 			"effects"		"80"
 			"enabled"		"1"
-			"resPerSecond"		"1.500000"
+			"resPerSecond"		"2.000000"
 		}
 		"12695"
 		{
@@ -208,7 +230,7 @@
 			"name"		"res_northeast"
 			"effects"		"80"
 			"enabled"		"1"
-			"resPerSecond"		"1.500000"
+			"resPerSecond"		"2.000000"
 		}
 		"12701"
 		{
@@ -219,7 +241,7 @@
 			"name"		"res_northwest_lowground"
 			"effects"		"80"
 			"enabled"		"1"
-			"resPerSecond"		"1.500000"
+			"resPerSecond"		"2.000000"
 		}
 		"12707"
 		{
@@ -230,7 +252,7 @@
 			"name"		"res_northwest_highground"
 			"effects"		"80"
 			"enabled"		"0"
-			"resPerSecond"		"1.500000"
+			"resPerSecond"		"2.000000"
 		}
 		"12713"
 		{
@@ -241,7 +263,7 @@
 			"name"		"res_west"
 			"effects"		"80"
 			"enabled"		"1"
-			"resPerSecond"		"1.500000"
+			"resPerSecond"		"2.000000"
 		}
 		"12672"
 		{
@@ -588,6 +610,6 @@
 			"turretRestrict"		"0"
 		}
 	}
-	"version"		"1.090000"
-	"hLimit"		"52386"
+	"version"		"1.420000"
+	"hLimit"		"46391"
 }

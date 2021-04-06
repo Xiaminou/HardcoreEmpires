@@ -4,6 +4,10 @@
 	"BE_Res"		"400.000000"
 	"NF_Tickets"		"121"
 	"BE_Tickets"		"121"
+	"EditingSet"
+	{
+		"emp_eng_restrict"		"Yes"
+	}
 	"NF_Research"
 	{
 		"0"		"1"

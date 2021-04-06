@@ -6,8 +6,9 @@
 	{
 		"Default"
 		{
-			"Method"	"Random"
-			"VoteTitle"	"Scenario"
+			"Method"		"Random"
+			"VoteTitle"		"Scenario"
+			"Description"	"Default Gameplay"
 			"Options"
 			{
 				"Alpha"
@@ -24,8 +25,9 @@
 		}
 		"KOTH"
 		{
-			"Method"	"Random"
-			"VoteTitle"	"Scenario"
+			"Method"		"Random"
+			"VoteTitle"		"Scenario"
+			"Description"	"King of the Hill"
 			"Options"
 			{
 				"KOTH-Alpha"
@@ -42,8 +44,9 @@
 		}
 		"CTF"
 		{
-			"Method"	"Random"
-			"VoteTitle"	"Scenario"
+			"Method"		"Random"
+			"VoteTitle"		"Scenario"
+			"Description"	"Command the Flag"
 			"Options"
 			{
 				"mik_ctf"

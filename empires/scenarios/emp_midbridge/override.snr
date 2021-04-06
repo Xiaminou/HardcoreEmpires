@@ -115,16 +115,6 @@
 			"enabled"		"1"
 			"resPerSecond"		"1.000000"
 		}
-		"49837"
-		{
-			"className"		"emp_building_nf_armory"
-			"position"		"11744.000000 10208.000000 0.000000"
-			"angles"		"0.000000 90.000000 0.000000"
-			"coords"		"F5"
-			"built"		"1"
-			"health"		"100"
-			"team"		"2"
-		}
 		"115543"
 		{
 			"className"		"emp_building_nf_refinery"
@@ -175,16 +165,6 @@
 			"coords"		"A1"
 			"built"		"1"
 			"health"		"250"
-			"team"		"3"
-		}
-		"125158"
-		{
-			"className"		"emp_building_imp_armory"
-			"position"		"-11648.000000 -9952.000000 0.000000"
-			"angles"		"0.000000 270.000000 0.000000"
-			"coords"		"A2"
-			"built"		"1"
-			"health"		"100"
 			"team"		"3"
 		}
 		"147613"

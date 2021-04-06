@@ -255,16 +255,16 @@
 		"999"
 		{
 			"className"		"emp_imp_commander"
-			"position"		"-14098.014648 11437.125977 1028.371704"
-			"angles"		"0.287133 -179.996582 1.253888"
+			"position"		"-14098.014648 11437.121094 1028.366089"
+			"angles"		"0.287101 -179.996490 1.251772"
 			"coords"		"A4"
 			"name"		"cv"
 		}
 		"1057"
 		{
 			"className"		"emp_nf_commander"
-			"position"		"13553.000000 -11216.406250 1102.328491"
-			"angles"		"0.000023 -0.000001 -0.583740"
+			"position"		"13553.000000 -11216.410156 1102.329712"
+			"angles"		"0.000014 0.000003 -0.583191"
 			"coords"		"D1"
 			"name"		"cv"
 		}
@@ -275,7 +275,7 @@
 			"angles"		"0.000000 270.000000 0.000000"
 			"coords"		"D1"
 			"pointNumber"		"0"
-			"disabled"		"0"
+			"Disabled"		"0"
 			"model"		"models/NF/Props/nf_crateammo.mdl"
 		}
 		"1231"
@@ -285,7 +285,7 @@
 			"angles"		"0.000000 270.000000 0.000000"
 			"coords"		"D1"
 			"pointNumber"		"0"
-			"disabled"		"0"
+			"Disabled"		"0"
 			"model"		"models/NF/Props/nf_crateammo.mdl"
 		}
 		"1233"
@@ -295,7 +295,7 @@
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"D1"
 			"pointNumber"		"0"
-			"disabled"		"0"
+			"Disabled"		"0"
 			"model"		"models/NF/Props/nf_crateammo.mdl"
 		}
 		"1236"
@@ -305,7 +305,7 @@
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"D1"
 			"pointNumber"		"0"
-			"disabled"		"0"
+			"Disabled"		"0"
 			"model"		"models/NF/Props/nf_crateammo.mdl"
 		}
 		"1036"
@@ -315,7 +315,7 @@
 			"angles"		"0.000000 315.000000 0.000000"
 			"coords"		"A4"
 			"pointNumber"		"0"
-			"disabled"		"0"
+			"Disabled"		"0"
 			"model"		"models/Imperial/Props/imp_crateammo.mdl"
 		}
 		"1039"
@@ -325,7 +325,7 @@
 			"angles"		"0.000000 270.000000 0.000000"
 			"coords"		"A4"
 			"pointNumber"		"0"
-			"disabled"		"0"
+			"Disabled"		"0"
 			"model"		"models/Imperial/Props/imp_crateammo.mdl"
 		}
 		"1230"
@@ -335,7 +335,7 @@
 			"angles"		"0.000000 270.000000 0.000000"
 			"coords"		"D1"
 			"pointNumber"		"0"
-			"disabled"		"0"
+			"Disabled"		"0"
 			"model"		"models/NF/Props/nf_cratehealth.mdl"
 		}
 		"1232"
@@ -345,7 +345,7 @@
 			"angles"		"0.000000 270.000000 0.000000"
 			"coords"		"D1"
 			"pointNumber"		"0"
-			"disabled"		"0"
+			"Disabled"		"0"
 			"model"		"models/NF/Props/nf_cratehealth.mdl"
 		}
 		"1234"
@@ -355,7 +355,7 @@
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"D1"
 			"pointNumber"		"0"
-			"disabled"		"0"
+			"Disabled"		"0"
 			"model"		"models/NF/Props/nf_cratehealth.mdl"
 		}
 		"1235"
@@ -365,7 +365,7 @@
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"D1"
 			"pointNumber"		"0"
-			"disabled"		"0"
+			"Disabled"		"0"
 			"model"		"models/NF/Props/nf_cratehealth.mdl"
 		}
 		"1037"
@@ -375,7 +375,7 @@
 			"angles"		"0.000000 315.000000 0.000000"
 			"coords"		"A4"
 			"pointNumber"		"0"
-			"disabled"		"0"
+			"Disabled"		"0"
 			"model"		"models/Imperial/Props/imp_cratehealth.mdl"
 		}
 		"1038"
@@ -385,7 +385,7 @@
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"A4"
 			"pointNumber"		"0"
-			"disabled"		"0"
+			"Disabled"		"0"
 			"model"		"models/Imperial/Props/imp_cratehealth.mdl"
 		}
 		"1262"
@@ -1166,8 +1166,8 @@
 		"995"
 		{
 			"className"		"prop_physics"
-			"position"		"-3163.401611 7015.370117 1127.501099"
-			"angles"		"22.600794 112.995010 -147.400436"
+			"position"		"-3163.457275 7015.350098 1127.526367"
+			"angles"		"23.330301 111.840912 -148.335556"
 			"coords"		"B3"
 			"effects"		"16"
 			"model"		"models/gibs/hgibs.mdl"
@@ -1180,8 +1180,8 @@
 		"996"
 		{
 			"className"		"prop_physics"
-			"position"		"-3155.889893 7015.248535 1123.041992"
-			"angles"		"27.119070 137.998642 93.391418"
+			"position"		"-3155.894531 7015.250977 1123.049438"
+			"angles"		"27.622055 137.898407 93.192352"
 			"coords"		"B3"
 			"effects"		"16"
 			"model"		"models/gibs/hgibs_scapula.mdl"
@@ -1194,8 +1194,8 @@
 		"997"
 		{
 			"className"		"prop_physics"
-			"position"		"-3159.243896 7019.478027 1124.489258"
-			"angles"		"76.628395 141.509720 -136.283112"
+			"position"		"-3159.242432 7019.470703 1124.508423"
+			"angles"		"76.033333 143.349136 -134.484283"
 			"coords"		"B3"
 			"effects"		"16"
 			"model"		"models/gibs/hgibs_spine.mdl"
@@ -1779,6 +1779,6 @@
 			"turretRestrict"		"0"
 		}
 	}
-	"version"		"1.400000"
+	"version"		"1.420000"
 	"hLimit"		"83097"
 }

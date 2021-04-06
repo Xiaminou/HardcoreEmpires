@@ -1418,7 +1418,7 @@
 			"angles"		"0.000000 180.000000 0.000000"
 			"coords"		"A4"
 			"pointNumber"		"2"
-			"disabled"		"0"
+			"Disabled"		"0"
 			"model"		"models/nf/props/nf_crateammo.mdl"
 		}
 		"1736"
@@ -1428,7 +1428,7 @@
 			"angles"		"0.000000 180.000000 0.000000"
 			"coords"		"A4"
 			"pointNumber"		"2"
-			"disabled"		"0"
+			"Disabled"		"0"
 			"model"		"models/nf/props/nf_crateammo.mdl"
 		}
 		"1737"
@@ -1438,7 +1438,7 @@
 			"angles"		"0.000000 180.000000 0.000000"
 			"coords"		"A4"
 			"pointNumber"		"2"
-			"disabled"		"0"
+			"Disabled"		"0"
 			"model"		"models/nf/props/nf_crateammo.mdl"
 		}
 		"2035"
@@ -1448,7 +1448,7 @@
 			"angles"		"0.000000 90.000000 0.000000"
 			"coords"		"C4"
 			"pointNumber"		"6"
-			"disabled"		"1"
+			"Disabled"		"1"
 			"model"		"models/NF/Props/nf_crateammo.mdl"
 		}
 		"1732"
@@ -1458,7 +1458,7 @@
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"E4"
 			"pointNumber"		"1"
-			"disabled"		"0"
+			"Disabled"		"0"
 			"model"		"models/imperial/props/imp_crateammo.mdl"
 		}
 		"1733"
@@ -1468,7 +1468,7 @@
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"E4"
 			"pointNumber"		"1"
-			"disabled"		"0"
+			"Disabled"		"0"
 			"model"		"models/imperial/props/imp_crateammo.mdl"
 		}
 		"1734"
@@ -1478,7 +1478,7 @@
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"E4"
 			"pointNumber"		"1"
-			"disabled"		"0"
+			"Disabled"		"0"
 			"model"		"models/imperial/props/imp_crateammo.mdl"
 		}
 		"2033"
@@ -1488,7 +1488,7 @@
 			"angles"		"0.000000 270.000000 0.000000"
 			"coords"		"C4"
 			"pointNumber"		"6"
-			"disabled"		"1"
+			"Disabled"		"1"
 			"model"		"models/Imperial/Props/imp_crateammo.mdl"
 		}
 		"2036"
@@ -1498,7 +1498,7 @@
 			"angles"		"0.000000 90.000000 0.000000"
 			"coords"		"C4"
 			"pointNumber"		"6"
-			"disabled"		"1"
+			"Disabled"		"1"
 			"model"		"models/NF/Props/nf_cratehealth.mdl"
 		}
 		"2034"
@@ -1508,7 +1508,7 @@
 			"angles"		"0.000000 270.000000 0.000000"
 			"coords"		"C4"
 			"pointNumber"		"6"
-			"disabled"		"1"
+			"Disabled"		"1"
 			"model"		"models/Imperial/Props/imp_cratehealth.mdl"
 		}
 		"1871"
@@ -1798,8 +1798,8 @@
 		"1844"
 		{
 			"className"		"prop_physics"
-			"position"		"-480.043182 1051.951294 -751.152832"
-			"angles"		"-0.401295 6.968359 -0.006531"
+			"position"		"-480.024994 1051.952393 -751.101990"
+			"angles"		"-0.330774 6.968549 -0.002991"
 			"coords"		"C4"
 			"model"		"models/props_wasteland/controlroom_desk001b.mdl"
 			"MoveType"		"6"
@@ -1811,8 +1811,8 @@
 		"1845"
 		{
 			"className"		"prop_physics"
-			"position"		"-484.079620 1187.972778 -751.098999"
-			"angles"		"-0.388639 -2.026501 -0.005402"
+			"position"		"-484.113159 1187.975708 -751.130981"
+			"angles"		"-0.494552 -2.025098 -0.010040"
 			"coords"		"C4"
 			"model"		"models/props_wasteland/controlroom_desk001a.mdl"
 			"MoveType"		"6"
@@ -1886,6 +1886,6 @@
 			"turretRestrict"		"0"
 		}
 	}
-	"version"		"1.400000"
+	"version"		"1.440000"
 	"hLimit"		"2037"
 }

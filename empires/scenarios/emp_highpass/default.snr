@@ -127,15 +127,15 @@
 		"1562"
 		{
 			"className"		"emp_imp_commander"
-			"position"		"11519.916992 9216.055664 2052.378662"
-			"angles"		"0.287496 -134.997253 1.249248"
+			"position"		"11519.915039 9216.057617 2052.384277"
+			"angles"		"0.287534 -134.997147 1.251385"
 			"coords"		"E5"
 		}
 		"1564"
 		{
 			"className"		"emp_nf_commander"
-			"position"		"-11519.483398 -9472.545898 2126.753418"
-			"angles"		"-0.015197 44.999519 -0.500854"
+			"position"		"-11519.476563 -9472.552734 2126.751465"
+			"angles"		"-0.015202 44.999504 -0.501740"
 			"coords"		"A2"
 		}
 		"257285"
@@ -430,7 +430,7 @@
 			"coords"		"C4"
 			"name"		"cp_mb_crate_nf"
 			"pointNumber"		"0"
-			"disabled"		"1"
+			"Disabled"		"1"
 			"model"		"models/NF/Props/nf_crateammo.mdl"
 		}
 		"334965"
@@ -441,7 +441,7 @@
 			"coords"		"C4"
 			"name"		"cp_mb_crate_nf"
 			"pointNumber"		"0"
-			"disabled"		"1"
+			"Disabled"		"1"
 			"model"		"models/NF/Props/nf_crateammo.mdl"
 		}
 		"335287"
@@ -452,7 +452,7 @@
 			"coords"		"C3"
 			"name"		"cp_sw_crate_nf"
 			"pointNumber"		"0"
-			"disabled"		"1"
+			"Disabled"		"1"
 			"model"		"models/NF/Props/nf_crateammo.mdl"
 		}
 		"335456"
@@ -463,7 +463,7 @@
 			"coords"		"C3"
 			"name"		"cp_sw_crate_nf"
 			"pointNumber"		"0"
-			"disabled"		"1"
+			"Disabled"		"1"
 			"model"		"models/NF/Props/nf_crateammo.mdl"
 		}
 		"335472"
@@ -474,7 +474,7 @@
 			"coords"		"C5"
 			"name"		"cp_nw_crate_nf"
 			"pointNumber"		"0"
-			"disabled"		"0"
+			"Disabled"		"0"
 			"model"		"models/NF/Props/nf_crateammo.mdl"
 		}
 		"335520"
@@ -485,7 +485,7 @@
 			"coords"		"C5"
 			"name"		"cp_nw_crate_nf"
 			"pointNumber"		"0"
-			"disabled"		"0"
+			"Disabled"		"0"
 			"model"		"models/NF/Props/nf_crateammo.mdl"
 		}
 		"334906"
@@ -496,7 +496,7 @@
 			"coords"		"C4"
 			"name"		"cp_mb_crate_imp"
 			"pointNumber"		"0"
-			"disabled"		"1"
+			"Disabled"		"1"
 			"model"		"models/Imperial/Props/imp_crateammo.mdl"
 		}
 		"334957"
@@ -507,7 +507,7 @@
 			"coords"		"C4"
 			"name"		"cp_mb_crate_imp"
 			"pointNumber"		"0"
-			"disabled"		"1"
+			"Disabled"		"1"
 			"model"		"models/Imperial/Props/imp_crateammo.mdl"
 		}
 		"335279"
@@ -518,7 +518,7 @@
 			"coords"		"C3"
 			"name"		"cp_sw_crate_imp"
 			"pointNumber"		"0"
-			"disabled"		"0"
+			"Disabled"		"0"
 			"model"		"models/Imperial/Props/imp_crateammo.mdl"
 		}
 		"335460"
@@ -529,7 +529,7 @@
 			"coords"		"C3"
 			"name"		"cp_sw_crate_imp"
 			"pointNumber"		"0"
-			"disabled"		"0"
+			"Disabled"		"0"
 			"model"		"models/Imperial/Props/imp_crateammo.mdl"
 		}
 		"335476"
@@ -540,7 +540,7 @@
 			"coords"		"C5"
 			"name"		"cp_nw_crate_imp"
 			"pointNumber"		"0"
-			"disabled"		"1"
+			"Disabled"		"1"
 			"model"		"models/Imperial/Props/imp_crateammo.mdl"
 		}
 		"335524"
@@ -551,7 +551,7 @@
 			"coords"		"C5"
 			"name"		"cp_nw_crate_imp"
 			"pointNumber"		"0"
-			"disabled"		"1"
+			"Disabled"		"1"
 			"model"		"models/Imperial/Props/imp_crateammo.mdl"
 		}
 		"334910"
@@ -562,7 +562,7 @@
 			"coords"		"C4"
 			"name"		"cp_mb_crate_nf"
 			"pointNumber"		"0"
-			"disabled"		"1"
+			"Disabled"		"1"
 			"model"		"models/NF/Props/nf_cratehealth.mdl"
 		}
 		"334961"
@@ -573,7 +573,7 @@
 			"coords"		"C4"
 			"name"		"cp_mb_crate_nf"
 			"pointNumber"		"0"
-			"disabled"		"1"
+			"Disabled"		"1"
 			"model"		"models/NF/Props/nf_cratehealth.mdl"
 		}
 		"335283"
@@ -584,7 +584,7 @@
 			"coords"		"C3"
 			"name"		"cp_sw_crate_nf"
 			"pointNumber"		"0"
-			"disabled"		"1"
+			"Disabled"		"1"
 			"model"		"models/NF/Props/nf_cratehealth.mdl"
 		}
 		"335464"
@@ -595,7 +595,7 @@
 			"coords"		"C3"
 			"name"		"cp_sw_crate_nf"
 			"pointNumber"		"0"
-			"disabled"		"1"
+			"Disabled"		"1"
 			"model"		"models/NF/Props/nf_cratehealth.mdl"
 		}
 		"335480"
@@ -606,7 +606,7 @@
 			"coords"		"C5"
 			"name"		"cp_nw_crate_nf"
 			"pointNumber"		"0"
-			"disabled"		"0"
+			"Disabled"		"0"
 			"model"		"models/NF/Props/nf_cratehealth.mdl"
 		}
 		"335528"
@@ -617,7 +617,7 @@
 			"coords"		"C5"
 			"name"		"cp_nw_crate_nf"
 			"pointNumber"		"0"
-			"disabled"		"0"
+			"Disabled"		"0"
 			"model"		"models/NF/Props/nf_cratehealth.mdl"
 		}
 		"334902"
@@ -628,7 +628,7 @@
 			"coords"		"C4"
 			"name"		"cp_mb_crate_imp"
 			"pointNumber"		"0"
-			"disabled"		"1"
+			"Disabled"		"1"
 			"model"		"models/Imperial/Props/imp_cratehealth.mdl"
 		}
 		"334953"
@@ -639,7 +639,7 @@
 			"coords"		"C4"
 			"name"		"cp_mb_crate_imp"
 			"pointNumber"		"0"
-			"disabled"		"1"
+			"Disabled"		"1"
 			"model"		"models/Imperial/Props/imp_cratehealth.mdl"
 		}
 		"335275"
@@ -650,7 +650,7 @@
 			"coords"		"C3"
 			"name"		"cp_sw_crate_imp"
 			"pointNumber"		"0"
-			"disabled"		"0"
+			"Disabled"		"0"
 			"model"		"models/Imperial/Props/imp_cratehealth.mdl"
 		}
 		"335452"
@@ -661,7 +661,7 @@
 			"coords"		"C3"
 			"name"		"cp_sw_crate_imp"
 			"pointNumber"		"0"
-			"disabled"		"0"
+			"Disabled"		"0"
 			"model"		"models/Imperial/Props/imp_cratehealth.mdl"
 		}
 		"335468"
@@ -672,7 +672,7 @@
 			"coords"		"C5"
 			"name"		"cp_nw_crate_imp"
 			"pointNumber"		"0"
-			"disabled"		"1"
+			"Disabled"		"1"
 			"model"		"models/Imperial/Props/imp_cratehealth.mdl"
 		}
 		"335516"
@@ -683,7 +683,7 @@
 			"coords"		"C5"
 			"name"		"cp_nw_crate_imp"
 			"pointNumber"		"0"
-			"disabled"		"1"
+			"Disabled"		"1"
 			"model"		"models/Imperial/Props/imp_cratehealth.mdl"
 		}
 		"348462"
@@ -1059,11 +1059,11 @@
 			"eng_restrict_Imp"		"0"
 			"turretRestrict"		"0"
 		}
-		"5000029"
+		"5000012"
 		{
 			"className"		"emp_vehicle"
-			"position"		"13279.151367 8832.000000 2084.826416"
-			"angles"		"-0.000005 90.000008 -0.251373"
+			"position"		"13283.557617 8832.000000 2084.826416"
+			"angles"		"-0.000005 90.000008 -0.251465"
 			"coords"		"E5"
 			"team"		"3"
 			"armorFront"		"2"
@@ -1092,11 +1092,11 @@
 			"respawnCost"		"0"
 			"respawn"		"0"
 		}
-		"5000030"
+		"5000013"
 		{
 			"className"		"emp_vehicle"
-			"position"		"13279.834961 9087.969727 2085.043701"
-			"angles"		"-0.041208 90.000282 -0.218079"
+			"position"		"13284.229492 9087.970703 2085.043701"
+			"angles"		"-0.039608 90.000320 -0.216858"
 			"coords"		"E5"
 			"team"		"3"
 			"armorFront"		"2"
@@ -1125,11 +1125,11 @@
 			"respawnCost"		"0"
 			"respawn"		"0"
 		}
-		"5000031"
+		"5000014"
 		{
 			"className"		"emp_vehicle"
-			"position"		"13367.912109 8320.000000 2087.147949"
-			"angles"		"0.000007 90.000008 -0.249054"
+			"position"		"13370.936523 8320.000000 2087.147949"
+			"angles"		"0.000007 90.000008 -0.249084"
 			"coords"		"E5"
 			"team"		"3"
 			"armorFront"		"2"
@@ -1152,11 +1152,11 @@
 			"respawnCost"		"0"
 			"respawn"		"0"
 		}
-		"5000032"
+		"5000015"
 		{
 			"className"		"emp_vehicle"
-			"position"		"13367.912109 8576.000000 2087.147949"
-			"angles"		"-0.000001 90.000008 -0.249054"
+			"position"		"13370.936523 8576.000000 2087.147949"
+			"angles"		"-0.000001 90.000008 -0.249084"
 			"coords"		"E5"
 			"team"		"3"
 			"armorFront"		"2"
@@ -1179,11 +1179,11 @@
 			"respawnCost"		"0"
 			"respawn"		"0"
 		}
-		"5000033"
+		"5000016"
 		{
 			"className"		"emp_vehicle"
-			"position"		"-13244.451172 -8829.978516 2080.457764"
-			"angles"		"-0.876185 -89.729240 -0.829437"
+			"position"		"-13249.584961 -8829.981445 2080.473877"
+			"angles"		"-0.893543 -89.736427 -0.780151"
 			"coords"		"A3"
 			"team"		"2"
 			"armorFront"		"2"
@@ -1212,11 +1212,11 @@
 			"respawnCost"		"0"
 			"respawn"		"0"
 		}
-		"5000034"
+		"5000017"
 		{
 			"className"		"emp_vehicle"
-			"position"		"-13222.411133 -9079.375000 2080.402344"
-			"angles"		"0.824717 -88.092667 -0.827850"
+			"position"		"-13227.768555 -9079.564453 2080.467285"
+			"angles"		"0.834756 -88.093086 -0.845825"
 			"coords"		"A3"
 			"team"		"2"
 			"armorFront"		"2"
@@ -1245,11 +1245,11 @@
 			"respawnCost"		"0"
 			"respawn"		"0"
 		}
-		"5000035"
+		"5000018"
 		{
 			"className"		"emp_vehicle"
-			"position"		"-13127.939453 -8575.814453 2086.850098"
-			"angles"		"-0.011211 -89.969940 -0.101257"
+			"position"		"-13134.588867 -8575.814453 2086.846680"
+			"angles"		"-0.011233 -89.971565 -0.102814"
 			"coords"		"A3"
 			"team"		"2"
 			"armorFront"		"2"
@@ -1272,11 +1272,11 @@
 			"respawnCost"		"0"
 			"respawn"		"0"
 		}
-		"5000036"
+		"5000019"
 		{
 			"className"		"emp_vehicle"
-			"position"		"-13136.905273 -8321.142578 2087.828613"
-			"angles"		"0.465971 -90.034012 -0.371307"
+			"position"		"-13143.454102 -8321.130859 2087.850342"
+			"angles"		"0.464310 -90.034348 -0.355530"
 			"coords"		"A3"
 			"team"		"2"
 			"armorFront"		"2"
@@ -1300,6 +1300,6 @@
 			"respawn"		"0"
 		}
 	}
-	"version"		"1.400000"
+	"version"		"1.440000"
 	"hLimit"		"421357"
 }

@@ -27,50 +27,6 @@
 			"health"		"250"
 			"team"		"3"
 		}
-		"1110"
-		{
-			"className"		"emp_building_nf_armory"
-			"position"		"12535.000000 -12517.000000 1032.000000"
-			"angles"		"0.000000 0.000000 0.000000"
-			"coords"		"D1"
-			"built"		"1"
-			"maxHealth"		"100"
-			"health"		"100"
-			"team"		"2"
-		}
-		"1111"
-		{
-			"className"		"emp_building_nf_armory"
-			"position"		"14076.000000 -12497.299805 1032.000000"
-			"angles"		"0.000000 180.000000 0.000000"
-			"coords"		"D1"
-			"built"		"1"
-			"maxHealth"		"100"
-			"health"		"100"
-			"team"		"2"
-		}
-		"1022"
-		{
-			"className"		"emp_building_imp_armory"
-			"position"		"-12325.000000 12695.000000 1025.000000"
-			"angles"		"0.000000 0.000000 0.000000"
-			"coords"		"A4"
-			"built"		"1"
-			"maxHealth"		"100"
-			"health"		"100"
-			"team"		"3"
-		}
-		"1316"
-		{
-			"className"		"emp_building_imp_armory"
-			"position"		"-14017.000000 12695.000000 1025.000000"
-			"angles"		"0.000000 0.000000 0.000000"
-			"coords"		"A4"
-			"built"		"1"
-			"maxHealth"		"100"
-			"health"		"100"
-			"team"		"3"
-		}
 		"1043"
 		{
 			"className"		"emp_building_imp_mgturret"

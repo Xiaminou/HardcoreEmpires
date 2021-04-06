@@ -6,8 +6,9 @@
 	{
 		"Default"
 		{
-			"Method"	"Random"
-			"VoteTitle"	"Scenario"
+			"Method"		"Random"
+			"VoteTitle"		"Scenario"
+			"Description"	"Default Gameplay"
 			"Options"
 			{
 				"override"
@@ -29,8 +30,9 @@
 		}
 		"KOTH"
 		{
-			"Method"	"Random"
-			"VoteTitle"	"Scenario"
+			"Method"		"Random"
+			"VoteTitle"		"Scenario"
+			"Description"	"King of the Hill"
 			"Options"
 			{
 				"KOTH"

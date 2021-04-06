@@ -127,15 +127,6 @@
 			"resPerSecond"		"1.000000"
 			"name"		"imp_startpoint"
 		}
-		"5000146"
-		{
-			"className"		"emp_building_nf_armory"
-			"position"		"-11684.518555 12544.988281 1024.000000"
-			"angles"		"0.000000 180.000000 0.000000"
-			"built"		"1"
-			"health"		"100"
-			"team"		"2"
-		}
 		"5000147"
 		{
 			"className"		"emp_building_imp_barracks"
@@ -165,15 +156,6 @@
 			"built"		"1"
 			"health"		"250"
 			"team"		"2"
-		}
-		"5000149"
-		{
-			"className"		"emp_building_imp_armory"
-			"position"		"11884.478516 -12628.318359 1024.000000"
-			"angles"		"0.000000 360.000000 0.000000"
-			"built"		"1"
-			"health"		"100"
-			"team"		"3"
 		}
 		"5000150"
 		{

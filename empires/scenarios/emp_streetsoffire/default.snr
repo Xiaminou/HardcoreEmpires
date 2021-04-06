@@ -43,15 +43,15 @@
 		"181033"
 		{
 			"className"		"emp_imp_commander"
-			"position"		"10704.145508 10131.239258 442.384186"
-			"angles"		"0.286674 -0.025292 1.251194"
+			"position"		"10704.146484 10131.212891 442.371246"
+			"angles"		"0.286616 -0.025392 1.246059"
 			"coords"		"D5"
 		}
 		"51672"
 		{
 			"className"		"emp_nf_commander"
-			"position"		"-7548.000000 -14179.065430 -191.672913"
-			"angles"		"0.000002 -0.000000 -0.586060"
+			"position"		"-7548.000000 -14178.990234 -191.669846"
+			"angles"		"0.000003 0.000000 -0.584808"
 			"coords"		"A1"
 		}
 		"1000115"
@@ -61,7 +61,7 @@
 			"angles"		"0.000000 180.000000 0.000000"
 			"coords"		"C4"
 			"pointNumber"		"0"
-			"disabled"		"0"
+			"Disabled"		"0"
 			"model"		"models/NF/Props/nf_crateammo.mdl"
 		}
 		"1006086"
@@ -71,7 +71,7 @@
 			"angles"		"0.000000 225.000000 0.000000"
 			"coords"		"B2"
 			"pointNumber"		"0"
-			"disabled"		"0"
+			"Disabled"		"0"
 			"model"		"models/NF/Props/nf_crateammo.mdl"
 		}
 		"1019374"
@@ -81,7 +81,7 @@
 			"angles"		"0.000000 180.000000 0.000000"
 			"coords"		"C5"
 			"pointNumber"		"0"
-			"disabled"		"0"
+			"Disabled"		"0"
 			"model"		"models/NF/Props/nf_crateammo.mdl"
 		}
 		"1000112"
@@ -91,7 +91,7 @@
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"C4"
 			"pointNumber"		"0"
-			"disabled"		"0"
+			"Disabled"		"0"
 			"model"		"models/Imperial/Props/imp_crateammo.mdl"
 		}
 		"1012449"
@@ -101,7 +101,7 @@
 			"angles"		"0.000000 45.000000 0.000000"
 			"coords"		"A3"
 			"pointNumber"		"0"
-			"disabled"		"0"
+			"Disabled"		"0"
 			"model"		"models/Imperial/Props/imp_crateammo.mdl"
 		}
 		"1006089"
@@ -111,7 +111,7 @@
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"B2"
 			"pointNumber"		"0"
-			"disabled"		"0"
+			"Disabled"		"0"
 			"model"		"models/NF/Props/nf_cratehealth.mdl"
 		}
 		"469659"
@@ -121,7 +121,7 @@
 			"angles"		"0.000000 240.000000 0.000000"
 			"coords"		"C5"
 			"pointNumber"		"0"
-			"disabled"		"0"
+			"Disabled"		"0"
 			"model"		"models/Imperial/Props/imp_cratehealth.mdl"
 		}
 		"1012446"
@@ -131,7 +131,7 @@
 			"angles"		"0.000000 60.000000 0.000000"
 			"coords"		"A3"
 			"pointNumber"		"0"
-			"disabled"		"0"
+			"Disabled"		"0"
 			"model"		"models/Imperial/Props/imp_cratehealth.mdl"
 		}
 		"792845"
@@ -1788,8 +1788,8 @@
 		"861424"
 		{
 			"className"		"prop_physics"
-			"position"		"4595.060059 -7932.626465 -22.596899"
-			"angles"		"0.189267 -0.041776 0.074781"
+			"position"		"4595.094238 -7932.639648 -22.614233"
+			"angles"		"0.321224 -0.042090 0.126920"
 			"coords"		"C2"
 			"model"		"models/props_junk/trafficcone001a.mdl"
 			"MoveType"		"6"
@@ -1801,8 +1801,8 @@
 		"861450"
 		{
 			"className"		"prop_physics"
-			"position"		"4521.847168 -7919.916504 -22.635620"
-			"angles"		"0.483096 -0.042766 0.190882"
+			"position"		"4521.832520 -7919.911133 -22.628334"
+			"angles"		"0.428077 -0.042603 0.169142"
 			"coords"		"C2"
 			"model"		"models/props_junk/trafficcone001a.mdl"
 			"MoveType"		"6"
@@ -1814,8 +1814,8 @@
 		"861454"
 		{
 			"className"		"prop_physics"
-			"position"		"4447.261230 -7867.052734 -22.617554"
-			"angles"		"0.346440 -0.042172 0.136884"
+			"position"		"4447.326660 -7867.078613 -22.650871"
+			"angles"		"0.596844 -0.044420 0.235652"
 			"coords"		"C2"
 			"model"		"models/props_junk/trafficcone001a.mdl"
 			"MoveType"		"6"
@@ -1827,8 +1827,8 @@
 		"861458"
 		{
 			"className"		"prop_physics"
-			"position"		"4676.419434 -7970.545898 -22.621893"
-			"angles"		"0.379324 -0.042261 0.149878"
+			"position"		"4676.435547 -7970.552246 -22.630072"
+			"angles"		"0.441214 -0.042564 0.174333"
 			"coords"		"C2"
 			"model"		"models/props_junk/trafficcone001a.mdl"
 			"MoveType"		"6"
@@ -1840,8 +1840,8 @@
 		"861494"
 		{
 			"className"		"prop_physics"
-			"position"		"4416.123047 -7504.053223 -22.643871"
-			"angles"		"0.545172 -0.043634 0.215393"
+			"position"		"4416.040039 -7504.020020 -22.601833"
+			"angles"		"0.226903 -0.041820 0.089652"
 			"coords"		"C2"
 			"model"		"models/props_junk/trafficcone001a.mdl"
 			"MoveType"		"6"
@@ -1853,8 +1853,8 @@
 		"861498"
 		{
 			"className"		"prop_physics"
-			"position"		"4473.068848 -7486.293457 -22.606174"
-			"angles"		"0.259965 -0.041908 0.102715"
+			"position"		"4473.126953 -7486.316406 -22.635630"
+			"angles"		"0.483083 -0.042771 0.190861"
 			"coords"		"C2"
 			"model"		"models/props_junk/trafficcone001a.mdl"
 			"MoveType"		"6"
@@ -1866,8 +1866,8 @@
 		"861502"
 		{
 			"className"		"prop_physics"
-			"position"		"4619.884766 -7412.939941 -22.639612"
-			"angles"		"0.513203 -0.043112 0.202779"
+			"position"		"4619.820801 -7412.914551 -22.607224"
+			"angles"		"0.267943 -0.041983 0.105867"
 			"coords"		"C2"
 			"model"		"models/props_junk/trafficcone001a.mdl"
 			"MoveType"		"6"
@@ -1879,8 +1879,8 @@
 		"861506"
 		{
 			"className"		"prop_physics"
-			"position"		"4541.569824 -7448.142090 -22.616869"
-			"angles"		"0.341243 -0.042187 0.134830"
+			"position"		"4541.608887 -7448.157227 -22.636595"
+			"angles"		"0.490452 -0.043195 0.193789"
 			"coords"		"C2"
 			"model"		"models/props_junk/trafficcone001a.mdl"
 			"MoveType"		"6"
@@ -1892,8 +1892,8 @@
 		"861510"
 		{
 			"className"		"prop_physics"
-			"position"		"4721.663574 -7422.727051 -22.649551"
-			"angles"		"0.587983 -0.044092 0.232329"
+			"position"		"4721.599609 -7422.702148 -22.616869"
+			"angles"		"0.341243 -0.042188 0.134830"
 			"coords"		"C2"
 			"model"		"models/props_junk/trafficcone001a.mdl"
 			"MoveType"		"6"
@@ -1915,6 +1915,6 @@
 			"turretRestrict"		"0"
 		}
 	}
-	"version"		"1.370000"
+	"version"		"1.440000"
 	"hLimit"		"1229333"
 }

@@ -3,7 +3,7 @@
 	"Description"		" "
 	"details"		" "
 	"Tags"		" "
-	"Author"		"Hardcore Empires - Main Server"
+	"Author"		"Harmony Empires - Main Server"
 	"NF_Res"		"500.000000"
 	"BE_Res"		"500.000000"
 	"NF_Tickets"		"351.399994"
@@ -65,15 +65,15 @@
 		"25327"
 		{
 			"className"		"emp_imp_commander"
-			"position"		"6703.959961 -7208.102051 -71.622581"
-			"angles"		"0.286673 -28.997782 1.248568"
+			"position"		"6704.008301 -7208.034180 -71.627892"
+			"angles"		"0.287296 -28.999599 1.246603"
 			"coords"		"D2"
 		}
 		"25329"
 		{
 			"className"		"emp_nf_commander"
-			"position"		"-7391.611816 5823.924316 2.319179"
-			"angles"		"-0.000014 79.000000 -0.586487"
+			"position"		"-7391.632324 5823.928711 2.322692"
+			"angles"		"-0.000004 79.000000 -0.586517"
 			"coords"		"B4"
 		}
 		"121763"
@@ -282,6 +282,6 @@
 			"turretRestrict"		"0"
 		}
 	}
-	"version"		"1.320000"
+	"version"		"1.420000"
 	"hLimit"		"124771"
 }

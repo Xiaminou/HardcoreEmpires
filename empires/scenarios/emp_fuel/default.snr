@@ -43,15 +43,15 @@
 		"107335"
 		{
 			"className"		"emp_imp_commander"
-			"position"		"11647.911133 -11775.536133 -8374.328125"
-			"angles"		"-0.707490 -0.039312 1.083795"
+			"position"		"11647.931641 -11775.684570 -8374.372070"
+			"angles"		"-0.704652 -0.036127 1.163573"
 			"coords"		"E2"
 		}
 		"245577"
 		{
 			"className"		"emp_nf_commander"
-			"position"		"-11775.459961 11776.378906 -8302.934570"
-			"angles"		"-0.534057 179.981735 -1.049286"
+			"position"		"-11775.443359 11776.412109 -8302.932617"
+			"angles"		"-0.536062 179.980881 -1.050446"
 			"coords"		"A6"
 		}
 		"103575"
@@ -239,7 +239,7 @@
 			"coords"		"C4"
 			"name"		"crate_nf"
 			"pointNumber"		"0"
-			"disabled"		"1"
+			"Disabled"		"1"
 			"model"		"models/NF/Props/nf_crateammo.mdl"
 		}
 		"658972"
@@ -250,7 +250,7 @@
 			"coords"		"C4"
 			"name"		"crate_nf"
 			"pointNumber"		"0"
-			"disabled"		"1"
+			"Disabled"		"1"
 			"model"		"models/NF/Props/nf_crateammo.mdl"
 		}
 		"659012"
@@ -261,7 +261,7 @@
 			"coords"		"C4"
 			"name"		"crate_nf"
 			"pointNumber"		"0"
-			"disabled"		"1"
+			"Disabled"		"1"
 			"model"		"models/NF/Props/nf_crateammo.mdl"
 		}
 		"659044"
@@ -272,7 +272,7 @@
 			"coords"		"C4"
 			"name"		"crate_nf"
 			"pointNumber"		"0"
-			"disabled"		"1"
+			"Disabled"		"1"
 			"model"		"models/NF/Props/nf_crateammo.mdl"
 		}
 		"659080"
@@ -283,7 +283,7 @@
 			"coords"		"C4"
 			"name"		"crate_emp"
 			"pointNumber"		"0"
-			"disabled"		"1"
+			"Disabled"		"1"
 			"model"		"models/Imperial/Props/imp_crateammo.mdl"
 		}
 		"659128"
@@ -294,7 +294,7 @@
 			"coords"		"C4"
 			"name"		"crate_emp"
 			"pointNumber"		"0"
-			"disabled"		"1"
+			"Disabled"		"1"
 			"model"		"models/Imperial/Props/imp_crateammo.mdl"
 		}
 		"659160"
@@ -305,7 +305,7 @@
 			"coords"		"C4"
 			"name"		"crate_emp"
 			"pointNumber"		"0"
-			"disabled"		"1"
+			"Disabled"		"1"
 			"model"		"models/Imperial/Props/imp_crateammo.mdl"
 		}
 		"659192"
@@ -316,7 +316,7 @@
 			"coords"		"C4"
 			"name"		"crate_emp"
 			"pointNumber"		"0"
-			"disabled"		"1"
+			"Disabled"		"1"
 			"model"		"models/Imperial/Props/imp_crateammo.mdl"
 		}
 		"658940"
@@ -327,7 +327,7 @@
 			"coords"		"C4"
 			"name"		"crate_nf"
 			"pointNumber"		"0"
-			"disabled"		"1"
+			"Disabled"		"1"
 			"model"		"models/NF/Props/nf_cratehealth.mdl"
 		}
 		"658976"
@@ -338,7 +338,7 @@
 			"coords"		"C4"
 			"name"		"crate_nf"
 			"pointNumber"		"0"
-			"disabled"		"1"
+			"Disabled"		"1"
 			"model"		"models/NF/Props/nf_cratehealth.mdl"
 		}
 		"659016"
@@ -349,7 +349,7 @@
 			"coords"		"C4"
 			"name"		"crate_nf"
 			"pointNumber"		"0"
-			"disabled"		"1"
+			"Disabled"		"1"
 			"model"		"models/NF/Props/nf_cratehealth.mdl"
 		}
 		"659048"
@@ -360,7 +360,7 @@
 			"coords"		"C4"
 			"name"		"crate_nf"
 			"pointNumber"		"0"
-			"disabled"		"1"
+			"Disabled"		"1"
 			"model"		"models/NF/Props/nf_cratehealth.mdl"
 		}
 		"659076"
@@ -371,7 +371,7 @@
 			"coords"		"C4"
 			"name"		"crate_emp"
 			"pointNumber"		"0"
-			"disabled"		"1"
+			"Disabled"		"1"
 			"model"		"models/Imperial/Props/imp_cratehealth.mdl"
 		}
 		"659124"
@@ -382,7 +382,7 @@
 			"coords"		"C4"
 			"name"		"crate_emp"
 			"pointNumber"		"0"
-			"disabled"		"1"
+			"Disabled"		"1"
 			"model"		"models/Imperial/Props/imp_cratehealth.mdl"
 		}
 		"659156"
@@ -393,7 +393,7 @@
 			"coords"		"C4"
 			"name"		"crate_emp"
 			"pointNumber"		"0"
-			"disabled"		"1"
+			"Disabled"		"1"
 			"model"		"models/Imperial/Props/imp_cratehealth.mdl"
 		}
 		"659188"
@@ -404,7 +404,7 @@
 			"coords"		"C4"
 			"name"		"crate_emp"
 			"pointNumber"		"0"
-			"disabled"		"1"
+			"Disabled"		"1"
 			"model"		"models/Imperial/Props/imp_cratehealth.mdl"
 		}
 		"438663"
@@ -803,6 +803,6 @@
 			"turretRestrict"		"0"
 		}
 	}
-	"version"		"1.350000"
+	"version"		"1.440000"
 	"hLimit"		"1033493"
 }

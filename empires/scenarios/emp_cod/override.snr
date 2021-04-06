@@ -1,8 +1,8 @@
 "Scenario"
 {
-	"Description"	"[Type: Location] Start West (A3) and East (D3)"
-	"Author"		"Xiam"
-	"CanBaseSwap"	"yes"
+	"Description"		"[Type: Location] Start West (A3) and East (D3)"
+	"Author"			"Xiam"
+	"CanBaseSwap"		"yes"
 	"CommFreezeTime"	"1"
 	"Entities"
 	{
@@ -15,16 +15,6 @@
 			"built"		"1"
 			"health"		"250"
 			"team"		"2"
-		}
-		"283337"
-		{
-			"className"		"emp_building_imp_armory"
-			"position"		"-5376.000000 0.000000 -3068.000000"
-			"angles"		"0.000000 0.000000 0.000000"
-			"coords"		"A3"
-			"built"		"1"
-			"health"		"100"
-			"team"		"3"
 		}
 		"283346"
 		{
@@ -49,16 +39,6 @@
 			"position"		"5121.467773 -643.800903 -2993.796387"
 			"angles"		"0.516864 -0.043280 -0.564117"
 			"coords"		"D3"
-		}
-		"297079"
-		{
-			"className"		"emp_building_nf_armory"
-			"position"		"5120.000000 0.000000 -3072.000000"
-			"angles"		"0.000000 0.000000 0.000000"
-			"coords"		"D3"
-			"built"		"1"
-			"health"		"100"
-			"team"		"2"
 		}
 		"314010"
 		{

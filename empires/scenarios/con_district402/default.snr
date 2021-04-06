@@ -2290,7 +2290,7 @@
 			"coords"		"F3"
 			"name"		"nf_ac_7"
 			"pointNumber"		"8"
-			"disabled"		"1"
+			"Disabled"		"1"
 			"model"		"models/NF/Props/nf_crateammo.mdl"
 		}
 		"474623"
@@ -2301,7 +2301,7 @@
 			"coords"		"E3"
 			"name"		"nf_ac_6"
 			"pointNumber"		"7"
-			"disabled"		"1"
+			"Disabled"		"1"
 			"model"		"models/NF/Props/nf_crateammo.mdl"
 		}
 		"474684"
@@ -2312,7 +2312,7 @@
 			"coords"		"D5"
 			"name"		"nf_ac_4"
 			"pointNumber"		"5"
-			"disabled"		"1"
+			"Disabled"		"1"
 			"model"		"models/NF/Props/nf_crateammo.mdl"
 		}
 		"474755"
@@ -2323,7 +2323,7 @@
 			"coords"		"D7"
 			"name"		"nf_ac_3"
 			"pointNumber"		"4"
-			"disabled"		"1"
+			"Disabled"		"1"
 			"model"		"models/NF/Props/nf_crateammo.mdl"
 		}
 		"474772"
@@ -2334,7 +2334,7 @@
 			"coords"		"B7"
 			"name"		"nf_ac_2"
 			"pointNumber"		"3"
-			"disabled"		"0"
+			"Disabled"		"0"
 			"model"		"models/NF/Props/nf_crateammo.mdl"
 		}
 		"668912"
@@ -2344,7 +2344,7 @@
 			"angles"		"0.000000 90.000000 0.000000"
 			"coords"		"B5"
 			"pointNumber"		"1"
-			"disabled"		"0"
+			"Disabled"		"0"
 			"model"		"models/NF/Props/nf_crateammo.mdl"
 		}
 		"1076003"
@@ -2355,7 +2355,7 @@
 			"coords"		"D2"
 			"name"		"nf_ac_5"
 			"pointNumber"		"6"
-			"disabled"		"1"
+			"Disabled"		"1"
 			"model"		"models/NF/Props/nf_crateammo.mdl"
 		}
 		"474534"
@@ -2366,7 +2366,7 @@
 			"coords"		"F2"
 			"name"		"imp_ac_7"
 			"pointNumber"		"8"
-			"disabled"		"1"
+			"Disabled"		"1"
 			"model"		"models/Imperial/Props/imp_crateammo.mdl"
 		}
 		"474644"
@@ -2377,7 +2377,7 @@
 			"coords"		"F3"
 			"name"		"imp_ac_6"
 			"pointNumber"		"7"
-			"disabled"		"0"
+			"Disabled"		"0"
 			"model"		"models/Imperial/Props/imp_crateammo.mdl"
 		}
 		"474713"
@@ -2388,7 +2388,7 @@
 			"coords"		"D5"
 			"name"		"imp_ac_4"
 			"pointNumber"		"5"
-			"disabled"		"1"
+			"Disabled"		"1"
 			"model"		"models/Imperial/Props/imp_crateammo.mdl"
 		}
 		"474726"
@@ -2399,7 +2399,7 @@
 			"coords"		"D7"
 			"name"		"imp_ac_3"
 			"pointNumber"		"4"
-			"disabled"		"1"
+			"Disabled"		"1"
 			"model"		"models/Imperial/Props/imp_crateammo.mdl"
 		}
 		"474783"
@@ -2410,7 +2410,7 @@
 			"coords"		"B7"
 			"name"		"imp_ac_2"
 			"pointNumber"		"3"
-			"disabled"		"1"
+			"Disabled"		"1"
 			"model"		"models/Imperial/Props/imp_crateammo.mdl"
 		}
 		"483346"
@@ -2420,7 +2420,7 @@
 			"angles"		"0.000000 270.000000 0.000000"
 			"coords"		"F2"
 			"pointNumber"		"9"
-			"disabled"		"0"
+			"Disabled"		"0"
 			"model"		"models/Imperial/Props/imp_crateammo.mdl"
 		}
 		"1117729"
@@ -2431,7 +2431,7 @@
 			"coords"		"D3"
 			"name"		"imp_ac_6"
 			"pointNumber"		"6"
-			"disabled"		"0"
+			"Disabled"		"0"
 			"model"		"models/Imperial/Props/imp_crateammo.mdl"
 		}
 		"474560"
@@ -2442,7 +2442,7 @@
 			"coords"		"F3"
 			"name"		"nf_hc_7"
 			"pointNumber"		"8"
-			"disabled"		"1"
+			"Disabled"		"1"
 			"model"		"models/NF/Props/nf_cratehealth.mdl"
 		}
 		"474620"
@@ -2453,7 +2453,7 @@
 			"coords"		"E3"
 			"name"		"nf_hc_6"
 			"pointNumber"		"7"
-			"disabled"		"1"
+			"Disabled"		"1"
 			"model"		"models/NF/Props/nf_cratehealth.mdl"
 		}
 		"474687"
@@ -2464,7 +2464,7 @@
 			"coords"		"D5"
 			"name"		"nf_hc_4"
 			"pointNumber"		"5"
-			"disabled"		"1"
+			"Disabled"		"1"
 			"model"		"models/NF/Props/nf_cratehealth.mdl"
 		}
 		"474758"
@@ -2475,7 +2475,7 @@
 			"coords"		"D7"
 			"name"		"nf_hc_3"
 			"pointNumber"		"4"
-			"disabled"		"1"
+			"Disabled"		"1"
 			"model"		"models/NF/Props/nf_cratehealth.mdl"
 		}
 		"474769"
@@ -2486,7 +2486,7 @@
 			"coords"		"B7"
 			"name"		"nf_hc_2"
 			"pointNumber"		"3"
-			"disabled"		"0"
+			"Disabled"		"0"
 			"model"		"models/NF/Props/nf_cratehealth.mdl"
 		}
 		"474500"
@@ -2496,7 +2496,7 @@
 			"angles"		"0.000000 90.000000 0.000000"
 			"coords"		"B5"
 			"pointNumber"		"1"
-			"disabled"		"0"
+			"Disabled"		"0"
 			"model"		"models/NF/Props/nf_cratehealth.mdl"
 		}
 		"1076001"
@@ -2507,7 +2507,7 @@
 			"coords"		"D2"
 			"name"		"nf_hc_5"
 			"pointNumber"		"6"
-			"disabled"		"1"
+			"Disabled"		"1"
 			"model"		"models/NF/Props/nf_cratehealth.mdl"
 		}
 		"474531"
@@ -2518,7 +2518,7 @@
 			"coords"		"F2"
 			"name"		"imp_hc_7"
 			"pointNumber"		"8"
-			"disabled"		"1"
+			"Disabled"		"1"
 			"model"		"models/Imperial/Props/imp_cratehealth.mdl"
 		}
 		"474647"
@@ -2529,7 +2529,7 @@
 			"coords"		"F3"
 			"name"		"imp_hc_6"
 			"pointNumber"		"7"
-			"disabled"		"0"
+			"Disabled"		"0"
 			"model"		"models/Imperial/Props/imp_cratehealth.mdl"
 		}
 		"474716"
@@ -2540,7 +2540,7 @@
 			"coords"		"D5"
 			"name"		"imp_hc_4"
 			"pointNumber"		"5"
-			"disabled"		"1"
+			"Disabled"		"1"
 			"model"		"models/Imperial/Props/imp_cratehealth.mdl"
 		}
 		"474723"
@@ -2551,7 +2551,7 @@
 			"coords"		"D7"
 			"name"		"imp_hc_3"
 			"pointNumber"		"4"
-			"disabled"		"1"
+			"Disabled"		"1"
 			"model"		"models/Imperial/Props/imp_cratehealth.mdl"
 		}
 		"474786"
@@ -2562,7 +2562,7 @@
 			"coords"		"B7"
 			"name"		"imp_hc_2"
 			"pointNumber"		"3"
-			"disabled"		"1"
+			"Disabled"		"1"
 			"model"		"models/Imperial/Props/imp_cratehealth.mdl"
 		}
 		"483344"
@@ -2572,7 +2572,7 @@
 			"angles"		"0.000000 270.000000 0.000000"
 			"coords"		"F2"
 			"pointNumber"		"9"
-			"disabled"		"0"
+			"Disabled"		"0"
 			"model"		"models/Imperial/Props/imp_cratehealth.mdl"
 		}
 		"1076007"
@@ -2583,7 +2583,7 @@
 			"coords"		"D3"
 			"name"		"imp_hc_5"
 			"pointNumber"		"6"
-			"disabled"		"0"
+			"Disabled"		"0"
 			"model"		"models/Imperial/Props/imp_cratehealth.mdl"
 		}
 		"148562"
@@ -2782,6 +2782,6 @@
 			"turretRestrict"		"3"
 		}
 	}
-	"version"		"1.400000"
+	"version"		"1.440000"
 	"hLimit"		"1195132"
 }

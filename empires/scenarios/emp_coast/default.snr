@@ -155,15 +155,15 @@
 		"1722"
 		{
 			"className"		"emp_imp_commander"
-			"position"		"9151.599609 -4080.229248 132.357376"
-			"angles"		"0.285957 165.007660 1.233801"
+			"position"		"9151.560547 -4080.306885 132.378937"
+			"angles"		"0.287038 165.002350 1.249786"
 			"coords"		"E2"
 		}
 		"1714"
 		{
 			"className"		"emp_nf_commander"
-			"position"		"-7480.370117 7599.500000 210.431198"
-			"angles"		"-0.044995 -30.002779 -0.570618"
+			"position"		"-7480.339844 7599.551758 210.425049"
+			"angles"		"-0.044602 -30.002850 -0.574127"
 			"coords"		"B4"
 		}
 		"1557"
@@ -267,7 +267,7 @@
 			"coords"		"C3"
 			"name"		"Bunker_Nf_Crates"
 			"pointNumber"		"0"
-			"disabled"		"1"
+			"Disabled"		"1"
 			"model"		"models/NF/Props/nf_crateammo.mdl"
 		}
 		"1565"
@@ -278,7 +278,7 @@
 			"coords"		"C3"
 			"name"		"Bunker_Imp_Crates"
 			"pointNumber"		"0"
-			"disabled"		"1"
+			"Disabled"		"1"
 			"model"		"models/Imperial/Props/imp_crateammo.mdl"
 		}
 		"1568"
@@ -289,7 +289,7 @@
 			"coords"		"C3"
 			"name"		"Bunker_Nf_Crates"
 			"pointNumber"		"0"
-			"disabled"		"1"
+			"Disabled"		"1"
 			"model"		"models/NF/Props/nf_cratehealth.mdl"
 		}
 		"1566"
@@ -300,7 +300,7 @@
 			"coords"		"C3"
 			"name"		"Bunker_Imp_Crates"
 			"pointNumber"		"0"
-			"disabled"		"1"
+			"Disabled"		"1"
 			"model"		"models/Imperial/Props/imp_cratehealth.mdl"
 		}
 		"5448"
@@ -2257,6 +2257,6 @@
 			"turretRestrict"		"0"
 		}
 	}
-	"version"		"1.370000"
+	"version"		"1.440000"
 	"hLimit"		"5448"
 }

@@ -6,8 +6,9 @@
 	{
 		"Default"
 		{
-			"Method"	"Random"
-			"VoteTitle"	"Scenario"
+			"Method"		"Random"
+			"VoteTitle"		"Scenario"
+			"Description"	"Default Gameplay"
 			"Options"
 			{
 				"override"

@@ -121,15 +121,15 @@
 		"4653"
 		{
 			"className"		"emp_imp_commander"
-			"position"		"-10831.875977 9258.671875 1005.019836"
-			"angles"		"-3.045211 -94.445923 1.660517"
+			"position"		"-10832.077148 9258.646484 1005.020874"
+			"angles"		"-3.021840 -94.496925 1.703174"
 			"coords"		"A4"
 		}
 		"4659"
 		{
 			"className"		"emp_nf_commander"
-			"position"		"9663.152344 -4967.307617 736.030518"
-			"angles"		"1.190911 172.596481 -0.538849"
+			"position"		"9663.161133 -4967.191895 736.023560"
+			"angles"		"1.193986 172.597504 -0.541443"
 			"coords"		"D2"
 		}
 		"319937"
@@ -162,7 +162,7 @@
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"B3"
 			"pointNumber"		"1"
-			"disabled"		"1"
+			"Disabled"		"1"
 			"model"		"models/NF/Props/nf_crateammo.mdl"
 		}
 		"319979"
@@ -172,7 +172,7 @@
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"B3"
 			"pointNumber"		"1"
-			"disabled"		"1"
+			"Disabled"		"1"
 			"model"		"models/Imperial/Props/imp_crateammo.mdl"
 		}
 		"319961"
@@ -182,7 +182,7 @@
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"B3"
 			"pointNumber"		"1"
-			"disabled"		"1"
+			"Disabled"		"1"
 			"model"		"models/NF/Props/nf_cratehealth.mdl"
 		}
 		"319968"
@@ -192,7 +192,7 @@
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"B3"
 			"pointNumber"		"1"
-			"disabled"		"1"
+			"Disabled"		"1"
 			"model"		"models/Imperial/Props/imp_cratehealth.mdl"
 		}
 		"311764"
@@ -646,7 +646,7 @@
 		"328484"
 		{
 			"className"		"prop_dynamic"
-			"position"		"-11651.079102 -8654.165039 1808.589478"
+			"position"		"-11494.926758 -8820.854492 1900.527344"
 			"angles"		"338.073639 313.134918 0.000000"
 			"Parent"		"#328518"
 			"coords"		"A1"
@@ -713,6 +713,6 @@
 			"turretRestrict"		"0"
 		}
 	}
-	"version"		"1.340000"
+	"version"		"1.420000"
 	"hLimit"		"341688"
 }

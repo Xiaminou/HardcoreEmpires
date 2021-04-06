@@ -3,9 +3,9 @@
 	"Description"		" "
 	"details"		" "
 	"Tags"		" "
-	"Author"		"Hardcore Empires - Main Server"
-	"NF_Res"		"400.000000"
-	"BE_Res"		"400.000000"
+	"Author"		"Harmony Empires - Main Server"
+	"NF_Res"		"500.000000"
+	"BE_Res"		"500.000000"
 	"NF_Tickets"		"211.251007"
 	"BE_Tickets"		"211.251007"
 	"NF_Research"
@@ -43,15 +43,15 @@
 		"18319"
 		{
 			"className"		"emp_imp_commander"
-			"position"		"-6367.791016 -8927.992188 -2327.630127"
-			"angles"		"0.285514 -90.988533 1.249360"
+			"position"		"-6367.746094 -8928.006836 -2327.617432"
+			"angles"		"0.286833 -90.993126 1.254568"
 			"coords"		"B2"
 		}
 		"36959"
 		{
 			"className"		"emp_nf_commander"
-			"position"		"9216.804688 10463.808594 -2253.670410"
-			"angles"		"0.000021 90.999992 -0.582611"
+			"position"		"9216.721680 10463.806641 -2253.670166"
+			"angles"		"-0.000029 90.999992 -0.583649"
 			"coords"		"E5"
 		}
 		"63675"
@@ -180,7 +180,7 @@
 			"coords"		"C4"
 			"name"		"nf_ac_4"
 			"pointNumber"		"1"
-			"disabled"		"1"
+			"Disabled"		"1"
 			"model"		"models/NF/Props/nf_crateammo.mdl"
 		}
 		"82941"
@@ -191,7 +191,7 @@
 			"coords"		"C3"
 			"name"		"nf_ac_4"
 			"pointNumber"		"2"
-			"disabled"		"1"
+			"Disabled"		"1"
 			"model"		"models/NF/Props/nf_crateammo.mdl"
 		}
 		"63679"
@@ -202,7 +202,7 @@
 			"coords"		"C4"
 			"name"		"imp_ac_4"
 			"pointNumber"		"1"
-			"disabled"		"1"
+			"Disabled"		"1"
 			"model"		"models/Imperial/Props/imp_crateammo.mdl"
 		}
 		"82945"
@@ -213,7 +213,7 @@
 			"coords"		"C3"
 			"name"		"imp_ac_4"
 			"pointNumber"		"2"
-			"disabled"		"1"
+			"Disabled"		"1"
 			"model"		"models/Imperial/Props/imp_crateammo.mdl"
 		}
 		"36965"
@@ -222,11 +222,11 @@
 			"position"		"10432.000000 10926.500000 -2304.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"E5"
+			"target"		"res_node_SE_2"
 			"built"		"1"
 			"maxHealth"		"150"
 			"health"		"150"
 			"team"		"2"
-			"target"		"res_node_SE_2"
 		}
 		"36976"
 		{
@@ -234,11 +234,11 @@
 			"position"		"-7520.000000 -8312.000000 -2312.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"B2"
+			"target"		"res_node_SW"
 			"built"		"1"
 			"maxHealth"		"150"
 			"health"		"150"
 			"team"		"3"
-			"target"		"res_node_SW"
 		}
 		"18331"
 		{
@@ -650,6 +650,8 @@
 			"model"		"models/props_wasteland/controlroom_filecabinet002a.mdl"
 			"MoveType"		"6"
 			"SolidType"		"6"
+			"fademindist"		"3072.000000"
+			"fademaxdist"		"4096.000000"
 			"MassScale"		"0.000000"
 			"InertiaScale"		"1.000000"
 			"DamageType"		"0"
@@ -663,6 +665,8 @@
 			"model"		"models/props_wasteland/controlroom_filecabinet002a.mdl"
 			"MoveType"		"6"
 			"SolidType"		"6"
+			"fademindist"		"3072.000000"
+			"fademaxdist"		"4096.000000"
 			"MassScale"		"0.000000"
 			"InertiaScale"		"1.000000"
 			"DamageType"		"0"
@@ -689,6 +693,8 @@
 			"model"		"models/props_junk/metalbucket02a.mdl"
 			"MoveType"		"6"
 			"SolidType"		"6"
+			"fademindist"		"3072.000000"
+			"fademaxdist"		"4096.000000"
 			"MassScale"		"0.000000"
 			"InertiaScale"		"1.000000"
 			"DamageType"		"0"
@@ -702,6 +708,8 @@
 			"model"		"models/props_c17/furnituremattress001a.mdl"
 			"MoveType"		"6"
 			"SolidType"		"6"
+			"fademindist"		"3072.000000"
+			"fademaxdist"		"4096.000000"
 			"MassScale"		"0.000000"
 			"InertiaScale"		"1.000000"
 			"DamageType"		"0"
@@ -719,6 +727,6 @@
 			"turretRestrict"		"0"
 		}
 	}
-	"version"		"1.310000"
+	"version"		"1.440000"
 	"hLimit"		"152457"
 }

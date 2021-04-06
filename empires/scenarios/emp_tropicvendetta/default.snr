@@ -105,16 +105,16 @@
 		"92214"
 		{
 			"className"		"emp_imp_commander"
-			"position"		"-12295.865234 -8847.650391 987.884460"
-			"angles"		"0.300725 -0.016568 1.242913"
+			"position"		"-12295.904297 -8847.602539 987.887329"
+			"angles"		"0.292694 -0.008197 1.255856"
 			"coords"		"A2"
 			"name"		"cv_be"
 		}
 		"96166"
 		{
 			"className"		"emp_nf_commander"
-			"position"		"12301.103516 7936.553223 963.791077"
-			"angles"		"0.011789 -179.749954 -0.585327"
+			"position"		"12301.027344 7936.349121 963.815491"
+			"angles"		"0.006637 -179.786774 -0.584686"
 			"coords"		"E4"
 			"name"		"cv_nf"
 		}
@@ -129,7 +129,7 @@
 			"model"		"models/Common/props_system/flagpole01_neutral.mdl"
 			"model2"		"models/common/props_system/flagpole01_nf.mdl"
 			"model3"		"models/common/props_system/flagpole01_imp.mdl"
-			"team"		"0"
+			"team"		"3"
 		}
 		"131748"
 		{
@@ -142,7 +142,7 @@
 			"model"		"models/Common/props_system/flagpole01_neutral.mdl"
 			"model2"		"models/common/props_system/flagpole01_nf.mdl"
 			"model3"		"models/common/props_system/flagpole01_imp.mdl"
-			"team"		"0"
+			"team"		"2"
 		}
 		"92222"
 		{
@@ -644,7 +644,7 @@
 			"coords"		"E5"
 			"name"		"blimp_nf_ammoboxes"
 			"pointNumber"		"0"
-			"disabled"		"0"
+			"Disabled"		"0"
 			"model"		"models/NF/Props/nf_crateammo.mdl"
 		}
 		"101333"
@@ -655,7 +655,7 @@
 			"coords"		"E4"
 			"name"		"blimp_nf_ammoboxes"
 			"pointNumber"		"0"
-			"disabled"		"0"
+			"Disabled"		"0"
 			"model"		"models/NF/Props/nf_crateammo.mdl"
 		}
 		"101349"
@@ -666,7 +666,7 @@
 			"coords"		"E4"
 			"name"		"blimp_nf_ammoboxes"
 			"pointNumber"		"0"
-			"disabled"		"0"
+			"Disabled"		"0"
 			"model"		"models/NF/Props/nf_crateammo.mdl"
 		}
 		"101357"
@@ -677,7 +677,7 @@
 			"coords"		"E4"
 			"name"		"blimp_nf_ammoboxes"
 			"pointNumber"		"0"
-			"disabled"		"0"
+			"Disabled"		"0"
 			"model"		"models/NF/Props/nf_crateammo.mdl"
 		}
 		"133409"
@@ -687,7 +687,7 @@
 			"angles"		"0.000000 0.499953 0.000000"
 			"coords"		"C5"
 			"pointNumber"		"0"
-			"disabled"		"0"
+			"Disabled"		"0"
 			"model"		"models/NF/Props/nf_crateammo.mdl"
 		}
 		"92216"
@@ -698,7 +698,7 @@
 			"coords"		"A2"
 			"name"		"blimp_be_ammoboxes"
 			"pointNumber"		"0"
-			"disabled"		"0"
+			"Disabled"		"0"
 			"model"		"models/Imperial/Props/imp_crateammo.mdl"
 		}
 		"101180"
@@ -709,7 +709,7 @@
 			"coords"		"A2"
 			"name"		"blimp_be_ammoboxes"
 			"pointNumber"		"0"
-			"disabled"		"0"
+			"Disabled"		"0"
 			"model"		"models/Imperial/Props/imp_crateammo.mdl"
 		}
 		"126354"
@@ -720,7 +720,7 @@
 			"coords"		"A2"
 			"name"		"blimp_be_ammoboxes"
 			"pointNumber"		"0"
-			"disabled"		"0"
+			"Disabled"		"0"
 			"model"		"models/Imperial/Props/imp_crateammo.mdl"
 		}
 		"126356"
@@ -731,7 +731,7 @@
 			"coords"		"A2"
 			"name"		"blimp_be_ammoboxes"
 			"pointNumber"		"0"
-			"disabled"		"0"
+			"Disabled"		"0"
 			"model"		"models/Imperial/Props/imp_crateammo.mdl"
 		}
 		"133425"
@@ -741,7 +741,7 @@
 			"angles"		"0.000000 245.500000 0.000000"
 			"coords"		"C2"
 			"pointNumber"		"0"
-			"disabled"		"0"
+			"Disabled"		"0"
 			"model"		"models/Imperial/Props/imp_crateammo.mdl"
 		}
 		"126714"
@@ -752,7 +752,7 @@
 			"coords"		"E4"
 			"name"		"blimp_nf_healthboxes"
 			"pointNumber"		"0"
-			"disabled"		"0"
+			"Disabled"		"0"
 			"model"		"models/NF/Props/nf_cratehealth.mdl"
 		}
 		"133412"
@@ -762,7 +762,7 @@
 			"angles"		"0.000000 359.000000 0.000000"
 			"coords"		"C5"
 			"pointNumber"		"0"
-			"disabled"		"0"
+			"Disabled"		"0"
 			"model"		"models/NF/Props/nf_cratehealth.mdl"
 		}
 		"126728"
@@ -773,7 +773,7 @@
 			"coords"		"A2"
 			"name"		"blimp_be_healthboxes"
 			"pointNumber"		"0"
-			"disabled"		"0"
+			"Disabled"		"0"
 			"model"		"models/Imperial/Props/imp_cratehealth.mdl"
 		}
 		"126763"
@@ -784,7 +784,7 @@
 			"coords"		"A2"
 			"name"		"blimp_be_healthboxes"
 			"pointNumber"		"0"
-			"disabled"		"0"
+			"Disabled"		"0"
 			"model"		"models/Imperial/Props/imp_cratehealth.mdl"
 		}
 		"133428"
@@ -794,7 +794,7 @@
 			"angles"		"0.000000 241.000000 0.000000"
 			"coords"		"C2"
 			"pointNumber"		"0"
-			"disabled"		"0"
+			"Disabled"		"0"
 			"model"		"models/Imperial/Props/imp_cratehealth.mdl"
 		}
 		"119731"
@@ -1780,10 +1780,10 @@
 		"203203"
 		{
 			"className"		"prop_dynamic"
-			"position"		"9122.433594 -13780.886719 -75.000000"
-			"angles"		"0.000000 8.878784 0.000000"
+			"position"		"9505.934570 -13670.316406 -75.000000"
+			"angles"		"0.000000 18.727276 0.000000"
 			"Parent"		"#203299"
-			"coords"		"D1"
+			"coords"		"E1"
 			"name"		"shark1"
 			"model"		"models/pwnedyoass/shark.mdl"
 			"MoveType"		"7"
@@ -1792,10 +1792,10 @@
 		"205742"
 		{
 			"className"		"prop_dynamic"
-			"position"		"9164.275391 -9019.175781 -75.000000"
-			"angles"		"0.000000 -8.878784 0.000000"
+			"position"		"9581.356445 -9139.848633 -75.000000"
+			"angles"		"0.000000 -18.727276 0.000000"
 			"Parent"		"#205727"
-			"coords"		"D2"
+			"coords"		"E2"
 			"name"		"shark2"
 			"model"		"models/pwnedyoass/shark.mdl"
 			"MoveType"		"7"
@@ -1814,6 +1814,6 @@
 			"turretRestrict"		"0"
 		}
 	}
-	"version"		"1.370000"
+	"version"		"1.440000"
 	"hLimit"		"303430"
 }

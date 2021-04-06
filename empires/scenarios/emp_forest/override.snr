@@ -619,28 +619,6 @@
 			"health"		"250"
 			"team"		"3"
 		}
-		"5000146"
-		{
-			"className"		"emp_building_nf_armory"
-			"position"		"-9312.000000 -11876.000000 -2871.000000"
-			"angles"		"0.000000 0.000000 0.000000"
-			"coords"		"B1"
-			"built"		"1"
-			"maxHealth"		"125"
-			"health"		"100"
-			"team"		"2"
-		}
-		"5000147"
-		{
-			"className"		"emp_building_imp_armory"
-			"position"		"11184.000000 12496.000000 -2683.000000"
-			"angles"		"0.000000 0.000000 0.000000"
-			"coords"		"F7"
-			"built"		"1"
-			"maxHealth"		"125"
-			"health"		"100"
-			"team"		"3"
-		}
 		"5000160"
 		{
 			"className"		"emp_building_nf_refinery"
