@@ -14,21 +14,13 @@
 	"Silent"	"0"
 	"Url"		"https://www.empiresmod.com/"
 }
-"Empires Wiki"
-{
-	"Title"		"Empires Wiki"
-	"Hook"		"!empireswiki"
-	"Hook"		"/empireswiki"
-	"Silent"	"0"
-	"Url"		"https://wiki.empiresmod.com/Main_Page"
-}
 "Wiki"
 {
 	"Title"		"Wiki"
 	"Hook"		"!wiki"
 	"Hook"		"/wiki"
 	"Silent"	"0"
-	"Url"		"https://github.com/Xiaminou/HardcoreEmpires/wiki"
+	"Url"		"https://wiki.empiresmod.com/Main_Page"
 }
 "Command List"
 {
@@ -38,14 +30,6 @@
 	"Silent"	"0"
 	"Url"		"https://github.com/Xiaminou/Empires-Server-Config/wiki/List-of-Client-Commands"
 }
-"Feedback"
-{
-	"Title"		"Feedback"
-	"Hook"		"!feedback"
-	"Hook"		"/feedback"
-	"Silent"	"0"
-	"Url"		"https://github.com/Xiaminou/HardcoreEmpires/issues"
-}													
 "Sourcebans"
 {
 	"Title"		"Sourcebans"
@@ -70,27 +54,11 @@
 	"Silent"	"0"
 	"Url"		"http://xiaminou.ddns.net/sourcebans/index.php?p=submit"
 }
-"2.14"
+"mapcycle"
 {
-	"Title"		"2.14"
-	"Hook"		"!2.14"
-	"Hook"		"/2.14"
-	"Silent"	"0"
-	"Url"		"https://forums.empiresmod.com/index.php?threads/2-14-released.21061/#post-545863"
-}
-"2.15"
-{
-	"Title"		"2.15"
-	"Hook"		"!2.15"
-	"Hook"		"/2.15"
-	"Silent"	"0"
-	"Url"		"https://wiki.empiresmod.com/Version/2.15.x#2.15.8"
-}
-"maplist"
-{
-	"Title"		"maplist"
-	"Hook"		"!maplist"
-	"Hook"		"/maplist"
+	"Title"		"mapcycle"
+	"Hook"		"!mapcycle"
+	"Hook"		"/mapcycle"
 	"Silent"	"0"
 	"Url"		"https://docs.google.com/spreadsheets/d/1-sbanVK8hyhrwoRQU59XP6JsDpTIxRvHsB7lQufiW_8/edit#gid=1072128516"
 }
@@ -160,29 +128,13 @@
 	"Silent"	"0"
 	"Url"		"https://github.com/Xiaminou/HardcoreEmpires/wiki/MMR"
 }
-"Research"
-{
-	"Title"		"research"
-	"Hook"		"!research"
-	"Hook"		"/research"
-	"Silent"	"0"
-	"Url"		"https://github.com/Xiaminou/HardcoreEmpires/wiki/Research"
-}
 "Changelog"
 {
 	"Title"		"changelog"
 	"Hook"		"!changelog"
 	"Hook"		"/changelog"
 	"Silent"	"0"
-	"Url"		"https://github.com/Xiaminou/HardcoreEmpires/wiki/changelog"
-}
-"Mappack"
-{
-	"Title"		"mappack"
-	"Hook"		"!mappack"
-	"Hook"		"/mappack"
-	"Silent"	"0"
-	"Url"		"http://xiaminou.ddns.net/empires.rar"
+	"Url"		"https://wiki.empiresmod.com/Change_Log"
 }
 "empiresdiscord"
 {
@@ -192,27 +144,19 @@
 	"Silent"	"0"
 	"Url"		"https://discord.gg/gX7p3WN"
 }
-"fuckthexa"
+"squadvoice"
 {
-	"Title"		"fuckthexa"
-	"Hook"		"!fuckthexa"
-	"Hook"		"/fuckthexa"
+	"Title"		"squadvoice"
+	"Hook"		"!squadvoice"
+	"Hook"		"/squadvoice"
 	"Silent"	"0"
-	"Url"		"http://chng.it/yYydSkm8qD"
+	"Url"		"https://discord.com/invite/wSERp6nDuY"
 }
-"fucksecurity"
+"rules"
 {
-	"Title"		"fucksecurity"
-	"Hook"		"!fucksecurity"
-	"Hook"		"/fucksecurity"
+	"Title"		"rules"
+	"Hook"		"!rules"
+	"Hook"		"/rules"
 	"Silent"	"0"
-	"Url"		"http://chng.it/C45fmtWswH"
-}
-"movienight"
-{
-	"Title"		"movienight"
-	"Hook"		"!movienight"
-	"Hook"		"/movienight"
-	"Silent"	"0"
-	"Url"		"https://discord.gg/uBTqUu4"
+	"Url"		"https://docs.google.com/document/d/153UwnQAZUaxzx-__aZ97j4lEFEuoUsUplOU8RA6RPDs/edit?usp=sharing"
 }
