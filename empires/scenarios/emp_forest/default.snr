@@ -8,14 +8,6 @@
 	"BE_Res"		"500.100006"
 	"NF_Tickets"		"351.299988"
 	"BE_Tickets"		"351.299988"
-	"NF_Research"
-	{
-		"0"		"1"
-	}
-	"BE_Research"
-	{
-		"0"		"1"
-	}
 	"Entities"
 	{
 		"354"
@@ -177,15 +169,15 @@
 		"372"
 		{
 			"className"		"emp_imp_commander"
-			"position"		"-11007.943359 -10824.709961 -2862.614990"
-			"angles"		"0.287051 -0.012683 1.251621"
+			"position"		"-11007.941406 -10824.722656 -2862.620361"
+			"angles"		"0.286917 -0.013375 1.249504"
 			"coords"		"B2"
 		}
 		"358"
 		{
 			"className"		"emp_nf_commander"
-			"position"		"13071.388672 12466.259766 -2638.673096"
-			"angles"		"0.000016 -172.499985 -0.586090"
+			"position"		"13071.378906 12466.333984 -2638.671631"
+			"angles"		"0.000009 -172.499985 -0.585541"
 			"coords"		"G7"
 		}
 		"382"
@@ -636,8 +628,8 @@
 		"860"
 		{
 			"className"		"prop_physics"
-			"position"		"534.000977 -540.997314 -2895.329834"
-			"angles"		"0.542484 42.009251 -0.245636"
+			"position"		"534.000122 -540.998047 -2895.386475"
+			"angles"		"2.071754 42.010643 -0.235901"
 			"coords"		"D4"
 			"model"		"models/props_c17/tools_wrench01a.mdl"
 			"MoveType"		"6"
@@ -649,8 +641,8 @@
 		"864"
 		{
 			"className"		"prop_physics"
-			"position"		"-405.478943 -585.395203 -2926.520996"
-			"angles"		"89.586617 118.336838 122.339828"
+			"position"		"-405.484161 -585.387695 -2926.509033"
+			"angles"		"89.666321 118.570709 122.573067"
 			"coords"		"D4"
 			"model"		"models/props_junk/cinderblock01a.mdl"
 			"MoveType"		"6"
@@ -662,8 +654,8 @@
 		"868"
 		{
 			"className"		"prop_physics"
-			"position"		"-422.878937 -573.162354 -2926.326660"
-			"angles"		"89.072990 177.484406 135.057892"
+			"position"		"-422.886627 -573.155457 -2926.308350"
+			"angles"		"89.067772 -176.845535 140.742874"
 			"coords"		"D4"
 			"model"		"models/props_junk/cinderblock01a.mdl"
 			"MoveType"		"6"
@@ -675,8 +667,8 @@
 		"872"
 		{
 			"className"		"prop_physics"
-			"position"		"-415.177979 -578.479492 -2915.961670"
-			"angles"		"89.587479 114.937767 -179.806519"
+			"position"		"-415.176544 -578.450012 -2915.942139"
+			"angles"		"89.591606 150.133759 -144.609726"
 			"coords"		"D4"
 			"model"		"models/props_junk/cinderblock01a.mdl"
 			"MoveType"		"6"
@@ -841,6 +833,6 @@
 			"turretRestrict"		"0"
 		}
 	}
-	"version"		"1.440000"
+	"version"		"1.450000"
 	"hLimit"		"32880"
 }

@@ -8,14 +8,6 @@
 	"BE_Res"		"500.000000"
 	"NF_Tickets"		"211.199997"
 	"BE_Tickets"		"211.199997"
-	"NF_Research"
-	{
-		"0"		"1"
-	}
-	"BE_Research"
-	{
-		"0"		"1"
-	}
 	"Entities"
 	{
 		"926"
@@ -43,16 +35,16 @@
 		"890"
 		{
 			"className"		"emp_imp_commander"
-			"position"		"12240.164063 -6729.557617 32.341187"
-			"angles"		"0.012945 -0.023976 1.287122"
+			"position"		"12240.161133 -6729.559570 32.347221"
+			"angles"		"0.012989 -0.022180 1.289458"
 			"coords"		"E2"
 			"name"		"imp_com"
 		}
 		"891"
 		{
 			"className"		"emp_nf_commander"
-			"position"		"-7847.902344 12679.687500 105.395477"
-			"angles"		"-0.053564 179.997269 -0.718750"
+			"position"		"-7847.902344 12679.689453 105.395462"
+			"angles"		"-0.053586 179.997101 -0.718719"
 			"coords"		"A5"
 			"name"		"nf_com"
 		}
@@ -1064,6 +1056,6 @@
 			"turretRestrict"		"0"
 		}
 	}
-	"version"		"1.440000"
+	"version"		"1.450000"
 	"hLimit"		"127402"
 }

@@ -1,0 +1,24 @@
+"ScenarioSelection"
+{
+	"Method"	"Vote"
+	"VoteTitle"	"Technological Level"
+	"Options"
+	{
+		"Light"
+		{
+			"min_players"		"0"
+			"max_players"		"65"
+		}
+		"Medium"
+		{
+			"min_players"		"0"
+			"max_players"		"65"
+		}
+		"Heavy"
+		{
+			"min_players"		"0"
+			"max_players"		"65"
+		}
+	}
+	"enabled"		"1"
+}

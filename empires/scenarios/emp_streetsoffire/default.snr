@@ -43,15 +43,15 @@
 		"181033"
 		{
 			"className"		"emp_imp_commander"
-			"position"		"10704.146484 10131.212891 442.371246"
-			"angles"		"0.286616 -0.025392 1.246059"
+			"position"		"10704.145508 10131.025391 442.379578"
+			"angles"		"0.286621 -0.025334 1.249440"
 			"coords"		"D5"
 		}
 		"51672"
 		{
 			"className"		"emp_nf_commander"
-			"position"		"-7548.000000 -14178.990234 -191.669846"
-			"angles"		"0.000003 0.000000 -0.584808"
+			"position"		"-7548.000000 -14178.582031 -191.671509"
+			"angles"		"-0.000002 0.000000 -0.585541"
 			"coords"		"A1"
 		}
 		"1000115"
@@ -1788,8 +1788,8 @@
 		"861424"
 		{
 			"className"		"prop_physics"
-			"position"		"4595.094238 -7932.639648 -22.614233"
-			"angles"		"0.321224 -0.042090 0.126920"
+			"position"		"4595.127441 -7932.652832 -22.630962"
+			"angles"		"0.447933 -0.042531 0.176988"
 			"coords"		"C2"
 			"model"		"models/props_junk/trafficcone001a.mdl"
 			"MoveType"		"6"
@@ -1801,8 +1801,8 @@
 		"861450"
 		{
 			"className"		"prop_physics"
-			"position"		"4521.832520 -7919.911133 -22.628334"
-			"angles"		"0.428077 -0.042603 0.169142"
+			"position"		"4521.835938 -7919.912598 -22.630072"
+			"angles"		"0.441214 -0.042564 0.174333"
 			"coords"		"C2"
 			"model"		"models/props_junk/trafficcone001a.mdl"
 			"MoveType"		"6"
@@ -1814,8 +1814,8 @@
 		"861454"
 		{
 			"className"		"prop_physics"
-			"position"		"4447.326660 -7867.078613 -22.650871"
-			"angles"		"0.596844 -0.044420 0.235652"
+			"position"		"4447.304688 -7867.069824 -22.639612"
+			"angles"		"0.513203 -0.043112 0.202779"
 			"coords"		"C2"
 			"model"		"models/props_junk/trafficcone001a.mdl"
 			"MoveType"		"6"
@@ -1827,8 +1827,8 @@
 		"861458"
 		{
 			"className"		"prop_physics"
-			"position"		"4676.435547 -7970.552246 -22.630072"
-			"angles"		"0.441214 -0.042564 0.174333"
+			"position"		"4676.460938 -7970.562012 -22.642773"
+			"angles"		"0.537008 -0.043648 0.212186"
 			"coords"		"C2"
 			"model"		"models/props_junk/trafficcone001a.mdl"
 			"MoveType"		"6"
@@ -1840,8 +1840,8 @@
 		"861494"
 		{
 			"className"		"prop_physics"
-			"position"		"4416.040039 -7504.020020 -22.601833"
-			"angles"		"0.226903 -0.041820 0.089652"
+			"position"		"4416.075195 -7504.034180 -22.619673"
+			"angles"		"0.362509 -0.042309 0.143233"
 			"coords"		"C2"
 			"model"		"models/props_junk/trafficcone001a.mdl"
 			"MoveType"		"6"
@@ -1853,8 +1853,8 @@
 		"861498"
 		{
 			"className"		"prop_physics"
-			"position"		"4473.126953 -7486.316406 -22.635630"
-			"angles"		"0.483083 -0.042771 0.190861"
+			"position"		"4473.114258 -7486.311523 -22.629240"
+			"angles"		"0.434557 -0.042732 0.171639"
 			"coords"		"C2"
 			"model"		"models/props_junk/trafficcone001a.mdl"
 			"MoveType"		"6"
@@ -1866,8 +1866,8 @@
 		"861502"
 		{
 			"className"		"prop_physics"
-			"position"		"4619.820801 -7412.914551 -22.607224"
-			"angles"		"0.267943 -0.041983 0.105867"
+			"position"		"4619.862305 -7412.931152 -22.628334"
+			"angles"		"0.428077 -0.042602 0.169142"
 			"coords"		"C2"
 			"model"		"models/props_junk/trafficcone001a.mdl"
 			"MoveType"		"6"
@@ -1879,8 +1879,8 @@
 		"861506"
 		{
 			"className"		"prop_physics"
-			"position"		"4541.608887 -7448.157227 -22.636595"
-			"angles"		"0.490452 -0.043195 0.193789"
+			"position"		"4541.535645 -7448.128418 -22.599669"
+			"angles"		"0.210388 -0.041790 0.083126"
 			"coords"		"C2"
 			"model"		"models/props_junk/trafficcone001a.mdl"
 			"MoveType"		"6"
@@ -1892,8 +1892,8 @@
 		"861510"
 		{
 			"className"		"prop_physics"
-			"position"		"4721.599609 -7422.702148 -22.616869"
-			"angles"		"0.341243 -0.042188 0.134830"
+			"position"		"4721.658691 -7422.725098 -22.647223"
+			"angles"		"0.570475 -0.044250 0.225410"
 			"coords"		"C2"
 			"model"		"models/props_junk/trafficcone001a.mdl"
 			"MoveType"		"6"

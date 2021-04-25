@@ -3,19 +3,11 @@
 	"Description"		" "
 	"details"		" "
 	"Tags"		" "
-	"Author"		"Hardcore Empires - Main Server"
+	"Author"		"Harmony Empires - Main Server"
 	"NF_Res"		"500.000000"
 	"BE_Res"		"500.000000"
 	"NF_Tickets"		"141.000000"
 	"BE_Tickets"		"141.000000"
-	"NF_Research"
-	{
-		"0"		"1"
-	}
-	"BE_Research"
-	{
-		"0"		"1"
-	}
 	"Entities"
 	{
 		"163403"
@@ -43,15 +35,15 @@
 		"88791"
 		{
 			"className"		"emp_imp_commander"
-			"position"		"10615.317383 -12077.975586 67.355011"
-			"angles"		"-1.344268 0.020364 -2.601929"
+			"position"		"10615.421875 -12077.400391 67.336197"
+			"angles"		"-1.375276 0.029653 -2.611450"
 			"coords"		"E2"
 		}
 		"11364"
 		{
 			"className"		"emp_nf_commander"
-			"position"		"-12031.185547 12703.800781 87.908333"
-			"angles"		"0.061342 -90.007408 -1.203979"
+			"position"		"-12030.961914 12703.810547 87.908142"
+			"angles"		"0.062670 -90.002953 -1.202972"
 			"coords"		"A6"
 		}
 		"11365"
@@ -60,11 +52,11 @@
 			"position"		"-8960.000000 12800.000000 32.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"A6"
+			"target"		"NF_resnode_start"
 			"built"		"1"
 			"maxHealth"		"150"
 			"health"		"150"
 			"team"		"2"
-			"target"		"NF_resnode_start"
 		}
 		"11369"
 		{
@@ -72,11 +64,11 @@
 			"position"		"10240.000000 -10240.000000 40.000000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"E2"
+			"target"		"BE_resnode_start"
 			"built"		"1"
 			"maxHealth"		"150"
 			"health"		"150"
 			"team"		"3"
-			"target"		"BE_resnode_start"
 		}
 		"11326"
 		{
@@ -421,7 +413,7 @@
 			"className"		"prop_dynamic"
 			"position"		"6954.189941 -2235.000000 51.899700"
 			"angles"		"-0.000000 90.000000 0.000000"
-			"Parent"		"tunnels_door2_button"
+			"Parent"		"#11771"
 			"coords"		"D4"
 			"model"		"models/props_wasteland/panel_leverhandle001a.mdl"
 			"MoveType"		"7"
@@ -476,7 +468,7 @@
 			"className"		"prop_dynamic"
 			"position"		"4825.000000 2170.000000 51.000000"
 			"angles"		"-0.000000 -90.000000 0.000000"
-			"Parent"		"tunnels_door1_button"
+			"Parent"		"#57798"
 			"coords"		"D4"
 			"model"		"models/props_wasteland/panel_leverhandle001a.mdl"
 			"MoveType"		"7"
@@ -515,6 +507,6 @@
 			"turretRestrict"		"0"
 		}
 	}
-	"version"		"1.310000"
+	"version"		"1.450000"
 	"hLimit"		"164656"
 }

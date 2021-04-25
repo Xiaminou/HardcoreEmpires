@@ -3,19 +3,11 @@
 	"Description"		" "
 	"details"		" "
 	"Tags"		" "
-	"Author"		"Harmony Empires - Main Server"
+	"Author"		"Harmony Empires - Draft in prog"
 	"NF_Res"		"500.000000"
 	"BE_Res"		"500.000000"
 	"NF_Tickets"		"211.199997"
 	"BE_Tickets"		"211.199997"
-	"NF_Research"
-	{
-		"0"		"1"
-	}
-	"BE_Research"
-	{
-		"0"		"1"
-	}
 	"Entities"
 	{
 		"18656"
@@ -43,15 +35,15 @@
 		"60203"
 		{
 			"className"		"emp_imp_commander"
-			"position"		"8108.079102 -8445.630859 694.385498"
-			"angles"		"0.287871 -0.020064 1.251881"
+			"position"		"8108.079590 -8445.507813 694.369629"
+			"angles"		"0.287871 -0.020249 1.245220"
 			"coords"		"D1"
 		}
 		"60205"
 		{
 			"className"		"emp_nf_commander"
-			"position"		"-8364.000000 -9193.260742 468.327209"
-			"angles"		"-0.000003 -0.000001 -0.586090"
+			"position"		"-8364.000000 -9193.294922 468.330475"
+			"angles"		"-0.000001 -0.000000 -0.584686"
 			"coords"		"A1"
 		}
 		"19005"
@@ -162,7 +154,7 @@
 			"angles"		"0.000000 180.000000 0.000000"
 			"coords"		"C2"
 			"pointNumber"		"1"
-			"disabled"		"0"
+			"Disabled"		"0"
 			"model"		"models/NF/Props/nf_crateammo.mdl"
 		}
 		"78220"
@@ -172,7 +164,7 @@
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"C2"
 			"pointNumber"		"1"
-			"disabled"		"0"
+			"Disabled"		"0"
 			"model"		"models/Imperial/Props/imp_crateammo.mdl"
 		}
 		"78256"
@@ -182,7 +174,7 @@
 			"angles"		"0.000000 180.000000 0.000000"
 			"coords"		"C2"
 			"pointNumber"		"1"
-			"disabled"		"0"
+			"Disabled"		"0"
 			"model"		"models/NF/Props/nf_cratehealth.mdl"
 		}
 		"78223"
@@ -192,7 +184,7 @@
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"C2"
 			"pointNumber"		"1"
-			"disabled"		"0"
+			"Disabled"		"0"
 			"model"		"models/Imperial/Props/imp_cratehealth.mdl"
 		}
 		"18981"
@@ -563,6 +555,6 @@
 			"turretRestrict"		"0"
 		}
 	}
-	"version"		"1.420000"
+	"version"		"1.450000"
 	"hLimit"		"147014"
 }
