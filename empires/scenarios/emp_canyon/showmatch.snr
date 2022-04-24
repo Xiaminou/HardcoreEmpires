@@ -1,0 +1,98 @@
+"Scenario"
+{
+	"Description"		"Showmatch between John Shandy and Lawliet"
+	"details"			" "
+	"Tags"				" "
+	"Author"			"Xiam"
+	"version"			"1.490000"
+	"hLimit"			"139986"
+	"CanBaseSwap"		"yes"
+	"EditingSet"
+	{
+		"prop_dynamic"					"No"
+		"emp_resource_point"			"No"
+		"emp_resource_point_prop"		"No"
+	}
+	"NF_Res"			"500.000000"
+	"BE_Res"			"500.000000"
+	"NF_Tickets"		"201"
+	"BE_Tickets"		"201"
+	"Entities"
+	{
+		"926"
+		{
+			"className"		"emp_building_nf_barracks"
+			"position"		"-8704.000000 12608.000000 28.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"A5"
+			"built"		"1"
+			"maxHealth"		"250"
+			"health"		"250"
+			"team"		"2"
+		}
+		"925"
+		{
+			"className"		"emp_building_imp_barracks"
+			"position"		"12929.599609 -6328.828613 24.000000"
+			"angles"		"0.000000 90.000000 0.000000"
+			"coords"		"E2"
+			"built"		"1"
+			"maxHealth"		"250"
+			"health"		"250"
+			"team"		"3"
+		}
+		"890"
+		{
+			"className"		"emp_imp_commander"
+			"position"		"12240.195313 -6736.554199 32.328625"
+			"angles"		"0.001318 -0.024741 1.281557"
+			"coords"		"E2"
+			"name"		"imp_com"
+		}
+		"891"
+		{
+			"className"		"emp_nf_commander"
+			"position"		"-7849.469238 12669.800781 105.355484"
+			"angles"		"-0.075134 179.955597 -0.727905"
+			"coords"		"A5"
+			"name"		"nf_com"
+		}
+		"927"
+		{
+			"className"		"emp_building_nf_refinery"
+			"position"		"-8704.000000 10240.000000 24.000000"
+			"angles"		"0.000000 90.000000 0.000000"
+			"coords"		"A5"
+			"target"		"res_1"
+			"built"		"1"
+			"maxHealth"		"150"
+			"health"		"150"
+			"team"		"2"
+		}
+		"928"
+		{
+			"className"		"emp_building_imp_refinery"
+			"position"		"10224.000000 -7160.000000 16.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"D2"
+			"target"		"res_2"
+			"built"		"1"
+			"maxHealth"		"150"
+			"health"		"150"
+			"team"		"3"
+		}
+		"888"
+		{
+			"className"		"emp_info_params"
+			"position"		"7542.609863 2560.000000 320.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"D3"
+			"name"		"info_params"
+			"Skin"		"0"
+			"autoResearch"		"0"
+			"eng_restrict_NF"		"0"
+			"eng_restrict_Imp"		"0"
+			"turretRestrict"		"0"
+		}
+	}
+}

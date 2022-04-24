@@ -1,8 +1,8 @@
 "Scenario"
 {
-	"Description"	"[Type: Override] King of the Hill: Start with vehicles"
-	"details"		"Capture and hold all 3 capture points to trigger the countdown\All capture points are neutral, do not trust the minimap"
-	"Author"		"Xiam & Mikleo"
+	"Description"	"[Type: KOTH] Start with vehicles"
+	"details"			"Control all flags until the timer runs out to win the game.\All flags start neutral.\Timer: 900s\Minimum Timer: 300s\Players Required: 1\Time to Neutral: 5\Time to Capture: 10"
+	"Author"		"Xiam"
 	"CommFreezeTime"	"1"
 	"version"		"1.280000"
 	"hLimit"		"421357"
@@ -14,30 +14,39 @@
 	{
 		"KOTHS"
 		{
-			"$string_MainText" "King of the Hill\Hold all 3 capture points to win"
-			"$string_NeutralText"	"King of the hill"
-			"$string_Warning"	"King of the hill:TXTCLR_DF Hold onto both flags for 8 minutes to win. TXTCLR_G!scenario"
-			"$int_TimerLength"		"480"
-			// flag number automatically calculated
+			"$string_MainText" 			"Control all flags until the timer runs out to win the game"
+			"$string_NeutralText"		"King of the Hill"
+			"$int_TimerLength"			"900"
+			"$int_TimerIncrease"		"0"
+			"$int_TimerLengthMin"		"300"
+			//automatically calculated
 			"$int_FlagNumber"	"0"
 			
 			"i_HookFlags" "Set $int_FlagNumber = 0 -> TargetNameAll KOTHFlag -> Inc $int_FlagNumber -> HookOutput OnNeutral FlagsChanged -> HookOutput OnImpCap FlagsChanged -> HookOutput OnNFCap FlagsChanged"
+			
+			"$string_Warning"	"King of the Hill:TXTCLR_DF Control all flags until the timer runs out to win the game.  TXTCLR_G!scenario"
+			"i_Warn"		"Every 240 -> ChatText *$string_Warning*"
 			
 			
 			"FlagsChanged"	"After 0.1 -> Run CountFlags -> If *$int_BEFlags == $int_FlagNumber* BEHasFlags *$int_NFFlags == $int_FlagNumber* NFHasFlags ELSE NooneHasFlags"
 			"i_StartingTimer"	"Cancel KOTHTimer -> TextTimer -1 *$string_MainText* _ KOTHTimer"
 			"s_OnStart"		"Run NooneHasFlags"
-			"BEHasFlags"	"Cancel KOTHTimer -> TextTimer $int_TimerLength *BE Victory in TIME_LEFT* _ KOTHTimer -> TargetParams -> Input InputImpWin 0 "
-			"NFHasFlags"	"Cancel KOTHTimer -> TextTimer $int_TimerLength *NF Victory in TIME_LEFT* _ KOTHTimer -> TargetParams -> Input InputNFWin 0 "
-			"NooneHasFlags"	"Cancel KOTHTimer -> TextTimer -1 *$string_NeutralText* _ KOTHTimer"
+			"BEHasFlags"	"Cancel KOTHTimer -> Run KeepDecreasingTime -> TextTimer $int_TimerLength *BE Victory in TIME_LEFT* _ KOTHTimer -> TargetParams -> Input InputImpWin 0 "
+			"NFHasFlags"	"Cancel KOTHTimer -> Run KeepDecreasingTime -> TextTimer $int_TimerLength *NF Victory in TIME_LEFT* _ KOTHTimer -> TargetParams -> Input InputNFWin 0 "
+			"NooneHasFlags"	"Cancel KOTHTimer -> Run IncreaseTime -> TextTimer -1 *$string_NeutralText* _ KOTHTimer"
 			
-			"i_Warn"		"Every 240 -> ChatText *$string_Warning*"
+			"KeepDecreasingTime"	"Every 10 KOTHTimer -> Set $int_TimerLength = $int_TimerLength - 10"
+			
+		
 			"$int_BEFlags"		"0"
 			"$int_NFFlags"		"0"
 			"CountFlags"	"Set $int_BEFlags = 0 -> Set $int_NFFlags = 0 -> TargetNameAll KOTHFlag ->  If *$m_iTeamOwner == 1* CountNFFlag *$m_iTeamOwner == 2* CountBEFlag"
 			"CountBEFlag"	"Inc $int_BEFlags"
 			"CountNFFlag"	"Inc $int_NFFlags"
 			
+			"IncreaseTime"		"Set $int_TimerLength = $int_TimerLength + $int_TimerIncrease -> If *$int_TimerLength < $int_TimerLengthMin* -> Set $int_TimerLength = $int_TimerLengthMin"
+			
+			"s_ReduceMinTimerLateGame" "After 1800 -> Every 600 -> If *$int_TimerLengthMin > 100* ->  Set $int_TimerLengthMin = $int_TimerLengthMin - 60 -> ChatText *KOTH:TXTCLR_DF Minimum timer duration reduced by 1 minute.*"
 		}
 	}
 	"Entities"

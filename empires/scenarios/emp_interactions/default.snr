@@ -3,19 +3,11 @@
 	"Description"		" "
 	"details"		" "
 	"Tags"		" "
-	"Author"		"Hardcore Empires - Main Server"
+	"Author"		"Harmony Empires - Main Server"
 	"NF_Res"		"500.000000"
 	"BE_Res"		"500.000000"
 	"NF_Tickets"		"250.000000"
 	"BE_Tickets"		"250.000000"
-	"NF_Research"
-	{
-		"0"		"1"
-	}
-	"BE_Research"
-	{
-		"0"		"1"
-	}
 	"Entities"
 	{
 		"1565"
@@ -217,15 +209,15 @@
 		"702"
 		{
 			"className"		"emp_imp_commander"
-			"position"		"-12464.003906 13039.900391 132.367874"
-			"angles"		"0.286463 -179.994415 1.240603"
+			"position"		"-12464.019531 13039.844727 132.383270"
+			"angles"		"0.287236 -179.998367 1.251097"
 			"coords"		"A6"
 		}
 		"921"
 		{
 			"className"		"emp_nf_commander"
-			"position"		"12319.475586 12832.233398 210.672256"
-			"angles"		"0.032465 179.897278 0.227616"
+			"position"		"12319.503906 12832.016602 206.288330"
+			"angles"		"0.006484 179.887985 -0.592773"
 			"coords"		"F6"
 		}
 		"462896"
@@ -373,7 +365,7 @@
 			"className"		"emp_cap_model"
 			"position"		"-32.000000 -14592.000000 -548.000000"
 			"angles"		"0.000000 0.000000 0.000000"
-			"coords"		"C1"
+			"coords"		"D1"
 			"name"		"Capture_flag_shipwreck"
 			"pointNumber"		"0"
 			"visibleOnMap"		"1"
@@ -560,7 +552,7 @@
 			"coords"		"D5"
 			"name"		"nf_ammo_crate1"
 			"pointNumber"		"0"
-			"disabled"		"1"
+			"Disabled"		"1"
 			"model"		"models/NF/Props/nf_crateammo.mdl"
 		}
 		"700537"
@@ -571,7 +563,7 @@
 			"coords"		"D6"
 			"name"		"nf_ammo_crate2"
 			"pointNumber"		"0"
-			"disabled"		"1"
+			"Disabled"		"1"
 			"model"		"models/NF/Props/nf_crateammo.mdl"
 		}
 		"45085"
@@ -582,7 +574,7 @@
 			"coords"		"D5"
 			"name"		"BE_ammo_crate1"
 			"pointNumber"		"0"
-			"disabled"		"1"
+			"Disabled"		"1"
 			"model"		"models/Imperial/Props/imp_crateammo.mdl"
 		}
 		"700541"
@@ -593,7 +585,7 @@
 			"coords"		"D6"
 			"name"		"BE_ammo_crate2"
 			"pointNumber"		"0"
-			"disabled"		"1"
+			"Disabled"		"1"
 			"model"		"models/Imperial/Props/imp_crateammo.mdl"
 		}
 		"45041"
@@ -604,7 +596,7 @@
 			"coords"		"C5"
 			"name"		"nf_health_crate1"
 			"pointNumber"		"0"
-			"disabled"		"1"
+			"Disabled"		"1"
 			"model"		"models/NF/Props/nf_cratehealth.mdl"
 		}
 		"700533"
@@ -615,7 +607,7 @@
 			"coords"		"C6"
 			"name"		"nf_health_crate2"
 			"pointNumber"		"0"
-			"disabled"		"1"
+			"Disabled"		"1"
 			"model"		"models/NF/Props/nf_cratehealth.mdl"
 		}
 		"45105"
@@ -626,7 +618,7 @@
 			"coords"		"C5"
 			"name"		"BE_health_crate1"
 			"pointNumber"		"0"
-			"disabled"		"1"
+			"Disabled"		"1"
 			"model"		"models/Imperial/Props/imp_cratehealth.mdl"
 		}
 		"700545"
@@ -637,7 +629,7 @@
 			"coords"		"C6"
 			"name"		"BE_health_crate2"
 			"pointNumber"		"0"
-			"disabled"		"1"
+			"Disabled"		"1"
 			"model"		"models/Imperial/Props/imp_cratehealth.mdl"
 		}
 		"216693"
@@ -1416,6 +1408,8 @@
 			"model"		"models/props_c17/light_cagelight01_on.mdl"
 			"MoveType"		"7"
 			"SolidType"		"3"
+			"fademindist"		"3072.000000"
+			"fademaxdist"		"4096.000000"
 		}
 		"745966"
 		{
@@ -1427,6 +1421,8 @@
 			"model"		"models/props_c17/light_cagelight01_on.mdl"
 			"MoveType"		"7"
 			"SolidType"		"3"
+			"fademindist"		"3072.000000"
+			"fademaxdist"		"4096.000000"
 		}
 		"746050"
 		{
@@ -1438,6 +1434,8 @@
 			"model"		"models/props_c17/light_cagelight01_on.mdl"
 			"MoveType"		"7"
 			"SolidType"		"3"
+			"fademindist"		"3072.000000"
+			"fademaxdist"		"4096.000000"
 		}
 		"750140"
 		{
@@ -1449,6 +1447,8 @@
 			"model"		"models/props_c17/light_cagelight01_on.mdl"
 			"MoveType"		"7"
 			"SolidType"		"3"
+			"fademindist"		"3072.000000"
+			"fademaxdist"		"4096.000000"
 		}
 		"750170"
 		{
@@ -1460,6 +1460,8 @@
 			"model"		"models/props_c17/light_cagelight01_on.mdl"
 			"MoveType"		"7"
 			"SolidType"		"3"
+			"fademindist"		"3072.000000"
+			"fademaxdist"		"4096.000000"
 		}
 		"750196"
 		{
@@ -1471,6 +1473,8 @@
 			"model"		"models/props_c17/light_cagelight01_on.mdl"
 			"MoveType"		"7"
 			"SolidType"		"3"
+			"fademindist"		"3072.000000"
+			"fademaxdist"		"4096.000000"
 		}
 		"754186"
 		{
@@ -1482,6 +1486,8 @@
 			"model"		"models/props_c17/light_cagelight01_on.mdl"
 			"MoveType"		"7"
 			"SolidType"		"3"
+			"fademindist"		"3072.000000"
+			"fademaxdist"		"4096.000000"
 		}
 		"754291"
 		{
@@ -1493,6 +1499,8 @@
 			"model"		"models/props_c17/light_cagelight01_on.mdl"
 			"MoveType"		"7"
 			"SolidType"		"3"
+			"fademindist"		"3072.000000"
+			"fademaxdist"		"4096.000000"
 		}
 		"754552"
 		{
@@ -1504,6 +1512,8 @@
 			"model"		"models/props_c17/light_cagelight01_on.mdl"
 			"MoveType"		"7"
 			"SolidType"		"3"
+			"fademindist"		"3072.000000"
+			"fademaxdist"		"4096.000000"
 		}
 		"754580"
 		{
@@ -1511,11 +1521,13 @@
 			"position"		"-5436.000000 13664.599609 464.088989"
 			"angles"		"-0.000000 180.000000 0.000000"
 			"Parent"		"#754593"
-			"coords"		"B6"
+			"coords"		"D4"
 			"name"		"cagelight_on"
 			"model"		"models/props_c17/light_cagelight01_on.mdl"
 			"MoveType"		"7"
 			"SolidType"		"3"
+			"fademindist"		"3072.000000"
+			"fademaxdist"		"4096.000000"
 		}
 		"1217301"
 		{
@@ -1527,6 +1539,8 @@
 			"model"		"models/props_c17/light_cagelight01_on.mdl"
 			"MoveType"		"7"
 			"SolidType"		"3"
+			"fademindist"		"3072.000000"
+			"fademaxdist"		"4096.000000"
 		}
 		"1217458"
 		{
@@ -1538,6 +1552,8 @@
 			"model"		"models/props_c17/light_cagelight01_on.mdl"
 			"MoveType"		"7"
 			"SolidType"		"3"
+			"fademindist"		"3072.000000"
+			"fademaxdist"		"4096.000000"
 		}
 		"1281400"
 		{
@@ -1553,6 +1569,6 @@
 			"turretRestrict"		"0"
 		}
 	}
-	"version"		"1.320000"
+	"version"		"1.650000"
 	"hLimit"		"1340526"
 }

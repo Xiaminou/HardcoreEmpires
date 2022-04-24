@@ -8,14 +8,6 @@
 	"BE_Res"		"500.100006"
 	"NF_Tickets"		"211.199997"
 	"BE_Tickets"		"211.199997"
-	"NF_Research"
-	{
-		"0"		"1"
-	}
-	"BE_Research"
-	{
-		"0"		"1"
-	}
 	"Entities"
 	{
 		"4648"
@@ -121,15 +113,15 @@
 		"4653"
 		{
 			"className"		"emp_imp_commander"
-			"position"		"-10832.066406 9258.628906 1005.012268"
-			"angles"		"-3.020126 -94.515594 1.700224"
+			"position"		"-10832.082031 9258.644531 1005.020996"
+			"angles"		"-3.021754 -94.497742 1.703237"
 			"coords"		"A4"
 		}
 		"4659"
 		{
 			"className"		"emp_nf_commander"
-			"position"		"9663.160156 -4967.197266 736.025452"
-			"angles"		"1.194116 172.597534 -0.540619"
+			"position"		"9663.160156 -4967.195801 736.023560"
+			"angles"		"1.194003 172.597443 -0.541443"
 			"coords"		"D2"
 		}
 		"319937"
@@ -137,7 +129,7 @@
 			"className"		"emp_cap_point"
 			"position"		"0.000000 0.000000 0.000000"
 			"angles"		"0.000000 0.000000 0.000000"
-			"coords"		"C2"
+			"coords"		"B3"
 			"name"		"entrance"
 			"Mins"		"-961.000000 4047.000000 2271.000000"
 			"Maxs"		"-735.000000 4305.000000 2353.000000"
@@ -646,10 +638,10 @@
 		"328484"
 		{
 			"className"		"prop_dynamic"
-			"position"		"-11492.524414 -8823.418945 1901.941772"
+			"position"		"-11494.926758 -8820.854492 1900.527344"
 			"angles"		"338.073639 313.134918 0.000000"
 			"Parent"		"#328518"
-			"coords"		"A1"
+			"coords"		"B2"
 			"name"		"seagull"
 			"model"		"models/seagull.mdl"
 			"MoveType"		"7"
@@ -713,6 +705,6 @@
 			"turretRestrict"		"0"
 		}
 	}
-	"version"		"1.440000"
+	"version"		"1.650000"
 	"hLimit"		"341688"
 }

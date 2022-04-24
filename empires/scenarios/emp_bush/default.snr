@@ -8,14 +8,6 @@
 	"BE_Res"		"500.000000"
 	"NF_Tickets"		"281.250000"
 	"BE_Tickets"		"281.250000"
-	"NF_Research"
-	{
-		"0"		"1"
-	}
-	"BE_Research"
-	{
-		"0"		"1"
-	}
 	"Entities"
 	{
 		"1272"
@@ -69,16 +61,16 @@
 		"1298"
 		{
 			"className"		"emp_imp_commander"
-			"position"		"-12582.991211 11126.027344 -3321.676270"
-			"angles"		"-1.048075 -131.087753 -0.883575"
+			"position"		"-12582.989258 11126.020508 -3321.671631"
+			"angles"		"-1.048201 -131.089096 -0.881378"
 			"coords"		"A5"
 			"name"		"BE_CV_1"
 		}
 		"1324"
 		{
 			"className"		"emp_nf_commander"
-			"position"		"10443.032227 12550.789063 -3226.655518"
-			"angles"		"-10.329003 140.572159 4.081562"
+			"position"		"10443.053711 12550.762695 -3226.658203"
+			"angles"		"-10.317637 140.578659 4.080809"
 			"coords"		"E5"
 			"name"		"NF_CV_1"
 		}
@@ -269,13 +261,13 @@
 			"health"		"150"
 			"team"		"3"
 		}
-		"1344"
+		"1354"
 		{
 			"className"		"emp_resource_point"
-			"position"		"3463.000000 -7326.000000 -3274.000000"
+			"position"		"56.000000 -12880.000000 -2983.000000"
 			"angles"		"0.000000 0.000000 0.000000"
-			"coords"		"C2"
-			"name"		"N_Res_6"
+			"coords"		"C1"
+			"name"		"N_Res_7"
 			"effects"		"80"
 			"enabled"		"1"
 			"resPerSecond"		"2.000000"
@@ -302,24 +294,24 @@
 			"enabled"		"1"
 			"resPerSecond"		"1.000000"
 		}
-		"1356"
+		"1360"
 		{
 			"className"		"emp_resource_point"
-			"position"		"10352.000000 9232.000000 -3315.000000"
+			"position"		"5184.779297 10472.000000 -2987.000000"
 			"angles"		"0.000000 0.000000 0.000000"
-			"coords"		"E5"
-			"name"		"NF_Res_11"
+			"coords"		"D5"
+			"name"		"NF_Res_1"
 			"effects"		"80"
-			"enabled"		"0"
+			"enabled"		"1"
 			"resPerSecond"		"1.000000"
 		}
-		"1362"
+		"1364"
 		{
 			"className"		"emp_resource_point"
-			"position"		"-11570.599609 -13064.000000 -3315.000000"
+			"position"		"-10049.599609 -7812.000000 -3315.000000"
 			"angles"		"0.000000 0.000000 0.000000"
-			"coords"		"A1"
-			"name"		"BE_Res_33"
+			"coords"		"A2"
+			"name"		"BE_Res_3"
 			"effects"		"80"
 			"enabled"		"1"
 			"resPerSecond"		"1.000000"
@@ -357,15 +349,15 @@
 			"enabled"		"1"
 			"resPerSecond"		"2.000000"
 		}
-		"1360"
+		"1356"
 		{
 			"className"		"emp_resource_point"
-			"position"		"5184.779297 10472.000000 -2987.000000"
+			"position"		"10352.000000 9232.000000 -3315.000000"
 			"angles"		"0.000000 0.000000 0.000000"
-			"coords"		"D5"
-			"name"		"NF_Res_1"
+			"coords"		"E5"
+			"name"		"NF_Res_11"
 			"effects"		"80"
-			"enabled"		"1"
+			"enabled"		"0"
 			"resPerSecond"		"1.000000"
 		}
 		"1352"
@@ -392,6 +384,6 @@
 			"turretRestrict"		"0"
 		}
 	}
-	"version"		"1.420000"
+	"version"		"1.650000"
 	"hLimit"		"155061"
 }

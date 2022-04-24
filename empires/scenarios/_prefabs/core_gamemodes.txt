@@ -74,21 +74,21 @@
 		{
 			"className"		"trigger_hurt"
 			"parent"		"KillZone_1"
-			"name"			"killZone_hurt"
+			"name"			"KillZone_hurt_inner"
 			"position"        "0.000000 0.000000 -500.000000"
 			"angles"        "0.000000 0.000000 0.000000"
 			"mins"			"0 -8000 -8000"
 			"maxs"			"16000 8000 8000"
-			"damage"		"65"
+			"damage"		"20"
 			"StartDisabled"	"1"
 			"spawnflags"	"64"
-			"DamageType"		"16384"
+			"DamageType"		"262144"
 		}
 		"2"
 		{
 			"className"		"trigger_hurt"
 			"parent"		"KillZone_1"
-			"name"			"killZone_hurt"
+			"name"			"KillZone_hurt_outer"
 			"position"        "0.000000 0.000000 -500.000000"
 			"angles"        "0.000000 0.000000 0.000000"
 			"mins"			"50 -7950 -7950"
@@ -96,7 +96,7 @@
 			"damage"		"300"
 			"StartDisabled"	"1"
 			"spawnflags"	"64"
-			"DamageType"		"1"
+			"DamageType"		"262144"
 		}
 		
 	}
@@ -119,7 +119,7 @@
 		{
 			"className"		"trigger_hurt"
 			"parent"		"KillZone_1"
-			"name"			"killZone_hurt"
+			"name"			"KillZone_hurt_inner"
 			"position"        "0.000000 0.000000 -500.000000"
 			"angles"        "0.000000 0.000000 0.000000"
 			"mins"			"-16000 -8000 -8000"
@@ -127,13 +127,13 @@
 			"damage"		"65"
 			"StartDisabled"	"1"
 			"spawnflags"	"64"
-			"DamageType"		"16384"
+			"DamageType"		"262144"
 		}
 		"2"
 		{
 			"className"		"trigger_hurt"
 			"parent"		"KillZone_1"
-			"name"			"killZone_hurt"
+			"name"			"KillZone_hurt_outer"
 			"position"        "0.000000 0.000000 -500.000000"
 			"angles"        "0.000000 0.000000 0.000000"
 			"mins"			"-15950 -7950 -7950"
@@ -141,7 +141,7 @@
 			"damage"		"300"
 			"StartDisabled"	"1"
 			"spawnflags"	"64"
-			"DamageType"		"1"
+			"DamageType"		"262144"
 		}
 		
 	}
@@ -165,21 +165,21 @@
 		{
 			"className"		"trigger_hurt"
 			"parent"		"KillZone_1"
-			"name"			"killZone_hurt"
+			"name"			"KillZone_hurt_inner"
 			"position"        "0.000000 0.000000 -500.000000"
 			"angles"        "0.000000 0.000000 0.000000"
 			"mins"			"-8000 0 -8000"
 			"maxs"			"8000 16000 8000"
-			"damage"		"65"
+			"damage"		"20"
 			"StartDisabled"	"1"
 			"spawnflags"	"64"
-			"DamageType"		"16384"
+			"DamageType"		"262144"
 		}
 		"2"
 		{
 			"className"		"trigger_hurt"
 			"parent"		"KillZone_1"
-			"name"			"killZone_hurt"
+			"name"			"KillZone_hurt_outer"
 			"position"        "0.000000 0.000000 -500.000000"
 			"angles"        "0.000000 0.000000 0.000000"
 			"mins"			"-7950 50 -7950"
@@ -187,7 +187,7 @@
 			"damage"		"300"
 			"StartDisabled"	"1"
 			"spawnflags"	"64"
-			"DamageType"		"1"
+			"DamageType"		"262144"
 		}
 		
 	}
@@ -209,21 +209,21 @@
 		{
 			"className"		"trigger_hurt"
 			"parent"		"KillZone_1"
-			"name"			"killZone_hurt"
+			"name"			"KillZone_hurt_inner"
 			"position"        "0.000000 0.000000 -500.000000"
 			"angles"        "0.000000 0.000000 0.000000"
 			"mins"			"-8000 -16000 -8000"
 			"maxs"			"8000 0 8000"
-			"damage"		"65"
+			"damage"		"20"
 			"StartDisabled"	"1"
 			"spawnflags"	"64"
-			"DamageType"		"16384"
+			"DamageType"		"262144"
 		}
 		"2"
 		{
 			"className"		"trigger_hurt"
 			"parent"		"KillZone_1"
-			"name"			"killZone_hurt"
+			"name"			"KillZone_hurt_outer"
 			"position"        "0.000000 0.000000 -500.000000"
 			"angles"        "0.000000 0.000000 0.000000"
 			"mins"			"-7950 -15950 -7950"
@@ -231,7 +231,7 @@
 			"damage"		"300"
 			"StartDisabled"	"1"
 			"spawnflags"	"64"
-			"DamageType"		"1"
+			"DamageType"		"262144"
 		}
 		
 	}
@@ -254,21 +254,21 @@
 		{
 			"className"		"trigger_hurt"
 			"parent"		"KillZone_1"
-			"name"			"killZone_hurt"
+			"name"			"KillZone_hurt_inner"
 			"position"        "0.000000 0.000000 -500.000000"
 			"angles"        "0.000000 0.000000 0.000000"
 			"mins"			"0 -16000 -16000"
 			"maxs"			"32000 16000 16000"
-			"damage"		"65"
+			"damage"		"20"
 			"StartDisabled"	"1"
 			"spawnflags"	"64"
-			"DamageType"		"16384"
+			"DamageType"		"262144"
 		}
 		"2"
 		{
 			"className"		"trigger_hurt"
 			"parent"		"KillZone_1"
-			"name"			"killZone_hurt"
+			"name"			"KillZone_hurt_outer"
 			"position"        "0.000000 0.000000 -500.000000"
 			"angles"        "0.000000 0.000000 0.000000"
 			"mins"			"50 -15950 -15950"
@@ -276,7 +276,7 @@
 			"damage"		"300"
 			"StartDisabled"	"1"
 			"spawnflags"	"64"
-			"DamageType"		"1"
+			"DamageType"		"262144"
 		}
 		
 	}
@@ -300,21 +300,21 @@
 		{
 			"className"		"trigger_hurt"
 			"parent"		"KillZone_1"
-			"name"			"killZone_hurt"
+			"name"			"KillZone_hurt_inner"
 			"position"        "0.000000 0.000000 -500.000000"
 			"angles"        "0.000000 0.000000 0.000000"
 			"mins"			"-32000 -16000 -16000"
 			"maxs"			"0 16000 16000"
-			"damage"		"65"
+			"damage"		"2"
 			"StartDisabled"	"1"
 			"spawnflags"	"64"
-			"DamageType"		"16384"
+			"DamageType"		"262144"
 		}
 		"2"
 		{
 			"className"		"trigger_hurt"
 			"parent"		"KillZone_1"
-			"name"			"killZone_hurt"
+			"name"			"KillZone_hurt_outer"
 			"position"        "0.000000 0.000000 -500.000000"
 			"angles"        "0.000000 0.000000 0.000000"
 			"mins"			"-31950 -15950 -15950"
@@ -322,7 +322,7 @@
 			"damage"		"300"
 			"StartDisabled"	"1"
 			"spawnflags"	"64"
-			"DamageType"		"1"
+			"DamageType"		"262144"
 		}
 		
 	}
@@ -347,21 +347,21 @@
 		{
 			"className"		"trigger_hurt"
 			"parent"		"KillZone_1"
-			"name"			"killZone_hurt"
+			"name"			"KillZone_hurt_inner"
 			"position"        "0.000000 0.000000 -500.000000"
 			"angles"        "0.000000 0.000000 0.000000"
 			"mins"			"-16000 0 -16000"
 			"maxs"			"16000 32000 16000"
-			"damage"		"65"
+			"damage"		"20"
 			"StartDisabled"	"1"
 			"spawnflags"	"64"
-			"DamageType"		"16384"
+			"DamageType"		"262144"
 		}
 		"2"
 		{
 			"className"		"trigger_hurt"
 			"parent"		"KillZone_1"
-			"name"			"killZone_hurt"
+			"name"			"KillZone_hurt_outer"
 			"position"        "0.000000 0.000000 -500.000000"
 			"angles"        "0.000000 0.000000 0.000000"
 			"mins"			"-15950 50 -15950"
@@ -369,7 +369,7 @@
 			"damage"		"300"
 			"StartDisabled"	"1"
 			"spawnflags"	"64"
-			"DamageType"		"1"
+			"DamageType"		"262144"
 		}
 		
 	}
@@ -392,21 +392,21 @@
 		{
 			"className"		"trigger_hurt"
 			"parent"		"KillZone_1"
-			"name"			"killZone_hurt"
+			"name"			"KillZone_hurt_inner"
 			"position"        "0.000000 0.000000 -500.000000"
 			"angles"        "0.000000 0.000000 0.000000"
 			"mins"			"-16000 -32000 -16000"
 			"maxs"			"16000 0 16000"
-			"damage"		"65"
+			"damage"		"20"
 			"StartDisabled"	"1"
 			"spawnflags"	"64"
-			"DamageType"		"16384"
+			"DamageType"		"262144"
 		}
 		"2"
 		{
 			"className"		"trigger_hurt"
 			"parent"		"KillZone_1"
-			"name"			"killZone_hurt"
+			"name"			"KillZone_hurt_outer"
 			"position"        "0.000000 0.000000 -500.000000"
 			"angles"        "0.000000 0.000000 0.000000"
 			"mins"			"-15950 -31950 -15950"
@@ -414,7 +414,7 @@
 			"damage"		"300"
 			"StartDisabled"	"1"
 			"spawnflags"	"64"
-			"DamageType"		"1"
+			"DamageType"		"262144"
 		}
 		
 	}

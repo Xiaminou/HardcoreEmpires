@@ -35,15 +35,15 @@
 		"88791"
 		{
 			"className"		"emp_imp_commander"
-			"position"		"10615.421875 -12077.400391 67.336197"
-			"angles"		"-1.375276 0.029653 -2.611450"
+			"position"		"10615.421875 -12077.398438 67.336014"
+			"angles"		"-1.375314 0.029847 -2.611511"
 			"coords"		"E2"
 		}
 		"11364"
 		{
 			"className"		"emp_nf_commander"
-			"position"		"-12030.961914 12703.810547 87.908142"
-			"angles"		"0.062670 -90.002953 -1.202972"
+			"position"		"-12030.952148 12703.810547 87.908058"
+			"angles"		"0.062518 -90.002953 -1.202942"
 			"coords"		"A6"
 		}
 		"11365"
@@ -414,7 +414,7 @@
 			"position"		"6954.189941 -2235.000000 51.899700"
 			"angles"		"-0.000000 90.000000 0.000000"
 			"Parent"		"#11771"
-			"coords"		"D4"
+			"coords"		"C4"
 			"model"		"models/props_wasteland/panel_leverhandle001a.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
@@ -469,7 +469,7 @@
 			"position"		"4825.000000 2170.000000 51.000000"
 			"angles"		"-0.000000 -90.000000 0.000000"
 			"Parent"		"#57798"
-			"coords"		"D4"
+			"coords"		"C4"
 			"model"		"models/props_wasteland/panel_leverhandle001a.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
@@ -507,6 +507,6 @@
 			"turretRestrict"		"0"
 		}
 	}
-	"version"		"1.450000"
+	"version"		"1.640000"
 	"hLimit"		"164656"
 }

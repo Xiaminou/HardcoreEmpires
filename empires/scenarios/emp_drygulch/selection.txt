@@ -6,12 +6,12 @@
 	{
 		"Default"
 		{
-			"Method"		"Random"
+			"Method"		"Vote"
 			"VoteTitle"		"Scenario"
 			"Description"	"Default Gameplay"
 			"Options"
 			{
-				"override"
+				"Alpha"
 				{
 					"min_players"		"0"
 					"max_players"		"65"
@@ -23,29 +23,10 @@
 				}
 			}
 		}
-		"Bleeder"
-		{
-			"Method"		"Random"
-			"VoteTitle"		"Scenario"
-			"Description"	"Capture Points drain reinforcements"
-			"Options"
-			{
-				"Bleeder"
-				{
-					"min_players"		"0"
-					"max_players"		"65"
-				}
-				"Bravo (Bleeder)"
-				{
-					"min_players"		"0"
-					"max_players"		"65"
-				}
-			}
-		}
 		"KOTH"
 		{
-			"Method"	"Random"
-			"VoteTitle"	"Scenario"
+			"Method"		"Vote"
+			"VoteTitle"		"Scenario"
 			"Description"	"King of the Hill"
 			"Options"
 			{
@@ -55,6 +36,25 @@
 					"max_players"		"65"
 				}
 				"KOTH-Bravo"
+				{
+					"min_players"		"0"
+					"max_players"		"65"
+				}
+			}
+		}
+		"Bleeder"
+		{
+			"Method"		"Vote"
+			"VoteTitle"		"Scenario"
+			"Description"	"Capture Points drain reinforcements"
+			"Options"
+			{
+				"Bleeder-Alpha"
+				{
+					"min_players"		"0"
+					"max_players"		"65"
+				}
+				"Bleeder-Bravo"
 				{
 					"min_players"		"0"
 					"max_players"		"65"

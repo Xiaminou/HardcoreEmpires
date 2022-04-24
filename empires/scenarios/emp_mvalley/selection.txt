@@ -1,21 +1,86 @@
-"VoteList"
+"ScenarioSelection"
 {
-	"scenarios"
+	"Method"	"Vote"
+	"VoteTitle"	"Game Mode"
+	"Options"
 	{
-		"Alpha"
+		"Default"
 		{
-			"min_players"		"0"
-			"max_players"		"30"
+			"Method"		"Vote"
+			"VoteTitle"		"Scenario"
+			"Description"	"Default Gameplay"
+			"Options"
+			{
+				"Alpha"
+				{
+					"min_players"		"0"
+					"max_players"		"29"
+				}
+				"Bravo"
+				{
+					"min_players"		"0"
+					"max_players"		"65"
+				}
+				"Charlie"
+				{
+					"min_players"		"30"
+					"max_players"		"65"
+				}
+				"Delta"
+				{
+					"min_players"		"0"
+					"max_players"		"29"
+				}
+				"Echo"
+				{
+					"min_players"		"30"
+					"max_players"		"65"
+				}
+				"Foxtrot"
+				{
+					"min_players"		"30"
+					"max_players"		"65"
+				}
+			}
 		}
-		"Charlie"
+		"KOTH"
 		{
-			"min_players"		"32"
-			"max_players"		"64"
-		}
-		"Echo"
-		{
-			"min_players"		"32"
-			"max_players"		"50"
+			"Method"		"Vote"
+			"VoteTitle"		"Scenario"
+			"Description"	"King of the Hill"
+			"Options"
+			{
+				"KOTH-Alpha"
+				{
+					"min_players"		"0"
+					"max_players"		"65"
+				}
+				"KOTH-Bravo"
+				{
+					"min_players"		"0"
+					"max_players"		"29"
+				}
+				"KOTH-Charlie"
+				{
+					"min_players"		"30"
+					"max_players"		"65"
+				}
+				"KOTH-Delta"
+				{
+					"min_players"		"0"
+					"max_players"		"29"
+				}
+				"KOTH-Echo"
+				{
+					"min_players"		"30"
+					"max_players"		"65"
+				}
+				"KOTH-Foxtrot"
+				{
+					"min_players"		"30"
+					"max_players"		"65"
+				}
+			}
 		}
 	}
 	"enabled"		"1"

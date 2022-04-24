@@ -100,35 +100,68 @@
 	"rockcliff1"
 	{
 		"model" "models/canyonrocks/rockcliff_cluster01b.mdl"
+		"disableShadows"	"1"
 	}
 	"rockcliff2"
 	{
 		"model" "models/canyonrocks/rockcliff_cluster02a.mdl"
+		"disableShadows"	"1"
 	}
 	"rockcliff3"
 	{
 		"model" "models/canyonrocks/rockcliff_cluster02b.mdl"
+		"disableShadows"	"1"
 	}
 	"rockcliff4"
 	{
 		"model" "models/canyonrocks/rockcliff_cluster02c.mdl"
+		"disableShadows"	"1"
 	}
 	"rockcliff5"
 	{
 		"model" "models/canyonrocks/rockcliff_cluster03a.mdl"
+		"disableShadows"	"1"
 	}
 	"rockcliff6"
 	{
 		"model" "models/canyonrocks/rockcliff_cluster03b.mdl"
+		"disableShadows"	"1"
 	}
 	"rockcliff7"
 	{
 		"model" "models/canyonrocks/rockcliff_cluster03c.mdl"
+		"disableShadows"	"1"
+	}
+	"wastelandrockcliff1"
+	{
+		"model" "models/props_wasteland/rockcliff_cluster02a.mdl"
+		"disableShadows"	"1"
+	}
+	"wastelandrockcliff2"
+	{
+		"model" "models/props_wasteland/rockcliff_cluster02b.mdl"
+		"disableShadows"	"1"
+	}
+	"wastelandrockcliff3"
+	{
+		"model" "models/props_wasteland/rockcliff_cluster02c.mdl"
+		"disableShadows"	"1"
+	}
+	"wastelandrockcliff4"
+	{
+		"model" "models/props_wasteland/rockcliff_cluster03a.mdl"
+		"disableShadows"	"1"
+	}
+	"wastelandrockcliff5"
+	{
+		"model" "models/props_wasteland/rockcliff_cluster03b.mdl"
+		"disableShadows"	"1"
 	}
 	"treecluster1"
 	{
 		"model" "models/common/props_foliage/trees/orexcluster2a.mdl"
 		"offset" "0 0 -10"
+		"disableShadows"	"1"
 	}
 	"treecluster2"
 	{
@@ -256,10 +289,6 @@
 	"barricade3"
 	{
 		"model" "models/props_debris/barricade_tall01a.mdl"
-	}
-	"barricade4"
-	{
-		"model" "models/props_debris/barricade_tall01c.mdl"
 	}
 	"metalpanel1"
 	{

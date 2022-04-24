@@ -63,15 +63,15 @@
 		"1942"
 		{
 			"className"		"emp_imp_commander"
-			"position"		"-6655.928711 -8614.429688 295.825653"
-			"angles"		"0.179262 -0.000998 3.762900"
+			"position"		"-6655.883789 -8614.173828 295.852142"
+			"angles"		"0.175582 -0.015434 3.770451"
 			"coords"		"B2"
 		}
 		"1940"
 		{
 			"className"		"emp_nf_commander"
-			"position"		"6655.983887 -8579.376953 368.040710"
-			"angles"		"-0.018326 -0.017019 -0.493713"
+			"position"		"6655.983887 -8579.452148 368.040680"
+			"angles"		"-0.018350 -0.017020 -0.493713"
 			"coords"		"D2"
 		}
 		"2136"
@@ -224,7 +224,7 @@
 			"className"		"emp_resource_point_prop"
 			"position"		"-1680.000000 -2741.350098 1359.579956"
 			"angles"		"90.000000 14.000000 0.000000"
-			"coords"		"C3"
+			"coords"		"B3"
 			"name"		"resnode 4"
 			"enabled"		"1"
 			"model"		"models/common/props_general/resnode.mdl"
@@ -532,6 +532,6 @@
 			"turretRestrict"		"0"
 		}
 	}
-	"version"		"1.450000"
+	"version"		"1.650000"
 	"hLimit"		"32179"
 }

@@ -8,14 +8,6 @@
 	"BE_Res"		"500.000000"
 	"NF_Tickets"		"141.220001"
 	"BE_Tickets"		"141.220001"
-	"NF_Research"
-	{
-		"0"		"1"
-	}
-	"BE_Research"
-	{
-		"0"		"1"
-	}
 	"Entities"
 	{
 		"273029"
@@ -43,15 +35,15 @@
 		"283393"
 		{
 			"className"		"emp_imp_commander"
-			"position"		"1072.019775 -4114.832031 -3131.016602"
-			"angles"		"2.490774 -95.085999 1.531119"
+			"position"		"1072.018799 -4114.821777 -3131.014893"
+			"angles"		"2.488752 -95.084305 1.531767"
 			"coords"		"C2"
 		}
 		"283397"
 		{
 			"className"		"emp_nf_commander"
-			"position"		"500.261475 4073.325928 -3057.533936"
-			"angles"		"-0.629814 -90.591774 -0.056702"
+			"position"		"500.259430 4073.325928 -3057.534180"
+			"angles"		"-0.630037 -90.591675 -0.056915"
 			"coords"		"C4"
 		}
 		"511595"
@@ -59,7 +51,7 @@
 			"className"		"emp_building_nf_refinery"
 			"position"		"-1718.000000 4384.000000 -3113.310059"
 			"angles"		"0.000000 89.000000 0.000000"
-			"coords"		"C4"
+			"coords"		"B4"
 			"target"		"res5"
 			"built"		"1"
 			"maxHealth"		"150"
@@ -146,6 +138,6 @@
 			"turretRestrict"		"0"
 		}
 	}
-	"version"		"1.440000"
+	"version"		"1.650000"
 	"hLimit"		"553173"
 }

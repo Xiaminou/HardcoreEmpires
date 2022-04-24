@@ -3,19 +3,11 @@
 	"Description"		" "
 	"details"		" "
 	"Tags"		" "
-	"Author"		"Harmony Empires - Main Server"
+	"Author"		"Harmony Empires - Draft in prog"
 	"NF_Res"		"500.000000"
 	"BE_Res"		"500.000000"
 	"NF_Tickets"		"351.399994"
 	"BE_Tickets"		"351.399994"
-	"NF_Research"
-	{
-		"0"		"1"
-	}
-	"BE_Research"
-	{
-		"0"		"1"
-	}
 	"Entities"
 	{
 		"9264"
@@ -65,15 +57,15 @@
 		"25327"
 		{
 			"className"		"emp_imp_commander"
-			"position"		"6704.008301 -7208.034180 -71.627892"
-			"angles"		"0.287296 -28.999599 1.246603"
+			"position"		"6704.147461 -7207.779297 -71.630142"
+			"angles"		"0.287491 -28.998899 1.245304"
 			"coords"		"D2"
 		}
 		"25329"
 		{
 			"className"		"emp_nf_commander"
-			"position"		"-7391.632324 5823.928711 2.322692"
-			"angles"		"-0.000004 79.000000 -0.586517"
+			"position"		"-7391.994629 5823.999023 2.327249"
+			"angles"		"-0.000005 79.000000 -0.586090"
 			"coords"		"B4"
 		}
 		"121763"
@@ -282,6 +274,6 @@
 			"turretRestrict"		"0"
 		}
 	}
-	"version"		"1.420000"
+	"version"		"1.650000"
 	"hLimit"		"124771"
 }

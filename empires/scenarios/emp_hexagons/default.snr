@@ -1,0 +1,276 @@
+"Scenario"
+{
+	"Description"		" "
+	"details"		" "
+	"Tags"		" "
+	"Author"		"Harmony Empires - Main Server"
+	"NF_Res"		"500.000000"
+	"BE_Res"		"500.000000"
+	"NF_Tickets"		"176.000000"
+	"BE_Tickets"		"176.000000"
+	"Entities"
+	{
+		"39671"
+		{
+			"className"		"emp_building_nf_barracks"
+			"position"		"0.000549 -13760.000000 0.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"C1"
+			"built"		"1"
+			"maxHealth"		"250"
+			"health"		"250"
+			"team"		"2"
+		}
+		"21146"
+		{
+			"className"		"emp_building_imp_barracks"
+			"position"		"0.000000 13760.000000 0.000000"
+			"angles"		"0.000000 180.000000 0.000000"
+			"coords"		"C5"
+			"built"		"1"
+			"maxHealth"		"250"
+			"health"		"250"
+			"team"		"3"
+		}
+		"21163"
+		{
+			"className"		"emp_imp_commander"
+			"position"		"127.901306 13119.980469 4.375755"
+			"angles"		"0.287481 -89.997307 1.248342"
+			"coords"		"C5"
+			"name"		"be_comm"
+		}
+		"39673"
+		{
+			"className"		"emp_nf_commander"
+			"position"		"-176.079010 -13131.993164 78.335106"
+			"angles"		"-0.004604 83.150932 -0.577179"
+			"coords"		"C1"
+			"name"		"nf_comm"
+		}
+		"22021"
+		{
+			"className"		"emp_resource_point"
+			"position"		"8000.000000 5760.000000 64.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"D4"
+			"effects"		"80"
+			"enabled"		"1"
+			"resPerSecond"		"2.000000"
+		}
+		"22083"
+		{
+			"className"		"emp_resource_point"
+			"position"		"3200.000000 13760.000000 64.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"C5"
+			"effects"		"80"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+		}
+		"22090"
+		{
+			"className"		"emp_resource_point"
+			"position"		"-3200.000000 13760.000000 64.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"B5"
+			"effects"		"80"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+		}
+		"22116"
+		{
+			"className"		"emp_resource_point"
+			"position"		"-8320.000000 960.000000 64.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"B3"
+			"effects"		"80"
+			"enabled"		"1"
+			"resPerSecond"		"2.000000"
+		}
+		"22129"
+		{
+			"className"		"emp_resource_point"
+			"position"		"-960.000000 0.000000 64.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"C3"
+			"effects"		"80"
+			"enabled"		"1"
+			"resPerSecond"		"2.000000"
+		}
+		"22136"
+		{
+			"className"		"emp_resource_point"
+			"position"		"960.000000 0.000000 64.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"C3"
+			"effects"		"80"
+			"enabled"		"1"
+			"resPerSecond"		"2.000000"
+		}
+		"39276"
+		{
+			"className"		"emp_resource_point"
+			"position"		"-8000.000000 -5760.000000 64.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"B2"
+			"effects"		"80"
+			"enabled"		"1"
+			"resPerSecond"		"2.000000"
+		}
+		"39283"
+		{
+			"className"		"emp_resource_point"
+			"position"		"-3200.000000 -13760.000000 64.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"B1"
+			"effects"		"80"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+		}
+		"39290"
+		{
+			"className"		"emp_resource_point"
+			"position"		"3200.000000 -13760.000000 64.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"C1"
+			"effects"		"80"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+		}
+		"39297"
+		{
+			"className"		"emp_resource_point"
+			"position"		"8320.000000 -960.000000 64.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"D3"
+			"effects"		"80"
+			"enabled"		"1"
+			"resPerSecond"		"2.000000"
+		}
+		"22013"
+		{
+			"className"		"emp_resource_point"
+			"position"		"8000.000000 5760.000000 64.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"D4"
+			"effects"		"80"
+			"enabled"		"1"
+			"resPerSecond"		"2.000000"
+		}
+		"39763"
+		{
+			"className"		"emp_resource_point"
+			"position"		"-8000.000000 -5760.000000 64.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"B2"
+			"effects"		"80"
+			"enabled"		"1"
+			"resPerSecond"		"2.000000"
+		}
+		"22023"
+		{
+			"className"		"emp_resource_point_prop"
+			"position"		"8000.000000 5760.000000 0.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"D4"
+			"enabled"		"1"
+			"model"		"models/hrabbit/misc/imp_dragonteath.mdl"
+		}
+		"22085"
+		{
+			"className"		"emp_resource_point_prop"
+			"position"		"3200.000000 13760.000000 0.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"C5"
+			"enabled"		"1"
+			"model"		"models/hrabbit/misc/imp_dragonteath.mdl"
+		}
+		"22092"
+		{
+			"className"		"emp_resource_point_prop"
+			"position"		"-3200.000000 13760.000000 0.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"B5"
+			"enabled"		"1"
+			"model"		"models/hrabbit/misc/imp_dragonteath.mdl"
+		}
+		"22118"
+		{
+			"className"		"emp_resource_point_prop"
+			"position"		"-8320.000000 960.000000 0.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"B3"
+			"enabled"		"1"
+			"model"		"models/hrabbit/misc/imp_dragonteath.mdl"
+		}
+		"22131"
+		{
+			"className"		"emp_resource_point_prop"
+			"position"		"-960.000000 0.000000 0.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"C3"
+			"enabled"		"1"
+			"model"		"models/hrabbit/misc/imp_dragonteath.mdl"
+		}
+		"22138"
+		{
+			"className"		"emp_resource_point_prop"
+			"position"		"960.000000 0.000000 0.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"C3"
+			"enabled"		"1"
+			"model"		"models/hrabbit/misc/imp_dragonteath.mdl"
+		}
+		"39278"
+		{
+			"className"		"emp_resource_point_prop"
+			"position"		"-8000.000000 -5760.000000 0.000000"
+			"angles"		"0.000000 180.000000 0.000000"
+			"coords"		"B2"
+			"enabled"		"1"
+			"model"		"models/hrabbit/misc/imp_dragonteath.mdl"
+		}
+		"39285"
+		{
+			"className"		"emp_resource_point_prop"
+			"position"		"-3200.000000 -13760.000000 0.000000"
+			"angles"		"0.000000 180.000000 0.000000"
+			"coords"		"B1"
+			"enabled"		"1"
+			"model"		"models/hrabbit/misc/imp_dragonteath.mdl"
+		}
+		"39292"
+		{
+			"className"		"emp_resource_point_prop"
+			"position"		"3200.000000 -13760.000000 0.000000"
+			"angles"		"0.000000 180.000000 0.000000"
+			"coords"		"C1"
+			"enabled"		"1"
+			"model"		"models/hrabbit/misc/imp_dragonteath.mdl"
+		}
+		"39299"
+		{
+			"className"		"emp_resource_point_prop"
+			"position"		"8320.000000 -960.000000 0.000000"
+			"angles"		"0.000000 180.000000 0.000000"
+			"coords"		"D3"
+			"enabled"		"1"
+			"model"		"models/hrabbit/misc/imp_dragonteath.mdl"
+		}
+		"22163"
+		{
+			"className"		"emp_info_params"
+			"position"		"0.000000 -64.000000 233.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"C3"
+			"Skin"		"3"
+			"autoResearch"		"0"
+			"eng_restrict_NF"		"0"
+			"eng_restrict_Imp"		"0"
+			"turretRestrict"		"0"
+		}
+	}
+	"version"		"1.480000"
+	"hLimit"		"122787"
+}

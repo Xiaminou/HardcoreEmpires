@@ -8,14 +8,6 @@
 	"BE_Res"		"500.000000"
 	"NF_Tickets"		"211.100006"
 	"BE_Tickets"		"211.100006"
-	"NF_Research"
-	{
-		"0"		"1"
-	}
-	"BE_Research"
-	{
-		"0"		"1"
-	}
 	"Entities"
 	{
 		"598350"
@@ -43,15 +35,15 @@
 		"681670"
 		{
 			"className"		"emp_imp_commander"
-			"position"		"4256.160156 444.698517 -3787.656250"
-			"angles"		"0.300089 -0.048757 1.229348"
+			"position"		"4256.087891 444.896484 -3787.649902"
+			"angles"		"0.292986 -0.025077 1.243263"
 			"coords"		"D4"
 		}
 		"598348"
 		{
 			"className"		"emp_nf_commander"
-			"position"		"-3900.000000 -7.182611 -3713.771484"
-			"angles"		"-0.000009 0.000001 -0.602722"
+			"position"		"-3900.000000 -7.125703 -3713.711426"
+			"angles"		"0.000015 0.000001 -0.591797"
 			"coords"		"B4"
 		}
 		"682221"
@@ -369,7 +361,7 @@
 			"className"		"prop_dynamic"
 			"position"		"-9280.000000 -2496.000000 -3788.000000"
 			"angles"		"0.000000 114.000000 0.000000"
-			"coords"		"A3"
+			"coords"		"A4"
 			"model"		"models/common/props_foliage/trees/orexcluster2a.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
@@ -1227,6 +1219,6 @@
 			"turretRestrict"		"3"
 		}
 	}
-	"version"		"1.370000"
+	"version"		"1.490000"
 	"hLimit"		"684101"
 }

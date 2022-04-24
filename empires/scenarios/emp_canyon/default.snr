@@ -35,16 +35,16 @@
 		"890"
 		{
 			"className"		"emp_imp_commander"
-			"position"		"12240.161133 -6729.559570 32.347221"
-			"angles"		"0.012989 -0.022180 1.289458"
+			"position"		"12240.164063 -6729.556641 32.341183"
+			"angles"		"0.012956 -0.024041 1.287125"
 			"coords"		"E2"
 			"name"		"imp_com"
 		}
 		"891"
 		{
 			"className"		"emp_nf_commander"
-			"position"		"-7847.902344 12679.689453 105.395462"
-			"angles"		"-0.053586 179.997101 -0.718719"
+			"position"		"-7847.902344 12679.688477 105.395477"
+			"angles"		"-0.053566 179.997269 -0.718750"
 			"coords"		"A5"
 			"name"		"nf_com"
 		}
@@ -647,7 +647,7 @@
 			"className"		"prop_dynamic"
 			"position"		"11568.000000 -7968.000000 0.000000"
 			"angles"		"0.000000 64.500000 0.000000"
-			"coords"		"E1"
+			"coords"		"E2"
 			"model"		"models/common/props_foliage/trees/orexcluster2b.mdl"
 			"MoveType"		"7"
 			"SolidType"		"6"
@@ -1056,6 +1056,6 @@
 			"turretRestrict"		"0"
 		}
 	}
-	"version"		"1.450000"
-	"hLimit"		"127402"
+	"version"		"1.650000"
+	"hLimit"		"139986"
 }

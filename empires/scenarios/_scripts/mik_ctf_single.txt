@@ -1,0 +1,21 @@
+"CTFSingle"
+{
+	// work in progress
+
+	"$string_WaitingText" "Commander The Flag\Get the command vehicle to the flag to win"
+	"$string_Warning"	"Commander The Flag:TXTCLR_DF Get the command vehicle to the flag to win. TXTCLR_G!scenario"
+	
+	
+	"i_StartingTimer"	" TextTimer -1 *$string_WaitingText*"
+	
+	"i_HookFlag"	"TargetName CTF_Flag -> OnStartTouch On_Comm_Flag"
+	"On_Comm_Flag"	"Run CheckFlagNF CheckFlagBE"
+	"CheckFlagNF"	"FilterClassname emp_nf_commander -> Run NFWin"
+	"CheckFlagBE"	"FilterClassname emp_imp_commander -> Run BEWin"
+
+	"NFWin"			"TargetParams -> Run TeleportAboveFlag -> Input InputNFWin 0 "
+	"BEWin"			"TargetParams ->  Run TeleportAboveFlag -> Input InputImpWin 0 "
+	"TeleportAboveFlag"		"Teleport 0 0 300 CTF_Flag"
+	
+	"i_Warn"		"Every 240 -> ChatText *$string_Warning*"
+}

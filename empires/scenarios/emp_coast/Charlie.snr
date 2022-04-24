@@ -107,8 +107,8 @@
 			"playersRequiredImp"		"2"
 			"teamOwner"		"0"
 			"locationName"		"Bunker"
-			"resToGiveNF"		"4.000000"
-			"resToGiveImp"		"4.000000"
+			"resToGiveNF"		"2.000000"
+			"resToGiveImp"		"2.000000"
 			"reinfToTakeNF"		"0.000000"
 			"reinfToTakeImp"		"0.000000"
 			"canNFCap"		"1"
@@ -135,28 +135,6 @@
 			"pointNumber"		"0"
 			"disabled"		"1"
 			"model"		"models/Imperial/Props/imp_crateammo.mdl"
-		}
-		"1568"
-		{
-			"className"		"emp_nf_health_crate"
-			"position"		"631.078003 1988.920044 665.000000"
-			"angles"		"0.000000 315.000000 0.000000"
-			"coords"		"C3"
-			"name"		"Bunker_Nf_Crates"
-			"pointNumber"		"0"
-			"disabled"		"1"
-			"model"		"models/NF/Props/nf_cratehealth.mdl"
-		}
-		"1566"
-		{
-			"className"		"emp_imp_health_crate"
-			"position"		"637.078003 1982.920044 665.000000"
-			"angles"		"0.000000 315.000000 0.000000"
-			"coords"		"C3"
-			"name"		"Bunker_Imp_Crates"
-			"pointNumber"		"0"
-			"disabled"		"1"
-			"model"		"models/Imperial/Props/imp_cratehealth.mdl"
 		}
 		"1613"
 		{

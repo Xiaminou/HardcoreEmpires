@@ -1,71 +1,31 @@
 "Scenario"
 {
-	"Description"	" "
+	"Description"		" "
 	"details"		" "
-	"Tags"			" "
+	"Tags"		" "
 	"Author"		"Xiam"
-	"CanBaseSwap"	"yes"
+	"CanBaseSwap"		"yes"
+	"version"		"1.540000"
+	"hLimit"		"389"
+	"NF_Res"		"500.000000"
+	"BE_Res"		"500.000000"
+	"NF_Tickets"		"281.250000"
+	"BE_Tickets"		"281.250000"
 	"Entities"
 	{
-		"346"
-		{
-			"className"		"emp_building_nf_barracks"
-			"position"		"-5312.000000 -11328.000000 -1696.000000"
-			"angles"		"0.000000 32.500000 0.000000"
-			"coords"		"B1"
-			"built"		"1"
-			"maxHealth"		"250"
-			"health"		"250"
-			"team"		"2"
-		}
-		"348"
-		{
-			"className"		"emp_building_imp_barracks"
-			"position"		"12308.799805 10876.200195 -1533.750000"
-			"angles"		"0.000000 237.500000 0.000000"
-			"coords"		"F6"
-			"built"		"1"
-			"maxHealth"		"250"
-			"health"		"250"
-			"team"		"3"
-		}
 		"349"
 		{
 			"className"		"emp_imp_commander"
-			"position"		"11527.406250 11526.989258 -1518.574707"
-			"angles"		"0.417734 133.613403 2.719683"
-			"coords"		"F6"
+			"position"		"-5733.367676 -10433.547852 -1758.297485"
+			"angles"		"-0.116576 -62.353592 1.326454"
+			"coords"		"B1"
 		}
 		"347"
 		{
 			"className"		"emp_nf_commander"
-			"position"		"-5729.630859 -10432.263672 -1684.303711"
-			"angles"		"-0.381169 -62.504078 -0.625183"
-			"coords"		"B1"
-		}
-		"351"
-		{
-			"className"		"emp_building_nf_refinery"
-			"position"		"-3296.000000 -11888.000000 -1737.349976"
-			"angles"		"0.000000 0.000000 0.000000"
-			"coords"		"C1"
-			"built"		"1"
-			"maxHealth"		"150"
-			"health"		"150"
-			"team"		"2"
-			"target"		"nf_refinery"
-		}
-		"352"
-		{
-			"className"		"emp_building_imp_refinery"
-			"position"		"10496.000000 12032.000000 -1492.000000"
-			"angles"		"0.000000 0.000000 0.000000"
+			"position"		"11547.671875 11546.026367 -1446.006592"
+			"angles"		"0.419214 133.644196 0.984766"
 			"coords"		"F6"
-			"built"		"1"
-			"maxHealth"		"150"
-			"health"		"150"
-			"team"		"3"
-			"target"		"imp_refinery"
 		}
 		"293"
 		{
@@ -75,7 +35,7 @@
 			"coords"		"C1"
 			"name"		"nf_refinery"
 			"effects"		"80"
-			"enabled"		"0"
+			"enabled"		"1"
 			"resPerSecond"		"1.000000"
 		}
 		"296"
@@ -126,13 +86,13 @@
 			"coords"		"F6"
 			"name"		"imp_refinery"
 			"effects"		"80"
-			"enabled"		"0"
+			"enabled"		"1"
 			"resPerSecond"		"1.000000"
 		}
 		"311"
 		{
 			"className"		"emp_resource_point"
-			"position"		"1088.000000 -4352.000000 -1633.699951"
+			"position"		"1088.000000 -4352.000000 -1633.699829"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"D3"
 			"effects"		"80"
@@ -152,7 +112,7 @@
 		"317"
 		{
 			"className"		"emp_resource_point"
-			"position"		"-2176.000000 6912.000000 -1697.699951"
+			"position"		"-2176.000000 6912.000000 -1697.699829"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"C5"
 			"effects"		"80"
@@ -176,8 +136,7 @@
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"C1"
 			"name"		"resprop4"
-			"effects"		"32"
-			"enabled"		"0"
+			"enabled"		"1"
 			"model"		"models/props_wasteland/rockcliff01j.mdl"
 		}
 		"297"
@@ -203,7 +162,7 @@
 		"303"
 		{
 			"className"		"emp_resource_point_prop"
-			"position"		"3782.899902 10835.700195 -440.247009"
+			"position"		"3782.900146 10835.700195 -440.247009"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"D6"
 			"name"		"resprop3"
@@ -213,7 +172,7 @@
 		"306"
 		{
 			"className"		"emp_resource_point_prop"
-			"position"		"7814.899902 -10172.299805 -296.247009"
+			"position"		"7814.899414 -10172.299805 -296.247009"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"E1"
 			"name"		"resprop6"
@@ -227,14 +186,13 @@
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"F6"
 			"name"		"resprop5"
-			"effects"		"32"
-			"enabled"		"0"
+			"enabled"		"1"
 			"model"		"models/props_wasteland/rockcliff01j.mdl"
 		}
 		"312"
 		{
 			"className"		"emp_resource_point_prop"
-			"position"		"1094.900024 -4332.290039 -1561.699951"
+			"position"		"1094.900024 -4332.290039 -1561.699829"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"D3"
 			"name"		"resprop7"
@@ -244,7 +202,7 @@
 		"315"
 		{
 			"className"		"emp_resource_point_prop"
-			"position"		"-1001.099976 1267.709961 -1576.250000"
+			"position"		"-1001.099976 1267.709839 -1576.250000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"C4"
 			"name"		"resprop8"
@@ -254,7 +212,7 @@
 		"318"
 		{
 			"className"		"emp_resource_point_prop"
-			"position"		"-2169.100098 6931.709961 -1625.699951"
+			"position"		"-2169.100098 6931.709961 -1625.699829"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"C5"
 			"name"		"resprop9"
@@ -264,7 +222,7 @@
 		"340"
 		{
 			"className"		"emp_resource_point_prop"
-			"position"		"13318.900391 1171.709961 -1640.250000"
+			"position"		"13318.900391 1171.709839 -1640.250000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"F4"
 			"name"		"resprop8x"
@@ -282,7 +240,7 @@
 			"material"		"particle/SmokeStack.vmt"
 			"startSize"		"10.000000"
 			"endSize"		"70.000000"
-			"emit"		"0"
+			"emit"		"1"
 			"baseSpread"		"4.000000"
 			"twist"		"4.000000"
 			"jetLength"		"600.000000"
@@ -331,7 +289,7 @@
 		"304"
 		{
 			"className"		"env_smokestack"
-			"position"		"3774.899902 10819.700195 -360.247009"
+			"position"		"3774.900146 10819.700195 -360.247009"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"D6"
 			"name"		"ressmoke3"
@@ -350,7 +308,7 @@
 		"307"
 		{
 			"className"		"env_smokestack"
-			"position"		"7806.899902 -10188.299805 -216.246994"
+			"position"		"7806.899414 -10188.299805 -216.246979"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"E1"
 			"name"		"ressmoke6"
@@ -377,7 +335,7 @@
 			"material"		"particle/SmokeStack.vmt"
 			"startSize"		"10.000000"
 			"endSize"		"70.000000"
-			"emit"		"0"
+			"emit"		"1"
 			"baseSpread"		"4.000000"
 			"twist"		"4.000000"
 			"jetLength"		"600.000000"
@@ -388,7 +346,7 @@
 		"313"
 		{
 			"className"		"env_smokestack"
-			"position"		"1086.900024 -4348.290039 -1481.699951"
+			"position"		"1086.900024 -4348.290039 -1481.699829"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"D3"
 			"name"		"ressmoke7"
@@ -407,7 +365,7 @@
 		"316"
 		{
 			"className"		"env_smokestack"
-			"position"		"-1009.099976 1251.709961 -1496.250000"
+			"position"		"-1009.099976 1251.709839 -1496.250000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"C4"
 			"name"		"ressmoke8"
@@ -426,7 +384,7 @@
 		"319"
 		{
 			"className"		"env_smokestack"
-			"position"		"-2177.100098 6915.709961 -1545.699951"
+			"position"		"-2177.100098 6915.709961 -1545.699829"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"C5"
 			"name"		"ressmoke9"
@@ -445,7 +403,7 @@
 		"341"
 		{
 			"className"		"env_smokestack"
-			"position"		"13310.900391 1155.709961 -1560.250000"
+			"position"		"13310.900391 1155.709839 -1560.250000"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"F4"
 			"name"		"ressmoke8x"
@@ -464,7 +422,7 @@
 		"342"
 		{
 			"className"		"emp_info_params"
-			"position"		"-192.000000 192.000000 -956.658997"
+			"position"		"-192.000000 192.000000 -956.658936"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"C4"
 			"Skin"		"3"
@@ -473,7 +431,60 @@
 			"eng_restrict_Imp"		"0"
 			"turretRestrict"		"0"
 		}
+		"5000002"
+		{
+			"className"		"emp_building_nf_barracks"
+			"position"		"12308.799805 10876.200195 -1533.750000"
+			"angles"		"0.000000 237.500000 0.000000"
+			"coords"		"F6"
+			"built"		"1"
+			"maxHealth"		"250"
+			"health"		"250"
+			"team"		"2"
+		}
+		"5000003"
+		{
+			"className"		"emp_building_imp_barracks"
+			"position"		"-5312.000000 -11328.000000 -1696.000000"
+			"angles"		"0.000000 32.500000 0.000000"
+			"coords"		"B1"
+			"built"		"1"
+			"maxHealth"		"250"
+			"health"		"250"
+			"team"		"3"
+		}
+		"5000014"
+		{
+			"className"		"emp_building_nf_refinery"
+			"position"		"10496.000000 12032.000000 -1492.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"F6"
+			"target"		"imp_refinery"
+			"built"		"1"
+			"maxHealth"		"150"
+			"health"		"150"
+			"team"		"2"
+		}
+		"5000015"
+		{
+			"className"		"emp_building_imp_refinery"
+			"position"		"-3296.000000 -11888.000000 -1737.350220"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"C1"
+			"target"		"nf_refinery"
+			"built"		"1"
+			"maxHealth"		"150"
+			"health"		"150"
+			"team"		"3"
+		}
+		"5000001"
+		{
+			"className"		"emp_comm_restrict"
+			"position"		"3688.836914 13360.131836 0.031250"
+			"angles"		"0.000000 164.487305 0.000000"
+			"coords"		"D6"
+			"Mins"		"-850.000000 -1300.000000 0.000000"
+			"Maxs"		"850.000000 1300.000000 1600.000000"
+		}
 	}
-	"version"		"1.310000"
-	"hLimit"		"389"
 }

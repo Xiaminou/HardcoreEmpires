@@ -259,15 +259,15 @@
 		"321735"
 		{
 			"className"		"emp_imp_commander"
-			"position"		"12240.060547 11392.087891 3308.375732"
-			"angles"		"0.287541 135.002716 1.248329"
+			"position"		"12240.062500 11392.089844 3308.381104"
+			"angles"		"0.287582 135.002808 1.250462"
 			"coords"		"E5"
 		}
 		"321757"
 		{
 			"className"		"emp_nf_commander"
-			"position"		"-11630.987305 -12222.987305 3382.292969"
-			"angles"		"-0.000015 -45.000011 -0.591614"
+			"position"		"-11630.989258 -12222.989258 3382.291016"
+			"angles"		"-0.000018 -45.000011 -0.592255"
 			"coords"		"A1"
 		}
 		"321749"
@@ -901,7 +901,7 @@
 			"position"		"-8995.660156 -10969.400391 3368.229980"
 			"angles"		"0.000000 0.000000 0.000000"
 			"Parent"		"#321803"
-			"coords"		"B1"
+			"coords"		"C3"
 			"name"		"smoke1"
 			"color"		"255 255 255 100"
 			"material"		"particle/SmokeStack.vmt"
@@ -1285,7 +1285,7 @@
 			"className"		"prop_dynamic"
 			"position"		"4888.000000 9196.000000 3752.000000"
 			"angles"		"0.000000 0.000000 0.000000"
-			"coords"		"D4"
+			"coords"		"D5"
 			"effects"		"16"
 			"model"		"models/common/props_foliage/trees/orexcluster2b.mdl"
 			"MoveType"		"7"
@@ -1349,6 +1349,6 @@
 			"turretRestrict"		"0"
 		}
 	}
-	"version"		"1.450000"
+	"version"		"1.650000"
 	"hLimit"		"549313"
 }

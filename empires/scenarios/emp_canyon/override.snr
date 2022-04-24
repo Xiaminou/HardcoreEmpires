@@ -1,11 +1,12 @@
 "Scenario"
 {
-	"Description"		" "
+	"Description"		"[Type: Quality of Life] Start with an additionnal refinery"
 	"details"		" "
 	"Tags"		" "
 	"Author"		"Xiam"
 	"version"		"1.440000"
 	"hLimit"		"127402"
+	"CanBaseSwap"		"yes"
 	"EditingSet"
 	{
 		"prop_dynamic"		"No"
@@ -39,16 +40,16 @@
 		"890"
 		{
 			"className"		"emp_imp_commander"
-			"position"		"12240.186523 -6734.457031 32.340027"
-			"angles"		"0.002274 -0.026215 1.284972"
+			"position"		"12240.188477 -6734.666992 32.335659"
+			"angles"		"0.002260 -0.026494 1.285122"
 			"coords"		"E2"
 			"name"		"imp_com"
 		}
 		"891"
 		{
 			"className"		"emp_nf_commander"
-			"position"		"-7848.523438 12667.570313 96.457588"
-			"angles"		"0.021496 -179.998505 -0.752228"
+			"position"		"-7848.519043 12665.898438 96.445900"
+			"angles"		"0.018033 -179.998520 -0.754059"
 			"coords"		"A5"
 			"name"		"nf_com"
 		}

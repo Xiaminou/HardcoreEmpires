@@ -1,0 +1,8 @@
+"Exec_CreateBRArena"
+{
+	"i_1"	"SpawnPrefab killzone_large_east MapBoxX(1) MapBoxY(0.5) 0"
+	"i_2"	"SpawnPrefab killzone_large_west MapBoxX(0) MapBoxY(0.5) 0"
+	"i_3"	"SpawnPrefab killzone_large_north MapBoxX(0.5) MapBoxY(1) 0"
+	"i_4"	"SpawnPrefab killzone_large_south MapBoxX(0.5) MapBoxY(0) 0"
+	"i_5"	"SpawnPrefab killzone_target MapBoxX(0.5) MapBoxY(0.5) 0"
+}

@@ -20,7 +20,7 @@
 				"propType"		"data"
 				"defaultValue"	""
 			}
-			"funcs"
+			"scripts"
 			{
 				"type" 		"string"
 				"prop"	"m_iszResponseContext"
@@ -942,6 +942,7 @@
 	"prop_dynamic"
 	{
 		"extend" 	"prop_base"
+		"respawnOnMove"	"true"
 		"fields"
 		{
 			"StartDisabled"
@@ -1213,6 +1214,8 @@
 		"extend"	"map_entity"
 		"version"	"0.80"
 		"customOnly"	"1"
+		"handleOnly"	"1"
+		"handle_color"	"200 50 50"
 		"fields"
 		{
 			"active"
@@ -1278,6 +1281,17 @@
 		"customOnly"	"1"
 		"version"	"1.04"
 		"handleOnly"	"1"
+		// needs respawnonmove to prevent collision with vehicles. 
+		"respawnOnMove" "true"
+	}
+	// mine restrict doesent appear to work. collsiongroup issues probably. 
+	"emp_mine_restrict"
+	{
+		"extend"	"brush"
+		"customOnly"	"1"
+		"version"	"1.46"
+		"handleOnly"	"1"
+		"respawnOnMove" "true"
 	}
 	"emp_eng_restrict"
 	{
@@ -1285,6 +1299,7 @@
 		"version"	"1.04"
 		"customOnly"	"1"
 		"handleOnly"	"1"
+		"respawnOnMove" "true"
 		"fields"
 		{
 			"restrictNF"
@@ -1312,6 +1327,142 @@
 		}
 		
 	}
+	"emp_infantry_restrict"
+	{
+		"extend"	"brush"
+		"version"	"1.46"
+		"customOnly"	"1"
+		"handleOnly"	"1"
+		"respawnOnMove" "true"
+		"non-working-fields"
+		{
+			"allowScout"
+			{
+				"fgdName"	"allowScout"
+				"prop" 	"m_bAllowScout"
+				"type" 		"int"
+				"propType"	"data"
+			}
+			"allowRifleman"
+			{
+				"fgdName"	"allowRifleman"
+				"prop" 	"m_bAllowRifleman"
+				"type" 		"int"
+				"propType"	"data"
+			}
+			"allowGrenadier"
+			{
+				"fgdName"	"allowGrenadier"
+				"prop" 	"m_bAllowGrenadier"
+				"type" 		"int"
+				"propType"	"data"
+			}
+			"allowEngineer"
+			{
+				"fgdName"	"allowEngineer"
+				"prop" 	"m_bAllowEngineer"
+				"type" 		"int"
+				"propType"	"data"
+			}
+			"allowNF"
+			{
+				"fgdName"	"allowNF"
+				"prop" 	"m_bAllowNF"
+				"type" 		"int"
+				"propType"	"data"
+			}
+			"allowBE"
+			{
+				"fgdName"	"allowBE"
+				"prop" 	"m_bAllowBE"
+				"type" 		"int"
+				"propType"	"data"
+			}
+
+		}
+		
+	}
+	"emp_vehicle_spawn_brush"
+	{
+		"extend"	"brush"
+		"version"	"1.46"
+		"customOnly"	"1"
+		"handleOnly"	"1"
+		"respawnOnMove" "true"
+		"fields"
+		{
+			"Enabled"
+			{
+				"fgdName"	"Enabled"
+				"prop" 	"m_bEnabled"
+				"type" 		"int"
+				"propType"	"data"
+			}
+			"BEEnabled"
+			{
+				"fgdName"	"BEEnabled"
+				"prop" 	"m_bBEEnabled"
+				"type" 		"int"
+				"propType"	"data"
+			}
+			"NFEnabled"
+			{
+				"fgdName"	"NFEnabled"
+				"prop" 	"m_bNFEnabled"
+				"type" 		"int"
+				"propType"	"data"
+			}
+		}
+		
+	}
+	"emp_vehicle_repair_brush"
+	{
+		"extend"	"brush"
+		"version"	"1.46"
+		"customOnly"	"1"
+		"handleOnly"	"1"
+		"respawnOnMove" "true"
+		"fields"
+		{
+			"Enabled"
+			{
+				"fgdName"	"Enabled"
+				"prop" 	"m_bEnabled"
+				"type" 		"int"
+				"propType"	"data"
+			}
+			"BEEnabled"
+			{
+				"fgdName"	"BEEnabled"
+				"prop" 	"m_bBEEnabled"
+				"type" 		"int"
+				"propType"	"data"
+			}
+			"NFEnabled"
+			{
+				"fgdName"	"NFEnabled"
+				"prop" 	"m_bNFEnabled"
+				"type" 		"int"
+				"propType"	"data"
+			}
+			"AmountToRepair"
+			{
+				"fgdName"	"AmountToRepair"
+				"prop" 	"m_fAmountToRepair"
+				"type" 		"float"
+				"propType"	"data"
+			}
+			"AmmoToGive"
+			{
+				"fgdName"	"AmmoToGive"
+				"prop" 	"m_fAmmoToGive"
+				"type" 		"float"
+				"propType"	"data"
+			}
+		}
+		
+	}
+	
 	"info_target"
 	{
 		"extend"	"entity"
@@ -1321,38 +1472,6 @@
 		"handle_color"	"125 200 100"
 		
 	}
-	"func_water_analog"
-	{
-		"extend"	"brush"
-		"version"	"1.33"
-		"customOnly"	"1"
-		"handleOnly"	"1"
-		"fields"
-		{
-			"movedir"
-			{
-				"fgdName"	"movedir"
-				"prop" 	"m_vecMoveDir"
-				"type" 		"vector"
-				"propType"	"data"
-			}
-			"speed"
-			{
-				"fgdName"	"speed"
-				"prop" 	"m_flSpeed"
-				"type" 		"float"
-				"propType"	"data"
-			}
-			"movedistance"
-			{
-				"fgdName"	"movedistance"
-				"prop" 	"m_flMoveDistance"
-				"type" 		"float"
-				"propType"	"data"
-			}
-
-		}
-	}
 	
 	"trigger_brush"
 	{
@@ -1360,6 +1479,7 @@
 		"version"	"1.37"
 		"customOnly"	"1"
 		"handleOnly"	"1"
+		"respawnOnMove" "true"
 		"fields"
 		{
 			"CollisionGroup"

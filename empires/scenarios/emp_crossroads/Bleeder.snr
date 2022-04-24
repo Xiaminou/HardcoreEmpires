@@ -7,23 +7,16 @@
 	{
 		"emp_eng_restrict"		"Yes"
 		"prop_dynamic"		"No"
-		"emp_resource_point"		"No"
-		"emp_resource_point_prop"		"No"
+		"emp_resource_point"		"Yes"
+		"emp_resource_point_prop"		"Yes"
 		"emp_eng_map_model"		"No"
 	}
-	"version"		"1.440000"
+	"version"		"1.550000"
 	"NF_Res"		"500.000000"
 	"BE_Res"		"500.000000"
-	"NF_Tickets"		"141.199997"
-	"BE_Tickets"		"141.199997"
-	"NF_Research"
-	{
-		"0"		"1"
-	}
-	"BE_Research"
-	{
-		"0"		"1"
-	}
+	"NF_Tickets"		"141.000000"
+	"BE_Tickets"		"141.000000"
+	"hLimit"		"368152"
 	"Entities"
 	{
 		"2296"
@@ -51,21 +44,21 @@
 		"2246"
 		{
 			"className"		"emp_imp_commander"
-			"position"		"831.992004 13023.816406 -219.630188"
-			"angles"		"0.287455 -179.993240 1.245344"
+			"position"		"831.989380 13023.526367 -219.615479"
+			"angles"		"0.287534 -179.992554 1.251371"
 			"coords"		"B4"
 		}
 		"2297"
 		{
 			"className"		"emp_nf_commander"
-			"position"		"-607.999939 -12989.088867 -145.669556"
-			"angles"		"0.000004 0.000073 -0.584686"
+			"position"		"-607.999939 -12988.456055 -145.669693"
+			"angles"		"0.000000 0.000072 -0.584686"
 			"coords"		"A1"
 		}
 		"2224"
 		{
 			"className"		"emp_building_nf_refinery"
-			"position"		"1613.269897 -13034.099609 -223.718979"
+			"position"		"1613.270020 -13034.099609 -223.718979"
 			"angles"		"0.000000 90.000000 0.000000"
 			"coords"		"B1"
 			"target"		"res_1"
@@ -85,6 +78,176 @@
 			"maxHealth"		"150"
 			"health"		"150"
 			"team"		"3"
+		}
+		"2227"
+		{
+			"className"		"emp_resource_point"
+			"position"		"1607.910034 -13032.900391 -206.011002"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"B1"
+			"name"		"res_1"
+			"effects"		"80"
+			"enabled"		"0"
+			"resPerSecond"		"1.000000"
+		}
+		"2231"
+		{
+			"className"		"emp_resource_point"
+			"position"		"-1013.640015 13069.500000 -215.425995"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"A4"
+			"name"		"res_2"
+			"effects"		"80"
+			"enabled"		"0"
+			"resPerSecond"		"1.000000"
+		}
+		"2332"
+		{
+			"className"		"emp_resource_point"
+			"position"		"4084.540039 9984.019531 -207.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"B4"
+			"name"		"res_3"
+			"effects"		"80"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+		}
+		"2336"
+		{
+			"className"		"emp_resource_point"
+			"position"		"-4075.459961 -10674.799805 -198.292007"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"A1"
+			"name"		"res_6"
+			"effects"		"80"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+		}
+		"2338"
+		{
+			"className"		"emp_resource_point"
+			"position"		"1920.000000 -1280.000000 -208.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"B2"
+			"name"		"res_5"
+			"effects"		"80"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+		}
+		"2341"
+		{
+			"className"		"emp_resource_point"
+			"position"		"-1920.000000 1280.000000 -212.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"A3"
+			"name"		"res_4"
+			"effects"		"80"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+		}
+		"2356"
+		{
+			"className"		"emp_resource_point"
+			"position"		"-3051.459961 7445.160156 -211.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"A4"
+			"name"		"res_7"
+			"effects"		"80"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+		}
+		"2360"
+		{
+			"className"		"emp_resource_point"
+			"position"		"2628.159912 -7034.839844 -227.000000"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"B1"
+			"name"		"res_8"
+			"effects"		"80"
+			"enabled"		"1"
+			"resPerSecond"		"1.000000"
+		}
+		"2225"
+		{
+			"className"		"emp_resource_point_prop"
+			"position"		"1613.810059 -13016.900391 -239.011002"
+			"angles"		"0.000000 0.000000 0.000000"
+			"coords"		"B1"
+			"name"		"rock_1"
+			"effects"		"32"
+			"enabled"		"0"
+			"model"		"models/props_wasteland/rockcliff01f.mdl"
+		}
+		"2229"
+		{
+			"className"		"emp_resource_point_prop"
+			"position"		"-1017.640015 13073.500000 -216.425995"
+			"angles"		"0.000000 42.500000 0.000000"
+			"coords"		"A4"
+			"name"		"rock_2"
+			"effects"		"32"
+			"enabled"		"0"
+			"model"		"models/props_wasteland/rockcliff01f.mdl"
+		}
+		"2331"
+		{
+			"className"		"emp_resource_point_prop"
+			"position"		"4080.540039 9980.019531 -211.292007"
+			"angles"		"0.000000 42.500000 0.000000"
+			"coords"		"B4"
+			"name"		"rock_3"
+			"enabled"		"1"
+			"model"		"models/props_wasteland/rockcliff01f.mdl"
+		}
+		"2334"
+		{
+			"className"		"emp_resource_point_prop"
+			"position"		"-4079.459961 -10670.799805 -199.292007"
+			"angles"		"0.000000 42.500000 0.000000"
+			"coords"		"A1"
+			"name"		"rock_6"
+			"enabled"		"1"
+			"model"		"models/props_wasteland/rockcliff01f.mdl"
+		}
+		"2337"
+		{
+			"className"		"emp_resource_point_prop"
+			"position"		"1920.000000 -1280.000000 -228.000000"
+			"angles"		"0.000000 270.000000 0.000000"
+			"coords"		"B2"
+			"name"		"rock_5"
+			"enabled"		"1"
+			"model"		"models/common/props_system/res_tap_imp_star/res_tap_imp_star.mdl"
+		}
+		"2357"
+		{
+			"className"		"emp_resource_point_prop"
+			"position"		"-3055.459961 7441.160156 -215.292007"
+			"angles"		"0.000000 42.500000 0.000000"
+			"coords"		"A4"
+			"name"		"rock_7"
+			"enabled"		"1"
+			"model"		"models/props_wasteland/rockcliff01f.mdl"
+		}
+		"2359"
+		{
+			"className"		"emp_resource_point_prop"
+			"position"		"2624.159912 -7038.839844 -231.292007"
+			"angles"		"0.000000 42.500000 0.000000"
+			"coords"		"B1"
+			"name"		"rock_8"
+			"enabled"		"1"
+			"model"		"models/props_wasteland/rockcliff01f.mdl"
+		}
+		"197539"
+		{
+			"className"		"emp_resource_point_prop"
+			"position"		"-1920.000000 1280.000000 -228.000000"
+			"angles"		"0.000000 270.000000 0.000000"
+			"coords"		"A3"
+			"name"		"rock_4"
+			"enabled"		"1"
+			"model"		"models/common/props_system/res_tap_imp_star/res_tap_imp_star.mdl"
 		}
 		"362340"
 		{
@@ -115,7 +278,7 @@
 		"5000122"
 		{
 			"className"		"emp_cap_model"
-			"position"		"0.504142 -1640.843750 -433.907898"
+			"position"		"0.504142 -1640.843872 -433.907867"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"B2"
 			"pointNumber"		"30"
@@ -128,7 +291,7 @@
 		"5000124"
 		{
 			"className"		"emp_cap_model"
-			"position"		"-257.621002 -1276.732788 -81.134453"
+			"position"		"-257.621002 -1276.732788 -81.134445"
 			"angles"		"-0.000000 88.390503 0.000000"
 			"coords"		"A2"
 			"pointNumber"		"30"
@@ -141,7 +304,7 @@
 		"5000125"
 		{
 			"className"		"emp_cap_model"
-			"position"		"275.030457 -1276.456909 -82.521378"
+			"position"		"275.030457 -1276.456909 -82.521370"
 			"angles"		"-0.000000 88.390503 0.000000"
 			"coords"		"B2"
 			"pointNumber"		"30"
@@ -154,8 +317,8 @@
 		"5000126"
 		{
 			"className"		"emp_cap_model"
-			"position"		"678.370850 -1702.090942 -76.029762"
-			"angles"		"-0.000000 -4.729611 0.000000"
+			"position"		"678.370850 -1702.090820 -76.029762"
+			"angles"		"-0.000000 -4.729610 0.000000"
 			"coords"		"B2"
 			"pointNumber"		"30"
 			"visibleOnMap"		"0"
@@ -167,7 +330,7 @@
 		"5000127"
 		{
 			"className"		"emp_cap_model"
-			"position"		"-255.462265 1277.173706 -57.250195"
+			"position"		"-255.462250 1277.173706 -57.250195"
 			"angles"		"-0.000000 -90.769035 0.000000"
 			"coords"		"A3"
 			"pointNumber"		"31"
@@ -206,7 +369,7 @@
 		"5000130"
 		{
 			"className"		"emp_cap_model"
-			"position"		"674.934570 1700.809448 -64.135078"
+			"position"		"674.934631 1700.809448 -64.135071"
 			"angles"		"-0.000000 -1.235959 0.000000"
 			"coords"		"B3"
 			"pointNumber"		"31"
@@ -219,7 +382,7 @@
 		"5000131"
 		{
 			"className"		"emp_cap_model"
-			"position"		"-676.779236 -1698.990479 -81.609970"
+			"position"		"-676.779175 -1698.990479 -81.609970"
 			"angles"		"-0.000000 176.638184 0.000000"
 			"coords"		"A2"
 			"pointNumber"		"30"
@@ -254,7 +417,7 @@
 		"5000123"
 		{
 			"className"		"emp_cap_point"
-			"position"		"0.504142 -1640.843750 -239.968719"
+			"position"		"0.504142 -1640.843872 -239.968719"
 			"angles"		"0.000000 0.000000 0.000000"
 			"coords"		"B2"
 			"Mins"		"-202.825683 -200.249969 -128.249969"
@@ -274,5 +437,4 @@
 			"canImpCap"		"1"
 		}
 	}
-	"hLimit"		"368152"
 }

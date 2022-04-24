@@ -205,7 +205,7 @@
 			"className"		"emp_building_nf_wall"
 			"position"		"6240.000000 3712.000000 256.000000"
 			"angles"		"0.000000 0.000000 0.000000"
-			"coords"		"D3"
+			"coords"		"D4"
 			"built"		"1"
 			"maxHealth"		"100"
 			"health"		"100"
@@ -218,7 +218,7 @@
 			"className"		"emp_building_nf_wall"
 			"position"		"6176.000000 3712.000000 256.000000"
 			"angles"		"0.000000 0.000000 0.000000"
-			"coords"		"D3"
+			"coords"		"D4"
 			"built"		"1"
 			"maxHealth"		"100"
 			"health"		"100"
@@ -725,7 +725,7 @@
 			"className"		"emp_building_imp_wall"
 			"position"		"-6016.000000 3712.000000 249.000000"
 			"angles"		"0.000000 0.000000 0.000000"
-			"coords"		"B3"
+			"coords"		"B4"
 			"built"		"1"
 			"maxHealth"		"100"
 			"health"		"100"
@@ -738,7 +738,7 @@
 			"className"		"emp_building_imp_wall"
 			"position"		"-5984.000000 3712.000000 249.000000"
 			"angles"		"0.000000 0.000000 0.000000"
-			"coords"		"B3"
+			"coords"		"B4"
 			"built"		"1"
 			"maxHealth"		"100"
 			"health"		"100"
@@ -931,15 +931,15 @@
 		"144"
 		{
 			"className"		"emp_imp_commander"
-			"position"		"-9471.678711 -384.017334 260.348663"
-			"angles"		"0.286343 -89.998215 1.241376"
+			"position"		"-9471.687500 -384.017303 260.348602"
+			"angles"		"0.286331 -89.998238 1.241349"
 			"coords"		"A3"
 		}
 		"193"
 		{
 			"className"		"emp_nf_commander"
-			"position"		"9472.323242 383.999969 334.329010"
-			"angles"		"-0.000022 90.000008 -0.584167"
+			"position"		"9472.326172 384.000000 334.329071"
+			"angles"		"0.000010 90.000008 -0.584137"
 			"coords"		"E3"
 		}
 		"191"
@@ -1227,6 +1227,6 @@
 			"turretRestrict"		"0"
 		}
 	}
-	"version"		"1.450000"
+	"version"		"1.650000"
 	"hLimit"		"16839"
 }
